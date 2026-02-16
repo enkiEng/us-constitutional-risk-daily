@@ -241,6 +241,11 @@ def render_html(summary: dict[str, Any], history_rows: list[dict[str, str]]) -> 
       font-size: 0.95rem;
       font-weight: 600;
     }}
+    .risk-context {{
+      color: var(--muted);
+      font-size: 0.95rem;
+      max-width: 900px;
+    }}
     .band {{
       background: var(--accent-soft);
       color: var(--accent);
@@ -369,6 +374,10 @@ def render_html(summary: dict[str, Any], history_rows: list[dict[str, str]]) -> 
         <div class="band">{band_label}</div>
       </div>
       <div class="score-scale-note">Scale: 0 = no constitutional risk, 100 = constitution destroyed.</div>
+      <div class="risk-context">
+        This score estimates current constitutional-order stress from observable events across elections, courts, executive power, and opposition rights.
+        A score of 0 means no credible current events indicating breakdown risk beyond normal political noise, while 100 means effective constitutional failure where lawful transfer of power and checks-and-balances no longer function.
+      </div>
       <div>{band_desc}</div>
       <div class="status {status_class}">{status_text}</div>
       <div class="note">Updated: {generated_at}</div>
