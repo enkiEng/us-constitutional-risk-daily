@@ -72,7 +72,7 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-02-16T16:49:18.322954+00:00",
+  "generated_at": "2026-02-16T17:28:31.694664+00:00",
   "previous_score": null,
   "provisional": false,
   "score": 11,
@@ -102,14 +102,14 @@
           "title": "Trump Threatens Executive Order on Voter ID - Mahomet Daily"
         }
       ],
-      "hits": 5,
+      "hits": 6,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 5
+      "unique_publishers": 6
     },
     {
       "critical_hits": 0,
@@ -139,24 +139,24 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBGNU03QnYzVDdtNkU1QXNoSVJOandSQWhlR0RkbVJzY2F5VEtyTDhnN090NWVQeENIZXBUMmJmZGNFeWlWaE14VDNn?oc=5",
-          "published": "2026-02-15T00:00:00+00:00",
-          "publisher": "Daily Kos",
-          "title": "Daily Kos - Daily Kos"
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaHZieGpXS0pqSXoxY0RRWDVSVU1sTU9mSmRfUGczdFlLZWlocEdtd1I5RUdkZ0RGTHV0UERHeDQ1Yk43aUNiNDFrVGZ0ZS0zbWY5RHJrVlM1cmxNdXEwX0lPejJHcjQ4Mm8wSVIxX1pqOE51NTZoQ1IzMFJFSTZZVV9hOGtqcHpP?oc=5",
+          "published": "2026-02-16T03:45:42+00:00",
+          "publisher": "AOL.com",
+          "title": "The Supreme Court is about to weigh in on the Fed's independence in a case that goes beyond Jerome Powell - AOL.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSVR4d2tKTWI4dWhyZFNfc2JKQ1pzTjYyWDgzWWVITDZzYXV3bzNfNFNSUVdnV0VJbVJJdFNtbEEzSm5VTml2b0hOM0EzZmJaeGYxYVlkQjRCcHE3eWNTZWNOQUlzT2dNU2tXQ1JxZnB4bzRFY1BUZ3FidDZkMDhsY3VmRHpJZlFBNXhXUUJVQzZKc2lSaXBDQVo0RkNhSk9LVnppLWwwby1vWEV3bUdpZS1mRzZwc0xYTTA0cVJxcE1taG5tM0Fn?oc=5",
-          "published": "2026-02-16T05:10:24+00:00",
-          "publisher": "Prescott eNews",
-          "title": "Trump Repeals EPA Climate Finding, Puts Energy Policy Back in Congress\u2019 Hands - Inside Sources - Prescott eNews"
+          "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxPbUVMMHpZS2E2QnhPVzlXM0ZkWEhJdGpRdzAzV0pmVUlJR3MxTHdPd19zUzN3WDRLRU4wTWFUXzJHLU1SU3NmQ1l1SWNKNnFNemFjWFJ4eXlDVFhyX2xGR3c2aHZJNjVSblBhMjVEY3FVWDlLcDR6a2lzQzYyUzVmTUNqeUticC1EUDVGSy1HU0Q3cVk1OTZEMWpnc2taQm9lU1RCcHdfazdYZ3cwUUxqQ21zY2xBRGxrSDR5YUU1RGt0THJlQmllN0pjdEpxbWtlX0tzTk54dWl3bWtmRGxXSlUxS1BJVzNSc0tsdGZUWmZNMEpkbk5ZRnAzSzB2ZWRyQzBHcGZuWjBySXV5YmlJbGR1QnNJdWdKSUktWlQ0X0NBc2s1VGotQm5OZzczbnpmV0staVE4eTJFTGp4NVUzWTl6cHVRU1Vmc21oeTdnWkZBOEhSbmZPZzhSak1pczdWcWNMZklvSnlKVnVCT2dtSFlwdw?oc=5",
+          "published": "2026-02-15T06:23:34+00:00",
+          "publisher": "MSN",
+          "title": "Bessent says he has no opinion on Trump authority to fire Fed officials over policy disputes - MSN"
         }
       ],
       "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -208,6 +208,26 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSVR4d2tKTWI4dWhyZFNfc2JKQ1pzTjYyWDgzWWVITDZzYXV3bzNfNFNSUVdnV0VJbVJJdFNtbEEzSm5VTml2b0hOM0EzZmJaeGYxYVlkQjRCcHE3eWNTZWNOQUlzT2dNU2tXQ1JxZnB4bzRFY1BUZ3FidDZkMDhsY3VmRHpJZlFBNXhXUUJVQzZKc2lSaXBDQVo0RkNhSk9LVnppLWwwby1vWEV3bUdpZS1mRzZwc0xYTTA0cVJxcE1taG5tM0Fn?oc=5",
+          "published": "2026-02-16T05:10:24+00:00",
+          "publisher": "prescottenews.com",
+          "title": "Trump Repeals EPA Climate Finding, Puts Energy Policy Back in Congress\u2019 Hands - Inside Sources - prescottenews.com"
+        }
+      ],
+      "hits": 1,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ3ZzZ3VNcmdMWW0ycENrS3ljVy1CeUZzUXJNc0psOFB3U21lUWtyZ2xrNVNpRXBza00tMlFSSGp0T293TWFaU2dHTE43Y2FRSlloZnk2UmllXzZTblZkQXc3SW9BcHpUZ3VFYjQzTW1DRWY0M1ZlS2czQUNDRWJIS0pXajFXNVhKT2ZLTWpLd1NUV2VRSUQ2cW9rbw?oc=5",
           "published": "2026-02-16T07:48:40+00:00",
           "publisher": "Head Topics",
@@ -217,26 +237,6 @@
       "hits": 1,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaHZieGpXS0pqSXoxY0RRWDVSVU1sTU9mSmRfUGczdFlLZWlocEdtd1I5RUdkZ0RGTHV0UERHeDQ1Yk43aUNiNDFrVGZ0ZS0zbWY5RHJrVlM1cmxNdXEwX0lPejJHcjQ4Mm8wSVIxX1pqOE51NTZoQ1IzMFJFSTZZVV9hOGtqcHpP?oc=5",
-          "published": "2026-02-16T03:45:42+00:00",
-          "publisher": "AOL.com",
-          "title": "The Supreme Court is about to weigh in on the Fed's independence in a case that goes beyond Jerome Powell - AOL.com"
-        }
-      ],
-      "hits": 1,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
