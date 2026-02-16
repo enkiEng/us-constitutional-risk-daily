@@ -73,6 +73,13 @@ def fmt_number(value: Any, digits: int = 1) -> str:
     return f"{number:.{digits}f}"
 
 
+def score_color(score: int) -> str:
+    clamped = max(0, min(100, int(score)))
+    # 0 -> green (120), 50 -> yellow (60), 100 -> red (0)
+    hue = 120 - (clamped * 1.2)
+    return f"hsl({hue:.1f} 82% 38%)"
+
+
 def signal_row(result: dict[str, Any]) -> str:
     name = html.escape(str(result.get("name", "")))
     domain_id = html.escape(str(result.get("domain_id", "")))
@@ -141,6 +148,7 @@ def evidence_blocks(top_signals: list[dict[str, Any]]) -> str:
 
 def render_html(summary: dict[str, Any], history_rows: list[dict[str, str]]) -> str:
     score = int(summary.get("score", 0))
+    score_css_color = score_color(score)
     band = summary.get("band", {})
     band_label = html.escape(str(band.get("label", "")))
     band_desc = html.escape(str(band.get("description", "")))
@@ -225,6 +233,13 @@ def render_html(summary: dict[str, Any], history_rows: list[dict[str, str]]) -> 
     .score {{
       font-size: clamp(2rem, 4vw, 3rem);
       font-weight: 800;
+      color: {score_css_color};
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    }}
+    .score-scale-note {{
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-weight: 600;
     }}
     .band {{
       background: var(--accent-soft);
@@ -353,6 +368,7 @@ def render_html(summary: dict[str, Any], history_rows: list[dict[str, str]]) -> 
         <div class="score">{score} / 100</div>
         <div class="band">{band_label}</div>
       </div>
+      <div class="score-scale-note">Scale: 0 = no constitutional risk, 100 = constitution destroyed.</div>
       <div>{band_desc}</div>
       <div class="status {status_class}">{status_text}</div>
       <div class="note">Updated: {generated_at}</div>
