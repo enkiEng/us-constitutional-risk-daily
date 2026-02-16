@@ -1,6 +1,6 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-02-16 15:17:58 UTC
+- Generated: 2026-02-16 15:19:04 UTC
 - Score: **11 / 100** (Baseline Institutional Noise)
 - Previous day delta: **n/a**
 - Delta vs 7-day average: **+0.0**
