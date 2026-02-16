@@ -1,0 +1,463 @@
+{
+  "project_name": "Constitutional Risk Dashboard",
+  "timezone": "America/New_York",
+  "lookback_days": 2,
+  "request_timeout_seconds": 20,
+  "decay_per_day": 0.35,
+  "auto_max_severity": 3,
+  "min_unique_publishers_for_yellow": 2,
+  "min_unique_publishers_for_critical": 2,
+  "max_evidence_per_signal": 3,
+  "user_agent": "economy-political-constitutional-risk/1.0",
+  "risk_bands": [
+    {
+      "min": 0,
+      "max": 14,
+      "label": "Baseline Institutional Noise",
+      "description": "Normal democratic conflict and routine legal contestation."
+    },
+    {
+      "min": 15,
+      "max": 29,
+      "label": "Elevated Strain",
+      "description": "Repeated norm-breaking attempts, but institutional checks mostly holding."
+    },
+    {
+      "min": 30,
+      "max": 44,
+      "label": "Serious Constitutional Stress",
+      "description": "Sustained pressure campaigns on checks and balances."
+    },
+    {
+      "min": 45,
+      "max": 59,
+      "label": "Crisis Trajectory",
+      "description": "Institutions are under material stress with higher risk of structural change."
+    },
+    {
+      "min": 60,
+      "max": 74,
+      "label": "Acute Constitutional Crisis",
+      "description": "Multiple constitutional guardrails are weakening simultaneously."
+    },
+    {
+      "min": 75,
+      "max": 89,
+      "label": "Near-Failure",
+      "description": "Reversal is difficult without major institutional response."
+    },
+    {
+      "min": 90,
+      "max": 100,
+      "label": "Constitutional Failure / Overturn",
+      "description": "Core constitutional transfer, checks, or rights protections have effectively failed."
+    }
+  ],
+  "domains": [
+    {
+      "id": "elections_transfer",
+      "name": "Elections and Transfer of Power",
+      "weight": 22
+    },
+    {
+      "id": "opposition_pluralism",
+      "name": "Opposition Rights and Political Pluralism",
+      "weight": 14
+    },
+    {
+      "id": "judiciary_rule_of_law",
+      "name": "Judicial Independence and Rule of Law",
+      "weight": 15
+    },
+    {
+      "id": "executive_constraints",
+      "name": "Executive Constraints and Emergency Powers",
+      "weight": 13
+    },
+    {
+      "id": "civil_service_integrity",
+      "name": "Civil Service and Agency Independence",
+      "weight": 10
+    },
+    {
+      "id": "civil_liberties_information",
+      "name": "Civil Liberties and Information Environment",
+      "weight": 10
+    },
+    {
+      "id": "security_sector_neutrality",
+      "name": "Security Sector Neutrality",
+      "weight": 8
+    },
+    {
+      "id": "federalism_oversight",
+      "name": "Federalism and Legislative Oversight",
+      "weight": 8
+    }
+  ],
+  "signals": [
+    {
+      "id": "election_certification_interference",
+      "domain_id": "elections_transfer",
+      "name": "Election Certification Interference",
+      "description": "Attempts to block, delay, or override lawful election certification.",
+      "query": "\"election certification\" delay refusal override United States",
+      "yellow_threshold": 4,
+      "severe_terms": [
+        "refused to certify",
+        "certification blocked",
+        "certification override",
+        "board refused certification"
+      ],
+      "critical_terms": [
+        "results not certified",
+        "electoral votes rejected outside legal process",
+        "certification process suspended"
+      ]
+    },
+    {
+      "id": "election_administration_capture",
+      "domain_id": "elections_transfer",
+      "name": "Election Administration Capture",
+      "description": "Election administration moved from neutral process to partisan control.",
+      "query": "state legislature takeover election board removal election officials",
+      "yellow_threshold": 4,
+      "severe_terms": [
+        "state takeover of election administration",
+        "removed election officials",
+        "partisan control of election board"
+      ],
+      "critical_terms": [
+        "election administration placed under emergency control",
+        "independent election board dissolved"
+      ]
+    },
+    {
+      "id": "election_delay_or_cancellation",
+      "domain_id": "elections_transfer",
+      "name": "Election Delay or Cancellation",
+      "description": "Election timelines altered outside ordinary constitutional pathways.",
+      "query": "election delayed canceled postponed emergency powers united states",
+      "yellow_threshold": 2,
+      "severe_terms": [
+        "election postponed",
+        "election delayed by executive order",
+        "cancel election"
+      ],
+      "critical_terms": [
+        "election canceled",
+        "national election suspended"
+      ]
+    },
+    {
+      "id": "alternate_elector_scheme",
+      "domain_id": "elections_transfer",
+      "name": "Alternate Elector Scheme Activity",
+      "description": "Efforts to substitute unauthorized electoral slates for lawful outcomes.",
+      "query": "alternate electors fake electors certificates",
+      "yellow_threshold": 3,
+      "severe_terms": [
+        "alternate electors",
+        "fake elector certificates",
+        "competing slate of electors"
+      ],
+      "critical_terms": [
+        "electoral votes substituted",
+        "unauthorized electors accepted"
+      ]
+    },
+    {
+      "id": "politicized_prosecution_opposition",
+      "domain_id": "opposition_pluralism",
+      "name": "Politicized Prosecution of Opposition",
+      "description": "Criminal enforcement used to selectively target opposition actors.",
+      "query": "prosecution political opponent retaliation indictment lawmaker",
+      "yellow_threshold": 4,
+      "severe_terms": [
+        "politically motivated prosecution",
+        "retaliatory indictment",
+        "targeting opposition figures"
+      ],
+      "critical_terms": [
+        "mass arrests of opposition",
+        "opposition leaders jailed"
+      ]
+    },
+    {
+      "id": "opposition_ballot_exclusion",
+      "domain_id": "opposition_pluralism",
+      "name": "Opposition Ballot Exclusion",
+      "description": "Systematic removal of opposition candidates from meaningful participation.",
+      "query": "opposition candidate disqualified removed from ballot",
+      "yellow_threshold": 3,
+      "severe_terms": [
+        "removed from ballot",
+        "disqualification of opposition candidate"
+      ],
+      "critical_terms": [
+        "opposition party banned",
+        "systematic disqualification of opposition"
+      ]
+    },
+    {
+      "id": "retaliation_architecture",
+      "domain_id": "opposition_pluralism",
+      "name": "Retaliation Architecture",
+      "description": "Formal institutions created to target political opponents.",
+      "query": "retaliation task force political enemies list investigations",
+      "yellow_threshold": 3,
+      "severe_terms": [
+        "political enemies list",
+        "retaliation task force",
+        "prosecute political opponents policy"
+      ],
+      "critical_terms": [
+        "formal program targeting opposition",
+        "criminal penalties for opposition activity"
+      ]
+    },
+    {
+      "id": "judge_intimidation_campaign",
+      "domain_id": "judiciary_rule_of_law",
+      "name": "Judge Intimidation Campaign",
+      "description": "Sustained official pressure to punish judges for adverse rulings.",
+      "query": "impeach judges threats against judges retaliation court rulings",
+      "yellow_threshold": 4,
+      "severe_terms": [
+        "campaign to impeach judges for rulings",
+        "threats against judges",
+        "judge harassment by officials"
+      ],
+      "critical_terms": [
+        "judges removed for rulings",
+        "judiciary purged"
+      ]
+    },
+    {
+      "id": "court_order_noncompliance",
+      "domain_id": "judiciary_rule_of_law",
+      "name": "Court Order Noncompliance",
+      "description": "Executive or administrative refusal to comply with court orders.",
+      "query": "government ignored court order injunction defied",
+      "yellow_threshold": 2,
+      "severe_terms": [
+        "defied court order",
+        "ignored injunction",
+        "refused to comply with ruling"
+      ],
+      "critical_terms": [
+        "systematic noncompliance with court orders",
+        "courts stripped of enforcement authority"
+      ]
+    },
+    {
+      "id": "jurisdiction_stripping_targeted",
+      "domain_id": "judiciary_rule_of_law",
+      "name": "Targeted Jurisdiction Stripping",
+      "description": "Efforts to remove court review over specific constitutional disputes.",
+      "query": "jurisdiction stripping court review limit federal courts specific cases",
+      "yellow_threshold": 3,
+      "severe_terms": [
+        "limit judicial review in targeted cases",
+        "jurisdiction stripping bill"
+      ],
+      "critical_terms": [
+        "blanket removal of constitutional review",
+        "courts barred from election disputes"
+      ]
+    },
+    {
+      "id": "emergency_powers_expansion",
+      "domain_id": "executive_constraints",
+      "name": "Emergency Powers Expansion",
+      "description": "Emergency authorities used to bypass ordinary legislative process.",
+      "query": "national emergency powers expanded bypass congress",
+      "yellow_threshold": 3,
+      "severe_terms": [
+        "expanded emergency powers",
+        "emergency declaration used for domestic governance"
+      ],
+      "critical_terms": [
+        "indefinite emergency rule",
+        "suspension of constitutional checks"
+      ]
+    },
+    {
+      "id": "legislative_bypass_executive",
+      "domain_id": "executive_constraints",
+      "name": "Legislative Bypass by Executive",
+      "description": "Major governance actions shifted from statute to unilateral executive action.",
+      "query": "major policy by executive order without congress constitutional dispute",
+      "yellow_threshold": 5,
+      "severe_terms": [
+        "executive order bypassing congress",
+        "unilateral executive action despite legislative rejection"
+      ],
+      "critical_terms": [
+        "executive claims unchecked authority",
+        "legislature function suspended"
+      ]
+    },
+    {
+      "id": "martial_law_or_military_language",
+      "domain_id": "executive_constraints",
+      "name": "Martial Law or Military Governance Language",
+      "description": "Rhetoric or policy toward military management of political disputes.",
+      "query": "martial law election dispute court ruling compliance",
+      "yellow_threshold": 2,
+      "severe_terms": [
+        "martial law discussion tied to elections",
+        "military intervention rhetoric"
+      ],
+      "critical_terms": [
+        "martial law declared",
+        "military directed to resolve election outcome"
+      ]
+    },
+    {
+      "id": "civil_service_purge_schedule_f",
+      "domain_id": "civil_service_integrity",
+      "name": "Civil Service Purge / Schedule F",
+      "description": "Politicization of career bureaucracy through at-will reclassification.",
+      "query": "schedule f civil service protections removed politicization federal workforce",
+      "yellow_threshold": 3,
+      "severe_terms": [
+        "reclassify civil servants as at will",
+        "large scale civil service removals"
+      ],
+      "critical_terms": [
+        "mass purge of career civil service",
+        "loyalty based staffing mandate"
+      ]
+    },
+    {
+      "id": "independent_agency_capture",
+      "domain_id": "civil_service_integrity",
+      "name": "Independent Agency Capture",
+      "description": "Weakening legal safeguards that preserve independent regulatory decision-making.",
+      "query": "for cause removal independent agency head federal reserve agency independence",
+      "yellow_threshold": 3,
+      "severe_terms": [
+        "attempt to remove independent agency officials",
+        "challenge to for-cause removal protections"
+      ],
+      "critical_terms": [
+        "at-will removal precedent for independent agencies",
+        "federal reserve under direct executive control"
+      ]
+    },
+    {
+      "id": "inspector_general_retaliation",
+      "domain_id": "civil_service_integrity",
+      "name": "Inspector General Retaliation",
+      "description": "Retaliatory action against watchdog functions and anti-corruption monitoring.",
+      "query": "inspector general fired retaliation oversight watchdog",
+      "yellow_threshold": 3,
+      "severe_terms": [
+        "inspector general fired after investigation",
+        "watchdog retaliation"
+      ],
+      "critical_terms": [
+        "systematic removal of oversight officials",
+        "inspector general offices neutralized"
+      ]
+    },
+    {
+      "id": "press_restrictions",
+      "domain_id": "civil_liberties_information",
+      "name": "Press Restrictions or Retaliation",
+      "description": "State action that raises costs or legal risk for independent reporting.",
+      "query": "journalist arrests press restrictions government retaliation media",
+      "yellow_threshold": 4,
+      "severe_terms": [
+        "journalists detained",
+        "press credential retaliation",
+        "government pressure on newsrooms"
+      ],
+      "critical_terms": [
+        "broad censorship order",
+        "criminal penalties for routine reporting"
+      ]
+    },
+    {
+      "id": "political_speech_surveillance",
+      "domain_id": "civil_liberties_information",
+      "name": "Political Speech Criminalization or Surveillance",
+      "description": "Expansion of criminal or surveillance tools around lawful dissent.",
+      "query": "criminalize political speech surveillance dissent protesters",
+      "yellow_threshold": 4,
+      "severe_terms": [
+        "expanded surveillance of political dissent",
+        "criminal investigation for protected speech"
+      ],
+      "critical_terms": [
+        "broad criminalization of opposition speech",
+        "systematic monitoring tied to political affiliation"
+      ]
+    },
+    {
+      "id": "military_domestic_political_use",
+      "domain_id": "security_sector_neutrality",
+      "name": "Domestic Military Use in Political Conflict",
+      "description": "Use or threatened use of military in domestic partisan political disputes.",
+      "query": "military deployed domestically political protest election",
+      "yellow_threshold": 2,
+      "severe_terms": [
+        "domestic military deployment for political unrest",
+        "troops requested for political demonstrations"
+      ],
+      "critical_terms": [
+        "military used to suppress lawful political opposition",
+        "armed forces enforce partisan outcomes"
+      ]
+    },
+    {
+      "id": "security_loyalty_tests",
+      "domain_id": "security_sector_neutrality",
+      "name": "Security Sector Loyalty Tests",
+      "description": "Partisan loyalty filters applied to coercive-state institutions.",
+      "query": "loyalty tests FBI DOJ military intelligence political appointees",
+      "yellow_threshold": 3,
+      "severe_terms": [
+        "loyalty screening for security roles",
+        "partisan litmus test for law enforcement positions"
+      ],
+      "critical_terms": [
+        "security agencies purged for partisan loyalty",
+        "security forces subordinated to party loyalty"
+      ]
+    },
+    {
+      "id": "state_election_preemption",
+      "domain_id": "federalism_oversight",
+      "name": "Federal Preemption of State Election Authority",
+      "description": "Extraordinary federal override of normal state election administration powers.",
+      "query": "federal preemption state election administration takeover",
+      "yellow_threshold": 3,
+      "severe_terms": [
+        "federal takeover of state election functions",
+        "state election authority overridden"
+      ],
+      "critical_terms": [
+        "state election governance suspended",
+        "uniform federal control without judicial review"
+      ]
+    },
+    {
+      "id": "legislative_oversight_obstruction",
+      "domain_id": "federalism_oversight",
+      "name": "Legislative Oversight Obstruction",
+      "description": "Systematic barriers to legislative fact-finding and executive accountability.",
+      "query": "subpoena defied contempt congress oversight blocked",
+      "yellow_threshold": 4,
+      "severe_terms": [
+        "blanket refusal to comply with congressional subpoenas",
+        "oversight obstruction strategy"
+      ],
+      "critical_terms": [
+        "legislative oversight powers nullified",
+        "courts blocked from enforcing subpoenas"
+      ]
+    }
+  ]
+}

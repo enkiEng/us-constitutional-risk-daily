@@ -1,0 +1,105 @@
+{
+  "attempted_queries": 22,
+  "average_7d": 0.0,
+  "band": {
+    "description": "Normal democratic conflict and routine legal contestation.",
+    "label": "Baseline Institutional Noise",
+    "max": 14,
+    "min": 0
+  },
+  "confidence": "Low",
+  "data_available": false,
+  "delta_previous_day": null,
+  "delta_vs_7d": 0.0,
+  "domain_breakdown": [
+    {
+      "avg_severity": 0.0,
+      "id": "elections_transfer",
+      "name": "Elections and Transfer of Power",
+      "points": 0.0,
+      "weight": 22
+    },
+    {
+      "avg_severity": 0.0,
+      "id": "judiciary_rule_of_law",
+      "name": "Judicial Independence and Rule of Law",
+      "points": 0.0,
+      "weight": 15
+    },
+    {
+      "avg_severity": 0.0,
+      "id": "opposition_pluralism",
+      "name": "Opposition Rights and Political Pluralism",
+      "points": 0.0,
+      "weight": 14
+    },
+    {
+      "avg_severity": 0.0,
+      "id": "executive_constraints",
+      "name": "Executive Constraints and Emergency Powers",
+      "points": 0.0,
+      "weight": 13
+    },
+    {
+      "avg_severity": 0.0,
+      "id": "civil_service_integrity",
+      "name": "Civil Service and Agency Independence",
+      "points": 0.0,
+      "weight": 10
+    },
+    {
+      "avg_severity": 0.0,
+      "id": "civil_liberties_information",
+      "name": "Civil Liberties and Information Environment",
+      "points": 0.0,
+      "weight": 10
+    },
+    {
+      "avg_severity": 0.0,
+      "id": "security_sector_neutrality",
+      "name": "Security Sector Neutrality",
+      "points": 0.0,
+      "weight": 8
+    },
+    {
+      "avg_severity": 0.0,
+      "id": "federalism_oversight",
+      "name": "Federalism and Legislative Oversight",
+      "points": 0.0,
+      "weight": 8
+    }
+  ],
+  "failed_queries": 22,
+  "fetch_errors": [
+    "election_certification_interference: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "election_administration_capture: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "election_delay_or_cancellation: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "alternate_elector_scheme: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "politicized_prosecution_opposition: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "opposition_ballot_exclusion: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "retaliation_architecture: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "judge_intimidation_campaign: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "court_order_noncompliance: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "jurisdiction_stripping_targeted: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "emergency_powers_expansion: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "legislative_bypass_executive: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "martial_law_or_military_language: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "civil_service_purge_schedule_f: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "independent_agency_capture: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "inspector_general_retaliation: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "press_restrictions: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "political_speech_surveillance: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "military_domestic_political_use: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "security_loyalty_tests: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "state_election_preemption: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "legislative_oversight_obstruction: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  ],
+  "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
+  "generated_at": "2026-02-16T15:13:18.738918+00:00",
+  "previous_score": null,
+  "provisional": true,
+  "score": 0,
+  "score_raw": 0.0,
+  "successful_queries": 0,
+  "top_signals": []
+}
