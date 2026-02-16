@@ -1,57 +1,57 @@
 {
   "attempted_queries": 22,
-  "average_7d": 0.0,
+  "average_7d": 10.58,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "Low",
-  "data_available": false,
+  "confidence": "Medium",
+  "data_available": true,
   "delta_previous_day": null,
   "delta_vs_7d": 0.0,
   "domain_breakdown": [
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.5,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.0,
+      "points": 2.75,
       "weight": 22
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.3333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.0,
+      "points": 1.25,
       "weight": 15
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.6666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.0,
+      "points": 2.333333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.6666666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 0.0,
+      "points": 2.1666666666666665,
       "weight": 13
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.3333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.0,
+      "points": 0.8333333333333333,
       "weight": 10
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.5,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 0.0,
+      "points": 1.25,
       "weight": 10
     },
     {
@@ -69,37 +69,199 @@
       "weight": 8
     }
   ],
-  "failed_queries": 22,
-  "fetch_errors": [
-    "election_certification_interference: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "election_administration_capture: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "election_delay_or_cancellation: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "alternate_elector_scheme: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "politicized_prosecution_opposition: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "opposition_ballot_exclusion: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "retaliation_architecture: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "judge_intimidation_campaign: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "court_order_noncompliance: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "jurisdiction_stripping_targeted: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "emergency_powers_expansion: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "legislative_bypass_executive: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "martial_law_or_military_language: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "civil_service_purge_schedule_f: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "independent_agency_capture: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "inspector_general_retaliation: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "press_restrictions: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "political_speech_surveillance: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "military_domestic_political_use: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "security_loyalty_tests: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "state_election_preemption: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
-    "legislative_oversight_obstruction: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
-  ],
+  "failed_queries": 0,
+  "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-02-16T15:13:18.738918+00:00",
+  "generated_at": "2026-02-16T15:17:58.485923+00:00",
   "previous_score": null,
-  "provisional": true,
-  "score": 0,
-  "score_raw": 0.0,
-  "successful_queries": 0,
-  "top_signals": []
+  "provisional": false,
+  "score": 11,
+  "score_raw": 10.58,
+  "successful_queries": 22,
+  "top_signals": [
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTkt6RWcteFkyWkR1SXhickhiandqT1RFbTJQanpDdlBrTnRrdTEtM3BDWmRvYjJlQ2JWdHotMWZMVUpiY3NERkNuNnFwLU8tcFA1QkxFMHlidXRPSFBxNmo4cmtZUmQyamdwcXJpcEJWQUxQRHlDY0E2ZGRXY3VKYWt1VEpzNTM1enRrTUs1aEpISmNXWkJYOA?oc=5",
+          "published": "2026-02-16T10:30:46+00:00",
+          "publisher": "Yahoo",
+          "title": "Even Republican election officials are balking at Trump Justice Department\u2019s voter roll crusade - Yahoo"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa3hwNGNtTzBMRXFSUFNJc1piY3FXeGpxZFR2MFR0emRFTmU3Rm8zenY3ZEpKLTRVNlRpNDBRQ0F1WGp1ZllwOEMtOHU1U0p2TVltWXFPeGszNl9DRTB3T0s2Q25uRnhOSFp0b1NWbFRPaUZsdVhTQlFDd1pteEJRMzk5eVhHM2Z6MDZnaWg5dHNZSC01aUoxaXppVGc5UjNFN2xlNGk2d1I1MlNJX1pZMXNvb3BvV2ExUlNzMldMaTZLaks2R3YwYmtjT0lZa1hadUpJcHZpaTRlSWZCRGhPWktB?oc=5",
+          "published": "2026-02-16T14:19:33+00:00",
+          "publisher": "Cobb Courier",
+          "title": "How a largely forgotten Supreme Court case can help prevent an executive branch takeover of federal elections - Cobb Courier"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzTk5QMHBMRVhJQlBiSDM0blVMUl9vLVBaUl9Gc2dxU0dEcG90dTlIUzhHQ29XeFVtYkZiaHY3VDBiTnF4VXFHRXRkUGxlejlranVmNVFsYWM0S0ttVmhYR2dJZzQ3cXhVaVZFWHhkN2hfNDhjd3FkZA?oc=5",
+          "published": "2026-02-15T22:16:32+00:00",
+          "publisher": "Mahomet Daily",
+          "title": "Trump Threatens Executive Order on Voter ID - Mahomet Daily"
+        }
+      ],
+      "hits": 5,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 5
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOelRxRUxJamhKd3R4bkU1V2lNT3lHdnNjOGZYRWdBYVI1SXZYa0NtUHZzdGtzNVhnM19TWlFrdU9JZkswYXBUUVE4aWxJdm1PdUQwd2RWcTdERkluQWROaERJQmdmLXFORkRJQVBEQ0hlZEg4S0dOVk13SF8tZWZrbDR0bTN3TEpQUExIUmdKQ1VjbS0wRXF2WURFd2RhX0k?oc=5",
+          "published": "2026-02-16T12:25:44+00:00",
+          "publisher": "Alabama Political Reporter",
+          "title": "Lawrence County GOP backs Doc Mancuso for District 7 ballot - Alabama Political Reporter"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObXNmRWhlWDFadGpMeXhjWEFDX3hXVzFRNVFobVhlejJ2V0xEbWRHTTVzSzB4Ykotd2I2UkF5Qjd6ZnN5c2ZPT1p1Qm9LdW8tSmJRdk0xRUZjdGQzT2lUR1NFNTVIbGNoc0FzY25CUHRjTmx1dzR5SXVGdk54WFdxQ3VuRkV3VnJQT0hzdHRVS294Q2lOdlgyeERtUUpDcVI1UjBGSWZOMHRrZlJmV0tSc1lXZ0l2UUowSzlWSzQ1LTF0R084UW1IeWdFT3ZyV1BkUnhUVHhCNzBQcXY2RVpOOFdSNA?oc=5",
+          "published": "2026-02-16T06:00:41+00:00",
+          "publisher": "facebook.com",
+          "title": "EMV at 20;00hrs Proposed Amendments of the Electoral Process Bill of 2025 Listening to ECZ Chairperson during the launch of delimitation and her interview on ZNBC,raises more concerns. Her justification on; \u25cf removing security features (stamp and water - facebook.com"
+        }
+      ],
+      "hits": 2,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBGNU03QnYzVDdtNkU1QXNoSVJOandSQWhlR0RkbVJzY2F5VEtyTDhnN090NWVQeENIZXBUMmJmZGNFeWlWaE14VDNn?oc=5",
+          "published": "2026-02-15T00:00:00+00:00",
+          "publisher": "Daily Kos",
+          "title": "Daily Kos - Daily Kos"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSVR4d2tKTWI4dWhyZFNfc2JKQ1pzTjYyWDgzWWVITDZzYXV3bzNfNFNSUVdnV0VJbVJJdFNtbEEzSm5VTml2b0hOM0EzZmJaeGYxYVlkQjRCcHE3eWNTZWNOQUlzT2dNU2tXQ1JxZnB4bzRFY1BUZ3FidDZkMDhsY3VmRHpJZlFBNXhXUUJVQzZKc2lSaXBDQVo0RkNhSk9LVnppLWwwby1vWEV3bUdpZS1mRzZwc0xYTTA0cVJxcE1taG5tM0Fn?oc=5",
+          "published": "2026-02-16T05:10:24+00:00",
+          "publisher": "Prescott eNews",
+          "title": "Trump Repeals EPA Climate Finding, Puts Energy Policy Back in Congress\u2019 Hands - Inside Sources - Prescott eNews"
+        }
+      ],
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRURoQnFacnBSaGRYd0dRc3VTYnV6eUFzRERUaldkVzNueUNudkdCUVZ0UjdsM0o2THpMcGk3eFVPN2pvQ2JqdUF2MklveElndkRRRDRkcW5QQlFkdFdPdEYzNFM2WHlZVWdvZkZsRUMwN3ladkUxampiVklEVkVoYlZldmZWbHZqR2hWdjVuR21wZC16WTVFVVdCaUg0WWo4dGFpVEwzWQ?oc=5",
+          "published": "2026-02-15T12:00:00+00:00",
+          "publisher": "Politico",
+          "title": "\u2018Stunning\u2019: Jeanine Pirro\u2019s Failure to Indict Democrats Is a Big Deal - Politico"
+        }
+      ],
+      "hits": 1,
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdDFMS2NUWFA2OXYxRzllZzRDeEppMVhtWVJXLWNGcEs2SXZneGVhazdoRXZ0bENQREV6SUN4SXU5azRwMS0xdHFVYlEwXzhnVVVSbUdNcVZYanMxbDVqQ0FRN1ZfdkZ2VVZJNVBlQXVjZFI2X0ZBdUtRdGJab0JPbzFBZ1RXbzNsT2JvR185X0RWNzlyOXkwNEE5UWRIdVY5QVVweVVobF9BamE1?oc=5",
+          "published": "2026-02-15T12:28:27+00:00",
+          "publisher": "MSN",
+          "title": "Trump admin again accused of defying court order - MSN"
+        }
+      ],
+      "hits": 1,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ3ZzZ3VNcmdMWW0ycENrS3ljVy1CeUZzUXJNc0psOFB3U21lUWtyZ2xrNVNpRXBza00tMlFSSGp0T293TWFaU2dHTE43Y2FRSlloZnk2UmllXzZTblZkQXc3SW9BcHpUZ3VFYjQzTW1DRWY0M1ZlS2czQUNDRWJIS0pXajFXNVhKT2ZLTWpLd1NUV2VRSUQ2cW9rbw?oc=5",
+          "published": "2026-02-16T07:48:40+00:00",
+          "publisher": "Head Topics",
+          "title": "Osun State Local Government Funds Impasse: Supreme Court Ruling and Unresolved Political Battles - Head Topics"
+        }
+      ],
+      "hits": 1,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaHZieGpXS0pqSXoxY0RRWDVSVU1sTU9mSmRfUGczdFlLZWlocEdtd1I5RUdkZ0RGTHV0UERHeDQ1Yk43aUNiNDFrVGZ0ZS0zbWY5RHJrVlM1cmxNdXEwX0lPejJHcjQ4Mm8wSVIxX1pqOE51NTZoQ1IzMFJFSTZZVV9hOGtqcHpP?oc=5",
+          "published": "2026-02-16T03:45:42+00:00",
+          "publisher": "AOL.com",
+          "title": "The Supreme Court is about to weigh in on the Fed's independence in a case that goes beyond Jerome Powell - AOL.com"
+        }
+      ],
+      "hits": 1,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTkJDX0xENkU1MkhzclFpMmowc2ZORV9Za2VZOS1rOER4LXVjR2dhNVJHZjZTcWpCNDVvZWF2d1dGYndHSERnazZSTzFlUzNUQkY2a05PMzhNVFhhb2pPR0xWQVpJT0IxRDExZzJFXzBhWjFyMzZBM1pSb3RoQTFhTXlZLVVZalY4V24zM2Z2QzZUZUU?oc=5",
+          "published": "2026-02-15T05:36:55+00:00",
+          "publisher": "vocal.media",
+          "title": "Iranian Security Use Nationwide Dragnet to Arrest Protesters - vocal.media"
+        }
+      ],
+      "hits": 1,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    }
+  ]
 }
