@@ -2,6 +2,8 @@
 
 Public daily early-warning dashboard for constitutional-order risk in the United States.
 
+This is *HIGHLY SUBJECTIVE!*  **Ideally, this risk metric should stay near "0" in a normally functioning democracy.**
+
 - Score range: `0-100`
 - `0`: baseline institutional noise
 - `100`: constitutional failure / overturn conditions
