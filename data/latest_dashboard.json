@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.0,
+  "average_7d": 11.61,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": 0.42,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": 1.22,
   "domain_breakdown": [
     {
-      "avg_severity": 0.5,
+      "avg_severity": 0.75,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.75,
+      "points": 4.125,
       "weight": 22
     },
     {
@@ -27,17 +27,17 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.6666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.9249999999999998,
+      "points": 2.333333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 0.5499999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.1666666666666665,
+      "points": 1.7874999999999999,
       "weight": 13
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-02-17T12:36:36.209015+00:00",
+  "generated_at": "2026-02-18T12:36:19.576949+00:00",
   "previous_score": 11,
   "provisional": false,
-  "score": 11,
-  "score_raw": 11.43,
+  "score": 13,
+  "score_raw": 12.83,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,32 +84,110 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTkt6RWcteFkyWkR1SXhickhiandqT1RFbTJQanpDdlBrTnRrdTEtM3BDWmRvYjJlQ2JWdHotMWZMVUpiY3NERkNuNnFwLU8tcFA1QkxFMHlidXRPSFBxNmo4cmtZUmQyamdwcXJpcEJWQUxQRHlDY0E2ZGRXY3VKYWt1VEpzNTM1enRrTUs1aEpISmNXWkJYOA?oc=5",
-          "published": "2026-02-16T10:30:46+00:00",
-          "publisher": "Yahoo",
-          "title": "Even Republican election officials are balking at Trump Justice Department\u2019s voter roll crusade - Yahoo"
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSkFVdjNvUk0wQlJEdHFmX3A1bUdPSUNhMkVHd2JfQVZSd0toanlFRXEtbU1Yb3Y1NjlEdFNMREVxTTNpdnNpNWNoTG5mT2pjVjBMWUx1V0ItSGI1T0RyVWN4S290Y0tZTDlSc2RzdFRoem5KM05sT0h0ZXV2X2ZCSEFHVnVFQXJYaV9KZnNB?oc=5",
+          "published": "2026-02-18T11:00:00+00:00",
+          "publisher": "The New Republic",
+          "title": "The Four Ways Trump Plans to Delegitimize this Fall\u2019s Elections - The New Republic"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa3hwNGNtTzBMRXFSUFNJc1piY3FXeGpxZFR2MFR0emRFTmU3Rm8zenY3ZEpKLTRVNlRpNDBRQ0F1WGp1ZllwOEMtOHU1U0p2TVltWXFPeGszNl9DRTB3T0s2Q25uRnhOSFp0b1NWbFRPaUZsdVhTQlFDd1pteEJRMzk5eVhHM2Z6MDZnaWg5dHNZSC01aUoxaXppVGc5UjNFN2xlNGk2d1I1MlNJX1pZMXNvb3BvV2ExUlNzMldMaTZLaks2R3YwYmtjT0lZa1hadUpJcHZpaTRlSWZCRGhPWktB?oc=5",
-          "published": "2026-02-16T14:25:40+00:00",
-          "publisher": "Cobb Courier",
-          "title": "How a largely forgotten Supreme Court case can help prevent an executive branch takeover of federal elections - Cobb Courier"
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdm8tV2FoY19rOHhTTEpwSVFCOGVkM2g2MXo1ajI3dnVNT3BfU0pGU3Jqdzc4VWpqQzRfLVFXcTYxQ0FrRTFCTnRkZnljTmRsLVdZTERaQ2JrYVJBOWxBUmVoRTJNWDF1ajlyWmExYlRxZkNTV05Jek83cWIzSFNTRXZKc2FnTmlZeFd4dm9QYjFSZGFxb0lQdl9jNDF2M1hmbTBPMkx5Wkh6bGRMNnc00gG0AUFVX3lxTE5NUlhJNnNfbzI0VTc1RHhsck04TVpySWwzdDdDQ0lNU1ZObXNnMzFJYmR1NzVxWENiY0dxMDlrUXRudjROUU1mdlIwWkF5c3Y0dnBLZkE4Zkh1Q252Z2hwZEdRYlBzeEk3U1diSVhVTDI0SnBBOThVWTFXNGp2Mjh0cE02aFJmR2RiZmJ2blpMeFNlSElKMDdDSjR3bTBYQzJhZ3RXdkpJRE5xdXhrV0toT3dMdQ?oc=5",
+          "published": "2026-02-17T21:11:42+00:00",
+          "publisher": "Al Jazeera",
+          "title": "Peru\u2019s Congress votes to impeach President Jose Jeri in government shake-up - Al Jazeera"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT0pvV2RtbFNKSUhvdVBBV25TUnpWSWdzMEVRQXp6MlR1c29ZT29GMGU1SWNrRW16ZzZGRzlJWVRsb3haTHVqQVJvdHAxRDlUNGkyOFo2aVloV0dHS0RpUTY5aFJwSDZ5eXFtVEpjU1FLRUYtTWlHajZVcUNKM3ZSbmgydkpTdWdtY1RDaQ?oc=5",
-          "published": "2026-02-17T07:11:01+00:00",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQZjRwN2xGbFhod19lR2luUUxVOG9JbFAweUFOcXZ3TE9SYm55anNWRW91NE9rc0J4anZkN0d6Z1JmUzZ6cmpFWTdwQmV2V21NdU4wNDlZbndIaE9MVlpCLWxQRklCWUhoTzA5UE9JT2RCZDNBNmtB?oc=5",
+          "published": "2026-02-17T21:26:14+00:00",
           "publisher": "AOL.com",
-          "title": "Can Trump nationalize elections? What president\u2019s latest bid to transform US democracy means - AOL.com"
+          "title": "Op-Ed: States, not the federal government, should run elections - AOL.com"
         }
       ],
-      "hits": 7,
+      "hits": 5,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 5
+      "unique_publishers": 4
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPZFhzOEhweXhVVFlxcUZLVDJONUFDVzNQdDg0b2hVeFFVQlR0Q0Z5Z2dCaVNrdnNvVHNqNWJfY25jdzdtMHRfZ0xvWkRaMldOVk5xRWtvdnpzYlZqM2tDUGRzVVFUc3RsaFd6SEtpZXE1ZDFudHpzWlBNZTgyUzlJaEFHck9xdldTbWVacFlybDNOSGp5M1lybTRqemFQeU5qYzFqaS1QVTFjSWgwZ2h4b0NVc0R2cXo0dTBmWXdaN0UyNUxsSUtxWG5pVGhWQkxQamtna1c3MlhTSk55WWx6cGpjQm5BRVB2NXBzM0pqbThTazRpeXVldUNqamVCRmZ0TVhTZFhNdUo5X0VNOVhoVlFiYXQwMXlaYTJ5Mzg2VVVYUjFWVXRSVEZVRmoxMmk3dUxtbVlHTnZfdGc2UWh0TDVUeGVVTjRZb3BjeUlaTmhmZjJjb2hqcjY4T2ZnaG1xSGVxdVJnN2ZKcHh6dWNaQTU2T2ttV1N0?oc=5",
+          "published": "2026-02-18T05:00:12+00:00",
+          "publisher": "Las Vegas Review-Journal",
+          "title": "COMMENTARY: Trump puts energy policy back in Congress\u2019s hands - Las Vegas Review-Journal"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZGVxWnZub2VWTkVGYjlxR2JDSkNtVjBvUllIZWgxVGx5LUFUT092WFAxQ2xoV0w0QzFaQTBmMkF3SFM5MFRzb0M2MktBM1laS21nZUhSN21oM1BkMzVfcTluNTR6X1VQMnVKejVNNEIwbDhnZDlpUkZYM3puUUlEZ3M2WGM2b1k4c0ktTlVKWC0zTHppcDBESzFvQTJEREJRbjlr?oc=5",
+          "published": "2026-02-17T19:06:22+00:00",
+          "publisher": "FactCheck.org",
+          "title": "The Disagreement over Judicial and Administrative Warrants for ICE - FactCheck.org"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQXZvcmh6SE5zZDRtWnhSWUlDdG1XYzNUWkhidS12Ukg4ZHU3blJsN0QzRDBUT1R0MTFCclc1Z1NZUW9pb18yRFZYbVllZ0RBeGc1U2F6WkZVcnhzclNFUDZpT2h2UWVtVjQxM2hsSDhuVG5GMS13clZqV2xxaE5DYkt5QWVlSHlTSEY0OUFNa1dBclFFQ3g1c0VWM1VxZw?oc=5",
+          "published": "2026-02-17T21:59:29+00:00",
+          "publisher": "The Well News",
+          "title": "Judicial Conference Allows Judges to Answer \u2018Illegitimate\u2019 Attacks - The Well News"
+        }
+      ],
+      "hits": 4,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 4
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZkx1MUxFSWphdmtFQ3gxdzZCQk1oSmJpMDVrTlNmSHFLX0RCM1Q5RjB0U3FPdjRnOTVoWnlEZDhvdF9VaS14R1NiU1RBc0ViY09qYS1VZ21Sa3RiWkRnUUlTLTM3QlBOcno5SjNvUmltenZOQ3pGbUQ1S0toWl85RFhrUlNibDJsV3cySlk0dWF3X2dLYmdUOXdiaWpwampmdjJHTnAwU3dwTGpvaXBIRU5n?oc=5",
+          "published": "2026-02-17T19:07:05+00:00",
+          "publisher": "Congressman Daniel Goldman (.gov)",
+          "title": "Goldman, Blumenthal Introduce Legislation to Protect Against Political Prosecutions - Congressman Daniel Goldman (.gov)"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTWZhc01HZVNndzAxSFoxMjZ1ZWo3WVBZQk5QNXZtVXlQRTRfMjNfalEtSFJtOGdJWkZzRGR2S1ppVFBaTl83dl9TcFYxWm15N1dhdklZV2hPdlZYM0RqVFVBNmRlY3RDMU5WY0llZUVXaDNvYnRWdHc3V2pmbFBYT3BWamtrZDdYSkIxVVNORGZJT0NFSndsQkRjS2c0V3JTMXNYQnZBQW1LNEtSQ3AtaXdLTTU2U2tWU1dXUVF6aC1Ddzl0bEk3amdqX3hPY2xxaFpic2hwSHJPZWVaNXAxRkJFT3c?oc=5",
+          "published": "2026-02-17T01:15:34+00:00",
+          "publisher": "MSN",
+          "title": "Grand jury refuses to indict Democratic lawmakers in connection with illegal military orders video - MSN"
+        }
+      ],
+      "hits": 2,
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRnc1bU9pOVpyOHBFeDFTNkJHMlVpMTNxY2xKY3ZrTF96TGpuT0ZMUnZoeXBMWEw1TXlUZGp4MkxhS2EzSC1JUGFPcWp4RWNEc19PYzVrWEI3UnJzcjZVNHc4WjNRYzVJX0FjNjV1YjN0QkhBb05ZNF9IUWlYMFd1NkdiMU5iT1FSd01HREhmNzlqeXNTRjBDZ1A5Q0xvbTlac3llUGJXcmJndjVLLV9vT0ZwSQ?oc=5",
+          "published": "2026-02-17T20:48:46+00:00",
+          "publisher": "Democracy Docket",
+          "title": "Wisconsin election denier joins DOJ\u2019s case seeking state\u2019s voter rolls - Democracy Docket"
+        }
+      ],
+      "hits": 1,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -120,69 +198,11 @@
           "published": "2026-02-17T00:22:30+00:00",
           "publisher": "Alabama Political Reporter",
           "title": "Lawrence County GOP backs Doc Mancuso for District 7 ballot - Alabama Political Reporter"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObXNmRWhlWDFadGpMeXhjWEFDX3hXVzFRNVFobVhlejJ2V0xEbWRHTTVzSzB4Ykotd2I2UkF5Qjd6ZnN5c2ZPT1p1Qm9LdW8tSmJRdk0xRUZjdGQzT2lUR1NFNTVIbGNoc0FzY25CUHRjTmx1dzR5SXVGdk54WFdxQ3VuRkV3VnJQT0hzdHRVS294Q2lOdlgyeERtUUpDcVI1UjBGSWZOMHRrZlJmV0tSc1lXZ0l2UUowSzlWSzQ1LTF0R084UW1IeWdFT3ZyV1BkUnhUVHhCNzBQcXY2RVpOOFdSNA?oc=5",
-          "published": "2026-02-16T06:00:41+00:00",
-          "publisher": "Facebook",
-          "title": "EMV at 20;00hrs Proposed Amendments of the Electoral Process Bill of 2025 Listening to ECZ Chairperson during the launch of delimitation and her interview on ZNBC,raises more concerns. Her justification on; \u25cf removing security features (stamp and water - Facebook"
         }
       ],
-      "hits": 2,
+      "hits": 1,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZ3RkeUR6RHFxUW4yUjc0LWEyNm96RnI5bS1SckJRVHBLSkhIOGtQbTlsN1cza1NBYUs1d1lCRFFydHRDX0QtR3lmQ1liQ2h1R2NnZmtSemgtbUlabE12S0xUcVJZODBWZW9xTXVjUTE3V2tUWm00Q0MtdUJ2c0tXQ0JPSTRoOVgyNDN4eEktUWlaSlptcE1hTEYyamVTLXJkMWRVa1JGaGhOdHZFQzZRQ2pkdm8xUVFoT21NSE8wUHBkTGtISW9ySjFKRFFBZzZMWE9HdVk4NHZkZ9IB5wFBVV95cUxOSkxucURJMlNHMDNDTEQxaVlHU2NONlhlNWVqcTd5MGVmWlEyRWVwLTROSDh1V1FGYjRiZ2gySFlGRFVxT3BMZ29USElQb0ozYTJXZnQ0T2RvSC1BbDBPMndlMm1iSDNWQl9XUG5zVllGRUQxQlB1QzN0ZXFSZUdYYng2ZENnVXhXd2d1eGxveWRyOVYwYzBSMExETUpETWItbDRzSWpMMDNRbDRXZGUzaHQ0aWc5SVlkd1U1VGdnM1FsY1BPUjVhUml1eC1YWlliNlpoOEkyRjZlazJLMmhMa0VzSGNOcVk?oc=5",
-          "published": "2026-02-16T07:09:25+00:00",
-          "publisher": "The Mooknayak English",
-          "title": "NIA Accused of Witch-Hunt: Rights Groups Condemn Crackdown on Young Activists in Lucknow Conspiracy Case - The Mooknayak English"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRG5ldEFwQ2RKSFIwZENzaUhuZ0hkV0pfX0xLWGJCNExfck1LdXFjVklGUW5SUHowS1M4N3BLS1NQQ3RwVTBrVTdIdk9jX1VJWFBEM0Qtc2ltWElVZFFxWUU3b1hxOG5xQnRUUmprbWctX3BucU1Ha1UtLW5TalRrVTZEMnlrVU9TTWNxN2E1Vm1iQXljQU5jNWhFUXlFQ3pidm1zYXJGUEhCQmdxMUlyQnlMb3NOeVpS?oc=5",
-          "published": "2026-02-17T11:30:45+00:00",
-          "publisher": "Splice Today",
-          "title": "Jimmy Lai\u2019s 20-Year Sentence: The Final Nail in \u201cOne Country, Two Systems\u201d - Splice Today"
-        }
-      ],
-      "hits": 2,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaHZieGpXS0pqSXoxY0RRWDVSVU1sTU9mSmRfUGczdFlLZWlocEdtd1I5RUdkZ0RGTHV0UERHeDQ1Yk43aUNiNDFrVGZ0ZS0zbWY5RHJrVlM1cmxNdXEwX0lPejJHcjQ4Mm8wSVIxX1pqOE51NTZoQ1IzMFJFSTZZVV9hOGtqcHpP?oc=5",
-          "published": "2026-02-16T03:45:42+00:00",
-          "publisher": "AOL.com",
-          "title": "The Supreme Court is about to weigh in on the Fed's independence in a case that goes beyond Jerome Powell - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdGNvY2NGWV9wR2JnR2tCd2lhLWJabGQ1ZXVrcGhZd3dBQXc1N0dDU1RzVUdzekpLMWg3MVFRaUxCRVZqbGZZTHMzajllT3NJOWhNRW5oRVJsc1BWQzNsNjVZOGNkSExVUUNNUC1vV2ttRkNxTWhCT1RYamNaeUN4S0hB?oc=5",
-          "published": "2026-02-16T20:54:51+00:00",
-          "publisher": "AOL.com",
-          "title": "Kavanaugh warns Trump case could 'shatter' Federal Reserve independence in Supreme Court hearing - AOL.com"
-        }
-      ],
-      "hits": 2,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -215,7 +235,7 @@
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQ3RnSzZvSVBBT1ZDUmJoZWUwRHhwSVIxRHZTUk05cUVyM2Qzbzc1MmRZNGR1dXJfSEVha2l1Y3Y2NmVORHl2NGVWZWRINWkwNDJjVVNjWFNWb21SMmxWZHZyZEJ0RDRNQTB0bjFGSjJRcWNmdjdsUlZLekJwVzE0emlkT19RWnNUeVM3S1RBMEFmbUZxRHVjd3I0MExxQWlCTWNHTE9ib1M?oc=5",
-          "published": "2026-02-17T01:01:10+00:00",
+          "published": "2026-02-17T01:02:31+00:00",
           "publisher": "Daily Kos",
           "title": "Trump administration will union-bust, courts be damned - Daily Kos"
         }
@@ -231,18 +251,38 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSVR4d2tKTWI4dWhyZFNfc2JKQ1pzTjYyWDgzWWVITDZzYXV3bzNfNFNSUVdnV0VJbVJJdFNtbEEzSm5VTml2b0hOM0EzZmJaeGYxYVlkQjRCcHE3eWNTZWNOQUlzT2dNU2tXQ1JxZnB4bzRFY1BUZ3FidDZkMDhsY3VmRHpJZlFBNXhXUUJVQzZKc2lSaXBDQVo0RkNhSk9LVnppLWwwby1vWEV3bUdpZS1mRzZwc0xYTTA0cVJxcE1taG5tM0Fn?oc=5",
-          "published": "2026-02-16T05:10:24+00:00",
-          "publisher": "prescottenews.com",
-          "title": "Trump Repeals EPA Climate Finding, Puts Energy Policy Back in Congress\u2019 Hands - Inside Sources - prescottenews.com"
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdGNvY2NGWV9wR2JnR2tCd2lhLWJabGQ1ZXVrcGhZd3dBQXc1N0dDU1RzVUdzekpLMWg3MVFRaUxCRVZqbGZZTHMzajllT3NJOWhNRW5oRVJsc1BWQzNsNjVZOGNkSExVUUNNUC1vV2ttRkNxTWhCT1RYamNaeUN4S0hB?oc=5",
+          "published": "2026-02-16T20:54:51+00:00",
+          "publisher": "AOL.com",
+          "title": "Kavanaugh warns Trump case could 'shatter' Federal Reserve independence in Supreme Court hearing - AOL.com"
         }
       ],
       "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRG5ldEFwQ2RKSFIwZENzaUhuZ0hkV0pfX0xLWGJCNExfck1LdXFjVklGUW5SUHowS1M4N3BLS1NQQ3RwVTBrVTdIdk9jX1VJWFBEM0Qtc2ltWElVZFFxWUU3b1hxOG5xQnRUUmprbWctX3BucU1Ha1UtLW5TalRrVTZEMnlrVU9TTWNxN2E1Vm1iQXljQU5jNWhFUXlFQ3pidm1zYXJGUEhCQmdxMUlyQnlMb3NOeVpS?oc=5",
+          "published": "2026-02-17T11:34:02+00:00",
+          "publisher": "Splice Today",
+          "title": "Jimmy Lai\u2019s 20-Year Sentence: The Final Nail in \u201cOne Country, Two Systems\u201d - Splice Today"
+        }
+      ],
+      "hits": 1,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -252,30 +292,10 @@
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ3ZzZ3VNcmdMWW0ycENrS3ljVy1CeUZzUXJNc0psOFB3U21lUWtyZ2xrNVNpRXBza00tMlFSSGp0T293TWFaU2dHTE43Y2FRSlloZnk2UmllXzZTblZkQXc3SW9BcHpUZ3VFYjQzTW1DRWY0M1ZlS2czQUNDRWJIS0pXajFXNVhKT2ZLTWpLd1NUV2VRSUQ2cW9rbw?oc=5",
-          "published": "2026-02-16T07:48:40+00:00",
-          "publisher": "Head Topics",
-          "title": "Osun State Local Government Funds Impasse: Supreme Court Ruling and Unresolved Political Battles - Head Topics"
-        }
-      ],
-      "hits": 1,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
       "evidence": [],
       "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
