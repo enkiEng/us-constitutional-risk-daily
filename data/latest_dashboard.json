@@ -1,16 +1,16 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.61,
+  "average_7d": 13.29,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 2.0,
-  "delta_vs_7d": 1.22,
+  "delta_previous_day": 5.0,
+  "delta_vs_7d": 5.03,
   "domain_breakdown": [
     {
       "avg_severity": 0.75,
@@ -20,38 +20,38 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 0.8833333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.5,
+      "points": 3.3125,
       "weight": 15
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 1.0,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.333333333333333,
+      "points": 3.5,
       "weight": 14
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 1.3333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.7874999999999999,
+      "points": 4.333333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.21666666666666667,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.8333333333333333,
+      "points": 0.5416666666666667,
       "weight": 10
     },
     {
-      "avg_severity": 0.5,
+      "avg_severity": 1.0,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.25,
+      "points": 2.5,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-02-18T12:36:19.576949+00:00",
-  "previous_score": 11,
+  "generated_at": "2026-02-19T12:36:28.824197+00:00",
+  "previous_score": 13,
   "provisional": false,
-  "score": 13,
-  "score_raw": 12.83,
+  "score": 18,
+  "score_raw": 18.31,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,64 +84,32 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLXJTVjFGNFpaTGxwc1BSOGFpbmRPaW5XVXVQZFEzcDdGWkFRN2s0c05pV2dwcnJ2NzNuUm5xQ2ZoRUJSNTBKV1dWaDg5LVFveWdjZ184QjVwcUdwbERpMmRpMzkwbHVadjlRYjZ1a3M1VktXNnR2VG1FSWJlUDhrWW9MZGFJUlFH?oc=5",
+          "published": "2026-02-19T08:52:57+00:00",
+          "publisher": "AOL.com",
+          "title": "Thune rejects Trump's call to nationalize elections, warns Dems tried the same - AOL.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUjJ4OWlxTnprM1hHRWhHb2NLOE9yd1ZGdjFEVGFyTTR6NzVjSDdsTEprX1A4a0JSRTJSSHJfcTNGa0FzMGZtNDQyWXpnZFVIVy1GT2tWa21sby1saUhVTkNZSkNQZ3huTmVRSWNta1phcEM4NmdVUnZjR19pTld5bEhrR09kNVBhVUp3Wmc2WGFlUFhoLW9MaVMwZkdNNlo2THBzU1NxTTNxNUtlaUQyaDZZMEQ4UGxjeWNDaUJKY195bzhfNGJxLXNITVpRLVp3bEszYUdBRWlTWVVpZ05uYnZn?oc=5",
+          "published": "2026-02-19T05:07:31+00:00",
+          "publisher": "bastillepost.com",
+          "title": "Trump heads to Georgia, a target of his election falsehoods, as Republicans look for midterm boost - bastillepost.com"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSkFVdjNvUk0wQlJEdHFmX3A1bUdPSUNhMkVHd2JfQVZSd0toanlFRXEtbU1Yb3Y1NjlEdFNMREVxTTNpdnNpNWNoTG5mT2pjVjBMWUx1V0ItSGI1T0RyVWN4S290Y0tZTDlSc2RzdFRoem5KM05sT0h0ZXV2X2ZCSEFHVnVFQXJYaV9KZnNB?oc=5",
           "published": "2026-02-18T11:00:00+00:00",
           "publisher": "The New Republic",
           "title": "The Four Ways Trump Plans to Delegitimize this Fall\u2019s Elections - The New Republic"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdm8tV2FoY19rOHhTTEpwSVFCOGVkM2g2MXo1ajI3dnVNT3BfU0pGU3Jqdzc4VWpqQzRfLVFXcTYxQ0FrRTFCTnRkZnljTmRsLVdZTERaQ2JrYVJBOWxBUmVoRTJNWDF1ajlyWmExYlRxZkNTV05Jek83cWIzSFNTRXZKc2FnTmlZeFd4dm9QYjFSZGFxb0lQdl9jNDF2M1hmbTBPMkx5Wkh6bGRMNnc00gG0AUFVX3lxTE5NUlhJNnNfbzI0VTc1RHhsck04TVpySWwzdDdDQ0lNU1ZObXNnMzFJYmR1NzVxWENiY0dxMDlrUXRudjROUU1mdlIwWkF5c3Y0dnBLZkE4Zkh1Q252Z2hwZEdRYlBzeEk3U1diSVhVTDI0SnBBOThVWTFXNGp2Mjh0cE02aFJmR2RiZmJ2blpMeFNlSElKMDdDSjR3bTBYQzJhZ3RXdkpJRE5xdXhrV0toT3dMdQ?oc=5",
-          "published": "2026-02-17T21:11:42+00:00",
-          "publisher": "Al Jazeera",
-          "title": "Peru\u2019s Congress votes to impeach President Jose Jeri in government shake-up - Al Jazeera"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQZjRwN2xGbFhod19lR2luUUxVOG9JbFAweUFOcXZ3TE9SYm55anNWRW91NE9rc0J4anZkN0d6Z1JmUzZ6cmpFWTdwQmV2V21NdU4wNDlZbndIaE9MVlpCLWxQRklCWUhoTzA5UE9JT2RCZDNBNmtB?oc=5",
-          "published": "2026-02-17T21:26:14+00:00",
-          "publisher": "AOL.com",
-          "title": "Op-Ed: States, not the federal government, should run elections - AOL.com"
         }
       ],
-      "hits": 5,
+      "hits": 8,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 4
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPZFhzOEhweXhVVFlxcUZLVDJONUFDVzNQdDg0b2hVeFFVQlR0Q0Z5Z2dCaVNrdnNvVHNqNWJfY25jdzdtMHRfZ0xvWkRaMldOVk5xRWtvdnpzYlZqM2tDUGRzVVFUc3RsaFd6SEtpZXE1ZDFudHpzWlBNZTgyUzlJaEFHck9xdldTbWVacFlybDNOSGp5M1lybTRqemFQeU5qYzFqaS1QVTFjSWgwZ2h4b0NVc0R2cXo0dTBmWXdaN0UyNUxsSUtxWG5pVGhWQkxQamtna1c3MlhTSk55WWx6cGpjQm5BRVB2NXBzM0pqbThTazRpeXVldUNqamVCRmZ0TVhTZFhNdUo5X0VNOVhoVlFiYXQwMXlaYTJ5Mzg2VVVYUjFWVXRSVEZVRmoxMmk3dUxtbVlHTnZfdGc2UWh0TDVUeGVVTjRZb3BjeUlaTmhmZjJjb2hqcjY4T2ZnaG1xSGVxdVJnN2ZKcHh6dWNaQTU2T2ttV1N0?oc=5",
-          "published": "2026-02-18T05:00:12+00:00",
-          "publisher": "Las Vegas Review-Journal",
-          "title": "COMMENTARY: Trump puts energy policy back in Congress\u2019s hands - Las Vegas Review-Journal"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZGVxWnZub2VWTkVGYjlxR2JDSkNtVjBvUllIZWgxVGx5LUFUT092WFAxQ2xoV0w0QzFaQTBmMkF3SFM5MFRzb0M2MktBM1laS21nZUhSN21oM1BkMzVfcTluNTR6X1VQMnVKejVNNEIwbDhnZDlpUkZYM3puUUlEZ3M2WGM2b1k4c0ktTlVKWC0zTHppcDBESzFvQTJEREJRbjlr?oc=5",
-          "published": "2026-02-17T19:06:22+00:00",
-          "publisher": "FactCheck.org",
-          "title": "The Disagreement over Judicial and Administrative Warrants for ICE - FactCheck.org"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQXZvcmh6SE5zZDRtWnhSWUlDdG1XYzNUWkhidS12Ukg4ZHU3blJsN0QzRDBUT1R0MTFCclc1Z1NZUW9pb18yRFZYbVllZ0RBeGc1U2F6WkZVcnhzclNFUDZpT2h2UWVtVjQxM2hsSDhuVG5GMS13clZqV2xxaE5DYkt5QWVlSHlTSEY0OUFNa1dBclFFQ3g1c0VWM1VxZw?oc=5",
-          "published": "2026-02-17T21:59:29+00:00",
-          "publisher": "The Well News",
-          "title": "Judicial Conference Allows Judges to Answer \u2018Illegitimate\u2019 Attacks - The Well News"
-        }
-      ],
-      "hits": 4,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 4
+      "unique_publishers": 6
     },
     {
       "critical_hits": 0,
@@ -154,20 +122,90 @@
           "title": "Goldman, Blumenthal Introduce Legislation to Protect Against Political Prosecutions - Congressman Daniel Goldman (.gov)"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTWZhc01HZVNndzAxSFoxMjZ1ZWo3WVBZQk5QNXZtVXlQRTRfMjNfalEtSFJtOGdJWkZzRGR2S1ppVFBaTl83dl9TcFYxWm15N1dhdklZV2hPdlZYM0RqVFVBNmRlY3RDMU5WY0llZUVXaDNvYnRWdHc3V2pmbFBYT3BWamtrZDdYSkIxVVNORGZJT0NFSndsQkRjS2c0V3JTMXNYQnZBQW1LNEtSQ3AtaXdLTTU2U2tWU1dXUVF6aC1Ddzl0bEk3amdqX3hPY2xxaFpic2hwSHJPZWVaNXAxRkJFT3c?oc=5",
-          "published": "2026-02-17T01:15:34+00:00",
-          "publisher": "MSN",
-          "title": "Grand jury refuses to indict Democratic lawmakers in connection with illegal military orders video - MSN"
+          "link": "https://news.google.com/rss/articles/CBMi_wNBVV95cUxOSXlUMV9rcGVNZzZON1NoQmo4TnJ4cG9tTVBySlJIa2RlNHhyYWg2UW9iM2NreV80TTFsLUpNeEt2UEtobGZiRWJIVTd6MFRhTllSR2cyWUd5Ym1HM0JwM0JodU1Jb0RHUUU3SlQ3SzF0TVlDclpBYTJseWt0a2dYV0lxeE40ZGx2VmpPMUs4ZHRicktzRU9Ib2dXQVRVc3NsbWF0em1aaExQRlU4WDFSc2F5TWc5d1plM21OZE9qOGFHbUlDMmNjUk1yUjJwTmhTNHplaXIxTkNHX2dGVjd5Z0tFNFhTcFFVRkJuRTFRS1NOVWotbmNXUE5pUmRXdEZkQi1aUFcydDdFbko4bVNRa1Fpc2RNWWR2Y3dfVXhJcnk4M0ZldDIxZm0tNU5NbDRpRll6Q0daczZLdm1tbGJFSk0xNEFyc0pTUkJFOW9Tc3JCNGo5VVpEb3hTc0k0VlJIb3JybUR0dWhYMUxScjVURWxDYXlPOEc1bmRTNkFfTUYyUV9IRldrdkpweHhqZ0lhaEVlaWx3Wlh5Y1BkLVJTcjF6aXFYVF9HTVdvN3B4bkoxaXRQZkFuZDMxMlFsdDdDNUJHc0tsa1E1VlhKaGFMTHhYQUJCZlA4bDhTZnlHWjhxYUxMN09YSUNRSlduZlFBdGY5Z01Nd1hDYkRvUmcw?oc=5",
+          "published": "2026-02-19T11:40:56+00:00",
+          "publisher": "AOL.com",
+          "title": "'Where Are They?': Mark Kelly Calls Out GOP Silence After Attempted DOJ Indictment - AOL.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQMWZzSTB6QVVlT0x0WDJrekFERnE2aXJrWDZ5bmRVQ3dwQUdPMWowWXRPQlJpVk9Wdk9uUzRNUUZiZWRvT3FWanF1cjhJU2lSbG94Z3JEelhrNFFRYjBPb2hsSkV4Zi1LMG51c0NCQ1gxSXZWTlZPRzdPMTN6ZEg5S3RubFl2MjlwMDVJeElURGpQd3JaLTMwQjVyT2V4b1NZSm11YXp3QW5yc0JNR01ROWM5RFdEalFkQVBIWW45Ym5NemdXdklnM1R5OWF0YVFNUVd1RGt3Rkkxc1hkcmowZGE3ZlB4OVVKU1BnSzdCaVcwSlZkRE5iX09PXy1IMldaNUFMNFRuUWt6c1FWMmRtTENpdDl1RWFsSUR1RW8tTklZc25fdkFYcDdBNm13YzhXLXlucGRxUGs?oc=5",
+          "published": "2026-02-18T18:31:14+00:00",
+          "publisher": "AOL.com",
+          "title": "DOJ has failed to secure indictments against some administration opponents - AOL.com"
         }
       ],
-      "hits": 2,
+      "hits": 4,
       "id": "politicized_prosecution_opposition",
       "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQTzBLUnZWMFQ4ZUpGY25aN0JaMVkwTG04cUUyWllFcGw0ZC12TE85NUdqclh2UW9lYWFpbmFacTUyNV9Qb3dNZ0g5UVJsVnZPeTRQcWdrSm1tdTBqWk96TnNIdnFCSE1mZlBZUEt6YU0tcEJwT1lSdGFfR21KbTUydWpXWVBoTE1RMjQ4Q1VTZ0ZqTWlLaTYwQndMdFB6OElDQXNJWWJhd3M3YUthQzJERlM1X0xabXBqQjVZc1lhUWdzT0RwakVLaGpxekd4SVA2ZzJaRE4yMlZOTTJtbnY5eFJRcVB5Rjh1QzRONmxLai1zZkxTMFlzaXJtWWxRSnhSa2RHc21sUHpxd2k3dGfSAY4CQVVfeXFMUE8wS1J2VjBUOGVKRmNuWjdCWjFZMExtOHFFMlpZRXBsNGQtdkxPOTVHanJYdlFvZWFhaW5hWnE1MjVfUG93TWdIOVFSbFZ2T3k0UHFna0ptbXUwalpPek5zSHZxQkhNZmZQWVBLemFNLXBCcE9ZUnRhX0dtSm01MnVqV1lQaExNUTI0OENVU2dGak1pS2k2MEJ3THRQejhJQ0FzSVliYXdzN2FLYUMyREZTNV9MWm1wakI1WXNZYVFnc09EcGpFS2hqcXpHeElQNmcyWkROMjJWTk0ybW52OXhSUXFQeUY4dUM0TjZsS2otc2ZMUzBZc2lybVlsUUp4UmtkR3NtbFB6cXdpN3Rn?oc=5",
+          "published": "2026-02-19T07:14:00+00:00",
+          "publisher": "Devdiscourse",
+          "title": "South Korean court sentences former President Yoon Suk Yeol to life in prison over brief martial law imposition, reports AP. - Devdiscourse"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNdXlJUy1TaE9oWTZadnc5UzUycHVaejJvZFBwOXBJWVA2c3BIQzNldGdXbmJXTkRjdTd5U1BxMENrdUJlMlkyYm9MR1BwUkIwRTV4MlJUZ0dTeGs3NExMTWQtZTNSVUg4cExWc05udHpQRjRxMlF0aGk2ODRvSXJGR2pOU2pkSWVSSHFxMzRPRWV3d0hscmhlSTQ5dy1BQWxyamZnUUNHVWFObGVKTTRWdjNBaERpOTVyd25XWUhGd3RTaHhjQWtyMmpmbWNFdHpXMzVletIB1AFBVV95cUxNdXlJUy1TaE9oWTZadnc5UzUycHVaejJvZFBwOXBJWVA2c3BIQzNldGdXbmJXTkRjdTd5U1BxMENrdUJlMlkyYm9MR1BwUkIwRTV4MlJUZ0dTeGs3NExMTWQtZTNSVUg4cExWc05udHpQRjRxMlF0aGk2ODRvSXJGR2pOU2pkSWVSSHFxMzRPRWV3d0hscmhlSTQ5dy1BQWxyamZnUUNHVWFObGVKTTRWdjNBaERpOTVyd25XWUhGd3RTaHhjQWtyMmpmbWNFdHpXMzVleg?oc=5",
+          "published": "2026-02-19T10:50:03+00:00",
+          "publisher": "Devdiscourse",
+          "title": "Delhi Court Orders MCD Officials to Appear Over Disputed Property Status Report - Devdiscourse"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV0FjVGotbWNvQVBDcTJGVVc1WVg3ektaTTgzM28zbU12OGVUTjVDa2NiNXBreUwxeWdCMFI4X1VuTlJnTzFQRnN0emo0aTB5QWFPclZPaGN0TEpIVFdKeVBHRmdUTjNRN1FUZUtxS2xHRXpweVQ3bHpQTlAtdl9GTTZVN09McHFaalVpcG44LUJmZXVtTWFqdlZHRVFmb0pzNlRYLWVjM3YzSXRxLTM3Njd6ONIBswFBVV95cUxNV0FjVGotbWNvQVBDcTJGVVc1WVg3ektaTTgzM28zbU12OGVUTjVDa2NiNXBreUwxeWdCMFI4X1VuTlJnTzFQRnN0emo0aTB5QWFPclZPaGN0TEpIVFdKeVBHRmdUTjNRN1FUZUtxS2xHRXpweVQ3bHpQTlAtdl9GTTZVN09McHFaalVpcG44LUJmZXVtTWFqdlZHRVFmb0pzNlRYLWVjM3YzSXRxLTM3Njd6OA?oc=5",
+          "published": "2026-02-18T11:54:47+00:00",
+          "publisher": "The Whistler Newspaper",
+          "title": "Blocking Courts From Election Cases Could Let Malpractices Go Unchecked, Says Adeyanju - The Whistler Newspaper"
+        }
+      ],
+      "hits": 4,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZGVxWnZub2VWTkVGYjlxR2JDSkNtVjBvUllIZWgxVGx5LUFUT092WFAxQ2xoV0w0QzFaQTBmMkF3SFM5MFRzb0M2MktBM1laS21nZUhSN21oM1BkMzVfcTluNTR6X1VQMnVKejVNNEIwbDhnZDlpUkZYM3puUUlEZ3M2WGM2b1k4c0ktTlVKWC0zTHppcDBESzFvQTJEREJRbjlr?oc=5",
+          "published": "2026-02-17T19:06:22+00:00",
+          "publisher": "FactCheck.org",
+          "title": "The Disagreement over Judicial and Administrative Warrants for ICE - FactCheck.org"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxPZFhzOEhweXhVVFlxcUZLVDJONUFDVzNQdDg0b2hVeFFVQlR0Q0Z5Z2dCaVNrdnNvVHNqNWJfY25jdzdtMHRfZ0xvWkRaMldOVk5xRWtvdnpzYlZqM2tDUGRzVVFUc3RsaFd6SEtpZXE1ZDFudHpzWlBNZTgyUzlJaEFHck9xdldTbWVacFlybDNOSGp5M1lybTRqemFQeU5qYzFqaS1QVTFjSWgwZ2h4b0NVc0R2cXo0dTBmWXdaN0UyNUxsSUtxWG5pVGhWQkxQamtna1c3MlhTSk55WWx6cGpjQm5BRVB2NXBzM0pqbThTazRpeXVldUNqamVCRmZ0TVhTZFhNdUo5X0VNOVhoVlFiYXQwMXlaYTJ5Mzg2VVVYUjFWVXRSVEZVRmoxMmk3dUxtbVlHTnZfdGc2UWh0TDVUeGVVTjRZb3BjeUlaTmhmZjJjb2hqcjY4T2ZnaG1xSGVxdVJnN2ZKcHh6dWNaQTU2T2ttV1N0?oc=5",
+          "published": "2026-02-18T05:00:12+00:00",
+          "publisher": "Las Vegas Review-Journal",
+          "title": "COMMENTARY: Trump puts energy policy back in Congress\u2019s hands - Las Vegas Review-Journal"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQXZvcmh6SE5zZDRtWnhSWUlDdG1XYzNUWkhidS12Ukg4ZHU3blJsN0QzRDBUT1R0MTFCclc1Z1NZUW9pb18yRFZYbVllZ0RBeGc1U2F6WkZVcnhzclNFUDZpT2h2UWVtVjQxM2hsSDhuVG5GMS13clZqV2xxaE5DYkt5QWVlSHlTSEY0OUFNa1dBclFFQ3g1c0VWM1VxZw?oc=5",
+          "published": "2026-02-17T21:59:29+00:00",
+          "publisher": "The Well News",
+          "title": "Judicial Conference Allows Judges to Answer \u2018Illegitimate\u2019 Attacks - The Well News"
+        }
+      ],
+      "hits": 3,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
@@ -194,10 +232,10 @@
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOelRxRUxJamhKd3R4bkU1V2lNT3lHdnNjOGZYRWdBYVI1SXZYa0NtUHZzdGtzNVhnM19TWlFrdU9JZkswYXBUUVE4aWxJdm1PdUQwd2RWcTdERkluQWROaERJQmdmLXFORkRJQVBEQ0hlZEg4S0dOVk13SF8tZWZrbDR0bTN3TEpQUExIUmdKQ1VjbS0wRXF2WURFd2RhX0k?oc=5",
-          "published": "2026-02-17T00:22:30+00:00",
-          "publisher": "Alabama Political Reporter",
-          "title": "Lawrence County GOP backs Doc Mancuso for District 7 ballot - Alabama Political Reporter"
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONTJRejNka0hQQ1ZPWTExcTJIcHlTWThIbU1adjVzcndZMlBvU1BCRS11NUxnZ2JXNFhtMGptblFtWnBoY2hjdzdrNmNXVVJ3eURoWXllb1c1WEVuQ1NjM3NHWUxiMTNtT3FuZXNnUHh1ZS1Ka1RweG5fRWVMRjF5cVF4bXVWRTFxeW0wcHJFajNyWnZJNkdzRklEd21OdHhUUzJwLS0yNjlIYTlBSzBydkxqWkQ5bmM1MFl5M25B?oc=5",
+          "published": "2026-02-19T08:58:51+00:00",
+          "publisher": "WGRV.com",
+          "title": "South Greene Senior Reagan Arrowood Seeks Another Option On The Path To A Greene County Commission Seat - WGRV.com"
         }
       ],
       "hits": 1,
@@ -214,30 +252,10 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMihwRBVV95cUxQM2kxUDdSQ01WNi1lZkZXbkdDSHRJVlk0REdrSXJDWVlCVWREVUYzNi12czZuVTVIR25JN28tQl9ZUmVYbXFmZlc5RWtCV3Y1ZW90YUZWRktLUHhBYlNTMjlNbFRIejhfa0FXQTFRbWJncGtNR0ZoR1pOTnlzM3ZYdi1QODJKMElXUXprYS00ZjlTZF81S1lQMkI0N1VvTFBTdmNxMmgyQUtqTmFrRFY2M213LWp0WlZObmtoVGF5TjVGS194eFVSbllHTUxra2pheFQ3eDhoZW44SGd3SG5ZTm16WFRPbUdLVy1WUEJxV3E0LXI3Vjk4WmtWbC1LREZmREJ4ZkdFWnFRaU5hUXRxVUdzclRVYTc5UVg0WnltUnNLYnYzMGhnek01ZFBJWFI4NHJsbHVwcmhWZk8ycFdCX3dCMjhGOHFvaFZaT0pUaVJwdjg3d09BWUtnQWRiZ1k1S1NYcG9SMlloNENWSnJBQ2ZGU1FoSzVITGhNNjJ2T1puYkVRTHJvTnhKYU1Bemk1Si1wcnR0UVEwcEd2ZjdQRlgycWlENUwxRjVaOEhONTlua3dxRF9HR19WVlRmQzM2anRGUHh6R0hXX2VHQm5OVEx6UXJEREZ0YlhpaWVxcm50MWV6bWozSzZvYmNKZ1dWVFA1Znl0RVczRUNBZkhodjZEVXJIYlU?oc=5",
-          "published": "2026-02-17T01:54:36+00:00",
-          "publisher": "AOL.com",
-          "title": "New judicial ethics code says judges may speak out against \u2018illegitimate\u2019 attacks - AOL.com"
-        }
-      ],
-      "hits": 1,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQ3RnSzZvSVBBT1ZDUmJoZWUwRHhwSVIxRHZTUk05cUVyM2Qzbzc1MmRZNGR1dXJfSEVha2l1Y3Y2NmVORHl2NGVWZWRINWkwNDJjVVNjWFNWb21SMmxWZHZyZEJ0RDRNQTB0bjFGSjJRcWNmdjdsUlZLekJwVzE0emlkT19RWnNUeVM3S1RBMEFmbUZxRHVjd3I0MExxQWlCTWNHTE9ib1M?oc=5",
-          "published": "2026-02-17T01:02:31+00:00",
-          "publisher": "Daily Kos",
-          "title": "Trump administration will union-bust, courts be damned - Daily Kos"
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUWo3M3JKRHBzamd3c2piWVVKSkkwWFN1OEpodTBERG4tMmNGU1RuemNvNkVFTzQ1UzBqQlZfak9DVmpOdlh1UE85MVBYUk9NSlF3YmhQMlV0amk3UGFUa2tHX2xya0Z2ZDNRTVQ5WW5zMllXUU1EQmExQUJfVTdzMkxpT3NTNkVSMTI3b2xCM2VfbFY3VmQ0S0drWGZFUWNvSjZSRUlhejVzWHhQVHlydEJlYUpJM2wzaXBZOHdCa3p2MEVhZlVj?oc=5",
+          "published": "2026-02-18T14:23:59+00:00",
+          "publisher": "Media Matters for America",
+          "title": "Right-wing influencers pushed the Trump admin to ignore judges. New reporting shows that's what's happening \u2014 especially in immigration cases. - Media Matters for America"
         }
       ],
       "hits": 1,
@@ -251,18 +269,38 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdGNvY2NGWV9wR2JnR2tCd2lhLWJabGQ1ZXVrcGhZd3dBQXc1N0dDU1RzVUdzekpLMWg3MVFRaUxCRVZqbGZZTHMzajllT3NJOWhNRW5oRVJsc1BWQzNsNjVZOGNkSExVUUNNUC1vV2ttRkNxTWhCT1RYamNaeUN4S0hB?oc=5",
-          "published": "2026-02-16T20:54:51+00:00",
-          "publisher": "AOL.com",
-          "title": "Kavanaugh warns Trump case could 'shatter' Federal Reserve independence in Supreme Court hearing - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QZThCcF93QVFSOTRyQ0lTSDluODhkTGQydDJ1cWluNFFjSy15MUZxWXZEZXhxTnRwcGU5NFAzdVNYa196eTFLSTgzWDlWdVdPVlpPSFU2NFh4YkZhd3JadTkzTGpOdk1Cb3VxWDQ5MTQ?oc=5",
+          "published": "2026-02-18T20:26:45+00:00",
+          "publisher": "Lawsuit Information Center",
+          "title": "Monsanto Roundup Lawsuit | February 2026 Update & Settlement - Lawsuit Information Center"
         }
       ],
       "hits": 1,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM0Zsa3p6ZWtBdnJMTjJiN3RnUGQwWTludmdjdk1QRjlabEFIRGsyalZpanFDbkFtQXFhZmt5MmdUNmdwUGpSN2xhNXJiYzMzanRRTEhpelBiNnVDMS1HeWg2d3NZWHZQaEFpVzBSdTRiZ3lGUVZVT3pyeF95VjR2UzJ6UW5FX3psRkUyWEljWThxX0huczNF?oc=5",
+          "published": "2026-02-18T23:26:13+00:00",
+          "publisher": "irontontribune.com",
+          "title": "Crawford: Court rulings could determine fall elections - irontontribune.com"
+        }
+      ],
+      "hits": 1,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -274,10 +312,30 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRG5ldEFwQ2RKSFIwZENzaUhuZ0hkV0pfX0xLWGJCNExfck1LdXFjVklGUW5SUHowS1M4N3BLS1NQQ3RwVTBrVTdIdk9jX1VJWFBEM0Qtc2ltWElVZFFxWUU3b1hxOG5xQnRUUmprbWctX3BucU1Ha1UtLW5TalRrVTZEMnlrVU9TTWNxN2E1Vm1iQXljQU5jNWhFUXlFQ3pidm1zYXJGUEhCQmdxMUlyQnlMb3NOeVpS?oc=5",
-          "published": "2026-02-17T11:34:02+00:00",
-          "publisher": "Splice Today",
-          "title": "Jimmy Lai\u2019s 20-Year Sentence: The Final Nail in \u201cOne Country, Two Systems\u201d - Splice Today"
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NanZsNFliZWpaYlpNUFlzMUpGWFp3RjFVSzRvRFlJYTdMNUEtUC1GVG9lTDVtYy1YQmRCSjVfcEx2U2R6MFgxeHpjNWJRLUUxRzZxYnJmMzY0bjVvcDVjTDlOV0h4eGs0eUxfRXpBVV95a2JNR004UUJ6RllRUQ?oc=5",
+          "published": "2026-02-18T19:15:53+00:00",
+          "publisher": "AOL.com",
+          "title": "Opinion: Don Lemon & the ongoing war on the free press - AOL.com"
+        }
+      ],
+      "hits": 1,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQUkYyN1BHNUVCclZJLU9CV2NGc05nRjJsRmpXRUJ2R00zcTJEODF4UFIxdWs0aEd6b1hCaEVtOHEyUlgzTWxLaC1DT0JnekNDV0l3LTF0MGVoaEFGNkVKQV9VQ1gteUp4VklTN0E0X1JtWEN0VkJ2eGtpLVBwcUk?oc=5",
+          "published": "2026-02-19T05:56:07+00:00",
+          "publisher": "AOL.com",
+          "title": "Rubio blasts China over 'unjust and tragic' 20-year sentence for Hong Kong democracy activist Jimmy Lai - AOL.com"
         }
       ],
       "hits": 1,
@@ -291,11 +349,24 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "hits": 0,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
