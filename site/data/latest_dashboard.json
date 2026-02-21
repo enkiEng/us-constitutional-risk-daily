@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 15.66,
+  "average_7d": 15.4,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,8 +9,8 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 3.0,
-  "delta_vs_7d": 6.64,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": 5.31,
   "domain_breakdown": [
     {
       "avg_severity": 0.75,
@@ -20,24 +20,24 @@
       "weight": 22
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.8833333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.75,
+      "points": 3.3125,
       "weight": 15
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.5333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.275,
+      "points": 1.8666666666666667,
       "weight": 14
     },
     {
-      "avg_severity": 1.6500000000000001,
+      "avg_severity": 1.5333333333333332,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 5.362500000000001,
+      "points": 4.9833333333333325,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.5,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.625,
+      "points": 1.25,
       "weight": 10
     },
     {
@@ -72,17 +72,23 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-02-21T15:22:49.955377+00:00",
+  "generated_at": "2026-02-21T15:34:06.001574+00:00",
   "previous_score": 19,
   "provisional": false,
-  "score": 22,
-  "score_raw": 22.3,
+  "score": 21,
+  "score_raw": 20.7,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ1d6NlJWRTIxbHBkOXBBVGVsMHRkZkxubG1MTDdHYkRKRkFFMDVWMDJMQ2J3ZE5aUDJQbW1HSEZDeGlWeGNJbl8xaUgzLVFjSThxSHJnbDA4TGNUWXlpUHBteXRMN2tRRVFyY0t0WmM5QkswVHJoa2o1UkJsMnVJenRqbno3SGVw?oc=5",
+          "published": "2026-02-20T15:31:02+00:00",
+          "publisher": "Cato Institute",
+          "title": "The Supreme Court Got It Right on IEEPA\u2014But Don\u2019t Pop the Champagne Yet - Cato Institute"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPN1dsTW1UQl8yWnVpZ21hLTRuU0dQMkpjQk1DTWhwamxQbjc4WUJuR29LVkVLVHdNZXR4OGtldGFmSUU5Q1V2RjVhNWNFTTliUUkxSVJ1RC1Bb1NvdDJkNXdXOURwTUM4LTZQRjlsQVE5RWZxRTdYaGhuZ3FQYzlESVhNYk42ZEthQURXNWpXSU9TTDk1WmVvSHI3NzM3MXY2V2dPUTBrQkFyZ2VEWF9aUjFDV0hRczc1VkRoRFpNaDZYNjQ?oc=5",
           "published": "2026-02-21T03:43:50+00:00",
@@ -94,12 +100,6 @@
           "published": "2026-02-20T21:49:14+00:00",
           "publisher": "SCOTUSblog",
           "title": "Supreme Court strikes down tariffs - SCOTUSblog"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5UXFPZHJubmdBZGxLbUkyOG1Td1hUN09CQzNpanM1b3l2eDhrdHZzX2tqSTZhcHc3RHpudVlacXdCMXU0QS05eTYtU1hmSVpuVDJOb00xdUM5QQ?oc=5",
-          "published": "2026-02-21T01:43:05+00:00",
-          "publisher": "BBC",
-          "title": "Trump brings in new 10% tariff as Supreme Court rejects his global import taxes - BBC"
         }
       ],
       "hits": 30,
@@ -116,12 +116,6 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHZTd5bXdweEVveGdmU0dUYVBuVklQUVBMMkNDU2ZUVXdFU3Y4aFB5dGp0eVNybjRxZEV1QlUxQ2Y4SmxzdkJpRk1iX0tSNmlZUVgtNGV4RzRSVEhSRzVPTHAtV2R4a3hXXzRQQklNcDQ3dlRQM1RBNFN3?oc=5",
-          "published": "2026-02-21T01:12:00+00:00",
-          "publisher": "The New York Times",
-          "title": "Trump Imposes 10% Global Tariff After Supreme Court Rules Against Him: Live Updates - The New York Times"
-        },
-        {
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ETUdqaTdvM3hYcDB0VEpXdElWYkFDWnBweklqbHk4dDVuTEJmdm8xNnpnb2U3ZjZHdEtFQTRGdS05ZmFsamowZFNJTkhsbW9MM2tkUkdZQnJDVlJlMGZqd0dJM043OEoyRkNFWkRR?oc=5",
           "published": "2026-02-20T19:24:09+00:00",
           "publisher": "Time Magazine",
@@ -132,16 +126,22 @@
           "published": "2026-02-20T16:20:53+00:00",
           "publisher": "Roll Call",
           "title": "Supreme Court invalidates Trump\u2019s tariff regime - Roll Call"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHNYT0d2aGU5UWEzYjIwakhLUTVVdWxQREhHbXNvSXc1cmNtbEZud283eW1WTlBZVlR2eTZtd0VpWFYxblYyRjJmVWhHVnNEWDgxNVhDZFkxSFZlTTgxYmtWc2RRZlFITFRsb2JIcTZqMnZpdFh1WDlWSDU2bVJrVFhOUTdHS0x6TTUxNzRiaTZNWEZWbDFTNUZDc3J0bFYydUI0ZFE0RUZxdFZDVUHSAbMBQVVfeXFMUHEzRUxWUmVGYlYwM1ZZOTNfcEF5VWJHb1hvU093VzBHbkhGemJHS2VkdV9KdVN0Z19VTUVoME12S05RNTlNUFNzTmJrejQxc1BrY2lKSXV5alQtbTB0dzVTQnFPMU5HTzRpblRjbGFod1NBN00taUFXazFJTXJzSm44blNnSjZPUHVPbEVGZVRUYWxNbzZYU1NwX1F5bmdDeHlJd0RKSXFVbjlzeF9IU1VrcFk?oc=5",
+          "published": "2026-02-21T00:13:19+00:00",
+          "publisher": "kdvr.com",
+          "title": "Colorado lawmakers react after Supreme Court rejects President Trump\u2019s tariffs - kdvr.com"
         }
       ],
-      "hits": 11,
+      "hits": 10,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 11
+      "unique_publishers": 9
     },
     {
       "critical_hits": 0,
@@ -209,38 +209,6 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHZTd5bXdweEVveGdmU0dUYVBuVklQUVBMMkNDU2ZUVXdFU3Y4aFB5dGp0eVNybjRxZEV1QlUxQ2Y4SmxzdkJpRk1iX0tSNmlZUVgtNGV4RzRSVEhSRzVPTHAtV2R4a3hXXzRQQklNcDQ3dlRQM1RBNFN3?oc=5",
-          "published": "2026-02-21T01:12:00+00:00",
-          "publisher": "The New York Times",
-          "title": "Trump Imposes 10% Global Tariff After Supreme Court Rules Against Him: Live Updates - The New York Times"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PZlBlZmVpYXFfNkpQT3JTR2k4YWV4d2M2dUNlVko0bmJhblZNYmtTQV9LSklXY2Z2R0lyVWNVX3Z1aENUOHR5Z2d2OTNwc3RIcmRxLWhNSjRaSnhKQkxsai1uN3NxdExua01kc09vOUZoVmpOdzktUQ?oc=5",
-          "published": "2026-02-19T18:47:23+00:00",
-          "publisher": "AOL.com",
-          "title": "Opinion - Section 301 won\u2019t save Trump\u2019s tariffs if the Supreme Court strikes them down - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5",
-          "published": "2026-02-19T20:49:51+00:00",
-          "publisher": "The New York Times",
-          "title": "The Trump Administration Has Been Sued 650 Times. Track These Cases. - The New York Times"
-        }
-      ],
-      "hits": 4,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
@@ -273,6 +241,38 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PZlBlZmVpYXFfNkpQT3JTR2k4YWV4d2M2dUNlVko0bmJhblZNYmtTQV9LSklXY2Z2R0lyVWNVX3Z1aENUOHR5Z2d2OTNwc3RIcmRxLWhNSjRaSnhKQkxsai1uN3NxdExua01kc09vOUZoVmpOdzktUQ?oc=5",
+          "published": "2026-02-19T18:47:23+00:00",
+          "publisher": "AOL.com",
+          "title": "Opinion - Section 301 won\u2019t save Trump\u2019s tariffs if the Supreme Court strikes them down - AOL.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5",
+          "published": "2026-02-19T20:49:51+00:00",
+          "publisher": "The New York Times",
+          "title": "The Trump Administration Has Been Sued 650 Times. Track These Cases. - The New York Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaE9TaHEtdnNETnY0dVRJaUhwaWJ0MnRqSk9BRnhVakNYVEJsS2J6S2F1R2lhel80c0xlUUZQRDYzNW1yeUVGaDlvV00yR0w1aGZVdWlFSm1hY1hUekIyeFh5TFN6Tmgzal9QT05wNUE3VkhVaC1tOHpPT1IyTDZDWXFoalVwQQ?oc=5",
+          "published": "2026-02-19T21:34:39+00:00",
+          "publisher": "AOL.com",
+          "title": "Bessent warns of 'gigantic loss' if Supreme Court strips Trump's emergency tariff powers - AOL.com"
+        }
+      ],
+      "hits": 3,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
@@ -296,6 +296,32 @@
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "federalism_oversight",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWF91YjFpb1ZaMEN2Z2dIM0l1RkJDeU1yUkJDY0JnQzBOVGliRnJvVFhYc09TR09RV1N4anBzVV91OTFZSEVnMGxWTFBfUmlEZG1QMkNmaFZTTW1zTVFycHpsd0NvVFF5RkxEbk1QWFl2dGVIX2F0Y1dqdGxQUzNTbUZNaw?oc=5",
+          "published": "2026-02-21T12:46:52+00:00",
+          "publisher": "AOL.com",
+          "title": "House Oversight GOP rejects Hillary Clinton demand for public Epstein hearing: 'No one is buying their claims' - AOL.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUlRPVkpvQ2F2elZYSndQY1labVRnamtGWVhXUF8wTEhXNF9FaEx6Z0FOMGpJYk95UG9mdXhxWklpVzNYMHVMTDZib2duck93Wjh1ODBJU3R3QVF1MEtITjlGS1FkSmlxRUdqVG9EV0FmRjYzMEQtN2JBZlBseF82d1pSdUJxa3QtZ0FlVmdIYlE0Sk51?oc=5",
+          "published": "2026-02-20T19:52:09+00:00",
+          "publisher": "AOL.com",
+          "title": "Democrats say Clintons' agreement to testify undercuts subpoena push, won't bring new Epstein answers - AOL.com"
+        }
+      ],
+      "hits": 2,
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -379,26 +405,6 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWF91YjFpb1ZaMEN2Z2dIM0l1RkJDeU1yUkJDY0JnQzBOVGliRnJvVFhYc09TR09RV1N4anBzVV91OTFZSEVnMGxWTFBfUmlEZG1QMkNmaFZTTW1zTVFycHpsd0NvVFF5RkxEbk1QWFl2dGVIX2F0Y1dqdGxQUzNTbUZNaw?oc=5",
-          "published": "2026-02-21T12:46:52+00:00",
-          "publisher": "AOL.com",
-          "title": "House Oversight GOP rejects Hillary Clinton demand for public Epstein hearing: 'No one is buying their claims' - AOL.com"
-        }
-      ],
-      "hits": 1,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [],
       "hits": 0,
@@ -406,8 +412,8 @@
       "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -419,20 +425,7 @@
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     }

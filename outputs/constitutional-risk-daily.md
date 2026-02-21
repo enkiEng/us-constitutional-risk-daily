@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-02-21 15:22:49 UTC
-- Score: **22 / 100** (Elevated Strain)
-- Previous day delta: **+3.0**
-- Delta vs 7-day average: **+6.6**
+- Generated: 2026-02-21 15:34:06 UTC
+- Score: **21 / 100** (Elevated Strain)
+- Previous day delta: **+2.0**
+- Delta vs 7-day average: **+5.3**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -15,11 +15,11 @@
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
 | Elections and Transfer of Power | 22 | 0.75 | 4.12 |
-| Judicial Independence and Rule of Law | 15 | 1.00 | 3.75 |
-| Opposition Rights and Political Pluralism | 14 | 0.65 | 2.27 |
-| Executive Constraints and Emergency Powers | 13 | 1.65 | 5.36 |
+| Judicial Independence and Rule of Law | 15 | 0.88 | 3.31 |
+| Opposition Rights and Political Pluralism | 14 | 0.53 | 1.87 |
+| Executive Constraints and Emergency Powers | 13 | 1.53 | 4.98 |
 | Civil Service and Agency Independence | 10 | 1.67 | 4.17 |
-| Civil Liberties and Information Environment | 10 | 0.65 | 1.62 |
+| Civil Liberties and Information Environment | 10 | 0.50 | 1.25 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.50 | 1.00 |
 
@@ -28,29 +28,29 @@
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
 | Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | 30 | 26 |
-| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | 11 | 11 |
+| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | 10 | 9 |
 | Election Administration Capture | elections_transfer | 2.00 (Yellow) | 8 | 5 |
 | Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 4 | 4 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 2.00 (Yellow) | 4 | 2 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | 3 | 2 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 1.65 (Watch) | 3 | 2 |
 | Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
+| Legislative Oversight Obstruction | federalism_oversight | 1.00 (Watch) | 2 | 1 |
 | Election Delay or Cancellation | elections_transfer | 1.00 (Watch) | 1 | 1 |
 | Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
 | Court Order Noncompliance | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
 | Inspector General Retaliation | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
-| Legislative Oversight Obstruction | federalism_oversight | 1.00 (Watch) | 1 | 1 |
 
 ## Evidence Samples
 
 ### Legislative Bypass by Executive
+- [Cato Institute] The Supreme Court Got It Right on IEEPA—But Don’t Pop the Champagne Yet - Cato Institute (2026-02-20) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ1d6NlJWRTIxbHBkOXBBVGVsMHRkZkxubG1MTDdHYkRKRkFFMDVWMDJMQ2J3ZE5aUDJQbW1HSEZDeGlWeGNJbl8xaUgzLVFjSThxSHJnbDA4TGNUWXlpUHBteXRMN2tRRVFyY0t0WmM5QkswVHJoa2o1UkJsMnVJenRqbno3SGVw?oc=5
 - [Daily Journal] Tariffs, text and the Constitution: The Supreme Court tells Trump to call Congress - Daily Journal (2026-02-21) - https://news.google.com/rss/articles/CBMiwwFBVV95cUxPN1dsTW1UQl8yWnVpZ21hLTRuU0dQMkpjQk1DTWhwamxQbjc4WUJuR29LVkVLVHdNZXR4OGtldGFmSUU5Q1V2RjVhNWNFTTliUUkxSVJ1RC1Bb1NvdDJkNXdXOURwTUM4LTZQRjlsQVE5RWZxRTdYaGhuZ3FQYzlESVhNYk42ZEthQURXNWpXSU9TTDk1WmVvSHI3NzM3MXY2V2dPUTBrQkFyZ2VEWF9aUjFDV0hRczc1VkRoRFpNaDZYNjQ?oc=5
 - [SCOTUSblog] Supreme Court strikes down tariffs - SCOTUSblog (2026-02-20) - https://news.google.com/rss/articles/CBMiekFVX3lxTE1sbTFTemhmV0V3U0poa0tiNElCdTRZaUlMNWxiV3VwS1NLaF8xNGV0cFNBVFV0d1M1WWpVMDhMalBmbXBIVWZHWHFsT3RVcGtsNUpTZnpFcDBfVG0yb3VwQ214S084SHVKQTVGdmtkZGE1cVdNQnRKN1NB?oc=5
-- [BBC] Trump brings in new 10% tariff as Supreme Court rejects his global import taxes - BBC (2026-02-21) - https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5UXFPZHJubmdBZGxLbUkyOG1Td1hUN09CQzNpanM1b3l2eDhrdHZzX2tqSTZhcHc3RHpudVlacXdCMXU0QS05eTYtU1hmSVpuVDJOb00xdUM5QQ?oc=5
 
 ### Emergency Powers Expansion
-- [The New York Times] Trump Imposes 10% Global Tariff After Supreme Court Rules Against Him: Live Updates - The New York Times (2026-02-21) - https://news.google.com/rss/articles/CBMiekFVX3lxTFBHZTd5bXdweEVveGdmU0dUYVBuVklQUVBMMkNDU2ZUVXdFU3Y4aFB5dGp0eVNybjRxZEV1QlUxQ2Y4SmxzdkJpRk1iX0tSNmlZUVgtNGV4RzRSVEhSRzVPTHAtV2R4a3hXXzRQQklNcDQ3dlRQM1RBNFN3?oc=5
 - [Time Magazine] Supreme Court Rules Most of Trump’s Tariffs Are Illegal - Time Magazine (2026-02-20) - https://news.google.com/rss/articles/CBMibkFVX3lxTE5ETUdqaTdvM3hYcDB0VEpXdElWYkFDWnBweklqbHk4dDVuTEJmdm8xNnpnb2U3ZjZHdEtFQTRGdS05ZmFsamowZFNJTkhsbW9MM2tkUkdZQnJDVlJlMGZqd0dJM043OEoyRkNFWkRR?oc=5
 - [Roll Call] Supreme Court invalidates Trump’s tariff regime - Roll Call (2026-02-20) - https://news.google.com/rss/articles/CBMihgFBVV95cUxNbm56bU5jQWRBNGdOVENnTVpkeGRFNEljYThNMmpSa3hQX3FrY0ZOV01yeUVyYWJGcEo3RE9KRERpTzU4MC1rVkkweDRSTzZVTFdrWWl6OHB0SGt0TFBBYURmQV9kTTQ3alNVMC1oME1VTlBZTVBIaUp3QkY0NDhhYmRkd3hJdw?oc=5
+- [kdvr.com] Colorado lawmakers react after Supreme Court rejects President Trump’s tariffs - kdvr.com (2026-02-21) - https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHNYT0d2aGU5UWEzYjIwakhLUTVVdWxQREhHbXNvSXc1cmNtbEZud283eW1WTlBZVlR2eTZtd0VpWFYxblYyRjJmVWhHVnNEWDgxNVhDZFkxSFZlTTgxYmtWc2RRZlFITFRsb2JIcTZqMnZpdFh1WDlWSDU2bVJrVFhOUTdHS0x6TTUxNzRiaTZNWEZWbDFTNUZDc3J0bFYydUI0ZFE0RUZxdFZDVUHSAbMBQVVfeXFMUHEzRUxWUmVGYlYwM1ZZOTNfcEF5VWJHb1hvU093VzBHbkhGemJHS2VkdV9KdVN0Z19VTUVoME12S05RNTlNUFNzTmJrejQxc1BrY2lKSXV5alQtbTB0dzVTQnFPMU5HTzRpblRjbGFod1NBN00taUFXazFJTXJzSm44blNnSjZPUHVPbEVGZVRUYWxNbzZYU1NwX1F5bmdDeHlJd0RKSXFVbjlzeF9IU1VrcFk?oc=5
 
 ### Election Administration Capture
 - [News From The States] As Trump targets elections, states fight back in court - News From The States (2026-02-20) - https://news.google.com/rss/articles/CBMikwFBVV95cUxNVUdMbmVqODBDTF9Va0NvN21laU83enduN3pVRDBKbDE2ZVRnci14NXdhdG4wY3g3NERHYU43SWMyUVBfcW92RGtlMXpnTDE5V0hUbjh5Yy1HbkhKSjFZVHBFTE41aHpPOWZXaEM3Z19TVDFTZnc3MHlLUWpRdnVmckJiUEFxcURIZktJR1pURUxXTVU?oc=5
@@ -62,10 +62,10 @@
 - [Fine Day 102.3] Supreme Court Rules on Dozens of Trump Administration Cases in First Year - Fine Day 102.3 (2026-02-21) - https://news.google.com/rss/articles/CBMiywFBVV95cUxNcDl4MGNhb2xVYmxFSlNYQ0Z0bXBwcHhSM2VEVWYzZ1FodVA3ZWotNG11MjVwcUI2NDVlUGRBRldjek5DOXYydlotaFhYSV9qc2tsOWJNWFk4VnR2M05rR1g1SUZMb2w5VXFVSDJnZS1MOTlnODNxQVh1ZHdabnJaOU5RWW1iaXB3TXczdy1NSkp3NFNScGl1WTV0MU01cGZJdmtMeDNhYlNCN0hPSTVHMXhJNDd1YllBUWhYbWw4QnlpZllySkRCRmhTQQ?oc=5
 - [Investing.com] Factbox-Major cases involving Trump at the US Supreme Court By Reuters - Investing.com (2026-02-21) - https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc2FHRmNBLUcxdWZwekMwZElTNXpfaGlqOVVkTzFnSkdzWi1Hak42LV8tV19XMTBaRktkVFlaSUxCQ09UTE9TcWZuaTk0VE5SYnhJWk1zOHM0dkhtdXZXMnctLU1RM1owd0VyMWN0YUVFQ25qM2tENENNWHNrT1BVdkUxdjBUNFk4dlhvTFNfWjZxVHZMbEMySG9TRkJGWXhQZTczX0NobHFweEtOOWoxOExFdktaMEZrUmVFZEVQVFY?oc=5
 
-### Judge Intimidation Campaign
-- [The New York Times] Trump Imposes 10% Global Tariff After Supreme Court Rules Against Him: Live Updates - The New York Times (2026-02-21) - https://news.google.com/rss/articles/CBMiekFVX3lxTFBHZTd5bXdweEVveGdmU0dUYVBuVklQUVBMMkNDU2ZUVXdFU3Y4aFB5dGp0eVNybjRxZEV1QlUxQ2Y4SmxzdkJpRk1iX0tSNmlZUVgtNGV4RzRSVEhSRzVPTHAtV2R4a3hXXzRQQklNcDQ3dlRQM1RBNFN3?oc=5
-- [AOL.com] Opinion - Section 301 won’t save Trump’s tariffs if the Supreme Court strikes them down - AOL.com (2026-02-19) - https://news.google.com/rss/articles/CBMieEFVX3lxTE1PZlBlZmVpYXFfNkpQT3JTR2k4YWV4d2M2dUNlVko0bmJhblZNYmtTQV9LSklXY2Z2R0lyVWNVX3Z1aENUOHR5Z2d2OTNwc3RIcmRxLWhNSjRaSnhKQkxsai1uN3NxdExua01kc09vOUZoVmpOdzktUQ?oc=5
-- [The New York Times] The Trump Administration Has Been Sued 650 Times. Track These Cases. - The New York Times (2026-02-19) - https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5
+### Civil Service Purge / Schedule F
+- [AOL.com] Trump finalizes rule making it easier to fire 50,000 federal workers - AOL.com (2026-02-21) - https://news.google.com/rss/articles/CBMif0FVX3lxTE1SRUM5MmJRS2x1WFhfZVJVUXhoY09HMHlOdFlwbXY5aHg3Yl9NbGF5dUhwZGEzcEdYQmxtNEJSWDJaamNQblNVT3V5Y1owanNFajZHY0lVc2NJQVZUb25GaUFSWlpyNGhEWVlPc3EySTFKMS1pcFlaNkJlcTdtM2c?oc=5
+- [PolitiFact] Trump fulfills promise to make it easier to fire federal workers - PolitiFact (2026-02-19) - https://news.google.com/rss/articles/CBMihAJBVV95cUxPWDh4Tm5VZ3VMdW5RU1dvRS1KdGN4ZjFLbURnT3RaQ01ZOTJTTU5xd2p0ems5WlJqeVFzMUJPdWdwVWU2eFY5VkNxeG1rTTBhYXRSQ1RZOXNKNnRGMFRYcGFFR2lBdlBjM051Rno5dEk5Skx5bS13V3l5bG5UQmQ1N3h0MW9zb0lKc3RnR1RfYXM3VWxxQkhsclRUX1NMdkw3N2hlb3h6MEZxRFUtLUNYdXNSUDJaN1QyTGxyYThCUGRxQmxBMGxuSkR0YXVVaTB0SFJMaEtXSW52WjFBR0d2NlJib2N3QW54YkdVQXEweENMZEZPc1lQZTlsRUJvZ0FoOHNOdg?oc=5
+- [AOL.com] Trump admin issues new rule, making it easier to fire 50,000 federal workers - AOL.com (2026-02-20) - https://news.google.com/rss/articles/CBMif0FVX3lxTFB5RlRKbnM2T1hkalF1cjJIeVpVLU8wSHA0TlZjdkpIM0c3eXFnelhkRk1qOVhuMGFmQ3FtMDk5RFlzSU9LbzY5WEQyTGVkakd1TE96Z1ZNQjNRT3pqb3Jld1lSWldxR2ZaQjlyMzA0OGZIdlY4cXNMcThiaEtuWkE?oc=5
 
 ## Data Quality
 
