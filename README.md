@@ -36,6 +36,8 @@ Optional GitHub repository variables:
 - `GITLAB_PROJECT_ID_OR_PATH`: defaults to `enkieng/bluesky-scheduler`.
   Set this to a numeric GitLab project ID (recommended) or full path.
 - `GITLAB_TRIGGER_REF`: defaults to `main`.
+- `DASHBOARD_PUBLIC_URL`: defaults to
+  `https://progressive-mandate.org/US-constitutional-risk-daily/`.
 
 Variables sent to the GitLab trigger:
 

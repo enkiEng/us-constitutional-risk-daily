@@ -85,6 +85,7 @@ jobs:
           GITLAB_TRIGGER_TOKEN: ${{ secrets.GITLAB_TRIGGER_TOKEN }}
           GITLAB_PROJECT_ID_OR_PATH: ${{ vars.GITLAB_PROJECT_ID_OR_PATH || 'enkieng/bluesky-scheduler' }}
           GITLAB_TRIGGER_REF: ${{ vars.GITLAB_TRIGGER_REF || 'main' }}
+          DASHBOARD_PUBLIC_URL: ${{ vars.DASHBOARD_PUBLIC_URL || 'https://progressive-mandate.org/US-constitutional-risk-daily/' }}
         run: |
           set -euo pipefail
           if [[ -z "${GITLAB_TRIGGER_TOKEN}" ]]; then
@@ -103,7 +104,7 @@ jobs:
           http_code="$(curl -sS -o /tmp/gitlab-trigger-success.json -w "%{http_code}" --request POST "${endpoint}" \
             --form token="${GITLAB_TRIGGER_TOKEN}" \
             --form ref="${GITLAB_TRIGGER_REF}" \
-            --form variables[DASHBOARD_URL]="${{ steps.deploy.outputs.page_url }}" \
+            --form variables[DASHBOARD_URL]="${DASHBOARD_PUBLIC_URL}" \
             --form variables[DASHBOARD_STATUS]="${{ steps.dashboard.outputs.status }}" \
             --form variables[DASHBOARD_SCORE]="${{ steps.dashboard.outputs.score }}" \
             --form variables[DASHBOARD_BAND]="${{ steps.dashboard.outputs.band }}" \
@@ -123,6 +124,7 @@ jobs:
           GITLAB_TRIGGER_TOKEN: ${{ secrets.GITLAB_TRIGGER_TOKEN }}
           GITLAB_PROJECT_ID_OR_PATH: ${{ vars.GITLAB_PROJECT_ID_OR_PATH || 'enkieng/bluesky-scheduler' }}
           GITLAB_TRIGGER_REF: ${{ vars.GITLAB_TRIGGER_REF || 'main' }}
+          DASHBOARD_PUBLIC_URL: ${{ vars.DASHBOARD_PUBLIC_URL || 'https://progressive-mandate.org/US-constitutional-risk-daily/' }}
         run: |
           set -euo pipefail
           if [[ -z "${GITLAB_TRIGGER_TOKEN}" ]]; then
@@ -141,7 +143,7 @@ jobs:
           http_code="$(curl -sS -o /tmp/gitlab-trigger-failure.json -w "%{http_code}" --request POST "${endpoint}" \
             --form token="${GITLAB_TRIGGER_TOKEN}" \
             --form ref="${GITLAB_TRIGGER_REF}" \
-            --form variables[DASHBOARD_URL]="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" \
+            --form variables[DASHBOARD_URL]="${DASHBOARD_PUBLIC_URL}" \
             --form variables[DASHBOARD_STATUS]="failed" \
             --form variables[DASHBOARD_SCORE]="n/a" \
             --form variables[DASHBOARD_BAND]="Unknown" \
