@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 14.33,
+  "average_7d": 15.51,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,42 +9,42 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": 4.19,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": 5.88,
   "domain_breakdown": [
     {
-      "avg_severity": 0.9125,
+      "avg_severity": 0.825,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.01875,
+      "points": 4.5375,
       "weight": 22
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 0.65,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.3125,
+      "points": 2.4375,
       "weight": 15
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 0.65,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 3.091666666666667,
+      "points": 2.275,
       "weight": 14
     },
     {
-      "avg_severity": 1.2166666666666666,
+      "avg_severity": 1.7666666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.954166666666666,
+      "points": 5.741666666666666,
       "weight": 13
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 1.3333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.0833333333333335,
+      "points": 3.333333333333333,
       "weight": 10
     },
     {
@@ -62,23 +62,87 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.5,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.0,
+      "points": 1.0,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-02-20T12:36:13.664448+00:00",
-  "previous_score": 18,
+  "generated_at": "2026-02-21T12:35:19.457741+00:00",
+  "previous_score": 19,
   "provisional": false,
-  "score": 19,
-  "score_raw": 18.52,
+  "score": 21,
+  "score_raw": 21.39,
   "successful_queries": 22,
   "top_signals": [
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPN1dsTW1UQl8yWnVpZ21hLTRuU0dQMkpjQk1DTWhwamxQbjc4WUJuR29LVkVLVHdNZXR4OGtldGFmSUU5Q1V2RjVhNWNFTTliUUkxSVJ1RC1Bb1NvdDJkNXdXOURwTUM4LTZQRjlsQVE5RWZxRTdYaGhuZ3FQYzlESVhNYk42ZEthQURXNWpXSU9TTDk1WmVvSHI3NzM3MXY2V2dPUTBrQkFyZ2VEWF9aUjFDV0hRczc1VkRoRFpNaDZYNjQ?oc=5",
+          "published": "2026-02-21T03:43:50+00:00",
+          "publisher": "Daily Journal",
+          "title": "Tariffs, text and the Constitution: The Supreme Court tells Trump to call Congress - Daily Journal"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1sbTFTemhmV0V3U0poa0tiNElCdTRZaUlMNWxiV3VwS1NLaF8xNGV0cFNBVFV0d1M1WWpVMDhMalBmbXBIVWZHWHFsT3RVcGtsNUpTZnpFcDBfVG0yb3VwQ214S084SHVKQTVGdmtkZGE1cVdNQnRKN1NB?oc=5",
+          "published": "2026-02-20T21:49:14+00:00",
+          "publisher": "SCOTUSblog",
+          "title": "Supreme Court strikes down tariffs - SCOTUSblog"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHZTd5bXdweEVveGdmU0dUYVBuVklQUVBMMkNDU2ZUVXdFU3Y4aFB5dGp0eVNybjRxZEV1QlUxQ2Y4SmxzdkJpRk1iX0tSNmlZUVgtNGV4RzRSVEhSRzVPTHAtV2R4a3hXXzRQQklNcDQ3dlRQM1RBNFN3?oc=5",
+          "published": "2026-02-21T01:12:00+00:00",
+          "publisher": "The New York Times",
+          "title": "Trump Imposes 10% Global Tariff After Supreme Court Rules Against Him: Live Updates - The New York Times"
+        }
+      ],
+      "hits": 39,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 32
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ETUdqaTdvM3hYcDB0VEpXdElWYkFDWnBweklqbHk4dDVuTEJmdm8xNnpnb2U3ZjZHdEtFQTRGdS05ZmFsamowZFNJTkhsbW9MM2tkUkdZQnJDVlJlMGZqd0dJM043OEoyRkNFWkRR?oc=5",
+          "published": "2026-02-20T19:24:09+00:00",
+          "publisher": "Time Magazine",
+          "title": "Supreme Court Rules Most of Trump\u2019s Tariffs Are Illegal - Time Magazine"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbm56bU5jQWRBNGdOVENnTVpkeGRFNEljYThNMmpSa3hQX3FrY0ZOV01yeUVyYWJGcEo3RE9KRERpTzU4MC1rVkkweDRSTzZVTFdrWWl6OHB0SGt0TFBBYURmQV9kTTQ3alNVMC1oME1VTlBZTVBIaUp3QkY0NDhhYmRkd3hJdw?oc=5",
+          "published": "2026-02-20T16:20:53+00:00",
+          "publisher": "Roll Call",
+          "title": "Supreme Court invalidates Trump\u2019s tariff regime - Roll Call"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHNYT0d2aGU5UWEzYjIwakhLUTVVdWxQREhHbXNvSXc1cmNtbEZud283eW1WTlBZVlR2eTZtd0VpWFYxblYyRjJmVWhHVnNEWDgxNVhDZFkxSFZlTTgxYmtWc2RRZlFITFRsb2JIcTZqMnZpdFh1WDlWSDU2bVJrVFhOUTdHS0x6TTUxNzRiaTZNWEZWbDFTNUZDc3J0bFYydUI0ZFE0RUZxdFZDVUHSAbMBQVVfeXFMUHEzRUxWUmVGYlYwM1ZZOTNfcEF5VWJHb1hvU093VzBHbkhGemJHS2VkdV9KdVN0Z19VTUVoME12S05RNTlNUFNzTmJrejQxc1BrY2lKSXV5alQtbTB0dzVTQnFPMU5HTzRpblRjbGFod1NBN00taUFXazFJTXJzSm44blNnSjZPUHVPbEVGZVRUYWxNbzZYU1NwX1F5bmdDeHlJd0RKSXFVbjlzeF9IU1VrcFk?oc=5",
+          "published": "2026-02-21T00:13:19+00:00",
+          "publisher": "kdvr.com",
+          "title": "Colorado lawmakers react after Supreme Court rejects President Trump\u2019s tariffs - kdvr.com"
+        }
+      ],
+      "hits": 8,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 8
+    },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
@@ -90,19 +154,19 @@
           "title": "As Trump targets elections, states fight back in court - News From The States"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcG9YdThyLS1yblFFeWVfTVVVcVptQTBjRmMwcUYtSENsWHhvSFFIUFAwV2xHZ001OXlzZEx6d2c0blBBd3lLUmJUUWo2SUJ5Q2pVZUs2SFZMaGVmWDdCT1dWMVRhOE1NY2M2UmtHNVVUR19SSkREWXVIeklPVnJRcXBYcWhpZw?oc=5",
-          "published": "2026-02-20T10:18:18+00:00",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcjRUanQyNHFOb2tKNU92bHhZTlFUb2lhUk0tdlhuQm15QkNkd21zbThhZzMzTjdtbVN5amFhbDZPaFhJT0d3ay03Z09HT0VGU2tUbVFIM3RlN1BlX053TUhNSFFKUVd2dGxLbHhkaF9ZTmtFc195V3pnM1dKbV9SSnFEOVQzLW8?oc=5",
+          "published": "2026-02-20T18:29:46+00:00",
           "publisher": "AOL.com",
-          "title": "Donald Trump Says Republicans Should 'Take Over the Voting' in at Least '15 Places' - AOL.com"
+          "title": "Election security takes center stage as GOP lawmakers push three reform bills - AOL.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa2gzWjFhMjdfY2F5UEhwZExMS19rU3M4amZJNGJZbWFSR3I1SGMwN2J5RTRQNEJxdkNiRkVKX1RRWTU0UGNPVENpcks3dGh6NVJRMF95ZS1FeURxUjdtZDlzaTF6M3NSdGY4bUFtNEpwNWV0MUpvUTNSQTFndHRkNnY2N1BObWpuQWVTLUJoMEgwYmdYTWpFWjRIVm9SQXlMc2FpbzQwd1gzV3pYc3c2ckFjS3Nmd1NBQTFKZnVMYzRTbTlFb0dBNGg3NGNnQ2c?oc=5",
-          "published": "2026-02-18T13:46:42+00:00",
-          "publisher": "Alabama Political Reporter",
-          "title": "Montgomery officials criticize bill to allow state takeovers of understaffed police departments - Alabama Political Reporter"
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBXcFo5WUlkUC1kZDJxX3RzLXBnWTVOa2lpOGJJR1BhUFhjMFdMVDlIaGJxQXJEOWptbTFNcVU5dkxjdXdLdGRpMEN3UEhMNkVaM2Zac1RhdlpsSlJrTXJTTDRVSVJDbFE0SXpsUFh6amFWNkhFbERUUHNsdHk?oc=5",
+          "published": "2026-02-20T12:26:16+00:00",
+          "publisher": "AOL.com",
+          "title": "Fulton County FBI raid update: State Election Board meets over seized 2020 ballots - AOL.com"
         }
       ],
-      "hits": 8,
+      "hits": 6,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -113,155 +177,71 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQTzBLUnZWMFQ4ZUpGY25aN0JaMVkwTG04cUUyWllFcGw0ZC12TE85NUdqclh2UW9lYWFpbmFacTUyNV9Qb3dNZ0g5UVJsVnZPeTRQcWdrSm1tdTBqWk96TnNIdnFCSE1mZlBZUEt6YU0tcEJwT1lSdGFfR21KbTUydWpXWVBoTE1RMjQ4Q1VTZ0ZqTWlLaTYwQndMdFB6OElDQXNJWWJhd3M3YUthQzJERlM1X0xabXBqQjVZc1lhUWdzT0RwakVLaGpxekd4SVA2ZzJaRE4yMlZOTTJtbnY5eFJRcVB5Rjh1QzRONmxLai1zZkxTMFlzaXJtWWxRSnhSa2RHc21sUHpxd2k3dGfSAY4CQVVfeXFMUE8wS1J2VjBUOGVKRmNuWjdCWjFZMExtOHFFMlpZRXBsNGQtdkxPOTVHanJYdlFvZWFhaW5hWnE1MjVfUG93TWdIOVFSbFZ2T3k0UHFna0ptbXUwalpPek5zSHZxQkhNZmZQWVBLemFNLXBCcE9ZUnRhX0dtSm01MnVqV1lQaExNUTI0OENVU2dGak1pS2k2MEJ3THRQejhJQ0FzSVliYXdzN2FLYUMyREZTNV9MWm1wakI1WXNZYVFnc09EcGpFS2hqcXpHeElQNmcyWkROMjJWTk0ybW52OXhSUXFQeUY4dUM0TjZsS2otc2ZMUzBZc2lybVlsUUp4UmtkR3NtbFB6cXdpN3Rn?oc=5",
-          "published": "2026-02-19T07:14:00+00:00",
-          "publisher": "Devdiscourse",
-          "title": "South Korean court sentences former President Yoon Suk Yeol to life in prison over brief martial law imposition, reports AP. - Devdiscourse"
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOU0tnaW1SZ3RLR1FMVjBwdHFOVWI2b29fT1l4UlFGTWdEWjBLM2FrdkR4Sm1Zd2xTWnpoWmlrVldqWUtlcWZ4c1MyQ3Mtd1J3a0lNbW1vWDRramd3blBrMTBCb3pBR3Rwd1JtR0x1WjU5a0xwd0l0WUx4ZUpET2NoTU1nUDdiTWZkNFV3ZFBOd0d4cXB0MkQzZDAxWlhqUGNEdmExQnRTSllvNU80UThMYThsYzdGVTFqbXU5c2t0YXNkdEFVdmRuUEpNMjJDc1VmZEdz?oc=5",
+          "published": "2026-02-20T22:40:06+00:00",
+          "publisher": "facebook.com",
+          "title": "The Supreme Court is deciding major tests of presidential power in four cases involving the Trump administration that could have generational consequences. Here are the major cases. - facebook.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMlpyUmlkLXR2STlFWHlnNERaVzJfNUNDVUxKb25qdEZfVzVPUEpEWTREZWtNU1liTUliUjlzX1R4YmhXRHd6eUZNSHJFS09oTlpMY0c5XzRqSnFtbjhEQXRYdGtsbEcxRXFEdG5haU1Ea3FjeGV4cnlkaTNxcGlHak1MTnZOOGkzMU96TVAxR0EtYzRvdlJXWUZ6bG4xZnBtNWc1Q2lRZG5RS01mLTMyU2gxNVdkYzZ5dktDUm9WZjM3SU9CSHfSAcYBQVVfeXFMTzJaclJpZC10dkk5RVh5ZzREWlcyXzVDQ1VMSm9uanRGX1c1T1BKRFk0RGVrTVNZYk1JYlI5c19UeGJoV0R3enlGTUhyRUtPaE5aTGNHOV80akpxbW44REF0WHRrbGxHMUVxRHRuYWlNRGtxY3hleHJ5ZGkzcXBpR2pNTE52TjhpMzFPek1QMUdBLWM0b3ZSV1lGemxuMWZwbTVnNUNpUWRuUUtNZi0zMlNoMTVXZGM2eXZLQ1JvVmYzN0lPQkh3?oc=5",
-          "published": "2026-02-19T10:51:06+00:00",
-          "publisher": "Devdiscourse",
-          "title": "Tragedy Unfolds: Transgender Woman Found Dead, Suspect Commits Suicide - Devdiscourse"
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcDl4MGNhb2xVYmxFSlNYQ0Z0bXBwcHhSM2VEVWYzZ1FodVA3ZWotNG11MjVwcUI2NDVlUGRBRldjek5DOXYydlotaFhYSV9qc2tsOWJNWFk4VnR2M05rR1g1SUZMb2w5VXFVSDJnZS1MOTlnODNxQVh1ZHdabnJaOU5RWW1iaXB3TXczdy1NSkp3NFNScGl1WTV0MU01cGZJdmtMeDNhYlNCN0hPSTVHMXhJNDd1YllBUWhYbWw4QnlpZllySkRCRmhTQQ?oc=5",
+          "published": "2026-02-21T01:23:20+00:00",
+          "publisher": "Fine Day 102.3",
+          "title": "Supreme Court Rules on Dozens of Trump Administration Cases in First Year - Fine Day 102.3"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbS00VkxDeTNrUWxhd1FEVmc3MUY3ckFHUndPd0NQTFI1bHBGSGZDcGN5S1dsWF9wNmFja05hRlRvTjZOUTJtWHFfNUJZT1dvblpwbXNIeGZiUTJkLTlHQUpVb0tMVC1OMF9OcUl5VFNnbjJseTctNDAydHZscTJJcnRHYzkzeXRyTmFjWWpDNFJHX1E4andKMlc1akpuZ0NCZG1qVG9BSjAwYlFjTlVzRmZZbExDUmwzRVV0a0pwNVJGcHhFWTVZNmpkZHpjRVZnSnFsV0ZIbGRHeHdmSFHSAd4BQVVfeXFMT20tNFZMQ3kza1FsYXdRRFZnNzFGN3JBR1J3T3dDUExSNWxwRkhmQ3BjeUtXbFhfcDZhY2tOYUZUb042TlEybVhxXzVCWU9Xb25acG1zSHhmYlEyZC05R0FKVW9LTFQtTjBfTnFJeVRTZ24ybHk3LTQwMnR2bHEySXJ0R2M5M3l0ck5hY1lqQzRSR19ROGp3SjJXNWpKbmdDQmRtalRvQUowMGJRY05Vc0ZmWWxMQ1JsM0VVdGtKcDVSRnB4RVk1WTZqZGR6Y0VWZ0pxbFdGSGxkR3h3ZkhR?oc=5",
-          "published": "2026-02-18T18:21:34+00:00",
-          "publisher": "Devdiscourse",
-          "title": "German Court Mandates Transparency from Social Media Giant X Ahead of Hungary Election - Devdiscourse"
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc2FHRmNBLUcxdWZwekMwZElTNXpfaGlqOVVkTzFnSkdzWi1Hak42LV8tV19XMTBaRktkVFlaSUxCQ09UTE9TcWZuaTk0VE5SYnhJWk1zOHM0dkhtdXZXMnctLU1RM1owd0VyMWN0YUVFQ25qM2tENENNWHNrT1BVdkUxdjBUNFk4dlhvTFNfWjZxVHZMbEMySG9TRkJGWXhQZTczX0NobHFweEtOOWoxOExFdktaMEZrUmVFZEVQVFY?oc=5",
+          "published": "2026-02-21T00:37:00+00:00",
+          "publisher": "Investing.com",
+          "title": "Factbox-Major cases involving Trump at the US Supreme Court By Reuters - Investing.com"
         }
       ],
-      "hits": 3,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "hits": 4,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 4
     },
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeVoyQ2d5WmVpdFEwVXFBSXJyR25TVWtBV3M1UXVBeWZod3NyOHNDX1AyMjU4ekhtZFhlWDZJZTNzX29STi00UTlkUmVPclBtLW1FM0FTdGJxOW0zWU4zVUJaYmdpbW1zbVlHeXRrODN3YjFYUmdkYnpfaHRhSC1IX1pJeFY?oc=5",
-          "published": "2026-02-19T12:45:42+00:00",
-          "publisher": "AOL.com",
-          "title": "Judge says Pete Hegseth is unlawfully retaliating against Sen. Mark Kelly over \u2018illegal orders\u2019 video - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQMWZzSTB6QVVlT0x0WDJrekFERnE2aXJrWDZ5bmRVQ3dwQUdPMWowWXRPQlJpVk9Wdk9uUzRNUUZiZWRvT3FWanF1cjhJU2lSbG94Z3JEelhrNFFRYjBPb2hsSkV4Zi1LMG51c0NCQ1gxSXZWTlZPRzdPMTN6ZEg5S3RubFl2MjlwMDVJeElURGpQd3JaLTMwQjVyT2V4b1NZSm11YXp3QW5yc0JNR01ROWM5RFdEalFkQVBIWW45Ym5NemdXdklnM1R5OWF0YVFNUVd1RGt3Rkkxc1hkcmowZGE3ZlB4OVVKU1BnSzdCaVcwSlZkRE5iX09PXy1IMldaNUFMNFRuUWt6c1FWMmRtTENpdDl1RWFsSUR1RW8tTklZc25fdkFYcDdBNm13YzhXLXlucGRxUGs?oc=5",
-          "published": "2026-02-18T18:31:14+00:00",
-          "publisher": "AOL.com",
-          "title": "DOJ has failed to secure indictments against some administration opponents - AOL.com"
-        }
-      ],
-      "hits": 2,
+      "evidence": [],
+      "hits": 0,
       "id": "politicized_prosecution_opposition",
       "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9kYTdDanhGQTdGSWFJejZuNnRzd2NNRlRoSHNzMDE0UjdOOWtsVXAwN1gyQ1BiUDE2cWM5WUNXUWhsNG1zS3hxMGEySmUxWnZRZzJNdklsTzZ5T1Jabk1BXzI2MjV1bE5iUFFwQTlyQXdrajA?oc=5",
-          "published": "2026-02-19T14:05:39+00:00",
-          "publisher": "Just Security",
-          "title": "The Army Clause: A Forgotten Constitutional Check on ICE, CBP, and the Pentagon - Just Security"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNak04T1YzeHFvU0RydzJSUWxQMzlzbUd4Slg2Skw3MWk1VWNBT1Fkdjk4WEsxUTJ2bnVrQmJPTXR1aGFLWkU2YTE4VHVOUV95eDNQQUlPYVE5QVZDWFZXSGZSM3RjTmYtWUI4N2FCMVJGc250YXZlWlJWZzdYUlpnMzZIUEdmT2M?oc=5",
-          "published": "2026-02-19T14:34:15+00:00",
-          "publisher": "\uc870\uc120\uc77c\ubcf4",
-          "title": "People Who Make the Nation a Joke - \uc870\uc120\uc77c\ubcf4"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcnNkaDY2aS1UV2NXN25UNWp1akZ4eTVfTTlqdUJ3VEMtLThZd3VkWDllMVlybkh5ZlphODNUNDZqcXpDSTY5MzNrcE5mOWlEV3JhVXVCM2ZnWTg2N0EtMjA2UVdnYXU3SXdrV21ISmc2eUVnSGVhMDZNV0YzaUtCRlhPNDU0TVMtM2pqTWpVU0haLU40amh0VjdaWkNnT1RIczBEcVJJdlgyQQ?oc=5",
-          "published": "2026-02-19T13:24:41+00:00",
-          "publisher": "Las Vegas Review-Journal",
-          "title": "COMMENTARY: Trump puts energy policy back in Congress\u2019s hands - Las Vegas Review-Journal"
-        }
-      ],
-      "hits": 3,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "evidence": [],
+      "hits": 0,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM0Zsa3p6ZWtBdnJMTjJiN3RnUGQwWTludmdjdk1QRjlabEFIRGsyalZpanFDbkFtQXFhZmt5MmdUNmdwUGpSN2xhNXJiYzMzanRRTEhpelBiNnVDMS1HeWg2d3NZWHZQaEFpVzBSdTRiZ3lGUVZVT3pyeF95VjR2UzJ6UW5FX3psRkUyWEljWThxX0huczNF?oc=5",
-          "published": "2026-02-18T23:26:13+00:00",
-          "publisher": "irontontribune.com",
-          "title": "Crawford: Court rulings could determine fall elections - irontontribune.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOQW1wUVZvNTJ4R2lBcmRMYjlJc3lSZkozcWQ4ZGNCOUo0SFFWNDVaR2JUU0w0WG1qWnMyY2FncjljZVlWX2x2OVFYZDNtVkFYQTRVZ19pWFliMGVFYmxQTWRUSjRTMWN2M0ZUYjMyOEZhVk54UXA2a1ktRDJTNGM4ZjJaTnRqaG1hdENQcWtSNGp5QTNXd0w4SnVhOV94SkttUWJQSjdVYkJXRWRGSFV3WU1COUVlTDNPdUpyWUJxZmR4dTVDNXJ1bmduYXhfYlBJSU1SZGNQcTY1MF9UOXNHTVNSTDdBOUlVbmVXWjRR0gHuAUFVX3lxTE5BbXBRVm81MnhHaUFyZExiOUlzeVJmSjNxZDhkY0I5SjRIUVY0NVpHYlRTTDRYbWpaczJjYWdyOWNlWVZfbHY5UVhkM21WQVhBNFVnX2lYWWIwZUVibFBNZFRKNFMxY3YzRlRiMzI4RmFWTnhRcDZrWS1EMlM0YzhmMlpOdGpobWF0Q1Bxa1I0anlBM1d3TDhKdWE5X3hKS21RYlBKN1ViQldFZEZIVXdZTUI5RWVMM091SnJZQnFmZHh1NUM1cnVuZ25heF9iUElJTVJkY1BxNjUwX1Q5c0dNU1JMN0E5SVVuZVdaNFE?oc=5",
-          "published": "2026-02-20T11:04:05+00:00",
-          "publisher": "The Financial Express",
-          "title": "US SC tariff ruling today: Why a Trump defeat may not lower India\u2019s bill, JPMorgan analysis - The Financial Express"
-        }
-      ],
-      "hits": 2,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMlZjVDl6NVhPZS1Ja04tcDVVYXhYNGl1bTV6RDg4NnRBZTVlOFlNMEZaYnZtendNaXI1QmZaZDZOSTNBYTRiTjB4VlZlZU1GRGZZeTJDc21Ybm9YN3RIY0p1bWp6S3VVdWU3bURRaEtvdzdEc213YVZSSkgyMC1lcHdKclE1bFZCUHpxSElWa2lhODRfU3RFclZOX2NWLUh6YWRXNw?oc=5",
-          "published": "2026-02-19T10:46:24+00:00",
-          "publisher": "Sky News",
-          "title": "Politics latest: Keir Starmer appoints new top civil servant 'to get things done' - Sky News"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOTNRRE1STGRndkdpR0JORkJrd0ZwY0twU2xkWVlnaHQ1TWU3U3ZPZjh3ekdueDNBSGlyc29xS0NSdzJYZnFJYXJ1blBMT2JGQzkxZTZLSC1sOEttX3FxbU9JamNRT2ZvWXUtcThqMnY1LWszWnpLSlYwRGxaQ0Z4cDhRdUg2SDV5enVabFA1ZEx3UDJKOFpEU0NudE9Wb2M?oc=5",
-          "published": "2026-02-19T11:39:18+00:00",
-          "publisher": "Sky News",
-          "title": "Politics latest: Cooper to meet Rubio - as Trump fails to get go-ahead for Iran strikes from UK - Sky News"
-        }
-      ],
-      "hits": 2,
-      "id": "election_delay_or_cancellation",
-      "name": "Election Delay or Cancellation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB3Q1I4ZXIwMFE5X3dEc2RwVU5jbFpqZnlhZEtnYVRZMzAwWXRYQm1qWjRKeGFIZlV0TDBwRWhFMzc0cFEtUVdTZmFfZ3FhczlFSXcwQ3lUNWdRSVdla01YVkFEZXFTVjlBUllWV2JsVEZ3WEFhNEpB?oc=5",
-          "published": "2026-02-20T11:37:51+00:00",
-          "publisher": "AOL.com",
-          "title": "Did 'Activist Judges' Derail Trump's Tariffs? - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHZTd5bXdweEVveGdmU0dUYVBuVklQUVBMMkNDU2ZUVXdFU3Y4aFB5dGp0eVNybjRxZEV1QlUxQ2Y4SmxzdkJpRk1iX0tSNmlZUVgtNGV4RzRSVEhSRzVPTHAtV2R4a3hXXzRQQklNcDQ3dlRQM1RBNFN3?oc=5",
+          "published": "2026-02-21T01:12:00+00:00",
+          "publisher": "The New York Times",
+          "title": "Trump Imposes 10% Global Tariff After Supreme Court Rules Against Him: Live Updates - The New York Times"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PZlBlZmVpYXFfNkpQT3JTR2k4YWV4d2M2dUNlVko0bmJhblZNYmtTQV9LSklXY2Z2R0lyVWNVX3Z1aENUOHR5Z2d2OTNwc3RIcmRxLWhNSjRaSnhKQkxsai1uN3NxdExua01kc09vOUZoVmpOdzktUQ?oc=5",
@@ -277,42 +257,74 @@
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONTJRejNka0hQQ1ZPWTExcTJIcHlTWThIbU1adjVzcndZMlBvU1BCRS11NUxnZ2JXNFhtMGptblFtWnBoY2hjdzdrNmNXVVJ3eURoWXllb1c1WEVuQ1NjM3NHWUxiMTNtT3FuZXNnUHh1ZS1Ka1RweG5fRWVMRjF5cVF4bXVWRTFxeW0wcHJFajNyWnZJNkdzRklEd21OdHhUUzJwLS0yNjlIYTlBSzBydkxqWkQ5bmM1MFl5M25B?oc=5",
-          "published": "2026-02-19T08:58:51+00:00",
-          "publisher": "WGRV.com",
-          "title": "South Greene Senior Reagan Arrowood Seeks Another Option On The Path To A Greene County Commission Seat - WGRV.com"
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5RlRKbnM2T1hkalF1cjJIeVpVLU8wSHA0TlZjdkpIM0c3eXFnelhkRk1qOVhuMGFmQ3FtMDk5RFlzSU9LbzY5WEQyTGVkakd1TE96Z1ZNQjNRT3pqb3Jld1lSWldxR2ZaQjlyMzA0OGZIdlY4cXNMcThiaEtuWkE?oc=5",
+          "published": "2026-02-20T18:37:26+00:00",
+          "publisher": "AOL.com",
+          "title": "Trump admin issues new rule, making it easier to fire 50,000 federal workers - AOL.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPWDh4Tm5VZ3VMdW5RU1dvRS1KdGN4ZjFLbURnT3RaQ01ZOTJTTU5xd2p0ems5WlJqeVFzMUJPdWdwVWU2eFY5VkNxeG1rTTBhYXRSQ1RZOXNKNnRGMFRYcGFFR2lBdlBjM051Rno5dEk5Skx5bS13V3l5bG5UQmQ1N3h0MW9zb0lKc3RnR1RfYXM3VWxxQkhsclRUX1NMdkw3N2hlb3h6MEZxRFUtLUNYdXNSUDJaN1QyTGxyYThCUGRxQmxBMGxuSkR0YXVVaTB0SFJMaEtXSW52WjFBR0d2NlJib2N3QW54YkdVQXEweENMZEZPc1lQZTlsRUJvZ0FoOHNOdg?oc=5",
+          "published": "2026-02-19T20:57:19+00:00",
+          "publisher": "PolitiFact",
+          "title": "Trump fulfills promise to make it easier to fire federal workers - PolitiFact"
         }
       ],
-      "hits": 1,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "hits": 2,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUWo3M3JKRHBzamd3c2piWVVKSkkwWFN1OEpodTBERG4tMmNGU1RuemNvNkVFTzQ1UzBqQlZfak9DVmpOdlh1UE85MVBYUk9NSlF3YmhQMlV0amk3UGFUa2tHX2xya0Z2ZDNRTVQ5WW5zMllXUU1EQmExQUJfVTdzMkxpT3NTNkVSMTI3b2xCM2VfbFY3VmQ0S0drWGZFUWNvSjZSRUlhejVzWHhQVHlydEJlYUpJM2wzaXBZOHdCa3p2MEVhZlVj?oc=5",
-          "published": "2026-02-18T14:23:59+00:00",
-          "publisher": "Media Matters for America",
-          "title": "Right-wing influencers pushed the Trump admin to ignore judges. New reporting shows that's what's happening \u2014 especially in immigration cases. - Media Matters for America"
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53c3NjS3BILTZ3djNlSnVZU2dabkljdEZSbGdMYzhtUkJodjRUcnUtNWpRYlhSeTZSUG8tTEtIeGVJTVdPdjllWjg3VmJrb0x2eHJMUWgyZkF2bW9USGlFRGhmcFFGRVcxY3FwT0VQSnY?oc=5",
+          "published": "2026-02-20T12:59:31+00:00",
+          "publisher": "Stockholm Center for Freedom",
+          "title": "Press Freedom in Turkey: 2025 in Review - Stockholm Center for Freedom"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPakdNRXg4bXltaWxSSnpSeUYzTWhEX0Z4czB4TEhwaWxta01wbGxESmtycWYwcTdmOE1WelRlN1JGT09NV01sSmQxRVZKSFMwSmU4RmdTc2d1LTh5am41OEFsLUo1UHctd0NCOU00SmJhYWVVN05UZkpzN0Y5TVNnTUxVVzNEd9IBiwFBVV95cUxNeVJIOUVIbWt3eEpsNU1yaEdEbUM1RmpJd2RsWnNBNllWV2IyT1NNS250ZjZwNC1rbGRFVUNKSnA2OTJ4WUxubHdELUp2UlQtOUdSeVg1eEYzVml3djVjQW9JRW8zNTZnTjZGZlBLUU5OOWpPOWt6cWtyQTVhNEFURDVNRnVjSDl6bFc4?oc=5",
+          "published": "2026-02-21T00:00:00+00:00",
+          "publisher": "The News Line",
+          "title": "Protecting journalists must be a priority in Syria - The News Line"
+        }
+      ],
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZmc2Y0YyWTgwNkJLdl9TbkN0Njhrc1BXV0plcGs4d1JFaF9VejZWUVdBSXBoVXpTSUNFdVczZmMtRW1TRnpiVnVMQmkyRnl3c0dVNm1xZndRelB3eU9ZUi0zTm94MGFSY1ExLU43eWdQVl9nd2NVQkQ0RHZzcnk1SEhIVUU?oc=5",
+          "published": "2026-02-20T23:41:56+00:00",
+          "publisher": "AOL.com",
+          "title": "Flight cancellations continue Sunday as United, Delta struggle to recover from outage - AOL.com"
         }
       ],
       "hits": 1,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
+      "id": "election_delay_or_cancellation",
+      "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -324,15 +336,15 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPWDh4Tm5VZ3VMdW5RU1dvRS1KdGN4ZjFLbURnT3RaQ01ZOTJTTU5xd2p0ems5WlJqeVFzMUJPdWdwVWU2eFY5VkNxeG1rTTBhYXRSQ1RZOXNKNnRGMFRYcGFFR2lBdlBjM051Rno5dEk5Skx5bS13V3l5bG5UQmQ1N3h0MW9zb0lKc3RnR1RfYXM3VWxxQkhsclRUX1NMdkw3N2hlb3h6MEZxRFUtLUNYdXNSUDJaN1QyTGxyYThCUGRxQmxBMGxuSkR0YXVVaTB0SFJMaEtXSW52WjFBR0d2NlJib2N3QW54YkdVQXEweENMZEZPc1lQZTlsRUJvZ0FoOHNOdg?oc=5",
-          "published": "2026-02-19T20:57:19+00:00",
-          "publisher": "PolitiFact",
-          "title": "Trump fulfills promise to make it easier to fire federal workers - PolitiFact"
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNkdZQkhZNnEzQlBHX056VENSdV8wRXJDY3VqY3F1VEdCOWRBV3djNnRHVW9NNmROOWFLQ0dqeVFxc0NNSlFRZ01iaVZjVnBmTVdVMnI1dGRnXzdyTUtyekpmR1VIWWJSdFpZQ2REeFVuXzBYdklVWGxaSXZya19SSjNhdmFwaG53aVdHWS1jMTBmYjBpblB6TFpIcVcwdUJwMlJVLWxpUW5USi1HSDdneVRQbXR2NWdWN3hfazFKT3VqWWExR0w5dExIOEpaVjlNdGZucE16VHdkekp3S3U4bWpYV18wd3VFRGNoMnJVNjBQdE0?oc=5",
+          "published": "2026-02-20T23:01:00+00:00",
+          "publisher": "thederrick.com",
+          "title": "US audit finds gaps in the FAA's oversight of United Airlines maintenance - thederrick.com"
         }
       ],
       "hits": 1,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
+      "id": "inspector_general_retaliation",
+      "name": "Inspector General Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -341,23 +353,62 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "federalism_oversight",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQUkYyN1BHNUVCclZJLU9CV2NGc05nRjJsRmpXRUJ2R00zcTJEODF4UFIxdWs0aEd6b1hCaEVtOHEyUlgzTWxLaC1DT0JnekNDV0l3LTF0MGVoaEFGNkVKQV9VQ1gteUp4VklTN0E0X1JtWEN0VkJ2eGtpLVBwcUk?oc=5",
-          "published": "2026-02-19T05:56:07+00:00",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUlRPVkpvQ2F2elZYSndQY1labVRnamtGWVhXUF8wTEhXNF9FaEx6Z0FOMGpJYk95UG9mdXhxWklpVzNYMHVMTDZib2duck93Wjh1ODBJU3R3QVF1MEtITjlGS1FkSmlxRUdqVG9EV0FmRjYzMEQtN2JBZlBseF82d1pSdUJxa3QtZ0FlVmdIYlE0Sk51?oc=5",
+          "published": "2026-02-20T19:52:09+00:00",
           "publisher": "AOL.com",
-          "title": "Rubio blasts China over 'unjust and tragic' 20-year sentence for Hong Kong democracy activist Jimmy Lai - AOL.com"
+          "title": "Democrats say Clintons' agreement to testify undercuts subpoena push, won't bring new Epstein answers - AOL.com"
         }
       ],
       "hits": 1,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [],
+      "hits": 0,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "hits": 0,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [],
+      "hits": 0,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -368,7 +419,7 @@
       "name": "Alternate Elector Scheme Activity",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -379,32 +430,6 @@
       "hits": 0,
       "id": "jurisdiction_stripping_targeted",
       "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
