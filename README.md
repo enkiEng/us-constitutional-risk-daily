@@ -17,3 +17,27 @@ This is *HIGHLY SUBJECTIVE!*  **Ideally, this risk metric should stay near "0" i
 - Per-signal daily history (`data/constitutional_signal_scores.csv`)
 - Latest machine-readable snapshot (`data/latest_dashboard.json`)
 
+## GitHub -> GitLab Bluesky Trigger
+
+The daily GitHub Action (`.github/workflows/daily-update.yml`) now triggers
+`enkiEng/bluesky-scheduler` after each run:
+
+- Success path: sends dashboard URL + status/score/band/date from
+  `data/latest_dashboard.json`.
+- Failure path: sends `DASHBOARD_STATUS=failed` with fallback URL/metadata.
+
+Required GitHub secret:
+
+- `GITLAB_TRIGGER_TOKEN`: pipeline trigger token created in the GitLab
+  `bluesky-scheduler` project.
+
+Variables sent to the GitLab trigger:
+
+- `DASHBOARD_URL`
+- `DASHBOARD_STATUS` (`live` or `provisional`)
+- `DASHBOARD_STATUS` can also be `failed` if the daily workflow errors
+- `DASHBOARD_SCORE`
+- `DASHBOARD_BAND`
+- `DASHBOARD_DATE`
+- `DASHBOARD_REPOSITORY`
+- `DASHBOARD_RUN_ID`

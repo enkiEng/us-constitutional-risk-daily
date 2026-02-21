@@ -56,3 +56,53 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
+
+      - name: Read dashboard status payload
+        id: dashboard
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          payload = json.loads(Path("data/latest_dashboard.json").read_text(encoding="utf-8"))
+          score = payload.get("score", "n/a")
+          band = (payload.get("band") or {}).get("label", "Unknown")
+          generated_at = str(payload.get("generated_at", ""))
+          date_text = generated_at[:10] if len(generated_at) >= 10 else "unknown-date"
+          status = "provisional" if bool(payload.get("provisional", False)) else "live"
+
+          with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as out:
+              out.write(f"score={score}\n")
+              out.write(f"band={band}\n")
+              out.write(f"status={status}\n")
+              out.write(f"date={date_text}\n")
+          PY
+
+      - name: Trigger GitLab scheduler
+        if: ${{ success() && secrets.GITLAB_TRIGGER_TOKEN != '' }}
+        run: |
+          curl --fail --request POST "https://gitlab.com/api/v4/projects/enkiEng%2Fbluesky-scheduler/trigger/pipeline" \
+            --form token="${{ secrets.GITLAB_TRIGGER_TOKEN }}" \
+            --form ref="main" \
+            --form variables[DASHBOARD_URL]="${{ steps.deploy.outputs.page_url }}" \
+            --form variables[DASHBOARD_STATUS]="${{ steps.dashboard.outputs.status }}" \
+            --form variables[DASHBOARD_SCORE]="${{ steps.dashboard.outputs.score }}" \
+            --form variables[DASHBOARD_BAND]="${{ steps.dashboard.outputs.band }}" \
+            --form variables[DASHBOARD_DATE]="${{ steps.dashboard.outputs.date }}" \
+            --form variables[DASHBOARD_REPOSITORY]="${{ github.repository }}" \
+            --form variables[DASHBOARD_RUN_ID]="${{ github.run_id }}"
+
+      - name: Trigger GitLab scheduler (failure status)
+        if: ${{ failure() && secrets.GITLAB_TRIGGER_TOKEN != '' }}
+        run: |
+          curl --fail --request POST "https://gitlab.com/api/v4/projects/enkiEng%2Fbluesky-scheduler/trigger/pipeline" \
+            --form token="${{ secrets.GITLAB_TRIGGER_TOKEN }}" \
+            --form ref="main" \
+            --form variables[DASHBOARD_URL]="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" \
+            --form variables[DASHBOARD_STATUS]="failed" \
+            --form variables[DASHBOARD_SCORE]="n/a" \
+            --form variables[DASHBOARD_BAND]="Unknown" \
+            --form variables[DASHBOARD_DATE]="unknown-date" \
+            --form variables[DASHBOARD_REPOSITORY]="${{ github.repository }}" \
+            --form variables[DASHBOARD_RUN_ID]="${{ github.run_id }}"
