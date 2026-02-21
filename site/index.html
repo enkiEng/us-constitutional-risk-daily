@@ -52,7 +52,7 @@
     .score {
       font-size: clamp(2rem, 4vw, 3rem);
       font-weight: 800;
-      color: hsl(94.8 82% 38%);
+      color: hsl(97.2 82% 38%);
       text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     }
     .score-scale-note {
@@ -189,7 +189,7 @@
     <section class="headline">
       <h1>US Constitutional Risk Daily</h1>
       <div class="score-row">
-        <div class="score">21 / 100</div>
+        <div class="score">19 / 100</div>
         <div class="band">Elevated Strain</div>
       </div>
       <div class="score-scale-note">Scale: 0 = no constitutional risk, 100 = constitution destroyed.</div>
@@ -199,7 +199,7 @@
       </div>
       <div>Repeated norm-breaking attempts, but institutional checks mostly holding.</div>
       <div class="status status-ok">Live data pulled today.</div>
-      <div class="note">Updated: 2026-02-21T15:34:06.001574+00:00</div>
+      <div class="note">Updated: 2026-02-21T15:43:37.000589+00:00</div>
     </section>
 
     <section class="grid">
@@ -210,8 +210,8 @@
       <div class="panel">
         <h2>Quick Metrics</h2>
         <div class="metrics">
-          <div class="metric"><div class="k">Previous Day Delta</div><div class="v">+2.0</div></div>
-          <div class="metric"><div class="k">Delta vs 7-Day Avg</div><div class="v">+5.3</div></div>
+          <div class="metric"><div class="k">Previous Day Delta</div><div class="v">0.0</div></div>
+          <div class="metric"><div class="k">Delta vs 7-Day Avg</div><div class="v">+4.3</div></div>
           <div class="metric"><div class="k">Feed Pull Success</div><div class="v">22 / 22</div></div>
           <div class="metric"><div class="k">Confidence</div><div class="v">High</div></div>
         </div>
@@ -230,11 +230,11 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td>Executive Constraints and Emergency Powers</td><td>13</td><td>1.53</td><td>4.98</td></tr>
+          <tr><td>Executive Constraints and Emergency Powers</td><td>13</td><td>1.42</td><td>4.60</td></tr>
 <tr><td>Civil Service and Agency Independence</td><td>10</td><td>1.67</td><td>4.17</td></tr>
 <tr><td>Elections and Transfer of Power</td><td>22</td><td>0.75</td><td>4.12</td></tr>
-<tr><td>Judicial Independence and Rule of Law</td><td>15</td><td>0.88</td><td>3.31</td></tr>
-<tr><td>Opposition Rights and Political Pluralism</td><td>14</td><td>0.53</td><td>1.87</td></tr>
+<tr><td>Judicial Independence and Rule of Law</td><td>15</td><td>0.77</td><td>2.88</td></tr>
+<tr><td>Opposition Rights and Political Pluralism</td><td>14</td><td>0.42</td><td>1.46</td></tr>
 <tr><td>Civil Liberties and Information Environment</td><td>10</td><td>0.50</td><td>1.25</td></tr>
 <tr><td>Federalism and Legislative Oversight</td><td>8</td><td>0.50</td><td>1.00</td></tr>
 <tr><td>Security Sector Neutrality</td><td>8</td><td>0.00</td><td>0.00</td></tr>
@@ -255,12 +255,12 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td>Legislative Bypass by Executive</td><td>executive_constraints</td><td>2.00 (Yellow)</td><td>30</td><td>26</td></tr>
-<tr><td>Emergency Powers Expansion</td><td>executive_constraints</td><td>2.00 (Yellow)</td><td>10</td><td>9</td></tr>
-<tr><td>Election Administration Capture</td><td>elections_transfer</td><td>2.00 (Yellow)</td><td>8</td><td>5</td></tr>
+          <tr><td>Legislative Bypass by Executive</td><td>executive_constraints</td><td>2.00 (Yellow)</td><td>28</td><td>26</td></tr>
+<tr><td>Emergency Powers Expansion</td><td>executive_constraints</td><td>2.00 (Yellow)</td><td>10</td><td>10</td></tr>
+<tr><td>Election Administration Capture</td><td>elections_transfer</td><td>2.00 (Yellow)</td><td>7</td><td>5</td></tr>
 <tr><td>Independent Agency Capture</td><td>civil_service_integrity</td><td>2.00 (Yellow)</td><td>4</td><td>4</td></tr>
 <tr><td>Civil Service Purge / Schedule F</td><td>civil_service_integrity</td><td>2.00 (Yellow)</td><td>3</td><td>2</td></tr>
-<tr><td>Judge Intimidation Campaign</td><td>judiciary_rule_of_law</td><td>1.65 (Watch)</td><td>3</td><td>2</td></tr>
+<tr><td>Judge Intimidation Campaign</td><td>judiciary_rule_of_law</td><td>1.30 (Watch)</td><td>3</td><td>2</td></tr>
 <tr><td>Press Restrictions or Retaliation</td><td>civil_liberties_information</td><td>1.00 (Watch)</td><td>2</td><td>2</td></tr>
 <tr><td>Legislative Oversight Obstruction</td><td>federalism_oversight</td><td>1.00 (Watch)</td><td>2</td><td>1</td></tr>
 <tr><td>Election Delay or Cancellation</td><td>elections_transfer</td><td>1.00 (Watch)</td><td>1</td><td>1</td></tr>
@@ -299,7 +299,7 @@
 
   <script>
     const labels = ["2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-21"];
-    const values = [11.0, 11.0, 13.0, 18.0, 19.0, 21.0];
+    const values = [11.0, 11.0, 13.0, 18.0, 19.0, 19.0];
     const canvas = document.getElementById("scoreChart");
     const ctx = canvas.getContext("2d");
     const w = canvas.width;

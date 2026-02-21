@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 15.4,
+  "average_7d": 15.19,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,8 +9,8 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 2.0,
-  "delta_vs_7d": 5.31,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": 4.29,
   "domain_breakdown": [
     {
       "avg_severity": 0.75,
@@ -20,24 +20,24 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 0.7666666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.3125,
+      "points": 2.875,
       "weight": 15
     },
     {
-      "avg_severity": 0.5333333333333333,
+      "avg_severity": 0.4166666666666667,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.8666666666666667,
+      "points": 1.4583333333333335,
       "weight": 14
     },
     {
-      "avg_severity": 1.5333333333333332,
+      "avg_severity": 1.4166666666666667,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.9833333333333325,
+      "points": 4.604166666666667,
       "weight": 13
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-02-21T15:34:06.001574+00:00",
+  "generated_at": "2026-02-21T15:43:37.000589+00:00",
   "previous_score": 19,
   "provisional": false,
-  "score": 21,
-  "score_raw": 20.7,
+  "score": 19,
+  "score_raw": 19.48,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -102,7 +102,7 @@
           "title": "Supreme Court strikes down tariffs - SCOTUSblog"
         }
       ],
-      "hits": 30,
+      "hits": 28,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -141,7 +141,7 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 9
+      "unique_publishers": 10
     },
     {
       "critical_hits": 0,
@@ -166,7 +166,7 @@
           "title": "MDMK Forms Committee for Seat-Sharing Talks - Devdiscourse"
         }
       ],
-      "hits": 8,
+      "hits": 7,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -267,7 +267,7 @@
       "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 2
     },
@@ -412,7 +412,7 @@
       "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -425,7 +425,7 @@
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
