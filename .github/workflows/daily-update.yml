@@ -68,6 +68,12 @@ jobs:
           payload = json.loads(Path("data/latest_dashboard.json").read_text(encoding="utf-8"))
           score = payload.get("score", "n/a")
           band = (payload.get("band") or {}).get("label", "Unknown")
+          delta_previous_day = payload.get("delta_previous_day")
+          if delta_previous_day is None:
+              delta_text = "n/a"
+          else:
+              delta_text = str(delta_previous_day)
+          confidence = str(payload.get("confidence", "unknown")).strip() or "unknown"
           generated_at = str(payload.get("generated_at", ""))
           date_text = generated_at[:10] if len(generated_at) >= 10 else "unknown-date"
           status = "provisional" if bool(payload.get("provisional", False)) else "live"
@@ -75,6 +81,8 @@ jobs:
           with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as out:
               out.write(f"score={score}\n")
               out.write(f"band={band}\n")
+              out.write(f"delta_previous_day={delta_text}\n")
+              out.write(f"confidence={confidence}\n")
               out.write(f"status={status}\n")
               out.write(f"date={date_text}\n")
           PY
@@ -86,6 +94,7 @@ jobs:
           GITLAB_PROJECT_ID_OR_PATH: ${{ vars.GITLAB_PROJECT_ID_OR_PATH || 'enkieng/bluesky-scheduler' }}
           GITLAB_TRIGGER_REF: ${{ vars.GITLAB_TRIGGER_REF || 'main' }}
           DASHBOARD_PUBLIC_URL: ${{ vars.DASHBOARD_PUBLIC_URL || 'https://progressive-mandate.org/US-constitutional-risk-daily/' }}
+          DASHBOARD_TAGS: ${{ vars.DASHBOARD_TAGS }}
         run: |
           set -euo pipefail
           if [[ -z "${GITLAB_TRIGGER_TOKEN}" ]]; then
@@ -108,7 +117,10 @@ jobs:
             --form variables[DASHBOARD_STATUS]="${{ steps.dashboard.outputs.status }}" \
             --form variables[DASHBOARD_SCORE]="${{ steps.dashboard.outputs.score }}" \
             --form variables[DASHBOARD_BAND]="${{ steps.dashboard.outputs.band }}" \
+            --form variables[DASHBOARD_DELTA_PREVIOUS_DAY]="${{ steps.dashboard.outputs.delta_previous_day }}" \
+            --form variables[DASHBOARD_CONFIDENCE]="${{ steps.dashboard.outputs.confidence }}" \
             --form variables[DASHBOARD_DATE]="${{ steps.dashboard.outputs.date }}" \
+            --form variables[DASHBOARD_TAGS]="${DASHBOARD_TAGS}" \
             --form variables[DASHBOARD_REPOSITORY]="${{ github.repository }}" \
             --form variables[DASHBOARD_RUN_ID]="${{ github.run_id }}")"
           echo "GitLab trigger HTTP status: ${http_code}"
@@ -125,6 +137,7 @@ jobs:
           GITLAB_PROJECT_ID_OR_PATH: ${{ vars.GITLAB_PROJECT_ID_OR_PATH || 'enkieng/bluesky-scheduler' }}
           GITLAB_TRIGGER_REF: ${{ vars.GITLAB_TRIGGER_REF || 'main' }}
           DASHBOARD_PUBLIC_URL: ${{ vars.DASHBOARD_PUBLIC_URL || 'https://progressive-mandate.org/US-constitutional-risk-daily/' }}
+          DASHBOARD_TAGS: ${{ vars.DASHBOARD_TAGS }}
         run: |
           set -euo pipefail
           if [[ -z "${GITLAB_TRIGGER_TOKEN}" ]]; then
@@ -147,7 +160,10 @@ jobs:
             --form variables[DASHBOARD_STATUS]="failed" \
             --form variables[DASHBOARD_SCORE]="n/a" \
             --form variables[DASHBOARD_BAND]="Unknown" \
+            --form variables[DASHBOARD_DELTA_PREVIOUS_DAY]="n/a" \
+            --form variables[DASHBOARD_CONFIDENCE]="unknown" \
             --form variables[DASHBOARD_DATE]="unknown-date" \
+            --form variables[DASHBOARD_TAGS]="${DASHBOARD_TAGS}" \
             --form variables[DASHBOARD_REPOSITORY]="${{ github.repository }}" \
             --form variables[DASHBOARD_RUN_ID]="${{ github.run_id }}")"
           echo "GitLab failure-trigger HTTP status: ${http_code}"

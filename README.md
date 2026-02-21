@@ -38,6 +38,8 @@ Optional GitHub repository variables:
 - `GITLAB_TRIGGER_REF`: defaults to `main`.
 - `DASHBOARD_PUBLIC_URL`: defaults to
   `https://progressive-mandate.org/US-constitutional-risk-daily/`.
+- `DASHBOARD_TAGS`: optional hashtag string passed through to Bluesky post
+  formatting (example: `#ConstitutionalRisk #DemocracyWatch #USPolitics`).
 
 Variables sent to the GitLab trigger:
 
@@ -46,6 +48,9 @@ Variables sent to the GitLab trigger:
 - `DASHBOARD_STATUS` can also be `failed` if the daily workflow errors
 - `DASHBOARD_SCORE`
 - `DASHBOARD_BAND`
+- `DASHBOARD_DELTA_PREVIOUS_DAY`
+- `DASHBOARD_CONFIDENCE`
 - `DASHBOARD_DATE`
+- `DASHBOARD_TAGS`
 - `DASHBOARD_REPOSITORY`
 - `DASHBOARD_RUN_ID`
