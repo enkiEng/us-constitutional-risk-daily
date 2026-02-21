@@ -445,6 +445,7 @@ def render_html(summary: dict[str, Any], history_rows: list[dict[str, str]]) -> 
       <p>Method: score is a weighted 0-100 indicator from domain-level constitutional stress signals. This is an early-warning tool, not legal proof.</p>
       <p>Use high-severity changes only after validating with primary legal records, court orders, and official filings.</p>
       <p>Raw artifacts: <a href="./data/latest_dashboard.json">latest_dashboard.json</a> | <a href="./data/constitutional_risk_history.csv">constitutional_risk_history.csv</a></p>
+      <p>More analysis: <a href="https://progressive-mandate.org" target="_blank" rel="noopener noreferrer">Progressive Mandate</a></p>
     </footer>
   </main>
 
