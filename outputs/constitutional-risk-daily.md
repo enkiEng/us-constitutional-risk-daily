@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-02-21 18:54:43 UTC
-- Score: **20 / 100** (Elevated Strain)
-- Previous day delta: **+1.0**
-- Delta vs 7-day average: **+4.9**
+- Generated: 2026-02-21 19:05:48 UTC
+- Score: **19 / 100** (Elevated Strain)
+- Previous day delta: **0.0**
+- Delta vs 7-day average: **+4.2**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -14,8 +14,8 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.91 | 5.02 |
-| Judicial Independence and Rule of Law | 15 | 0.88 | 3.31 |
+| Elections and Transfer of Power | 22 | 0.82 | 4.54 |
+| Judicial Independence and Rule of Law | 15 | 0.77 | 2.88 |
 | Opposition Rights and Political Pluralism | 14 | 0.33 | 1.17 |
 | Executive Constraints and Emergency Powers | 13 | 1.33 | 4.33 |
 | Civil Service and Agency Independence | 10 | 1.67 | 4.17 |
@@ -27,13 +27,13 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | 27 | 25 |
-| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | 10 | 10 |
+| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | 34 | 31 |
+| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | 14 | 13 |
 | Election Administration Capture | elections_transfer | 2.00 (Yellow) | 8 | 5 |
 | Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 5 | 5 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | 3 | 2 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 1.65 (Watch) | 2 | 1 |
-| Election Delay or Cancellation | elections_transfer | 1.65 (Watch) | 1 | 1 |
+| Election Delay or Cancellation | elections_transfer | 1.30 (Watch) | 1 | 1 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 1.30 (Watch) | 1 | 1 |
 | Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
 | Legislative Oversight Obstruction | federalism_oversight | 1.00 (Watch) | 2 | 1 |
 | Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
