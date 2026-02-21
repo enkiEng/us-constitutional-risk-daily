@@ -80,12 +80,17 @@ jobs:
           PY
 
       - name: Trigger GitLab scheduler
-        if: ${{ success() && secrets.GITLAB_TRIGGER_TOKEN != '' }}
+        if: ${{ success() }}
         env:
+          GITLAB_TRIGGER_TOKEN: ${{ secrets.GITLAB_TRIGGER_TOKEN }}
           GITLAB_PROJECT_ID_OR_PATH: ${{ vars.GITLAB_PROJECT_ID_OR_PATH || 'enkieng/bluesky-scheduler' }}
           GITLAB_TRIGGER_REF: ${{ vars.GITLAB_TRIGGER_REF || 'main' }}
         run: |
           set -euo pipefail
+          if [[ -z "${GITLAB_TRIGGER_TOKEN}" ]]; then
+            echo "GITLAB_TRIGGER_TOKEN is not configured; skipping GitLab trigger."
+            exit 0
+          fi
           encoded_project="$(python - <<'PY'
           import os
           import urllib.parse
@@ -96,7 +101,7 @@ jobs:
           endpoint="https://gitlab.com/api/v4/projects/${encoded_project}/trigger/pipeline"
           echo "Triggering GitLab pipeline for project=${GITLAB_PROJECT_ID_OR_PATH} ref=${GITLAB_TRIGGER_REF} status=${{ steps.dashboard.outputs.status }}"
           http_code="$(curl -sS -o /tmp/gitlab-trigger-success.json -w "%{http_code}" --request POST "${endpoint}" \
-            --form token="${{ secrets.GITLAB_TRIGGER_TOKEN }}" \
+            --form token="${GITLAB_TRIGGER_TOKEN}" \
             --form ref="${GITLAB_TRIGGER_REF}" \
             --form variables[DASHBOARD_URL]="${{ steps.deploy.outputs.page_url }}" \
             --form variables[DASHBOARD_STATUS]="${{ steps.dashboard.outputs.status }}" \
@@ -113,12 +118,17 @@ jobs:
           fi
 
       - name: Trigger GitLab scheduler (failure status)
-        if: ${{ failure() && secrets.GITLAB_TRIGGER_TOKEN != '' }}
+        if: ${{ failure() }}
         env:
+          GITLAB_TRIGGER_TOKEN: ${{ secrets.GITLAB_TRIGGER_TOKEN }}
           GITLAB_PROJECT_ID_OR_PATH: ${{ vars.GITLAB_PROJECT_ID_OR_PATH || 'enkieng/bluesky-scheduler' }}
           GITLAB_TRIGGER_REF: ${{ vars.GITLAB_TRIGGER_REF || 'main' }}
         run: |
           set -euo pipefail
+          if [[ -z "${GITLAB_TRIGGER_TOKEN}" ]]; then
+            echo "GITLAB_TRIGGER_TOKEN is not configured; skipping GitLab failure notification."
+            exit 0
+          fi
           encoded_project="$(python - <<'PY'
           import os
           import urllib.parse
@@ -129,7 +139,7 @@ jobs:
           endpoint="https://gitlab.com/api/v4/projects/${encoded_project}/trigger/pipeline"
           echo "Triggering GitLab failure notification for project=${GITLAB_PROJECT_ID_OR_PATH} ref=${GITLAB_TRIGGER_REF}"
           http_code="$(curl -sS -o /tmp/gitlab-trigger-failure.json -w "%{http_code}" --request POST "${endpoint}" \
-            --form token="${{ secrets.GITLAB_TRIGGER_TOKEN }}" \
+            --form token="${GITLAB_TRIGGER_TOKEN}" \
             --form ref="${GITLAB_TRIGGER_REF}" \
             --form variables[DASHBOARD_URL]="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" \
             --form variables[DASHBOARD_STATUS]="failed" \
