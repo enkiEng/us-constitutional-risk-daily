@@ -31,6 +31,12 @@ Required GitHub secret:
 - `GITLAB_TRIGGER_TOKEN`: pipeline trigger token created in the GitLab
   `bluesky-scheduler` project.
 
+Optional GitHub repository variables:
+
+- `GITLAB_PROJECT_ID_OR_PATH`: defaults to `enkieng/bluesky-scheduler`.
+  Set this to a numeric GitLab project ID (recommended) or full path.
+- `GITLAB_TRIGGER_REF`: defaults to `main`.
+
 Variables sent to the GitLab trigger:
 
 - `DASHBOARD_URL`

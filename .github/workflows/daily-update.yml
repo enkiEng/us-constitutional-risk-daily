@@ -81,28 +81,65 @@ jobs:
 
       - name: Trigger GitLab scheduler
         if: ${{ success() && secrets.GITLAB_TRIGGER_TOKEN != '' }}
+        env:
+          GITLAB_PROJECT_ID_OR_PATH: ${{ vars.GITLAB_PROJECT_ID_OR_PATH || 'enkieng/bluesky-scheduler' }}
+          GITLAB_TRIGGER_REF: ${{ vars.GITLAB_TRIGGER_REF || 'main' }}
         run: |
-          curl --fail --request POST "https://gitlab.com/api/v4/projects/enkiEng%2Fbluesky-scheduler/trigger/pipeline" \
+          set -euo pipefail
+          encoded_project="$(python - <<'PY'
+          import os
+          import urllib.parse
+
+          print(urllib.parse.quote(os.environ["GITLAB_PROJECT_ID_OR_PATH"], safe=""))
+          PY
+          )"
+          endpoint="https://gitlab.com/api/v4/projects/${encoded_project}/trigger/pipeline"
+          echo "Triggering GitLab pipeline for project=${GITLAB_PROJECT_ID_OR_PATH} ref=${GITLAB_TRIGGER_REF} status=${{ steps.dashboard.outputs.status }}"
+          http_code="$(curl -sS -o /tmp/gitlab-trigger-success.json -w "%{http_code}" --request POST "${endpoint}" \
             --form token="${{ secrets.GITLAB_TRIGGER_TOKEN }}" \
-            --form ref="main" \
+            --form ref="${GITLAB_TRIGGER_REF}" \
             --form variables[DASHBOARD_URL]="${{ steps.deploy.outputs.page_url }}" \
             --form variables[DASHBOARD_STATUS]="${{ steps.dashboard.outputs.status }}" \
             --form variables[DASHBOARD_SCORE]="${{ steps.dashboard.outputs.score }}" \
             --form variables[DASHBOARD_BAND]="${{ steps.dashboard.outputs.band }}" \
             --form variables[DASHBOARD_DATE]="${{ steps.dashboard.outputs.date }}" \
             --form variables[DASHBOARD_REPOSITORY]="${{ github.repository }}" \
-            --form variables[DASHBOARD_RUN_ID]="${{ github.run_id }}"
+            --form variables[DASHBOARD_RUN_ID]="${{ github.run_id }}")"
+          echo "GitLab trigger HTTP status: ${http_code}"
+          cat /tmp/gitlab-trigger-success.json
+          if [[ "${http_code}" != "201" ]]; then
+            echo "::error::GitLab trigger failed (expected HTTP 201)."
+            exit 1
+          fi
 
       - name: Trigger GitLab scheduler (failure status)
         if: ${{ failure() && secrets.GITLAB_TRIGGER_TOKEN != '' }}
+        env:
+          GITLAB_PROJECT_ID_OR_PATH: ${{ vars.GITLAB_PROJECT_ID_OR_PATH || 'enkieng/bluesky-scheduler' }}
+          GITLAB_TRIGGER_REF: ${{ vars.GITLAB_TRIGGER_REF || 'main' }}
         run: |
-          curl --fail --request POST "https://gitlab.com/api/v4/projects/enkiEng%2Fbluesky-scheduler/trigger/pipeline" \
+          set -euo pipefail
+          encoded_project="$(python - <<'PY'
+          import os
+          import urllib.parse
+
+          print(urllib.parse.quote(os.environ["GITLAB_PROJECT_ID_OR_PATH"], safe=""))
+          PY
+          )"
+          endpoint="https://gitlab.com/api/v4/projects/${encoded_project}/trigger/pipeline"
+          echo "Triggering GitLab failure notification for project=${GITLAB_PROJECT_ID_OR_PATH} ref=${GITLAB_TRIGGER_REF}"
+          http_code="$(curl -sS -o /tmp/gitlab-trigger-failure.json -w "%{http_code}" --request POST "${endpoint}" \
             --form token="${{ secrets.GITLAB_TRIGGER_TOKEN }}" \
-            --form ref="main" \
+            --form ref="${GITLAB_TRIGGER_REF}" \
             --form variables[DASHBOARD_URL]="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/" \
             --form variables[DASHBOARD_STATUS]="failed" \
             --form variables[DASHBOARD_SCORE]="n/a" \
             --form variables[DASHBOARD_BAND]="Unknown" \
             --form variables[DASHBOARD_DATE]="unknown-date" \
             --form variables[DASHBOARD_REPOSITORY]="${{ github.repository }}" \
-            --form variables[DASHBOARD_RUN_ID]="${{ github.run_id }}"
+            --form variables[DASHBOARD_RUN_ID]="${{ github.run_id }}")"
+          echo "GitLab failure-trigger HTTP status: ${http_code}"
+          cat /tmp/gitlab-trigger-failure.json
+          if [[ "${http_code}" != "201" ]]; then
+            echo "::warning::GitLab failure notification trigger was not accepted."
+          fi
