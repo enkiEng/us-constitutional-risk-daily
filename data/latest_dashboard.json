@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 15.47,
+  "average_7d": 15.32,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,21 +9,21 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 2.0,
-  "delta_vs_7d": 5.69,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": 4.93,
   "domain_breakdown": [
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.9125,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.5,
+      "points": 5.01875,
       "weight": 22
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.8833333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.75,
+      "points": 3.3125,
       "weight": 15
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-02-21T15:52:15.926621+00:00",
+  "generated_at": "2026-02-21T18:54:43.783316+00:00",
   "previous_score": 19,
   "provisional": false,
-  "score": 21,
-  "score_raw": 21.17,
+  "score": 20,
+  "score_raw": 20.25,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -96,31 +96,25 @@
           "title": "Tariffs, text and the Constitution: The Supreme Court tells Trump to call Congress - Daily Journal"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5UXFPZHJubmdBZGxLbUkyOG1Td1hUN09CQzNpanM1b3l2eDhrdHZzX2tqSTZhcHc3RHpudVlacXdCMXU0QS05eTYtU1hmSVpuVDJOb00xdUM5QQ?oc=5",
-          "published": "2026-02-21T11:58:18+00:00",
-          "publisher": "BBC",
-          "title": "Trump brings in new 10% tariff as Supreme Court rejects his global import taxes - BBC"
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1sbTFTemhmV0V3U0poa0tiNElCdTRZaUlMNWxiV3VwS1NLaF8xNGV0cFNBVFV0d1M1WWpVMDhMalBmbXBIVWZHWHFsT3RVcGtsNUpTZnpFcDBfVG0yb3VwQ214S084SHVKQTVGdmtkZGE1cVdNQnRKN1NB?oc=5",
+          "published": "2026-02-20T21:49:14+00:00",
+          "publisher": "SCOTUSblog",
+          "title": "Supreme Court strikes down tariffs - SCOTUSblog"
         }
       ],
-      "hits": 26,
+      "hits": 27,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 24
+      "unique_publishers": 25
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHZTd5bXdweEVveGdmU0dUYVBuVklQUVBMMkNDU2ZUVXdFU3Y4aFB5dGp0eVNybjRxZEV1QlUxQ2Y4SmxzdkJpRk1iX0tSNmlZUVgtNGV4RzRSVEhSRzVPTHAtV2R4a3hXXzRQQklNcDQ3dlRQM1RBNFN3?oc=5",
-          "published": "2026-02-21T01:12:00+00:00",
-          "publisher": "The New York Times",
-          "title": "Trump Imposes 10% Global Tariff After Supreme Court Rules Against Him: Live Updates - The New York Times"
-        },
         {
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ETUdqaTdvM3hYcDB0VEpXdElWYkFDWnBweklqbHk4dDVuTEJmdm8xNnpnb2U3ZjZHdEtFQTRGdS05ZmFsamowZFNJTkhsbW9MM2tkUkdZQnJDVlJlMGZqd0dJM043OEoyRkNFWkRR?oc=5",
           "published": "2026-02-20T19:24:09+00:00",
@@ -132,6 +126,12 @@
           "published": "2026-02-20T16:20:53+00:00",
           "publisher": "Roll Call",
           "title": "Supreme Court invalidates Trump\u2019s tariff regime - Roll Call"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWHNYT0d2aGU5UWEzYjIwakhLUTVVdWxQREhHbXNvSXc1cmNtbEZud283eW1WTlBZVlR2eTZtd0VpWFYxblYyRjJmVWhHVnNEWDgxNVhDZFkxSFZlTTgxYmtWc2RRZlFITFRsb2JIcTZqMnZpdFh1WDlWSDU2bVJrVFhOUTdHS0x6TTUxNzRiaTZNWEZWbDFTNUZDc3J0bFYydUI0ZFE0RUZxdFZDVUHSAbMBQVVfeXFMUHEzRUxWUmVGYlYwM1ZZOTNfcEF5VWJHb1hvU093VzBHbkhGemJHS2VkdV9KdVN0Z19VTUVoME12S05RNTlNUFNzTmJrejQxc1BrY2lKSXV5alQtbTB0dzVTQnFPMU5HTzRpblRjbGFod1NBN00taUFXazFJTXJzSm44blNnSjZPUHVPbEVGZVRUYWxNbzZYU1NwX1F5bmdDeHlJd0RKSXFVbjlzeF9IU1VrcFk?oc=5",
+          "published": "2026-02-21T00:13:19+00:00",
+          "publisher": "kdvr.com",
+          "title": "Colorado lawmakers react after Supreme Court rejects President Trump\u2019s tariffs - kdvr.com"
         }
       ],
       "hits": 10,
@@ -160,10 +160,10 @@
           "title": "Election security takes center stage as GOP lawmakers push three reform bills - AOL.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQWt2NnJWc2s1dGxQS1FlS21kT3hYYjY5dXpvYjMybld5QUFUTlJsa2pLODN1bEdZRm1TV3JvYlV0N1NISHBvZG8xOUpBbS1ncThLVWNreHpfRlM3VG9vT0xBTFlQYjVYUElmUUVWRkxRWEZWUHRlWnlDRzVJaFFwd0poNG5ZMGhKa1JBOFpuQkdwTkRleUNqaldZR0FvRVM3dkNJ0gGjAUFVX3lxTE9Ba3Y2clZzazV0bFBLUWVLbWRPeFhiNjl1em9iMzJuV3lBQVROUmxraks4M3VsR1lGbVNXcm9iVXQ3U0hIcG9kbzE5SkFtLWdxOEtVY2t4el9GUzdUb29PTEFMWVBiNVhQSWZRRVZGTFFYRlZQdGVaeUNHNUloUXB3Smg0blkwaEprUkE4Wm5CR3BORGV5Q2pqV1lHQW9FUzd2Q0k?oc=5",
-          "published": "2026-02-21T11:02:43+00:00",
-          "publisher": "Devdiscourse",
-          "title": "MDMK Forms Committee for Seat-Sharing Talks - Devdiscourse"
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBXcFo5WUlkUC1kZDJxX3RzLXBnWTVOa2lpOGJJR1BhUFhjMFdMVDlIaGJxQXJEOWptbTFNcVU5dkxjdXdLdGRpMEN3UEhMNkVaM2Zac1RhdlpsSlJrTXJTTDRVSVJDbFE0SXpsUFh6amFWNkhFbERUUHNsdHk?oc=5",
+          "published": "2026-02-20T12:26:16+00:00",
+          "publisher": "AOL.com",
+          "title": "Fulton County FBI raid update: State Election Board meets over seized 2020 ballots - AOL.com"
         }
       ],
       "hits": 8,
@@ -180,6 +180,12 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjRrTkZwazNNMlFWQTdUbjM4TlF3d3BhMGx1R0hJUENaOXpXWkRtZXE2NVVJZ2U1MWdoODAxQzR4X0pEWVFMVHNTUGpDeDlkd0FUVEUwc3NZOGJPOFJKQ2RkMkRESmtIbUh1ckVsWDZ0WXBDSk9lVDdPR0lzOWZzTGJBY0ZXa0xGLWl2SFNxSUFHSzlRMG84UDdQZUw2elU?oc=5",
+          "published": "2026-02-21T17:31:44+00:00",
+          "publisher": "The Washington Post",
+          "title": "Handing defeats to Trump, Supreme Court signals potential course change - The Washington Post"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOU0tnaW1SZ3RLR1FMVjBwdHFOVWI2b29fT1l4UlFGTWdEWjBLM2FrdkR4Sm1Zd2xTWnpoWmlrVldqWUtlcWZ4c1MyQ3Mtd1J3a0lNbW1vWDRramd3blBrMTBCb3pBR3Rwd1JtR0x1WjU5a0xwd0l0WUx4ZUpET2NoTU1nUDdiTWZkNFV3ZFBOd0d4cXB0MkQzZDAxWlhqUGNEdmExQnRTSllvNU80UThMYThsYzdGVTFqbXU5c2t0YXNkdEFVdmRuUEpNMjJDc1VmZEdz?oc=5",
           "published": "2026-02-20T22:40:06+00:00",
           "publisher": "facebook.com",
@@ -190,54 +196,16 @@
           "published": "2026-02-21T01:23:20+00:00",
           "publisher": "Fine Day 102.3",
           "title": "Supreme Court Rules on Dozens of Trump Administration Cases in First Year - Fine Day 102.3"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQc2FHRmNBLUcxdWZwekMwZElTNXpfaGlqOVVkTzFnSkdzWi1Hak42LV8tV19XMTBaRktkVFlaSUxCQ09UTE9TcWZuaTk0VE5SYnhJWk1zOHM0dkhtdXZXMnctLU1RM1owd0VyMWN0YUVFQ25qM2tENENNWHNrT1BVdkUxdjBUNFk4dlhvTFNfWjZxVHZMbEMySG9TRkJGWXhQZTczX0NobHFweEtOOWoxOExFdktaMEZrUmVFZEVQVFY?oc=5",
-          "published": "2026-02-21T00:37:00+00:00",
-          "publisher": "Investing.com",
-          "title": "Factbox-Major cases involving Trump at the US Supreme Court By Reuters - Investing.com"
         }
       ],
-      "hits": 4,
+      "hits": 5,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 4
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHZTd5bXdweEVveGdmU0dUYVBuVklQUVBMMkNDU2ZUVXdFU3Y4aFB5dGp0eVNybjRxZEV1QlUxQ2Y4SmxzdkJpRk1iX0tSNmlZUVgtNGV4RzRSVEhSRzVPTHAtV2R4a3hXXzRQQklNcDQ3dlRQM1RBNFN3?oc=5",
-          "published": "2026-02-21T01:12:00+00:00",
-          "publisher": "The New York Times",
-          "title": "Trump Imposes 10% Global Tariff After Supreme Court Rules Against Him: Live Updates - The New York Times"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PZlBlZmVpYXFfNkpQT3JTR2k4YWV4d2M2dUNlVko0bmJhblZNYmtTQV9LSklXY2Z2R0lyVWNVX3Z1aENUOHR5Z2d2OTNwc3RIcmRxLWhNSjRaSnhKQkxsai1uN3NxdExua01kc09vOUZoVmpOdzktUQ?oc=5",
-          "published": "2026-02-19T18:47:23+00:00",
-          "publisher": "AOL.com",
-          "title": "Opinion - Section 301 won\u2019t save Trump\u2019s tariffs if the Supreme Court strikes them down - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5",
-          "published": "2026-02-19T20:49:51+00:00",
-          "publisher": "The New York Times",
-          "title": "The Trump Administration Has Been Sued 650 Times. Track These Cases. - The New York Times"
-        }
-      ],
-      "hits": 4,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 5
     },
     {
       "critical_hits": 0,
@@ -273,14 +241,34 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOTNRRE1STGRndkdpR0JORkJrd0ZwY0twU2xkWVlnaHQ1TWU3U3ZPZjh3ekdueDNBSGlyc29xS0NSdzJYZnFJYXJ1blBMT2JGQzkxZTZLSC1sOEttX3FxbU9JamNRT2ZvWXUtcThqMnY1LWszWnpLSlYwRGxaQ0Z4cDhRdUg2SDV5enVabFA1ZEx3UDJKOFpEU0NudE9Wb2M?oc=5",
-          "published": "2026-02-21T11:38:25+00:00",
-          "publisher": "Sky News",
-          "title": "Politics latest: Cooper in US as UK and EU nations agree to develop air defence weapons - Sky News"
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHZTd5bXdweEVveGdmU0dUYVBuVklQUVBMMkNDU2ZUVXdFU3Y4aFB5dGp0eVNybjRxZEV1QlUxQ2Y4SmxzdkJpRk1iX0tSNmlZUVgtNGV4RzRSVEhSRzVPTHAtV2R4a3hXXzRQQklNcDQ3dlRQM1RBNFN3?oc=5",
+          "published": "2026-02-21T01:12:00+00:00",
+          "publisher": "The New York Times",
+          "title": "Trump Imposes 10% Global Tariff After Supreme Court Rules Against Him: Live Updates - The New York Times"
         },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5",
+          "published": "2026-02-19T20:49:51+00:00",
+          "publisher": "The New York Times",
+          "title": "The Trump Administration Has Been Sued 650 Times. Track These Cases. - The New York Times"
+        }
+      ],
+      "hits": 2,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZmc2Y0YyWTgwNkJLdl9TbkN0Njhrc1BXV0plcGs4d1JFaF9VejZWUVdBSXBoVXpTSUNFdVczZmMtRW1TRnpiVnVMQmkyRnl3c0dVNm1xZndRelB3eU9ZUi0zTm94MGFSY1ExLU43eWdQVl9nd2NVQkQ0RHZzcnk1SEhIVUU?oc=5",
           "published": "2026-02-20T23:41:56+00:00",
@@ -288,14 +276,14 @@
           "title": "Flight cancellations continue Sunday as United, Delta struggle to recover from outage - AOL.com"
         }
       ],
-      "hits": 2,
+      "hits": 1,
       "id": "election_delay_or_cancellation",
       "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
