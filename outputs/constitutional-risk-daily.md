@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-02-23 12:34:56 UTC
-- Score: **16 / 100** (Elevated Strain)
-- Previous day delta: **-2.0**
-- Delta vs 7-day average: **-0.1**
+- Generated: 2026-02-24 12:35:03 UTC
+- Score: **17 / 100** (Elevated Strain)
+- Previous day delta: **+1.0**
+- Delta vs 7-day average: **-0.5**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -14,61 +14,59 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.66 | 3.64 |
-| Judicial Independence and Rule of Law | 15 | 0.30 | 1.12 |
-| Opposition Rights and Political Pluralism | 14 | 0.67 | 2.33 |
-| Executive Constraints and Emergency Powers | 13 | 1.33 | 4.33 |
-| Civil Service and Agency Independence | 10 | 1.20 | 3.00 |
-| Civil Liberties and Information Environment | 10 | 0.33 | 0.81 |
+| Elections and Transfer of Power | 22 | 0.82 | 4.54 |
+| Judicial Independence and Rule of Law | 15 | 0.08 | 0.31 |
+| Opposition Rights and Political Pluralism | 14 | 0.55 | 1.92 |
+| Executive Constraints and Emergency Powers | 13 | 1.67 | 5.42 |
+| Civil Service and Agency Independence | 10 | 0.85 | 2.12 |
+| Civil Liberties and Information Environment | 10 | 0.65 | 1.62 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
-| Federalism and Legislative Oversight | 8 | 0.50 | 1.00 |
+| Federalism and Legislative Oversight | 8 | 0.33 | 0.65 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | 8 | 8 |
-| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | 7 | 6 |
-| Election Administration Capture | elections_transfer | 1.65 (Watch) | 3 | 3 |
-| Independent Agency Capture | civil_service_integrity | 1.65 (Watch) | 2 | 2 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 1.30 (Watch) | 1 | 1 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 2 | 2 |
-| Election Delay or Cancellation | elections_transfer | 1.00 (Watch) | 1 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | 7 | 7 |
+| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | 4 | 3 |
+| Election Delay or Cancellation | elections_transfer | 2.00 (Yellow) | 3 | 3 |
+| Election Administration Capture | elections_transfer | 1.30 (Watch) | 1 | 1 |
+| Independent Agency Capture | civil_service_integrity | 1.30 (Watch) | 0 | 0 |
 | Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
-| Legislative Oversight Obstruction | federalism_oversight | 1.00 (Watch) | 1 | 1 |
-| Inspector General Retaliation | civil_service_integrity | 0.65 (Green) | 0 | 0 |
-| Press Restrictions or Retaliation | civil_liberties_information | 0.65 (Green) | 0 | 0 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 0.60 (Green) | 0 | 0 |
+| Martial Law or Military Governance Language | executive_constraints | 1.00 (Watch) | 1 | 1 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 0.95 (Watch) | 0 | 0 |
+| Opposition Ballot Exclusion | opposition_pluralism | 0.65 (Green) | 0 | 0 |
+| Legislative Oversight Obstruction | federalism_oversight | 0.65 (Green) | 0 | 0 |
+| Inspector General Retaliation | civil_service_integrity | 0.30 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Legislative Bypass by Executive
-- [Time Magazine] Would a War Against Iran Be Legal? An Expert Explains - Time Magazine (2026-02-22) - https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tOXYwbjdWTnNvSDhMZ1FZbWtYU0V0S2NsZkdENVR0OUJBc0FUZDMyRk45bWNuOXN6ZDJjM0xVMXpnaUhRQXdrVGdGN1Y5d1VJOGtUdmJMTF92UQ?oc=5
-- [The New York Times] Opinion | Is This the Most Important Supreme Court Case of the Century? - The New York Times (2026-02-22) - https://news.google.com/rss/articles/CBMigAFBVV95cUxPeHB0ZkNYd1laUjlTMnBJdTYzTGM3M1oxVXpZR2NlTTNTYmtoOUM1bXZnU3YxY0hiQ0JOZ2Joemw4TDlpenJhM194aUZsd2l6SVdpMkVRcV9OSE0yeVdINGVkRjQzVV80ZmJIS2k2cmJaTGRQajB0VndLaUtvLUswcg?oc=5
-- [facebook.com] President Donald Trump upped new tariffs he announced after the Supreme Court ruled against his emergency tariffs on Feb. 20. - facebook.com (2026-02-21) - https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTXZaYnU1c0U0Rml4X3dtZGtELVBDS2JYZTVmVjA4c09iZkZsb0VUTkROVFdraFVlYnJqakozejFMeGZGZ2hydGJSTWJ6Z1VWNEpYbm5Gclc5RWFMU3dfX29DLUFoZGNkQVBpY3VSbDJCNHVNZDJ3Ym1RdzBoU3FmUVhTOV90Ymd6bUdLTlMtQ1d2Z19RbU53ZDZJTzg2cm9KSmU4bXFMQ3RMLWZNUWNmZ3otcVItd2pxczZKU1JvMnFRTmEyM0k0UmdieVJkYUF6WjlRb0lDS1FHWkw5VGdV?oc=5
+- [facebook.com] Sky News contributor Kristin Tate says the Supreme Court’s ruling on tariffs is a “blow” to US President Donald Trump. - facebook.com (2026-02-24) - https://news.google.com/rss/articles/CBMi3wFBVV95cUxPT21ZZDZEZndyWTBkeFBLT1J0MFY3OWRkdXl1Z2hsWjBLa0VNR2NrdVVYREE4eVZpZHN5bW03S2pvSVlzdXg0VlJvRFRWeWhPbEdKSndDZlRndl80MHk4bVRsc0tKLU1TdXhBN1R2c2J4SzdsS3dLd1NzdFdzeGpBbFZVRl9DdzZTc0p0MmNWZlFHdXZUa3o4WmRyT201NnZMWHZuU1FMb0pzeF9iNlBlTHRhbE1LUGpMSEdZVFhGZG1pcEFvTmxGT0daMm9iYmpEdm5kbk1PSVZIYWE4OFMw?oc=5
+- [SCOTUSblog] How and why the conservative justices differed on tariffs - SCOTUSblog (2026-02-23) - https://news.google.com/rss/articles/CBMimAFBVV95cUxNQU9kMzN5OG1lR2hQOVFvZGFvYmZ3c2RacjRSbV8wXzB5RWxKM0I1azA5TEJsRHNwam5sLW9fcDlYQ0FzSF8yZ19zT25xWGNlVWp5TGU3UWk5Y0NLaGFzb3RHQ0Q5Q0Jpc1o4dEFfbndWaEQtMThLbmc1S0VjdWJsYU5HUFhvTEsxVHdVVWxaN3kySEJnVjNSSw?oc=5
+- [JD Supra] The Supreme Court Invalidates Trump's Tariffs. But What's Next? - JD Supra (2026-02-23) - https://news.google.com/rss/articles/CBMihwFBVV95cUxNM2l0MnRQdWNWOXh4V3RPWmZuNVdxdVNmS0xRX3ZDX0NUMjBHdEZQOXZCZVVXbW5PZ2N2MG1MRktrVzI3ZHpkRThnMjhDQ2VXREdsMVVsazhKSFBvX0pHWUUyUklUQ2JZVUQ1RWFGOTVDZFRCU1VVLXFZN3dHLUl0S0pMTm14dWs?oc=5
 
 ### Emergency Powers Expansion
-- [PBS] President Trump increases global tariffs to 15% after Supreme Court decision - PBS (2026-02-21) - https://news.google.com/rss/articles/CBMisgFBVV95cUxQdTRUaUFfVXBKbk1kUHhXeGI4MHhSdFIwU1dqS19vUE96VWpxNmtCbUtGVE82Z3hVbXhOYUQ2S1BEM2dQQU4wZk9MZlI0UjZuS2xHQUpwZV8xc0hpTkk2eEFNTVpjQWdqeEVCMEdfdnBydWRlcHpOdmNNZ0Uzd0VrX0hxTGFwdzlFTjBjN2JicDhQR0tiUS1weS02bzV6SGxZeEVaa2ZTNnVOU2JJWTlYX2RR0gG3AUFVX3lxTE9ORkJPLTBUQjVGZ0xVRE9mZ3hJR1lYMUJEUzZ6M05NejE3YUNqWFQ2VGlGd2NnQjNGTWIyZEcwaDdWeEhDX2J3N3R4dlFuVko0am1qUWQ5TmQybFRwM2FhWEwzcG1KSkR1cW9UVUREX240bzVrbWpCRlJ4QzhldW5xTnV4NjRjam14VVdUS292WGN2RmdQZnN4WG40OFV3bGVGbEd1UW01UmthS1lUWlVta0RzcGtIWQ?oc=5
+- [myMotherLode.com] The Latest: Trump says he’ll raise tariffs to 15% after Supreme Court ruling - myMotherLode.com (2026-02-23) - https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUkJCWTJ2WW9aRTh3MHBxRnFmNnZVZ0pTaXc0eDZWNnFrUXYyUm1pT3NtYTJRMzhWbGFYRmRuTVdlTnJSS2R1eWkzN1NjNlQyekRCRTZYNkswcHVRM05rQTRfbktJQkdIOFd6ZXM4VTVEcDVFa0JxSWFiV25USjZZZl90RElUWEVZdTBNVnRyOWdoSlFQYjM5azVOaU5sNFNpZk5zeFpNbWg0NFppZnVjd3Y5T2c1ZVgwOUQ3cFVXTjMtRzZFaDR2aGFSLUJtTmlNanN2WTlxSdIB3AFBVV95cUxPenpoTTdINTQyRXE4OHpQbjhjcEZLeGF6QUxRcGNkTTMyZ04yaVljRjBRM0ZHbWM2VTJRUXFjVHRFRHpxMzR5X0hrZnVOYUhDZENkcUR5bm02T0w1TWlLMnN5X1V3a3NEN24zcll4bWtLRnp4QUo2Q1JTVXhHb3VmZmROeWkwY19vVU9peWRNbWtYTDhrbUFHcjV0dEhvaTdpRFcxdGpiMEdYYXpLcUs0RENOVlJuOFVMUW9pNkZId1JER1JtRXFUeUlVcXFGUlFQc3BTR3REb0tmejFp?oc=5
 - [AOL.com] Murkowski: Ruling is ‘firm reminder’ of limits to presidential power - AOL.com (2026-02-22) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSzVRRjBaRGo2QnRIUWJKU1hDVFdpcXV2Y0dCN3lycWpUY1JqU2FmdmFjSC1HNUF4UllrZjV3WGc5UHlzQ3p3aVNYQWJyRXJMdk9meVNuOWRIem9ONktqQ3Z0ZGdUQWNabUIzRkNjZmJnVk1NT3JRa29vcW5NOXpUZ1liZ0RtcVZ4?oc=5
-- [The Express Tribune] Global trade after US Supreme Court tariff ruling - The Express Tribune (2026-02-23) - https://news.google.com/rss/articles/CBMijwFBVV95cUxQa0oyQk1Fb2QzdGxvWFJCSHdKZmFnSWFUamw3SjNqc2wzcmFHM05aNnBGcTV3eFQ1eDJyMENqNi1zRVFLekZCUmZDM0g0UWM3RnNCRE5XdkNCYmtVY2x4c1FJZy1NZGpOT2pxeWVpSmxaQUVyRmJuSlAwYzVqaS1UTnlqVEJRQzdNb3Q3ZXBMMNIBlwFBVV95cUxPR2tsaGJSTEtRVU50MXd3ZC1KMUZaMkZjNEJaNVlGRXRaelk1QnBvdGliRWJwbTg2V1d4YTByRVdBXzVuVWI5QnByOG1wRHJKb2lqcUNCZlh3SVg5RDc5OENtRHJWWVJSY1ZwWEhtcTFCaTlkaEVTUFJOTnQwdEVBbjNtM0NZaW5GS3VCdlpmRjlOcndTWkpZ?oc=5
+- [FinancialContent] Supreme Court Curbs Executive Power in Landmark 6-3 Ruling Against Emergency IEEPA Tariffs - FinancialContent (2026-02-23) - https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTjV0azBacFJWX3hRM0NIU2JkVGtvbGU4SUVEa0ZDZkFXSnFmckk2b0ZMZzN4TjFlQThEd21DeFI5Q3pVbno5WE55QVU0eTAzUU5lNWtVU1NTNVFISF9hUmlRMm03OUwwZEE2LUpXd3JKcXdpT0sxdjBVeTNpcHBpQmZZMHZuZHVHN1pDYThzei0tellodVVzSllHSkFlYnNBM2s4V2VkNU1jRUZXbFVxMDY1S1ZBY0htbW0zbXpDODluN1RVdDNEU3lmQUpYbU4wZ0kyU1Q2djM2NnRjcmg2Wlh2dm45Vm1scWJwVmljLW9JRkdHTzVsbg?oc=5
+
+### Election Delay or Cancellation
+- [Law360] EU Lawmakers Delay Vote On US Trade Deal Amid Uncertainty - Law360 (2026-02-23) - https://news.google.com/rss/articles/CBMingFBVV95cUxOeE1hRlZCdXZLWmhBNUhzRTJGSlNSUjBWRGVzOFJEZjJ2LVluV0NqOGRTMHlqcFpqWl9NckNtclpZWmt5ekJRaEJicFpPZzVHUFZMYUp4RURDUmJHeXRCdGlyNkR6Sno3WUxuV1p5SEtScHlwc3hYQTZ6bS04R19hZDVxdnN1QzJ6dWl3eGZTYTNJN1A1NjVKVk1JVXJQZ9IBVkFVX3lxTE5zZHU0VERFaERmb0RTQUE3akVuekEtUE9DdVZQU2VTSVh0Sk5rd2FNbVBObjRpYTg2RjJkNFl0RDB4bHJ2OVpzcG03OVJVVjc3X2hpWjBB?oc=5
+- [Fine Day 102.3] European Union Delays Trade Deal Vote After Trump Announces New Tariffs - Fine Day 102.3 (2026-02-23) - https://news.google.com/rss/articles/CBMiyAFBVV95cUxOM1owMXREc2x0Y1pjWnJSWnZ5WDI2OU5uQ0ZlS2VNcjZNcWxidVFOM3RLLWNsSW45cXlSVW5JOTNLMXpaM3pUMUhqVFhiZHdEQkZSeWY5b3NHbVRuYTJnUk1NaFp4M1BOenlPWnFsRjFoQ1JFRXpzd1FnS2NKMExHZGxiaDZOUWl5Rmt3RmxtbmpONElJOWkyMWRTZzhYX01hNVdTUmUtRVBla1czWW1LWU8wU3lKWFI5ODk3aHpkdDVTeThRVURBYg?oc=5
+- [CNBC] EU postpones vote on U.S. trade deal after Trump’s latest tariff threat - CNBC (2026-02-23) - https://news.google.com/rss/articles/CBMikgFBVV95cUxObWpWbUpoeGV6aUd2X0RnenA5NldxLWhjNkNPMVgydzhFZlUxRU54YjBpQjE3RktqRVFDd2JJQW9aWl9pRHVUU1JVYkthZ3l1QmN1Y3h4Wm5sTVRISzlQRl9WeXVaYzdoRUlWWkN6aG5MSkk1b05yOXZjdWtwUUs1Tk1SaV9tOWl1YWZFMWxUSGRqUQ?oc=5
 
 ### Election Administration Capture
 - [AOL.com] Trump’s plan for the Kennedy Center is a preview for what he wants to do with American elections - AOL.com (2026-02-22) - https://news.google.com/rss/articles/CBMigwFBVV95cUxNdG1IT05fdWNQQl94ckpfVG9wNVBYM1h5MU4tSXBHRGNMMk9IMzFnYk1rU3Z1SnUyS0VWR0JvUmEzcTZHTmVsT1JKSTRoQjhOcnZQOW9KZkhkQVRDaFdxSU9ZeTBjQ0NLR0s4UmV2ZDhXZ0I3SHBuQ3pLU3BVT1JmcV9rWQ?oc=5
-- [Daily Kos] Daily Kos - Daily Kos (2026-02-22) - https://news.google.com/rss/articles/CBMiSkFVX3lxTFBGNU03QnYzVDdtNkU1QXNoSVJOandSQWhlR0RkbVJzY2F5VEtyTDhnN090NWVQeENIZXBUMmJmZGNFeWlWaE14VDNn?oc=5
-- [ETV Bharat] Kerala’s Final Electoral Roll For SIR 2026 Published; Voter Count Stands At 2.69 Crore - ETV Bharat (2026-02-21) - https://news.google.com/rss/articles/CBMizAFBVV95cUxPbFVPdS0ySUlaZnJodk52dC1GN19LYktpSzJiNDEtVkV0NlEtUGN2eG8xTzFJc1BoWEs4UkdQbTFhOXVOa0ltV2pTWDc3WTZFTDFSYTFjM1VOVTExaE5NejdQVW1yY0NnMThRb1dvTWZ1OEhiZE1yRk02SV9BSW1WRC1zbTZKRlVxWmRGejdvNG1IYXIxUE5lRG93VFQ2YU5FenRtdU1udk5OWThyMmZsNEdzT3FXWlIxMnNyVWJsWWpQN3A4RS12WlBKTWnSAdIBQVVfeXFMTXRNa3BrcndjZmo2Mnc3TW9nbGlzVjl3b2lCYlhFYXpwNWV4Znc2Z0ZHX01kamRJT2tyemRzUVp0YzVRVlZBUnpyVUpNNEVnOEphdkQxOVlLNEhoZ2tIZzI1MU9MMmJ5RUFQcUtXZGpLZGJHMVR5NDhBd0pGV3RBUHNtQ2g4eldFcGFLbU9tYWFZc3J6ZjVoSFhEUjR4UTFQRm00dUFCbmd3bmdHVWV5WFFyZE81azhSMEc0RGlkLTNSelh3enRickVDcEZVY1RfbFJ3?oc=5
 
 ### Independent Agency Capture
-- [The Washington Post] Handing defeats to Trump, Supreme Court signals potential course change - The Washington Post (2026-02-21) - https://news.google.com/rss/articles/CBMinwFBVV95cUxOUjRrTkZwazNNMlFWQTdUbjM4TlF3d3BhMGx1R0hJUENaOXpXWkRtZXE2NVVJZ2U1MWdoODAxQzR4X0pEWVFMVHNTUGpDeDlkd0FUVEUwc3NZOGJPOFJKQ2RkMkRESmtIbUh1ckVsWDZ0WXBDSk9lVDdPR0lzOWZzTGJBY0ZXa0xGLWl2SFNxSUFHSzlRMG84UDdQZUw2elU?oc=5
-- [Malay Mail] From tariffs to immigration raids: Major Trump cases at the US Supreme Court - Malay Mail (2026-02-21) - https://news.google.com/rss/articles/CBMizwFBVV95cUxPOENiUXJKN2dRd3F3dFQ4UGxjTUtJRmhYN25BVW81bDNCZnB3dzdkdDFJblZCUTVGZmVzZmlGaUY5TXc4ZXpCUXVHc2VGanQ0OWlfQ2t4RWc0T3hhQ2VINVJra3J3d1BWeC1PUjg1UkFGY2Ztd2F3aHVHNnlmTkpLSzZTSkhONVN4Z3JsX3J0RjlSZHlYbTNWVkd1c1dETVB2N21CRUl6andPNlNEQktNYmd1YzJvbEtVeUxiQ0hkZ2lWOXpHZ25YdTlNQ0lLNnPSAc8BQVVfeXFMTzhDYlFySjdnUXdxd3RUOFBsY01LSUZoWDduQVVvNWwzQmZwd3c3ZHQxSW5WQlE1RmZlc2ZpRmlGOU13OGV6QlF1R3NlRmp0NDlpX0NreEVnNE94YUNlSDVSa2tyd3dQVngtT1I4NVJBRmNmbXdhd2h1RzZ5Zk5KS0s2U0pITjVTeGdybF9ydEY5UmR5WG0zVlZHdXNXRE1QdjdtQkVJemp3TzZTREJLTWJndWMyb2xLVXlMYkNIZGdpVjl6R2duWHU5TUNJSzZz?oc=5
-
-### Civil Service Purge / Schedule F
-- [AOL.com] Trump admin issues new rule, making it easier to fire 50,000 federal workers - AOL.com (2026-02-21) - https://news.google.com/rss/articles/CBMif0FVX3lxTFB5RlRKbnM2T1hkalF1cjJIeVpVLU8wSHA0TlZjdkpIM0c3eXFnelhkRk1qOVhuMGFmQ3FtMDk5RFlzSU9LbzY5WEQyTGVkakd1TE96Z1ZNQjNRT3pqb3Jld1lSWldxR2ZaQjlyMzA0OGZIdlY4cXNMcThiaEtuWkE?oc=5
-
+- No fresh evidence links in the current lookback window.
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Confidence: **High**
+- Confidence: **Medium**
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.
