@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 18.43,
+  "average_7d": 18.47,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,8 +9,8 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": 0.36,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -0.48,
   "domain_breakdown": [
     {
       "avg_severity": 0.8125,
@@ -20,38 +20,38 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 0.7666666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.3125,
+      "points": 2.875,
       "weight": 15
     },
     {
-      "avg_severity": 0.19999999999999998,
+      "avg_severity": 0.0,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.7,
+      "points": 0.0,
       "weight": 14
     },
     {
-      "avg_severity": 1.6500000000000001,
+      "avg_severity": 1.8833333333333335,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 5.362500000000001,
+      "points": 6.120833333333334,
       "weight": 13
     },
     {
-      "avg_severity": 0.19999999999999998,
+      "avg_severity": 0.0,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.49999999999999994,
+      "points": 0.0,
       "weight": 10
     },
     {
-      "avg_severity": 0.975,
+      "avg_severity": 1.15,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.4375,
+      "points": 2.875,
       "weight": 10
     },
     {
@@ -62,42 +62,74 @@
       "weight": 8
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.825,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 2.0,
+      "points": 1.65,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-02-28T12:33:24.306170+00:00",
+  "generated_at": "2026-03-01T12:33:41.666777+00:00",
   "previous_score": 19,
   "provisional": false,
-  "score": 19,
-  "score_raw": 18.78,
+  "score": 18,
+  "score_raw": 17.99,
   "successful_queries": 22,
   "top_signals": [
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQODAzYUJXcEJUVk1tWnRQVWljNERXSlMxV1lmTzlOa2x5akFHZmEzMlZZNGI5c0RfUmQ4NzJqU2tBWTlmTlRWV1AtLWp1UmR5YWdvV0c3S1REYXc4S3JxWm5zZkMyclVGcHAyYTVxUVNIcHNsdzN0eUc5cFJtTm5TSVdPR1R6ODlrWmphS2lUMA?oc=5",
+          "published": "2026-03-01T02:10:04+00:00",
+          "publisher": "AOL.com",
+          "title": "Trump\u2019s Push to \u2018Nationalize\u2019 Elections, Explained - AOL.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0xUms0ZW9hb2tfSUV5RVlXUTlGc25BR2IxcmlHY0l4TGFKaEYwdmRuUVZIQzFwUnhpZDRPN3dxVXJQSnBuWERIN0xQZUxVcmp0SU9hTEtrSHNuRWcxaFhQaVpVcDhQVmVqUW5vQUZobldNMTN1Y3IwRE1n?oc=5",
+          "published": "2026-02-27T15:22:53+00:00",
+          "publisher": "The New Republic",
+          "title": "It Can Now Be Plainly Said: Trump Is Planning a November Coup d\u2019\u00c9tat - The New Republic"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQN2s3aFhmYlBFdHoyMDdMN2pvcy1aeXFNcUN6SEhRUnFUZHFIdW9JUFlfNi1WeFZ5cG0zaEwteXRpcVZMLTlkS2hlQjh5Y2cxLTBBaDBGYUU5R01qSDk4SE9PSnRTaGx2WDR3UUJMN24tQWtSNENxaW95cWk4ZzE5c05RWQ?oc=5",
+          "published": "2026-02-28T17:17:17+00:00",
+          "publisher": "AOL.com",
+          "title": "Top Democrat\u2019s dire warning over Trump threat to \u2018steal\u2019 the midterm congressional elections - AOL.com"
+        }
+      ],
+      "hits": 8,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMm9URlBfaEJKMXpZcEpSdWl6WEptRnFqRW1vc1BaU0c5SktUc1ZQM0hvQl9udjhmLUx0ZjNwX2p4SlpUS0ktUHk3V2hXbk40S0ZKb1BBYTNlN0liQnAtS2FfN2hRQ0lMckJhS0duR2h2NmdHVTFzbFo3NkFiX0ZqRlQ4TFdNRkhVYmRoSVV5TkZMNGdhOUx0bFR6N0NLVG5ZcGxteW1ZdGdVQXRLdTJhTzVyTWpULWM?oc=5",
-          "published": "2026-02-28T10:00:00+00:00",
-          "publisher": "Daily Herald",
-          "title": "Phil Andrew: 2026 candidate for 9th Congressional District - Daily Herald"
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tOXYwbjdWTnNvSDhMZ1FZbWtYU0V0S2NsZkdENVR0OUJBc0FUZDMyRk45bWNuOXN6ZDJjM0xVMXpnaUhRQXdrVGdGN1Y5d1VJOGtUdmJMTF92UQ?oc=5",
+          "published": "2026-02-28T16:51:28+00:00",
+          "publisher": "Time Magazine",
+          "title": "Did Trump Have the Legal Authority to Strike Iran? An Expert Weighs In - Time Magazine"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1pUGlKbUJpX2tIaTkza1NHUF9jV3cxRGhGRWpBVXNKSVBzbHpPWjF1dmNKMDRMaHVOa3Q0NjhTLVZrRk9IVHRJeUl0Ul9BSzBIY1VOVFhtb3JZanhacVBfWC1vbXM5MHJfZ1VMdW1ZMA?oc=5",
-          "published": "2026-02-27T18:16:27+00:00",
-          "publisher": "Wake Up To Politics | Gabe Fleisher",
-          "title": "Is ICE Defying Court Orders? - Wake Up To Politics | Gabe Fleisher"
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRGFBUVZOYjJxV0gzSnB6cU1DTVlUdjQzMjZ4WjIxS0pGazUzcWZSWDBMYlBBc1FHLV9MdGFXb3hjN29zLXA5bnNtOGd1SWhKM2NHdnNVYk9FN21vRVQzV2hwLUhtc3FOcm52Q3dUTmxsZW8xZ1luTDJUVzMtQXFDOEdqUzg?oc=5",
+          "published": "2026-02-28T18:13:20+00:00",
+          "publisher": "The New York Times",
+          "title": "Trump\u2019s Unilateral Iran Strike Sparks Constitutional War Powers Dispute - The New York Times"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0xHTmlOS2dwTV9zVE9kZFpwQWZudm5PNHc0MTJYSVplRUZQTFVEd0JEdFBpWjYyZUFYQWVtczJ4aWF5c1dHZjdrT3FYbnpobDNTMG9Hbl9mUG5WVVNVakgtblRZMzYzSjV0VURLRXkxdG1kZ0dPOTk0bmRqTXpSU0dxc3FnMVdJUmR4UTJQWW1Fa2NMVTNGUG51NEJpemNpR2gxa0lB0gGrAUFVX3lxTFBkeVVHTTBZSWtZQ0lXZFItWTh1anZpMUpkMHFnVzl1MVppeGFfRTFrR1hWZXh4bF9uSldnOE82dXJHbE1MUzBsNFlnVWVSVkRnMDZoU3RJNG9OQVB1dTMzTkRjTVUwN3pUckNLV1VNVGRPbW9DczlXWlNVM0U5SVVSaFZULTF1TjI2aDlVZ3VUSGFGWXlibGVQNVlpQ3ZrUi1ZSFFXMjN0dFpqaw?oc=5",
-          "published": "2026-02-26T17:55:00+00:00",
+          "published": "2026-02-28T16:23:01+00:00",
           "publisher": "The Business Standard",
           "title": "How American presidents are checked and challenged - The Business Standard"
         }
@@ -109,86 +141,74 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 5
+      "unique_publishers": 6
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa3hIbGVCS1FVUmhVajV4aENoajhTcjR0Z1ZWd2swQmYwbDFXOHkteDBfRGIya3V2bnMxaWM3NHMxM3hzeEhHQWtJYjdUY0RCblFqSVp4a3ZDODh2andndVZYZmZhbHk3NXJiSzNMWVI0TkYtTW8yQXVESkxFVnFZYk1WcU5NU1VtdFFCVUNERXkwOWdDMDQ5UC1ncGFrcjZwN3RCUGdaY2hUaGNiZWszdzJXV091Tm8?oc=5",
-          "published": "2026-02-28T10:00:00+00:00",
-          "publisher": "Daily Herald",
-          "title": "Justin Ford: 2026 candidate for 9th Congressional District - Daily Herald"
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44SlZ3M055Q0FWajc3TUNBbGZpMDZ1OVVIQVEySURFVFRwRGt2ZWVXbXF1ZW83RHBUVE1JNjFvcHJQV0MzSzdPLXo3elZRYWMzWGVJNEttVjVHTFBIQjc2V3hVWQ?oc=5",
+          "published": "2026-02-28T08:00:00+00:00",
+          "publisher": "The New York Times",
+          "title": "ICE Whistle-Blower Calls Training for New Agents \u2018Deficient\u2019 and \u2018Broken\u2019 - The New York Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZGZOSW8tb01vSFMxZU8tbnEwU2k3N3pxN0hhQTF3RTdmWXZXX0tyMmtuRURlcVV4UmNmOHRzX0Z6cFB5alI5WFBlTG9LNXAwTUdoTEplMmdabzhKR0Ntd0o0ZHFtcVI5VG5ELUxSTmRieU5DWHNYMmJJT0JCbXlJajRR?oc=5",
-          "published": "2026-02-27T01:12:27+00:00",
-          "publisher": "AOL.com",
-          "title": "Pro-Trump lawyers push president for emergency order to expand his power ahead of midterm elections: reports - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONUF1bW9xSG0yYk1rQWR3M3NsZjlleXJCX1ljN0ctSi1iSklMcDJNQkxvc3ZDSnoxTHcwdkV6NXVyR2dPbmE3OFhuRmJtU2x6T3BrUDJELUhzaG5XNVJlTHJrTUZDekFVS2tSOW9HUFNIWWRtU1BXQ1h2RVdnbmRqb0gyRQ?oc=5",
-          "published": "2026-02-27T17:15:49+00:00",
-          "publisher": "AOL.com",
-          "title": "Watch: Trump gives remarks after Supreme Court strikes down tariffs - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTS1uUG5hbGZmVm1hQVYxZHdFekRzMVZScUlNREs3b0l0VjJ3dExEaWlHWWN6UlFHYjVIUmJYNjFnLTFRVTU0TmVyVXVaYVlkRVNlTFJOdU84X3ltdVJjbURzSEtYUmZ6ZWNrMVJZVjA0cWRjRTgtUjN0Z1ZmM1RweVRXdlF3QjdCVF9MTnNtMzdHOWw4Z3fSAZsBQVVfeXFMTnBiZVVDYTVDYXdUdjRrTHBDNFJ1eHRHTGd3bkE4MzkydDhvVUZnY0VSckcyR0FOSDU4cG80cV9wZ2FGVjMybmdqeHV3S1hvdmZDY0RacXlRdFI0NDNyXzlCTUp6Uk93aGZFLURKU2dsZnl5UzB6ZDcxRWZaMVpKbnhsUXc1NFB6enhGUXdfSEl6ZVBqb0s1a0NyUWM?oc=5",
+          "published": "2026-02-28T04:22:57+00:00",
+          "publisher": "The Nation Newspaper",
+          "title": "PDP factions bicker as Oyo court validates Ibadan convention - The Nation Newspaper"
         }
       ],
-      "hits": 5,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
+      "hits": 2,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 3
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQUhJS2wxWmNBVUNGMzgteDdxbjdRN3R1R1lud2s4cVAwektPWk1LbWNweGhBNjA3RnBvWmVXNUJCU2NfTnhFYnRPSk9CTy1HTUxfQ3JCRjZ2OXFiZkN3ZUg5eG96SWFRQ0oycExkd2ZZVHhfa0tlenJnUXg2UEJZZTV4dTRkYS1EejEyRTJ3RTUyVUxndEdfZ05LM3EzUjk3M25sZ3I3alo?oc=5",
+          "published": "2026-03-01T03:45:27+00:00",
+          "publisher": "Nevada Appeal",
+          "title": "Jim Hartman: Supreme Court rejects Trump\u2019s emergency tariffs - Nevada Appeal"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOV1NIZ0RLNmJzQ0pyQkxkc0xfVGJVNEZrZXQtN1dGbWZKR1F4ckU4aTI0cTRrLUh1SlllSnpRTERreDRtV2Y3Vk03RURKUWhRTXA2Zk50WFNsRlEzV3N6TVFBcV9oTTlVeS1rTmJUdFNRNDg0QjNfd2NHajhzcVlDMmVkQWFHZVJBM1JEUEw2VW5yaEdqOE11WWZvS2tRRVpVSENkU0FBYll6eDlvUmI4Nmx3UXJzOHVLc3JfcjFWV1JfUEtqQU9vX3ppOWNlRmRxSDhKWUNOZldzSUhLQi1sT19iZnEwQW5UQ3ltMQ?oc=5",
+          "published": "2026-02-27T16:37:00+00:00",
+          "publisher": "FinancialContent",
+          "title": "Supreme Court Strikes Down Global Tariff Program; Administration Pivots to Replacement Duties - FinancialContent"
+        }
+      ],
+      "hits": 2,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZkEzaldza0hGNzNJMEZxRlUzOHZIM2dHODkyTkN0cy1FQjBJa295LWVzQUJLUDFkQ1U4Njd6VXVvbTJfa0Nsb0V4Ukp4R1dTUG5PTGNWZGtRUl9Ra2JPSlJqZERHWkMxbFQzVmdaaDF2Z1FoU0llNVFqa045TmtoMWJrTFVlZkM5MUkwWXZ3?oc=5",
-          "published": "2026-02-26T20:52:11+00:00",
-          "publisher": "BlackPressUSA",
-          "title": "OP-ED: One Hundred Years of Black Workers Telling the Truth - BlackPressUSA"
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR0hjeDVkMEc0QzlnWGQyZ0hvYzlMRUI0T1pvNjc0cE1kVEd2N2hMVmpfU1JtZTRKaG1yU21WcV8xdFFzTUEtUUNKX2NBOUMwUGdRc1U4VXoxaFZEVVp0WW9NdXhQcGRlTHJzVTRJeEdxSTRZa0ZuS2RScmFhQmROTDA3eHBqUTNLdk9oR3dhSVd2cVJVSThYVg?oc=5",
+          "published": "2026-02-28T13:27:15+00:00",
+          "publisher": "Texas Metro News",
+          "title": "OP-ED: One Hundred Years of Black Workers Telling the Truth - Texas Metro News"
         }
       ],
       "hits": 1,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUFB6VUpVNzl0V2FnRTViVDBQSzJQNVZkS185M21qSmI5TUdJYTlaMXMxVE1lTTlLdGVLY293ckc2cTBkalh0aER5d2lqTFY0Q0lyOVBxN3VBWW1IRXRhR0t6VXlwci1oOEVUZFZpdWVHVHVwU1F0VFd0dmJHcnkyN2xweERMZTYzVllmQWZ5U1g0aVBL?oc=5",
-          "published": "2026-02-28T10:28:24+00:00",
-          "publisher": "AOL.com",
-          "title": "Raffensperger goes beyond election controversy in gubernatorial campaign - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQODAzYUJXcEJUVk1tWnRQVWljNERXSlMxV1lmTzlOa2x5akFHZmEzMlZZNGI5c0RfUmQ4NzJqU2tBWTlmTlRWV1AtLWp1UmR5YWdvV0c3S1REYXc4S3JxWm5zZkMyclVGcHAyYTVxUVNIcHNsdzN0eUc5cFJtTm5TSVdPR1R6ODlrWmphS2lUMA?oc=5",
-          "published": "2026-02-28T04:03:15+00:00",
-          "publisher": "AOL.com",
-          "title": "Trump\u2019s Push to \u2018Nationalize\u2019 Elections, Explained - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMWxpQkY3XzRzclpkLWQzMmxxQ240R1RIRW1pSlFSd3pyRXg3dEt2Mm9HR1A0ZkdLSEZtNmJvREtSS00xZ1haR2J5WldaVTljMmpmclpaQVMxandjdlJTQjVVUHl5eDQ0dV9hMTZ6d2VHakpfczEtTHY3UUZVSjFjR2Nn?oc=5",
-          "published": "2026-02-27T23:31:54+00:00",
-          "publisher": "AOL.com",
-          "title": "Federal judge strikes down parts of Trump executive order on citizenship verification for voter registration - AOL.com"
-        }
-      ],
-      "hits": 11,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.3,
@@ -210,42 +230,16 @@
           "published": "2026-02-27T13:06:00+00:00",
           "publisher": "Q104.3",
           "title": "Bill Clinton Set For Deposition In Epstein Probe - Q104.3"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTXIxV3VWUmRtSU1URkdrdUthaGEyRzc0cFl2Ui1MaDhWbmN4MEZ6YW0tTmFQM1N5RU1KNDJRVnVQY0lBTC1tM21uT2pTQjZVNXI1UU9fcHhJTTdLNnpCVUV0X1F4c3JNUEx1UHVjWm5aLURCTmFLLXkxS1JsS2dZeEhsWkc3UHE4d2NTYTZxZnlhanNCWXFGcEFQMzhmd9IBowFBVV95cUxPTzkybW9SVEdhUWJuekdhZmlqZjh4ZEpmbFFWcEZaVWRxQ0U2ZjRWYVc1ajRfeVJuZVY4amF4T1VTN1M5OE82SWZUR0Jkc3lhYlk5TmdTWlZ4bWhMd296dTctUFdVNWw1NENQeHpVNUFkY195ZEcwby1HLXc2X1NuNHpYWlZlNnBIVlRrLUNwS0NOX1AzUzFId19yVUFSaUdaN28w?oc=5",
-          "published": "2026-02-26T16:31:53+00:00",
-          "publisher": "Fox 59",
-          "title": "Hillary Clinton says she does not recall meeting Epstein as Oversight deposition kicks off - Fox 59"
         }
       ],
-      "hits": 3,
+      "hits": 2,
       "id": "legislative_oversight_obstruction",
       "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTTFCTF94YXdmODF0NjlveEtpTE1LOUF5WTBvVnU0NzhFVWprNEVBY1EwMll5NXl5bEJ5R1l0c1lWdEVkUm1SRXUwYllkYjBqOGhmVHJyV0k4MVhIZWNQRXBfd2pvSy1ER0JxWjhHMG4yLW85UXBGc3IxZ2VES3hsdWdYbVh6QVliRV9DRFB3?oc=5",
-          "published": "2026-02-26T22:24:03+00:00",
-          "publisher": "Lawfare",
-          "title": "The Paranoid Style in American Oversight, Part I - Lawfare"
-        }
-      ],
-      "hits": 1,
-      "id": "alternate_elector_scheme",
-      "name": "Alternate Elector Scheme Activity",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -272,10 +266,10 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQ1dCa3R1bkdQMVB2T3BNMUxGUkw5UmQ4dlZ3ak91MzZKOG5CMERoZTBEbTRsOUhCcVh2ZGE2VmJ2YzZzZGN3T3R5TjVveXQtWXIweGtqVFlha0dfSHkxVDNGd0s0d01pa0thdmxwai1tLVZwaVJWQXhqeVpTTGJsMTdVYWhQOFlHS01KOVJyLTBDOUtWNkVv?oc=5",
-          "published": "2026-02-26T14:01:47+00:00",
-          "publisher": "Just Security",
-          "title": "Confrontation in Court: How to Hold the Trump Administration Accountable for Violating Court Orders - Just Security"
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTXFEeGZkZXZ0aDZldEtqWDJyZDZ6Q3loOVVHZFdBRklyY2d0RElzUk5jRmRfbTg0TXdMV094dFNJdExTRWhWQzNIQnc2eEVoWFFRTklDNkhSQXdqbWk1b2JpNURGMExKY1otRVhUVnV5MncxN0ZPdGlHbjhaWWRuOHFXQ3VYMzFjckxoblRqUkE?oc=5",
+          "published": "2026-02-28T14:00:00+00:00",
+          "publisher": "Slate",
+          "title": "A New Ruling Forces the Supreme Court to Confront the Trump Administration\u2019s Lies Under Oath - Slate"
         }
       ],
       "hits": 1,
@@ -289,18 +283,18 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "federalism_oversight",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaDdJN0dmanFuLUlEcjlSZ1duQ0tMTFcxTXhic1JNTVA2QlAyY1FxZ2FEOTMxbG5ubjB5SnZqc0E1RzM3U0FJQVp4cjdaUkU2YnlfenZfWkRpWXljdHZ3MTYzZWstVFRPMFhGT0hUaXNZVGN4VEF1QXR2RktSNWhIbENIUWxkV3prUUxOSndLMkptaXV4OGxhVGJxa2xpSEdE?oc=5",
-          "published": "2026-02-27T21:52:44+00:00",
-          "publisher": "Welch.Senate.Gov (.gov)",
-          "title": "Welch Urges Action Against Trump\u2019s Threats to Undermine 2026 Elections - Welch.Senate.Gov (.gov)"
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mT2MxTVY5WkMwQ24tTWFSS0JUYndNNkpKR3hxeE5lQnk0dFJBSVZSWGk3UlcyZjgwaWQwbU01SzFkWHR3UGk0UERVVUxST1VzSWVOam1DcjRoUlpVWlctZFl2QU4wQmVFZlE?oc=5",
+          "published": "2026-02-28T21:05:09+00:00",
+          "publisher": "ADC | Truly Arab, Fully American.",
+          "title": "ADC Condemns Unauthorized U.S. War on Iran. - ADC | Truly Arab, Fully American."
         }
       ],
       "hits": 1,
-      "id": "state_election_preemption",
-      "name": "Federal Preemption of State Election Authority",
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -312,25 +306,38 @@
       "domain_id": "elections_transfer",
       "evidence": [],
       "hits": 0,
-      "id": "election_delay_or_cancellation",
-      "name": "Election Delay or Cancellation",
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.65,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "federalism_oversight",
       "evidence": [],
       "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "id": "state_election_preemption",
+      "name": "Federal Preemption of State Election Authority",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "hits": 0,
+      "id": "election_delay_or_cancellation",
+      "name": "Election Delay or Cancellation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -340,71 +347,6 @@
       "hits": 0,
       "id": "jurisdiction_stripping_targeted",
       "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
