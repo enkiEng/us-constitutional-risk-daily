@@ -1,29 +1,29 @@
 {
   "attempted_queries": 22,
-  "average_7d": 17.78,
+  "average_7d": 17.34,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -4.17,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": -1.85,
   "domain_breakdown": [
     {
-      "avg_severity": 0.9125,
+      "avg_severity": 1.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.01875,
+      "points": 5.5,
       "weight": 22
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.43333333333333335,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.1875,
+      "points": 1.625,
       "weight": 15
     },
     {
@@ -34,92 +34,60 @@
       "weight": 14
     },
     {
-      "avg_severity": 1.4166666666666667,
+      "avg_severity": 1.0666666666666667,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.604166666666667,
+      "points": 3.466666666666667,
       "weight": 13
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.3333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.0,
+      "points": 0.8333333333333333,
+      "weight": 10
+    },
+    {
+      "avg_severity": 0.825,
+      "id": "civil_liberties_information",
+      "name": "Civil Liberties and Information Environment",
+      "points": 2.0625,
       "weight": 10
     },
     {
       "avg_severity": 1.0,
-      "id": "civil_liberties_information",
-      "name": "Civil Liberties and Information Environment",
-      "points": 2.5,
-      "weight": 10
-    },
-    {
-      "avg_severity": 0.0,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.0,
+      "points": 2.0,
       "weight": 8
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.3,
+      "points": 0.0,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-03-03T12:37:30.602695+00:00",
+  "generated_at": "2026-03-04T12:34:22.702585+00:00",
   "previous_score": 14,
   "provisional": false,
-  "score": 14,
-  "score_raw": 13.61,
+  "score": 15,
+  "score_raw": 15.49,
   "successful_queries": 22,
   "top_signals": [
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcUhwM1NXY1VSYjZpZ3c2a2NlakhVUzZ1MVlZNklpYnFLazE5UEtRQlNkaXBtX1dZbGdpUUxSNEUtMTR6YUhQYjBHRXQzY2RmZGp2RDJvZFVjM0F6YTd6VHczcmR3aVJ4ZVo2NUc5U1Zmdm1NUWRlMHJzNzdlZFUxa01VNDRValhZWFNvemhrSU5zcERDdHE40gGcAUFVX3lxTFBjUWthdTI3cUItQTJ4WmxodHdhR1RVa0NueXI3c2NFbHdHWjJsbW5LZ1hPTG1yRkJ0NUllbkIxcTlBMGVtRDRlV1BXTERmdmZ0TEd6alk5S0xEaUNQNERrNFNvZUlKSExYS3ZWUkItYWxxTnNGbjlUR1RHb0pmc3JmMm4zdEU1OTRKQ096YWRxdTZSdmFuazlXRUt0UQ?oc=5",
-          "published": "2026-03-03T08:45:00+00:00",
-          "publisher": "The Business Standard",
-          "title": "5 times Trump bypassed the US Congress to take control - The Business Standard"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVTA1bjFsLUdnNDV0bzM1ZjdQZ1VZeVdNWDZBV3B2aHVjSElwVGlPcTFueWFUeDJsMnlna1NiclYtcUdIVkZ5VnA1WUVFUE5CakhFMXZiVkhGRjNGNW1yUEhmeE1ndldJMjBqTU04Unp3Sk9CaWhhMDVwdFJ3TDROeVZZb2pxek51QXc?oc=5",
-          "published": "2026-03-02T07:53:35+00:00",
-          "publisher": "AOL.com",
-          "title": "Trump ousts judge-installed prosecutor; constitutional expert says Article II leaves no doubt - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxOMVpsbjdPcWxRLWc1d0dON0dTWlI4b3hpc25zREJRNk1pelEwNEtHV0lWS0NGVlBMZW85Z1hWQkJoZ3dVX25JaUNGT0VqSTU1MndOS1MwNHhOZF8tZXhVQ201U3kzUDgxVnpJNUxjUDBMSzRrelZrSExiLXVMbUlXQXRCaWt3dlhhM1RhY1EwUUR4T1BZZ1ZLSTVYZGg1djFra3ZDX3JzMXg3Wm5WRUp2U2NlZVViUWx4M1VFNUV3T3ZJSmF5MThTRmplTEVoQWNwTEc5eEpnOERGbGhsWG9hcFNqRmRVcHg3dVpZaUEyWGxpTFEzY1hkcnF4RzhoSHVqLXVaaE44SmtVSXloeHBwa2dGQkRJZTVQaE5zOVFFaEpyWUlwZmY0RUNiM2ZuRGljRjc4Yk1FTzdNdFVtVGRhSVBqUkpYWUwzUjJGV3JaV1FENXZMa2FiMERMeFpfdUJqVW0wSzQ5eTVqaVp4WEk0Mk4ySUZQSkdwSFQtNFprQnjSAYADQVVfeXFMTjFabG43T3FsUS1nNXdHTjdHU1pSOG94aXNuc0RCUTZNaXpRMDRLR1dJVktDRlZQTGVvOWdYVkJCaGd3VV9uSWlDRk9Fakk1NTJ3TktTMDR4TmRfLWV4VUNtNVN5M1A4MVZ6STVMY1AwTEs0a3pWa0hMYi11TG1JV0F0Qmlrd3ZYYTNUYWNRMFFEeE9QWWdWS0k1WGRoNXYxa2t2Q19yczF4N1puVkVKdlNjZWVVYlFseDNVRTVFd092SUpheTE4U0ZqZUxFaEFjcExHOXhKZzhERmxobFhvYXBTakZkVXB4N3VaWWlBMlhsaUxRM2NYZHJxeEc4aEh1ai11WmhOOEprVUl5aHhwcGtnRkJESWU1UGhOczlRRWhKcllJcGZmNEVDYjNmbkRpY0Y3OGJNRU83TXRVbVRkYUlQalJKWFlMM1IyRldyWldRRDV2TGthYjBETHhaX3VCalVtMEs0OXk1amlaeFhJNDJOMklGUEpHcEhULTRaa0J4?oc=5",
-          "published": "2026-03-02T18:21:00+00:00",
-          "publisher": "The Economic Times",
-          "title": "Trump $2,000 rebate checks 2026 update: will Americans receive the proposed stimulus payments? - The Economic Times"
-        }
-      ],
-      "hits": 5,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 4
-    },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQekZpTWVoV21MMEhkMTVJeWFjdGJyc1RQaTZ1M29UcXlGdEpYZ3RENkFIV0Vvam52X1VlZGNXVXhXbzUtaFdUa3h1NHVxdHB5Z2VDQ05vczNJMHVGdUh5YkNVak9SRnpHOWFmVlk2SEs4Nmh6cjBON0FQcVNUMVJnRUhoMmZHeFZqa29JeVFEdUZVa3lybVBVUWQtU2o1SWNIZEZKY3p0aG9xSzg?oc=5",
-          "published": "2026-03-03T10:32:19+00:00",
-          "publisher": "AJC.com",
-          "title": "Georgia state senators push change to hand-marked paper ballots \u2014 again - AJC.com"
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSWtjdmhhWHl4LTVnaTU3UURTNk1saWUwcVNHYy0zSVNmUU1XSk8xU0NLeTVfcDFMTE1WM0hCblJRWEdZRkh5UnhIWlY4UllqdXoyekhvUVpOM21WUVFQc2tUWjlmMXduOUtJMUxydEZtUmZ5cUstMzZ4R182MC12U0JEMUd5cXdBTXg1TkcySQ?oc=5",
+          "published": "2026-03-04T01:36:59+00:00",
+          "publisher": "AOL.com",
+          "title": "Even Republican election officials are balking at Trump Justice Department\u2019s voter roll crusade - AOL.com"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPU3ZoSjhwUUVyNGg5VTVFdmFwVU9LLVNiaXBjS0VlQ09yOUxFX1Y1VkR0eDZiYk8xQjZpZF9Tb1dOMkczdEZfMDlpUDBLQ2JYTkJGN2pUbW4wWmhtRGxpZTRuX2RkT2tQVVZxTXZ2aUcwRF8zc05sTVlUN1JvNmFoOWNvaE5fZFJtV29FVTJEWmVWRmsyTEtFbg?oc=5",
@@ -128,40 +96,136 @@
           "title": "Harris County Dems Say GOP is Manufacturing Election Chaos - Houston Press"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZ0RYYzEwZFpTRlpwdnpiazhKallBaTdGLTJLbG1mTW5URXZ6dGR5MWZjeW5fdmVkRFU3akVZcFRKRU9WV0VJRUJrUWxIWlNETzlSRW51WkZlcmhxbHBROUNxZVd6UjdIaFJvOERfdlFqM0lpbUcxVTlTUF85Y1pScjBESEhROEVNRzFlWWRRUUJ0MThpVFZMUkF5RFJjT2lqSzc0MnZiYS1nX3VUdl9xaU5Rdl9sQjU3MVdEaklSaTZucXZ2Q25PNFR3VEF1OU00dHowQnBUdkF0UQ?oc=5",
-          "published": "2026-03-02T10:47:50+00:00",
-          "publisher": "MSN",
-          "title": "Officials join summit urging Trump election takeover - MSN"
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcGZyR2xWemhPeXQ0Wjc3ZmlZSW8zbzdGWjR6RThrSXBILWZTNGlJbXpCWFZ6MnE3dkZvSHR6dzBxendlN1lia3Rrc25qRHdCX3djZGh0OGlSalk1VG5vLV9EX1lIM1BvSVpDUmZDa3VwdTF4Qk1WZUE2ZzBvdUhhWGp6VQ?oc=5",
+          "published": "2026-03-02T21:38:19+00:00",
+          "publisher": "AOL.com",
+          "title": "When Trump makes election threats, it\u2019s best to believe him - AOL.com"
         }
       ],
-      "hits": 3,
+      "hits": 4,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 3
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "security_sector_neutrality",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNGNFVFVKQUJmYlhkc1RtOHFTQURFQ0Y5WVBhMW5LRHdzUHV3ZllKbm9aZnM1WWowVmt4dUE1T1k0WlBWSVhxelF3OTl1XzNtQUtOZXVXQTB4Tm8wR3NuWjhHckdaSUduT21zZ0hCZFd0UkdpYzA0NnBRMExieXIwdWw2cHg?oc=5",
+          "published": "2026-03-03T09:26:33+00:00",
+          "publisher": "Brookings",
+          "title": "After the strike: The danger of war in Iran - Brookings"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcFM1eHdrWXJwR0NQYkd4T2RBbklMZnZ1ZHdSeFYtR28tT3lkaWFyYTZhSDh1RXRqdXU1NVBWRVAySjFIanJZVklJQlp2M2NoTzNFMDBUM21oVGxCOVl0RUo1QWdPLTZDMHVvQlFoZVhJNmJOejZJcFNhY3NVcGZlMzJqeE8tbU9lOEluU0wwR3BrLU9Mb1VnUXdCRS1CdmQ4LVNhSVYzckxYV2llenJN0gGvAUFVX3lxTFBwUzV4d2tZcnBHQ1BiR3hPZEFuSUxmdnVkd1J4Vi1Hby1PeWRpYXJhNmFIOHVFdGp1dTU1UFZFUDJKMUhqcllWSUlCWnYzY2hPM0UwMFQzbWhUbEI5WXRFSjVBZ08tNkMwdW9CUWhlWEk2Yk56NklwU2Fjc1VwZmUzMmp4Ty1tT2U4SW5TTDBHcGstT0xvVWdRd0JFLUJ2ZDgtU2FJVjNyTFhXaWV6ck0?oc=5",
+          "published": "2026-03-04T01:06:43+00:00",
+          "publisher": "Devdiscourse",
+          "title": "Nepal's Youth-Led Push for Change in General Election - Devdiscourse"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM1R1LXE2V2dCNUwtR3RYa3JfNWdGQnI0enRTMWVyclhOOHh6Qkh0RkNuTV9FZkRMenNRVUZmMVBzRk1HM2xEYmc1bkdNdnRhaVByUlZaTTFQVE5LZXh4TGtzZFZDS0hWRnJhbmxJdDJaXzFpMl84dWRfbmZEMjJsdVl6ZzRZTGhlQjIta3FNTHBWcEd2OE1wYXd0dlFONjVFSnM1eG5WRWpEbmVpYWg2b9IBsAFBVV95cUxQM1R1LXE2V2dCNUwtR3RYa3JfNWdGQnI0enRTMWVyclhOOHh6Qkh0RkNuTV9FZkRMenNRVUZmMVBzRk1HM2xEYmc1bkdNdnRhaVByUlZaTTFQVE5LZXh4TGtzZFZDS0hWRnJhbmxJdDJaXzFpMl84dWRfbmZEMjJsdVl6ZzRZTGhlQjIta3FNTHBWcEd2OE1wYXd0dlFONjVFSnM1eG5WRWpEbmVpYWg2bw?oc=5",
+          "published": "2026-03-04T01:07:10+00:00",
+          "publisher": "Devdiscourse",
+          "title": "Polling Chaos: Voter Confusion Erupts in Texas Primary - Devdiscourse"
+        }
+      ],
+      "hits": 3,
+      "id": "military_domestic_political_use",
+      "name": "Domestic Military Use in Political Conflict",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRkR0OE4zakg3ajgzTUI1UTg0cnk5LUlWU3VfcmdYb3VwSWJYVE43U3lXWHBGb0Vza0huN2xZN1BOM1dtZFg5YWFSYUU4T3p2TlRuUUl4RlB2cDV1QjdNVGJ3SDRTOWZkUUFpMVByc1F5TV9GWHFNV2REempsczhtRlFzNUJKZ093WTJVX0I2bDlDRl9IbGJ2NjhPbXZHV3JZRWQ5cXpJakpWYlRSVnpOSGlJbw?oc=5",
-          "published": "2026-03-02T18:53:33+00:00",
-          "publisher": "Fieldfisher",
-          "title": "UK, EU and US sanctions on Russia - Fieldfisher"
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN2doR29idjlzdjdoX1RBaFMtTE9hMHFRQWdQaGhBTVFwOFpjRzFyNk9UdnNMcVBTREJDRWV5X0Fza3JBOUppeXA4STJwamtLTE1qZzFPYmtvcHlteXRvcnZDSV9KNEFWUTh0dU9NVFhOSklyS1Q4UndleTRYaHd3LTF4MA?oc=5",
+          "published": "2026-03-03T20:56:43+00:00",
+          "publisher": "FactCheck.org",
+          "title": "Legality of Latest Iran Attack in Question - FactCheck.org"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVWNhdW5SZVNOR1RsUUVZaUNyTmcxU0tnZ3lZR0o2Rkg5SFd0MWl1ZUUxY0dHU1dqRW9GUHA4VEJQeU1EcndZWjVEMFVLdGxEWnh0M09tV0xFaU1GQ3U4ajBwTE9PZlFXYk8tUFV0eTBPNDlsalp5RHpsVU8xMHBBRjVXaUtFSk1wa3c?oc=5",
+          "published": "2026-03-02T23:34:02+00:00",
+          "publisher": "The New York Times",
+          "title": "Can Trump Legally Kill Iran\u2019s Leader? - The New York Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcUhwM1NXY1VSYjZpZ3c2a2NlakhVUzZ1MVlZNklpYnFLazE5UEtRQlNkaXBtX1dZbGdpUUxSNEUtMTR6YUhQYjBHRXQzY2RmZGp2RDJvZFVjM0F6YTd6VHczcmR3aVJ4ZVo2NUc5U1Zmdm1NUWRlMHJzNzdlZFUxa01VNDRValhZWFNvemhrSU5zcERDdHE40gGcAUFVX3lxTFBjUWthdTI3cUItQTJ4WmxodHdhR1RVa0NueXI3c2NFbHdHWjJsbW5LZ1hPTG1yRkJ0NUllbkIxcTlBMGVtRDRlV1BXTERmdmZ0TEd6alk5S0xEaUNQNERrNFNvZUlKSExYS3ZWUkItYWxxTnNGbjlUR1RHb0pmc3JmMm4zdEU1OTRKQ096YWRxdTZSdmFuazlXRUt0UQ?oc=5",
+          "published": "2026-03-03T08:45:00+00:00",
+          "publisher": "The Business Standard",
+          "title": "5 times Trump bypassed the US Congress to take control - The Business Standard"
         }
       ],
-      "hits": 1,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "hits": 4,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.65,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 4
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNmNsZ1lDV0V1d2Z2S1l2OVlmbzJ2RE9OcHNEYk9fUzB4RFUtSkE4Q3FHSHB0SC1wN3JzdXZPVlFEX3NOeUhlV1RSRHNCeWFxbzlLYjFxZ3kxMk1VaFdGQnZReUcxMmFHQmxON3lhUk5DRHNrSFJTN1dQaUlZQU15a1V6elhwX0VzZXlBMGZKMnZsSm1ObUdkWFc1YTZwY09uczZrczFJSXVqbXAzZXFxenM2VzNKZFZ4b0NiVVlrVEQ3bFBRT1JvTUttVXZ4clQ5ekE?oc=5",
+          "published": "2026-03-02T16:02:07+00:00",
+          "publisher": "kcentv.com",
+          "title": "Primary election 2026: What to bring to cast your vote - kcentv.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KcnFlM2ZhMmExcWl3T3UyUDltaWx5YUFuUGJoV2hKTF8wMW41WmdtdnZ4b25EbmEzWUllVExZeU5XakUxdGZaU0xwLXFfZ3A1?oc=5",
+          "published": "2026-03-03T00:31:45+00:00",
+          "publisher": "The Rising Nepal",
+          "title": "Mustang voters demand land ownership certificates, not promises - The Rising Nepal"
+        }
+      ],
+      "hits": 2,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeHMyZzVVZHAzd2cxZTFBN0N1c25LaVk4NlViMjRKUzJPOVFwZ3dLRVBsY0UxdXNKMjVMUHoxbUlkX2VLZUlCVV9LX0E2UVR0a2Y1VDJZSE1UYXZJV1ZXa211LWN3MUxPdDU5QWgyLUtPMEZWSUhIeVdSYUU5MmM2WXdfVGlKdC1lbmlQZnVuUjQ3dldBWWlHN2dnYmJMNDdOYVp4TWtOMENVNjJYMkx0ODRJQVM?oc=5",
+          "published": "2026-03-03T11:19:37+00:00",
+          "publisher": "Georgia Today",
+          "title": "Europe Press Freedom Report: Situation in Georgia \u201cdeteriorated at an alarming rate\u201d in 2025 - Georgia Today"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaENRcDV6YTc0dTRncV9PaUFhWU9ncmxsTlBXOVZJN3FsTFByNUxRQ2dLY3VYNmtSb09keEgwLXNmTmNNU01wSVdaVVdNYklvRl9WdHhNVGcyOV85Tk5wdVVBOVVBNU16Rk5rZUk0ZVhWcFVONGYtZjdpdms2RTVsa2RoNWh1R1MxajJUZVhGQ3RINzkyajBvSmEyVDhxWm4tdXRoc0Rkdk9LR1dOUFRmTkJSWl93YTNPaEZzallYdmtjQVlLOGRDNkRscEVVbHFnWWhaYkUzbjA2R3ZMa0E?oc=5",
+          "published": "2026-03-03T21:41:20+00:00",
+          "publisher": "The Eastleigh Voice",
+          "title": "Journalism under pressure: New report documents escalating threats to media freedom in Ethiopia - The Eastleigh Voice"
+        }
+      ],
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -185,18 +249,18 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KcnFlM2ZhMmExcWl3T3UyUDltaWx5YUFuUGJoV2hKTF8wMW41WmdtdnZ4b25EbmEzWUllVExZeU5XakUxdGZaU0xwLXFfZ3A1?oc=5",
-          "published": "2026-03-03T00:31:45+00:00",
-          "publisher": "The Rising Nepal",
-          "title": "Mustang voters demand land ownership certificates, not promises - The Rising Nepal"
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSFE4OWRWUFFuUWFxMDVsa2pYRkFCWkloN2RCejFXaFJ4VWFSYWxtLTF0OEdZdVYzTHI4RjYzZ1lORjA5N29uRUZzX2phRWs2eXhBTUJHdUxlT21pRXljWXJtYkx2a0luUHoyUTB0eEVudHpiZmo5UXVSdXdFOFBSY0pTYlRlWGk0NWV0ZVJ4T3BLdGpRS3Jrak45SjhEeWxvMS10X3BlX0w2YXRtbnpNQVU4NjHSAboBQVVfeXFMTXg4THRBNjk2RGF6Z3NjZmpsOVNnc1QtenkxSGQ5aXN6YUFtazFQWUdwZHFWY0RGM3BSN3F3TnFMc0lLVGF0R3ZTWk5WaldwdVNGT3M5M2NnRUcxSzg1QzJKVWh2LTdaeTJXXzZZaGRQN0t0UGxBNExpb2RMQndjQzRSSmFKUGxUR2JQWG9CSldfaGtpWDg4QXpCNzJPeEJiVEV5aG9vNVBJMjI0ck8xYnJ2QWV3YmpNOWxn?oc=5",
+          "published": "2026-03-03T21:31:13+00:00",
+          "publisher": "The National Law Review",
+          "title": "Linger at Your Peril: Supreme Court Rules Uncured Jurisdictional Defects Doom Federal Judgments - The National Law Review"
         }
       ],
       "hits": 1,
-      "id": "alternate_elector_scheme",
-      "name": "Alternate Elector Scheme Activity",
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -205,38 +269,18 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS3dxalJEX3NjRERQVGdpWksxbUlsUWdDSTVyVi1tMEh0NXRTYzZkM3J3Y3ZjN2JnT3drd1ByN2pHYmVVbHRwYVlSUlF1RzQ5NW56QWltUTI4QXRtT055NzlmX0xic0J5eFZLYXA0ZjRyRGcwMi1Pb3lhQXdrengzeHRXaDJvMFhFcGxPVVoxT3Y1eEstYmlFZTI2OTk5b2tQMU50WU9wa0c0aDdVTjFZaHhvZjhPQWgxSUpEZVFwRGgtSjUwakVHTVNR?oc=5",
-          "published": "2026-03-03T09:33:45+00:00",
-          "publisher": "Addis Standard",
-          "title": "Analysis: Journalism under pressure: New report documents escalating threats to media freedom in Ethiopia - Addis Standard"
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWxTUllVUFVoS2YtZ3NnS043RUhpWmNyamttcXlVdldVVE91UGl3N0lmVDRLeFg5TG1SQndDODJ1TGNpcWxvWV9Sb0dpVzREbzQ2VTBtSkFCd3VxWEowOEF3cTFrZVRhZkhzNTRVNHY5aDZZRkFrUkRSZFNrVlJZcUgyYU1NNExGUlhVblZrY0FhVW9yUnA0cExCVVI5SUNGSURRUWV2bURrd0xEUTljalNLeDQ?oc=5",
+          "published": "2026-03-03T17:55:00+00:00",
+          "publisher": "FedSmith.com",
+          "title": "What Federal Employees Need To Know About The New \u2018Schedule/Policy Career\u2019 Rule - FedSmith.com"
         }
       ],
       "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQUkYyN1BHNUVCclZJLU9CV2NGc05nRjJsRmpXRUJ2R00zcTJEODF4UFIxdWs0aEd6b1hCaEVtOHEyUlgzTWxLaC1DT0JnekNDV0l3LTF0MGVoaEFGNkVKQV9VQ1gteUp4VklTN0E0X1JtWEN0VkJ2eGtpLVBwcUk?oc=5",
-          "published": "2026-03-02T04:59:46+00:00",
-          "publisher": "AOL.com",
-          "title": "Rubio blasts China over 'unjust and tragic' 20-year sentence for Hong Kong democracy activist Jimmy Lai - AOL.com"
-        }
-      ],
-      "hits": 1,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -248,12 +292,38 @@
       "domain_id": "executive_constraints",
       "evidence": [],
       "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.95,
       "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [],
+      "hits": 0,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "hits": 0,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -263,32 +333,6 @@
       "hits": 0,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
