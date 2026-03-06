@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-03-05 12:34:36 UTC
-- Score: **18 / 100** (Elevated Strain)
-- Previous day delta: **+3.0**
-- Delta vs 7-day average: **+1.0**
+- Generated: 2026-03-06 12:34:14 UTC
+- Score: **15 / 100** (Elevated Strain)
+- Previous day delta: **-3.0**
+- Delta vs 7-day average: **-0.9**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -14,55 +14,54 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.74 | 4.06 |
-| Judicial Independence and Rule of Law | 15 | 0.67 | 2.50 |
+| Elections and Transfer of Power | 22 | 0.65 | 3.58 |
+| Judicial Independence and Rule of Law | 15 | 0.55 | 2.06 |
 | Opposition Rights and Political Pluralism | 14 | 0.33 | 1.17 |
-| Executive Constraints and Emergency Powers | 13 | 1.20 | 3.90 |
+| Executive Constraints and Emergency Powers | 13 | 1.08 | 3.52 |
 | Civil Service and Agency Independence | 10 | 0.33 | 0.83 |
-| Civil Liberties and Information Environment | 10 | 0.65 | 1.62 |
-| Security Sector Neutrality | 8 | 0.82 | 1.65 |
+| Civil Liberties and Information Environment | 10 | 0.33 | 0.81 |
+| Security Sector Neutrality | 8 | 0.65 | 1.30 |
 | Federalism and Legislative Oversight | 8 | 1.00 | 2.00 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | 8 | 8 |
-| Election Administration Capture | elections_transfer | 1.65 (Watch) | 5 | 1 |
-| Domestic Military Use in Political Conflict | security_sector_neutrality | 1.65 (Watch) | 2 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | 12 | 10 |
+| Election Administration Capture | elections_transfer | 2.00 (Yellow) | 5 | 3 |
+| Domestic Military Use in Political Conflict | security_sector_neutrality | 1.30 (Watch) | 1 | 1 |
 | Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 2 | 2 |
+| Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 2 | 2 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 1.00 (Watch) | 2 | 2 |
 | Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
-| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
-| Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
 | Federal Preemption of State Election Authority | federalism_oversight | 1.00 (Watch) | 1 | 1 |
 | Legislative Oversight Obstruction | federalism_oversight | 1.00 (Watch) | 1 | 1 |
-| Election Delay or Cancellation | elections_transfer | 0.65 (Green) | 0 | 0 |
+| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 0.65 (Green) | 0 | 0 |
+| Press Restrictions or Retaliation | civil_liberties_information | 0.65 (Green) | 0 | 0 |
+| Election Delay or Cancellation | elections_transfer | 0.30 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Legislative Bypass by Executive
-- [Al Jazeera] US Senate fails to advance war powers measure to rein in Trump’s Iran war - Al Jazeera (2026-03-04) - https://news.google.com/rss/articles/CBMitAFBVV95cUxQUk81WXZIMUp4Zm1CdlRHaldCdlg4a180N1RGbTVjQi1tOXQwWVA3WWFya0Z1Mkw2U1BGRmNfUGhhdVFDR29qWlJvUXBSQnE1dDFPSXdsZlFWRm1SQWJGd29td2ducTczT2cwOVVGNVBfUDkwVXVvX0dVY3dIYUp2UjlrTFFmSVE1Rm9GeXJhSzByY2cwWlEwSGRIQld4d25WTFBsTERsS0VUV3lVLU1xT1RBcDfSAboBQVVfeXFMUG5IcFRZTWN1ZDBaNVJkOEg5elRuTThCTjduWkEyWWxYaGxBMWl6Q1RCbTd3dGZnZlB5MDBkTkNHQXhRV19BcVU5ZWdtRkcwOWJGV3pVTlJVVTIyT01IWlc2SHc5bmplZ0hGS1RRLVlPTHhqcWJoRWJQcGVmZ0o3eXpYeUpFS3BKdHB2Ym01MXAwdWdLX1JhdDJueUJJNXZyNG8wM1pNSEZIQUtvejM2NEE5NFFOSllXMFNn?oc=5
-- [AOL.com] Calmes: Trump's address to Congress trumpets how he usurps Congress - AOL.com (2026-03-05) - https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVHRPWkdWTmxROG1wTHczeE9YYXNDRVR5dko0dHpzNkpYeXNHb2M0OGg4a2U1bU85QnlISnBPZGVKdkNsQUVfR2t0WUQwWHZZMzEycXcyNFU0VUhfX09SRm5NSVl5YVRpcm1DSWZnaU9zVmhNTDZYR2pNR1J6ai0wQnRneXh2SWJIaFNn?oc=5
-- [FactCheck.org] Legality of Latest Iran Attack in Question - FactCheck.org (2026-03-03) - https://news.google.com/rss/articles/CBMigwFBVV95cUxPN2doR29idjlzdjdoX1RBaFMtTE9hMHFRQWdQaGhBTVFwOFpjRzFyNk9UdnNMcVBTREJDRWV5X0Fza3JBOUppeXA4STJwamtLTE1qZzFPYmtvcHlteXRvcnZDSV9KNEFWUTh0dU9NVFhOSklyS1Q4UndleTRYaHd3LTF4MA?oc=5
+- [Sites@Duke Express] Without a Congressional declaration of war, do the attacks on Iran violate the U.S. Constitution? - Sites@Duke Express (2026-03-05) - https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0Z1Mk9zME9ZX2d4MktGQk9JTUxpeklNazNiOWRSaE9YVTN3ZG53c0tqWGI0dWdPU09nODFGSllWV29ZVGZYNHdIZFVzSnV2X1pmLTg5SW9ESnhRLUVPTzYxdFR1Zmk0ZWhzbEVzVUI0T21GSzd6SjJYYjc1cXFHM2l6bUdMb2stV0JrLTRrNVFDWlJrU0c1NjNrc0wySmZ1d2ZFMUlUNlFHT19PdkpWRWZzSmFSOEg2YndaNERrT21jNWJxbEltcGRRNS1ZZmxmUktj?oc=5
+- [AOL.com] Big Law thought it won its battle with Trump. That lasted a day. - AOL.com (2026-03-06) - https://news.google.com/rss/articles/CBMiekFVX3lxTE5OamNsNE1naEl2cG9KdDFZOVdtckZEYzhOVFJsUGlCRkx2WmNQZmtxLWt6dVlRdzVqRkE4aGxtTFJRWWNWYThjcUtBeFVBRFROMTdNdDhDcUs4eld4Z2pONlJtXzlWaFdNYXJMdG9wY2dkOHZlRkE0eHl3?oc=5
+- [Mountain States Legal Foundation] Climate Policy Belongs to Congress—Not the EPA - Mountain States Legal Foundation (2026-03-05) - https://news.google.com/rss/articles/CBMif0FVX3lxTE4wSmxzU3ZZNDBSTkQtaktvQVVncjJZSnlKSFdCa1gyNGFMUjh1R0dMQ2x5a21tNnpPVUsyczQ1WkxCQTdHd3lrY05RSHh5M3lOSWZTOHotbG9jN2tJeTR2WWNIVmpGcmJsYmU5YWF0aTR4dzhuQWQ0akh1dUU5RFU?oc=5
 
 ### Election Administration Capture
-- [AOL.com] 'Surround the polls': ICE will patrol elections, ex-Trump aide says - AOL.com (2026-03-05) - https://news.google.com/rss/articles/CBMihgFBVV95cUxObzJyMmhpOEs5WFpaelczTFg2eGgyb01YVjgyUVZUbmUzSGxyMkJQXzMyNnAzME02TWZPYXlXQWZiLXN1Mkh5XzgwbEN5M011clpmTXlkWDZhRFRia1dFclU2d3RqTlZ2ai1QUEdjdlJvWkVVa2FNazNHOC1NLUFEM3BNcGdRUQ?oc=5
-- [AOL.com] Hearing in Fulton County Election Board raid delayed - AOL.com (2026-03-05) - https://news.google.com/rss/articles/CBMihwFBVV95cUxQUVNEZzk0YmxvUUpmbDR4SGFHZ2w2cW8zNXRNTWs1dGJDNVRQN3cxTThiN1hBNmd0aUNOZEJ6WXRpbnc1OGQzRy1nUDlLWTRjdzZZaGkxcGhXNldiNmNUenBHUzZDSFFhY2d0Y1pBZzhRMUtuWjQwMElNZHdGVFBSNkhhWEptbzg?oc=5
-- [AOL.com] Clinton accuses GOP voter bill of targeting married women — Republicans call it ‘nonsense’ - AOL.com (2026-03-04) - https://news.google.com/rss/articles/CBMif0FVX3lxTE1Hbk1FNjIwaEFQVFZKbDBGdktlUVpibDJOTms4Zzdva05reGhqcXFnWVYwOEZEQzQ1cktkVFJlS3B6eC1XcXVTVDhqOUpzM2ZtcVc0MWpJWXhZZnJXZjlyY1ljU3V2UXF5cXpxZ216QlFSdmpuZVZ4WE0wOVFXOGs?oc=5
+- [AOL.com] Hearing in Fulton County Election Board raid delayed - AOL.com (2026-03-06) - https://news.google.com/rss/articles/CBMie0FVX3lxTFBQVDZ2N2RPc01qVUJ5WG5rQmw2VzVTUHYzZDVON3l2SzU2aUs0bjQybUxuZ2tIeFc5dzN6UmlXYUNKdWdYYWhGdkl2bGZSOEFOa2J5b3NQVUN3OUVwN3hNeW9hbU1raHNPb2NuMy1uaGtyNjFub1FyRU80dw?oc=5
+- [The Texas Tribune] Wichita Falls ISD avoids state takeover, will keep its elected school board - The Texas Tribune (2026-03-05) - https://news.google.com/rss/articles/CBMiggFBVV95cUxQVHppWk44Z29qUzN2Y3JNOGZIMEhYQ2pmYzZRT19LMkM3WG5RbVhqOWJlVUZQS0JOaWhtMzB6aVliT29IM3ZHU0JfUjBnNUxVQjdkb2UySFBnNWtVNy1WeFE5eW9JbmEyUExnZHpTU0pnZ3NJMjV2aGFvbUlMX2NzOEJ3?oc=5
+- [Military.com] Marine Veteran Brian McGinnis Removed From Senate Hearing After Protest Over US Policy Toward Israel - Military.com (2026-03-05) - https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMVktS0FmcGNDTTdpQUluWmdfT1o0eEdBTzBZQmpoMVJtaDhVMlZRR01RR2I3RnI1cm12WDFOWF85a0FMTkZfQzV4dW51R1JEZmF4aGlQbGgwNVZvMldXd1p3THRuZVFxUkZ3T2JfZUdoZWptT2RSRElPOEFtNGhGbTNJWmJmaTc0ckNHZndqYUl1TUhZTHdQeVR4QWFZbEcxNi1NalRQTElzQnNPMHVIbkNxeGY1dkJhWXhlRVZrOWVGR21QYi1hRA?oc=5
 
 ### Domestic Military Use in Political Conflict
-- [Devdiscourse] Nepal's Youth-Led Push for Change in General Election - Devdiscourse (2026-03-04) - https://news.google.com/rss/articles/CBMirwFBVV95cUxQcFM1eHdrWXJwR0NQYkd4T2RBbklMZnZ1ZHdSeFYtR28tT3lkaWFyYTZhSDh1RXRqdXU1NVBWRVAySjFIanJZVklJQlp2M2NoTzNFMDBUM21oVGxCOVl0RUo1QWdPLTZDMHVvQlFoZVhJNmJOejZJcFNhY3NVcGZlMzJqeE8tbU9lOEluU0wwR3BrLU9Mb1VnUXdCRS1CdmQ4LVNhSVYzckxYV2llenJN0gGvAUFVX3lxTFBwUzV4d2tZcnBHQ1BiR3hPZEFuSUxmdnVkd1J4Vi1Hby1PeWRpYXJhNmFIOHVFdGp1dTU1UFZFUDJKMUhqcllWSUlCWnYzY2hPM0UwMFQzbWhUbEI5WXRFSjVBZ08tNkMwdW9CUWhlWEk2Yk56NklwU2Fjc1VwZmUzMmp4Ty1tT2U4SW5TTDBHcGstT0xvVWdRd0JFLUJ2ZDgtU2FJVjNyTFhXaWV6ck0?oc=5
-- [Devdiscourse] Polling Chaos: Voter Confusion Erupts in Texas Primary - Devdiscourse (2026-03-04) - https://news.google.com/rss/articles/CBMisAFBVV95cUxQM1R1LXE2V2dCNUwtR3RYa3JfNWdGQnI0enRTMWVyclhOOHh6Qkh0RkNuTV9FZkRMenNRVUZmMVBzRk1HM2xEYmc1bkdNdnRhaVByUlZaTTFQVE5LZXh4TGtzZFZDS0hWRnJhbmxJdDJaXzFpMl84dWRfbmZEMjJsdVl6ZzRZTGhlQjIta3FNTHBWcEd2OE1wYXd0dlFONjVFSnM1eG5WRWpEbmVpYWg2b9IBsAFBVV95cUxQM1R1LXE2V2dCNUwtR3RYa3JfNWdGQnI0enRTMWVyclhOOHh6Qkh0RkNuTV9FZkRMenNRVUZmMVBzRk1HM2xEYmc1bkdNdnRhaVByUlZaTTFQVE5LZXh4TGtzZFZDS0hWRnJhbmxJdDJaXzFpMl84dWRfbmZEMjJsdVl6ZzRZTGhlQjIta3FNTHBWcEd2OE1wYXd0dlFONjVFSnM1eG5WRWpEbmVpYWg2bw?oc=5
+- [Devdiscourse] Strategic Shift: Patriot Missile Systems Deployment Discussed - Devdiscourse (2026-03-06) - https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR0o3NnluT3l3LUxhaS1Zei1TZUpZWFdpNzY3bDA3UnhXckFzQ2dubWx0UHRnR05RczVEM3FuZWdKSUJwbjRGdDg3Y3VoMmVrbFdSUF8wUUFXay1IVFRTWVFjcnhTa3E3MTJfYTBQNk15YlkwUVVOc3ZzaGZlbkp6UnRDYUxOeUVraGJnUVlwMExlZjRGeUpLNEhHZDJmQW56czN2RFVuNE9obFJYWHVFWl9BeWo0SzU1SEc40gG7AUFVX3lxTE5HSjc2eW5PeXctTGFpLVl6LVNlSllYV2k3NjdsMDdSeFdyQXNDZ25tbHRQdGdHTlFzNUQzcW5lZ0pJQnBuNEZ0ODdjdWgyZWtsV1JQXzBRQVdrLUhUVFNZUWNyeFNrcTcxMl9hMFA2TXliWTBRVU5zdnNoZmVuSnpSdENhTE55RWtoYmdRWXAwTGVmNEZ5Sks0SEdkMmZBbnpzM3ZEVW40T2hsUlhYdUVaX0F5ajRLNTVIRzg?oc=5
 
 ### Opposition Ballot Exclusion
-- [Indiana Capital Chronicle] Braun ally asks court to remove a same-last name challenger from primary ballot - Indiana Capital Chronicle (2026-03-03) - https://news.google.com/rss/articles/CBMiwAFBVV95cUxONGcxNmYyZTVUR1d5TjF3a00yYTM4ajJzbUpzNHFVZ3hTRFVpR1ItR1BMb2NLYlNfQi1xWl9NSDRGN3pLRzcycVlNLTRZbUZXZ0NTaHRJYWY2M1R3RmRzU2pydThHdjdUVEZURlBzQlFndExONlRZNzMxLXdMaEo3STMwOVIzRTEyb210NTAtYkRMNU9xLUplay1yeEF2Rkd6eFRDS2x2eFZPLWFUUWM0NW5aRU9wZWtmZjdzRkNyaE8?oc=5
+- [The Courier-Journal] Louisville Metro Council candidate faces removal from ballot - The Courier-Journal (2026-03-06) - https://news.google.com/rss/articles/CBMi2wFBVV95cUxOLXJNbDdRNDFFenhDb1RhRy01dHpKazREd0tnNldXUmlmR1B2WHEwd2J4RGlDXzd2ZjFudTR5bjUyeE50Y2w5cl9iTFZmblJkREI4UWFqMkFpd3dvdjZtSkhMM0pTTzBBVVF1VjFMWFNITGt5c2xCU2dhYXVzdGlnZ0thbGM5ektBLVB0WW93SkFMWnVRTkNmMkFaaU5EVVJ2ZnFrSjBJbVA1bmRCODFnb2dyTnZ3UDlUa0ptc3hYdHVLMUp2YkpQOFpXMXQtOVBVQjhWTmpSZHRKWUU?oc=5
 - [Bhaskar English] Uproar in Rajasthan Assembly: Bills to remove two-child norm in Panchayat, civic polls introduced - Bhaskar English (2026-03-05) - https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRjN6aEFKeHZ1dHcwQ2JEMURZUlNNNWlpVVdlRVlHVlR4cjN5Qjhvc1BOX3FhQWpvdElWLVpMX0tqRlVkZTB4N3Q5Y19FQ2xJYXdfWWJrczlKVlN5bFhBc1FTazFPLXluUGQ4OVB2MnpVNW9zdzl0cmc3Q2s5TUlyOVpEampoUkdKelRQRnlTVVhxOE5qdU9SeXZVZjh6SUhrZ09hNWJzQ2s2LUVvMXpVc2tqdFZZbm42MWlZ0gHAAUFVX3lxTE1jSWZ1dEN6aEV6bVV4ZXZVdkotRTQ2b0dOSmNYbUdiQ2stNk00M1QwZm10WjNVMUVmZ3M1c0hydjZDZUZSaDA4cG84ejBZb2JFeVc3NEVmcDRKYVdTb0Nvd1dlNkNleGMyR2ZBRzUyMVlaVUJSZm9TNjlHU0stMGVfUUU2TFBVUjIyc2NNOGN0bFFVVlAxWUxTdEx1SlphRmZ3bGpCTGE4V2lRSVFUczA5SmY5LW1aa2VjVE1pOHVTVg?oc=5
 
-### Civil Service Purge / Schedule F
-- [American Federation of State, County and Municipal Employees] Public Service Organizations and Unions File Updated Legal Challenge to Trump-Vance Administration Effort that Seeks to Make it Easier to Fire Civil Servants - American Federation of State, County and Municipal Employees (2026-03-04) - https://news.google.com/rss/articles/CBMipwJBVV95cUxNV2E1X0Y0ekI0NXpzZFRWVU1qWHNYWFhHZU9YM2VvaF9URVBtZlNMZU4zT3lra3RxRFNCbXkwZDRTR1RzTGF4RXBlRDZ2dXdUd2FWdmlVM2NtaXdaVTNYeGtvaWtkN01IbnhZM0Y3UlBrSjRRbWRBUHlOa3pjRWxVdnFqV1pvS2NGQ3RfTC1KS2N4YTEzRkdfYWN0T0ZucjB1QklpdUY0WkIyVmFGUjJCZGgwR3NtMVJYaElXdDFuUnNTMmdoWVpSclFSNEw4UktlX21wLUFNa2ZmNHJ1VDlpQmkyT3NDS3lmN0U2UEpZamtUVkxjT3pRTFJpdC1oa1dwZzE5QVdzWHZYY1JrWHRISzVuX1paTXlkVEFCSElCMWhTMk52ekg4?oc=5
-- [FedSmith.com] What Federal Employees Need To Know About The New ‘Schedule/Policy Career’ Rule - FedSmith.com (2026-03-03) - https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWxTUllVUFVoS2YtZ3NnS043RUhpWmNyamttcXlVdldVVE91UGl3N0lmVDRLeFg5TG1SQndDODJ1TGNpcWxvWV9Sb0dpVzREbzQ2VTBtSkFCd3VxWEowOEF3cTFrZVRhZkhzNTRVNHY5aDZZRkFrUkRSZFNrVlJZcUgyYU1NNExGUlhVblZrY0FhVW9yUnA0cExCVVI5SUNGSURRUWV2bURrd0xEUTljalNLeDQ?oc=5
+### Emergency Powers Expansion
+- [The New York Times] House Turns Back Bid to Restrict Trump’s War Powers in Iran - The New York Times (2026-03-06) - https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHlOZ3NuemJGTjBCNG5VNnFvd2p2RWV3X2ZPY0pGOThEN1BFWk1VSlF4QXI1Vk1wbWp5bW5lRE1UY2pvSmxKdEhOeWtUalVubURzeDkwWlBKVUdMWjZpTzVqVDF2LTJEdi1FMXVLRlQ5VjJfamZaSlV5SUhIWkhrVHBBZHB3Q0g2ME5CYg?oc=5
+- [Spectrum News] Hawaii Evening Briefing: March 5, 2026 - Spectrum News (2026-03-06) - https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWEtSRE1xdXVsMS1iQ29feVJ1RDN1bHl5a1JTQlhrcXpmbUtIUEZJYjNVOThkZENFa3gxelBCc0NsbHIwM1hnaE01UGdLRHk2WUtMYWU1dnF1eTJsd1FmR3kxNWgwWjhSWk9yak1mT0xNM205SVBMT3V1MWZGT1Zjd2hra1U3UjRNVG5sQ2xnbGp1cGs5S25KRTdzdzhyOVYwQnRKdnZpeDNmQQ?oc=5
 
 ## Data Quality
 
