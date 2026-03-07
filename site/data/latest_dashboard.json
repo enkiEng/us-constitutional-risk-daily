@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 16.18,
+  "average_7d": 15.62,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,21 +9,21 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": -3.0,
-  "delta_vs_7d": -0.91,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": -0.72,
   "domain_breakdown": [
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.5,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.575,
+      "points": 2.75,
       "weight": 22
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.31666666666666665,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.0624999999999996,
+      "points": 1.1875,
       "weight": 15
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 1.0833333333333333,
+      "avg_severity": 1.6666666666666667,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.520833333333333,
+      "points": 5.416666666666667,
       "weight": 13
     },
     {
@@ -48,35 +48,35 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.5,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 0.8125,
+      "points": 1.25,
       "weight": 10
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.5,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 1.3,
+      "points": 1.0,
       "weight": 8
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.65,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 2.0,
+      "points": 1.3,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-03-06T12:34:14.896901+00:00",
-  "previous_score": 18,
+  "generated_at": "2026-03-07T12:33:28.291797+00:00",
+  "previous_score": 15,
   "provisional": false,
   "score": 15,
-  "score_raw": 15.27,
+  "score_raw": 14.9,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,16 +84,16 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQby1RRFlDaVpsUVlwMFhtbDIyWDNiMTMxVHBUelQ0ZUpES3NGWXp3anB3SFhPT0JFNHZXcm5uMzdJSlJybWFnUFJKaFhvUTN1cUlwSHhuSDlqTjZtcXRnaHRFdHNvS1RWZnIzekZpQ1YwUWhOQWQwTGlFNDB2OXZiaWpsbW4?oc=5",
+          "published": "2026-03-06T19:25:24+00:00",
+          "publisher": "Council on Foreign Relations",
+          "title": "Congress Declines to Demand a Say in the Iran War - Council on Foreign Relations"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0Z1Mk9zME9ZX2d4MktGQk9JTUxpeklNazNiOWRSaE9YVTN3ZG53c0tqWGI0dWdPU09nODFGSllWV29ZVGZYNHdIZFVzSnV2X1pmLTg5SW9ESnhRLUVPTzYxdFR1Zmk0ZWhzbEVzVUI0T21GSzd6SjJYYjc1cXFHM2l6bUdMb2stV0JrLTRrNVFDWlJrU0c1NjNrc0wySmZ1d2ZFMUlUNlFHT19PdkpWRWZzSmFSOEg2YndaNERrT21jNWJxbEltcGRRNS1ZZmxmUktj?oc=5",
           "published": "2026-03-05T22:08:02+00:00",
           "publisher": "Sites@Duke Express",
           "title": "Without a Congressional declaration of war, do the attacks on Iran violate the U.S. Constitution? - Sites@Duke Express"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OamNsNE1naEl2cG9KdDFZOVdtckZEYzhOVFJsUGlCRkx2WmNQZmtxLWt6dVlRdzVqRkE4aGxtTFJRWWNWYThjcUtBeFVBRFROMTdNdDhDcUs4eld4Z2pONlJtXzlWaFdNYXJMdG9wY2dkOHZlRkE0eHl3?oc=5",
-          "published": "2026-03-06T05:10:21+00:00",
-          "publisher": "AOL.com",
-          "title": "Big Law thought it won its battle with Trump. That lasted a day. - AOL.com"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wSmxzU3ZZNDBSTkQtaktvQVVncjJZSnlKSFdCa1gyNGFMUjh1R0dMQ2x5a21tNnpPVUsyczQ1WkxCQTdHd3lrY05RSHh5M3lOSWZTOHotbG9jN2tJeTR2WWNIVmpGcmJsYmU5YWF0aTR4dzhuQWQ0akh1dUU5RFU?oc=5",
@@ -102,24 +102,24 @@
           "title": "Climate Policy Belongs to Congress\u2014Not the EPA - Mountain States Legal Foundation"
         }
       ],
-      "hits": 12,
+      "hits": 6,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 10
+      "unique_publishers": 6
     },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQVDZ2N2RPc01qVUJ5WG5rQmw2VzVTUHYzZDVON3l2SzU2aUs0bjQybUxuZ2tIeFc5dzN6UmlXYUNKdWdYYWhGdkl2bGZSOEFOa2J5b3NQVUN3OUVwN3hNeW9hbU1raHNPb2NuMy1uaGtyNjFub1FyRU80dw?oc=5",
-          "published": "2026-03-06T05:56:45+00:00",
-          "publisher": "AOL.com",
-          "title": "Hearing in Fulton County Election Board raid delayed - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hRUJpUWhtdGJtc0drMEdnMkxCZUpIbE40UkFlZFNQWXZWdFRvUjBHT1VUdERkczAzc2tpdkpxZHlmUmduZ1pWMnctRjJNb0tLNHl5R25xOWZaNVNfTW54LVliSnVnSXpEalVRNm1xRkRuVGFqSXhiWUlCdw?oc=5",
+          "published": "2026-03-07T02:46:47+00:00",
+          "publisher": "The Press Democrat",
+          "title": "Congress is on track for record retirements. In Illinois, that\u2019s created a candidate frenzy - The Press Democrat"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVHppWk44Z29qUzN2Y3JNOGZIMEhYQ2pmYzZRT19LMkM3WG5RbVhqOWJlVUZQS0JOaWhtMzB6aVliT29IM3ZHU0JfUjBnNUxVQjdkb2UySFBnNWtVNy1WeFE5eW9JbmEyUExnZHpTU0pnZ3NJMjV2aGFvbUlMX2NzOEJ3?oc=5",
@@ -128,10 +128,10 @@
           "title": "Wichita Falls ISD avoids state takeover, will keep its elected school board - The Texas Tribune"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMVktS0FmcGNDTTdpQUluWmdfT1o0eEdBTzBZQmpoMVJtaDhVMlZRR01RR2I3RnI1cm12WDFOWF85a0FMTkZfQzV4dW51R1JEZmF4aGlQbGgwNVZvMldXd1p3THRuZVFxUkZ3T2JfZUdoZWptT2RSRElPOEFtNGhGbTNJWmJmaTc0ckNHZndqYUl1TUhZTHdQeVR4QWFZbEcxNi1NalRQTElzQnNPMHVIbkNxeGY1dkJhWXhlRVZrOWVGR21QYi1hRA?oc=5",
-          "published": "2026-03-05T20:17:55+00:00",
-          "publisher": "Military.com",
-          "title": "Marine Veteran Brian McGinnis Removed From Senate Hearing After Protest Over US Policy Toward Israel - Military.com"
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVEVKZ2dJTktYYXFFckprMVhWTEdQa0p6cDc2dE5IUEwzZG5fVGE0Xy1FNjN3VzZ4M1NLblotNTlmckdwaVA0QUdkZFNDVGJCWHJnU1VULWV3ZEpJVG53UkNJcWdxeUlCQlFreGQ2Sy1vNk9ZWlV5V1I4NWswY2FlTA?oc=5",
+          "published": "2026-03-06T13:43:08+00:00",
+          "publisher": "AOL.com",
+          "title": "Trump Official Flatly Denies ICE Will Be At Midterm Voting Sites - AOL.com"
         }
       ],
       "hits": 5,
@@ -141,7 +141,125 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
+      "unique_publishers": 4
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHlOZ3NuemJGTjBCNG5VNnFvd2p2RWV3X2ZPY0pGOThEN1BFWk1VSlF4QXI1Vk1wbWp5bW5lRE1UY2pvSmxKdEhOeWtUalVubURzeDkwWlBKVUdMWjZpTzVqVDF2LTJEdi1FMXVLRlQ5VjJfamZaSlV5SUhIWkhrVHBBZHB3Q0g2ME5CYg?oc=5",
+          "published": "2026-03-05T21:59:24+00:00",
+          "publisher": "The New York Times",
+          "title": "House Turns Back Bid to Restrict Trump\u2019s War Powers in Iran - The New York Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiN2ozelNSUDJNTlROUHllcmNwSk9DMXUzV2xmNncweWw0c0F3MDNWemVfSGM0WDh4ZFI2bF9keUlvWFF0Q1lmSDZBVjlYSUZEYS10MGpoRU1NbG13OWpWSGFnOEFXSEc4VXc0NFNFb3M1QW4xbE5XZmRfMzNuRW8?oc=5",
+          "published": "2026-03-06T22:27:29+00:00",
+          "publisher": "Discovery Alert",
+          "title": "Defense Production Act Overrides Oil Pipeline Rules - Discovery Alert"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWEtSRE1xdXVsMS1iQ29feVJ1RDN1bHl5a1JTQlhrcXpmbUtIUEZJYjNVOThkZENFa3gxelBCc0NsbHIwM1hnaE01UGdLRHk2WUtMYWU1dnF1eTJsd1FmR3kxNWgwWjhSWk9yak1mT0xNM205SVBMT3V1MWZGT1Zjd2hra1U3UjRNVG5sQ2xnbGp1cGs5S25KRTdzdzhyOVYwQnRKdnZpeDNmQQ?oc=5",
+          "published": "2026-03-06T03:45:00+00:00",
+          "publisher": "Spectrum News",
+          "title": "Hawaii Evening Briefing: March 5, 2026 - Spectrum News"
+        }
+      ],
+      "hits": 3,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
       "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNnRQZkFZcXYyR0xId3VyR0VaY1JHRWl1TlU3eDU1SzVaalRKN2hMUDJ5RWNOaHZoT3VhVmxIOGg1R0lKdkNoeWxuT2hmdG5iQV9yQWRaVlZVZGJhNVdpcUVDZzgwWkl2TnpVeGdzV202a2NSNDV1RXpaTTdLU0F3TGZHdVZFOVBzN0NIUm9OT29RamIxVDdfX3ZKQ0wwUQ?oc=5",
+          "published": "2026-03-06T22:02:00+00:00",
+          "publisher": "Government Executive",
+          "title": "Employee groups revive lawsuit to block Schedule F - Government Executive"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ3hkNkhpbDNHakxZVE5HT1d0d1RKMzJ1akExSXUtOUFYYmoySThJSFFyaDdqcTBGeVZJQ2hEOXZqY21WVm1yVzNEZk4zMTA3eXF0V3BfWHNhY2lWTnYyUGZ0YjNndEJiU1VzdzNrRk5Fd2tKcVNucXYxU3czUmdDMWhYdm5uQkVLSk5FTG4tRk5ibWx0WmZTTS1WazdobnRXRWFXX25XMjY0dU90ZUxydzlYY1p1NndMa0VIRWN1bENMWkE?oc=5",
+          "published": "2026-03-05T16:03:00+00:00",
+          "publisher": "Government Executive",
+          "title": "The \u2018new\u2019 Policy/Career Schedule does NOT (necessarily) politicize the federal workforce - Government Executive"
+        }
+      ],
+      "hits": 2,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOLXJNbDdRNDFFenhDb1RhRy01dHpKazREd0tnNldXUmlmR1B2WHEwd2J4RGlDXzd2ZjFudTR5bjUyeE50Y2w5cl9iTFZmblJkREI4UWFqMkFpd3dvdjZtSkhMM0pTTzBBVVF1VjFMWFNITGt5c2xCU2dhYXVzdGlnZ0thbGM5ektBLVB0WW93SkFMWnVRTkNmMkFaaU5EVVJ2ZnFrSjBJbVA1bmRCODFnb2dyTnZ3UDlUa0ptc3hYdHVLMUp2YkpQOFpXMXQtOVBVQjhWTmpSZHRKWUU?oc=5",
+          "published": "2026-03-06T10:07:00+00:00",
+          "publisher": "The Courier-Journal",
+          "title": "Louisville Metro Council candidate faces removal from ballot - The Courier-Journal"
+        }
+      ],
+      "hits": 1,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZEJGTHN1cUJzZ2U0ZU52Zm9pN2l4TWRGS2RSOFZIRElJSEZCNVJOb3BWNXZHVlJWVWVpRnhORDVKZi1nd3V1TFNTOER0b25TLUt4eGNGMTBRaThzRDVzU3lsZDJoSXZseG1GWnlmZ3Z0N2JlS0NyM29rS1JNWW8ycVNEdmVDbUtnZUhRZE1rTTYxazA1M25tLVlDWlVsdTNXWUEzSnVKV0VkZGtoTG9KcE5FZ21kYmtndHc?oc=5",
+          "published": "2026-03-07T05:54:15+00:00",
+          "publisher": "theradar.ng",
+          "title": "Court urges PDP factions to settle dispute as Ekiti governorship candidate gets court backing - theradar.ng"
+        }
+      ],
+      "hits": 1,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95TXNmVXgwcWVoZnZ5cDMtYkhsczEzek8zOTdfcnc4MURTZTRMSjdrR3hSRXE2QzI4WkRPRktaYlRnN0VkS3BJalFZd1NJNExMZm8tbzVZZC1XZ0VZNk41NENvZHFUQQ?oc=5",
+          "published": "2026-03-07T06:01:04+00:00",
+          "publisher": "Common Dreams",
+          "title": "Retaliation? Nashville Journalist Detained by ICE After Reporting on Trump Crackdown - Common Dreams"
+        }
+      ],
+      "hits": 1,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -159,147 +277,48 @@
       "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOLXJNbDdRNDFFenhDb1RhRy01dHpKazREd0tnNldXUmlmR1B2WHEwd2J4RGlDXzd2ZjFudTR5bjUyeE50Y2w5cl9iTFZmblJkREI4UWFqMkFpd3dvdjZtSkhMM0pTTzBBVVF1VjFMWFNITGt5c2xCU2dhYXVzdGlnZ0thbGM5ektBLVB0WW93SkFMWnVRTkNmMkFaaU5EVVJ2ZnFrSjBJbVA1bmRCODFnb2dyTnZ3UDlUa0ptc3hYdHVLMUp2YkpQOFpXMXQtOVBVQjhWTmpSZHRKWUU?oc=5",
-          "published": "2026-03-06T10:07:00+00:00",
-          "publisher": "The Courier-Journal",
-          "title": "Louisville Metro Council candidate faces removal from ballot - The Courier-Journal"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRjN6aEFKeHZ1dHcwQ2JEMURZUlNNNWlpVVdlRVlHVlR4cjN5Qjhvc1BOX3FhQWpvdElWLVpMX0tqRlVkZTB4N3Q5Y19FQ2xJYXdfWWJrczlKVlN5bFhBc1FTazFPLXluUGQ4OVB2MnpVNW9zdzl0cmc3Q2s5TUlyOVpEampoUkdKelRQRnlTVVhxOE5qdU9SeXZVZjh6SUhrZ09hNWJzQ2s2LUVvMXpVc2tqdFZZbm42MWlZ0gHAAUFVX3lxTE1jSWZ1dEN6aEV6bVV4ZXZVdkotRTQ2b0dOSmNYbUdiQ2stNk00M1QwZm10WjNVMUVmZ3M1c0hydjZDZUZSaDA4cG84ejBZb2JFeVc3NEVmcDRKYVdTb0Nvd1dlNkNleGMyR2ZBRzUyMVlaVUJSZm9TNjlHU0stMGVfUUU2TFBVUjIyc2NNOGN0bFFVVlAxWUxTdEx1SlphRmZ3bGpCTGE4V2lRSVFUczA5SmY5LW1aa2VjVE1pOHVTVg?oc=5",
-          "published": "2026-03-05T06:13:05+00:00",
-          "publisher": "Bhaskar English",
-          "title": "Uproar in Rajasthan Assembly: Bills to remove two-child norm in Panchayat, civic polls introduced - Bhaskar English"
-        }
-      ],
-      "hits": 2,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRHlOZ3NuemJGTjBCNG5VNnFvd2p2RWV3X2ZPY0pGOThEN1BFWk1VSlF4QXI1Vk1wbWp5bW5lRE1UY2pvSmxKdEhOeWtUalVubURzeDkwWlBKVUdMWjZpTzVqVDF2LTJEdi1FMXVLRlQ5VjJfamZaSlV5SUhIWkhrVHBBZHB3Q0g2ME5CYg?oc=5",
-          "published": "2026-03-06T00:59:42+00:00",
-          "publisher": "The New York Times",
-          "title": "House Turns Back Bid to Restrict Trump\u2019s War Powers in Iran - The New York Times"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWEtSRE1xdXVsMS1iQ29feVJ1RDN1bHl5a1JTQlhrcXpmbUtIUEZJYjNVOThkZENFa3gxelBCc0NsbHIwM1hnaE01UGdLRHk2WUtMYWU1dnF1eTJsd1FmR3kxNWgwWjhSWk9yak1mT0xNM205SVBMT3V1MWZGT1Zjd2hra1U3UjRNVG5sQ2xnbGp1cGs5S25KRTdzdzhyOVYwQnRKdnZpeDNmQQ?oc=5",
-          "published": "2026-03-06T03:45:00+00:00",
-          "publisher": "Spectrum News",
-          "title": "Hawaii Evening Briefing: March 5, 2026 - Spectrum News"
-        }
-      ],
-      "hits": 2,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ3hkNkhpbDNHakxZVE5HT1d0d1RKMzJ1akExSXUtOUFYYmoySThJSFFyaDdqcTBGeVZJQ2hEOXZqY21WVm1yVzNEZk4zMTA3eXF0V3BfWHNhY2lWTnYyUGZ0YjNndEJiU1VzdzNrRk5Fd2tKcVNucXYxU3czUmdDMWhYdm5uQkVLSk5FTG4tRk5ibWx0WmZTTS1WazdobnRXRWFXX25XMjY0dU90ZUxydzlYY1p1NndMa0VIRWN1bENMWkE?oc=5",
-          "published": "2026-03-05T16:03:00+00:00",
-          "publisher": "Government Executive",
-          "title": "The \u2018new\u2019 Policy/Career Schedule does NOT (necessarily) politicize the federal workforce - Government Executive"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxNV2E1X0Y0ekI0NXpzZFRWVU1qWHNYWFhHZU9YM2VvaF9URVBtZlNMZU4zT3lra3RxRFNCbXkwZDRTR1RzTGF4RXBlRDZ2dXdUd2FWdmlVM2NtaXdaVTNYeGtvaWtkN01IbnhZM0Y3UlBrSjRRbWRBUHlOa3pjRWxVdnFqV1pvS2NGQ3RfTC1KS2N4YTEzRkdfYWN0T0ZucjB1QklpdUY0WkIyVmFGUjJCZGgwR3NtMVJYaElXdDFuUnNTMmdoWVpSclFSNEw4UktlX21wLUFNa2ZmNHJ1VDlpQmkyT3NDS3lmN0U2UEpZamtUVkxjT3pRTFJpdC1oa1dwZzE5QVdzWHZYY1JrWHRISzVuX1paTXlkVEFCSElCMWhTMk52ekg4?oc=5",
-          "published": "2026-03-04T16:17:50+00:00",
-          "publisher": "American Federation of State, County and Municipal Employees",
-          "title": "Public Service Organizations and Unions File Updated Legal Challenge to Trump-Vance Administration Effort that Seeks to Make it Easier to Fire Civil Servants - American Federation of State, County and Municipal Employees"
-        }
-      ],
-      "hits": 2,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSGdjT2RpWm9CZU5OeUJ2TTRnbW1rOVIzdnJ2d2dVc3pteExiMlpJeHpoTE1PRndteDdrVlZ0Vkw5c3pDN0hoMDdORjVrZ0hMTGwxelBQMWQ0ajFWcVZwVnJJb2Q5Vy03djFmdjNYU3RVS3hhaGk3VTQ1TmljN0d6aVVIZU11OFE?oc=5",
-          "published": "2026-03-04T15:22:55+00:00",
-          "publisher": "\uc870\uc120\uc77c\ubcf4",
-          "title": "Editorial: Democratic Party Threatens Chief Justice Impeachment - \uc870\uc120\uc77c\ubcf4"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "federalism_oversight",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYTRDTmtnQWI0R1RGZ1ZnY29hLTg0anhzQmtha2RoYVFjNkRvQmFYVmMwNXd5a1FmdlBKdnlVWVhJQmcyam5aVFlYUXJzY25XYVBMNU5GX25SX0stamtFLXJvcExxbjMzZlNsQTVwNXQyY0w3ZGhVQ0RDcmhaY1NuaThYZ2g?oc=5",
-          "published": "2026-03-04T21:00:00+00:00",
-          "publisher": "MishTalk",
-          "title": "Three Reasons the Save Act Is Unconstitutional - MishTalk"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "state_election_preemption",
       "name": "Federal Preemption of State Election Authority",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "federalism_oversight",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ1pKbl9ZakdHaXQ4OV9ZdzdCLWtjX3pOVHozRi1WdWFtOVh1bE9QNUVWNXJqcDdUTnNiNVIxLWFGNDBJWnlma3RmMnFZbUVZdktOa3ZJcVk1SDhFdXpqbFdMeUtvZmd4cXRaOGN2a0dhcXd0TXNfRjRXaFgtNVo3UlEzWHRuUEd2czFlUGdMZmpSZEJDWWRGSjZva0Zsbk9ldG9tUVNqWU5UclhNQk92R2VTWlBwdnBGSkpPcXNKSDRqLTNZLWhpcUpuS1FCaXJzVnQ0?oc=5",
-          "published": "2026-03-05T00:46:04+00:00",
-          "publisher": "facebook.com",
-          "title": "Lawmakers voted to subpoena Attorney General Pam Bondi to testify about the Jeffrey Epstein investigation. Five Republicans joined all Democrats on the Republican-led House panel\u2019s vote, over the objection of the panel\u2019s chairman, Rep. James Comer of K - facebook.com"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "legislative_oversight_obstruction",
       "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -310,59 +329,7 @@
       "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
-      "id": "election_delay_or_cancellation",
-      "name": "Election Delay or Cancellation",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
-      "id": "alternate_elector_scheme",
-      "name": "Alternate Elector Scheme Activity",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
