@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 16.28,
+  "average_7d": 16.8,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,56 +9,56 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 3.0,
-  "delta_vs_7d": 4.3,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": 1.73,
   "domain_breakdown": [
     {
-      "avg_severity": 0.75,
+      "avg_severity": 0.6625,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 4.125,
+      "points": 3.64375,
       "weight": 22
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.0999999999999999,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 5.0,
+      "points": 4.124999999999999,
       "weight": 15
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.21666666666666667,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1666666666666665,
+      "points": 0.7583333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 1.4333333333333333,
+      "avg_severity": 1.0999999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.658333333333333,
+      "points": 3.5749999999999997,
       "weight": 13
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 0.5499999999999999,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.9166666666666665,
+      "points": 1.3749999999999998,
       "weight": 10
     },
     {
-      "avg_severity": 0.825,
+      "avg_severity": 1.5,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.0625,
+      "points": 3.75,
       "weight": 10
     },
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.65,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 1.65,
+      "points": 1.3,
       "weight": 8
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-03-13T12:34:21.346657+00:00",
-  "previous_score": 18,
+  "generated_at": "2026-03-14T12:33:44.136979+00:00",
+  "previous_score": 21,
   "provisional": false,
-  "score": 21,
-  "score_raw": 20.58,
+  "score": 19,
+  "score_raw": 18.53,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,64 +84,64 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52d3MwZWgyUWlCR2VPTTlLVGVhRUllbmR0N2Q0TDZZV01GSm9fRkU0eldIaU5OeDlNM0cxWDVyQjNQS0RRMk5qS2ZkZjNSakMyUGpWQVJtOWF0ZHhMRW10c2U2RUE5R2RFbUQw?oc=5",
-          "published": "2026-03-13T09:19:23+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTkl5dlJra0diWm1ldWdRRDRxOERSMklWclJOeFV6Wm5iSkhFRl9JQVZ5d0MwMXRYc2R6ZlItUXFiV0taNnJzYWthM0VYLUI0TlZmWFl1cmt2ZC1NbXFDOGhVVnk4WHAtcHZUcFl4RlF4Vjc2V1dLeHVKQ0pnWHRjSnZLUTQyZFc3ZlE?oc=5",
+          "published": "2026-03-14T10:43:08+00:00",
           "publisher": "AOL.com",
-          "title": "Why Trump can\u2019t cancel the 2026 midterms, and why election experts say that fear distracts from the real risk - AOL.com"
+          "title": "FBI subpoenas election records in Arizona, expanding 2020 inquiry - AOL.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT0pvV2RtbFNKSUhvdVBBV25TUnpWSWdzMEVRQXp6MlR1c29ZT29GMGU1SWNrRW16ZzZGRzlJWVRsb3haTHVqQVJvdHAxRDlUNGkyOFo2aVloV0dHS0RpUTY5aFJwSDZ5eXFtVEpjU1FLRUYtTWlHajZVcUNKM3ZSbmgydkpTdWdtY1RDaQ?oc=5",
-          "published": "2026-03-13T11:21:58+00:00",
-          "publisher": "AOL.com",
-          "title": "Can Trump nationalize elections? What president\u2019s latest bid to transform US democracy means - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKSWVERDk2c3FodmZkWjNTSVdQZzlFSml2UFZwSlRXNU5Ea2VCQXc5cmoyUlVZQWcyVDhPWGFmWkVzNTdzbXQ3S2RvTXhXT0NRUzRvcEdvMno0anNUZEVwaWt1VQ?oc=5",
+          "published": "2026-03-14T02:09:00+00:00",
+          "publisher": "The New York Times",
+          "title": "Homeland Security Funding Bill Fails in Senate as Standoff Continues - The New York Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81UGJ1M2VvU2c1QkR2MFFsTkU0WmxhVGI5Q0lJMWpKajFTeHRaYVo5dVVTU1dtTUNxZXdZdXhITHlwOEdRaWphNjg4WWstYzRaMUszd2lhZDJ3UE94c05ycFJ4VnhVUk1QQXJTWmZOWDdiYVVicTZiSjNMRUNzUQ?oc=5",
-          "published": "2026-03-13T02:57:22+00:00",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdUFFeE1OQUFjZEh4YVJGV1RfaFNKNUUwZUFqdGJUbUswNXFNbGY4QU4wNlp3dUV2bGgtZGYxaXpHQXQzSW40cmFEOE96TUNoVlRRdUU4dndNZGtDZjhJZzNlWThKUzg3bTRocExtRllRYXRKQTZlVUh0NGRzcWIweA?oc=5",
+          "published": "2026-03-14T04:26:32+00:00",
           "publisher": "AOL.com",
-          "title": "Trump calls in to Dan Bongino\u2019s first show and insists Republicans must \u2018take over voting\u2019 in 15 places - AOL.com"
+          "title": "DNC sues Trump administration for any plans to deploy federal agents at polling sites - AOL.com"
         }
       ],
-      "hits": 8,
+      "hits": 22,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 4
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZmVLQnpzRURtMXJXU29zLWdNZW9xYVNZM2xnRGNqVXZONlVCdklweUdXZE8weDM0NDMyeHowQThXN0dmS3dTREhxODd4MDhJU3RncVYyUjNVUkVvNzd1aEQyaV81SnQ1aDZwb1ZFbHoxSUpHWGRKcVFYcVR3YUQtcEdITTQzSXBzSWFPUjlLZFBoUmkxVVVHN1BNS21tYUV4TktqTDBQcTZqSlJ2d29sWVVKb2tmVWZvUzI4WXN3QTI4YjR5LUtHc2dKcFJ1TGh3NWJvenc3YWVzS2Rr?oc=5",
-          "published": "2026-03-13T08:03:31+00:00",
-          "publisher": "facebook.com",
-          "title": "Congress\u2019s power is eroding under President Trump. Lawmakers have largely failed to check executive actions on war, trade and spending, while a surge of executive orders expands presidential authority and partisanship blocks efforts to reclaim it. https://wa - facebook.com"
+          "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFA3Y0doZUpwUzRxVC1NeWxvV2trNmJwUEFNajJCNmpYN19nQlkyZFh4M1dhUzZuU2J6Zmc?oc=5",
+          "published": "2026-03-14T08:07:22+00:00",
+          "publisher": "Amu TV",
+          "title": "Media groups urge Pakistan to halt deportations of Afghan journalists - Amu TV"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSGYxdXZjNEJMeVYwQ3FmOC1vYmpwNnBuQ2tOSkVESkFEZXU4LXZENDVmYVJWcXlSNWtnNUNjaEo5Zm9TSk41VzVNZnNVVlpRSGVGMEw1OGVfdXpTUm1iMjdOSHVsMjFnVENxOWpNZVh5aVZ0bkFyWnRreUItaHVmUDJkcHA?oc=5",
-          "published": "2026-03-12T23:31:32+00:00",
-          "publisher": "The New York Times",
-          "title": "With Disputed Legal Maneuver, Trump Tries to Set Policy Without Legislation - The New York Times"
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRFIzRXBBWlRMcUVwd2dMbW5iWnVfdkVUZFgzMlFoN0dCTW1FNF9zWjBXZXJ6UHdUUXhYZGdsVWhYWjNnSU8yc0VlRkwtVVV3RVhjVDAyQzdELTdkNng2S2t6V2R5Wlh5aEN3WUpkcjJnVFg0OG1haS1FMzV6QTNBOEhaR2ZPUWYzUG5xQXFXNUlsa2tUSlhlbnNITFRYZFp5RTlzQ2ZJeUszMFZKNWdKclpyck5fc1BXdkJuM0VSTWFBdHRmei1iLVFEeWxxLTRDYWo1NlVwcXk0d9IB3wFBVV95cUxNSUkyRUZmUk8wOGswSU5TWHlDMUIzOHJoY29ELVRpTExmeU9rN1Znc2dyX3pRampNN3FzaGtVVHVZNmhCcnY5T3VVY0Z4YlhRZk1ITTZUcnNFamhFVl8zQ2pyb0poZVhxLTBaOHJQdFRaanRwc1ZxdUNfc1ltS1QzUjF0WWdmNmhsNlRPRW1UUnExX3FMXzlkVENMQWFlZkdHbnpmeHQtS0lYTE9ZQjVsMWRTeklXUENraXkwaTB5X0FpdlZvQmF3WERYTklLaldUcml4UU5NdnAzdGgzZnNB?oc=5",
+          "published": "2026-03-14T07:19:45+00:00",
+          "publisher": "The Hans India",
+          "title": "Global press freedom groups warn Pakistan over harassment of exiled Afghan journalists - The Hans India"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGUVp1aC10X2tpNXNKZVNkR2NkSTFpSDJ4T1lKT2dULVR5RWZPT3A1ZDg3WjNlY0tpX3dkTEFRb1BMcWFGazhYMk1RbjFyOER6X0ZOdXEtMGVEekJWYU4tMWU2TUloaE9h?oc=5",
-          "published": "2026-03-12T16:30:00+00:00",
-          "publisher": "University of Chicago News",
-          "title": "What\u2019s next for Iran\u2014and the world? - University of Chicago News"
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWWhpNmxJZC14WVF0WVp5RGRxT1ZZT0dOaE9KSGlIR0xpak1lTDE3WFE5RjBXZjhlbWpmUmlUYlFQbmwtSllhVUhFNVBhaDZYaXFVb2pBR3hUdGFqQXMwYXZkS0Zpd0h1dS0yUFZoaWd0bFh0VE9BejZWUWtvaWh2bVI4WDRHWGd3RVFGN3lLWkYtZTM2VXhWTm9IRUROLWxoVkRFb0dFVElMQXhBWjBJbTVkcnN6VWFsOGRTWQ?oc=5",
+          "published": "2026-03-12T23:14:13+00:00",
+          "publisher": "Fine Day 102.3",
+          "title": "Media Watchdog: Press Freedom Plummeted Across Americas in 2025 - Fine Day 102.3"
         }
       ],
-      "hits": 7,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "hits": 4,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 7
+      "unique_publishers": 4
     },
     {
       "critical_hits": 0,
@@ -171,35 +171,35 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWWhpNmxJZC14WVF0WVp5RGRxT1ZZT0dOaE9KSGlIR0xpak1lTDE3WFE5RjBXZjhlbWpmUmlUYlFQbmwtSllhVUhFNVBhaDZYaXFVb2pBR3hUdGFqQXMwYXZkS0Zpd0h1dS0yUFZoaWd0bFh0VE9BejZWUWtvaWh2bVI4WDRHWGd3RVFGN3lLWkYtZTM2VXhWTm9IRUROLWxoVkRFb0dFVElMQXhBWjBJbTVkcnN6VWFsOGRTWQ?oc=5",
-          "published": "2026-03-12T23:14:13+00:00",
-          "publisher": "Fine Day 102.3",
-          "title": "Media Watchdog: Press Freedom Plummeted Across Americas in 2025 - Fine Day 102.3"
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSGYxdXZjNEJMeVYwQ3FmOC1vYmpwNnBuQ2tOSkVESkFEZXU4LXZENDVmYVJWcXlSNWtnNUNjaEo5Zm9TSk41VzVNZnNVVlpRSGVGMEw1OGVfdXpTUm1iMjdOSHVsMjFnVENxOWpNZVh5aVZ0bkFyWnRreUItaHVmUDJkcHA?oc=5",
+          "published": "2026-03-12T22:00:13+00:00",
+          "publisher": "The New York Times",
+          "title": "With Disputed Legal Maneuver, Trump Tries to Set Policy Without Legislation - The New York Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQXM2b1ZwcHNHazhQUGNSbV9sNVFyTHdXcjg0UUhCQWJTS1hKZ0tyX2Q1ZHdpM1YyUUJ6dnlzS3BwSlREMEM3b0E4Zzk4VkVpcUJNVHNCVnh4MHU2NlA3c29QbHcxcGRkMEwzUHE3aXViYW9yNk9zUkFNODNzRDhCX3M3bFdESjY1NUxESHFwRmh4LVFJMExMSWdqbWRwVmNsSGt5VnkxcnAwZVUzTzB4VQ?oc=5",
-          "published": "2026-03-11T17:53:00+00:00",
-          "publisher": "The Tennessean",
-          "title": "Arrest of Nashville journalist by ICE fuels First Amendment concerns - The Tennessean"
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZmVLQnpzRURtMXJXU29zLWdNZW9xYVNZM2xnRGNqVXZONlVCdklweUdXZE8weDM0NDMyeHowQThXN0dmS3dTREhxODd4MDhJU3RncVYyUjNVUkVvNzd1aEQyaV81SnQ1aDZwb1ZFbHoxSUpHWGRKcVFYcVR3YUQtcEdITTQzSXBzSWFPUjlLZFBoUmkxVVVHN1BNS21tYUV4TktqTDBQcTZqSlJ2d29sWVVKb2tmVWZvUzI4WXN3QTI4YjR5LUtHc2dKcFJ1TGh3NWJvenc3YWVzS2Rr?oc=5",
+          "published": "2026-03-13T02:00:07+00:00",
+          "publisher": "facebook.com",
+          "title": "Congress\u2019s power is eroding under President Trump. Lawmakers have largely failed to check executive actions on war, trade and spending, while a surge of executive orders expands presidential authority and partisanship blocks efforts to reclaim it. https://wa - facebook.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbV9idWJwSUE5QzZVN0dnV3dzOWJ2eUx2QnZzeGdwWXNxUTZqU2R6b0lJemdmS2llajlZMDNMcTUybFJvQmJvSk5SRlVQTmhwZHV3VlBqNldDS2pwVmQ0LThIcl8wZTJNMDFCZmRRdmxuQ0RpWTBfUmk1cHRoeVVCUk9aY3hKTUdFR2pnTER4dTRRSVd6am90aEJqWU8zUldo?oc=5",
-          "published": "2026-03-12T20:17:33+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "Judge demands government justify detention of jailed journalist - Journalism Pakistan"
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGUVp1aC10X2tpNXNKZVNkR2NkSTFpSDJ4T1lKT2dULVR5RWZPT3A1ZDg3WjNlY0tpX3dkTEFRb1BMcWFGazhYMk1RbjFyOER6X0ZOdXEtMGVEekJWYU4tMWU2TUloaE9h?oc=5",
+          "published": "2026-03-12T16:30:00+00:00",
+          "publisher": "University of Chicago News",
+          "title": "What\u2019s next for Iran\u2014and the world? - University of Chicago News"
         }
       ],
-      "hits": 3,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "hits": 4,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.65,
       "severity_label": "Watch",
-      "unique_publishers": 3
+      "unique_publishers": 4
     },
     {
       "critical_hits": 0,
@@ -210,91 +210,19 @@
       "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZmVLQnpzRURtMXJXU29zLWdNZW9xYVNZM2xnRGNqVXZONlVCdklweUdXZE8weDM0NDMyeHowQThXN0dmS3dTREhxODd4MDhJU3RncVYyUjNVUkVvNzd1aEQyaV81SnQ1aDZwb1ZFbHoxSUpHWGRKcVFYcVR3YUQtcEdITTQzSXBzSWFPUjlLZFBoUmkxVVVHN1BNS21tYUV4TktqTDBQcTZqSlJ2d29sWVVKb2tmVWZvUzI4WXN3QTI4YjR5LUtHc2dKcFJ1TGh3NWJvenc3YWVzS2Rr?oc=5",
-          "published": "2026-03-13T08:03:31+00:00",
-          "publisher": "facebook.com",
-          "title": "Congress\u2019s power is eroding under President Trump. Lawmakers have largely failed to check executive actions on war, trade and spending, while a surge of executive orders expands presidential authority and partisanship blocks efforts to reclaim it. https://wa - facebook.com"
-        }
-      ],
-      "hits": 1,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWE5BUWxrZ1J3aU5VZHo3Y25JZjlhSkFlYjh1MGYyMkJfMGNLUlF0R1F1emZCV05wYjFZZWhYczFWeEJrRjJQMWNxMU85Q2c3WGFtN2U4MlM3RExQa1VwS1UzcjY3cExqUlFCdHVCcHZfVkdYWE0wTkc0R3dybEZHSHRUcGVUUGpPdzM1V19QdUxicGpmSzZnSENFOGhvaWUzajRrMFV0X3psLXljT1E?oc=5",
-          "published": "2026-03-12T05:12:00+00:00",
-          "publisher": "The Guardian Nigeria News",
-          "title": "2027: Afenifere faults removal of certificate clause as Reps amend Electoral Act - The Guardian Nigeria News"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMTZiSzUtUHp3akIzNVh5VTB5TEVZeW92SEN6UlNTdFh6bnY4VjExZWxoZUd6MzFsM1lSS2Eya0xrcU92ZDVieTRlWmtDS0pvd2ZJWE9vcC00X29XMmEtYmg2Q1FSV1NzZGYzeGlDYVNkUFFBeGdFb1YwZmMzU1RuR0RnX2lJT01ucUUzdEF2MDZYZzBSZnZ0dkNkSWNYTEFBWXhDTWVHZTF5eTJS0gGyAUFVX3lxTE5KTmExUjVxNUVKckRvVUZHdlJ2NU1DVnUwOFh2TGFxdVRPb1RBYnppVV9VQU1hUDh3bjgzYzJQM1V2emtySm9OdWt3VDRvMjl0SUhXWjRvX21GQS16UTZiM25PWUJUTEgweDJ6Sjh5d1VUM3JzdDdXZkdFbDJVVmFJWWFTdGF1c1hZTlh5R244bG5lZ3pyQ2RISldiQmhOdTRDSDJpUVVjamdyd0VwS3BaeWc?oc=5",
-          "published": "2026-03-12T06:00:00+00:00",
-          "publisher": "Tribune Online",
-          "title": "Afenifere faults removal of forged certificate provision from new Electoral Act - Tribune Online"
-        }
-      ],
-      "hits": 2,
-      "id": "alternate_elector_scheme",
-      "name": "Alternate Elector Scheme Activity",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeXRlY1B4WHB5OUlaQU5SeUhsLWlBSnFSTUxaZnlKeWF6c3l3bnBWQlEtNERyWF92a2RyWl9uMFZMOFpTeTVqbnZFYlhhNXBMVllFTElBWnZtbG1jRDAwTkJhdkkydHYwR0Z3bUZGb3hiU0NzemNBN3p1R1BTamNpb2FpcUVVT3Zsc3RUaVNGUDRsTnNMajRFbw?oc=5",
-          "published": "2026-03-12T09:05:04+00:00",
-          "publisher": "Maryland Daily Record",
-          "title": "4th Circuit: Excessive force, discrimination, asylum, more - Maryland Daily Record"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QZThCcF93QVFSOTRyQ0lTSDluODhkTGQydDJ1cWluNFFjSy15MUZxWXZEZXhxTnRwcGU5NFAzdVNYa196eTFLSTgzWDlWdVdPVlpPSFU2NFh4YkZhd3JadTkzTGpOdk1Cb3VxWDQ5MTQ?oc=5",
-          "published": "2026-03-12T00:10:45+00:00",
-          "publisher": "Lawsuit Information Center",
-          "title": "Monsanto Roundup Lawsuit | March 2026 Update & Settlement - Lawsuit Information Center"
-        }
-      ],
-      "hits": 2,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVDBpdXVuM3Nxb005VElvQ1YtOHlnTWcxbWt4bzY3cEZlX0N0ZmdpSUl1SFl6aWhGbEpISjQyQ1dIWlA2UXhIZXBpRm5Oa2QyX0RJUzhNTld4bV9jbS1pZDRCblpSeTJjdmFzRDFtSnFCMXVOS0FabW5IbVhKRWs1NE5XZzBqY1BqRjNNQ3ZFby1tcWEtaHZCSE1DNUMwaXdaR2ZFZFhYcmJ1OVFkVTdZd1p0OVdvMERjZUhlbl9xNENoMWNHQU5oMg?oc=5",
-          "published": "2026-03-12T07:02:24+00:00",
-          "publisher": "Inside Higher Ed",
-          "title": "Federal Grant Makers May Lose Job Protections: 5 Things to Know - Inside Higher Ed"
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQmVLMXJOZHdhbzJQeEJZQmFMRF9ubG5YRFhzR3l0N0xxLUZuNWl2bTBUWUNURlNULTE0ek9pVURlNjYyZkN4ZTRKYWpJWjJjZ2s1RExhUlRyRm1OdHpUMEd3R2FYVFFnbnFYMkFIS0NySW1LWDJoQ3N5Sk02MTJ3YS1Wby1xMzYwVmwyY3l6ZVNKVlluZUxTTnNiWGE3MlY1RFI0UnlR?oc=5",
+          "published": "2026-03-14T02:04:01+00:00",
+          "publisher": "Federal News Network",
+          "title": "A politicized federal workforce harms every American - Federal News Network"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ09YdEJXVkhwZmRmX3RzQ2JzSUR1T3VXM19NdmFfdFpPTE5UR2V1WkdXcmhZc3p5Y0xFVi1xRzJfWFphTVo1R0hCemMtZmdYejNmZHNJdm1sS2RBOXhnMk5WZFlqUklubDJkSC1DY3lJdEtmaWVpMGlQZW1QOUZ6dDMzLUxwNVBsN0haLTk3RlpkdnRxR2IxUGZSLWtzRkY4aXNYREFuY081VnVqWGJrUjhkQQ?oc=5",
@@ -310,46 +238,6 @@
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWE5BUWxrZ1J3aU5VZHo3Y25JZjlhSkFlYjh1MGYyMkJfMGNLUlF0R1F1emZCV05wYjFZZWhYczFWeEJrRjJQMWNxMU85Q2c3WGFtN2U4MlM3RExQa1VwS1UzcjY3cExqUlFCdHVCcHZfVkdYWE0wTkc0R3dybEZHSHRUcGVUUGpPdzM1V19QdUxicGpmSzZnSENFOGhvaWUzajRrMFV0X3psLXljT1E?oc=5",
-          "published": "2026-03-12T05:12:00+00:00",
-          "publisher": "The Guardian Nigeria News",
-          "title": "2027: Afenifere faults removal of certificate clause as Reps amend Electoral Act - The Guardian Nigeria News"
-        }
-      ],
-      "hits": 1,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRVpFZWZNN2NBcnJYWUU2NzdJdWczV1QyRTF5c0RQWXhrVFpGTENNWURSbmRhRVZRUkpra2NILXluZlRFZzlfWDBCY1R4NFJJZnBhYThENDMxckg4OGNQYkVSX281RVFHM2M5Y1BQS2dpRHJ3NTYwU2E4R3FXb3RNaEhPUk1MNy1NRFk1bA?oc=5",
-          "published": "2026-03-13T01:10:00+00:00",
-          "publisher": "Newsmax",
-          "title": "Supreme Court Asked to Hear Appeals Judge Suspension Case - Newsmax"
-        }
-      ],
-      "hits": 1,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
       "unique_publishers": 1
     },
     {
@@ -357,15 +245,15 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNXNVX0FQdTVLUnlXQW5xUm5tVXMtZURLYXdMVGFZWktNMXRVcTByMGhaX3Z5SHAwNzJlREJYTjBXbHczWlZxZlFEOTJZTTRYc3B2M1RxM1c5NnRad08zWG41ajd6cDhxaXlhZF83bW9UVVQ0OVhzLUU0OVZUdnpubGwzaDJ1ZjBENDNGNnNsQnc3LXdjNXVwNXpGNUREdHFQalZHN3hEbGVodw?oc=5",
-          "published": "2026-03-13T02:48:26+00:00",
-          "publisher": "THISDAYLIVE",
-          "title": "Appeal Court Affirms Oluyede as PDP Candidate for Ekiti Guber Poll - THISDAYLIVE"
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZmVLQnpzRURtMXJXU29zLWdNZW9xYVNZM2xnRGNqVXZONlVCdklweUdXZE8weDM0NDMyeHowQThXN0dmS3dTREhxODd4MDhJU3RncVYyUjNVUkVvNzd1aEQyaV81SnQ1aDZwb1ZFbHoxSUpHWGRKcVFYcVR3YUQtcEdITTQzSXBzSWFPUjlLZFBoUmkxVVVHN1BNS21tYUV4TktqTDBQcTZqSlJ2d29sWVVKb2tmVWZvUzI4WXN3QTI4YjR5LUtHc2dKcFJ1TGh3NWJvenc3YWVzS2Rr?oc=5",
+          "published": "2026-03-13T02:00:07+00:00",
+          "publisher": "facebook.com",
+          "title": "Congress\u2019s power is eroding under President Trump. Lawmakers have largely failed to check executive actions on war, trade and spending, while a surge of executive orders expands presidential authority and partisanship blocks efforts to reclaim it. https://wa - facebook.com"
         }
       ],
       "hits": 1,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -374,34 +262,99 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTGp4UkMycFVNZ3Q3MXBGU0Q0N1dNc2xGV2NXOVkxWGFQdXVWQ1c1b0c1dHVRMFA2TUhVdkMwQTFkTUZsZE1qNkZTZElBY04xZlkxYlFWY2hnY0dySlZTZGE3MHRSYmM1RTdxZGFLQll4TjAzQWliMTVFR0xHWDN6dkJTTTUzT1V2ZzJnTXRSUUpyZDJycjRNVzV4VGFLTlF2QmxKMmFUOWREa1VOaUNZRU9kdmo4M29PN29BT0JjdDA2dUtxdThEU3NZd2ZBODk5Z3JuSGhR?oc=5",
-          "published": "2026-03-11T20:31:44+00:00",
-          "publisher": "WJournalpr",
-          "title": "DHS IG Launched Probe Into $220M Contract for Noem Ads - WJournalpr"
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSER5RG1HUzY2Rjh1WWVkQUNHblJLLUtxRmF5Z2dtcm5LcTZ2TVZNbUIxOWROYm5BN0laV0xsS0ZtcnMwTG04SXFERjF1QzV4eThQS09adTIyRlJ0SVhVTzd6SU05T0prZDYtV1czZEVvRjM2dGFVTTZaZXBfSFRfT0JHcmlYazNqVld6Z0dZM203TjBYekdYWng3ejA0Tm1MT3hEZy01ZmFqZHFRTzl0ZEg4ZW5XalRGU2kteURQU29JcXI3Z2c?oc=5",
+          "published": "2026-03-13T21:52:54+00:00",
+          "publisher": "Organizing My Thoughts",
+          "title": "They Called It Conspiracy: Joselyn Walsh on Federal Charges and the Criminalization of Protest - Organizing My Thoughts"
         }
       ],
       "hits": 1,
-      "id": "inspector_general_retaliation",
-      "name": "Inspector General Retaliation",
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "hits": 0,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [],
+      "hits": 0,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "hits": 0,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "hits": 0,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "hits": 0,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [],
       "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "id": "inspector_general_retaliation",
+      "name": "Inspector General Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.65,
       "severity_label": "Green",
       "unique_publishers": 0
     }
