@@ -1,64 +1,64 @@
 {
   "attempted_queries": 22,
-  "average_7d": 17.26,
+  "average_7d": 17.77,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
     "max": 29,
     "min": 15
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": 0.29,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": 0.05,
   "domain_breakdown": [
     {
-      "avg_severity": 0.4875,
+      "avg_severity": 0.825,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.68125,
+      "points": 4.5375,
       "weight": 22
     },
     {
-      "avg_severity": 0.9833333333333333,
+      "avg_severity": 0.7666666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.6875,
+      "points": 2.875,
       "weight": 15
     },
     {
-      "avg_severity": 0.09999999999999999,
+      "avg_severity": 0.6666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.35,
+      "points": 2.333333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 1.4333333333333333,
+      "avg_severity": 1.2166666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.658333333333333,
+      "points": 3.954166666666666,
       "weight": 13
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 0.43333333333333335,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.9166666666666665,
+      "points": 1.0833333333333335,
       "weight": 10
     },
     {
-      "avg_severity": 1.325,
+      "avg_severity": 0.9750000000000001,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.3125,
+      "points": 2.4375,
       "weight": 10
     },
     {
-      "avg_severity": 0.475,
+      "avg_severity": 0.3,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.95,
+      "points": 0.6,
       "weight": 8
     },
     {
@@ -72,37 +72,115 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-03-15T12:34:03.700500+00:00",
-  "previous_score": 19,
+  "generated_at": "2026-03-16T12:37:31.656323+00:00",
+  "previous_score": 18,
   "provisional": false,
   "score": 18,
-  "score_raw": 17.56,
+  "score_raw": 17.82,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPczlWZWdkaGNhaEVBbTRqcXZQNXRZbi1ZNWlwZks1a0l0cVdXUElBTFBCbk1vVDRGdW95a2hZb2N3Y05YQUVqX0htX1VUQXhTU21IVVNjYjNOenEwN1BDeW1JOERtb1pCN0dycFNZZkZOMnBGSlVKZ0x3YzBPUWlLZ0tmb1pvdG00ME8yWk9OYUgyVzNpdjEwcEExVl9uU29hMWNRcmZCQVBPODRYSHlvVGRoRnNhWXNQc0I0WDhnNnZOMGQzeVRB0gHHAUFVX3lxTE9zOVZlZ2RoY2FoRUFtNGpxdlA1dFluLVk1aXBmSzVrSXRxV1dQSUFMUEJuTW9UNEZ1b3lraFlvY3djTlhBRWpfSG1fVVRBeFNTbUhVU2NiM056cTA3UEN5bUk4RG1vWkI3R3JwU1lmRk4ycEZKVUpnTHdjME9RaUtnS2ZvWm90bTQwTzJaT05hSDJXM2l2MTBwQTFWX25Tb2ExY1FyZkJBUE84NFhIeW9UZGhGc2FZc1BzQjRYOGc2dk4wZDN5VEE?oc=5",
-          "published": "2026-03-14T11:03:18+00:00",
-          "publisher": "Devdiscourse",
-          "title": "Cyber Fraud Unveiled: Kochi Police's Swift Action Recovers Stolen Crore - Devdiscourse"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTk9TbWxKRF9HTE1rRXZwRy16YzFfWXZDYWJ4bFc5ZG9PeEx5YW9xY3haQjZNRzFoTWRWeU4tNU53MnZ2TFVTTkY0ZGdnTTV3RWNNZzUxSjBwUWppeVFreXFxQVB4dDZWWVJ3aVI3U0RtR3hUREFCVmhIRmRpVHFGRjNFa0RtQ0Z0R2NncWZiNXpycS1zX0RONzRmQURya0lyTTZXWDFrR3hGV2pyR0JsWDV6Vy1lekk?oc=5",
-          "published": "2026-03-15T01:20:55+00:00",
-          "publisher": "thesouthernexaminer.com",
-          "title": "Ijaw Leaders Urge Adherence to INC Constitution Amid Election Dispute - thesouthernexaminer.com"
-        }
-      ],
-      "hits": 2,
+      "evidence": [],
+      "hits": 0,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa0J0OWJ4MHc2WHlTRVotVTJpRkZlX0RqWU5ndFp4NWpfQ2ttNC1TMFlDUUcwOW4tZzNCMmpuNmMzV0tCUnJfS0hGUHVYeWtkRFNyNTVvZnZ2TkF3RDR4UjdsdjFqSzBRMjQydnJEX0JFMHM2U2FrRWE5OXh0WGpWcTZXLXRpQmRBM0hZYTM5RmJmRVYyYkNRUGxkVHNsQQ?oc=5",
+          "published": "2026-03-15T16:13:00+00:00",
+          "publisher": "Chattanooga Times Free Press",
+          "title": "ICE maintains agents had a warrant for Nashville journalist\u2019s arrest - Chattanooga Times Free Press"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNjdNeGVqUVpaVXdtRmNJbE5MSTlPc2hadXdLTUZULWVaUm5XN0dkLVBHTmlFeUNaLWR5R3UzQXlYdS04dURpa041bXlNUTViUVlsZXh0b3VScGlmMDhiTDVLdl9TMTdNSmRlQkl3Q19aWGkxNXVjTVVGTzBWOE5ZUEF6YnBMMy1RVEVZMHN4RDh4dU1WcWhTOVFvUFNmZ1lvOWhrYTJFaDA5TWhfVURvaGJoUGNvdzVYN1hQOWZtcDVDNnc?oc=5",
+          "published": "2026-03-14T18:42:38+00:00",
+          "publisher": "Social News XYZ",
+          "title": "Global press freedom groups warn Pakistan over harassment of exiled Afghan journalists - Social News XYZ"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT3JILXVwakJteGRTSEVmU1JXcEZtdU41MmpfbXlfdlQzWFpZUUJHelpQZUlQRXp6Y0tpUE1NWTZRSTBaMG9neDhCWi0zR21TVkFqY2stdXg5ZEN6cHBvdnRWcmJkQzhiZEM2Rkh3SFM1QWVhU19QTEpPdENLelBXSTVfSktWNHo4TFJualVkc3FMR2NReFNfRUF1Z0p0VXZpTmEzenFSelpKdHNSUUFpb3laSmNfa1phYzM5akZFQ0tSRE9FYmNFZURn?oc=5",
+          "published": "2026-03-15T09:53:32+00:00",
+          "publisher": "Shia World News",
+          "title": "Media groups call on Pakistan to halt deportations of Afghan journalists - Shia World News"
+        }
+      ],
+      "hits": 3,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWnpjSDJvd1NXVkVMb0lxa1ZTUHBLNk1CbFdVSVhjVVpqZ096LXFGZ1RBOGhxaFo0TnVYTnJTRURhbVc0LWxGa3RITFJ6cEdRTktrOTctY2EzQjc4ZHQtZDdqdE1HMnpyOFUzRjNQQzYwUHdXUVlEQm9ma0IxeC1IeTJTaWUzUXl5aEMtY0I0akV1QzYxaTJuOGJLWlJZQlU2bllB?oc=5",
+          "published": "2026-03-15T22:34:32+00:00",
+          "publisher": "ownerdriver.com.au",
+          "title": "NHVR secures court order to prevent Queensland company from operating - ownerdriver.com.au"
+        }
+      ],
+      "hits": 1,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "hits": 0,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLXdRNzk5a1pmdUtZd254VzZXeUU1OVAwb01COHhGUl9rbHkzT2pqMlRDRVl1NFlqTWdrY1NUZXRLVVhLSWFqc2RnNTh6OG9rWjJVbVBhZTM1M1hRVjBDQVVYbzAxUTVVSzd5dWJJQkVscmRLTjQwR1B5N0dfMjdNTXFkTzlpdV9kLXlCSFViUDBuc1ZqS3hzbnUyRmM2TVBENS1HemNoUUx4OWlPQXA5UnBGNTAwWlA5TDlNdEFJV2pWUFczTnRibFlSUQ?oc=5",
+          "published": "2026-03-15T06:06:05+00:00",
+          "publisher": "MSN",
+          "title": "Supreme Court justices Jackson and Kavanaugh clash over handling of Trump cases - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSUZ6aWFyeTRhY1BBU19GcEhQVmhmQjluU2lEQXlmN0RCY29sWk9vR2xIblE5bzFPMjRhMi1GZ01iVWVBLUpZTGx5M1NTSnplX3NzOC1kOFFjbjhFYVB3dWl4S0tUMG5aemxNOHhsaDJUd2ZPMENUeEJyVl95T2NTRVNrTklkb1BIeUdCLUN3ZkVNc0pxUzF4WlhKNmZRY2RHUE50ZXp2V1ZCX3J0dGFFSVZfN0lRaFlzczI1N2hzc2QyM003THZ30gHMAUFVX3lxTE9xbWxtMU5WbkU3R2RjQ3JmeE1jeWEya0xNbldoSFBmaE1zLTRscWdKb1Qtb2FZVFo4cTFFVU90b3lRWkpFWVZVNTlFWUIyTHQxQ3F2T3V5UmNsaWV0cllTbnVTWFMwQ2MzTUp0WXFnOWtWenJJMGRlRnA3dTZNbGhoUXhzb3dfUUw3MmdVdmF0dk5rMEtmZy1nelNTNW9ZNGxHcmtUUXJuT3JIZXZFcHMxT1RPQkxEMTI5b3NGNmpBUFcwSGthM2JnclBWOA?oc=5",
+          "published": "2026-03-16T10:00:27+00:00",
+          "publisher": "JONATHAN TURLEY \u2013 Res ipsa loquitur",
+          "title": "Boasberg\u2019s Law: Why The Quashing of the Powell Subpoenas Leaves More Questions Than Answers - JONATHAN TURLEY \u2013 Res ipsa loquitur"
+        }
+      ],
+      "hits": 2,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
       "unique_publishers": 2
     },
     {
@@ -110,71 +188,100 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYzk1aXBEc25RQ3FuM0JEZkc3X3VSUWJDWTVqcHI3QWZNMVhObkFqRi02aW1aeVZGUWVNZ2tEQWU5Y0pSeVpBSFVSMW8xajV6QWNlLWp0LUR3aEdTV09HZm1uMTF6YXpfV2FZNzFjSHdSN3JINEVwZzFGaG1Iak5oUg?oc=5",
-          "published": "2026-03-15T09:54:19+00:00",
-          "publisher": "AOL.com",
-          "title": "Opinion - First, there was Fulton County: The day Trump came for the ballots - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbnV2TlhsNUZjQmI3VlR5N01PLUFCbXpWS2FTeUo3R1RrSkVDalBkQXBlTmpBdDR1UWZ6eTRFZ1NfNHVCY3FBMng3VlZHNzRPXzVxTGlHVVRKZW50ZUhaaWwxdHUya1NQcG16Zmd6RHgzRW5TaXFnNEY4NGxWeVRUSUlFVkhfZmE5emhaMVNBQQ?oc=5",
-          "published": "2026-03-14T21:42:30+00:00",
-          "publisher": "AOL.com",
-          "title": "Illegal immigrant charged for allegedly voting in every presidential election since 2008 - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNek41NlItem12dHZrbk91MzRsVUx1OXIwdTViWWQyLWU3MXFueFB4QmwzbnpEYTBLdGtBY1ZXYXJ2bTFySDhpMEhWRXJDX2tjaGhuOUM0QndabzhEVjAzMTdkcXV3aFNzZnhxZDc5cGFyTjNEUFJnV1JCS3A0V0VWUFh3MA?oc=5",
-          "published": "2026-03-14T23:23:41+00:00",
-          "publisher": "AOL.com",
-          "title": "FBI subpoenas 2020 Arizona voting docs as federal push into election administration widens - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQTRiclRTU0RxbUV2ZGxyS1kwRmJJcTdwMGNjSkZqS2lWN25kTkg0bGZWcFNqYXVDRVJOYTRVbHo0Wm1HT0R5Y2xGYjNZcUYtbEtzXzc5MUkyT0VYSHREeGRJdTAzVEVSeGdtX0Q4bklkYjAxVGF5bHhicjh0LWwwVFdIdGF6TWI5S0FrRXlVaEpoY01Zb0N3bXpUdGZqTEZDbGpNNmtiLVViVXNWeUlxcjRQWW1CUldZZ3pPdUhyRWx2THpBa1HSAcsBQVVfeXFMTUlhQURTWV83ZFpnNjhsQk5PV0xfdE54SXpLZE1ZRlBpOUlVeGN3X3dvVXZNQ0lxTzd2UzRJOHFmUGJYUlM2X1UxenowMDk0ZlhVNnNmVXFjZlBFNW9TQ1NOLUZUNzIyZnpQQ3A0ZXBEejRNS0hmbmhWXzZSWS1WaUdsb2ZBZTV0UkdpaWwyM3VjWVFvSFlsS19MOV8xU1h0Ykt1NFl6QUdCSFJLWGhVVlBRd2hNRGsyTlBkZEhDdkJya0pTdjJYRDlwajA?oc=5",
+          "published": "2026-03-16T11:27:22+00:00",
+          "publisher": "News9live",
+          "title": "India to sign trade deal with US after America readies new tariff structure\u2019 - News9live"
         }
       ],
-      "hits": 15,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "hits": 1,
+      "id": "election_delay_or_cancellation",
+      "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFA3Y0doZUpwUzRxVC1NeWxvV2trNmJwUEFNajJCNmpYN19nQlkyZFh4M1dhUzZuU2J6Zmc?oc=5",
-          "published": "2026-03-14T08:07:22+00:00",
-          "publisher": "Amu TV",
-          "title": "Media groups urge Pakistan to halt deportations of Afghan journalists - Amu TV"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRFIzRXBBWlRMcUVwd2dMbW5iWnVfdkVUZFgzMlFoN0dCTW1FNF9zWjBXZXJ6UHdUUXhYZGdsVWhYWjNnSU8yc0VlRkwtVVV3RVhjVDAyQzdELTdkNng2S2t6V2R5Wlh5aEN3WUpkcjJnVFg0OG1haS1FMzV6QTNBOEhaR2ZPUWYzUG5xQXFXNUlsa2tUSlhlbnNITFRYZFp5RTlzQ2ZJeUszMFZKNWdKclpyck5fc1BXdkJuM0VSTWFBdHRmei1iLVFEeWxxLTRDYWo1NlVwcXk0d9IB3wFBVV95cUxNSUkyRUZmUk8wOGswSU5TWHlDMUIzOHJoY29ELVRpTExmeU9rN1Znc2dyX3pRampNN3FzaGtVVHVZNmhCcnY5T3VVY0Z4YlhRZk1ITTZUcnNFamhFVl8zQ2pyb0poZVhxLTBaOHJQdFRaanRwc1ZxdUNfc1ltS1QzUjF0WWdmNmhsNlRPRW1UUnExX3FMXzlkVENMQWFlZkdHbnpmeHQtS0lYTE9ZQjVsMWRTeklXUENraXkwaTB5X0FpdlZvQmF3WERYTklLaldUcml4UU5NdnAzdGgzZnNB?oc=5",
-          "published": "2026-03-14T07:19:45+00:00",
-          "publisher": "The Hans India",
-          "title": "Global press freedom groups warn Pakistan over harassment of exiled Afghan journalists - The Hans India"
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQXpNaXppdUN1RkQ2NDNyUWhwTTdwcmRLVVh5Tks1UkpCaUdmUzJvVDZ1RE54bElqMzRfc2tCU01FYmpPZW5SSXJZN2N5NFlUVERYV2xFYUlNNUJoZ1JOdnJ4Q01GN1ctVGd5c0FPYzZrdlRxZUJTMVhHemtwaWxLSnZFQVI3UnVoSVdtaEhfZmNKWGRkeHJCbFVSMnRtWVRqUEI3MnFYYVFSNGFqU29GSEVaTQ?oc=5",
+          "published": "2026-03-15T12:53:00+00:00",
+          "publisher": "Tallahassee Democrat",
+          "title": "Florida voting registration about to get tougher. Here's what to know - Tallahassee Democrat"
         }
       ],
-      "hits": 2,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "hits": 1,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWllCOWpEeWQ2cTM5dzhEVzRLMGhvM2p6N1J2SG4yM1dpTUVkV2lFZENJZFI1QWV5VEZLVDBPOG1NVFhkdkJ3R0xrY1ZGY2Z1UGxYOEVHbHBBbWl5UmNlN2s0bmhSak9jTmRLbDg0Z1F3Y0JKc0draGF3MGRnMUUzbnktYmtDbDBGeFFMbEhFai1uRFVFRWc?oc=5",
+          "published": "2026-03-16T11:43:50+00:00",
+          "publisher": "The New York Times",
+          "title": "Trump\u2019s Effort to Target Rivals Stall as Judges Cut Short Basic Investigative Steps - The New York Times"
+        }
+      ],
+      "hits": 1,
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZjE1Q0tlYnA2QkMydnFscGpXbjFueTZ6ZEJlVTNlSDlsdU1YR09waWhXLWRocHRqamJzblF6d1ZnZTR3Tm1WNEc0N0J1dVVXT05RNTRPZkhydElaTUZmdXVlMXYyVUFFZWFrR2xwSU9TUXV3Y0ltNEhtaDBVSE9uQWdiYk02cWs2VGNOeDZTaHFXMWlKOWRtS0hCTDFjcVVwc3l1LTc4dDJuN0lwRk40N1pNN2Y4WjBXclVCNFc5dS3SAcABQVVfeXFMUGYxNUNLZWJwNkJDMnZxbHBqV24xbnk2emRCZVUzZUg5bHVNWEdPcGloVy1kaHB0ampic25RendWZ2U0d05tVjRHNDdCdXVVV09OUTU0T2ZIcnRJWk1GZnV1ZTF2MlVBRWVha0dscElPU1F1d2NJbTRIbWgwVUhPbkFnYmJNNnFrNlRjTng2U2hxVzFpSjlkbUtIQkwxY3FVcHN5dS03OHQybjdJcEZONDdaTTdmOFowV3JVQjRXOXUt?oc=5",
+          "published": "2026-03-16T03:00:00+00:00",
+          "publisher": "The Hans India",
+          "title": "Odisha: BJD warns suspended MLAs of disqualification for defying whip\u200b - The Hans India"
+        }
+      ],
+      "hits": 1,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeFZ4bkRlMTU2UGFzbDRZcll3cXdmNXhOUmJ0b1dPSkN2Rm4tMFVuMk4tUFB2Q3BvSWdQak4wd3ZFd2tUclJMcVFKa2JiUENITkxqLU5fWTdBZmZzOHh2ZWVHamZ2QjVxNE9tVUZ2ZEZYQVIxeE9qVHlNTUhSSWpLYVF3MVBhbzlpaFhEb3FfUVY?oc=5",
+          "published": "2026-03-15T20:38:44+00:00",
+          "publisher": "Discovery Alert",
+          "title": "Santa Ynez Oil Production Restart Under Federal Order - Discovery Alert"
+        }
+      ],
+      "hits": 1,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -192,46 +299,6 @@
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLXdRNzk5a1pmdUtZd254VzZXeUU1OVAwb01COHhGUl9rbHkzT2pqMlRDRVl1NFlqTWdrY1NUZXRLVVhLSWFqc2RnNTh6OG9rWjJVbVBhZTM1M1hRVjBDQVVYbzAxUTVVSzd5dWJJQkVscmRLTjQwR1B5N0dfMjdNTXFkTzlpdV9kLXlCSFViUDBuc1ZqS3hzbnUyRmM2TVBENS1HemNoUUx4OWlPQXA5UnBGNTAwWlA5TDlNdEFJV2pWUFczTnRibFlSUQ?oc=5",
-          "published": "2026-03-15T06:06:05+00:00",
-          "publisher": "MSN",
-          "title": "Supreme Court justices Jackson and Kavanaugh clash over handling of Trump cases - MSN"
-        }
-      ],
-      "hits": 1,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMUNnSE5UYUQtakUwYmRTWEh0RG1RN0hQQmVMeVg0VDRqN2FPYjBLa0Q4eEpwZVVhUElYWnFXSkd3VzZBTEpmdnVtME02c3ZlUURHSFl3RndGblh5WWJCWHptQkNRNW03cUZBcm9DRjlyWDU5SGhfSGNUSHFNWklmYXRsemJ4eEI0NVB0RkdFcnpLaFVqLXZHNHhsWWk?oc=5",
-          "published": "2026-03-14T17:26:35+00:00",
-          "publisher": "inkl",
-          "title": "Trinidad and Tobago extends state of emergency for 3 months over crime - inkl"
-        }
-      ],
-      "hits": 1,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
@@ -239,62 +306,41 @@
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQmVLMXJOZHdhbzJQeEJZQmFMRF9ubG5YRFhzR3l0N0xxLUZuNWl2bTBUWUNURlNULTE0ek9pVURlNjYyZkN4ZTRKYWpJWjJjZ2s1RExhUlRyRm1OdHpUMEd3R2FYVFFnbnFYMkFIS0NySW1LWDJoQ3N5Sk02MTJ3YS1Wby1xMzYwVmwyY3l6ZVNKVlluZUxTTnNiWGE3MlY1RFI0UnlR?oc=5",
-          "published": "2026-03-14T02:04:01+00:00",
-          "publisher": "Federal News Network",
-          "title": "A politicized federal workforce harms every American - Federal News Network"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "civil_service_purge_schedule_f",
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1JcUVrbV9QVi00Rmk2c0ZJTlBQNkhfU3ZldlIyWEFmYkNrOVNER2ZpNl9TNndLT2NpbFJoT2lRR3pXS3hSSmVuZnNmakdsVzcwalcyRi1xdlUtQXhiQ2NuTFNQR0dUdlNRZ1dCaVZMS2VoRmFReHdiV0UtZHI?oc=5",
-          "published": "2026-03-14T11:03:33+00:00",
-          "publisher": "AOL.com",
-          "title": "Judge rules Lisa Cook can remain Fed governor for now as Trump tries to fire her - AOL.com"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSER5RG1HUzY2Rjh1WWVkQUNHblJLLUtxRmF5Z2dtcm5LcTZ2TVZNbUIxOWROYm5BN0laV0xsS0ZtcnMwTG04SXFERjF1QzV4eThQS09adTIyRlJ0SVhVTzd6SU05T0prZDYtV1czZEVvRjM2dGFVTTZaZXBfSFRfT0JHcmlYazNqVld6Z0dZM203TjBYekdYWng3ejA0Tm1MT3hEZy01ZmFqZHFRTzl0ZEg4ZW5XalRGU2kteURQU29JcXI3Z2c?oc=5",
-          "published": "2026-03-13T21:52:54+00:00",
-          "publisher": "Organizing My Thoughts",
-          "title": "They Called It Conspiracy: Joselyn Walsh on Federal Charges and the Criminalization of Protest - Organizing My Thoughts"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "political_speech_surveillance",
       "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -305,59 +351,7 @@
       "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
-      "id": "alternate_elector_scheme",
-      "name": "Alternate Elector Scheme Activity",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "inspector_general_retaliation",
-      "name": "Inspector General Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     }

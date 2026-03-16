@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-03-15 12:34:03 UTC
+- Generated: 2026-03-16 12:37:31 UTC
 - Score: **18 / 100** (Elevated Strain)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **+0.3**
+- Previous day delta: **0.0**
+- Delta vs 7-day average: **+0.0**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -14,57 +14,55 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.49 | 2.68 |
-| Judicial Independence and Rule of Law | 15 | 0.98 | 3.69 |
-| Opposition Rights and Political Pluralism | 14 | 0.10 | 0.35 |
-| Executive Constraints and Emergency Powers | 13 | 1.43 | 4.66 |
-| Civil Service and Agency Independence | 10 | 0.77 | 1.92 |
-| Civil Liberties and Information Environment | 10 | 1.32 | 3.31 |
-| Security Sector Neutrality | 8 | 0.47 | 0.95 |
+| Elections and Transfer of Power | 22 | 0.82 | 4.54 |
+| Judicial Independence and Rule of Law | 15 | 0.77 | 2.88 |
+| Opposition Rights and Political Pluralism | 14 | 0.67 | 2.33 |
+| Executive Constraints and Emergency Powers | 13 | 1.22 | 3.95 |
+| Civil Service and Agency Independence | 10 | 0.43 | 1.08 |
+| Civil Liberties and Information Environment | 10 | 0.98 | 2.44 |
+| Security Sector Neutrality | 8 | 0.30 | 0.60 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Martial Law or Military Governance Language | executive_constraints | 2.00 (Yellow) | 2 | 2 |
-| Election Administration Capture | elections_transfer | 1.65 (Watch) | 15 | 1 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.65 (Watch) | 2 | 2 |
-| Court Order Noncompliance | judiciary_rule_of_law | 1.65 (Watch) | 0 | 0 |
-| Legislative Bypass by Executive | executive_constraints | 1.30 (Watch) | 1 | 1 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
+| Martial Law or Military Governance Language | executive_constraints | 1.65 (Watch) | 0 | 0 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.30 (Watch) | 3 | 3 |
+| Court Order Noncompliance | judiciary_rule_of_law | 1.30 (Watch) | 1 | 1 |
+| Election Administration Capture | elections_transfer | 1.30 (Watch) | 0 | 0 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 2 | 2 |
+| Election Delay or Cancellation | elections_transfer | 1.00 (Watch) | 1 | 1 |
+| Alternate Elector Scheme Activity | elections_transfer | 1.00 (Watch) | 1 | 1 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
 | Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
-| Independent Agency Capture | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
-| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
-| Domestic Military Use in Political Conflict | security_sector_neutrality | 0.95 (Watch) | 0 | 0 |
-| Alternate Elector Scheme Activity | elections_transfer | 0.30 (Green) | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 1 | 1 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 0.65 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Martial Law or Military Governance Language
-- [Devdiscourse] Cyber Fraud Unveiled: Kochi Police's Swift Action Recovers Stolen Crore - Devdiscourse (2026-03-14) - https://news.google.com/rss/articles/CBMixwFBVV95cUxPczlWZWdkaGNhaEVBbTRqcXZQNXRZbi1ZNWlwZks1a0l0cVdXUElBTFBCbk1vVDRGdW95a2hZb2N3Y05YQUVqX0htX1VUQXhTU21IVVNjYjNOenEwN1BDeW1JOERtb1pCN0dycFNZZkZOMnBGSlVKZ0x3YzBPUWlLZ0tmb1pvdG00ME8yWk9OYUgyVzNpdjEwcEExVl9uU29hMWNRcmZCQVBPODRYSHlvVGRoRnNhWXNQc0I0WDhnNnZOMGQzeVRB0gHHAUFVX3lxTE9zOVZlZ2RoY2FoRUFtNGpxdlA1dFluLVk1aXBmSzVrSXRxV1dQSUFMUEJuTW9UNEZ1b3lraFlvY3djTlhBRWpfSG1fVVRBeFNTbUhVU2NiM056cTA3UEN5bUk4RG1vWkI3R3JwU1lmRk4ycEZKVUpnTHdjME9RaUtnS2ZvWm90bTQwTzJaT05hSDJXM2l2MTBwQTFWX25Tb2ExY1FyZkJBUE84NFhIeW9UZGhGc2FZc1BzQjRYOGc2dk4wZDN5VEE?oc=5
-- [thesouthernexaminer.com] Ijaw Leaders Urge Adherence to INC Constitution Amid Election Dispute - thesouthernexaminer.com (2026-03-15) - https://news.google.com/rss/articles/CBMitwFBVV95cUxPTk9TbWxKRF9HTE1rRXZwRy16YzFfWXZDYWJ4bFc5ZG9PeEx5YW9xY3haQjZNRzFoTWRWeU4tNU53MnZ2TFVTTkY0ZGdnTTV3RWNNZzUxSjBwUWppeVFreXFxQVB4dDZWWVJ3aVI3U0RtR3hUREFCVmhIRmRpVHFGRjNFa0RtQ0Z0R2NncWZiNXpycS1zX0RONzRmQURya0lyTTZXWDFrR3hGV2pyR0JsWDV6Vy1lekk?oc=5
-
-### Election Administration Capture
-- [AOL.com] Opinion - First, there was Fulton County: The day Trump came for the ballots - AOL.com (2026-03-15) - https://news.google.com/rss/articles/CBMigAFBVV95cUxNYzk1aXBEc25RQ3FuM0JEZkc3X3VSUWJDWTVqcHI3QWZNMVhObkFqRi02aW1aeVZGUWVNZ2tEQWU5Y0pSeVpBSFVSMW8xajV6QWNlLWp0LUR3aEdTV09HZm1uMTF6YXpfV2FZNzFjSHdSN3JINEVwZzFGaG1Iak5oUg?oc=5
-- [AOL.com] Illegal immigrant charged for allegedly voting in every presidential election since 2008 - AOL.com (2026-03-14) - https://news.google.com/rss/articles/CBMijwFBVV95cUxPbnV2TlhsNUZjQmI3VlR5N01PLUFCbXpWS2FTeUo3R1RrSkVDalBkQXBlTmpBdDR1UWZ6eTRFZ1NfNHVCY3FBMng3VlZHNzRPXzVxTGlHVVRKZW50ZUhaaWwxdHUya1NQcG16Zmd6RHgzRW5TaXFnNEY4NGxWeVRUSUlFVkhfZmE5emhaMVNBQQ?oc=5
-- [AOL.com] FBI subpoenas 2020 Arizona voting docs as federal push into election administration widens - AOL.com (2026-03-14) - https://news.google.com/rss/articles/CBMigwFBVV95cUxNek41NlItem12dHZrbk91MzRsVUx1OXIwdTViWWQyLWU3MXFueFB4QmwzbnpEYTBLdGtBY1ZXYXJ2bTFySDhpMEhWRXJDX2tjaGhuOUM0QndabzhEVjAzMTdkcXV3aFNzZnhxZDc5cGFyTjNEUFJnV1JCS3A0V0VWUFh3MA?oc=5
-
+- No fresh evidence links in the current lookback window.
 ### Press Restrictions or Retaliation
-- [Amu TV] Media groups urge Pakistan to halt deportations of Afghan journalists - Amu TV (2026-03-14) - https://news.google.com/rss/articles/CBMiOkFVX3lxTFA3Y0doZUpwUzRxVC1NeWxvV2trNmJwUEFNajJCNmpYN19nQlkyZFh4M1dhUzZuU2J6Zmc?oc=5
-- [The Hans India] Global press freedom groups warn Pakistan over harassment of exiled Afghan journalists - The Hans India (2026-03-14) - https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRFIzRXBBWlRMcUVwd2dMbW5iWnVfdkVUZFgzMlFoN0dCTW1FNF9zWjBXZXJ6UHdUUXhYZGdsVWhYWjNnSU8yc0VlRkwtVVV3RVhjVDAyQzdELTdkNng2S2t6V2R5Wlh5aEN3WUpkcjJnVFg0OG1haS1FMzV6QTNBOEhaR2ZPUWYzUG5xQXFXNUlsa2tUSlhlbnNITFRYZFp5RTlzQ2ZJeUszMFZKNWdKclpyck5fc1BXdkJuM0VSTWFBdHRmei1iLVFEeWxxLTRDYWo1NlVwcXk0d9IB3wFBVV95cUxNSUkyRUZmUk8wOGswSU5TWHlDMUIzOHJoY29ELVRpTExmeU9rN1Znc2dyX3pRampNN3FzaGtVVHVZNmhCcnY5T3VVY0Z4YlhRZk1ITTZUcnNFamhFVl8zQ2pyb0poZVhxLTBaOHJQdFRaanRwc1ZxdUNfc1ltS1QzUjF0WWdmNmhsNlRPRW1UUnExX3FMXzlkVENMQWFlZkdHbnpmeHQtS0lYTE9ZQjVsMWRTeklXUENraXkwaTB5X0FpdlZvQmF3WERYTklLaldUcml4UU5NdnAzdGgzZnNB?oc=5
+- [Chattanooga Times Free Press] ICE maintains agents had a warrant for Nashville journalist’s arrest - Chattanooga Times Free Press (2026-03-15) - https://news.google.com/rss/articles/CBMingFBVV95cUxQa0J0OWJ4MHc2WHlTRVotVTJpRkZlX0RqWU5ndFp4NWpfQ2ttNC1TMFlDUUcwOW4tZzNCMmpuNmMzV0tCUnJfS0hGUHVYeWtkRFNyNTVvZnZ2TkF3RDR4UjdsdjFqSzBRMjQydnJEX0JFMHM2U2FrRWE5OXh0WGpWcTZXLXRpQmRBM0hZYTM5RmJmRVYyYkNRUGxkVHNsQQ?oc=5
+- [Social News XYZ] Global press freedom groups warn Pakistan over harassment of exiled Afghan journalists - Social News XYZ (2026-03-14) - https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNjdNeGVqUVpaVXdtRmNJbE5MSTlPc2hadXdLTUZULWVaUm5XN0dkLVBHTmlFeUNaLWR5R3UzQXlYdS04dURpa041bXlNUTViUVlsZXh0b3VScGlmMDhiTDVLdl9TMTdNSmRlQkl3Q19aWGkxNXVjTVVGTzBWOE5ZUEF6YnBMMy1RVEVZMHN4RDh4dU1WcWhTOVFvUFNmZ1lvOWhrYTJFaDA5TWhfVURvaGJoUGNvdzVYN1hQOWZtcDVDNnc?oc=5
+- [Shia World News] Media groups call on Pakistan to halt deportations of Afghan journalists - Shia World News (2026-03-15) - https://news.google.com/rss/articles/CBMiygFBVV95cUxOT3JILXVwakJteGRTSEVmU1JXcEZtdU41MmpfbXlfdlQzWFpZUUJHelpQZUlQRXp6Y0tpUE1NWTZRSTBaMG9neDhCWi0zR21TVkFqY2stdXg5ZEN6cHBvdnRWcmJkQzhiZEM2Rkh3SFM1QWVhU19QTEpPdENLelBXSTVfSktWNHo4TFJualVkc3FMR2NReFNfRUF1Z0p0VXZpTmEzenFSelpKdHNSUUFpb3laSmNfa1phYzM5akZFQ0tSRE9FYmNFZURn?oc=5
 
 ### Court Order Noncompliance
+- [ownerdriver.com.au] NHVR secures court order to prevent Queensland company from operating - ownerdriver.com.au (2026-03-15) - https://news.google.com/rss/articles/CBMiowFBVV95cUxQWnpjSDJvd1NXVkVMb0lxa1ZTUHBLNk1CbFdVSVhjVVpqZ096LXFGZ1RBOGhxaFo0TnVYTnJTRURhbVc0LWxGa3RITFJ6cEdRTktrOTctY2EzQjc4ZHQtZDdqdE1HMnpyOFUzRjNQQzYwUHdXUVlEQm9ma0IxeC1IeTJTaWUzUXl5aEMtY0I0akV1QzYxaTJuOGJLWlJZQlU2bllB?oc=5
+
+### Election Administration Capture
 - No fresh evidence links in the current lookback window.
-### Legislative Bypass by Executive
-- [Virginia Mercury] The 10 most important things that happened in Virginia’s 2026 legislative session - Virginia Mercury (2026-03-14) - https://news.google.com/rss/articles/CBMivAFBVV95cUxNMnN0Q2wxTy1iYUxhVU9Rc0tWWTR6WlA2WUdpSldVRmt3Z0g1Q1ZsOFhVbUFtM25PaTZJdjI0SEZXYjlwN2lROXJ3cFozeDdMMDFBYVBjMHFhUE1iN3pOQkFNUVBqbWlHWkEtWF9ZME41R0pPdFBvSW16RXFqSDFwdUhSQmU4WFd2Q3Y4dFgtYXRLOHRoTzZ4Z2ZqNS15WjJuUllDSW5UMDJ0Nlh3SlM1QmNkV1lXZ0Z6dTBxaw?oc=5
+### Judge Intimidation Campaign
+- [MSN] Supreme Court justices Jackson and Kavanaugh clash over handling of Trump cases - MSN (2026-03-15) - https://news.google.com/rss/articles/CBMiywFBVV95cUxNLXdRNzk5a1pmdUtZd254VzZXeUU1OVAwb01COHhGUl9rbHkzT2pqMlRDRVl1NFlqTWdrY1NUZXRLVVhLSWFqc2RnNTh6OG9rWjJVbVBhZTM1M1hRVjBDQVVYbzAxUTVVSzd5dWJJQkVscmRLTjQwR1B5N0dfMjdNTXFkTzlpdV9kLXlCSFViUDBuc1ZqS3hzbnUyRmM2TVBENS1HemNoUUx4OWlPQXA5UnBGNTAwWlA5TDlNdEFJV2pWUFczTnRibFlSUQ?oc=5
+- [JONATHAN TURLEY – Res ipsa loquitur] Boasberg’s Law: Why The Quashing of the Powell Subpoenas Leaves More Questions Than Answers - JONATHAN TURLEY – Res ipsa loquitur (2026-03-16) - https://news.google.com/rss/articles/CBMixwFBVV95cUxNSUZ6aWFyeTRhY1BBU19GcEhQVmhmQjluU2lEQXlmN0RCY29sWk9vR2xIblE5bzFPMjRhMi1GZ01iVWVBLUpZTGx5M1NTSnplX3NzOC1kOFFjbjhFYVB3dWl4S0tUMG5aemxNOHhsaDJUd2ZPMENUeEJyVl95T2NTRVNrTklkb1BIeUdCLUN3ZkVNc0pxUzF4WlhKNmZRY2RHUE50ZXp2V1ZCX3J0dGFFSVZfN0lRaFlzczI1N2hzc2QyM003THZ30gHMAUFVX3lxTE9xbWxtMU5WbkU3R2RjQ3JmeE1jeWEya0xNbldoSFBmaE1zLTRscWdKb1Qtb2FZVFo4cTFFVU90b3lRWkpFWVZVNTlFWUIyTHQxQ3F2T3V5UmNsaWV0cllTbnVTWFMwQ2MzTUp0WXFnOWtWenJJMGRlRnA3dTZNbGhoUXhzb3dfUUw3MmdVdmF0dk5rMEtmZy1nelNTNW9ZNGxHcmtUUXJuT3JIZXZFcHMxT1RPQkxEMTI5b3NGNmpBUFcwSGthM2JnclBWOA?oc=5
 
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Confidence: **High**
+- Confidence: **Medium**
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.
