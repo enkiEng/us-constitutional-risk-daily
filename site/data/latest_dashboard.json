@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 17.77,
+  "average_7d": 18.07,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,35 +9,35 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": 0.05,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -1.41,
   "domain_breakdown": [
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.75,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 4.5375,
+      "points": 4.125,
       "weight": 22
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 0.6666666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.875,
+      "points": 2.5,
       "weight": 15
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 1.0,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.333333333333333,
+      "points": 3.5,
       "weight": 14
     },
     {
-      "avg_severity": 1.2166666666666666,
+      "avg_severity": 1.0999999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.954166666666666,
+      "points": 3.5749999999999997,
       "weight": 13
     },
     {
@@ -48,17 +48,17 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.9750000000000001,
+      "avg_severity": 0.65,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.4375,
+      "points": 1.625,
       "weight": 10
     },
     {
-      "avg_severity": 0.3,
+      "avg_severity": 0.125,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.6,
+      "points": 0.25,
       "weight": 8
     },
     {
@@ -72,13 +72,45 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-03-16T12:37:31.656323+00:00",
+  "generated_at": "2026-03-17T12:36:16.368220+00:00",
   "previous_score": 18,
   "provisional": false,
-  "score": 18,
-  "score_raw": 17.82,
+  "score": 17,
+  "score_raw": 16.66,
   "successful_queries": 22,
   "top_signals": [
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWHFnNGdhc1hNLTVNazQybGVoTzJPNjd3V0MydjdTcG1Gd2g1Y1UtYmJLb0E1TFhFcVZwNkxQQkFqV290Vm9QU1VfNmFFcXF1Qng1djd1RjVYdmxmVVpHVjRQdTIzN3lNRjk3T3Faek5UcWpVTXl5Nk5XT3dlQ3FkdG9aeFZuclZBN25TSVdReHNkUWk3dXhObFBHdG5HelFtMkNPMWwzQmZqNWY2RXdlWHlSX1NXckxIMWRKalNuaGNLWmpEbmxFa09rWWpIcENPTUh6empqalVjLXVlR1RKMHc5SkI?oc=5",
+          "published": "2026-03-17T02:55:10+00:00",
+          "publisher": "facebook.com",
+          "title": "Ethiopian Rebels Want Opposition Political Parties Not to take part in the Election. Read more. https://borkena.com/2026/03/16/fano-ethiopian-rebels-want-opposition-political-parties-not-to-take-part-in-the-election/ #Ethiopia #News #Fano #Election #Ethiopia - facebook.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRE1OandKa3d2Tm5NOVk4QzBJNWpSQmN2aUFHVzFLY1NBZXlDTkJEa1o1UkVRakxlcG9KYjB6MEZNVk5KTHlJaUNHZF9wRk1pNlMtSV9seXFQeUo3SHVPcktPdmx2VTBwOUxWYWd5cHBKRlo4WU85REwwRy1jVHVZWkxGbTk3YVRVVXZRRHRVcjVmRlZmVW0tVkpJS2tfM09KdlZ3eEFQcmNMMk5PTTFpWmU2TmpnbC1Oc0Fr0gHAAUFVX3lxTE1RbXR4SWdXa2pjVHdmUHB4YWFaS0dIdlZJYk5LTTA3U1puZ3JORVlMd0t2bUxJMmlaZFJRRjF1Rm9KQlNNa1JBZUd1Y0duNkltN2hDbWxpVFhkN3pFZ3RHai1QQXhWX0g0dHFvbEd3NWMweUpmY2RrYktoQi01SzJrNEcxb2ZXbjR3b2FHek4zQkltREY2eC1ZZmE5N1U2TGM3V3I1MTFqbEVIb2RqUmJ1RFlESjhHTVdNU09fOWFqTQ?oc=5",
+          "published": "2026-03-17T08:13:23+00:00",
+          "publisher": "ETV Bharat",
+          "title": "Congress Suspends 3 Odisha MLAs For Cross-Voting In Rajya Sabha Polls - ETV Bharat"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZjE1Q0tlYnA2QkMydnFscGpXbjFueTZ6ZEJlVTNlSDlsdU1YR09waWhXLWRocHRqamJzblF6d1ZnZTR3Tm1WNEc0N0J1dVVXT05RNTRPZkhydElaTUZmdXVlMXYyVUFFZWFrR2xwSU9TUXV3Y0ltNEhtaDBVSE9uQWdiYk02cWs2VGNOeDZTaHFXMWlKOWRtS0hCTDFjcVVwc3l1LTc4dDJuN0lwRk40N1pNN2Y4WjBXclVCNFc5dS3SAcABQVVfeXFMUGYxNUNLZWJwNkJDMnZxbHBqV24xbnk2emRCZVUzZUg5bHVNWEdPcGloVy1kaHB0ampic25RendWZ2U0d05tVjRHNDdCdXVVV09OUTU0T2ZIcnRJWk1GZnV1ZTF2MlVBRWVha0dscElPU1F1d2NJbTRIbWgwVUhPbkFnYmJNNnFrNlRjTng2U2hxVzFpSjlkbUtIQkwxY3FVcHN5dS03OHQybjdJcEZONDdaTTdmOFowV3JVQjRXOXUt?oc=5",
+          "published": "2026-03-16T03:00:00+00:00",
+          "publisher": "The Hans India",
+          "title": "Odisha: BJD warns suspended MLAs of disqualification for defying whip\u200b - The Hans India"
+        }
+      ],
+      "hits": 4,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 4
+    },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
@@ -88,95 +120,88 @@
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa0J0OWJ4MHc2WHlTRVotVTJpRkZlX0RqWU5ndFp4NWpfQ2ttNC1TMFlDUUcwOW4tZzNCMmpuNmMzV0tCUnJfS0hGUHVYeWtkRFNyNTVvZnZ2TkF3RDR4UjdsdjFqSzBRMjQydnJEX0JFMHM2U2FrRWE5OXh0WGpWcTZXLXRpQmRBM0hZYTM5RmJmRVYyYkNRUGxkVHNsQQ?oc=5",
-          "published": "2026-03-15T16:13:00+00:00",
-          "publisher": "Chattanooga Times Free Press",
-          "title": "ICE maintains agents had a warrant for Nashville journalist\u2019s arrest - Chattanooga Times Free Press"
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKSWVERDk2c3FodmZkWjNTSVdQZzlFSml2UFZwSlRXNU5Ea2VCQXc5cmoyUlVZQWcyVDhPWGFmWkVzNTdzbXQ3S2RvTXhXT0NRUzRvcEdvMno0anNUZEVwaWt1VQ?oc=5",
+          "published": "2026-03-16T16:57:00+00:00",
+          "publisher": "The New York Times",
+          "title": "Homeland Security Funding Bill Fails in Senate as Standoff Continues - The New York Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNjdNeGVqUVpaVXdtRmNJbE5MSTlPc2hadXdLTUZULWVaUm5XN0dkLVBHTmlFeUNaLWR5R3UzQXlYdS04dURpa041bXlNUTViUVlsZXh0b3VScGlmMDhiTDVLdl9TMTdNSmRlQkl3Q19aWGkxNXVjTVVGTzBWOE5ZUEF6YnBMMy1RVEVZMHN4RDh4dU1WcWhTOVFvUFNmZ1lvOWhrYTJFaDA5TWhfVURvaGJoUGNvdzVYN1hQOWZtcDVDNnc?oc=5",
-          "published": "2026-03-14T18:42:38+00:00",
-          "publisher": "Social News XYZ",
-          "title": "Global press freedom groups warn Pakistan over harassment of exiled Afghan journalists - Social News XYZ"
+          "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQNUFOT00yVFdOWm92TlFTMTNFX0dYeHV1LWlfazBmWkpTbEFQa25oWEw3Q2NWT2YweWg4Z0VrcWxzYnlLUnZKdDU4UDIwbjlOM2xmS0VZVGNuWFJhOGMzUjF6MVpOOC1udDRMZTJvdVFZS2FRUS1pc3VGLTBUTGpQLWE2VEJNQzdleDladmVUR1NYaDhLS0FPOWRBSjY0clB6Vml1RDNyUENJa05vSHBqTTNJMlh5LUF1cms4UW5JRXhMR05HenhtTEJKYVFpeHZnU20xNmZONHpGSngtYTdia0RiaktEQ1p0MEFDYWpnVklCTU5uN3JkZGdJZUlQdkdvU3plakNOem9aV21BNzJ4LVdIYlZxTk1lRU0xcWwza1JnQlZwNnfSAasCQVVfeXFMTXV3OUZnRlQ2aGNkZzlhemJOclhkcU8zZU9LTEtKWklrRDduT2JpYV8tcFFJNmFPSmhZZkZ2Q2MteXYtWmJPMXpoZm1XajNvUFktNzN5NjFBTC15QXhlRF91WEZveGFKMDVJSTRJWmJ6UDRVNDhCYWpvQ1dpUHhQTlIxb2lldC1qU01TaGNSazh4RW5sTWpzcmZBRXMxbFZnWWJ6TENVSld6VEo5TUpLbVVRNFM0aGhfS0FUZ2ZoQTBNM1ZTdWNpdXdYQUo1ZjJVd0ZGR294Y1FjRFJWS0N4bzBJWS01VGgyZDhsMTY0cnB0Nnh5RWVGTXZpOXA0Sm1sR1JqRUJaOTJEQ2pZdVlLaWZ1UU9aSnFLX0NQZmdJOGRqXzU3blRJbGlub2c?oc=5",
+          "published": "2026-03-15T19:57:06+00:00",
+          "publisher": "The Economic Times",
+          "title": "EC removes West Bengal Chief Secretary Chakraborty, Home Secretary Meena after announcing poll dates - The Economic Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT3JILXVwakJteGRTSEVmU1JXcEZtdU41MmpfbXlfdlQzWFpZUUJHelpQZUlQRXp6Y0tpUE1NWTZRSTBaMG9neDhCWi0zR21TVkFqY2stdXg5ZEN6cHBvdnRWcmJkQzhiZEM2Rkh3SFM1QWVhU19QTEpPdENLelBXSTVfSktWNHo4TFJualVkc3FMR2NReFNfRUF1Z0p0VXZpTmEzenFSelpKdHNSUUFpb3laSmNfa1phYzM5akZFQ0tSRE9FYmNFZURn?oc=5",
-          "published": "2026-03-15T09:53:32+00:00",
-          "publisher": "Shia World News",
-          "title": "Media groups call on Pakistan to halt deportations of Afghan journalists - Shia World News"
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYkNzRktEZVFEQ1BLa08xSEVTcDdnZldid1JMS3E0WUl0Y0VUTWtFV2dLcVJOV2lJQ2xfSXpSNWpPYUlERGNGdnVhZG5Md1ZxTnNmVWNRbkRyYUVzNEhvVGU0M3pYZnYtWVUydzNRY2NzMHJjT3BQMklqZDdoclRoRUVCbVNCOFJEZElMZm9pS24yLThtNWotcw?oc=5",
+          "published": "2026-03-16T18:20:35+00:00",
+          "publisher": "indianews.com.au",
+          "title": "CM Mamata writes to CEC over transfer of IAS, IPS officers in Bengal - indianews.com.au"
         }
       ],
       "hits": 3,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 3
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWnpjSDJvd1NXVkVMb0lxa1ZTUHBLNk1CbFdVSVhjVVpqZ096LXFGZ1RBOGhxaFo0TnVYTnJTRURhbVc0LWxGa3RITFJ6cEdRTktrOTctY2EzQjc4ZHQtZDdqdE1HMnpyOFUzRjNQQzYwUHdXUVlEQm9ma0IxeC1IeTJTaWUzUXl5aEMtY0I0akV1QzYxaTJuOGJLWlJZQlU2bllB?oc=5",
-          "published": "2026-03-15T22:34:32+00:00",
-          "publisher": "ownerdriver.com.au",
-          "title": "NHVR secures court order to prevent Queensland company from operating - ownerdriver.com.au"
-        }
-      ],
-      "hits": 1,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLXdRNzk5a1pmdUtZd254VzZXeUU1OVAwb01COHhGUl9rbHkzT2pqMlRDRVl1NFlqTWdrY1NUZXRLVVhLSWFqc2RnNTh6OG9rWjJVbVBhZTM1M1hRVjBDQVVYbzAxUTVVSzd5dWJJQkVscmRLTjQwR1B5N0dfMjdNTXFkTzlpdV9kLXlCSFViUDBuc1ZqS3hzbnUyRmM2TVBENS1HemNoUUx4OWlPQXA5UnBGNTAwWlA5TDlNdEFJV2pWUFczTnRibFlSUQ?oc=5",
-          "published": "2026-03-15T06:06:05+00:00",
-          "publisher": "MSN",
-          "title": "Supreme Court justices Jackson and Kavanaugh clash over handling of Trump cases - MSN"
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVHpPNkpSdkNEV0c3T2xWc2JQUlZESWwxWHM3SFBRd1lfbXR4RDFkRTN0TUEtaWxuOWtJMnN3NW9iYU1SVmFSRVNqS0hEbm9lN0RQUG4yY3BFaHRsREhvWXFHYnl4aWg0Mi1UbXlfZkNDRXFHcGhYR0ZjVVNEVzFLOU9acjJBV01HS0VFSVdFTm1hRlFkbkpJVU03Wm5JR1VSY2VYSlo2ODlnVlJfX1ZJWEZacm1JQ01SWFpSMnJTcjRLV3YtYXBaTUE3TkxZYl9jc0ZIQzZ6NA?oc=5",
+          "published": "2026-03-16T15:57:11+00:00",
+          "publisher": "Whalesbook",
+          "title": "Supreme Court Curbs Presidential Tariffs, Gives Congress Trade Power - Whalesbook"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSUZ6aWFyeTRhY1BBU19GcEhQVmhmQjluU2lEQXlmN0RCY29sWk9vR2xIblE5bzFPMjRhMi1GZ01iVWVBLUpZTGx5M1NTSnplX3NzOC1kOFFjbjhFYVB3dWl4S0tUMG5aemxNOHhsaDJUd2ZPMENUeEJyVl95T2NTRVNrTklkb1BIeUdCLUN3ZkVNc0pxUzF4WlhKNmZRY2RHUE50ZXp2V1ZCX3J0dGFFSVZfN0lRaFlzczI1N2hzc2QyM003THZ30gHMAUFVX3lxTE9xbWxtMU5WbkU3R2RjQ3JmeE1jeWEya0xNbldoSFBmaE1zLTRscWdKb1Qtb2FZVFo4cTFFVU90b3lRWkpFWVZVNTlFWUIyTHQxQ3F2T3V5UmNsaWV0cllTbnVTWFMwQ2MzTUp0WXFnOWtWenJJMGRlRnA3dTZNbGhoUXhzb3dfUUw3MmdVdmF0dk5rMEtmZy1nelNTNW9ZNGxHcmtUUXJuT3JIZXZFcHMxT1RPQkxEMTI5b3NGNmpBUFcwSGthM2JnclBWOA?oc=5",
-          "published": "2026-03-16T10:00:27+00:00",
-          "publisher": "JONATHAN TURLEY \u2013 Res ipsa loquitur",
-          "title": "Boasberg\u2019s Law: Why The Quashing of the Powell Subpoenas Leaves More Questions Than Answers - JONATHAN TURLEY \u2013 Res ipsa loquitur"
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOcnNUbUtqWU5LcWxHSTYzS0xjNlBkREM5RFZaSUpQQ1RjMWtrb0FJeWdabmJ0bXFjOGdqZEN3TGpmOWQ0OWNSUDNEWUlVNGJZMm5OZjBMOFJqajlEbUI0cERtbXR6VnZHSXA0MUlqTTZWZjZRN2ZpRy0tTE02U21WajU2YTdvMjVIRDM0ZFRqc1hOTDVlMzkxcjFRQWVOa0VnTTZSaFJmUXc4SHFubi1MblJ5TWFjMldrMk8tMDM4TTlpRl90Q3pfLWdqajIzNGg2Z2t2YzlhaXRKemZpa0xGR1BuNXpsUFgxMENEdkdfNXNMTVNndHJPLWtTODYwYXhfLUc3eA?oc=5",
+          "published": "2026-03-16T18:50:04+00:00",
+          "publisher": "Business Upturn",
+          "title": "Government shutdown and unpaid TSA workforce raise constitutional and labour law concerns in United States aviation security - Business Upturn"
         }
       ],
       "hits": 2,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc2xUMjNDalN5U2xXQzJVSUFrTzZYY3FGcWhxZU10RWptTG5td2xXbEdxQUQ1SGJmQjFhTHI2YWxZNVBGVVZwR01oMFB3NnVwSUpQMkdrSDBWREpRR1FndjZIRi00MzhGQ2ktYzFtTHlTYXlpNk9TalVUWl81UzFIcDIyZ1VVRkJ5MHR0N3cwc2pKQUZ4Y0V1aTVJemcyeHVmYzE2d0xR?oc=5",
+          "published": "2026-03-17T07:54:03+00:00",
+          "publisher": "WTOP",
+          "title": "How Trump\u2019s \u2018Schedule Policy/Career\u2019 plan could reshape federal agencies - WTOP"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc3B1ZG5zNkUxNmpaZDN2QWlIWG5QZTRqcXFTUzdLbGdFZk5SMy1wRWNCejdTUk15YVZwTmUxa09SNWxZRmVsV0dHSVBOWjQwSWIxTmU1TUx2NjJmVm80TXdydFRWcUR3el9sZGJSZHhER016VUFWQndBZEpENjYxN2l1R2Q?oc=5",
+          "published": "2026-03-17T03:18:51+00:00",
+          "publisher": "PA TIMES Online",
+          "title": "The Relativity of Protection: When Context Redefines Roles - PA TIMES Online"
+        }
+      ],
+      "hits": 2,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -229,7 +254,7 @@
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWllCOWpEeWQ2cTM5dzhEVzRLMGhvM2p6N1J2SG4yM1dpTUVkV2lFZENJZFI1QWV5VEZLVDBPOG1NVFhkdkJ3R0xrY1ZGY2Z1UGxYOEVHbHBBbWl5UmNlN2s0bmhSak9jTmRLbDg0Z1F3Y0JKc0draGF3MGRnMUUzbnktYmtDbDBGeFFMbEhFai1uRFVFRWc?oc=5",
-          "published": "2026-03-16T11:43:50+00:00",
+          "published": "2026-03-16T09:02:18+00:00",
           "publisher": "The New York Times",
           "title": "Trump\u2019s Effort to Target Rivals Stall as Judges Cut Short Basic Investigative Steps - The New York Times"
         }
@@ -245,18 +270,38 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZjE1Q0tlYnA2QkMydnFscGpXbjFueTZ6ZEJlVTNlSDlsdU1YR09waWhXLWRocHRqamJzblF6d1ZnZTR3Tm1WNEc0N0J1dVVXT05RNTRPZkhydElaTUZmdXVlMXYyVUFFZWFrR2xwSU9TUXV3Y0ltNEhtaDBVSE9uQWdiYk02cWs2VGNOeDZTaHFXMWlKOWRtS0hCTDFjcVVwc3l1LTc4dDJuN0lwRk40N1pNN2Y4WjBXclVCNFc5dS3SAcABQVVfeXFMUGYxNUNLZWJwNkJDMnZxbHBqV24xbnk2emRCZVUzZUg5bHVNWEdPcGloVy1kaHB0ampic25RendWZ2U0d05tVjRHNDdCdXVVV09OUTU0T2ZIcnRJWk1GZnV1ZTF2MlVBRWVha0dscElPU1F1d2NJbTRIbWgwVUhPbkFnYmJNNnFrNlRjTng2U2hxVzFpSjlkbUtIQkwxY3FVcHN5dS03OHQybjdJcEZONDdaTTdmOFowV3JVQjRXOXUt?oc=5",
-          "published": "2026-03-16T03:00:00+00:00",
-          "publisher": "The Hans India",
-          "title": "Odisha: BJD warns suspended MLAs of disqualification for defying whip\u200b - The Hans India"
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSUZ6aWFyeTRhY1BBU19GcEhQVmhmQjluU2lEQXlmN0RCY29sWk9vR2xIblE5bzFPMjRhMi1GZ01iVWVBLUpZTGx5M1NTSnplX3NzOC1kOFFjbjhFYVB3dWl4S0tUMG5aemxNOHhsaDJUd2ZPMENUeEJyVl95T2NTRVNrTklkb1BIeUdCLUN3ZkVNc0pxUzF4WlhKNmZRY2RHUE50ZXp2V1ZCX3J0dGFFSVZfN0lRaFlzczI1N2hzc2QyM003THZ30gHMAUFVX3lxTE9xbWxtMU5WbkU3R2RjQ3JmeE1jeWEya0xNbldoSFBmaE1zLTRscWdKb1Qtb2FZVFo4cTFFVU90b3lRWkpFWVZVNTlFWUIyTHQxQ3F2T3V5UmNsaWV0cllTbnVTWFMwQ2MzTUp0WXFnOWtWenJJMGRlRnA3dTZNbGhoUXhzb3dfUUw3MmdVdmF0dk5rMEtmZy1nelNTNW9ZNGxHcmtUUXJuT3JIZXZFcHMxT1RPQkxEMTI5b3NGNmpBUFcwSGthM2JnclBWOA?oc=5",
+          "published": "2026-03-16T10:00:27+00:00",
+          "publisher": "JONATHAN TURLEY \u2013 Res ipsa loquitur",
+          "title": "Boasberg\u2019s Law: Why The Quashing of the Powell Subpoenas Leaves More Questions Than Answers - JONATHAN TURLEY \u2013 Res ipsa loquitur"
         }
       ],
       "hits": 1,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWnpjSDJvd1NXVkVMb0lxa1ZTUHBLNk1CbFdVSVhjVVpqZ096LXFGZ1RBOGhxaFo0TnVYTnJTRURhbVc0LWxGa3RITFJ6cEdRTktrOTctY2EzQjc4ZHQtZDdqdE1HMnpyOFUzRjNQQzYwUHdXUVlEQm9ma0IxeC1IeTJTaWUzUXl5aEMtY0I0akV1QzYxaTJuOGJLWlJZQlU2bllB?oc=5",
+          "published": "2026-03-15T22:34:32+00:00",
+          "publisher": "ownerdriver.com.au",
+          "title": "NHVR secures court order to prevent Queensland company from operating - ownerdriver.com.au"
+        }
+      ],
+      "hits": 1,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -285,18 +330,18 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMnN0Q2wxTy1iYUxhVU9Rc0tWWTR6WlA2WUdpSldVRmt3Z0g1Q1ZsOFhVbUFtM25PaTZJdjI0SEZXYjlwN2lROXJ3cFozeDdMMDFBYVBjMHFhUE1iN3pOQkFNUVBqbWlHWkEtWF9ZME41R0pPdFBvSW16RXFqSDFwdUhSQmU4WFd2Q3Y4dFgtYXRLOHRoTzZ4Z2ZqNS15WjJuUllDSW5UMDJ0Nlh3SlM1QmNkV1lXZ0Z6dTBxaw?oc=5",
-          "published": "2026-03-14T23:30:21+00:00",
-          "publisher": "Virginia Mercury",
-          "title": "The 10 most important things that happened in Virginia\u2019s 2026 legislative session - Virginia Mercury"
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa0J0OWJ4MHc2WHlTRVotVTJpRkZlX0RqWU5ndFp4NWpfQ2ttNC1TMFlDUUcwOW4tZzNCMmpuNmMzV0tCUnJfS0hGUHVYeWtkRFNyNTVvZnZ2TkF3RDR4UjdsdjFqSzBRMjQydnJEX0JFMHM2U2FrRWE5OXh0WGpWcTZXLXRpQmRBM0hZYTM5RmJmRVYyYkNRUGxkVHNsQQ?oc=5",
+          "published": "2026-03-15T16:13:00+00:00",
+          "publisher": "Chattanooga Times Free Press",
+          "title": "ICE maintains agents had a warrant for Nashville journalist\u2019s arrest - Chattanooga Times Free Press"
         }
       ],
       "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -308,24 +353,11 @@
       "domain_id": "civil_service_integrity",
       "evidence": [],
       "hits": 0,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -338,7 +370,7 @@
       "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -351,7 +383,7 @@
       "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }

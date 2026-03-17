@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-03-16 12:37:31 UTC
-- Score: **18 / 100** (Elevated Strain)
-- Previous day delta: **0.0**
-- Delta vs 7-day average: **+0.0**
+- Generated: 2026-03-17 12:36:16 UTC
+- Score: **17 / 100** (Elevated Strain)
+- Previous day delta: **-1.0**
+- Delta vs 7-day average: **-1.4**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -14,49 +14,53 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.82 | 4.54 |
-| Judicial Independence and Rule of Law | 15 | 0.77 | 2.88 |
-| Opposition Rights and Political Pluralism | 14 | 0.67 | 2.33 |
-| Executive Constraints and Emergency Powers | 13 | 1.22 | 3.95 |
+| Elections and Transfer of Power | 22 | 0.75 | 4.12 |
+| Judicial Independence and Rule of Law | 15 | 0.67 | 2.50 |
+| Opposition Rights and Political Pluralism | 14 | 1.00 | 3.50 |
+| Executive Constraints and Emergency Powers | 13 | 1.10 | 3.57 |
 | Civil Service and Agency Independence | 10 | 0.43 | 1.08 |
-| Civil Liberties and Information Environment | 10 | 0.98 | 2.44 |
-| Security Sector Neutrality | 8 | 0.30 | 0.60 |
+| Civil Liberties and Information Environment | 10 | 0.65 | 1.62 |
+| Security Sector Neutrality | 8 | 0.12 | 0.25 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Martial Law or Military Governance Language | executive_constraints | 1.65 (Watch) | 0 | 0 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.30 (Watch) | 3 | 3 |
-| Court Order Noncompliance | judiciary_rule_of_law | 1.30 (Watch) | 1 | 1 |
-| Election Administration Capture | elections_transfer | 1.30 (Watch) | 0 | 0 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 2 | 2 |
+| Opposition Ballot Exclusion | opposition_pluralism | 2.00 (Yellow) | 4 | 4 |
+| Martial Law or Military Governance Language | executive_constraints | 1.30 (Watch) | 0 | 0 |
+| Election Administration Capture | elections_transfer | 1.00 (Watch) | 3 | 3 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 2 | 2 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 1.00 (Watch) | 2 | 2 |
 | Election Delay or Cancellation | elections_transfer | 1.00 (Watch) | 1 | 1 |
 | Alternate Elector Scheme Activity | elections_transfer | 1.00 (Watch) | 1 | 1 |
 | Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
+| Court Order Noncompliance | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
 | Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 0.65 (Green) | 0 | 0 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
 
 ## Evidence Samples
 
+### Opposition Ballot Exclusion
+- [facebook.com] Ethiopian Rebels Want Opposition Political Parties Not to take part in the Election. Read more. https://borkena.com/2026/03/16/fano-ethiopian-rebels-want-opposition-political-parties-not-to-take-part-in-the-election/ #Ethiopia #News #Fano #Election #Ethiopia - facebook.com (2026-03-17) - https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWHFnNGdhc1hNLTVNazQybGVoTzJPNjd3V0MydjdTcG1Gd2g1Y1UtYmJLb0E1TFhFcVZwNkxQQkFqV290Vm9QU1VfNmFFcXF1Qng1djd1RjVYdmxmVVpHVjRQdTIzN3lNRjk3T3Faek5UcWpVTXl5Nk5XT3dlQ3FkdG9aeFZuclZBN25TSVdReHNkUWk3dXhObFBHdG5HelFtMkNPMWwzQmZqNWY2RXdlWHlSX1NXckxIMWRKalNuaGNLWmpEbmxFa09rWWpIcENPTUh6empqalVjLXVlR1RKMHc5SkI?oc=5
+- [ETV Bharat] Congress Suspends 3 Odisha MLAs For Cross-Voting In Rajya Sabha Polls - ETV Bharat (2026-03-17) - https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRE1OandKa3d2Tm5NOVk4QzBJNWpSQmN2aUFHVzFLY1NBZXlDTkJEa1o1UkVRakxlcG9KYjB6MEZNVk5KTHlJaUNHZF9wRk1pNlMtSV9seXFQeUo3SHVPcktPdmx2VTBwOUxWYWd5cHBKRlo4WU85REwwRy1jVHVZWkxGbTk3YVRVVXZRRHRVcjVmRlZmVW0tVkpJS2tfM09KdlZ3eEFQcmNMMk5PTTFpWmU2TmpnbC1Oc0Fr0gHAAUFVX3lxTE1RbXR4SWdXa2pjVHdmUHB4YWFaS0dIdlZJYk5LTTA3U1puZ3JORVlMd0t2bUxJMmlaZFJRRjF1Rm9KQlNNa1JBZUd1Y0duNkltN2hDbWxpVFhkN3pFZ3RHai1QQXhWX0g0dHFvbEd3NWMweUpmY2RrYktoQi01SzJrNEcxb2ZXbjR3b2FHek4zQkltREY2eC1ZZmE5N1U2TGM3V3I1MTFqbEVIb2RqUmJ1RFlESjhHTVdNU09fOWFqTQ?oc=5
+- [The Hans India] Odisha: BJD warns suspended MLAs of disqualification for defying whip​ - The Hans India (2026-03-16) - https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZjE1Q0tlYnA2QkMydnFscGpXbjFueTZ6ZEJlVTNlSDlsdU1YR09waWhXLWRocHRqamJzblF6d1ZnZTR3Tm1WNEc0N0J1dVVXT05RNTRPZkhydElaTUZmdXVlMXYyVUFFZWFrR2xwSU9TUXV3Y0ltNEhtaDBVSE9uQWdiYk02cWs2VGNOeDZTaHFXMWlKOWRtS0hCTDFjcVVwc3l1LTc4dDJuN0lwRk40N1pNN2Y4WjBXclVCNFc5dS3SAcABQVVfeXFMUGYxNUNLZWJwNkJDMnZxbHBqV24xbnk2emRCZVUzZUg5bHVNWEdPcGloVy1kaHB0ampic25RendWZ2U0d05tVjRHNDdCdXVVV09OUTU0T2ZIcnRJWk1GZnV1ZTF2MlVBRWVha0dscElPU1F1d2NJbTRIbWgwVUhPbkFnYmJNNnFrNlRjTng2U2hxVzFpSjlkbUtIQkwxY3FVcHN5dS03OHQybjdJcEZONDdaTTdmOFowV3JVQjRXOXUt?oc=5
+
 ### Martial Law or Military Governance Language
 - No fresh evidence links in the current lookback window.
-### Press Restrictions or Retaliation
-- [Chattanooga Times Free Press] ICE maintains agents had a warrant for Nashville journalist’s arrest - Chattanooga Times Free Press (2026-03-15) - https://news.google.com/rss/articles/CBMingFBVV95cUxQa0J0OWJ4MHc2WHlTRVotVTJpRkZlX0RqWU5ndFp4NWpfQ2ttNC1TMFlDUUcwOW4tZzNCMmpuNmMzV0tCUnJfS0hGUHVYeWtkRFNyNTVvZnZ2TkF3RDR4UjdsdjFqSzBRMjQydnJEX0JFMHM2U2FrRWE5OXh0WGpWcTZXLXRpQmRBM0hZYTM5RmJmRVYyYkNRUGxkVHNsQQ?oc=5
-- [Social News XYZ] Global press freedom groups warn Pakistan over harassment of exiled Afghan journalists - Social News XYZ (2026-03-14) - https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNjdNeGVqUVpaVXdtRmNJbE5MSTlPc2hadXdLTUZULWVaUm5XN0dkLVBHTmlFeUNaLWR5R3UzQXlYdS04dURpa041bXlNUTViUVlsZXh0b3VScGlmMDhiTDVLdl9TMTdNSmRlQkl3Q19aWGkxNXVjTVVGTzBWOE5ZUEF6YnBMMy1RVEVZMHN4RDh4dU1WcWhTOVFvUFNmZ1lvOWhrYTJFaDA5TWhfVURvaGJoUGNvdzVYN1hQOWZtcDVDNnc?oc=5
-- [Shia World News] Media groups call on Pakistan to halt deportations of Afghan journalists - Shia World News (2026-03-15) - https://news.google.com/rss/articles/CBMiygFBVV95cUxOT3JILXVwakJteGRTSEVmU1JXcEZtdU41MmpfbXlfdlQzWFpZUUJHelpQZUlQRXp6Y0tpUE1NWTZRSTBaMG9neDhCWi0zR21TVkFqY2stdXg5ZEN6cHBvdnRWcmJkQzhiZEM2Rkh3SFM1QWVhU19QTEpPdENLelBXSTVfSktWNHo4TFJualVkc3FMR2NReFNfRUF1Z0p0VXZpTmEzenFSelpKdHNSUUFpb3laSmNfa1phYzM5akZFQ0tSRE9FYmNFZURn?oc=5
-
-### Court Order Noncompliance
-- [ownerdriver.com.au] NHVR secures court order to prevent Queensland company from operating - ownerdriver.com.au (2026-03-15) - https://news.google.com/rss/articles/CBMiowFBVV95cUxQWnpjSDJvd1NXVkVMb0lxa1ZTUHBLNk1CbFdVSVhjVVpqZ096LXFGZ1RBOGhxaFo0TnVYTnJTRURhbVc0LWxGa3RITFJ6cEdRTktrOTctY2EzQjc4ZHQtZDdqdE1HMnpyOFUzRjNQQzYwUHdXUVlEQm9ma0IxeC1IeTJTaWUzUXl5aEMtY0I0akV1QzYxaTJuOGJLWlJZQlU2bllB?oc=5
-
 ### Election Administration Capture
-- No fresh evidence links in the current lookback window.
-### Judge Intimidation Campaign
-- [MSN] Supreme Court justices Jackson and Kavanaugh clash over handling of Trump cases - MSN (2026-03-15) - https://news.google.com/rss/articles/CBMiywFBVV95cUxNLXdRNzk5a1pmdUtZd254VzZXeUU1OVAwb01COHhGUl9rbHkzT2pqMlRDRVl1NFlqTWdrY1NUZXRLVVhLSWFqc2RnNTh6OG9rWjJVbVBhZTM1M1hRVjBDQVVYbzAxUTVVSzd5dWJJQkVscmRLTjQwR1B5N0dfMjdNTXFkTzlpdV9kLXlCSFViUDBuc1ZqS3hzbnUyRmM2TVBENS1HemNoUUx4OWlPQXA5UnBGNTAwWlA5TDlNdEFJV2pWUFczTnRibFlSUQ?oc=5
-- [JONATHAN TURLEY – Res ipsa loquitur] Boasberg’s Law: Why The Quashing of the Powell Subpoenas Leaves More Questions Than Answers - JONATHAN TURLEY – Res ipsa loquitur (2026-03-16) - https://news.google.com/rss/articles/CBMixwFBVV95cUxNSUZ6aWFyeTRhY1BBU19GcEhQVmhmQjluU2lEQXlmN0RCY29sWk9vR2xIblE5bzFPMjRhMi1GZ01iVWVBLUpZTGx5M1NTSnplX3NzOC1kOFFjbjhFYVB3dWl4S0tUMG5aemxNOHhsaDJUd2ZPMENUeEJyVl95T2NTRVNrTklkb1BIeUdCLUN3ZkVNc0pxUzF4WlhKNmZRY2RHUE50ZXp2V1ZCX3J0dGFFSVZfN0lRaFlzczI1N2hzc2QyM003THZ30gHMAUFVX3lxTE9xbWxtMU5WbkU3R2RjQ3JmeE1jeWEya0xNbldoSFBmaE1zLTRscWdKb1Qtb2FZVFo4cTFFVU90b3lRWkpFWVZVNTlFWUIyTHQxQ3F2T3V5UmNsaWV0cllTbnVTWFMwQ2MzTUp0WXFnOWtWenJJMGRlRnA3dTZNbGhoUXhzb3dfUUw3MmdVdmF0dk5rMEtmZy1nelNTNW9ZNGxHcmtUUXJuT3JIZXZFcHMxT1RPQkxEMTI5b3NGNmpBUFcwSGthM2JnclBWOA?oc=5
+- [The New York Times] Homeland Security Funding Bill Fails in Senate as Standoff Continues - The New York Times (2026-03-16) - https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKSWVERDk2c3FodmZkWjNTSVdQZzlFSml2UFZwSlRXNU5Ea2VCQXc5cmoyUlVZQWcyVDhPWGFmWkVzNTdzbXQ3S2RvTXhXT0NRUzRvcEdvMno0anNUZEVwaWt1VQ?oc=5
+- [The Economic Times] EC removes West Bengal Chief Secretary Chakraborty, Home Secretary Meena after announcing poll dates - The Economic Times (2026-03-15) - https://news.google.com/rss/articles/CBMipgJBVV95cUxQNUFOT00yVFdOWm92TlFTMTNFX0dYeHV1LWlfazBmWkpTbEFQa25oWEw3Q2NWT2YweWg4Z0VrcWxzYnlLUnZKdDU4UDIwbjlOM2xmS0VZVGNuWFJhOGMzUjF6MVpOOC1udDRMZTJvdVFZS2FRUS1pc3VGLTBUTGpQLWE2VEJNQzdleDladmVUR1NYaDhLS0FPOWRBSjY0clB6Vml1RDNyUENJa05vSHBqTTNJMlh5LUF1cms4UW5JRXhMR05HenhtTEJKYVFpeHZnU20xNmZONHpGSngtYTdia0RiaktEQ1p0MEFDYWpnVklCTU5uN3JkZGdJZUlQdkdvU3plakNOem9aV21BNzJ4LVdIYlZxTk1lRU0xcWwza1JnQlZwNnfSAasCQVVfeXFMTXV3OUZnRlQ2aGNkZzlhemJOclhkcU8zZU9LTEtKWklrRDduT2JpYV8tcFFJNmFPSmhZZkZ2Q2MteXYtWmJPMXpoZm1XajNvUFktNzN5NjFBTC15QXhlRF91WEZveGFKMDVJSTRJWmJ6UDRVNDhCYWpvQ1dpUHhQTlIxb2lldC1qU01TaGNSazh4RW5sTWpzcmZBRXMxbFZnWWJ6TENVSld6VEo5TUpLbVVRNFM0aGhfS0FUZ2ZoQTBNM1ZTdWNpdXdYQUo1ZjJVd0ZGR294Y1FjRFJWS0N4bzBJWS01VGgyZDhsMTY0cnB0Nnh5RWVGTXZpOXA0Sm1sR1JqRUJaOTJEQ2pZdVlLaWZ1UU9aSnFLX0NQZmdJOGRqXzU3blRJbGlub2c?oc=5
+- [indianews.com.au] CM Mamata writes to CEC over transfer of IAS, IPS officers in Bengal - indianews.com.au (2026-03-16) - https://news.google.com/rss/articles/CBMimAFBVV95cUxPYkNzRktEZVFEQ1BLa08xSEVTcDdnZldid1JMS3E0WUl0Y0VUTWtFV2dLcVJOV2lJQ2xfSXpSNWpPYUlERGNGdnVhZG5Md1ZxTnNmVWNRbkRyYUVzNEhvVGU0M3pYZnYtWVUydzNRY2NzMHJjT3BQMklqZDdoclRoRUVCbVNCOFJEZElMZm9pS24yLThtNWotcw?oc=5
+
+### Legislative Bypass by Executive
+- [Whalesbook] Supreme Court Curbs Presidential Tariffs, Gives Congress Trade Power - Whalesbook (2026-03-16) - https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVHpPNkpSdkNEV0c3T2xWc2JQUlZESWwxWHM3SFBRd1lfbXR4RDFkRTN0TUEtaWxuOWtJMnN3NW9iYU1SVmFSRVNqS0hEbm9lN0RQUG4yY3BFaHRsREhvWXFHYnl4aWg0Mi1UbXlfZkNDRXFHcGhYR0ZjVVNEVzFLOU9acjJBV01HS0VFSVdFTm1hRlFkbkpJVU03Wm5JR1VSY2VYSlo2ODlnVlJfX1ZJWEZacm1JQ01SWFpSMnJTcjRLV3YtYXBaTUE3TkxZYl9jc0ZIQzZ6NA?oc=5
+- [Business Upturn] Government shutdown and unpaid TSA workforce raise constitutional and labour law concerns in United States aviation security - Business Upturn (2026-03-16) - https://news.google.com/rss/articles/CBMihAJBVV95cUxOcnNUbUtqWU5LcWxHSTYzS0xjNlBkREM5RFZaSUpQQ1RjMWtrb0FJeWdabmJ0bXFjOGdqZEN3TGpmOWQ0OWNSUDNEWUlVNGJZMm5OZjBMOFJqajlEbUI0cERtbXR6VnZHSXA0MUlqTTZWZjZRN2ZpRy0tTE02U21WajU2YTdvMjVIRDM0ZFRqc1hOTDVlMzkxcjFRQWVOa0VnTTZSaFJmUXc4SHFubi1MblJ5TWFjMldrMk8tMDM4TTlpRl90Q3pfLWdqajIzNGg2Z2t2YzlhaXRKemZpa0xGR1BuNXpsUFgxMENEdkdfNXNMTVNndHJPLWtTODYwYXhfLUc3eA?oc=5
+
+### Civil Service Purge / Schedule F
+- [WTOP] How Trump’s ‘Schedule Policy/Career’ plan could reshape federal agencies - WTOP (2026-03-17) - https://news.google.com/rss/articles/CBMipgFBVV95cUxOc2xUMjNDalN5U2xXQzJVSUFrTzZYY3FGcWhxZU10RWptTG5td2xXbEdxQUQ1SGJmQjFhTHI2YWxZNVBGVVZwR01oMFB3NnVwSUpQMkdrSDBWREpRR1FndjZIRi00MzhGQ2ktYzFtTHlTYXlpNk9TalVUWl81UzFIcDIyZ1VVRkJ5MHR0N3cwc2pKQUZ4Y0V1aTVJemcyeHVmYzE2d0xR?oc=5
+- [PA TIMES Online] The Relativity of Protection: When Context Redefines Roles - PA TIMES Online (2026-03-17) - https://news.google.com/rss/articles/CBMihAFBVV95cUxQc3B1ZG5zNkUxNmpaZDN2QWlIWG5QZTRqcXFTUzdLbGdFZk5SMy1wRWNCejdTUk15YVZwTmUxa09SNWxZRmVsV0dHSVBOWjQwSWIxTmU1TUx2NjJmVm80TXdydFRWcUR3el9sZGJSZHhER016VUFWQndBZEpENjYxN2l1R2Q?oc=5
 
 ## Data Quality
 
