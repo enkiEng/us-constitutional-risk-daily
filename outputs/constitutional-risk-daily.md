@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-03-17 12:36:16 UTC
-- Score: **17 / 100** (Elevated Strain)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **-1.4**
+- Generated: 2026-03-18 12:36:49 UTC
+- Score: **18 / 100** (Elevated Strain)
+- Previous day delta: **+1.0**
+- Delta vs 7-day average: **-0.2**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -14,59 +14,63 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.75 | 4.12 |
-| Judicial Independence and Rule of Law | 15 | 0.67 | 2.50 |
+| Elections and Transfer of Power | 22 | 0.82 | 4.54 |
+| Judicial Independence and Rule of Law | 15 | 0.55 | 2.06 |
 | Opposition Rights and Political Pluralism | 14 | 1.00 | 3.50 |
-| Executive Constraints and Emergency Powers | 13 | 1.10 | 3.57 |
-| Civil Service and Agency Independence | 10 | 0.43 | 1.08 |
-| Civil Liberties and Information Environment | 10 | 0.65 | 1.62 |
-| Security Sector Neutrality | 8 | 0.12 | 0.25 |
-| Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
+| Executive Constraints and Emergency Powers | 13 | 0.87 | 2.82 |
+| Civil Service and Agency Independence | 10 | 0.67 | 1.67 |
+| Civil Liberties and Information Environment | 10 | 0.50 | 1.25 |
+| Security Sector Neutrality | 8 | 0.50 | 1.00 |
+| Federalism and Legislative Oversight | 8 | 0.50 | 1.00 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Opposition Ballot Exclusion | opposition_pluralism | 2.00 (Yellow) | 4 | 4 |
-| Martial Law or Military Governance Language | executive_constraints | 1.30 (Watch) | 0 | 0 |
-| Election Administration Capture | elections_transfer | 1.00 (Watch) | 3 | 3 |
-| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 2 | 2 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 1.00 (Watch) | 2 | 2 |
-| Election Delay or Cancellation | elections_transfer | 1.00 (Watch) | 1 | 1 |
-| Alternate Elector Scheme Activity | elections_transfer | 1.00 (Watch) | 1 | 1 |
-| Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
+| Election Administration Capture | elections_transfer | 2.00 (Yellow) | 5 | 3 |
+| Opposition Ballot Exclusion | opposition_pluralism | 2.00 (Yellow) | 3 | 3 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | 3 | 3 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 4 | 4 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 2 | 1 |
 | Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
-| Court Order Noncompliance | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
-| Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 1 | 1 |
 | Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
+| Domestic Military Use in Political Conflict | security_sector_neutrality | 1.00 (Watch) | 1 | 1 |
+| Legislative Oversight Obstruction | federalism_oversight | 1.00 (Watch) | 1 | 1 |
+| Martial Law or Military Governance Language | executive_constraints | 0.95 (Watch) | 0 | 0 |
+| Election Delay or Cancellation | elections_transfer | 0.65 (Green) | 0 | 0 |
+| Alternate Elector Scheme Activity | elections_transfer | 0.65 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
-### Opposition Ballot Exclusion
-- [facebook.com] Ethiopian Rebels Want Opposition Political Parties Not to take part in the Election. Read more. https://borkena.com/2026/03/16/fano-ethiopian-rebels-want-opposition-political-parties-not-to-take-part-in-the-election/ #Ethiopia #News #Fano #Election #Ethiopia - facebook.com (2026-03-17) - https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWHFnNGdhc1hNLTVNazQybGVoTzJPNjd3V0MydjdTcG1Gd2g1Y1UtYmJLb0E1TFhFcVZwNkxQQkFqV290Vm9QU1VfNmFFcXF1Qng1djd1RjVYdmxmVVpHVjRQdTIzN3lNRjk3T3Faek5UcWpVTXl5Nk5XT3dlQ3FkdG9aeFZuclZBN25TSVdReHNkUWk3dXhObFBHdG5HelFtMkNPMWwzQmZqNWY2RXdlWHlSX1NXckxIMWRKalNuaGNLWmpEbmxFa09rWWpIcENPTUh6empqalVjLXVlR1RKMHc5SkI?oc=5
-- [ETV Bharat] Congress Suspends 3 Odisha MLAs For Cross-Voting In Rajya Sabha Polls - ETV Bharat (2026-03-17) - https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRE1OandKa3d2Tm5NOVk4QzBJNWpSQmN2aUFHVzFLY1NBZXlDTkJEa1o1UkVRakxlcG9KYjB6MEZNVk5KTHlJaUNHZF9wRk1pNlMtSV9seXFQeUo3SHVPcktPdmx2VTBwOUxWYWd5cHBKRlo4WU85REwwRy1jVHVZWkxGbTk3YVRVVXZRRHRVcjVmRlZmVW0tVkpJS2tfM09KdlZ3eEFQcmNMMk5PTTFpWmU2TmpnbC1Oc0Fr0gHAAUFVX3lxTE1RbXR4SWdXa2pjVHdmUHB4YWFaS0dIdlZJYk5LTTA3U1puZ3JORVlMd0t2bUxJMmlaZFJRRjF1Rm9KQlNNa1JBZUd1Y0duNkltN2hDbWxpVFhkN3pFZ3RHai1QQXhWX0g0dHFvbEd3NWMweUpmY2RrYktoQi01SzJrNEcxb2ZXbjR3b2FHek4zQkltREY2eC1ZZmE5N1U2TGM3V3I1MTFqbEVIb2RqUmJ1RFlESjhHTVdNU09fOWFqTQ?oc=5
-- [The Hans India] Odisha: BJD warns suspended MLAs of disqualification for defying whip​ - The Hans India (2026-03-16) - https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZjE1Q0tlYnA2QkMydnFscGpXbjFueTZ6ZEJlVTNlSDlsdU1YR09waWhXLWRocHRqamJzblF6d1ZnZTR3Tm1WNEc0N0J1dVVXT05RNTRPZkhydElaTUZmdXVlMXYyVUFFZWFrR2xwSU9TUXV3Y0ltNEhtaDBVSE9uQWdiYk02cWs2VGNOeDZTaHFXMWlKOWRtS0hCTDFjcVVwc3l1LTc4dDJuN0lwRk40N1pNN2Y4WjBXclVCNFc5dS3SAcABQVVfeXFMUGYxNUNLZWJwNkJDMnZxbHBqV24xbnk2emRCZVUzZUg5bHVNWEdPcGloVy1kaHB0ampic25RendWZ2U0d05tVjRHNDdCdXVVV09OUTU0T2ZIcnRJWk1GZnV1ZTF2MlVBRWVha0dscElPU1F1d2NJbTRIbWgwVUhPbkFnYmJNNnFrNlRjTng2U2hxVzFpSjlkbUtIQkwxY3FVcHN5dS03OHQybjdJcEZONDdaTTdmOFowV3JVQjRXOXUt?oc=5
-
-### Martial Law or Military Governance Language
-- No fresh evidence links in the current lookback window.
 ### Election Administration Capture
-- [The New York Times] Homeland Security Funding Bill Fails in Senate as Standoff Continues - The New York Times (2026-03-16) - https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKSWVERDk2c3FodmZkWjNTSVdQZzlFSml2UFZwSlRXNU5Ea2VCQXc5cmoyUlVZQWcyVDhPWGFmWkVzNTdzbXQ3S2RvTXhXT0NRUzRvcEdvMno0anNUZEVwaWt1VQ?oc=5
-- [The Economic Times] EC removes West Bengal Chief Secretary Chakraborty, Home Secretary Meena after announcing poll dates - The Economic Times (2026-03-15) - https://news.google.com/rss/articles/CBMipgJBVV95cUxQNUFOT00yVFdOWm92TlFTMTNFX0dYeHV1LWlfazBmWkpTbEFQa25oWEw3Q2NWT2YweWg4Z0VrcWxzYnlLUnZKdDU4UDIwbjlOM2xmS0VZVGNuWFJhOGMzUjF6MVpOOC1udDRMZTJvdVFZS2FRUS1pc3VGLTBUTGpQLWE2VEJNQzdleDladmVUR1NYaDhLS0FPOWRBSjY0clB6Vml1RDNyUENJa05vSHBqTTNJMlh5LUF1cms4UW5JRXhMR05HenhtTEJKYVFpeHZnU20xNmZONHpGSngtYTdia0RiaktEQ1p0MEFDYWpnVklCTU5uN3JkZGdJZUlQdkdvU3plakNOem9aV21BNzJ4LVdIYlZxTk1lRU0xcWwza1JnQlZwNnfSAasCQVVfeXFMTXV3OUZnRlQ2aGNkZzlhemJOclhkcU8zZU9LTEtKWklrRDduT2JpYV8tcFFJNmFPSmhZZkZ2Q2MteXYtWmJPMXpoZm1XajNvUFktNzN5NjFBTC15QXhlRF91WEZveGFKMDVJSTRJWmJ6UDRVNDhCYWpvQ1dpUHhQTlIxb2lldC1qU01TaGNSazh4RW5sTWpzcmZBRXMxbFZnWWJ6TENVSld6VEo5TUpLbVVRNFM0aGhfS0FUZ2ZoQTBNM1ZTdWNpdXdYQUo1ZjJVd0ZGR294Y1FjRFJWS0N4bzBJWS01VGgyZDhsMTY0cnB0Nnh5RWVGTXZpOXA0Sm1sR1JqRUJaOTJEQ2pZdVlLaWZ1UU9aSnFLX0NQZmdJOGRqXzU3blRJbGlub2c?oc=5
-- [indianews.com.au] CM Mamata writes to CEC over transfer of IAS, IPS officers in Bengal - indianews.com.au (2026-03-16) - https://news.google.com/rss/articles/CBMimAFBVV95cUxPYkNzRktEZVFEQ1BLa08xSEVTcDdnZldid1JMS3E0WUl0Y0VUTWtFV2dLcVJOV2lJQ2xfSXpSNWpPYUlERGNGdnVhZG5Md1ZxTnNmVWNRbkRyYUVzNEhvVGU0M3pYZnYtWVUydzNRY2NzMHJjT3BQMklqZDdoclRoRUVCbVNCOFJEZElMZm9pS24yLThtNWotcw?oc=5
+- [Senator Alex Padilla (.gov)] WATCH: Ranking Member Padilla Leads Fight Against SAVE America Act - Senator Alex Padilla (.gov) (2026-03-18) - https://news.google.com/rss/articles/CBMivgFBVV95cUxNUWpVWUdwamR5NUR1VVJSdlZ1VHRmMjctazExOVZtNUVacS1sX0JGZG4tazBFWkxLRXA5VGYyclg0bW1xQzZ2SVVhOE84X0lhdnVwNl9idjgzclZma1Rnbkg4aC1WNnZmaWtNd1ROVTR4UU9RT2dyb0YwN092Tk52dDd0TFVDUVNzXzdzbDc0eVdHWnloM0s5ZGVESDRWRHh0RzR6MHRPaGt5Sl9HTHlmTzlENE9FVXgwazk0WTVB?oc=5
+- [AOL.com] Conservative voter fraud hunters pitch new computer programs to state officials - AOL.com (2026-03-18) - https://news.google.com/rss/articles/CBMiigFBVV95cUxPOUNnTFBIN3g1OThjTEhRS2VvN2VJZkp4Qjl1MXFvVUdoRFVoTGdaN1ZQcnhMaTA5Ry1EM2Y2UFE1RXMtUkI3cWdick5qNGhfTDh0X1dKaE42b0YxdmZ0U1hHM3k3QjZlRC1TdXh6OExOT2ZOOFFGSlkteWVmVWxlRFRlbENZWHBuVVE?oc=5
+- [Senator Alex Padilla (.gov)] WATCH: Schumer, Padilla, Morelle, Voting Rights Advocates Reject Republicans’ SAVE America Act, Trump’s Attempted Elections Takeover - Senator Alex Padilla (.gov) (2026-03-17) - https://news.google.com/rss/articles/CBMijgJBVV95cUxQWEFEUmN2WWMtQWlqT2NVTzhWQTRPS1A3RTdfR284VHBJaXdpSFl5QXVidTJtWlZ1Vk80QVdNQUx1OTBDbE5QMDFqaDlKOGsxbzZjNnlVLUpibVJNZ2paS2NVdTFvQWVUdGtoWE1pTnFrUGQydEpCYmdEc1BkZnFIbnE3TEMtNXREWk9vOUxiZExaYy1OTlAwd3hKYkdCOEpsSlItTmttNzRFOUxsMVkzd2dJMGJGNHc3bEdfS3NqV0xKcjlGcmpXUnB6M3ZMVGx3eGVYR2ZMTlo1V2o2SDk1ZFlvQ1JFU2VQdE00NGZzcWgxY2hMSmROOGxfdk9nWFR6RkFhb0V1NkhULUE0d0E?oc=5
 
-### Legislative Bypass by Executive
-- [Whalesbook] Supreme Court Curbs Presidential Tariffs, Gives Congress Trade Power - Whalesbook (2026-03-16) - https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVHpPNkpSdkNEV0c3T2xWc2JQUlZESWwxWHM3SFBRd1lfbXR4RDFkRTN0TUEtaWxuOWtJMnN3NW9iYU1SVmFSRVNqS0hEbm9lN0RQUG4yY3BFaHRsREhvWXFHYnl4aWg0Mi1UbXlfZkNDRXFHcGhYR0ZjVVNEVzFLOU9acjJBV01HS0VFSVdFTm1hRlFkbkpJVU03Wm5JR1VSY2VYSlo2ODlnVlJfX1ZJWEZacm1JQ01SWFpSMnJTcjRLV3YtYXBaTUE3TkxZYl9jc0ZIQzZ6NA?oc=5
-- [Business Upturn] Government shutdown and unpaid TSA workforce raise constitutional and labour law concerns in United States aviation security - Business Upturn (2026-03-16) - https://news.google.com/rss/articles/CBMihAJBVV95cUxOcnNUbUtqWU5LcWxHSTYzS0xjNlBkREM5RFZaSUpQQ1RjMWtrb0FJeWdabmJ0bXFjOGdqZEN3TGpmOWQ0OWNSUDNEWUlVNGJZMm5OZjBMOFJqajlEbUI0cERtbXR6VnZHSXA0MUlqTTZWZjZRN2ZpRy0tTE02U21WajU2YTdvMjVIRDM0ZFRqc1hOTDVlMzkxcjFRQWVOa0VnTTZSaFJmUXc4SHFubi1MblJ5TWFjMldrMk8tMDM4TTlpRl90Q3pfLWdqajIzNGg2Z2t2YzlhaXRKemZpa0xGR1BuNXpsUFgxMENEdkdfNXNMTVNndHJPLWtTODYwYXhfLUc3eA?oc=5
+### Opposition Ballot Exclusion
+- [The Whistler Newspaper] OPINION: When Law Starts Protecting Wrong People - The Whistler Newspaper (2026-03-17) - https://news.google.com/rss/articles/CBMie0FVX3lxTE5QT2Y1RV9hUWpicnBSc3RkVlUxY1FVS1lRR05abVFHS1pXVFdnMm1Oa080emFsSEtoMWFmQmktV3g5YXlwbnlFTFFSTUlZdEppT2lNNVNJcWdOaW5tSXBtazVNNDVleUJpR1hYQ1hSd3plSjh0eWc4bjkwbw?oc=5
+- [facebook.com] Ethiopian Rebels Want Opposition Political Parties Not to take part in the Election. Read more. https://borkena.com/2026/03/16/fano-ethiopian-rebels-want-opposition-political-parties-not-to-take-part-in-the-election/ #Ethiopia #News #Fano #Election #Ethiopia - facebook.com (2026-03-17) - https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWHFnNGdhc1hNLTVNazQybGVoTzJPNjd3V0MydjdTcG1Gd2g1Y1UtYmJLb0E1TFhFcVZwNkxQQkFqV290Vm9QU1VfNmFFcXF1Qng1djd1RjVYdmxmVVpHVjRQdTIzN3lNRjk3T3Faek5UcWpVTXl5Nk5XT3dlQ3FkdG9aeFZuclZBN25TSVdReHNkUWk3dXhObFBHdG5HelFtMkNPMWwzQmZqNWY2RXdlWHlSX1NXckxIMWRKalNuaGNLWmpEbmxFa09rWWpIcENPTUh6empqalVjLXVlR1RKMHc5SkI?oc=5
+- [The Hans India] Cong suspends 3 MLAs for cross-voting in RS polls - The Hans India (2026-03-18) - https://news.google.com/rss/articles/CBMiogFBVV95cUxPd2xIcC1aVXFWOHR1b2dxbjJKUm1NeWxDb0RkR3lRX1FyUlYzRHpTSTV2Qk9hQXBNM2lLVEZIaUo2dWpTRG9hWkM1ZUhsNklVMVgyTlB1aGpUM1VJcHdxUmJpS1JJQld1bFdrd0pqWUE3RVl6NlJrZS03S3pKNnA0Tl9HMnVxamxvUk9iZDA5b0M3Q21rZ0VwNXE3Rk1aVU1yZUHSAacBQVVfeXFMT0FtcndvNkdoVWZrUTV6X0NYeE5sSng5X2lYV1IxbUtGcmx4NXJrdmZ4aDNka3pSLXZzdkR0MF9paEpESG5nNWVsaEE5WFhmME9ZV25Sd0FHbnc1Y2VzOTB3QkVwNHlKZmtVN3VVVzUtUENxWG0yZ2JmZzhmQzJ0dUFEdXR0R3I0eTFzajEtbnZOM01qUlhUSzJWZUVNVlZUZU9wNEhrTWc?oc=5
 
 ### Civil Service Purge / Schedule F
-- [WTOP] How Trump’s ‘Schedule Policy/Career’ plan could reshape federal agencies - WTOP (2026-03-17) - https://news.google.com/rss/articles/CBMipgFBVV95cUxOc2xUMjNDalN5U2xXQzJVSUFrTzZYY3FGcWhxZU10RWptTG5td2xXbEdxQUQ1SGJmQjFhTHI2YWxZNVBGVVZwR01oMFB3NnVwSUpQMkdrSDBWREpRR1FndjZIRi00MzhGQ2ktYzFtTHlTYXlpNk9TalVUWl81UzFIcDIyZ1VVRkJ5MHR0N3cwc2pKQUZ4Y0V1aTVJemcyeHVmYzE2d0xR?oc=5
+- [WTOP] Trump plans to reclassify federal workers in policymaking roles, removing job protections - WTOP (2026-03-17) - https://news.google.com/rss/articles/CBMipgFBVV95cUxOc2xUMjNDalN5U2xXQzJVSUFrTzZYY3FGcWhxZU10RWptTG5td2xXbEdxQUQ1SGJmQjFhTHI2YWxZNVBGVVZwR01oMFB3NnVwSUpQMkdrSDBWREpRR1FndjZIRi00MzhGQ2ktYzFtTHlTYXlpNk9TalVUWl81UzFIcDIyZ1VVRkJ5MHR0N3cwc2pKQUZ4Y0V1aTVJemcyeHVmYzE2d0xR?oc=5
+- [Partnership for Public Service] Proposed changes to appeals processes weaken protections for federal employees - Partnership for Public Service (2026-03-18) - https://news.google.com/rss/articles/CBMioAFBVV95cUxPclRqUHl3U3pPM0dSeTBSVkxjTnNuV0Z4Z0F2MUFZbWdBNFZIdkZpODdacllSdTladkVsLTV6UnZ1bkJzb1VNOV92bVZ0T1FIbTVmNExjU0VzQzJISXI2a2RLNHJhZndhc3ZiQ2xrUE1HWmZUd1lGYUl6S0RkeTFsOXNkU05oR1dWTjgzM1V3ZE55a0o3Y1R0LTEzdFRoRDA1?oc=5
 - [PA TIMES Online] The Relativity of Protection: When Context Redefines Roles - PA TIMES Online (2026-03-17) - https://news.google.com/rss/articles/CBMihAFBVV95cUxQc3B1ZG5zNkUxNmpaZDN2QWlIWG5QZTRqcXFTUzdLbGdFZk5SMy1wRWNCejdTUk15YVZwTmUxa09SNWxZRmVsV0dHSVBOWjQwSWIxTmU1TUx2NjJmVm80TXdydFRWcUR3el9sZGJSZHhER016VUFWQndBZEpENjYxN2l1R2Q?oc=5
+
+### Legislative Bypass by Executive
+- [AFGE] Summary of AFGE Lawsuits against Trump & How Litigation Works - AFGE (2026-03-17) - https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0tpYVgxWnRFc2tjdXc3d0Jqd0tZRGRrclI3dGl6UXRRemZGR2JvZXlST1lYOE55ekpJcTg1Z3cyOUF6VGlabjNfWVktc2JfTi1OVDNiQ1hia3h3NE40UmlCZmV1YjZkeV9fY1VWNXM3eVdJb0NacXJrWFdkemUyX09CelMyMjZJQVI2Q3lScWdKQlM3SFM4?oc=5
+- [SCOTUSblog] The remaining questions after the Supreme Court’s tariffs ruling - SCOTUSblog (2026-03-17) - https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0lsdEktTWVyeEtMZlZiREJQaTlkTDZnX0dqLXpMemo2QXd4ektwbWcwa3p6T0pKblZxeG9XX0Y4UENvcVBpV2dvZ1NfOVhFNTJ5VzdzZElvcnowTlFqRU5xWjBJMklCY2t4SklyZGNUM1hWZy1QcDlUbmJCcDFETFBXYjZXdGtaWkNtRmdZenYyb1VsakNlOGV5RW9PdHRx?oc=5
+- [Whalesbook] Supreme Court Curbs Presidential Tariffs, Gives Congress Trade Power - Whalesbook (2026-03-16) - https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVHpPNkpSdkNEV0c3T2xWc2JQUlZESWwxWHM3SFBRd1lfbXR4RDFkRTN0TUEtaWxuOWtJMnN3NW9iYU1SVmFSRVNqS0hEbm9lN0RQUG4yY3BFaHRsREhvWXFHYnl4aWg0Mi1UbXlfZkNDRXFHcGhYR0ZjVVNEVzFLOU9acjJBV01HS0VFSVdFTm1hRlFkbkpJVU03Wm5JR1VSY2VYSlo2ODlnVlJfX1ZJWEZacm1JQ01SWFpSMnJTcjRLV3YtYXBaTUE3TkxZYl9jc0ZIQzZ6NA?oc=5
+
+### Politicized Prosecution of Opposition
+- [MSN] Grand jury rejects Trump’s push to indict lawmakers - MSN (2026-03-18) - https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRVRrYTdZQ1FzS2JOV3RHSkxXSUxNNDhlR0NYRHozcm92QzFEdWtuNUpSZDJfUkdFS1JMbkE5UmkyS1ZZb0IxWkxLMFlCUml1cHl3ZE5tcU0tc3p4TGZhNTJCa3pqSmxQRDN1empnUFNrTDIwd19uUEVla3hVRC1VSk1QbVg0RDA5djFWbkhfemtQOXJ1ZVR1X1g2empIeTdROTVRNGJFZkFGcDNCYThfR0FCQVFrS09MVnRwWlduS3lZeFJpeG8yQ3FWc2lHc0hDWE01WWlyLVZud25sdlgzVmhqZlU?oc=5
+- [MSN] NY Democrats push probe into Trump DOJ actions - MSN (2026-03-17) - https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYk9vUC00dTg3VHc1dmZzZWMzU3ZZR3FYZ3c5TGFEZkY3RHJMZC1pcTdKaFVNUXV3MGpacjRid2RfaG9LYUY0ZHlvcUJnSHNTRkFqZjJEXy1aWnRiQjhXcUp5UjlpcUxNYW5uZkZQRTdtcHczdXhjRXB6Tkt0QXE0Q1NBRDZVN1NPa0JmQUVrTllpTnFwQzR3ZEt0WmtTT19SUGMxNVczQmJwTi05QXk1MzlBRGN5Z3BkcFRGaGVSS09FR0FJTTFKX2ppYndVVklXc3dJUVhseG41YmVWVFpId3hn?oc=5
 
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Confidence: **Medium**
+- Confidence: **High**
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.
