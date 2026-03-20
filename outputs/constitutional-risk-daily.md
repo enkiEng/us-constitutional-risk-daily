@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-03-19 12:34:42 UTC
-- Score: **18 / 100** (Elevated Strain)
-- Previous day delta: **0.0**
-- Delta vs 7-day average: **+0.1**
+- Generated: 2026-03-20 12:34:27 UTC
+- Score: **23 / 100** (Elevated Strain)
+- Previous day delta: **+5.0**
+- Delta vs 7-day average: **+4.7**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -14,57 +14,58 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.65 | 3.58 |
-| Judicial Independence and Rule of Law | 15 | 0.77 | 2.88 |
-| Opposition Rights and Political Pluralism | 14 | 0.88 | 3.09 |
-| Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
-| Civil Service and Agency Independence | 10 | 0.88 | 2.21 |
-| Civil Liberties and Information Environment | 10 | 0.50 | 1.25 |
+| Elections and Transfer of Power | 22 | 0.75 | 4.12 |
+| Judicial Independence and Rule of Law | 15 | 0.88 | 3.31 |
+| Opposition Rights and Political Pluralism | 14 | 1.00 | 3.50 |
+| Executive Constraints and Emergency Powers | 13 | 1.55 | 5.04 |
+| Civil Service and Agency Independence | 10 | 0.77 | 1.92 |
+| Civil Liberties and Information Environment | 10 | 1.50 | 3.75 |
 | Security Sector Neutrality | 8 | 0.50 | 1.00 |
-| Federalism and Legislative Oversight | 8 | 0.50 | 1.00 |
+| Federalism and Legislative Oversight | 8 | 0.33 | 0.65 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Election Administration Capture | elections_transfer | 2.00 (Yellow) | 7 | 7 |
-| Opposition Ballot Exclusion | opposition_pluralism | 2.00 (Yellow) | 5 | 5 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 2.00 (Yellow) | 5 | 3 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 1.65 (Watch) | 2 | 2 |
-| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 3 | 3 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 3 | 3 |
-| Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 2 | 2 |
-| Martial Law or Military Governance Language | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Independent Agency Capture | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
-| Domestic Military Use in Political Conflict | security_sector_neutrality | 1.00 (Watch) | 1 | 1 |
-| Legislative Oversight Obstruction | federalism_oversight | 1.00 (Watch) | 1 | 1 |
-| Politicized Prosecution of Opposition | opposition_pluralism | 0.65 (Green) | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | 5 | 5 |
+| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 5 | 5 |
+| Election Administration Capture | elections_transfer | 2.00 (Yellow) | 4 | 4 |
+| Opposition Ballot Exclusion | opposition_pluralism | 2.00 (Yellow) | 3 | 3 |
+| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | 3 | 3 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 1.65 (Watch) | 3 | 2 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 1.30 (Watch) | 0 | 0 |
+| Independent Agency Capture | civil_service_integrity | 1.00 (Watch) | 2 | 2 |
+| Election Delay or Cancellation | elections_transfer | 1.00 (Watch) | 1 | 1 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
+| Court Order Noncompliance | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
 
 ## Evidence Samples
 
+### Legislative Bypass by Executive
+- [Lawfare] Article I and the Major Questions Doctrine After Learning Resources - Lawfare (2026-03-19) - https://news.google.com/rss/articles/CBMipwFBVV95cUxPVzNrbUFad3dNSGUtZ2JSeFdUamhxM3N1Nll2eWRaY0pKM1YzektZNnpvS0xiSmpYVm1IaFdkaW1ya1N2VmllQUZ4N2h2NW95aHlzMGNLVjFCSXYwSHJJMmlRVVZ1UGVDUUJPcmtaUmhQN2hiam9TZnNLdUVOTFN4MzlkQnFDV2JFcXlfMmE0SFRoMW5HTHZxQVdCVzJsRk1Obk9hdldzcw?oc=5
+- [University of Chicago News] Are judges too powerful? The rise of universal injunctions, with Samuel Bray - University of Chicago News (2026-03-19) - https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVnlEMGRxVnVGU0tKLTdzNzdfU0RzSE5PZWMtZ0ttbHAtYklZSzFUUlBuaWQ1bGpSWXozcXFHaUNzTTNBZUlhdXZJWDRMc3pyckt1QTdvWTVRa29YYWE3V3BlLS1FRzhfQl8xX2E0MVYzOXFhZTZvUWx2anN0ckFOcGw1VmRlMGdjM3pfSHhNX25vUHY0LW5aOF9ybzBmT0J0YUZNV2hGYTd2a28?oc=5
+- [Just Security] The “Presumption of Regularity” in Trump Administration Litigation (4th edition) - Just Security (2026-03-19) - https://news.google.com/rss/articles/CBMilgFBVV95cUxOeU1aNkE3WmxFMERYLUdlckhxYXByRTl2d3laZnhpYURoMGNRVnI4UG05c3V1NU1pOTZZUHkwWTMwVmY5ZHpIUnFLa0ZWdHlwVG1URS1QVjN6RTNvMFJvVXNYYWNIcVIySUxPU25MMDd0UlU5ZTZHOTBNMVRpRE9Wdy1CdEhnX01tX1NiQkkxblRLc1J3aHc?oc=5
+
+### Press Restrictions or Retaliation
+- [Reporters Committee for Freedom of the Press] ICE arrest of non-citizen journalist in Tennessee raises serious First Amendment concerns - Reporters Committee for Freedom of the Press (2026-03-19) - https://news.google.com/rss/articles/CBMickFVX3lxTFBoTXBIbU5DeWxISUhVNWs5OXZUcW9mU0N6UktZSi1TaWNZQmtWZGFqSkY5NS1mZE1fclRST2hrZUhWbm1VS0psMzVVODh4cmYzQXM0SnE2ejdKLVlOUDFqX3lUb3BHbmI5RzhDbF9keGdYUQ?oc=5
+- [Committee to Protect Journalists] CPJ joins legal effort to support detained journalist Estefany Rodríguez - Committee to Protect Journalists (2026-03-19) - https://news.google.com/rss/articles/CBMiowFBVV95cUxPUXgxTlhXbXdfZjJuN0JyLXlUeDRqR3dCcUQ5Uk45QXZRd1A3Z0xhNVJIVDZ1VTlfSWxhamsyYzJoa09qODU3WWRmVHM0WlpSYndBVm1yR0VnVG90RERtR0hWU1VIM1I0MEhmc3lpTkRnVVVPNlBza1VCUl9LYnRJdGlUZnVpREJ6U0RYUkRlMVN2ZXowZ1hpSUMyVk5Nbk1uS0hr0gGjAUFVX3lxTE9ReDFOWFdtd19mMm43QnIteVR4NGpHd0JxRDlSTjlBdlF3UDdnTGE1UkhUNnVVOV9JbGFqazJjMmhrT2o4NTdZZGZUczRaWlJid0FWbXJHRWdUb3RERG1HSFZTVUgzUjQwSGZzeWlORGdVVU82UHNrVUJSX0tidEl0aVRmdWlEQnpTRFhSRGUxU3ZlejBnWGlJQzJWTk1uTW5LSGs?oc=5
+- [Migrant Insider] BREAKING: Nashville Journalist Estefany Rodriguez Released From ICE Detention - Migrant Insider (2026-03-20) - https://news.google.com/rss/articles/CBMidkFVX3lxTFAydkNWc3ozbUFVdHlUalVMUGZYUFltMWdLTm9WQWFFMFNvMDFMWC1fUXA1aFN5RjVXVWdnU3E2ZWdDa0NIQnNxal8ybS1sMXdWLU1lWkNOUUwzeXNYZ3hZNnZfd2JYWXlUOTZkT3NjbVNtYWxsY1E?oc=5
+
 ### Election Administration Capture
-- [Iowa Public Radio] Today's Iowa News ↓ - Iowa Public Radio (2026-03-18) - https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5
-- [Senator Alex Padilla (.gov)] WATCH: Schumer, Padilla, Morelle, Voting Rights Advocates Reject Republicans’ SAVE America Act, Trump’s Attempted Elections Takeover - Senator Alex Padilla (.gov) (2026-03-17) - https://news.google.com/rss/articles/CBMijgJBVV95cUxQWEFEUmN2WWMtQWlqT2NVTzhWQTRPS1A3RTdfR284VHBJaXdpSFl5QXVidTJtWlZ1Vk80QVdNQUx1OTBDbE5QMDFqaDlKOGsxbzZjNnlVLUpibVJNZ2paS2NVdTFvQWVUdGtoWE1pTnFrUGQydEpCYmdEc1BkZnFIbnE3TEMtNXREWk9vOUxiZExaYy1OTlAwd3hKYkdCOEpsSlItTmttNzRFOUxsMVkzd2dJMGJGNHc3bEdfS3NqV0xKcjlGcmpXUnB6M3ZMVGx3eGVYR2ZMTlo1V2o2SDk1ZFlvQ1JFU2VQdE00NGZzcWgxY2hMSmROOGxfdk9nWFR6RkFhb0V1NkhULUE0d0E?oc=5
-- [News4JAX] Georgia was going to dump voting machines that Trump hates until things got complicated - News4JAX (2026-03-18) - https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRkhBZ2RPV2owbVVNV3llWkwxOU92QU9oM1NEUV8wcnN6LXlNTjJjYVBENDg2UlVfdXNIcmZtM0c0VERvNXQzNGd2STUwWmxVWnlMZV9KN3Uxei14VUdZWk1uSTBiV2NpclZzUF91bDNNZVRWWXNja0JuWm1pVG1qOTNFNGFuM04ySGR3WlR5T1hsaE5YSlFTcHBWaVNMdU9fVkZsMmNVRzV4WmVyd0xmenZIMUlmd2haSjRwSEluUkQteXRpdVU5dGhteXVxYzIwbnJGWA?oc=5
+- [Iowa Public Radio] Today's Iowa News ↓ - Iowa Public Radio (2026-03-19) - https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5
+- [The Bradenton Times] Another batch of Florida election bills: ‘Pull the fire alarm or declare victory’ - The Bradenton Times (2026-03-19) - https://news.google.com/rss/articles/CBMivwFBVV95cUxPMzdpVnk0eVhJX3RiZGh5RjJKUUJwTUEyeWdNcG4telVsVmQyYjdEejd5Vms2aWlhbEFFYlplWUFwZEcwSTVRZjh2N2s3aF9tMG9kdnE2azc1MllkM090T1hOT2NhNl9ZY0VWZXMySFVIX3hnMGJNRVJ0VmlFd2ZOR3VhZEY5YmtFMElfZ2x3QnctY3dDLXQ1clJPWW5JVXhMdFhOc3V1MlNSUUk0OVc1UGFaaDVEblphRlRoR01rMA?oc=5
+- [CBS News] Senate votes down effort to restrict Trump's Iran war powers - CBS News (2026-03-18) - https://news.google.com/rss/articles/CBMihAFBVV95cUxQcjhnM0FUcDZ0NFNOeGF5a19vSVpIeVplYU1MX3FKVGdwdnIwMmotV25FZDh0N3BmblljN0RIaGtqekFONlc5WnYzZ0wxRjBIcVNZZ1lLZFRWSVNRaUxWc1k1VlFzamltRlpLUzJuRkFQdW52THp3WG93a3VldmVudXV6SXnSAYoBQVVfeXFMUFBhcUg3dXY0WHNXY2pZWGpBbE5Oa1NJX1haZkRqX1l0Q25NQXZ4UWRobjA1NVByMDdiS0RqX1pxcjhBLUF5a1haSDBlQ2NQWkNhcmJLWVhMMnduWlpJOXh1ZDVOQVNxS1FaLXhGRW1UUzNIazkwMEp5X1FjLUNtMkgyU3VmS1h0Snh3?oc=5
 
 ### Opposition Ballot Exclusion
-- [ANI News] Odisha Congress writes to Assembly speaker demanding disqualification of 2 MLAs for cross-voting in RS election - ANI News (2026-03-19) - https://news.google.com/rss/articles/CBMijgJBVV95cUxNd2J0S29JVHByRjlHYUk0X3ZKV3h1aWIzUEtyR3hCSjBDYzFHdU1zNDJWemU1NWR6U3RfRW1DcERlN2k4TjNkX2VWdG9COGVxRzB2WUxEbFR2Z1VNNGFjQi1SMWU5azR5LU9jYWU3Z3lmaWlyMTY1azFneVc3bmlqZl9oMks5d0dzOHltT1dLZjFveE5ETVJqRFlpNUxmS1ZScEhmLXA0djRZY1dYYV9RQmdzNVNDRGRrXzVpbW1rTkUzY2d2SjhleTMzalNxUU8wTTNCbjFlWFY0T0kteXB2UTdrdXdsWnpacFhiRGVSSV85aGpraHlxalJPTTF4YXkwSXJvZy1yMndMZ1BIV0HSAY4CQVVfeXFMTXdidEtvSVRwckY5R2FJNF92Sld4dWliM1BLckd4QkowQ2MxR3VNczQyVnplNTVkelN0X0VtQ3BEZTdpOE4zZF9lVnRvQjhlcUcwdllMRGxUdmdVTTRhY0ItUjFlOWs0eS1PY2FlN2d5ZmlpcjE2NWsxZ3lXN25pamZfaDJLOXdHczh5bU9XS2Yxb3hORE1SakRZaTVMZktWUnBIZi1wNHY0WWNXWGFfUUJnczVTQ0Rka181aW1ta05FM2Nndko4ZXkzM2pTcVFPME0zQm4xZVhWNE9JLXlwdlE3a3V3bFp6WnBYYkRlUklfOWhqa2h5cWpST00xeGF5MElyb2ctcjJ3TGdQSFdB?oc=5
-- [The Whistler Newspaper] OPINION: When Law Starts Protecting Wrong People - The Whistler Newspaper (2026-03-17) - https://news.google.com/rss/articles/CBMie0FVX3lxTE5QT2Y1RV9hUWpicnBSc3RkVlUxY1FVS1lRR05abVFHS1pXVFdnMm1Oa080emFsSEtoMWFmQmktV3g5YXlwbnlFTFFSTUlZdEppT2lNNVNJcWdOaW5tSXBtazVNNDVleUJpR1hYQ1hSd3plSjh0eWc4bjkwbw?oc=5
-- [MSN] BJP nearly pulled off a 2nd Rajya Sabha seat in Haryana, Congress hung on by a thread amid cross-voting drama - MSN (2026-03-18) - https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRjJPdzVLaS13WDlnLXl5TzZJN2NaeFRFLXNmSHU5aG9jaFhNYVVpSUNvcG1yRmhDLXdValZyMmpPV0NFZUlaU200VXNtMzdBbzV4UVJUVEdjbWRHbmFwN3dBNXdVQjUzc1ZWMllndGZhM1l2dlBLY0xOZnd0ZFV5Y0x1UnNfbDdxSFJKOTJHOXlpbFBfckpoZDFvcVRrcTdGSWxtbXQ2b01jM2s4Vzh3ekdnLXRiSlRsbFJDa3RmdGRDVThNNFhIT0ppbWNBUURiN3RoVlhlMTM0Y190Y1pON3BhbE9xZ1lTWThNamhsM0VHelBkRG1xWDhoQVdaQQ?oc=5
+- [The Hans India] Cong moves Speaker to disqualify two MLAs - The Hans India (2026-03-20) - https://news.google.com/rss/articles/CBMilwFBVV95cUxQQUhHREozenladkU1UHdlN1FDV0xLNmdYSk1oMjRPYXVXRWR3Yy13UkxEOVpEaDMzd3FQOHg2eDE1WjlvQjN5Y2RsUVZRSktaT1dYeEpWNEh6QWNNTTBHakdvRk1PV2xIQ1EzUFRoTTRGSUs2LS13aDNQejZDWkt5NEdHekhxdXg1anVMX2F0OGNadklQM2tv0gGcAUFVX3lxTE9WU1RRc2ZJYzZCUkVBdnR3V1NQVzVfYWZBb1pOcTY0QzVzeHFvQ25LVzk5YjRaU1JBUHY3Nm05MERUOExKOWdycV9XWGs3azBOaE50U0gyVWNTTGt3Sm1jekZ1UFF6OWVLM1JxTnNmNXFocHBLcEg0NFg1R0VvLUNPVnQtUElZSFYzVXQ5M3QwMnVGazFrdGsxZUZRRQ?oc=5
+- [ANI News] Congress moves to disqualify 3 MLAs over Rajya Sabha cross-voting, says CS Raazen Ekka - ANI News (2026-03-20) - https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMTVKbm5YemV1b2w2aFowQ3ZqQlUyQUFiTzRvcDlIdkRrZ05zcGRzY1lYdTB1M0syWXp5VlNVNnFCWVIzb2hvRFZCMkhCanlZeDZtSkM5am9xQ1VINlVJc0licjZNb2t2STg5cHRSdV9WbEV0bmFoUWpKOXN6bHJJd0NnQVFZNDNVQmhWdUptMjlaT1I2N3p1c1BVLS1qTWZ5NnEyZTBYTjZyeUs1MFVSUEhfUU1FMS1sa2h6Y2ZNWUFLaEtrN25fdEZhbjdYS29NM05VeW5KRjQ1d204UkJGNW1KLWhrZ9IB5gFBVV95cUxQMTVKbm5YemV1b2w2aFowQ3ZqQlUyQUFiTzRvcDlIdkRrZ05zcGRzY1lYdTB1M0syWXp5VlNVNnFCWVIzb2hvRFZCMkhCanlZeDZtSkM5am9xQ1VINlVJc0licjZNb2t2STg5cHRSdV9WbEV0bmFoUWpKOXN6bHJJd0NnQVFZNDNVQmhWdUptMjlaT1I2N3p1c1BVLS1qTWZ5NnEyZTBYTjZyeUs1MFVSUEhfUU1FMS1sa2h6Y2ZNWUFLaEtrN25fdEZhbjdYS29NM05VeW5KRjQ1d204UkJGNW1KLWhrZw?oc=5
+- [The News Mill] Odisha Congress demands disqualification of two MLAs for cross-voting in Rajya Sabha election - The News Mill (2026-03-19) - https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVNxT2U4UUppWlJOR2ExcU14Y0M4bHlxNDQ2bS1nX29XQjRDbkxRODdnOE83X3B6SUVwdFdnRjE0elpqMkwzeEdCaW5wUjhBMmNoaVQ1LVF1YVVaMGRUNEx3ZDFPczN2M1BIY2o4alkxQUJaVFJwbExUTFUzbjBVdlIzSVE2b2x3UVZLZEJnQmlQV2hsN2RTb3JtYzQ0RUl0aDhSOGlEdjVjSW1RYnZORFJRYVNzcWl6YkdvNlEwOG1pWmRy?oc=5
 
-### Judge Intimidation Campaign
-- [MSN] Roberts warns personal judge attacks must end - MSN (2026-03-18) - https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbGVZNkF0a2lBd2pMRmozc2Jnd3YtZGJZeHRMTXZCT3pGOUtqQUZBQWkyOTNIOF9fSlZ2dVp6eGZSLUZYUEJwdEs0LUVzX1FZZGNUTWt5WjJkMk11bDQ0LTAwRVNBQkV2V2VocEJhWUo4NmR4bmo2UTlndGpJTVRPakc1OFVpS0ZNWEc0X19GV282dmFSNTZPWHhaRHI5RW82M3lxTWdfbFc1Q19ta29OVGZoeFhQNFdSLU1iZHJhSlB3YU45RFBDbkNieWEtd3dHbDNKZGowc2xnbG9jb2VtbQ?oc=5
-- [AOL.com] Federal judge quashes DOJ investigation into Jerome Powell saying it was just for Trump’s retribution - AOL.com (2026-03-18) - https://news.google.com/rss/articles/CBMihgFBVV95cUxOSklXZE5QMk43Y1d0OXlxYXJyN1BOY0FnNy1tdWRwc0VhaDcxbmNSRk1uMFBUNmd3bmZXNEtyYlAxWTQzeG1lTm1CN3VaVXFZVTJkaFd2alY0UVNtWHpuRXF6TnFSYjBaLXVDU1h1RkdCbmNLaTFVS1RaUFk4dEZnd1VtTDc1UQ?oc=5
-- [Boston Herald] Chief Justice Roberts says personal criticism of judges is dangerous and has ‘got to stop’ - Boston Herald (2026-03-17) - https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0dEtaTXhLSmg5a1p2N1J2eXJCREdGUTFtR3Jpdzdtdzh4TWJtT2I0Mjk3ZWdWTWozQ3gxcVM2SEQxWjFLa01uSGF2UnhkdWh6N2RfT0NVejlXREdOTl84eUZGeFJmLWs3?oc=5
-
-### Civil Service Purge / Schedule F
-- [Partnership for Public Service] Proposed changes to appeals processes weaken protections for federal employees - Partnership for Public Service (2026-03-18) - https://news.google.com/rss/articles/CBMioAFBVV95cUxPclRqUHl3U3pPM0dSeTBSVkxjTnNuV0Z4Z0F2MUFZbWdBNFZIdkZpODdacllSdTladkVsLTV6UnZ1bkJzb1VNOV92bVZ0T1FIbTVmNExjU0VzQzJISXI2a2RLNHJhZndhc3ZiQ2xrUE1HWmZUd1lGYUl6S0RkeTFsOXNkU05oR1dWTjgzM1V3ZE55a0o3Y1R0LTEzdFRoRDA1?oc=5
-- [Project On Government Oversight] Congress Can Shield Whistleblowers from Schedule Policy/Career - Project On Government Oversight (2026-03-18) - https://news.google.com/rss/articles/CBMilwFBVV95cUxPUkxYV0FKTmtLZTFseU13a2x6QnNNU19wX3hfVVZxc0EwNWFpeUVZLW1ZS3lyMFhPVkZ4Y1JrYmtUUVpEa0E4N0pBSGhiQVpPSDR0bTR6WXJPVUt6WF95NF82aG4xT2pOQWV3bmh6dnl2bTlBUGZOM0FDOXZYOV9idW9ZRC00T3dtaDNJMXdCVUJtUG96T2pr?oc=5
-
-### Legislative Bypass by Executive
-- [AFGE] Summary of AFGE Lawsuits against Trump & How Litigation Works - AFGE (2026-03-17) - https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0tpYVgxWnRFc2tjdXc3d0Jqd0tZRGRrclI3dGl6UXRRemZGR2JvZXlST1lYOE55ekpJcTg1Z3cyOUF6VGlabjNfWVktc2JfTi1OVDNiQ1hia3h3NE40UmlCZmV1YjZkeV9fY1VWNXM3eVdJb0NacXJrWFdkemUyX09CelMyMjZJQVI2Q3lScWdKQlM3SFM4?oc=5
-- [SCOTUSblog] The remaining questions after the Supreme Court’s tariffs ruling - SCOTUSblog (2026-03-17) - https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0lsdEktTWVyeEtMZlZiREJQaTlkTDZnX0dqLXpMemo2QXd4ektwbWcwa3p6T0pKblZxeG9XX0Y4UENvcVBpV2dvZ1NfOVhFNTJ5VzdzZElvcnowTlFqRU5xWjBJMklCY2t4SklyZGNUM1hWZy1QcDlUbmJCcDFETFBXYjZXdGtaWkNtRmdZenYyb1VsakNlOGV5RW9PdHRx?oc=5
-- [MSN] Can Trump overturn Supreme Court tariff ruling? What US Constitution says - MSN (2026-03-18) - https://news.google.com/rss/articles/CBMivgFBVV95cUxQX2MtVi1RTmh0amtJaDVzc0cxMElRMVo1aU15S2ZEOGVuSzBLOWpqdHdNSnRHUkw2ODJtOXg1eGdldXoxaHJGR3JJVWRLcnZ0UVBfUHBSSzlXeHZCWmhUbjYyZmYyYkVPQTItRUI4cXR5bkQxOE03NUNqZ0N3Z055X2JaODYwZTJwclgtY1JxQWdzc3NzcmI2bGhaQzRMRXpZYjhlN0dNYXpNcVgxUi1mbGhGaF9zVHd1RXVfRGNn?oc=5
+### Emergency Powers Expansion
+- [Iowa Public Radio] Today's Iowa News ↓ - Iowa Public Radio (2026-03-19) - https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5
+- [AOL.com] Opinion - First, there was Fulton County: The day Trump came for the ballots - AOL.com (2026-03-19) - https://news.google.com/rss/articles/CBMigAFBVV95cUxNYzk1aXBEc25RQ3FuM0JEZkc3X3VSUWJDWTVqcHI3QWZNMVhObkFqRi02aW1aeVZGUWVNZ2tEQWU5Y0pSeVpBSFVSMW8xajV6QWNlLWp0LUR3aEdTV09HZm1uMTF6YXpfV2FZNzFjSHdSN3JINEVwZzFGaG1Iak5oUg?oc=5
+- [MSN] US Supreme Court weighing presidential powers in new term - MSN (2026-03-18) - https://news.google.com/rss/articles/CBMi1gJBVV95cUxPM2hPeFpka0dEWi10bGthRVZOOXhuNFlhNlBpNFVJN1RtT1ZkZzlaT3pQTTBrX1pmX1pDZUgtVzFKTGhPSkZETHB5MHBxUlNfVEVkNVFnbngtQjFrSWVRTU43d3VHNVE3RWJHTFFWa1VxNW11aTM2cWhocTRqc29jbnNES3RxekN1ZTFvT2dwUEUzSjVxeFBXNm1qc19qdDl0ZnA0NnBiZ3VLRmdWQl90MmxSLXFIcjNTSWU2RWFLUFFfaWZNcXdfUnJWQ01GT1Q3UVNYMUx4VUtjRkJxR0RGdmJ0QnV4TUdYVHFfajdobk10VFU1bm9QS3RIak93aGNjcmNEMTJuZ0lRUS1pZnpXZ3ZxZC0tSlBHU3hUbVFBYjlsMjlUaXBidWJSdlYzNWZ6QS1LMDQyRmlTQndBdXR5YjhzaTFqbzhpVkNLYlRzZWJ4Q3JTcVE?oc=5
 
 ## Data Quality
 
