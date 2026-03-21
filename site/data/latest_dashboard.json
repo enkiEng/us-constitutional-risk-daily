@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 18.56,
+  "average_7d": 19.3,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,42 +9,42 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 5.0,
-  "delta_vs_7d": 4.73,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": 4.38,
   "domain_breakdown": [
     {
-      "avg_severity": 0.75,
+      "avg_severity": 1.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 4.125,
+      "points": 5.5,
       "weight": 22
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 1.0,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.3125,
+      "points": 3.75,
       "weight": 15
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.8833333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 3.5,
+      "points": 3.091666666666667,
       "weight": 14
     },
     {
-      "avg_severity": 1.55,
+      "avg_severity": 1.4333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 5.0375000000000005,
+      "points": 4.658333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 0.65,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.9166666666666665,
+      "points": 1.625,
       "weight": 10
     },
     {
@@ -62,59 +62,33 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.15,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.65,
+      "points": 0.3,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-03-20T12:34:27.692528+00:00",
-  "previous_score": 18,
+  "generated_at": "2026-03-21T12:33:26.412897+00:00",
+  "previous_score": 23,
   "provisional": false,
-  "score": 23,
-  "score_raw": 23.29,
+  "score": 24,
+  "score_raw": 23.68,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVzNrbUFad3dNSGUtZ2JSeFdUamhxM3N1Nll2eWRaY0pKM1YzektZNnpvS0xiSmpYVm1IaFdkaW1ya1N2VmllQUZ4N2h2NW95aHlzMGNLVjFCSXYwSHJJMmlRVVZ1UGVDUUJPcmtaUmhQN2hiam9TZnNLdUVOTFN4MzlkQnFDV2JFcXlfMmE0SFRoMW5HTHZxQVdCVzJsRk1Obk9hdldzcw?oc=5",
-          "published": "2026-03-19T20:42:27+00:00",
-          "publisher": "Lawfare",
-          "title": "Article I and the Major Questions Doctrine After Learning Resources - Lawfare"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVnlEMGRxVnVGU0tKLTdzNzdfU0RzSE5PZWMtZ0ttbHAtYklZSzFUUlBuaWQ1bGpSWXozcXFHaUNzTTNBZUlhdXZJWDRMc3pyckt1QTdvWTVRa29YYWE3V3BlLS1FRzhfQl8xX2E0MVYzOXFhZTZvUWx2anN0ckFOcGw1VmRlMGdjM3pfSHhNX25vUHY0LW5aOF9ybzBmT0J0YUZNV2hGYTd2a28?oc=5",
-          "published": "2026-03-19T12:00:00+00:00",
-          "publisher": "University of Chicago News",
-          "title": "Are judges too powerful? The rise of universal injunctions, with Samuel Bray - University of Chicago News"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeU1aNkE3WmxFMERYLUdlckhxYXByRTl2d3laZnhpYURoMGNRVnI4UG05c3V1NU1pOTZZUHkwWTMwVmY5ZHpIUnFLa0ZWdHlwVG1URS1QVjN6RTNvMFJvVXNYYWNIcVIySUxPU25MMDd0UlU5ZTZHOTBNMVRpRE9Wdy1CdEhnX01tX1NiQkkxblRLc1J3aHc?oc=5",
-          "published": "2026-03-19T23:33:38+00:00",
-          "publisher": "Just Security",
-          "title": "The \u201cPresumption of Regularity\u201d in Trump Administration Litigation (4th edition) - Just Security"
-        }
-      ],
-      "hits": 5,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 5
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ha1dxV3VEYTBFRVRCLW1aQWJCNFJRWk84MmdqUVAwcUJLZy1FZE9oaUhmMUVrSjA1RXhPdEFBNGVKZGNtdUJycFhuQ05Fc0Z5NTM5SS0tSlBGenZQM0NCYm13?oc=5",
+          "published": "2026-03-20T20:48:56+00:00",
+          "publisher": "Common Dreams",
+          "title": "Free Press Groups Demand Trump Admin End Targeting of Journalists After Nashville Reporter's Release - Common Dreams"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoTXBIbU5DeWxISUhVNWs5OXZUcW9mU0N6UktZSi1TaWNZQmtWZGFqSkY5NS1mZE1fclRST2hrZUhWbm1VS0psMzVVODh4cmYzQXM0SnE2ejdKLVlOUDFqX3lUb3BHbmI5RzhDbF9keGdYUQ?oc=5",
           "published": "2026-03-19T19:21:45+00:00",
@@ -122,21 +96,47 @@
           "title": "ICE arrest of non-citizen journalist in Tennessee raises serious First Amendment concerns - Reporters Committee for Freedom of the Press"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUXgxTlhXbXdfZjJuN0JyLXlUeDRqR3dCcUQ5Uk45QXZRd1A3Z0xhNVJIVDZ1VTlfSWxhamsyYzJoa09qODU3WWRmVHM0WlpSYndBVm1yR0VnVG90RERtR0hWU1VIM1I0MEhmc3lpTkRnVVVPNlBza1VCUl9LYnRJdGlUZnVpREJ6U0RYUkRlMVN2ZXowZ1hpSUMyVk5Nbk1uS0hr0gGjAUFVX3lxTE9ReDFOWFdtd19mMm43QnIteVR4NGpHd0JxRDlSTjlBdlF3UDdnTGE1UkhUNnVVOV9JbGFqazJjMmhrT2o4NTdZZGZUczRaWlJid0FWbXJHRWdUb3RERG1HSFZTVUgzUjQwSGZzeWlORGdVVU82UHNrVUJSX0tidEl0aVRmdWlEQnpTRFhSRGUxU3ZlejBnWGlJQzJWTk1uTW5LSGs?oc=5",
-          "published": "2026-03-19T17:01:33+00:00",
-          "publisher": "Committee to Protect Journalists",
-          "title": "CPJ joins legal effort to support detained journalist Estefany Rodr\u00edguez - Committee to Protect Journalists"
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVlY3M0wzRVh0VVNsb0tpcm1scFJmSTVITER5aURENURtVEY5SjdTbnJXa015WG1KLUxIRjFVbVoxQUEyTjNtck1uUVJ4S2dxTDFCbmE5UUhDQU84cTlHVVplZ3llbHV0bDgwWGhMaFFuM3B3cjlZdXNtcy1GWVZUUnE1UlNrcnRscVhjR1FhUzhEaGsxTUxNdGZLRUtoeERGeHFTVDdWSmdENDE5SURsY3dzaWFDOXFwempZQ3N6QTBoNjRuS0h5M3NKMEN5MzNrdkR0Z0xHMDJEb3dRS3MyOWZOSWdwVWd4a21PTNIBgAJBVV95cUxNUUNxX2VnQzJEZXVZZzh4RWhOWFNjX09xMWZLX2dWOHowck9wYVI2LXc2Z0Jud1ROSVZHYUwxMTV2dWlUTWtCYU0tWDByZHp5dGFnSVZFRnBDX1FQRG9mMnJ5NzBXWm1mM0ZORGhTSlBMdkpQaXgtT3dzemx6Z3dac2RYaGlWbDdVYzZKeURtVlZFczl6dl9EVXB6eFNoWUxCVFhYckZvRVRLRGpwLUxySTdZLWVwallVaTlGTUtoUWZJZGtDTHVQZWtkQU5xdnVXQ3ExTzVockFhX1daVnlXS05Cb3hZWWphU01qWWowc1BsX3ZmYmxBbkpvWWZkeUdQ?oc=5",
+          "published": "2026-03-20T16:19:17+00:00",
+          "publisher": "EL PA\u00cdS English",
+          "title": "Journalist Estefany Rodr\u00edguez released from ICE custody on bond as the legal battle over her arrest continues - EL PA\u00cdS English"
+        }
+      ],
+      "hits": 11,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 11
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeU1aNkE3WmxFMERYLUdlckhxYXByRTl2d3laZnhpYURoMGNRVnI4UG05c3V1NU1pOTZZUHkwWTMwVmY5ZHpIUnFLa0ZWdHlwVG1URS1QVjN6RTNvMFJvVXNYYWNIcVIySUxPU25MMDd0UlU5ZTZHOTBNMVRpRE9Wdy1CdEhnX01tX1NiQkkxblRLc1J3aHc?oc=5",
+          "published": "2026-03-19T23:33:38+00:00",
+          "publisher": "Just Security",
+          "title": "The \u201cPresumption of Regularity\u201d in Trump Administration Litigation (4th edition) - Just Security"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAydkNWc3ozbUFVdHlUalVMUGZYUFltMWdLTm9WQWFFMFNvMDFMWC1fUXA1aFN5RjVXVWdnU3E2ZWdDa0NIQnNxal8ybS1sMXdWLU1lWkNOUUwzeXNYZ3hZNnZfd2JYWXlUOTZkT3NjbVNtYWxsY1E?oc=5",
-          "published": "2026-03-20T00:11:31+00:00",
-          "publisher": "Migrant Insider",
-          "title": "BREAKING: Nashville Journalist Estefany Rodriguez Released From ICE Detention - Migrant Insider"
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSDFpYVp0UXlUMFNPVWVCbEF6Q3AzRWVab1hRYzQxVXJRY285M0ZUS1g3d2ZBaFlLVjVyZk1YS0VmRnotTTdhTjlGeWZUUmZRNndhSnVobDl1dUxESDdkaXFXcHRRYUc0cDJiQ2w4M0ZWcV9YaW9hWjZiM3FVcDRuTDVSenB2Z2lGdXZWQ1JSVkN5ZkdLc1EyWU16aUFwVkh6YlBfdXNITlVjenRJQzBJQU01YnROYXEwQTNlUUpLS09lc240WHFnMDR4VW1BZzYzaDRsU0pkcnkyc3JoMm51ZGZWQQ?oc=5",
+          "published": "2026-03-21T08:33:24+00:00",
+          "publisher": "MSN",
+          "title": "DOJ reverses course on Trump law firm sanctions - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOTd5MHdsbi1SUEw5M19aakxGbGJNazEwT0lHcmdrRlVIS3BxUFNoNTllX2ZmLVVGbnNqQnpJRjNHamZUdFR5U1lmaUJxV1plUHhYZS1aOE13QWRHelVQVWFRcnRDaDdjWExPeHlXNVlSUDM5cGtVblBZRmsyVE5QZjQ0a1Y?oc=5",
+          "published": "2026-03-19T23:27:57+00:00",
+          "publisher": "AOL.com",
+          "title": "Supreme Court to hear Trump challenge to protected status for Syrian, Haitian nationals in US - AOL.com"
         }
       ],
       "hits": 5,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
@@ -148,22 +148,22 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5",
-          "published": "2026-03-19T19:49:16+00:00",
-          "publisher": "Iowa Public Radio",
-          "title": "Today's Iowa News \u2193 - Iowa Public Radio"
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVElfZ1BnTG1ZUmY1LVlMeE5uOUNfWGlSZ1ZVSHVrNDJQcVlTalZLbGZzVklUdjE1djFibUVMUTdvVUU5TkVhb19EZTd2b1p5Q3dtZnYySkVJeU1JemhTNzlqX0RQOWo0QVExUnhYeTZNa2dpci01LTBRTXE5TjVPZXVpeTE4bFhvNkpwVEtzTW05MnllWEY3WGEwMGduWDF2TFNkMlVFejBERjJ2Nk5iaUsyZVhzX20yYUNIeG5FbjJBNkNpSXZXTGk5TGhJeFA0MTJhVVRTQjlMSjQ?oc=5",
+          "published": "2026-03-20T01:43:11+00:00",
+          "publisher": "Senator Alex Padilla (.gov)",
+          "title": "WATCH: Padilla: \u201cSo-Called SAVE America Act Would Be a Huge Step Backwards for Our Country\u201d - Senator Alex Padilla (.gov)"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMzdpVnk0eVhJX3RiZGh5RjJKUUJwTUEyeWdNcG4telVsVmQyYjdEejd5Vms2aWlhbEFFYlplWUFwZEcwSTVRZjh2N2s3aF9tMG9kdnE2azc1MllkM090T1hOT2NhNl9ZY0VWZXMySFVIX3hnMGJNRVJ0VmlFd2ZOR3VhZEY5YmtFMElfZ2x3QnctY3dDLXQ1clJPWW5JVXhMdFhOc3V1MlNSUUk0OVc1UGFaaDVEblphRlRoR01rMA?oc=5",
-          "published": "2026-03-19T15:28:00+00:00",
-          "publisher": "The Bradenton Times",
-          "title": "Another batch of Florida election bills: \u2018Pull the fire alarm or declare victory\u2019 - The Bradenton Times"
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAyQkZwUjVOOEFSSFFicG1RMFhQTVo2TWdmZDN2Zjd2aWtJM0lpMklrQkVPR3dVRDByTkFORmJHZU9qSXlEdTNxbw?oc=5",
+          "published": "2026-03-20T19:11:00+00:00",
+          "publisher": "Politico",
+          "title": "Playbook - Politico"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcjhnM0FUcDZ0NFNOeGF5a19vSVpIeVplYU1MX3FKVGdwdnIwMmotV25FZDh0N3BmblljN0RIaGtqekFONlc5WnYzZ0wxRjBIcVNZZ1lLZFRWSVNRaUxWc1k1VlFzamltRlpLUzJuRkFQdW52THp3WG93a3VldmVudXV6SXnSAYoBQVVfeXFMUFBhcUg3dXY0WHNXY2pZWGpBbE5Oa1NJX1haZkRqX1l0Q25NQXZ4UWRobjA1NVByMDdiS0RqX1pxcjhBLUF5a1haSDBlQ2NQWkNhcmJLWVhMMnduWlpJOXh1ZDVOQVNxS1FaLXhGRW1UUzNIazkwMEp5X1FjLUNtMkgyU3VmS1h0Snh3?oc=5",
-          "published": "2026-03-18T23:57:00+00:00",
-          "publisher": "CBS News",
-          "title": "Senate votes down effort to restrict Trump's Iran war powers - CBS News"
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcjBPRzloME54WXdLQkZFWGYzQjh3Y3JaUnd6bVVyaEJGSDZmbDg0dkpLZ0pyWkxxUjBvN2ozeThPcFNKaDNBRjN1SnBLdlZXVzZYZUhrYVpmNlNGOGZuNFU4YUFEdm5GZTd1UTR5Ykc2cUlGOWlKX2xMbU4tV1Vjc3QzVmFFTE4wMTJBejY5NzhKTFExYUdCSmc0bU5fQ1hs?oc=5",
+          "published": "2026-03-20T13:42:08+00:00",
+          "publisher": "AOL.com",
+          "title": "The Latest: Democrat says recount delays inevitable outcome - AOL.com"
         }
       ],
       "hits": 4,
@@ -192,163 +192,91 @@
           "title": "Congress moves to disqualify 3 MLAs over Rajya Sabha cross-voting, says CS Raazen Ekka - ANI News"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVNxT2U4UUppWlJOR2ExcU14Y0M4bHlxNDQ2bS1nX29XQjRDbkxRODdnOE83X3B6SUVwdFdnRjE0elpqMkwzeEdCaW5wUjhBMmNoaVQ1LVF1YVVaMGRUNEx3ZDFPczN2M1BIY2o4alkxQUJaVFJwbExUTFUzbjBVdlIzSVE2b2x3UVZLZEJnQmlQV2hsN2RTb3JtYzQ0RUl0aDhSOGlEdjVjSW1RYnZORFJRYVNzcWl6YkdvNlEwOG1pWmRy?oc=5",
-          "published": "2026-03-19T19:17:14+00:00",
-          "publisher": "The News Mill",
-          "title": "Odisha Congress demands disqualification of two MLAs for cross-voting in Rajya Sabha election - The News Mill"
+          "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQVUI2eTZ0VkpnNWMtSkVfSHZnUTVWb2N0TGVBQ3hDa3dISGtVQmZURFRURnI5ekl2cXloLWxGdGZlLVN1WTZIZktjVHltcDRYREM2aVpRNXE0VThpd0swTXVGX05WR2JLQW5kR0lhMUdsLTN4RXQ2VEl1Vm9fcE5VMzM5TW1vS1RtRTAxWDRQenZJeW04SFRpTGQ3dy1ZSGFnWm54d240RVJGTzAzUzNrNlBwd05IQ2ZsUGo4YzJyNVlqb21WUFpjbnNCZWdwRVFJcVNMR1FaRGFFa3FDbGJBV0NfdGZxS1I4QVNMZlNTSDJoX0NVdk1FbnJ4cllOUmlkZEJVVjk0M0w3NzNMcFhBOFhORm1tRDc5N01oN3BYN1JZb1JvejVTcDNUVy1PTzNUTzNmR1NDamgtc1lmcG5GT0NEbUJ0RUJqekdQNlVpQk5EOGFITFllQkNuZ00xRnJVZXBwdklPaXVYSlJM?oc=5",
+          "published": "2026-03-20T04:14:00+00:00",
+          "publisher": "MSN",
+          "title": "Congress suspends three Odisha MLAs over cross-voting in Rajya Sabha elections - MSN"
         }
       ],
-      "hits": 3,
+      "hits": 4,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5",
-          "published": "2026-03-19T19:49:16+00:00",
-          "publisher": "Iowa Public Radio",
-          "title": "Today's Iowa News \u2193 - Iowa Public Radio"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYzk1aXBEc25RQ3FuM0JEZkc3X3VSUWJDWTVqcHI3QWZNMVhObkFqRi02aW1aeVZGUWVNZ2tEQWU5Y0pSeVpBSFVSMW8xajV6QWNlLWp0LUR3aEdTV09HZm1uMTF6YXpfV2FZNzFjSHdSN3JINEVwZzFGaG1Iak5oUg?oc=5",
-          "published": "2026-03-19T15:42:31+00:00",
-          "publisher": "AOL.com",
-          "title": "Opinion - First, there was Fulton County: The day Trump came for the ballots - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPM2hPeFpka0dEWi10bGthRVZOOXhuNFlhNlBpNFVJN1RtT1ZkZzlaT3pQTTBrX1pmX1pDZUgtVzFKTGhPSkZETHB5MHBxUlNfVEVkNVFnbngtQjFrSWVRTU43d3VHNVE3RWJHTFFWa1VxNW11aTM2cWhocTRqc29jbnNES3RxekN1ZTFvT2dwUEUzSjVxeFBXNm1qc19qdDl0ZnA0NnBiZ3VLRmdWQl90MmxSLXFIcjNTSWU2RWFLUFFfaWZNcXdfUnJWQ01GT1Q3UVNYMUx4VUtjRkJxR0RGdmJ0QnV4TUdYVHFfajdobk10VFU1bm9QS3RIak93aGNjcmNEMTJuZ0lRUS1pZnpXZ3ZxZC0tSlBHU3hUbVFBYjlsMjlUaXBidWJSdlYzNWZ6QS1LMDQyRmlTQndBdXR5YjhzaTFqbzhpVkNLYlRzZWJ4Q3JTcVE?oc=5",
-          "published": "2026-03-18T22:42:26+00:00",
-          "publisher": "MSN",
-          "title": "US Supreme Court weighing presidential powers in new term - MSN"
-        }
-      ],
-      "hits": 3,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZnQ5ZEN2eC1DUGZWa1h1Z0EtTDVXX2dCdjJjYUQ2QjdQejFURGxoVllKQmp4djZSWXphbmZOLWJKelIyVnhDTTJ5VWhObGxZeVN3eXQzQVlxWkp2Y0ZNaWNiQ29yM1pNQzRma1QxYkJDeHdwS3pHMTlqU0Q0UFkzYzlQa0cwTndFYUVZ?oc=5",
-          "published": "2026-03-20T07:05:20+00:00",
-          "publisher": "AOL.com",
-          "title": "Chief Justice: 'Personally directed hostility is dangerous, and it's got to stop' - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMmMycjRUTDBxUVJ2dUM0cTVLSEs1VWtHWkdQMnlmNF9qTTFxaW9IVGdaR2JGbjZCWmRWaFlzT2lET1U3NGlOT18zNGhTbGlrTUROVFVWMkhvQm9RZ3p6YXFUTU14VFVyekNqZXdqSjVPRER1X0huY01nV3ZyQjFNUWZMcnNSZw?oc=5",
-          "published": "2026-03-20T02:40:52+00:00",
-          "publisher": "AOL.com",
-          "title": "Chief Justice Roberts warns against personal attacks on judges as \u2018dangerous\u2019 after Trump's court tirade - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYWkyTVVGQTA1RXRUTUVjcUdqMUlTVFJNQ1NyYlRKdFItX3lWT2tHYkN2b1JPU1JrMWNhZHlCNlBjS0NzNUhlMWFqUlRjOGlKWDJYamJSMDFZc3dzX181a1BNMUdGaWFKNkxSNGRrWDRxZ3p3cVctLVlRbk51RWdrWjMxekZCdno2VXFzUlpwZk5rX1RTQ1lWcl9FWVZMZWZTNGJsS0thbERBWEMz?oc=5",
-          "published": "2026-03-20T07:38:00+00:00",
-          "publisher": "India's News.Net",
-          "title": "Personal criticism of judges must stop, warns Chief Justice Roberts - India's News.Net"
-        }
-      ],
-      "hits": 3,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5",
-          "published": "2026-03-19T19:49:16+00:00",
-          "publisher": "Iowa Public Radio",
-          "title": "Today's Iowa News \u2193 - Iowa Public Radio"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWHVGTnRKQ1JOUFdRd0lsTDZDaC1RMUFEMzJkVEwwWFVTQk1XWlplQW9uNnpmQjRxczEyTkoyVG5nQi1ac0hRa1hJTmtVOUxzWHBFTEFtV3R5Z3ZxMG96ZzJoaDR3THhOSFJpUjJMX3E5NENlWTVZaV8wVENPTDNndy1HYWxJMkVsc0ZkMGI5Nkxhc2ZyazI3bUcwZzF2WmtWdXA4Z1I0cDEySnJDSXQtLUZKcWZfU2p4QTdXX1ppaUfSAcABQVVfeXFMTVh1Rk50SkNSTlBXUXdJbEw2Q2gtUTFBRDMyZFRMMFhVU0JNV1paZUFvbjZ6ZkI0cXMxMk5KMlRuZ0ItWnNIUWtYSU5rVTlMc1hwRUxBbVd0eWd2cTBvemcyaGg0d0x4TkhSaVIyTF9xOTRDZVk1WWlfMFRDT0wzZ3ctR2FsSTJFbHNGZDBiOTZMYXNmcmsyN21HMGcxdlprVnVwOGdSNHAxMkpyQ0l0LS1GSnFmX1NqeEE3V19aaWlH?oc=5",
-          "published": "2026-03-19T23:09:10+00:00",
-          "publisher": "breitbart.com",
-          "title": "Breitbart Business Digest: Powell Cannot Stay on as Fed Chair After May 15 - breitbart.com"
-        }
-      ],
-      "hits": 2,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 4
     },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOUNBbVVxX2k0WmVDSEJfeWZ3QjBEMjA3eHZUUFZGdmxCRVRjdE5EQ01NTk5tS2tmQXEzRlZXR0MwLXFMTjFmeVRHa2lYSTZZbHRtekhZOTFhVm5lZEFHbDRaTkVaTUlvYk1YLUo2bnc0RDFyOWFQUVoxZU16REoyOFoxM0RjZkJ5U0s3dnN5ZWJSXzc4enFtLV9nN0VsVlBobkJsaWdXbEdkeG0tUEY4dXZjT1ZfWWd3elFueXlpcDY2am9JUkoxNUxhUEdQMFFycW50UXNuY2UtSGNIRW9uV3Q2cw?oc=5",
-          "published": "2026-03-18T18:53:06+00:00",
-          "publisher": "MSN",
-          "title": "Draft order fuels Trump election takeover fears - MSN"
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMzR0c1dDNmhMVURTcHpYXzh4MC1FSGhkemp2a2U3MHd6Qlk1OURnYWJTWmMzVW9Xb1htMEpUa0pmQ3J2bkpiWmdXVFdBR0l3RlR2UENSZVdxQ0tpajhuVVZRcHU4cnBoXy01aU1yd2sycVFSR05HbmhYWmNNMWREZmR3U0p1ai04ZDhrSllXRThXQQ?oc=5",
+          "published": "2026-03-20T09:19:53+00:00",
+          "publisher": "Institute for Government",
+          "title": "Ministers should lose their sweeping powers to delay local elections - Institute for Government"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOejdQdjNSV09pRDJPZmd4RnNITkMyWHdsckVBQXJGNFctbkZ1MllGYzUtek0tb3VGWTVQVUwxVnRQTHV6eWQxQWc3UU5tdUxFMk5YbTVpaWRQeEF1NUtVM0owZUJVcjdsdWpQU1o3dWJ6Y2RJbmthb1JzUV9iRWdUZHVZbWNINy1vbWdxN243M1Zadlkxb0JRR3g4QmZXWnZZLVE?oc=5",
+          "published": "2026-03-20T04:26:30+00:00",
+          "publisher": "ABC News",
+          "title": "While the US is busy in Iran, China is pushing on with its geopolitical agenda - ABC News"
         }
       ],
-      "hits": 1,
+      "hits": 2,
       "id": "election_delay_or_cancellation",
       "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNNW5DUk5oalAybGM5ZEs0dG1DOVJYeHMycDFoR2dKVmlRdUtPQU9QU2c1N3ZrbVRIRDhVa2ZienU2SVAwQUpVTWpoNldzOTRsZ21zTlZZTlNpNUZseDg0RnhZT0ZlOV9pM2xZR0JxR0VOd2o1Q3Nic1BUbW96bTBzOWZXekpVMmlEWmtLdG44YTBSd1lpTHU2X0RuTVRfZkZ3M2NaMGVxMml4Zld5ZHF3dXlDMV93RkgwXy1vSnpHazlTUnVoV1YwaUhlNjN5NjkwT0d4QkV1cHdOREdl?oc=5",
-          "published": "2026-03-19T07:55:31+00:00",
-          "publisher": "MSN",
-          "title": "Trump's revenge drive meets judicial wall - MSN"
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVzNrbUFad3dNSGUtZ2JSeFdUamhxM3N1Nll2eWRaY0pKM1YzektZNnpvS0xiSmpYVm1IaFdkaW1ya1N2VmllQUZ4N2h2NW95aHlzMGNLVjFCSXYwSHJJMmlRVVZ1UGVDUUJPcmtaUmhQN2hiam9TZnNLdUVOTFN4MzlkQnFDV2JFcXlfMmE0SFRoMW5HTHZxQVdCVzJsRk1Obk9hdldzcw?oc=5",
+          "published": "2026-03-19T20:42:27+00:00",
+          "publisher": "Lawfare",
+          "title": "Article I and the Major Questions Doctrine After Learning Resources - Lawfare"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeU1aNkE3WmxFMERYLUdlckhxYXByRTl2d3laZnhpYURoMGNRVnI4UG05c3V1NU1pOTZZUHkwWTMwVmY5ZHpIUnFLa0ZWdHlwVG1URS1QVjN6RTNvMFJvVXNYYWNIcVIySUxPU25MMDd0UlU5ZTZHOTBNMVRpRE9Wdy1CdEhnX01tX1NiQkkxblRLc1J3aHc?oc=5",
+          "published": "2026-03-19T23:33:38+00:00",
+          "publisher": "Just Security",
+          "title": "The \u201cPresumption of Regularity\u201d in Trump Administration Litigation (4th edition) - Just Security"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IX09rWXl6SnFZTEt0dEd2MzZFMFljU2RSOXJxUDRjLU5XWWpDWDFoX1NLS0MzeHFWWVJjbzBHa0MwUzlsV3BhYUdwaGFqdEJZMXdDc0s0cV9PNS15MlNvNzZwQlFKV1hrcnZkUGNndktCVWc?oc=5",
+          "published": "2026-03-19T14:49:38+00:00",
+          "publisher": "The New York Times",
+          "title": "What to Know About Section 702, the Controversial Warrantless Surveillance Law - The New York Times"
         }
       ],
-      "hits": 1,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
+      "hits": 3,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
+      "severity": 1.65,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "hits": 0,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -364,6 +292,46 @@
       "hits": 1,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNXNVX0FQdTVLUnlXQW5xUm5tVXMtZURLYXdMVGFZWktNMXRVcTByMGhaX3Z5SHAwNzJlREJYTjBXbHczWlZxZlFEOTJZTTRYc3B2M1RxM1c5NnRad08zWG41ajd6cDhxaXlhZF83bW9UVVQ0OVhzLUU0OVZUdnpubGwzaDJ1ZjBENDNGNnNsQnc3LXdjNXVwNXpGNUREdHFQalZHN3hEbGVodw?oc=5",
+          "published": "2026-03-20T18:25:31+00:00",
+          "publisher": "THISDAYLIVE",
+          "title": "Appeal Court Affirms Oluyede as PDP Candidate for Ekiti Guber Poll - THISDAYLIVE"
+        }
+      ],
+      "hits": 1,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWHVGTnRKQ1JOUFdRd0lsTDZDaC1RMUFEMzJkVEwwWFVTQk1XWlplQW9uNnpmQjRxczEyTkoyVG5nQi1ac0hRa1hJTmtVOUxzWHBFTEFtV3R5Z3ZxMG96ZzJoaDR3THhOSFJpUjJMX3E5NENlWTVZaV8wVENPTDNndy1HYWxJMkVsc0ZkMGI5Nkxhc2ZyazI3bUcwZzF2WmtWdXA4Z1I0cDEySnJDSXQtLUZKcWZfU2p4QTdXX1ppaUfSAcABQVVfeXFMTVh1Rk50SkNSTlBXUXdJbEw2Q2gtUTFBRDMyZFRMMFhVU0JNV1paZUFvbjZ6ZkI0cXMxMk5KMlRuZ0ItWnNIUWtYSU5rVTlMc1hwRUxBbVd0eWd2cTBvemcyaGg0d0x4TkhSaVIyTF9xOTRDZVk1WWlfMFRDT0wzZ3ctR2FsSTJFbHNGZDBiOTZMYXNmcmsyN21HMGcxdlprVnVwOGdSNHAxMkpyQ0l0LS1GSnFmX1NqeEE3V19aaWlH?oc=5",
+          "published": "2026-03-19T23:09:10+00:00",
+          "publisher": "breitbart.com",
+          "title": "Breitbart Business Digest: Powell Cannot Stay on as Fed Chair After May 15 - breitbart.com"
+        }
+      ],
+      "hits": 1,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -412,11 +380,24 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_service_integrity",
       "evidence": [],
       "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.95,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [],
+      "hits": 0,
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
@@ -432,7 +413,7 @@
       "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }
