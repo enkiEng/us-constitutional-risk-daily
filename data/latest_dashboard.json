@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 19.3,
+  "average_7d": 19.61,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,74 +9,74 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": 4.38,
+  "delta_previous_day": -4.0,
+  "delta_vs_7d": 0.16,
   "domain_breakdown": [
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.9125,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.5,
+      "points": 5.01875,
       "weight": 22
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.7666666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.75,
+      "points": 2.875,
       "weight": 15
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 0.7666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 3.091666666666667,
+      "points": 2.683333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 1.4333333333333333,
+      "avg_severity": 1.2,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.658333333333333,
+      "points": 3.9,
       "weight": 13
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.5333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.625,
+      "points": 1.3333333333333333,
       "weight": 10
     },
     {
-      "avg_severity": 1.5,
+      "avg_severity": 1.325,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.75,
+      "points": 3.3125,
       "weight": 10
     },
     {
-      "avg_severity": 0.5,
+      "avg_severity": 0.325,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 1.0,
+      "points": 0.65,
       "weight": 8
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.3,
+      "points": 0.0,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-03-21T12:33:26.412897+00:00",
-  "previous_score": 23,
+  "generated_at": "2026-03-22T12:33:43.830800+00:00",
+  "previous_score": 24,
   "provisional": false,
-  "score": 24,
-  "score_raw": 23.68,
+  "score": 20,
+  "score_raw": 19.77,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -90,112 +90,48 @@
           "title": "Free Press Groups Demand Trump Admin End Targeting of Journalists After Nashville Reporter's Release - Common Dreams"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoTXBIbU5DeWxISUhVNWs5OXZUcW9mU0N6UktZSi1TaWNZQmtWZGFqSkY5NS1mZE1fclRST2hrZUhWbm1VS0psMzVVODh4cmYzQXM0SnE2ejdKLVlOUDFqX3lUb3BHbmI5RzhDbF9keGdYUQ?oc=5",
-          "published": "2026-03-19T19:21:45+00:00",
-          "publisher": "Reporters Committee for Freedom of the Press",
-          "title": "ICE arrest of non-citizen journalist in Tennessee raises serious First Amendment concerns - Reporters Committee for Freedom of the Press"
-        },
-        {
           "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVlY3M0wzRVh0VVNsb0tpcm1scFJmSTVITER5aURENURtVEY5SjdTbnJXa015WG1KLUxIRjFVbVoxQUEyTjNtck1uUVJ4S2dxTDFCbmE5UUhDQU84cTlHVVplZ3llbHV0bDgwWGhMaFFuM3B3cjlZdXNtcy1GWVZUUnE1UlNrcnRscVhjR1FhUzhEaGsxTUxNdGZLRUtoeERGeHFTVDdWSmdENDE5SURsY3dzaWFDOXFwempZQ3N6QTBoNjRuS0h5M3NKMEN5MzNrdkR0Z0xHMDJEb3dRS3MyOWZOSWdwVWd4a21PTNIBgAJBVV95cUxNUUNxX2VnQzJEZXVZZzh4RWhOWFNjX09xMWZLX2dWOHowck9wYVI2LXc2Z0Jud1ROSVZHYUwxMTV2dWlUTWtCYU0tWDByZHp5dGFnSVZFRnBDX1FQRG9mMnJ5NzBXWm1mM0ZORGhTSlBMdkpQaXgtT3dzemx6Z3dac2RYaGlWbDdVYzZKeURtVlZFczl6dl9EVXB6eFNoWUxCVFhYckZvRVRLRGpwLUxySTdZLWVwallVaTlGTUtoUWZJZGtDTHVQZWtkQU5xdnVXQ3ExTzVockFhX1daVnlXS05Cb3hZWWphU01qWWowc1BsX3ZmYmxBbkpvWWZkeUdQ?oc=5",
           "published": "2026-03-20T16:19:17+00:00",
           "publisher": "EL PA\u00cdS English",
           "title": "Journalist Estefany Rodr\u00edguez released from ICE custody on bond as the legal battle over her arrest continues - EL PA\u00cdS English"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMUZjdFZvOE9FNUQyRHY5cUFreHBDVFdka0lldVZjNkxETDNZV3J2bHhZM2xYaWdrZ0dhUW5VTGl5S3Fyc0VYbFB1VWgwUnBzek9kSmlYbndCQ0hfOUlWVkNocDFMd0NrT1pyLVMzQjd3UGVYdE5kMVhqN1NPaWlhWjFhYlBsb1dCb2tz?oc=5",
+          "published": "2026-03-20T20:52:54+00:00",
+          "publisher": "AOL.com",
+          "title": "ICE releases Nashville journalist \u2014 but First Amendment legal battle is just getting started: \u2018The fight is not over\u2019 - AOL.com"
         }
       ],
-      "hits": 11,
+      "hits": 9,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 11
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeU1aNkE3WmxFMERYLUdlckhxYXByRTl2d3laZnhpYURoMGNRVnI4UG05c3V1NU1pOTZZUHkwWTMwVmY5ZHpIUnFLa0ZWdHlwVG1URS1QVjN6RTNvMFJvVXNYYWNIcVIySUxPU25MMDd0UlU5ZTZHOTBNMVRpRE9Wdy1CdEhnX01tX1NiQkkxblRLc1J3aHc?oc=5",
-          "published": "2026-03-19T23:33:38+00:00",
-          "publisher": "Just Security",
-          "title": "The \u201cPresumption of Regularity\u201d in Trump Administration Litigation (4th edition) - Just Security"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSDFpYVp0UXlUMFNPVWVCbEF6Q3AzRWVab1hRYzQxVXJRY285M0ZUS1g3d2ZBaFlLVjVyZk1YS0VmRnotTTdhTjlGeWZUUmZRNndhSnVobDl1dUxESDdkaXFXcHRRYUc0cDJiQ2w4M0ZWcV9YaW9hWjZiM3FVcDRuTDVSenB2Z2lGdXZWQ1JSVkN5ZkdLc1EyWU16aUFwVkh6YlBfdXNITlVjenRJQzBJQU01YnROYXEwQTNlUUpLS09lc240WHFnMDR4VW1BZzYzaDRsU0pkcnkyc3JoMm51ZGZWQQ?oc=5",
-          "published": "2026-03-21T08:33:24+00:00",
-          "publisher": "MSN",
-          "title": "DOJ reverses course on Trump law firm sanctions - MSN"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOTd5MHdsbi1SUEw5M19aakxGbGJNazEwT0lHcmdrRlVIS3BxUFNoNTllX2ZmLVVGbnNqQnpJRjNHamZUdFR5U1lmaUJxV1plUHhYZS1aOE13QWRHelVQVWFRcnRDaDdjWExPeHlXNVlSUDM5cGtVblBZRmsyVE5QZjQ0a1Y?oc=5",
-          "published": "2026-03-19T23:27:57+00:00",
-          "publisher": "AOL.com",
-          "title": "Supreme Court to hear Trump challenge to protected status for Syrian, Haitian nationals in US - AOL.com"
-        }
-      ],
-      "hits": 5,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 5
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVElfZ1BnTG1ZUmY1LVlMeE5uOUNfWGlSZ1ZVSHVrNDJQcVlTalZLbGZzVklUdjE1djFibUVMUTdvVUU5TkVhb19EZTd2b1p5Q3dtZnYySkVJeU1JemhTNzlqX0RQOWo0QVExUnhYeTZNa2dpci01LTBRTXE5TjVPZXVpeTE4bFhvNkpwVEtzTW05MnllWEY3WGEwMGduWDF2TFNkMlVFejBERjJ2Nk5iaUsyZVhzX20yYUNIeG5FbjJBNkNpSXZXTGk5TGhJeFA0MTJhVVRTQjlMSjQ?oc=5",
-          "published": "2026-03-20T01:43:11+00:00",
-          "publisher": "Senator Alex Padilla (.gov)",
-          "title": "WATCH: Padilla: \u201cSo-Called SAVE America Act Would Be a Huge Step Backwards for Our Country\u201d - Senator Alex Padilla (.gov)"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAyQkZwUjVOOEFSSFFicG1RMFhQTVo2TWdmZDN2Zjd2aWtJM0lpMklrQkVPR3dVRDByTkFORmJHZU9qSXlEdTNxbw?oc=5",
-          "published": "2026-03-20T19:11:00+00:00",
-          "publisher": "Politico",
-          "title": "Playbook - Politico"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcjBPRzloME54WXdLQkZFWGYzQjh3Y3JaUnd6bVVyaEJGSDZmbDg0dkpLZ0pyWkxxUjBvN2ozeThPcFNKaDNBRjN1SnBLdlZXVzZYZUhrYVpmNlNGOGZuNFU4YUFEdm5GZTd1UTR5Ykc2cUlGOWlKX2xMbU4tV1Vjc3QzVmFFTE4wMTJBejY5NzhKTFExYUdCSmc0bU5fQ1hs?oc=5",
-          "published": "2026-03-20T13:42:08+00:00",
-          "publisher": "AOL.com",
-          "title": "The Latest: Democrat says recount delays inevitable outcome - AOL.com"
-        }
-      ],
-      "hits": 4,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 4
+      "unique_publishers": 9
     },
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQUhHREozenladkU1UHdlN1FDV0xLNmdYSk1oMjRPYXVXRWR3Yy13UkxEOVpEaDMzd3FQOHg2eDE1WjlvQjN5Y2RsUVZRSktaT1dYeEpWNEh6QWNNTTBHakdvRk1PV2xIQ1EzUFRoTTRGSUs2LS13aDNQejZDWkt5NEdHekhxdXg1anVMX2F0OGNadklQM2tv0gGcAUFVX3lxTE9WU1RRc2ZJYzZCUkVBdnR3V1NQVzVfYWZBb1pOcTY0QzVzeHFvQ25LVzk5YjRaU1JBUHY3Nm05MERUOExKOWdycV9XWGs3azBOaE50U0gyVWNTTGt3Sm1jekZ1UFF6OWVLM1JxTnNmNXFocHBLcEg0NFg1R0VvLUNPVnQtUElZSFYzVXQ5M3QwMnVGazFrdGsxZUZRRQ?oc=5",
-          "published": "2026-03-20T03:50:47+00:00",
-          "publisher": "The Hans India",
-          "title": "Cong moves Speaker to disqualify two MLAs - The Hans India"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMTVKbm5YemV1b2w2aFowQ3ZqQlUyQUFiTzRvcDlIdkRrZ05zcGRzY1lYdTB1M0syWXp5VlNVNnFCWVIzb2hvRFZCMkhCanlZeDZtSkM5am9xQ1VINlVJc0licjZNb2t2STg5cHRSdV9WbEV0bmFoUWpKOXN6bHJJd0NnQVFZNDNVQmhWdUptMjlaT1I2N3p1c1BVLS1qTWZ5NnEyZTBYTjZyeUs1MFVSUEhfUU1FMS1sa2h6Y2ZNWUFLaEtrN25fdEZhbjdYS29NM05VeW5KRjQ1d204UkJGNW1KLWhrZ9IB5gFBVV95cUxQMTVKbm5YemV1b2w2aFowQ3ZqQlUyQUFiTzRvcDlIdkRrZ05zcGRzY1lYdTB1M0syWXp5VlNVNnFCWVIzb2hvRFZCMkhCanlZeDZtSkM5am9xQ1VINlVJc0licjZNb2t2STg5cHRSdV9WbEV0bmFoUWpKOXN6bHJJd0NnQVFZNDNVQmhWdUptMjlaT1I2N3p1c1BVLS1qTWZ5NnEyZTBYTjZyeUs1MFVSUEhfUU1FMS1sa2h6Y2ZNWUFLaEtrN25fdEZhbjdYS29NM05VeW5KRjQ1d204UkJGNW1KLWhrZw?oc=5",
-          "published": "2026-03-20T00:53:00+00:00",
-          "publisher": "ANI News",
-          "title": "Congress moves to disqualify 3 MLAs over Rajya Sabha cross-voting, says CS Raazen Ekka - ANI News"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQVUI2eTZ0VkpnNWMtSkVfSHZnUTVWb2N0TGVBQ3hDa3dISGtVQmZURFRURnI5ekl2cXloLWxGdGZlLVN1WTZIZktjVHltcDRYREM2aVpRNXE0VThpd0swTXVGX05WR2JLQW5kR0lhMUdsLTN4RXQ2VEl1Vm9fcE5VMzM5TW1vS1RtRTAxWDRQenZJeW04SFRpTGQ3dy1ZSGFnWm54d240RVJGTzAzUzNrNlBwd05IQ2ZsUGo4YzJyNVlqb21WUFpjbnNCZWdwRVFJcVNMR1FaRGFFa3FDbGJBV0NfdGZxS1I4QVNMZlNTSDJoX0NVdk1FbnJ4cllOUmlkZEJVVjk0M0w3NzNMcFhBOFhORm1tRDc5N01oN3BYN1JZb1JvejVTcDNUVy1PTzNUTzNmR1NDamgtc1lmcG5GT0NEbUJ0RUJqekdQNlVpQk5EOGFITFllQkNuZ00xRnJVZXBwdklPaXVYSlJM?oc=5",
-          "published": "2026-03-20T04:14:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRjJPdzVLaS13WDlnLXl5TzZJN2NaeFRFLXNmSHU5aG9jaFhNYVVpSUNvcG1yRmhDLXdValZyMmpPV0NFZUlaU200VXNtMzdBbzV4UVJUVEdjbWRHbmFwN3dBNXdVQjUzc1ZWMllndGZhM1l2dlBLY0xOZnd0ZFV5Y0x1UnNfbDdxSFJKOTJHOXlpbFBfckpoZDFvcVRrcTdGSWxtbXQ2b01jM2s4Vzh3ekdnLXRiSlRsbFJDa3RmdGRDVThNNFhIT0ppbWNBUURiN3RoVlhlMTM0Y190Y1pON3BhbE9xZ1lTWThNamhsM0VHelBkRG1xWDhoQVdaQQ?oc=5",
+          "published": "2026-03-22T00:58:45+00:00",
           "publisher": "MSN",
-          "title": "Congress suspends three Odisha MLAs over cross-voting in Rajya Sabha elections - MSN"
+          "title": "BJP nearly pulled off a 2nd Rajya Sabha seat in Haryana, Congress hung on by a thread amid cross-voting drama - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNUWNtdXVUcVpPTnJxWW9taEVqaEZyaW5MTTlybXQ2N0dqS0U0T3FJTGs0aWxvekFnd05URGFYN256MnRjQ2JlNDlNTGpJcDExd3k1dmdoamJkNjh2WGl1Y2U0UzBYMmMzdGpCdUtaeE53WmRXQXZBdFYtNGRoTmc4Ui1rN19TMkFCY2VUWUNYeHlHVXZsWTlEQU1uYnV5RzNqZU1rZng4S2VncUFpV2xfUXhKcmZmeGhVeEctNElGUmZHSDc2XzBqM04tUmloeXRXeHR5b2pHVnI5ZFpfYzVvM1NpMVBUUWd6Rk9kaElvbTJFSEVjSXJtLWFab1VnZjF0TUNPRWNYWUXSAYgCQVVfeXFMTVFjbXV1VHFaT05ycVlvbWhFamhGcmluTE05cm10NjdHaktFNE9xSUxrNGlsb3pBZ3dOVERhWDduejJ0Y0NiZTQ5TUxqSXAxMXd5NXZnaGpiZDY4dlhpdWNlNFMwWDJjM3RqQnVLWnhOd1pkV0F2QXRWLTRkaE5nOFItazdfUzJBQmNlVFlDWHh5R1V2bFk5REFNbmJ1eUczamVNa2Z4OEtlZ3FBaVdsX1F4SnJmZnhoVXhHLTRJRlJmR0g3Nl8wajNOLVJpaHl0V3h0eW9qR1ZyOWRaX2M1bzNTaTFQVFFnekZPZGhJb20yRUhFY0lybS1hWm9VZ2YxdE1DT0VjWFlF?oc=5",
+          "published": "2026-03-21T16:32:00+00:00",
+          "publisher": "The Economic Times",
+          "title": "BJD suspends 6 MLAs for cross-voting in RS polls, to seek disqualification from Odisha Assembly - The Economic Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVNxT2U4UUppWlJOR2ExcU14Y0M4bHlxNDQ2bS1nX29XQjRDbkxRODdnOE83X3B6SUVwdFdnRjE0elpqMkwzeEdCaW5wUjhBMmNoaVQ1LVF1YVVaMGRUNEx3ZDFPczN2M1BIY2o4alkxQUJaVFJwbExUTFUzbjBVdlIzSVE2b2x3UVZLZEJnQmlQV2hsN2RTb3JtYzQ0RUl0aDhSOGlEdjVjSW1RYnZORFJRYVNzcWl6YkdvNlEwOG1pWmRy?oc=5",
+          "published": "2026-03-21T12:32:24+00:00",
+          "publisher": "The News Mill",
+          "title": "Odisha Congress demands disqualification of two MLAs for cross-voting in Rajya Sabha election - The News Mill"
         }
       ],
       "hits": 4,
@@ -205,23 +141,23 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 4
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMzR0c1dDNmhMVURTcHpYXzh4MC1FSGhkemp2a2U3MHd6Qlk1OURnYWJTWmMzVW9Xb1htMEpUa0pmQ3J2bkpiWmdXVFdBR0l3RlR2UENSZVdxQ0tpajhuVVZRcHU4cnBoXy01aU1yd2sycVFSR05HbmhYWmNNMWREZmR3U0p1ai04ZDhrSllXRThXQQ?oc=5",
-          "published": "2026-03-20T09:19:53+00:00",
-          "publisher": "Institute for Government",
-          "title": "Ministers should lose their sweeping powers to delay local elections - Institute for Government"
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZTJoekhSdUxiZnR0cHh1VC1FOHFtTjE5V0NKd2JTT3ZINFNzb3gyWlVLR2V6RXZoX3J6WlAzOUhJZWtjQXBXTlNfY19KNk4xYnV3NUcxZUhxNXNkVzZudU5WUmVIU2I5QTBMU0JmLWg5dlZvYjdsQ05JWDhRWWVhcjhiTEw1UC05eURNZGZLa0xVUTBWcWNkcFc0aWpFZEo2ZUhjc1Y3c1NxTlMxcEJWSjlDdTRBZUZNOXBGVXNKa0lmQW4xZGNUQ2VuTEpSRWvSAdQBQVVfeXFMUEpxQUhtOTVZUlh3Uy1HVHpPZDNqUExNQ3RIVVEwdnRSR00wOUdsOUJyUHFxcGlhbl9WZDM3TzlqUmV5NjlNSWFNSUpqNUtQQlFPcklxZkNLS1l5REhieF9iZ2NLUWJCMWtmOGpJdVhqYk5BUHA1QWRaUHVoNktPV3NadGpnVTREajNobDljLVotbU55c2hxdVpOWlkxeDdzRE5vYkFhQ3AtZFpLejZzdEcyYl9mSTd3Z3NiODgycUs4eHRqaWswVjByb2NiUDB4dWxFOEE?oc=5",
+          "published": "2026-03-22T11:30:00+00:00",
+          "publisher": "7NEWS",
+          "title": "Middle East war: Six oil ships turned back, cheaper public transport floated as fuel crisis deepens - 7NEWS"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOejdQdjNSV09pRDJPZmd4RnNITkMyWHdsckVBQXJGNFctbkZ1MllGYzUtek0tb3VGWTVQVUwxVnRQTHV6eWQxQWc3UU5tdUxFMk5YbTVpaWRQeEF1NUtVM0owZUJVcjdsdWpQU1o3dWJ6Y2RJbmthb1JzUV9iRWdUZHVZbWNINy1vbWdxN243M1Zadlkxb0JRR3g4QmZXWnZZLVE?oc=5",
-          "published": "2026-03-20T04:26:30+00:00",
-          "publisher": "ABC News",
-          "title": "While the US is busy in Iran, China is pushing on with its geopolitical agenda - ABC News"
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmtCME9RTjlSbE9DZlREM093NlhpQzdMY0dsRUJ5akhqZ1lhM05ydHdISjZhQUdjd0lPZjBya2JJRGF2QjRVTUJIMjRJWnZhRUhkTDdiQjVHMlZqLU9yT0NXb21zQjlGUVFQOWV5ZC1qbXFUN3o1c3R1eW5XV3I1XzRaRnVUbWxoNzNvR21TMG9CZjBRd255NXh5cnpzSXZiT1V5anROQjN1QVVrMThzQlR1czRNSC1SQmk4?oc=5",
+          "published": "2026-03-22T03:07:00+00:00",
+          "publisher": "AFR",
+          "title": "Bowen warns of future \u2018bumps\u2019 in oil supplies as six ships cancelled - AFR"
         }
       ],
       "hits": 2,
@@ -235,35 +171,63 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVzNrbUFad3dNSGUtZ2JSeFdUamhxM3N1Nll2eWRaY0pKM1YzektZNnpvS0xiSmpYVm1IaFdkaW1ya1N2VmllQUZ4N2h2NW95aHlzMGNLVjFCSXYwSHJJMmlRVVZ1UGVDUUJPcmtaUmhQN2hiam9TZnNLdUVOTFN4MzlkQnFDV2JFcXlfMmE0SFRoMW5HTHZxQVdCVzJsRk1Obk9hdldzcw?oc=5",
-          "published": "2026-03-19T20:42:27+00:00",
-          "publisher": "Lawfare",
-          "title": "Article I and the Major Questions Doctrine After Learning Resources - Lawfare"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeU1aNkE3WmxFMERYLUdlckhxYXByRTl2d3laZnhpYURoMGNRVnI4UG05c3V1NU1pOTZZUHkwWTMwVmY5ZHpIUnFLa0ZWdHlwVG1URS1QVjN6RTNvMFJvVXNYYWNIcVIySUxPU25MMDd0UlU5ZTZHOTBNMVRpRE9Wdy1CdEhnX01tX1NiQkkxblRLc1J3aHc?oc=5",
-          "published": "2026-03-19T23:33:38+00:00",
-          "publisher": "Just Security",
-          "title": "The \u201cPresumption of Regularity\u201d in Trump Administration Litigation (4th edition) - Just Security"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IX09rWXl6SnFZTEt0dEd2MzZFMFljU2RSOXJxUDRjLU5XWWpDWDFoX1NLS0MzeHFWWVJjbzBHa0MwUzlsV3BhYUdwaGFqdEJZMXdDc0s0cV9PNS15MlNvNzZwQlFKV1hrcnZkUGNndktCVWc?oc=5",
-          "published": "2026-03-19T14:49:38+00:00",
-          "publisher": "The New York Times",
-          "title": "What to Know About Section 702, the Controversial Warrantless Surveillance Law - The New York Times"
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVDdfeVRGUWZqZGwwNjZfQmEtMmo1b1hEamtZMGhGS1ZBYUFzS2xqYkVBX0FZUEd5ZjRTVUlNZFE4TndoUWNzcXl4QkV1TjdxeFI0aFBUZnFuemx3T2FtdTVDNlhSXzlJT3ZveVlrMEZUUHE0T045LXE1TlplZU56WGpNSmVtd9IBiwFBVV95cUxNcDhkbFBzcEpCa1JXU1hubFppNGpNZWZkZUxSVkE2VTBIS2xjZEVnaWZyUEdueTNUUnBIdExFdHFQOExad0xJeGJSMHRzdGI2RzRRSjh1Umg1RlUtTUIwNTlfaURITlN3SVo0UUN4blBSRWJoOWNHNTJBNmR5T3NUc2swTWRqWDJRUlpz?oc=5",
+          "published": "2026-03-21T00:00:00+00:00",
+          "publisher": "The Hill",
+          "title": "Still trailing by 23 votes, NC Senate leader asks for hand recount - The Hill"
         }
       ],
-      "hits": 3,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "hits": 1,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.65,
       "severity_label": "Watch",
-      "unique_publishers": 3
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPT3lKRjNJUkQyTlAtMWdsSExCZGJ2QkdoMmRpQlB2ZzMzNDZyMmJQOWN0a1A3REpxOHlmSUg4cUlFbkh6Z2NJaVBfamxlRWVXa0xsaS1NVTlkS1FDSkxYbExSZnk5RFhJRFo0ekNQOEJoQkp0WTFKYjMxbWtGRV9vQ3FYYXVZeHA3cUhrVHFYSVZ2dWs5MGJ6cWRleXRIQVZndUUwOEFVM0FGakh4ZllqWUgwQQ?oc=5",
+          "published": "2026-03-21T19:08:52+00:00",
+          "publisher": "MSN",
+          "title": "Chief Justice Roberts warns against personal criticism of judges - MSN"
+        }
+      ],
+      "hits": 1,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAyQkZwUjVOOEFSSFFicG1RMFhQTVo2TWdmZDN2Zjd2aWtJM0lpMklrQkVPR3dVRDByTkFORmJHZU9qSXlEdTNxbw?oc=5",
+          "published": "2026-03-21T21:57:58+00:00",
+          "publisher": "Politico",
+          "title": "Playbook - Politico"
+        }
+      ],
+      "hits": 1,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -274,29 +238,9 @@
       "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeU1aNkE3WmxFMERYLUdlckhxYXByRTl2d3laZnhpYURoMGNRVnI4UG05c3V1NU1pOTZZUHkwWTMwVmY5ZHpIUnFLa0ZWdHlwVG1URS1QVjN6RTNvMFJvVXNYYWNIcVIySUxPU25MMDd0UlU5ZTZHOTBNMVRpRE9Wdy1CdEhnX01tX1NiQkkxblRLc1J3aHc?oc=5",
-          "published": "2026-03-19T23:33:38+00:00",
-          "publisher": "Just Security",
-          "title": "The \u201cPresumption of Regularity\u201d in Trump Administration Litigation (4th edition) - Just Security"
-        }
-      ],
-      "hits": 1,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -323,10 +267,10 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWHVGTnRKQ1JOUFdRd0lsTDZDaC1RMUFEMzJkVEwwWFVTQk1XWlplQW9uNnpmQjRxczEyTkoyVG5nQi1ac0hRa1hJTmtVOUxzWHBFTEFtV3R5Z3ZxMG96ZzJoaDR3THhOSFJpUjJMX3E5NENlWTVZaV8wVENPTDNndy1HYWxJMkVsc0ZkMGI5Nkxhc2ZyazI3bUcwZzF2WmtWdXA4Z1I0cDEySnJDSXQtLUZKcWZfU2p4QTdXX1ppaUfSAcABQVVfeXFMTVh1Rk50SkNSTlBXUXdJbEw2Q2gtUTFBRDMyZFRMMFhVU0JNV1paZUFvbjZ6ZkI0cXMxMk5KMlRuZ0ItWnNIUWtYSU5rVTlMc1hwRUxBbVd0eWd2cTBvemcyaGg0d0x4TkhSaVIyTF9xOTRDZVk1WWlfMFRDT0wzZ3ctR2FsSTJFbHNGZDBiOTZMYXNmcmsyN21HMGcxdlprVnVwOGdSNHAxMkpyQ0l0LS1GSnFmX1NqeEE3V19aaWlH?oc=5",
-          "published": "2026-03-19T23:09:10+00:00",
-          "publisher": "breitbart.com",
-          "title": "Breitbart Business Digest: Powell Cannot Stay on as Fed Chair After May 15 - breitbart.com"
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ3FyVG1zcVNxV1E5T2prNGNNNkM2THlzeXZ5blhla2xaR0xxbG1yLUROSHVGZUdTa05EUE0yNVExbUtlbUpoMzYyNFNqZFV6SVhMQWdPRVhPMzg3VmszZGRGQkJRY3A0UE1pYTlhVW05QV9OUHdzVDZHc2FuS05MSW5EOG52QnJTcDFPWkw5LUJtN1Nh?oc=5",
+          "published": "2026-03-20T13:00:01+00:00",
+          "publisher": "New York Magazine",
+          "title": "Trump\u2019s Losing War Against the Federal Reserve - New York Magazine"
         }
       ],
       "hits": 1,
@@ -340,43 +284,42 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "hits": 0,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kVklQclJ3UGlyZ0lZNWdyUTd0R25jazZLaGY4RDFPMUJpR2dkODFncDVyRTJMQl9YbzdqVUU5NEVrTE5Wc0c0V0hLclN4aVRvYkh0eElWSjJWaEc3NkNLSkRHSDRzTkVrYnZReDE3WXNhc3NtQUpESmM1N1U3ZzQ?oc=5",
-          "published": "2026-03-19T12:47:59+00:00",
-          "publisher": "AOL.com",
-          "title": "Rubio blasts China over 'unjust and tragic' 20-year sentence for Hong Kong democracy activist Jimmy Lai - AOL.com"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "political_speech_surveillance",
       "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "security_sector_neutrality",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcG50UUd6SldJYmZWaWhFVGMxUnNGd09hb1JRMy00UGVySkxaUVJQblFBUThhYzZMNVpXa1Nma0tFdWdwQ3lLYkdtcWlGYWlNM3E0VjI1d3NOX3JIVWxlQ3dOWEFuOVNOdEV5aWVQbFpQaXBWRVhyaGxSbzkzLVRxdGlaRGNhMjFSY1RFaQ?oc=5",
-          "published": "2026-03-19T21:30:00+00:00",
-          "publisher": "Sri Lanka Guardian",
-          "title": "Serbia Doubles Arms Exports to Israel Amid Regional Conflict - Sri Lanka Guardian"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "military_domestic_political_use",
       "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -387,8 +330,8 @@
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -398,19 +341,6 @@
       "hits": 0,
       "id": "politicized_prosecution_opposition",
       "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
