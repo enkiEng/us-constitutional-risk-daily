@@ -1,64 +1,64 @@
 {
   "attempted_queries": 22,
-  "average_7d": 19.42,
+  "average_7d": 19.0,
   "band": {
-    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
-    "label": "Elevated Strain",
-    "max": 29,
-    "min": 15
+    "description": "Normal democratic conflict and routine legal contestation.",
+    "label": "Baseline Institutional Noise",
+    "max": 14,
+    "min": 0
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -4.0,
-  "delta_vs_7d": -2.99,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": -5.22,
   "domain_breakdown": [
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.6625,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 4.5375,
+      "points": 3.64375,
       "weight": 22
     },
     {
-      "avg_severity": 0.8666666666666667,
+      "avg_severity": 0.65,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.25,
+      "points": 2.4375,
       "weight": 15
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 0.5499999999999999,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.333333333333333,
+      "points": 1.9249999999999998,
       "weight": 14
     },
     {
-      "avg_severity": 0.8666666666666667,
+      "avg_severity": 1.2,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.816666666666667,
+      "points": 3.9,
       "weight": 13
     },
     {
-      "avg_severity": 0.3,
+      "avg_severity": 0.09999999999999999,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.75,
+      "points": 0.24999999999999997,
       "weight": 10
     },
     {
-      "avg_severity": 0.975,
+      "avg_severity": 0.65,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.4375,
+      "points": 1.625,
       "weight": 10
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.3,
+      "points": 0.0,
       "weight": 8
     },
     {
@@ -72,97 +72,65 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-03-23T12:35:02.873302+00:00",
-  "previous_score": 20,
+  "generated_at": "2026-03-24T12:36:44.462634+00:00",
+  "previous_score": 16,
   "provisional": false,
-  "score": 16,
-  "score_raw": 16.43,
+  "score": 14,
+  "score_raw": 13.78,
   "successful_queries": 22,
   "top_signals": [
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNREUtc0pDQkNPdkRyNDZoa2tIMENUTkxob2F2ek56VTMyVEROQk9NNDlra2VLZWpHQ2VJSWZ5d1lCdFpOOHNZRTNkcHNMUmdHWFFWaFhEUnpjcGdUaHRZTlE4SmtkMDZLQllWRVZvTHFwSzNWQWJaME9fUV9BckI4eWM4d2FWU1VxMm5UWmJ4TTIzQkpSZDVXbjFMTW90NHc1WjVYMkgwemNnQ2t4T29kamFB?oc=5",
+          "published": "2026-03-23T16:28:52+00:00",
+          "publisher": "GV Wire",
+          "title": "US Supreme Court Conservatives Lean Toward Republican Bid to Limit Mail-in Voting - GV Wire"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1YN1JDRlV0d0g5SVhHM05raGY0OENjMHpSeHJqLUNMZE42T3VsNzEzaUpTUTBiYkpMbDJQRHVINUxHVGZBYlhMRmp5d2gwWVVJamlnS2JQSWpGTWVjX3R2dU5KQURhMDRMOWZ1MEZvRDktelJPOGswZWkyOF_SAYIBQVVfeXFMTWQ2bVIxS2U1VlRzM3dISXJCYy1nTXRBanQxc3pFNGZLb0c0MkJER2Z0RWhDcTZkSWxCWUkyWlFkS2ZUREwyNlEwN1JFWVQ2V09vWnFwSDhwd1RJU2FmZ0w2RUNEVmE1N3JsdkVDNF91ekFLY2xzTHpGTHk0Q1ZhbXNmQQ?oc=5",
+          "published": "2026-03-23T12:52:00+00:00",
+          "publisher": "CBS News",
+          "title": "Supreme Court grapples with laws allowing mail ballots that arrive after Election Day to be counted - CBS News"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU3h5Nm1tT1Y5LWdDaEg1MEVKaktzYm5vUzZOTFNsQWFocE9GdjBYaGlibTA4QWdoczBfeG1JY0pYQ1pvYjA4Nzhjbmg3NVJGbnJIX2dKaDRyUld5NVFNODQ2RkFmamVEUnlERjFuRFM0dUJ1NTJKeFh3RUxkcXU4Y0VtbHVPbGZhcEhnZFJB?oc=5",
+          "published": "2026-03-23T15:28:51+00:00",
+          "publisher": "GV Wire",
+          "title": "Justices to Hear Challenge to State Mail-in Ballot Law - GV Wire"
+        }
+      ],
+      "hits": 4,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 3
+    },
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPYTBBOHpKQklfZFlrZFpoNTBDd3VRSG0tOWlDWTZCUTNiT3REMEtQa2FTNzJsLVdjUmNtWWdSOWs2NnBoM3hTMUR3Z0JTbWVnUEtacjZvS3Z1OU1pWU1qT1diM0tkMTFtM3F3NkFBVHU2Wk52eXNXWGhmOUZSMW9uTnVUeTJHVXk1OHFvcExwQ08wek9FRXBvaFR6bmhwNjlHSUZaaEVjT3pqN0lPTG15eWJ2RndiVTlQSlVad1U4M0hXVnZYQnNTeGtyX2lTT3dIbHNKQndVc2NHejluYVNmUk5LZjdSRWlHaWJUNjczRGsydTh4NDZoSFozbi1pb2Z5X25IWVpTcGtzYWVlZ1ptbXFIU2FQb2JCQ2RJRFM5Nmh5eFFiRlVRc2hoZGdENVRV?oc=5",
-          "published": "2026-03-23T00:57:16+00:00",
+          "published": "2026-03-24T03:42:22+00:00",
           "publisher": "MSN",
           "title": "BJP nearly pulled off a 2nd Rajya Sabha seat in Haryana, Congress hung on by a thread amid cross-voting drama - MSN"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVNxT2U4UUppWlJOR2ExcU14Y0M4bHlxNDQ2bS1nX29XQjRDbkxRODdnOE83X3B6SUVwdFdnRjE0elpqMkwzeEdCaW5wUjhBMmNoaVQ1LVF1YVVaMGRUNEx3ZDFPczN2M1BIY2o4alkxQUJaVFJwbExUTFUzbjBVdlIzSVE2b2x3UVZLZEJnQmlQV2hsN2RTb3JtYzQ0RUl0aDhSOGlEdjVjSW1RYnZORFJRYVNzcWl6YkdvNlEwOG1pWmRy?oc=5",
-          "published": "2026-03-22T12:57:27+00:00",
+          "published": "2026-03-24T06:42:31+00:00",
           "publisher": "The News Mill",
           "title": "Odisha Congress demands disqualification of two MLAs for cross-voting in Rajya Sabha election - The News Mill"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNUWNtdXVUcVpPTnJxWW9taEVqaEZyaW5MTTlybXQ2N0dqS0U0T3FJTGs0aWxvekFnd05URGFYN256MnRjQ2JlNDlNTGpJcDExd3k1dmdoamJkNjh2WGl1Y2U0UzBYMmMzdGpCdUtaeE53WmRXQXZBdFYtNGRoTmc4Ui1rN19TMkFCY2VUWUNYeHlHVXZsWTlEQU1uYnV5RzNqZU1rZng4S2VncUFpV2xfUXhKcmZmeGhVeEctNElGUmZHSDc2XzBqM04tUmloeXRXeHR5b2pHVnI5ZFpfYzVvM1NpMVBUUWd6Rk9kaElvbTJFSEVjSXJtLWFab1VnZjF0TUNPRWNYWUXSAYgCQVVfeXFMTVFjbXV1VHFaT05ycVlvbWhFamhGcmluTE05cm10NjdHaktFNE9xSUxrNGlsb3pBZ3dOVERhWDduejJ0Y0NiZTQ5TUxqSXAxMXd5NXZnaGpiZDY4dlhpdWNlNFMwWDJjM3RqQnVLWnhOd1pkV0F2QXRWLTRkaE5nOFItazdfUzJBQmNlVFlDWHh5R1V2bFk5REFNbmJ1eUczamVNa2Z4OEtlZ3FBaVdsX1F4SnJmZnhoVXhHLTRJRlJmR0g3Nl8wajNOLVJpaHl0V3h0eW9qR1ZyOWRaX2M1bzNTaTFQVFFnekZPZGhJb20yRUhFY0lybS1hWm9VZ2YxdE1DT0VjWFlF?oc=5",
-          "published": "2026-03-21T16:32:00+00:00",
-          "publisher": "The Economic Times",
-          "title": "BJD suspends 6 MLAs for cross-voting in RS polls, to seek disqualification from Odisha Assembly - The Economic Times"
-        }
-      ],
-      "hits": 5,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 4
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMWN4cUItbUtveEVqNmU1TWtvUGN4VHllNnZMQ3hhQzl1TzJGNHNoWVFuREk2M1VCbkNyWTI2cXM2a1hlUkV3UVJac2RVS2wyRUlPTXU4UTNQVXJyNDZaVnpXNW4xbml6dUxZRnF0NWI5RXhOQ05aS1pIYzgyQ2p4SDJQMWF3SE9xbVV0RlZSWHZTcTg?oc=5",
-          "published": "2026-03-21T23:10:21+00:00",
-          "publisher": "ABC News",
-          "title": "Six fuel ships to Australia cancelled or deferred, though gap has been filled - ABC News"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOWJJc0kyRmt1RVdMMjc4RTN6QTd3ZkxFOVV1UkxXUExoaDdJaEdrWGZjamItZF9BUDd3YXgyNW5Gd0FzSGJrMlZkbzd1WjJldVdFLTVfcGpFZDJSVlY2eXMtNGtEcmh4VXFNOXNyRXE1cVZXOE5hdkhWNi0xc2c2MTBEVTdTX2hQdEliS3B5MTRLV21UVU02ZGxQdUtEQXlHR0RDWGg5a196YTlLRGlNTA?oc=5",
-          "published": "2026-03-22T03:07:00+00:00",
-          "publisher": "AFR",
-          "title": "Australia may exploit LNG \u2018leverage\u2019 to secure oil from Asia - AFR"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVmtCME9RTjlSbE9DZlREM093NlhpQzdMY0dsRUJ5akhqZ1lhM05ydHdISjZhQUdjd0lPZjBya2JJRGF2QjRVTUJIMjRJWnZhRUhkTDdiQjVHMlZqLU9yT0NXb21zQjlGUVFQOWV5ZC1qbXFUN3o1c3R1eW5XV3I1XzRaRnVUbWxoNzNvR21TMG9CZjBRd255NXh5cnpzSXZiT1V5anROQjN1QVVrMThzQlR1czRNSC1SQmk4?oc=5",
-          "published": "2026-03-22T03:07:00+00:00",
-          "publisher": "AFR",
-          "title": "Bowen warns of future \u2018bumps\u2019 in oil supplies as six ships cancelled - AFR"
-        }
-      ],
-      "hits": 3,
-      "id": "election_delay_or_cancellation",
-      "name": "Election Delay or Cancellation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMUZjdFZvOE9FNUQyRHY5cUFreHBDVFdka0lldVZjNkxETDNZV3J2bHhZM2xYaWdrZ0dhUW5VTGl5S3Fyc0VYbFB1VWgwUnBzek9kSmlYbndCQ0hfOUlWVkNocDFMd0NrT1pyLVMzQjd3UGVYdE5kMVhqN1NPaWlhWjFhYlBsb1dCb2tz?oc=5",
-          "published": "2026-03-22T22:16:50+00:00",
-          "publisher": "AOL.com",
-          "title": "ICE releases Nashville journalist \u2014 but First Amendment legal battle is just getting started: \u2018The fight is not over\u2019 - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQzROY2s5X0JQc0o5a01nZ3lwYnA1VVRvdGJpNjg1bUEtS3BVTV9LWlZBUGhndWlaMUpXZlFJYzdKV2hMUXNtVEpQUDEyR0RFdXZud2VtX3NYZGlmNXJtZ2tTT1NjMU0tTFJNQkJjQzZhZGd1T2F0eV9uUFA5b003ZW5uMldyd3BKU0NrUVZOSXpPS2UyY2lXZEh5N2xVZnBVR0dOOUxMQQ?oc=5",
-          "published": "2026-03-21T16:01:50+00:00",
-          "publisher": "journalismpakistan.com",
-          "title": "Azerbaijan jails journalist for six years amid claims of police abuse - journalismpakistan.com"
         }
       ],
       "hits": 2,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.65,
@@ -172,35 +140,99 @@
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
+      "evidence": [],
+      "hits": 0,
+      "id": "election_delay_or_cancellation",
+      "name": "Election Delay or Cancellation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbVI2cjlXNFp6ZEFYYm9RNDVzanRXYlNEaWpBdDNISWtiZXFMODNnci1HMURtdUtvRDJiTk5ONkVHU2dMR0h5SnZmNmpVVm1Sa3RlZGR4Y1MzdVZBYlRKenNLT19xQ1dhMGZNdVhBMkE0OWhsS1oyU05oZkpObml0NzBLR0FVRVpBcDFXQmlSY05jOTZ0V1lCRHVMVmFtbXNQT04xUFZKbWpGU0hJS3ZzOURFbU9DQlpfdTVIVkhMQQ?oc=5",
+          "published": "2026-03-23T13:44:46+00:00",
+          "publisher": "Reuters",
+          "title": "US Supreme Court turns away online Texas journalist's case over arrest - Reuters"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa0lZazJURTdZVk40RG5reVZvVzJIM2pPT3VPVFFrbWdUTGhrdlQ0NVUwcVY5UmNPdWV2bTEydXBMOUc3cnBxZzJrOEZhTUJDX2NrS2xGMENVdVA4UUhQQnc5ZkJIcTY1OVdMT3NiaFlCNU9LRW00VnNjUEVkTTZSRFlMa3NwdkpBU1U4NDVMaEUyYXpxd2czb2NCVXBpWnc?oc=5",
+          "published": "2026-03-23T15:05:45+00:00",
+          "publisher": "KFGO",
+          "title": "US Supreme Court turns away online Texas journalist\u2019s case over arrest - KFGO"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamlvMW8zS2g0TWtDVE1Gc3o5UllNSmw3a2dlMzhOeHBfb0ZKVXAyV2o5enY5V1V4NkctRUxfeTZ2T1RJeHNoVGoyYzBJYWZFUnBqU0ZQdUxqN0s5bFNXTHBqNEtWRDlzdGhKaEo2LV91em1NUGdkb1NqbFhRZzMySmlGNm5OSktsVV9veDlGeWJsdmxIM1E?oc=5",
+          "published": "2026-03-23T17:54:29+00:00",
+          "publisher": "The San Joaquin Valley Sun",
+          "title": "Supreme Court declines to hear citizen journalist\u2019s case over arrest - The San Joaquin Valley Sun"
+        }
+      ],
+      "hits": 3,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORmhkb0RRVDNEM1VEWmRieGlzTnF1YjVmR2dXNUhTNnp6UFNsblIwSG54UU1Kd2ZkWFdTWlBDZjg4YjRuWnJwVW1lYTJjOVB4clRFVk51bVkxc2hWalljS2dGNWRycTdIX3h5bWU4WXJNTWY0MFFvNlJfRUVDMzU5d0lMMzVFeVlpbkpjNEUyRW8yNG41dVNxa29HQ2Zvd1BGQmQ2MDNPSmFUbFJs?oc=5",
-          "published": "2026-03-23T09:02:08+00:00",
+          "published": "2026-03-24T08:55:51+00:00",
           "publisher": "AJC.com",
           "title": "Skeptics said 2020 election boxes were missing. They never asked Fulton. - AJC.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lb3JCMkpNU1RGSmhCT3Brajk0SXNjMHk0MUotLTJkbG1LNTZGOEdDYlNlcVBZWUpqUzYtc2xCaEJOR2xBWEdCWEtBTzc3SkZId0U4STQtbDM2XzdMUHN0OWYzOA?oc=5",
+          "published": "2026-03-24T02:43:40+00:00",
+          "publisher": "The New York Times",
+          "title": "Mullin Confirmed to Lead Homeland Security Dept. - The New York Times"
         }
       ],
-      "hits": 1,
+      "hits": 2,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNd3NLN1FmR3JRRmVGVGMwbzZkVndEMU9sZmlfQVNZN2NsWWdmc2ZDektTeHI1Yms5b29BR2RIUFIyell3YjU3c09RRmtMcXI5Y0ItbG5GaEU4djVZMUtGakVzbjl1T2thMEhVekp6QUN3cXloWVFrSC1lcjV3X1QtbmlaSlZmUzdyTUFPNGxEWWhISHZxcEo5SlF4MU5NWllPbmx6Ul9way1KZThGTzlJeWhRQ25FWHY1bTV0MFVRbmd5TXhMZy1COEJscGhPSWhTN1VqRWd6S2NLckdRRTU3SGhwTXB3V0NpdWxZZ29GUUxZT1d4bGFibzR1emYxMS11SEQtTFUyLU1OQlRfWW9oMFdzMnVkbmNKd09fOXByLS1oVVlPNmFEeERJal91WVlUODh5c0lRaW42TWM4bnNBWERUWk83ZzBHaEo2UW1qRWhoNXF1?oc=5",
+          "published": "2026-03-23T10:06:16+00:00",
+          "publisher": "MSN",
+          "title": "Can Trump overturn Supreme Court tariff ruling? What US Constitution says - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQbHJuekdyZmRRRXY0TGNmS0J6UkxsNnVISDR5OVdvZXhZSENiVlVxYjRIbThiYmNsLW1TQ3FKbWw2VW5Qbk1NZFBGX3JsdEI4LVpGWkFvakg4dFkwZXdqUzM4YXlFWjFnUGZIT2M0WVVvNHRfNUtPUTU3WDJjV3BidE5GWmZ3SlRneVVPSGVWZlVkNmRjb1NxVlJSbGhfRk5yYmp0T0RBaXZyemdsX3N0cFVjNW1ESDJvZ2w5WXRoX3RPaGpIMlpFYmFJZ0pnWm9zdU1OQnhWTlB2YjZRei1OejViUTZUbVJhbXU0OWRUand5OFVnTS1VVmZqc3l5MVJpemloR1Q2M09VeFp3?oc=5",
+          "published": "2026-03-23T21:29:00+00:00",
+          "publisher": "FinancialContent",
+          "title": "Constitutional Checkmate: SCOTUS Thwarts Trump's Reciprocal Tariffs as Administration Pivots to Section 122 Surcharges - FinancialContent"
+        }
+      ],
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -224,31 +256,11 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQX2MtVi1RTmh0amtJaDVzc0cxMElRMVo1aU15S2ZEOGVuSzBLOWpqdHdNSnRHUkw2ODJtOXg1eGdldXoxaHJGR3JJVWRLcnZ0UVBfUHBSSzlXeHZCWmhUbjYyZmYyYkVPQTItRUI4cXR5bkQxOE03NUNqZ0N3Z055X2JaODYwZTJwclgtY1JxQWdzc3NzcmI2bGhaQzRMRXpZYjhlN0dNYXpNcVgxUi1mbGhGaF9zVHd1RXVfRGNn?oc=5",
-          "published": "2026-03-23T02:31:50+00:00",
-          "publisher": "MSN",
-          "title": "Can Trump overturn Supreme Court tariff ruling? What US Constitution says - MSN"
-        }
-      ],
-      "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.95,
@@ -260,11 +272,11 @@
       "domain_id": "executive_constraints",
       "evidence": [],
       "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -277,59 +289,7 @@
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "security_sector_neutrality",
-      "evidence": [],
-      "hits": 0,
-      "id": "military_domestic_political_use",
-      "name": "Domestic Military Use in Political Conflict",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
