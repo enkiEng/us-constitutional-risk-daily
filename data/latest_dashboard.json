@@ -1,57 +1,57 @@
 {
   "attempted_queries": 22,
-  "average_7d": 19.0,
+  "average_7d": 18.59,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": -2.0,
-  "delta_vs_7d": -5.22,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": -3.64,
   "domain_breakdown": [
     {
-      "avg_severity": 0.6625,
+      "avg_severity": 0.825,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.64375,
+      "points": 4.5375,
       "weight": 22
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.5499999999999999,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.4375,
+      "points": 2.0624999999999996,
       "weight": 15
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.6666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.9249999999999998,
+      "points": 2.333333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 1.2,
+      "avg_severity": 1.0833333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.9,
+      "points": 3.520833333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.09999999999999999,
+      "avg_severity": 0.0,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.24999999999999997,
+      "points": 0.0,
       "weight": 10
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 1.0,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.625,
+      "points": 2.5,
       "weight": 10
     },
     {
@@ -72,13 +72,77 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-03-24T12:36:44.462634+00:00",
-  "previous_score": 16,
+  "generated_at": "2026-03-25T12:34:59.575360+00:00",
+  "previous_score": 14,
   "provisional": false,
-  "score": 14,
-  "score_raw": 13.78,
+  "score": 15,
+  "score_raw": 14.95,
   "successful_queries": 22,
   "top_signals": [
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNSmhiVTB3NnM5allDbGRQVS1MZElDdVg3N3JtWFBrUTdxX2FKYzRIY2RhTFBWSU5RUmpHekZ6R04taVFqZTRZelBkM20xUUJNNEZLLVBHYVUtc01zTUwwVVZhdFpFeWZzUDFYQTZKc1M3dXFKaU9NcXlHZV9jeWVBSGxWXzVXYUU0RW9HMXFsN0tnTVVRQTVFRlg1Z2dDbWdGdUpZZmxzX1RpYXlhWFc2VUo2NEpINVM4V0RsZTJpUDI0c3R0SzA1ejNSZmVCYkdDZFFmTW1zbHloa3lkOUJQNjBUdmRGWEtOWnJuYUdNd29nVkxmTkZ1M0tVWXlHRkFIUm5OcVlpZENVaWRKaUNF?oc=5",
+          "published": "2026-03-24T23:04:37+00:00",
+          "publisher": "thegazette.com",
+          "title": "Iowa congressional candidate off the ballot; gubernatorial candidate\u2019s fate still uncertain - thegazette.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSVhmNUUwQ3VQMkU4d2VwMFR6Y3J5V20xSFExU2VWV0JKUkpCUkJtdFFDMGJrakhJRC1zbEQxUkEtZzd0TWtodXliS2NfSzZvcmxLNzYwSUh6bkRJZ2Z3ano2Z1lSVVFheEJ0VkVpTWJlMndqM2c2bDA0dE1xVDBFa3VTSE1sVjRNdU5YRmJ3QzBZR3ZMUks2d2RpQktYV0dUbEhhSlBheE0xclRHU2pHem9FSDFnVndkVmtRY3ZmZVJ5UHRx?oc=5",
+          "published": "2026-03-24T19:43:19+00:00",
+          "publisher": "Iowa Capital Dispatch",
+          "title": "Eddie Andrews disputes challenge to GOP gubernatorial primary ballot qualification - Iowa Capital Dispatch"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM3BFMnVURF9aZkE2TlBjbmNHNkNLV3lyWHdSTzdwSVczU3N6bDF0V2tBTE4xOWpqYktBYmpfOHpheDZSNHVNb3VUSUJoc3R2TkJNOXdXZkdiNHdkclM5ZFY1LXRyVFlwUGx0WUt0TlpVSGVVTFh6MHRUVl9QTllxdGZlaUtiUXVOQmJ2ZTBKUEZmVE1odk5zdw?oc=5",
+          "published": "2026-03-25T10:17:33+00:00",
+          "publisher": "THISDAYLIVE",
+          "title": "Forged Certificate, Electoral Act and the Constitution - THISDAYLIVE"
+        }
+      ],
+      "hits": 7,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 6
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbVI2cjlXNFp6ZEFYYm9RNDVzanRXYlNEaWpBdDNISWtiZXFMODNnci1HMURtdUtvRDJiTk5ONkVHU2dMR0h5SnZmNmpVVm1Sa3RlZGR4Y1MzdVZBYlRKenNLT19xQ1dhMGZNdVhBMkE0OWhsS1oyU05oZkpObml0NzBLR0FVRVpBcDFXQmlSY05jOTZ0V1lCRHVMVmFtbXNQT04xUFZKbWpGU0hJS3ZzOURFbU9DQlpfdTVIVkhMQQ?oc=5",
+          "published": "2026-03-23T13:44:46+00:00",
+          "publisher": "Reuters",
+          "title": "US Supreme Court turns away online Texas journalist's case over arrest - Reuters"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQLWtTT3RQSW9vMEotR0JJVDZBWmtmeUlSNUl5VlZuR09ZaDZ3MmVTOUUxYzV4TW03LWVXNmxCNDRBb2NrX01SOWlXNDkxYjhOb29zdGlCMW40SHhuMFhQeFVKaGtGX29qWDVBVkNjU0FrT29ZakJxRTRnTGVyOXVrQ0VGaXBIRmJoUE1MNTRwcmM5U3RYWWdVWlF0RXNTTnJlSnNBalB1QURzNkFqOVlfRVNHN19Id0tBaG9kX21IVnUwRlNsdkF2SFZCeXdDMUJLT0RFSHJGNUpTOE9LZzk0aWZBM014Zw?oc=5",
+          "published": "2026-03-24T21:23:21+00:00",
+          "publisher": "MSN",
+          "title": "Supreme Court leaves Texas journalist's case shut - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQzlQQ1dNWDNzaDY3aUZBd0t2ek5WS01fYXBHTUVlZjBCSXlOYndRSDR5dUlMLW1uVVZIWDNTZ0E4NURZakJUcDFpeldBRWROWHAwTUZtMWJ5ajBPeEdDd0pLdWRqRmdYMXBTLWVVVE9kRFZyLWlEaUpTT2U3S3VKeUJLUUJ6ZF92eC1oNGtB?oc=5",
+          "published": "2026-03-24T13:15:56+00:00",
+          "publisher": "The New York Times",
+          "title": "How Pakistan Is Trying to Reshape Its Image Abroad - The New York Times"
+        }
+      ],
+      "hits": 6,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 5
+    },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
@@ -102,39 +166,13 @@
           "title": "Justices to Hear Challenge to State Mail-in Ballot Law - GV Wire"
         }
       ],
-      "hits": 4,
+      "hits": 3,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPYTBBOHpKQklfZFlrZFpoNTBDd3VRSG0tOWlDWTZCUTNiT3REMEtQa2FTNzJsLVdjUmNtWWdSOWs2NnBoM3hTMUR3Z0JTbWVnUEtacjZvS3Z1OU1pWU1qT1diM0tkMTFtM3F3NkFBVHU2Wk52eXNXWGhmOUZSMW9uTnVUeTJHVXk1OHFvcExwQ08wek9FRXBvaFR6bmhwNjlHSUZaaEVjT3pqN0lPTG15eWJ2RndiVTlQSlVad1U4M0hXVnZYQnNTeGtyX2lTT3dIbHNKQndVc2NHejluYVNmUk5LZjdSRWlHaWJUNjczRGsydTh4NDZoSFozbi1pb2Z5X25IWVpTcGtzYWVlZ1ptbXFIU2FQb2JCQ2RJRFM5Nmh5eFFiRlVRc2hoZGdENVRV?oc=5",
-          "published": "2026-03-24T03:42:22+00:00",
-          "publisher": "MSN",
-          "title": "BJP nearly pulled off a 2nd Rajya Sabha seat in Haryana, Congress hung on by a thread amid cross-voting drama - MSN"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVNxT2U4UUppWlJOR2ExcU14Y0M4bHlxNDQ2bS1nX29XQjRDbkxRODdnOE83X3B6SUVwdFdnRjE0elpqMkwzeEdCaW5wUjhBMmNoaVQ1LVF1YVVaMGRUNEx3ZDFPczN2M1BIY2o4alkxQUJaVFJwbExUTFUzbjBVdlIzSVE2b2x3UVZLZEJnQmlQV2hsN2RTb3JtYzQ0RUl0aDhSOGlEdjVjSW1RYnZORFJRYVNzcWl6YkdvNlEwOG1pWmRy?oc=5",
-          "published": "2026-03-24T06:42:31+00:00",
-          "publisher": "The News Mill",
-          "title": "Odisha Congress demands disqualification of two MLAs for cross-voting in Rajya Sabha election - The News Mill"
-        }
-      ],
-      "hits": 2,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
       "unique_publishers": 2
     },
     {
@@ -146,77 +184,57 @@
       "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbVI2cjlXNFp6ZEFYYm9RNDVzanRXYlNEaWpBdDNISWtiZXFMODNnci1HMURtdUtvRDJiTk5ONkVHU2dMR0h5SnZmNmpVVm1Sa3RlZGR4Y1MzdVZBYlRKenNLT19xQ1dhMGZNdVhBMkE0OWhsS1oyU05oZkpObml0NzBLR0FVRVpBcDFXQmlSY05jOTZ0V1lCRHVMVmFtbXNQT04xUFZKbWpGU0hJS3ZzOURFbU9DQlpfdTVIVkhMQQ?oc=5",
-          "published": "2026-03-23T13:44:46+00:00",
-          "publisher": "Reuters",
-          "title": "US Supreme Court turns away online Texas journalist's case over arrest - Reuters"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa0lZazJURTdZVk40RG5reVZvVzJIM2pPT3VPVFFrbWdUTGhrdlQ0NVUwcVY5UmNPdWV2bTEydXBMOUc3cnBxZzJrOEZhTUJDX2NrS2xGMENVdVA4UUhQQnc5ZkJIcTY1OVdMT3NiaFlCNU9LRW00VnNjUEVkTTZSRFlMa3NwdkpBU1U4NDVMaEUyYXpxd2czb2NCVXBpWnc?oc=5",
-          "published": "2026-03-23T15:05:45+00:00",
-          "publisher": "KFGO",
-          "title": "US Supreme Court turns away online Texas journalist\u2019s case over arrest - KFGO"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamlvMW8zS2g0TWtDVE1Gc3o5UllNSmw3a2dlMzhOeHBfb0ZKVXAyV2o5enY5V1V4NkctRUxfeTZ2T1RJeHNoVGoyYzBJYWZFUnBqU0ZQdUxqN0s5bFNXTHBqNEtWRDlzdGhKaEo2LV91em1NUGdkb1NqbFhRZzMySmlGNm5OSktsVV9veDlGeWJsdmxIM1E?oc=5",
-          "published": "2026-03-23T17:54:29+00:00",
-          "publisher": "The San Joaquin Valley Sun",
-          "title": "Supreme Court declines to hear citizen journalist\u2019s case over arrest - The San Joaquin Valley Sun"
-        }
-      ],
-      "hits": 3,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 3
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lb3JCMkpNU1RGSmhCT3Brajk0SXNjMHk0MUotLTJkbG1LNTZGOEdDYlNlcVBZWUpqUzYtc2xCaEJOR2xBWEdCWEtBTzc3SkZId0U4STQtbDM2XzdMUHN0OWYzOA?oc=5",
+          "published": "2026-03-25T04:01:00+00:00",
+          "publisher": "The New York Times",
+          "title": "Mullin Confirmed to Lead Homeland Security Dept. - The New York Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84MmFGUldSM0RzX2ttRktmandJNXp1NUpKQU40N1NZZ29GMDM5RDZ0V2d2aEZ3WHBoMVNxbHdZSFhXU3VxMVpfX0E3cy1rYUY5WWhHSjZ1Z3k0Mm1telA0WTRENzdKV1JkWDBfbUNZWWM0NjhYZVU0LV9VRQ?oc=5",
+          "published": "2026-03-24T15:44:49+00:00",
+          "publisher": "Los Angeles Daily News",
+          "title": "Some state officials say shifting mail ballot deadline will complicate plans for November elections - Los Angeles Daily News"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORmhkb0RRVDNEM1VEWmRieGlzTnF1YjVmR2dXNUhTNnp6UFNsblIwSG54UU1Kd2ZkWFdTWlBDZjg4YjRuWnJwVW1lYTJjOVB4clRFVk51bVkxc2hWalljS2dGNWRycTdIX3h5bWU4WXJNTWY0MFFvNlJfRUVDMzU5d0lMMzVFeVlpbkpjNEUyRW8yNG41dVNxa29HQ2Zvd1BGQmQ2MDNPSmFUbFJs?oc=5",
           "published": "2026-03-24T08:55:51+00:00",
           "publisher": "AJC.com",
           "title": "Skeptics said 2020 election boxes were missing. They never asked Fulton. - AJC.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lb3JCMkpNU1RGSmhCT3Brajk0SXNjMHk0MUotLTJkbG1LNTZGOEdDYlNlcVBZWUpqUzYtc2xCaEJOR2xBWEdCWEtBTzc3SkZId0U4STQtbDM2XzdMUHN0OWYzOA?oc=5",
-          "published": "2026-03-24T02:43:40+00:00",
-          "publisher": "The New York Times",
-          "title": "Mullin Confirmed to Lead Homeland Security Dept. - The New York Times"
         }
       ],
-      "hits": 2,
+      "hits": 3,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxNd3NLN1FmR3JRRmVGVGMwbzZkVndEMU9sZmlfQVNZN2NsWWdmc2ZDektTeHI1Yms5b29BR2RIUFIyell3YjU3c09RRmtMcXI5Y0ItbG5GaEU4djVZMUtGakVzbjl1T2thMEhVekp6QUN3cXloWVFrSC1lcjV3X1QtbmlaSlZmUzdyTUFPNGxEWWhISHZxcEo5SlF4MU5NWllPbmx6Ul9way1KZThGTzlJeWhRQ25FWHY1bTV0MFVRbmd5TXhMZy1COEJscGhPSWhTN1VqRWd6S2NLckdRRTU3SGhwTXB3V0NpdWxZZ29GUUxZT1d4bGFibzR1emYxMS11SEQtTFUyLU1OQlRfWW9oMFdzMnVkbmNKd09fOXByLS1oVVlPNmFEeERJal91WVlUODh5c0lRaW42TWM4bnNBWERUWk83ZzBHaEo2UW1qRWhoNXF1?oc=5",
-          "published": "2026-03-23T10:06:16+00:00",
-          "publisher": "MSN",
-          "title": "Can Trump overturn Supreme Court tariff ruling? What US Constitution says - MSN"
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa2F2dlhKM04tbWVXVzk1SWVjblBQYU44ekdRRHJYRHE3WFJDbnJjQXVyRThEdjN5Yk5mTXl1RWFET1Vnc1BGU093RW1kcXg5cWdLZjItNXh3NFV0cTYwbEZhdDNKZUU0cXRSSW9LdnpwdDVIWVlqVUdaQzBUYzZlNmpfeW1wWG5MV04teHp0alV4UlF2bEF4ZV9B?oc=5",
+          "published": "2026-03-24T12:44:47+00:00",
+          "publisher": "Tech Policy Press",
+          "title": "Trump\u2019s Anthropic Ban Is Lawless. Congress Must Respond with a Law. - Tech Policy Press"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14NGhLY0V0aTRDUDZPdDFlWGNvTFp4TVplVEY3ZnJTUFpWTlpjLUVzNHhIQk12OVozblh0RG81T0RTa0lVamFVVDR0VmNNcmd3SnFtcGlFc3pfdnhEX1RDS1Fn?oc=5",
+          "published": "2026-03-24T13:01:44+00:00",
+          "publisher": "persuasion.community",
+          "title": "Unbalanced Powers - persuasion.community"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQbHJuekdyZmRRRXY0TGNmS0J6UkxsNnVISDR5OVdvZXhZSENiVlVxYjRIbThiYmNsLW1TQ3FKbWw2VW5Qbk1NZFBGX3JsdEI4LVpGWkFvakg4dFkwZXdqUzM4YXlFWjFnUGZIT2M0WVVvNHRfNUtPUTU3WDJjV3BidE5GWmZ3SlRneVVPSGVWZlVkNmRjb1NxVlJSbGhfRk5yYmp0T0RBaXZyemdsX3N0cFVjNW1ESDJvZ2w5WXRoX3RPaGpIMlpFYmFJZ0pnWm9zdU1OQnhWTlB2YjZRei1OejViUTZUbVJhbXU0OWRUand5OFVnTS1VVmZqc3l5MVJpemloR1Q2M09VeFp3?oc=5",
@@ -225,29 +243,49 @@
           "title": "Constitutional Checkmate: SCOTUS Thwarts Trump's Reciprocal Tariffs as Administration Pivots to Section 122 Surcharges - FinancialContent"
         }
       ],
-      "hits": 2,
+      "hits": 3,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbVlRV0QzeFR0dUhFQldZUzlNMzl4Sk1YUVhhenRLQ0FoNzcyOUV2eUUyM1ptZXhWRVFBSUJmazI1RVhTWXJfRjBsMFVaa0FwenFRUmlfbUhtUTkyWThodHBLTXR3WnlLdWJEY1hqUlJvYzVZbTFocXNzSzFUdlZkZS15MA?oc=5",
+          "published": "2026-03-24T23:43:12+00:00",
+          "publisher": "frankreport.com",
+          "title": "Epshteyn and the Arizona Fake Elector Trap - frankreport.com"
+        }
+      ],
+      "hits": 1,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUThYZ0pkcnc1SllQWU83QmtCbFppUnRIaHFlRGZKbDNrcjQtWlJaRGNxOE5WZ0I0M1piLWNMZlJJQzNralRKYXE1Ui1QX2dITXAtdDNKWXN3MF9VRFB5VXRwbk56akFWc1lWeGh2a0xIejJtVDlvUE9kUVIyQ2xhQzZIaFRUVk9z?oc=5",
-          "published": "2026-03-22T15:52:33+00:00",
-          "publisher": "The Hoya",
-          "title": "Lawyers Debate Jurisdictional Issues in Khan Suri\u2019s Case - The Hoya"
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9CWk9KcmNCd29zdWJaMFlSM1M1Q29CS2RHUDRFSy1DUzFPd0owZmszeWJjS0ZPd1ZvY3ZHWGhEQjRYQXFVVlpyb2kxcTlESzFzQW9XYm4yeWJtcjlQeWk5S2UwUkFjLTdvbVVBVFlNMkHSAXBBVV95cUxOTTl6X3hSRzRpaGh2RW5zT0FNMEUxSHRlY3VhdmQ4cGVHSElwOVdoZG9qampmVFhPVzMtdWZpV01ycFdTb0RCcEtKUkZaNlhjaTFkMTZ4SEJNRk03eXg0WFNPTmR0c25oc0dSM2hKYWVS?oc=5",
+          "published": "2026-03-24T17:09:00+00:00",
+          "publisher": "Lexington Herald Leader",
+          "title": "What are the 6 cases cited in Fayette Judge Julie Goodman impeachment effort? - Lexington Herald Leader"
         }
       ],
       "hits": 1,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -259,12 +297,12 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.65,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -276,20 +314,7 @@
       "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
