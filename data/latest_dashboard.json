@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 18.59,
+  "average_7d": 18.17,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,21 +9,21 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": -3.64,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": -2.88,
   "domain_breakdown": [
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.75,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 4.5375,
+      "points": 4.125,
       "weight": 22
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.0624999999999996,
+      "points": 1.625,
       "weight": 15
     },
     {
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 1.0833333333333333,
+      "avg_severity": 0.8833333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.520833333333333,
+      "points": 2.870833333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.3333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.0,
+      "points": 0.8333333333333333,
       "weight": 10
     },
     {
@@ -62,21 +62,21 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.5,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.0,
+      "points": 1.0,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-03-25T12:34:59.575360+00:00",
-  "previous_score": 14,
+  "generated_at": "2026-03-26T12:39:51.153068+00:00",
+  "previous_score": 15,
   "provisional": false,
   "score": 15,
-  "score_raw": 14.95,
+  "score_raw": 15.29,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -85,7 +85,7 @@
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNSmhiVTB3NnM5allDbGRQVS1MZElDdVg3N3JtWFBrUTdxX2FKYzRIY2RhTFBWSU5RUmpHekZ6R04taVFqZTRZelBkM20xUUJNNEZLLVBHYVUtc01zTUwwVVZhdFpFeWZzUDFYQTZKc1M3dXFKaU9NcXlHZV9jeWVBSGxWXzVXYUU0RW9HMXFsN0tnTVVRQTVFRlg1Z2dDbWdGdUpZZmxzX1RpYXlhWFc2VUo2NEpINVM4V0RsZTJpUDI0c3R0SzA1ejNSZmVCYkdDZFFmTW1zbHloa3lkOUJQNjBUdmRGWEtOWnJuYUdNd29nVkxmTkZ1M0tVWXlHRkFIUm5OcVlpZENVaWRKaUNF?oc=5",
-          "published": "2026-03-24T23:04:37+00:00",
+          "published": "2026-03-24T23:05:26+00:00",
           "publisher": "thegazette.com",
           "title": "Iowa congressional candidate off the ballot; gubernatorial candidate\u2019s fate still uncertain - thegazette.com"
         },
@@ -97,94 +97,62 @@
         },
         {
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM3BFMnVURF9aZkE2TlBjbmNHNkNLV3lyWHdSTzdwSVczU3N6bDF0V2tBTE4xOWpqYktBYmpfOHpheDZSNHVNb3VUSUJoc3R2TkJNOXdXZkdiNHdkclM5ZFY1LXRyVFlwUGx0WUt0TlpVSGVVTFh6MHRUVl9QTllxdGZlaUtiUXVOQmJ2ZTBKUEZmVE1odk5zdw?oc=5",
-          "published": "2026-03-25T10:17:33+00:00",
+          "published": "2026-03-26T04:54:10+00:00",
           "publisher": "THISDAYLIVE",
           "title": "Forged Certificate, Electoral Act and the Constitution - THISDAYLIVE"
         }
       ],
-      "hits": 7,
+      "hits": 8,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 6
+      "unique_publishers": 7
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbVI2cjlXNFp6ZEFYYm9RNDVzanRXYlNEaWpBdDNISWtiZXFMODNnci1HMURtdUtvRDJiTk5ONkVHU2dMR0h5SnZmNmpVVm1Sa3RlZGR4Y1MzdVZBYlRKenNLT19xQ1dhMGZNdVhBMkE0OWhsS1oyU05oZkpObml0NzBLR0FVRVpBcDFXQmlSY05jOTZ0V1lCRHVMVmFtbXNQT04xUFZKbWpGU0hJS3ZzOURFbU9DQlpfdTVIVkhMQQ?oc=5",
-          "published": "2026-03-23T13:44:46+00:00",
-          "publisher": "Reuters",
-          "title": "US Supreme Court turns away online Texas journalist's case over arrest - Reuters"
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82YjFpenNIVHQxWTNOb05Qd2l5eGhtZ2NITS1OaDJvVU8xa2JsZVBqWmx5TUVwbkpiTl9JRlNrSy1xOUZtT0trNDdhQmhZTnNkZmZrc05qRjFfRU0xNHdnd1FxRHdlVktHcmxjVHhHSnp3NGVqMGNjaGZTRQ?oc=5",
+          "published": "2026-03-26T09:00:00+00:00",
+          "publisher": "The Intercept",
+          "title": "Pentagon Wants It to Be Illegal for Reporters to Ask \u201cUnauthorized\u201d Questions - The Intercept"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQLWtTT3RQSW9vMEotR0JJVDZBWmtmeUlSNUl5VlZuR09ZaDZ3MmVTOUUxYzV4TW03LWVXNmxCNDRBb2NrX01SOWlXNDkxYjhOb29zdGlCMW40SHhuMFhQeFVKaGtGX29qWDVBVkNjU0FrT29ZakJxRTRnTGVyOXVrQ0VGaXBIRmJoUE1MNTRwcmM5U3RYWWdVWlF0RXNTTnJlSnNBalB1QURzNkFqOVlfRVNHN19Id0tBaG9kX21IVnUwRlNsdkF2SFZCeXdDMUJLT0RFSHJGNUpTOE9LZzk0aWZBM014Zw?oc=5",
-          "published": "2026-03-24T21:23:21+00:00",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMXFwSzloZmFLOFR0dXZuY1NBT2lOWE5xQlkySUhkdklDNGtNWDJtdXBoaGVIdG41WV9jMFY5U1NSZEpOTzgxNElSZzFtNEYycjBSLTlyWFZXRUE3ZHhZbTB5VVRrWWowdlh4R2lwMlFvNjhGRFJUaUVUZ3p5RlBQMklMU0hKLXpaQTEtNnpwSW1hdnVBQ0JIT2tMeE5iQS1tY0twbQ?oc=5",
+          "published": "2026-03-25T15:08:49+00:00",
+          "publisher": "Nonprofit Quarterly",
+          "title": "The ICE Detention of Colombian Journalist Fuels Press Freedom Concerns - Nonprofit Quarterly"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMFoybV9ITWNGV0N1ek00SXJCdl9CVzdqNmt5WVBXNUZvQUZoOWM3WEhMcnZuTEN4d01qcjFveEt3SC03N1Jial9xNzhqUHI0V1o4R19XNEFwT21TQTF6dDVqNy1mOHBLTnRGZ3JPd1lBNE1GS0otSU9WVl9sd0M5MDVfcWVtSXBvMTVWaGJfMlgySG5PTE10U2h6OHFfOHlBblFTRjRPaUJzcE0xcW4zQnJSSHVULS1KUXoxVFdBdDR6cXpVelI2Ymo2c3dPMlJkNHBFNmZRa2RYNkJCSmNzTnNvR2JUeEVKOFYtSg?oc=5",
+          "published": "2026-03-25T14:14:19+00:00",
           "publisher": "MSN",
-          "title": "Supreme Court leaves Texas journalist's case shut - MSN"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQzlQQ1dNWDNzaDY3aUZBd0t2ek5WS01fYXBHTUVlZjBCSXlOYndRSDR5dUlMLW1uVVZIWDNTZ0E4NURZakJUcDFpeldBRWROWHAwTUZtMWJ5ajBPeEdDd0pLdWRqRmdYMXBTLWVVVE9kRFZyLWlEaUpTT2U3S3VKeUJLUUJ6ZF92eC1oNGtB?oc=5",
-          "published": "2026-03-24T13:15:56+00:00",
-          "publisher": "The New York Times",
-          "title": "How Pakistan Is Trying to Reshape Its Image Abroad - The New York Times"
+          "title": "Supreme Court ends journalist\u2019s First Amendment fight - MSN"
         }
       ],
-      "hits": 6,
+      "hits": 5,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 5
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNREUtc0pDQkNPdkRyNDZoa2tIMENUTkxob2F2ek56VTMyVEROQk9NNDlra2VLZWpHQ2VJSWZ5d1lCdFpOOHNZRTNkcHNMUmdHWFFWaFhEUnpjcGdUaHRZTlE4SmtkMDZLQllWRVZvTHFwSzNWQWJaME9fUV9BckI4eWM4d2FWU1VxMm5UWmJ4TTIzQkpSZDVXbjFMTW90NHc1WjVYMkgwemNnQ2t4T29kamFB?oc=5",
-          "published": "2026-03-23T16:28:52+00:00",
-          "publisher": "GV Wire",
-          "title": "US Supreme Court Conservatives Lean Toward Republican Bid to Limit Mail-in Voting - GV Wire"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1YN1JDRlV0d0g5SVhHM05raGY0OENjMHpSeHJqLUNMZE42T3VsNzEzaUpTUTBiYkpMbDJQRHVINUxHVGZBYlhMRmp5d2gwWVVJamlnS2JQSWpGTWVjX3R2dU5KQURhMDRMOWZ1MEZvRDktelJPOGswZWkyOF_SAYIBQVVfeXFMTWQ2bVIxS2U1VlRzM3dISXJCYy1nTXRBanQxc3pFNGZLb0c0MkJER2Z0RWhDcTZkSWxCWUkyWlFkS2ZUREwyNlEwN1JFWVQ2V09vWnFwSDhwd1RJU2FmZ0w2RUNEVmE1N3JsdkVDNF91ekFLY2xzTHpGTHk0Q1ZhbXNmQQ?oc=5",
-          "published": "2026-03-23T12:52:00+00:00",
-          "publisher": "CBS News",
-          "title": "Supreme Court grapples with laws allowing mail ballots that arrive after Election Day to be counted - CBS News"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU3h5Nm1tT1Y5LWdDaEg1MEVKaktzYm5vUzZOTFNsQWFocE9GdjBYaGlibTA4QWdoczBfeG1JY0pYQ1pvYjA4Nzhjbmg3NVJGbnJIX2dKaDRyUld5NVFNODQ2RkFmamVEUnlERjFuRFM0dUJ1NTJKeFh3RUxkcXU4Y0VtbHVPbGZhcEhnZFJB?oc=5",
-          "published": "2026-03-23T15:28:51+00:00",
-          "publisher": "GV Wire",
-          "title": "Justices to Hear Challenge to State Mail-in Ballot Law - GV Wire"
-        }
-      ],
-      "hits": 3,
+      "evidence": [],
+      "hits": 0,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
-      "id": "election_delay_or_cancellation",
-      "name": "Election Delay or Cancellation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.65,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -194,7 +162,7 @@
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1lb3JCMkpNU1RGSmhCT3Brajk0SXNjMHk0MUotLTJkbG1LNTZGOEdDYlNlcVBZWUpqUzYtc2xCaEJOR2xBWEdCWEtBTzc3SkZId0U4STQtbDM2XzdMUHN0OWYzOA?oc=5",
-          "published": "2026-03-25T04:01:00+00:00",
+          "published": "2026-03-25T21:58:00+00:00",
           "publisher": "The New York Times",
           "title": "Mullin Confirmed to Lead Homeland Security Dept. - The New York Times"
         },
@@ -203,29 +171,49 @@
           "published": "2026-03-24T15:44:49+00:00",
           "publisher": "Los Angeles Daily News",
           "title": "Some state officials say shifting mail ballot deadline will complicate plans for November elections - Los Angeles Daily News"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORmhkb0RRVDNEM1VEWmRieGlzTnF1YjVmR2dXNUhTNnp6UFNsblIwSG54UU1Kd2ZkWFdTWlBDZjg4YjRuWnJwVW1lYTJjOVB4clRFVk51bVkxc2hWalljS2dGNWRycTdIX3h5bWU4WXJNTWY0MFFvNlJfRUVDMzU5d0lMMzVFeVlpbkpjNEUyRW8yNG41dVNxa29HQ2Zvd1BGQmQ2MDNPSmFUbFJs?oc=5",
-          "published": "2026-03-24T08:55:51+00:00",
-          "publisher": "AJC.com",
-          "title": "Skeptics said 2020 election boxes were missing. They never asked Fulton. - AJC.com"
         }
       ],
-      "hits": 3,
+      "hits": 2,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 3
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbDJfR2JRRHk5bkl3XzZXd2xuVXdpNVF3ZTJ4TGN1RzNFcGJ6blZweGI2RDEtM3VVb2JmUWFTQWQ3VDA5dFc3Um9VM2xUQmlMUHlQa3BTcFhNWTdHZ0RoOFZJcl9FNjZYc2U5OXhENk1KaWQ0aTlBSmdvRnFtYld5a1U5M2ZxcXZWUVN2QnlDRVZXRlZsaDNGWnJ2NA?oc=5",
+          "published": "2026-03-24T22:02:32+00:00",
+          "publisher": "FactCheck.org",
+          "title": "Competing Claims on SAVE America Act Disenfranchising Voters - FactCheck.org"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbVlRV0QzeFR0dUhFQldZUzlNMzl4Sk1YUVhhenRLQ0FoNzcyOUV2eUUyM1ptZXhWRVFBSUJmazI1RVhTWXJfRjBsMFVaa0FwenFRUmlfbUhtUTkyWThodHBLTXR3WnlLdWJEY1hqUlJvYzVZbTFocXNzSzFUdlZkZS15MA?oc=5",
+          "published": "2026-03-24T23:43:12+00:00",
+          "publisher": "frankreport.com",
+          "title": "Epshteyn and the Arizona Fake Elector Trap - frankreport.com"
+        }
+      ],
+      "hits": 2,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa2F2dlhKM04tbWVXVzk1SWVjblBQYU44ekdRRHJYRHE3WFJDbnJjQXVyRThEdjN5Yk5mTXl1RWFET1Vnc1BGU093RW1kcXg5cWdLZjItNXh3NFV0cTYwbEZhdDNKZUU0cXRSSW9LdnpwdDVIWVlqVUdaQzBUYzZlNmpfeW1wWG5MV04teHp0alV4UlF2bEF4ZV9B?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObHpwa2ZYZmFHb3R4bmZEakxkNGx2SG9odHBCejBiS1U2VHM5Wk5idEdxa04zNFRFS3Y0RkNCU2JtRkgyZnJFSmdMTmk2WjBpVWQyYl9KRld5aGczQXZ4ZlMwdjVzV3FxZ1lXMFl1UWM1R3NpWm0xU3ZmTmcxaVg0UnpXRnZDWk41MWVJMEhCVWJOSzg?oc=5",
           "published": "2026-03-24T12:44:47+00:00",
           "publisher": "Tech Policy Press",
           "title": "Trump\u2019s Anthropic Ban Is Lawless. Congress Must Respond with a Law. - Tech Policy Press"
@@ -235,37 +223,31 @@
           "published": "2026-03-24T13:01:44+00:00",
           "publisher": "persuasion.community",
           "title": "Unbalanced Powers - persuasion.community"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQbHJuekdyZmRRRXY0TGNmS0J6UkxsNnVISDR5OVdvZXhZSENiVlVxYjRIbThiYmNsLW1TQ3FKbWw2VW5Qbk1NZFBGX3JsdEI4LVpGWkFvakg4dFkwZXdqUzM4YXlFWjFnUGZIT2M0WVVvNHRfNUtPUTU3WDJjV3BidE5GWmZ3SlRneVVPSGVWZlVkNmRjb1NxVlJSbGhfRk5yYmp0T0RBaXZyemdsX3N0cFVjNW1ESDJvZ2w5WXRoX3RPaGpIMlpFYmFJZ0pnWm9zdU1OQnhWTlB2YjZRei1OejViUTZUbVJhbXU0OWRUand5OFVnTS1VVmZqc3l5MVJpemloR1Q2M09VeFp3?oc=5",
-          "published": "2026-03-23T21:29:00+00:00",
-          "publisher": "FinancialContent",
-          "title": "Constitutional Checkmate: SCOTUS Thwarts Trump's Reciprocal Tariffs as Administration Pivots to Section 122 Surcharges - FinancialContent"
         }
       ],
-      "hits": 3,
+      "hits": 2,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 3
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbVlRV0QzeFR0dUhFQldZUzlNMzl4Sk1YUVhhenRLQ0FoNzcyOUV2eUUyM1ptZXhWRVFBSUJmazI1RVhTWXJfRjBsMFVaa0FwenFRUmlfbUhtUTkyWThodHBLTXR3WnlLdWJEY1hqUlJvYzVZbTFocXNzSzFUdlZkZS15MA?oc=5",
-          "published": "2026-03-24T23:43:12+00:00",
-          "publisher": "frankreport.com",
-          "title": "Epshteyn and the Arizona Fake Elector Trap - frankreport.com"
+          "link": "https://news.google.com/rss/articles/CBMimwhBVV95cUxNQ3hxcUJnTU1YMldtMTlNZ19wVW4tMjBvLVBCdGdkM1ZvXzJBM0owSmlxSjRyang4OGZBUnJicWhEc0dSV2M2Y1JRY1F4STd3WWtRU0NHZF9XNm5qNXEtcWVLYUVFcHhNR2NsT01iQ2V2Vm1wYWh6MlUxZE91WEJXcmFzNDJ4M0FtRi1EbTJGN2xDeEc3RUl2OXhNRzFCLTRxNko0Ym5pY2x5UWNPVDcxMEJRNVhUcmV2S1ZHcXlxWHllcmNCS2VDRUx3aF9VaFRrVjkzVG1LRG9oX2NwUURmZ0dfWk1hR3pvaXBnUXVRN1ZtbHhBMVB2R1FNNExLQ2tGWk5GelBMTng5Y3lQYko0S053b3MteDlUYXBNZ1N5SllJc1B0bU9UTnQxZGNSZWFQWXg2bG9yRl9oVWVndkJ0dlhwQnNFRkk3a3BQa1I5TzZ0Q2l1Um9EMkZ1ck1ZSjEzc0t1N092YTA1Tk9OVC0xOGJhZDV3SDZXWHAxUjVzTTlLREtpNGFwVFFpZXh3VW44MkJtMFM2bk9Wa01HVzk2eTExU0JzMG94SGlmZXZpNHRXd2tweHh5OWNHUWl1UHJyYjZhVjU1YjF3QmRnRURsdHBRVW5SdVhJUWI4NFB1S3pMT1BwNVc5eGF4MktHeF9RdjVjS0J0Q056b28xdjZZWFNieFcwMENOVEFLbFVydUxNdlJFTklINm1FbEhMTFdWdTFBdld5ZFJTMnVlUDM0TDNuVnl2VnNYc2FZZmFYMW5peE95VVh5TkYtQ3AwaFY5TnRkbnNkVVYzSW45VWF0SkxKMU43VFVwcVRobE1TLUVLS2tIYUpEam5TWGhOeHQ5b0R2TVBFTUlZTllOQUZkcllkNHc2dllROFQwTnEyaGdCU0dzOWdOV2hRUkNBNVBEUF9wWUNyMmVka2MxNWsyTVZlX2hsRld6NXdDRXl6czAyNXd6NGxtRF8ya0NHT3F4cy1uVEtSei01YlZRWXFvRTRuVU9XaUI0ZXVoS194Nm5vSEV5X29CZF9IbktJNUxPRnhqMng2MDZKWHl1WHVwUV9uU21vV0VXdDF2aVRXeFBEUGxmeEk3dENYQ2NxRmJVeFlhMW1wQzBNbTFGbFBPU3dUeVI5SG1KNkRGVDFKRnlaQk8zd2l0V09SeldmYXoxWlFPNWZKcEtOODFDNHJDVVh6dGZuR25YbDhUT25QS1FxTFhPVFlxTU1XYUdXNUhNLWJpR0RrM0szcVdYWGJyQ0ZYZndHLS16b1FMVnFTMHlSQXlaaTc5M1ZSM1hycTNTRmplRzducXdSd0Zmc1FlbWtWYmpBclNXaVhRTmNtVVQydUhWZjZNdFBYRU44QkYyWXBremx4ZVVoVUFZZDJpQzdFNG5GaUVzWEJR?oc=5",
+          "published": "2026-03-26T03:12:08+00:00",
+          "publisher": "facebook.com",
+          "title": "\ud835\udddd\ud835\uddfc\ud835\uddf6\ud835\uddfb\ud835\ude01 \ud835\udde6\ud835\ude01\ud835\uddee\ud835\ude01\ud835\uddf2\ud835\uddfa\ud835\uddf2\ud835\uddfb\ud835\ude01 \ud835\uddfc\ud835\uddfb \ud835\ude01\ud835\uddf5\ud835\uddf2 \ud835\udde3\ud835\uddfc\ud835\ude00\ud835\ude01\ud835\uddfd\ud835\uddfc\ud835\uddfb\ud835\uddf2\ud835\uddfa\ud835\uddf2\ud835\uddfb\ud835\ude01 \ud835\uddfc\ud835\uddf3 \ud835\uddd4\ud835\uddd8\ud835\udde6\ud835\uddd9-\ud835\udff3 \ud835\uddf6\ud835\uddfb \ud835\udde0\ud835\uddee\ud835\uddfb\ud835\uddf6\ud835\uddf9\ud835\uddee, \ud835\udde3\ud835\uddf5\ud835\uddf6\ud835\uddf9\ud835\uddf6\ud835\uddfd\ud835\uddfd\ud835\uddf6\ud835\uddfb\ud835\uddf2\ud835\ude00 The Commission on Elections (COMELEC) and the ANFREL - Asian Network for Free Elections announce the postponement of the seventh Asian Electoral S - facebook.com"
         }
       ],
       "hits": 1,
-      "id": "alternate_elector_scheme",
-      "name": "Alternate Elector Scheme Activity",
+      "id": "election_delay_or_cancellation",
+      "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -294,6 +276,46 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb0VxNFdBRlBJakJUbTlhNDRBcXFRQ2wxUHkya0txd1Z1WDVYMHJPX1FNaVpiV24tMTNaSkR3NWpBMDA3RmdMaUNsYVBRLXUxTDl3ZTBJb2tmcXVHVUNrLU9IbjRHd2lDMldDYjNKVEJTazY5SjFHYmtsOEt0SVFfTGNCS214UlZKTkRyMDNxdHFQd0ZhZkNFNEVR?oc=5",
+          "published": "2026-03-26T04:18:38+00:00",
+          "publisher": "The Regulatory Review",
+          "title": "Remedying Improper Removals of Agency Heads - The Regulatory Review"
+        }
+      ],
+      "hits": 1,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "federalism_oversight",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWUFQWk5NeGFIRkRhQjRMSmI3aXZtdjd4ay1uSjZPTEJBR0JYT2lZdUxZbzBSLWJjVnBQMGt6a3pEcU1uRWRMcldjc25XbGNmeFQwNVVzYnpENEhSdGk5bGlfSnhfeVdVWW1laXhPcnJmWFVESDhCV250c2xYTzUtM3RTSGNZTXRrNGpHV2JLdWt1b18zclJSeV9yaWxvdUZwN2gtT1pzeHhSVEFVSGw0TlliSXBfWm00SWgwNGVDOA?oc=5",
+          "published": "2026-03-26T12:37:00+00:00",
+          "publisher": "International Business Times UK",
+          "title": "Republicans Shut Down Congress to 'Protect' Trump Jr. From Testifying About His Firm's \u00a3484M Pentagon Windfall - International Business Times UK"
+        }
+      ],
+      "hits": 1,
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
@@ -301,20 +323,7 @@
       "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.25,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }
