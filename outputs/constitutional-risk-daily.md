@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-03-29 12:34:00 UTC
-- Score: **13 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **-1.3**
+- Generated: 2026-03-30 12:40:30 UTC
+- Score: **14 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+1.0**
+- Delta vs 7-day average: **+0.4**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,48 +15,48 @@
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
 | Elections and Transfer of Power | 22 | 0.50 | 2.75 |
-| Judicial Independence and Rule of Law | 15 | 0.67 | 2.50 |
-| Opposition Rights and Political Pluralism | 14 | 0.43 | 1.52 |
-| Executive Constraints and Emergency Powers | 13 | 1.10 | 3.57 |
-| Civil Service and Agency Independence | 10 | 0.33 | 0.83 |
-| Civil Liberties and Information Environment | 10 | 0.50 | 1.25 |
+| Judicial Independence and Rule of Law | 15 | 0.55 | 2.06 |
+| Opposition Rights and Political Pluralism | 14 | 1.00 | 3.50 |
+| Executive Constraints and Emergency Powers | 13 | 0.87 | 2.82 |
+| Civil Service and Agency Independence | 10 | 0.22 | 0.54 |
+| Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
-| Federalism and Legislative Oversight | 8 | 0.33 | 0.65 |
+| Federalism and Legislative Oversight | 8 | 0.15 | 0.30 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Court Order Noncompliance | judiciary_rule_of_law | 2.00 (Yellow) | 2 | 2 |
-| Legislative Bypass by Executive | executive_constraints | 1.65 (Watch) | 3 | 3 |
-| Martial Law or Military Governance Language | executive_constraints | 1.65 (Watch) | 0 | 0 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.30 (Watch) | 2 | 1 |
-| Election Administration Capture | elections_transfer | 1.00 (Watch) | 2 | 2 |
+| Opposition Ballot Exclusion | opposition_pluralism | 2.00 (Yellow) | 3 | 3 |
+| Court Order Noncompliance | judiciary_rule_of_law | 1.65 (Watch) | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 1.30 (Watch) | 1 | 1 |
+| Martial Law or Military Governance Language | executive_constraints | 1.30 (Watch) | 0 | 0 |
+| Election Administration Capture | elections_transfer | 1.00 (Watch) | 3 | 1 |
 | Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
 | Election Delay or Cancellation | elections_transfer | 1.00 (Watch) | 1 | 1 |
-| Independent Agency Capture | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
-| Legislative Oversight Obstruction | federalism_oversight | 0.65 (Green) | 0 | 0 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
+| Independent Agency Capture | civil_service_integrity | 0.65 (Green) | 0 | 0 |
+| Legislative Oversight Obstruction | federalism_oversight | 0.30 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
-### Court Order Noncompliance
-- [Government Executive] ‘Blatant disrespect’: Judge contemplates contempt proceedings after VA re-terminated union contract - Government Executive (2026-03-27) - https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdlZuTEtqbG1abE1lWVk2OG5NOE41ZWN1Vi1adFZES0tVV2w2RnVyMnI5djZpcUJRcVhabU9tWTFRQXlCRXduM0pUVjQ2WlNRVUxQNkJ5aFY3TVZUanpYOHlqNlR6REFoRmNDUE82WmxaRmlSZHRWTi1IZW4tZkpNLUNlRERSRjVYR3FkUEVuU3VBaEQ3dFpOb2tDbFdtSXg5c1ZuZ0ZENnNseHUzNTY3RXBrX3c1ZURxeFFCX1FtR3JnckdONDVlTGlsUVN5ZlZRR0hFREtzblBQSVZyTGJZ?oc=5
-- [Federal News Network] VA re-terminates AFGE contract for 300K employees, despite court order to restore it - Federal News Network (2026-03-27) - https://news.google.com/rss/articles/CBMiygFBVV95cUxOdVBGNE04NExXTjR2WV9MREtfSm5lMHlMVmVYb1RMQTgyVElzRm1tRHBTRGYzWWl2U0d1c2RYcm5Ob0NEZTJJMHM5bWx5Ykd2UmdNdmhzSkx1XzlPUnJUVWEtX0o5enZVSlJ5MkZVOFhPYVViOElVN3ZLYm5lQU53Zk1ySjdlQTJQdWYtTVF4R05OSjlZSHgwUG9reXhIMmU3SFc1cGd6MWl4TXp0UGFUSks4RWtoMEllWFY3enJtUjNoMEZzRlQyUTlB?oc=5
+### Opposition Ballot Exclusion
+- [The Hindu] Assam BJP expels nine rebels contesting as Independents - The Hindu (2026-03-28) - https://news.google.com/rss/articles/CBMivAFBVV95cUxNNlJsLTBIenNmVHg2d3E4c0JtS1o2ajY1NTFEN3FmS2RIZXVQR2lVNE9ucGxKcV9QTFhsV2lSOFB1cGlrOUxjblJld2w1Sk5Yel9QYVJHN1Y2aHhQZGVLQkRqU3VnZDBzY01CaHZqelAwUlBHTmhIM291aXFaVkZkZTAyY0xXQ1hiMjNpV0preDRCQXdMWTJlRmpacmc2bGhhdzRBV1RJZWJHUGtFajFIbTNlMlVGYzAwZVg3bdIBwwFBVV95cUxNd0pDQy0tRGFqX2RtZHhLMVF2bUNBa2NaSVdEVGVkMkF3Y3FyUXlXd21VV2h0by1TQkpjTFhrbVhkRFI4UHQ3dGN5c2ZodUhlMHhhblcwb3kxVWJvYjM3RTVoNWxyX1h0TmhuSkJkUlN4cVZJQU1qVE05bDNscGFUUlBMbFR0dEY1Mk5iX21BeGIxQTFfMzVHbkRBNVdRbU9WY2lTX3dhN2JuZzRURk9FLXdLRGVZTU51S3JScFpqZkFwOEE?oc=5
+- [The News Mill] Odisha Congress demands disqualification of two MLAs for cross-voting in Rajya Sabha election - The News Mill (2026-03-30) - https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVNxT2U4UUppWlJOR2ExcU14Y0M4bHlxNDQ2bS1nX29XQjRDbkxRODdnOE83X3B6SUVwdFdnRjE0elpqMkwzeEdCaW5wUjhBMmNoaVQ1LVF1YVVaMGRUNEx3ZDFPczN2M1BIY2o4alkxQUJaVFJwbExUTFUzbjBVdlIzSVE2b2x3UVZLZEJnQmlQV2hsN2RTb3JtYzQ0RUl0aDhSOGlEdjVjSW1RYnZORFJRYVNzcWl6YkdvNlEwOG1pWmRy?oc=5
+- [MSN] Congress suspends three Odisha MLAs over cross-voting in Rajya Sabha elections - MSN (2026-03-29) - https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV0VCOTc1NTlXdDNEbFdWNHFpM0U4RGpWNktDTTZvcXczVHhQZzBqQ0xTSkVHYy1VY2VqMjhYUHRiX3cwRGJscHJMOWRiTDZCakthX2NzZFpOTXY0bWQtTXlsSllrSk5na29DZ3BhX3I0dmh0eHFGeDRXSURXLVNNVkhTU0dHUGY4dXNJVkJZZXVSdi1BYmdvSU5PNW00LVAxYVpPVU9KRUlybE95MjRpSmtwUGd3OVJtQ09XWkFwNnV3SGhTSjJhOURYTFVzMHpRZFkxVDdn?oc=5
 
+### Court Order Noncompliance
+- No fresh evidence links in the current lookback window.
 ### Legislative Bypass by Executive
-- [The New York Times] Republicans Reject Democratic Proposal to End D.H.S. Impasse - The New York Times (2026-03-29) - https://news.google.com/rss/articles/CBMiY0FVX3lxTFBxc0U5cVROZ2tlM2Q1MW1TdXQ4M2hSZXA4bTRlcXY5dUVKMVVJMUUzY2hZbjc0cVY2ZXd1dG1Kd05BWjNOcldWTnFPVGRETDZNcXhGWkhRSmtMbVJvcVVkZm12VQ?oc=5
-- [MSN] Trump orders TSA pay amid shutdown chaos - MSN (2026-03-27) - https://news.google.com/rss/articles/CBMi8wFBVV95cUxPb2FGanh6a0hueWlOektHQXc3MlR2S3prNTFVNTY0ekpobFFPNlNWV0NJMTNSWC10RktpU2lxTHJna0ZNcGFLRW00WDJVTUlaY3RuVE5aQ1pFOWRHdlUtd3lsWkFQNkN0LUVLN0gta3hlSFMyemlrZFk2UlhDWUpWLU5NclpDOEVhQlhIaXlrYmtNMWVDU2NfLWo3cjZNbE15cGdBQnhDMlQ3NHkzOVlIZFEzempCUkVqMTEyMnl0d1RaYW1BbHR0UFBjc1YtSzg2eEdKanRQV3J1SnpHZWozOVk3MkpVRmdZTGZoYjN5NEVIdEU?oc=5
-- [zoomnews.in] US War Powers Debate: 11 Instances of Military Action Without Congress Approval - zoomnews.in (2026-03-27) - https://news.google.com/rss/articles/CBMixAFBVV95cUxOWFdzTk1WNGhtcWVMa1hYLS1pYlMwV3d6R0dZZXIzUVFJenZrb2xKU0xEaW9ta3Fzb2s3SlJpQ1hVNUpTTW80cHdSYjZQdGo0SFlQRW5Za1IxdFk5cWxuQXZ1bG1ldjJnM0tuUDBZWVpld2VUZzVtVmJOVHlDX2xWMjhYRmNwRGc3bndUbTNobFdYUVI3SmVVVlBJS3pkWmdpbk5YYl9sdVNpbFVDMTFEbUtFX0FIS0lmdGpuSzJEWWZWOFZ10gHEAUFVX3lxTE5YV3NOTVY0aG1xZUxrWFgtLWliUzBXd3pHR1llcjNRUUl6dmtvbEpTTERpb21rcXNvazdKUmlDWFU1SlNNbzRwd1JiNlB0ajRIWVBFbllrUjF0WTlxbG5BdnVsbWV2MmczS25QMFlZWmV3ZVRnNW1WYk5UeUNfbFYyOFhGY3BEZzdud1RtM2hsV1hRUjdKZVVWUElLemRaZ2luTlhiX2x1U2lsVUMxMURtS0VfQUhLSWZ0am5LMkRZZlY4VnU?oc=5
+- [theblaze.com] The Fed’s independence has become a constitutional absurdity - theblaze.com (2026-03-30) - https://news.google.com/rss/articles/CBMiogFBVV95cUxQbTBNU1NJRzByS1ZRVlpFNm9ITE50V0NUVHYtb2Rfd2pyWWRJMFRoM0FGNzh4MzRXYzN1U3dqV2VHSzg5U1hyMFM1SkdsT2Q4OVRpZ0llMmYxUWVCaEJTUGk3cE9XNGhHbTRLTm1lZWQ4ODhwdkJ2TkVsVEpnaV9nbjhIUXhrMnNSTTFhMjlYeXNQSmpxX1lzU2hwdllaMElIUWc?oc=5
 
 ### Martial Law or Military Governance Language
 - No fresh evidence links in the current lookback window.
-### Opposition Ballot Exclusion
-- [The News Mill] JD(U) Seeks Disqualification of MP Giridhari Yadav Over Campaigning - The News Mill (2026-03-29) - https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSlpCTm9lU1hmWFZJaEtOWjQ5eG16RHF4aW1hOXlLMTM5OWNONmtDT3JLb0JqY2RYRHhRN2pBUVNUUDdVTmxFUmtOWEJBM2R3S0NYYjZCNTF4aUdyN1NEekdpWFpNZFExekY0SFZWMW5LMnJhaTIyb0hxRWRoMzk5S250cmgwY0RnT2Jsbks0bVRGVGU4eS1GeDNHcmZlN3JyVHV2aXBTcUp3dlc5WTBvTUhFV1AxRGM0?oc=5
-- [The News Mill] Odisha Congress demands disqualification of two MLAs for cross-voting in Rajya Sabha election - The News Mill (2026-03-28) - https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVNxT2U4UUppWlJOR2ExcU14Y0M4bHlxNDQ2bS1nX29XQjRDbkxRODdnOE83X3B6SUVwdFdnRjE0elpqMkwzeEdCaW5wUjhBMmNoaVQ1LVF1YVVaMGRUNEx3ZDFPczN2M1BIY2o4alkxQUJaVFJwbExUTFUzbjBVdlIzSVE2b2x3UVZLZEJnQmlQV2hsN2RTb3JtYzQ0RUl0aDhSOGlEdjVjSW1RYnZORFJRYVNzcWl6YkdvNlEwOG1pWmRy?oc=5
-
 ### Election Administration Capture
-- [Iowa Public Radio] Today's Iowa News ↓ - Iowa Public Radio (2026-03-27) - https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5
-- [goldrushcam.com] California U.S. Senator Alex Padilla Leads Charge to Successfully Block Another SAVE America Act Push, Says, “No Matter How Republicans Try To Spin It, The SAVE America Act Is A Voter Suppression Bill, Plain And Simple” (Video) - goldrushcam.com (2026-03-27) - https://news.google.com/rss/articles/CBMingNBVV95cUxNdFhKMEJtVEZyTGo3QmUtSWhCUTZuUjY5dEstMkhjbGJNYUY4eU5JWFdhcGdUWkhRWUwxYkNQOE1qd1NGcjc3eVlGUi00bm9SRHdTRl9kSGlsTklrUTB3ZWhHUXUxQUJrN3JWZFgtcFJMMlRhQ05pbG11aXZfZzE5NC0yMEJReDJLM1Q0VnlhSXFPQTRZR29BMXFidnRqTHdPZDNyNWh3Mjd4X2d5MVVRVXU0TmlpWlVmXy0wSFhJQVV6VHNrdWVTTjRERFNUaTZidWg0em15bUFzdUlhcU95YVROTVNUbGdFbUVXbzZMa3lYNlVpZW5sdl9abEFnT0FUaURRanlJNVVYX1lEaUhnalNBa1dQOTdxN3dEVWl5b3RVZ0JiR2g0cGRPbWJjNzgzZnJueEt1QUFFQUhIeV92S2JuMUJxX2xGX3VrNFdSdm9QNE15N2xRSFFGSDUzTWxUdV82cjJfLVRTOTMxakcwN0JwVG5YOG0zTHkxR2EwajJiajh3ZjRRQVQ0X3hIX1Rib3JkUzktVlRHN3FYWXc?oc=5
+- [AOL.com] Georgia’s Fulton County to seek return of 2020 ballots seized by FBI - AOL.com (2026-03-30) - https://news.google.com/rss/articles/CBMigwFBVV95cUxNUlNrU1R5WmVEZ1lpYVU4NWhTYzNRWlVmUURTV3AwamVNMHhjLU9FTG9xVTZlRnp6Qjh3NkpmYjJRZW5yb1J2anc0M2VkcFZ2VVZNbzhGRWVUX2EwcC1xQUNpTUNCWEV1cl9RUXpDR1NvM0hXbnZwTHp0aEMyQnRiaFpOMA?oc=5
+- [AOL.com] Russia probe revival expected if Democrats win House - AOL.com (2026-03-29) - https://news.google.com/rss/articles/CBMikwFBVV95cUxONGMwWFRDSXJWcS1UOTVsZ09JbmFpUUw4YUN1cWM1aU8tNWh4MVdtTGUyS3paSDRLZVJ6V1l1bUlFVUdFOTFGM1BFTUNsMmpyYUJXQ1hVY2ZOWUVpVXl1d29falRzUHVNRFFaaG40Wkk1OUtGeHFmXzBPOGRUVTVCUFE1R2RZUlAzVjBFS3hWMDA5dVU?oc=5
+- [AOL.com] Early voting, vote-by-mail numbers trend higher as Illinois primary approaches - AOL.com (2026-03-29) - https://news.google.com/rss/articles/CBMic0FVX3lxTE84ZGNhMFptblhoQmUxbkgtVktYX2hzMDB2UjNIeWFmVmV2UzJ0MndEVWdWRVZwQWhYb1E0TEhJRERhUzk5NjRhRWJKY3BhMTRlRnkzaFQ1aThsWl9hU1phRVJxM3V6c3BlcjQ2S1BUbldKMTA?oc=5
 
 ## Data Quality
 
