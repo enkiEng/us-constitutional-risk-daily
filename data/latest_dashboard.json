@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 14.08,
+  "average_7d": 14.12,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,42 +9,42 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": 0.39,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": -0.06,
   "domain_breakdown": [
     {
-      "avg_severity": 0.5,
+      "avg_severity": 0.6625,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.75,
+      "points": 3.64375,
       "weight": 22
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.0624999999999996,
+      "points": 1.625,
       "weight": 15
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.8833333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 3.5,
+      "points": 3.091666666666667,
       "weight": 14
     },
     {
-      "avg_severity": 0.8666666666666667,
+      "avg_severity": 0.65,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.816666666666667,
+      "points": 2.1125000000000003,
       "weight": 13
     },
     {
-      "avg_severity": 0.21666666666666667,
+      "avg_severity": 0.43333333333333335,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.5416666666666667,
+      "points": 1.0833333333333335,
       "weight": 10
     },
     {
@@ -62,33 +62,27 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.3,
+      "points": 0.0,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-03-30T12:40:30.555109+00:00",
-  "previous_score": 13,
+  "generated_at": "2026-03-31T12:40:01.130040+00:00",
+  "previous_score": 14,
   "provisional": false,
   "score": 14,
-  "score_raw": 14.47,
+  "score_raw": 14.06,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNlJsLTBIenNmVHg2d3E4c0JtS1o2ajY1NTFEN3FmS2RIZXVQR2lVNE9ucGxKcV9QTFhsV2lSOFB1cGlrOUxjblJld2w1Sk5Yel9QYVJHN1Y2aHhQZGVLQkRqU3VnZDBzY01CaHZqelAwUlBHTmhIM291aXFaVkZkZTAyY0xXQ1hiMjNpV0preDRCQXdMWTJlRmpacmc2bGhhdzRBV1RJZWJHUGtFajFIbTNlMlVGYzAwZVg3bdIBwwFBVV95cUxNd0pDQy0tRGFqX2RtZHhLMVF2bUNBa2NaSVdEVGVkMkF3Y3FyUXlXd21VV2h0by1TQkpjTFhrbVhkRFI4UHQ3dGN5c2ZodUhlMHhhblcwb3kxVWJvYjM3RTVoNWxyX1h0TmhuSkJkUlN4cVZJQU1qVE05bDNscGFUUlBMbFR0dEY1Mk5iX21BeGIxQTFfMzVHbkRBNVdRbU9WY2lTX3dhN2JuZzRURk9FLXdLRGVZTU51S3JScFpqZkFwOEE?oc=5",
-          "published": "2026-03-28T12:56:17+00:00",
-          "publisher": "The Hindu",
-          "title": "Assam BJP expels nine rebels contesting as Independents - The Hindu"
-        },
         {
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVNxT2U4UUppWlJOR2ExcU14Y0M4bHlxNDQ2bS1nX29XQjRDbkxRODdnOE83X3B6SUVwdFdnRjE0elpqMkwzeEdCaW5wUjhBMmNoaVQ1LVF1YVVaMGRUNEx3ZDFPczN2M1BIY2o4alkxQUJaVFJwbExUTFUzbjBVdlIzSVE2b2x3UVZLZEJnQmlQV2hsN2RTb3JtYzQ0RUl0aDhSOGlEdjVjSW1RYnZORFJRYVNzcWl6YkdvNlEwOG1pWmRy?oc=5",
           "published": "2026-03-30T03:17:11+00:00",
@@ -102,42 +96,29 @@
           "title": "Congress suspends three Odisha MLAs over cross-voting in Rajya Sabha elections - MSN"
         }
       ],
-      "hits": 3,
+      "hits": 2,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 3
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbTBNU1NJRzByS1ZRVlpFNm9ITE50V0NUVHYtb2Rfd2pyWWRJMFRoM0FGNzh4MzRXYzN1U3dqV2VHSzg5U1hyMFM1SkdsT2Q4OVRpZ0llMmYxUWVCaEJTUGk3cE9XNGhHbTRLTm1lZWQ4ODhwdkJ2TkVsVEpnaV9nbjhIUXhrMnNSTTFhMjlYeXNQSmpxX1lzU2hwdllaMElIUWc?oc=5",
-          "published": "2026-03-30T11:24:22+00:00",
-          "publisher": "theblaze.com",
-          "title": "The Fed\u2019s independence has become a constitutional absurdity - theblaze.com"
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVUhvb2pXcnkzZlRObERKU0xDclVrMWQ3Zm5vNlJzQXBPSVNaeGxWMHc3RGFZaldXTGNNZ1RKM09NQVduQjFibkIxOFY5OEtuUFhFa0ZPLWw3TFlnZXFoV2ZyQWFVRVJJZGZIc19MYWJ4V0pJcU53clJpOG5RUlBOYXdFdm9nYzFpRlJpemV6dEY3NXY5M1hSeUJpS2h5eWdTZ1dqc3dMWQ?oc=5",
+          "published": "2026-03-31T05:45:09+00:00",
+          "publisher": "San Francisco Chronicle",
+          "title": "Trump administration still giving private health data to ICE, California and other states argue - San Francisco Chronicle"
         }
       ],
       "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.3,
@@ -146,38 +127,25 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUlNrU1R5WmVEZ1lpYVU4NWhTYzNRWlVmUURTV3AwamVNMHhjLU9FTG9xVTZlRnp6Qjh3NkpmYjJRZW5yb1J2anc0M2VkcFZ2VVZNbzhGRWVUX2EwcC1xQUNpTUNCWEV1cl9RUXpDR1NvM0hXbnZwTHp0aEMyQnRiaFpOMA?oc=5",
-          "published": "2026-03-30T07:28:36+00:00",
-          "publisher": "AOL.com",
-          "title": "Georgia\u2019s Fulton County to seek return of 2020 ballots seized by FBI - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQcEk1bi11TS1WbW9rT25wTU1mck8ySkVhR2JoYXNuaTE1R0dVSFVRUk1XZm44ZlVyeHVMbU9ORnhrZ1EzYlh5ZTlxNFJyeFYtempxLXNBU0l3dXppZU1pbVNuT1pqRFh3TllMT1gtbXpjdTE0LTVPNlRpaVFQaDRqXzVwODZWUWFabWxEQ1E5NTdnSHZWQThWNXQtRVVvcWU1SFNvTGVhWF8ycGdldEN6UTNMY2pQS3ktQTVKMW9xRnh6c0w2cVM5Sko4dnVqNFNuZUNCR2JiS3lsRldLMjVfSm1oTHVuai1TZFRv?oc=5",
+          "published": "2026-03-31T00:44:27+00:00",
+          "publisher": "MSN",
+          "title": "Officials join summit urging Trump election takeover - MSN"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONGMwWFRDSXJWcS1UOTVsZ09JbmFpUUw4YUN1cWM1aU8tNWh4MVdtTGUyS3paSDRLZVJ6V1l1bUlFVUdFOTFGM1BFTUNsMmpyYUJXQ1hVY2ZOWUVpVXl1d29falRzUHVNRFFaaG40Wkk1OUtGeHFmXzBPOGRUVTVCUFE1R2RZUlAzVjBFS3hWMDA5dVU?oc=5",
-          "published": "2026-03-29T23:49:04+00:00",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNVhvUXk3cENxc2VveVFGV1BlRi1YTFJBOURCVTE2VHZXWUY1YWEtSk1TZlJ5ZXVDWDZxcjUzS0dPTnRURUlJNHJVR3RoTEhSVDdKU2dOVkdhMEZqcUQ4aGgwY2lYMVdLeDJWbWh4RVhTS2pxSWJEdVpDR2l0TkJkLQ?oc=5",
+          "published": "2026-03-31T10:56:21+00:00",
           "publisher": "AOL.com",
-          "title": "Russia probe revival expected if Democrats win House - AOL.com"
+          "title": "Californians may need to mail ballots early as Supreme Court signals support for new election day deadline - AOL.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84ZGNhMFptblhoQmUxbkgtVktYX2hzMDB2UjNIeWFmVmV2UzJ0MndEVWdWRVZwQWhYb1E0TEhJRERhUzk5NjRhRWJKY3BhMTRlRnkzaFQ1aThsWl9hU1phRVJxM3V6c3BlcjQ2S1BUbldKMTA?oc=5",
-          "published": "2026-03-29T01:18:04+00:00",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NMTFVR2d4MFlDV0s5bDZOclJsOE40VDVBN0toYmJOYl91VlM1Y3MycHdEbWNuUU14VjhDWXF6dmdsT1l4SGU3ekpJcWhfdUdjTDhFNTUyTXpOTlFxZkl0TGU5Q3BhQ0VxWEZyT2ROUXFrX1ItVnI1SVRPRTVEUQ?oc=5",
+          "published": "2026-03-30T14:23:05+00:00",
           "publisher": "AOL.com",
-          "title": "Early voting, vote-by-mail numbers trend higher as Illinois primary approaches - AOL.com"
+          "title": "When is the next election? Here are the key April votes to know. - AOL.com"
         }
       ],
       "hits": 3,
@@ -187,7 +155,33 @@
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OTjhEaTRuWWN3UXFBWlo4ZGozVDRWNHVDUC02OU9aTXExRmxZRi1LdWo1OVhfdU5qVnNsdzN6RUl1dW9VNUd4T01EbTVfOFBsaVNsYnRQazZCRVRuazFINWRMMlIwdlRkV285RFNyOWFqZw?oc=5",
+          "published": "2026-03-30T17:02:14+00:00",
+          "publisher": "theunpopulist.net",
+          "title": "Trump\u2019s Executive Order Diverting Border Security Funds to TSA Is a Blatantly Criminal Act - theunpopulist.net"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV2lmcThRb0V1TEpNd1lYZGZISUs5RDhrbmNRc01EbmZTNkc3cU5HQmNxT1JtVV9GU2haNkRSczhNeXZmMmV0ZE95Z1J0em0wV3BsOURSbmxmbGtxWTJNZzlvUFZkMF9veUM5SU5oRE5oX09KT1g4OGtCTm1DTUY4OFBtdVJhNGUta3I5OUk4QW0yQWFWNkpjb2drcEJsTjFJeVhxaDBkUVhxM3hQZmdVZWJHNDVEUk1NVlAzekRmd0d6LS10MDNLNTRJN2dyT05CWGxxY1JLM2ZtN05q?oc=5",
+          "published": "2026-03-30T22:18:09+00:00",
+          "publisher": "MSN",
+          "title": "Supreme Court weighs Trump birthright citizenship ban - MSN"
+        }
+      ],
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -200,10 +194,10 @@
           "title": "Trump's Escalating Attacks on the Media: Arrests, Raids, and the Threat of Self-Censorship. - The Fulcrum"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa1JuYXFRRElDMkFIc25rVVlndGRFX3RvakhnLVNrQUFoakRmWFJGMllpdHdnelJnd1E0a0xrUTFYdmRLNTctdXdKbHlqb0lXd0Vod3F1MHRfSEFTbndST1hjQVRPNlRWTXp3bTRSV195VWhCdlNRQU1feUNoMjZwempTUVZqS2sySmlOejlORGNFS0ltc0xPNFBYY0FJTVQ1U2tDcDB4Uk55SE1Qd0HSAbMBQVVfeXFMTWo1bElpQjBRMlRYU3FPR28yVGs4NkY5MUhNcm1mZTBQdkxocUlOZ09qelV2Y2RJMk5CUENjN2F4am5sRUVmWHpLTWFhSk1obTBuYTJkNXAxMFlZTzJFa3RSd1NRaGM2RjBZb3FzLVlvYmVVRVhsR3FWeHB0X2F1dVBlYl9Ic2JTaVRvcmVTX0ZvcHJ3bW5CMkFQN2dpY0VHc0dkcDJzMDdCWExnTktxQUlLem8?oc=5",
-          "published": "2026-03-28T16:32:45+00:00",
-          "publisher": "The Manila Times",
-          "title": "Outcry against a journalist\u2019s unjust conviction - The Manila Times"
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPR3FvS00ybmZlUkgxVHg5R0JJNWVCa0hrMmw1aTFOZkNxbGs4QUtucDdxai1Sd1doMEVRbXh4NXU2MXdOWDBQTkZqNC1uVHEzNnYwUHduMUh2WExVSXNDTXVhZllyRUt1VV9jVUI1YUtyQUYyZ25SNnRwdmJwczQ2RmJCZ2dvRW9VRndUWXp1ZkdtLWRzQndLNUJncWc3NEdqZm95R0hMTnFPXzFzNkRDSlkzXzFnRERfTTVSckZfdkF0dXQ2bU9JV3NDaFRUYzdRbk5EVlZDcmpnUnBiQXMw?oc=5",
+          "published": "2026-03-30T14:10:19+00:00",
+          "publisher": "Civicus Monitor",
+          "title": "Vietnam: Persecution of activists and critics continued in the lead up to the sham National Assembly elections - Civicus Monitor"
         }
       ],
       "hits": 2,
@@ -220,15 +214,15 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNem5IRWNUVmpad3dvM0ttUk1rWksyX0h3MDJoNFd5WWtvV0U2UG5Ic1M2T1ltVFZ5TmUxV1NxSDIyVnVoMThvQnR2UDNuQVA5d1hlY2Q0Z0FwbXZ2TWwwY0tpYlJQcmx0M3hiaGJ0ZktGN0duS0NKcHp0RTFWSi1jQWxvQlJsellqZW5uTU9xcmNWSUZFR0wyQlNkUFF3czMzWHdnM3JOU3k2Mm1fMGJHckZwcVRlUE9rMGZfQ1EyM1BFaUswSy00M3NyUVFrVEpLNmFILTFuWWNYMHREOU1Nc2dkZnJmODhWZUE?oc=5",
-          "published": "2026-03-28T23:02:34+00:00",
-          "publisher": "MSN",
-          "title": "Draft order fuels Trump election takeover fears - MSN"
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeWhoWUg4YWNUSzVYanlfZkFVbFFaeVMtSGtxbXpVZ2JKdFlneXhkYjdQUjE4WXZINGNJTGR1VXE5WjdVLURjS2pDdG00dTFpdml2SEV2VDdVSVNrZ1JIbnFFR1BWeGpfV1hrOGZDRElIN1E2VGcxX1JTVzAyeXh0bXBYVjRBV3ZTS1FNX2t4WTk4cV9mN19TaXFvNA?oc=5",
+          "published": "2026-03-30T22:10:28+00:00",
+          "publisher": "Democracy Docket",
+          "title": "In win for voters, Arizona Supreme Court rejects string of anti-voting lawsuits - Democracy Docket"
         }
       ],
       "hits": 1,
-      "id": "election_delay_or_cancellation",
-      "name": "Election Delay or Cancellation",
+      "id": "election_certification_interference",
+      "name": "Election Certification Interference",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -257,6 +251,26 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUjdXLTJHVHh2eXFDSnE4SVZTdVlKTHRTaWh6eTRlZE85SC1mXzV4ZVExLUozekdqX1lYZ3hudjdGVEl4ZEZHd2NrX1JkZHZTNXBIZGc2NXFFWDRLS3lIU0pZOVJzNHFWMkFPMUZQNmJkcWM4a2RKRVNVRjZocjJDZlpSZ1dtN0dUbWxtSHJxb1Atdw?oc=5",
+          "published": "2026-03-30T23:48:28+00:00",
+          "publisher": "OnLabor",
+          "title": "The First Amendment as Government Workers\u2019 Protection of Last Resort - OnLabor"
+        }
+      ],
+      "hits": 1,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
@@ -277,11 +291,24 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "executive_constraints",
       "evidence": [],
       "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.95,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "hits": 0,
+      "id": "election_delay_or_cancellation",
+      "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
@@ -290,11 +317,11 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "federalism_oversight",
+      "domain_id": "civil_service_integrity",
       "evidence": [],
       "hits": 0,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,

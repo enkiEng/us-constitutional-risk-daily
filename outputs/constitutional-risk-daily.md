@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-03-30 12:40:30 UTC
+- Generated: 2026-03-31 12:40:01 UTC
 - Score: **14 / 100** (Baseline Institutional Noise)
-- Previous day delta: **+1.0**
-- Delta vs 7-day average: **+0.4**
+- Previous day delta: **0.0**
+- Delta vs 7-day average: **-0.1**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -14,49 +14,53 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.50 | 2.75 |
-| Judicial Independence and Rule of Law | 15 | 0.55 | 2.06 |
-| Opposition Rights and Political Pluralism | 14 | 1.00 | 3.50 |
-| Executive Constraints and Emergency Powers | 13 | 0.87 | 2.82 |
-| Civil Service and Agency Independence | 10 | 0.22 | 0.54 |
+| Elections and Transfer of Power | 22 | 0.66 | 3.64 |
+| Judicial Independence and Rule of Law | 15 | 0.43 | 1.62 |
+| Opposition Rights and Political Pluralism | 14 | 0.88 | 3.09 |
+| Executive Constraints and Emergency Powers | 13 | 0.65 | 2.11 |
+| Civil Service and Agency Independence | 10 | 0.43 | 1.08 |
 | Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
-| Federalism and Legislative Oversight | 8 | 0.15 | 0.30 |
+| Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Opposition Ballot Exclusion | opposition_pluralism | 2.00 (Yellow) | 3 | 3 |
-| Court Order Noncompliance | judiciary_rule_of_law | 1.65 (Watch) | 0 | 0 |
-| Legislative Bypass by Executive | executive_constraints | 1.30 (Watch) | 1 | 1 |
-| Martial Law or Military Governance Language | executive_constraints | 1.30 (Watch) | 0 | 0 |
-| Election Administration Capture | elections_transfer | 1.00 (Watch) | 3 | 1 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.65 (Watch) | 2 | 2 |
+| Court Order Noncompliance | judiciary_rule_of_law | 1.30 (Watch) | 1 | 1 |
+| Election Administration Capture | elections_transfer | 1.00 (Watch) | 3 | 2 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 2 | 2 |
 | Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
-| Election Delay or Cancellation | elections_transfer | 1.00 (Watch) | 1 | 1 |
+| Election Certification Interference | elections_transfer | 1.00 (Watch) | 1 | 1 |
 | Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
 | Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
-| Independent Agency Capture | civil_service_integrity | 0.65 (Green) | 0 | 0 |
-| Legislative Oversight Obstruction | federalism_oversight | 0.30 (Green) | 0 | 0 |
+| Martial Law or Military Governance Language | executive_constraints | 0.95 (Watch) | 0 | 0 |
+| Election Delay or Cancellation | elections_transfer | 0.65 (Green) | 0 | 0 |
+| Independent Agency Capture | civil_service_integrity | 0.30 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Opposition Ballot Exclusion
-- [The Hindu] Assam BJP expels nine rebels contesting as Independents - The Hindu (2026-03-28) - https://news.google.com/rss/articles/CBMivAFBVV95cUxNNlJsLTBIenNmVHg2d3E4c0JtS1o2ajY1NTFEN3FmS2RIZXVQR2lVNE9ucGxKcV9QTFhsV2lSOFB1cGlrOUxjblJld2w1Sk5Yel9QYVJHN1Y2aHhQZGVLQkRqU3VnZDBzY01CaHZqelAwUlBHTmhIM291aXFaVkZkZTAyY0xXQ1hiMjNpV0preDRCQXdMWTJlRmpacmc2bGhhdzRBV1RJZWJHUGtFajFIbTNlMlVGYzAwZVg3bdIBwwFBVV95cUxNd0pDQy0tRGFqX2RtZHhLMVF2bUNBa2NaSVdEVGVkMkF3Y3FyUXlXd21VV2h0by1TQkpjTFhrbVhkRFI4UHQ3dGN5c2ZodUhlMHhhblcwb3kxVWJvYjM3RTVoNWxyX1h0TmhuSkJkUlN4cVZJQU1qVE05bDNscGFUUlBMbFR0dEY1Mk5iX21BeGIxQTFfMzVHbkRBNVdRbU9WY2lTX3dhN2JuZzRURk9FLXdLRGVZTU51S3JScFpqZkFwOEE?oc=5
 - [The News Mill] Odisha Congress demands disqualification of two MLAs for cross-voting in Rajya Sabha election - The News Mill (2026-03-30) - https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVNxT2U4UUppWlJOR2ExcU14Y0M4bHlxNDQ2bS1nX29XQjRDbkxRODdnOE83X3B6SUVwdFdnRjE0elpqMkwzeEdCaW5wUjhBMmNoaVQ1LVF1YVVaMGRUNEx3ZDFPczN2M1BIY2o4alkxQUJaVFJwbExUTFUzbjBVdlIzSVE2b2x3UVZLZEJnQmlQV2hsN2RTb3JtYzQ0RUl0aDhSOGlEdjVjSW1RYnZORFJRYVNzcWl6YkdvNlEwOG1pWmRy?oc=5
 - [MSN] Congress suspends three Odisha MLAs over cross-voting in Rajya Sabha elections - MSN (2026-03-29) - https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV0VCOTc1NTlXdDNEbFdWNHFpM0U4RGpWNktDTTZvcXczVHhQZzBqQ0xTSkVHYy1VY2VqMjhYUHRiX3cwRGJscHJMOWRiTDZCakthX2NzZFpOTXY0bWQtTXlsSllrSk5na29DZ3BhX3I0dmh0eHFGeDRXSURXLVNNVkhTU0dHUGY4dXNJVkJZZXVSdi1BYmdvSU5PNW00LVAxYVpPVU9KRUlybE95MjRpSmtwUGd3OVJtQ09XWkFwNnV3SGhTSjJhOURYTFVzMHpRZFkxVDdn?oc=5
 
 ### Court Order Noncompliance
-- No fresh evidence links in the current lookback window.
-### Legislative Bypass by Executive
-- [theblaze.com] The Fed’s independence has become a constitutional absurdity - theblaze.com (2026-03-30) - https://news.google.com/rss/articles/CBMiogFBVV95cUxQbTBNU1NJRzByS1ZRVlpFNm9ITE50V0NUVHYtb2Rfd2pyWWRJMFRoM0FGNzh4MzRXYzN1U3dqV2VHSzg5U1hyMFM1SkdsT2Q4OVRpZ0llMmYxUWVCaEJTUGk3cE9XNGhHbTRLTm1lZWQ4ODhwdkJ2TkVsVEpnaV9nbjhIUXhrMnNSTTFhMjlYeXNQSmpxX1lzU2hwdllaMElIUWc?oc=5
+- [San Francisco Chronicle] Trump administration still giving private health data to ICE, California and other states argue - San Francisco Chronicle (2026-03-31) - https://news.google.com/rss/articles/CBMipwFBVV95cUxOVUhvb2pXcnkzZlRObERKU0xDclVrMWQ3Zm5vNlJzQXBPSVNaeGxWMHc3RGFZaldXTGNNZ1RKM09NQVduQjFibkIxOFY5OEtuUFhFa0ZPLWw3TFlnZXFoV2ZyQWFVRVJJZGZIc19MYWJ4V0pJcU53clJpOG5RUlBOYXdFdm9nYzFpRlJpemV6dEY3NXY5M1hSeUJpS2h5eWdTZ1dqc3dMWQ?oc=5
 
-### Martial Law or Military Governance Language
-- No fresh evidence links in the current lookback window.
 ### Election Administration Capture
-- [AOL.com] Georgia’s Fulton County to seek return of 2020 ballots seized by FBI - AOL.com (2026-03-30) - https://news.google.com/rss/articles/CBMigwFBVV95cUxNUlNrU1R5WmVEZ1lpYVU4NWhTYzNRWlVmUURTV3AwamVNMHhjLU9FTG9xVTZlRnp6Qjh3NkpmYjJRZW5yb1J2anc0M2VkcFZ2VVZNbzhGRWVUX2EwcC1xQUNpTUNCWEV1cl9RUXpDR1NvM0hXbnZwTHp0aEMyQnRiaFpOMA?oc=5
-- [AOL.com] Russia probe revival expected if Democrats win House - AOL.com (2026-03-29) - https://news.google.com/rss/articles/CBMikwFBVV95cUxONGMwWFRDSXJWcS1UOTVsZ09JbmFpUUw4YUN1cWM1aU8tNWh4MVdtTGUyS3paSDRLZVJ6V1l1bUlFVUdFOTFGM1BFTUNsMmpyYUJXQ1hVY2ZOWUVpVXl1d29falRzUHVNRFFaaG40Wkk1OUtGeHFmXzBPOGRUVTVCUFE1R2RZUlAzVjBFS3hWMDA5dVU?oc=5
-- [AOL.com] Early voting, vote-by-mail numbers trend higher as Illinois primary approaches - AOL.com (2026-03-29) - https://news.google.com/rss/articles/CBMic0FVX3lxTE84ZGNhMFptblhoQmUxbkgtVktYX2hzMDB2UjNIeWFmVmV2UzJ0MndEVWdWRVZwQWhYb1E0TEhJRERhUzk5NjRhRWJKY3BhMTRlRnkzaFQ1aThsWl9hU1phRVJxM3V6c3BlcjQ2S1BUbldKMTA?oc=5
+- [MSN] Officials join summit urging Trump election takeover - MSN (2026-03-31) - https://news.google.com/rss/articles/CBMi6wFBVV95cUxQcEk1bi11TS1WbW9rT25wTU1mck8ySkVhR2JoYXNuaTE1R0dVSFVRUk1XZm44ZlVyeHVMbU9ORnhrZ1EzYlh5ZTlxNFJyeFYtempxLXNBU0l3dXppZU1pbVNuT1pqRFh3TllMT1gtbXpjdTE0LTVPNlRpaVFQaDRqXzVwODZWUWFabWxEQ1E5NTdnSHZWQThWNXQtRVVvcWU1SFNvTGVhWF8ycGdldEN6UTNMY2pQS3ktQTVKMW9xRnh6c0w2cVM5Sko4dnVqNFNuZUNCR2JiS3lsRldLMjVfSm1oTHVuai1TZFRv?oc=5
+- [AOL.com] Californians may need to mail ballots early as Supreme Court signals support for new election day deadline - AOL.com (2026-03-31) - https://news.google.com/rss/articles/CBMigAFBVV95cUxPNVhvUXk3cENxc2VveVFGV1BlRi1YTFJBOURCVTE2VHZXWUY1YWEtSk1TZlJ5ZXVDWDZxcjUzS0dPTnRURUlJNHJVR3RoTEhSVDdKU2dOVkdhMEZqcUQ4aGgwY2lYMVdLeDJWbWh4RVhTS2pxSWJEdVpDR2l0TkJkLQ?oc=5
+- [AOL.com] When is the next election? Here are the key April votes to know. - AOL.com (2026-03-30) - https://news.google.com/rss/articles/CBMifkFVX3lxTE9NMTFVR2d4MFlDV0s5bDZOclJsOE40VDVBN0toYmJOYl91VlM1Y3MycHdEbWNuUU14VjhDWXF6dmdsT1l4SGU3ekpJcWhfdUdjTDhFNTUyTXpOTlFxZkl0TGU5Q3BhQ0VxWEZyT2ROUXFrX1ItVnI1SVRPRTVEUQ?oc=5
+
+### Legislative Bypass by Executive
+- [theunpopulist.net] Trump’s Executive Order Diverting Border Security Funds to TSA Is a Blatantly Criminal Act - theunpopulist.net (2026-03-30) - https://news.google.com/rss/articles/CBMickFVX3lxTE9OTjhEaTRuWWN3UXFBWlo4ZGozVDRWNHVDUC02OU9aTXExRmxZRi1LdWo1OVhfdU5qVnNsdzN6RUl1dW9VNUd4T01EbTVfOFBsaVNsYnRQazZCRVRuazFINWRMMlIwdlRkV285RFNyOWFqZw?oc=5
+- [MSN] Supreme Court weighs Trump birthright citizenship ban - MSN (2026-03-30) - https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV2lmcThRb0V1TEpNd1lYZGZISUs5RDhrbmNRc01EbmZTNkc3cU5HQmNxT1JtVV9GU2haNkRSczhNeXZmMmV0ZE95Z1J0em0wV3BsOURSbmxmbGtxWTJNZzlvUFZkMF9veUM5SU5oRE5oX09KT1g4OGtCTm1DTUY4OFBtdVJhNGUta3I5OUk4QW0yQWFWNkpjb2drcEJsTjFJeVhxaDBkUVhxM3hQZmdVZWJHNDVEUk1NVlAzekRmd0d6LS10MDNLNTRJN2dyT05CWGxxY1JLM2ZtN05q?oc=5
+
+### Press Restrictions or Retaliation
+- [The Fulcrum] Trump's Escalating Attacks on the Media: Arrests, Raids, and the Threat of Self-Censorship. - The Fulcrum (2026-03-29) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdGVpQ0QzdUZFWkR0ZWpvTk9JaG9mTDV6UHRBS2xiN2NralVON1FqMnB3VkZkOGlTb0hVN1Nsem5EVVVfaElsejZoVGEwcjFGZV8zRHFBc19pTnU3SzNac2JrUDZqLVVKZ1BQN21LNFV5d1ppVUVhTTlMOXk2c3VraGl6d05ScktP?oc=5
+- [Civicus Monitor] Vietnam: Persecution of activists and critics continued in the lead up to the sham National Assembly elections - Civicus Monitor (2026-03-30) - https://news.google.com/rss/articles/CBMi3wFBVV95cUxPR3FvS00ybmZlUkgxVHg5R0JJNWVCa0hrMmw1aTFOZkNxbGs4QUtucDdxai1Sd1doMEVRbXh4NXU2MXdOWDBQTkZqNC1uVHEzNnYwUHduMUh2WExVSXNDTXVhZllyRUt1VV9jVUI1YUtyQUYyZ25SNnRwdmJwczQ2RmJCZ2dvRW9VRndUWXp1ZkdtLWRzQndLNUJncWc3NEdqZm95R0hMTnFPXzFzNkRDSlkzXzFnRERfTTVSckZfdkF0dXQ2bU9JV3NDaFRUYzdRbk5EVlZDcmpnUnBiQXMw?oc=5
 
 ## Data Quality
 
