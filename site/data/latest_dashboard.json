@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 14.12,
+  "average_7d": 13.99,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,48 +10,48 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": 0.0,
-  "delta_vs_7d": -0.06,
+  "delta_vs_7d": 0.07,
   "domain_breakdown": [
     {
-      "avg_severity": 0.6625,
+      "avg_severity": 0.575,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.64375,
+      "points": 3.1624999999999996,
       "weight": 22
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.6666666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.625,
+      "points": 2.5,
       "weight": 15
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 0.7666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 3.091666666666667,
+      "points": 2.683333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.8666666666666667,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.1125000000000003,
+      "points": 2.816666666666667,
       "weight": 13
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.3333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.0833333333333335,
+      "points": 0.8333333333333333,
       "weight": 10
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.825,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.5,
+      "points": 2.0625,
       "weight": 10
     },
     {
@@ -72,7 +72,7 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-03-31T12:40:01.130040+00:00",
+  "generated_at": "2026-04-01T12:41:01.308016+00:00",
   "previous_score": 14,
   "provisional": false,
   "score": 14,
@@ -81,34 +81,46 @@
   "top_signals": [
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVNxT2U4UUppWlJOR2ExcU14Y0M4bHlxNDQ2bS1nX29XQjRDbkxRODdnOE83X3B6SUVwdFdnRjE0elpqMkwzeEdCaW5wUjhBMmNoaVQ1LVF1YVVaMGRUNEx3ZDFPczN2M1BIY2o4alkxQUJaVFJwbExUTFUzbjBVdlIzSVE2b2x3UVZLZEJnQmlQV2hsN2RTb3JtYzQ0RUl0aDhSOGlEdjVjSW1RYnZORFJRYVNzcWl6YkdvNlEwOG1pWmRy?oc=5",
-          "published": "2026-03-30T03:17:11+00:00",
-          "publisher": "The News Mill",
-          "title": "Odisha Congress demands disqualification of two MLAs for cross-voting in Rajya Sabha election - The News Mill"
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTVV2cVg1bUFhX0V6RGFTaWZzb0NDQmgxN1FVa2lfZVkyRG00MnpUT1NKZ2g3NUZjLTFUR2ZlUjIzNGlyR2VWU1BYVGhuaDhPQmZwM05KVERLeGc4cjQ4TkpMNzNndkFKNDhxblhRUU1tTGtOc1ZoeFdvNUxrM09xUGlWaVl0ZWI3UE9sVVk3NlBaVVpM?oc=5",
+          "published": "2026-03-31T21:54:12+00:00",
+          "publisher": "NPR",
+          "title": "Trump signs a new executive order on voting. Experts say he lacks the authority - NPR"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNV0VCOTc1NTlXdDNEbFdWNHFpM0U4RGpWNktDTTZvcXczVHhQZzBqQ0xTSkVHYy1VY2VqMjhYUHRiX3cwRGJscHJMOWRiTDZCakthX2NzZFpOTXY0bWQtTXlsSllrSk5na29DZ3BhX3I0dmh0eHFGeDRXSURXLVNNVkhTU0dHUGY4dXNJVkJZZXVSdi1BYmdvSU5PNW00LVAxYVpPVU9KRUlybE95MjRpSmtwUGd3OVJtQ09XWkFwNnV3SGhTSjJhOURYTFVzMHpRZFkxVDdn?oc=5",
-          "published": "2026-03-29T21:40:49+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tTWFZUFE4Qml4b19QRGVCcnhkSVlOMVA3UjZkUDVKMDFVUTIzN19HUnNnZmxCZ3ozV0VmazZqMmI3NGZCVy1KWE1mRllXNzlBNGJUVHhDQkFZTVZES3gtVWpEdw?oc=5",
+          "published": "2026-04-01T03:03:13+00:00",
+          "publisher": "The New York Times",
+          "title": "Judge Halts White House Ballroom Construction - The New York Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYmlFdDlKZU9hYmEtNWp6NXduSmlpM1FDV1ZFWGpxWVBSTU5aOTFlaG12N0RYVGhUd044WDRJbVRJVk9IZ3ZlS215bV9yQUlvTkxBTGt4QzNJaGNOUEMyaGQ3Yl9jZHFkckoweF84NnNVblVrTU0wQmI3a2o5WElsdlo1VG90MDlmR1dXVDhjcGJhOTlCT0tBZEh1ZnN1SlY1bEQwR201cWw3YXl4SC1xNTBVT3ZIMmFIdHRFb3JCWHpwOUNuaTljZTJvZUZXNmts?oc=5",
+          "published": "2026-04-01T03:52:21+00:00",
           "publisher": "MSN",
-          "title": "Congress suspends three Odisha MLAs over cross-voting in Rajya Sabha elections - MSN"
+          "title": "Judge halts Trump\u2019s $400M White House ballroom - MSN"
         }
       ],
-      "hits": 2,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "hits": 5,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 2
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 5
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWjJGcUlkRkt6ZVpzX3pzOGVQcm9BN3dYbXJuUE1vUW5JRndWTlFaSVhPeXMwZkhUVnVvUXVaYl9PUDQ0Ym9wazRhOVhfeXlNR0dRWVZFcWtXeEJiZGxUVlVBNGowcFRRYmxoclhwaTBCcHlfYy03OEZGQnNzNTVUSEpRT3ZPUldsZHdrUnpBWDNTT0kweS11bkZ3a2FKNmxpRUgyUWRSTC1SckQ0ZFI4ZnBZWnBRaTBNUkstMEtFMDduUTBxeV9jSA?oc=5",
+          "published": "2026-04-01T02:05:03+00:00",
+          "publisher": "MSN",
+          "title": "Trump defies court, freezes health funds - MSN"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVUhvb2pXcnkzZlRObERKU0xDclVrMWQ3Zm5vNlJzQXBPSVNaeGxWMHc3RGFZaldXTGNNZ1RKM09NQVduQjFibkIxOFY5OEtuUFhFa0ZPLWw3TFlnZXFoV2ZyQWFVRVJJZGZIc19MYWJ4V0pJcU53clJpOG5RUlBOYXdFdm9nYzFpRlJpemV6dEY3NXY5M1hSeUJpS2h5eWdTZ1dqc3dMWQ?oc=5",
           "published": "2026-03-31T05:45:09+00:00",
@@ -116,9 +128,29 @@
           "title": "Trump administration still giving private health data to ICE, California and other states argue - San Francisco Chronicle"
         }
       ],
-      "hits": 1,
+      "hits": 2,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSlpCTm9lU1hmWFZJaEtOWjQ5eG16RHF4aW1hOXlLMTM5OWNONmtDT3JLb0JqY2RYRHhRN2pBUVNUUDdVTmxFUmtOWEJBM2R3S0NYYjZCNTF4aUdyN1NEekdpWFpNZFExekY0SFZWMW5LMnJhaTIyb0hxRWRoMzk5S250cmgwY0RnT2Jsbks0bVRGVGU4eS1GeDNHcmZlN3JyVHV2aXBTcUp3dlc5WTBvTUhFV1AxRGM0?oc=5",
+          "published": "2026-04-01T02:47:24+00:00",
+          "publisher": "The News Mill",
+          "title": "JD(U) Seeks Disqualification of MP Giridhari Yadav Over Campaigning - The News Mill"
+        }
+      ],
+      "hits": 1,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.3,
@@ -130,22 +162,22 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTEZMS0Ezb254aTdoOVFVRkI3MG9iNC1Kb2M5NUdqci13VzhBbFBSMXBfd1VOakdzT0xid3BzeW9KXzQ4QWN1MWJzTEhncWNfWEJTTHFkYWZBTlV3RW1Na2VQaUlWM1FYYk9vWXFfbldlUDhBVFFYRnRaRjVreV9UVXcySml6bDd2TlpOZmIwMXJ5TWhfdTYyaElXWGctQ0FMeFpyZlJUbUhkdzFySm9oWEx1cGl0YjZ4QWVqUW1mTzdNTGVPelBYVnpLZEZUYXlycjJ0R3k3RFpzQXFBVnRYaF9mUThJSnBjbzlCOHh30gHzAUFVX3lxTE1JOGo0YVh1SVdPZ0JLNmpsSmtNb1FFX3dEeG5ja0Y4YTRQcXRuNWJVTkVhRTRhbkpuX0ZETUJmby1XbEE5S1A1dmVpLXgyS0JOdEtsZG95d3l3aDY3cEZhUzFhMmFJclpFclExcjlmaHF3V2FpelV6NU9NSjFYNDJNN21rQU8yWXFfV19NOExqcHhwbVNsTmRwYjRHaXpmMDBPT0VPYUVFY3BsNTdGLTZzeDI4UjREWmJjS09udDFGeWRYMm5qNzNrUFRqRkQtSEVhbmVnQUx1eEhVUi11bzZXM1A0ZGdiOHBCWXpVSjNBVWU5UQ?oc=5",
+          "published": "2026-04-01T00:58:58+00:00",
+          "publisher": "WREG.com",
+          "title": "Trump signs order directing creation of a national voter list, a move already facing lawsuit threats - WREG.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNankxYm5LZDhVLTQzN0JqUWk2WmdiR3EzVFQ2QlctbWxpdklncHlNa2hzZHRWeTJ4Tjc1SUV3bGVERkdHTk9BcThKQmVDbWNfdjMxcmNKOTFTSzUxYWtKd05zZHF5Y3o3VjdZMXVQZ2d4Q0NSeHoyYkE3Ri0xZ0s0Y2RDYm1vWWpw?oc=5",
+          "published": "2026-04-01T07:32:56+00:00",
+          "publisher": "aol.com",
+          "title": "Opinion - Handicapping the midterms: Why the GOP is trying to change the rules - aol.com"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQcEk1bi11TS1WbW9rT25wTU1mck8ySkVhR2JoYXNuaTE1R0dVSFVRUk1XZm44ZlVyeHVMbU9ORnhrZ1EzYlh5ZTlxNFJyeFYtempxLXNBU0l3dXppZU1pbVNuT1pqRFh3TllMT1gtbXpjdTE0LTVPNlRpaVFQaDRqXzVwODZWUWFabWxEQ1E5NTdnSHZWQThWNXQtRVVvcWU1SFNvTGVhWF8ycGdldEN6UTNMY2pQS3ktQTVKMW9xRnh6c0w2cVM5Sko4dnVqNFNuZUNCR2JiS3lsRldLMjVfSm1oTHVuai1TZFRv?oc=5",
           "published": "2026-03-31T00:44:27+00:00",
           "publisher": "MSN",
           "title": "Officials join summit urging Trump election takeover - MSN"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNVhvUXk3cENxc2VveVFGV1BlRi1YTFJBOURCVTE2VHZXWUY1YWEtSk1TZlJ5ZXVDWDZxcjUzS0dPTnRURUlJNHJVR3RoTEhSVDdKU2dOVkdhMEZqcUQ4aGgwY2lYMVdLeDJWbWh4RVhTS2pxSWJEdVpDR2l0TkJkLQ?oc=5",
-          "published": "2026-03-31T10:56:21+00:00",
-          "publisher": "AOL.com",
-          "title": "Californians may need to mail ballots early as Supreme Court signals support for new election day deadline - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NMTFVR2d4MFlDV0s5bDZOclJsOE40VDVBN0toYmJOYl91VlM1Y3MycHdEbWNuUU14VjhDWXF6dmdsT1l4SGU3ekpJcWhfdUdjTDhFNTUyTXpOTlFxZkl0TGU5Q3BhQ0VxWEZyT2ROUXFrX1ItVnI1SVRPRTVEUQ?oc=5",
-          "published": "2026-03-30T14:23:05+00:00",
-          "publisher": "AOL.com",
-          "title": "When is the next election? Here are the key April votes to know. - AOL.com"
         }
       ],
       "hits": 3,
@@ -155,43 +187,23 @@
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OTjhEaTRuWWN3UXFBWlo4ZGozVDRWNHVDUC02OU9aTXExRmxZRi1LdWo1OVhfdU5qVnNsdzN6RUl1dW9VNUd4T01EbTVfOFBsaVNsYnRQazZCRVRuazFINWRMMlIwdlRkV285RFNyOWFqZw?oc=5",
-          "published": "2026-03-30T17:02:14+00:00",
-          "publisher": "theunpopulist.net",
-          "title": "Trump\u2019s Executive Order Diverting Border Security Funds to TSA Is a Blatantly Criminal Act - theunpopulist.net"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV2lmcThRb0V1TEpNd1lYZGZISUs5RDhrbmNRc01EbmZTNkc3cU5HQmNxT1JtVV9GU2haNkRSczhNeXZmMmV0ZE95Z1J0em0wV3BsOURSbmxmbGtxWTJNZzlvUFZkMF9veUM5SU5oRE5oX09KT1g4OGtCTm1DTUY4OFBtdVJhNGUta3I5OUk4QW0yQWFWNkpjb2drcEJsTjFJeVhxaDBkUVhxM3hQZmdVZWJHNDVEUk1NVlAzekRmd0d6LS10MDNLNTRJN2dyT05CWGxxY1JLM2ZtN05q?oc=5",
-          "published": "2026-03-30T22:18:09+00:00",
-          "publisher": "MSN",
-          "title": "Supreme Court weighs Trump birthright citizenship ban - MSN"
-        }
-      ],
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdGVpQ0QzdUZFWkR0ZWpvTk9JaG9mTDV6UHRBS2xiN2NralVON1FqMnB3VkZkOGlTb0hVN1Nsem5EVVVfaElsejZoVGEwcjFGZV8zRHFBc19pTnU3SzNac2JrUDZqLVVKZ1BQN21LNFV5d1ppVUVhTTlMOXk2c3VraGl6d05ScktP?oc=5",
-          "published": "2026-03-29T13:13:46+00:00",
-          "publisher": "The Fulcrum",
-          "title": "Trump's Escalating Attacks on the Media: Arrests, Raids, and the Threat of Self-Censorship. - The Fulcrum"
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWGJqbm1IRENOYmtWdHlFMS1jeV91NEtTekRJTXpmaFYtQWlVeERtbGhHVTJ6MEwxRkhPNDVrUnJFSmVJTE13NFNKX2dOUXNLTzFpZE1IWDJEVzY4Y0lIcksyTlREUDdSZEZDaGxCcU9tMEtKZnkxQ0JIT2FYbDFIUUdEV3dUZ0h2TkhVQm9ESWRLSVMzRlp2aGZqSzl3VllrTHI1Qm9ySHpaR2tOQy02SU92UW5hemNWaWJVRnVYdGZyOWMtSWJNZVlndTFtUE9wVENTSjVfRXBqdGs?oc=5",
+          "published": "2026-04-01T02:44:08+00:00",
+          "publisher": "MSN",
+          "title": "Judge blocks Trump\u2019s NPR, PBS funding cuts - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVUx2QXNZTmk2dDBCRERmaVhlbUtGbXNMb2NRNmpzOUowdkVKQklLNnV2U0JRZHVpTnFHLUx3dzZpUTBfeTFSZE83Z1Y3X1YteFN3MXV2dWpyZ3VsQUN3M3BsY0hTOWEtNjhrQUZnN2JHT3JIRFM5RGFuRkdWMEZoQUliemtqSGNfR3BDUF9iLTZHWWtmbDh5cGliTWJWczRiTkZ5cXZrVUUxQ1RFeldIRVZyNmtNeWJaZXZRQWVOSUktSzg?oc=5",
+          "published": "2026-03-31T23:50:36+00:00",
+          "publisher": "TheWrap",
+          "title": "Jane Fonda Says 'Our Work Is Far From Over' After Judge Derails Trump's Attempt to Defund NPR, PBS - TheWrap"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPR3FvS00ybmZlUkgxVHg5R0JJNWVCa0hrMmw1aTFOZkNxbGs4QUtucDdxai1Sd1doMEVRbXh4NXU2MXdOWDBQTkZqNC1uVHEzNnYwUHduMUh2WExVSXNDTXVhZllyRUt1VV9jVUI1YUtyQUYyZ25SNnRwdmJwczQ2RmJCZ2dvRW9VRndUWXp1ZkdtLWRzQndLNUJncWc3NEdqZm95R0hMTnFPXzFzNkRDSlkzXzFnRERfTTVSckZfdkF0dXQ2bU9JV3NDaFRUYzdRbk5EVlZDcmpnUnBiQXMw?oc=5",
@@ -200,14 +212,14 @@
           "title": "Vietnam: Persecution of activists and critics continued in the lead up to the sham National Assembly elections - Civicus Monitor"
         }
       ],
-      "hits": 2,
+      "hits": 3,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
@@ -235,7 +247,7 @@
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRVRrYTdZQ1FzS2JOV3RHSkxXSUxNNDhlR0NYRHozcm92QzFEdWtuNUpSZDJfUkdFS1JMbkE5UmkyS1ZZb0IxWkxLMFlCUml1cHl3ZE5tcU0tc3p4TGZhNTJCa3pqSmxQRDN1empnUFNrTDIwd19uUEVla3hVRC1VSk1QbVg0RDA5djFWbkhfemtQOXJ1ZVR1X1g2empIeTdROTVRNGJFZkFGcDNCYThfR0FCQVFrS09MVnRwWlduS3lZeFJpeG8yQ3FWc2lHc0hDWE01WWlyLVZud25sdlgzVmhqZlU?oc=5",
-          "published": "2026-03-29T17:20:37+00:00",
+          "published": "2026-03-31T13:50:33+00:00",
           "publisher": "MSN",
           "title": "Grand jury rejects Trump\u2019s push to indict lawmakers - MSN"
         }
@@ -272,22 +284,15 @@
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNjJBdGpDTDl2Z25Ia1lYdlBTTFJPd0xMNVZlV0s4Z1YyX0pqVWdyVDdSd2VfS3A5U0hNYUZDbHNyOTNneGlTU1hGZU9JYzZ3OUtzd1Qxdk1VV2dCZFpveDljbElCTnozcFBkRzdyVFJxcklPT1J5SjBoSWw4aHZLTEVwVXAzQ2JyS0NyWDk5UHZWb3NDQmZJN3NrWQ?oc=5",
-          "published": "2026-03-30T07:58:44+00:00",
-          "publisher": "Kashmir Media Service",
-          "title": "Manufactured Silence: How Kashmir\u2019s Truth Is Criminalized - Kashmir Media Service"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "political_speech_surveillance",
       "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -298,8 +303,8 @@
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -309,19 +314,6 @@
       "hits": 0,
       "id": "election_delay_or_cancellation",
       "name": "Election Delay or Cancellation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
