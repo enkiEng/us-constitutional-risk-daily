@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 13.93,
+  "average_7d": 13.87,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,42 +9,42 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": 0.19,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -1.17,
   "domain_breakdown": [
     {
-      "avg_severity": 0.5,
+      "avg_severity": 0.4125,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.75,
+      "points": 2.26875,
       "weight": 22
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.19999999999999998,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.1875,
+      "points": 0.7499999999999999,
       "weight": 15
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.6666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.5166666666666666,
+      "points": 2.333333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 1.55,
+      "avg_severity": 1.4333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 5.0375000000000005,
+      "points": 4.658333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.31666666666666665,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.3749999999999998,
+      "points": 0.7916666666666666,
       "weight": 10
     },
     {
@@ -55,10 +55,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.5,
+      "avg_severity": 0.325,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 1.0,
+      "points": 0.65,
       "weight": 8
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-04T12:33:58.116216+00:00",
+  "generated_at": "2026-04-05T12:34:11.688082+00:00",
   "previous_score": 14,
   "provisional": false,
-  "score": 14,
-  "score_raw": 14.12,
+  "score": 13,
+  "score_raw": 12.7,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,16 +84,16 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RZUxCTVA5X1pNZllKOHAxcV9WSkQ4NGJPQ1BzMTBzZGFBbWFWdnFQcnd2dE9rS0Z2V0U5ODUyRDc1eFE1RXpES09aaEVURG5PQzJza2VuOWZsZFdYMUNSalM4b0RQa0ljMF93a09Fckctdw?oc=5",
-          "published": "2026-04-04T08:48:35+00:00",
-          "publisher": "Boundless Immigration",
-          "title": "This Week in Immigration: April 3, 2026 - Boundless Immigration"
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONTZIT3JLVnBTZUlGNldHQy1yejQweXl5cVR4aUUzTUtCZk5KdkVNWnNSZlFSTFNNdDVGZjQzRjBtU2VtMlJBNTBxZV93TTR1dkxSQ1ByOGFXZkpjaGpWTFY4SUFuWlQ4ZW03Tk9YN3NIZDZ1MFRmamR6LUZLYnlsQXZFbXNZOGlDcnJnYVg2WQ?oc=5",
+          "published": "2026-04-04T11:00:18+00:00",
+          "publisher": "The New York Times",
+          "title": "Opinion | Trump\u2019s Relentless, \u2018Utterly Incoherent\u2019 Battles - The New York Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tTWFZUFE4Qml4b19QRGVCcnhkSVlOMVA3UjZkUDVKMDFVUTIzN19HUnNnZmxCZ3ozV0VmazZqMmI3NGZCVy1KWE1mRllXNzlBNGJUVHhDQkFZTVZES3gtVWpEdw?oc=5",
-          "published": "2026-04-03T16:57:00+00:00",
-          "publisher": "The New York Times",
-          "title": "Judge Halts White House Ballroom Construction - The New York Times"
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ21BbzFUNzFaYlVEM3owd3gyRnlXeklDRHRWM2JwNmx0SHgxem5fb3JZVHVGN3E1Ynl2Z1lsQ1RVdkVuWEdBQmlfRy1rRDF5VS0ybm1JMF9sSjh3MTd5VmZmVXV6Yjl4aVpLSE9NVUVEUG1XblJMZVBoTkV1dVp2enQzQzUwS3paZVNkUm83VTRUeWpYZjQ0SjJQdDZQNk13ODNtak1RdmktTWsyS2JCckZCa1A?oc=5",
+          "published": "2026-04-03T23:07:07+00:00",
+          "publisher": "Sportico.com",
+          "title": "Wall Street Cop Drafts Trump NCAA Order Sure to Face Legal Challenges - Sportico.com"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUnFHYUdTNnFXZnhEb3N1Y3A3TFpzUWthODRqOFVaNmdrVE1qT1Q2dVR0UVF1RVpad3ZDalFjeEJtMVhKLThGRTJZbmNvOEp2U3h3WXZCTWoyZmNXR1J1TGxoeVR0QW5sdUhJNTFSdXpwb0w0SU9zdzFpbFMxYVZBUThud3NWWFJWZEVOZ3NOZDg2YkV2RXdwakV3?oc=5",
@@ -122,26 +122,20 @@
           "title": "Foreign Influence vs. Interference: What Really Threatens U.S. Elections? - The Fulcrum"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOEtBdTB6UTlzVUNsbGtGOVFSNDBQZEI0LU1hZVQyR214YUVkZWdzYUZ3Wklxb21EMi1WOHk0andzOWdOZ2NFNDQzSHh4X05yZTIwVVZuTVBnUW5aVm1WMUlfLWJlNE1ycWdKWTBGdHQyRDBJd2VfMjAybXFUZkljWUc2MXhVX3hOWmhpXzBtZV9NcVd5bWJXeldKUmZPdGtDSTdSMzdFeFFPQnhxODNxcVdkZVVtalk?oc=5",
-          "published": "2026-04-02T13:12:00+00:00",
-          "publisher": "Alabama Political Reporter",
-          "title": "Opinion | Bill allowing takeover of Montgomery PD solves nothing, makes no sense - Alabama Political Reporter"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNTR2SHV0N1lqcmhOZHJybjlBc2FDOWxWbzFBOGd1akZtaVpxRDZyVWpkUkt3b1g4WEpJYTVlLUhNRVl3NkhmazJiQk4wZHFBdkx3ZjBkY29kUUVfZmdUNWM0a0cxMElaVGFSTklKM0lleGpTYkl5R0E1RjlkcFU0VlB2Vi1nTTE3YkVlS25rNA?oc=5",
-          "published": "2026-04-02T13:03:00+00:00",
-          "publisher": "Alabama Political Reporter",
-          "title": "House committee advances Montgomery police bill - Alabama Political Reporter"
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5",
+          "published": "2026-04-03T21:39:00+00:00",
+          "publisher": "Iowa Public Radio",
+          "title": "Today's Iowa News \u2193 - Iowa Public Radio"
         }
       ],
-      "hits": 4,
+      "hits": 2,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 3
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -159,9 +153,35 @@
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pWS1CWjBmTGMydTgycUp1SnBObGwxYWlqejEwZWthV1dUS3lsVFJXY1hqMDZ3aXpPWGNBWnItRjJWZlZ1REJYbWJiSEJjQUpvNVBDV3VOcXgtOHhPRUFkVXNlZ2ZZUTBH?oc=5",
+          "published": "2026-04-03T13:00:00+00:00",
+          "publisher": "Freedom of the Press Foundation",
+          "title": "Brendan Carr\u2019s localism hoax - Freedom of the Press Foundation"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNG5YUUd2Q09sRExMQ0tOc2ZZZ0QtaGFZbk9ObVdXdVpzdkNBUzZ2ZW1WMmpNTkFWVlRIMWtfMkRSN0dYelJtWW8yVVhrSE0ycVdVZHoyTC1Cdlo3cjY0cmpXdUpqMUJoamtZNHFjeklQZzlqcElVb2NOOWJsS0ZQamRoc3hDNU9ZZDdocnB4aWtXOEJqWC1KT3ZTamJpcU9jLUtDSkdWVUZBVG9pZllF?oc=5",
+          "published": "2026-04-04T05:17:07+00:00",
+          "publisher": "National Today",
+          "title": "Former CNN Host Claims Trump Targeted Him for Arrest - National Today"
+        }
+      ],
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -169,15 +189,15 @@
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0lMQkhEMTFLNXBIY2dPdldubVVWMzRLbTAyM0dKcjZieklZRUtWRkZJenJMajFqaUlybG1Gb3ZKSUdwMjBhTDNuNlBIRFFxcGZOSXoyWWNiR1h5a0NtbWZWb1VtaUZOYmJvMGl1MEZSck5XSGpxOWlLSkRub1FpZThOUTJmYjJiWlNYNEJ0VWc5VkRGeHdqSHN3SzF6eE9UQ0VfOExfZ2FqeVBad3gxNUFYcWpTQVNYQ0VDWVZVYWhpVjFteVlReDBoN3JuNTFFYXdJ?oc=5",
-          "published": "2026-04-04T06:30:54+00:00",
+          "published": "2026-04-04T11:31:07+00:00",
           "publisher": "MSN",
           "title": "Trump invokes emergency powers to pay DHS staff - MSN"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRi1LZmRYMjRfR21Db1owWi1RMUVDQnNXYngwQUF2RjlMREZCV2l5M1JzZnZRZmwyR2s3NzMzRWc5MUQ3VzZOenBpYUlPblFibV9WeWFkOWdleVc2dDMxeXIwcEFEOGRwWW9vQ21OU2lOZXBKdk11TnROaWFEaWRnMUg3bDkyZ0ZmaUE?oc=5",
-          "published": "2026-04-02T17:28:15+00:00",
-          "publisher": "Discovery Alert",
-          "title": "Defense Production Act Reshapes California Pipeline Energy Infrastructure - Discovery Alert"
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQm5CV2xHei02el83X1pqeVZxVU9NNUxOVkJKYkp0X0Z1akRFd1NoaWNJYmZuT21PSl9mMUtEc0piR2RWQ2szRG5aSTdJUWJ0bVBPNlFGUEU4Z3A0YVdraEF2bEJaX2ZObjhTOGVtUEFwenpnQUg4bGM5aXd4dTFnNTFzdUxadV9YSlNRSE1XRXVabWpoeWdXS0tYRURpbkNGcFpsLW16d01XS29yYTJQYXl4SkZjZXA1VFNXMDB5VTVmUjExWHhCQ3Z0bDBObjY0aGotM1JWMmo4ZVRJLVVVQksyZw?oc=5",
+          "published": "2026-04-04T06:36:39+00:00",
+          "publisher": "MSN",
+          "title": "Trump invokes emergency powers to pay DHS staff - MSN"
         }
       ],
       "hits": 2,
@@ -187,7 +207,27 @@
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa3BuZXBCeERNNHZEbzhzdnFrOHpHemlrMC1zU1o4QnJwUmhtUWxZUmJ0TDkwZlZ3c0VWTGJpYUhVTWNXODhtQkZCNk1Lb0taTjczTjc1bTdjS2JFVGZxOFN2LU1mSTBHaU1fNFBvV29vQlJVS3lFbDMyODRzVFA1RDdBWkpXQUNucWJZSjVsbG1NUzVwMzJjS1lIbjI5Wkg2a0JPVUlmMGtnMkHSAbABQVVfeXFMTTBHMnZZR3dONzB6NTNJWDJEU0ZKSkJ1Z3VESGp3a2I3WDhYSTg2d2xGclN2Qk5yc1pNV3NNMkptcVplME9QQ05tWWhiVlJ4TE1zMHdqQ3ZKRHpteFdvMGtwXzFXVVVuZ24tenJEcWlyVktNck9yRWJneTY2RDlGcmkwaF9kRllyQXR3LVBmOUwyZWN6WXZWMkdUdEZpVU1SSDA5eG5Rd0Zkc2ZEVTR1dVI?oc=5",
+          "published": "2026-04-03T21:37:23+00:00",
+          "publisher": "PBS",
+          "title": "Fact-checking key moments in Bondi's tenure as Trump's attorney general - PBS"
+        }
+      ],
+      "hits": 1,
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -212,62 +252,28 @@
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNkFZZGpHOGYwODFuWmE5cm9UbElHT21TUkFMTFhvS1pSRkR2SHE3RVZrVy16SEZQZGtmcjY1U2QzNHpUZWdiejZhU1R3QWd0VVI5NWs0OVMwSG5XaEtPRlhkWFdGb0xRMDRtejg1clhoVjBpdl9ucUJZQmJ1elprSnFrNUoxV05aZmo5VFhjTE8yVHIwSWVYb2hmSmU0elgzNXRDOFdjWHJfUUFfdWdKYlZWejI0NGFvSGYtRnZ5b0dDcUpQZXlMbFdMbDNYSEJNWU5uV1IwdTJPRlZmQ3c?oc=5",
-          "published": "2026-04-02T21:17:30+00:00",
-          "publisher": "National Today",
-          "title": "Outgoing Chicago Inspector General Slams Mayor Johnson's 'Reflexive Hostility to Oversight' - National Today"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "inspector_general_retaliation",
       "name": "Inspector General Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNG5YUUd2Q09sRExMQ0tOc2ZZZ0QtaGFZbk9ObVdXdVpzdkNBUzZ2ZW1WMmpNTkFWVlRIMWtfMkRSN0dYelJtWW8yVVhrSE0ycVdVZHoyTC1Cdlo3cjY0cmpXdUpqMUJoamtZNHFjeklQZzlqcElVb2NOOWJsS0ZQamRoc3hDNU9ZZDdocnB4aWtXOEJqWC1KT3ZTamJpcU9jLUtDSkdWVUZBVG9pZllF?oc=5",
-          "published": "2026-04-04T05:17:07+00:00",
-          "publisher": "National Today",
-          "title": "Former CNN Host Claims Trump Targeted Him for Arrest - National Today"
-        }
-      ],
-      "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "security_sector_neutrality",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcjQtd3BtVFhWZVVnb3pEUVV1SXRLNzVSWXN1OTZPaUJkMHhWOUtkckc0THZEVkwtcWRWcW9FU09EUlhfSVRLQzIwczhlX3dSb2U4eXRuNGIwdWJLcmNfdlM1Uzc0Q3ItSVF2S1czWDlobW5VOXpJSVpDUW5kd3dBdWZjU2g4aEhBRExsZnpRajdmZGdhY3NVMW05MDEtbGZyZWFzR202NE1NeG16R1ZEVVlSUFZyT1pMdzNqTEc1aE9qVzZXQTZkUENXTTQzSHBDLXo0RQ?oc=5",
-          "published": "2026-04-02T13:31:04+00:00",
-          "publisher": "Center for American Progress",
-          "title": "Protecting Constitutional Freedoms of Speech and Assembly During the Second Trump Administration - Center for American Progress"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "military_domestic_political_use",
       "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -278,8 +284,8 @@
       "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -289,19 +295,6 @@
       "hits": 0,
       "id": "civil_service_purge_schedule_f",
       "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
