@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 13.29,
+  "average_7d": 12.52,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,56 +9,56 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -3.0,
-  "delta_vs_7d": -2.91,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -3.82,
   "domain_breakdown": [
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.25,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.7875,
+      "points": 1.375,
       "weight": 22
     },
     {
-      "avg_severity": 0.08333333333333333,
+      "avg_severity": 0.0,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.3125,
+      "points": 0.0,
       "weight": 15
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.9249999999999998,
+      "points": 1.5166666666666666,
       "weight": 14
     },
     {
-      "avg_severity": 1.5333333333333332,
+      "avg_severity": 1.4166666666666667,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.9833333333333325,
+      "points": 4.604166666666667,
       "weight": 13
     },
     {
-      "avg_severity": 0.09999999999999999,
+      "avg_severity": 0.3333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.24999999999999997,
-      "weight": 10
-    },
-    {
-      "avg_severity": 0.325,
-      "id": "civil_liberties_information",
-      "name": "Civil Liberties and Information Environment",
-      "points": 0.8125,
+      "points": 0.8333333333333333,
       "weight": 10
     },
     {
       "avg_severity": 0.15,
+      "id": "civil_liberties_information",
+      "name": "Civil Liberties and Information Environment",
+      "points": 0.375,
+      "weight": 10
+    },
+    {
+      "avg_severity": 0.0,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.3,
+      "points": 0.0,
       "weight": 8
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-06T12:37:59.263003+00:00",
-  "previous_score": 13,
+  "generated_at": "2026-04-07T12:41:08.205802+00:00",
+  "previous_score": 10,
   "provisional": false,
-  "score": 10,
-  "score_raw": 10.37,
+  "score": 9,
+  "score_raw": 8.7,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,42 +84,10 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb0lMQkhEMTFLNXBIY2dPdldubVVWMzRLbTAyM0dKcjZieklZRUtWRkZJenJMajFqaUlybG1Gb3ZKSUdwMjBhTDNuNlBIRFFxcGZOSXoyWWNiR1h5a0NtbWZWb1VtaUZOYmJvMGl1MEZSck5XSGpxOWlLSkRub1FpZThOUTJmYjJiWlNYNEJ0VWc5VkRGeHdqSHN3SzF6eE9UQ0VfOExfZ2FqeVBad3gxNUFYcWpTQVNYQ0VDWVZVYWhpVjFteVlReDBoN3JuNTFFYXdJ?oc=5",
-          "published": "2026-04-05T05:19:36+00:00",
-          "publisher": "MSN",
-          "title": "Trump invokes emergency powers to pay DHS staff - MSN"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcDM5R3E5YzZwVExMd3NvN0dJbGdoQlpfZDVCR2d1V2U2dFRWcFphNnF1dTZCTkNrNUN1Y0p4YjFlRE5rMHJ0eWpNNWVoWGRWbGotNzFYWUdjUHZhUk91ZVVId2RXV0xtSE1mUXZsc19GWFV4LXJnZHFxeF8zWnBnWVM0dVgyNzMyeG5NVzFyMWVzUdIBkgFBVV95cUxQcDM5R3E5YzZwVExMd3NvN0dJbGdoQlpfZDVCR2d1V2U2dFRWcFphNnF1dTZCTkNrNUN1Y0p4YjFlRE5rMHJ0eWpNNWVoWGRWbGotNzFYWUdjUHZhUk91ZVVId2RXV0xtSE1mUXZsc19GWFV4LXJnZHFxeF8zWnBnWVM0dVgyNzMyeG5NVzFyMWVzUQ?oc=5",
-          "published": "2026-04-05T12:00:00+00:00",
-          "publisher": "The Hill",
-          "title": "Trump\u2019s abuse of emergency powers is the real national emergency - The Hill"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUlFUbEFhb1h2TE5WSmZxLU90UG1nczEzMWNoZUpDWUc1NktIMEFFVjk1RkRuaDM0ZnhIcGkwNXZSNzgzWnd0eWkwZ0d5T3VyYTg0YVVrV0oyeGhkcldIVXNSNGY2X2hTSExVOUMzVXlKenlSX3FWdWZaa0ZBMndTMjRNV014czBpSDFRNkNGdTVNQQ?oc=5",
-          "published": "2026-04-05T04:23:15+00:00",
-          "publisher": "AOL.com",
-          "title": "Mattis says he has extra authority to use military on border - AOL.com"
-        }
-      ],
-      "hits": 3,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcTl0YU9WU0xxVVFkdzhRQmlCbjZqWTlGYXFWTzhfNzJzU2xOeWRoU3d5dXI3YjBZUV9uRnFXamlUTzBZOEpOSTY3cmJaZG5CWXIzQXFjdmNWcURzUGxkSElwV1JPN1lPN2RjWlBrQi1MOGprV2RVdDhyeHFDdFZPX2FSVEZHQW1TZmljXzFFd3BpMmY2cHBVR0oydTgyN1ZvZVVlUWZlM245MTFtTmxDR2lNUEYxcVNNZ2E0WmFrYWxfMDdPWTZzdlFJaDB1WXRtVmJPbUNIQWw1dVBTNEQtMFp1dW92elU1eGZaaEJ3?oc=5",
-          "published": "2026-04-06T03:55:34+00:00",
-          "publisher": "MSN",
-          "title": "Trump faces sweeping court defeats on immigration and power limits - MSN"
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1cU96dXBiSlNkaWh5cmIyNUM4LVpvTi1McjhKbWk0Nzg5TTJGZWpacGIxOGhDRF9HbXF4dnA5V0o3TEdPcTBCNWN5c2l1cm1MQ0l5cl8wbzlUWEh2NlhGTmpsTDVjTzBSM2ltVkdUcHVJdw?oc=5",
+          "published": "2026-04-07T04:50:47+00:00",
+          "publisher": "The Fulcrum",
+          "title": "Congress Isn\u2019t Failing\u2014It\u2019s Choosing Not to Govern - The Fulcrum"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSzBBTUdDTXE0aFh6cThqU1ZPWTlpNXpOYW5ldU92Q3NFcUhzRWxwMGxuNFhOWkQ5S2FNTVBnTlZPQlZkUGUycFBVWUIwYS11NVcxcW1zRkF4aUhMalVKR0pIa3JILTYzVHVwbHYwTVNoZk5EbXM5UExIdTBmdlZwVW1HQ2F4eDJjck9qTHNab212cW1Ydks1WGVOeDlneDR3d0Z3WWRNaGs5V0RBXy0xaWpOdENhWmZVT3hGb0FGTWZ0MjlGblQxNTRrQ3I3cm5JMjloaVhOdVRSTDMxellzOXplSk51aEhlREZtRmR0aklHclUyMlBSRW1HVWU4dw?oc=5",
@@ -128,15 +96,35 @@
           "title": "Trump faces sweeping court defeats on immigration and power limits - MSN"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZkNXa3Q2bWZCdGxhdW9tdUVuclEtWjR3b0lXZlFkeS1VMjFiX1otSkVmQ3NlOGgyZWw5OFR6M204ZGpwYXZmSFJGakR6Z0xHeXh5U1BiU0k1VFFtMFJsdDNycVVMVENaTGVVakxJVUVqRTBQNGNVdXY1RUlORndqdm9iaTlOc0hmY3BLUUs3VXBwcWRkOWczZTBxdXZNVWhjb1czYUZDQ1JOdGRtOUlDWG9DYWlDclNiR3M1TEsyT0RLOC1TTFp3LWhEcUpTR1RfaWVnZ1NmRndlOWhCNkdGTHJMNnk?oc=5",
-          "published": "2026-04-05T12:04:22+00:00",
-          "publisher": "MSN",
-          "title": "Trump signs executive order to overhaul college sports rules - MSN"
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQ2Q3cmx2YXRuN3o3QjVIV1JUdXZWN2RaZ0lsejVyc3VodnMwX2JiTjZoRTBxalNnT0s2b0ZnUk45WGNOTmRDYmU3WmFvek13RnNpTUtNOGlSOVJjNHBaT3pLSHN3RDQtUnY3TFhRaEU5VkZQUGllWW1CbVBSV0RjZkFkVjY4cjNGSjhxY2VEZnM3Nm9fcHdQcDYxSmd5Rk9WQXRvdjlfdnM5YzF1eU1hS20xWDRfZGZWbWZUdWpnQjdJTm9lbjhXcA?oc=5",
+          "published": "2026-04-06T20:22:53+00:00",
+          "publisher": "Rocky Mountain Voice",
+          "title": "A system under scrutiny: Colorado\u2019s election system faces clash over how it\u2019s verified - Rocky Mountain Voice"
         }
       ],
-      "hits": 3,
+      "hits": 5,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 4
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kNElfLUV1cHM2c0JnRUJvcUs3ZHlHTGdYUFREb1VqenlkWXR1YjRWd1VrVGh5dzMwUXhNV1BlUTY0c2U1ajhtMnhoREJNX3F0a3pGdHQ3c1hqSUwxSUlPMjU0eDdibUpWNWxlT2VWSjVVYlhf?oc=5",
+          "published": "2026-04-07T04:51:28+00:00",
+          "publisher": "AOL.com",
+          "title": "Opinion - Trump crossed an oily line of state sovereignty in California \u2014 your state is next - AOL.com"
+        }
+      ],
+      "hits": 1,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.65,
@@ -146,15 +134,28 @@
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOODloaFJhTUpnU21lVXYtWWtCNTRtU19Pclo5Mmp4MDJqWU5sbHJ1Q2pvSWNUcGtkUXRLNlhoX0otcVlQRWJtWmFJa3BRZkdZUDFnNzVybGw5TmJtdGtqeGRCVkhDNjdVbUhSZ3dlaUZwdzFIeGJzVWcwR2RrOTRDYXdnZGxycXcyeDJaNkR0eUYwRlZ1TkZqcFFiZGNrNzA?oc=5",
+          "published": "2026-04-07T09:03:40+00:00",
+          "publisher": "The New York Times",
+          "title": "Fact-Checking Republicans\u2019 Misleading Claims About Problematic Elections - The New York Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oaGFHWTJrd3c5QkVkc3JVSG53OVhrZlQtcmlhTUpYOURvazctTEY1VDc0czhSSzdaM0FIeDU5VXk0c21QNUNMZTNaU2NRY051dklsM1J6dTZNMG1MTzVoX1p0d0I0VEdGUGs0ekZ4TjhVdFdwaGZURmNGWdIBe0FVX3lxTE1oaGFHWTJrd3c5QkVkc3JVSG53OVhrZlQtcmlhTUpYOURvazctTEY1VDc0czhSSzdaM0FIeDU5VXk0c21QNUNMZTNaU2NRY051dklsM1J6dTZNMG1MTzVoX1p0d0I0VEdGUGs0ekZ4TjhVdFdwaGZURmNGWQ?oc=5",
+          "published": "2026-04-06T13:16:22+00:00",
+          "publisher": "LawChakra",
+          "title": "So Busy That You Can\u2019t Take The High Court CJ\u2019s Call: Supreme Court Slams WB Officers, Orders NIA Probe Into Judges\u2019 Gherao - LawChakra"
+        }
+      ],
+      "hits": 2,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -178,6 +179,26 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQmlzb1hXTG9UclhldGp4Nkd4MzB1SzZtR1lJWXpoQXV6RzB1YlhacTFwOXQ4QTAtbTdmbUJueU5LSDc5OXU4TF9ST0RiSnN4ODRYWlRleDFuZVljVnYtQzA2dkM2aElZRUJCM2ZHTnh3M3JWVTdhclRpOXN3RUxka0tEeS16eFZTV3BjMmdCMjlJeDVFc2dKWXEtVElqTW9iZGtxR29zbkl1U3pQMWZZTWp4ZUVjMFN0?oc=5",
+          "published": "2026-04-06T19:55:12+00:00",
+          "publisher": "MeriTalk",
+          "title": "Report Finds Surge in Political Appointees as Career SES Ranks Drop 30% Under Trump - MeriTalk"
+        }
+      ],
+      "hits": 1,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [],
       "hits": 0,
@@ -185,8 +206,8 @@
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -198,7 +219,7 @@
       "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -211,46 +232,7 @@
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "inspector_general_retaliation",
-      "name": "Inspector General Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "security_sector_neutrality",
-      "evidence": [],
-      "hits": 0,
-      "id": "military_domestic_political_use",
-      "name": "Domestic Military Use in Political Conflict",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
