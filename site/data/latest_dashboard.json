@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.52,
+  "average_7d": 11.73,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,7 +10,7 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -1.0,
-  "delta_vs_7d": -3.82,
+  "delta_vs_7d": -3.23,
   "domain_breakdown": [
     {
       "avg_severity": 0.25,
@@ -27,17 +27,17 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.21666666666666667,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.5166666666666666,
+      "points": 0.7583333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 1.4166666666666667,
+      "avg_severity": 1.3166666666666667,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.604166666666667,
+      "points": 4.279166666666667,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.5,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 0.375,
+      "points": 1.25,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-07T12:41:08.205802+00:00",
-  "previous_score": 10,
+  "generated_at": "2026-04-08T12:41:25.652469+00:00",
+  "previous_score": 9,
   "provisional": false,
-  "score": 9,
-  "score_raw": 8.7,
+  "score": 8,
+  "score_raw": 8.5,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -90,46 +90,39 @@
           "title": "Congress Isn\u2019t Failing\u2014It\u2019s Choosing Not to Govern - The Fulcrum"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSzBBTUdDTXE0aFh6cThqU1ZPWTlpNXpOYW5ldU92Q3NFcUhzRWxwMGxuNFhOWkQ5S2FNTVBnTlZPQlZkUGUycFBVWUIwYS11NVcxcW1zRkF4aUhMalVKR0pIa3JILTYzVHVwbHYwTVNoZk5EbXM5UExIdTBmdlZwVW1HQ2F4eDJjck9qTHNab212cW1Ydks1WGVOeDlneDR3d0Z3WWRNaGs5V0RBXy0xaWpOdENhWmZVT3hGb0FGTWZ0MjlGblQxNTRrQ3I3cm5JMjloaVhOdVRSTDMxellzOXplSk51aEhlREZtRmR0aklHclUyMlBSRW1HVWU4dw?oc=5",
-          "published": "2026-04-05T21:30:00+00:00",
-          "publisher": "MSN",
-          "title": "Trump faces sweeping court defeats on immigration and power limits - MSN"
-        },
-        {
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQ2Q3cmx2YXRuN3o3QjVIV1JUdXZWN2RaZ0lsejVyc3VodnMwX2JiTjZoRTBxalNnT0s2b0ZnUk45WGNOTmRDYmU3WmFvek13RnNpTUtNOGlSOVJjNHBaT3pLSHN3RDQtUnY3TFhRaEU5VkZQUGllWW1CbVBSV0RjZkFkVjY4cjNGSjhxY2VEZnM3Nm9fcHdQcDYxSmd5Rk9WQXRvdjlfdnM5YzF1eU1hS20xWDRfZGZWbWZUdWpnQjdJTm9lbjhXcA?oc=5",
           "published": "2026-04-06T20:22:53+00:00",
           "publisher": "Rocky Mountain Voice",
           "title": "A system under scrutiny: Colorado\u2019s election system faces clash over how it\u2019s verified - Rocky Mountain Voice"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQUZPMWJVRXh0YXJOaTMweS1BOFNfcnVJOE12d1otc3BxejRLWHFhdlRtbUFsSDN3WENVaHM1X0p1dmZUTXBpclpJVl8wV2tBYVowY0xEbGVTb2ZYX2p5S1dnZmNsZDBVQTE1X2U1cFZqTkM1NnZvZ1NtWXdJdVJYXzdYeF9BX2R5c3UzcEZfTFhpeVJPbG9N?oc=5",
+          "published": "2026-04-06T22:07:44+00:00",
+          "publisher": "ThyBlackMan.com",
+          "title": "Trump\u2019s Birthright Citizenship Order Faces Major Constitutional Test. - ThyBlackMan.com"
         }
       ],
-      "hits": 5,
+      "hits": 4,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 4
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kNElfLUV1cHM2c0JnRUJvcUs3ZHlHTGdYUFREb1VqenlkWXR1YjRWd1VrVGh5dzMwUXhNV1BlUTY0c2U1ajhtMnhoREJNX3F0a3pGdHQ3c1hqSUwxSUlPMjU0eDdibUpWNWxlT2VWSjVVYlhf?oc=5",
-          "published": "2026-04-07T04:51:28+00:00",
-          "publisher": "AOL.com",
-          "title": "Opinion - Trump crossed an oily line of state sovereignty in California \u2014 your state is next - AOL.com"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -159,18 +152,18 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSlpCTm9lU1hmWFZJaEtOWjQ5eG16RHF4aW1hOXlLMTM5OWNONmtDT3JLb0JqY2RYRHhRN2pBUVNUUDdVTmxFUmtOWEJBM2R3S0NYYjZCNTF4aUdyN1NEekdpWFpNZFExekY0SFZWMW5LMnJhaTIyb0hxRWRoMzk5S250cmgwY0RnT2Jsbks0bVRGVGU4eS1GeDNHcmZlN3JyVHV2aXBTcUp3dlc5WTBvTUhFV1AxRGM0?oc=5",
-          "published": "2026-04-06T09:42:12+00:00",
-          "publisher": "The News Mill",
-          "title": "JD(U) Seeks Disqualification of MP Giridhari Yadav Over Campaigning - The News Mill"
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYWVISlpRTEgtWWUydTBzR21lbVg2YUhMcUdxc1E1dGdkODYyWVppOHFwQ291ZUJBQjE4MS15NnBkczQyd2JnbmlLSGJ6NHZZRU54dWQ0TnpXbTNjZ1g0T1o5cWRyWEVIOXdCY2FIZzhrZGhxZF9hTF83dUgyeWFtYml2TF8yamcxVFhmaUlvamFlQjV6NV9YNnBxamdUcV9JVTF4T2NpNDVtdm9TM0cyVUZSaw?oc=5",
+          "published": "2026-04-06T17:11:38+00:00",
+          "publisher": "Channels Television",
+          "title": "ADC Warns INEC\u2019s Stand May Bar Party From Fielding Candidates In 2027 Polls - Channels Television"
         }
       ],
       "hits": 1,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -199,40 +192,34 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYWh2OFhjaFhNUkdyQklDQjJMZjlCeFRmYUVveGZIWFlNcnhKcDlCQ3pHVDZUY25BSkQtZHg4U3R0UVpaSEtxM2plWk0tVDc0MFBEQjRQc0lib25UUzVwSUNvU2FQQU5BYjBKSzRrS29naGlCVEtqVHlFT3hfcklzZTlvQV9lS0ZWX1lfSFZXUzhEeHJ2SnFwUHIzTEg2bjlTWEtFQjRB?oc=5",
+          "published": "2026-04-07T16:18:18+00:00",
+          "publisher": "stockholmcf.org",
+          "title": "Turkey\u2019s unjust prosecutions make journalism nearly impossible, press groups say - stockholmcf.org"
+        }
+      ],
+      "hits": 1,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [],
       "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.65,
       "severity_label": "Green",
       "unique_publishers": 0
     }
