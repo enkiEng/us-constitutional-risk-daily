@@ -1,16 +1,16 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.73,
+  "average_7d": 11.63,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": -3.23,
+  "delta_previous_day": 5.0,
+  "delta_vs_7d": 1.13,
   "domain_breakdown": [
     {
       "avg_severity": 0.25,
@@ -20,31 +20,31 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.6666666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.0,
+      "points": 2.5,
       "weight": 15
     },
     {
-      "avg_severity": 0.21666666666666667,
+      "avg_severity": 0.43333333333333335,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.7583333333333333,
+      "points": 1.5166666666666666,
       "weight": 14
     },
     {
-      "avg_severity": 1.3166666666666667,
+      "avg_severity": 1.0999999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.279166666666667,
+      "points": 3.5749999999999997,
       "weight": 13
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.21666666666666667,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.8333333333333333,
+      "points": 0.5416666666666667,
       "weight": 10
     },
     {
@@ -62,88 +62,101 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 1.0,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.0,
+      "points": 2.0,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-08T12:41:25.652469+00:00",
-  "previous_score": 9,
+  "generated_at": "2026-04-09T12:43:34.577818+00:00",
+  "previous_score": 8,
   "provisional": false,
-  "score": 8,
-  "score_raw": 8.5,
+  "score": 13,
+  "score_raw": 12.76,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
+      "domain_id": "federalism_oversight",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNV2N1QmI5RXB4UGJsLTlBUkVFSmQwSmdyOFp3VnRBek5pZEZXYXFLdlNZYTVrWXFDbERMZVNCRGx2clVSemRpeW44MmppbzhSZXRGSk9xRGxBdVlRVTYzV05VVU1NdGZxbG1SOElReE4zZHhPbGlTZzJqNUhVT1NpZkdSSU5EOWw0SFUyZms3RVhuMnd0ZTdVMWs5Um43MVdWU3FhQzgxVm9rbkdNUEVON2YwdjU2X2JyMm5RbXRjX0wyejBuTE13T1FSMVM0bEE?oc=5",
+          "published": "2026-04-08T19:32:12+00:00",
+          "publisher": "NBC News",
+          "title": "Bondi won't testify next week in House Epstein probe; lawmakers push to reschedule - NBC News"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcjdOY1M5dWk2anRWb0IwMVhfYzlzTmF1bXI5TU1IRHNSY2lBNDQ5OVZrVDBVQm83ZS1zMC1LN3FyTlN0Sjh1VENhWW84eHRnMGxiU2loeGJHTUFGX1BSZl9WMjZWOElkaGNUR2NRcjJCdlYxelpWdll4aVBTNkZLMFJOZ9IBiAFBVV95cUxPT3RWMkd0NXBNdTBtVV9qTkVsS0NoVkJIUWJNYWQ4TlhKNHl6QXNFWWZaVFhfR1N2YV85Q3c5UHNiQUVfSm5QOEVJLW9LR3p6LTBLekxob1FoVV9NNDVoT0NOeC1XV1BxQlgyenBiNnVjZERXTG1mZkFtR2xPWkdkbjltN1VRUl8x?oc=5",
+          "published": "2026-04-08T21:51:00+00:00",
+          "publisher": "The Hill",
+          "title": "Mace calls for Bondi to testify in Epstein files probe or be held in contempt - The Hill"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY1diTWNMOFR3OENtajFvdFotUE9EMU1fU0hURkpnLUxWNFAwdWFWTU5uVjZGakQ5Wl9EZXB3eVVfWGxjTWJnQ0VGSUJHcmMza0ZRTWh4X1Vlb0Qxekc4Y2w4eHIzMXQ4VkhwMHBWdFUyN0FIazQ0UmNuV2taRWpUVXFvU0NhY0U?oc=5",
+          "published": "2026-04-08T19:41:43+00:00",
+          "publisher": "The New York Times",
+          "title": "Bondi Won\u2019t Appear on Capitol Hill for Scheduled Epstein Deposition - The New York Times"
+        }
+      ],
+      "hits": 12,
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 8
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1cU96dXBiSlNkaWh5cmIyNUM4LVpvTi1McjhKbWk0Nzg5TTJGZWpacGIxOGhDRF9HbXF4dnA5V0o3TEdPcTBCNWN5c2l1cm1MQ0l5cl8wbzlUWEh2NlhGTmpsTDVjTzBSM2ltVkdUcHVJdw?oc=5",
-          "published": "2026-04-07T04:50:47+00:00",
-          "publisher": "The Fulcrum",
-          "title": "Congress Isn\u2019t Failing\u2014It\u2019s Choosing Not to Govern - The Fulcrum"
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0w3dU14UWNxb3ZvNm9Ndmdtb3pmS3E1b05Bc1ZhSVIxaXlhOUFSRUZJSVY0YTdTaWVIWlRBandjRkNDUkhkMzVUTnkzcGQ3cEFsVzVka1BNbV8tYTRzZEtoN2tWcV9EcEZfWXVrbUxyR0VERkxnUUVvYWk2dnBSdk15TV9XUW1QU0xFbnZFWXZmVmZfQnplbEhEZTE3ZEM0S2tFMVBVWFBYTHpxX0ZwMFZkSlhvcjBkTXRCempkSlRiamVL?oc=5",
+          "published": "2026-04-09T11:20:41+00:00",
+          "publisher": "William Fry",
+          "title": "The executive order that proved Brussels right? Why AI governance requires centralisation - William Fry"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQ2Q3cmx2YXRuN3o3QjVIV1JUdXZWN2RaZ0lsejVyc3VodnMwX2JiTjZoRTBxalNnT0s2b0ZnUk45WGNOTmRDYmU3WmFvek13RnNpTUtNOGlSOVJjNHBaT3pLSHN3RDQtUnY3TFhRaEU5VkZQUGllWW1CbVBSV0RjZkFkVjY4cjNGSjhxY2VEZnM3Nm9fcHdQcDYxSmd5Rk9WQXRvdjlfdnM5YzF1eU1hS20xWDRfZGZWbWZUdWpnQjdJTm9lbjhXcA?oc=5",
-          "published": "2026-04-06T20:22:53+00:00",
-          "publisher": "Rocky Mountain Voice",
-          "title": "A system under scrutiny: Colorado\u2019s election system faces clash over how it\u2019s verified - Rocky Mountain Voice"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQUZPMWJVRXh0YXJOaTMweS1BOFNfcnVJOE12d1otc3BxejRLWHFhdlRtbUFsSDN3WENVaHM1X0p1dmZUTXBpclpJVl8wV2tBYVowY0xEbGVTb2ZYX2p5S1dnZmNsZDBVQTE1X2U1cFZqTkM1NnZvZ1NtWXdJdVJYXzdYeF9BX2R5c3UzcEZfTFhpeVJPbG9N?oc=5",
-          "published": "2026-04-06T22:07:44+00:00",
-          "publisher": "ThyBlackMan.com",
-          "title": "Trump\u2019s Birthright Citizenship Order Faces Major Constitutional Test. - ThyBlackMan.com"
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdGlraWhvb1RyQk41LXZkR0pGanM0aHFmSUpiWHBHdkdUY0NoMTNCMzRYOFhSd055UnItNEJUWFJOSXVmYnZuR3JrTHZ5QTVHYkx1bGNJM1ZKVjBzanpJa1BydURrSWZUSUF6UkN5bmdBVHN2ZWhLZE9uRVY2aEJmUTN2TGtPYVo2SS1jN0lVclZLT1FZU1JSeEJ3Q0JoQnR1OHM2THhrZ2VlRUZYVUtXQ3k0dVFWWGRXR3duTzhnamFUbE5faHFqMVg0b1hCcnNsZEZLZktNeURzN2s3RE9hU1BnVEZKWEJSeGJXa0V5QWc?oc=5",
+          "published": "2026-04-07T18:10:05+00:00",
+          "publisher": "MSN",
+          "title": "Democrats escalate push to remove Trump over Iran threat - MSN"
         }
       ],
-      "hits": 4,
+      "hits": 2,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 4
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOODloaFJhTUpnU21lVXYtWWtCNTRtU19Pclo5Mmp4MDJqWU5sbHJ1Q2pvSWNUcGtkUXRLNlhoX0otcVlQRWJtWmFJa3BRZkdZUDFnNzVybGw5TmJtdGtqeGRCVkhDNjdVbUhSZ3dlaUZwdzFIeGJzVWcwR2RrOTRDYXdnZGxycXcyeDJaNkR0eUYwRlZ1TkZqcFFiZGNrNzA?oc=5",
-          "published": "2026-04-07T09:03:40+00:00",
-          "publisher": "The New York Times",
-          "title": "Fact-Checking Republicans\u2019 Misleading Claims About Problematic Elections - The New York Times"
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQM3VxOVRqUVF1Zk12NXJkVE1lYWxaSDZObWJueGRxQzFqRGpBdVRWam9LbXVZd28wOFBPVUVaVURoTFBzVl93bE9JaWFXQlU2Z2ZtQks0ODl0ejA1VXFhVzlsSTg5Mlhfb3hndTBabHl1cTk0TzFLdEFsNlgtZkpWbGZkb2FRM2tQZkhCQUVOb0lCODB3akt4ZXFwWVdqanRFRTYzZ0N4c2s3QlEwdGtqMHA0WkdGcENUejZfWTVOOXpHZGRYanFLNTVYRGFobTVaWWRuUXA1M1M5MkduSTZUcXp3?oc=5",
+          "published": "2026-04-09T09:47:39+00:00",
+          "publisher": "MSN",
+          "title": "Grand jury rejects Trump-era prosecution bid - MSN"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oaGFHWTJrd3c5QkVkc3JVSG53OVhrZlQtcmlhTUpYOURvazctTEY1VDc0czhSSzdaM0FIeDU5VXk0c21QNUNMZTNaU2NRY051dklsM1J6dTZNMG1MTzVoX1p0d0I0VEdGUGs0ekZ4TjhVdFdwaGZURmNGWdIBe0FVX3lxTE1oaGFHWTJrd3c5QkVkc3JVSG53OVhrZlQtcmlhTUpYOURvazctTEY1VDc0czhSSzdaM0FIeDU5VXk0c21QNUNMZTNaU2NRY051dklsM1J6dTZNMG1MTzVoX1p0d0I0VEdGUGs0ekZ4TjhVdFdwaGZURmNGWQ?oc=5",
-          "published": "2026-04-06T13:16:22+00:00",
-          "publisher": "LawChakra",
-          "title": "So Busy That You Can\u2019t Take The High Court CJ\u2019s Call: Supreme Court Slams WB Officers, Orders NIA Probe Into Judges\u2019 Gherao - LawChakra"
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUGkwaks0ejN1MlJ0MUxkVWk1Z1F4ZXFnWVhOXzBqRG9EenZfYjBRbWpsSkMybi11TUo1eE11MUlsTGp4bGQ4MHhRY1R1U3J2UlpHM1YyTDNsTWl5MWMteHV1LTdvSDRrRm1sOElZQTNvekRfYTNFMjFfNlZXLWlrZ2tpRUJ1bFZONEpJMHln?oc=5",
+          "published": "2026-04-07T20:02:21+00:00",
+          "publisher": "The New York Times",
+          "title": "DOJ\u2019s Civil Rights Division Investigates Cassidy Hutchinson, Who Testified Against Trump - The New York Times"
         }
       ],
       "hits": 2,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -152,13 +165,99 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQblQzc0pTbXZYeE16TjBOVUFLTHowdE1fanFPV2dpSFphWHNDdjZvWHYzUTBLYmhwNS1kaUpabEVHMjRDbzdIZGphWW83Z0U2SVVhd0hRSEx5SmZqMXUzdGlVNmJLN01mUG4zSUxMamQxaTZGb2RfNDkyX1RzVjVnSFlfV0NIMnZ2SmZ5YU5HZ2JTSlVyNkVPdm1UWlFKbDh0SkJRdHU4OGU1SlltSGJ6Y0ZSXzBSWFNIOWI5bkttMDRnTmRJ0gHYAUFVX3lxTE5kek9OdEtSVG9YcV84YjZPZjdZZHoyYVY5blFlWGp6dmZSMWpmZUpuN25wQzJJTG9sQ2pGSDQtQW1WN3ZvTVBBVS1hRU1VSDNwRDFZZFdtMGxZakVra0VIekJmM1dEbEpYb3RuNHV6SzdBYjQ5SnVJcUhxeVdWa1RhZTFLb2RjNlM3OUdjZ0FRMlFNeW9DUzB5QVFXVmlHaWs1MG5IbHFZcXpBaEFZYzNKdGdkLWp1elBtN0VTMzJOdUNpbm1vSUVmQnlnaHkxb0tpS0poa044NQ?oc=5",
+          "published": "2026-04-08T19:59:00+00:00",
+          "publisher": "WKYT",
+          "title": "Senate sets impeachment trial date for Fayette County judge despite Kentucky Supreme Court ruling - WKYT"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaV81R2U0UmxRaVc0dWtGVHZnRHV4SUoyb19MempSV0JGaEw2ZExndHItczlnVHJKRzFLV3V5R1NrcW1ydWcweEF0YklGM0Utclh6U0hoQUFKUEVESFhidnZWRkc4a2R4ZEw3TmEzUXl1akhQYmlpb1BOWTZ3U1dXeWp6ZjZIZlQtY2JWMlZGejNMYXdzdWc?oc=5",
+          "published": "2026-04-09T05:00:00+00:00",
+          "publisher": "Kentucky New Era",
+          "title": "Stivers responds to court order halting judge\u2019s impeachment - Kentucky New Era"
+        }
+      ],
+      "hits": 2,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX1RjZDRldmFPZ2xJOVRZVFRaT2FvUEdHOVVJWE80ZjlWRjhGc2pSR3ZOUG1rLW1aQWxlWGYzd3hfNW00SVZ6dHAxdGktOXU0UGN5M1hBaW40YkVXd2dvSTZEUVJSTUNJTzF4amRJZHBKX1k2NXhuR29OODI1MmprZUZRVXZIb2RjY2kteDE5WTIwNXhYeW55eElSTWZvWW1PN1RzSTdXMkFGUFJ3XzNhaVFWQWlOZHhfWUNHb2dhZHlibTBxSWI2YVpTVlFOT29sN1JnMko3MVJJS25VQXRaMWhsYw?oc=5",
+          "published": "2026-04-09T11:47:22+00:00",
+          "publisher": "Mother Jones",
+          "title": "The Federal Database That Could Upend the Midterm Elections - Mother Jones"
+        }
+      ],
+      "hits": 1,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTi1TWk1SbDIzeEEtOEk5RnB1MXJraWpRRzlrd3pmYnl1ZThDOTgxMVltejREZmJOdTBGdGk3SU5ZeFRFWEg2bkpHRktNaEh1aWZjY0RvaVY3cmwwaWRmTUYyMzlZWUtDVHEwSlg1eGtzdXN0eVdHWXRvYjBFWHk4QXRBR2d5dlJsR2pIam5ncko?oc=5",
+          "published": "2026-04-07T20:13:00+00:00",
+          "publisher": "Newsweek",
+          "title": "Supreme Court Could Make Major Change for VA Benefits - Newsweek"
+        }
+      ],
+      "hits": 1,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYWVISlpRTEgtWWUydTBzR21lbVg2YUhMcUdxc1E1dGdkODYyWVppOHFwQ291ZUJBQjE4MS15NnBkczQyd2JnbmlLSGJ6NHZZRU54dWQ0TnpXbTNjZ1g0T1o5cWRyWEVIOXdCY2FIZzhrZGhxZF9hTF83dUgyeWFtYml2TF8yamcxVFhmaUlvamFlQjV6NV9YNnBxamdUcV9JVTF4T2NpNDVtdm9TM0cyVUZSaw?oc=5",
-          "published": "2026-04-06T17:11:38+00:00",
-          "publisher": "Channels Television",
-          "title": "ADC Warns INEC\u2019s Stand May Bar Party From Fielding Candidates In 2027 Polls - Channels Television"
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaGNtRnlLVDVnZ0ZvODB2OE16LV90bEwtR1c1TGxPTF92RmxVTFQ0N1FMTjRHUV8tZWZiRExrV2Vfdm5neXlfaDM1Y0NCMnRyM0pfNjhFWlRkRTBiMEVRcm5FbUZ4OEkzeWFpYkF3YnNKalRJQkJVZUlDWjNSWEdreXF0RWZfcDZGNklzWUV1VURienZzRlN5eHVMdVY5ZmRjVFlHc2xTWHB4UTIxVTdmSFdkSFZPWGtlend2ZTJPb0d4RjYyajF1WTdMU0RGSE5kcFB3WGRn?oc=5",
+          "published": "2026-04-08T09:37:59+00:00",
+          "publisher": "NationofChange",
+          "title": "Trump budget expands domestic surveillance powers alongside record $1.5 trillion military request - NationofChange"
+        }
+      ],
+      "hits": 1,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVzBLN2Y2WFpKRzEtWjVkNG1LYUpoUVhhTzJoMXkyV2NXLVdGWVNJVGtjdFlpNnoxV3ZpYVgtZndXQklRNDFhS3cyVjE3aEgtZHlxRjg0LVVVRjR3NmtRZ3VRYU0zSW1aUTB3NGt1cDBVR0E4VERsY1JpenJlQmNZWEFOeVJMbUxGSlhRXzRCT3dQOVZxbEtkMjVYTHZDRjhYVUdHSHRYMA?oc=5",
+          "published": "2026-04-08T17:34:37+00:00",
+          "publisher": "SSBCrack",
+          "title": "California Supreme Court Halts Sheriff\u2019s Probe into Election Fraud Allegations - SSBCrack"
         }
       ],
       "hits": 1,
@@ -172,33 +271,13 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQmlzb1hXTG9UclhldGp4Nkd4MzB1SzZtR1lJWXpoQXV6RzB1YlhacTFwOXQ4QTAtbTdmbUJueU5LSDc5OXU4TF9ST0RiSnN4ODRYWlRleDFuZVljVnYtQzA2dkM2aElZRUJCM2ZHTnh3M3JWVTdhclRpOXN3RUxka0tEeS16eFZTV3BjMmdCMjlJeDVFc2dKWXEtVElqTW9iZGtxR29zbkl1U3pQMWZZTWp4ZUVjMFN0?oc=5",
-          "published": "2026-04-06T19:55:12+00:00",
-          "publisher": "MeriTalk",
-          "title": "Report Finds Surge in Political Appointees as Career SES Ranks Drop 30% Under Trump - MeriTalk"
-        }
-      ],
-      "hits": 1,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYWh2OFhjaFhNUkdyQklDQjJMZjlCeFRmYUVveGZIWFlNcnhKcDlCQ3pHVDZUY25BSkQtZHg4U3R0UVpaSEtxM2plWk0tVDc0MFBEQjRQc0lib25UUzVwSUNvU2FQQU5BYjBKSzRrS29naGlCVEtqVHlFT3hfcklzZTlvQV9lS0ZWX1lfSFZXUzhEeHJ2SnFwUHIzTEg2bjlTWEtFQjRB?oc=5",
           "published": "2026-04-07T16:18:18+00:00",
-          "publisher": "stockholmcf.org",
-          "title": "Turkey\u2019s unjust prosecutions make journalism nearly impossible, press groups say - stockholmcf.org"
+          "publisher": "Stockholm Center for Freedom",
+          "title": "Turkey\u2019s unjust prosecutions make journalism nearly impossible, press groups say - Stockholm Center for Freedom"
         }
       ],
       "hits": 1,
@@ -212,6 +291,19 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "hits": 0,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [],
       "hits": 0,
@@ -219,7 +311,7 @@
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }
