@@ -1,16 +1,16 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.76,
+  "average_7d": 11.98,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
     "max": 29,
     "min": 15
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 2.0,
-  "delta_vs_7d": 3.41,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": 3.66,
   "domain_breakdown": [
     {
       "avg_severity": 0.5,
@@ -20,38 +20,38 @@
       "weight": 22
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.65,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.75,
+      "points": 2.4375,
       "weight": 15
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.9249999999999998,
+      "points": 1.5166666666666666,
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 1.2166666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 3.954166666666666,
       "weight": 13
     },
     {
-      "avg_severity": 0.09999999999999999,
+      "avg_severity": 0.3333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.24999999999999997,
+      "points": 0.8333333333333333,
       "weight": 10
     },
     {
-      "avg_severity": 0.5,
+      "avg_severity": 1.0,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.25,
+      "points": 2.5,
       "weight": 10
     },
     {
@@ -62,149 +62,65 @@
       "weight": 8
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.825,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 2.0,
+      "points": 1.65,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-10T12:37:23.625307+00:00",
-  "previous_score": 13,
+  "generated_at": "2026-04-11T12:34:10.234422+00:00",
+  "previous_score": 15,
   "provisional": false,
-  "score": 15,
-  "score_raw": 15.18,
+  "score": 16,
+  "score_raw": 15.64,
   "successful_queries": 22,
   "top_signals": [
-    {
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQNF9lekdITHgyUDU0d2F2cVpxLXphUkYzOTI3UElwQkxTUldvU2pEYVhIRE9RRmVJdkh5Xzg3TFFfNEZUSjUxM1VKSGNQdjRXRmk4T29hUGhQeVdnRW5VQ2lnbkROb01PWFhzWUNWYkFieVhBcjRPMFE5UUM5QlFOVnl2SGlGa3FOS3ZmWV9FN0czaGIxVFlHbkVtZEFIUTIydDhldGltUWl2WXR2NVpOcUdxdS0tZi1LR20zLW54ZDZtY0lPMTJETFpRSC1lTDBIYkVEeTBMYjlqR0NpYU9mT2FHTFpXYU5UT19ZYTcweWNaSHZnVkMyRDUxV3lYeHpDbVVCVVBRU2dNZlV0R1NCSElUX0NzRTZfV1NLVWpB?oc=5",
-          "published": "2026-04-08T16:20:35+00:00",
-          "publisher": "House.gov",
-          "title": "Ranking Member Robert Garcia Statement on Pam Bondi Refusing to Appear for Deposition Before Oversight Committee, Defying Lawful Subpoena - House.gov"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZ21FdUdrZzVkMUJiN2FxZjlONDMwWkpJa3dHUmltZDlJQjlvT3BGMkh4b2lLS2E1UjdaMTYxcVlkZEVuY2FGeC15TnFnT29MeFBkRE9LRjl4OGxtNXJmUy1EMy1PMVJXWVBwY0JUN0JJTXk1TkF5cndLUkx4cHVCUVJUTmRXREJZRG9IaWI0VGk?oc=5",
-          "published": "2026-04-08T15:00:25+00:00",
-          "publisher": "CNN",
-          "title": "Justice Department says Bondi won\u2019t appear for Epstein deposition now that she\u2019s no longer attorney general - CNN"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNV2N1QmI5RXB4UGJsLTlBUkVFSmQwSmdyOFp3VnRBek5pZEZXYXFLdlNZYTVrWXFDbERMZVNCRGx2clVSemRpeW44MmppbzhSZXRGSk9xRGxBdVlRVTYzV05VVU1NdGZxbG1SOElReE4zZHhPbGlTZzJqNUhVT1NpZkdSSU5EOWw0SFUyZms3RVhuMnd0ZTdVMWs5Um43MVdWU3FhQzgxVm9rbkdNUEVON2YwdjU2X2JyMm5RbXRjX0wyejBuTE13T1FSMVM0bEE?oc=5",
-          "published": "2026-04-08T19:32:12+00:00",
-          "publisher": "NBC News",
-          "title": "Bondi won't testify next week in House Epstein probe; lawmakers push to reschedule - NBC News"
-        }
-      ],
-      "hits": 17,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 10
-    },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTWpWZGdpNm1BaG82S1JhMjgxSDNKVFo4c2luaGUtLTZIX1F1WVFTN09zb25kb3cwVjdNbzJkVnRwUXJTb3ZlNmNCa2NEaTJWQ1JDQncxeEIzSEVEeTlqXzZtXzVOU0RaT1ZpWWRqSVd5bW9VWWY5SDZZcWJ5VXV0RXVCbHVvTmRESS12U2VNNzlUTGluVVgydm1JQi1Va2FTbjlXVHRWX2ZvMm1Pc0J2YVpJTC1aZ0ZxdkozYk9NVmN2a0g3b29xa1hB?oc=5",
+          "published": "2026-04-11T10:00:27+00:00",
+          "publisher": "Democracy Docket",
+          "title": "The election deniers and anti-voting activists who want to run their state\u2019s elections - Democracy Docket"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBwZ25ZVkh3SWdlNW9XUG9YdlRWdDRxQzc0NDNveXBVeVphRnBlLWNCUVk5RldzMXdrczNXQkJ0YWVlMjNpNGJ0bWdLeHVnbEZLdFV3VWpOZzVzRW1zY2tub1RCekRKUmU3WjJJWWdBVlA4a19Pd1E?oc=5",
+          "published": "2026-04-11T07:04:12+00:00",
+          "publisher": "AOL.com",
+          "title": "New ad campaign speaks out against Trump\u2019s threat to \u2018federalize\u2019 elections - AOL.com"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVjNsY2pZRGh0RDJESE1tQW1YVXJoTmJ4cUxyS2s1eWFrODdHVC1ob1dLSHNSZGtMRURGVXNfVkRTRUwxaF8ySVl5UzZkdm9sam03b2p0R05HemJjT2pZUFhYSW1RUHdmQjM5TGd4aTRsRW52YWtRbDZTWmwxWjYwVzFUT0ZvWUFLWUdiN2V1ZHJDRUNKa3A2Wm5RM25CUFlXWUduZm11YThfcmZrazFfbmxaZmhqaWJaQXFzMXFfM1JQVExDOWRSag?oc=5",
           "published": "2026-04-10T05:52:47+00:00",
           "publisher": "The Washington Post",
           "title": "Brazil's Supreme Court postpones decision on how Rio picks a governor, extending political chaos - The Washington Post"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX1RjZDRldmFPZ2xJOVRZVFRaT2FvUEdHOVVJWE80ZjlWRjhGc2pSR3ZOUG1rLW1aQWxlWGYzd3hfNW00SVZ6dHAxdGktOXU0UGN5M1hBaW40YkVXd2dvSTZEUVJSTUNJTzF4amRJZHBKX1k2NXhuR29OODI1MmprZUZRVXZIb2RjY2kteDE5WTIwNXhYeW55eElSTWZvWW1PN1RzSTdXMkFGUFJ3XzNhaVFWQWlOZHhfWUNHb2dhZHlibTBxSWI2YVpTVlFOT29sN1JnMko3MVJJS25VQXRaMWhsYw?oc=5",
-          "published": "2026-04-09T14:35:26+00:00",
-          "publisher": "Mother Jones",
-          "title": "The Federal Database That Could Upend the Midterm Elections - Mother Jones"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN2UwQm16WnF5aTNrbE4wWWEwVGNJVFpicG52N0NQdVZ5eHBJNXNTUnlYT2xjcHdiRlpOTUtadUZVYXlsR2xPQXA3cV9rNzVNdDR5bnVobDJWdk5xdW9CQV85Nnh2Y1JDeGRIWlNGTXhTLVh2eGtLWTgtbWVzR3VVWg?oc=5",
-          "published": "2026-04-09T17:42:15+00:00",
-          "publisher": "NBC News",
-          "title": "Texas House Special Election 2026 Live Results - NBC News"
         }
       ],
-      "hits": 7,
+      "hits": 6,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 7
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5",
-          "published": "2026-04-08T18:19:32+00:00",
-          "publisher": "The New York Times",
-          "title": "The Trump Administration Has Been Sued 650 Times. Track These Cases. - The New York Times"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0w3dU14UWNxb3ZvNm9Ndmdtb3pmS3E1b05Bc1ZhSVIxaXlhOUFSRUZJSVY0YTdTaWVIWlRBandjRkNDUkhkMzVUTnkzcGQ3cEFsVzVka1BNbV8tYTRzZEtoN2tWcV9EcEZfWXVrbUxyR0VERkxnUUVvYWk2dnBSdk15TV9XUW1QU0xFbnZFWXZmVmZfQnplbEhEZTE3ZEM0S2tFMVBVWFBYTHpxX0ZwMFZkSlhvcjBkTXRCempkSlRiamVL?oc=5",
-          "published": "2026-04-09T11:20:41+00:00",
-          "publisher": "William Fry",
-          "title": "The executive order that proved Brussels right? Why AI governance requires centralisation - William Fry"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWRBb0hhV2lDTDdQc05IaDVUY2ozbXNUYmVjYk5acFVLc1Z1SUM0cEd3MWVyRzhTa0ZsQjRfdVN1STI2c3o5a0ZtdjB3WjNDSnY0b3otdXc1LTJpR2czcXEwMUNlc1dXcG54Q254SUJ4dHlkem10NFk1bmNoOE84X0tfR1NjdU14NjhRMHln?oc=5",
-          "published": "2026-04-10T12:08:40+00:00",
-          "publisher": "northdenvertribune.com",
-          "title": "Trump Orders DOJ to Halt Enforcement of State Climate Laws - northdenvertribune.com"
-        }
-      ],
-      "hits": 3,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5",
-          "published": "2026-04-08T18:19:32+00:00",
-          "publisher": "The New York Times",
-          "title": "The Trump Administration Has Been Sued 650 Times. Track These Cases. - The New York Times"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaV81R2U0UmxRaVc0dWtGVHZnRHV4SUoyb19MempSV0JGaEw2ZExndHItczlnVHJKRzFLV3V5R1NrcW1ydWcweEF0YklGM0Utclh6U0hoQUFKUEVESFhidnZWRkc4a2R4ZEw3TmEzUXl1akhQYmlpb1BOWTZ3U1dXeWp6ZjZIZlQtY2JWMlZGejNMYXdzdWc?oc=5",
-          "published": "2026-04-09T05:00:00+00:00",
-          "publisher": "Kentucky New Era",
-          "title": "Stivers responds to court order halting judge\u2019s impeachment - Kentucky New Era"
-        }
-      ],
-      "hits": 2,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 5
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOVN1TXJNVDJ6U2g5N0g2QXdiTUpCa2ctZkZtc1ZPamdGYlBwRGpxMk5GcEt5bnZOWkpkVTl6LWVudFNrS1BnYnNfcWNDNkw2RUd3THZoUEV2SHdQamFLLW9lZTZKNFhQZjhUQ3g3dEJBaVZpRHJOQVFCMHBUTnFZRTIzRFl2aERFU2RCZWFXWmdLM1NVc0tiNVZFdlJwdGthc24tRGJWOFZyNVU?oc=5",
+          "published": "2026-04-10T17:14:55+00:00",
+          "publisher": "Dallas News",
+          "title": "From Laredo to D.C., journalists have become targets for the government - Dallas News"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbGVTVVZGMTBYaXAzcGRfMmxsLTFHejRtejg1UFJHQ1Yxcm5yS2plYm9KWHNkRTRMVlk3bUtpRzBQTDE4a09PMFM3Wkt3UHo3ZFd0X1F3cFRzU0VmejF3RldidTNRYXRWdHJjQWJQX0M1bkhOU05IVDUzS3g2MzY3ZmZLM1RqUDJVaEJLdFZkRm5YMm95?oc=5",
           "published": "2026-04-10T11:00:00+00:00",
@@ -212,20 +128,59 @@
           "title": "When ICE enforcement and the First Amendment collide - News From The States"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUHJtRzFtTHFTZTVCNlVlaUlYTDlicUdYZmZmVTB0a2JlVVJoUnZkWHV4VlBzM3Z6Q2ZwZ1FZNGRhX3JjeEhZVVNTaUF2SzVlQUJoR2R6cDJ1bjBRZ3d1N280VVJzbWR1MTNJZ1RoOHJkVFNMaExFRTRyeWYwQm5peWlRQUItQk5HbzVEd1F1WHB4cUN5?oc=5",
-          "published": "2026-04-09T16:10:54+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "Punjab records highest journalist threats in March 2026 - Journalism Pakistan"
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ1JEUExiSXFraVFkakpmOF9zbVd1V3VuU0lNUXIzeWhMMEl3amMyaEJoLU5HRV82andfUGlwMGNxSmxwTW9IQ00waW9pOUx6WnEtamFXcU5tZklDeFF0QnR1Wm12YV9JYmZFUDRqWW9EakhUT3FoQXZjNjZyMGRsck5VOWZxbFZoSTEzUEk3UTRHMlJkaHNuSFpaZG1yMVNpWWtrSmxXNGo5WnlmU0xfeVRQdWFkYmw4NFUyWQ?oc=5",
+          "published": "2026-04-10T17:28:47+00:00",
+          "publisher": "National Today",
+          "title": "Journalist Detained by ICE Alleges First Amendment Violations - National Today"
         }
       ],
-      "hits": 2,
+      "hits": 4,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 4
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcFJZSWpNY0RjWWRSbzd4ZjRwVmlhamRzZ1BZZ3pwNjV0WkxhS3oyek1BaGlWZmltdVJRYlZQNFJWYzRTUVJMNWFuellLNEh3TTc0RlBqaFRHWHI3SEFnc0t2eDIweTRWTkNFS3paS3VReXVxSlYtVTJSNzg1eUkxWDRIeVp5c2RQZDE0VzBrRVd0SFpYblhuc3VQdWp6RW5EMzk1NXpNSDdpWHV5c2NZNUFwX0VoNXc?oc=5",
+          "published": "2026-04-11T08:02:49+00:00",
+          "publisher": "National Today",
+          "title": "California Sheriff Ordered to Halt Election Investigation - National Today"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaVRqWWdoM1VlRlpHdkpwdHRLaUxueWJRaW1rZ3VqdEpyeWlJYm9BN3VhQWtBN3ZBMUxTMmpMR0xhbHFLQU5UUmFmQ2J1Y010cDk3SFhxRHdodWhJdW81T0NxZHkzdmh2ZUdjQlBqZXNIaE1zZzhYcnZuVzZGMmxzOGFQUE83NTJOSmlVUDVsX2RxbURySGRQWlNTYUpnWHRlMm1CQQ?oc=5",
+          "published": "2026-04-11T09:55:32+00:00",
+          "publisher": "Pragativadi",
+          "title": "Supreme Court Clarifies Voting and Election Rights Are Not Fundamental Rights - Pragativadi"
+        }
+      ],
+      "hits": 2,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
       "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "federalism_oversight",
+      "evidence": [],
+      "hits": 0,
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -236,104 +191,82 @@
           "published": "2026-04-10T12:20:39+00:00",
           "publisher": "National Today",
           "title": "Supreme Court Blocks Candidate After Alleged GOP Infiltration Scheme - National Today"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HSGNtanI0cW91cUlxNGYxWkRxSFBVaW9CVGhJeXlxUUVXY01iYlpFcjU1bm51Y0sybWo4TE10VEh4OUUtRmhNcjJxRF9DUDA2cTNaMHB2NVJlLS04Qlg2WVpfbURmVkUx?oc=5",
+          "published": "2026-04-10T13:18:18+00:00",
+          "publisher": "fakta.co",
+          "title": "White House Attempts to Remove Indiana Senate Candidate Unsuccessful Amid Legal Battle - fakta.co"
         }
       ],
-      "hits": 1,
+      "hits": 2,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5",
-          "published": "2026-04-08T18:19:32+00:00",
-          "publisher": "The New York Times",
-          "title": "The Trump Administration Has Been Sued 650 Times. Track These Cases. - The New York Times"
-        }
-      ],
-      "hits": 1,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcklJeFZXbzhGbFhiTmdmOWlMVXhHZHJFb2o3ZjRtWUk1a1NzWE4wZlZiNl9Mb1lZTU04aWNXNi0xeGVRWnlFTHVDX19sMTdRTGlNZHB5Q0drQWdmWllxa0pXbDdVZl9tc0l0Z21NSlNDREJ0elpNbXQ1bEVNVWFWZnBGQW1qRERnbWgwT0NtUQ?oc=5",
-          "published": "2026-04-08T21:44:19+00:00",
-          "publisher": "National Association of Attorneys General",
-          "title": "Supreme Court Report, Volume 33, Issue 10 - National Association of Attorneys General"
-        }
-      ],
-      "hits": 1,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWTNtRm83QXg3MU5ZZ0VhNGt1a3NBOFNWUWtMOXVVU1NtaWtLd2lmLWttTHBLMHl1T3h4RG5BUWUwT2ZfZWF3YWw2RE0tS2hUZlk1YlV4WUYtSm1STDNzV3V3MkNEcTduanRlRld0cWM2V0VQRXg2RjRQWHRhb3BhZUN3UnhfZE0?oc=5",
-          "published": "2026-04-10T05:39:07+00:00",
-          "publisher": "AOL.com",
-          "title": "Opinion - Trump\u2019s abuse of emergency powers is the real national emergency - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOcld6T0dfSkVqWDA4SDVkUUtLUjQwVnBhUnlCRmdkc1VWY1VjVWJBOHJCREhuVVZzeG9TVkpQdGZDQmt3WjNOR2VfUTRxaUJqbUVPYWdOWUFMX2Nkb1FsVnNLaFdfaHUyT2h0cDZVQ05TeWhRZjE4eUxpdFdpYUVEME1MY0dDa1NVSndjeGpwdkQ0XzJ2Wkt4d3FDNW01NTVBMkU3NVZfWEItTmVVeG9vN1ZFalc5RHVNeV9zUEhPQ0VpZnpzTGFfLTdVT1BfVWxpaGhORW5MenR3QzgycUpJQV9GcWwzalNvNXRwempLY2dIekE?oc=5",
+          "published": "2026-04-10T13:09:55+00:00",
+          "publisher": "MSN",
+          "title": "Trump defies court over ballroom as DOJ rejects records law - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWRBb0hhV2lDTDdQc05IaDVUY2ozbXNUYmVjYk5acFVLc1Z1SUM0cEd3MWVyRzhTa0ZsQjRfdVN1STI2c3o5a0ZtdjB3WjNDSnY0b3otdXc1LTJpR2czcXEwMUNlc1dXcG54Q254SUJ4dHlkem10NFk1bmNoOE84X0tfR1NjdU14NjhRMHln?oc=5",
+          "published": "2026-04-10T12:08:40+00:00",
+          "publisher": "northdenvertribune.com",
+          "title": "Trump Orders DOJ to Halt Enforcement of State Climate Laws - northdenvertribune.com"
         }
       ],
-      "hits": 1,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVzBLN2Y2WFpKRzEtWjVkNG1LYUpoUVhhTzJoMXkyV2NXLVdGWVNJVGtjdFlpNnoxV3ZpYVgtZndXQklRNDFhS3cyVjE3aEgtZHlxRjg0LVVVRjR3NmtRZ3VRYU0zSW1aUTB3NGt1cDBVR0E4VERsY1JpenJlQmNZWEFOeVJMbUxGSlhRXzRCT3dQOVZxbEtkMjVYTHZDRjhYVUdHSHRYMA?oc=5",
-          "published": "2026-04-08T17:34:37+00:00",
-          "publisher": "SSBCrack",
-          "title": "California Supreme Court Halts Sheriff\u2019s Probe into Election Fraud Allegations - SSBCrack"
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOR0hOT3phYlB6dmVYVjdqVGNGY3BfNno2VHZmSzdLRTJQemhYOHM4UmN1Sld6X1FvNC14OEFKRVBGVXZiSEgtZ1ZIWTlnMTRncmRsd0NZQXhTbE13TE96bFJma2FiQWJuSEZ3NDYxMW9jeWo5SXZqUVRBdGtJa0dyT3BpdnM2NFFKd25GZFFDem0?oc=5",
+          "published": "2026-04-11T01:35:00+00:00",
+          "publisher": "American Banker",
+          "title": "Former Fed official argues against Fed independence - American Banker"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNQktpZW1NSWt6WEh0OFRwYktYVUNFaHBsSXVDNVdZU0xoZy1uNUZPTFhNcnB6ZmRQcmNnSlZWNGJVVjdtZ19BS2tLNXJpVnZBU1R0dUd6MS1BTVdVcHBIYTRERlVVRzJCV0xqSVJuTm1kSUJQUmc5SVJFTQ?oc=5",
+          "published": "2026-04-10T13:49:29+00:00",
+          "publisher": "Jacobin",
+          "title": "SCOTUS Is Siding With Capitalists Over Trump - Jacobin"
         }
       ],
-      "hits": 1,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "hits": 2,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
@@ -342,11 +275,50 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "hits": 0,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "hits": 0,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [],
+      "hits": 0,
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
