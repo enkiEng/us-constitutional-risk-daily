@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.98,
+  "average_7d": 12.31,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,8 +9,8 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": 3.66,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": 2.71,
   "domain_breakdown": [
     {
       "avg_severity": 0.5,
@@ -20,38 +20,38 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.7666666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.4375,
+      "points": 2.875,
       "weight": 15
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.3333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.5166666666666666,
+      "points": 1.1666666666666665,
       "weight": 14
     },
     {
-      "avg_severity": 1.2166666666666666,
+      "avg_severity": 0.9833333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.954166666666666,
+      "points": 3.1958333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.6666666666666666,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.8333333333333333,
+      "points": 1.6666666666666665,
       "weight": 10
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.825,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.5,
+      "points": 2.0625,
       "weight": 10
     },
     {
@@ -62,21 +62,21 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.65,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 1.65,
+      "points": 1.3,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-11T12:34:10.234422+00:00",
-  "previous_score": 15,
+  "generated_at": "2026-04-12T12:34:25.834856+00:00",
+  "previous_score": 16,
   "provisional": false,
-  "score": 16,
-  "score_raw": 15.64,
+  "score": 15,
+  "score_raw": 15.02,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,32 +84,32 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVmF1SjJVSlpaUmVLNUhIRGxHMExvalMwMVNtTWtUOV9TZTkyUFZtNm1ITUtTVFR5MDFQeWtpSld1QmVTZ05IdXk2d2szdDloNkhOY0pHaDhwSGE5RGRkNkw3TUVneC03TGtubmFVaXduZFF5YmRyRVhIOTJrUV9hdTdmdlBqeTFaclFB?oc=5",
+          "published": "2026-04-11T21:57:31+00:00",
+          "publisher": "AOL.com",
+          "title": "Trump endorses challenger to \u2018pathetic RINO\u2019 Jim Buck in Indiana - AOL.com"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTWpWZGdpNm1BaG82S1JhMjgxSDNKVFo4c2luaGUtLTZIX1F1WVFTN09zb25kb3cwVjdNbzJkVnRwUXJTb3ZlNmNCa2NEaTJWQ1JDQncxeEIzSEVEeTlqXzZtXzVOU0RaT1ZpWWRqSVd5bW9VWWY5SDZZcWJ5VXV0RXVCbHVvTmRESS12U2VNNzlUTGluVVgydm1JQi1Va2FTbjlXVHRWX2ZvMm1Pc0J2YVpJTC1aZ0ZxdkozYk9NVmN2a0g3b29xa1hB?oc=5",
           "published": "2026-04-11T10:00:27+00:00",
           "publisher": "Democracy Docket",
-          "title": "The election deniers and anti-voting activists who want to run their state\u2019s elections - Democracy Docket"
+          "title": "The election deniers and anti-voting activists who want to run their states\u2019 elections - Democracy Docket"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBwZ25ZVkh3SWdlNW9XUG9YdlRWdDRxQzc0NDNveXBVeVphRnBlLWNCUVk5RldzMXdrczNXQkJ0YWVlMjNpNGJ0bWdLeHVnbEZLdFV3VWpOZzVzRW1zY2tub1RCekRKUmU3WjJJWWdBVlA4a19Pd1E?oc=5",
-          "published": "2026-04-11T07:04:12+00:00",
-          "publisher": "AOL.com",
-          "title": "New ad campaign speaks out against Trump\u2019s threat to \u2018federalize\u2019 elections - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVjNsY2pZRGh0RDJESE1tQW1YVXJoTmJ4cUxyS2s1eWFrODdHVC1ob1dLSHNSZGtMRURGVXNfVkRTRUwxaF8ySVl5UzZkdm9sam03b2p0R05HemJjT2pZUFhYSW1RUHdmQjM5TGd4aTRsRW52YWtRbDZTWmwxWjYwVzFUT0ZvWUFLWUdiN2V1ZHJDRUNKa3A2Wm5RM25CUFlXWUduZm11YThfcmZrazFfbmxaZmhqaWJaQXFzMXFfM1JQVExDOWRSag?oc=5",
-          "published": "2026-04-10T05:52:47+00:00",
-          "publisher": "The Washington Post",
-          "title": "Brazil's Supreme Court postpones decision on how Rio picks a governor, extending political chaos - The Washington Post"
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQVFvZDFGNzhsVU1hM1FSMzF6SUx6VzJXLXpULUFtT3BTNU5nQ3FteFprYmI4QWYyVnBCeTB3LUZ0aS1ab2lUX1VsZl83OEVyZWZxNHJha1lYM29ueWFfbkZHaC1BajNuRFNDalRUSUcwZHBjWnFTMUFVbHdMbkxsTkpieW53Qi1IYVE?oc=5",
+          "published": "2026-04-12T00:56:28+00:00",
+          "publisher": "THISDAYLIVE",
+          "title": "ADC Leaders to Amupitan: Resign Immediately - THISDAYLIVE"
         }
       ],
-      "hits": 6,
+      "hits": 4,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 5
+      "unique_publishers": 4
     },
     {
       "critical_hits": 0,
@@ -122,26 +122,20 @@
           "title": "From Laredo to D.C., journalists have become targets for the government - Dallas News"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbGVTVVZGMTBYaXAzcGRfMmxsLTFHejRtejg1UFJHQ1Yxcm5yS2plYm9KWHNkRTRMVlk3bUtpRzBQTDE4a09PMFM3Wkt3UHo3ZFd0X1F3cFRzU0VmejF3RldidTNRYXRWdHJjQWJQX0M1bkhOU05IVDUzS3g2MzY3ZmZLM1RqUDJVaEJLdFZkRm5YMm95?oc=5",
-          "published": "2026-04-10T11:00:00+00:00",
-          "publisher": "News From The States",
-          "title": "When ICE enforcement and the First Amendment collide - News From The States"
-        },
-        {
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ1JEUExiSXFraVFkakpmOF9zbVd1V3VuU0lNUXIzeWhMMEl3amMyaEJoLU5HRV82andfUGlwMGNxSmxwTW9IQ00waW9pOUx6WnEtamFXcU5tZklDeFF0QnR1Wm12YV9JYmZFUDRqWW9EakhUT3FoQXZjNjZyMGRsck5VOWZxbFZoSTEzUEk3UTRHMlJkaHNuSFpaZG1yMVNpWWtrSmxXNGo5WnlmU0xfeVRQdWFkYmw4NFUyWQ?oc=5",
           "published": "2026-04-10T17:28:47+00:00",
           "publisher": "National Today",
           "title": "Journalist Detained by ICE Alleges First Amendment Violations - National Today"
         }
       ],
-      "hits": 4,
+      "hits": 2,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 4
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -152,22 +146,16 @@
           "published": "2026-04-11T08:02:49+00:00",
           "publisher": "National Today",
           "title": "California Sheriff Ordered to Halt Election Investigation - National Today"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaVRqWWdoM1VlRlpHdkpwdHRLaUxueWJRaW1rZ3VqdEpyeWlJYm9BN3VhQWtBN3ZBMUxTMmpMR0xhbHFLQU5UUmFmQ2J1Y010cDk3SFhxRHdodWhJdW81T0NxZHkzdmh2ZUdjQlBqZXNIaE1zZzhYcnZuVzZGMmxzOGFQUE83NTJOSmlVUDVsX2RxbURySGRQWlNTYUpnWHRlMm1CQQ?oc=5",
-          "published": "2026-04-11T09:55:32+00:00",
-          "publisher": "Pragativadi",
-          "title": "Supreme Court Clarifies Voting and Election Rights Are Not Fundamental Rights - Pragativadi"
         }
       ],
-      "hits": 2,
+      "hits": 1,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -178,35 +166,9 @@
       "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObURLLXVWX1JZSXozWVFwcVBCb2NCbGhKcXRDZUJBcjIwMzdlN3M0Tm5kWHJhSm5jeGFRTThnMU8tSWhrN3REVG82c05wWkJOcFUzLTc1WEZLLUt2cnFrSy1TU1ZadVY3WXhYdjF2NlNJb2VVTEc3TWozaTVzenoyR1VMU2JpLWlwenNwTUJva2UzU0ROZnFham5INXRMUE1mYlU3VXFHSV9hWmMyaklJMWt6OThORUhqbkpMWmlFZkVHNVhEcWlMWg?oc=5",
-          "published": "2026-04-10T12:20:39+00:00",
-          "publisher": "National Today",
-          "title": "Supreme Court Blocks Candidate After Alleged GOP Infiltration Scheme - National Today"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HSGNtanI0cW91cUlxNGYxWkRxSFBVaW9CVGhJeXlxUUVXY01iYlpFcjU1bm51Y0sybWo4TE10VEh4OUUtRmhNcjJxRF9DUDA2cTNaMHB2NVJlLS04Qlg2WVpfbURmVkUx?oc=5",
-          "published": "2026-04-10T13:18:18+00:00",
-          "publisher": "fakta.co",
-          "title": "White House Attempts to Remove Indiana Senate Candidate Unsuccessful Amid Legal Battle - fakta.co"
-        }
-      ],
-      "hits": 2,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -219,10 +181,10 @@
           "title": "Trump defies court over ballroom as DOJ rejects records law - MSN"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWRBb0hhV2lDTDdQc05IaDVUY2ozbXNUYmVjYk5acFVLc1Z1SUM0cEd3MWVyRzhTa0ZsQjRfdVN1STI2c3o5a0ZtdjB3WjNDSnY0b3otdXc1LTJpR2czcXEwMUNlc1dXcG54Q254SUJ4dHlkem10NFk1bmNoOE84X0tfR1NjdU14NjhRMHln?oc=5",
-          "published": "2026-04-10T12:08:40+00:00",
-          "publisher": "northdenvertribune.com",
-          "title": "Trump Orders DOJ to Halt Enforcement of State Climate Laws - northdenvertribune.com"
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb25peE9HTlZVVkRQSzJTV1E1Zm80b081UGZPNnJZeU8yUk5GSU9CSGFiWURkN2Rvb3FfUmlMZHlYSGRwZzhINXV5WEtTNW9wRENlWXZkZ3V4WnEtWE1aY1NDUWtKako4RkEyamxPTTlkaUV1Um5NMXVKVW4tY0RUVkF0Rl9lVk5DWGxYQmZYdUZqbWVFMmI2ZVNZQk1zNG8?oc=5",
+          "published": "2026-04-10T20:41:30+00:00",
+          "publisher": "The New Republic",
+          "title": "Raskin Demands White House Physician Make Trump Take Cognitive Test - The New Republic"
         }
       ],
       "hits": 2,
@@ -239,16 +201,16 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOR0hOT3phYlB6dmVYVjdqVGNGY3BfNno2VHZmSzdLRTJQemhYOHM4UmN1Sld6X1FvNC14OEFKRVBGVXZiSEgtZ1ZIWTlnMTRncmRsd0NZQXhTbE13TE96bFJma2FiQWJuSEZ3NDYxMW9jeWo5SXZqUVRBdGtJa0dyT3BpdnM2NFFKd25GZFFDem0?oc=5",
-          "published": "2026-04-11T01:35:00+00:00",
-          "publisher": "American Banker",
-          "title": "Former Fed official argues against Fed independence - American Banker"
-        },
-        {
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNQktpZW1NSWt6WEh0OFRwYktYVUNFaHBsSXVDNVdZU0xoZy1uNUZPTFhNcnB6ZmRQcmNnSlZWNGJVVjdtZ19BS2tLNXJpVnZBU1R0dUd6MS1BTVdVcHBIYTRERlVVRzJCV0xqSVJuTm1kSUJQUmc5SVJFTQ?oc=5",
           "published": "2026-04-10T13:49:29+00:00",
           "publisher": "Jacobin",
           "title": "SCOTUS Is Siding With Capitalists Over Trump - Jacobin"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOR0hOT3phYlB6dmVYVjdqVGNGY3BfNno2VHZmSzdLRTJQemhYOHM4UmN1Sld6X1FvNC14OEFKRVBGVXZiSEgtZ1ZIWTlnMTRncmRsd0NZQXhTbE13TE96bFJma2FiQWJuSEZ3NDYxMW9jeWo5SXZqUVRBdGtJa0dyT3BpdnM2NFFKd25GZFFDem0?oc=5",
+          "published": "2026-04-11T01:35:00+00:00",
+          "publisher": "American Banker",
+          "title": "Former Fed official argues against Fed independence - American Banker"
         }
       ],
       "hits": 2,
@@ -262,29 +224,83 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HSGNtanI0cW91cUlxNGYxWkRxSFBVaW9CVGhJeXlxUUVXY01iYlpFcjU1bm51Y0sybWo4TE10VEh4OUUtRmhNcjJxRF9DUDA2cTNaMHB2NVJlLS04Qlg2WVpfbURmVkUx?oc=5",
+          "published": "2026-04-10T13:18:18+00:00",
+          "publisher": "fakta.co",
+          "title": "White House Attempts to Remove Indiana Senate Candidate Unsuccessful Amid Legal Battle - fakta.co"
+        }
+      ],
+      "hits": 1,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb25peE9HTlZVVkRQSzJTV1E1Zm80b081UGZPNnJZeU8yUk5GSU9CSGFiWURkN2Rvb3FfUmlMZHlYSGRwZzhINXV5WEtTNW9wRENlWXZkZ3V4WnEtWE1aY1NDUWtKako4RkEyamxPTTlkaUV1Um5NMXVKVW4tY0RUVkF0Rl9lVk5DWGxYQmZYdUZqbWVFMmI2ZVNZQk1zNG8?oc=5",
+          "published": "2026-04-10T20:41:30+00:00",
+          "publisher": "The New Republic",
+          "title": "Raskin Demands White House Physician Make Trump Take Cognitive Test - The New Republic"
+        }
+      ],
+      "hits": 1,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUDdRc1VjaGNrbHFYSjlGdG1JQVRYb0UzWU9VUVltc2VxbEZQdFo3dHJHSmFRUllVNkYteXFtdXJ5bFNoUnVkZFFKbDNHNlota0kybUMyRlpCMmpnQXltSVUtOTVRMDRMNUpBeFV6WVVyX3EwdGVtQWNyTkhudW50enFfTktNTDlqbkZmbGZxRmthZmJIVGRDVnA5ZWpRZUlFdzhkM2FyXzRhRDV0ZUdxenk0Z2ZTWWJ0dUtKbDJzRi0?oc=5",
+          "published": "2026-04-11T14:55:52+00:00",
+          "publisher": "Daily Post Nigeria",
+          "title": "NOA staff, pensioners cry out as alleged land grabbers defy court order, demolish structures - Daily Post Nigeria"
+        }
+      ],
+      "hits": 1,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQTDhwTFhyMXBTR0wybnZFeTlqQndVb3ZNVG1LdWNiOS1qbzBlRkJtQ2pPcGI2a0JtWWU1b0pLelNReHdrWjZRanhmQmlkNXVSRWZYSmpPandENWpMRXdHS2UxbHdFQ3NJOVQzR3c1bFdLMWM3Tlc5Tm5fS1BaaVhMYjBUUnpuNmxmYi11TkpvNmRxNVBIc09zSEQ0a0ZPVjg0OUxFdDVRM09FX0h2Y0doRDZjcU5ldjZCUVBXNE4wVUUyWmp1V09RUkhkMmJFUDh0ZGZpU1FQOGM3djZSUUR3NFJuWHFSRkRlYllYTXJBNA?oc=5",
+          "published": "2026-04-10T13:13:54+00:00",
+          "publisher": "MSN",
+          "title": "Labor Dept. watchdog accused of bias amid secretary probe - MSN"
+        }
+      ],
+      "hits": 1,
+      "id": "inspector_general_retaliation",
+      "name": "Inspector General Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -295,7 +311,7 @@
       "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -306,19 +322,6 @@
       "hits": 0,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
