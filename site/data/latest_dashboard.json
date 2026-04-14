@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.6,
+  "average_7d": 12.96,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,35 +9,35 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -3.0,
-  "delta_vs_7d": -0.22,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -1.71,
   "domain_breakdown": [
     {
-      "avg_severity": 0.4125,
+      "avg_severity": 0.325,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.26875,
+      "points": 1.7875,
       "weight": 22
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 0.8833333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.5,
+      "points": 3.3125,
       "weight": 15
     },
     {
-      "avg_severity": 0.21666666666666667,
+      "avg_severity": 0.09999999999999999,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.7583333333333333,
+      "points": 0.35,
       "weight": 14
     },
     {
-      "avg_severity": 0.9833333333333334,
+      "avg_severity": 0.8833333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.1958333333333337,
+      "points": 2.870833333333333,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.5,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.625,
+      "points": 1.25,
       "weight": 10
     },
     {
@@ -62,97 +62,151 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.475,
+      "avg_severity": 0.3,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.95,
+      "points": 0.6,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-13T12:43:11.873163+00:00",
-  "previous_score": 15,
+  "generated_at": "2026-04-14T12:42:39.068271+00:00",
+  "previous_score": 12,
   "provisional": false,
-  "score": 12,
-  "score_raw": 12.38,
+  "score": 11,
+  "score_raw": 11.25,
   "successful_queries": 22,
   "top_signals": [
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQU3ZxTnU5anJwYXI1eG1ZY0FDQThOZVcwREFfMURPSmJ0dWtlMFV4QmZZVWlHVHZZOEc0UF90LS1nR3ZZSEhGaDZkWlV4LUsweUdtUDgzV1hUOERTUmtzSVNud1MyUS1DdzNOZE9rbU16bC1HeDlvaUd1eGJqV0VnUGQ0YWJJS0dnTWxDa0xtSzU3bEhQOWtER3liaXhIcVZ4OElRN1F6bEpuMlVXSHFfV3c0X3NnYzR2THZ0aWNiOUNkSzdUbmlrbkQxOVp2cjlrVWwyRWM0Yw?oc=5",
+          "published": "2026-04-14T03:50:48+00:00",
+          "publisher": "Facebook",
+          "title": "LOOK: Ramil Madriaga is sworn in as he faces the House Committee on Justice during the impeachment proceedings against Vice President Sara Duterte. | via Vivienne Gulla, ABS-CBN News - Facebook"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc0lHcmppNWx6MVdsdXVibnlkNm5vblAtdG83d0s2elJWWTRVdUotN0o5ZE5SMFdYMDRQdHJhSkwwS3Z6dWhRYlNTV1JFM19PNTBNVWpoRHFjd1c1bm9HT2ZBTWQ1eW5RcjdaOW5TU1pQSjFNTURHWFBKaHp4c1RlSXVzYVZaQQ?oc=5",
+          "published": "2026-04-13T12:07:18+00:00",
+          "publisher": "AOL.com",
+          "title": "KY Supreme Court terminates impeachment of Fayette Judge Julie Goodman - AOL.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWm9xVnhQN2RPRVNUZ2NZX1BrVjZkdGw0dHFBZ19TSFhqRzJpeHdpRE5ZTnpJa1hISEJwY2dVRWxBSTVUVW5xU0lyaUlOREcwVTBUMVp4RzF1bElkb3ZBaGlDMUJuVnBTVG1zSkk2YlB5QW5IRF9OX3BTaEk3RkJmZkg0Qms0MGN0c1RFaWhmVjZlVkFtQzEyNDB4ZkRSTGZFeWR4N0M4V2VsUmFLOXFzOE9HTEx5SHNCbzdFamd0b2EwamtEbHZJekJXdm1Yd3U0M1RpUThjVW9oM2tY?oc=5",
+          "published": "2026-04-14T05:21:29+00:00",
+          "publisher": "Facebook",
+          "title": "PART 2 LIVESTREAM: The House of Representatives Committee on Justice holds a hearing on the impeachment complaints filed against Vice President Sara Duterte on Tuesday, April 14, 2026. LIVE: https://www.youtube.com/watch?v=d7OvZmfZdrM - Facebook"
+        }
+      ],
+      "hits": 4,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVmF1SjJVSlpaUmVLNUhIRGxHMExvalMwMVNtTWtUOV9TZTkyUFZtNm1ITUtTVFR5MDFQeWtpSld1QmVTZ05IdXk2d2szdDloNkhOY0pHaDhwSGE5RGRkNkw3TUVneC03TGtubmFVaXduZFF5YmRyRVhIOTJrUV9hdTdmdlBqeTFaclFB?oc=5",
-          "published": "2026-04-11T21:57:31+00:00",
-          "publisher": "AOL.com",
-          "title": "Trump endorses challenger to \u2018pathetic RINO\u2019 Jim Buck in Indiana - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQVFvZDFGNzhsVU1hM1FSMzF6SUx6VzJXLXpULUFtT3BTNU5nQ3FteFprYmI4QWYyVnBCeTB3LUZ0aS1ab2lUX1VsZl83OEVyZWZxNHJha1lYM29ueWFfbkZHaC1BajNuRFNDalRUSUcwZHBjWnFTMUFVbHdMbkxsTkpieW53Qi1IYVE?oc=5",
-          "published": "2026-04-12T00:56:28+00:00",
-          "publisher": "THISDAYLIVE",
-          "title": "ADC Leaders to Amupitan: Resign Immediately - THISDAYLIVE"
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM1ZJcjJZVGt6QVRxUFg4dktEQ1FneXJsRHMtNEFPQ1ZNUW9IZ1Y5S0xxTGlZVW1MNzhjWUpjV3paMUFXVEwtTVg4NExoVmpYUDJmYWR5QklYNm9fSXdpU2xNSTFXQ0l5SUZiVGx3M1czNE0tc1hiWEFxb0FydE1DeTFhY3laOTI0Ul9PWmRDLXhaSlV6VlZnYg?oc=5",
+          "published": "2026-04-13T20:29:00+00:00",
+          "publisher": "Chattanooga Times Free Press",
+          "title": "Republican lawmakers push state control over Democratic cities - Chattanooga Times Free Press"
         }
       ],
-      "hits": 2,
+      "hits": 1,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeEdCYzBTS2Jjc1haUV9rWGt4dDhUUjEwLW9BM1NYalFOV1luNXAxbGxnU3F5V1dpcXBrWlRRZEE3ZmFjZTVGc0swYmN1MXVZOGhJUEYwdEpNZkd5UUJrS3JsSnpNYXFQWlhSQ2RDSEcySEc2QmpwQ09mekVZQVNyLXhhaUlFNVc0LVlVdFh6SnlBR21pZjdBdmlnUEFDZGR5V2tIR2pHSng1MEgxS3JfcXh1ZjdfWmFHWjVEanNZZ2tjQQ?oc=5",
+          "published": "2026-04-14T02:56:21+00:00",
+          "publisher": "Liberty University",
+          "title": "White House Ballroom Project Faces Legal and Preservation Challenges - Liberty University"
+        }
+      ],
+      "hits": 1,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWmU2MGd5MFphM1J5NDREbHJwZlFXY20yZnA3SV9FT3Y5TEIwRl9SRVlyNzRURURsWnNLSWRfZ2MxN25Ua0hCdmVkTXUyNXliMVRkNGd5RFRzTEJhYkRSSC1ncU1ac3BKTk5UeUFBeHFubEozdHI2T04yLXQ0eE1vd2lMUV9QZERHeU5uVzVfWUdNdzVZQlNEOHVwWlpSdHV5ck8wSzNZaXZJemhO0gGyAUFVX3lxTE0tSjAtRk56U1V4cExWT21MUmtIZEQwanZ4aWViN0x0cWV4QUpIZm5qbS1EZUpiX1pISDIweE1nZ19WY0dPdlpLWm1HVWZ4SEgySm1PZEN5elhpa2pjOThIUmZEenRQUi1zN2lIX2hXSGMyV0JDbTFMVHBvSnJGNGN0Ujc1TURuel9VcnZTalMwWEF0aEQ5T3NrN3J6bURKNXNidlJHUjZMVGN4Umd4OHVnaEE?oc=5",
+          "published": "2026-04-14T01:50:00+00:00",
+          "publisher": "Tribune Online",
+          "title": "Ondo LCDAs dispute: Akoko communities kick over govt violation of court judgment - Tribune Online"
+        }
+      ],
+      "hits": 1,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYXUzSWNCUVB1WHR2aHpKVWRRaDlVcDBnWm1fMmtRQmdyb2l4NUtmMGl2Q3FFbko0YmdxZTNsZk5YV01kMkRRcEgxU3kwdnE5dExkazdBY0JZdFlreDNEelpLeEtGLTJkbFNzRjZVMU1qWVB1aDdyS0sxNDBDV19ybHpLX0FuRnhFNkdzTVEwOURWaFI2ZGU2bTJZbjA5REZrOHVaYTZvcnRYNnVJYUtZYmhOSzI2RnM?oc=5",
+          "published": "2026-04-14T10:00:00+00:00",
+          "publisher": "promarket.org",
+          "title": "Federal Agency Independence Is in Jeopardy. Right When It Has Started to Matter - promarket.org"
+        }
+      ],
+      "hits": 1,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb0VPbXp1UllYd3VmNThwZklkb2RHSmxCLWY4bGlqVjdTRnJwckJsRXhLSDFqSHFNYld6TElrRjNGdk5fSHNSQzllN05HNlZMRVRyVGt6N1VnWUZzTzdsY2hpQi1GMS1UTTh0TW5BdzhZMU9IbWZ3VE1JLTlWanNnclRiSWJFSWh4MzlYSTVELTBXRERIUDZpeVkwTW5kQ054WXRkLQ?oc=5",
+          "published": "2026-04-13T15:15:53+00:00",
+          "publisher": "Civil Rights Defenders",
+          "title": "Urge to President Tokayev to Halt Prosecution of Journalists in Kazakhstan - Civil Rights Defenders"
+        }
+      ],
+      "hits": 1,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE90Ym1jeEhtYWxkMTFjX0pGaEV3cnB2ZnFTY01wTVppLVFkNm9nNjM0M3MyamlmSGdmYktuQzZWT3cyeUplNloxSXVtV3V4Zk5UNXBvNHZaZGxTcVVOci1hNnpOZ05IVkZfYTNsSHJVUVZLUQ?oc=5",
-          "published": "2026-04-13T00:09:42+00:00",
-          "publisher": "AOL.com",
-          "title": "Why did the KY Supreme Court terminate judge\u2019s impeachment? Here are 4 key points - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9NMzF3OVhMRFFVX1B6WGRqVW1vcE9ma1pXNFZic1BfYmM0WF9lOWlJYlFNb1dPam5nenBYdTBERFNncjdCeWdlOWJjbF9tSG5WSmUxaU00UHFEQ21ON0Y1Z2FaT2F6amVEVlB5WUpYSTREeUZObEZj?oc=5",
-          "published": "2026-04-12T21:28:50+00:00",
-          "publisher": "AOL.com",
-          "title": "My party was wrong. The KY Supreme Court saved judicial independence | Opinion - AOL.com"
-        }
-      ],
-      "hits": 2,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
@@ -160,42 +214,28 @@
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUDdRc1VjaGNrbHFYSjlGdG1JQVRYb0UzWU9VUVltc2VxbEZQdFo3dHJHSmFRUllVNkYteXFtdXJ5bFNoUnVkZFFKbDNHNlota0kybUMyRlpCMmpnQXltSVUtOTVRMDRMNUpBeFV6WVVyX3EwdGVtQWNyTkhudW50enFfTktNTDlqbkZmbGZxRmthZmJIVGRDVnA5ZWpRZUlFdzhkM2FyXzRhRDV0ZUdxenk0Z2ZTWWJ0dUtKbDJzRi0?oc=5",
-          "published": "2026-04-11T14:55:52+00:00",
-          "publisher": "Daily Post Nigeria",
-          "title": "NOA staff, pensioners cry out as alleged land grabbers defy court order, demolish structures - Daily Post Nigeria"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWTNtRm83QXg3MU5ZZ0VhNGt1a3NBOFNWUWtMOXVVU1NtaWtLd2lmLWttTHBLMHl1T3h4RG5BUWUwT2ZfZWF3YWw2RE0tS2hUZlk1YlV4WUYtSm1STDNzV3V3MkNEcTduanRlRld0cWM2V0VQRXg2RjRQWHRhb3BhZUN3UnhfZE0?oc=5",
-          "published": "2026-04-13T02:38:00+00:00",
-          "publisher": "AOL.com",
-          "title": "Opinion - Trump\u2019s abuse of emergency powers is the real national emergency - AOL.com"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -206,8 +246,8 @@
       "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -219,33 +259,7 @@
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -258,7 +272,7 @@
       "name": "Inspector General Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }
