@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 13.87,
+  "average_7d": 13.57,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,35 +9,35 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": 0.06,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -0.49,
   "domain_breakdown": [
     {
-      "avg_severity": 0.4125,
+      "avg_severity": 0.325,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.26875,
+      "points": 1.7875,
       "weight": 22
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.3333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.625,
+      "points": 1.25,
       "weight": 15
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.6666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1666666666666665,
+      "points": 2.333333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 1.2166666666666666,
+      "avg_severity": 1.0999999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.954166666666666,
+      "points": 3.5749999999999997,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.5,
+      "avg_severity": 0.325,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.25,
+      "points": 0.8125,
       "weight": 10
     },
     {
@@ -62,76 +62,44 @@
       "weight": 8
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.825,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 2.0,
+      "points": 1.65,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-16T12:44:36.026176+00:00",
+  "generated_at": "2026-04-17T12:41:50.658992+00:00",
   "previous_score": 14,
   "provisional": false,
-  "score": 14,
-  "score_raw": 13.93,
+  "score": 13,
+  "score_raw": 13.07,
   "successful_queries": 22,
   "top_signals": [
-    {
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNUhlMHloRnlRVkptSnJnN1diX0RVV3BERld4bkZfbUtSaWJaTVpKTkpYZGFmdFNVTXFXQTVVQThTQnVUamEwTkpIZHZ6bHQ5VDlVemV3N2d3T2hheGpQTVhLRldCdEhRWldfd2kzQklOaHJmcWlrQlBMVlcxekROQ1VKWFAzODdNcVE?oc=5",
-          "published": "2026-04-14T16:19:38+00:00",
-          "publisher": "Courthouse News",
-          "title": "Democrats blast Bondi for dodging House deposition - Courthouse News"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0yeDRJR1ZYNF9MN0xXWHRqVTZuYjNpRHhtdkp2dWRURG0zejg3TlhqUzFFN3dmZGFPa0lQTzM2Ml9ZRnhVekJScUV3UXl6Z0hIWWdxODNTOU1ONjlRV1NIVXVrWEc4QTltenBRbFRETnJaRGNsRUpyQi14YTc3d9IBgwFBVV95cUxNeHlJdC14eHkxdGRTTUlfVGVHN09mVWE3NXA5Z0VYMGgyUFN1cUthdUM1QVExNnhuLVZtSGYxdHJsSk41ZnFyUzl2MnduQTBBZ1VqYzJJeFRSWWttN3N3OHY0X1ZYQzMzTUpwN2hfMDRBTVNCMk1qQ2RhbmoyUGc3WjVadw?oc=5",
-          "published": "2026-04-14T21:44:00+00:00",
-          "publisher": "The Hill",
-          "title": "Crockett says Oversights Democrats will move to hold Bondi in contempt - The Hill"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPR2QzcmstS3k4MldKamhjNVpLOVlWMXlFdXNIRHdLSGlwNFhoUk9HOFRZaDMwQks5SWVPS1V6RWJGU0dCOHhHcldiTnVnSG1WUDVfVUhLTUFaeDkxTkMxLXZhN2JBand4b0VGa0hySXpTNnJmQ3FsNE0yZXB3WDNIQW1VbXI2V1RteGNwRmlWQWFQUi1OZGh4em56c1B0dWJfVzZ1OTk2S0pIcXhlbzk5b0hWOUFVTEJRT0RBZm5vMExlUkkwME9CWVVtUm1INi0yN1BvYmVOZTF0U1U0SlptRmtYZmZFZ0lHa0oyWndyWQ?oc=5",
-          "published": "2026-04-15T04:11:08+00:00",
-          "publisher": "MSN",
-          "title": "Pam Bondi defies second subpoena, faces contempt threat - MSN"
-        }
-      ],
-      "hits": 5,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 4
-    },
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWEdETmtXOEdSUEUwTEc2aFN4MGY5bngtb3VJdjUxdlRhekpzODRmdE1tdG1Ib1B0Rjd5c09xdEZqZlZ1TjBDNEYwOXIzVk1QWFlHdHVySzdLMXc3cldJSkVSb0RFS3V2UG9kVmdkeGlhZVlDY0cwMVNQdGVmSjl0M3FoOFZRbnBKbTlSV3BHRVFYV2E5WnBnZE5DYTZ3aWdUTFlBVDRoUkVSS0tsYW9uSVZhMXNxeURFWlE?oc=5",
-          "published": "2026-04-14T15:55:40+00:00",
-          "publisher": "thestreet.com",
-          "title": "Ex-top Fed official drops shocking message on independence - thestreet.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcXZ6YWc0Y0tJUmg3YTkydXBSVzVGeUVLeC1MTHVYN0hnUEVGejM3VFExekZ2cjVYUGpXblNTRjJTMjhmcUZvczl0RnpFU3NkU2tBZ09ZMHE3aEFFR3pfY2pqeG1ZVWZ6NDhPN1pwb1J6Mnl3NHl3MHVpM2w3UjdsYWozVi1RSGtwTnNsZURldlNpcHVHeXFuZHZ2Qk9WVU1JMmhWM3BfdC1FdXcwcVh3SlpHR0RadWZpdWxBN3YtTVUzNFdlcEU1Q2FUTWxZX2t6cjZUNjF6RjNUc2ZkbVB4VnMyY0k?oc=5",
-          "published": "2026-04-15T19:36:08+00:00",
-          "publisher": "National Today",
-          "title": "Former NTSB Member Sues Trump Administration Over Alleged Racial Discrimination in Firings - National Today"
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeU9YYXNWTjRFckZwQzlWNS16WVJGeWdRSlRVa2RFZjhTaVBVaXBOYVlKWkxlT0NGVWhiTWYyU2MxVi1MdjlCSGhxTnBHcEVLTkFYX3R1UG5FS3phVUFJQi10LVQwcTl0cmQ1MlFaODM5YTloNG1BY01KWUdjbFZjeExVR1lTWkhVNjRhdWRuTlhhbGRHLV84Q08ya2xnNEpWUWNLeXFJSi1KeFd3XzNuOHBJeC1tU1lZa1dLakFYM2tKX216OFRrMEc4R1JPYVZVMERPX0JDYnI0YUxRMWc?oc=5",
+          "published": "2026-04-17T08:58:05+00:00",
+          "publisher": "MSN",
+          "title": "Trump threatens to fire Powell if he stays past May 15 - MSN"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdU1xS2pZMVVHd0pQbDJnR29OOTdiblVSX0FhdjhueDQ4UFc0V0E3ODRiS2FfY3FWUUc4VXkxajJPTExFbE1Ra2tObHJGa1dFVkpUME9ROUlzUm11NHo2c3JJQmNpTFVrTkV4bXNfTFVFRlhsNTVqQWFkNmdlQU9WdVBHRHV6bWZaWGNCeFM2aUE4R09kOG5ZVlQ0dEZfbmc?oc=5",
           "published": "2026-04-15T13:32:51+00:00",
           "publisher": "South Florida Reporter",
           "title": "The Fed on the Brink: Trump\u2019s Ultimate Showdown with Jerome Powell - South Florida Reporter"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOd0FkSHZxdHhVcTN1elo2SHRWbHMtV1F6UXZ1SU1PVkdjVkpabk9JYl9HYVk3SXozYXYxNkQwU3JOMDJ3anJmTjU4MW8tUnRuMUZfSFBVWG9KZ1BoNTUzUkFLUFg0THhlTmxiT3l2d1E1Y0RzREJaNmEwLVZqLXpLUXlDV0U1R1NFMU1vUHJlRWRvYm1YNVM2aTNoT3V2R2ZueWhZa2JSbjBESWlNZlNITHJZWENGV2RmZlNveFZuR2p5Qm9FV0hEWDh0VXVGeHJtenpBMW9RZVRybjNEeXdoYlcwM0RrOGZ3Z1hWR2FhUFdxZXBwaGZfYjJ4TTdjY1dtVlRKSWpwZkxleVB1N2JxeFVfRzR2QXJYSHVWQU5wTHd5UWxPQjJfU2E1Sm5yZ3l2cEFkLWg1eGY2YkRPb2lBTXJaVlozal84NFVzWGxkeHZ3TnVpTjNIWQ?oc=5",
+          "published": "2026-04-17T02:24:43+00:00",
+          "publisher": "MSN",
+          "title": "Why the Federal Reserve has historically been independent of the White House - MSN"
         }
       ],
       "hits": 3,
@@ -141,48 +109,22 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPcU9jUUFxLWtBbXFHNTdxVHFkcE1rSXM5RDBvYmRTeXVoYmNoMW9OVkNhT2FEUXpSN0s5bjZEcDVidUNCTnNERUpRN0FQSWpaOG5kTFRDYURSU2N4MmtyZDdqdm84RHM0ZlBVc2hrcXF1Mndxd2wzTG9uMW9aNVJxSVdfZTZNTThxRXRHaDBpcDF3QW1UTFZsQTdka3M0R1JjdURIMXpSeC1lVUUxSGNXdVZ4UmlRRG9UeVJmS3VPUEw3YTIxMFlVOElDbnBBQjU3YnB3dERpTnl4R3RxSFc3dE9BUlhjUQ?oc=5",
-          "published": "2026-04-15T06:50:00+00:00",
-          "publisher": "Ballotpedia News",
-          "title": "Alabama voters to decide two constitutional amendments related to the pledge of allegiance and school prayer - Ballotpedia News"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYkdRY0ZmUGpGNDAtQklKUkF5dzl5Y3dkTFljZFlpUHdodnVhZnBkTG5PZE9zdm9Rbnp2UDlrTEx1WTJ0MHp4dXlqUXFjQmNBXzAxbGdYMkR4MTN2WHN6Xzg2TjJ6aUk4bjdzZm9YU0VGdjFZX3lrazVDcVltT0xXXzI0ckJHc1B5ZnhBLUVn?oc=5",
-          "published": "2026-04-15T13:29:30+00:00",
-          "publisher": "Chattanoogan.com Breaking News",
-          "title": "Top Senate Stories: 1st Budget Vote - Senate Takes Up GUV's Voucher Scam - Chattanoogan.com Breaking News"
-        }
-      ],
-      "hits": 2,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
       "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "federalism_oversight",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbzdoTjNCNE5ndUxOeFRhRFhRbTJDLXpqOXNtSjhremZJbkhHVnkwNjVqcE85RVRmZE1ISzc4NGk2Q3pHeHJNWUlwTnVPdXpuS0NUVWMxSkg3ZFhURW8zUWEwYS1pWkthenQyckszeFQ5bVM4RDViWXN3YjlQdWRFZldPZnV6SUhnZUVkbzEyanl1Z01FRFhzU1lhRGM?oc=5",
-          "published": "2026-04-15T05:11:00+00:00",
-          "publisher": "The Guardian Nigeria News",
-          "title": "ADC on brink of 2027 exclusion as court battles, deadline draw near - The Guardian Nigeria News"
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaXJpaDRWclU3NVF6XzZfazBGUXlxc1JPZUtraTMtTlp6bVJ6X2tmSm5TeVdkNmlwdkxjRmNLNm9FTEcxS2RjUHMzN19DNnB4enp1Mk1OdGZycXhhUmNmOUNaVjRCaXpQMDFBQjZQMUYzRkpZNXpvZDdUT2Q5Z2kzbEZYbTRYMExQWmF0TVpBQ0hDU0daQTBhb21tQ0VmUWtQMEhXNmc5THl0N2U0N04ySUdGSHpPTkxXeVdKM3daUnRBZU9FVnhQUjZfYw?oc=5",
+          "published": "2026-04-15T20:02:00+00:00",
+          "publisher": "The Mary Sue",
+          "title": "House Democrats call to hold Former Attorney General Pam Bondi in contempt after defying a Congressional Subpoena - The Mary Sue"
         }
       ],
       "hits": 1,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.65,
@@ -191,11 +133,37 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYkdRY0ZmUGpGNDAtQklKUkF5dzl5Y3dkTFljZFlpUHdodnVhZnBkTG5PZE9zdm9Rbnp2UDlrTEx1WTJ0MHp4dXlqUXFjQmNBXzAxbGdYMkR4MTN2WHN6Xzg2TjJ6aUk4bjdzZm9YU0VGdjFZX3lrazVDcVltT0xXXzI0ckJHc1B5ZnhBLUVn?oc=5",
+          "published": "2026-04-15T13:29:30+00:00",
+          "publisher": "Chattanoogan.com Breaking News",
+          "title": "Top Senate Stories: 1st Budget Vote - Senate Takes Up GUV's Voucher Scam - Chattanoogan.com Breaking News"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNdWE1VVZkQTBQY0dxQmhSVGVYaF9YcFJzSV8zblpqMHliME14YWpJUHAwU192LTNLdHdCbXRCS3ctWHNydUh5d3JLbUdUYUQ3eVAtVTVlc1ptbXd6Nm9MRDVNcFk3bC1BTXJrYU8tWE1IM1ZUWmdUZm5KMGhfWFdxTzF2cWpBeE9RVkNUWEtKdEsxbUxWY1BxbE16RUxpLUF1UkZYanlqdXBSQ3VzcWhtNld1RXBRWTd6MnlZeW1CTWJyMDhFSnhWbXhtSTh3N3hUWHR5bElkaDZVSGY2QTNPSmhOdWNQNVlGR1N4eE0yZzZXa0NrY0JNZHhRTUpKbkVXNVHSAYICQVVfeXFMTXVhNVVWZEEwUGNHcUJoUlRlWGhfWHBSc0lfM25aajB5YjBNeGFqSVBwMFNfdi0zS3R3Qm10Qkt3LVhzcnVIeXdyS21HVGFEN3lQLVU1ZXNabW13ejZvTEQ1TXBZN2wtQU1ya2FPLVhNSDNWVFpnVGZuSjBoX1hXcU8xdnFqQXhPUVZDVFhLSnRLMW1MVmNQcWxNekVMaS1BdVJGWGp5anVwUkN1c3FobTZXdUVwUVk3ejJ5WXltQk1icjA4RUp4Vm14bUk4dzd4VFh0eWxJZGg2VUhmNkEzT0poTnVjUDVZRkdTeHhNMmc2V2tDa2NCTWR4UU1KSm5FVzVR?oc=5",
+          "published": "2026-04-16T15:36:09+00:00",
+          "publisher": "Daily Mail",
+          "title": "Biden calls Republican voting bills 'the most significant threat to democracy since the Civil War' - Daily Mail"
+        }
+      ],
+      "hits": 2,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
       "evidence": [],
       "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.3,
@@ -207,16 +175,16 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNd21zU0ZYX3otVXN4MG5feVpqbVVOQkdZZ1VWTWhZaHIwbGJVUnljQkszV2RYTFp1MG0xNVFIeFp4engxTFN0cTkzTl9fZ1pOcnJHLVZPODAzaDRJNXNDMWpEbDdyRmlhb2tNR3h5QnltSWMyTGNEWDNoQ1Z3MkUxeWl1UjBKMWFlQzVuX3lJV0FHY3NUOU56NEtvOFJaYlR6QktYa2xBODQ2ZzNQRDFRY1lKZzVTa2JOaXRxdTRGWk85M1ZJdDEyVW42TVY4TE1Lc3Vmem9jR0xydzB1WTgtSm1SanFLMzYwdEw1VkV3?oc=5",
+          "published": "2026-04-16T17:50:03+00:00",
+          "publisher": "MSN",
+          "title": "Supreme Court poised to hand Trump major legal setbacks - MSN"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQTl2bVQwUzJrWTBvNlJCbnA5S3JCcnVfcGZDM2Vid0hnRTdIR210ZkoyU2RlcENpSHZCOHNOSHBzWThyVENTSGdsUmo5ZGVxeEtXcXNST0E3dDdaNGlpNE9wLU5xUElNdTFqUDJYOTVobkpjTndxM3pLTy1BYkV4cmxQMUM0bDBjZG5mYjdZM1hlcnFjVHRoOFpkeUgxUjd5clRR?oc=5",
           "published": "2026-04-15T15:54:00+00:00",
           "publisher": "Business Insider",
           "title": "11 times US presidents launched military operations without Congressional approval - Business Insider"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9oZFVuUXBSS1dSS2w3NnhzU1gwRGVQcVpnOG42Z3lrTXVXWDV6NUtWSEVsM3Rkc2FWMHNybk9fbnFVSEhjb25SQmE3MjBrR2JlNm9uQ052MG01VWdfaHF5VVhR?oc=5",
-          "published": "2026-04-14T14:51:53+00:00",
-          "publisher": "Missoula Current",
-          "title": "Youth activists try to revive suit over fossil fuel policies - Missoula Current"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbWtmRk5aakpDdURUanRKbklHSXdQZGhFSTdhdTBEeU52SVhxWHNjYk9jc3lselF4SFVQUzF6NzV3d1RET0NCUm04TGFvYWRTWnQ2clpudjVRN1RDeGZXNGxBQlBWMS05OTVWb2oyY3ZhVzB5N1dibUZ6U2RmajRMeTN3MGwtTXBWa245MERkX2dlT0U?oc=5",
@@ -236,24 +204,24 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQR1ZUUjVHTmktbl9Hc0tSU01aaTJlN3ZvcTUxWUlGVnZ3OG9BVDRzZWUzdmN5NkVoanAzUHg5NUl5ZkVJWHZweWw4Q3BzbF9TRFN3VC1CMGtNUGV2M1psd2F6ZElDRXB6RjI4YlJfQURTVWhIZHh1ZW43ZVlvVGtDanVwTXlKeHA5YlA4akNpOVBfRFZfZTFyNUNYVnlOUDdlNTBxOS1aRGNNekVaNU5VWTJWc01uUlVFakE4aXRfaDluOXZVTUMwYlhNcWpHSzRzSmMxWkI1WTlwYWVSeUdOcl9wSXltSVlrVl90UUNiOW9kQQ?oc=5",
-          "published": "2026-04-15T07:35:49+00:00",
-          "publisher": "MSN",
-          "title": "Judge orders home detention for accused Delta Force leaker - MSN"
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9xWjBNeC02REhwLUQwMlJaanRTaTlTQ25wejRCa25wVUJScWMxdWlJbVNhLVpZaGZSa0NBM1dodFZlZDE1MkRzaUowRm9ZN3ZIODRrRFVoY3VyQkNnYjJWODNFSThnLV9pdmZnS2lOREh0dFpXaXFDTzdR?oc=5",
+          "published": "2026-04-17T12:31:35+00:00",
+          "publisher": "The Debt Dispatch",
+          "title": "Fiscal Policy in the Cato Handbook on Affordability - The Debt Dispatch"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLTN0Z2VPUVRFMlFmVEYyWWdrSmFZRkxkUmRqSTlXYkJIMUhOSVZrZndlWHExQ2xWOEdGODZsVVQ3X0liZUJNVU9LSkM4TG9CamQyTGxkQk9xOUphMUFWVTA5S1l0X1BtMkZGX1FDcEp0NkpaZkNVcHIycUNCX1pxSkFNZEF3ZWh0VkFB?oc=5",
-          "published": "2026-04-15T12:08:59+00:00",
-          "publisher": "thecanary.co",
-          "title": "Kuwait arrests US-born journalist in social media crackdown over war damage - thecanary.co"
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNcW9abTNaR0hVNDdkTlVUTjNFMlRnTkhBWkxQNG5RUGxEUFBYOC1sVkVjY1IwcDVEdmFsd1dWWmpRVmlOeGRCLVVBY0NzX1dpd1V3bmd5czlsVDg1RHBKRGdxTkFMUFB5bXliUVpiZ1NKTWRNTW9yV25OTFoweWc5Q213MENiNUhHVlgtUU1BY1BuamtmTGlNN1d6OWtKdGxLWGNMZkpUUmZjQWJnWUNNcUdnWV9pUVFBRDhLYXJMeVRBcUtrM09ScElacjBLWi1IbXNickFCemQ4bGxoY3RUWW9xTVhIUUtMa1VDSDFHN25kclNLUUlSa2l4X200WnZuZGdXUWdB?oc=5",
+          "published": "2026-04-16T06:18:35+00:00",
+          "publisher": "MSN",
+          "title": "Scholar says Trump fulfills 1952 Supreme Court emergency powers warning - MSN"
         }
       ],
       "hits": 2,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -282,23 +250,56 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNC10bnhTUnA4cTJabFFQYXQ2QVdpY1REZzVwTXU4OFExWHFRaGRWU3h3S3Aza2tNQnV2RlJnTTU5WnlpVW1zOWE5bmt0WmxpdDNmWThlMFR0Q3BrdjA5QTlBVXJDaGJHRTRGWk0zeWE3cldTTVh3U2NGX3UtNE81UEtRcjl0VndhSi11S0J1a3FmRVltX0wtdUhBZ2JXRi1iaFI2WDFPbzJkeU1KTzhCdUk3ZF9SRzNBUlMyR0FIdGZoTHNQTEMxOTU5RGZ6ckNDd2phVHRnSjVJWlRrSnpRSUMxRWtTdlZ1WjRta1dreGcwSWs?oc=5",
-          "published": "2026-04-15T11:18:17+00:00",
-          "publisher": "MSN",
-          "title": "Scholar says Trump fulfills 1952 Supreme Court emergency powers warning - MSN"
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zMVNLbkV0RUlhVGZBMXZQUl9hRHNWeUFGeUFLLUhJdjZSMXlzR2tfQ2I4dTJmTm55R3lVN1AweHptWGFLYXBsTVRQdUFCRDBCVV92MXg0ZUFoZ09zMXfSAV5BVV95cUxOczFTS25FdEVJYVRmQTF2UFJfYURzVnlBRnlBSy1ISXY2UjF5c0drX0NiOHUyZk5ueUd5VTdQMHh6bVhhS2FwbE1UUHVBQkQwQlVfdjF4NGVBaGdPczF3?oc=5",
+          "published": "2026-04-16T13:55:07+00:00",
+          "publisher": "ARY News",
+          "title": "Myanmar releases voter app criticised for Rohingya label, despite EU objection - ARY News"
         }
       ],
       "hits": 1,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOC1LQ0libW1Ka3BGRmpnTnBTaGZrZk5WNlFNb0RPVTBzcjFpRkd2RDNWWkJucUtOZFRsMmRra202bWRxelVMZGlyRXVzbDdGdFFIQ0NXTEJLdzZ2R29vZHpLNlhIaC0wdmNxYXVrdHUwRW50dXpROWZpNnJud3NWQ1E3dUVvNjRiTFE?oc=5",
+          "published": "2026-04-16T23:39:45+00:00",
+          "publisher": "AOL.com",
+          "title": "Resolution drafted to address threats against West Virginia judges - AOL.com"
+        }
+      ],
+      "hits": 1,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [],
+      "hits": 0,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     }
   ]
 }
