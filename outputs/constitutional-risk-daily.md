@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-04-17 12:41:50 UTC
-- Score: **13 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **-0.5**
+- Generated: 2026-04-18 12:34:23 UTC
+- Score: **14 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+1.0**
+- Delta vs 7-day average: **+0.4**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -14,50 +14,52 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.33 | 1.79 |
-| Judicial Independence and Rule of Law | 15 | 0.33 | 1.25 |
-| Opposition Rights and Political Pluralism | 14 | 0.67 | 2.33 |
-| Executive Constraints and Emergency Powers | 13 | 1.10 | 3.57 |
+| Elections and Transfer of Power | 22 | 0.50 | 2.75 |
+| Judicial Independence and Rule of Law | 15 | 0.67 | 2.50 |
+| Opposition Rights and Political Pluralism | 14 | 0.55 | 1.92 |
+| Executive Constraints and Emergency Powers | 13 | 0.98 | 3.20 |
 | Civil Service and Agency Independence | 10 | 0.67 | 1.67 |
-| Civil Liberties and Information Environment | 10 | 0.33 | 0.81 |
+| Civil Liberties and Information Environment | 10 | 0.15 | 0.38 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
-| Federalism and Legislative Oversight | 8 | 0.82 | 1.65 |
+| Federalism and Legislative Oversight | 8 | 0.65 | 1.30 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
+| Judge Intimidation Campaign | judiciary_rule_of_law | 2.00 (Yellow) | 4 | 2 |
 | Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 3 | 2 |
-| Legislative Oversight Obstruction | federalism_oversight | 1.65 (Watch) | 1 | 1 |
-| Election Administration Capture | elections_transfer | 1.30 (Watch) | 2 | 2 |
-| Martial Law or Military Governance Language | executive_constraints | 1.30 (Watch) | 0 | 0 |
-| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 3 | 3 |
-| Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 2 | 2 |
-| Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
-| Press Restrictions or Retaliation | civil_liberties_information | 0.65 (Green) | 0 | 0 |
+| Legislative Oversight Obstruction | federalism_oversight | 1.30 (Watch) | 0 | 0 |
+| Election Administration Capture | elections_transfer | 1.00 (Watch) | 2 | 2 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 2 | 2 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 2 | 2 |
+| Election Delay or Cancellation | elections_transfer | 1.00 (Watch) | 1 | 1 |
+| Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 1 | 1 |
+| Martial Law or Military Governance Language | executive_constraints | 0.95 (Watch) | 0 | 0 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 0.65 (Green) | 0 | 0 |
+| Press Restrictions or Retaliation | civil_liberties_information | 0.30 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
+### Judge Intimidation Campaign
+- [AOL.com] Boasberg faces new call for impeachment after appeals court orders judge to end ‘contempt crusade’ against Trump officials - AOL.com (2026-04-17) - https://news.google.com/rss/articles/CBMihgFBVV95cUxNanNMc2JJckpKSTRXRGF2Wmw3SDQzTDBWbmhSWHZVeUt1LU1BQkd4bkV4aWhNRVJGUFhSYmVkQUhNNnAtV1YzMDlZeWxRbWZTNkw0YkpvUktldWJDdGtFZWpwZEZVSmlxbHAwUTBwc2hweGZxdWVzRkZWYWpXcHRVUmtObVdsZw?oc=5
+- [Santa Maria Times] When judges are targeted, the legal profession must respond | Guest Commentary - Santa Maria Times (2026-04-17) - https://news.google.com/rss/articles/CBMigAJBVV95cUxQVF9QRlBiQ3MwcHZxRDRhcDRVQ24zc2x3NDNlc0NBVjV2Q2VsMGszc2FZZmtGNEJaT3I2cEplNXJuOGZzMmYyS18xQldKaDVJM2hVLTRzNUx0X1hxVUoxcjRLV2ZzNVZMdk9VNUFFQVU5bF84M1Q4cjFKcU9Ed3ctX2toc0p5WlFjMFRIRk5mcHVpdk5mUGx4bkRHNkxlZHJtSDE5dl9KRzZ4djdpc1VKRHZYSmI1QmstZkFtM3BxTlNXOUYyMm15ZWJFejhxTTd2NXB6SkRweVVqOHV3QURBOUJuM0NYYUFzdS1yMWVrZzRDWDR4TjZneWc1RjNtb0V0?oc=5
+- [AOL.com] Resolution drafted to address threats against West Virginia judges - AOL.com (2026-04-16) - https://news.google.com/rss/articles/CBMiigFBVV95cUxNOC1LQ0libW1Ka3BGRmpnTnBTaGZrZk5WNlFNb0RPVTBzcjFpRkd2RDNWWkJucUtOZFRsMmRra202bWRxelVMZGlyRXVzbDdGdFFIQ0NXTEJLdzZ2R29vZHpLNlhIaC0wdmNxYXVrdHUwRW50dXpROWZpNnJud3NWQ1E3dUVvNjRiTFE?oc=5
+
 ### Independent Agency Capture
-- [MSN] Trump threatens to fire Powell if he stays past May 15 - MSN (2026-04-17) - https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeU9YYXNWTjRFckZwQzlWNS16WVJGeWdRSlRVa2RFZjhTaVBVaXBOYVlKWkxlT0NGVWhiTWYyU2MxVi1MdjlCSGhxTnBHcEVLTkFYX3R1UG5FS3phVUFJQi10LVQwcTl0cmQ1MlFaODM5YTloNG1BY01KWUdjbFZjeExVR1lTWkhVNjRhdWRuTlhhbGRHLV84Q08ya2xnNEpWUWNLeXFJSi1KeFd3XzNuOHBJeC1tU1lZa1dLakFYM2tKX216OFRrMEc4R1JPYVZVMERPX0JDYnI0YUxRMWc?oc=5
-- [South Florida Reporter] The Fed on the Brink: Trump’s Ultimate Showdown with Jerome Powell - South Florida Reporter (2026-04-15) - https://news.google.com/rss/articles/CBMinwFBVV95cUxOdU1xS2pZMVVHd0pQbDJnR29OOTdiblVSX0FhdjhueDQ4UFc0V0E3ODRiS2FfY3FWUUc4VXkxajJPTExFbE1Ra2tObHJGa1dFVkpUME9ROUlzUm11NHo2c3JJQmNpTFVrTkV4bXNfTFVFRlhsNTVqQWFkNmdlQU9WdVBHRHV6bWZaWGNCeFM2aUE4R09kOG5ZVlQ0dEZfbmc?oc=5
+- [MSN] Trump threatens to fire Powell if he stays past May 15 - MSN (2026-04-17) - https://news.google.com/rss/articles/CBMi7gFBVV95cUxOcG4zMlRiQW1Ic2lRTy1CU3d3NFV6WjZJakNkbmRZNkhFN3JfbEFTcFVSUTA5RFlzRV9QOFUwWXd4ejY5V1NIRGlOVURUYVNkQWE2VERZU1VraWdpanJUeTNYUmNmaEg4V2ZfMFdpSURuOFRBeUUxR1cybVQ2VC12QjB5SHh1SnFfbjBhRVlmVWFyU2pHVUtSRnZXSEtSSHJSc0kwd21XYWh0TEM3WHBJXzJRczFkWUFYMUVIbmFHX05tNTNjamhMRHFWNXlJeWYySkhzdmNWQ0RhTXNrbi03QlVIcUFOQkY2TXQ2dTdR?oc=5
 - [MSN] Why the Federal Reserve has historically been independent of the White House - MSN (2026-04-17) - https://news.google.com/rss/articles/CBMi2AJBVV95cUxOd0FkSHZxdHhVcTN1elo2SHRWbHMtV1F6UXZ1SU1PVkdjVkpabk9JYl9HYVk3SXozYXYxNkQwU3JOMDJ3anJmTjU4MW8tUnRuMUZfSFBVWG9KZ1BoNTUzUkFLUFg0THhlTmxiT3l2d1E1Y0RzREJaNmEwLVZqLXpLUXlDV0U1R1NFMU1vUHJlRWRvYm1YNVM2aTNoT3V2R2ZueWhZa2JSbjBESWlNZlNITHJZWENGV2RmZlNveFZuR2p5Qm9FV0hEWDh0VXVGeHJtenpBMW9RZVRybjNEeXdoYlcwM0RrOGZ3Z1hWR2FhUFdxZXBwaGZfYjJ4TTdjY1dtVlRKSWpwZkxleVB1N2JxeFVfRzR2QXJYSHVWQU5wTHd5UWxPQjJfU2E1Sm5yZ3l2cEFkLWg1eGY2YkRPb2lBTXJaVlozal84NFVzWGxkeHZ3TnVpTjNIWQ?oc=5
+- [TechStory] Trump Draws a Line: Powell Must Go or Face Removal - TechStory (2026-04-17) - https://news.google.com/rss/articles/CBMie0FVX3lxTFAtanVpYzBMbGtIVmNLM2VTV19DSTZLWWEyTVFCaG9Zei0yUDQySGltUlZNYTgzV3hWTzNnZ21ETFIwZ3BWMkRheElCSmRqNHhZdWlYRUxDbzhzcm1xOUxzTjlVdXBfZTloWk9xbHZnSE1TUUJtWUEyamx0bw?oc=5
 
 ### Legislative Oversight Obstruction
-- [The Mary Sue] House Democrats call to hold Former Attorney General Pam Bondi in contempt after defying a Congressional Subpoena - The Mary Sue (2026-04-15) - https://news.google.com/rss/articles/CBMiywFBVV95cUxOaXJpaDRWclU3NVF6XzZfazBGUXlxc1JPZUtraTMtTlp6bVJ6X2tmSm5TeVdkNmlwdkxjRmNLNm9FTEcxS2RjUHMzN19DNnB4enp1Mk1OdGZycXhhUmNmOUNaVjRCaXpQMDFBQjZQMUYzRkpZNXpvZDdUT2Q5Z2kzbEZYbTRYMExQWmF0TVpBQ0hDU0daQTBhb21tQ0VmUWtQMEhXNmc5THl0N2U0N04ySUdGSHpPTkxXeVdKM3daUnRBZU9FVnhQUjZfYw?oc=5
-
+- No fresh evidence links in the current lookback window.
 ### Election Administration Capture
-- [Chattanoogan.com Breaking News] Top Senate Stories: 1st Budget Vote - Senate Takes Up GUV's Voucher Scam - Chattanoogan.com Breaking News (2026-04-15) - https://news.google.com/rss/articles/CBMijgFBVV95cUxPYkdRY0ZmUGpGNDAtQklKUkF5dzl5Y3dkTFljZFlpUHdodnVhZnBkTG5PZE9zdm9Rbnp2UDlrTEx1WTJ0MHp4dXlqUXFjQmNBXzAxbGdYMkR4MTN2WHN6Xzg2TjJ6aUk4bjdzZm9YU0VGdjFZX3lrazVDcVltT0xXXzI0ckJHc1B5ZnhBLUVn?oc=5
+- [CTPost] Proposed Connecticut bill would ban masked officers, restrict arrests near polls - CTPost (2026-04-17) - https://news.google.com/rss/articles/CBMipgFBVV95cUxPUzRHWnFsLS00d2NzWnl1QzRMc3BKMDJDSkhNbTJBdS15ZG1MYzRic0xwNGxQcHpSeWh4YnJnN0ptcHpwcEVyOVVPRXBvWHpLMnNKbzlsR29JZkZ0YnVWZ1VuVkJ0TzFqSnUzRlZmcDgyZm1qa3BTZTVmZ3JCU2NxRzFicU9EdWNlWk5TQWZHb2p1bVBHV3NyVlRfVlFCV2JEcTFtWkVB?oc=5
 - [Daily Mail] Biden calls Republican voting bills 'the most significant threat to democracy since the Civil War' - Daily Mail (2026-04-16) - https://news.google.com/rss/articles/CBMiggJBVV95cUxNdWE1VVZkQTBQY0dxQmhSVGVYaF9YcFJzSV8zblpqMHliME14YWpJUHAwU192LTNLdHdCbXRCS3ctWHNydUh5d3JLbUdUYUQ3eVAtVTVlc1ptbXd6Nm9MRDVNcFk3bC1BTXJrYU8tWE1IM1ZUWmdUZm5KMGhfWFdxTzF2cWpBeE9RVkNUWEtKdEsxbUxWY1BxbE16RUxpLUF1UkZYanlqdXBSQ3VzcWhtNld1RXBRWTd6MnlZeW1CTWJyMDhFSnhWbXhtSTh3N3hUWHR5bElkaDZVSGY2QTNPSmhOdWNQNVlGR1N4eE0yZzZXa0NrY0JNZHhRTUpKbkVXNVHSAYICQVVfeXFMTXVhNVVWZEEwUGNHcUJoUlRlWGhfWHBSc0lfM25aajB5YjBNeGFqSVBwMFNfdi0zS3R3Qm10Qkt3LVhzcnVIeXdyS21HVGFEN3lQLVU1ZXNabW13ejZvTEQ1TXBZN2wtQU1ya2FPLVhNSDNWVFpnVGZuSjBoX1hXcU8xdnFqQXhPUVZDVFhLSnRLMW1MVmNQcWxNekVMaS1BdVJGWGp5anVwUkN1c3FobTZXdUVwUVk3ejJ5WXltQk1icjA4RUp4Vm14bUk4dzd4VFh0eWxJZGg2VUhmNkEzT0poTnVjUDVZRkdTeHhNMmc2V2tDa2NCTWR4UU1KSm5FVzVR?oc=5
 
-### Martial Law or Military Governance Language
-- No fresh evidence links in the current lookback window.
-### Legislative Bypass by Executive
-- [MSN] Supreme Court poised to hand Trump major legal setbacks - MSN (2026-04-16) - https://news.google.com/rss/articles/CBMi7gFBVV95cUxNd21zU0ZYX3otVXN4MG5feVpqbVVOQkdZZ1VWTWhZaHIwbGJVUnljQkszV2RYTFp1MG0xNVFIeFp4engxTFN0cTkzTl9fZ1pOcnJHLVZPODAzaDRJNXNDMWpEbDdyRmlhb2tNR3h5QnltSWMyTGNEWDNoQ1Z3MkUxeWl1UjBKMWFlQzVuX3lJV0FHY3NUOU56NEtvOFJaYlR6QktYa2xBODQ2ZzNQRDFRY1lKZzVTa2JOaXRxdTRGWk85M1ZJdDEyVW42TVY4TE1Lc3Vmem9jR0xydzB1WTgtSm1SanFLMzYwdEw1VkV3?oc=5
-- [Business Insider] 11 times US presidents launched military operations without Congressional approval - Business Insider (2026-04-15) - https://news.google.com/rss/articles/CBMiowFBVV95cUxPQTl2bVQwUzJrWTBvNlJCbnA5S3JCcnVfcGZDM2Vid0hnRTdIR210ZkoyU2RlcENpSHZCOHNOSHBzWThyVENTSGdsUmo5ZGVxeEtXcXNST0E3dDdaNGlpNE9wLU5xUElNdTFqUDJYOTVobkpjTndxM3pLTy1BYkV4cmxQMUM0bDBjZG5mYjdZM1hlcnFjVHRoOFpkeUgxUjd5clRR?oc=5
-- [International Business Times UK] Pete Hegseth's 'No Mercy' Order Cited in Six-Article Impeachment Filing Over Iran Strikes - International Business Times UK (2026-04-15) - https://news.google.com/rss/articles/CBMikwFBVV95cUxNbWtmRk5aakpDdURUanRKbklHSXdQZGhFSTdhdTBEeU52SVhxWHNjYk9jc3lselF4SFVQUzF6NzV3d1RET0NCUm04TGFvYWRTWnQ2clpudjVRN1RDeGZXNGxBQlBWMS05OTVWb2oyY3ZhVzB5N1dibUZ6U2RmajRMeTN3MGwtTXBWa245MERkX2dlT0U?oc=5
+### Opposition Ballot Exclusion
+- [AOL.com] Dow's removal from ballot has consequences | Opinion - AOL.com (2026-04-17) - https://news.google.com/rss/articles/CBMihwFBVV95cUxPVUtpVzdNMHdiYXZyd1NYTGdqVFJ5bGpoVUgxWHY5WUNUVlVXQ0NCU1NnUkhRSVYzakF5TUxVZjVTeWQ3SER0SXVCZklIbnIxcGk3YmlNV2RCVGxvOXlfOXd2SHV5N0Z0dGtLaTRvZHhURFJQYUhXZ3NSWllGWmx5R1owSVFpbDQ?oc=5
+- [ARY News] Myanmar releases voter app criticised for Rohingya label, despite EU objection - ARY News (2026-04-16) - https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zMVNLbkV0RUlhVGZBMXZQUl9hRHNWeUFGeUFLLUhJdjZSMXlzR2tfQ2I4dTJmTm55R3lVN1AweHptWGFLYXBsTVRQdUFCRDBCVV92MXg0ZUFoZ09zMXfSAV5BVV95cUxOczFTS25FdEVJYVRmQTF2UFJfYURzVnlBRnlBSy1ISXY2UjF5c0drX0NiOHUyZk5ueUd5VTdQMHh6bVhhS2FwbE1UUHVBQkQwQlVfdjF4NGVBaGdPczF3?oc=5
 
 ## Data Quality
 
