@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-04-20 12:46:54 UTC
-- Score: **11 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-3.0**
-- Delta vs 7-day average: **-2.1**
+- Generated: 2026-04-21 12:44:03 UTC
+- Score: **12 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+1.0**
+- Delta vs 7-day average: **-1.1**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -14,50 +14,51 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.57 | 3.16 |
-| Judicial Independence and Rule of Law | 15 | 0.65 | 2.44 |
+| Elections and Transfer of Power | 22 | 0.82 | 4.54 |
+| Judicial Independence and Rule of Law | 15 | 0.42 | 1.56 |
 | Opposition Rights and Political Pluralism | 14 | 0.33 | 1.17 |
-| Executive Constraints and Emergency Powers | 13 | 0.65 | 2.11 |
-| Civil Service and Agency Independence | 10 | 0.55 | 1.37 |
-| Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
+| Executive Constraints and Emergency Powers | 13 | 0.67 | 2.17 |
+| Civil Service and Agency Independence | 10 | 0.43 | 1.08 |
+| Civil Liberties and Information Environment | 10 | 0.50 | 1.25 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
-| Federalism and Legislative Oversight | 8 | 0.30 | 0.60 |
+| Federalism and Legislative Oversight | 8 | 0.12 | 0.25 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Election Administration Capture | elections_transfer | 1.65 (Watch) | 3 | 3 |
-| Independent Agency Capture | civil_service_integrity | 1.65 (Watch) | 2 | 2 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 1.30 (Watch) | 2 | 2 |
+| Election Administration Capture | elections_transfer | 2.00 (Yellow) | 4 | 4 |
+| Independent Agency Capture | civil_service_integrity | 1.30 (Watch) | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 3 | 3 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
+| Alternate Elector Scheme Activity | elections_transfer | 1.00 (Watch) | 1 | 1 |
 | Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
-| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Election Delay or Cancellation | elections_transfer | 0.65 (Green) | 0 | 0 |
-| Court Order Noncompliance | judiciary_rule_of_law | 0.65 (Green) | 0 | 0 |
-| Martial Law or Military Governance Language | executive_constraints | 0.65 (Green) | 0 | 0 |
-| Legislative Oversight Obstruction | federalism_oversight | 0.60 (Green) | 0 | 0 |
-| Emergency Powers Expansion | executive_constraints | 0.30 (Green) | 0 | 0 |
+| Martial Law or Military Governance Language | executive_constraints | 1.00 (Watch) | 1 | 1 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 0.95 (Watch) | 0 | 0 |
+| Election Delay or Cancellation | elections_transfer | 0.30 (Green) | 0 | 0 |
+| Court Order Noncompliance | judiciary_rule_of_law | 0.30 (Green) | 0 | 0 |
+| Legislative Oversight Obstruction | federalism_oversight | 0.25 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Election Administration Capture
+- [Tennessee Lookout] State oversight board would control Memphis Shelby schools budget, contracts - Tennessee Lookout (2026-04-20) - https://news.google.com/rss/articles/CBMitwFBVV95cUxPb2FUdS1LN21PSlJvWmNwTHZvdWJuZDMyRmxfbVFkNUY5LV8yX2FvX2N5VEIweDFPdVZINWpZT2wtalpFRFFpWGdnNTFjRlZ1aVlLQ3lyNGpXUFRYRWx4VGJUT2NuQi14OUl6cGplMnN6N0hGaUtndUQyRFp0U1dvZDZwMlZacDVObzBfNnJRSk5WWkdtZjVMMlFyRlA0ZnVONW5zaDRqU2FoLVE5eVBPSFZpcmlHM2M?oc=5
+- [AOL.com] Elections office audited all ballots cast in Gregory's surprise win - AOL.com (2026-04-20) - https://news.google.com/rss/articles/CBMigwFBVV95cUxQeGV1cDhHWDVMYm85aXBFbnhyU21KSHVsSDFBMEpuS05SX1BTT1E1aThrNVIyYmpFVXh5bzQ1YVExakNjbEdyUVBIRnZFWVhsaGptU3NKUzFkWU14S0NveU9HaVVUeG5UTi1fUjY1SlZBQTlPLXNSclM5TE05eXZhT0NUaw?oc=5
 - [Now Georgia] Election officials left in limbo as state leaders contemplate next steps for ballot QR codes - Now Georgia (2026-04-19) - https://news.google.com/rss/articles/CBMitwFBVV95cUxQWmZEMk1sakpOcHVDTnIyODVlWFFHUmVjbGdNanhHcXU2Rms4X1RzSlhWeGlLdGU2NDdXc1Mwd0ZmelpzM2lKaVRNWHNqckZ4TGlfR1NaQkdRYm5nUFRtc2ZETEI3ZW0tTHVkUFRFR2s5TElvR3RLU2JvbW5teFgtdHJTeHYwY2diQ1lHcFk3ZUQ0ejN6dFZibWRSdV9JQ09qR0NFaWNMUTVMRlRWYVFseTE4MkpnZlk?oc=5
-- [AOL.com] Who's running for Jefferson County attorney? Meet primary candidates - AOL.com (2026-04-19) - https://news.google.com/rss/articles/CBMihAFBVV95cUxQTkR3dDlZcDJ3d29OWUhHb2FubXVOMy1LMjRCS1FGZ3pvbkV6elFYbFRSWEtUbUhCZnFTR3ZEM2pZRjRHd3RKci0tOHozUGRUNDk2bXFTUS1JLXgxcWN6c1doTDdCVmZfS29IdWpwNTJfVFN5OVFfUWZrdmtnYjlqV2pBeEs?oc=5
-- [Trumbull Times] A big midterms year in Arizona kicks off with the state's largest county embroiled in election drama - Trumbull Times (2026-04-18) - https://news.google.com/rss/articles/CBMitAFBVV95cUxOekpzVXVNUFFtV0hFUFFmZHotTC1HYUZHSUVCakl0TzdXNU1kOTU3SE0tR3NMMmZkVTI2WHhJdF9vUmNOaWtsa0tEZkgxU25nZlZaS2xVVEY1TkthcE1pY0FVanZNRkpLcXhZSUlocnd5VkFiLUhxTTcxWGtabVdYOFZWU1FtRFN6MHZMTmJYbVJJcndjXzJBR1lxVEI4azBkbHNlNEtLVW85QmRpQjZNVGYtRHM?oc=5
 
 ### Independent Agency Capture
-- [MSN] Why the Federal Reserve has historically been independent of the White House - MSN (2026-04-19) - https://news.google.com/rss/articles/CBMi2gJBVV95cUxPaHdYR2liTVF2Tlh2a1VtTkx1al9IZTczZTd0ck00ZE1heTg5aUczellVTXZQcVZsS0ZFLTZTa0ZvT2N2cEJXSGl0RW92SUxfX2otbm9tMm1jbkQ4NkwyREt6UjdKNmNrTDNadXNLdHBLbVV1bk9lbUk2dWRSUVVfNFVHVXFNLWFqMEpnZm9wX3BhbzFNaG56bXU3YkRkc0UyeEhjaWQ2ZDRGbDBaNUpuZExFMnRGZjZpWHNWQnFMQ1pzWlAtV0JrTnB3VFFOdW8tdGU3Y3l1aFRiTEpjRzk0bzl1MVY3V1E4M0dmU3NHRmRyTVRPREpmSkgyaVFBU2NaMEI3S2Fad25hTHU5VHJoaTVQaFI1SWo2RFcyWWd5elhMRlctNUVpZkl3MlhUSHVXLUZyZ0NMMkxXRnlWcXctaGFXWk0yRVNkRmlGelotR0JQbEZxdk1wWHB3?oc=5
-- [foreignpolicyjournal.com] Donald Trump Threatens to Fire Jerome Powell if the Fed Chair Stays On as Governor - foreignpolicyjournal.com (2026-04-18) - https://news.google.com/rss/articles/CBMiywFBVV95cUxPVzRWVXJ2TVhtRGpOa05yZE94ZzRWU3RBQjhtWDVHNmlYdk5jTTZHQVlkTUpZeElzcU9qbUZVc3g5WkpnQUJxTEZITFB6TFVUYU5vNUxYZWhoYzJzS1A4WFNZYUZZamZoVGxkNXVkaGlNcHdxS0pCNnlsQWVjSGVLMGdBTG9UN3VHU291WThmMGk3WmpLc0ZCUmROTkhWTVhtNm1RUUdLSmc3d2JPQi01UXZ6NVJxeTd6aVNPVWVkUzIzWmJKVlZINXNuOA?oc=5
-
-### Judge Intimidation Campaign
-- [Times Leader] Opinion: When judges are targeted, the legal profession must respond - Times Leader (2026-04-19) - https://news.google.com/rss/articles/CBMirwFBVV95cUxOZWJiUHZ2eFRHb0tHMVRjbmRINW1paWZqYmRxSTZBUjdjRDR0WnVWOE16ejRpcUZwaUZzZUItSXp6Z1E1cUNzYTJpNlhpN3ZVM1NFVFl4MzU5Q3RWM01yM1Qxa2tQenVLSHVXcjhRbzNxLWNjejRqZ1ZaUlRoR21GTTlzRWE4by1aQnlOcmdrOWRYa3VDeURzU1NpQmVqX2tXdmdUcGl4TmN4ckVWMHBv?oc=5
-- [AOL.com] KY legislature censures state Supreme Court Justice for impeachment case opinion - AOL.com (2026-04-19) - https://news.google.com/rss/articles/CBMigwFBVV95cUxQbjhxMlRVbE1DajBtM2FJMndSZWQtOGR6alNXNEw5bnF3LWdLMkZPYkpScHpEekNFYnE0WlNDcS1jX2hDT0hYdWNHWmhKcnA3bjVpWFRmYU5yMGI5VDBSYTVmYUNnT0lxNUFiVmJuZUI0UmZuTVM2UkZxSzB6NFdpRzRfTQ?oc=5
-
-### Opposition Ballot Exclusion
-- [Devdiscourse] Vijay's Political Maneuver in Edappadi: Support for Independent Candidate - Devdiscourse (2026-04-19) - https://news.google.com/rss/articles/CBMiyAFBVV95cUxNN1B5dnc5VEpWcjE0Y184dnhNNmxUWFZKQ3M2RzVaQVVZY0dHbnoxc3NwUUtwNXl4V1c1U3ptbGd1UHlvRzJjT3FYQVFtSzR3cVJkOGRtNXpUOGlwekRIazFsa0I5X2xIRVNUX2Zxbkc1SWlOOUpPbEJQVEoyci11MkVFRVBFdVhHcm0taS1idjFaZFo5UGRPSEcyc2ZoVVBMeUFNTzAzNlBLSnNxZWI3dzU3ajBmcVFtdzRwTUt3a0Vhcjl6RnNHStIByAFBVV95cUxNN1B5dnc5VEpWcjE0Y184dnhNNmxUWFZKQ3M2RzVaQVVZY0dHbnoxc3NwUUtwNXl4V1c1U3ptbGd1UHlvRzJjT3FYQVFtSzR3cVJkOGRtNXpUOGlwekRIazFsa0I5X2xIRVNUX2Zxbkc1SWlOOUpPbEJQVEoyci11MkVFRVBFdVhHcm0taS1idjFaZFo5UGRPSEcyc2ZoVVBMeUFNTzAzNlBLSnNxZWI3dzU3ajBmcVFtdzRwTUt3a0Vhcjl6RnNHSg?oc=5
-
+- No fresh evidence links in the current lookback window.
 ### Legislative Bypass by Executive
+- [The Preamble | Sharon McMahon] It's Not the Supreme Court's Fault - The Preamble | Sharon McMahon (2026-04-21) - https://news.google.com/rss/articles/CBMiakFVX3lxTFBaLThSaV9LZWJiS3A5RW1MbmxZN1lUd1VkLVVsLXRucElDMXM2eGh4c0xBVG5HNlZTZUNzQWtWRXluYWpkcWwtb3RRN0Z0RXM0bktNSEJrLTlkNExMN0hkeVQtaG5VemR1RVE?oc=5
+- [Live Law] US Supreme Court's Tariff Decision: A Moment Of Constitutional Reassertion [Part II] - Live Law (2026-04-21) - https://news.google.com/rss/articles/CBMipAFBVV95cUxQeEc1ZTFOZjZjaV9BWXNJem1PbE9jWllHUHNUdGFDNUhzMGhhN2V0X0hSWVoyczRiakI0VlVVMHBPeUVWbThMTzVOVXkzOW53dWR3dW9IWktDN2UxWUtMOFhVNFc5bFFRRkFuM2tRS1J1aWV4MnZXV0JVaWwyMG1kemdrNXFVd1h0Tkd5WkowUE1XRHZJV1EzYVpsRlV3NEk1YWhZZdIBpAFBVV95cUxQeEc1ZTFOZjZjaV9BWXNJem1PbE9jWllHUHNUdGFDNUhzMGhhN2V0X0hSWVoyczRiakI0VlVVMHBPeUVWbThMTzVOVXkzOW53dWR3dW9IWktDN2UxWUtMOFhVNFc5bFFRRkFuM2tRS1J1aWV4MnZXV0JVaWwyMG1kemdrNXFVd1h0Tkd5WkowUE1XRHZJV1EzYVpsRlV3NEk1YWhZZQ?oc=5
 - [news.meaww.com] Omar blasts Congress for enabling Trump's Iran war as internet hits back over $30M disclosure - news.meaww.com (2026-04-19) - https://news.google.com/rss/articles/CBMitgFBVV95cUxQemdFU0NubUhQWHlIZHg0eWo3WTRqQjNsMU41Zy12a3BEZnBsb0QwSzhISzZNTFdldXhzRFEzekhOemJ5TVRuYmw3RXg1cGVGMFlkZko1aHhnZTV6NFA1Ylduc2RxR0phTHlZUEw1TFJmMWJIUHFNZVdDSENORkN0YmJiZE5nem5OT3pVVFEzbV83Q0ZHRkRmS1RDdzlBYXRzNkVXOWlCWU9yNDE0bGVaeGRmVDhMdw?oc=5
+
+### Press Restrictions or Retaliation
+- [Mediaite] Dan Rather, Sam Donaldson and Others Demand Press Call Trump Out to His Face at Glitzy Dinner in Scorching Letter - Mediaite (2026-04-20) - https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZF9lV3hCQnZnQUFGeFJXODh3NXBzNmZ3N09HczdlVDRvUmVVQzFZaU5kanpMNEdpVVRhcGtvTUxLQzFsMkwwU1dBTy1NN2Y4U0JjWUFSajlWc3ZUeW96MzBrazZRUFpuYkRVT1NZbEF1MlZVTWRzQk14U1NPbXZDSk1aU2VXbUhiUWw3aWE1R1JqM3ZZaGlXNzZhOEZmWHViQ3l0Z0tEbGc4cDZ1Qll0QlJVcVZvUUp1bXVpYU5VbXhxVXhrVWJBVmMxSnl4VmlTWmdkSGtKR1hQVmVRZWJ0WA?oc=5
+- [newsbusters.org] Everyone Laugh at This ABSURD Open Letter Demanding Journos Heckle Trump at WHCD - newsbusters.org (2026-04-20) - https://news.google.com/rss/articles/CBMivgFBVV95cUxQek9pZ2NWaUViYXB0YVM1Q3BwZDdsTWlpTjFLYzdyOXV0Zlp5cWdjTXE2bjlLZ19Sei11eDUxUnlWWHc0VkJiTmQxZVVEVXB4ZUFiLThSZUp3NUZtQl80bkQ3R29BVEhYUDNZeFpWT0VuQUI2TWU0WkttalFiMjVRWFAzTTFHQjd2T1dhLW9nTVQ5a082SS1iNmVGU212a20yT1JCVWY1c0dVTWpvLW55MHRqTUwzajRqSUF6TVVR?oc=5
+
+### Alternate Elector Scheme Activity
+- [C&G Newspapers] Nessel announces she won’t appeal alleged ‘false electors’ case - C&G Newspapers (2026-04-20) - https://news.google.com/rss/articles/CBMiowFBVV95cUxPRFl6TVBadEVPRnY0cUpzTHBEQmFUNzJqdExpblppdUd1Y2d5TW56eGFYLVBXM2FqNENLRDFYenFTT1JVY1E1dFczTEhTZHB2a2pIQzVaV0ZkbU5HU2NNQjNQUXM4a3pLZXlycjB2YWhoMkRsX2FoenNRSlJ6MUxrZmJnOGdNZDd3Uk1DQmFfeDViRHRROEJJYWxaRFdoMGZ4MXRR0gGjAUFVX3lxTE9EWXpNUFp0RU9GdjRxSnNMcERCYVQ3Mmp0TGluWml1R3VjZ3lNbnp4YVgtUFczYWo0Q0tEMVh6cVNPUlVjUTV0VzNMSFNkcHZrakhDNVpXRmRtTkdTY01CM1BRczhrektleXJyMHZhaGgyRGxfYWh6c1FKUnoxTGtmYmc4Z01kN3dSTUNCYV94NWJEdFE4QklhbFpEV2gwZngxdFE?oc=5
 
 ## Data Quality
 

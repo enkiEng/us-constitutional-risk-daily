@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.99,
+  "average_7d": 13.1,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,21 +9,21 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -3.0,
-  "delta_vs_7d": -2.14,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": -1.08,
   "domain_breakdown": [
     {
-      "avg_severity": 0.575,
+      "avg_severity": 0.825,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.1624999999999996,
+      "points": 4.5375,
       "weight": 22
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.4166666666666667,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.4375,
+      "points": 1.5625,
       "weight": 15
     },
     {
@@ -34,24 +34,24 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.6666666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.1125000000000003,
+      "points": 2.1666666666666665,
       "weight": 13
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.3749999999999998,
+      "points": 1.0833333333333335,
       "weight": 10
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.5,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 0.0,
+      "points": 1.25,
       "weight": 10
     },
     {
@@ -62,21 +62,21 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.3,
+      "avg_severity": 0.125,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.6,
+      "points": 0.25,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-20T12:46:54.309333+00:00",
-  "previous_score": 14,
+  "generated_at": "2026-04-21T12:44:03.690939+00:00",
+  "previous_score": 11,
   "provisional": false,
-  "score": 11,
-  "score_raw": 10.85,
+  "score": 12,
+  "score_raw": 12.02,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,94 +84,133 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb2FUdS1LN21PSlJvWmNwTHZvdWJuZDMyRmxfbVFkNUY5LV8yX2FvX2N5VEIweDFPdVZINWpZT2wtalpFRFFpWGdnNTFjRlZ1aVlLQ3lyNGpXUFRYRWx4VGJUT2NuQi14OUl6cGplMnN6N0hGaUtndUQyRFp0U1dvZDZwMlZacDVObzBfNnJRSk5WWkdtZjVMMlFyRlA0ZnVONW5zaDRqU2FoLVE5eVBPSFZpcmlHM2M?oc=5",
+          "published": "2026-04-20T21:57:43+00:00",
+          "publisher": "Tennessee Lookout",
+          "title": "State oversight board would control Memphis Shelby schools budget, contracts - Tennessee Lookout"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeGV1cDhHWDVMYm85aXBFbnhyU21KSHVsSDFBMEpuS05SX1BTT1E1aThrNVIyYmpFVXh5bzQ1YVExakNjbEdyUVBIRnZFWVhsaGptU3NKUzFkWU14S0NveU9HaVVUeG5UTi1fUjY1SlZBQTlPLXNSclM5TE05eXZhT0NUaw?oc=5",
+          "published": "2026-04-20T12:30:38+00:00",
+          "publisher": "AOL.com",
+          "title": "Elections office audited all ballots cast in Gregory's surprise win - AOL.com"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWmZEMk1sakpOcHVDTnIyODVlWFFHUmVjbGdNanhHcXU2Rms4X1RzSlhWeGlLdGU2NDdXc1Mwd0ZmelpzM2lKaVRNWHNqckZ4TGlfR1NaQkdRYm5nUFRtc2ZETEI3ZW0tTHVkUFRFR2s5TElvR3RLU2JvbW5teFgtdHJTeHYwY2diQ1lHcFk3ZUQ0ejN6dFZibWRSdV9JQ09qR0NFaWNMUTVMRlRWYVFseTE4MkpnZlk?oc=5",
           "published": "2026-04-19T18:00:12+00:00",
           "publisher": "Now Georgia",
           "title": "Election officials left in limbo as state leaders contemplate next steps for ballot QR codes - Now Georgia"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTkR3dDlZcDJ3d29OWUhHb2FubXVOMy1LMjRCS1FGZ3pvbkV6elFYbFRSWEtUbUhCZnFTR3ZEM2pZRjRHd3RKci0tOHozUGRUNDk2bXFTUS1JLXgxcWN6c1doTDdCVmZfS29IdWpwNTJfVFN5OVFfUWZrdmtnYjlqV2pBeEs?oc=5",
-          "published": "2026-04-19T23:12:30+00:00",
-          "publisher": "AOL.com",
-          "title": "Who's running for Jefferson County attorney? Meet primary candidates - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOekpzVXVNUFFtV0hFUFFmZHotTC1HYUZHSUVCakl0TzdXNU1kOTU3SE0tR3NMMmZkVTI2WHhJdF9vUmNOaWtsa0tEZkgxU25nZlZaS2xVVEY1TkthcE1pY0FVanZNRkpLcXhZSUlocnd5VkFiLUhxTTcxWGtabVdYOFZWU1FtRFN6MHZMTmJYbVJJcndjXzJBR1lxVEI4azBkbHNlNEtLVW85QmRpQjZNVGYtRHM?oc=5",
-          "published": "2026-04-18T13:02:08+00:00",
-          "publisher": "Trumbull Times",
-          "title": "A big midterms year in Arizona kicks off with the state's largest county embroiled in election drama - Trumbull Times"
         }
       ],
-      "hits": 3,
+      "hits": 4,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 4
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "hits": 0,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaLThSaV9LZWJiS3A5RW1MbmxZN1lUd1VkLVVsLXRucElDMXM2eGh4c0xBVG5HNlZTZUNzQWtWRXluYWpkcWwtb3RRN0Z0RXM0bktNSEJrLTlkNExMN0hkeVQtaG5VemR1RVE?oc=5",
+          "published": "2026-04-21T09:02:11+00:00",
+          "publisher": "The Preamble | Sharon McMahon",
+          "title": "It's Not the Supreme Court's Fault - The Preamble | Sharon McMahon"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeEc1ZTFOZjZjaV9BWXNJem1PbE9jWllHUHNUdGFDNUhzMGhhN2V0X0hSWVoyczRiakI0VlVVMHBPeUVWbThMTzVOVXkzOW53dWR3dW9IWktDN2UxWUtMOFhVNFc5bFFRRkFuM2tRS1J1aWV4MnZXV0JVaWwyMG1kemdrNXFVd1h0Tkd5WkowUE1XRHZJV1EzYVpsRlV3NEk1YWhZZdIBpAFBVV95cUxQeEc1ZTFOZjZjaV9BWXNJem1PbE9jWllHUHNUdGFDNUhzMGhhN2V0X0hSWVoyczRiakI0VlVVMHBPeUVWbThMTzVOVXkzOW53dWR3dW9IWktDN2UxWUtMOFhVNFc5bFFRRkFuM2tRS1J1aWV4MnZXV0JVaWwyMG1kemdrNXFVd1h0Tkd5WkowUE1XRHZJV1EzYVpsRlV3NEk1YWhZZQ?oc=5",
+          "published": "2026-04-21T09:30:38+00:00",
+          "publisher": "Live Law",
+          "title": "US Supreme Court's Tariff Decision: A Moment Of Constitutional Reassertion [Part II] - Live Law"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQemdFU0NubUhQWHlIZHg0eWo3WTRqQjNsMU41Zy12a3BEZnBsb0QwSzhISzZNTFdldXhzRFEzekhOemJ5TVRuYmw3RXg1cGVGMFlkZko1aHhnZTV6NFA1Ylduc2RxR0phTHlZUEw1TFJmMWJIUHFNZVdDSENORkN0YmJiZE5nem5OT3pVVFEzbV83Q0ZHRkRmS1RDdzlBYXRzNkVXOWlCWU9yNDE0bGVaeGRmVDhMdw?oc=5",
+          "published": "2026-04-19T19:21:00+00:00",
+          "publisher": "news.meaww.com",
+          "title": "Omar blasts Congress for enabling Trump's Iran war as internet hits back over $30M disclosure - news.meaww.com"
+        }
+      ],
+      "hits": 3,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 3
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPaHdYR2liTVF2Tlh2a1VtTkx1al9IZTczZTd0ck00ZE1heTg5aUczellVTXZQcVZsS0ZFLTZTa0ZvT2N2cEJXSGl0RW92SUxfX2otbm9tMm1jbkQ4NkwyREt6UjdKNmNrTDNadXNLdHBLbVV1bk9lbUk2dWRSUVVfNFVHVXFNLWFqMEpnZm9wX3BhbzFNaG56bXU3YkRkc0UyeEhjaWQ2ZDRGbDBaNUpuZExFMnRGZjZpWHNWQnFMQ1pzWlAtV0JrTnB3VFFOdW8tdGU3Y3l1aFRiTEpjRzk0bzl1MVY3V1E4M0dmU3NHRmRyTVRPREpmSkgyaVFBU2NaMEI3S2Fad25hTHU5VHJoaTVQaFI1SWo2RFcyWWd5elhMRlctNUVpZkl3MlhUSHVXLUZyZ0NMMkxXRnlWcXctaGFXWk0yRVNkRmlGelotR0JQbEZxdk1wWHB3?oc=5",
-          "published": "2026-04-19T22:54:06+00:00",
-          "publisher": "MSN",
-          "title": "Why the Federal Reserve has historically been independent of the White House - MSN"
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZF9lV3hCQnZnQUFGeFJXODh3NXBzNmZ3N09HczdlVDRvUmVVQzFZaU5kanpMNEdpVVRhcGtvTUxLQzFsMkwwU1dBTy1NN2Y4U0JjWUFSajlWc3ZUeW96MzBrazZRUFpuYkRVT1NZbEF1MlZVTWRzQk14U1NPbXZDSk1aU2VXbUhiUWw3aWE1R1JqM3ZZaGlXNzZhOEZmWHViQ3l0Z0tEbGc4cDZ1Qll0QlJVcVZvUUp1bXVpYU5VbXhxVXhrVWJBVmMxSnl4VmlTWmdkSGtKR1hQVmVRZWJ0WA?oc=5",
+          "published": "2026-04-20T13:34:00+00:00",
+          "publisher": "Mediaite",
+          "title": "Dan Rather, Sam Donaldson and Others Demand Press Call Trump Out to His Face at Glitzy Dinner in Scorching Letter - Mediaite"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVzRWVXJ2TVhtRGpOa05yZE94ZzRWU3RBQjhtWDVHNmlYdk5jTTZHQVlkTUpZeElzcU9qbUZVc3g5WkpnQUJxTEZITFB6TFVUYU5vNUxYZWhoYzJzS1A4WFNZYUZZamZoVGxkNXVkaGlNcHdxS0pCNnlsQWVjSGVLMGdBTG9UN3VHU291WThmMGk3WmpLc0ZCUmROTkhWTVhtNm1RUUdLSmc3d2JPQi01UXZ6NVJxeTd6aVNPVWVkUzIzWmJKVlZINXNuOA?oc=5",
-          "published": "2026-04-18T18:00:20+00:00",
-          "publisher": "foreignpolicyjournal.com",
-          "title": "Donald Trump Threatens to Fire Jerome Powell if the Fed Chair Stays On as Governor - foreignpolicyjournal.com"
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQek9pZ2NWaUViYXB0YVM1Q3BwZDdsTWlpTjFLYzdyOXV0Zlp5cWdjTXE2bjlLZ19Sei11eDUxUnlWWHc0VkJiTmQxZVVEVXB4ZUFiLThSZUp3NUZtQl80bkQ3R29BVEhYUDNZeFpWT0VuQUI2TWU0WkttalFiMjVRWFAzTTFHQjd2T1dhLW9nTVQ5a082SS1iNmVGU212a20yT1JCVWY1c0dVTWpvLW55MHRqTUwzajRqSUF6TVVR?oc=5",
+          "published": "2026-04-20T20:38:00+00:00",
+          "publisher": "newsbusters.org",
+          "title": "Everyone Laugh at This ABSURD Open Letter Demanding Journos Heckle Trump at WHCD - newsbusters.org"
         }
       ],
       "hits": 2,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZWJiUHZ2eFRHb0tHMVRjbmRINW1paWZqYmRxSTZBUjdjRDR0WnVWOE16ejRpcUZwaUZzZUItSXp6Z1E1cUNzYTJpNlhpN3ZVM1NFVFl4MzU5Q3RWM01yM1Qxa2tQenVLSHVXcjhRbzNxLWNjejRqZ1ZaUlRoR21GTTlzRWE4by1aQnlOcmdrOWRYa3VDeURzU1NpQmVqX2tXdmdUcGl4TmN4ckVWMHBv?oc=5",
-          "published": "2026-04-19T02:39:00+00:00",
-          "publisher": "Times Leader",
-          "title": "Opinion: When judges are targeted, the legal profession must respond - Times Leader"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbjhxMlRVbE1DajBtM2FJMndSZWQtOGR6alNXNEw5bnF3LWdLMkZPYkpScHpEekNFYnE0WlNDcS1jX2hDT0hYdWNHWmhKcnA3bjVpWFRmYU5yMGI5VDBSYTVmYUNnT0lxNUFiVmJuZUI0UmZuTVM2UkZxSzB6NFdpRzRfTQ?oc=5",
-          "published": "2026-04-19T13:48:46+00:00",
-          "publisher": "AOL.com",
-          "title": "KY legislature censures state Supreme Court Justice for impeachment case opinion - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRFl6TVBadEVPRnY0cUpzTHBEQmFUNzJqdExpblppdUd1Y2d5TW56eGFYLVBXM2FqNENLRDFYenFTT1JVY1E1dFczTEhTZHB2a2pIQzVaV0ZkbU5HU2NNQjNQUXM4a3pLZXlycjB2YWhoMkRsX2FoenNRSlJ6MUxrZmJnOGdNZDd3Uk1DQmFfeDViRHRROEJJYWxaRFdoMGZ4MXRR0gGjAUFVX3lxTE9EWXpNUFp0RU9GdjRxSnNMcERCYVQ3Mmp0TGluWml1R3VjZ3lNbnp4YVgtUFczYWo0Q0tEMVh6cVNPUlVjUTV0VzNMSFNkcHZrakhDNVpXRmRtTkdTY01CM1BRczhrektleXJyMHZhaGgyRGxfYWh6c1FKUnoxTGtmYmc4Z01kN3dSTUNCYV94NWJEdFE4QklhbFpEV2gwZngxdFE?oc=5",
+          "published": "2026-04-20T18:40:00+00:00",
+          "publisher": "C&G Newspapers",
+          "title": "Nessel announces she won\u2019t appeal alleged \u2018false electors\u2019 case - C&G Newspapers"
         }
       ],
-      "hits": 2,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "hits": 1,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNN1B5dnc5VEpWcjE0Y184dnhNNmxUWFZKQ3M2RzVaQVVZY0dHbnoxc3NwUUtwNXl4V1c1U3ptbGd1UHlvRzJjT3FYQVFtSzR3cVJkOGRtNXpUOGlwekRIazFsa0I5X2xIRVNUX2Zxbkc1SWlOOUpPbEJQVEoyci11MkVFRVBFdVhHcm0taS1idjFaZFo5UGRPSEcyc2ZoVVBMeUFNTzAzNlBLSnNxZWI3dzU3ajBmcVFtdzRwTUt3a0Vhcjl6RnNHStIByAFBVV95cUxNN1B5dnc5VEpWcjE0Y184dnhNNmxUWFZKQ3M2RzVaQVVZY0dHbnoxc3NwUUtwNXl4V1c1U3ptbGd1UHlvRzJjT3FYQVFtSzR3cVJkOGRtNXpUOGlwekRIazFsa0I5X2xIRVNUX2Zxbkc1SWlOOUpPbEJQVEoyci11MkVFRVBFdVhHcm0taS1idjFaZFo5UGRPSEcyc2ZoVVBMeUFNTzAzNlBLSnNxZWI3dzU3ajBmcVFtdzRwTUt3a0Vhcjl6RnNHSg?oc=5",
-          "published": "2026-04-19T05:37:59+00:00",
-          "publisher": "Devdiscourse",
-          "title": "Vijay's Political Maneuver in Edappadi: Support for Independent Candidate - Devdiscourse"
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSl9uLWdMa3ozbm9QMEpLb2owc01tcDFiNEY1Nm8tOUY2eEkyVFVncGZVRnFRbm1OX09sNU9VSTJld2tGR0NFRDRUYTlQWUZjMElYR25FanJPMGJfZDE1bGY3YjNWZWFfOTZ1S3Y2VHROOF9NZDU0MVVYbFVoR2Iwei1yczBHem9jRlVmaGNKc1p6dUl6QkIyZTFMbGFNRlAwWUdSYnpKUkFaejNSVWxweUR4MjZJUlJwQmJXRWRmck9JZ0FSSnYyVmZrUWZieENrVFhmcA?oc=5",
+          "published": "2026-04-21T10:49:28+00:00",
+          "publisher": "1819 News",
+          "title": "\u2018Actions have consequences\u2019: Etowah County GOP committee to meet after Jesse Battles announces independent run - 1819 News"
         }
       ],
       "hits": 1,
@@ -188,20 +227,33 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQemdFU0NubUhQWHlIZHg0eWo3WTRqQjNsMU41Zy12a3BEZnBsb0QwSzhISzZNTFdldXhzRFEzekhOemJ5TVRuYmw3RXg1cGVGMFlkZko1aHhnZTV6NFA1Ylduc2RxR0phTHlZUEw1TFJmMWJIUHFNZVdDSENORkN0YmJiZE5nem5OT3pVVFEzbV83Q0ZHRkRmS1RDdzlBYXRzNkVXOWlCWU9yNDE0bGVaeGRmVDhMdw?oc=5",
-          "published": "2026-04-19T19:21:00+00:00",
-          "publisher": "news.meaww.com",
-          "title": "Omar blasts Congress for enabling Trump's Iran war as internet hits back over $30M disclosure - news.meaww.com"
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUHRaeVhBRWZSV3RIWjJRVVpqNXJsTTZVRUxHNmtBYklyS2t2bWlFR3htNmhQYmtHbUFKcEtGbDlmNHhMZGZmZnhKc0xoQ3BGT3NFR2QxQ01xV1FuN1JjZHVjU25JQmZZZkM3YUVrQ0FxV2FnNzBOWkxzb0FRZWV4Y2czTWVmSFRaVGgxMnBORXk?oc=5",
+          "published": "2026-04-21T12:17:32+00:00",
+          "publisher": "freedomonline.com.ng",
+          "title": "NNPP Warns INEC Over Court Orders Ahead of 2027 Elections - freedomonline.com.ng"
         }
       ],
       "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "hits": 0,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.95,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -212,7 +264,7 @@
       "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -225,20 +277,7 @@
       "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -251,20 +290,7 @@
       "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
