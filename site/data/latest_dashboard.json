@@ -1,29 +1,29 @@
 {
   "attempted_queries": 22,
-  "average_7d": 13.1,
+  "average_7d": 12.79,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": -1.08,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -1.29,
   "domain_breakdown": [
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.75,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 4.5375,
+      "points": 4.125,
       "weight": 22
     },
     {
-      "avg_severity": 0.4166666666666667,
+      "avg_severity": 0.3333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.5625,
+      "points": 1.25,
       "weight": 15
     },
     {
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 0.8833333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.1666666666666665,
+      "points": 2.870833333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.3333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.0833333333333335,
+      "points": 0.8333333333333333,
       "weight": 10
     },
     {
@@ -62,21 +62,21 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.125,
+      "avg_severity": 0.0,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.25,
+      "points": 0.0,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-21T12:44:03.690939+00:00",
-  "previous_score": 11,
+  "generated_at": "2026-04-22T12:42:48.384008+00:00",
+  "previous_score": 12,
   "provisional": false,
-  "score": 12,
-  "score_raw": 12.02,
+  "score": 11,
+  "score_raw": 11.5,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,50 +84,43 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1oVUU5ZGZFNC1TWURTUE1QTVliWGdVNEw0X2o3YkNLMVNrR1dOVTJhaExkb2xzbVFnaWw1bEo3VFZoTDZMSVU0cGRrMEctVDNXRGxBMFRvZ3B1a3c2R3lab2xwWkVMdmZJMkF5SVBhVXdjSFRtWkxvZ3lCc0I?oc=5",
+          "published": "2026-04-22T02:15:00+00:00",
+          "publisher": "AOL.com",
+          "title": "Voting rights activists sue over DOJ state voter list requests - AOL.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM1pHSGpCbWZMV0F2SS01NHR2cVE5aEhfMjlHMHdGQk9tUldUb0s2Q2kwdGJLWl9fS3N6TXB3d1pIXzMxbGdseWctVmNzRENDVk13d1Z0SWtBVzFYTzlDQU5VNjhPcUtsYnpoNmtzNWhReHlTSHk5YzNOUENSUFdlc3h6R0dRbFZEeWtIWDNSVTVNOTdlR09DdXNGWkVJUQ?oc=5",
+          "published": "2026-04-21T20:00:00+00:00",
+          "publisher": "Chattanooga Times Free Press",
+          "title": "Memphis schools takeover push could target other Tennessee districts - Chattanooga Times Free Press"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb2FUdS1LN21PSlJvWmNwTHZvdWJuZDMyRmxfbVFkNUY5LV8yX2FvX2N5VEIweDFPdVZINWpZT2wtalpFRFFpWGdnNTFjRlZ1aVlLQ3lyNGpXUFRYRWx4VGJUT2NuQi14OUl6cGplMnN6N0hGaUtndUQyRFp0U1dvZDZwMlZacDVObzBfNnJRSk5WWkdtZjVMMlFyRlA0ZnVONW5zaDRqU2FoLVE5eVBPSFZpcmlHM2M?oc=5",
           "published": "2026-04-20T21:57:43+00:00",
           "publisher": "Tennessee Lookout",
           "title": "State oversight board would control Memphis Shelby schools budget, contracts - Tennessee Lookout"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeGV1cDhHWDVMYm85aXBFbnhyU21KSHVsSDFBMEpuS05SX1BTT1E1aThrNVIyYmpFVXh5bzQ1YVExakNjbEdyUVBIRnZFWVhsaGptU3NKUzFkWU14S0NveU9HaVVUeG5UTi1fUjY1SlZBQTlPLXNSclM5TE05eXZhT0NUaw?oc=5",
-          "published": "2026-04-20T12:30:38+00:00",
-          "publisher": "AOL.com",
-          "title": "Elections office audited all ballots cast in Gregory's surprise win - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWmZEMk1sakpOcHVDTnIyODVlWFFHUmVjbGdNanhHcXU2Rms4X1RzSlhWeGlLdGU2NDdXc1Mwd0ZmelpzM2lKaVRNWHNqckZ4TGlfR1NaQkdRYm5nUFRtc2ZETEI3ZW0tTHVkUFRFR2s5TElvR3RLU2JvbW5teFgtdHJTeHYwY2diQ1lHcFk3ZUQ0ejN6dFZibWRSdV9JQ09qR0NFaWNMUTVMRlRWYVFseTE4MkpnZlk?oc=5",
-          "published": "2026-04-19T18:00:12+00:00",
-          "publisher": "Now Georgia",
-          "title": "Election officials left in limbo as state leaders contemplate next steps for ballot QR codes - Now Georgia"
         }
       ],
-      "hits": 4,
+      "hits": 11,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 4
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 6
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdTAyNGp5Uk81d2sxSW5mSkRiOTR6MTRncjNBaWxXRTB5dVNtQ2tvTTkzRG9wMGxKZHMwZDB6OUVZMDJTeDhycE5razJQeWVCLUhOb2tpanVWTkh2LVVqWlNTWWlSSGUwREZsS3lhak5BUHVnVjR4djNhaTFTTVA2SGVDaHhHRHpKS2k2b3RCUDRuWEw0RGJNOHlKRmc?oc=5",
+          "published": "2026-04-22T04:31:04+00:00",
+          "publisher": "KFF",
+          "title": "Overview of President Trump\u2019s Executive Actions Impacting LGBTQ+ Health - KFF"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaLThSaV9LZWJiS3A5RW1MbmxZN1lUd1VkLVVsLXRucElDMXM2eGh4c0xBVG5HNlZTZUNzQWtWRXluYWpkcWwtb3RRN0Z0RXM0bktNSEJrLTlkNExMN0hkeVQtaG5VemR1RVE?oc=5",
           "published": "2026-04-21T09:02:11+00:00",
@@ -139,27 +132,27 @@
           "published": "2026-04-21T09:30:38+00:00",
           "publisher": "Live Law",
           "title": "US Supreme Court's Tariff Decision: A Moment Of Constitutional Reassertion [Part II] - Live Law"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQemdFU0NubUhQWHlIZHg0eWo3WTRqQjNsMU41Zy12a3BEZnBsb0QwSzhISzZNTFdldXhzRFEzekhOemJ5TVRuYmw3RXg1cGVGMFlkZko1aHhnZTV6NFA1Ylduc2RxR0phTHlZUEw1TFJmMWJIUHFNZVdDSENORkN0YmJiZE5nem5OT3pVVFEzbV83Q0ZHRkRmS1RDdzlBYXRzNkVXOWlCWU9yNDE0bGVaeGRmVDhMdw?oc=5",
-          "published": "2026-04-19T19:21:00+00:00",
-          "publisher": "news.meaww.com",
-          "title": "Omar blasts Congress for enabling Trump's Iran war as internet hits back over $30M disclosure - news.meaww.com"
         }
       ],
-      "hits": 3,
+      "hits": 4,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 3
+      "unique_publishers": 4
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56ODFfQUYyaHlmUldZOWJxemZ3YnlkWDc0WWhncDZMbGZlSktVYXdFTlhQQmxNYVo0N3VONlhYb3FXLXBVNXA0R09MOXpQLVJWSFh2SVBGcW96QW8?oc=5",
+          "published": "2026-04-21T07:13:24+00:00",
+          "publisher": "allAfrica.com",
+          "title": "Somalia: 72 Media Freedom Violations Reported in Somalia, Including One Journalist Killing - allAfrica.com"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZF9lV3hCQnZnQUFGeFJXODh3NXBzNmZ3N09HczdlVDRvUmVVQzFZaU5kanpMNEdpVVRhcGtvTUxLQzFsMkwwU1dBTy1NN2Y4U0JjWUFSajlWc3ZUeW96MzBrazZRUFpuYkRVT1NZbEF1MlZVTWRzQk14U1NPbXZDSk1aU2VXbUhiUWw3aWE1R1JqM3ZZaGlXNzZhOEZmWHViQ3l0Z0tEbGc4cDZ1Qll0QlJVcVZvUUp1bXVpYU5VbXhxVXhrVWJBVmMxSnl4VmlTWmdkSGtKR1hQVmVRZWJ0WA?oc=5",
           "published": "2026-04-20T13:34:00+00:00",
@@ -173,9 +166,61 @@
           "title": "Everyone Laugh at This ABSURD Open Letter Demanding Journos Heckle Trump at WHCD - newsbusters.org"
         }
       ],
-      "hits": 2,
+      "hits": 3,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPMDRzMXdZamxpV21SWUNrb2FEaXZzcnY2VGhYVFo5Vml0WTl0cmZNbFJlbjFXdEJXcm5IZFVfSWw0cjNycmNJOC00UzNFMUFsUlhkTzE0cjV6VnhMdFJOc3ViOFVKMFlGekdyM3BVcElrejNUeXpRRFpPeXdvR1lFM01jb0hhYzFDLTJEMzBXWFRxRTFtVS1iSmMzVzRza1J0bG5PV2pkYl9Zd2w3cVJlaGFYeFZ5c3FfenN6LVJNQ2I0Z2pieDBFeUNYMDEwbk8xUDF5TXgxeDB1LWpOcGJpQVRxWUNXZTAyOE9lblBkNmhoOHE3ZWo1cVE0aFpHbGRXcHdQVDlHZE5wYUwz?oc=5",
+          "published": "2026-04-21T19:49:31+00:00",
+          "publisher": "The National News Desk",
+          "title": "Fact Check Team: Emergency powers raising questions about presidential overreach - The National News Desk"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQLVg4bVRtWjVsWkdvSWRmQkRaNlhXSEUzU1h4ejA0RTladUJVY2JOcE1jT1FwS0lVUUFIRUZDV3VWRzQ2NnJ3Um9HeWZELW5tSUF0bS1wbEZtZ0RVaENhT04xaElJeFotMG5MU21Cckl4RzZUempwZ19wWFFHYjBsSExnaGRqcXdvM3h6UVdGWld2RXBRV2tncTVnRFBYRGZrQTBTYU94c1BQaWJFbzJqSHVidTNzVmNWaHVSUUxCazZ1WHQ3TTQ2ejlqN2txNzVKRXdFdzE2SkxZb2F5SzhXY2hxQWNKWl9VZDhyag?oc=5",
+          "published": "2026-04-21T08:12:51+00:00",
+          "publisher": "MSN",
+          "title": "Trump invokes wartime powers to expand US energy output - MSN"
+        }
+      ],
+      "hits": 2,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWnhOTVFkcldqemt1NDFCOHJkT0YxNEdhV3VqeGpmU2RBeDVqWnZCMlY4YS00YWJYY0pJcTVONGpfU1lrRzV4SThPek5lM3NRXzE2aE1ySXRmUjg4SHo4TmN6bEdoZE9zQlNXY1p6ZXp6bGkwQTdsMUJnR1JlRk84c0xKMkJUX2JQWl9LZmJGYVB0WFQxcXZzSTVja3JHS21BalpwZTN6VGFoSUlTT3ZMVnJ6b1h2b2NpRER3bEtNTVFjVGRuejNTcHVpSWVPbkROTC13dGlHUU16NlJwODk1Sg?oc=5",
+          "published": "2026-04-22T12:32:10+00:00",
+          "publisher": "Partnership for Public Service",
+          "title": "Dismantling Independence: Legal, Compositional and Normative Erosion across Federal Boards and Commissions - Partnership for Public Service"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNkZLZXdTdS1UeUFPd1ZyNXBBLXo0cDFHVHhSMm9WNGhTQjcwMEVadjd6Mm5NbTZrMXUwUGlCMXBoeXg1ZDRnS21DZkoxWDhhQjVKMFRVZE8tRl9kWGY1LWVPQUpnTXkxbEhqWDh1MlJaeGVDaEJjZjhaRXVKS2hHSFg0YkJJSlpYanpKX1BoVlloRnhYeXducXo5NDRSWEJhV2JFZDBRZHYtV3NoQWNWQmw1NWVOMDdFMnpCNmZVWEtTZkJic0Z0S2RTaWpTNTNNci10U0tZRC1SLWlYUkZqSnpn?oc=5",
+          "published": "2026-04-22T00:53:20+00:00",
+          "publisher": "Jacksonville Free Press",
+          "title": "Former Jacksonville Mayor Alvin Brown Suing Trump Administration for Alleged Pattern of Removing Black Appointees - Jacksonville Free Press"
+        }
+      ],
+      "hits": 2,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -224,18 +269,18 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUHRaeVhBRWZSV3RIWjJRVVpqNXJsTTZVRUxHNmtBYklyS2t2bWlFR3htNmhQYmtHbUFKcEtGbDlmNHhMZGZmZnhKc0xoQ3BGT3NFR2QxQ01xV1FuN1JjZHVjU25JQmZZZkM3YUVrQ0FxV2FnNzBOWkxzb0FRZWV4Y2czTWVmSFRaVGgxMnBORXk?oc=5",
-          "published": "2026-04-21T12:17:32+00:00",
-          "publisher": "freedomonline.com.ng",
-          "title": "NNPP Warns INEC Over Court Orders Ahead of 2027 Elections - freedomonline.com.ng"
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbjhxMlRVbE1DajBtM2FJMndSZWQtOGR6alNXNEw5bnF3LWdLMkZPYkpScHpEekNFYnE0WlNDcS1jX2hDT0hYdWNHWmhKcnA3bjVpWFRmYU5yMGI5VDBSYTVmYUNnT0lxNUFiVmJuZUI0UmZuTVM2UkZxSzB6NFdpRzRfTQ?oc=5",
+          "published": "2026-04-22T11:16:26+00:00",
+          "publisher": "AOL.com",
+          "title": "KY legislature censures state Supreme Court Justice for impeachment case opinion - AOL.com"
         }
       ],
       "hits": 1,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -244,53 +289,14 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "executive_constraints",
       "evidence": [],
       "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
-      "id": "election_delay_or_cancellation",
-      "name": "Election Delay or Cancellation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.25,
+      "severity": 0.65,
       "severity_label": "Green",
       "unique_publishers": 0
     }
