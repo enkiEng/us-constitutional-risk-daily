@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.12,
+  "average_7d": 11.64,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,20 +10,20 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -1.0,
-  "delta_vs_7d": -1.3,
+  "delta_vs_7d": -1.27,
   "domain_breakdown": [
     {
-      "avg_severity": 0.6625,
+      "avg_severity": 0.575,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.64375,
+      "points": 3.1624999999999996,
       "weight": 22
     },
     {
-      "avg_severity": 0.21666666666666667,
+      "avg_severity": 0.09999999999999999,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.8125,
+      "points": 0.37499999999999994,
       "weight": 15
     },
     {
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.6666666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.4083333333333334,
+      "points": 2.1666666666666665,
       "weight": 13
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.3749999999999998,
+      "points": 1.0833333333333335,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-24T12:41:42.111803+00:00",
-  "previous_score": 12,
+  "generated_at": "2026-04-25T12:34:32.940338+00:00",
+  "previous_score": 11,
   "provisional": false,
-  "score": 11,
-  "score_raw": 10.82,
+  "score": 10,
+  "score_raw": 10.37,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -90,19 +90,19 @@
           "title": "Election Boards Face Partisan Pressure - Voting Rights Lab"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRHRnc0NOWHR4QjYzMXd1elRNQ0NROGFLSDd4eVJIU1c4S2Q4dW4wMzM0bVptcUYwTTFhRHZuZWp6TklxQS01Q3c3b29qdWdYNTlvWTVRbmJHUGE0X3pWdUQxV2UzOXNjSVZFckNGSWNXN24xeUNBVkVNY1NxeFFlSlpqc0JpRUE?oc=5",
-          "published": "2026-04-23T19:10:26+00:00",
-          "publisher": "AOL.com",
-          "title": "Justice Department demands 2024 election ballots from Wayne County, Michigan - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTZlk5TS0tSmZseE9sbG9zb3U3UEhlV1VyV2JHVGJvWkRRT1BubUJONGpRQkFTd01UTlY0ZkJsYUNaZXVIYzZvRDJEbzdOZTBwcW5FN2s2eXVmdXFCMlE5cl9hNA?oc=5",
+          "published": "2026-04-24T18:51:56+00:00",
+          "publisher": "Louisiana Illuminator",
+          "title": "Legislature passes plan to consolidate Orleans Parish court clerk offices after heated debate - Louisiana Illuminator"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY2pIWHh2Ym1yeDY3NFlORkVPOTd0WGhYaEQ4Q1poVHl4RWd1RXk1UHlxTHB5bjlnRUp1dENadktsM3V5U3NYNTNRWmVHNGliRnNoTi1HclRuVGdiMTh3eXlTOVl2ZVJrc3ktMG9WSGVJUWZoaWpWeGxCUEp4MVhaYi1ybWRGb0NSVmY2N1E0enJYMzNXOGc5ZWQxeXpjOXctU2xyd1oxdTNoQjNCSlg0?oc=5",
-          "published": "2026-04-22T16:11:00+00:00",
-          "publisher": "WTAE",
-          "title": "Officials seek removal of candidate from Western Pa. ballot following court decision - WTAE"
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcW52MVZwM2xrRU9PMnRQUWoxWkZBdV9XNnFrLUdrU25NdTU2U2EtSFppYUhFaC0tR1hueUFMbHF3Wnh2akNKZUdsZzA5OFNRVmJMZHJ3aW9ldmJoUkM4SkF2QmRHaFZkODFEeG5NZWJacnJTZzhTOE9ibEhjY0Z4cjZoTjZBREwyTndwUWROSHNxZw?oc=5",
+          "published": "2026-04-24T17:53:11+00:00",
+          "publisher": "WABE",
+          "title": "What are the Georgia ballot questions in the 2026 primary election? - WABE"
         }
       ],
-      "hits": 8,
+      "hits": 5,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -114,22 +114,15 @@
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSTFvMmRTSEhXbGxscnZ2VGg0THFxRjVCS1MyTjI4bENQUWVkUHNoSzFMT2NTNXBJeTRLUzhTak0xa3VpSmVkd0Y2dkpWeV82bHdyUFVhX0xaODNEZDdqZWJidF94emdXNXAwTFFHUHpZblZpZ09KMHVvQk5xTHl3clRNckgwTEVZR2ZpU2N3WHhoNEFId2NpTndxTktaVzN4eURkakxCdDE?oc=5",
-          "published": "2026-04-22T16:09:56+00:00",
-          "publisher": "Gephardt Daily",
-          "title": "Trump vs. Powell: Interest rates, investigation and a replacement - Gephardt Daily"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -142,10 +135,10 @@
           "title": "Kuwaiti court acquits detained U.S. Kuwaiti journalist of all charges, lawyers say - CBC"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNlo0YklrWGU2VzBZWWl5LWNnN1hUMHZlLU1hb3ZHRlNoMmtrSURad0N0d0E2VlRhRVVfVXo5TjJZem1QTndqNGlkZzdIN2hkU3VMNnItd0ZIclFKS2dZX2lpRFVxdkcwYnFkQzIwUTVRelIxLW9xRm5pZTBXemV1bXNHLW5Ybi1kY2VoZGdwZndkSjRMMXhiZHlQek9oZHdCSHQxVURFWDRBeDZzTDFrR1JUMHpza0Q5Tzhsb0thWExCdnROUDdPS0p1cGhsTGYwM2dGRkxHMzlTNVc4OXpzZHhadnQxeG9sajBHV0dONHpEMjA3?oc=5",
-          "published": "2026-04-22T22:27:14+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYnd3b2laUjM4X3NOUlBUei1GLUpwY19rM3ZtcG5EUVNQbVIwLVNkTDdXRUItM09Sb0VLRXNhYnpCSFROaXE1TV9NNGVDbHFFTm55VUQ0cE12N25nTVVJam9ONXhyNnhReDJWWDlVS1FqLXExUmNwakVTNU1LaXlaNVZNdXhiTnFpbVNuamMyenI0U3BYaEdVb0ZkSk1xU0pNODVpNHNDOW1IdGN0b29ud0IwblFwYzVXSUhhVmxzNXJQeExqcjBVSw?oc=5",
+          "published": "2026-04-23T18:46:30+00:00",
           "publisher": "MSN",
-          "title": "FBI drops probe into NYT reporter after Patel story backlash - MSN"
+          "title": "Kuwaiti court acquits detained US Kuwaiti journalist of all charges, lawyers say - MSN"
         }
       ],
       "hits": 2,
@@ -182,15 +175,55 @@
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB4cU5TWEJ3c1pjOURjdk56VXA0SUZ2SzdZa0FReUc5S2NpMmxQMHpBal9XSWxtTHVkXzd4M1FpUjloT0hfV0cxa3Vab0diWF9OREMxSXNZeWhic01mMnJBcUtScWbSAWRBVV95cUxQeHFOU1hCd3NaYzlEY3ZOelVwNElGdks3WWtBUXlHOUtjaTJsUDB6QWpfV0lsbUx1ZF83eDNRaVI5aE9IX1dHMWt1Wm9HYlhfTkRDMUlzWXloYnNNZjJyQXFLUnFm?oc=5",
-          "published": "2026-04-22T14:19:08+00:00",
-          "publisher": "Global Issues.org",
-          "title": "The Ballot Box Illusion: How Authoritarians Repackaged the African Ballot - Global Issues.org"
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNamU0UWllV0tpNjdMM0JqUUhVTlIwUlpfLWttZnZtaXlrTkdqOU5RZGxMQjlEbHExUUtKbDJHbEI2ZTZVQ2xKcTFvVFlRMWJKRFJpYkxhX1RMalVlcVByOGZ0anlsM283QTc4ZXUtc1p0endodDBDcnJfYnFRcDNnM05COS1KOGFiVlR6Y21VMA?oc=5",
+          "published": "2026-04-24T15:30:00+00:00",
+          "publisher": "AOL.com",
+          "title": "Despite disqualification, ex-governor candidate claims she\u2019s still running - AOL.com"
         }
       ],
       "hits": 1,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUlhxNllVMmhrUUROeEh6cEU5d3dGZVI4bU9fTzZ4enNwT0lpbGpTdzg3QW5hRHRYRHNEYkFTX0xoYmxaVHNqRHVhQzNrQnVmZ1VpNjRGb2k3SnE2Qlh4UENram1pVGI1cy16dlUySFE4UnJDQ2ZjdWVtcUFGbk5UVW1RVVlCU1N4dVdjaS0teXFRdGxGU051bjVZNWVkeVZUTDk2LXFkZTluaHltVVhEYVZmYk8?oc=5",
+          "published": "2026-04-24T13:07:26+00:00",
+          "publisher": "Baltimore Sun",
+          "title": "Use of emergency powers is raising questions about presidential overreach - Baltimore Sun"
+        }
+      ],
+      "hits": 1,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQb0E5VGRpalRscHpaaDUySVhVSDBHNzFPMVd1ZldKVC0tcDBhQXJZbHN6QWt1MGpDekI2SlVyeG03UzJELWlOcnlxMWhXR2hkdGxoWHcwR1hnZFI3VHBUaDM5Z1plcEZHUDJRZ0pPVjNwMWpOOFJzLTBhSW4zUjNFZWhlTDc5S2FucGNtXy1GeW9ZQUhPVGN0SEVNR2ZuODE2aXhQOEtQeWd1RS1CZjBsLU9tVGdUYUVIUkduUG16T2lTU2VCYkZFTmtITGM?oc=5",
+          "published": "2026-04-23T13:30:55+00:00",
+          "publisher": "SCOTUSblog",
+          "title": "Justices to hear dispute over cancer warnings on pesticide labels - SCOTUSblog"
+        }
+      ],
+      "hits": 1,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -206,7 +239,7 @@
       "name": "Alternate Elector Scheme Activity",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -219,33 +252,7 @@
       "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }
