@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 10.8,
+  "average_7d": 10.13,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": -2.29,
+  "delta_previous_day": -3.0,
+  "delta_vs_7d": -3.97,
   "domain_breakdown": [
     {
-      "avg_severity": 0.5,
+      "avg_severity": 0.4125,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.75,
+      "points": 2.26875,
       "weight": 22
     },
     {
@@ -27,24 +27,24 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.31666666666666665,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.9249999999999998,
+      "points": 1.1083333333333334,
       "weight": 14
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.31666666666666665,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.7874999999999999,
+      "points": 1.0291666666666666,
       "weight": 13
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.19999999999999998,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.7916666666666666,
+      "points": 0.49999999999999994,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-26T12:34:39.558082+00:00",
-  "previous_score": 10,
+  "generated_at": "2026-04-27T12:53:16.222571+00:00",
+  "previous_score": 9,
   "provisional": false,
-  "score": 9,
-  "score_raw": 8.5,
+  "score": 6,
+  "score_raw": 6.16,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,72 +84,32 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTZlk5TS0tSmZseE9sbG9zb3U3UEhlV1VyV2JHVGJvWkRRT1BubUJONGpRQkFTd01UTlY0ZkJsYUNaZXVIYzZvRDJEbzdOZTBwcW5FN2s2eXVmdXFCMlE5cl9hNA?oc=5",
-          "published": "2026-04-24T18:51:56+00:00",
-          "publisher": "Louisiana Illuminator",
-          "title": "Legislature passes plan to consolidate Orleans Parish court clerk offices after heated debate - Louisiana Illuminator"
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUUEzS3Ffc1lNbHpLa0lDeWttWVRfU0FlRlRwLVByVnhvQ19maGx0QnIzZWhkaTh4YWhIZi1nTUVFNnNRWm1sRi1YUzRhLUJpVmMzR3JtYkhsM3ZRQUVvMmxMTUNaUFJ5X0ZtdmJ3R0FsOFYwU1VwandFbm9Sc2QxQkYyaUdtdmlGTGNrbHhUQkRDQzVMZ214SHE1UkhlN3RyeDlLRTdmNHZmQQ?oc=5",
+          "published": "2026-04-27T10:17:12+00:00",
+          "publisher": "Reuters",
+          "title": "How Trump is moving to control U.S. elections, one state at a time - Reuters"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcW52MVZwM2xrRU9PMnRQUWoxWkZBdV9XNnFrLUdrU25NdTU2U2EtSFppYUhFaC0tR1hueUFMbHF3Wnh2akNKZUdsZzA5OFNRVmJMZHJ3aW9ldmJoUkM4SkF2QmRHaFZkODFEeG5NZWJacnJTZzhTOE9ibEhjY0Z4cjZoTjZBREwyTndwUWROSHNxZw?oc=5",
-          "published": "2026-04-24T17:53:11+00:00",
-          "publisher": "WABE",
-          "title": "What are the Georgia ballot questions in the 2026 primary election? - WABE"
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbWMySURLaXlGUmxMS2NWbHdIdTBMUnljaDRWbEVpWWtTT0toZGN5Q2xIUW5NY0Q3NGVCcGo5SkYyRzFmRHZhNEFiUzdxMHhWY1pqOW9aYXRaTjVqTGNHVUhuWFdrT0pWbThGQlVPMktwMUNrNFdYYUFBMXpibU5ZS1lhM21jVGpteExYbklNTWItYVFWQld1VUMyN3FzaDBrQ3ctRE9iZmZJOG1oSmpWeVNTZVI2NHVzWkNhOHJjcVRvdVZzUFpMY3dkaUE3c295YWfSAd8BQVVfeXFMTjA0UFRlUDVCYXlwcG5fRXhheDN6YTFMM1pwaXpwZzZjeVJ6eThBa041TEdzT2g0RDYwSUttN2FHSHVJQlJ1cWRXVTFqbWZvN05WTU1zbTJmOHFsX2o5Z3g1TmRrTlc1amZ1OW9qTkFCVWI4bEptTGhOd0RYZnBtVHNZU3RmN3NYcWZKMnJUU2JBajhSeGxRclRhdnBxUW41d056WHlxX0U2dFZIUkVudElrb2xvVDVPUTY2MW1qMHpRYzNPYVVZY01NbUU4NEo0Z3hxZVNEOERUYnBTQ01FWQ?oc=5",
+          "published": "2026-04-27T12:02:10+00:00",
+          "publisher": "Outlook India",
+          "title": "Trump Administration Challenges Local Control Of U.S. Elections Through Targeted Investigations - Outlook India"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA4cmZra1FGTHQ2ZklqTlh0bTNsQ1Z2bUhUWnRxZUtuTmJndW12Y3EtOUFzT0RMRXZiaFdxYTNTVGo2andjUVZiMEg3YjRtT0dFMC1LLVBmVGIzNHp4Z3ViZER3YlRPZTZUY0d0N1JvWmJCQklURzRBQw?oc=5",
-          "published": "2026-04-24T23:08:20+00:00",
-          "publisher": "AOL.com",
-          "title": "In late-night move, KY lawmakers refer impeachment, removal petitions to new committee - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVE1NWTlMSlBNNkU3NzBTUmV6UEtIYV9EdUtfdFJ1dWdyendCdUk2Rk94ZW81Zkw0QWFEMml6aGdwcFg4TWZOMV9xelBCU1VJMXhpcHZlTHcyQlZjX3V0dUR2NWNtRGJvZVdNeW9Lbk1aM2hHVy1zNFotWG1HSFVGeksxWkoxOHVDQ1hTTUxFN0d1S2ZzbUZjVWpRMXB1S1VNRjQ0dHpMOWFWX0XSAbABQVVfeXFMUFk1NHhFOXNOaVlQN0NjUGNaNVRnWkt1dVJKMVJWV3RfY1FyWm9ibXZSSDZnWldROGQ5VjMzVFFFSVFENXdCRmJLR3FZb2VzeG1EazI2eUhEY2xPeks0Y2NLcWtLRjdMZ0RrQ2tNODdPeWs3TElaR3Etc1lWN2JHb1NFX0hWWXBiNnNaMXR2UHpPZU9IdWg4WV94VFp2RHBUbmc4T3FrSEM3RTB1VU1DdU8?oc=5",
+          "published": "2026-04-26T22:08:17+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "title": "FBI seizes 2020 ballots in Georgia in apparently unprecedented action, alarming local officials - ABC News - Breaking News, Latest News and Videos"
         }
       ],
-      "hits": 4,
+      "hits": 3,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 4
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNamU0UWllV0tpNjdMM0JqUUhVTlIwUlpfLWttZnZtaXlrTkdqOU5RZGxMQjlEbHExUUtKbDJHbEI2ZTZVQ2xKcTFvVFlRMWJKRFJpYkxhX1RMalVlcVByOGZ0anlsM283QTc4ZXUtc1p0endodDBDcnJfYnFRcDNnM05COS1KOGFiVlR6Y21VMA?oc=5",
-          "published": "2026-04-24T15:30:00+00:00",
-          "publisher": "AOL.com",
-          "title": "Despite disqualification, ex-governor candidate claims she\u2019s still running - AOL.com"
-        }
-      ],
-      "hits": 1,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
+      "severity": 1.65,
       "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUlhxNllVMmhrUUROeEh6cEU5d3dGZVI4bU9fTzZ4enNwT0lpbGpTdzg3QW5hRHRYRHNEYkFTX0xoYmxaVHNqRHVhQzNrQnVmZ1VpNjRGb2k3SnE2Qlh4UENram1pVGI1cy16dlUySFE4UnJDQ2ZjdWVtcUFGbk5UVW1RVVlCU1N4dVdjaS0teXFRdGxGU051bjVZNWVkeVZUTDk2LXFkZTluaHltVVhEYVZmYk8?oc=5",
-          "published": "2026-04-24T13:07:26+00:00",
-          "publisher": "Baltimore Sun",
-          "title": "Use of emergency powers is raising questions about presidential overreach - Baltimore Sun"
-        }
-      ],
-      "hits": 1,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
@@ -173,6 +133,32 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [],
+      "hits": 0,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "hits": 0,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [],
       "hits": 0,
@@ -180,8 +166,8 @@
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -193,7 +179,7 @@
       "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -206,7 +192,7 @@
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }

@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-04-26 12:34:39 UTC
-- Score: **9 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **-2.3**
+- Generated: 2026-04-27 12:53:16 UTC
+- Score: **6 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-3.0**
+- Delta vs 7-day average: **-4.0**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -14,11 +14,11 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.50 | 2.75 |
+| Elections and Transfer of Power | 22 | 0.41 | 2.27 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
-| Opposition Rights and Political Pluralism | 14 | 0.55 | 1.92 |
-| Executive Constraints and Emergency Powers | 13 | 0.55 | 1.79 |
-| Civil Service and Agency Independence | 10 | 0.32 | 0.79 |
+| Opposition Rights and Political Pluralism | 14 | 0.32 | 1.11 |
+| Executive Constraints and Emergency Powers | 13 | 0.32 | 1.03 |
+| Civil Service and Agency Independence | 10 | 0.20 | 0.50 |
 | Civil Liberties and Information Environment | 10 | 0.50 | 1.25 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
@@ -27,30 +27,28 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Election Administration Capture | elections_transfer | 2.00 (Yellow) | 4 | 4 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
-| Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 1 | 1 |
+| Election Administration Capture | elections_transfer | 1.65 (Watch) | 3 | 3 |
 | Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
-| Independent Agency Capture | civil_service_integrity | 0.95 (Watch) | 0 | 0 |
-| Politicized Prosecution of Opposition | opposition_pluralism | 0.65 (Green) | 0 | 0 |
-| Legislative Bypass by Executive | executive_constraints | 0.65 (Green) | 0 | 0 |
+| Opposition Ballot Exclusion | opposition_pluralism | 0.65 (Green) | 0 | 0 |
+| Emergency Powers Expansion | executive_constraints | 0.65 (Green) | 0 | 0 |
+| Independent Agency Capture | civil_service_integrity | 0.60 (Green) | 0 | 0 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 0.30 (Green) | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 0.30 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Election Administration Capture
-- [Louisiana Illuminator] Legislature passes plan to consolidate Orleans Parish court clerk offices after heated debate - Louisiana Illuminator (2026-04-24) - https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTZlk5TS0tSmZseE9sbG9zb3U3UEhlV1VyV2JHVGJvWkRRT1BubUJONGpRQkFTd01UTlY0ZkJsYUNaZXVIYzZvRDJEbzdOZTBwcW5FN2s2eXVmdXFCMlE5cl9hNA?oc=5
-- [WABE] What are the Georgia ballot questions in the 2026 primary election? - WABE (2026-04-24) - https://news.google.com/rss/articles/CBMikgFBVV95cUxOcW52MVZwM2xrRU9PMnRQUWoxWkZBdV9XNnFrLUdrU25NdTU2U2EtSFppYUhFaC0tR1hueUFMbHF3Wnh2akNKZUdsZzA5OFNRVmJMZHJ3aW9ldmJoUkM4SkF2QmRHaFZkODFEeG5NZWJacnJTZzhTOE9ibEhjY0Z4cjZoTjZBREwyTndwUWROSHNxZw?oc=5
-- [AOL.com] In late-night move, KY lawmakers refer impeachment, removal petitions to new committee - AOL.com (2026-04-24) - https://news.google.com/rss/articles/CBMieEFVX3lxTFA4cmZra1FGTHQ2ZklqTlh0bTNsQ1Z2bUhUWnRxZUtuTmJndW12Y3EtOUFzT0RMRXZiaFdxYTNTVGo2andjUVZiMEg3YjRtT0dFMC1LLVBmVGIzNHp4Z3ViZER3YlRPZTZUY0d0N1JvWmJCQklURzRBQw?oc=5
-
-### Opposition Ballot Exclusion
-- [AOL.com] Despite disqualification, ex-governor candidate claims she’s still running - AOL.com (2026-04-24) - https://news.google.com/rss/articles/CBMijwFBVV95cUxNamU0UWllV0tpNjdMM0JqUUhVTlIwUlpfLWttZnZtaXlrTkdqOU5RZGxMQjlEbHExUUtKbDJHbEI2ZTZVQ2xKcTFvVFlRMWJKRFJpYkxhX1RMalVlcVByOGZ0anlsM283QTc4ZXUtc1p0endodDBDcnJfYnFRcDNnM05COS1KOGFiVlR6Y21VMA?oc=5
-
-### Emergency Powers Expansion
-- [Baltimore Sun] Use of emergency powers is raising questions about presidential overreach - Baltimore Sun (2026-04-24) - https://news.google.com/rss/articles/CBMitAFBVV95cUxOUlhxNllVMmhrUUROeEh6cEU5d3dGZVI4bU9fTzZ4enNwT0lpbGpTdzg3QW5hRHRYRHNEYkFTX0xoYmxaVHNqRHVhQzNrQnVmZ1VpNjRGb2k3SnE2Qlh4UENram1pVGI1cy16dlUySFE4UnJDQ2ZjdWVtcUFGbk5UVW1RVVlCU1N4dVdjaS0teXFRdGxGU051bjVZNWVkeVZUTDk2LXFkZTluaHltVVhEYVZmYk8?oc=5
+- [Reuters] How Trump is moving to control U.S. elections, one state at a time - Reuters (2026-04-27) - https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUUEzS3Ffc1lNbHpLa0lDeWttWVRfU0FlRlRwLVByVnhvQ19maGx0QnIzZWhkaTh4YWhIZi1nTUVFNnNRWm1sRi1YUzRhLUJpVmMzR3JtYkhsM3ZRQUVvMmxMTUNaUFJ5X0ZtdmJ3R0FsOFYwU1VwandFbm9Sc2QxQkYyaUdtdmlGTGNrbHhUQkRDQzVMZ214SHE1UkhlN3RyeDlLRTdmNHZmQQ?oc=5
+- [Outlook India] Trump Administration Challenges Local Control Of U.S. Elections Through Targeted Investigations - Outlook India (2026-04-27) - https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbWMySURLaXlGUmxMS2NWbHdIdTBMUnljaDRWbEVpWWtTT0toZGN5Q2xIUW5NY0Q3NGVCcGo5SkYyRzFmRHZhNEFiUzdxMHhWY1pqOW9aYXRaTjVqTGNHVUhuWFdrT0pWbThGQlVPMktwMUNrNFdYYUFBMXpibU5ZS1lhM21jVGpteExYbklNTWItYVFWQld1VUMyN3FzaDBrQ3ctRE9iZmZJOG1oSmpWeVNTZVI2NHVzWkNhOHJjcVRvdVZzUFpMY3dkaUE3c295YWfSAd8BQVVfeXFMTjA0UFRlUDVCYXlwcG5fRXhheDN6YTFMM1pwaXpwZzZjeVJ6eThBa041TEdzT2g0RDYwSUttN2FHSHVJQlJ1cWRXVTFqbWZvN05WTU1zbTJmOHFsX2o5Z3g1TmRrTlc1amZ1OW9qTkFCVWI4bEptTGhOd0RYZnBtVHNZU3RmN3NYcWZKMnJUU2JBajhSeGxRclRhdnBxUW41d056WHlxX0U2dFZIUkVudElrb2xvVDVPUTY2MW1qMHpRYzNPYVVZY01NbUU4NEo0Z3hxZVNEOERUYnBTQ01FWQ?oc=5
+- [ABC News - Breaking News, Latest News and Videos] FBI seizes 2020 ballots in Georgia in apparently unprecedented action, alarming local officials - ABC News - Breaking News, Latest News and Videos (2026-04-26) - https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVE1NWTlMSlBNNkU3NzBTUmV6UEtIYV9EdUtfdFJ1dWdyendCdUk2Rk94ZW81Zkw0QWFEMml6aGdwcFg4TWZOMV9xelBCU1VJMXhpcHZlTHcyQlZjX3V0dUR2NWNtRGJvZVdNeW9Lbk1aM2hHVy1zNFotWG1HSFVGeksxWkoxOHVDQ1hTTUxFN0d1S2ZzbUZjVWpRMXB1S1VNRjQ0dHpMOWFWX0XSAbABQVVfeXFMUFk1NHhFOXNOaVlQN0NjUGNaNVRnWkt1dVJKMVJWV3RfY1FyWm9ibXZSSDZnWldROGQ5VjMzVFFFSVFENXdCRmJLR3FZb2VzeG1EazI2eUhEY2xPeks0Y2NLcWtLRjdMZ0RrQ2tNODdPeWs3TElaR3Etc1lWN2JHb1NFX0hWWXBiNnNaMXR2UHpPZU9IdWg4WV94VFp2RHBUbmc4T3FrSEM3RTB1VU1DdU8?oc=5
 
 ### Press Restrictions or Retaliation
 - [newsbusters.org] The Media's Self-Presumed Cool Kids Gather For The White House Correspondents Shindig - newsbusters.org (2026-04-25) - https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQS1sa3BtTEd5ZkNKWXJvNnJIV3ZqcGxfWFNDMHVIT1JkN05DaTlZZm53bG8xZElwYk5WcnZ6Ulh6RXR4dlo1aDRzby1VX3p3UURRZVh1WHBwWWNiS2ZfdGpwd0JNNUtuSEMtTGxBNk9NS1Y3U3dBXzg2NzNnOElIaF9SNi1VSW5PMkJpMWR1UXNlLURydzd6TVdLMDF1WFBCeGhUMjEwbWxYSVZLVFc1eGptU0ZGTmxOdWJXSE9za2VONVE?oc=5
 
+### Opposition Ballot Exclusion
+- No fresh evidence links in the current lookback window.
+### Emergency Powers Expansion
+- No fresh evidence links in the current lookback window.
 ### Independent Agency Capture
 - No fresh evidence links in the current lookback window.
 ## Data Quality
