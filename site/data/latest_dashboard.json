@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 10.13,
+  "average_7d": 9.98,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,42 +9,42 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -3.0,
-  "delta_vs_7d": -3.97,
+  "delta_previous_day": 5.0,
+  "delta_vs_7d": 1.01,
   "domain_breakdown": [
     {
-      "avg_severity": 0.4125,
+      "avg_severity": 0.5,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.26875,
+      "points": 2.75,
       "weight": 22
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.6666666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.0,
+      "points": 2.5,
       "weight": 15
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.3333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1083333333333334,
+      "points": 1.1666666666666665,
       "weight": 14
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.7666666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.0291666666666666,
+      "points": 2.4916666666666663,
       "weight": 13
     },
     {
-      "avg_severity": 0.19999999999999998,
+      "avg_severity": 0.3333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.49999999999999994,
+      "points": 0.8333333333333333,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-04-27T12:53:16.222571+00:00",
-  "previous_score": 9,
+  "generated_at": "2026-04-28T12:56:47.079641+00:00",
+  "previous_score": 6,
   "provisional": false,
-  "score": 6,
-  "score_raw": 6.16,
+  "score": 11,
+  "score_raw": 10.99,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,47 +84,125 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUUEzS3Ffc1lNbHpLa0lDeWttWVRfU0FlRlRwLVByVnhvQ19maGx0QnIzZWhkaTh4YWhIZi1nTUVFNnNRWm1sRi1YUzRhLUJpVmMzR3JtYkhsM3ZRQUVvMmxMTUNaUFJ5X0ZtdmJ3R0FsOFYwU1VwandFbm9Sc2QxQkYyaUdtdmlGTGNrbHhUQkRDQzVMZ214SHE1UkhlN3RyeDlLRTdmNHZmQQ?oc=5",
-          "published": "2026-04-27T10:17:12+00:00",
-          "publisher": "Reuters",
-          "title": "How Trump is moving to control U.S. elections, one state at a time - Reuters"
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWmRWSWhBRVQ0X1ZOM2IyY1h4RG5DUTJXekh4WGRtQVJDS055Z0xqZVNmckd5NlR1SVkwaWJFTDJOY29ESUpsbENYQTVVQ0x5M21IVWNYSXR0cnd6NVlUMTdFMVQ1MTdKZENXVXRscm5MZEJfMFlsWHNTZ2FhelpPd2EycVo1TGw3MUloWi1CNjZWUUVZNlVoc3JGQXZydERpejRROWpQakRNTWh3NWFTVW0tVQ?oc=5",
+          "published": "2026-04-27T15:46:36+00:00",
+          "publisher": "Voting Rights Lab",
+          "title": "The Markup: Weekly Update on Election Law & Policy - Voting Rights Lab"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbWMySURLaXlGUmxMS2NWbHdIdTBMUnljaDRWbEVpWWtTT0toZGN5Q2xIUW5NY0Q3NGVCcGo5SkYyRzFmRHZhNEFiUzdxMHhWY1pqOW9aYXRaTjVqTGNHVUhuWFdrT0pWbThGQlVPMktwMUNrNFdYYUFBMXpibU5ZS1lhM21jVGpteExYbklNTWItYVFWQld1VUMyN3FzaDBrQ3ctRE9iZmZJOG1oSmpWeVNTZVI2NHVzWkNhOHJjcVRvdVZzUFpMY3dkaUE3c295YWfSAd8BQVVfeXFMTjA0UFRlUDVCYXlwcG5fRXhheDN6YTFMM1pwaXpwZzZjeVJ6eThBa041TEdzT2g0RDYwSUttN2FHSHVJQlJ1cWRXVTFqbWZvN05WTU1zbTJmOHFsX2o5Z3g1TmRrTlc1amZ1OW9qTkFCVWI4bEptTGhOd0RYZnBtVHNZU3RmN3NYcWZKMnJUU2JBajhSeGxRclRhdnBxUW41d056WHlxX0U2dFZIUkVudElrb2xvVDVPUTY2MW1qMHpRYzNPYVVZY01NbUU4NEo0Z3hxZVNEOERUYnBTQ01FWQ?oc=5",
-          "published": "2026-04-27T12:02:10+00:00",
-          "publisher": "Outlook India",
-          "title": "Trump Administration Challenges Local Control Of U.S. Elections Through Targeted Investigations - Outlook India"
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAyQkZwUjVOOEFSSFFicG1RMFhQTVo2TWdmZDN2Zjd2aWtJM0lpMklrQkVPR3dVRDByTkFORmJHZU9qSXlEdTNxbw?oc=5",
+          "published": "2026-04-27T19:18:28+00:00",
+          "publisher": "Politico",
+          "title": "Playbook - Politico"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVE1NWTlMSlBNNkU3NzBTUmV6UEtIYV9EdUtfdFJ1dWdyendCdUk2Rk94ZW81Zkw0QWFEMml6aGdwcFg4TWZOMV9xelBCU1VJMXhpcHZlTHcyQlZjX3V0dUR2NWNtRGJvZVdNeW9Lbk1aM2hHVy1zNFotWG1HSFVGeksxWkoxOHVDQ1hTTUxFN0d1S2ZzbUZjVWpRMXB1S1VNRjQ0dHpMOWFWX0XSAbABQVVfeXFMUFk1NHhFOXNOaVlQN0NjUGNaNVRnWkt1dVJKMVJWV3RfY1FyWm9ibXZSSDZnWldROGQ5VjMzVFFFSVFENXdCRmJLR3FZb2VzeG1EazI2eUhEY2xPeks0Y2NLcWtLRjdMZ0RrQ2tNODdPeWs3TElaR3Etc1lWN2JHb1NFX0hWWXBiNnNaMXR2UHpPZU9IdWg4WV94VFp2RHBUbmc4T3FrSEM3RTB1VU1DdU8?oc=5",
-          "published": "2026-04-26T22:08:17+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "title": "FBI seizes 2020 ballots in Georgia in apparently unprecedented action, alarming local officials - ABC News - Breaking News, Latest News and Videos"
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWd1SmJNamdpbFR1RHNfS3JNQzJXSXFzT0JiZDA1MklDWE9fUUpqSjFMTVJ2QlF4Yl95VGttNktYWmVZcXN6c2NPX19VRy1fY2llUmpJMTVPbG1uLTlOSXdULWxlNVNjczhFbXh1S1I2ellPQUF4Z0ZtQldmeFQta1pRS0hOMjhWMFVzbzRGN0FqVmZCaTZzUUVfWTljOWV3aThr0gGjAUFVX3lxTFBxZ3VKYk1qZ2lsVHVEc19Lck1DMldJcXNPQmJkMDUySUNYT19RSmpKMUxNUnZCUXhiX3lUa202S1haZVlxc3pzY09fX1VHLV9jaWVSakkxNU9sbW4tOU5Jd1QtbGU1U2NzOEVteHVLUjZ6WU9BQXhnRm1CV2Z4VC1rWlFLSE4yOFYwVXNvNEY3QWpWZkJpNnNRRV9ZOWM5ZXdpOGs?oc=5",
+          "published": "2026-04-28T05:45:00+00:00",
+          "publisher": "The Business Standard",
+          "title": "How Trump is moving to control US elections, one state at a time - The Business Standard"
         }
       ],
-      "hits": 3,
+      "hits": 6,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 6
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSUFXbkxCNHZpVVhEWG9GRGlpZERybnFNTjNpdmNnWWlLRTBEc2ZEeXNBaHd3UlVEUkVqd3hMYlR1SHF1R1UzWWZvVDRVZ1ZtLUJvY1VBRjVVc3BqVEV5TzlVUi03WVlJQk91ZnFCeU5HRUhjdlJsdndFLUF3cmJUb1JpMEFlbi1IWnowYllmQzBBdTVSLTlKcS1DVnYxX1hsSE1YZnFpX29rcXpLX3hyVVQ0cGVfX1FsOFgwUmEzX0l6WlE?oc=5",
+          "published": "2026-04-27T16:02:00+00:00",
+          "publisher": "Louisville Public Media",
+          "title": "Kentucky\u2019s constitutional crisis? Here\u2019s the deal with impeachments \u2014 and why it\u2019s not over yet - Louisville Public Media"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOE9jc0g5MURDVlFyUnp2NXZqQmczOWhvaThGelVvMHRzODV5dk5wTGV2WEdMdzRONHduRDl6V2hYVVQ5dHBKNm1KTGpCTWtrVV9HU0tQbUlfNWZMUF9wa0lNY1FvWUswM3k2Z05KMDFVWjA5dFBRS3gtd25mV1ZVMldaMmRFbTA?oc=5",
+          "published": "2026-04-27T12:35:53+00:00",
+          "publisher": "AOL.com",
+          "title": "Impeachment of Lexington judge \u2018not about politics,\u2019 former lawmaker says - AOL.com"
+        }
+      ],
+      "hits": 2,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 3
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkUmF3R1JHd2o1dHBwN2NTZ2c3T2J2bGFIcWJZWGhJTHNPaFNEbUl4d0VVTFJiY1dIMzMyZ0pVVWM1YTdFY0xCaU9QcjB1LVhaZld1MW4wSzNfcEo4clRTYTljSQ?oc=5",
+          "published": "2026-04-27T21:08:00+00:00",
+          "publisher": "The New York Times",
+          "title": "House and Senate Republicans Reach Deal to End Homeland Security Shutdown - The New York Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcUkzNlBiX2NYWDcyeVE2ZngxdXhWMkxfZFYzS0dfLW9OXzNPYnM1Z1VxVUhHbGRLU2d2QTNmNUpyTFhBMjM3Mmx5YkZrWlFzYmNMZkJHQkRmWklpZ285MWxVcHNZRXhXTVZMcmk2eXRkX0k2dy1EZFpaTGhBYXFhYTZjTQ?oc=5",
+          "published": "2026-04-27T16:31:39+00:00",
+          "publisher": "eTurboNews",
+          "title": "Why Global Tourism Can\u2019t Stay Silent on Climate, Energy, and Geopolitics - eTurboNews"
+        }
+      ],
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQS1sa3BtTEd5ZkNKWXJvNnJIV3ZqcGxfWFNDMHVIT1JkN05DaTlZZm53bG8xZElwYk5WcnZ6Ulh6RXR4dlo1aDRzby1VX3p3UURRZVh1WHBwWWNiS2ZfdGpwd0JNNUtuSEMtTGxBNk9NS1Y3U3dBXzg2NzNnOElIaF9SNi1VSW5PMkJpMWR1UXNlLURydzd6TVdLMDF1WFBCeGhUMjEwbWxYSVZLVFc1eGptU0ZGTmxOdWJXSE9za2VONVE?oc=5",
-          "published": "2026-04-25T17:30:00+00:00",
-          "publisher": "newsbusters.org",
-          "title": "The Media's Self-Presumed Cool Kids Gather For The White House Correspondents Shindig - newsbusters.org"
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRmtYd3l4MjVnMExSNkY1dWZ5LU1RZVBVdERtaGNLTTZrS0JfNVFBRUJNZHA0dVFTWHhqUHhzNkhaYWU3Q3pUMDR6Y1NxSkdqSk9zTkw1bWJnT1RMWGlCTnYxNFczX2NaZVd3NGpyal8wWW53X3FJWTJtVXVKQmFDNWlkR1NYM2lrd0ZtSTNHUmxGZWdIQTJJaVN4QzFBT19zWkdWdmtFcWNJeGtjRjBDZDk2RldxSndmNGhSb1ZVeUdrTWVGa2R0RlhOcG8wdVNpRXdYdlY0VjkxRTNub1JLcEJfN1RfT2J6MUE?oc=5",
+          "published": "2026-04-28T08:35:00+00:00",
+          "publisher": "Punjab News Express",
+          "title": "Press freedom group seeks withdrawal of 'politically motivated cases' against four Journalists in Bangladesh - Punjab News Express"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQeU5FVm9NTC1KQmZwQU01el9yLUhyX0cxZWJxdWJTVlNnMThqWE85eDQyTXU4SjBFazJOV3VPMk1YakhUT1dfb1NMQzMxVW1KMUo3ZlZhd2FPVzJtVllUX2ROV01oNVJDblRVODdGanJ1bVNNUTVMNmRWYkVxQk5FRGc2cDRsUmRPcVFUQmhmLXBMdGQzYkZadmlHOEhNRFlXOE9zdUNGOTI5S1VvRTRDMlZGX19mZGxjV0Qtei1McVBBRzFQUGRaSE9mbUg1N2NXS3U3UWk1NjlUaUNyQ0M2b2Zyd3I3NC13bzJHbTRuWXRoay1N0gH6AUFVX3lxTFB5ZTM5Qnk3bWptVlpVd3Z2dEpoZVBwMjZpNUIwcjNacGU1cENocFRkS1RqeS0yVTJfaFBndmZzeU5kVXBrZy03LUJsVHpGNG1VRHg5UjVPeHEtU0p1cVJRU2owR1A2dXRVMng1NUJ6bnZNNlU4NEwxWEd3SG1vM3h1OVZoM3Q5a0ZQTEkxY2V0dUZsS1JQUlUxQkNqc210OEVkb0w4RVVWanByWGJMOHNvUEVmbzJRVllhSkFhRHZLTWpLeXNzb05nTzF2TFFhakZIdWpBVWZDdDJ0WjJJNWhXRTVwY2swcTQ2RWFDQ0Q4M3JlVmxEYUt5cEE?oc=5",
+          "published": "2026-04-28T10:09:00+00:00",
+          "publisher": "The Hans India",
+          "title": "Press freedom group seeks withdrawal of 'politically motivated cases' against four Journalists in... - The Hans India"
+        }
+      ],
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxORlRzQll2cXRtdGVucXBJU2x0NzFUeVJqV0RtSnRpOWFmZHFYNkFvMVBSeWM2bHNWZ3JRbFdUbHhSV3JXRzlLbUhTTnEtLVQ2S054UTluOXVmaWFlZi1SZDNfNWJ4OTJqd1dFaUdKdmpLcEZFVENWWWFXeWVzc0FOcDRmb2RTQTB6dmRCQWdLenphRno0SWpEdmdVczNIcENwVmE4NktsbVpxY0V4Y1RWdHdLUWlUM1RSLTFoTjBoOE1BcEdOZWdOZ2tQSExreEx3RFUwRUhMZDg5VjZ3cVpuSHNRT21VUm5NZlNQSTVVa05fdlNwZ1o1X2VRRkJiVGNIOU9QYWNiMjFGRWk1My0xVTBiRjdhZWppbUpSZ2RFWEllS2NTS3UtMi13TkM2U1JnMG5nTE9Hb2xTYkprbDFhVHBYZW1aV010ZlRRQjVsXzJWMV9TUUZjZ0x6eERvTGxSaFVsQWttSUw2T0RyUEt4MGE4ZGRSS0k?oc=5",
+          "published": "2026-04-27T20:37:30+00:00",
+          "publisher": "MSN",
+          "title": "Despite disqualification, ex-governor candidate claims she\u2019s still running - MSN"
         }
       ],
       "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -133,16 +211,63 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaGEtcUZERFdfenh1QVFVcnJOdWcwWkstVmFkS1dWRHhBWE1lQ01Pa0p2UG05eXVsNVRoR0xzUkZZTGxsTndDWUtRWVMwRVczTTRjT1NhVGVVczVYTHZNU3dkMVNHcHRLMlJCcklBSVQwR0Z4cDFlSEk5Z3d1MGNqeEN1bHNtOUYyaFloZTZ4YlFDUFhsU2xKYXBB?oc=5",
+          "published": "2026-04-28T03:21:17+00:00",
+          "publisher": "THISDAYLIVE",
+          "title": "Court of Appeal Order Defied in Ikoyi Property Dispute - THISDAYLIVE"
+        }
+      ],
+      "hits": 1,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44SlZ3M055Q0FWajc3TUNBbGZpMDZ1OVVIQVEySURFVFRwRGt2ZWVXbXF1ZW83RHBUVE1JNjFvcHJQV0MzSzdPLXo3elZRYWMzWGVJNEttVjVHTFBIQjc2V3hVWQ?oc=5",
+          "published": "2026-04-27T21:19:00+00:00",
+          "publisher": "The New York Times",
+          "title": "ICE Whistle-Blower Calls Training for New Agents \u2018Deficient\u2019 and \u2018Broken\u2019 - The New York Times"
+        }
+      ],
+      "hits": 1,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitANBVV95cUxOMHUyU1d6YXBZS1ZuS3pXWUtZWEJ3eGpSckxYVWpPNXcxeTlidFhyRFNEOFNWSXdYOGtvamxac3hWbGowMERVdENialVDQnBMUDJsemRBTEFNLWs5MjJNdDVhVjJ6eUNKcGR0MTU1M2FDMWJjb2xSVjMydEpZUFZ2TVRwaUZkVHF6LWllZjNYYWY0dC1OWGxGSE0tOG5NR3BKa1RlWWpXNVdDeXZ0aHoyVGdGLTNza3JwT1NlZXUzc3Rabm8wTldTeWRXVENpaXl3SkhHeXYySlFfczk1LVFndXk5bU1WU0ZNSmdQenFUYW53RlJ6dkwxT25MLVpnd3hQWnl3eUhWV2JjZHAtODRoOFdSZzVaeE11b1JiZnFWV3lyR2IyeVctRGswWGhrMHdteUduLUhfcExRdGpzUW9kX0dGV0VrRUcxNGtmOXBKTnBnaFRFVWQwdi1YaHVFaXRyZmEtUHZoZVRIRXBNU2ozSWxoSE9TaVFJQTJYRG5LVG9zbnI2NWpqajM4Zi01MDEzLTNPZ1MxMFBmMThFVjZ3S0xzdkZxMXZKbGVldnRqX2hrMHM0?oc=5",
+          "published": "2026-04-26T23:20:06+00:00",
+          "publisher": "MSN",
+          "title": "Federal Reserve shake-up: Donald Trump fires Governor Lisa Cook; accuses her of \u2018potentially criminal conduct\u2019 - MSN"
+        }
+      ],
+      "hits": 1,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -151,45 +276,6 @@
       "hits": 0,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
