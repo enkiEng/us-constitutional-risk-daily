@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-04-30 12:54:35 UTC
-- Score: **16 / 100** (Elevated Strain)
-- Previous day delta: **+1.0**
-- Delta vs 7-day average: **+4.7**
+- Generated: 2026-05-01 12:40:36 UTC
+- Score: **18 / 100** (Elevated Strain)
+- Previous day delta: **+2.0**
+- Delta vs 7-day average: **+5.5**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -14,12 +14,12 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.41 | 2.27 |
-| Judicial Independence and Rule of Law | 15 | 0.77 | 2.88 |
+| Elections and Transfer of Power | 22 | 0.57 | 3.16 |
+| Judicial Independence and Rule of Law | 15 | 0.65 | 2.44 |
 | Opposition Rights and Political Pluralism | 14 | 0.88 | 3.09 |
-| Executive Constraints and Emergency Powers | 13 | 0.88 | 2.87 |
-| Civil Service and Agency Independence | 10 | 0.43 | 1.08 |
-| Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
+| Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
+| Civil Service and Agency Independence | 10 | 0.33 | 0.83 |
+| Civil Liberties and Information Environment | 10 | 1.50 | 3.75 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.50 | 1.00 |
 
@@ -27,45 +27,43 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Politicized Prosecution of Opposition | opposition_pluralism | 2.00 (Yellow) | 8 | 3 |
-| Election Administration Capture | elections_transfer | 1.65 (Watch) | 3 | 3 |
+| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 4 | 4 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 1.65 (Watch) | 3 | 3 |
+| Election Administration Capture | elections_transfer | 1.30 (Watch) | 2 | 2 |
 | Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 4 | 4 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 3 | 3 |
-| Legislative Oversight Obstruction | federalism_oversight | 1.00 (Watch) | 3 | 3 |
-| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 1.00 (Watch) | 2 | 2 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 2 | 2 |
 | Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 2 | 2 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 1.00 (Watch) | 2 | 2 |
+| Election Delay or Cancellation | elections_transfer | 1.00 (Watch) | 1 | 1 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
+| Martial Law or Military Governance Language | executive_constraints | 1.00 (Watch) | 1 | 1 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
 | Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
-| Opposition Ballot Exclusion | opposition_pluralism | 0.65 (Green) | 0 | 0 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 0.65 (Green) | 0 | 0 |
-| Court Order Noncompliance | judiciary_rule_of_law | 0.65 (Green) | 0 | 0 |
+| Legislative Oversight Obstruction | federalism_oversight | 1.00 (Watch) | 1 | 1 |
 
 ## Evidence Samples
 
+### Press Restrictions or Retaliation
+- [Time Magazine] The Most Urgent Threats to Press Freedom in 2026 - Time Magazine (2026-05-01) - https://news.google.com/rss/articles/CBMijgFBVV95cUxPb0JRUmRrbTlxbElVSWFuWXdPYWhYcENsNDZaeVFmWk1KQ1hxLXhNbXEybW8zSGtUVlBzYzhCOXg1WHFwM2wxSk40MHNMMjQyU1dfWEUtQmx5aDZIci1rTU16eGtRdm9HbEN0eEFQRXBMMHJFbkpoYUgwekNIdzJEcDRReFpEY1NHeUhXd1FB?oc=5
+- [Institute for War & Peace Reporting - IWPR] Iran’s Digital Darkness - Institute for War & Peace Reporting - IWPR (2026-05-01) - https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FVkhXd2k1U2h5TzdaSm9vOWpibkg1amdCOENGSUdCd0dfQ0lUeG5jQTh4aUh1aEs5Y1JleVYzTDYzck5icXFIb0xsNkI1Wml5ZU11NG9XS1VtTEE4alFFejNQbw?oc=5
+- [Amu TV] Bennett urges Taliban to release detained journalists ahead of press freedom day - Amu TV (2026-05-01) - https://news.google.com/rss/articles/CBMiOkFVX3lxTFAxVVp2Y3NNZ2hlZzlkSG5ESEhzT1BYQ0d5ejRCdlczcmJzNFB4T2Y1dDZYekNoNm51REE?oc=5
+
 ### Politicized Prosecution of Opposition
+- [조선일보] Trump Accelerates Retaliatory Probes Against Political Foes - 조선일보 (2026-04-30) - https://news.google.com/rss/articles/CBMihAFBVV95cUxNLXZ6M0xyeHkxVDhybldtZ3JXZ3JBS1FnUzVyeXA0OFhlSVVFSUxwbHJxaVQ0RlhrRVZvQU5PeXVfdU1UQXVLQzVXSlZwZFdtcGVxNFdyeEh4UGFHM2NaNGg3R0pnWVlLZFdTVGdoVzlUcFRCTTkwWnRpaVZZd240Y1lVSmY?oc=5
 - [Al Jazeera] Why ‘8647’ landed ex-FBI chief Comey in Trump’s crosshairs - Al Jazeera (2026-04-30) - https://news.google.com/rss/articles/CBMinAFBVV95cUxOMDhhQVJLSmlwc2Q1d19BZ0VHald6Q3dORjBNTHU5TWx6eENJZExENi1WMHdZQl9BOVMtb3RqbnJFZkZ0YnUwLXZ6dW8wTHJMQWVBcHlQdUoyaUxobEdPVWl0NDZmOU41eDZlX1NyeXVEVjJHMWdHU0JpN2E1cXJCWnFhdWVvajdkZEdGTC1UNTZvelJxNU9helhEcUfSAaIBQVVfeXFMT1NUUFlnTFU3RDkzNWdHNm9KY09UWU5BNGViWnhIelNBWTdRUlpMcDktQ2FVdFRsU2s2QWVkWExNU1hpazVZRGI4MEdnWW1QT2JpYnNia2FOQnhOeUpxVGRoLXU1cTZLR3ZNcE50ZWdwRll1SmlOQkRpLWtRWE51UUowZnZRMXlucnBYZ1hCZGdsN0lQVWo4SS1tWnBxQ3BNb0J3?oc=5
-- [MSN] Trump allies privately deride 'embarrassing' Comey indictment - MSN (2026-04-29) - https://news.google.com/rss/articles/CBMi4wFBVV95cUxOemdLT0MzbFRka295LU1feHFTLVdndWdwdV9IUjA3UFNaSEhrMXBMcF9qVHdNYWcxODVMVktHSTl4d2FqRUFhbUlhdlM2UnB3X0NzWkN4ZVQzdF9sVV8xS3V0ckY2Zktla253M01ybEoxRmVnY3FmZEIxSkFGbFhJNnFXY3JmME1KSlJMS0ZERG12WTJmUHZTa3M5MGFCNFEwRlFJdEFpZ2ZPNGhCSmFMd0NHSk9yNHVTYXlGbVFZdDJoR1ZjRllTbjBWRl9LcXhDdWtyYXYyYWxLdGpxdzBTa3Y5NA?oc=5
-- [MSN] Fox News host challenges Jim Jordan’s claims on Comey case - MSN (2026-04-30) - https://news.google.com/rss/articles/CBMi8gFBVV95cUxPdzl3S0htZ2Z3ZHNyVC04ZFVsNTh2alM2Z0dJV1lQV2t6NGVXaDNkUDU4cm05ZE9aNzBYaVlBTTJ1SXJ2d0REbTBubWZxMkFISUpHRFlLWWVVLWlTMzM2emVDalI1LXN5c1VZNGZxTGM0Y3hkZVBBUC1qWjI5RnYxMkNHZmFXVlZzT0gyMVplUXhMTVpiM0QtN3RLR2YxODVfeFBlVDZCQzNrZVZiTFpyRXRIRFZzSkZEeHg0SThVQjRwR1V0TDhkOHFWSF9EUWFNcUI5NE8wYi01QVlralphSnUtd3VwY1VFVjJHTnNyWHZhZw?oc=5
+- [breitbart.com] Ex-FBI director Comey appears in court over Trump threat charge - breitbart.com (2026-04-29) - https://news.google.com/rss/articles/CBMioAFBVV95cUxQeUhmOTV5SjE0SVpyMHdwQm41dmhPS2NBcGRscFZUQ3RxUVFvc2VYYzQzUjE3ZHhfeEF4X0o0THlTcDhKQUZkbDFweEdTMlc4WHNLUldpTDNDLUw4eDM3Sy1lbU1aYjVXOERpVHpEdlA1WlgwS1dzdVhQU19WYXZYSjBFWmJjUjl2MExhQzhvckZtRjZidWFvbHRoMXJzeHE00gGgAUFVX3lxTFB5SGY5NXlKMTRJWnIwd3BCbjV2aE9LY0FwZGxwVlRDdHFRUW9zZVhjNDNSMTdkeF94QXhfSjRMeVNwOEpBRmRsMXB4R1MyVzhYc0tSV2lMM0MtTDh4MzdLLWVtTVpiNVc4RGlUekR2UDVaWDBLV3N1WFBTX1ZhdlhKMEVaYmNSOXYwTGFDOG9yRm1GNmJ1YW9sdGgxcnN4cTQ?oc=5
 
 ### Election Administration Capture
-- [Nextgov/FCW] Federal drawdown of election support ‘destroyed’ ongoing relationships, experts say - Nextgov/FCW (2026-04-28) - https://news.google.com/rss/articles/CBMiywFBVV95cUxPQWZKMXBLZVQwdFdDR2ZQSjNsUU1mYWlPemx1Y01Ca3AyMVA0Z3ZJaWRwZU5JM2NDckhDZkdVaDVPY05LUlVuZXA4aDhkSTQwUlViNlhUUnNTamRmLTNzQ0FadGJsYlB3eG50ajl4UWtfT196QVNkQlBhS0Z3YWtJN0dTY1pJVUxhejdocDVoVmZCRG1VOWI5SjFVX2dLaEJNNHVHSm9DY2pBdlB4VUZUVUxoZ0VnQjFQRlFXZkxESEh6bWphQ3Z1M1RJRQ?oc=5
-- [AOL.com] NC Board of Elections finds 34,000 dead people on voter rolls - AOL.com (2026-04-29) - https://news.google.com/rss/articles/CBMidkFVX3lxTE1hOC1OSEpPNWxRanZEMngzZXNFODJsYWtzMFJ1bHk2T0lMTVRPdkdvbHBWS0V4NHNoTkVlQ2NtNFEtdVFhaWl2TVFqUUk2eTV1MXFiejNYcE5lMWl6dFdhN2hCaUxJOUd3S3p3SlRXTXpHSUJYR0E?oc=5
-- [WBTV] 34,000 dead people found on voter rolls in North Carolina, state says - WBTV (2026-04-28) - https://news.google.com/rss/articles/CBMimgFBVV95cUxOUno1aHhyNUpHOUFEUzZWVnBvbTJubnZVT0RmYWlySU1PTHV6aDVOMGhIb3B2MmIwaGIyVEwtY2dwU3ZYVXhUVk54SGJwWmE0NUxRank5WVI4Y2MzS0Z2RzdJdTR4NHZpRGx4V2dtSkdVVkRWNTBHVjRyQ2NSVXRsa3ZLbVd5Y2ctbFpVOWMzSERiMEEtVXpGVlp3?oc=5
+- [Fox News] 34,000 dead people found on voter rolls prompts expert to slam Dems for resisting 'commonsense' cleanup - Fox News (2026-04-30) - https://news.google.com/rss/articles/CBMixgFBVV95cUxOeFdFRUpGcUxzVHN6eWdQenBYUGYtaDZlRFpLSHVmbVRObTBDcnRPREtXS0Z0NXRRTHdPUk4tenVHYlVWUXZ2dVBmdDF1Mk1GNXpUd1RJQUxKeHhDNzlPSDh6Wkx0STktWFo3NjdiUFVORDJOQlRDcFZzQTM5WmZTM2NTckhxd1IyaHg4V1pFbWw2c0lEV3hBTGlkT1d6T1hBdnc2MUw2WkFGeVQ2REhybDlSWDNlVTVzRTRzTkQxZUlDaUFTenfSAcYBQVVfeXFMTnhXRUVKRnFMc1RzenlnUHpwWFBmLWg2ZURaS0h1Zm1UTm0wQ3J0T0RLV0tGdDV0UUx3T1JOLXp1R2JVVlF2dnVQZnQxdTJNRjV6VHdUSUFMSnh4Qzc5T0g4elpMdEk5LVhaNzY3YlBVTkQyTkJUQ3BWc0EzOVpmUzNjU3JIcXdSMmh4OFdaRW1sNnNJRFd4QUxpZE9Xek9YQXZ3NjFMNlpBRnlUNkRIcmw5UlgzZVU1c0U0c05EMWVJQ2lBU3p3?oc=5
+- [AOL.com] Opponents focus on possible override vote of concealed carry bill SB50 - AOL.com (2026-04-30) - https://news.google.com/rss/articles/CBMihAFBVV95cUxOdHNPSWFaMWdWcFlrVXpXdDEtN3hmU2pCRmJBVm5JYkxJMElPV3FsaE4zVHJIYk1LMkRqTWlMZ2RZaDBQdFpUMUdyQkRRTng5ZHBHZFE4T1o1MlBPaF82dGdiSklOS2F3Q2pNMDl0Q2FLV0FxQnh5ZU1kby03NlBSYkJHZ24?oc=5
 
 ### Legislative Bypass by Executive
+- [SCOTUSblog] After major voting rights ruling, parties dispute whether the Supreme Court should finalize decision immediately to allow changes to Louisiana’s congressional map - SCOTUSblog (2026-05-01) - https://news.google.com/rss/articles/CBMizAFBVV95cUxNampfbXNTRFlTY2NxR3BNd0lsOE5YejJrS09pSGFXVEdQbG5aRGVHcW1kV0pXZ1hseHlfOGhaQ3RkRk9vdWhVd0g5dTdkeG1tdVBIMXhqV3h4SUI4SzRqNWZWWEFfNF9jZmVfcG9CbERFOTFfSjR6Z3hRVEEzYmxTck9rbkQ4THQ4N19tc1RSb25rbVdVZTN6M0UxNV9iQl84QzJydnp1RGpjNzJ1aUszSUpTV2tCR095QTBxdnIzc0VyeWFrRml1NGVoRHg?oc=5
+- [The Washington Post] How much should politics influence science and vice versa? - The Washington Post (2026-04-30) - https://news.google.com/rss/articles/CBMinwJBVV95cUxPSFpwZ2UtZFlTYjZvTWh0Y2N3bVF5aFhLWkc4dDF2ejRxQUZ0U19iUDRiS0UwR3dRUmljbWh3MEU0bjdnUW5rNHRYM1BiYzFnOHk1Z1dicjR1YVdwTFVCVE1zMk5mVHk4Z2Z0M2VVcXVwcGVmbDgwZEwwX0x0OWJ4alVRbE85WV8xLUpfdzBySUFHc25QS1Axa2VENFl6aWplQy0welh5cDczMGF6UUttR1NqUVU1MEZRR2tOZjh6WmhrUkViVFVWSGRlcHJSd3paaXM1a1QyMV96Wk01OE5oaldHTEQwSE1VY3E5dEZ6U3l4VnRJbkdWWVBBMTdheEJ4dWNWOHk3bjJMYi1OZkFjbjdhVWRmY3hYaE9Oakxpdw?oc=5
 - [Jurist.org] The President’s War: How Congress Lost Its Most Important Power - Jurist.org (2026-04-30) - https://news.google.com/rss/articles/CBMipwFBVV95cUxQU2tSbkJiTW4yb085amw5MmNBOHRrUnk2UDZDV2VQcGdQTDNLUjBVQTlRM256NDlkbm9kUDdPcU8zSXJxVF82bFVpN1I0YmtJS0RUM09JSkl5cVJzX1hBaG4xaE1KYWlXWU5EU2xjaGhfTk9jY2xOUnQteExadHUyM2tDLWhJYjZWSFZFYl9zNkZjb3hRN1hEQ3I5VUd5bUhfci1UQmRwRQ?oc=5
-- [democracyproject.org] Revising Congressional Rules in the Quest for Bipartisan Election Law Reform - democracyproject.org (2026-04-29) - https://news.google.com/rss/articles/CBMisAFBVV95cUxNc0stZUdadmtYN0VwRm1TZHB6MGE1c0RfRlk1Z3BqbWdSU0ROTXBzRVFaYWpvQTBURDkyY1kyUWhWSGF6eG9fNl95c2htWS1hNThYbkxLWkpVb3dlSDkzUlhRVThCWnNJbGlUSGg5cjVFNFdQa2hieXJ3VWJjMzFqS0ZsdVd6RDFmbWFBX1BuRHR1cV8zWms2Zk9pNFllWGY0RWpXT3M4MHRPSGk3c2xxSg?oc=5
-- [Brennan Center for Justice] Six Solutions to Fix the Supreme Court - Brennan Center for Justice (2026-04-28) - https://news.google.com/rss/articles/CBMikAFBVV95cUxNMl84S0hnUWtLSFhlNjZtdUlmRFl0UUl3WmlZOUxGNWdKWG45clN2NlpTMTFWaEtpM3o2X2Z3VTNTUjdoZW1kbWtDNjFLaWR3cnFWblFrd0NQSDdxZkxCSnFoZHJsNl9DQm9YRk5FN1lCeEF5R1dIRHJXTnpOZUpFM0Zwdl9ZeHBnQnAxWkRUUzI?oc=5
 
-### Press Restrictions or Retaliation
-- [inkl] Palestine freer for journalists than India: It’s the Press Freedom Index again - inkl (2026-04-30) - https://news.google.com/rss/articles/CBMirwFBVV95cUxQY3paM2tkb1d1Ql9ZbE1TZlgxbEhSSHYwYlY5ZFhlLTRJOUlreVdZcVBtbUIwbGM1Rm90b1l6THpYQmZkaDFtUTN3Z1hoRlU5NUJZSDBGNnZSbHBINFZ6aDJzckxCSE9hVXpFWXVyNjhkR1BXUEN5cm9yTWdEaGFONmxFdkVJQktKSjh2OXU4RWRWeUJmQUNBam5sWFZsRFNJQnphVXVkSjFTMjEwTnVJ?oc=5
-- [MSN] Kuwaiti court acquits detained US Kuwaiti journalist of all charges, lawyers say - MSN (2026-04-28) - https://news.google.com/rss/articles/CBMi_AJBVV95cUxPZ1JSbkZOMkl1MHI1NVlJVk9xQ1VWamliWXlyV1pWbmgycEVhcjBtUTdYT2twelBUMUUwUl9oeTVRWkpCQXBOVk1NRGFEUkgtMUo3eGNIY0FoejJTMjVhSS1HcWxMWUhvV1N4TG5QeUdGbV9MRkgzRUlGQTcwUUZzYnRPM3VFb1ROWlVmYnFIdHp5cEt1d29YTjRXSlNUelp3NDlXNmwwdS1wTlZrYnRVYnpja3BJcW9MWjNEZjY2Q3hMc2piVC1wbTdPQ25GUVFyZk4yTy1lckJYcm5ISTFfSFJEQW1XTkpjQ2FwYXRqTEhZZDdvNFcyRmZDdm9TbXpYeU9uYkx4MDFKZmlTWnVEb2RzcmhCd0JLUDV3SkZNRWk2OXZpMDlaYTI3MVVlRGk0cVpsMnE4clFSNjcyMXdVOERFNzJVSnRNWFNwbElHRlNvV0h6YjJQQkk3Z245MkhmYWpBTlFwVWVsS2g0bDEwSXhhWXBVa29mRWRDcA?oc=5
-- [The Eastleigh Voice] Arrests, detention, threats and violence: Media freedom violations in 2025 - The Eastleigh Voice (2026-04-28) - https://news.google.com/rss/articles/CBMivAFBVV95cUxNWmJHUTh0eXpaaFJieVdFTlRCTGJlMGh2YWRvQ2VyM2dBcGlJc0c2WThNU1BfS3M3SjBuZXZkNFJfSkdLbXlUY1MwUDJPRGNOUV8weFdnLWdxcG13dUdFZGczOUpIeUJTbXVxUTlvSTJaV2dDLVNwR1lNbUdfM0s1US1zZEowUnpqUkFJTXNtMThnWWRnWFpSaUpqbklUemFfcnA1X0FITTdzU1FielRHN1lqdGxOU0hLSmpFRNIBxAFBVV95cUxQOXBWdXhGcjNuYWhqRm1lUEVuZWdwWWtJWkhVVVlSZjR2VmRnR3ctQ3plLWV1N0YtdlIwNlFEbzZ1VzR3NmpDb1pLT3JDVzl3QTBLUV8xYzJ2dVppY29VU05hN2ZGOXdjY3Jla2ZTQmlFSkRRMjZVMUFadDQwZ0dGSVZKbWdUTllXTGhDTjh5Ym03RjhyQi1wVTNKazh6aElhMFhoMXNRY0tDWlczbXlMMHlPN3RkejJ0VWhZRVhUazhhV0VY?oc=5
-
-### Legislative Oversight Obstruction
-- [MSN] DOJ blocks Bondi testimony, Congress weighs contempt action - MSN (2026-04-28) - https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa2hYd0pySG1TS3ZtUGlIcXNIaEh6cDQ1Rmx2YVk3TlV0MG8waktrUEhGWTZHUmY1c2F6Wl94OWt6V3FNX0lxSWUzVEZBbWZGVnk0NEZJemlodFIzRkJVWDFSYnF1TVk2a3NVSnVTWEVBcFdHUG9ZU25Qd2pFVEg5TG9sSGxLY0FvMmhrOVhEQlp2LTJTUnNFd3VMVC1BZGlpZ2pqRDBGU1diQnRuZ084c2lvN3RWMTlRRXB5bVFkMDRQdUV0a0JGbDJTOWhfcHVFb2tZQUN5RUoxMXZyM0ZWTHpn?oc=5
-- [Daily Kos] Democrats put Pam Bondi’s feet to the fire over Epstein files - Daily Kos (2026-04-29) - https://news.google.com/rss/articles/CBMisgFBVV95cUxNaWxVZFdJaVZvV3dyOU5IMV9rVmlrRi1CSUhKYm1GMXpaU1ctY2xOdVlzSUdLM1V1cFBoUUR2ZkFLVTdCbG83dzAzYWMtRjMyRXFiOEZ4OE5BN3RQOXUxY0xyejVla0hySkFxb0g1c0FWSWs1NXVkamNnTW1vVnVRUGNvTW1WeEY1MnVvS2x0dlptTm53SmNFemxNVGNqeUs5cTlERVZCaVRPNGljOWlfRnBR?oc=5
-- [International Business Times UK] GOP Scrambles to Schedule Pam Bondi's Testimony Minutes After Democrats Move to Hold Her in Contempt Over Epstein Files - International Business Times UK (2026-04-30) - https://news.google.com/rss/articles/CBMikAFBVV95cUxQSy1BQml5dlhxRnhmWW82VGFpRG1OVFhHQ0U2UExFQXlOWF9vemhpRnduUjRlMDFmWDg3V3JXaUk2MHQ1WlpYU3llV0xIbnBmNWVRWC0welpKbDM2WmVBeERweEg1dG5fUEVmMVB5STlCUjFmZFlSRU1Rb1owWUFnN1lWdHJUdDRZNVVmUXZjNmQ?oc=5
+### Opposition Ballot Exclusion
+- [AOL.com] 7 Platte County candidates could be pulled off ballot due to ‘misleading’ error - AOL.com (2026-05-01) - https://news.google.com/rss/articles/CBMifEFVX3lxTFB6cjNIVnlmRjBPMHFWRnY1MW5NVjJ5TDVhSHdiUFJnZTM0UUZPbW0xUXR3akNqSGpCQVF0am9yZUlTb2h0eXhwQXlySUFEMVVDXzk3Mnk4eDZ6anNvWEEyWVdLNlJPd1VYaFd2bVZBM250OEE5WXdBRzUzaWg?oc=5
+- [FrontPageAfrica] LFA Election Upended: Cassell Kuoh Disqualified, Mustapha Raji Set to Run Unopposed for Second Term - FrontPageAfrica (2026-04-30) - https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQ1BQME85SDBOZ1dZc0wxV181SU9DbFNrbnRYMVRDeHVVTjhuTGJlZDFVdDlGeFRpazFIcGdtVEJIbV8wdlRpYmw0QkV3ZUNWLVBfaFdvdnd2VHNfTkN6cjdzZkdCeHh0bHB0N29nTDNETUh1RjJGX09OR3RvTS1Tb3dQUHVvejNXdDZuLS1tTkJUdjNCRy11YUlzcU1aQ21fTHdMdWU2TmJ5MVphYUtWcXItaVctc2VZdm5NS1djaHZEbExzVVh4dDBnTWlaREVPSXlna0p2SUlkUWN4dU5J?oc=5
 
 ## Data Quality
 
