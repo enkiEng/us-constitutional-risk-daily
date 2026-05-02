@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.99,
+  "average_7d": 13.4,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -10,48 +10,48 @@
   "confidence": "High",
   "data_available": true,
   "delta_previous_day": 2.0,
-  "delta_vs_7d": 5.53,
+  "delta_vs_7d": 6.84,
   "domain_breakdown": [
     {
-      "avg_severity": 0.575,
+      "avg_severity": 1.25,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.1624999999999996,
+      "points": 6.875,
       "weight": 22
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.8833333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.4375,
+      "points": 3.3125,
       "weight": 15
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 0.7666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 3.091666666666667,
+      "points": 2.683333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.8833333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 2.870833333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.21666666666666667,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.8333333333333333,
+      "points": 0.5416666666666667,
       "weight": 10
     },
     {
-      "avg_severity": 1.5,
+      "avg_severity": 1.325,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.75,
+      "points": 3.3125,
       "weight": 10
     },
     {
@@ -62,27 +62,65 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.5,
+      "avg_severity": 0.325,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 1.0,
+      "points": 0.65,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-01T12:40:36.701404+00:00",
-  "previous_score": 16,
+  "generated_at": "2026-05-02T12:37:00.146975+00:00",
+  "previous_score": 18,
   "provisional": false,
-  "score": 18,
-  "score_raw": 17.52,
+  "score": 20,
+  "score_raw": 20.25,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPelV1QWFWMjBXU0lQNWQyWnVwYjF1dmJZR0hUZmtmVFVxRkI5S2lSc1BJcW1kZ2ZLT0dYYVVjbGRheXdnTXBlN2pvOVVEUzNrcU85VGxfUXhFWlBaU3ZnRWdlZGxBNkdXVzU0UzZmRUt4TWpLaUh0amh4TXBoNFF0T2tYRkwzc3c?oc=5",
+          "published": "2026-05-01T21:12:55+00:00",
+          "publisher": "AOL.com",
+          "title": "Trump-appointed federal judge tosses DOJ lawsuit seeking Arizona voter data - AOL.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSXo5ZUJ2cU1tXzhiN0h2TEJRNlhFd2VCdTNJWDFKV0J0bjhLRU1TUDR6VmxBZmpSekpCc2JKX0xHRTNsd0NUUzJTazB4ekI1SEx3dVR6Qk9BM1NiTjVsMkJjUDdIMVhqRGE3WDNuSGIxWkxrTnJVNV80TllJZW5tMFdaaldDcW5PUmk5M2RPS0dURUVIZEpkeGlfNXlUeXBJQ2h3?oc=5",
+          "published": "2026-05-01T19:00:00+00:00",
+          "publisher": "The News Pakistan",
+          "title": "8 things to know about Trump\u2019s effort to \u2018take over\u2019 midterm polls - The News Pakistan"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeFdFRUpGcUxzVHN6eWdQenBYUGYtaDZlRFpLSHVmbVRObTBDcnRPREtXS0Z0NXRRTHdPUk4tenVHYlVWUXZ2dVBmdDF1Mk1GNXpUd1RJQUxKeHhDNzlPSDh6Wkx0STktWFo3NjdiUFVORDJOQlRDcFZzQTM5WmZTM2NTckhxd1IyaHg4V1pFbWw2c0lEV3hBTGlkT1d6T1hBdnc2MUw2WkFGeVQ2REhybDlSWDNlVTVzRTRzTkQxZUlDaUFTenfSAcYBQVVfeXFMTnhXRUVKRnFMc1RzenlnUHpwWFBmLWg2ZURaS0h1Zm1UTm0wQ3J0T0RLV0tGdDV0UUx3T1JOLXp1R2JVVlF2dnVQZnQxdTJNRjV6VHdUSUFMSnh4Qzc5T0g4elpMdEk5LVhaNzY3YlBVTkQyTkJUQ3BWc0EzOVpmUzNjU3JIcXdSMmh4OFdaRW1sNnNJRFd4QUxpZE9Xek9YQXZ3NjFMNlpBRnlUNkRIcmw5UlgzZVU1c0U0c05EMWVJQ2lBU3p3?oc=5",
+          "published": "2026-04-30T15:52:04+00:00",
+          "publisher": "Fox News",
+          "title": "34,000 dead people found on voter rolls prompts expert to slam Dems for resisting 'commonsense' cleanup - Fox News"
+        }
+      ],
+      "hits": 4,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 4
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTU55eV9RNzBKRVZSUEEzRnEtZTFCUFlXX1FFMG9NYzdFSFNXZmQ5VE1OSlVoVnIxeU0zeGpGX0xfWWVDMlBvSFlpR1VDamJYVkFKcTA2aGdrMTdRMmZPUXluV250aXJzdGNUVFJ4ZVd5U2M4dEFoMnpaaUp6MV9rRGZKRmtVdlFwbDJrSEZsX1Z0UDNZT2M1U1VFeDE?oc=5",
+          "published": "2026-05-01T17:11:00+00:00",
+          "publisher": "Freedom of the Press Foundation",
+          "title": "This World Press Freedom Day, American journalists are under attack - Freedom of the Press Foundation"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb0JRUmRrbTlxbElVSWFuWXdPYWhYcENsNDZaeVFmWk1KQ1hxLXhNbXEybW8zSGtUVlBzYzhCOXg1WHFwM2wxSk40MHNMMjQyU1dfWEUtQmx5aDZIci1rTU16eGtRdm9HbEN0eEFQRXBMMHJFbkpoYUgwekNIdzJEcDRReFpEY1NHeUhXd1FB?oc=5",
           "published": "2026-05-01T10:00:00+00:00",
@@ -94,12 +132,6 @@
           "published": "2026-05-01T08:29:53+00:00",
           "publisher": "Institute for War & Peace Reporting - IWPR",
           "title": "Iran\u2019s Digital Darkness - Institute for War & Peace Reporting - IWPR"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFAxVVp2Y3NNZ2hlZzlkSG5ESEhzT1BYQ0d5ejRCdlczcmJzNFB4T2Y1dDZYekNoNm51REE?oc=5",
-          "published": "2026-05-01T06:47:05+00:00",
-          "publisher": "Amu TV",
-          "title": "Bennett urges Taliban to release detained journalists ahead of press freedom day - Amu TV"
         }
       ],
       "hits": 4,
@@ -113,6 +145,38 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRDd0N0FlSU5HVlI2RWdSY2ZPRFp0SFZ1b2V2cU1ObkVWSUZFU0Nra2ZxcXhCNXRpZW5lb2M3YUpsTGhEV2VWaE1oV1N6U3RibDZDeFotbndPc3lFdFJFU1Nqc2dhNHppNmpEOFlLOU9TYWJFaUdZYWIxWTdLMmdKTTBhQjFwUnktM3lWNEtraHoyVl9HQ0p1aERQYk1PRXBxRXJqd0RyUlhnYTY3WlBvVkR6TGRJTmp2ZVFXRmQtcVNMck85WnFXQkxzTFliZUxDYTdPanAwV01FVTM0MGNteXZjVUw?oc=5",
+          "published": "2026-05-02T03:28:52+00:00",
+          "publisher": "MSN",
+          "title": "Louisiana court backs governor\u2019s halt to U.S. House primaries - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbDgyTDlUOFdqRDV4amhGbmM4Y3FSRy1XLWsxVFlxOF9RUHdqVEZJOWJJbGY1ZU1zRmlhNWhEMlhoMVpJSktOSF9ZaDRKLUxBdTJNNlh6cmJ5Unk0d0FpdXJzbE1hcEhHU1Y0d0ZEc3E1Rl9udlExMi1wMFJGRUlsNWVXVVRXalo5VXU4aDV4M3hRS2NPbHVUSThUa2pGSnotbXg1eA?oc=5",
+          "published": "2026-05-01T01:12:00+00:00",
+          "publisher": "AP News",
+          "title": "Louisiana congressional primaries are suspended as a result of the Supreme Court\u2019s ruling - AP News"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcjlyaHJEVVpkdG5jX2tpNUNqTVJKbENDZkM2TGNldE82aUpqa0wtWnBidGFlV3gyREpVVlpQNVFXY2dYQ0Uzb0h1c3F4c2xOWEtOYW1kVzJuLU1iSVgtY3lONTk3dnFHcDFXY0x4Qm40bU85ZUxsVXF3S1N3QW1FSE4yWkl5VURVejNJejN1TDcwek5XalNxOHNpcw?oc=5",
+          "published": "2026-05-01T17:41:27+00:00",
+          "publisher": "inkl",
+          "title": "Voter groups challenge order to postpone House primaries in Louisiana - inkl"
+        }
+      ],
+      "hits": 3,
+      "id": "election_delay_or_cancellation",
+      "name": "Election Delay or Cancellation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
@@ -120,54 +184,16 @@
           "published": "2026-04-30T15:48:40+00:00",
           "publisher": "\uc870\uc120\uc77c\ubcf4",
           "title": "Trump Accelerates Retaliatory Probes Against Political Foes - \uc870\uc120\uc77c\ubcf4"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMDhhQVJLSmlwc2Q1d19BZ0VHald6Q3dORjBNTHU5TWx6eENJZExENi1WMHdZQl9BOVMtb3RqbnJFZkZ0YnUwLXZ6dW8wTHJMQWVBcHlQdUoyaUxobEdPVWl0NDZmOU41eDZlX1NyeXVEVjJHMWdHU0JpN2E1cXJCWnFhdWVvajdkZEdGTC1UNTZvelJxNU9helhEcUfSAaIBQVVfeXFMT1NUUFlnTFU3RDkzNWdHNm9KY09UWU5BNGViWnhIelNBWTdRUlpMcDktQ2FVdFRsU2s2QWVkWExNU1hpazVZRGI4MEdnWW1QT2JpYnNia2FOQnhOeUpxVGRoLXU1cTZLR3ZNcE50ZWdwRll1SmlOQkRpLWtRWE51UUowZnZRMXlucnBYZ1hCZGdsN0lQVWo4SS1tWnBxQ3BNb0J3?oc=5",
-          "published": "2026-04-30T03:54:04+00:00",
-          "publisher": "Al Jazeera",
-          "title": "Why \u20188647\u2019 landed ex-FBI chief Comey in Trump\u2019s crosshairs - Al Jazeera"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeUhmOTV5SjE0SVpyMHdwQm41dmhPS2NBcGRscFZUQ3RxUVFvc2VYYzQzUjE3ZHhfeEF4X0o0THlTcDhKQUZkbDFweEdTMlc4WHNLUldpTDNDLUw4eDM3Sy1lbU1aYjVXOERpVHpEdlA1WlgwS1dzdVhQU19WYXZYSjBFWmJjUjl2MExhQzhvckZtRjZidWFvbHRoMXJzeHE00gGgAUFVX3lxTFB5SGY5NXlKMTRJWnIwd3BCbjV2aE9LY0FwZGxwVlRDdHFRUW9zZVhjNDNSMTdkeF94QXhfSjRMeVNwOEpBRmRsMXB4R1MyVzhYc0tSV2lMM0MtTDh4MzdLLWVtTVpiNVc4RGlUekR2UDVaWDBLV3N1WFBTX1ZhdlhKMEVaYmNSOXYwTGFDOG9yRm1GNmJ1YW9sdGgxcnN4cTQ?oc=5",
-          "published": "2026-04-29T22:18:17+00:00",
-          "publisher": "breitbart.com",
-          "title": "Ex-FBI director Comey appears in court over Trump threat charge - breitbart.com"
         }
       ],
-      "hits": 3,
+      "hits": 1,
       "id": "politicized_prosecution_opposition",
       "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOeFdFRUpGcUxzVHN6eWdQenBYUGYtaDZlRFpLSHVmbVRObTBDcnRPREtXS0Z0NXRRTHdPUk4tenVHYlVWUXZ2dVBmdDF1Mk1GNXpUd1RJQUxKeHhDNzlPSDh6Wkx0STktWFo3NjdiUFVORDJOQlRDcFZzQTM5WmZTM2NTckhxd1IyaHg4V1pFbWw2c0lEV3hBTGlkT1d6T1hBdnc2MUw2WkFGeVQ2REhybDlSWDNlVTVzRTRzTkQxZUlDaUFTenfSAcYBQVVfeXFMTnhXRUVKRnFMc1RzenlnUHpwWFBmLWg2ZURaS0h1Zm1UTm0wQ3J0T0RLV0tGdDV0UUx3T1JOLXp1R2JVVlF2dnVQZnQxdTJNRjV6VHdUSUFMSnh4Qzc5T0g4elpMdEk5LVhaNzY3YlBVTkQyTkJUQ3BWc0EzOVpmUzNjU3JIcXdSMmh4OFdaRW1sNnNJRFd4QUxpZE9Xek9YQXZ3NjFMNlpBRnlUNkRIcmw5UlgzZVU1c0U0c05EMWVJQ2lBU3p3?oc=5",
-          "published": "2026-04-30T15:52:04+00:00",
-          "publisher": "Fox News",
-          "title": "34,000 dead people found on voter rolls prompts expert to slam Dems for resisting 'commonsense' cleanup - Fox News"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdHNPSWFaMWdWcFlrVXpXdDEtN3hmU2pCRmJBVm5JYkxJMElPV3FsaE4zVHJIYk1LMkRqTWlMZ2RZaDBQdFpUMUdyQkRRTng5ZHBHZFE4T1o1MlBPaF82dGdiSklOS2F3Q2pNMDl0Q2FLV0FxQnh5ZU1kby03NlBSYkJHZ24?oc=5",
-          "published": "2026-04-30T18:27:57+00:00",
-          "publisher": "AOL.com",
-          "title": "Opponents focus on possible override vote of concealed carry bill SB50 - AOL.com"
-        }
-      ],
-      "hits": 2,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -180,37 +206,51 @@
           "title": "After major voting rights ruling, parties dispute whether the Supreme Court should finalize decision immediately to allow changes to Louisiana\u2019s congressional map - SCOTUSblog"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPSFpwZ2UtZFlTYjZvTWh0Y2N3bVF5aFhLWkc4dDF2ejRxQUZ0U19iUDRiS0UwR3dRUmljbWh3MEU0bjdnUW5rNHRYM1BiYzFnOHk1Z1dicjR1YVdwTFVCVE1zMk5mVHk4Z2Z0M2VVcXVwcGVmbDgwZEwwX0x0OWJ4alVRbE85WV8xLUpfdzBySUFHc25QS1Axa2VENFl6aWplQy0welh5cDczMGF6UUttR1NqUVU1MEZRR2tOZjh6WmhrUkViVFVWSGRlcHJSd3paaXM1a1QyMV96Wk01OE5oaldHTEQwSE1VY3E5dEZ6U3l4VnRJbkdWWVBBMTdheEJ4dWNWOHk3bjJMYi1OZkFjbjdhVWRmY3hYaE9Oakxpdw?oc=5",
-          "published": "2026-04-30T17:56:52+00:00",
-          "publisher": "The Washington Post",
-          "title": "How much should politics influence science and vice versa? - The Washington Post"
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVWw2QU13QjBMODFrWk5aMlJyNkJCUG1LN2hmUS1tMFZ5OEg0a3hwUGFOZUJwZ1M3RDkxWjJmaWFhY1Z5ODlMZzZsdGYyeUl3c09xLURIdjJwY2EtektRd3dObWIwVDktTTJtYUJyZkxrNXV6cUFDWUtSMHhXaDF0TWNZVU0yb1B5ZVhsY1hrRXNWbjdfcjJKU2E1ZjJEMXNULTBlclQ1dWxybDl4M0k3QQ?oc=5",
+          "published": "2026-05-01T20:57:06+00:00",
+          "publisher": "Reason Magazine",
+          "title": "The Major Questions Doctrine Constrains Presidential Power Over Elections - Reason Magazine"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU2tSbkJiTW4yb085amw5MmNBOHRrUnk2UDZDV2VQcGdQTDNLUjBVQTlRM256NDlkbm9kUDdPcU8zSXJxVF82bFVpN1I0YmtJS0RUM09JSkl5cVJzX1hBaG4xaE1KYWlXWU5EU2xjaGhfTk9jY2xOUnQteExadHUyM2tDLWhJYjZWSFZFYl9zNkZjb3hRN1hEQ3I5VUd5bUhfci1UQmRwRQ?oc=5",
-          "published": "2026-04-30T08:08:21+00:00",
-          "publisher": "Jurist.org",
-          "title": "The President\u2019s War: How Congress Lost Its Most Important Power - Jurist.org"
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOelRjZE5LSm5NV19XYjIwdU9JVlJiLWMtMjJDcG5IRUFaNFcwR09FR081RVh3R3FTZG1mTDgxVHBJbzdNamRFUFZwMk9kOVlsOFJmTGFFbFRNdTNDS2RzR1psOFVNdEw5NmNfTEJlZnBMdy1nVHlIRHdleTdyeFRQR3p0cGhIcjdualE0WW5zUW01ejJrREZhbkpVQkZSc3NadFk5bFl6WUN4aWx0SmhzTVZaZU4xVUxvRHJsMnQ5ZjRxNHI3QURVb0pQcFhoemxfa1FHakVmTVl6cHB5TG5Ka2xodlQ5bjNZamsyQ2VVSFl5d3JwbUoxbjh4WVg0VkY0X0E?oc=5",
+          "published": "2026-05-01T00:56:08+00:00",
+          "publisher": "The Washington Post",
+          "title": "How much should politics influence science and vice versa? - The Washington Post"
         }
       ],
-      "hits": 4,
+      "hits": 3,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 4
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd210WDlqOFVzSDU5Z3U4SWgwSjZ3VjNWOUNkRmRSN2JJTHhYQVlTeWJrVFdsQzZLdnBYWnk4dXk0Q2Qzd3l4UmpIR0N5Q3Y0NndKVGNGR1hqalBoS1kxSjByQ3FiUk9nR25Ddk9UbU9lRUpEdzk5QVlKajNfTjdBYXlOb0g2WC1mUWpZQUpXd3M2SDV6WWRScHBQaXFZbEJhVEN5bDNYbThRdU90ZF9J?oc=5",
+          "published": "2026-05-01T21:38:58+00:00",
+          "publisher": "California Globe",
+          "title": "Arizona Appeals Court Forces AG Mayes to Justify Withholding Election Records - California Globe"
+        }
+      ],
+      "hits": 1,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB6cjNIVnlmRjBPMHFWRnY1MW5NVjJ5TDVhSHdiUFJnZTM0UUZPbW0xUXR3akNqSGpCQVF0am9yZUlTb2h0eXhwQXlySUFEMVVDXzk3Mnk4eDZ6anNvWEEyWVdLNlJPd1VYaFd2bVZBM250OEE5WXdBRzUzaWg?oc=5",
-          "published": "2026-05-01T03:25:44+00:00",
-          "publisher": "AOL.com",
-          "title": "7 Platte County candidates could be pulled off ballot due to \u2018misleading\u2019 error - AOL.com"
-        },
         {
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQ1BQME85SDBOZ1dZc0wxV181SU9DbFNrbnRYMVRDeHVVTjhuTGJlZDFVdDlGeFRpazFIcGdtVEJIbV8wdlRpYmw0QkV3ZUNWLVBfaFdvdnd2VHNfTkN6cjdzZkdCeHh0bHB0N29nTDNETUh1RjJGX09OR3RvTS1Tb3dQUHVvejNXdDZuLS1tTkJUdjNCRy11YUlzcU1aQ21fTHdMdWU2TmJ5MVphYUtWcXItaVctc2VZdm5NS1djaHZEbExzVVh4dDBnTWlaREVPSXlna0p2SUlkUWN4dU5J?oc=5",
           "published": "2026-04-30T21:28:56+00:00",
@@ -218,55 +258,9 @@
           "title": "LFA Election Upended: Cassell Kuoh Disqualified, Mustapha Raji Set to Run Unopposed for Second Term - FrontPageAfrica"
         }
       ],
-      "hits": 2,
+      "hits": 1,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOGRGX0h0YlRWYTNHUFdUbzBFWXJNWDlPU0hab2ZVb2UxbXRyVW56bGxpSU5GVEZjdVdmcWc2cGVTZjkzTnd1elJJSzZEUE1YTEJFVWtBYlc0WUcwTThremFkaS15cXpPT3pZb0NmMkVFMXMycjU3VWpMYlZwdjJHeUtXRURGei03dF9uV3VYSFVHb01KLW84ZTBWM3ljdkY3X1pCeEFjazRuSTVzVGdyOU5BYjNhRVBRc21TbTd2MFhrTE1ubXhMSlZGaXd3NF8wdlN0Q2c4LVZKbi05d0tJYg?oc=5",
-          "published": "2026-04-29T16:53:29+00:00",
-          "publisher": "Washington Spectator",
-          "title": "Emergency Planning: The President Is Preparing to Challenge 2026 Midterms. The Country Can Still Act to Protect Them. - Washington Spectator"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZWYtUkkzUzRnbEo5SlpWQUUyeXlaWW85ZUYwM1hZMGt4dW4xdDhadHhpYnJoemxXMFUxZFlha1ZCemVCdFZGbTNTS29mR3pCQ2UyOWx0bU1kQ0JldW5QQlhvMi1nRU5BYVM0SXVMcDNJMG10LU1wNVBZRnZEYmo2QURXS0NqR1V3YU9zdVJvcmd2UzN6dnpZYTVCeXBYWWdGN2h3eW5iZFIwQQ?oc=5",
-          "published": "2026-04-29T12:49:56+00:00",
-          "publisher": "RealClearWorld",
-          "title": "The Limits of Javier Milei\u2019s Libertarianism - RealClearWorld"
-        }
-      ],
-      "hits": 2,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV1hpaHVXT3FiSzlueVAtZlp5aUZJbXVPWVphV3FJWVlXYVNtMFgwZGhlSzVKRVJQRzFFNnA4S05KMW84cW02ZjdLTUtlYU5lR1hhNG4tSmdseUZLbGJJenJ1Um9pdGtzbVh1VUVSX29tdkpPdlZ4RDVPLTMyZlluSkJWdlJvNnZ0amk4a054T2hic0J3RER4bkU5azJVeThpM1NtZzBfZko?oc=5",
-          "published": "2026-04-30T22:46:36+00:00",
-          "publisher": "WKZO",
-          "title": "Louisiana delays US House primary to draw new map after Supreme Court ruling - WKZO"
-        }
-      ],
-      "hits": 1,
-      "id": "election_delay_or_cancellation",
-      "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -278,15 +272,35 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN1lJUjcybHJjQ09XNFd2SzVYMlp0MXA4TjVuRTBtSGtzY1RUNGdZVGI0LU5MaHRyZU1qdjVSQ1F1UUNXQTgzSTJydG5sZ21yaG9YZUhZUlVhNTdnSDdqTmFiY0o2bW1JREpvSWxRMzh6RVlNMy1TNlE0QUZpQkROOGVNRGJpM2poVnZ1QWZDWQ?oc=5",
-          "published": "2026-04-30T07:23:13+00:00",
-          "publisher": "AOL.com",
-          "title": "Governor DeSantis Wants Judge Tiffany Baker Impeached After Released Suspect Is Linked to Child\u2019s Death - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOEtqOXZaZzA4M1FMVzZwdUdQTjNxM1g3NmNWaHVYcTRPbG9DN1VFdUJXR1daT3BEb21uLWpNZGJiUVF4TlppWnBUeF92MHlnQVBNRjg2cG1DR1F5T3RQdzR6LVZiR2xSdTFZY3kxVkJVbVk0TE5HaFlLYnhMdE92VDVtSjZHdzY1S1BDSnNrOENDSVR0MEJFQ2tEaDVuYzV4VFUzTGFQQdIBrAFBVV95cUxNemZoWkRGTTFjQnNGYnRleTNSN3BZYjIzdFF0NnFkS3hEQ2ZRcTdDcDZJM3BMTzF1UlZDZVUyU2NMTmdmbTJRdFFheFNZNG5kYmNVUkJoOXFvMFlWd1pXUXdCT1p4aWxTTnhOeU11bjBNUm1pR0N4YlhUZDQyTTdPS3l3ZU9DQzFwOXB1TlFmVExPbVpmelVDYTJTWFpTc3ZKSkNnYzdaTGN3bWRx?oc=5",
+          "published": "2026-05-02T04:33:37+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "title": "In court fights over policy, Trump officials rack up an extraordinary record of defiance - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "hits": 1,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa0xyQnlVZnB1Qk5kZUk3ZEkxZXEtN21jUzlFNHlDTVdxaUxIUjRrRmVqN3ZuTDBIQ19yaHcyRy1ydk1Fc3FONDFJOXQ2dHlPZWVoMUlmN0JTU0VicmVtT05KVFZQOUhOeU1SUWp3VGhXZnk4N1VuUDZXNlMwajZjeEtiWmwxZVk5Z2Y5aHRCQl9QbWYtc3VDMkd2TQ?oc=5",
+          "published": "2026-05-01T22:18:01+00:00",
+          "publisher": "Lawfare",
+          "title": "Maurene Comey\u2019s Firing Exposes the Limits of Thunder Basin - Lawfare"
+        }
+      ],
+      "hits": 1,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -298,75 +312,15 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeDc1Q0FDVDlxZFo3M3ZYQmE5TDRoQVMxeWVVN2lvZVl5RWlmRkdFUG5zdERQc0VibWtYVlBfWl9Ual94cWczU3dZcThmeVBVRWRhTW53VVk2SzRqb3F3M1V5Z1I2d3VvcVg2SFJnVHQ4Q0FWeUtJdkRiN0UyQk43cQ?oc=5",
-          "published": "2026-04-29T14:29:56+00:00",
-          "publisher": "The New York Times",
-          "title": "Read Supreme Court\u2019s Ruling and Dissent on Louisiana Voting Map - The New York Times"
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOanpnZ3pGanVvRUNNcFBhbnU2QWFneXFUbjNpd3ZEQW9veGMtZTBBM3ZpRllQaDRPcDNlQWF3Qlo1WkszakxWZnpzY1pDQkRjQ0dBaHY0N3ltVTdrVHZzQ2M2VEFMXzJhck9MV3d3NFZEOVl6WXBPcTR3Mi1NYXpTRDN1clRQY2xKMkpsLUdvc1g2bm90MkVrTTdILWhfLVI1MExvWGh4QkJPZDNqcGFkRXY2U2UxU3FB?oc=5",
+          "published": "2026-05-01T15:13:01+00:00",
+          "publisher": "The Conversation",
+          "title": "Why the 60-day War Powers Resolution deadline doesn\u2019t actually constrain presidents - The Conversation"
         }
       ],
       "hits": 1,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaUhzOXlaellYcHRFTEU0V1llbVdtRFhmRW1La0J2dVh0MTVRWU5kRXZ2VEJ0cEtOeDhseWlUbzhlOTcxaDZFMi1Qc1hwY3FZSjR0emI2dGg2YkQ5UkNrNjZxcUNucm5LVUxQb2VzdWlvdUpWLUJ1MmNjVlpEZnZwV3Q1RDVEWXlMVTIxVTZ1M0c4enlvSzBQYQ?oc=5",
-          "published": "2026-04-29T15:25:27+00:00",
-          "publisher": "Revolving Door Project",
-          "title": "Vought-Force Trauma: the War on the Federal Civil Service - Revolving Door Project"
-        }
-      ],
-      "hits": 1,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVlBRQkxkY1cxWU5mVHFfY2tpWFA5ZlV2TWktUWRNX0M4TUJ1YVdfN1B0d2s3Tjd3RXh4Y2t0QVM2dlRfeXFVZ1lPOVpjYXpLOGFpclVlbk1xRTZMaFA1SU9obUN6a1ZsNU1CZnRHWVNjTkJKSHB0cFN6QWlMall2dl9DRXpuZ9IBjgFBVV95cUxNWHp5Mzl1RG1CSm1iVFVSbU5tY0JwTU41d1RHNDJoMktTTGxSX2lhLXk2YXU0U25tQXhZTm5VVWw4UGR6WUJkSzdiNTBEZEVVZk02cnBLVG9VQUZkbU13ZnNERnB3cHdWRDFpWTlBSnJjWGIwQVZuNUZFaGthMjVlT3JnRUtHSk53elJISjFn?oc=5",
-          "published": "2026-04-29T22:15:16+00:00",
-          "publisher": "The Express Tribune",
-          "title": "Pakistan media freedoms face sharp decline - The Express Tribune"
-        }
-      ],
-      "hits": 1,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaWxVZFdJaVZvV3dyOU5IMV9rVmlrRi1CSUhKYm1GMXpaU1ctY2xOdVlzSUdLM1V1cFBoUUR2ZkFLVTdCbG83dzAzYWMtRjMyRXFiOEZ4OE5BN3RQOXUxY0xyejVla0hySkFxb0g1c0FWSWs1NXVkamNnTW1vVnVRUGNvTW1WeEY1MnVvS2x0dlptTm53SmNFemxNVGNqeUs5cTlERVZCaVRPNGljOWlfRnBR?oc=5",
-          "published": "2026-04-29T15:00:00+00:00",
-          "publisher": "Daily Kos",
-          "title": "Democrats put Pam Bondi\u2019s feet to the fire over Epstein files - Daily Kos"
-        }
-      ],
-      "hits": 1,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -378,8 +332,8 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
@@ -388,14 +342,53 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "executive_constraints",
       "evidence": [],
       "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "hits": 0,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [],
+      "hits": 0,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "federalism_oversight",
+      "evidence": [],
+      "hits": 0,
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
       "severity_label": "Green",
       "unique_publishers": 0
     }
