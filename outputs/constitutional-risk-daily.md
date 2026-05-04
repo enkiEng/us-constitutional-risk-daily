@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-05-03 12:36:31 UTC
-- Score: **19 / 100** (Elevated Strain)
+- Generated: 2026-05-04 12:54:56 UTC
+- Score: **18 / 100** (Elevated Strain)
 - Previous day delta: **-1.0**
-- Delta vs 7-day average: **+4.2**
+- Delta vs 7-day average: **+1.3**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -14,56 +14,56 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 1.16 | 6.39 |
-| Judicial Independence and Rule of Law | 15 | 1.33 | 5.00 |
-| Opposition Rights and Political Pluralism | 14 | 0.53 | 1.87 |
-| Executive Constraints and Emergency Powers | 13 | 0.77 | 2.49 |
-| Civil Service and Agency Independence | 10 | 0.10 | 0.25 |
-| Civil Liberties and Information Environment | 10 | 1.15 | 2.88 |
+| Elections and Transfer of Power | 22 | 0.99 | 5.43 |
+| Judicial Independence and Rule of Law | 15 | 1.22 | 4.56 |
+| Opposition Rights and Political Pluralism | 14 | 0.30 | 1.05 |
+| Executive Constraints and Emergency Powers | 13 | 1.33 | 4.33 |
+| Civil Service and Agency Independence | 10 | 0.00 | 0.00 |
+| Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
-| Federalism and Legislative Oversight | 8 | 0.15 | 0.30 |
+| Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 7 | 7 |
-| Election Administration Capture | elections_transfer | 2.00 (Yellow) | 4 | 3 |
-| Court Order Noncompliance | judiciary_rule_of_law | 2.00 (Yellow) | 3 | 2 |
-| Election Delay or Cancellation | elections_transfer | 1.65 (Watch) | 1 | 1 |
-| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 2 | 2 |
-| Alternate Elector Scheme Activity | elections_transfer | 1.00 (Watch) | 1 | 1 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
+| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 8 | 8 |
+| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | 7 | 3 |
+| Election Administration Capture | elections_transfer | 2.00 (Yellow) | 5 | 5 |
+| Court Order Noncompliance | judiciary_rule_of_law | 2.00 (Yellow) | 5 | 3 |
+| Election Delay or Cancellation | elections_transfer | 1.30 (Watch) | 0 | 0 |
 | Targeted Jurisdiction Stripping | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
-| Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Politicized Prosecution of Opposition | opposition_pluralism | 0.95 (Watch) | 0 | 0 |
-| Opposition Ballot Exclusion | opposition_pluralism | 0.65 (Green) | 0 | 0 |
-| Martial Law or Military Governance Language | executive_constraints | 0.30 (Green) | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 1 | 1 |
+| Martial Law or Military Governance Language | executive_constraints | 1.00 (Watch) | 1 | 1 |
+| Alternate Elector Scheme Activity | elections_transfer | 0.65 (Green) | 0 | 0 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 0.65 (Green) | 0 | 0 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 0.60 (Green) | 0 | 0 |
+| Opposition Ballot Exclusion | opposition_pluralism | 0.30 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Press Restrictions or Retaliation
+- [Amnesty International USA] On World Press Freedom Day, journalists face increased pressure, threats under Trump administration - Amnesty International USA (2026-05-03) - https://news.google.com/rss/articles/CBMiygFBVV95cUxOVWJXUi01RWFxWXVXVkgxaFk2MVdtTWl1TXJJZjBKeUJ6VDVBWm84T0gxYm5sQTdtLTFuUG9rOVdoLTZYc2FlYW9wTEpUXzgydk5iU2NNY3dxMlcyaHktNGVXbF9BUVg3dDl2UFI4NV9QeUlKMHNNRVZGZ3phLWlpUnM1MDNCQTBtR0cwMW8xMkdtS0VQZW1MV2dGQk5oWTFZRGNhRm03X0VsVEpqelE2WGMxektOV2ZNQ3ZwTFphbWJvSTY5YkVFVkJR?oc=5
 - [Time Magazine] The Most Urgent Threats to Press Freedom in 2026 - Time Magazine (2026-05-02) - https://news.google.com/rss/articles/CBMijgFBVV95cUxPb0JRUmRrbTlxbElVSWFuWXdPYWhYcENsNDZaeVFmWk1KQ1hxLXhNbXEybW8zSGtUVlBzYzhCOXg1WHFwM2wxSk40MHNMMjQyU1dfWEUtQmx5aDZIci1rTU16eGtRdm9HbEN0eEFQRXBMMHJFbkpoYUgwekNIdzJEcDRReFpEY1NHeUhXd1FB?oc=5
-- [Freedom of the Press Foundation] This World Press Freedom Day, American journalists are under attack - Freedom of the Press Foundation (2026-05-01) - https://news.google.com/rss/articles/CBMinAFBVV95cUxQTU55eV9RNzBKRVZSUEEzRnEtZTFCUFlXX1FFMG9NYzdFSFNXZmQ5VE1OSlVoVnIxeU0zeGpGX0xfWWVDMlBvSFlpR1VDamJYVkFKcTA2aGdrMTdRMmZPUXluV250aXJzdGNUVFJ4ZVd5U2M4dEFoMnpaaUp6MV9rRGZKRmtVdlFwbDJrSEZsX1Z0UDNZT2M1U1VFeDE?oc=5
 - [Amu TV] Bennett seeks immediate release of journalists from Taliban custody - Amu TV (2026-05-03) - https://news.google.com/rss/articles/CBMiOkFVX3lxTE9XZl9YenR1YjlmZXFpMXJ0V2xKdUl4TmZNU0hmWDBDUWlhZ05qd3lXR0dOSDVjZlBFeVE?oc=5
 
+### Emergency Powers Expansion
+- [Impakter] Asian Development Bank Launches $70 Billion Infrastructure Plan - Impakter (2026-05-04) - https://news.google.com/rss/articles/CBMijAFBVV95cUxPYWZ3REVZZlFZb0JKZU9LNXBucUQ1M1VSb1ItTUtXb1RmSnZoRG54TnN5LUo1MHAzQ19BVWdzOGhyMmhVbzhnaG85cXdVb0Q3ejNDMFFteU1lM1RldXNTUWdrNDAxZEw4OHEyMURvUFY5U3dtWEVBRjlFR0ZFV005bUFMa3BkX3Y2ckdwcg?oc=5
+- [MSN] US bypasses Congress for $8.6B Middle East arms sales - MSN (2026-05-03) - https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRjJSM2VCYjU3WUNXWUk3aGUzUm1MR01IbWlhZ3BMd1NQd3VaOEFtMXQ1ODhLanVlUGxEWkRtTmQxSFFoalFBcmRaSjBMVHpLajQzOTExV09LT280d1RvOVlMSzZHTjlReHh3UU5ZWFNNVnoxT1F2eGkxTXZadnNzOU5FcF9Eb1NCd1VycEZ2eFg1cTc5T0dfNVNKelpTRWRhS0R2WjVHVlE2a1pycUdUTnB2WGlENEJPdnNFRHd3OWFYbjFTYzJ4YzZaTFB5TE5BZ21qeGxMLUFwSm5kYXFnUGJUYnFQR1hzenc?oc=5
+- [Firstpost] Trump Fast-Tracks Arms Deal for Gulf, Israel; Bypassing Congress | Iran War | Firstpost Live - Firstpost (2026-05-04) - https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWjlVaWhVc2VpbHJkOGY0bTZZdzB5VzJfMkJJVWRJLW9sbU9wdmwtc3loUThLSW85WHRkRmVOVTVyUTN6VFpLbDBMaFVFMnBSRUNnUm5VTnFpSVNSTE8xQ2JWTjFseThWdkh6QWF4WTVGZUUwUHlfVVQ0SldTaExJb3pnVkpHaEY2SzlFM3hBN0tkT3JHQlNVVTZkd3ZBQ2t2bnE0Qk15ekMxMlBubjZxU1RvQ2hlbTdYbjRyM0tDZjZ0ZEtXdUZsNFdRLWsxZEZXM2JHcVl3VXdLRWUycDRUdHBlTmJBUdIB5gFBVV95cUxQWjlVaWhVc2VpbHJkOGY0bTZZdzB5VzJfMkJJVWRJLW9sbU9wdmwtc3loUThLSW85WHRkRmVOVTVyUTN6VFpLbDBMaFVFMnBSRUNnUm5VTnFpSVNSTE8xQ2JWTjFseThWdkh6QWF4WTVGZUUwUHlfVVQ0SldTaExJb3pnVkpHaEY2SzlFM3hBN0tkT3JHQlNVVTZkd3ZBQ2t2bnE0Qk15ekMxMlBubjZxU1RvQ2hlbTdYbjRyM0tDZjZ0ZEtXdUZsNFdRLWsxZEZXM2JHcVl3VXdLRWUycDRUdHBlTmJBUQ?oc=5
+
 ### Election Administration Capture
-- [AOL.com] Trump-appointed federal judge tosses DOJ lawsuit seeking Arizona voter data - AOL.com (2026-05-01) - https://news.google.com/rss/articles/CBMihwFBVV95cUxPelV1QWFWMjBXU0lQNWQyWnVwYjF1dmJZR0hUZmtmVFVxRkI5S2lSc1BJcW1kZ2ZLT0dYYVVjbGRheXdnTXBlN2pvOVVEUzNrcU85VGxfUXhFWlBaU3ZnRWdlZGxBNkdXVzU0UzZmRUt4TWpLaUh0amh4TXBoNFF0T2tYRkwzc3c?oc=5
-- [The News Pakistan] 8 things to know about Trump’s effort to ‘take over’ midterm polls - The News Pakistan (2026-05-01) - https://news.google.com/rss/articles/CBMiowFBVV95cUxQSXo5ZUJ2cU1tXzhiN0h2TEJRNlhFd2VCdTNJWDFKV0J0bjhLRU1TUDR6VmxBZmpSekpCc2JKX0xHRTNsd0NUUzJTazB4ekI1SEx3dVR6Qk9BM1NiTjVsMkJjUDdIMVhqRGE3WDNuSGIxWkxrTnJVNV80TllJZW5tMFdaaldDcW5PUmk5M2RPS0dURUVIZEpkeGlfNXlUeXBJQ2h3?oc=5
-- [The Sunday Guardian] Assam Assembly Election Results 2026 Date & Time: Check Result Date, Vote Counting Schedule, Live Updates & Where to Check Official Results by ECI Live - The Sunday Guardian (2026-05-02) - https://news.google.com/rss/articles/CBMilwJBVV95cUxQQ2p6ajR3OWFnM182T0NyTHF3Sng1NUlXeXBlMjYwZE0tem1YTkotSlpLaUJIMTZQRWZQOW52OFBuM2g5UXZrb2ViQnR2aVh3U0RFaXVQQVR0RUlMRVdjUDlsY1RJenluMWdzYUFhaUh4NUg4eU1NeTlLOUMzNEpMTHZReGtpNC14WU1BUHoyaHdXQWtIS0ROT01oZms5dUhfSjd4SDl5cnF3dFBxNGtUc3NuV0EtQ2NlSHRzYnhlTG1YSVdBNlMzUkZHZWltUWcycVRLcGE1d0NpbkJSZk5wajdsVjcyN256MWRoVzVOZ29xaE5ia3QxRmZGcDlfZUcwU2xfbzBNVmh2Mk1lUHVUYjhBaHZNdGc?oc=5
+- [Al Jazeera] ‘Hegemonic power’: How Modi’s BJP won India’s Bengal for the first time - Al Jazeera (2026-05-04) - https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVRkTFY3b2dUSldkaDltZDJyS013MjlkUnVzZWhhd29CTUhEVmR2cERXMkR5VXBvSmd2Z1dINGJKZXZEM2FVTGo5a05IUkdaQ1VTRE1KdFVOVTFRT01rLUprelhiTmV1R210ZjdRREhDOGNfOW1wVVZrZDQxRGF1eG9UVFVBaHMxczRxUWMzV2xfV2FIQmY1d0lOSk9DNW5DX2h2N2oxQ3UxeG4taW1J0gG0AUFVX3lxTE1hTzFxYzQycWROdkp5ZVprbGJHMEVtU29hRWpLUzQ2ZVFrek5UR1B3ZUFVSURRUmpQTjlrU3RWa1d0TFN2Ul9mS215YU1WTkVlMlE1cmhCNHl0OFZPNnVPb1c2TnlOUW9UMXRlbGVJZmNqVWJ6aGxhb0lBUTlMUGJSOERfMms0NUhfZkZCeTVzU3ZoQmVnNWFTYXREb1pVN3o3Q2R0bkx0UGk0SW5UelBQSGRCbA?oc=5
+- [TRT World] India’s Modi faces key test as counting begins in crucial state elections - TRT World (2026-05-04) - https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTnUtZVF5V3JpWWM2ZDZZYm1Jb29OOHF5d05XMVliNzdvMTZsaTRvTzYzeVlWRGZadWJ1TlBNUnNGQ08tNmJwZVdLNV9BYTJKY0JpYTRoUVpXUkxvMzFYMnhVMHRYSXJMLVZhbVFld21IVEVMOU85R3NoOVNkY1NHS013amU5Nlc3S3JNZ1ZJQ2EzWVdLNVZOVDYtWGJnYmh0bkhhNjRjOGF1T1hXUUJRd2FsZkNWMnFwSEdTQmQ4SUNSVEozejlsY0xUM20zSnlRWXJRb0wzNGN1bVlRNVhYcVlmVmZYUQ?oc=5
+- [PennLive.com] Pennsylvania 2026 primary election voter guide: State House Districts 51-100 - PennLive.com (2026-05-04) - https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc3pFYjNidHJtWm1zQ0xxM0luVFRaOTkzeGxfcElvYUdIQl9wU2RtWTJ3VEtkeHlpQ2ZmQ2RaQkhWUTUtOXFGS21kejZuUDM3OXFsMnY3azIySGNuSU9WVlRRTTJKcVlVSGdlSVROVmg3ZFplSTBobS1rbWJZSWZNUzcwc3pCeVpPalpiT1Z2NkpULWhuNGtqb1ZhSlBGZnNEVHBTVE9FQ19oSUs5TlNleTRZZGVQc3htTFFwaTRLSlHSAdQBQVVfeXFMTTdMako0cUxpVExxTW9ZRDgyRV9aRkVwY0NGQ01LcWMxamtkUkZ5UWRGd3dCN19LWndoSVlfcGZTWG1vN2QzZnVWUHEzN3EzRFhQRWJhekF6d25vRXpzTUJwTzI4NUtsZjVOUm9zNTV5WGU3SE9sZWtxWENxemFOTXVXZFFRWnV0d2pueDRVV0p2TGc4UkxVd05rNkZpcXY1VURZVVhQcXNHR2ljMy14eDJWV2V5YjZfZnJCUXZXWVAzdHJLU3NUWlRQVUdrS1QxdHI2Y2M?oc=5
 
 ### Court Order Noncompliance
-- [MSN] Trump administration defies court order on immigration detentions - MSN (2026-05-03) - https://news.google.com/rss/articles/CBMi-wFBVV95cUxPRkl2NXdEUWFaUHpEaGJELW03QTI0TTgzN2ZxWTFfTzVLUW9leVJ3Zml1R3RBUmgyVi1rSFotZjB1NjBiZ3YtbGlqRTR0QU9hVG1rSk94VkpJYXNBcmlqYVVtdVR3SGFSSEFvWjRZbWVfdHY4XzhKQUdmVkItUkNKSFZQcW9nSG5XTG16djc5djd5MGJGN2xmdEhzS1dZQU56b0tvWmtMR3lyX3d5WDZqY010T3drenhSWUlXMU1VblRabXRPNy1LeHkwLWlqY0tYbGRIdTVHd3ZVWXNVYVJWc2JudjA4bWZhQ3d1Zm43S29Ra1RMeGo3MHZ2MA?oc=5
-- [ABC News - Breaking News, Latest News and Videos] In court fights over policy, Trump officials rack up an extraordinary record of defiance - ABC News - Breaking News, Latest News and Videos (2026-05-02) - https://news.google.com/rss/articles/CBMipwFBVV95cUxPOEtqOXZaZzA4M1FMVzZwdUdQTjNxM1g3NmNWaHVYcTRPbG9DN1VFdUJXR1daT3BEb21uLWpNZGJiUVF4TlppWnBUeF92MHlnQVBNRjg2cG1DR1F5T3RQdzR6LVZiR2xSdTFZY3kxVkJVbVk0TE5HaFlLYnhMdE92VDVtSjZHdzY1S1BDSnNrOENDSVR0MEJFQ2tEaDVuYzV4VFUzTGFQQdIBrAFBVV95cUxNemZoWkRGTTFjQnNGYnRleTNSN3BZYjIzdFF0NnFkS3hEQ2ZRcTdDcDZJM3BMTzF1UlZDZVUyU2NMTmdmbTJRdFFheFNZNG5kYmNVUkJoOXFvMFlWd1pXUXdCT1p4aWxTTnhOeU11bjBNUm1pR0N4YlhUZDQyTTdPS3l3ZU9DQzFwOXB1TlFmVExPbVpmelVDYTJTWFpTc3ZKSkNnYzdaTGN3bWRx?oc=5
-- [MSN] AP review finds Trump officials defied court orders in 31 cases - MSN (2026-05-02) - https://news.google.com/rss/articles/CBMi6AFBVV95cUxON3p0c3pOQjNfQXM1SW1Gd3NNSl9Hcmk4TkVKVGhSdE1pZjNxQ05qQ3JBbUd1SS1mVlVudzBoVTZZeXczU052bUZRMVJ5VW1tQkx1dTZhWjlJbW5GbFFQVi1XU1lOV3paNWZ5blZkaWRWN0NwTDJXUWFYZThkN1dDX04wTVpoY0hJV2xhRWpYSzU1Y0Y2QlUzSDVsLXU3ajdQMURRZnB2ekt6ODVEQnV4RXNZZVE0b0tjSzg0b0RDTC1mcjlVWGF4eE5IVGNKZDdtYllqNTZtRkh2VElXNjEyQ1hUZUhEYUY0?oc=5
+- [WTVR.com] Trump flexes executive power with unprecedented flouting of lower court rulings - WTVR.com (2026-05-03) - https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVExUWkZicEljb3VPdDUwQXN1VVRBcGgxbXpoVEw2Nl83Tm1yQzhmWGhONTBJSUZUMlh1Zk5pOFh5YVU1TzBOeVJsY2tkMVZTZEJMS3Z6ZkRnd3kyNTYyMllkS25tVVNOd0M1bEU0TVVOMmxqSFVvZzVpWG85Rm1NVlVqUDROUzBjX1hDWFJJRjhhOVVMMjBTZ0ZYenJ2MGlULUJGMGNvaE8zUWhpbDgxdTVrM0l3MDZnVkJwaXpTZTA?oc=5
+- [The Guardian] Trump administration is increasingly ignoring US courts, new analysis shows - The Guardian (2026-05-02) - https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ3UwNEtaVEkxVm5DaVhwNk5OOHBWcUtMZGxCaHlXTS13UllRMnlkWjhtNmxDYzg2Y0RCaEl3RFlhbjA2NFRqbkEtLWhYSmQ3bTR3LXpJR1hrYmFrS3IxaTdVM2VPTUdjX0ZackxWRkhXQW12T2lnbE9fVGNJNGN1bUhFWVVEN1B5cFFwNERNQi1hQlllVTNiUUdaVzNBT2xx?oc=5
+- [MSN] Trump administration defies dozens of court orders in second term - MSN (2026-05-03) - https://news.google.com/rss/articles/CBMi-gFBVV95cUxOZkpCSXJqUWhyWkh3anN2cWV1ZVBmM2VuZUY4dkV2c2ZydkVzMHEyeDRaempNTzVhcDRmSTB6aWZEQlZjLXgyTVhFcEp0bHBnMWE4bHNSV3ppMzJtTTBybFo3YjAyV1hCOUpleU1JM1dUNWVRU3J2dUJ4dUR3NFRRaElMWlF5MzF2UEgtSTlZeTFQN3ZCTGVnRVJnY0c3MVYwdWV0djJ0bkEtNGxOWVBSYlJETFdYWVZoSUEtR1JOUjZMdjBXX1NRSWQtV1lQeWZ4TUF3QXp2UE5vTHAwOWN2UXRDRko2MWNGM0pnenRoV2NRMzJBSDRxV1RB?oc=5
 
 ### Election Delay or Cancellation
-- [inkl] Voter groups challenge order to postpone House primaries in Louisiana - inkl (2026-05-01) - https://news.google.com/rss/articles/CBMimwFBVV95cUxPcjlyaHJEVVpkdG5jX2tpNUNqTVJKbENDZkM2TGNldE82aUpqa0wtWnBidGFlV3gyREpVVlpQNVFXY2dYQ0Uzb0h1c3F4c2xOWEtOYW1kVzJuLU1iSVgtY3lONTk3dnFHcDFXY0x4Qm40bU85ZUxsVXF3S1N3QW1FSE4yWkl5VURVejNJejN1TDcwek5XalNxOHNpcw?oc=5
-
-### Legislative Bypass by Executive
-- [Reason Magazine] The Major Questions Doctrine Constrains Presidential Power Over Elections - Reason Magazine (2026-05-01) - https://news.google.com/rss/articles/CBMisAFBVV95cUxPVWw2QU13QjBMODFrWk5aMlJyNkJCUG1LN2hmUS1tMFZ5OEg0a3hwUGFOZUJwZ1M3RDkxWjJmaWFhY1Z5ODlMZzZsdGYyeUl3c09xLURIdjJwY2EtektRd3dObWIwVDktTTJtYUJyZkxrNXV6cUFDWUtSMHhXaDF0TWNZVU0yb1B5ZVhsY1hrRXNWbjdfcjJKU2E1ZjJEMXNULTBlclQ1dWxybDl4M0k3QQ?oc=5
-- [MSN] Trump hints at NATO withdrawal over Iran war rift - MSN (2026-05-03) - https://news.google.com/rss/articles/CBMi8wFBVV95cUxNZ2ZpdkxkSG00WElxZ3d6N000WC1TY2lBakh3ODBMVjBkQV9iYjRFOXFPbWVPaWNzdWtiSGg4X0NCdy1JWlRSU0NRVl9BM0lMaVVSYTNxb1ViYkVtYVYxVFNvOFBhNEFqOTMyc3FCOXRDTV9LMGtlckZqRVhtd3ozNXJ0MEgzUFhwRS1oR1JRUWJ5eU8zZkZnWG5IWmJqWlZfaVJPR2FsYTI2VU5qTEtCMlYxeGJwcmtmcFBGS2JYTUg0dHA0cTlhQ0VDaU0wY2x5VEp3cVVtdDNYRERTanY4US1YODlJSDd1RHVZeGFqVklaSVE?oc=5
-
+- No fresh evidence links in the current lookback window.
 ## Data Quality
 
 - Query feeds attempted: 22
