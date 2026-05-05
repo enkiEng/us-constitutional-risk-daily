@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 16.6,
+  "average_7d": 17.51,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -10,34 +10,34 @@
   "confidence": "High",
   "data_available": true,
   "delta_previous_day": -1.0,
-  "delta_vs_7d": 1.27,
+  "delta_vs_7d": -0.2,
   "domain_breakdown": [
     {
-      "avg_severity": 0.9875,
+      "avg_severity": 0.825,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.43125,
+      "points": 4.5375,
       "weight": 22
     },
     {
-      "avg_severity": 1.2166666666666666,
+      "avg_severity": 1.0999999999999999,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 4.5625,
+      "points": 4.124999999999999,
       "weight": 15
     },
     {
-      "avg_severity": 0.3,
+      "avg_severity": 0.3333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.05,
+      "points": 1.1666666666666665,
       "weight": 14
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.6666666666666667,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.333333333333333,
+      "points": 5.416666666666667,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.825,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.5,
+      "points": 2.0625,
       "weight": 10
     },
     {
@@ -72,39 +72,39 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-04T12:54:56.776241+00:00",
-  "previous_score": 19,
+  "generated_at": "2026-05-05T12:47:28.353968+00:00",
+  "previous_score": 18,
   "provisional": false,
-  "score": 18,
-  "score_raw": 17.88,
+  "score": 17,
+  "score_raw": 17.31,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOVWJXUi01RWFxWXVXVkgxaFk2MVdtTWl1TXJJZjBKeUJ6VDVBWm84T0gxYm5sQTdtLTFuUG9rOVdoLTZYc2FlYW9wTEpUXzgydk5iU2NNY3dxMlcyaHktNGVXbF9BUVg3dDl2UFI4NV9QeUlKMHNNRVZGZ3phLWlpUnM1MDNCQTBtR0cwMW8xMkdtS0VQZW1MV2dGQk5oWTFZRGNhRm03X0VsVEpqelE2WGMxektOV2ZNQ3ZwTFphbWJvSTY5YkVFVkJR?oc=5",
-          "published": "2026-05-03T12:01:31+00:00",
-          "publisher": "Amnesty International USA",
-          "title": "On World Press Freedom Day, journalists face increased pressure, threats under Trump administration - Amnesty International USA"
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMVlTZmRGZXU3THlCbWxBazRJd0p4VmViNmlKaTRwbW9mRDdKM1M0WTI1YWNHQURtUEhteXdXVHJ2cGt2NXlYcTBqaGc3YzBHclIyb2c4ZUZoWTI1dks3LUQ3RktMT0ZONmI2M2lzc0Zpb2dyWTB6bFA1SnlLbVNmWWJNM2I5b3dWdUFvM2ZkTWxfUjV0Sm5wRlRKcFZmS2Z3V25pY3djZw?oc=5",
+          "published": "2026-05-05T08:05:31+00:00",
+          "publisher": "Georgia Recorder",
+          "title": "Voter guide: Republican candidates for Georgia Secretary of State - Georgia Recorder"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb0JRUmRrbTlxbElVSWFuWXdPYWhYcENsNDZaeVFmWk1KQ1hxLXhNbXEybW8zSGtUVlBzYzhCOXg1WHFwM2wxSk40MHNMMjQyU1dfWEUtQmx5aDZIci1rTU16eGtRdm9HbEN0eEFQRXBMMHJFbkpoYUgwekNIdzJEcDRReFpEY1NHeUhXd1FB?oc=5",
-          "published": "2026-05-02T17:43:19+00:00",
-          "publisher": "Time Magazine",
-          "title": "The Most Urgent Threats to Press Freedom in 2026 - Time Magazine"
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYTU41ZUZ4bXdmSlFMTzVWUWtpRjFoRFpodG9GOVQ3TG0td3psVEJpSnV4ZWZWcjFDWVBRbGplMjROVWFZOGdEUnhUaHpPUWpUd3l2eXZCelNtcUM1QVJvMXFnTQ?oc=5",
+          "published": "2026-05-05T03:02:33+00:00",
+          "publisher": "The New York Times",
+          "title": "Bystander Hit in Secret Service-Involved Shooting - The New York Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE9XZl9YenR1YjlmZXFpMXJ0V2xKdUl4TmZNU0hmWDBDUWlhZ05qd3lXR0dOSDVjZlBFeVE?oc=5",
-          "published": "2026-05-03T06:32:53+00:00",
-          "publisher": "Amu TV",
-          "title": "Bennett seeks immediate release of journalists from Taliban custody - Amu TV"
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYU8xcWM0MnFkTnZKeWVaa2xiRzBFbVNvYUVqS1M0NmVRa3pOVEdQd2VBVUlEUVJqUE45a1N0VmtXdExTdlJfZktteWFNVk5FZTJRNXJoQjR5dDhWTzZ1T29XNk55TlFvVDF0ZWxlSWZjalViemhsYW9JQVE5TFBiUjhEXzJrNDVIX2ZGQnk1c1N2aEJlZzVhU2F0RG9aVTd6N0NkdG5MdFBpNEluVHpQUEhkQmzSAbQBQVVfeXFMTWFPMXFjNDJxZE52SnllWmtsYkcwRW1Tb2FFaktTNDZlUWt6TlRHUHdlQVVJRFFSalBOOWtTdFZrV3RMU3ZSX2ZLbXlhTVZORWUyUTVyaEI0eXQ4Vk82dU9vVzZOeU5Rb1QxdGVsZUlmY2pVYnpobGFvSUFROUxQYlI4RF8yazQ1SF9mRkJ5NXNTdmhCZWc1YVNhdERvWlU3ejdDZHRuTHRQaTRJblR6UFBIZEJs?oc=5",
+          "published": "2026-05-04T12:20:37+00:00",
+          "publisher": "Al Jazeera",
+          "title": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won India\u2019s Bengal for the first time - Al Jazeera"
         }
       ],
-      "hits": 8,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "hits": 9,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
@@ -116,25 +116,57 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ1hkMVU3bm1SS1dDUWdDNDFRcjl0aHhkdzlfVlV5U05LYk1HSjdxTmVocUNCTWw1ZDVjUTU0NXItSWlhUlFOemFkbFZ5MzRwUUdVdzItYllEak5yTjFTSlRIUmRsOEdqNVYwTUhzanZQS1ZvTXB0amFvdjlpbUJ4VnA0SjZxTDVXcmYxa3Eza2g4Zw?oc=5",
+          "published": "2026-05-04T19:07:41+00:00",
+          "publisher": "Lawfare",
+          "title": "How the Executive Branch Is Reshaping AI Federalism - Lawfare"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE93aDFNd3Z4akhhMDhsc1hLOUoxMlZ4aDJ4Um9KMnY2OTdxWU1vSjViZzRGMWRxRXM5amNOTS1vQnNLX3Y0STdraDY3cFdYR2FfQm9wQUR2UEhGRHlFQ1c0ay1YQQ?oc=5",
+          "published": "2026-05-04T17:20:00+00:00",
+          "publisher": "The New York Times",
+          "title": "House Votes to End Homeland Security Shutdown After Nearly 80 Days - The New York Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1yLTBvRkkyMWYyekZiZjIwOVk3QW1FQUVxYmNmSVNxR1FNaTdmRDF4dmVrQzc2eEdSTUhob0dxQVZyQnhZSVJvSDgzSzh0V08wUVA2THIwREp2cmdkRjl5blAzb08tWWhiY1FUYWY2ZEhmV3JZaGNJN04tcnNVdw?oc=5",
+          "published": "2026-05-04T14:27:50+00:00",
+          "publisher": "Legis1",
+          "title": "Birthright Citizenship: Supreme Court Case Explained - Legis1"
+        }
+      ],
+      "hits": 6,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 4
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVVpNQmUwdU45T0tCdUJXMjNZN2FwU2Y1dkE3UnhFNDFlQ0swZXpUcHBaakdOUXNwamZEM21fYUNtUl9vcHlsZnFzRzllbFRVckx4Q0d0b21rMzdHYUEzek5qREVNc3k2VjRtMzFPOVFHY3M4NFhhVmx6MVF0ZUJQRTY0YjNQeV9UdXY3TzRKdzNDWXh0Znkzdk5SR3BzeTEzOEE0Y1NLOFJ5OGM1UU1sYnZDOTdUTHRtNjBzZThBOGVvejJFLVFmRnRDZ2ZNTGp4MHd1bERzcVU3eEVYdk0zam5yZWE2c0Q4Y1lBYnlIZFA?oc=5",
+          "published": "2026-05-04T13:12:07+00:00",
+          "publisher": "MSN",
+          "title": "Trump administration bypasses Congress on $8.6B Middle East arms sales - MSN"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYWZ3REVZZlFZb0JKZU9LNXBucUQ1M1VSb1ItTUtXb1RmSnZoRG54TnN5LUo1MHAzQ19BVWdzOGhyMmhVbzhnaG85cXdVb0Q3ejNDMFFteU1lM1RldXNTUWdrNDAxZEw4OHEyMURvUFY5U3dtWEVBRjlFR0ZFV005bUFMa3BkX3Y2ckdwcg?oc=5",
           "published": "2026-05-04T05:02:34+00:00",
           "publisher": "Impakter",
           "title": "Asian Development Bank Launches $70 Billion Infrastructure Plan - Impakter"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRjJSM2VCYjU3WUNXWUk3aGUzUm1MR01IbWlhZ3BMd1NQd3VaOEFtMXQ1ODhLanVlUGxEWkRtTmQxSFFoalFBcmRaSjBMVHpLajQzOTExV09LT280d1RvOVlMSzZHTjlReHh3UU5ZWFNNVnoxT1F2eGkxTXZadnNzOU5FcF9Eb1NCd1VycEZ2eFg1cTc5T0dfNVNKelpTRWRhS0R2WjVHVlE2a1pycUdUTnB2WGlENEJPdnNFRHd3OWFYbjFTYzJ4YzZaTFB5TE5BZ21qeGxMLUFwSm5kYXFnUGJUYnFQR1hzenc?oc=5",
-          "published": "2026-05-03T19:27:08+00:00",
+          "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPSExtQlFEbEUtcklMdThlaVgtUWhwVmRJZW9oLWZoUE9md1FiNHdTV2ZVN2FnZDJQLTZxMjR3RkdZSEVhU2V1X3cwRjVBWjZreXo4aUswbXpONC1PWDNFVnktR2pUQlNUQ1lXcnJEdlk3eUZIOFRyZEoxR0ZJX2Z6MG1wZ0VWTm1nQ3AxcE9ZVGRrYzJpTDE0ZkpJUmFXNlliUnptNG5heXVfd3RaQjU1ODNJNEtMY29lbnZla3NSbGZ6NlU2MEhGdEJkYmRKMzFTNUlyTTJ5Z0JJQVdmYjM2b2ppWmxZb3VPc1BIZ0RHTlNaZU15WDBBb0JqbzJtV1l2Ml9iR2V5N09EbWFpdGd1c3QxWnJfeTc2VFBR?oc=5",
+          "published": "2026-05-03T18:24:14+00:00",
           "publisher": "MSN",
-          "title": "US bypasses Congress for $8.6B Middle East arms sales - MSN"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQWjlVaWhVc2VpbHJkOGY0bTZZdzB5VzJfMkJJVWRJLW9sbU9wdmwtc3loUThLSW85WHRkRmVOVTVyUTN6VFpLbDBMaFVFMnBSRUNnUm5VTnFpSVNSTE8xQ2JWTjFseThWdkh6QWF4WTVGZUUwUHlfVVQ0SldTaExJb3pnVkpHaEY2SzlFM3hBN0tkT3JHQlNVVTZkd3ZBQ2t2bnE0Qk15ekMxMlBubjZxU1RvQ2hlbTdYbjRyM0tDZjZ0ZEtXdUZsNFdRLWsxZEZXM2JHcVl3VXdLRWUycDRUdHBlTmJBUdIB5gFBVV95cUxQWjlVaWhVc2VpbHJkOGY0bTZZdzB5VzJfMkJJVWRJLW9sbU9wdmwtc3loUThLSW85WHRkRmVOVTVyUTN6VFpLbDBMaFVFMnBSRUNnUm5VTnFpSVNSTE8xQ2JWTjFseThWdkh6QWF4WTVGZUUwUHlfVVQ0SldTaExJb3pnVkpHaEY2SzlFM3hBN0tkT3JHQlNVVTZkd3ZBQ2t2bnE0Qk15ekMxMlBubjZxU1RvQ2hlbTdYbjRyM0tDZjZ0ZEtXdUZsNFdRLWsxZEZXM2JHcVl3VXdLRWUycDRUdHBlTmJBUQ?oc=5",
-          "published": "2026-05-04T07:15:20+00:00",
-          "publisher": "Firstpost",
-          "title": "Trump Fast-Tracks Arms Deal for Gulf, Israel; Bypassing Congress | Iran War | Firstpost Live - Firstpost"
+          "title": "Trump administration bypasses Congress on $8.6B Middle East arms sales - MSN"
         }
       ],
-      "hits": 7,
+      "hits": 4,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
@@ -145,87 +177,114 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRVRkTFY3b2dUSldkaDltZDJyS013MjlkUnVzZWhhd29CTUhEVmR2cERXMkR5VXBvSmd2Z1dINGJKZXZEM2FVTGo5a05IUkdaQ1VTRE1KdFVOVTFRT01rLUprelhiTmV1R210ZjdRREhDOGNfOW1wVVZrZDQxRGF1eG9UVFVBaHMxczRxUWMzV2xfV2FIQmY1d0lOSk9DNW5DX2h2N2oxQ3UxeG4taW1J0gG0AUFVX3lxTE1hTzFxYzQycWROdkp5ZVprbGJHMEVtU29hRWpLUzQ2ZVFrek5UR1B3ZUFVSURRUmpQTjlrU3RWa1d0TFN2Ul9mS215YU1WTkVlMlE1cmhCNHl0OFZPNnVPb1c2TnlOUW9UMXRlbGVJZmNqVWJ6aGxhb0lBUTlMUGJSOERfMms0NUhfZkZCeTVzU3ZoQmVnNWFTYXREb1pVN3o3Q2R0bkx0UGk0SW5UelBQSGRCbA?oc=5",
-          "published": "2026-05-04T12:22:30+00:00",
-          "publisher": "Al Jazeera",
-          "title": "\u2018Hegemonic power\u2019: How Modi\u2019s BJP won India\u2019s Bengal for the first time - Al Jazeera"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTnUtZVF5V3JpWWM2ZDZZYm1Jb29OOHF5d05XMVliNzdvMTZsaTRvTzYzeVlWRGZadWJ1TlBNUnNGQ08tNmJwZVdLNV9BYTJKY0JpYTRoUVpXUkxvMzFYMnhVMHRYSXJMLVZhbVFld21IVEVMOU85R3NoOVNkY1NHS013amU5Nlc3S3JNZ1ZJQ2EzWVdLNVZOVDYtWGJnYmh0bkhhNjRjOGF1T1hXUUJRd2FsZkNWMnFwSEdTQmQ4SUNSVEozejlsY0xUM20zSnlRWXJRb0wzNGN1bVlRNVhYcVlmVmZYUQ?oc=5",
-          "published": "2026-05-04T06:17:32+00:00",
-          "publisher": "TRT World",
-          "title": "India\u2019s Modi faces key test as counting begins in crucial state elections - TRT World"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc3pFYjNidHJtWm1zQ0xxM0luVFRaOTkzeGxfcElvYUdIQl9wU2RtWTJ3VEtkeHlpQ2ZmQ2RaQkhWUTUtOXFGS21kejZuUDM3OXFsMnY3azIySGNuSU9WVlRRTTJKcVlVSGdlSVROVmg3ZFplSTBobS1rbWJZSWZNUzcwc3pCeVpPalpiT1Z2NkpULWhuNGtqb1ZhSlBGZnNEVHBTVE9FQ19oSUs5TlNleTRZZGVQc3htTFFwaTRLSlHSAdQBQVVfeXFMTTdMako0cUxpVExxTW9ZRDgyRV9aRkVwY0NGQ01LcWMxamtkUkZ5UWRGd3dCN19LWndoSVlfcGZTWG1vN2QzZnVWUHEzN3EzRFhQRWJhekF6d25vRXpzTUJwTzI4NUtsZjVOUm9zNTV5WGU3SE9sZWtxWENxemFOTXVXZFFRWnV0d2pueDRVV0p2TGc4UkxVd05rNkZpcXY1VURZVVhQcXNHR2ljMy14eDJWV2V5YjZfZnJCUXZXWVAzdHJLU3NUWlRQVUdrS1QxdHI2Y2M?oc=5",
-          "published": "2026-05-04T04:11:00+00:00",
-          "publisher": "PennLive.com",
-          "title": "Pennsylvania 2026 primary election voter guide: State House Districts 51-100 - PennLive.com"
-        }
-      ],
-      "hits": 5,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 5
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVExUWkZicEljb3VPdDUwQXN1VVRBcGgxbXpoVEw2Nl83Tm1yQzhmWGhONTBJSUZUMlh1Zk5pOFh5YVU1TzBOeVJsY2tkMVZTZEJMS3Z6ZkRnd3kyNTYyMllkS25tVVNOd0M1bEU0TVVOMmxqSFVvZzVpWG85Rm1NVlVqUDROUzBjX1hDWFJJRjhhOVVMMjBTZ0ZYenJ2MGlULUJGMGNvaE8zUWhpbDgxdTVrM0l3MDZnVkJwaXpTZTA?oc=5",
-          "published": "2026-05-03T20:23:17+00:00",
-          "publisher": "WTVR.com",
-          "title": "Trump flexes executive power with unprecedented flouting of lower court rulings - WTVR.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQ3UwNEtaVEkxVm5DaVhwNk5OOHBWcUtMZGxCaHlXTS13UllRMnlkWjhtNmxDYzg2Y0RCaEl3RFlhbjA2NFRqbkEtLWhYSmQ3bTR3LXpJR1hrYmFrS3IxaTdVM2VPTUdjX0ZackxWRkhXQW12T2lnbE9fVGNJNGN1bUhFWVVEN1B5cFFwNERNQi1hQlllVTNiUUdaVzNBT2xx?oc=5",
-          "published": "2026-05-02T16:05:00+00:00",
-          "publisher": "The Guardian",
-          "title": "Trump administration is increasingly ignoring US courts, new analysis shows - The Guardian"
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5fbzJpTFhyMm9DNXZNSWg1TU81c1J4SGpjakRCSTR5TkJ2dlFnWHRnMFg3TDdORTJfbXNxaEtvalN5NGt5SGdqc2J2NkV5R0RTVTJvVldvYkRMWHlkdHdnOGc0eW1iU3c?oc=5",
+          "published": "2026-05-04T15:22:22+00:00",
+          "publisher": "Hartford Courant",
+          "title": "Trump flexes executive power with unprecedented flouting of lower court rulings - Hartford Courant"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOZkpCSXJqUWhyWkh3anN2cWV1ZVBmM2VuZUY4dkV2c2ZydkVzMHEyeDRaempNTzVhcDRmSTB6aWZEQlZjLXgyTVhFcEp0bHBnMWE4bHNSV3ppMzJtTTBybFo3YjAyV1hCOUpleU1JM1dUNWVRU3J2dUJ4dUR3NFRRaElMWlF5MzF2UEgtSTlZeTFQN3ZCTGVnRVJnY0c3MVYwdWV0djJ0bkEtNGxOWVBSYlJETFdYWVZoSUEtR1JOUjZMdjBXX1NRSWQtV1lQeWZ4TUF3QXp2UE5vTHAwOWN2UXRDRko2MWNGM0pnenRoV2NRMzJBSDRxV1RB?oc=5",
           "published": "2026-05-03T15:24:52+00:00",
           "publisher": "MSN",
           "title": "Trump administration defies dozens of court orders in second term - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeGZaU0NDVVVRSThReVllTVN4Vi1wcnBCZGd0WWtjUWtkRHR3d3dUbVU0S1ZrMmhNd29maDJPQ003bjFPMVpDR2tKaEVPN3E4MnhIQU0tUWttSk14QmNHZWFSYlZ4dE90UWNCUXYwWkUwZWhGMEJaSk02MnRMcll1Rkh5M3BTa2hPemg1MHlrZjNCemRNSW1tR0RSRQ?oc=5",
+          "published": "2026-05-05T10:23:57+00:00",
+          "publisher": "DAILY TIMES Nigeria",
+          "title": "Telcos, Regulators Face Backlash for Defying Airtime Loan Court Orders - DAILY TIMES Nigeria"
         }
       ],
-      "hits": 5,
+      "hits": 3,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
       "override_note": null,
-      "severe_hits": 1,
+      "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
       "unique_publishers": 3
     },
     {
       "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRURBbGhqNVBQd0R2SzFJQXktUDJxLVAyeFZVNENzWG1mT1NVTEZoTE9wdnBpdXkyOTExZm5BSHhOYUVRSzdQZ2VtRjFMaXF3TVY0aTQwamZOMVJGQmluMzg2di02clJzRE91WGt4aU5DdVRCR0l2ZEhvZVlibEs1UmIyNkczUlFnMlFDeUtLWlFTS203WGN0R3hyYUhLRllTQVprT2RxcnhjTkxzdjFjZ2todldyNVZSYm5rSlhzT1RzS3JiQVZ5R19yY9IBywFBVV95cUxPRURBbGhqNVBQd0R2SzFJQXktUDJxLVAyeFZVNENzWG1mT1NVTEZoTE9wdnBpdXkyOTExZm5BSHhOYUVRSzdQZ2VtRjFMaXF3TVY0aTQwamZOMVJGQmluMzg2di02clJzRE91WGt4aU5DdVRCR0l2ZEhvZVlibEs1UmIyNkczUlFnMlFDeUtLWlFTS203WGN0R3hyYUhLRllTQVprT2RxcnhjTkxzdjFjZ2todldyNVZSYm5rSlhzT1RzS3JiQVZ5R19yYw?oc=5",
+          "published": "2026-05-05T03:40:08+00:00",
+          "publisher": "Devdiscourse",
+          "title": "Press Freedom Under Siege: The Milei Administration's Controversial Stance - Devdiscourse"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQX3Bvb0dXZ19VS2pFOTd0LXdMY29hc2tKRWlfVERCOE13dEZXdjZuSkFTUEs1WVFWNHNYYmtQVFBuRmNlNlNTaUtKSGY0OTFiNDloRDdfZzZGNW02d2pGdlM1LTRoNmtkQmRzWGVUOG5taERqVDc4UGp6N0ZKN3ZyTGJlZHVIekFiUldVOFhCZ19mdW1pQ1JCRE42RFlPdW0zT05FaUpvWGo3YzTSAbABQVVfeXFMUExPODZwU2hyaFY1VWhCOVRUdy1zWmo5NTBSUzBZZWZvellYLVh2Nk91S1dRckVVTWZQMzRXUUlpQlFQUEsxWi1neDZsZ2dKYXFZUHg0c0xLTGxZWjNQNDBrWTUySTRrY2piV3NiMzk4SllNY0FUbUQzUkJZazlpVnRNeFc2Ul9QdFVPWGN4Y2VRQ1FCVmlDem9fM0dmdVpBNktuaExLZ0RHTjZ2ZlVlaks?oc=5",
+          "published": "2026-05-03T21:00:00+00:00",
+          "publisher": "Gulf Times",
+          "title": "Journalists in conflict zones increasingly being targeted| Gulf Times - Gulf Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSnVxZVBkSndsOXRsaEZCem8zQ1I1QkV5MDZkaFhBbTlsVnM3eHc4MVJRNTR3V0syZ3Bwc1g4c1VKTjZZc1V5QTFLbkZIaGZWb2Z5ekpQX1ZKRG1mekJoQUJhd24yVjVvNk9NWHZ6WHJZQmZnZnE3TGluckRTZ21zc2QzbkhEM0lHNWM0ZjlvdDIzZEJyVUVDeVkzd0J3di1OSnUxVUpWV3RnQWFfek1fV0UwMmg3SEdKN0RQSmFNWVBRRXpGMHc?oc=5",
+          "published": "2026-05-03T18:25:00+00:00",
+          "publisher": "dailyasianage.com",
+          "title": "Press Freedom in Bangladesh: Structural Constraints and Political Economy of Media Control - dailyasianage.com"
+        }
+      ],
+      "hits": 3,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHSmpFVFVqY2YzalZkMXMwMEIzUk5QcUpBSnFSZ3puQ04yY2cyXzQyTC1SUFd1c1J0SUJ1djNXOWxsQmFabDRUaWxURnBPQ0UwQWJWbUdyaWs?oc=5",
+          "published": "2026-05-05T02:18:01+00:00",
+          "publisher": "AFRO American Newspapers",
+          "title": "They cancelled the election - AFRO American Newspapers"
+        }
+      ],
+      "hits": 1,
       "id": "election_delay_or_cancellation",
       "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNaGRodncxVGY0ZnVIV1lUenVKVWROSTRoUnd6eERLcTJUMzF0UVRPNnJhYmF4RVBtckhUSUhuV2FkMWFVMUNaWGdwMG9zNkYtNmJZb2tFeXB2MGd4SmxfejZtUXAyckZHZndFNXVtaE5HTFJYc0RVanplcHhoV1NWUDRkN1pMRHlxRWZCZHJYZkl2TDUyVHE2WWozbUtVNnJiOUdnYWh3OXR6MVBDYlM3MFBKQ19Za0lGeW13c21lNk00WVB3RURncE9FTWdCcVhzdGZLRklYdTRGbVBvak1HeWRtWnBFU0hFeWt2VVQzN0IzMkRDeTNwZWdfTE1XaTA?oc=5",
+          "published": "2026-05-03T15:07:00+00:00",
+          "publisher": "Mediaite",
+          "title": "NBC's Kristen Welker Grills Todd Blanche on James Comey Case - Mediaite"
+        }
+      ],
+      "hits": 1,
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaG0taDRPV3kwSEc2NUJTX2RYaTVKdHZSV0RWamROODRvMGxGaWZyYU9oWUktRHBDcWwzdTNfSkxIWWszdXdRSlpyWGU1elRLbkhuZTNrN3c5QmFnRXJDWGlFamVCYlhqbTJUQW5MQ0FXMkpfMGlsa3BGYWUtTTE5cDRHMzZkYnppY3JBeTVJQkM2TnNOeGMybzJ4SlQxRk1yTW11YmVRcmRvbWpXbEZ1ZlU2b0d3RFlzTGJxclVnblJrbFBvNGRPX1B5QVE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE53OGpqQ2ZKbFRXSTI2clRVbDZucDhuZi1MaS15ZllIc3RlSEY0eFR2bVNxWG50cHk2SFQzODNqU1BreFQyODE4Yk1HR1hHTEVsekc0bjZkMUxqcHNRbTJpczZuSFhpNEE2Q3ZxZkN0U0NIdw?oc=5",
           "published": "2026-05-04T11:21:52+00:00",
           "publisher": "One First | Steve Vladeck | Substack",
           "title": "225. How Congress Used to Leverage the Court - One First | Steve Vladeck | Substack"
@@ -245,30 +304,10 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE93aDFNd3Z4akhhMDhsc1hLOUoxMlZ4aDJ4Um9KMnY2OTdxWU1vSjViZzRGMWRxRXM5amNOTS1vQnNLX3Y0STdraDY3cFdYR2FfQm9wQUR2UEhGRHlFQ1c0ay1YQQ?oc=5",
-          "published": "2026-05-04T02:54:00+00:00",
-          "publisher": "The New York Times",
-          "title": "House Votes to End Homeland Security Shutdown After Nearly 80 Days - The New York Times"
-        }
-      ],
-      "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSzUzUTZrY3N1MDRPa080TDRrSVdMUE50V1hSNjBJNjdMbGNuWnZzclpub1Ayd05BX1NrU1pQLXFvM2NwZndpREVUbGJ2dXczaV9QM0FMbzFEdXBTTzRZUkVfU1RNRXJzRHZHQ3FKb1pKWWV6TUZYSG9ZeG9FUkpaUzNXNTlXbHRUVjV6bzlYWHhJOWNZUEFSNU5Ha0ZCeHhpeWdiVEhsQlZtZllaUWF5aWtJQ3F1bDJzYUNnTmVsZ9IBvwFBVV95cUxQSzUzUTZrY3N1MDRPa080TDRrSVdMUE50V1hSNjBJNjdMbGNuWnZzclpub1Ayd05BX1NrU1pQLXFvM2NwZndpREVUbGJ2dXczaV9QM0FMbzFEdXBTTzRZUkVfU1RNRXJzRHZHQ3FKb1pKWWV6TUZYSG9ZeG9FUkpaUzNXNTlXbHRUVjV6bzlYWHhJOWNZUEFSNU5Ha0ZCeHhpeWdiVEhsQlZtZllaUWF5aWtJQ3F1bDJzYUNnTmVsZw?oc=5",
-          "published": "2026-05-04T06:00:59+00:00",
-          "publisher": "Devdiscourse",
-          "title": "Supreme Court Rejects Urgent Plea on West Bengal Central Forces - Devdiscourse"
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYXlFMHQzU0I5WnlJcjd1b0M1eHVBa05yNHN3b29mQ05mdWtmankwN3NsVG9POENLN3dvQlY5dXk1dnc5M0piSk5MSEs5QkZfb2ROYTB0aF9nUjBlNnhuelkxVng1dnJxUGJmSDZPNlBqSkV2dW5XV3BpbFM3SG1FMUMzSnR1QW01MHpUdXhWMTlUY0NIRHc?oc=5",
+          "published": "2026-05-05T04:27:00+00:00",
+          "publisher": "The Guardian Nigeria News",
+          "title": "APC consensus fuels tension, political realignments nationwide - The Guardian Nigeria News"
         }
       ],
       "hits": 1,
@@ -289,7 +328,7 @@
       "name": "Alternate Elector Scheme Activity",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -300,32 +339,6 @@
       "hits": 0,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
