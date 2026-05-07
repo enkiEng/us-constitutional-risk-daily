@@ -1,57 +1,57 @@
 {
   "attempted_queries": 22,
-  "average_7d": 17.42,
+  "average_7d": 17.31,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": -3.0,
-  "delta_vs_7d": -3.32,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": -2.36,
   "domain_breakdown": [
     {
-      "avg_severity": 0.75,
+      "avg_severity": 0.6625,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 4.125,
+      "points": 3.64375,
       "weight": 22
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 1.2166666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.3125,
+      "points": 4.5625,
       "weight": 15
     },
     {
-      "avg_severity": 0.21666666666666667,
+      "avg_severity": 0.43333333333333335,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.7583333333333333,
+      "points": 1.5166666666666666,
       "weight": 14
     },
     {
-      "avg_severity": 1.3166666666666667,
+      "avg_severity": 0.9666666666666667,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.279166666666667,
+      "points": 3.1416666666666666,
       "weight": 13
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.3333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.0,
+      "points": 0.8333333333333333,
       "weight": 10
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.5,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.625,
+      "points": 1.25,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-06T12:59:10.023212+00:00",
-  "previous_score": 17,
+  "generated_at": "2026-05-07T13:00:35.785966+00:00",
+  "previous_score": 14,
   "provisional": false,
-  "score": 14,
-  "score_raw": 14.1,
+  "score": 15,
+  "score_raw": 14.95,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,74 +84,61 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZnpzZEJKVlVGMW9sWWx4MlhicVUxa1NtWl9URy15d2RuQTVMZk93SFZxYmNYbVZ6c1ZkVks1UW9TTW1HTFlhNkw2TUNQUlY5WkxfTTZ2RmEwZy1xbkJDUlMyQThIdFFmc0tyVmMxcTNiV1ZLdzhKM1M2UnhlY0U5SWhIUWtRN21QSzh3N0diMzJrcGVnT1B5Y2lYb2FyYjU0TUcxWlJ6S1VrSVVySlNWZm5XWl9od1VoUUhoMDNwYw?oc=5",
+          "published": "2026-05-07T08:11:00+00:00",
+          "publisher": "New York Post",
+          "title": "Trump administration can keep 2020 election ballots seized from Georgia, judge rules - New York Post"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc3RvY2xFYVlleDdaZUN0dWc0RkQ4cGw5Y2NpRXZ4dEVqZHF6VENzQkt3Uk1LZGxhaWlOTVFfX1ZOTEhWR2dCNGxjMFVqcWJaZnY1MXRBWG1VTkdVQ0JPV0hzdUw3NXdIODhfMGhPQUYxNWNScnZwQ2xhdHVDX1FnUWJ5ZmtEc3Yy?oc=5",
+          "published": "2026-05-07T07:11:15+00:00",
+          "publisher": "AOL.com",
+          "title": "Trump election integrity push exposes massive amount of dead people on North Carolina voter rolls - AOL.com"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWnltcFlDMXZyNkR6WnBmeHpSNDZqSXFiOHFKSG9DWXhBTFB3ai13R3BUM21oLWoyZnJHOERlYWZ2VVFWeUJRSTRfRkNreUdEcWI1dnhWc1cxUktqMl9zaGpsbGJqcjRmU21ITFFHeGdWY1Yya1NEUkEySHhESG1taElMV3NNSmpkTUdJY0Q5ZTdvMlJ2aTlMdllrMzJHaHdNU0N6cDNvVG8tbURtX1hEdHJ5T3VUZ1ZDU0NjNDRqYWxWRzZIbHpyLUY0Z0FnS2piajFiUkhOMjZLb2NJY01XQUpB?oc=5",
           "published": "2026-05-06T10:07:00+00:00",
           "publisher": "The Columbus Dispatch",
           "title": "LaRose fills Delaware County elections board seat after Leneghan ousted - The Columbus Dispatch"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYTU41ZUZ4bXdmSlFMTzVWUWtpRjFoRFpodG9GOVQ3TG0td3psVEJpSnV4ZWZWcjFDWVBRbGplMjROVWFZOGdEUnhUaHpPUWpUd3l2eXZCelNtcUM1QVJvMXFnTQ?oc=5",
-          "published": "2026-05-06T03:22:00+00:00",
-          "publisher": "The New York Times",
-          "title": "Bystander Hit in Secret Service-Involved Shooting - The New York Times"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMVlTZmRGZXU3THlCbWxBazRJd0p4VmViNmlKaTRwbW9mRDdKM1M0WTI1YWNHQURtUEhteXdXVHJ2cGt2NXlYcTBqaGc3YzBHclIyb2c4ZUZoWTI1dks3LUQ3RktMT0ZONmI2M2lzc0Zpb2dyWTB6bFA1SnlLbVNmWWJNM2I5b3dWdUFvM2ZkTWxfUjV0Sm5wRlRKcFZmS2Z3V25pY3djZw?oc=5",
-          "published": "2026-05-05T08:05:31+00:00",
-          "publisher": "Georgia Recorder",
-          "title": "Voter guide: Republican candidates for Georgia Secretary of State - Georgia Recorder"
         }
       ],
-      "hits": 10,
+      "hits": 15,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 6
+      "unique_publishers": 10
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5FUnZNSnY1MmxhRGNXUzJOa1h2NFlCQzBRekRGTXZnNjQ3SW9UOGVhRm51YXpaR2lyYVFDSXNKY25nZV8xazJRd192a1Q5OXBrN2l2empOVGNqUUo2azZMTVJ5QUxNZG4xNXNNd2Fn?oc=5",
-          "published": "2026-05-04T15:22:33+00:00",
-          "publisher": "Boston Herald",
-          "title": "Trump flexes executive power with unprecedented flouting of lower court rulings - Boston Herald"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeGZaU0NDVVVRSThReVllTVN4Vi1wcnBCZGd0WWtjUWtkRHR3d3dUbVU0S1ZrMmhNd29maDJPQ003bjFPMVpDR2tKaEVPN3E4MnhIQU0tUWttSk14QmNHZWFSYlZ4dE90UWNCUXYwWkUwZWhGMEJaSk02MnRMcll1Rkh5M3BTa2hPemg1MHlrZjNCemRNSW1tR0RSRQ?oc=5",
-          "published": "2026-05-05T10:23:57+00:00",
-          "publisher": "DAILY TIMES Nigeria",
-          "title": "Telcos, Regulators Face Backlash for Defying Airtime Loan Court Orders - DAILY TIMES Nigeria"
-        }
-      ],
-      "hits": 2,
+      "evidence": [],
+      "hits": 0,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ1hkMVU3bm1SS1dDUWdDNDFRcjl0aHhkdzlfVlV5U05LYk1HSjdxTmVocUNCTWw1ZDVjUTU0NXItSWlhUlFOemFkbFZ5MzRwUUdVdzItYllEak5yTjFTSlRIUmRsOEdqNVYwTUhzanZQS1ZvTXB0amFvdjlpbUJ4VnA0SjZxTDVXcmYxa3Eza2g4Zw?oc=5",
-          "published": "2026-05-04T19:07:41+00:00",
-          "publisher": "Lawfare",
-          "title": "How the Executive Branch Is Reshaping AI Federalism - Lawfare"
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tTWFZUFE4Qml4b19QRGVCcnhkSVlOMVA3UjZkUDVKMDFVUTIzN19HUnNnZmxCZ3ozV0VmazZqMmI3NGZCVy1KWE1mRllXNzlBNGJUVHhDQkFZTVZES3gtVWpEdw?oc=5",
+          "published": "2026-05-06T21:19:00+00:00",
+          "publisher": "The New York Times",
+          "title": "Judge Halts White House Ballroom Construction - The New York Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1yLTBvRkkyMWYyekZiZjIwOVk3QW1FQUVxYmNmSVNxR1FNaTdmRDF4dmVrQzc2eEdSTUhob0dxQVZyQnhZSVJvSDgzSzh0V08wUVA2THIwREp2cmdkRjl5blAzb08tWWhiY1FUYWY2ZEhmV3JZaGNJN04tcnNVdw?oc=5",
-          "published": "2026-05-04T14:27:50+00:00",
-          "publisher": "Legis1",
-          "title": "Birthright Citizenship: Supreme Court Case Explained - Legis1"
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkUmF3R1JHd2o1dHBwN2NTZ2c3T2J2bGFIcWJZWGhJTHNPaFNEbUl4d0VVTFJiY1dIMzMyZ0pVVWM1YTdFY0xCaU9QcjB1LVhaZld1MW4wSzNfcEo4clRTYTljSQ?oc=5",
+          "published": "2026-05-06T21:19:00+00:00",
+          "publisher": "The New York Times",
+          "title": "House and Senate Republicans Reach Deal to End Homeland Security Shutdown - The New York Times"
         }
       ],
       "hits": 2,
@@ -159,9 +146,9 @@
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -172,9 +159,101 @@
       "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObXEzLWRxRUhxWDQ3UzFBSHdLZjFrdFRVRlRxbENFeXdITUFveTFEeFFyS2MwbUU3Nzc1YWpQUFhyaW00WG9zRmttMG1XaFQxVXhtZjRxRkRRWWVOV2ZocVprYzZVYlJFTGNVbVc5bjFISDBvejRpOC1nQjRqZUpSbFIwQXdYaDhpMkFzYXVNN1JSdlhYU24yQ1k1czN2THdyQ0FIU3RkOTg?oc=5",
+          "published": "2026-05-07T09:44:20+00:00",
+          "publisher": "Mid Hudson News",
+          "title": "Candidate challenges ballot disqualification in 104th Assembly race - Mid Hudson News"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMHFlQTJYN25ZUDY1S0NObkk2SFlEUC1kckxENURkbC1yUmZ0bUhwYzk5Vm1lY2FkZWZEU241NlU2OTFfNFpYVTRERGpuQTZoRzJJWHJZX0E0Z2RYV21TTzJ4SVlyR21PN1pNMS1DUi00alkwNTVTN2NNWWlvdEdHY1JkZkdYY0xldVE1a09PTXlPOXJQY2tJS0JsZms4dFRDSFVoRkE3a25ZS0pRVml4akVGTm1mUzlkWGhvbg?oc=5",
+          "published": "2026-05-07T11:36:06+00:00",
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Casey Putsch, candidate who asked Grok to praise Hitler, loses in Ohio GOP primary - Jewish Telegraphic Agency"
+        }
+      ],
+      "hits": 2,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRWZqUzBDX1FoQm9HR0NkWm9SMmxUazFvMWMxbm1ZZlI3SzdQZU52VnlFZm5qdklsWnlGYlJqLWhYTEdQRlg2Zm1vQjBBRXpxVVZtZW5Bc0syOTJjQUthdS0teG1JaVZuNVJwU0VHZWcxSVd4Z0prUGZ5bFVXRERtTmFlbHJiUzBFZURmbF9kSWtGLV9Ob01NZmZ0Vzc0NXo4YkJkWmRfZWhhaXc?oc=5",
+          "published": "2026-05-07T05:30:13+00:00",
+          "publisher": "Jacksonville Journal-Courier",
+          "title": "Commentary: When judges are targeted, the legal profession must respond \u2014 Michelle A. Behnke - Jacksonville Journal-Courier"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU3licmVGU3hQSHo3eGY1dzN1T2o0MVZ2T09LNFVaaFV6cG1wNjVfcmN0T29fT0VOVm1HQzdyRExuNDlUR0pVRUFhSTZkRVlMdnBraUd6UkJWU1FIa3FBSXBJNXhWS0VtcnNUUEtoVFdtWU44X2UyQjhKc1pYc1FBNGt0TjNLV1F0bFdN?oc=5",
+          "published": "2026-05-06T19:16:57+00:00",
+          "publisher": "AOL.com",
+          "title": "Wyoming official faces backlash after posting 'hang bad judges' comment on abortion ruling - AOL.com"
+        }
+      ],
+      "hits": 2,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN1ZXUHUxWTM0blNrR0hPZVJHdWhJbFJHUk9wWk5qclVhNGV6bmoxYUpkemNOT1lNS2xLdndsR095UGYyazVZT21FVHJFaHVFS2ptS1dTQUxCcFlhRlBYMlEzRWdGV2NpSEp0NVF3TTVEcldXMjJ6N29Fdkh2YWYwQ1pYSmlzRklYRG1CQXEwWkVONHl2NS1hR1llRndLVzZnMWcyeVVfYndUUDRhMVgzWkVFUzNGQQ?oc=5",
+          "published": "2026-05-05T19:16:00+00:00",
+          "publisher": "KFF",
+          "title": "Litigation Involving Reproductive Health and Rights in the Federal Courts - KFF"
+        }
+      ],
+      "hits": 1,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON1ZxWVJkVGsyX21nN3VsVnZqSVQya3cwY0VXZExkdGRUaGNOTnFyTkpUajJSd21VR2czQmtiS2VJWlRyZGJIRC0yV3BUNU1uWld2V1FzcXBQNUxDNWQtOVdOclg2YU15TWR5cEJyRDdQZUphdWtNYUY3M0k4bjBQb2FBU2lFNjVFcF82Vnh3Q0FnU1owYmJ1VG5LTFY5clVwd0JGdE0zQUk?oc=5",
+          "published": "2026-05-06T19:30:08+00:00",
+          "publisher": "Global Project Against Hate and Extremism",
+          "title": "12 Warning Signs From GPAHE\u2019s Report \u201cProject 2025 and the Unraveling of America\u201d - Global Project Against Hate and Extremism"
+        }
+      ],
+      "hits": 1,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -185,48 +264,29 @@
           "published": "2026-05-06T11:54:08+00:00",
           "publisher": "Devdiscourse",
           "title": "ILO Warns Attacks on Journalists Threaten Democracy as Global Press Freedom Crisis Deepens - Devdiscourse"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeS1UQlJFNTNwVHg0RDR4SVB1T0d0UzBza0RwVEQ4ODhVTlZZRE9UdFk1UkhVS3dlajN3eFJuSU5VQTR5NDdDTUZmUm1pRlV1a1ZsOVJqOFdLNXFzQmNNQ0ROS1dlb3ROOE5tZlNYNVVWN2dsRjFaTUtKaHZwTnQ5eE10LXFMdF9wSlJzVGZ6eGZ3aklyRHZpOGhnQ0hneWJ4TTFQLWxrUC16NFpiTXI2cVJDWGNVbW15ZExXZG9POWZuUQ?oc=5",
-          "published": "2026-05-05T16:01:45+00:00",
-          "publisher": "Sahara Reporters",
-          "title": "Media Group Condemns Attack On TheCable Journalist, Warns Of Deepening Threats To Press Freedom In Nigeria - Sahara Reporters"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRURBbGhqNVBQd0R2SzFJQXktUDJxLVAyeFZVNENzWG1mT1NVTEZoTE9wdnBpdXkyOTExZm5BSHhOYUVRSzdQZ2VtRjFMaXF3TVY0aTQwamZOMVJGQmluMzg2di02clJzRE91WGt4aU5DdVRCR0l2ZEhvZVlibEs1UmIyNkczUlFnMlFDeUtLWlFTS203WGN0R3hyYUhLRllTQVprT2RxcnhjTkxzdjFjZ2todldyNVZSYm5rSlhzT1RzS3JiQVZ5R19yY9IBywFBVV95cUxPRURBbGhqNVBQd0R2SzFJQXktUDJxLVAyeFZVNENzWG1mT1NVTEZoTE9wdnBpdXkyOTExZm5BSHhOYUVRSzdQZ2VtRjFMaXF3TVY0aTQwamZOMVJGQmluMzg2di02clJzRE91WGt4aU5DdVRCR0l2ZEhvZVlibEs1UmIyNkczUlFnMlFDeUtLWlFTS203WGN0R3hyYUhLRllTQVprT2RxcnhjTkxzdjFjZ2todldyNVZSYm5rSlhzT1RzS3JiQVZ5R19yYw?oc=5",
-          "published": "2026-05-05T03:40:08+00:00",
-          "publisher": "Devdiscourse",
-          "title": "Press Freedom Under Siege: The Milei Administration's Controversial Stance - Devdiscourse"
-        }
-      ],
-      "hits": 3,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHSmpFVFVqY2YzalZkMXMwMEIzUk5QcUpBSnFSZ3puQ04yY2cyXzQyTC1SUFd1c1J0SUJ1djNXOWxsQmFabDRUaWxURnBPQ0UwQWJWbUdyaWs?oc=5",
-          "published": "2026-05-05T02:18:01+00:00",
-          "publisher": "AFRO American Newspapers",
-          "title": "They cancelled the election - AFRO American Newspapers"
         }
       ],
       "hits": 1,
-      "id": "election_delay_or_cancellation",
-      "name": "Election Delay or Cancellation",
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "hits": 0,
+      "id": "election_delay_or_cancellation",
+      "name": "Election Delay or Cancellation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -237,20 +297,7 @@
       "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -263,7 +310,7 @@
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }
