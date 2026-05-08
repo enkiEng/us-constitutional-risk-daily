@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 17.31,
+  "average_7d": 17.05,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -10,34 +10,34 @@
   "confidence": "High",
   "data_available": true,
   "delta_previous_day": 1.0,
-  "delta_vs_7d": -2.36,
+  "delta_vs_7d": -1.37,
   "domain_breakdown": [
     {
-      "avg_severity": 0.6625,
+      "avg_severity": 0.575,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.64375,
+      "points": 3.1624999999999996,
       "weight": 22
     },
     {
-      "avg_severity": 1.2166666666666666,
+      "avg_severity": 0.9833333333333334,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 4.5625,
+      "points": 3.6875,
       "weight": 15
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 1.0,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.5166666666666666,
+      "points": 3.5,
       "weight": 14
     },
     {
-      "avg_severity": 0.9666666666666667,
+      "avg_severity": 1.0,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.1416666666666666,
+      "points": 3.25,
       "weight": 13
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-07T13:00:35.785966+00:00",
-  "previous_score": 14,
+  "generated_at": "2026-05-08T12:49:52.172738+00:00",
+  "previous_score": 15,
   "provisional": false,
-  "score": 15,
-  "score_raw": 14.95,
+  "score": 16,
+  "score_raw": 15.68,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,84 +84,32 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZnpzZEJKVlVGMW9sWWx4MlhicVUxa1NtWl9URy15d2RuQTVMZk93SFZxYmNYbVZ6c1ZkVks1UW9TTW1HTFlhNkw2TUNQUlY5WkxfTTZ2RmEwZy1xbkJDUlMyQThIdFFmc0tyVmMxcTNiV1ZLdzhKM1M2UnhlY0U5SWhIUWtRN21QSzh3N0diMzJrcGVnT1B5Y2lYb2FyYjU0TUcxWlJ6S1VrSVVySlNWZm5XWl9od1VoUUhoMDNwYw?oc=5",
-          "published": "2026-05-07T08:11:00+00:00",
-          "publisher": "New York Post",
-          "title": "Trump administration can keep 2020 election ballots seized from Georgia, judge rules - New York Post"
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeW85QWtFWTFTNU9qOUlQeWZPd1pacGp4ODRlSjZwcWgxbC1lQlU1YUpiYXk4ODRMRXk2bWtwSDlDLTRYMEo3SWpMekIxSXJkRkozSVFzcjZXaHZpOTBLNXpfaUREc25Oc1RhbVR3TGQyT0xSOC1PZFhBd1lfOElRMDJXUzk3T1pBaE9xTnU1MlBLMFBmaFRPYWRQUmlMSmx6?oc=5",
+          "published": "2026-05-07T19:23:23+00:00",
+          "publisher": "Issue One",
+          "title": "Health Check for the 2026 Elections: Are the Safeguards Still Holding? - Issue One"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc3RvY2xFYVlleDdaZUN0dWc0RkQ4cGw5Y2NpRXZ4dEVqZHF6VENzQkt3Uk1LZGxhaWlOTVFfX1ZOTEhWR2dCNGxjMFVqcWJaZnY1MXRBWG1VTkdVQ0JPV0hzdUw3NXdIODhfMGhPQUYxNWNScnZwQ2xhdHVDX1FnUWJ5ZmtEc3Yy?oc=5",
-          "published": "2026-05-07T07:11:15+00:00",
-          "publisher": "AOL.com",
-          "title": "Trump election integrity push exposes massive amount of dead people on North Carolina voter rolls - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYTU41ZUZ4bXdmSlFMTzVWUWtpRjFoRFpodG9GOVQ3TG0td3psVEJpSnV4ZWZWcjFDWVBRbGplMjROVWFZOGdEUnhUaHpPUWpUd3l2eXZCelNtcUM1QVJvMXFnTQ?oc=5",
+          "published": "2026-05-07T16:17:00+00:00",
+          "publisher": "The New York Times",
+          "title": "Bystander Hit in Secret Service-Involved Shooting - The New York Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWnltcFlDMXZyNkR6WnBmeHpSNDZqSXFiOHFKSG9DWXhBTFB3ai13R3BUM21oLWoyZnJHOERlYWZ2VVFWeUJRSTRfRkNreUdEcWI1dnhWc1cxUktqMl9zaGpsbGJqcjRmU21ITFFHeGdWY1Yya1NEUkEySHhESG1taElMV3NNSmpkTUdJY0Q5ZTdvMlJ2aTlMdllrMzJHaHdNU0N6cDNvVG8tbURtX1hEdHJ5T3VUZ1ZDU0NjNDRqYWxWRzZIbHpyLUY0Z0FnS2piajFiUkhOMjZLb2NJY01XQUpB?oc=5",
-          "published": "2026-05-06T10:07:00+00:00",
-          "publisher": "The Columbus Dispatch",
-          "title": "LaRose fills Delaware County elections board seat after Leneghan ousted - The Columbus Dispatch"
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZl9qY21oazJwc2h3eldrSE5zUUE5YWtUVTFnX3NrUHE4M2hzVUs5U0FMRE5LM1V0VmZGamxsOWhYQVl0ZUtvUXkzT3JaenN5N3l0QVRsdFJid1FaVHUzUlI4cldGNEZ5dWVkcEpXYWZLblpmeDdHRWVrN0dKaWJIOVpkWVR1YWhIUEJCS3hmdzRtOG42amJKNjZoNWM0WUUwUHlOZ2RMOWFseVV1OTlTMFM3cEY2S3o4cGRoWVg0NmFvYzFna3VncHJvNWRDQmVydmpWeENONHZSZzBCaEFubw?oc=5",
+          "published": "2026-05-07T18:00:00+00:00",
+          "publisher": "Talking Points Memo",
+          "title": "The Red State Scramble to Gerrymander Away Black Electoral Power Has Been More Blatant Than You\u2019d Expect - Talking Points Memo"
         }
       ],
-      "hits": 15,
+      "hits": 8,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 10
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tTWFZUFE4Qml4b19QRGVCcnhkSVlOMVA3UjZkUDVKMDFVUTIzN19HUnNnZmxCZ3ozV0VmazZqMmI3NGZCVy1KWE1mRllXNzlBNGJUVHhDQkFZTVZES3gtVWpEdw?oc=5",
-          "published": "2026-05-06T21:19:00+00:00",
-          "publisher": "The New York Times",
-          "title": "Judge Halts White House Ballroom Construction - The New York Times"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkUmF3R1JHd2o1dHBwN2NTZ2c3T2J2bGFIcWJZWGhJTHNPaFNEbUl4d0VVTFJiY1dIMzMyZ0pVVWM1YTdFY0xCaU9QcjB1LVhaZld1MW4wSzNfcEo4clRTYTljSQ?oc=5",
-          "published": "2026-05-06T21:19:00+00:00",
-          "publisher": "The New York Times",
-          "title": "House and Senate Republicans Reach Deal to End Homeland Security Shutdown - The New York Times"
-        }
-      ],
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 8
     },
     {
       "critical_hits": 0,
@@ -174,20 +122,118 @@
           "title": "Candidate challenges ballot disqualification in 104th Assembly race - Mid Hudson News"
         },
         {
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kZzJUYmp2dmlOaTJGQWhqbGVUZnZhajhBclpsU0NlUG45bFJoWkE2LWYxRWZjR3RSS0hVbko4N1ZuQ1ZiS1dSeVJJbGtoNXBscTVYTHU4aXFYSEV3OV9xT3hhY1E?oc=5",
+          "published": "2026-05-08T06:30:15+00:00",
+          "publisher": "\uc544\uc2dc\uc544\uacbd\uc81c",
+          "title": "[6.3 Election] Park Sunghyun Revived as Gwangyang Mayoral Candidate...Independent Run Now Possible - \uc544\uc2dc\uc544\uacbd\uc81c"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMHFlQTJYN25ZUDY1S0NObkk2SFlEUC1kckxENURkbC1yUmZ0bUhwYzk5Vm1lY2FkZWZEU241NlU2OTFfNFpYVTRERGpuQTZoRzJJWHJZX0E0Z2RYV21TTzJ4SVlyR21PN1pNMS1DUi00alkwNTVTN2NNWWlvdEdHY1JkZkdYY0xldVE1a09PTXlPOXJQY2tJS0JsZms4dFRDSFVoRkE3a25ZS0pRVml4akVGTm1mUzlkWGhvbg?oc=5",
           "published": "2026-05-07T11:36:06+00:00",
           "publisher": "Jewish Telegraphic Agency",
           "title": "Casey Putsch, candidate who asked Grok to praise Hitler, loses in Ohio GOP primary - Jewish Telegraphic Agency"
         }
       ],
-      "hits": 2,
+      "hits": 3,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeHJEU3FLT0R0dW9hd1JCQUZTbkRQSXU1eEdoWHhEZkdqTmczVFNoaXNCdkk2aGlDdXZBSDFpMTZBck1lQXBZN1BTM1FDT2I0bFJNQVluUjFPTV9YY3VTMUdBeWVSN0Jwa3JpN0wxNFpUSk03NnVkZ0k4NWl0VFFCaXJoSVYzRjA1dnZEbVBn?oc=5",
+          "published": "2026-05-06T22:06:45+00:00",
+          "publisher": "AOL.com",
+          "title": "Trump administration defied federal court orders at least 31 times, review finds - AOL.com"
+        }
+      ],
+      "hits": 1,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tTWFZUFE4Qml4b19QRGVCcnhkSVlOMVA3UjZkUDVKMDFVUTIzN19HUnNnZmxCZ3ozV0VmazZqMmI3NGZCVy1KWE1mRllXNzlBNGJUVHhDQkFZTVZES3gtVWpEdw?oc=5",
+          "published": "2026-05-07T22:08:00+00:00",
+          "publisher": "The New York Times",
+          "title": "Judge Halts White House Ballroom Construction - The New York Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCRGMtRE5lOEJycTNrQ2FhekNDMWdBTzA4X0Z0YTBhUTN6NzJuZzFpWTAxN1huOFFzRFVtcW96VU94dXRJMnBZWkp1Y1lQeUlwUzZWcXlRMG9qaXBTYmJRbERZQ1QyR3MwanFZT2U2Y0wyQ3BPUGxV0gF3QVVfeXFMUEJEYy1ETmU4QnJxM2tDYWF6Q0MxZ0FPMDhfRnRhMGFRM3o3Mm5nMWlZMDE3WG44UXNEVW1xb3pVT3h1dEkycFlaSnVjWVB5SXBTNlZxeVEwb2ppcFNiYlFsRFlDVDJHczBqcVlPZTZjTDJDcE9QbFU?oc=5",
+          "published": "2026-05-08T05:35:13+00:00",
+          "publisher": "Xpert.Digital - Konrad Wolfenstein",
+          "title": "Zehn-Prozent-Zoll unzul\u00e4ssig \u2013 Wenn Richter Handelspolitik machen m\u00fcssen: US-Gericht kassiert Donalds Trumps weltweite Z\u00f6lle - Xpert.Digital - Konrad Wolfenstein"
+        }
+      ],
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMDFJRENZWVRtNnlGQzJUT1p6RDl4TkxlRnc3NnMxdWwzSi1nMGlYaFdmQnNTT0RrM2tJNmlmWnBsWDVRLTUwNHpwZ19OOU1tVnZzUHoyUGJuLUdiSDlEY1oydDZwbjdSQVVWMWNGcmNyeFdob1JVelRHWmlBeUQtZkJva002YjRFUmR5VlU5aTlKdDRfdGpPSGdSLVdnS00?oc=5",
+          "published": "2026-05-08T08:45:12+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "The JournalismPakistan Global Media Brief | Edition 19 | May 8, 2026 - Journalism Pakistan"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVmpPZ1Jud2I2YzlRcEhLMjhZb3N5dHE5YjJPbklRVllMOTRGSllRdFhNeEQzX2ZBNEstbjlETVpUX1o5RGNFTlVHYW1xdElOQUY5b0NYU1Rlb0lRbkJhOWRXNDJ4alc1dy13MW5rNkNyV19wOWFXVHlhVVlyTzN1OWdtT3d6OHhYZGR3aUliZEJQX3Fua3hZN0pwMzhkXzZuOWtCbUNURkc3R2RHTExQNGJ3d09IZ21L?oc=5",
+          "published": "2026-05-07T14:29:28+00:00",
+          "publisher": "Kashmir Media Service",
+          "title": "\u2018India\u2019s unprecedented crackdown on media freedom during Indo-Pak standoff 2025\u2019 - Kashmir Media Service"
+        }
+      ],
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR1FCdldMTXlHWF81a0FjckpNQWZOMnhsLUdfS25EME5KYlFwTGpqTHlzYnFYeldRZ2wxeDRtbG15MG1sOWFsMU9iU1h3M0ozWlR5VUxzZU10WTRGS0xpUFcxUmxtSF94aGR2SU5iTmZ2NlliMzdhYnBGdl9yVXhsMGx3UHFlZ2h6NFJwYWZ5VnVfd0JHRlZJMmFubDR1NndGREI3eUE4V3Z5MnJrQlo1TzR3MXZSNGs?oc=5",
+          "published": "2026-05-06T21:28:44+00:00",
+          "publisher": "Democracy Docket",
+          "title": "Trump\u2019s FBI raids office of Virginia redistricting champion Louise Lucas - Democracy Docket"
+        }
+      ],
+      "hits": 1,
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -198,37 +244,51 @@
           "published": "2026-05-07T05:30:13+00:00",
           "publisher": "Jacksonville Journal-Courier",
           "title": "Commentary: When judges are targeted, the legal profession must respond \u2014 Michelle A. Behnke - Jacksonville Journal-Courier"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOU3licmVGU3hQSHo3eGY1dzN1T2o0MVZ2T09LNFVaaFV6cG1wNjVfcmN0T29fT0VOVm1HQzdyRExuNDlUR0pVRUFhSTZkRVlMdnBraUd6UkJWU1FIa3FBSXBJNXhWS0VtcnNUUEtoVFdtWU44X2UyQjhKc1pYc1FBNGt0TjNLV1F0bFdN?oc=5",
-          "published": "2026-05-06T19:16:57+00:00",
-          "publisher": "AOL.com",
-          "title": "Wyoming official faces backlash after posting 'hang bad judges' comment on abortion ruling - AOL.com"
         }
       ],
-      "hits": 2,
+      "hits": 1,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN1ZXUHUxWTM0blNrR0hPZVJHdWhJbFJHUk9wWk5qclVhNGV6bmoxYUpkemNOT1lNS2xLdndsR095UGYyazVZT21FVHJFaHVFS2ptS1dTQUxCcFlhRlBYMlEzRWdGV2NpSEp0NVF3TTVEcldXMjJ6N29Fdkh2YWYwQ1pYSmlzRklYRG1CQXEwWkVONHl2NS1hR1llRndLVzZnMWcyeVVfYndUUDRhMVgzWkVFUzNGQQ?oc=5",
-          "published": "2026-05-05T19:16:00+00:00",
-          "publisher": "KFF",
-          "title": "Litigation Involving Reproductive Health and Rights in the Federal Courts - KFF"
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ3hUN1VNc0t6TkxqYUEyU0d6MGttNERzWGlXQ3VVLUVPNjVFbDdIUnowTVpUZGxDYzJKb0RpbDlXdFBlcFQtSFg1Y3dudThCMkpsVkN0LVlxaTFzTXBCVU05NGpMc1MxMzlVV0U1eFVFd2FkYnMzaUZLX1dJR1hsWVV5Z2g?oc=5",
+          "published": "2026-05-08T08:00:00+00:00",
+          "publisher": "CBC",
+          "title": "Ottawa to expand defence buying powers when national, economic security at stake - CBC"
         }
       ],
       "hits": 1,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeW85QWtFWTFTNU9qOUlQeWZPd1pacGp4ODRlSjZwcWgxbC1lQlU1YUpiYXk4ODRMRXk2bWtwSDlDLTRYMEo3SWpMekIxSXJkRkozSVFzcjZXaHZpOTBLNXpfaUREc25Oc1RhbVR3TGQyT0xSOC1PZFhBd1lfOElRMDJXUzk3T1pBaE9xTnU1MlBLMFBmaFRPYWRQUmlMSmx6?oc=5",
+          "published": "2026-05-07T19:23:23+00:00",
+          "publisher": "Issue One",
+          "title": "Health Check for the 2026 Elections: Are the Safeguards Still Holding? - Issue One"
+        }
+      ],
+      "hits": 1,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -257,31 +317,11 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaktpaF92cmFxUFZ0RmF5cmFaRGJ5S0JoNExpMTExYkhFSTBOQkRxV1BfTFNfR19WNWRDdVFwWWtKWDJsYVo3am9rM3R4RzE2cGo2VHc1eE1OeTNWS1AzSU9ZbDF3VDl1czBTTFRJZkE2bzhLWXVmNDBZaHM4U0JWZEwxRjlwZUwtb3RVLTd1cHlGY3lNcjNrXzJYaGNBODZXXzV2cllTbjdYQzUzRVdrRVVMWVFGRmV6SnlaYUpVVzFXT3V3dTJkcHNGWnR2MXlpQ3hvNDVnLUXSAd4BQVVfeXFMT1dXZnpXdk1feDBSdVg3ekNUU1ByNTVEU2hDTGdwWGRWREotR05rSlVxNmc0UklmUjhpdzZERGpuZlpUVGZCcXplQXVkYWg4ekczc3dLVDV2SEdSdm1jZEc2T3BYR2VoVGlSZTk1NWIySDQ4T3ZvZFdncF9pLTNjWWZXZjIyMDNXSVlLUWtIY1Zja3p3ZGYzb2JublNLUzBtQmhvczdyLUtZcm00SnV0OTYzN25UY2xTVC15aE5acUo0OGU3Q3RJOUtpaW44bVYtQ1AxUXZFZmhpUTBuNmln?oc=5",
-          "published": "2026-05-06T11:54:08+00:00",
-          "publisher": "Devdiscourse",
-          "title": "ILO Warns Attacks on Journalists Threaten Democracy as Global Press Freedom Crisis Deepens - Devdiscourse"
-        }
-      ],
-      "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "election_delay_or_cancellation",
-      "name": "Election Delay or Cancellation",
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
@@ -290,24 +330,11 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "elections_transfer",
       "evidence": [],
       "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "id": "election_delay_or_cancellation",
+      "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
