@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 13.64,
+  "average_7d": 12.41,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,35 +9,35 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -3.61,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -3.72,
   "domain_breakdown": [
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.5,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.7875,
+      "points": 2.75,
       "weight": 22
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.31666666666666665,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.0624999999999996,
+      "points": 1.1875,
       "weight": 15
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 0.5499999999999999,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.333333333333333,
+      "points": 1.9249999999999998,
       "weight": 14
     },
     {
-      "avg_severity": 0.4166666666666667,
+      "avg_severity": 0.09999999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.3541666666666667,
+      "points": 0.32499999999999996,
       "weight": 13
     },
     {
@@ -72,54 +72,28 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-11T13:20:29.651636+00:00",
+  "generated_at": "2026-05-12T13:03:05.691569+00:00",
   "previous_score": 10,
   "provisional": false,
-  "score": 10,
-  "score_raw": 10.04,
+  "score": 9,
+  "score_raw": 8.69,
   "successful_queries": 22,
   "top_signals": [
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVnpKeHo1QktjeW5MQXYtVEdoMDBmN0ZYV0hINkJPNEZoTHg2VTM5TTRRNU1JblJwRXRGbEVMLWZVRE53MnQ4Z0VJRE5YdERmMnNtWGoycUlwOVR0LUlKYlR1MVhITXlfRXZXYTJzUnRmSTlhUl9fQURub1A0S1lmckJQNTZidmJ6Z09OUjBkMHlxYy1vS3BPR3J4WVhFQQ?oc=5",
-          "published": "2026-05-11T10:39:29+00:00",
-          "publisher": "Midland Reporter-Telegram",
-          "title": "Voter confusion and headaches for election officials follow hasty GOP push to redraw US House seats - Midland Reporter-Telegram"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdk9OS0djUl9DM3V6OTQ1cUp6clBsUERuMEhIVC1hYVlnX3RaZG9aaDBrLTBiSnVHakh1UnA2bkdyT0FLSFNMM2UzU2E0MzlFZExpY2xkX0RaY1huV1dDSTZ3S0laSGgxRE5LTXV3eFEyQzhfOEhGNl9tS0FzbjFuUzB3RG9GU1MxZlZyQkkzYkMyUGI1S0xHV1NwR0gzQmIwOWh4bWxXRVFyM0ExSzRaT2lYRmNScTRsaGxTaFlTSGZMWjVm?oc=5",
-          "published": "2026-05-10T09:03:00+00:00",
-          "publisher": "Cape Cod Times",
-          "title": "Falmouth election could redraw lines of authority in local government - Cape Cod Times"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYTU41ZUZ4bXdmSlFMTzVWUWtpRjFoRFpodG9GOVQ3TG0td3psVEJpSnV4ZWZWcjFDWVBRbGplMjROVWFZOGdEUnhUaHpPUWpUd3l2eXZCelNtcUM1QVJvMXFnTQ?oc=5",
-          "published": "2026-05-10T15:08:00+00:00",
-          "publisher": "The New York Times",
-          "title": "Bystander Hit in Secret Service-Involved Shooting - The New York Times"
-        }
-      ],
-      "hits": 3,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 3
-    },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLXczaUItQTFEYi1JZEVjMnVtRVpqUkdsdDN3SnJPa1FtSUZGMm5VYmY0N2ZQN3N0Q2VPb0t1MzJ3dU9qRkk0UFRsVlBMZ2lfQVBrM2E3S1d0UkhwSU9HSG90UnJIc0ZUQTBUMXZRdGMwOHJyY0tGVWNfUFNzOXpKN0lwZTlJVmY4MkxOa1ppMzZMc0kyT2NyRURwdXJEZjhRRkg2bzA2NFcwdXpnOUtNYlcxdGVTYXp4V1hFbi02SWxTdHc4anZkZTVOeGRwakViTTRFam9pWGRyUWxXMEtzU1QyNXFIX2RZemVlenpn?oc=5",
-          "published": "2026-05-09T16:53:34+00:00",
-          "publisher": "Garowe Online",
-          "title": "NUSOJ Raises Alarm Over Arrests and Harassment of Journalists Amid Rising Political Tensions in Mogadishu - Garowe Online"
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrM0ZmbXhCemNET1BxZlBmWUZ0Zl9vTDluQW1odC16NWJsb0dNU0VTOVpSVVVCMjFLU012UXdhT3d5QTNIUWg3cWtJQ2tGVjNndHNGY1VERHI2VVpjcFN0REkxc0dZU1JIek55U1QtTjVKT1NvQ0tYcDJvQQ?oc=5",
+          "published": "2026-05-12T07:22:06+00:00",
+          "publisher": "\u041a\u041c\u0411\u041f\u0427",
+          "title": "Central Asia: Repressive Digital Measures Undermine Civic Space and Free Expression - \u041a\u041c\u0411\u041f\u0427"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM1FVdTFrYTZXb3JBS29FM245LVpRMEJBb1pWV3k2bGpNVlNzRHozQnRZRTNpOUhQRzJ0bDgza1h3dU9BcUQydFdYVXl5VXRkM3dPRUxuVUZJU01FeDZkTmZxZnRDYjI0SW9JaElvWnNnSFFsNHNQRjFJalVjX1NHeEJ5RjF6QmdWZ3RzVDMxZ3ZwRTBpdDRWVlQ4N2lhdnZHb3FQdTRadml3Mmh6aVpuUmZyNDBFRWlWQ2gzaVotR2xHMDNDVGlB?oc=5",
+          "published": "2026-05-10T17:09:32+00:00",
+          "publisher": "Jurist.org",
+          "title": "UN human rights chief urges Tunisia to halt persecution against civil society and judiciary - Jurist.org"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeHRQd0NCRkF1ZVNRYmVYVGJiUlRkR2hsSlJKb3VtUjQ1NDlQVjVKWnBuSlYwN3dmQ3lBV3dFdFpDSHlpRk9rNmdjOUJGZlFwaU12WFBjVnVvOHZQSzJrWE1keE8wUG5fSThkY2FwN1hVTU5Sc2pSajRtUzVOdkRhZVVqYWZvcDN4SFF1SWZIRjZIOExCdG9QWEg5QnA3elFvQl9Qamo5cWJkZGZTeEVheTdzd0pwYk1UZld0TmxSM2xXZVdIbFpFetIByAFBVV95cUxPeHRQd0NCRkF1ZVNRYmVYVGJiUlRkR2hsSlJKb3VtUjQ1NDlQVjVKWnBuSlYwN3dmQ3lBV3dFdFpDSHlpRk9rNmdjOUJGZlFwaU12WFBjVnVvOHZQSzJrWE1keE8wUG5fSThkY2FwN1hVTU5Sc2pSajRtUzVOdkRhZVVqYWZvcDN4SFF1SWZIRjZIOExCdG9QWEg5QnA3elFvQl9Qamo5cWJkZGZTeEVheTdzd0pwYk1UZld0TmxSM2xXZVdIbFpFeg?oc=5",
@@ -128,14 +102,80 @@
           "title": "Somalia\u2019s journalist union raises alarm over arrests and harassment in Mogadishu - The Eastleigh Voice"
         }
       ],
-      "hits": 2,
+      "hits": 3,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wQ0VzeU00U3FWVkRCN0ZTLXJEYzVVbFBXc0hZN2c1OWx6Q1dUZ0VtcW9Kb0hpOWlSNW5HYVhYbFowVjhHZ2hoRFZpQ1Vjd2pfX1FzbkNKMWRXVTRPTVNLSF9hR3hLUmhJOHE2d1EyMlozdw?oc=5",
+          "published": "2026-05-11T12:14:30+00:00",
+          "publisher": "The Bureau | Sam Cooper | Substack",
+          "title": "The Cuban Regime\u2019s Fear of Its Youth - The Bureau | Sam Cooper | Substack"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNFhOaTlfMTVPZGwxMnhqVVdaaE5YcExRSE9FYkJfekhwWWYxRmNXZ19WZmViNk1yVjVMOHNKVk52ck52UGNFdkdPQlBhVVJSY1pTY2ZvMVBibmJSbGQxbmVBZmljT29uNWVlR1llSE93YnFtYm0yQnN6VFVUWm9ENHVoWmhHVmg3TjBSVkE0bV91SV9GTHlldU1DWTcxTWQ0ZnV5a0l4em8wWU5IT2VxWF9vTUZkOUhSX1FBZG5nM1hpMGFFNUxKM1ZGdlrSAcwBQVVfeXFMTzRYTmk5XzE1T2RsMTJ4alVXWmhOWHBMUUhPRWJCX3pIcFlmMUZjV2dfVmZlYjZNclY1TDhzSlZOdnJOdlBjRXZHT0JQYVVSUmNaU2NmbzFQYm5iUmxkMW5lQWZpY09vbjVlZUdZZUhPd2JxbWJtMkJzelRVVFpvRDR1aFpoR1ZoN04wUlZBNG1fdUlfRkx5ZXVNQ1k3MU1kNGZ1eWtJeHpvMFlOSE9lcVhfb01GZDlIUl9RQWRuZzNYaTBhRTVMSjNWRnZa?oc=5",
+          "published": "2026-05-12T08:30:41+00:00",
+          "publisher": "Asianet Newsable",
+          "title": "Mahrang Baloch slams Pak for criminalizing peaceful political dissent - Asianet Newsable"
+        }
+      ],
+      "hits": 2,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
       "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWU10RkNncHB0ZlRqMnQ3VnBJSkFZYmtqRHI5WHpOcGdFbmF2NEdNRjI2Rzg1OGswZ3ZjR2ZOWlBINVpjZjBuazUzWV91NTR5R2ZWX1ptTS1WR0I3VVlfZHRFUmoyT0V1QWdIY1FHZzltSXBEUDJGelllTjFSNGdRYk5fNFNFeE1LNVNkNkdsNmNBSWFVcEM3ckYxTTJvUWhmV0N6dEVpS1M0SThiUW05cG5IWnVCcG1aTGhaR200a29zT1hPVl9BRTVUMXJST3hpU09JanJGeHgtdUpMSFgwM0RrbUjSAfIBQVVfeXFMTjJRMHRaZDJuVVZYdVI0UjZtQWRoaWJKU0xiczBZbEtpWkRvSGxMLVZYRHRvWGx0dzhNd3V0VGlVRDA5Sk9SZktSWTZHTmIwNEpzVmVVZmdqTmtfV3liU0FTUU1nNDNmR0NXM25UczNzTzlFaUIyRk5PdldxcndhdW42c1NNSjFYS3Jja2x5amY5Q3FicnlaWEJCWXlTZzJQZHRQS3JCVzF5d2lfbW11aU0zMDNNbmxPenZXLVJRWEFIX2oyMHo2MXZVdENuUDRrckJ1bURaUXoxdXFuVDl4ZjRhQVc0bllmakJ3ZzJDUWhoTkE?oc=5",
+          "published": "2026-05-11T19:17:08+00:00",
+          "publisher": "The New Indian Express",
+          "title": "Bengal CEO Manoj Agarwal to be Chief Secretary in Suvendu govt; TMC calls it 'beyond shame' - The New Indian Express"
+        }
+      ],
+      "hits": 1,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSlU2LWJWeTRjcU5FbHpsS2lwYTY0NzBzSk5jRkZZcUhFdDBBUTFManNFc0p1czRIaHpNdjI5akstbmUtNzVhZHlheHdCVHZHaXZnSEdQYTc1QW53ZVBVVnF4cE1PWGpJVnFBdHYzUllyeHhTYlRNdkQxdzduYlNDLVU1UmZJTWRBUnJvMUVyelQ1UQ?oc=5",
+          "published": "2026-05-11T21:52:46+00:00",
+          "publisher": "Lawfare",
+          "title": "New Trove of Fulton County Case Materials Published - Lawfare"
+        }
+      ],
+      "hits": 1,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -160,62 +200,28 @@
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zQkd1TmY3cVo0dFNHVWlhbjd4ZG1Gb0xUNlVBNzNJdjh0dG02YTBReVdNOGM3ZU9vLTl3NThoSHZXMWxQVkt0YjFuZ1pNb3ZBcmpIUFpUTGx6QVJPM0Y2TXJCUHE4c21aZFB0S1FqQVo5ejM4MVh5NnFZeS1MVm8?oc=5",
-          "published": "2026-05-10T13:12:46+00:00",
-          "publisher": "AOL.com",
-          "title": "Platte County candidates seek \u2018more difficult\u2019 route to office after ballot mix-up - AOL.com"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQREVORVR3Y3R3UG5Zdy04SjBTbXVoaTV6S19ycjVKRmNCekpRNHdRVlZyb3N3c3FRUjI0UFRGdzVnTWF1Rkp4d0NnUC1qbk5LSEpHSjZ5ZFhfbnRLMWo5eGNZanlqQVhQNzV0SXBQcEVhZ193dU4wVnVMZFY4cUY1cFg2OTRWM0ZOSE1ocTNGWVltcktVX0dQb2pfb05uaUZmUG0zNllRU3VOel9keTZtS19xaXNVUEhVQ2liV21uUTJYN0U?oc=5",
-          "published": "2026-05-10T16:10:56+00:00",
-          "publisher": "MyJoyOnline",
-          "title": "Police disrupt NPP polling station election in Bunkpurugu over attempts to defy court injunction - MyJoyOnline"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wQ0VzeU00U3FWVkRCN0ZTLXJEYzVVbFBXc0hZN2c1OWx6Q1dUZ0VtcW9Kb0hpOWlSNW5HYVhYbFowVjhHZ2hoRFZpQ1Vjd2pfX1FzbkNKMWRXVTRPTVNLSF9hR3hLUmhJOHE2d1EyMlozdw?oc=5",
-          "published": "2026-05-11T12:14:30+00:00",
-          "publisher": "The Bureau | Sam Cooper | Substack",
-          "title": "The Cuban Regime\u2019s Fear of Its Youth - The Bureau | Sam Cooper | Substack"
-        }
-      ],
-      "hits": 1,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -224,32 +230,6 @@
       "hits": 0,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
@@ -261,8 +241,8 @@
       "domain_id": "executive_constraints",
       "evidence": [],
       "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
