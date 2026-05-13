@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.41,
+  "average_7d": 11.93,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,8 +9,8 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": -3.72,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": -1.21,
   "domain_breakdown": [
     {
       "avg_severity": 0.5,
@@ -20,38 +20,38 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.7666666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.1875,
+      "points": 2.875,
       "weight": 15
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.31666666666666665,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.9249999999999998,
+      "points": 1.1083333333333334,
       "weight": 14
     },
     {
-      "avg_severity": 0.09999999999999999,
+      "avg_severity": 0.3333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 0.32499999999999996,
+      "points": 1.0833333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.3333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.0,
+      "points": 0.8333333333333333,
       "weight": 10
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.825,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.5,
+      "points": 2.0625,
       "weight": 10
     },
     {
@@ -72,43 +72,43 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-12T13:03:05.691569+00:00",
-  "previous_score": 10,
+  "generated_at": "2026-05-13T13:05:32.577047+00:00",
+  "previous_score": 9,
   "provisional": false,
-  "score": 9,
-  "score_raw": 8.69,
+  "score": 11,
+  "score_raw": 10.71,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrM0ZmbXhCemNET1BxZlBmWUZ0Zl9vTDluQW1odC16NWJsb0dNU0VTOVpSVVVCMjFLU012UXdhT3d5QTNIUWg3cWtJQ2tGVjNndHNGY1VERHI2VVpjcFN0REkxc0dZU1JIek55U1QtTjVKT1NvQ0tYcDJvQQ?oc=5",
-          "published": "2026-05-12T07:22:06+00:00",
-          "publisher": "\u041a\u041c\u0411\u041f\u0427",
-          "title": "Central Asia: Repressive Digital Measures Undermine Civic Space and Free Expression - \u041a\u041c\u0411\u041f\u0427"
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWGd6Q2VOWndIT3ltMEpnZ21BY0J3UW1UM3NMczNnNG5jTEZHVGR2YXhacVZJTGJKM04zbjVaQWc2a1Y0LUVnbm44bGt5SHlEcFZRajc3a19vOTdxNGdPVXpsSUxKLUItakd1YkFUUElfMk1ZZTJES1o0QjhWRG1pMQ?oc=5",
+          "published": "2026-05-13T12:34:49+00:00",
+          "publisher": "AOL.com",
+          "title": "Conservatives accuse Jack Smith of improper ties with judges in Trump cases after new document dump - AOL.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM1FVdTFrYTZXb3JBS29FM245LVpRMEJBb1pWV3k2bGpNVlNzRHozQnRZRTNpOUhQRzJ0bDgza1h3dU9BcUQydFdYVXl5VXRkM3dPRUxuVUZJU01FeDZkTmZxZnRDYjI0SW9JaElvWnNnSFFsNHNQRjFJalVjX1NHeEJ5RjF6QmdWZ3RzVDMxZ3ZwRTBpdDRWVlQ4N2lhdnZHb3FQdTRadml3Mmh6aVpuUmZyNDBFRWlWQ2gzaVotR2xHMDNDVGlB?oc=5",
-          "published": "2026-05-10T17:09:32+00:00",
-          "publisher": "Jurist.org",
-          "title": "UN human rights chief urges Tunisia to halt persecution against civil society and judiciary - Jurist.org"
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWUtNMGFDa3RoNTltZWJuclE2d2ZnSVJVbDJrVGJNMGpkT1hsdm14b3hnZk5aYVpTSURoT2NoMm9OM2Z3SkpYTE5lNVM2QW9ucUhBVmhkQVZJYXpTU1hlSGtjV2VxQ0dVQnpqUW5IMTlud3Z3dVNFd1pxVHI0RTF3OVliRzJ0UEpSN180c1dUZERiRVZaTHfSAZYBQVVfeXFMTVlLTTBhQ2t0aDU5bWVibnJRNndmZ0lSVWwya1RiTTBqZE9YbHZteG94Z2ZOWmFaU0lEaE9jaDJvTjNmd0pKWExOZTVTNkFvbnFIQVZoZEFWSWF6U1NYZUhrY1dlcUNHVUJ6alFuSDE5bnd2d3VTRXdacVRyNEUxdzlZYkcydFBKUjdfNHNXVGREYkVWWkx3?oc=5",
+          "published": "2026-05-13T11:32:31+00:00",
+          "publisher": "National Review",
+          "title": "The Media Remains Blind to Democratic Radicalism - National Review"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeHRQd0NCRkF1ZVNRYmVYVGJiUlRkR2hsSlJKb3VtUjQ1NDlQVjVKWnBuSlYwN3dmQ3lBV3dFdFpDSHlpRk9rNmdjOUJGZlFwaU12WFBjVnVvOHZQSzJrWE1keE8wUG5fSThkY2FwN1hVTU5Sc2pSajRtUzVOdkRhZVVqYWZvcDN4SFF1SWZIRjZIOExCdG9QWEg5QnA3elFvQl9Qamo5cWJkZGZTeEVheTdzd0pwYk1UZld0TmxSM2xXZVdIbFpFetIByAFBVV95cUxPeHRQd0NCRkF1ZVNRYmVYVGJiUlRkR2hsSlJKb3VtUjQ1NDlQVjVKWnBuSlYwN3dmQ3lBV3dFdFpDSHlpRk9rNmdjOUJGZlFwaU12WFBjVnVvOHZQSzJrWE1keE8wUG5fSThkY2FwN1hVTU5Sc2pSajRtUzVOdkRhZVVqYWZvcDN4SFF1SWZIRjZIOExCdG9QWEg5QnA3elFvQl9Qamo5cWJkZGZTeEVheTdzd0pwYk1UZld0TmxSM2xXZVdIbFpFeg?oc=5",
-          "published": "2026-05-10T17:10:27+00:00",
-          "publisher": "The Eastleigh Voice",
-          "title": "Somalia\u2019s journalist union raises alarm over arrests and harassment in Mogadishu - The Eastleigh Voice"
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWGQ3cExWVFVYb1I5NEtZUTdlVFBKVjV0MnpJWklPQ2NwLWF2YUJRdVZGQ2ltdS1DTU1mVGJXRWFKb0JwQ0dIb2FteHlvNGo3R0h3Qlh6UWxOYmxMU29YT0NleUdJUFktemNTcFpTeV9tVEpfc1J5U3B3NXJoZDQtVS1FSE1XaVRxUTVtRlUzMkhfbDVnNTIzUmhDSHhGN2g0MUZ3amxhWkPSAa4BQVVfeXFMUGVpOFByMFRYWGY2WXljandOcmVhRXVvY0NPMUpwUTZTbkZDQnFWYUFIWHVGQS1yeEUzSEo0UFBHSVNkcm1DbXlZMnNvU3ZoZXdoa3JFalJxVHJPUFJwbWVqdGc5WHk3UWRMdjQ3SnBHSHFZekg5eEEyRGlWV3pQenAxQ1ZDaHYwLWdJVDRkNHgxRXdmdkZZRWp3Z0w3MjE4MHNFMXc4U1FoRjV5Yjd3?oc=5",
+          "published": "2026-05-13T07:36:00+00:00",
+          "publisher": "Inquirer.net",
+          "title": "2028 politics may be a factor in Duterte impeachment trial \u2014 Defensor - Inquirer.net"
         }
       ],
-      "hits": 3,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "hits": 4,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
+      "severity": 2.0,
+      "severity_label": "Yellow",
       "unique_publishers": 3
     },
     {
@@ -116,10 +116,10 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5wQ0VzeU00U3FWVkRCN0ZTLXJEYzVVbFBXc0hZN2c1OWx6Q1dUZ0VtcW9Kb0hpOWlSNW5HYVhYbFowVjhHZ2hoRFZpQ1Vjd2pfX1FzbkNKMWRXVTRPTVNLSF9hR3hLUmhJOHE2d1EyMlozdw?oc=5",
-          "published": "2026-05-11T12:14:30+00:00",
-          "publisher": "The Bureau | Sam Cooper | Substack",
-          "title": "The Cuban Regime\u2019s Fear of Its Youth - The Bureau | Sam Cooper | Substack"
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOXkyWjdjam53ZXpMVmE1UEdWTXdNdXdtYUtGTktORkRudnRRQml3b1paY05PQ1FyWl9zakN0UWVJbU51TkNrbnM5MkRhUkFma0hDSU8zdVZZa1c0aDFPbGlKOUlfR19NQzY2MGZTNktycGNQdHF1VE1OUWF4VHVDRFBTVjI1ZmJicDBvbEtKaU1IR0Fnb09BMGdYWGh4SzhjYWcweENLNk5uZ0w2cU9wRWNDZnZLZjJ3bkRnZXhsRWFzUU0xRzJ1WlZ0OVRiSV8xR3M5RVhmQTd4VFJ2eWhtVnpBV1dFSlpnU1pucWZGWVFXSG51UkE?oc=5",
+          "published": "2026-05-13T05:38:23+00:00",
+          "publisher": "HinduPost",
+          "title": "A Series on Human Rights in the United States, Part-5: Political Discrimination and the Democratic Deficit \u2014 Participation Without Power - HinduPost"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNFhOaTlfMTVPZGwxMnhqVVdaaE5YcExRSE9FYkJfekhwWWYxRmNXZ19WZmViNk1yVjVMOHNKVk52ck52UGNFdkdPQlBhVVJSY1pTY2ZvMVBibmJSbGQxbmVBZmljT29uNWVlR1llSE93YnFtYm0yQnN6VFVUWm9ENHVoWmhHVmg3TjBSVkE0bV91SV9GTHlldU1DWTcxTWQ0ZnV5a0l4em8wWU5IT2VxWF9vTUZkOUhSX1FBZG5nM1hpMGFFNUxKM1ZGdlrSAcwBQVVfeXFMTzRYTmk5XzE1T2RsMTJ4alVXWmhOWHBMUUhPRWJCX3pIcFlmMUZjV2dfVmZlYjZNclY1TDhzSlZOdnJOdlBjRXZHT0JQYVVSUmNaU2NmbzFQYm5iUmxkMW5lQWZpY09vbjVlZUdZZUhPd2JxbWJtMkJzelRVVFpvRDR1aFpoR1ZoN04wUlZBNG1fdUlfRkx5ZXVNQ1k3MU1kNGZ1eWtJeHpvMFlOSE9lcVhfb01GZDlIUl9RQWRuZzNYaTBhRTVMSjNWRnZa?oc=5",
@@ -163,7 +163,7 @@
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSlU2LWJWeTRjcU5FbHpsS2lwYTY0NzBzSk5jRkZZcUhFdDBBUTFManNFc0p1czRIaHpNdjI5akstbmUtNzVhZHlheHdCVHZHaXZnSEdQYTc1QW53ZVBVVnF4cE1PWGpJVnFBdHYzUllyeHhTYlRNdkQxdzduYlNDLVU1UmZJTWRBUnJvMUVyelQ1UQ?oc=5",
-          "published": "2026-05-11T21:52:46+00:00",
+          "published": "2026-05-11T21:37:21+00:00",
           "publisher": "Lawfare",
           "title": "New Trove of Fulton County Case Materials Published - Lawfare"
         }
@@ -179,18 +179,38 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdjY5OWlIUHlSeUNnazFYdVM4MTVlMTRuNWxUbldyMTlSUjVXWlFQU2thN20zVXdwZnRBM3F2T1ZJQktjdEU5RlNwcnRRdnBLa2FZeXdKMV8yN2VqRV9rRlhjemVhVXZMODgwZXU0Ty1sdzl0QzkzeG1uZEhLT3VGUTlYZnFfTkFReEQ0d0VmaHM3bkE1UTZzV20yU0dIVkhFSmZtd21MRzl4cTlTOE40?oc=5",
-          "published": "2026-05-10T14:09:14+00:00",
-          "publisher": "Time Magazine",
-          "title": "Trump Calls James Comey a \u2018Dirty Cop\u2019 As Trial Date Set for Former FBI Head - Time Magazine"
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbW5IYms4bkVrbm9zU2RJdGRZeXgxNWp1eS1XRFJOT2NyUWJ2T1A4RFZRVndmUWpCVVExOTJxUXl6Q1Y4U3FfSFFfd0JMTDk4NEpjZ3lOVmY2R0pSenVPQ2JuRmZ6d3pOM3RyUFdSaTNxR1QzNXVJdWp5X0tvNjRXSFRITE5VejA?oc=5",
+          "published": "2026-05-12T05:00:00+00:00",
+          "publisher": "Britannica",
+          "title": "Major Supreme Court Cases from the 2025\u201326 Term - Britannica"
         }
       ],
       "hits": 1,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV0VyUFZuaXowZGh4Z2ZnbWIteGFYdVpxS05jY29aVEZVdDN2UDZOWW5qMlZQQ0lTYjVkTUZzVFB4OXItZFRJaWgwRXFiYVJXNGN3dTZNM1A0QlhvbVNHbkk2NENfZ2FlZVlMRWxDbmVlVzJVcy1QbXVva3gtY0dKMThaemczd9IBiwFBVV95cUxNcGthUlRXSlRVUTV2Z2o5TkU5dmhCLWJmSnlfR2RNWjEtcWx5T3pJcDVFcGlWMHN6akNKcUdTVUdKYlBzdXB4Ykc1R1YzLW5uYnhhQ2hFa05HMFR5dnNnUjBhSnZsNnN4R3FNYl9jRm9DZFBHVmpwelNtWlVDdnJ4d3Jkc0lGNnB6dWJB?oc=5",
+          "published": "2026-05-13T12:00:00+00:00",
+          "publisher": "The Hill",
+          "title": "Supreme Court decision guide - The Hill"
+        }
+      ],
+      "hits": 1,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -202,11 +222,37 @@
       "domain_id": "opposition_pluralism",
       "evidence": [],
       "hits": 0,
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [],
+      "hits": 0,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [],
+      "hits": 0,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -217,32 +263,6 @@
       "hits": 0,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
