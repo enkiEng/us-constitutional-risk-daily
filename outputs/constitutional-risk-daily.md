@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-05-13 13:05:32 UTC
-- Score: **11 / 100** (Baseline Institutional Noise)
-- Previous day delta: **+2.0**
-- Delta vs 7-day average: **-1.2**
+- Generated: 2026-05-14 12:59:53 UTC
+- Score: **12 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+1.0**
+- Delta vs 7-day average: **+0.5**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -14,12 +14,12 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.50 | 2.75 |
-| Judicial Independence and Rule of Law | 15 | 0.77 | 2.88 |
-| Opposition Rights and Political Pluralism | 14 | 0.32 | 1.11 |
+| Elections and Transfer of Power | 22 | 0.41 | 2.27 |
+| Judicial Independence and Rule of Law | 15 | 0.67 | 2.50 |
+| Opposition Rights and Political Pluralism | 14 | 0.10 | 0.35 |
 | Executive Constraints and Emergency Powers | 13 | 0.33 | 1.08 |
-| Civil Service and Agency Independence | 10 | 0.33 | 0.83 |
-| Civil Liberties and Information Environment | 10 | 0.82 | 2.06 |
+| Civil Service and Agency Independence | 10 | 1.33 | 3.33 |
+| Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -27,36 +27,39 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
+| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 4 | 4 |
 | Judge Intimidation Campaign | judiciary_rule_of_law | 2.00 (Yellow) | 4 | 3 |
-| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 3 | 3 |
 | Election Administration Capture | elections_transfer | 1.00 (Watch) | 1 | 1 |
-| Alternate Elector Scheme Activity | elections_transfer | 1.00 (Watch) | 1 | 1 |
 | Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Independent Agency Capture | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
-| Politicized Prosecution of Opposition | opposition_pluralism | 0.65 (Green) | 0 | 0 |
-| Press Restrictions or Retaliation | civil_liberties_information | 0.65 (Green) | 0 | 0 |
-| Opposition Ballot Exclusion | opposition_pluralism | 0.30 (Green) | 0 | 0 |
-| Court Order Noncompliance | judiciary_rule_of_law | 0.30 (Green) | 0 | 0 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
+| Inspector General Retaliation | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
+| Alternate Elector Scheme Activity | elections_transfer | 0.65 (Green) | 0 | 0 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 0.30 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
+### Independent Agency Capture
+- [Mother Jones] Mergers, choking hazards, energy prices—does the Roberts Court really want Trump in charge of all that? - Mother Jones (2026-05-13) - https://news.google.com/rss/articles/CBMimAFBVV95cUxPTm50WnROSnMwLUZ3VlVtT0haMnpVQTRqbkRPQkoxc01rVzg0V09iQWJLUHRrNFpweTdoVUZmb1oyY2JFRUVMUTRkZUR4TXlvSGN2QlNWbnctOVNqRGVjNy0tZWxBdHZnNGlnWkNMbUd6S3lCM2JfUHJHLWpEOUNUbkM0d0dpNHhnZWR6UlhxU0JTWHdWVHVycg?oc=5
+- [NBC Boston] Senate confirms Trump pick Warsh as chairman of the Federal Reserve, following Powell - NBC Boston (2026-05-13) - https://news.google.com/rss/articles/CBMivAFBVV95cUxOWGNCMElTcmZyLUlsTG5BZHRoM1F5VnE2XzVHcmhRaXNPRVdNLXMyLW16SmZYS1J4Ukp5SE85Y0NwZ3FiRm5pRG42dFZNTk80NGRyMGxXZk1jaHY5MWVGMXpIM0pDTnphTGVMNzhHRXljOXhmWEg3bm1pMkRZNVB4VEExRkkxa09nOWpnMTBkRjU1YWVWbDMyeUl2RU80anlDWWFSV21raHpHbFVnSVBZcEk5X2xCUUxwNFU4YtIBxAFBVV95cUxPZEZNRlpTdS1SR2VqUzN6RmdOdDFMbUtoaFhXdzlqWnRpV1duSlc1SE9CNHRXWlVBXzNXTmJIUDUwd3lfY0NIdWlaWGw1VUVYemdBODJnbDd6SUR4dS1iWDhCc21kOFp3X3kySTNYWEE2clVuNDZRWGxtd2QxSHlQVk44dXVaMFRIMjdpRlJFaE54SjlqRlByS1JRbnVfVkQzeWU1cUxIbnQ5OE9mZ1JjMjZwZ3E0LXFld01KNExMaW1yQUY5?oc=5
+- [AOL.com] Covering for court-packing, Trump ordering a Cuba Libre and other commentary - AOL.com (2026-05-13) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUHY0UmNHT2VPV0VCb0dpbXB0M0tRNm42Y0tLTjA0eHdmREVQNWJfdklENGRPSkJPUEk3cEhxeVdraWVmd1B0UUNsMTk2MDBldXpib2FCTENUU0lFRkJweEF4NFBmeHlKNmdoWHJ4dmxrMXpoalRIN2lhMUlQTFFLb3lBNktKVkk0?oc=5
+
 ### Judge Intimidation Campaign
-- [AOL.com] Conservatives accuse Jack Smith of improper ties with judges in Trump cases after new document dump - AOL.com (2026-05-13) - https://news.google.com/rss/articles/CBMigAFBVV95cUxPWGd6Q2VOWndIT3ltMEpnZ21BY0J3UW1UM3NMczNnNG5jTEZHVGR2YXhacVZJTGJKM04zbjVaQWc2a1Y0LUVnbm44bGt5SHlEcFZRajc3a19vOTdxNGdPVXpsSUxKLUItakd1YkFUUElfMk1ZZTJES1o0QjhWRG1pMQ?oc=5
+- [AOL.com] Federal judge temporarily changes grand jury rules after Trump effort to charge members of Congress - AOL.com (2026-05-13) - https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ3ZYNENOaG1Cc0w5TU54bEVPdjBBUDR3V052UjlmMi1CcmwyVU9EZGJxbUdzd0ttaklreXBvTnViUG9TNy01VWZFdlBzMG05UUdNSTc0ZmFJZ0d0VFllQVh2UVZpUUpWVFBuaVlIMFhXQVZoSDN6bkVwSFJpQUw4Mks1Tkp4dVM1bzlR?oc=5
 - [National Review] The Media Remains Blind to Democratic Radicalism - National Review (2026-05-13) - https://news.google.com/rss/articles/CBMilgFBVV95cUxNWUtNMGFDa3RoNTltZWJuclE2d2ZnSVJVbDJrVGJNMGpkT1hsdm14b3hnZk5aYVpTSURoT2NoMm9OM2Z3SkpYTE5lNVM2QW9ucUhBVmhkQVZJYXpTU1hlSGtjV2VxQ0dVQnpqUW5IMTlud3Z3dVNFd1pxVHI0RTF3OVliRzJ0UEpSN180c1dUZERiRVZaTHfSAZYBQVVfeXFMTVlLTTBhQ2t0aDU5bWVibnJRNndmZ0lSVWwya1RiTTBqZE9YbHZteG94Z2ZOWmFaU0lEaE9jaDJvTjNmd0pKWExOZTVTNkFvbnFIQVZoZEFWSWF6U1NYZUhrY1dlcUNHVUJ6alFuSDE5bnd2d3VTRXdacVRyNEUxdzlZYkcydFBKUjdfNHNXVGREYkVWWkx3?oc=5
 - [Inquirer.net] 2028 politics may be a factor in Duterte impeachment trial — Defensor - Inquirer.net (2026-05-13) - https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWGQ3cExWVFVYb1I5NEtZUTdlVFBKVjV0MnpJWklPQ2NwLWF2YUJRdVZGQ2ltdS1DTU1mVGJXRWFKb0JwQ0dIb2FteHlvNGo3R0h3Qlh6UWxOYmxMU29YT0NleUdJUFktemNTcFpTeV9tVEpfc1J5U3B3NXJoZDQtVS1FSE1XaVRxUTVtRlUzMkhfbDVnNTIzUmhDSHhGN2g0MUZ3amxhWkPSAa4BQVVfeXFMUGVpOFByMFRYWGY2WXljandOcmVhRXVvY0NPMUpwUTZTbkZDQnFWYUFIWHVGQS1yeEUzSEo0UFBHSVNkcm1DbXlZMnNvU3ZoZXdoa3JFalJxVHJPUFJwbWVqdGc5WHk3UWRMdjQ3SnBHSHFZekg5eEEyRGlWV3pQenAxQ1ZDaHYwLWdJVDRkNHgxRXdmdkZZRWp3Z0w3MjE4MHNFMXc4U1FoRjV5Yjd3?oc=5
 
-### Political Speech Criminalization or Surveillance
-- [HinduPost] A Series on Human Rights in the United States, Part-5: Political Discrimination and the Democratic Deficit — Participation Without Power - HinduPost (2026-05-13) - https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOXkyWjdjam53ZXpMVmE1UEdWTXdNdXdtYUtGTktORkRudnRRQml3b1paY05PQ1FyWl9zakN0UWVJbU51TkNrbnM5MkRhUkFma0hDSU8zdVZZa1c0aDFPbGlKOUlfR19NQzY2MGZTNktycGNQdHF1VE1OUWF4VHVDRFBTVjI1ZmJicDBvbEtKaU1IR0Fnb09BMGdYWGh4SzhjYWcweENLNk5uZ0w2cU9wRWNDZnZLZjJ3bkRnZXhsRWFzUU0xRzJ1WlZ0OVRiSV8xR3M5RVhmQTd4VFJ2eWhtVnpBV1dFSlpnU1pucWZGWVFXSG51UkE?oc=5
-- [Asianet Newsable] Mahrang Baloch slams Pak for criminalizing peaceful political dissent - Asianet Newsable (2026-05-12) - https://news.google.com/rss/articles/CBMizAFBVV95cUxPNFhOaTlfMTVPZGwxMnhqVVdaaE5YcExRSE9FYkJfekhwWWYxRmNXZ19WZmViNk1yVjVMOHNKVk52ck52UGNFdkdPQlBhVVJSY1pTY2ZvMVBibmJSbGQxbmVBZmljT29uNWVlR1llSE93YnFtYm0yQnN6VFVUWm9ENHVoWmhHVmg3TjBSVkE0bV91SV9GTHlldU1DWTcxTWQ0ZnV5a0l4em8wWU5IT2VxWF9vTUZkOUhSX1FBZG5nM1hpMGFFNUxKM1ZGdlrSAcwBQVVfeXFMTzRYTmk5XzE1T2RsMTJ4alVXWmhOWHBMUUhPRWJCX3pIcFlmMUZjV2dfVmZlYjZNclY1TDhzSlZOdnJOdlBjRXZHT0JQYVVSUmNaU2NmbzFQYm5iUmxkMW5lQWZpY09vbjVlZUdZZUhPd2JxbWJtMkJzelRVVFpvRDR1aFpoR1ZoN04wUlZBNG1fdUlfRkx5ZXVNQ1k3MU1kNGZ1eWtJeHpvMFlOSE9lcVhfb01GZDlIUl9RQWRuZzNYaTBhRTVMSjNWRnZa?oc=5
+### Press Restrictions or Retaliation
+- [Latest news from Azerbaijan] What happened to the journalists in the Maldives? - Latest news from Azerbaijan (2026-05-13) - https://news.google.com/rss/articles/CBMieEFVX3lxTE05RTM3dDRJdndQUGJXTTN4blhJOTF5bUZSTXppTC00NFpSSUtuOWxzb3laZGVRM2tGNG1hdVZUUHAwN0pjSkZ0Qk95aC1ha1B2RkdvLUlMZFVtNXJUUXB6dmktRjk0QTlCMVVVSjh0UEd6cXFBMkJFMg?oc=5
+- [Defending Rights & Dissent] Rights Groups, Journalists, and Whistleblowers Call for Courtney Williams’ Release - Defending Rights & Dissent (2026-05-12) - https://news.google.com/rss/articles/CBMiugFBVV95cUxOc1cwdEh0V25paTJDUDYxczVIUmIxenpIcS1fVFBIaEhpNXZfcDd1NE9jWE5Td2tJWTFFT2FWakl5X0NfZ0U0RWdzQXhNY3dqVk9YakVXSHJoMnFjbVpzTDBBY21yVTFvUTEyZnBic0lOWWdpWkNEU2xlVHpYdXN4NE1NM1R0bE9KUmVUUi1TV1A4TEhHV2o2d0JTNVdycXQxWlJka3JhWDBWNlRkWFJBRlN2OEM4NTBxZXfSAb8BQVVfeXFMUGJCTEFLUTNBZVNJTVZpeGF2VnpqX1FPTWp6Zzl0Tl8wVkJESTdaYlU0UTQ4MVU2TXkzYzZESVZEdnhrWFBjS0lHYWpaeVd2cGFadXQyM0UyejVlOW5rYlJiUHdMSkRRT0dHX3NEYmV1SEJUX1RIaFZQUm1XcmdDYXk3cUlhTjdYUVhMR0N0RmpqSXpNcHlHVVJVQWZWVDBCOHgzSFR4bEgybmgxazJxT3hLU3FSZHo5MUF6U3B5Q28?oc=5
+- [LatAm Journalism Review] Revocation of newspaper executives’ U.S. visas follows years of attacks from Costa Rican government - LatAm Journalism Review (2026-05-13) - https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVkFSRklXRW9MOFFGRUs5UUdyM1Yxb1FzUjNpSXFrWmR6Smt2UE1ja0l5cTBGOENBSU5LNXFTdnRVMGttNTVYZ2tpd0oyQ3NUcjhfSDlFSkRrczRrME5MbnU2QS15X2trN0o4X1J2U09KSDc1QlFLV1VMREYyS3hYbWFibmRkeEF2Mzl3OUxEcUZRVEZfeGVtdEl6RGEwMnhDcUJMWHZidGx3alp4bHk4d2VObGxGNzdPUU1JOHZwOGttVU9LLXpnZmJick5pMDdjMGQ0NTJJQTk?oc=5
 
 ### Election Administration Capture
-- [The New Indian Express] Bengal CEO Manoj Agarwal to be Chief Secretary in Suvendu govt; TMC calls it 'beyond shame' - The New Indian Express (2026-05-11) - https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWU10RkNncHB0ZlRqMnQ3VnBJSkFZYmtqRHI5WHpOcGdFbmF2NEdNRjI2Rzg1OGswZ3ZjR2ZOWlBINVpjZjBuazUzWV91NTR5R2ZWX1ptTS1WR0I3VVlfZHRFUmoyT0V1QWdIY1FHZzltSXBEUDJGelllTjFSNGdRYk5fNFNFeE1LNVNkNkdsNmNBSWFVcEM3ckYxTTJvUWhmV0N6dEVpS1M0SThiUW05cG5IWnVCcG1aTGhaR200a29zT1hPVl9BRTVUMXJST3hpU09JanJGeHgtdUpMSFgwM0RrbUjSAfIBQVVfeXFMTjJRMHRaZDJuVVZYdVI0UjZtQWRoaWJKU0xiczBZbEtpWkRvSGxMLVZYRHRvWGx0dzhNd3V0VGlVRDA5Sk9SZktSWTZHTmIwNEpzVmVVZmdqTmtfV3liU0FTUU1nNDNmR0NXM25UczNzTzlFaUIyRk5PdldxcndhdW42c1NNSjFYS3Jja2x5amY5Q3FicnlaWEJCWXlTZzJQZHRQS3JCVzF5d2lfbW11aU0zMDNNbmxPenZXLVJRWEFIX2oyMHo2MXZVdENuUDRrckJ1bURaUXoxdXFuVDl4ZjRhQVc0bllmakJ3ZzJDUWhoTkE?oc=5
-
-### Alternate Elector Scheme Activity
-- [Lawfare] New Trove of Fulton County Case Materials Published - Lawfare (2026-05-11) - https://news.google.com/rss/articles/CBMikgFBVV95cUxNSlU2LWJWeTRjcU5FbHpsS2lwYTY0NzBzSk5jRkZZcUhFdDBBUTFManNFc0p1czRIaHpNdjI5akstbmUtNzVhZHlheHdCVHZHaXZnSEdQYTc1QW53ZVBVVnF4cE1PWGpJVnFBdHYzUllyeHhTYlRNdkQxdzduYlNDLVU1UmZJTWRBUnJvMUVyelQ1UQ?oc=5
+- [NOLA.com] Louisiana Attorney General's threat to take over New Orleans sparks outrage - NOLA.com (2026-05-14) - https://news.google.com/rss/articles/CBMihwJBVV95cUxQRW5jWlVDVkRUYTU3UWFhRUhfb3Qwdjk0Q0U1X3c4emF0WDVGU2dwWTJVcDF4YUJCcmxDUEhMcFZUYUFoNWU2QVZTNjN0cGRZUWsxeHN6TTdyTFk1d3dWcWZFNkQ1NWpUMUlkVl9SM3RpRUpydUpRS3ByYlhZeUdncVhvNFpzdUJTbDVTZVZtSGdMbEtPZ0dvN1BOb1pqXzJ5MkQ1TFJOYklYenpubkZuckRoNUxlTGFrc0ZMTlBtZV94LWlROEJtdUtBUE01SDgwd2l3eEpRRGFQS0ZNNnQ2TWowZUpCZWR6aXkwbXhtYzg5N2pBUGl5c0VMbUJJN0ZsMHM1WE53UQ?oc=5
 
 ### Legislative Bypass by Executive
-- [Britannica] Major Supreme Court Cases from the 2025–26 Term - Britannica (2026-05-12) - https://news.google.com/rss/articles/CBMihwFBVV95cUxNbW5IYms4bkVrbm9zU2RJdGRZeXgxNWp1eS1XRFJOT2NyUWJ2T1A4RFZRVndmUWpCVVExOTJxUXl6Q1Y4U3FfSFFfd0JMTDk4NEpjZ3lOVmY2R0pSenVPQ2JuRmZ6d3pOM3RyUFdSaTNxR1QzNXVJdWp5X0tvNjRXSFRITE5VejA?oc=5
+- [The Eastern Herald] Trump Tariff Refund Chaos Triggers $166 Billion Corporate Battle - The Eastern Herald (2026-05-13) - https://news.google.com/rss/articles/CBMilgFBVV95cUxOS2JpcnJHaE9tYWlrTk9pNjJSUTlfcmlKUUpQNDRyR3VuZ0g0eWlNQzJNQUZsaWlnalVBZmR4YVNveTd4aVpCVDRRbUg4ZWFNNW5fRnlQNmtvcjVOazZ3TVAzTHlTY1h1VUp5V1JFZmlwOG5uREx5NVZrcWMtU00tS3gxbzZOaThZS1ZVdFRWdE96SU5WOGc?oc=5
 
 ## Data Quality
 
