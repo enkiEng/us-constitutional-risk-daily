@@ -1,36 +1,36 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.51,
+  "average_7d": 11.78,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": 0.52,
+  "delta_previous_day": 6.0,
+  "delta_vs_7d": 5.78,
   "domain_breakdown": [
     {
-      "avg_severity": 0.4125,
+      "avg_severity": 0.325,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.26875,
+      "points": 1.7875,
       "weight": 22
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 1.2166666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.5,
+      "points": 4.5625,
       "weight": 15
     },
     {
-      "avg_severity": 0.09999999999999999,
+      "avg_severity": 0.6666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.35,
+      "points": 2.333333333333333,
       "weight": 14
     },
     {
@@ -41,24 +41,24 @@
       "weight": 13
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.2166666666666666,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 3.333333333333333,
+      "points": 3.0416666666666665,
       "weight": 10
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 1.5,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.5,
+      "points": 3.75,
       "weight": 10
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.5,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.0,
+      "points": 1.0,
       "weight": 8
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-14T12:59:53.108342+00:00",
-  "previous_score": 11,
+  "generated_at": "2026-05-15T13:00:05.780444+00:00",
+  "previous_score": 12,
   "provisional": false,
-  "score": 12,
-  "score_raw": 12.04,
+  "score": 18,
+  "score_raw": 17.56,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,27 +84,59 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYmJuUUdUVjZPQWI1Y1otQ2hPUTFaRGttSVFnUzR5VFg1OWd0S3NWUVRXd2tsR2dYbGpMclhsZTVYTWFXdmxXZ0ZpVmJwUGVQWU9oSjdvcGFWNldXUWVwLUR0S0VYWkttaWRzN01rSl9tVkhJUlpmWDl0RzRkdUZpWHhPcVVjMGh2eThr?oc=5",
+          "published": "2026-05-15T11:02:00+00:00",
+          "publisher": "The Guardian",
+          "title": "The Federal Reserve\u2019s independence is hanging by a thread in the age of Trump - The Guardian"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTm50WnROSnMwLUZ3VlVtT0haMnpVQTRqbkRPQkoxc01rVzg0V09iQWJLUHRrNFpweTdoVUZmb1oyY2JFRUVMUTRkZUR4TXlvSGN2QlNWbnctOVNqRGVjNy0tZWxBdHZnNGlnWkNMbUd6S3lCM2JfUHJHLWpEOUNUbkM0d0dpNHhnZWR6UlhxU0JTWHdWVHVycg?oc=5",
-          "published": "2026-05-13T17:12:52+00:00",
+          "published": "2026-05-13T17:12:17+00:00",
           "publisher": "Mother Jones",
           "title": "Mergers, choking hazards, energy prices\u2014does the Roberts Court really want Trump in charge of all that? - Mother Jones"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWGNCMElTcmZyLUlsTG5BZHRoM1F5VnE2XzVHcmhRaXNPRVdNLXMyLW16SmZYS1J4Ukp5SE85Y0NwZ3FiRm5pRG42dFZNTk80NGRyMGxXZk1jaHY5MWVGMXpIM0pDTnphTGVMNzhHRXljOXhmWEg3bm1pMkRZNVB4VEExRkkxa09nOWpnMTBkRjU1YWVWbDMyeUl2RU80anlDWWFSV21raHpHbFVnSVBZcEk5X2xCUUxwNFU4YtIBxAFBVV95cUxPZEZNRlpTdS1SR2VqUzN6RmdOdDFMbUtoaFhXdzlqWnRpV1duSlc1SE9CNHRXWlVBXzNXTmJIUDUwd3lfY0NIdWlaWGw1VUVYemdBODJnbDd6SUR4dS1iWDhCc21kOFp3X3kySTNYWEE2clVuNDZRWGxtd2QxSHlQVk44dXVaMFRIMjdpRlJFaE54SjlqRlByS1JRbnVfVkQzeWU1cUxIbnQ5OE9mZ1JjMjZwZ3E0LXFld01KNExMaW1yQUY5?oc=5",
-          "published": "2026-05-13T18:57:17+00:00",
-          "publisher": "NBC Boston",
-          "title": "Senate confirms Trump pick Warsh as chairman of the Federal Reserve, following Powell - NBC Boston"
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV0VyUFZuaXowZGh4Z2ZnbWIteGFYdVpxS05jY29aVEZVdDN2UDZOWW5qMlZQQ0lTYjVkTUZzVFB4OXItZFRJaWgwRXFiYVJXNGN3dTZNM1A0QlhvbVNHbkk2NENfZ2FlZVlMRWxDbmVlVzJVcy1QbXVva3gtY0dKMThaemczd9IBiwFBVV95cUxNcGthUlRXSlRVUTV2Z2o5TkU5dmhCLWJmSnlfR2RNWjEtcWx5T3pJcDVFcGlWMHN6akNKcUdTVUdKYlBzdXB4Ykc1R1YzLW5uYnhhQ2hFa05HMFR5dnNnUjBhSnZsNnN4R3FNYl9jRm9DZFBHVmpwelNtWlVDdnJ4d3Jkc0lGNnB6dWJB?oc=5",
+          "published": "2026-05-14T16:09:00+00:00",
+          "publisher": "The Hill",
+          "title": "Supreme Court opinion season is coming: Here are the biggest cases - The Hill"
+        }
+      ],
+      "hits": 6,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 6
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX2xkT2taVVVSUW1WeWY0V3ptMVo2d2RZS1dEaTZyaUlvTkhIenNETDRNN0JQejczYW5HWG1XVkVXZl9kM1g4WDNCelFRek5OMEl5WlhEOFU4dkktanNnRTN5WUtEYUN6c0llM0V3Ri1mbXBKaUNXVkRiMVlCS3ZBTU8wRFlHZmZobVVjcFRDMUHSAY8BQVVfeXFMTl83R2hxOHpEaDhTSkhQT0w5Wm85dVRfcGlBMVVkZk54M0FMQzJ5UHRhX05SZDZrTjlsRGpMV0xZRDVIQ3hPTHpEc0hQZkxlRFFmM21YWnFnSlIwMEpicEx2Zm55ZmNzRXJDSTlIc2tocEh2Rmc4aVktMmlCVl9tVDZXWVQtaktPRS1FSTRPeFk?oc=5",
+          "published": "2026-05-15T11:10:00+00:00",
+          "publisher": "ucanews.com",
+          "title": "Jailed Filipino scribe wins global journalism award - ucanews.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUHY0UmNHT2VPV0VCb0dpbXB0M0tRNm42Y0tLTjA0eHdmREVQNWJfdklENGRPSkJPUEk3cEhxeVdraWVmd1B0UUNsMTk2MDBldXpib2FCTENUU0lFRkJweEF4NFBmeHlKNmdoWHJ4dmxrMXpoalRIN2lhMUlQTFFLb3lBNktKVkk0?oc=5",
-          "published": "2026-05-13T19:59:43+00:00",
-          "publisher": "AOL.com",
-          "title": "Covering for court-packing, Trump ordering a Cuba Libre and other commentary - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKNGk0aVlxZGZIRk5SUGVuUlZFQ2FydkIwRWh6THQwcF8xTk5uOWtkdFd5VWNySFhhQ25Vcnh4Wk5qX19RTnh3cWsxVmtrUFE?oc=5",
+          "published": "2026-05-14T16:57:27+00:00",
+          "publisher": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+          "title": "UNAMA Raises Alarm Over Taliban Arrests Of Afghan Journalists - \u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05RTM3dDRJdndQUGJXTTN4blhJOTF5bUZSTXppTC00NFpSSUtuOWxzb3laZGVRM2tGNG1hdVZUUHAwN0pjSkZ0Qk95aC1ha1B2RkdvLUlMZFVtNXJUUXB6dmktRjk0QTlCMVVVSjh0UEd6cXFBMkJFMg?oc=5",
+          "published": "2026-05-13T16:47:13+00:00",
+          "publisher": "Latest news from Azerbaijan",
+          "title": "What happened to the journalists in the Maldives? - Latest news from Azerbaijan"
         }
       ],
       "hits": 4,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
@@ -116,59 +148,53 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZ3ZYNENOaG1Cc0w5TU54bEVPdjBBUDR3V052UjlmMi1CcmwyVU9EZGJxbUdzd0ttaklreXBvTnViUG9TNy01VWZFdlBzMG05UUdNSTc0ZmFJZ0d0VFllQVh2UVZpUUpWVFBuaVlIMFhXQVZoSDN6bkVwSFJpQUw4Mks1Tkp4dVM1bzlR?oc=5",
-          "published": "2026-05-13T07:27:51+00:00",
-          "publisher": "AOL.com",
-          "title": "Federal judge temporarily changes grand jury rules after Trump effort to charge members of Congress - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GQmtucE9VbnpWRXd6elZqc1pHODRfV3czcUM4RTB6alV6Vl9feWJEM1Ryc0YwRzdONHhXejVGdFBmd19FYXEtc2FVQk1xeHhTNWg5SHFlUUZQWk5Wd0E?oc=5",
+          "published": "2026-05-14T22:17:00+00:00",
+          "publisher": "Alternet",
+          "title": "Trump's DOJ just opened the door to Dem retaliation - Alternet"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWUtNMGFDa3RoNTltZWJuclE2d2ZnSVJVbDJrVGJNMGpkT1hsdm14b3hnZk5aYVpTSURoT2NoMm9OM2Z3SkpYTE5lNVM2QW9ucUhBVmhkQVZJYXpTU1hlSGtjV2VxQ0dVQnpqUW5IMTlud3Z3dVNFd1pxVHI0RTF3OVliRzJ0UEpSN180c1dUZERiRVZaTHfSAZYBQVVfeXFMTVlLTTBhQ2t0aDU5bWVibnJRNndmZ0lSVWwya1RiTTBqZE9YbHZteG94Z2ZOWmFaU0lEaE9jaDJvTjNmd0pKWExOZTVTNkFvbnFIQVZoZEFWSWF6U1NYZUhrY1dlcUNHVUJ6alFuSDE5bnd2d3VTRXdacVRyNEUxdzlZYkcydFBKUjdfNHNXVGREYkVWWkx3?oc=5",
-          "published": "2026-05-13T11:32:31+00:00",
-          "publisher": "National Review",
-          "title": "The Media Remains Blind to Democratic Radicalism - National Review"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWGQ3cExWVFVYb1I5NEtZUTdlVFBKVjV0MnpJWklPQ2NwLWF2YUJRdVZGQ2ltdS1DTU1mVGJXRWFKb0JwQ0dIb2FteHlvNGo3R0h3Qlh6UWxOYmxMU29YT0NleUdJUFktemNTcFpTeV9tVEpfc1J5U3B3NXJoZDQtVS1FSE1XaVRxUTVtRlUzMkhfbDVnNTIzUmhDSHhGN2g0MUZ3amxhWkPSAa4BQVVfeXFMUGVpOFByMFRYWGY2WXljandOcmVhRXVvY0NPMUpwUTZTbkZDQnFWYUFIWHVGQS1yeEUzSEo0UFBHSVNkcm1DbXlZMnNvU3ZoZXdoa3JFalJxVHJPUFJwbWVqdGc5WHk3UWRMdjQ3SnBHSHFZekg5eEEyRGlWV3pQenAxQ1ZDaHYwLWdJVDRkNHgxRXdmdkZZRWp3Z0w3MjE4MHNFMXc4U1FoRjV5Yjd3?oc=5",
-          "published": "2026-05-13T07:36:00+00:00",
-          "publisher": "Inquirer.net",
-          "title": "2028 politics may be a factor in Duterte impeachment trial \u2014 Defensor - Inquirer.net"
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQekpFNnRtRjJEMGpsVUI4N3pna1dvRHVtRkViY1BBdkYyWWFIclh2TzZDUkhBWHVabm9JLTl2eHg0SFJxcVdVNXJsdzNhMmxUb2czWEJuSnBmMWtYelRfNWhjMVp0T3o0R1hXMjJuaDV4QlZaa0trV0ZTTHVwenpjZUVHUkhzanNfTHdrdzc0VHQ?oc=5",
+          "published": "2026-05-14T16:02:53+00:00",
+          "publisher": "knewz.com",
+          "title": "Supreme Court justice warns of 'attack on our society' - knewz.com"
         }
       ],
-      "hits": 4,
+      "hits": 2,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 3
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05RTM3dDRJdndQUGJXTTN4blhJOTF5bUZSTXppTC00NFpSSUtuOWxzb3laZGVRM2tGNG1hdVZUUHAwN0pjSkZ0Qk95aC1ha1B2RkdvLUlMZFVtNXJUUXB6dmktRjk0QTlCMVVVSjh0UEd6cXFBMkJFMg?oc=5",
-          "published": "2026-05-13T16:47:13+00:00",
-          "publisher": "Latest news from Azerbaijan",
-          "title": "What happened to the journalists in the Maldives? - Latest news from Azerbaijan"
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQT0xycUtRczhvVlhJXzlCX0IzaWliT2pydGhhdVZNM0NwTFVGRm1EeEtvZXp1eWV6NUtBRzhoVHhoOFB4TG1tX3JJMHljN1E0STdRb1hUQTdUaFBSOF9nSlhPWE5rblVPd05YbGhmdF85M3JVaUVVcFItRjNVRDRaam1PTElYMm1sd2QtNVpYWUNRc2JndGd6MlJvVzFhX09od2Vub2JfWHdBSGJf?oc=5",
+          "published": "2026-05-14T22:59:00+00:00",
+          "publisher": "Alton Telegraph",
+          "title": "Lawyers urge judge to block Trump order that would create eligible voter list, limit mail ballots - Alton Telegraph"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc1cwdEh0V25paTJDUDYxczVIUmIxenpIcS1fVFBIaEhpNXZfcDd1NE9jWE5Td2tJWTFFT2FWakl5X0NfZ0U0RWdzQXhNY3dqVk9YakVXSHJoMnFjbVpzTDBBY21yVTFvUTEyZnBic0lOWWdpWkNEU2xlVHpYdXN4NE1NM1R0bE9KUmVUUi1TV1A4TEhHV2o2d0JTNVdycXQxWlJka3JhWDBWNlRkWFJBRlN2OEM4NTBxZXfSAb8BQVVfeXFMUGJCTEFLUTNBZVNJTVZpeGF2VnpqX1FPTWp6Zzl0Tl8wVkJESTdaYlU0UTQ4MVU2TXkzYzZESVZEdnhrWFBjS0lHYWpaeVd2cGFadXQyM0UyejVlOW5rYlJiUHdMSkRRT0dHX3NEYmV1SEJUX1RIaFZQUm1XcmdDYXk3cUlhTjdYUVhMR0N0RmpqSXpNcHlHVVJVQWZWVDBCOHgzSFR4bEgybmgxazJxT3hLU3FSZHo5MUF6U3B5Q28?oc=5",
-          "published": "2026-05-12T17:36:36+00:00",
-          "publisher": "Defending Rights & Dissent",
-          "title": "Rights Groups, Journalists, and Whistleblowers Call for Courtney Williams\u2019 Release - Defending Rights & Dissent"
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTXRUY3dldGlUVmFfUzFuRXN0bHMtbVF5ODZYcWMwTks0NF9SMHBRdlIxM3BMSTZ2alpEc1NVQ2JfNFFjWVMtMEczZjVVdlFwdllBWDFCN1czR0xKcmpvN2hHbWxiN2dselUzd0lJYjhlUDJLNGU2RUtKaHQ5WENSNkVOTlhUZlNiUmhiQm9yekZTelNBT29NNnlSSmZJSWlHTlI1Q29ZREEzbUgyYXpPSXVqRjJ1WVhoSEhvMW5FZ0tsZGxwVkR2emlhU3J1Q1gwbzVENUhpQ05kU19vd1NiRjJlUHZPQQ?oc=5",
+          "published": "2026-05-14T18:41:31+00:00",
+          "publisher": "WJRT ABC12",
+          "title": "35th District State Senate seat remains vacant a week after election - WJRT ABC12"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVkFSRklXRW9MOFFGRUs5UUdyM1Yxb1FzUjNpSXFrWmR6Smt2UE1ja0l5cTBGOENBSU5LNXFTdnRVMGttNTVYZ2tpd0oyQ3NUcjhfSDlFSkRrczRrME5MbnU2QS15X2trN0o4X1J2U09KSDc1QlFLV1VMREYyS3hYbWFibmRkeEF2Mzl3OUxEcUZRVEZfeGVtdEl6RGEwMnhDcUJMWHZidGx3alp4bHk4d2VObGxGNzdPUU1JOHZwOGttVU9LLXpnZmJick5pMDdjMGQ0NTJJQTk?oc=5",
-          "published": "2026-05-13T17:23:58+00:00",
-          "publisher": "LatAm Journalism Review",
-          "title": "Revocation of newspaper executives\u2019 U.S. visas follows years of attacks from Costa Rican government - LatAm Journalism Review"
+          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQRW5jWlVDVkRUYTU3UWFhRUhfb3Qwdjk0Q0U1X3c4emF0WDVGU2dwWTJVcDF4YUJCcmxDUEhMcFZUYUFoNWU2QVZTNjN0cGRZUWsxeHN6TTdyTFk1d3dWcWZFNkQ1NWpUMUlkVl9SM3RpRUpydUpRS3ByYlhZeUdncVhvNFpzdUJTbDVTZVZtSGdMbEtPZ0dvN1BOb1pqXzJ5MkQ1TFJOYklYenpubkZuckRoNUxlTGFrc0ZMTlBtZV94LWlROEJtdUtBUE01SDgwd2l3eEpRRGFQS0ZNNnQ2TWowZUpCZWR6aXkwbXhtYzg5N2pBUGl5c0VMbUJJN0ZsMHM1WE53UQ?oc=5",
+          "published": "2026-05-14T02:26:00+00:00",
+          "publisher": "NOLA.com",
+          "title": "Louisiana Attorney General's threat to take over New Orleans sparks outrage - NOLA.com"
         }
       ],
       "hits": 3,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -177,18 +203,78 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQRW5jWlVDVkRUYTU3UWFhRUhfb3Qwdjk0Q0U1X3c4emF0WDVGU2dwWTJVcDF4YUJCcmxDUEhMcFZUYUFoNWU2QVZTNjN0cGRZUWsxeHN6TTdyTFk1d3dWcWZFNkQ1NWpUMUlkVl9SM3RpRUpydUpRS3ByYlhZeUdncVhvNFpzdUJTbDVTZVZtSGdMbEtPZ0dvN1BOb1pqXzJ5MkQ1TFJOYklYenpubkZuckRoNUxlTGFrc0ZMTlBtZV94LWlROEJtdUtBUE01SDgwd2l3eEpRRGFQS0ZNNnQ2TWowZUpCZWR6aXkwbXhtYzg5N2pBUGl5c0VMbUJJN0ZsMHM1WE53UQ?oc=5",
-          "published": "2026-05-14T02:26:00+00:00",
-          "publisher": "NOLA.com",
-          "title": "Louisiana Attorney General's threat to take over New Orleans sparks outrage - NOLA.com"
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWWluOHVlcU0yd01TT3NiZHI1SFVnZlQ2TDdqdjZPMjQ3a0tobUdYMzg1SHVaakVjU2pNQmdGdEI0RDd1elY5VkVSX1Nldjl1WExKelJ1YVhPRjJRVWhBd1NjVGVjTnVzVlBRUm14YzlfTVpPRFA3dU9zNlA2cHh3dEVKdFpUN0JEWUhpOS1lX0FLdlFJQlVhZHZ5TWR6NGN3YnRxaDkyMVkxYmhxM2h4cklhdTlhQQ?oc=5",
+          "published": "2026-05-15T08:42:40+00:00",
+          "publisher": "wonderwall.com",
+          "title": "James Comey accused DOJ of 'retribution' on Trump foes - wonderwall.com"
         }
       ],
       "hits": 1,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSUJuOEs1Rk5nVUd0dVVFOV96bG12TVhYZnFydW1FWXNBWUVpV2JIaHBjZEtzZG9VTk4tU184cmNrYVhVX1d2NXkwUFd6RkZPSFluNG5zM2Uyc3VFaVFvaHB2WGxXb0ktTExwUXhZZldJQTg4TnJFZVNGNVNJaGUtZllHVWM5LXhjdERpOWtvSWxhWGViVjB6U19Sd25GOEtfNXFnQVNIR2JzTE1mQ3ktSW81WVNPTDFHSGNB0gHAAUFVX3lxTE8tUXVRdGFOajZVRzZVQXhBLXpnd3JLRlV1VktlcnVITUlPNFM1RFBBNHZBdHNPenU0VG04cjBHUm5hbnlPRTVtVXR2bDVaQnd2TFRVTlExbGNnUmVlUEkyNEtJVm90NUdMWmNjMHJvYWZRcUVnRFg3bGZILUQ5aWVBcXhoeW8xYU5ZVVYtb0JhNDFQZ2Q1bEp0aVAtNUpZbTIwaGZDSDNwU3ZuYXBidk53NHhSX01nZ3RHbS1zcVJfYg?oc=5",
+          "published": "2026-05-13T21:57:44+00:00",
+          "publisher": "WLNS 6 News",
+          "title": "Wayne County clerk rejects bid to remove transgender candidate from ballot - WLNS 6 News"
+        }
+      ],
+      "hits": 1,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOWFKNVptaDlvbDRGMlNYaW5TQ0sxT2sxeWxhWkZOQy1wcmtLNGM4Z050RW1jVXFOQlE2a3dWcDg3bTdiRC1XODFiWF8zU1d5N3lfR0hkbFJYMVh1VWgyRGg2T1lRMHBnNldXX1JibU9haXhid1NTbU5BNmFSdXFka21sdXVzdE9xZmhpRmVCRlRMZkhYaWlXV2tqN2g?oc=5",
+          "published": "2026-05-14T09:38:48+00:00",
+          "publisher": "streamlinefeed.co.ke",
+          "title": "Tanzania Defies EAC Court Order Imposing Tax on Kenyan Matches - streamlinefeed.co.ke"
+        }
+      ],
+      "hits": 1,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQmRIdkFTUUJrRXhYSi1HUG1lQlk5RFVpVEZ2Z3lpRW9kajdxQlRWOHUxZjJERk5kVHEwQ3dSRFVrWHlHX0pyNndzXzNGb2hhNkVoLXdobEdxUnlFZGd4MXBKS0dlS2Y3Tnl1c0JGcWotOHJCMVdVZ0VtaFFqZnhFbUNVd2VuZWNhSGVqQkpyZk9jeXJwR3dXMGsweW51WlpoVW5uODdIdzFDNXY1YnJGOXJB?oc=5",
+          "published": "2026-05-14T14:14:00+00:00",
+          "publisher": "Bloomberg Law News",
+          "title": "Justices Maintain Federal Courts\u2019 Authority Post-Arbitration (1) - Bloomberg Law News"
+        }
+      ],
+      "hits": 1,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -220,10 +306,10 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNblBVSkNyRlE1N2gzb193UnBIMlJzNlFsTlN2d0JoV3lVUjZvNkNKWTQ2dUhGbERzT3RWMTJSNW1IMVhCQjEtS1I3ZFpzMkI3dXI3aUlnQUtRbEFhZUI5bGstSE1hR21aNnZkYnE5QTVSNFlSb016NUZ2eVoxN3Zuek9lNEswOFdWaW54QUNCQlJLcnJT?oc=5",
-          "published": "2026-05-13T13:00:00+00:00",
-          "publisher": "Project On Government Oversight",
-          "title": "Congress Must Protect Whistleblowers After a Year of Attacks - Project On Government Oversight"
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNmRCSFVvUjhjcUJsb3Z1aXhIVXcwMVpiNXlueW1YOGY5TE5EbWZ6WWFtcHRMSmI4NWVPMW80NTZhWFVhampMUTJpWEhCQnBKRGFjR1l5THhJQWZhRnMtZVA0Q3lpU3pUOGk4N291NUYyUUJ4X1dUSFliYUJrcDRYYkcxRDFJZmF6YUk4emFUMF9qaVdkRUE1YnExYmJFdUJjQnNCcWNuTUNkaFdxZXpIelBVMXBHZGc4T2lyNHlWN3JjRTZiREdiNm13?oc=5",
+          "published": "2026-05-15T10:41:27+00:00",
+          "publisher": "Straight Arrow News - SAN",
+          "title": "Trump claims US economic data is \u2018rigged.\u2019 Former officials pledge to 'watch like hawks\u2019 for political manipulation - Straight Arrow News - SAN"
         }
       ],
       "hits": 1,
@@ -237,33 +323,13 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNblBVSkNyRlE1N2gzb193UnBIMlJzNlFsTlN2d0JoV3lVUjZvNkNKWTQ2dUhGbERzT3RWMTJSNW1IMVhCQjEtS1I3ZFpzMkI3dXI3aUlnQUtRbEFhZUI5bGstSE1hR21aNnZkYnE5QTVSNFlSb016NUZ2eVoxN3Zuek9lNEswOFdWaW54QUNCQlJLcnJT?oc=5",
-          "published": "2026-05-13T13:00:00+00:00",
-          "publisher": "Project On Government Oversight",
-          "title": "Congress Must Protect Whistleblowers After a Year of Attacks - Project On Government Oversight"
-        }
-      ],
-      "hits": 1,
-      "id": "inspector_general_retaliation",
-      "name": "Inspector General Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOOXkyWjdjam53ZXpMVmE1UEdWTXdNdXdtYUtGTktORkRudnRRQml3b1paY05PQ1FyWl9zakN0UWVJbU51TkNrbnM5MkRhUkFma0hDSU8zdVZZa1c0aDFPbGlKOUlfR19NQzY2MGZTNktycGNQdHF1VE1OUWF4VHVDRFBTVjI1ZmJicDBvbEtKaU1IR0Fnb09BMGdYWGh4SzhjYWcweENLNk5uZ0w2cU9wRWNDZnZLZjJ3bkRnZXhsRWFzUU0xRzJ1WlZ0OVRiSV8xR3M5RVhmQTd4VFJ2eWhtVnpBV1dFSlpnU1pucWZGWVFXSG51UkE?oc=5",
-          "published": "2026-05-13T05:38:23+00:00",
-          "publisher": "HinduPost",
-          "title": "A Series on Human Rights in the United States, Part-5: Political Discrimination and the Democratic Deficit \u2014 Participation Without Power - HinduPost"
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeDJiemQ5bHUwMUpWa2VTUVNfSk40T0hjLVZxb25uOVJyRkNnSUNCT2pPZ2ktdmJIaklRMy1Oc0RVM2N0STcxaWE2Q25XTjktX0ZnYl8yMUtBRC1wR1Z1T1NjaThZVVRpNExvRWFIRXl1NUZMalk3VFVPNG5BdGd0VUtMN0haalh3Z0Z2MFFqS2lkNE52bWdxaGhZONIBoAFBVV95cUxOY280NWdwY1JLQ0ZqOHVqc3JZNV9KY09uVDRsQklMakFHOHp0Nm15S0l4d040dTdFREhyVjA3bEJabmQwQzg0aWExV1JfS0RvRHVzdFprclZFZmJ6X1lVTFVrMEc3YkdSaGV1OGhsSU85TEVjLWMxUDZmN2lmZlFDTkVZMC1qY1Y3MmhfeEZIWWF5VHRISUNHYWdRRzNlMEl5?oc=5",
+          "published": "2026-05-15T08:47:36+00:00",
+          "publisher": "Iran HRM",
+          "title": "Iran: Forced Coexistence Under 45 Years of Political Repression - Iran HRM - Iran HRM"
         }
       ],
       "hits": 1,
@@ -277,11 +343,31 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "security_sector_neutrality",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZC00MEN1eXZpS1BpT3hGbE4yN255eXE0d0E3eVFpTUc1UFdOT0ZLaVhrMFlDOHNsWTNrT2txNzBGaDdCREhFY2Y5TkNaZlByZ2syemhneWQxV254Y2Y4dHc2bXd5ekJSREVOOXpKSTdZandoaXJyV05iT1lrS2s1MWpXc21VMzBLM25HOWdVMk1DbU5EeUd5a05QZ1YzbVFGVnpKSWtHMDMySEdkYzNrQnpXNmMyZm1WNzlCS2UzTTFNOFFQT1cxOHV2S2U1ZUNGTVRuUXNn?oc=5",
+          "published": "2026-05-14T09:36:11+00:00",
+          "publisher": "MSN",
+          "title": "Opinion warns of turbulent summer ahead for Trump - MSN"
+        }
+      ],
+      "hits": 1,
+      "id": "military_domestic_political_use",
+      "name": "Domestic Military Use in Political Conflict",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
       "evidence": [],
       "hits": 0,
-      "id": "alternate_elector_scheme",
-      "name": "Alternate Elector Scheme Activity",
+      "id": "inspector_general_retaliation",
+      "name": "Inspector General Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
@@ -290,11 +376,11 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "elections_transfer",
       "evidence": [],
       "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
