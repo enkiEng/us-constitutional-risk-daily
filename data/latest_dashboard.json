@@ -1,64 +1,64 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.78,
+  "average_7d": 12.29,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
     "max": 29,
     "min": 15
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 6.0,
-  "delta_vs_7d": 5.78,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": 4.57,
   "domain_breakdown": [
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.75,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.7875,
+      "points": 4.125,
       "weight": 22
     },
     {
-      "avg_severity": 1.2166666666666666,
+      "avg_severity": 0.9833333333333334,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 4.5625,
+      "points": 3.6875,
       "weight": 15
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 0.5499999999999999,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.333333333333333,
+      "points": 1.9249999999999998,
       "weight": 14
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.21666666666666667,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.0833333333333333,
+      "points": 0.7041666666666667,
       "weight": 13
     },
     {
-      "avg_severity": 1.2166666666666666,
+      "avg_severity": 0.9833333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 3.0416666666666665,
+      "points": 2.458333333333333,
       "weight": 10
     },
     {
-      "avg_severity": 1.5,
+      "avg_severity": 1.325,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.75,
+      "points": 3.3125,
       "weight": 10
     },
     {
-      "avg_severity": 0.5,
+      "avg_severity": 0.325,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 1.0,
+      "points": 0.65,
       "weight": 8
     },
     {
@@ -72,44 +72,44 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-15T13:00:05.780444+00:00",
-  "previous_score": 12,
+  "generated_at": "2026-05-16T12:42:15.681320+00:00",
+  "previous_score": 18,
   "provisional": false,
-  "score": 18,
-  "score_raw": 17.56,
+  "score": 17,
+  "score_raw": 16.86,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYmJuUUdUVjZPQWI1Y1otQ2hPUTFaRGttSVFnUzR5VFg1OWd0S3NWUVRXd2tsR2dYbGpMclhsZTVYTWFXdmxXZ0ZpVmJwUGVQWU9oSjdvcGFWNldXUWVwLUR0S0VYWkttaWRzN01rSl9tVkhJUlpmWDl0RzRkdUZpWHhPcVVjMGh2eThr?oc=5",
-          "published": "2026-05-15T11:02:00+00:00",
-          "publisher": "The Guardian",
-          "title": "The Federal Reserve\u2019s independence is hanging by a thread in the age of Trump - The Guardian"
+          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNYUZyNmxUQUllZktqdmF5U0NLclZGTGp0Tk1GNHVqN0E4MmVTNDdsaG05VmVORk1YcVpUc0syRHNZOVc2ZnhqR19pN1RyZXFVa0hLNHJxM1ZwY3lYLXljb1lORzNGUTVzUHNBbzVQNWRIQmo0aERFOGpoSTdOMnJUZHJTM0hVUXNoOTFTRXZjdVZSdTNlVkJlUEpxSDF6RnktS0liWS1WRmQ4OUpvNDlldzgtY0hHU0lONFhDMTRDUWxyNWhWVjg2UktDd0owaTZvaFl0UHljczBLa2RhalZ4em50NFlDWXBJY0Y2Zmk2QWRKY0ZGVncwUTRGM01vRnFaT2tsZkxoX0dHZw?oc=5",
+          "published": "2026-05-15T21:15:00+00:00",
+          "publisher": "KOMU 8",
+          "title": "State senator calls for Boone County clerk's removal amid demands for compliance with redrawn map - KOMU 8"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTm50WnROSnMwLUZ3VlVtT0haMnpVQTRqbkRPQkoxc01rVzg0V09iQWJLUHRrNFpweTdoVUZmb1oyY2JFRUVMUTRkZUR4TXlvSGN2QlNWbnctOVNqRGVjNy0tZWxBdHZnNGlnWkNMbUd6S3lCM2JfUHJHLWpEOUNUbkM0d0dpNHhnZWR6UlhxU0JTWHdWVHVycg?oc=5",
-          "published": "2026-05-13T17:12:17+00:00",
-          "publisher": "Mother Jones",
-          "title": "Mergers, choking hazards, energy prices\u2014does the Roberts Court really want Trump in charge of all that? - Mother Jones"
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRFBMYXF2T3dORnlrNnRxbnU3MzUzVVc5Q2FPTXZUaXY2c0xXWWJjMm9xU3BEQUt3YVdWdFZUaEVkMGJZVFpWT1BBM0FBTjBxRmhNaEF3V3JSVHdDUlJnUU1YaUp1V21XZ0tOVzZHZWdKYk42QkZFNS1jNDVrWEQ0VThUWEFBUThvajlyakREdw?oc=5",
+          "published": "2026-05-15T12:39:55+00:00",
+          "publisher": "Carolina Journal",
+          "title": "Hayes reflects on 1st year leading NC elections board - Carolina Journal"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV0VyUFZuaXowZGh4Z2ZnbWIteGFYdVpxS05jY29aVEZVdDN2UDZOWW5qMlZQQ0lTYjVkTUZzVFB4OXItZFRJaWgwRXFiYVJXNGN3dTZNM1A0QlhvbVNHbkk2NENfZ2FlZVlMRWxDbmVlVzJVcy1QbXVva3gtY0dKMThaemczd9IBiwFBVV95cUxNcGthUlRXSlRVUTV2Z2o5TkU5dmhCLWJmSnlfR2RNWjEtcWx5T3pJcDVFcGlWMHN6akNKcUdTVUdKYlBzdXB4Ykc1R1YzLW5uYnhhQ2hFa05HMFR5dnNnUjBhSnZsNnN4R3FNYl9jRm9DZFBHVmpwelNtWlVDdnJ4d3Jkc0lGNnB6dWJB?oc=5",
-          "published": "2026-05-14T16:09:00+00:00",
-          "publisher": "The Hill",
-          "title": "Supreme Court opinion season is coming: Here are the biggest cases - The Hill"
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQZlJlYklYYjRQcnpyNUZjSHZ1M19mQ1JpVGc5cEZBVmFOVTluSjVzdFNUMkp1VG8yWWRSTnUwSXAwZ0NTZVZpN0lCbExSTE9Ta3ZUcXJtVlp2Y19hdks2cEtHQkFvS0JyZUV3ZlVqZEVLU1FMeUdCUlg3VVpvb3hYaHlPS2xmNDdDSlgtaTRSbVlObFlHUXU5dDYtdE9yb0U0b3ZLdmJjd1NfS0RMbWYyUjZjNnpDQXNqUk8wckZsenRlWnBsTE9PVHhwMXkwVXY4TnRUQUl1QWN6eHd4cVRST01Eb2pHdmlXTVpvN1RzZDVZN2U4bUZiNTdNMm5TdERnLTg00gGIAkFVX3lxTE1zSy1CTkdCMzd4ZklScXNqVUxKTkg5ZGg1Z0NUNWhoRjNrLVAxOGdhZ3JKbFRHUXhNSGVna0dtdzgwUEJUSHMzTmVCWEpWY21ValFwdm80clhnQ21wOXlnOUZrQmNuakpzMzN0dzFyei1sSEVuWUZTbnpIU1U2RWN6amlQNnF6dldIOW1oWkxoejFaZjg5N0xpTkJnMUlfaWVFVWI0Vm5oLUZYNnVSOHJuQUR6NERyWTFPVVhqeDhrd1diZnV4aUtfVkdrSWZ6eGREV0hBcHJCTnQ2NWxVdlRXMDJCZU14djFLZkJLNFBmcXZTSzlmaHJrc2ZHdEhseUF3TWE0d1llWg?oc=5",
+          "published": "2026-05-14T21:30:00+00:00",
+          "publisher": "KOMU 8",
+          "title": "Missouri Secretary of State tells local election officials to use redrawn congressional map - KOMU 8"
         }
       ],
-      "hits": 6,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "hits": 4,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 6
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
@@ -122,31 +122,57 @@
           "title": "Jailed Filipino scribe wins global journalism award - ucanews.com"
         },
         {
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdDRpTW9ERHpEeWlDYkd5UnExSUt2QWE3ZzFtUDRlVFhWWUNnUXpkb2hrcVFUR1dBamY4RU1jbnVHS20zMkNjMndzckRscks4ME82c09NU2RvYmhuSHc3blRpRWZzVWVJZXVaVVd6YjRxMmVBN29yRm9IbmxsWDhKdGxuWTJjamlicUtOeGwzMW8zd0lSY1dKUFVUcVlacEZqMEFVNTFzOWFWcVI2Y0psRVl1NmZuQ1pHWFVucnBhUXVRMWdwRVE?oc=5",
+          "published": "2026-05-15T19:39:47+00:00",
+          "publisher": "ShiaWaves",
+          "title": "UNAMA Expresses Concern Over Detention of Three Afghan Journalists - ShiaWaves"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKNGk0aVlxZGZIRk5SUGVuUlZFQ2FydkIwRWh6THQwcF8xTk5uOWtkdFd5VWNySFhhQ25Vcnh4Wk5qX19RTnh3cWsxVmtrUFE?oc=5",
           "published": "2026-05-14T16:57:27+00:00",
           "publisher": "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
           "title": "UNAMA Raises Alarm Over Taliban Arrests Of Afghan Journalists - \u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE05RTM3dDRJdndQUGJXTTN4blhJOTF5bUZSTXppTC00NFpSSUtuOWxzb3laZGVRM2tGNG1hdVZUUHAwN0pjSkZ0Qk95aC1ha1B2RkdvLUlMZFVtNXJUUXB6dmktRjk0QTlCMVVVSjh0UEd6cXFBMkJFMg?oc=5",
-          "published": "2026-05-13T16:47:13+00:00",
-          "publisher": "Latest news from Azerbaijan",
-          "title": "What happened to the journalists in the Maldives? - Latest news from Azerbaijan"
         }
       ],
-      "hits": 4,
+      "hits": 3,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 4
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYmJuUUdUVjZPQWI1Y1otQ2hPUTFaRGttSVFnUzR5VFg1OWd0S3NWUVRXd2tsR2dYbGpMclhsZTVYTWFXdmxXZ0ZpVmJwUGVQWU9oSjdvcGFWNldXUWVwLUR0S0VYWkttaWRzN01rSl9tVkhJUlpmWDl0RzRkdUZpWHhPcVVjMGh2eThr?oc=5",
+          "published": "2026-05-15T11:02:00+00:00",
+          "publisher": "The Guardian",
+          "title": "The Federal Reserve\u2019s independence is hanging by a thread in the age of Trump - The Guardian"
+        }
+      ],
+      "hits": 1,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNTlYZ083Wnh3V1U3cVA1NU1ySUk1V2w1VC0xNTZMbF9lZHBQTjZQX1lSck13ZWNHRjNQTzJ2bzV3ckhwSXAwSERNM3o5WXZjeDVaNXI0a09wODNaYXBTdnhHMWdVZ0hKTlp1dmE3OW1tVzhzNGRYUXBvTDBDc1pSV2MwaVVQeU1iT1NPSXpmaE1ZR3ZBcVdnQkZ3?oc=5",
+          "published": "2026-05-15T19:06:00+00:00",
+          "publisher": "Slate",
+          "title": "The DOJ Just Made a Shocking Confession About One of Trump\u2019s Worst Early Executive Orders - Slate"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9GQmtucE9VbnpWRXd6elZqc1pHODRfV3czcUM4RTB6alV6Vl9feWJEM1Ryc0YwRzdONHhXejVGdFBmd19FYXEtc2FVQk1xeHhTNWg5SHFlUUZQWk5Wd0E?oc=5",
           "published": "2026-05-14T22:17:00+00:00",
@@ -160,46 +186,34 @@
           "title": "Supreme Court justice warns of 'attack on our society' - knewz.com"
         }
       ],
-      "hits": 2,
+      "hits": 3,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQT0xycUtRczhvVlhJXzlCX0IzaWliT2pydGhhdVZNM0NwTFVGRm1EeEtvZXp1eWV6NUtBRzhoVHhoOFB4TG1tX3JJMHljN1E0STdRb1hUQTdUaFBSOF9nSlhPWE5rblVPd05YbGhmdF85M3JVaUVVcFItRjNVRDRaam1PTElYMm1sd2QtNVpYWUNRc2JndGd6MlJvVzFhX09od2Vub2JfWHdBSGJf?oc=5",
-          "published": "2026-05-14T22:59:00+00:00",
-          "publisher": "Alton Telegraph",
-          "title": "Lawyers urge judge to block Trump order that would create eligible voter list, limit mail ballots - Alton Telegraph"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPTXRUY3dldGlUVmFfUzFuRXN0bHMtbVF5ODZYcWMwTks0NF9SMHBRdlIxM3BMSTZ2alpEc1NVQ2JfNFFjWVMtMEczZjVVdlFwdllBWDFCN1czR0xKcmpvN2hHbWxiN2dselUzd0lJYjhlUDJLNGU2RUtKaHQ5WENSNkVOTlhUZlNiUmhiQm9yekZTelNBT29NNnlSSmZJSWlHTlI1Q29ZREEzbUgyYXpPSXVqRjJ1WVhoSEhvMW5FZ0tsZGxwVkR2emlhU3J1Q1gwbzVENUhpQ05kU19vd1NiRjJlUHZPQQ?oc=5",
-          "published": "2026-05-14T18:41:31+00:00",
-          "publisher": "WJRT ABC12",
-          "title": "35th District State Senate seat remains vacant a week after election - WJRT ABC12"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQRW5jWlVDVkRUYTU3UWFhRUhfb3Qwdjk0Q0U1X3c4emF0WDVGU2dwWTJVcDF4YUJCcmxDUEhMcFZUYUFoNWU2QVZTNjN0cGRZUWsxeHN6TTdyTFk1d3dWcWZFNkQ1NWpUMUlkVl9SM3RpRUpydUpRS3ByYlhZeUdncVhvNFpzdUJTbDVTZVZtSGdMbEtPZ0dvN1BOb1pqXzJ5MkQ1TFJOYklYenpubkZuckRoNUxlTGFrc0ZMTlBtZV94LWlROEJtdUtBUE01SDgwd2l3eEpRRGFQS0ZNNnQ2TWowZUpCZWR6aXkwbXhtYzg5N2pBUGl5c0VMbUJJN0ZsMHM1WE53UQ?oc=5",
-          "published": "2026-05-14T02:26:00+00:00",
-          "publisher": "NOLA.com",
-          "title": "Louisiana Attorney General's threat to take over New Orleans sparks outrage - NOLA.com"
+          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQNDlMcEdXUGwwQTNrVUpxYkUzMmoxUW9hcFdzUk8tUS1BNjVQRklMT1c4RnRUSk15bjhGa0d1RXdaMW5OMDJrWERQU0wyWXJyX25GcWhyVFBQekhhNUNjclkyNXBtSEJzMnVkbkFZeWdTd3A3VVdyVFZvTU5XbWE5T2g2cURGTWh0My1Malo2Q1JnSXNiQm1JZ2JKME9XNDFib3VKcmdjcHoxRG1ieVJkQ01CRDFQbVc5ZEFVYXdsNlg0MkxiS05WaWZkTTVIT3VkM3ZJano0bmhkM09CaEhWWnI4OHROLVRHcVd0TTRLanRIY3RmaURsalR0Yw?oc=5",
+          "published": "2026-05-14T20:54:21+00:00",
+          "publisher": "MSN",
+          "title": "Trump DOJ faces mounting backlash over politically charged cases - MSN"
         }
       ],
-      "hits": 3,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "hits": 1,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 3
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -223,78 +237,18 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSUJuOEs1Rk5nVUd0dVVFOV96bG12TVhYZnFydW1FWXNBWUVpV2JIaHBjZEtzZG9VTk4tU184cmNrYVhVX1d2NXkwUFd6RkZPSFluNG5zM2Uyc3VFaVFvaHB2WGxXb0ktTExwUXhZZldJQTg4TnJFZVNGNVNJaGUtZllHVWM5LXhjdERpOWtvSWxhWGViVjB6U19Sd25GOEtfNXFnQVNIR2JzTE1mQ3ktSW81WVNPTDFHSGNB0gHAAUFVX3lxTE8tUXVRdGFOajZVRzZVQXhBLXpnd3JLRlV1VktlcnVITUlPNFM1RFBBNHZBdHNPenU0VG04cjBHUm5hbnlPRTVtVXR2bDVaQnd2TFRVTlExbGNnUmVlUEkyNEtJVm90NUdMWmNjMHJvYWZRcUVnRFg3bGZILUQ5aWVBcXhoeW8xYU5ZVVYtb0JhNDFQZ2Q1bEp0aVAtNUpZbTIwaGZDSDNwU3ZuYXBidk53NHhSX01nZ3RHbS1zcVJfYg?oc=5",
-          "published": "2026-05-13T21:57:44+00:00",
-          "publisher": "WLNS 6 News",
-          "title": "Wayne County clerk rejects bid to remove transgender candidate from ballot - WLNS 6 News"
-        }
-      ],
-      "hits": 1,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOWFKNVptaDlvbDRGMlNYaW5TQ0sxT2sxeWxhWkZOQy1wcmtLNGM4Z050RW1jVXFOQlE2a3dWcDg3bTdiRC1XODFiWF8zU1d5N3lfR0hkbFJYMVh1VWgyRGg2T1lRMHBnNldXX1JibU9haXhid1NTbU5BNmFSdXFka21sdXVzdE9xZmhpRmVCRlRMZkhYaWlXV2tqN2g?oc=5",
-          "published": "2026-05-14T09:38:48+00:00",
-          "publisher": "streamlinefeed.co.ke",
-          "title": "Tanzania Defies EAC Court Order Imposing Tax on Kenyan Matches - streamlinefeed.co.ke"
-        }
-      ],
-      "hits": 1,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQmRIdkFTUUJrRXhYSi1HUG1lQlk5RFVpVEZ2Z3lpRW9kajdxQlRWOHUxZjJERk5kVHEwQ3dSRFVrWHlHX0pyNndzXzNGb2hhNkVoLXdobEdxUnlFZGd4MXBKS0dlS2Y3Tnl1c0JGcWotOHJCMVdVZ0VtaFFqZnhFbUNVd2VuZWNhSGVqQkpyZk9jeXJwR3dXMGsweW51WlpoVW5uODdIdzFDNXY1YnJGOXJB?oc=5",
           "published": "2026-05-14T14:14:00+00:00",
           "publisher": "Bloomberg Law News",
-          "title": "Justices Maintain Federal Courts\u2019 Authority Post-Arbitration (1) - Bloomberg Law News"
+          "title": "Justices Maintain Federal Courts\u2019 Authority Post-Arbitration (2) - Bloomberg Law News"
         }
       ],
       "hits": 1,
       "id": "jurisdiction_stripping_targeted",
       "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS2JpcnJHaE9tYWlrTk9pNjJSUTlfcmlKUUpQNDRyR3VuZ0g0eWlNQzJNQUZsaWlnalVBZmR4YVNveTd4aVpCVDRRbUg4ZWFNNW5fRnlQNmtvcjVOazZ3TVAzTHlTY1h1VUp5V1JFZmlwOG5uREx5NVZrcWMtU00tS3gxbzZOaThZS1ZVdFRWdE96SU5WOGc?oc=5",
-          "published": "2026-05-13T19:18:57+00:00",
-          "publisher": "The Eastern Herald",
-          "title": "Trump Tariff Refund Chaos Triggers $166 Billion Corporate Battle - The Eastern Herald"
-        }
-      ],
-      "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -343,31 +297,11 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "security_sector_neutrality",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZC00MEN1eXZpS1BpT3hGbE4yN255eXE0d0E3eVFpTUc1UFdOT0ZLaVhrMFlDOHNsWTNrT2txNzBGaDdCREhFY2Y5TkNaZlByZ2syemhneWQxV254Y2Y4dHc2bXd5ekJSREVOOXpKSTdZandoaXJyV05iT1lrS2s1MWpXc21VMzBLM25HOWdVMk1DbU5EeUd5a05QZ1YzbVFGVnpKSWtHMDMySEdkYzNrQnpXNmMyZm1WNzlCS2UzTTFNOFFQT1cxOHV2S2U1ZUNGTVRuUXNn?oc=5",
-          "published": "2026-05-14T09:36:11+00:00",
-          "publisher": "MSN",
-          "title": "Opinion warns of turbulent summer ahead for Trump - MSN"
-        }
-      ],
-      "hits": 1,
-      "id": "military_domestic_political_use",
-      "name": "Domestic Military Use in Political Conflict",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "opposition_pluralism",
       "evidence": [],
       "hits": 0,
-      "id": "inspector_general_retaliation",
-      "name": "Inspector General Retaliation",
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
@@ -376,11 +310,50 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "alternate_elector_scheme",
-      "name": "Alternate Elector Scheme Activity",
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "hits": 0,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "security_sector_neutrality",
+      "evidence": [],
+      "hits": 0,
+      "id": "military_domestic_political_use",
+      "name": "Domestic Military Use in Political Conflict",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "hits": 0,
+      "id": "inspector_general_retaliation",
+      "name": "Inspector General Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
