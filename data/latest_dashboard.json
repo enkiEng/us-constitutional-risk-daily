@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.64,
+  "average_7d": 12.52,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,55 +10,55 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -4.0,
-  "delta_vs_7d": -0.04,
+  "delta_vs_7d": -3.36,
   "domain_breakdown": [
     {
-      "avg_severity": 0.6625,
+      "avg_severity": 0.4875,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.64375,
+      "points": 2.68125,
       "weight": 22
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.43333333333333335,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.4375,
+      "points": 1.625,
       "weight": 15
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.3333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1083333333333334,
+      "points": 1.1666666666666665,
       "weight": 14
     },
     {
-      "avg_severity": 0.09999999999999999,
+      "avg_severity": 0.0,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 0.32499999999999996,
+      "points": 0.0,
       "weight": 13
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 0.65,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.9166666666666665,
+      "points": 1.625,
       "weight": 10
     },
     {
-      "avg_severity": 1.15,
+      "avg_severity": 0.825,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.875,
+      "points": 2.0625,
       "weight": 10
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.3,
+      "points": 0.0,
       "weight": 8
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-17T12:39:35.073680+00:00",
-  "previous_score": 17,
+  "generated_at": "2026-05-18T13:36:14.084705+00:00",
+  "previous_score": 13,
   "provisional": false,
-  "score": 13,
-  "score_raw": 12.61,
+  "score": 9,
+  "score_raw": 9.16,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,107 +84,82 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNYUZyNmxUQUllZktqdmF5U0NLclZGTGp0Tk1GNHVqN0E4MmVTNDdsaG05VmVORk1YcVpUc0syRHNZOVc2ZnhqR19pN1RyZXFVa0hLNHJxM1ZwY3lYLXljb1lORzNGUTVzUHNBbzVQNWRIQmo0aERFOGpoSTdOMnJUZHJTM0hVUXNoOTFTRXZjdVZSdTNlVkJlUEpxSDF6RnktS0liWS1WRmQ4OUpvNDlldzgtY0hHU0lONFhDMTRDUWxyNWhWVjg2UktDd0owaTZvaFl0UHljczBLa2RhalZ4em50NFlDWXBJY0Y2Zmk2QWRKY0ZGVncwUTRGM01vRnFaT2tsZkxoX0dHZw?oc=5",
-          "published": "2026-05-15T21:15:00+00:00",
-          "publisher": "KOMU 8",
-          "title": "State senator calls for Boone County clerk's removal amid demands for compliance with redrawn map - KOMU 8"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWlV2RThiUFhrTmVGcm5RaUMtZXZnRW91UmJ5d2xISlVGUGFGM0NCeDNOMUpjcEE4Z2JHRVRtck5VdmcyQW92MFVMckljYXp5NWYzSUJPZGk3Z2x2U2tlT25saTNPNjVTNlhCS0k0NE1FcVhoZ0FEaExJQ21xQnNLend1NVhvS3pYOUFXRC1oOFJrUXFMaFRMRnpGZzVkWUZJLWs4U0N4a0ZGZ1BBMEdaRklNNnRBSjYxOUgwRWhKRmRoX3V4NDRieVFKUkJHTmo3TldxV2RtcmJnOUZqSFE?oc=5",
-          "published": "2026-05-15T19:00:00+00:00",
-          "publisher": "Chattanooga Times Free Press",
-          "title": "Lawyers urge judge to block Trump order that would create eligible voter list, limit mail ballots - Chattanooga Times Free Press"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRFBMYXF2T3dORnlrNnRxbnU3MzUzVVc5Q2FPTXZUaXY2c0xXWWJjMm9xU3BEQUt3YVdWdFZUaEVkMGJZVFpWT1BBM0FBTjBxRmhNaEF3V3JSVHdDUlJnUU1YaUp1V21XZ0tOVzZHZWdKYk42QkZFNS1jNDVrWEQ0VThUWEFBUThvajlyakREdw?oc=5",
-          "published": "2026-05-15T12:39:55+00:00",
-          "publisher": "Carolina Journal",
-          "title": "Hayes reflects on 1st year leading NC elections board - Carolina Journal"
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSlp0dmNOOHlvU24tUGRIa1lLYmMxRGpveHF0Q3NJNkpPcXVJQTdXSkM5a2xwY2R4aVg5XzRmaHlOQk1yeFk2VWZ6M3Z3U3BoR1dFY0hPbjQ4OXdfa0VieXZjZ0F3eklHSGZLMmxNN2xkTkYzVHdSTExnZG1vUFpwME1qNlR0VE04cmFtVTVKN2p0cWpEM3A1MFlGM1ZBQVVZTkdhbEpiZTFXcXhXenByeUNhUmNLMVV1Y1ZjWjVEYWszZ041bmE1amVYS2tmTWlPLVRZRWp3Mnh1S3h2MXRncmtXODlKQ0RKTFJQMzk4QjI3NFJ6?oc=5",
+          "published": "2026-05-17T16:10:00+00:00",
+          "publisher": "Big News Network.com",
+          "title": "\"Wages relentless campaign of false propaganda; spreading lies against BJP, EC\": G Kishan Reddy targets Congress over SIR - Big News Network.com"
         }
       ],
-      "hits": 4,
+      "hits": 1,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 4
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdDRpTW9ERHpEeWlDYkd5UnExSUt2QWE3ZzFtUDRlVFhWWUNnUXpkb2hrcVFUR1dBamY4RU1jbnVHS20zMkNjMndzckRscks4ME82c09NU2RvYmhuSHc3blRpRWZzVWVJZXVaVVd6YjRxMmVBN29yRm9IbmxsWDhKdGxuWTJjamlicUtOeGwzMW8zd0lSY1dKUFVUcVlacEZqMEFVNTFzOWFWcVI2Y0psRVl1NmZuQ1pHWFVucnBhUXVRMWdwRVE?oc=5",
-          "published": "2026-05-15T19:39:47+00:00",
-          "publisher": "ShiaWaves",
-          "title": "UNAMA Expresses Concern Over Detention of Three Afghan Journalists - ShiaWaves"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPaGY4NXBxa2xoS3FKWHdZYWd0em1vd19zeWJqSFdQcUZucXNyYURRWmM3TDFoNU1nSzQyclp2X1JrNlpCcjE0OFljdUhLVDltN09nUjlEUmNNRW5qeGVNSTliN0RRbkZYcm1hVnVLWUdnVTJRYmFOY3QwRG83YzVIdzg3TV8zWFNELWZmRGNB?oc=5",
-          "published": "2026-05-16T06:41:11+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "Hungary moves to dismantle Orb\u00e1n-era media system - Journalism Pakistan"
-        }
-      ],
-      "hits": 2,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.65,
       "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNTlYZ083Wnh3V1U3cVA1NU1ySUk1V2w1VC0xNTZMbF9lZHBQTjZQX1lSck13ZWNHRjNQTzJ2bzV3ckhwSXAwSERNM3o5WXZjeDVaNXI0a09wODNaYXBTdnhHMWdVZ0hKTlp1dmE3OW1tVzhzNGRYUXBvTDBDc1pSV2MwaVVQeU1iT1NPSXpmaE1ZR3ZBcVdnQkZ3?oc=5",
-          "published": "2026-05-15T19:06:00+00:00",
-          "publisher": "Slate",
-          "title": "The DOJ Just Made a Shocking Confession About One of Trump\u2019s Worst Early Executive Orders - Slate"
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uYlJ5WkNjT3UxR1NFeHBXZk94ZnAyeEUzWjRfZjB5bXN3V3FBWUl6OXd3SmJmTV9aSkk4cFA5RzJvUU5vVUtBNXhEZXdaMzRtYm5GZzRjYjhxUUlKdEZQMFJyYS1CcEZtNWM3T3V0SHJkdjFPVUE?oc=5",
+          "published": "2026-05-18T10:24:50+00:00",
+          "publisher": "AOL.com",
+          "title": "Ex-Supreme Court Justice Anthony Kennedy Sounds Alarm On These 2 Threats To Democracy - AOL.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xbTZfVUxGSkREWEpuaFFIcXIyaHhqM1FGRkllWk1fTmJOWTd0RjVNUzFEcGJ0QjlaR1hYVXg5V2hIQWY3YllJNXI0N0gtUQ?oc=5",
-          "published": "2026-05-15T20:42:17+00:00",
-          "publisher": "The New Republic",
-          "title": "MAGA is Reeling as Trump Welcomes Chinese Students to the U.S. - The New Republic"
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMmMycjRUTDBxUVJ2dUM0cTVLSEs1VWtHWkdQMnlmNF9qTTFxaW9IVGdaR2JGbjZCWmRWaFlzT2lET1U3NGlOT18zNGhTbGlrTUROVFVWMkhvQm9RZ3p6YXFUTU14VFVyekNqZXdqSjVPRER1X0huY01nV3ZyQjFNUWZMcnNSZw?oc=5",
+          "published": "2026-05-18T01:21:53+00:00",
+          "publisher": "AOL.com",
+          "title": "Chief Justice Roberts warns against personal attacks on judges as \u2018dangerous\u2019 after Trump's court tirade - AOL.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa1ZDTW50TzJ6S2NrSXZJTG1YTVFCTWVSZ0V2SEJSa28zMktMVDA3VmhwQ0I3NFhHTVdqRVdDbXdfVF9OVWtMNVlyYjk1elN0cXUwVmY5aS1VTE90bFZGWTBkZF8tOUZkRk1JTEVQNEZ4dGJtanJYTUlLRkNZWVZoc2ptSVN2dlRf?oc=5",
+          "published": "2026-05-17T22:01:28+00:00",
+          "publisher": "AOL.com",
+          "title": "House of South Carolina Judge Criticized by Trump Administration Set Ablaze - AOL.com"
         }
       ],
-      "hits": 2,
+      "hits": 3,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZVh0M1JIT2JldDQzZzRTN2Jnbm5oSjdOMkw2NHNRZFM0eURVWVRxMzQ5MmRYREo2MjFQQzdjTlZmSTIxWVA4TDR2RVotdEJ6d0x3X2gxbElQcFBWbzJpRzBOMXowQ2xhVU1VTTNrUWFCTzZ5QWJKblZCcEFnZHhrZDA0eTRQd2poYVZHQXRvMV9CVUE?oc=5",
+          "published": "2026-05-18T00:32:16+00:00",
+          "publisher": "Newsmax",
+          "title": "Indicted Comey Says He Has 'Complete Faith' in Judicial System - Newsmax"
+        }
+      ],
+      "hits": 1,
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeG9UYjluUU9ybU1pUllSWkhocUpnZl9yNVc4NDF1WWhIYjZGZk9IYzlFejd3V3Jpa0F2YkFqeWN4SFloOHJ2dF9OajJHVHBIYlZuVVBBSmxUV1Z2UVBiaEhkTldyNlFzdVptRXJDRzdBME1RZjJIR29SY2FWaFBrOGJWdw?oc=5",
-          "published": "2026-05-16T14:59:00+00:00",
-          "publisher": "HOKANEWS.COM",
-          "title": "Trump Administration Moves to Strip Job Protections From Senior Health Officials - HOKANEWS.COM"
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5GNUNOZ2gxQ2wzd1RwVVBDSE1NSWZoMEtYUVNXZEpVODBFcFZYdTlLMlVhNTdlb01xa2EtQjZmSEdHbjZYaUpDcA?oc=5",
+          "published": "2026-05-16T16:30:00+00:00",
+          "publisher": "MEXC",
+          "title": "Trump Administration Moves to Strip Job Protections From Senior Health Officials - MEXC"
         }
       ],
       "hits": 1,
@@ -201,20 +176,46 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxPZHRZV3lYOEItQWVGdEhVR0NucDI2VFJDenhBQm1qWHBINF9jbkJUSE9EYXJhVnJ6VXNuenlvQ1JJWlJnS3NJNjdVNHN1U3BUVnJUTm9aTUZxOU1jVV9jSjA2MFk5SFc1Y3BUaHpETkJhSzhSc2daV2JHeXVOME1YYkNxMWVmeXNqZlMwcnNYd21jZGJHM0lUbVdycC1VWG9SMEZEMlVsTTBsa0RBQXlBTDl2cEpvSzRRVDBMemxUaXpWUE9VVFJ5REh2UG9hVzlEZVp5RDFJY204dUFQbEw0aGtRODZJSWFpaU5PaTZSdHY0aU1nSno2SFcxcEtaaVh6ZVVHby13ZndzRVktVjA5MzFkWVVld05lcW9vbkkyLVhNeEdBOVBNUWwxeFhydzJ2YjRMTTFXZHBlbkhNeVFfZUZQb29LNGR3UWVXT09QcG9CTlFMVjlyUXBDY0YxanM?oc=5",
-          "published": "2026-05-16T03:03:24+00:00",
-          "publisher": "MSN",
-          "title": "Mahrang Baloch slams Pak for criminalizing peaceful political dissent - MSN"
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JYkpkTmJEZUdna3RVVDdMZ2J1d21aVVcwUmFPQWpUelp5bzFlNEF6ZWpPVUY0Z3h5TDcxNy1JbXBHa2xNQjJuOGNLaEVXYlpkOF9URUQyb0hFbUp0ekZ2aHJGME9RNWp2UTk4aXlGZVFMTTg0ZkM5M1RR?oc=5",
+          "published": "2026-05-18T10:53:14+00:00",
+          "publisher": "Press Gazette | Substack",
+          "title": "Lawyers 'killed off' anti-SLAPP laws | Farage targets Guardian photographer - Press Gazette | Substack"
         }
       ],
       "hits": 1,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "hits": 0,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.95,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [],
+      "hits": 0,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -225,20 +226,7 @@
       "name": "Alternate Elector Scheme Activity",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -249,58 +237,6 @@
       "hits": 0,
       "id": "jurisdiction_stripping_targeted",
       "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "security_sector_neutrality",
-      "evidence": [],
-      "hits": 0,
-      "id": "military_domestic_political_use",
-      "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
