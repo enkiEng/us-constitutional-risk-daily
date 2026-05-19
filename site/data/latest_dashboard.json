@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.52,
+  "average_7d": 12.58,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,49 +9,49 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -4.0,
-  "delta_vs_7d": -3.36,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": -3.46,
   "domain_breakdown": [
     {
-      "avg_severity": 0.4875,
+      "avg_severity": 0.325,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.68125,
+      "points": 1.7875,
       "weight": 22
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.3333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.625,
+      "points": 1.25,
       "weight": 15
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.6666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1666666666666665,
+      "points": 2.333333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.3333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 0.0,
+      "points": 1.0833333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.4166666666666667,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.625,
+      "points": 1.0416666666666667,
       "weight": 10
     },
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.65,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.0625,
+      "points": 1.625,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-18T13:36:14.084705+00:00",
-  "previous_score": 13,
+  "generated_at": "2026-05-19T13:28:31.783059+00:00",
+  "previous_score": 9,
   "provisional": false,
   "score": 9,
-  "score_raw": 9.16,
+  "score_raw": 9.12,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,36 +84,42 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONy1kTUNUTG5pM2dNekZsNUlXLUhnb1RwRHlRdEx1RjhseHpOTkJxNVo0S1U1Q3Z4R19Zc1hqdk5FUFkza2JmU0JTOTVXdmlILWViVXREdTl0UndldVRUeEFZaTE1bDFGamJPUnFxY1Juc1hLV0hCNk4weWlFOFJDNENkaXJJU284YnA2dlU5aVMyYjk1?oc=5",
+          "published": "2026-05-19T10:20:09+00:00",
+          "publisher": "Brennan Center for Justice",
+          "title": "State Voting Laws Roundup: May 2026 - Brennan Center for Justice"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSlp0dmNOOHlvU24tUGRIa1lLYmMxRGpveHF0Q3NJNkpPcXVJQTdXSkM5a2xwY2R4aVg5XzRmaHlOQk1yeFk2VWZ6M3Z3U3BoR1dFY0hPbjQ4OXdfa0VieXZjZ0F3eklHSGZLMmxNN2xkTkYzVHdSTExnZG1vUFpwME1qNlR0VE04cmFtVTVKN2p0cWpEM3A1MFlGM1ZBQVVZTkdhbEpiZTFXcXhXenByeUNhUmNLMVV1Y1ZjWjVEYWszZ041bmE1amVYS2tmTWlPLVRZRWp3Mnh1S3h2MXRncmtXODlKQ0RKTFJQMzk4QjI3NFJ6?oc=5",
           "published": "2026-05-17T16:10:00+00:00",
           "publisher": "Big News Network.com",
           "title": "\"Wages relentless campaign of false propaganda; spreading lies against BJP, EC\": G Kishan Reddy targets Congress over SIR - Big News Network.com"
         }
       ],
-      "hits": 1,
+      "hits": 2,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uYlJ5WkNjT3UxR1NFeHBXZk94ZnAyeEUzWjRfZjB5bXN3V3FBWUl6OXd3SmJmTV9aSkk4cFA5RzJvUU5vVUtBNXhEZXdaMzRtYm5GZzRjYjhxUUlKdEZQMFJyYS1CcEZtNWM3T3V0SHJkdjFPVUE?oc=5",
-          "published": "2026-05-18T10:24:50+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMGhEQ202OTJENWNoeUpJS1dib1lOWkE0cURwRkNJZzRVb1BsWXlMMnZmdjExaER1ekNZTnpmdGEwX0oxVEhxZGQ1RXhTVnNJb1Uydlg0VGVUVzhaSXRqazEtV0VkTEkyZ2pPUGlkWkQ0aEVOUkt2X0hOWGZYaEFGUlFody1nMlow?oc=5",
+          "published": "2026-05-19T10:06:39+00:00",
           "publisher": "AOL.com",
-          "title": "Ex-Supreme Court Justice Anthony Kennedy Sounds Alarm On These 2 Threats To Democracy - AOL.com"
+          "title": "Federal Court Office Declines Request For Boasberg To Testify In Senate Hearing On \u2018Rogue Judges\u2019 - AOL.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMmMycjRUTDBxUVJ2dUM0cTVLSEs1VWtHWkdQMnlmNF9qTTFxaW9IVGdaR2JGbjZCWmRWaFlzT2lET1U3NGlOT18zNGhTbGlrTUROVFVWMkhvQm9RZ3p6YXFUTU14VFVyekNqZXdqSjVPRER1X0huY01nV3ZyQjFNUWZMcnNSZw?oc=5",
-          "published": "2026-05-18T01:21:53+00:00",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQc19KUkVaTVgzVjZlMDlENHAwSzhvZ3g0UHVCclY3X0tMSEpBWldRcnctT251WkVrM3FpVGFrb1BoNVZ6R0k3T0lGc09IakNqYWZkdE14QkVDaGdSaFc3elRwSXA2ZWd6ekpNN29iQU1oTk1WMlc4Q0lwZXBCdVZYR0JIRQ?oc=5",
+          "published": "2026-05-18T18:34:54+00:00",
           "publisher": "AOL.com",
-          "title": "Chief Justice Roberts warns against personal attacks on judges as \u2018dangerous\u2019 after Trump's court tirade - AOL.com"
+          "title": "More federal judges warn of an increase in violent threats - AOL.com"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa1ZDTW50TzJ6S2NrSXZJTG1YTVFCTWVSZ0V2SEJSa28zMktMVDA3VmhwQ0I3NFhHTVdqRVdDbXdfVF9OVWtMNVlyYjk1elN0cXUwVmY5aS1VTE90bFZGWTBkZF8tOUZkRk1JTEVQNEZ4dGJtanJYTUlLRkNZWVZoc2ptSVN2dlRf?oc=5",
@@ -122,7 +128,7 @@
           "title": "House of South Carolina Judge Criticized by Trump Administration Set Ablaze - AOL.com"
         }
       ],
-      "hits": 3,
+      "hits": 4,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
@@ -133,10 +139,36 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWWV5VDZQYTNSbGxmQW9kOExLWThtUlNyWTJ4OWhxYktaS1BhMXpZaDdNRzhjbko0X3hOUW5BanpQTnpRc3VUQlhoYkx3WjVoS0hNYjNxdjR1ZmVqOGU0VF8zZHpOaEhRVUNwVHRLRVhkOG5xQUNrSms5TGF4S2tWeURmT0pTTXctcktUbVJVV3NlTlpFQVBCRnhaRm5VSjFfMFZpStIBpAFBVV95cUxOWWV5VDZQYTNSbGxmQW9kOExLWThtUlNyWTJ4OWhxYktaS1BhMXpZaDdNRzhjbko0X3hOUW5BanpQTnpRc3VUQlhoYkx3WjVoS0hNYjNxdjR1ZmVqOGU0VF8zZHpOaEhRVUNwVHRLRVhkOG5xQUNrSms5TGF4S2tWeURmT0pTTXctcktUbVJVV3NlTlpFQVBCRnhaRm5VSjFfMFZpSg?oc=5",
+          "published": "2026-05-19T09:26:15+00:00",
+          "publisher": "Committee to Protect Journalists",
+          "title": "Press crackdowns in Gulf spike following Iran war, risk becoming permanent - Committee to Protect Journalists"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JYkpkTmJEZUdna3RVVDdMZ2J1d21aVVcwUmFPQWpUelp5bzFlNEF6ZWpPVUY0Z3h5TDcxNy1JbXBHa2xNQjJuOGNLaEVXYlpkOF9URUQyb0hFbUp0ekZ2aHJGME9RNWp2UTk4aXlGZVFMTTg0ZkM5M1RR?oc=5",
+          "published": "2026-05-18T10:53:14+00:00",
+          "publisher": "Press Gazette | Substack",
+          "title": "Lawyers 'killed off' anti-SLAPP laws | Farage targets Guardian photographer - Press Gazette | Substack"
+        }
+      ],
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZVh0M1JIT2JldDQzZzRTN2Jnbm5oSjdOMkw2NHNRZFM0eURVWVRxMzQ5MmRYREo2MjFQQzdjTlZmSTIxWVA4TDR2RVotdEJ6d0x3X2gxbElQcFBWbzJpRzBOMXowQ2xhVU1VTTNrUWFCTzZ5QWJKblZCcEFnZHhrZDA0eTRQd2poYVZHQXRvMV9CVUE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSF9oUjBoeE1aeGhQdTdjZ3k3SzVKc1kxaXF5QTIyYkl4UEM2X25ORzliQk5kWXIxSHBLdGxVR3RXRUtUMk1ZRlNiYm5ha3hMRHhLZ3paN3BzUE1sX1FDdldpb2RWcGVlNzNacDhJaVdOMWlmVWIyNVlZQnFiblVNaEtDY21POFN5TmNJWkhhUTJ4QmEw?oc=5",
           "published": "2026-05-18T00:32:16+00:00",
           "publisher": "Newsmax",
           "title": "Indicted Comey Says He Has 'Complete Faith' in Judicial System - Newsmax"
@@ -153,18 +185,18 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5GNUNOZ2gxQ2wzd1RwVVBDSE1NSWZoMEtYUVNXZEpVODBFcFZYdTlLMlVhNTdlb01xa2EtQjZmSEdHbjZYaUpDcA?oc=5",
-          "published": "2026-05-16T16:30:00+00:00",
-          "publisher": "MEXC",
-          "title": "Trump Administration Moves to Strip Job Protections From Senior Health Officials - MEXC"
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mSFJEVXFWd0tfMXVVQmJncGxrZ2xFcTFCem1pb0VQZ0FaVE1LYlRFalNoUVgxeXJvVWNZYmllNndCaXR6UEY1dTY3R2F1Y2ZEYlQ2cHBsbTcwMHlSVmRjRW1aOVZHOUpmQUxSRXB5UkNBVjhyZ0NN?oc=5",
+          "published": "2026-05-18T16:07:00+00:00",
+          "publisher": "TheCable",
+          "title": "APC primaries: The charade we call democracy - TheCable"
         }
       ],
       "hits": 1,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -173,23 +205,36 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JYkpkTmJEZUdna3RVVDdMZ2J1d21aVVcwUmFPQWpUelp5bzFlNEF6ZWpPVUY0Z3h5TDcxNy1JbXBHa2xNQjJuOGNLaEVXYlpkOF9URUQyb0hFbUp0ekZ2aHJGME9RNWp2UTk4aXlGZVFMTTg0ZkM5M1RR?oc=5",
-          "published": "2026-05-18T10:53:14+00:00",
-          "publisher": "Press Gazette | Substack",
-          "title": "Lawyers 'killed off' anti-SLAPP laws | Farage targets Guardian photographer - Press Gazette | Substack"
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOb3NYMnJvS1cxTFFJRjBZbVNUeVBRLW1xRVZNMTZBOTd3dXBCOEtRc3NaNFBDQkoxYlBnWXBRcFpZT201MWtoQlBnaDViOFpWYTlTM01rQ0gzck94b1FtcFR3TmdKR0s3QWYxSHZKNkhYNjRtVUxlV19ndDVXOXZubFFlZHR6V1pSTVU3ZWo2WEI4bXBnVTFiSmdub3ZCWEdfUXllM0Zaa3hIajY3MDc2M1ZjQTVmTURVNGRpcGNXSVV4ZFlPNlZJckdUMjM4eVNTVVE?oc=5",
+          "published": "2026-05-18T16:03:05+00:00",
+          "publisher": "National Taxpayers Union",
+          "title": "Reclaiming Trade Authority: Members of Congress Introduce Reforms to Rein in Presidential Tariffs - National Taxpayers Union"
         }
       ],
       "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "hits": 0,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -200,8 +245,8 @@
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -211,32 +256,6 @@
       "hits": 0,
       "id": "political_speech_surveillance",
       "name": "Political Speech Criminalization or Surveillance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
-      "id": "alternate_elector_scheme",
-      "name": "Alternate Elector Scheme Activity",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
