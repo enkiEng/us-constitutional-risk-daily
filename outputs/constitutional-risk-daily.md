@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-05-19 13:28:31 UTC
-- Score: **9 / 100** (Baseline Institutional Noise)
-- Previous day delta: **0.0**
-- Delta vs 7-day average: **-3.5**
+- Generated: 2026-05-20 13:19:07 UTC
+- Score: **11 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+2.0**
+- Delta vs 7-day average: **-1.8**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -14,12 +14,12 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.33 | 1.79 |
+| Elections and Transfer of Power | 22 | 0.24 | 1.31 |
 | Judicial Independence and Rule of Law | 15 | 0.33 | 1.25 |
-| Opposition Rights and Political Pluralism | 14 | 0.67 | 2.33 |
-| Executive Constraints and Emergency Powers | 13 | 0.33 | 1.08 |
-| Civil Service and Agency Independence | 10 | 0.42 | 1.04 |
-| Civil Liberties and Information Environment | 10 | 0.65 | 1.62 |
+| Opposition Rights and Political Pluralism | 14 | 0.55 | 1.92 |
+| Executive Constraints and Emergency Powers | 13 | 0.67 | 2.17 |
+| Civil Service and Agency Independence | 10 | 0.67 | 1.67 |
+| Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -27,36 +27,36 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Election Administration Capture | elections_transfer | 1.30 (Watch) | 2 | 2 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 4 | 1 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
-| Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
+| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 4 | 4 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 2 | 2 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 2 | 1 |
 | Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
 | Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 0.65 (Green) | 0 | 0 |
-| Independent Agency Capture | civil_service_integrity | 0.60 (Green) | 0 | 0 |
-| Political Speech Criminalization or Surveillance | civil_liberties_information | 0.30 (Green) | 0 | 0 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
+| Independent Agency Capture | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
+| Election Administration Capture | elections_transfer | 0.95 (Watch) | 0 | 0 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 0.65 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
-### Election Administration Capture
-- [Brennan Center for Justice] State Voting Laws Roundup: May 2026 - Brennan Center for Justice (2026-05-19) - https://news.google.com/rss/articles/CBMilAFBVV95cUxONy1kTUNUTG5pM2dNekZsNUlXLUhnb1RwRHlRdEx1RjhseHpOTkJxNVo0S1U1Q3Z4R19Zc1hqdk5FUFkza2JmU0JTOTVXdmlILWViVXREdTl0UndldVRUeEFZaTE1bDFGamJPUnFxY1Juc1hLV0hCNk4weWlFOFJDNENkaXJJU284YnA2dlU5aVMyYjk1?oc=5
-- [Big News Network.com] "Wages relentless campaign of false propaganda; spreading lies against BJP, EC": G Kishan Reddy targets Congress over SIR - Big News Network.com (2026-05-17) - https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSlp0dmNOOHlvU24tUGRIa1lLYmMxRGpveHF0Q3NJNkpPcXVJQTdXSkM5a2xwY2R4aVg5XzRmaHlOQk1yeFk2VWZ6M3Z3U3BoR1dFY0hPbjQ4OXdfa0VieXZjZ0F3eklHSGZLMmxNN2xkTkYzVHdSTExnZG1vUFpwME1qNlR0VE04cmFtVTVKN2p0cWpEM3A1MFlGM1ZBQVVZTkdhbEpiZTFXcXhXenByeUNhUmNLMVV1Y1ZjWjVEYWszZ041bmE1amVYS2tmTWlPLVRZRWp3Mnh1S3h2MXRncmtXODlKQ0RKTFJQMzk4QjI3NFJ6?oc=5
-
-### Judge Intimidation Campaign
-- [AOL.com] Federal Court Office Declines Request For Boasberg To Testify In Senate Hearing On ‘Rogue Judges’ - AOL.com (2026-05-19) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMGhEQ202OTJENWNoeUpJS1dib1lOWkE0cURwRkNJZzRVb1BsWXlMMnZmdjExaER1ekNZTnpmdGEwX0oxVEhxZGQ1RXhTVnNJb1Uydlg0VGVUVzhaSXRqazEtV0VkTEkyZ2pPUGlkWkQ0aEVOUkt2X0hOWGZYaEFGUlFody1nMlow?oc=5
-- [AOL.com] More federal judges warn of an increase in violent threats - AOL.com (2026-05-18) - https://news.google.com/rss/articles/CBMigwFBVV95cUxQc19KUkVaTVgzVjZlMDlENHAwSzhvZ3g0UHVCclY3X0tMSEpBWldRcnctT251WkVrM3FpVGFrb1BoNVZ6R0k3T0lGc09IakNqYWZkdE14QkVDaGdSaFc3elRwSXA2ZWd6ekpNN29iQU1oTk1WMlc4Q0lwZXBCdVZYR0JIRQ?oc=5
-- [AOL.com] House of South Carolina Judge Criticized by Trump Administration Set Ablaze - AOL.com (2026-05-17) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa1ZDTW50TzJ6S2NrSXZJTG1YTVFCTWVSZ0V2SEJSa28zMktMVDA3VmhwQ0I3NFhHTVdqRVdDbXdfVF9OVWtMNVlyYjk1elN0cXUwVmY5aS1VTE90bFZGWTBkZF8tOUZkRk1JTEVQNEZ4dGJtanJYTUlLRkNZWVZoc2ptSVN2dlRf?oc=5
-
 ### Press Restrictions or Retaliation
 - [Committee to Protect Journalists] Press crackdowns in Gulf spike following Iran war, risk becoming permanent - Committee to Protect Journalists (2026-05-19) - https://news.google.com/rss/articles/CBMipAFBVV95cUxOWWV5VDZQYTNSbGxmQW9kOExLWThtUlNyWTJ4OWhxYktaS1BhMXpZaDdNRzhjbko0X3hOUW5BanpQTnpRc3VUQlhoYkx3WjVoS0hNYjNxdjR1ZmVqOGU0VF8zZHpOaEhRVUNwVHRLRVhkOG5xQUNrSms5TGF4S2tWeURmT0pTTXctcktUbVJVV3NlTlpFQVBCRnhaRm5VSjFfMFZpStIBpAFBVV95cUxOWWV5VDZQYTNSbGxmQW9kOExLWThtUlNyWTJ4OWhxYktaS1BhMXpZaDdNRzhjbko0X3hOUW5BanpQTnpRc3VUQlhoYkx3WjVoS0hNYjNxdjR1ZmVqOGU0VF8zZHpOaEhRVUNwVHRLRVhkOG5xQUNrSms5TGF4S2tWeURmT0pTTXctcktUbVJVV3NlTlpFQVBCRnhaRm5VSjFfMFZpSg?oc=5
-- [Press Gazette | Substack] Lawyers 'killed off' anti-SLAPP laws | Farage targets Guardian photographer - Press Gazette | Substack (2026-05-18) - https://news.google.com/rss/articles/CBMiekFVX3lxTE9JYkpkTmJEZUdna3RVVDdMZ2J1d21aVVcwUmFPQWpUelp5bzFlNEF6ZWpPVUY0Z3h5TDcxNy1JbXBHa2xNQjJuOGNLaEVXYlpkOF9URUQyb0hFbUp0ekZ2aHJGME9RNWp2UTk4aXlGZVFMTTg0ZkM5M1RR?oc=5
+- [Amnesty International] Indonesia: Military silences dissent with disinformation campaigns branding activists and journalists 'foreign agents' - Amnesty International (2026-05-19) - https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTWR4ZXBFRWVGYmc5OU9CLTZscHB1VWVpRFBrWTFVTGJrOF9sMllkaks5N3p1YnBNQVdWaVg2bXBuazNQbWhQTHRVdXpYdS0tYlM2Tm1TVEJ2ZVpneElKSXUyUVNQTm5ueXQ3MldEeUxQSTFmMVpBLTdoNFlVd0gtejd2VjZfS0tvMExqZ3lRV0N2a1Z5eXhPU3FMak04WE1nZ2N6MTB5TktHOV9kY0FTVzhRSmZyMmZ4MWk1MTNIVWdzUC1PV3JmN3dscDQ3Wl9JaHN0YUtuekRRclJ5Wklqd0VlWWZyYkZ5d3c?oc=5
+- [Poynter] Reuters retaliated against a journalist for raising concerns about the company’s ties to ICE, union alleges - Poynter (2026-05-18) - https://news.google.com/rss/articles/CBMilwFBVV95cUxPM1VkREZGU0JkZEVtTElyYzBfVHEyN1VPeFNsZGJhZnFjTUxDV3NyRnprU0toZV8ySTc5T050dm42bVhuTGF6Nmd1Nk9TR2VFRm43aTh5YlJmQjA1LUlvSm1QU0F2T3BUSjhXWVNLaTlQM0xpU1Q5ejRxUWRlTkJtVERVNlp5QmdFMmJPX3pyc3hlMmtmU2VJ?oc=5
 
-### Politicized Prosecution of Opposition
-- [Newsmax] Indicted Comey Says He Has 'Complete Faith' in Judicial System - Newsmax (2026-05-18) - https://news.google.com/rss/articles/CBMilAFBVV95cUxQSF9oUjBoeE1aeGhQdTdjZ3k3SzVKc1kxaXF5QTIyYkl4UEM2X25ORzliQk5kWXIxSHBLdGxVR3RXRUtUMk1ZRlNiYm5ha3hMRHhLZ3paN3BzUE1sX1FDdldpb2RWcGVlNzNacDhJaVdOMWlmVWIyNVlZQnFiblVNaEtDY21POFN5TmNJWkhhUTJ4QmEw?oc=5
+### Legislative Bypass by Executive
+- [KFGO] Supreme Court rulings loom in four major Trump-related cases - KFGO (2026-05-20) - https://news.google.com/rss/articles/CBMikwFBVV95cUxNTm83TE1MZEQ5N3lnaUhuR0Z3YU9YTGhBaXVWSjc3bUJjN29PTEYyYWNRMXQwcVBmUEFvblVVS2pUYlhtdEdnVUVXcWpRdlF2bHdMRDBZSzVKWWN0UjMwbmZ2eXZsX28tT05lUThJR29sYWdTYkxjMmFVSld4Y1NzR3FrUE9ZN3VDQUxsYWdNUWVMbjg?oc=5
+- [Dissent Magazine] Rot and Reform - Dissent Magazine (2026-05-18) - https://news.google.com/rss/articles/CBMijwFBVV95cUxOUkZYc3Yza1lmWXlJUDA5NnV6UjhabmR0TGprbXBmUWM1bzRSMC1ZdXV3TnlLZUVJTFVXUkE5UVVGYXQzRmpCMlN6NnVlZUs4Ty1vQzdPQXl0b2djNHgzekxvcXhvUnFtai1FcnJMcHFXdHN5U25Ga3V4MGpjTkNqOXEwU040d1ZNVndMY045dw?oc=5
+
+### Judge Intimidation Campaign
+- [AOL.com] More federal judges warn of an increase in violent threats - AOL.com (2026-05-18) - https://news.google.com/rss/articles/CBMigwFBVV95cUxQc19KUkVaTVgzVjZlMDlENHAwSzhvZ3g0UHVCclY3X0tMSEpBWldRcnctT251WkVrM3FpVGFrb1BoNVZ6R0k3T0lGc09IakNqYWZkdE14QkVDaGdSaFc3elRwSXA2ZWd6ekpNN29iQU1oTk1WMlc4Q0lwZXBCdVZYR0JIRQ?oc=5
+- [AOL.com] Federal Court Office Declines Request For Boasberg To Testify In Senate Hearing On ‘Rogue Judges’ - AOL.com (2026-05-19) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMGhEQ202OTJENWNoeUpJS1dib1lOWkE0cURwRkNJZzRVb1BsWXlMMnZmdjExaER1ekNZTnpmdGEwX0oxVEhxZGQ1RXhTVnNJb1Uydlg0VGVUVzhaSXRqazEtV0VkTEkyZ2pPUGlkWkQ0aEVOUkt2X0hOWGZYaEFGUlFody1nMlow?oc=5
 
 ### Opposition Ballot Exclusion
 - [TheCable] APC primaries: The charade we call democracy - TheCable (2026-05-18) - https://news.google.com/rss/articles/CBMid0FVX3lxTE9mSFJEVXFWd0tfMXVVQmJncGxrZ2xFcTFCem1pb0VQZ0FaVE1LYlRFalNoUVgxeXJvVWNZYmllNndCaXR6UEY1dTY3R2F1Y2ZEYlQ2cHBsbTcwMHlSVmRjRW1aOVZHOUpmQUxSRXB5UkNBVjhyZ0NN?oc=5
+
+### Emergency Powers Expansion
+- [National Taxpayers Union] Reclaiming Trade Authority: Members of Congress Introduce Reforms to Rein in Presidential Tariffs - National Taxpayers Union (2026-05-18) - https://news.google.com/rss/articles/CBMi0gFBVV95cUxOb3NYMnJvS1cxTFFJRjBZbVNUeVBRLW1xRVZNMTZBOTd3dXBCOEtRc3NaNFBDQkoxYlBnWXBRcFpZT201MWtoQlBnaDViOFpWYTlTM01rQ0gzck94b1FtcFR3TmdKR0s3QWYxSHZKNkhYNjRtVUxlV19ndDVXOXZubFFlZHR6V1pSTVU3ZWo2WEI4bXBnVTFiSmdub3ZCWEdfUXllM0Zaa3hIajY3MDc2M1ZjQTVmTURVNGRpcGNXSVV4ZFlPNlZJckdUMjM4eVNTVVE?oc=5
 
 ## Data Quality
 
