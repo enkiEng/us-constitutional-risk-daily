@@ -1,16 +1,16 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.37,
+  "average_7d": 12.15,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
     "max": 29,
     "min": 15
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 6.0,
-  "delta_vs_7d": 4.68,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": 3.2,
   "domain_breakdown": [
     {
       "avg_severity": 0.75,
@@ -20,38 +20,38 @@
       "weight": 22
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 1.2166666666666666,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.75,
+      "points": 4.5625,
       "weight": 15
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.21666666666666667,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.5166666666666666,
+      "points": 0.7583333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 1.4333333333333333,
+      "avg_severity": 1.0999999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.658333333333333,
+      "points": 3.5749999999999997,
       "weight": 13
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.3749999999999998,
+      "points": 1.0833333333333335,
       "weight": 10
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.5,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.625,
+      "points": 1.25,
       "weight": 10
     },
     {
@@ -72,63 +72,31 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-22T13:13:39.884994+00:00",
-  "previous_score": 11,
+  "generated_at": "2026-05-23T12:41:04.629112+00:00",
+  "previous_score": 17,
   "provisional": false,
-  "score": 17,
-  "score_raw": 17.05,
+  "score": 15,
+  "score_raw": 15.35,
   "successful_queries": 22,
   "top_signals": [
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVU9BRG56cWxWRHBaSnVNd3BuVEM2YzNud1NmNFJtTjJJbHU2dFFKX3oxRmxRVWxDTTNudlBqWVlJY0o4SGpFelJONXByZWxzdWFvb1BZbUxwSFFRelIxOEY0YllrNEs1R0l1LUk2WkU1WEY4NlJMcW5qODZPOHhqNXBCeDA?oc=5",
-          "published": "2026-05-20T16:41:44+00:00",
-          "publisher": "The New York Times",
-          "title": "Trump\u2019s $1.8 Billion Fund Tests Constitutional Limits - The New York Times"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSjBJekVibFBhY3JWellPWENVR1NzbVp6X3FDOTJyTERqWXpzUUFMZmc5cUpDMm5oV0dxY2lLSVlNQXZsU2xwYjhSUWcwNUhOMGNFYWp3cjVtU0NZbS1ZcGUxQVhjQlRqUTVaT1BPRVgzMmo4VDYxRTJlOWlzRWk1eS1IWWdMYVhLQ3ZYVFlkYzhidzR2V0U0ag?oc=5",
-          "published": "2026-05-20T16:01:23+00:00",
-          "publisher": "Lawfare",
-          "title": "Advice and Consent for Major Governmental AI Deployments - Lawfare"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOHQ1VE4zeEVmZ2lNSjZWdGNlQ29OVmg4NzVaNDl1R2RrdUFSeHNXMlplQlhIQVI0anVVc20xZG94cG10di1tTHdqaTA0aXJyREtENUJpN2w1WmNaekhUSnAtakx3aEZlUUVlVXlQTXRsSUF2V3pXUFhtX1hVUVlLaFlSRzNacGdaNFFITnpTNEdfUnJnSEFkel9kZTFwUndNSExuWndzUWthUzFSWXdF?oc=5",
-          "published": "2026-05-20T16:15:21+00:00",
-          "publisher": "Reuters",
-          "title": "Supreme Court rulings loom in four major Trump-related cases - Reuters"
-        }
-      ],
-      "hits": 8,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 6
-    },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvVmI4TVlpOF93aVFzQm9HV0Z5VVZLM2hnbUZlVDRWMXRMNWJSUEpYYTdGUTFJUV9BYm5iZkZ4NkppMUdtSXZlWFFwQ1hCa0lhWnlZSXhJQXFNbDB1dVBaczFVUQ?oc=5",
-          "published": "2026-05-22T01:37:07+00:00",
+          "published": "2026-05-23T01:29:00+00:00",
           "publisher": "The New York Times",
           "title": "Trump Administration Updates: House Pulls Vote to Halt Iran War - The New York Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qY3RjaVBtRmhUYm1NZG5fT0U1NjY4VDllNzJ6a0pTcnZRaHhxMWJTaTFkaWtMbkhYN1hFQ0F3dFg1N3VPeDA0OC1udlowMUNoZ2FR?oc=5",
-          "published": "2026-05-22T06:40:42+00:00",
-          "publisher": "\u0633\u0627\u0646\u0627",
-          "title": "House Republicans delays vote on bid to restrict military action against Iran - \u0633\u0627\u0646\u0627"
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOWZuTlpsZzM2cS1xc21HaGs2RWsyOXRpTEJRbzZReDBFZzBXdXZ0NzBwdjZYR3ZOWnpDLUQzcUhZTWVISjBUR0RJUmFRcXRIUURTTld2QVpzOHJfZUoyTWxyMm5NWWdHS3ZHQUtkYzRqcFR1T3lPT0dJd05rZUNXcTkzY2RlWGQ1NmZNbmowdk9zY25kaERXY3dOcjUwQQ?oc=5",
+          "published": "2026-05-21T22:59:45+00:00",
+          "publisher": "The Straits Times",
+          "title": "US House Republicans cancel Iran war powers vote - The Straits Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNczE2SkZCUzVQWWN5TDNrbWR2d0xwVTFHYUQ2WXN4QVdJNi1CWDNfU3d4cm9BLVk2WDd5TXlLWnQ0U0Q2N0tJaHF2dm13TnF4VWIxMjNtbHl2LVR4Yi1iWENOQVlucDl4UlNuT09mMFFhSElJWnR2ZEsyZjFGZVlKUGxFZ051QmpwZWhr?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdVZRdVhXR2lNT1ZnaWx4dXNtM2FKVXZhdzdTXzZOeUF1dGhyWHZGY014OUt2QWV4WkVXSkdnbmhleC1XaXk1cFRJNlhKNVM5d1BuUFVQTHJ3dy1kSlZBV0ZyTVc5S21nN1RGeDBTTklEOG1WWTQwZWNYRWJpNVd0WE9jcXlIZEJVbkVIWmFFNXk3SFZTa1NuWVBpSERFenhpSTNn?oc=5",
           "published": "2026-05-21T23:48:00+00:00",
           "publisher": "\u9999\u6e2f\u96fb\u53f0",
           "title": "US House Republicans cancel Iran war powers vote - \u9999\u6e2f\u96fb\u53f0"
@@ -142,32 +110,6 @@
       "severity": 2.0,
       "severity_label": "Yellow",
       "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcnkwcV9RVkNFSjdEN3NrTUJFOEdYbDA0NzQtNHRvMTMtanFUUU1CLVJjSG1xUTFfbWlTeC0tT2NSLTBBX1lTNXFuajRLUlBTMUVUTS1pb29VdnV5V2pMd1pTZWJZcUxPZ2xDWjh0VW1rYnM1MEVrbFBDeExBZWxjQU5FemdmRE0?oc=5",
-          "published": "2026-05-21T14:39:54+00:00",
-          "publisher": "\uc870\uc120\uc77c\ubcf4",
-          "title": "37 Generals Disciplined Over Martial Law: Military Purge Exceeds Hana Association Scale - \uc870\uc120\uc77c\ubcf4"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44SlZ3M055Q0FWajc3TUNBbGZpMDZ1OVVIQVEySURFVFRwRGt2ZWVXbXF1ZW83RHBUVE1JNjFvcHJQV0MzSzdPLXo3elZRYWMzWGVJNEttVjVHTFBIQjc2V3hVWQ?oc=5",
-          "published": "2026-05-20T17:45:00+00:00",
-          "publisher": "The New York Times",
-          "title": "ICE Whistle-Blower Calls Training for New Agents \u2018Deficient\u2019 and \u2018Broken\u2019 - The New York Times"
-        }
-      ],
-      "hits": 2,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -191,6 +133,110 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPclpMRDF6QURTSzRCR1lxQzJyaFliQ0NiUkNvalVpZUVKLTBwcy1iWkVpcnJrdHdSbDJ4YkJZSG9NYzBnOFJLUng4ZlM3bXBLWm4wSWNxbmJ1dk1FM1ZqYXdILWNYMW8zT1V3UFZTbWFZN1JZWVl0VnJ3Q0RELXRIbE0xUHlOSGxpZEFxcTNYTmEzeW5ES2NydkowUFBvOFBHX3FuUEZvaUNwcFhQeXRVR0I0QlV0dVdyTFVQR3g2bDU1bk1wNEtSNG1qODZ4T0hjU0l3ZFc5SkN3cTlTTlVqYXpHbUFhZzhQOUQxNGNuQ3V6Zw?oc=5",
+          "published": "2026-05-21T23:31:31+00:00",
+          "publisher": "MSN",
+          "title": "Trump\u2019s $1.8B settlement fund sparks constitutional debate - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMWJ6MG9STXZhRzRvNjJnSGx1bWdZQ2FlczdwQlRnc2FSbXYyQTBjZkphVldUX0ZWd0VZMDMtc3U0WlUtMzh1cFh1NkxpREpGRGRPSVc0WkQ4dTRaZjVENGQ4OXBGTEZ3cjdULURwVXJKeXZrUDYxTS1OcVMxZTlhcnE3YTlrTThrQkhxVEFrZzJqRGhxenllVHJNV1AzbF91VjRNU1RwdGdEdTFjbkJwbUZSeXVTalVpUXg3bzBaR0JaZEpRMTZJUWVyV0w5WEhiVHFRRnNOdUw?oc=5",
+          "published": "2026-05-22T13:36:05+00:00",
+          "publisher": "MSN",
+          "title": "Judge orders Trump aides to comply with records law - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9qV1dxbDU4a0hhc1lBZGF1YzVqOWlwdVVhelJjTjkxX292Z3BBZmhfX0JxbzhoaW00c1FhZEcyRUcwTkNhTXlV?oc=5",
+          "published": "2026-05-21T13:26:51+00:00",
+          "publisher": "mogazmasr.com",
+          "title": "Presidential Records Act Ruling Blocks Trump Administration Policy And Preserves White House Records - mogazmasr.com"
+        }
+      ],
+      "hits": 3,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcnkwcV9RVkNFSjdEN3NrTUJFOEdYbDA0NzQtNHRvMTMtanFUUU1CLVJjSG1xUTFfbWlTeC0tT2NSLTBBX1lTNXFuajRLUlBTMUVUTS1pb29VdnV5V2pMd1pTZWJZcUxPZ2xDWjh0VW1rYnM1MEVrbFBDeExBZWxjQU5FemdmRE0?oc=5",
+          "published": "2026-05-21T14:39:54+00:00",
+          "publisher": "\uc870\uc120\uc77c\ubcf4",
+          "title": "37 Generals Disciplined: Military Purge Surpasses Hana Association - \uc870\uc120\uc77c\ubcf4"
+        }
+      ],
+      "hits": 1,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5",
+          "published": "2026-05-23T05:30:08+00:00",
+          "publisher": "Iowa Public Radio",
+          "title": "Today's Iowa News \u2193 - Iowa Public Radio"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1RNlhNRHFqZG1ITWFUS2Z4eHkzYzBpNVlQMW5DX19NVlRGay1ZMmRPWjYwOFFfZ0hUa2doRHRZT2NybUQzbGtPNTMtRm1hNWxRb2lGTmVvcWZVWDg0UnlQR0pOcjRJZEUyd29aUHhCY2RyU0tC?oc=5",
+          "published": "2026-05-22T16:44:54+00:00",
+          "publisher": "judicialwatch.org",
+          "title": "Cleaning Up California\u2019s Voter Rolls - judicialwatch.org"
+        }
+      ],
+      "hits": 2,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN1ZXUHUxWTM0blNrR0hPZVJHdWhJbFJHUk9wWk5qclVhNGV6bmoxYUpkemNOT1lNS2xLdndsR095UGYyazVZT21FVHJFaHVFS2ptS1dTQUxCcFlhRlBYMlEzRWdGV2NpSEp0NVF3TTVEcldXMjJ6N29Fdkh2YWYwQ1pYSmlzRklYRG1CQXEwWkVONHl2NS1hR1llRndLVzZnMWcyeVVfYndUUDRhMVgzWkVFUzNGQQ?oc=5",
+          "published": "2026-05-21T19:16:00+00:00",
+          "publisher": "KFF",
+          "title": "Litigation Involving Reproductive Health and Rights in the Federal Courts - KFF"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMEZ5Qm1LR3JKTElpNmVlNnFrZllwQkN1RGxtNURvTXpFWDJBV1FhRERFWEx2VTNHdXZsdzg5bkhHajRlSUVkRjVUUEZSOUJKUkY0Y1JZRHQ1Vml3UVV5ZnN3TEpoalY4dmtPY1pKdTRrWHpRd1FpaFpsZmRnb0F1LXB5ajZZX0xmaXdIS3RQZGV3cGNwLTVtUVAxbC16MHhYSVZ3ZlVRLWpmWVA5UFdqLXVRSGI5M050QWdBTGloMEl3dk5hWk5ocThfZzFJbXN3LWR3ZF9fRDRvQ3RpM1BSM1FNMXdCM2syOG8xMTN2blRKZnRaX1RMTnZQRlhOTVhMUVE?oc=5",
+          "published": "2026-05-22T20:11:24+00:00",
+          "publisher": "MSN",
+          "title": "House Democrat files impeachment articles against Chief Justice Roberts - MSN"
+        }
+      ],
+      "hits": 2,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
@@ -200,47 +246,15 @@
           "title": "Bangladesh: Authorities must immediately drop ICT charges against journalists for carrying out their work - Amnesty International"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-05-21T09:19:11+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaUo3cnpna0VIenNwaW5VQmlUOEZkSGNKUXZzMGVRTUNkNUZ3OWNmYUNSQWRFRFRQZHk5djdpOS1HUFE4U3Vrb2RnZm1oa0ZjOXp5MWpPRWhhdDZnNnU0clUxZ1VQbGg4WXNNbW01SFRCeFZISG5TODh2NWc5cUhvUHFKSjUwYlNJWmwweVFPdTIzT05vNy1uaDFTeG9OQ1dMbkxWOGxFMG4ybUZLeVZPNDhiYURjUWlaa1ZLemtSS3ZyQlE5Z0pXRDFseDNsNzRG?oc=5",
-          "published": "2026-05-20T18:32:00+00:00",
-          "publisher": "dailyasianage.com",
-          "title": "Tagging Media Houses With Political Tapestries and Grabbing News Outlets Portray A Bleak Scenario - dailyasianage.com"
-        }
-      ],
-      "hits": 3,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVVNkSUd5aWFpR2NlT1BRRDVxZWREdTcwRVNLUWRmc2FYZTh6eExGVWNRTlRKX3MzX0FJZlJTQXo5T21ZRktGb0xhQmR4cFJpQmhXNHFxX3NJR1pqVGZOd2RUUXdJWXJkNkdHbHZLckZ2ZlB0X3kzdk1MS3NPdDFDRjRSa3VEVlhKeU5UZEZDVHZQUG5YT2d2cUxBZWk1UHp2eTdHeWc5dw?oc=5",
-          "published": "2026-05-20T20:58:58+00:00",
-          "publisher": "Merkley (.gov)",
-          "title": "Wyden, Merkley, Colleagues Demand White House Fire Election-Denial Czar - Merkley (.gov)"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-05-21T09:19:11+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUDNxRHFEOGdDQlNRTEpmS0R5Wk1NRVNkLWhIbUZYWmVLN2w1cDdRc29DWHF2NDZ4b2RXN2ZjSlJGZHJpdTdVZWJ4VGN3U1hKWEt0RnlLSklaUlhJZlkzOHpUWU9qcWJBZjdiSy1aVGo0V2gtTENaMW9vdmhmUmgtanlUcGx5cnRuYXlyeDJlUnFTMndtRXpiVmpxTVRmblJFVE1tRGJaN0lzeU5HYnFMRFV2d3U2dXNK?oc=5",
+          "published": "2026-05-22T16:23:00+00:00",
+          "publisher": "IANS LIVE",
+          "title": "Bangladesh: Rights group seeks release of journalists, flags press freedom concerns - IANS LIVE"
         }
       ],
       "hits": 2,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -256,70 +270,24 @@
           "published": "2026-05-21T12:58:10+00:00",
           "publisher": "MSN",
           "title": "Supreme Court set to rule on four major Trump cases - MSN"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc0tPQ3owVHNmTk5xN2wwTG9VS214Z1pldjIySXFscWVHUUFXeFNZcHVvdmR5elIxVl9hT1BJRFFnUlF5OVFqTVZyeC02X2l3dmROQnFGcVFlZ2NlcWpVbzUwdk1RVEdySklsSFQzNzdRMTQ4cHRuV3otbmNrd3NrWkxrMVlNQmxTU082UFNaQ1lvNW1KYnc?oc=5",
-          "published": "2026-05-20T18:34:45+00:00",
-          "publisher": "WTVB",
-          "title": "Supreme Court rulings loom in four major Trump-related cases - WTVB"
         }
       ],
-      "hits": 2,
+      "hits": 1,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-05-21T09:19:11+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "hits": 1,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-05-21T09:19:11+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "hits": 1,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
       "evidence": [],
       "hits": 0,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
@@ -328,24 +296,24 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.65,
       "severity_label": "Green",
       "unique_publishers": 0
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_service_integrity",
       "evidence": [],
       "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
