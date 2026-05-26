@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.76,
+  "average_7d": 13.02,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,49 +9,49 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -4.0,
-  "delta_vs_7d": -2.01,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": -2.09,
   "domain_breakdown": [
     {
-      "avg_severity": 0.7375,
+      "avg_severity": 0.5625,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 4.05625,
+      "points": 3.09375,
       "weight": 22
     },
     {
-      "avg_severity": 0.75,
+      "avg_severity": 1.3333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.8125,
+      "points": 5.0,
       "weight": 15
     },
     {
-      "avg_severity": 0.21666666666666667,
+      "avg_severity": 0.3333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.7583333333333333,
+      "points": 1.1666666666666665,
       "weight": 14
     },
     {
-      "avg_severity": 0.6333333333333333,
+      "avg_severity": 0.39999999999999997,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.058333333333333,
+      "points": 1.2999999999999998,
       "weight": 13
     },
     {
-      "avg_severity": 0.09999999999999999,
+      "avg_severity": 0.0,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.24999999999999997,
+      "points": 0.0,
       "weight": 10
     },
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.15,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 0.8125,
+      "points": 0.375,
       "weight": 10
     },
     {
@@ -72,20 +72,40 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-25T13:31:32.742477+00:00",
-  "previous_score": 15,
+  "generated_at": "2026-05-26T13:23:55.661784+00:00",
+  "previous_score": 11,
   "provisional": false,
   "score": 11,
-  "score_raw": 10.75,
+  "score_raw": 10.94,
   "successful_queries": 22,
   "top_signals": [
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOU1pIZzBSbUJSN3NlUklzVDV0NGtNMm5LOERpS3UwejlvRjcwOFVTSlg1cHR2RFlGc002ZWN1V19Ucjl2a1RMb0o4SHdNR0VPYXFTYTNlUm5qZ3Z6LV9faDNZTk0wTDhGNjJua1dNVThhSGtnajBDX01SVjVwNHNKclF3LUdFUU5YTVJJeFNHMjlIQzZxM1V0QmxVZVc5S18zdC1hby1Wc29EdzlzdU5ueFpiYVlNX044R2FiUGE2SXAzWEVMUWZzNnU2MG02MlFM?oc=5",
+          "published": "2026-05-26T09:00:00+00:00",
+          "publisher": "The Georgia Virtue",
+          "title": "Watchdog says Biden Education Department defied court order on Title IX enforcement - The Georgia Virtue"
+        }
+      ],
+      "hits": 1,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 1,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTU5rbGI4YmF5cG45M1pUOHpfbmhDOEFfM2R5MDJ6a2NQbFA5NzZ2d2syQWJEU0xzV2dUWnpHQkhCdU9QWnFUZUQ2SWlYSE4zVzRZNmY1UG94LVJSel9fYlJiSlNaQjlnTXEyV1RSNTViWTJsbUhCOG13ZTR6OXM0WkgxQVR3d0FKN1l0LXVibS0yMGlKakVMZnlGa2pHQQ?oc=5",
-          "published": "2026-05-24T06:05:57+00:00",
+          "published": "2026-05-24T18:04:57+00:00",
           "publisher": "ACLU of DC",
           "title": "Voting Rights Group Seeks Ruling to Prevent Federal Interference in Elections Before 2026 Midterms - ACLU of DC"
         }
@@ -95,7 +115,67 @@
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeTVUZEZlanpPNjZ1TW0ybzRHM2E4WGR3NFQyT09iRF9wOWVwWmtEVXJVaUR1b2o4VjFEanBlUmNMZlJ5WU1wZGZBNzM1aHZNRk1UOGRhYXAwZW40ajhXN1l3MFZFbnFfazNMb0Jmd2NoT0g3TVZ5MTVYb2d6OV9hbno3U05sQnBlSmxsVFJNcHJDSTAyNmZhTlFtUUZjNzZwdU5vWXUwbmIxUQ?oc=5",
+          "published": "2026-05-26T12:46:53+00:00",
+          "publisher": "The Washington Post",
+          "title": "Opinion | In Russia, an anti-war opposition is brewing - The Washington Post"
+        }
+      ],
+      "hits": 1,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQU1RNQTNMVFhWUFpBOFJ6bGpCUHltVzJ1QzExVGVHSXdUaGtsYkNrd3ZKZ3lQYmhQTEhaVkVQdGdoM3NHS0ZVYTJ3RnY1RjU2MGwwVTd2cVhadFk3WEo0VFk4UjVzYTNqMlJqQVJwMUpYcndDZ3FiYVdMLXVLMHFZTExfODZjRkpkdzJOcEhUX2NYQlZuaGhpaTlRbENrVzU1OTlWNjlkWHB4Z2l4OXFnTVBjakVnNU1iV0hzb0x1R2tUZlBlTFVYRGxZeUNfSVBPNThVVWRfcDVEQlR6WkxyajZNRVVXQWM?oc=5",
+          "published": "2026-05-24T16:26:00+00:00",
+          "publisher": "MSN",
+          "title": "Judge rules DOJ retaliated in Kilmar Abrego case - MSN"
+        }
+      ],
+      "hits": 1,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53U0NTcFFvWXBCVEdnR0NFeXhfNGh4V1hGMllnZGRrRW9LYkYtV1RCMmtLZ2EzUGJuU05yZVBXaHZsRFROSlZEMlloLU1JMXVsTXNlTGJWdmUxUlFVcXpUdXRReGZQeEhodEtxMlVpdzdEU2dteVRQbElGdG5MQQ?oc=5",
+          "published": "2026-05-25T13:53:25+00:00",
+          "publisher": "One First | Steve Vladeck | Substack",
+          "title": "229. A Tale of Two High-Profile Immigration Cases - One First | Steve Vladeck | Substack"
+        }
+      ],
+      "hits": 1,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
     },
@@ -108,20 +188,7 @@
       "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -134,8 +201,8 @@
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -147,33 +214,7 @@
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -184,32 +225,6 @@
       "hits": 0,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
