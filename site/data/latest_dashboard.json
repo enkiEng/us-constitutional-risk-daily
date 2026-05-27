@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 13.02,
+  "average_7d": 13.16,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,21 +9,21 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -2.09,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": -1.38,
   "domain_breakdown": [
     {
-      "avg_severity": 0.5625,
+      "avg_severity": 0.4,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.09375,
+      "points": 2.2,
       "weight": 22
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.55,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 5.0,
+      "points": 5.8125,
       "weight": 15
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.39999999999999997,
+      "avg_severity": 0.4166666666666667,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.2999999999999998,
+      "points": 1.3541666666666667,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.5,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 0.375,
+      "points": 1.25,
       "weight": 10
     },
     {
@@ -72,13 +72,45 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-26T13:23:55.661784+00:00",
+  "generated_at": "2026-05-27T13:36:06.937096+00:00",
   "previous_score": 11,
   "provisional": false,
-  "score": 11,
-  "score_raw": 10.94,
+  "score": 12,
+  "score_raw": 11.78,
   "successful_queries": 22,
   "top_signals": [
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53U0NTcFFvWXBCVEdnR0NFeXhfNGh4V1hGMllnZGRrRW9LYkYtV1RCMmtLZ2EzUGJuU05yZVBXaHZsRFROSlZEMlloLU1JMXVsTXNlTGJWdmUxUlFVcXpUdXRReGZQeEhodEtxMlVpdzdEU2dteVRQbElGdG5MQQ?oc=5",
+          "published": "2026-05-25T13:53:25+00:00",
+          "publisher": "One First | Steve Vladeck | Substack",
+          "title": "229. A Tale of Two High-Profile Immigration Cases - One First | Steve Vladeck | Substack"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdUFJVjJ0UnJMWHFEbF92Z09na0ZvS29oQ3gzSVVoT1dzYldXOW1BVURlVUh2dS1feEx3ZFpWOTBzVUw0aktfV0pDeWh0Q0VWTVFaTzZsNTBMTERWeGk0TW1VUmR2M0J3d0taS1Ficlh4eFFVemRKamIyUHFGSTlRbkJIY2VpN3lJX2MzRUVfdjk5ZXNOeU1Fd1dfdWFxNnJLLTQ1UUVlQWE?oc=5",
+          "published": "2026-05-26T14:05:00+00:00",
+          "publisher": "Bloomberg Law News",
+          "title": "Justices Side With Trump in Immigration Judges Venue Fight (3) - Bloomberg Law News"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNkplU284MTJvSF80X3ZUNlhQajVRSjgyTTBPdlk4Xzhkb2xGaTAzV1RYa2dLMldEY1BTUENEWEhZWDhkRmVCVld5QnM4YkFGVzZUSk9TYmxVWmpleWZtTFVVc184bkVzaHlDbkxyUE1iZS1FOXNxRmR1YUh6WUx0Vg?oc=5",
+          "published": "2026-05-26T15:02:46+00:00",
+          "publisher": "ICLG",
+          "title": "Product Liability Laws and Regulations Report 2025 - 2026 USA - ICLG"
+        }
+      ],
+      "hits": 4,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 4
+    },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
@@ -104,20 +136,52 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTU5rbGI4YmF5cG45M1pUOHpfbmhDOEFfM2R5MDJ6a2NQbFA5NzZ2d2syQWJEU0xzV2dUWnpHQkhCdU9QWnFUZUQ2SWlYSE4zVzRZNmY1UG94LVJSel9fYlJiSlNaQjlnTXEyV1RSNTViWTJsbUhCOG13ZTR6OXM0WkgxQVR3d0FKN1l0LXVibS0yMGlKakVMZnlGa2pHQQ?oc=5",
-          "published": "2026-05-24T18:04:57+00:00",
-          "publisher": "ACLU of DC",
-          "title": "Voting Rights Group Seeks Ruling to Prevent Federal Interference in Elections Before 2026 Midterms - ACLU of DC"
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdWV6WXNTMDJKQWgwQlA2Q0VBcVZ6VlcwOFNIWEgwTTgzR1dheFlyc3FtQW9qZlNGVGlDZGgySWxHMThVNzVtR3lVXzJOR0NhNmVLUld6VjJQWF8ycmppNlJ5SkE3eUd3d0I2OWRsT1JsMjFwa3BjMi1zRklGeGZaWks5ZmFuY0JHWFJZeTM5Q1FwNllRZXFnOHhSM0xyU05rTWJ2ZW5xMU1FRmlXRmJPUU43OW8wVTN3UGpjWURRTTJPbktZX1R6dEZNaw?oc=5",
+          "published": "2026-05-26T15:05:40+00:00",
+          "publisher": "WHEC.com",
+          "title": "The Latest: Iran deal progress is murky after US military says it carried out \u2018self-defense\u2019 strikes - WHEC.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUzNFcWt3OC0tWDEtcGFWUG5iSktBdmF1MkV0NGpNZWxBd0xKaFJ2bE0ycFhlN2pJRlNIRjFnVWx3RE5oNVhrN0k5LXQ1Qi16ZW1JYlJTZEhqbmFGdjQ5Q1RoVHNzVTVLbG1wSHp5c2p6YlFfek0yXzk0WlFydkZpZnYybmdodjdyczU1UDBPMnM5dE9PUzQ1Um84NXhWdUtxcG1ka0VRV1ZpbU80bFFjQVB4cm9tVVdjVkdtY1RwaGZoaW1pQXfSAcYBQVVfeXFMTlMzRXFrdzgtLVgxLXBhVlBuYkpLQXZhdTJFdDRqTWVsQXdMSmhSdmxNMnBYZTdqSUZTSEYxZ1Vsd0ROaDVYazdJOS10NUItemVtSWJSU2RIam5hRnY0OUNUaFRzc1U1S2xtcEh6eXNqemJRX3pNMl85NFpRcnZGaWZ2Mm5naHY3cnM1NVAwTzJzOXRPT1M0NVJvODV4VnVLcXBtZGtFUVdWaW1PNGxRY0FQeHJvbVVXY1ZHbWNUcGhmaGltaUF3?oc=5",
+          "published": "2026-05-26T16:15:06+00:00",
+          "publisher": "KOIN.com",
+          "title": "Oregon senators call on White House to remove election director over voter fraud claims - KOIN.com"
         }
       ],
-      "hits": 1,
+      "hits": 2,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYnFIdEJKckNja2locE5iTUQybXFwUGVZWmZ0WFhsdDJNSWNCQWRnR2xaR0RQR2RJTVowVmhrOERiMkFDaWp6Y0gwUm5YMTBNN0x1Z3R4R0Z1S1Vhd29na1ZJd3BBWC1hYV9ZREpZVUJJUXNPV2NMdkIwTG5XZUUtNXRIRkVUeHN2NXp1MVMtamVON3AzMkE?oc=5",
+          "published": "2026-05-26T17:11:56+00:00",
+          "publisher": "Columbia Undergraduate Law Review",
+          "title": "Ungoverned: AI, Accountability, and the Limits of Law - Columbia Undergraduate Law Review"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdE1nYjRGamZPTUk2Q2k3b014TThjSVphZ0ZfMHM3NjJMVE1ZN3RnWlJ2QmZpdnZibmg1djJwWm5UMUVmelJ5VGo0X01QcVpKb180eThCTmg3eUYyOVRuUVlUNGEtM25leHRaQnRzal9NWE5TMlpxdjFXQTZ5S1VGSk9IMXJ2NGZpWjFDMFlB?oc=5",
+          "published": "2026-05-27T00:20:38+00:00",
+          "publisher": "cnhinews.com",
+          "title": "What would surprise the Founding Fathers about America in 2026? - cnhinews.com"
+        }
+      ],
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -125,9 +189,9 @@
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeTVUZEZlanpPNjZ1TW0ybzRHM2E4WGR3NFQyT09iRF9wOWVwWmtEVXJVaUR1b2o4VjFEanBlUmNMZlJ5WU1wZGZBNzM1aHZNRk1UOGRhYXAwZW40ajhXN1l3MFZFbnFfazNMb0Jmd2NoT0g3TVZ5MTVYb2d6OV9hbno3U05sQnBlSmxsVFJNcHJDSTAyNmZhTlFtUUZjNzZwdU5vWXUwbmIxUQ?oc=5",
-          "published": "2026-05-26T12:46:53+00:00",
+          "published": "2026-05-26T18:15:00+00:00",
           "publisher": "The Washington Post",
-          "title": "Opinion | In Russia, an anti-war opposition is brewing - The Washington Post"
+          "title": "Opinion | Do Russians support the Ukraine war? This poll is remarkable. - The Washington Post"
         }
       ],
       "hits": 1,
@@ -141,18 +205,18 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQU1RNQTNMVFhWUFpBOFJ6bGpCUHltVzJ1QzExVGVHSXdUaGtsYkNrd3ZKZ3lQYmhQTEhaVkVQdGdoM3NHS0ZVYTJ3RnY1RjU2MGwwVTd2cVhadFk3WEo0VFk4UjVzYTNqMlJqQVJwMUpYcndDZ3FiYVdMLXVLMHFZTExfODZjRkpkdzJOcEhUX2NYQlZuaGhpaTlRbENrVzU1OTlWNjlkWHB4Z2l4OXFnTVBjakVnNU1iV0hzb0x1R2tUZlBlTFVYRGxZeUNfSVBPNThVVWRfcDVEQlR6WkxyajZNRVVXQWM?oc=5",
-          "published": "2026-05-24T16:26:00+00:00",
-          "publisher": "MSN",
-          "title": "Judge rules DOJ retaliated in Kilmar Abrego case - MSN"
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOEVOcUlNRV9ad1pUcnNwT2hxUWVrSzBYOGJ5VkFvVU5PVUYzYmltMTJMcF9vTlpJblJKRFVGd1R5bHBBWTdBdlRfbURNS0NQMGFYWjhndmZ0VFAxZHFLRzUxMzB3OHZlcllKOFFOeU9MUWtMeGRQN09TMmVvdnpiTnpQZkNoTW5XSlFib2JPMjNNUTBiMkNNZHl0S2tCSVFVWVlMZXJsSDhpLUNaX3E5allCbjRTVmtrcU11NGNR?oc=5",
+          "published": "2026-05-27T01:02:44+00:00",
+          "publisher": "WTAQ",
+          "title": "Trump administration proposes NDAs for federal workers to crack down on leaks to journalists - WTAQ"
         }
       ],
       "hits": 1,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -162,22 +226,15 @@
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53U0NTcFFvWXBCVEdnR0NFeXhfNGh4V1hGMllnZGRrRW9LYkYtV1RCMmtLZ2EzUGJuU05yZVBXaHZsRFROSlZEMlloLU1JMXVsTXNlTGJWdmUxUlFVcXpUdXRReGZQeEhodEtxMlVpdzdEU2dteVRQbElGdG5MQQ?oc=5",
-          "published": "2026-05-25T13:53:25+00:00",
-          "publisher": "One First | Steve Vladeck | Substack",
-          "title": "229. A Tale of Two High-Profile Immigration Cases - One First | Steve Vladeck | Substack"
-        }
-      ],
-      "hits": 1,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
+      "evidence": [],
+      "hits": 0,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -186,19 +243,6 @@
       "hits": 0,
       "id": "election_delay_or_cancellation",
       "name": "Election Delay or Cancellation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.6,
@@ -214,20 +258,7 @@
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
