@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 13.16,
+  "average_7d": 13.09,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,21 +9,21 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": -1.38,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -2.58,
   "domain_breakdown": [
     {
-      "avg_severity": 0.4,
+      "avg_severity": 0.225,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.2,
+      "points": 1.2375,
       "weight": 22
     },
     {
-      "avg_severity": 1.55,
+      "avg_severity": 1.3166666666666667,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 5.8125,
+      "points": 4.9375,
       "weight": 15
     },
     {
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.4166666666666667,
+      "avg_severity": 0.3333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.3541666666666667,
+      "points": 1.0833333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.3333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.0,
+      "points": 0.8333333333333333,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-27T13:36:06.937096+00:00",
-  "previous_score": 11,
+  "generated_at": "2026-05-28T13:38:16.969986+00:00",
+  "previous_score": 12,
   "provisional": false,
-  "score": 12,
-  "score_raw": 11.78,
+  "score": 11,
+  "score_raw": 10.51,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,14 +84,8 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE53U0NTcFFvWXBCVEdnR0NFeXhfNGh4V1hGMllnZGRrRW9LYkYtV1RCMmtLZ2EzUGJuU05yZVBXaHZsRFROSlZEMlloLU1JMXVsTXNlTGJWdmUxUlFVcXpUdXRReGZQeEhodEtxMlVpdzdEU2dteVRQbElGdG5MQQ?oc=5",
-          "published": "2026-05-25T13:53:25+00:00",
-          "publisher": "One First | Steve Vladeck | Substack",
-          "title": "229. A Tale of Two High-Profile Immigration Cases - One First | Steve Vladeck | Substack"
-        },
-        {
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdUFJVjJ0UnJMWHFEbF92Z09na0ZvS29oQ3gzSVVoT1dzYldXOW1BVURlVUh2dS1feEx3ZFpWOTBzVUw0aktfV0pDeWh0Q0VWTVFaTzZsNTBMTERWeGk0TW1VUmR2M0J3d0taS1Ficlh4eFFVemRKamIyUHFGSTlRbkJIY2VpN3lJX2MzRUVfdjk5ZXNOeU1Fd1dfdWFxNnJLLTQ1UUVlQWE?oc=5",
-          "published": "2026-05-26T14:05:00+00:00",
+          "published": "2026-05-26T20:27:00+00:00",
           "publisher": "Bloomberg Law News",
           "title": "Justices Side With Trump in Immigration Judges Venue Fight (3) - Bloomberg Law News"
         },
@@ -100,62 +94,42 @@
           "published": "2026-05-26T15:02:46+00:00",
           "publisher": "ICLG",
           "title": "Product Liability Laws and Regulations Report 2025 - 2026 USA - ICLG"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxPMTR1eERPRXZwdmpyUElkQ2h6cDJBTzNTQ283TkRyR09SQUNXY2JyYm9zZlJnWnM3dUNyekFSS0EtWWRtSDl0cnh4M0wxMTROOEhYVVhNaWg4NVVvbXZqMnN1NFdPZ3BoeGZkQVZCUGc2dF95TmRKLXF5XzZSM2Q1M3Btb0RiTUtsVldicE0yOFR1SWJDeENmbTdOcUwyeXVKci1BYWRFeVNvSnIwNGpkVEV2ZUlNMjNFeVlQSHp4QjFCXzlKQVlMd3pBeDFLOGxrekM3WGZURjR1Q2x0NXhUYnFYZVpJS1VvZ1g3bF95Yk91ZDMzRlZRZ2J4dm9mby1MeEZLbU10LXUybFJDMkdIMUpCWEplX01lS0tZTDdVMUhZUHhRU0hkeU1ERm5VcHJQaHZjbGFfckJ3bTVmZGt4WXVaZU1jZW9GNnE1XzQxSzMzTWtaeGRrX0ZkUXZ2SHdhTHZSQmFGeUc1QTJqR1Vkcl90WkZ1RFZNX0F2b3dhWG0?oc=5",
+          "published": "2026-05-27T02:07:40+00:00",
+          "publisher": "MSN",
+          "title": "Green card? H-1Bs must prove worthy of \u2018status adjustment\u2019 - MSN"
         }
       ],
-      "hits": 4,
+      "hits": 3,
       "id": "jurisdiction_stripping_targeted",
       "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 4
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOU1pIZzBSbUJSN3NlUklzVDV0NGtNMm5LOERpS3UwejlvRjcwOFVTSlg1cHR2RFlGc002ZWN1V19Ucjl2a1RMb0o4SHdNR0VPYXFTYTNlUm5qZ3Z6LV9faDNZTk0wTDhGNjJua1dNVThhSGtnajBDX01SVjVwNHNKclF3LUdFUU5YTVJJeFNHMjlIQzZxM1V0QmxVZVc5S18zdC1hby1Wc29EdzlzdU5ueFpiYVlNX044R2FiUGE2SXAzWEVMUWZzNnU2MG02MlFM?oc=5",
-          "published": "2026-05-26T09:00:00+00:00",
-          "publisher": "The Georgia Virtue",
-          "title": "Watchdog says Biden Education Department defied court order on Title IX enforcement - The Georgia Virtue"
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcjVjSjFoZ0hkN2xKVEVuX0g0Yml5ZjJiZVQ0cmFRUUNzdUVPdnhNQk8yb0J5VE1ma254UUozVHFrYXppcExYTkM1czBDUXB0VHMwOE1HTWZYTy00NmQ3ZGVONUJ5S3F4Qm14QXYxYVJrY2lsM1lVYnp4Tk1MdkpYWWRRci15RVB1TF9lSk0zYUpMNU00NzhheE51amFFYV9kX2RmZ2dYZnFCY2NELU93d0tGcUthOXdncU9DVHFvYmFOUmZBUEhuaU91dHFZNjhxQnd6WnZRMVhtcUN6Skp3SzlB?oc=5",
+          "published": "2026-05-28T12:28:50+00:00",
+          "publisher": "Yellowhammer News",
+          "title": "U.S. Department of Justice files brief backing Alabama in SCOTUS redistricting rematch after lower court defies Callais - Yellowhammer News"
         }
       ],
       "hits": 1,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
       "override_note": null,
-      "severe_hits": 1,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdWV6WXNTMDJKQWgwQlA2Q0VBcVZ6VlcwOFNIWEgwTTgzR1dheFlyc3FtQW9qZlNGVGlDZGgySWxHMThVNzVtR3lVXzJOR0NhNmVLUld6VjJQWF8ycmppNlJ5SkE3eUd3d0I2OWRsT1JsMjFwa3BjMi1zRklGeGZaWks5ZmFuY0JHWFJZeTM5Q1FwNllRZXFnOHhSM0xyU05rTWJ2ZW5xMU1FRmlXRmJPUU43OW8wVTN3UGpjWURRTTJPbktZX1R6dEZNaw?oc=5",
-          "published": "2026-05-26T15:05:40+00:00",
-          "publisher": "WHEC.com",
-          "title": "The Latest: Iran deal progress is murky after US military says it carried out \u2018self-defense\u2019 strikes - WHEC.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUzNFcWt3OC0tWDEtcGFWUG5iSktBdmF1MkV0NGpNZWxBd0xKaFJ2bE0ycFhlN2pJRlNIRjFnVWx3RE5oNVhrN0k5LXQ1Qi16ZW1JYlJTZEhqbmFGdjQ5Q1RoVHNzVTVLbG1wSHp5c2p6YlFfek0yXzk0WlFydkZpZnYybmdodjdyczU1UDBPMnM5dE9PUzQ1Um84NXhWdUtxcG1ka0VRV1ZpbU80bFFjQVB4cm9tVVdjVkdtY1RwaGZoaW1pQXfSAcYBQVVfeXFMTlMzRXFrdzgtLVgxLXBhVlBuYkpLQXZhdTJFdDRqTWVsQXdMSmhSdmxNMnBYZTdqSUZTSEYxZ1Vsd0ROaDVYazdJOS10NUItemVtSWJSU2RIam5hRnY0OUNUaFRzc1U1S2xtcEh6eXNqemJRX3pNMl85NFpRcnZGaWZ2Mm5naHY3cnM1NVAwTzJzOXRPT1M0NVJvODV4VnVLcXBtZGtFUVdWaW1PNGxRY0FQeHJvbVVXY1ZHbWNUcGhmaGltaUF3?oc=5",
-          "published": "2026-05-26T16:15:06+00:00",
-          "publisher": "KOIN.com",
-          "title": "Oregon senators call on White House to remove election director over voter fraud claims - KOIN.com"
-        }
-      ],
-      "hits": 2,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
+      "severity": 1.65,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -168,15 +142,67 @@
           "title": "Ungoverned: AI, Accountability, and the Limits of Law - Columbia Undergraduate Law Review"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdE1nYjRGamZPTUk2Q2k3b014TThjSVphZ0ZfMHM3NjJMVE1ZN3RnWlJ2QmZpdnZibmg1djJwWm5UMUVmelJ5VGo0X01QcVpKb180eThCTmg3eUYyOVRuUVlUNGEtM25leHRaQnRzal9NWE5TMlpxdjFXQTZ5S1VGSk9IMXJ2NGZpWjFDMFlB?oc=5",
-          "published": "2026-05-27T00:20:38+00:00",
-          "publisher": "cnhinews.com",
-          "title": "What would surprise the Founding Fathers about America in 2026? - cnhinews.com"
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05TTdsY3YxMWs0cW1xVXd2Z0VGY05rZWlIMzBISUFHdTJRbGFPaXR6QVp6M1p2d2FyMXJUbkNUN05xa09kcVpmU1daNXUyWjY3ZU1jQVVEZ1RTSGN4ZmRSZWYwZHNTNWhhOUJzT2MxbjBCS2x0TTdj?oc=5",
+          "published": "2026-05-27T15:36:54+00:00",
+          "publisher": "Legis1",
+          "title": "Federal Power Over Elections Tests Constitutional State Authority - Legis1"
         }
       ],
       "hits": 2,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM2JkTEtzZkR1WGVYTzJoUFZzcFhBMWdyUGtzcXpuLXhhSEJobGFSb25UUER4TUZ4Y3Nvcm1OQjZSX0FTOFF4b0s1ZjA3cWRyVXdEX240ZFhpQmR4ald6NXdZT3pBOXRZYU9ETC0xb1Q3ZWw0cXlKc3ctQjk2anVpcQ?oc=5",
+          "published": "2026-05-27T00:15:59+00:00",
+          "publisher": "AOL.com",
+          "title": "Supreme Court sides with Trump in fight tied to speech curbs on immigration judges - AOL.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiANBVV95cUxPYXllb0pjTmpNUmltMU9aZ0ZYREZGaWI4V0R3Y1dySUhiSGVRd2Q5TC1qbk1ubTBSbWQzSnR6emF1LUJWNm9MVkc2VEVrREk1eC1PdzliTGtYUUlpUmlxbDRaV0VBd3Z5MzVGeEFOeFZOLVZwM19IV2NzdTNfeHdyRkxmS3U0ei1zRE1qMzlVR0RYS2F3UXpmVFVlS3JFLXE3MUF1cjMzcEJjeDlNSm9yNVBBT0dwem5MMHFGR2lLOHduSC1QdzJvQnFDZUN2YlRGNm5ZTzlPMnh2TmFZbGU3YV9ENVZIRXdTU3pNWG13eS1oeGlpWkhVemFfNVJtcHViaEhVd3cwd3BUbUxYcTZpcWFHWDREQWFnNEFwVzY0T2hMNkw2X2VpOVFiWS1RZ1dnSHUzMWxVT25NcmNjS3FSZ2Z4SU1jWENmRUJfZWNCUzhldzlBeG51WGpwaXV6akRLa085R2hWN0htSGQxZ2F0RDlHVFppVFRVMVZjaDJ0RXI4WHFWLWRXUg?oc=5",
+          "published": "2026-05-26T21:46:54+00:00",
+          "publisher": "MSN",
+          "title": "Supreme Court appears ready to OK Trump\u2019s firing of FTC commissioner in major shift for independent agencies - MSN"
+        }
+      ],
+      "hits": 2,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT0FlYlphOFMtZjJHdDVoSldGWU5wdzBUZXhTV2tQTmE0d2VERWpxTXRmTnk4UkRvVHNpMU85MVdwb1hCVWpCVHhJd2RYU0x4ME04bUFlMUlpc29OcGNuWVdEbHloVUZWektvWFdYZkctc3Rjd2xHS20yaWVKMU5nd2lZeTdlLWM3d0N6LUx2OUtXbjNtWFQ0TmJDeDVOY01hREVEbFpXZGY3UQ?oc=5",
+          "published": "2026-05-27T22:00:00+00:00",
+          "publisher": "Alexandria Echo Press",
+          "title": "'Be loud in your dissent' defending First Amendment, journalist says - Alexandria Echo Press"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOEVOcUlNRV9ad1pUcnNwT2hxUWVrSzBYOGJ5VkFvVU5PVUYzYmltMTJMcF9vTlpJblJKRFVGd1R5bHBBWTdBdlRfbURNS0NQMGFYWjhndmZ0VFAxZHFLRzUxMzB3OHZlcllKOFFOeU9MUWtMeGRQN09TMmVvdnpiTnpQZkNoTW5XSlFib2JPMjNNUTBiMkNNZHl0S2tCSVFVWVlMZXJsSDhpLUNaX3E5allCbjRTVmtrcU11NGNR?oc=5",
+          "published": "2026-05-27T01:02:44+00:00",
+          "publisher": "WTAQ",
+          "title": "Trump administration proposes NDAs for federal workers to crack down on leaks to journalists - WTAQ"
+        }
+      ],
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -205,23 +231,16 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOEVOcUlNRV9ad1pUcnNwT2hxUWVrSzBYOGJ5VkFvVU5PVUYzYmltMTJMcF9vTlpJblJKRFVGd1R5bHBBWTdBdlRfbURNS0NQMGFYWjhndmZ0VFAxZHFLRzUxMzB3OHZlcllKOFFOeU9MUWtMeGRQN09TMmVvdnpiTnpQZkNoTW5XSlFib2JPMjNNUTBiMkNNZHl0S2tCSVFVWVlMZXJsSDhpLUNaX3E5allCbjRTVmtrcU11NGNR?oc=5",
-          "published": "2026-05-27T01:02:44+00:00",
-          "publisher": "WTAQ",
-          "title": "Trump administration proposes NDAs for federal workers to crack down on leaks to journalists - WTAQ"
-        }
-      ],
-      "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "hits": 0,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -232,7 +251,7 @@
       "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -243,19 +262,6 @@
       "hits": 0,
       "id": "election_delay_or_cancellation",
       "name": "Election Delay or Cancellation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.25,
