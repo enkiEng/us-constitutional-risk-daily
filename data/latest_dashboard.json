@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.29,
+  "average_7d": 11.82,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,28 +9,28 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -0.89,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": 0.3,
   "domain_breakdown": [
     {
-      "avg_severity": 0.075,
+      "avg_severity": 0.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.4125,
+      "points": 0.0,
       "weight": 22
     },
     {
-      "avg_severity": 1.55,
+      "avg_severity": 1.4333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 5.8125,
+      "points": 5.375,
       "weight": 15
     },
     {
-      "avg_severity": 0.21666666666666667,
+      "avg_severity": 0.6666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.7583333333333333,
+      "points": 2.333333333333333,
       "weight": 14
     },
     {
@@ -72,45 +72,13 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-05-29T13:30:17.785717+00:00",
+  "generated_at": "2026-05-30T12:46:27.015984+00:00",
   "previous_score": 11,
   "provisional": false,
-  "score": 11,
-  "score_raw": 11.4,
+  "score": 12,
+  "score_raw": 12.12,
   "successful_queries": 22,
   "top_signals": [
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdEUwYWoxS3U3OGlGWldaVEZDNmtPWS16UFJ4Vm5oU3lpWWM1NE9lNWJyUDRoME9nR3JmNGU3UFpjNms5Nzh2WWIxTmZjbFhKbFpjbEstOUJBbVJ3cEdsdmdXVHNFVzk5Snlob1hzckE2dGZJbS1pYzNlTUNSVm9Ud2x6ck9Bd0RwWlNKRGpVSG5vb2lTMEYxbldORW12RVB1QTB3MGZmTmcyQjRkU3ZUNVFkWTc?oc=5",
-          "published": "2026-05-28T13:04:26+00:00",
-          "publisher": "Center for American Progress",
-          "title": "The Trump Administration\u2019s Assault on Immigrants Degrades the Rule of Law - Center for American Progress"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcjVjSjFoZ0hkN2xKVEVuX0g0Yml5ZjJiZVQ0cmFRUUNzdUVPdnhNQk8yb0J5VE1ma254UUozVHFrYXppcExYTkM1czBDUXB0VHMwOE1HTWZYTy00NmQ3ZGVONUJ5S3F4Qm14QXYxYVJrY2lsM1lVYnp4Tk1MdkpYWWRRci15RVB1TF9lSk0zYUpMNU00NzhheE51amFFYV9kX2RmZ2dYZnFCY2NELU93d0tGcUthOXdncU9DVHFvYmFOUmZBUEhuaU91dHFZNjhxQnd6WnZRMVhtcUN6Skp3SzlB?oc=5",
-          "published": "2026-05-28T12:28:50+00:00",
-          "publisher": "Yellowhammer News",
-          "title": "U.S. Department of Justice files brief backing Alabama in SCOTUS redistricting rematch after lower court defies Callais - Yellowhammer News"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNT004SXZhaE8wd3JzekY4dWJCclRKeXVYQk9NTzE1S2kwOWlIWE13RW1rTjhfUzRVSWlzTnZRY0NVTE9FUmwtQTJ0cnFqWWlEUl9KNDBGQ1Nlb0VfeldBNXNrLUNZZlowdXhBZTVmdTI3dTJEYXlXWENzMS1wVkJFeXlqdXNoS1FZbzlGMFEwM3B4eEdVZFdBWXUzS2Fmdjh6SkF4ZjlnTkxCcjM5ZnZkQTA0bFRGOFdtbUZERUZnNEt5Uk45QzF1SHZKRFJzcEh0Si14S3RHX2Fkb0NWNFhidA?oc=5",
-          "published": "2026-05-29T09:53:45+00:00",
-          "publisher": "BizPac Review",
-          "title": "Scoop: 2A organizations slap Virginia with complaint alleging state defied court order with gun law - BizPac Review"
-        }
-      ],
-      "hits": 4,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 1,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 4
-    },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
@@ -122,26 +90,58 @@
           "title": "As World Cup nears, foreign journalists face growing risks in the US - U.S. Press Freedom Tracker"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT0FlYlphOFMtZjJHdDVoSldGWU5wdzBUZXhTV2tQTmE0d2VERWpxTXRmTnk4UkRvVHNpMU85MVdwb1hCVWpCVHhJd2RYU0x4ME04bUFlMUlpc29OcGNuWVdEbHloVUZWektvWFdYZkctc3Rjd2xHS20yaWVKMU5nd2lZeTdlLWM3d0N6LUx2OUtXbjNtWFQ0TmJDeDVOY01hREVEbFpXZGY3UQ?oc=5",
-          "published": "2026-05-27T22:00:00+00:00",
-          "publisher": "Alexandria Echo Press",
-          "title": "'Be loud in your dissent' defending First Amendment, journalist says - Alexandria Echo Press"
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaThVU1FxWkNsUmdiVnZ5eWVxTzJXTHdSdDh4eFpwXzQ4SS1DbHE1Zmw5Q1FpYWYzamN3SGZROHFvTkU3VzFpMlJXM2UxTTY2dzJkR19ZX2VGUDlIS216TW9XbU9sM2wweFYwOG1ZNjRpcWp2Z2pCVTltYU9zMl9OcDNMTVlqV21RRW91WVN3dlNzNWPSAZMBQVVfeXFMTWk4VVNRcVpDbFJnYlZ2eXllcU8yV0x3UnQ4eHhacF80OEktQ2xxNWZsOUNRaWFmM2pjd0hmUThxb05FN1cxaTJSVzNlMU02NncyZEdfWV9lRlA5SEttek1vV21PbDNsMHhWMDhtWTY0aXFqdmdqQlU5bWFPczJfTnAzTE1ZaldtUUVvdVlTd3ZTczVj?oc=5",
+          "published": "2026-05-28T13:34:00+00:00",
+          "publisher": "Khaama Press",
+          "title": "Afghan journalist Seyed Qasim Hashemi detained by Pakistani police - Khaama Press"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbVlTandqZHI0VGQ5akQ5SXJfeC1RWTJHT1NkUjZCd3lLY3pObS1OVjV1ZjJOaFVERE5Pdno0RVk5UDhabGNtWGJteFE3QnhRejJrdXJOU0FreUl2U05Ea1M5TTByd0NhS0VGOXJHbUNzQ2JXV3NobGhHWEVNS3lKRnFkendhYk5ES2JxZ25KcjZBZWlta3B3VXhmY0MyRmR3VVZvS3dra1VwNkFZeXd1Q25HQlpvRVZlY1k4VmhOb2NkR005cnc?oc=5",
-          "published": "2026-05-28T07:15:33+00:00",
-          "publisher": "Civicus Monitor",
-          "title": "Bangladesh: Journalists, online critics and activists targeted as new government takes power - Civicus Monitor"
+          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNeXYwTHdmUnZWdHdjNjc5UlgwRUlOOVZDU2g3N3lMQ18xRlFmR0szYjFjYUtUR2gxVzJKTHI3dExTZGY5NkZFU3QwZzdNX1J4cy13TFZfYkxVTl96YlJFWnhlRjJnc0NwQUhiT25SMWJ6NVBtVXlyVVA2VEhYbzZrWGFyTjkxTU5jcWlRRFFPQnhxZ053ZEYwcUt0aEhGeTUtdG83ZlNidm1zbkNjR1pFdWppMjZIT3B6cExEOGdzS19hNjdsa2xxX0ZYbDRSeHVwNHVfTl9YZkJrUkNVQTlYem90TlZTMEZOYnZxbGNSZTAzSmFnRmJQeG9Wb3XSAfwBQVVfeXFMTXl2MEx3ZlJ2VnR3YzY3OVJYMEVJTjlWQ1NoNzd5TENfMUZRZkdLM2IxY2FLVEdoMVcySkxyN3RMU2RmOTZGRVN0MGc3TV9SeHMtd0xWX2JMVU5femJSRVp4ZUYyZ3NDcEFIYk9uUjFiejVQbVV5clVQNlRIWG82a1hhck45MU1OY3FpUURRT0J4cWdOd2RGMHFLdGhIRnk1LXRvN2ZTYnZtc25DY0daRXVqaTI2SE9wenBMRDhnc0tfYTY3bGtscV9GWGw0Unh1cDR1X05fWGZCa1JDVUE5WHpvdE5WUzBGTmJ2cWxjUmUwM0phZ0ZiUHhvVm91?oc=5",
+          "published": "2026-05-29T07:58:44+00:00",
+          "publisher": "organiser.org",
+          "title": "Methodology or Propaganda? How Pakistan, Bangladesh rank above India in global press index, sparks credibility question - organiser.org"
         }
       ],
-      "hits": 4,
+      "hits": 5,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 4
+      "unique_publishers": 5
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdEUwYWoxS3U3OGlGWldaVEZDNmtPWS16UFJ4Vm5oU3lpWWM1NE9lNWJyUDRoME9nR3JmNGU3UFpjNms5Nzh2WWIxTmZjbFhKbFpjbEstOUJBbVJ3cEdsdmdXVHNFVzk5Snlob1hzckE2dGZJbS1pYzNlTUNSVm9Ud2x6ck9Bd0RwWlNKRGpVSG5vb2lTMEYxbldORW12RVB1QTB3MGZmTmcyQjRkU3ZUNVFkWTc?oc=5",
+          "published": "2026-05-28T13:04:26+00:00",
+          "publisher": "Center for American Progress",
+          "title": "The Trump Administration\u2019s Assault on Immigrants Degrades the Rule of Law - Center for American Progress"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSnU0QkdMMjBKYks5bEx6NmtzSWZBbmVnbzhoQW9YWUxaNDBsZU1OdGxzdVk2MVUycWVUMGNhNVZiVUN2eFhnN0VsNXlwSHllYTJULTJmWExaeW9MSlZDV050MXUtX3FXbEx6RVBEZVlsTjFFemtYN0dwdzlKWV9ZRW4xdHNoLUtybktYVzM5R0hMNFoxaVpRVkdmR2pmUy1SaEpRVVF1ejVBOFN5WlRDYmUtZ1B5VlFQcGZBdmhhUDRxaDAzMEUweQ?oc=5",
+          "published": "2026-05-28T18:52:00+00:00",
+          "publisher": "dailycaller.com",
+          "title": "SCOOP: 2A Organizations Slap Blue State With Complaint Alleging It Defied Court Order With Gun Law - dailycaller.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORzM5YWZJVG9mRU4zNkNobi1LaXlPMTlzQXBQaTRSV2RuVVJ0YmI2OGZiLVBxQTBwNEpRME95cTBlRW56UE96NVpEZ2hFV08zSGZhNkprWGFjSko2N2JBVDJlN0VlSVhyaU1yVWxaa0VpaThPU3otRVY0akh6UDI5U25zQks2UVJzSGtrY1hrYkZDc2MyanZHelJOVnVIbUhKeUptblBRRFc0UnMtVGtjOVR0RXJGbVU?oc=5",
+          "published": "2026-05-28T14:06:34+00:00",
+          "publisher": "AmmoLand Shooting Sports News",
+          "title": "Virginia Defies Court Order: State Police Resume Unconstitutional Background Checks - AmmoLand Shooting Sports News"
+        }
+      ],
+      "hits": 3,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 1,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
@@ -159,7 +159,99 @@
       "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdEUwYWoxS3U3OGlGWldaVEZDNmtPWS16UFJ4Vm5oU3lpWWM1NE9lNWJyUDRoME9nR3JmNGU3UFpjNms5Nzh2WWIxTmZjbFhKbFpjbEstOUJBbVJ3cEdsdmdXVHNFVzk5Snlob1hzckE2dGZJbS1pYzNlTUNSVm9Ud2x6ck9Bd0RwWlNKRGpVSG5vb2lTMEYxbldORW12RVB1QTB3MGZmTmcyQjRkU3ZUNVFkWTc?oc=5",
+          "published": "2026-05-28T13:04:26+00:00",
+          "publisher": "Center for American Progress",
+          "title": "The Trump Administration\u2019s Assault on Immigrants Degrades the Rule of Law - Center for American Progress"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRWJRQngtNzhLYU9fOTdxM05GVFBvWi1ldVlhdWl2elpLQ0hKMlIzcE5BSVdYaHppbWl5eFdLdGlEZlFNMEFVcFdXOGo5UWZ2aHNJQWdJN21IS1RGVWhwYktaM0ZvamRWY0R6b2FlYXNFOTJici1VLXpDTnpwSzJScXhaY205RFJSdXdEUkZhOTBlWHEweHB1VHhicHZUbWlrZXhIdzBBMA?oc=5",
+          "published": "2026-05-30T02:42:14+00:00",
+          "publisher": "Law Commentary",
+          "title": "Federal Judge Freezes Trump's $1.776 Billion Anti-Weaponization Fund - Law Commentary"
+        }
+      ],
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRDhaV0JzcTAzMTg5V2JBUTJreGpuMFh6SzlMRVZ4YXVWVVFVZHNFaS1kaEpxc0FTVTdBNGJiVVNvSy1OS0h2cWF0bU1YTmFBUUVrQV9PN1RBSnlmX3AzYzE0ZUFLTzFDV3l1dWYzbUpBc1JvVGpmUDVjd1dfbnpoNGdGejVNamE2NFdUczFIWXdsRm1hMG9Qa0ZR?oc=5",
+          "published": "2026-05-28T13:01:25+00:00",
+          "publisher": "SCOTUSblog",
+          "title": "Alabama redistricting dispute returns to the Supreme Court - SCOTUSblog"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONm5kQ01GUXZDNFNYN0lyXzJNZTd0MEQzMGpwSFhhd3pOamdsaTdXTUc0RHl5dy10Mld1bVpOZjQzeTF2eWQtQ0YwRXRka2JIVUp1d1otNlpPdWNKaDhhZjZxUkp6ZWFqUDdoai1WaDJObW1Sc2pSSGJvUkhaVVVPSGtCdnBLWXpLcVZYU3hKb9IBlAFBVV95cUxOVDhXZTM3YU51dWYwNG9jOVVfWUxXU3pCRjRRMHVkMlVUSHhrS1lXME42SmMyTnVFbi1KME50MWQyWmkxNndYOUNta0g4T1VtRFlnQ2Q0S0JwUFRaa0RibUhvU2ZITzVMRXlLa2E4d0JxeUZiZzQxRGlRQzZacVZPUU9Objhoa0c5S1BoR19qTngweUNC?oc=5",
+          "published": "2026-05-29T11:30:00+00:00",
+          "publisher": "The Hill",
+          "title": "If the justices expand presidential power, how can they spare the Fed? - The Hill"
+        }
+      ],
+      "hits": 2,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQU05jOWpHOEppSVhYejBfUFFITVhkUGliaGpRTjVJMGhaNHJvZ3V5QV9ILWNzMlhaVThNVmVqTjlMTjdDdDdvMmRYR2dXUXVJWWJRNVl1VW9FNzd0dXZQRjJuZkNjMDBSOGhsTTRlRUdQNXVjNVFQSFFTQTh6NlotTG0yUkJRT2R0Z0lFaTRLNGZMTWM5TGtxMW5kd09ocnRZNUlvZVFPS3lxeVVtOFFiQldxS3Z1eHNON3R2enVrRUJDT0lULXZLSWtIWHl0SDNWTHRjYVJwTnlIUjBncDdDbjlqckE0Y3FKUGc?oc=5",
+          "published": "2026-05-29T06:35:11+00:00",
+          "publisher": "MSN",
+          "title": "Judge throws out DOJ case seen as Trump retaliation - MSN"
+        }
+      ],
+      "hits": 1,
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS3ZpY2UwRzZQY3BVZl9reVd0R1dBeWY5dmZkWkE3Z1ZpUVkwLS1PSmd0TzJKQm9iempqaXE5Q2FEckJ2cUUtV1p1TXQ4M0s0SldrUEsxNzBRcWx4WDNuMUdodnhRbklYMlZILXlQUXM3TmU5WVpWSXczVkJjTjdLZERjTVhtV0x4UWUwQk5rQnh0bXQ1N0p1THAyaXluOUdvWEwxMGRDQXF1NzJmRDdPWlVuT0Rzc2tBWDVmZE9tWlllMThvSGc?oc=5",
+          "published": "2026-05-30T09:59:12+00:00",
+          "publisher": "Novinite.com",
+          "title": "Bulgaria: \"Revival\" Party Leads Surge of Dual-Citizen MPs, Many Tied to Russia - Novinite.com"
+        }
+      ],
+      "hits": 1,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
     },
@@ -182,72 +274,6 @@
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05TTdsY3YxMWs0cW1xVXd2Z0VGY05rZWlIMzBISUFHdTJRbGFPaXR6QVp6M1p2d2FyMXJUbkNUN05xa09kcVpmU1daNXUyWjY3ZU1jQVVEZ1RTSGN4ZmRSZWYwZHNTNWhhOUJzT2MxbjBCS2x0TTdj?oc=5",
-          "published": "2026-05-27T15:36:54+00:00",
-          "publisher": "Legis1",
-          "title": "Federal Power Over Elections Tests Constitutional State Authority - Legis1"
-        }
-      ],
-      "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONm5kQ01GUXZDNFNYN0lyXzJNZTd0MEQzMGpwSFhhd3pOamdsaTdXTUc0RHl5dy10Mld1bVpOZjQzeTF2eWQtQ0YwRXRka2JIVUp1d1otNlpPdWNKaDhhZjZxUkp6ZWFqUDdoai1WaDJObW1Sc2pSSGJvUkhaVVVPSGtCdnBLWXpLcVZYU3hKb9IBlAFBVV95cUxOVDhXZTM3YU51dWYwNG9jOVVfWUxXU3pCRjRRMHVkMlVUSHhrS1lXME42SmMyTnVFbi1KME50MWQyWmkxNndYOUNta0g4T1VtRFlnQ2Q0S0JwUFRaa0RibUhvU2ZITzVMRXlLa2E4d0JxeUZiZzQxRGlRQzZacVZPUU9Objhoa0c5S1BoR19qTngweUNC?oc=5",
-          "published": "2026-05-29T11:30:00+00:00",
-          "publisher": "The Hill",
-          "title": "If the justices expand presidential power, how can they spare the Fed? - The Hill"
-        }
-      ],
-      "hits": 1,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
     }
   ]
 }

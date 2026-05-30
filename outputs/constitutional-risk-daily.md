@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-05-29 13:30:17 UTC
-- Score: **11 / 100** (Baseline Institutional Noise)
-- Previous day delta: **0.0**
-- Delta vs 7-day average: **-0.9**
+- Generated: 2026-05-30 12:46:27 UTC
+- Score: **12 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+1.0**
+- Delta vs 7-day average: **+0.3**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -14,9 +14,9 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.07 | 0.41 |
-| Judicial Independence and Rule of Law | 15 | 1.55 | 5.81 |
-| Opposition Rights and Political Pluralism | 14 | 0.22 | 0.76 |
+| Elections and Transfer of Power | 22 | 0.00 | 0.00 |
+| Judicial Independence and Rule of Law | 15 | 1.43 | 5.38 |
+| Opposition Rights and Political Pluralism | 14 | 0.67 | 2.33 |
 | Executive Constraints and Emergency Powers | 13 | 0.33 | 1.08 |
 | Civil Service and Agency Independence | 10 | 0.33 | 0.83 |
 | Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
@@ -27,35 +27,37 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Court Order Noncompliance | judiciary_rule_of_law | 2.00 (Yellow) | 4 | 4 |
-| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 4 | 4 |
-| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 1.65 (Watch) | 1 | 1 |
+| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 5 | 5 |
+| Court Order Noncompliance | judiciary_rule_of_law | 2.00 (Yellow) | 3 | 3 |
+| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 1.30 (Watch) | 1 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 2 | 2 |
+| Independent Agency Capture | civil_service_integrity | 1.00 (Watch) | 2 | 2 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
 | Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
-| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Independent Agency Capture | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
-| Opposition Ballot Exclusion | opposition_pluralism | 0.65 (Green) | 0 | 0 |
-| Election Administration Capture | elections_transfer | 0.30 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
-### Court Order Noncompliance
-- [Center for American Progress] The Trump Administration’s Assault on Immigrants Degrades the Rule of Law - Center for American Progress (2026-05-28) - https://news.google.com/rss/articles/CBMitAFBVV95cUxPdEUwYWoxS3U3OGlGWldaVEZDNmtPWS16UFJ4Vm5oU3lpWWM1NE9lNWJyUDRoME9nR3JmNGU3UFpjNms5Nzh2WWIxTmZjbFhKbFpjbEstOUJBbVJ3cEdsdmdXVHNFVzk5Snlob1hzckE2dGZJbS1pYzNlTUNSVm9Ud2x6ck9Bd0RwWlNKRGpVSG5vb2lTMEYxbldORW12RVB1QTB3MGZmTmcyQjRkU3ZUNVFkWTc?oc=5
-- [Yellowhammer News] U.S. Department of Justice files brief backing Alabama in SCOTUS redistricting rematch after lower court defies Callais - Yellowhammer News (2026-05-28) - https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcjVjSjFoZ0hkN2xKVEVuX0g0Yml5ZjJiZVQ0cmFRUUNzdUVPdnhNQk8yb0J5VE1ma254UUozVHFrYXppcExYTkM1czBDUXB0VHMwOE1HTWZYTy00NmQ3ZGVONUJ5S3F4Qm14QXYxYVJrY2lsM1lVYnp4Tk1MdkpYWWRRci15RVB1TF9lSk0zYUpMNU00NzhheE51amFFYV9kX2RmZ2dYZnFCY2NELU93d0tGcUthOXdncU9DVHFvYmFOUmZBUEhuaU91dHFZNjhxQnd6WnZRMVhtcUN6Skp3SzlB?oc=5
-- [BizPac Review] Scoop: 2A organizations slap Virginia with complaint alleging state defied court order with gun law - BizPac Review (2026-05-29) - https://news.google.com/rss/articles/CBMi4AFBVV95cUxNT004SXZhaE8wd3JzekY4dWJCclRKeXVYQk9NTzE1S2kwOWlIWE13RW1rTjhfUzRVSWlzTnZRY0NVTE9FUmwtQTJ0cnFqWWlEUl9KNDBGQ1Nlb0VfeldBNXNrLUNZZlowdXhBZTVmdTI3dTJEYXlXWENzMS1wVkJFeXlqdXNoS1FZbzlGMFEwM3B4eEdVZFdBWXUzS2Fmdjh6SkF4ZjlnTkxCcjM5ZnZkQTA0bFRGOFdtbUZERUZnNEt5Uk45QzF1SHZKRFJzcEh0Si14S3RHX2Fkb0NWNFhidA?oc=5
-
 ### Press Restrictions or Retaliation
 - [U.S. Press Freedom Tracker] As World Cup nears, foreign journalists face growing risks in the US - U.S. Press Freedom Tracker (2026-05-28) - https://news.google.com/rss/articles/CBMipwFBVV95cUxQb2NjSV9KelloVGVsTGRRaHBUOURTcWlyWEExaW1KVnI1anZxVnZnNUpVX2xxeHczcEFyWDdpSXF0OVFZMEpwREFUalZYRG5FMDdIZ2dCQkJDTTMyZGs4aUJpQWVCRlZZRXlxTko5c0s0cUk0ZWhESUZKTnVJVmlJamNnTzdBdUdpUEtSZFBrUlRPV3VHT3ZUZzZXbnJWUE5xQWQySldOWQ?oc=5
-- [Alexandria Echo Press] 'Be loud in your dissent' defending First Amendment, journalist says - Alexandria Echo Press (2026-05-27) - https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT0FlYlphOFMtZjJHdDVoSldGWU5wdzBUZXhTV2tQTmE0d2VERWpxTXRmTnk4UkRvVHNpMU85MVdwb1hCVWpCVHhJd2RYU0x4ME04bUFlMUlpc29OcGNuWVdEbHloVUZWektvWFdYZkctc3Rjd2xHS20yaWVKMU5nd2lZeTdlLWM3d0N6LUx2OUtXbjNtWFQ0TmJDeDVOY01hREVEbFpXZGY3UQ?oc=5
-- [Civicus Monitor] Bangladesh: Journalists, online critics and activists targeted as new government takes power - Civicus Monitor (2026-05-28) - https://news.google.com/rss/articles/CBMixgFBVV95cUxPbVlTandqZHI0VGQ5akQ5SXJfeC1RWTJHT1NkUjZCd3lLY3pObS1OVjV1ZjJOaFVERE5Pdno0RVk5UDhabGNtWGJteFE3QnhRejJrdXJOU0FreUl2U05Ea1M5TTByd0NhS0VGOXJHbUNzQ2JXV3NobGhHWEVNS3lKRnFkendhYk5ES2JxZ25KcjZBZWlta3B3VXhmY0MyRmR3VVZvS3dra1VwNkFZeXd1Q25HQlpvRVZlY1k4VmhOb2NkR005cnc?oc=5
+- [Khaama Press] Afghan journalist Seyed Qasim Hashemi detained by Pakistani police - Khaama Press (2026-05-28) - https://news.google.com/rss/articles/CBMikwFBVV95cUxNaThVU1FxWkNsUmdiVnZ5eWVxTzJXTHdSdDh4eFpwXzQ4SS1DbHE1Zmw5Q1FpYWYzamN3SGZROHFvTkU3VzFpMlJXM2UxTTY2dzJkR19ZX2VGUDlIS216TW9XbU9sM2wweFYwOG1ZNjRpcWp2Z2pCVTltYU9zMl9OcDNMTVlqV21RRW91WVN3dlNzNWPSAZMBQVVfeXFMTWk4VVNRcVpDbFJnYlZ2eXllcU8yV0x3UnQ4eHhacF80OEktQ2xxNWZsOUNRaWFmM2pjd0hmUThxb05FN1cxaTJSVzNlMU02NncyZEdfWV9lRlA5SEttek1vV21PbDNsMHhWMDhtWTY0aXFqdmdqQlU5bWFPczJfTnAzTE1ZaldtUUVvdVlTd3ZTczVj?oc=5
+- [organiser.org] Methodology or Propaganda? How Pakistan, Bangladesh rank above India in global press index, sparks credibility question - organiser.org (2026-05-29) - https://news.google.com/rss/articles/CBMi_AFBVV95cUxNeXYwTHdmUnZWdHdjNjc5UlgwRUlOOVZDU2g3N3lMQ18xRlFmR0szYjFjYUtUR2gxVzJKTHI3dExTZGY5NkZFU3QwZzdNX1J4cy13TFZfYkxVTl96YlJFWnhlRjJnc0NwQUhiT25SMWJ6NVBtVXlyVVA2VEhYbzZrWGFyTjkxTU5jcWlRRFFPQnhxZ053ZEYwcUt0aEhGeTUtdG83ZlNidm1zbkNjR1pFdWppMjZIT3B6cExEOGdzS19hNjdsa2xxX0ZYbDRSeHVwNHVfTl9YZkJrUkNVQTlYem90TlZTMEZOYnZxbGNSZTAzSmFnRmJQeG9Wb3XSAfwBQVVfeXFMTXl2MEx3ZlJ2VnR3YzY3OVJYMEVJTjlWQ1NoNzd5TENfMUZRZkdLM2IxY2FLVEdoMVcySkxyN3RMU2RmOTZGRVN0MGc3TV9SeHMtd0xWX2JMVU5femJSRVp4ZUYyZ3NDcEFIYk9uUjFiejVQbVV5clVQNlRIWG82a1hhck45MU1OY3FpUURRT0J4cWdOd2RGMHFLdGhIRnk1LXRvN2ZTYnZtc25DY0daRXVqaTI2SE9wenBMRDhnc0tfYTY3bGtscV9GWGw0Unh1cDR1X05fWGZCa1JDVUE5WHpvdE5WUzBGTmJ2cWxjUmUwM0phZ0ZiUHhvVm91?oc=5
+
+### Court Order Noncompliance
+- [Center for American Progress] The Trump Administration’s Assault on Immigrants Degrades the Rule of Law - Center for American Progress (2026-05-28) - https://news.google.com/rss/articles/CBMitAFBVV95cUxPdEUwYWoxS3U3OGlGWldaVEZDNmtPWS16UFJ4Vm5oU3lpWWM1NE9lNWJyUDRoME9nR3JmNGU3UFpjNms5Nzh2WWIxTmZjbFhKbFpjbEstOUJBbVJ3cEdsdmdXVHNFVzk5Snlob1hzckE2dGZJbS1pYzNlTUNSVm9Ud2x6ck9Bd0RwWlNKRGpVSG5vb2lTMEYxbldORW12RVB1QTB3MGZmTmcyQjRkU3ZUNVFkWTc?oc=5
+- [dailycaller.com] SCOOP: 2A Organizations Slap Blue State With Complaint Alleging It Defied Court Order With Gun Law - dailycaller.com (2026-05-28) - https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSnU0QkdMMjBKYks5bEx6NmtzSWZBbmVnbzhoQW9YWUxaNDBsZU1OdGxzdVk2MVUycWVUMGNhNVZiVUN2eFhnN0VsNXlwSHllYTJULTJmWExaeW9MSlZDV050MXUtX3FXbEx6RVBEZVlsTjFFemtYN0dwdzlKWV9ZRW4xdHNoLUtybktYVzM5R0hMNFoxaVpRVkdmR2pmUy1SaEpRVVF1ejVBOFN5WlRDYmUtZ1B5VlFQcGZBdmhhUDRxaDAzMEUweQ?oc=5
+- [AmmoLand Shooting Sports News] Virginia Defies Court Order: State Police Resume Unconstitutional Background Checks - AmmoLand Shooting Sports News (2026-05-28) - https://news.google.com/rss/articles/CBMitwFBVV95cUxORzM5YWZJVG9mRU4zNkNobi1LaXlPMTlzQXBQaTRSV2RuVVJ0YmI2OGZiLVBxQTBwNEpRME95cTBlRW56UE96NVpEZ2hFV08zSGZhNkprWGFjSko2N2JBVDJlN0VlSVhyaU1yVWxaa0VpaThPU3otRVY0akh6UDI5U25zQks2UVJzSGtrY1hrYkZDc2MyanZHelJOVnVIbUhKeUptblBRRFc0UnMtVGtjOVR0RXJGbVU?oc=5
 
 ### Targeted Jurisdiction Stripping
 - [Every CRS Report] Civil Procedure at the Supreme Court: Selected Cases from the October 2025 Term - Every CRS Report (2026-05-29) - https://news.google.com/rss/articles/CBMiYkFVX3lxTFBaVDM0aVdLRnc4TW53VEZxS2dGdlBLbDRlZlFmME8zSEJ0cnprOWtvTDM2YlFmOXNPOWdVbENsQm1lZ1dWMkg1MFJKNDhwWTFISk03VnE3bmgwMnczemhmeG1R?oc=5
 
-### Judge Intimidation Campaign
-- [ABC News - Breaking News, Latest News and Videos] Federal judge had sex in chambers with police officer and lied about it, investigation found - ABC News - Breaking News, Latest News and Videos (2026-05-29) - https://news.google.com/rss/articles/CBMirgFBVV95cUxObHVucXI4V2E2WGR2eTZ4SUc3a3FiWTE2dkUwQXZnZmZ0dTVNN2JFNmR1bnpjMTB6Q3l6Y0l6SEMtcmVOVGUtVl9LVkpseHgtNjZSR2kzWXZnblBOQVd5ZlRkTWFvM1p1ei1fUkpZZWZVXzMxWTJ2QklKOWpuajF1eVlXMjU4dzRPVHlKcUVlZWZqUElkajNsdTVGdEhvMEZXYUxJYUFYaGROU2o0bmfSAbMBQVVfeXFMTjBzbndsZmVBLWlqQy1FWVZ4bVJWOTlkcWdtc285QUlaS0REX0xWcFNkU2xZTVV1bGl3c0l2YzFZT0FvdlJDb0s3SjZtVjV0MG5GcklyWlFUZUlwT0ItRk4wbF83YWVYRWc5UG8tdDNUTnJVMDFnS20xUmVtcE5JTnVkU24wckhYaWtFel84TWNMenM0cUU2aWpPa3QyaEY2Vm81dlBWSVlUaHdFSHBVZHdDOTg?oc=5
-
 ### Legislative Bypass by Executive
-- [Legis1] Federal Power Over Elections Tests Constitutional State Authority - Legis1 (2026-05-27) - https://news.google.com/rss/articles/CBMid0FVX3lxTE05TTdsY3YxMWs0cW1xVXd2Z0VGY05rZWlIMzBISUFHdTJRbGFPaXR6QVp6M1p2d2FyMXJUbkNUN05xa09kcVpmU1daNXUyWjY3ZU1jQVVEZ1RTSGN4ZmRSZWYwZHNTNWhhOUJzT2MxbjBCS2x0TTdj?oc=5
+- [Center for American Progress] The Trump Administration’s Assault on Immigrants Degrades the Rule of Law - Center for American Progress (2026-05-28) - https://news.google.com/rss/articles/CBMitAFBVV95cUxPdEUwYWoxS3U3OGlGWldaVEZDNmtPWS16UFJ4Vm5oU3lpWWM1NE9lNWJyUDRoME9nR3JmNGU3UFpjNms5Nzh2WWIxTmZjbFhKbFpjbEstOUJBbVJ3cEdsdmdXVHNFVzk5Snlob1hzckE2dGZJbS1pYzNlTUNSVm9Ud2x6ck9Bd0RwWlNKRGpVSG5vb2lTMEYxbldORW12RVB1QTB3MGZmTmcyQjRkU3ZUNVFkWTc?oc=5
+- [Law Commentary] Federal Judge Freezes Trump's $1.776 Billion Anti-Weaponization Fund - Law Commentary (2026-05-30) - https://news.google.com/rss/articles/CBMipwFBVV95cUxQRWJRQngtNzhLYU9fOTdxM05GVFBvWi1ldVlhdWl2elpLQ0hKMlIzcE5BSVdYaHppbWl5eFdLdGlEZlFNMEFVcFdXOGo5UWZ2aHNJQWdJN21IS1RGVWhwYktaM0ZvamRWY0R6b2FlYXNFOTJici1VLXpDTnpwSzJScXhaY205RFJSdXdEUkZhOTBlWHEweHB1VHhicHZUbWlrZXhIdzBBMA?oc=5
+
+### Independent Agency Capture
+- [SCOTUSblog] Alabama redistricting dispute returns to the Supreme Court - SCOTUSblog (2026-05-28) - https://news.google.com/rss/articles/CBMimgFBVV95cUxQRDhaV0JzcTAzMTg5V2JBUTJreGpuMFh6SzlMRVZ4YXVWVVFVZHNFaS1kaEpxc0FTVTdBNGJiVVNvSy1OS0h2cWF0bU1YTmFBUUVrQV9PN1RBSnlmX3AzYzE0ZUFLTzFDV3l1dWYzbUpBc1JvVGpmUDVjd1dfbnpoNGdGejVNamE2NFdUczFIWXdsRm1hMG9Qa0ZR?oc=5
+- [The Hill] If the justices expand presidential power, how can they spare the Fed? - The Hill (2026-05-29) - https://news.google.com/rss/articles/CBMijwFBVV95cUxONm5kQ01GUXZDNFNYN0lyXzJNZTd0MEQzMGpwSFhhd3pOamdsaTdXTUc0RHl5dy10Mld1bVpOZjQzeTF2eWQtQ0YwRXRka2JIVUp1d1otNlpPdWNKaDhhZjZxUkp6ZWFqUDdoai1WaDJObW1Sc2pSSGJvUkhaVVVPSGtCdnBLWXpLcVZYU3hKb9IBlAFBVV95cUxOVDhXZTM3YU51dWYwNG9jOVVfWUxXU3pCRjRRMHVkMlVUSHhrS1lXME42SmMyTnVFbi1KME50MWQyWmkxNndYOUNta0g4T1VtRFlnQ2Q0S0JwUFRaa0RibUhvU2ZITzVMRXlLa2E4d0JxeUZiZzQxRGlRQzZacVZPUU9Objhoa0c5S1BoR19qTngweUNC?oc=5
 
 ## Data Quality
 
