@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-05-30 12:46:27 UTC
+- Generated: 2026-05-31 12:51:02 UTC
 - Score: **12 / 100** (Baseline Institutional Noise)
-- Previous day delta: **+1.0**
-- Delta vs 7-day average: **+0.3**
+- Previous day delta: **0.0**
+- Delta vs 7-day average: **+0.8**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -14,9 +14,9 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.00 | 0.00 |
-| Judicial Independence and Rule of Law | 15 | 1.43 | 5.38 |
-| Opposition Rights and Political Pluralism | 14 | 0.67 | 2.33 |
+| Elections and Transfer of Power | 22 | 0.25 | 1.38 |
+| Judicial Independence and Rule of Law | 15 | 1.20 | 4.50 |
+| Opposition Rights and Political Pluralism | 14 | 0.55 | 1.92 |
 | Executive Constraints and Emergency Powers | 13 | 0.33 | 1.08 |
 | Civil Service and Agency Independence | 10 | 0.33 | 0.83 |
 | Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
@@ -27,37 +27,36 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 5 | 5 |
-| Court Order Noncompliance | judiciary_rule_of_law | 2.00 (Yellow) | 3 | 3 |
-| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 1.30 (Watch) | 1 | 1 |
-| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 2 | 2 |
-| Independent Agency Capture | civil_service_integrity | 1.00 (Watch) | 2 | 2 |
-| Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
+| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 4 | 4 |
+| Court Order Noncompliance | judiciary_rule_of_law | 1.65 (Watch) | 0 | 0 |
+| Election Administration Capture | elections_transfer | 1.00 (Watch) | 3 | 2 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 2 | 2 |
 | Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 1 | 1 |
+| Independent Agency Capture | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
+| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 0.95 (Watch) | 0 | 0 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 0.65 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Press Restrictions or Retaliation
-- [U.S. Press Freedom Tracker] As World Cup nears, foreign journalists face growing risks in the US - U.S. Press Freedom Tracker (2026-05-28) - https://news.google.com/rss/articles/CBMipwFBVV95cUxQb2NjSV9KelloVGVsTGRRaHBUOURTcWlyWEExaW1KVnI1anZxVnZnNUpVX2xxeHczcEFyWDdpSXF0OVFZMEpwREFUalZYRG5FMDdIZ2dCQkJDTTMyZGs4aUJpQWVCRlZZRXlxTko5c0s0cUk0ZWhESUZKTnVJVmlJamNnTzdBdUdpUEtSZFBrUlRPV3VHT3ZUZzZXbnJWUE5xQWQySldOWQ?oc=5
-- [Khaama Press] Afghan journalist Seyed Qasim Hashemi detained by Pakistani police - Khaama Press (2026-05-28) - https://news.google.com/rss/articles/CBMikwFBVV95cUxNaThVU1FxWkNsUmdiVnZ5eWVxTzJXTHdSdDh4eFpwXzQ4SS1DbHE1Zmw5Q1FpYWYzamN3SGZROHFvTkU3VzFpMlJXM2UxTTY2dzJkR19ZX2VGUDlIS216TW9XbU9sM2wweFYwOG1ZNjRpcWp2Z2pCVTltYU9zMl9OcDNMTVlqV21RRW91WVN3dlNzNWPSAZMBQVVfeXFMTWk4VVNRcVpDbFJnYlZ2eXllcU8yV0x3UnQ4eHhacF80OEktQ2xxNWZsOUNRaWFmM2pjd0hmUThxb05FN1cxaTJSVzNlMU02NncyZEdfWV9lRlA5SEttek1vV21PbDNsMHhWMDhtWTY0aXFqdmdqQlU5bWFPczJfTnAzTE1ZaldtUUVvdVlTd3ZTczVj?oc=5
-- [organiser.org] Methodology or Propaganda? How Pakistan, Bangladesh rank above India in global press index, sparks credibility question - organiser.org (2026-05-29) - https://news.google.com/rss/articles/CBMi_AFBVV95cUxNeXYwTHdmUnZWdHdjNjc5UlgwRUlOOVZDU2g3N3lMQ18xRlFmR0szYjFjYUtUR2gxVzJKTHI3dExTZGY5NkZFU3QwZzdNX1J4cy13TFZfYkxVTl96YlJFWnhlRjJnc0NwQUhiT25SMWJ6NVBtVXlyVVA2VEhYbzZrWGFyTjkxTU5jcWlRRFFPQnhxZ053ZEYwcUt0aEhGeTUtdG83ZlNidm1zbkNjR1pFdWppMjZIT3B6cExEOGdzS19hNjdsa2xxX0ZYbDRSeHVwNHVfTl9YZkJrUkNVQTlYem90TlZTMEZOYnZxbGNSZTAzSmFnRmJQeG9Wb3XSAfwBQVVfeXFMTXl2MEx3ZlJ2VnR3YzY3OVJYMEVJTjlWQ1NoNzd5TENfMUZRZkdLM2IxY2FLVEdoMVcySkxyN3RMU2RmOTZGRVN0MGc3TV9SeHMtd0xWX2JMVU5femJSRVp4ZUYyZ3NDcEFIYk9uUjFiejVQbVV5clVQNlRIWG82a1hhck45MU1OY3FpUURRT0J4cWdOd2RGMHFLdGhIRnk1LXRvN2ZTYnZtc25DY0daRXVqaTI2SE9wenBMRDhnc0tfYTY3bGtscV9GWGw0Unh1cDR1X05fWGZCa1JDVUE5WHpvdE5WUzBGTmJ2cWxjUmUwM0phZ0ZiUHhvVm91?oc=5
+- [MSN] US revokes Xinhua visa after China expels NYT reporter - MSN (2026-05-30) - https://news.google.com/rss/articles/CBMi7AFBVV95cUxQeVpoUnU5ZjZvdEx5Y0duNE5KOUtyQ3ZMdDEtMjNMcVpsRkFUWFFEaEh3ZE05NC0yMkp1QTBOc0lfbklTWlA1eHhUUGowQzU1ZGo1czZrbGJrSlVUNGRXYUFWXzFMQ3h5bkp0ZmxSUXQzMFNJNTdycUlmemt2SmhwcGdTcFNMQlltVnFIcGQ0WXhwSkRKeFQ1VE1WUlQwNEpjQUppYXZDQVRnNWstVkN2VEY3RnVydkRnbkFzcDF0SUI4b0dnaDFPbWlWWUlyWFU4WGZVWHBxQjN6NUdyZGRtdUxhd1BwazRzRVFGUA?oc=5
+- [Telangana Today] US and China exchange journalist expulsions in escalating media dispute - Telangana Today (2026-05-30) - https://news.google.com/rss/articles/CBMinwFBVV95cUxPcUVMaFF0bUJmOXFZQ1J4T1U4MVYtWXhKTFhTaXBIU2lXWEU3MlcyZU1EdHY4VF9RS0pLTVBQcGZ0dWdTWGszX1lCam5LRDdKLUctSXJQQmJEZk5BYkRWUzlwMFpQN3M0bENxaWUydy1DY2xkQmc1eDFqa1FmU09rRlhVZUVKVE95QzRCaFp3YXl5LXZNbnllbHFXMW1pS1k?oc=5
+- [JFeed] Press Freedom Battle Reaches Israel's Supreme Court Over Haaretz Boycott - JFeed (2026-05-31) - https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SaUphdFI1amhSRXpvRGxlMnpzM0UyM3JYM1MtazA0azVBV0RSYUk1R3F3d2NYbmVJbUFWSDUwVTY4UzByT0NRNXIxTllpSDVXUm9qLWxXUGkxNm9KOGdqczUybHk?oc=5
 
 ### Court Order Noncompliance
-- [Center for American Progress] The Trump Administration’s Assault on Immigrants Degrades the Rule of Law - Center for American Progress (2026-05-28) - https://news.google.com/rss/articles/CBMitAFBVV95cUxPdEUwYWoxS3U3OGlGWldaVEZDNmtPWS16UFJ4Vm5oU3lpWWM1NE9lNWJyUDRoME9nR3JmNGU3UFpjNms5Nzh2WWIxTmZjbFhKbFpjbEstOUJBbVJ3cEdsdmdXVHNFVzk5Snlob1hzckE2dGZJbS1pYzNlTUNSVm9Ud2x6ck9Bd0RwWlNKRGpVSG5vb2lTMEYxbldORW12RVB1QTB3MGZmTmcyQjRkU3ZUNVFkWTc?oc=5
-- [dailycaller.com] SCOOP: 2A Organizations Slap Blue State With Complaint Alleging It Defied Court Order With Gun Law - dailycaller.com (2026-05-28) - https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSnU0QkdMMjBKYks5bEx6NmtzSWZBbmVnbzhoQW9YWUxaNDBsZU1OdGxzdVk2MVUycWVUMGNhNVZiVUN2eFhnN0VsNXlwSHllYTJULTJmWExaeW9MSlZDV050MXUtX3FXbEx6RVBEZVlsTjFFemtYN0dwdzlKWV9ZRW4xdHNoLUtybktYVzM5R0hMNFoxaVpRVkdmR2pmUy1SaEpRVVF1ejVBOFN5WlRDYmUtZ1B5VlFQcGZBdmhhUDRxaDAzMEUweQ?oc=5
-- [AmmoLand Shooting Sports News] Virginia Defies Court Order: State Police Resume Unconstitutional Background Checks - AmmoLand Shooting Sports News (2026-05-28) - https://news.google.com/rss/articles/CBMitwFBVV95cUxORzM5YWZJVG9mRU4zNkNobi1LaXlPMTlzQXBQaTRSV2RuVVJ0YmI2OGZiLVBxQTBwNEpRME95cTBlRW56UE96NVpEZ2hFV08zSGZhNkprWGFjSko2N2JBVDJlN0VlSVhyaU1yVWxaa0VpaThPU3otRVY0akh6UDI5U25zQks2UVJzSGtrY1hrYkZDc2MyanZHelJOVnVIbUhKeUptblBRRFc0UnMtVGtjOVR0RXJGbVU?oc=5
+- No fresh evidence links in the current lookback window.
+### Election Administration Capture
+- [Iowa Public Radio] Today's Iowa News ↓ - Iowa Public Radio (2026-05-29) - https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5
+- [The New Republic] Judge Orders Trump to Take His Freaking Name off the Kennedy Center - The New Republic (2026-05-29) - https://news.google.com/rss/articles/CBMif0FVX3lxTE1jRFZ0WTA2ck9lcE1MLUFCR3JCbUJqbTMtLVFfdktGb0tCWHlzR1JjMUtmNm5lVGFWV3JVT012b2J4dUZ2c0Iwc2E1NlRzMEZOSkRDZVNBcWFpaXZ1SmtDcmloMlhDbFAxMzN4aGJEQ21JeFZmLUowbkFaRTBqMEk?oc=5
+- [The New Republic] Breaking News - The New Republic (2026-05-29) - https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xbTZfVUxGSkREWEpuaFFIcXIyaHhqM1FGRkllWk1fTmJOWTd0RjVNUzFEcGJ0QjlaR1hYVXg5V2hIQWY3YllJNXI0N0gtUQ?oc=5
 
-### Targeted Jurisdiction Stripping
-- [Every CRS Report] Civil Procedure at the Supreme Court: Selected Cases from the October 2025 Term - Every CRS Report (2026-05-29) - https://news.google.com/rss/articles/CBMiYkFVX3lxTFBaVDM0aVdLRnc4TW53VEZxS2dGdlBLbDRlZlFmME8zSEJ0cnprOWtvTDM2YlFmOXNPOWdVbENsQm1lZ1dWMkg1MFJKNDhwWTFISk03VnE3bmgwMnczemhmeG1R?oc=5
+### Opposition Ballot Exclusion
+- [AOL.com] Platte County votes to keep candidates on ballot after mix-up. Some quit anyway - AOL.com (2026-05-31) - https://news.google.com/rss/articles/CBMihgFBVV95cUxQQkhyOFZQNzktVTFQZkphVHNMZzlXcjhrSVdhMUJUWHc2cWcydWxwNnJZQUhBNl9yaDVVYmsxTEhoWTVuY0JzNGpLUXN3cnJTYk9CaU9YWklIbEJhUWtsRUxSb0dDak5GRHNjXzJISE0xQXcwUTBndzZ3M1ZVaFZqRmt1Q0hyZw?oc=5
+- [Novinite.com] Bulgaria: "Revival" Party Leads Surge of Dual-Citizen Parliamentary Candidates, Many Tied to Russia - Novinite.com (2026-05-31) - https://news.google.com/rss/articles/CBMie0FVX3lxTE5WNzhkN1JMY3Y2MTdZODNzcWFydjJPNHVuNWlFVk9CV1lXbjZjMXg4eXRTeEpKenN1WHdkclZTaGZTRjZudUtGcE10YWpWYkNtRVZ0OEN5ME1lLThGWkZHUDVKTnU0LWZXMXZMU3BmdHc0SU1qTmJNT1p5TQ?oc=5
 
-### Legislative Bypass by Executive
-- [Center for American Progress] The Trump Administration’s Assault on Immigrants Degrades the Rule of Law - Center for American Progress (2026-05-28) - https://news.google.com/rss/articles/CBMitAFBVV95cUxPdEUwYWoxS3U3OGlGWldaVEZDNmtPWS16UFJ4Vm5oU3lpWWM1NE9lNWJyUDRoME9nR3JmNGU3UFpjNms5Nzh2WWIxTmZjbFhKbFpjbEstOUJBbVJ3cEdsdmdXVHNFVzk5Snlob1hzckE2dGZJbS1pYzNlTUNSVm9Ud2x6ck9Bd0RwWlNKRGpVSG5vb2lTMEYxbldORW12RVB1QTB3MGZmTmcyQjRkU3ZUNVFkWTc?oc=5
-- [Law Commentary] Federal Judge Freezes Trump's $1.776 Billion Anti-Weaponization Fund - Law Commentary (2026-05-30) - https://news.google.com/rss/articles/CBMipwFBVV95cUxQRWJRQngtNzhLYU9fOTdxM05GVFBvWi1ldVlhdWl2elpLQ0hKMlIzcE5BSVdYaHppbWl5eFdLdGlEZlFNMEFVcFdXOGo5UWZ2aHNJQWdJN21IS1RGVWhwYktaM0ZvamRWY0R6b2FlYXNFOTJici1VLXpDTnpwSzJScXhaY205RFJSdXdEUkZhOTBlWHEweHB1VHhicHZUbWlrZXhIdzBBMA?oc=5
-
-### Independent Agency Capture
-- [SCOTUSblog] Alabama redistricting dispute returns to the Supreme Court - SCOTUSblog (2026-05-28) - https://news.google.com/rss/articles/CBMimgFBVV95cUxQRDhaV0JzcTAzMTg5V2JBUTJreGpuMFh6SzlMRVZ4YXVWVVFVZHNFaS1kaEpxc0FTVTdBNGJiVVNvSy1OS0h2cWF0bU1YTmFBUUVrQV9PN1RBSnlmX3AzYzE0ZUFLTzFDV3l1dWYzbUpBc1JvVGpmUDVjd1dfbnpoNGdGejVNamE2NFdUczFIWXdsRm1hMG9Qa0ZR?oc=5
-- [The Hill] If the justices expand presidential power, how can they spare the Fed? - The Hill (2026-05-29) - https://news.google.com/rss/articles/CBMijwFBVV95cUxONm5kQ01GUXZDNFNYN0lyXzJNZTd0MEQzMGpwSFhhd3pOamdsaTdXTUc0RHl5dy10Mld1bVpOZjQzeTF2eWQtQ0YwRXRka2JIVUp1d1otNlpPdWNKaDhhZjZxUkp6ZWFqUDdoai1WaDJObW1Sc2pSSGJvUkhaVVVPSGtCdnBLWXpLcVZYU3hKb9IBlAFBVV95cUxOVDhXZTM3YU51dWYwNG9jOVVfWUxXU3pCRjRRMHVkMlVUSHhrS1lXME42SmMyTnVFbi1KME50MWQyWmkxNndYOUNta0g4T1VtRFlnQ2Q0S0JwUFRaa0RibUhvU2ZITzVMRXlLa2E4d0JxeUZiZzQxRGlRQzZacVZPUU9Objhoa0c5S1BoR19qTngweUNC?oc=5
+### Judge Intimidation Campaign
+- [The New Republic] Judge Orders Trump to Take His Freaking Name off the Kennedy Center - The New Republic (2026-05-29) - https://news.google.com/rss/articles/CBMif0FVX3lxTE1jRFZ0WTA2ck9lcE1MLUFCR3JCbUJqbTMtLVFfdktGb0tCWHlzR1JjMUtmNm5lVGFWV3JVT012b2J4dUZ2c0Iwc2E1NlRzMEZOSkRDZVNBcWFpaXZ1SmtDcmloMlhDbFAxMzN4aGJEQ21JeFZmLUowbkFaRTBqMEk?oc=5
 
 ## Data Quality
 
