@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.33,
+  "average_7d": 11.52,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,49 +9,49 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -2.0,
-  "delta_vs_7d": -0.97,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": 0.74,
   "domain_breakdown": [
     {
-      "avg_severity": 0.1625,
+      "avg_severity": 0.075,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.89375,
+      "points": 0.4125,
       "weight": 22
     },
     {
-      "avg_severity": 0.85,
+      "avg_severity": 1.4166666666666667,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.1875,
+      "points": 5.3125,
       "weight": 15
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.3333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.5166666666666666,
+      "points": 1.1666666666666665,
       "weight": 14
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 0.43333333333333335,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.1666666666666665,
+      "points": 1.4083333333333334,
       "weight": 13
     },
     {
-      "avg_severity": 0.21666666666666667,
+      "avg_severity": 0.43333333333333335,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.5416666666666667,
+      "points": 1.0833333333333335,
       "weight": 10
     },
     {
-      "avg_severity": 0.825,
+      "avg_severity": 1.15,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.0625,
+      "points": 2.875,
       "weight": 10
     },
     {
@@ -72,45 +72,102 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-06-01T14:24:48.710927+00:00",
-  "previous_score": 12,
+  "generated_at": "2026-06-02T13:42:22.333098+00:00",
+  "previous_score": 10,
   "provisional": false,
-  "score": 10,
-  "score_raw": 10.37,
+  "score": 12,
+  "score_raw": 12.26,
   "successful_queries": 22,
   "top_signals": [
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQS3FtS09WWUNmSGpKNmlxX0oyWVE1RWtRbjNKQ1B1RndGUU5nWWRoQXNvbDM2eXBobzI3bUJZSGNSRlV3YWpXYVZzRVBpdU1sMTEweHJQMkkzVjhuNGJxYXgxaUZ3Tm9hUUlSbG1WYlAyejZURE9tOUt4SllJRDFKTUs1dFFVMTZEVnJtd0ZXRUNWelpXNDNwR1NGT0doNXQ3QWRQZzhMaERYeGMyQzNjWE1pNTAzRGNZOHBWTjRIWVBrVFFManFoNE0zbzFlYjI3YmZVMVZ1ekhocmw4d0JucWZveTRFSFU1LXFGXw?oc=5",
+          "published": "2026-06-01T20:40:05+00:00",
+          "publisher": "MSN",
+          "title": "Judge blocks removal of anti-Trump '8647' protest banner - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQX2xBUXdDTktiQ1FLVVJWWmFMZmFFMk5qc2owVC1xNlBNT3hHUWJEVlhvV2JJVElzVWJvTVJDd3JhLTdzOXloOTFObTdybkZrMlV3TXRMeVc1OHNqdXFPekFtbmlvcndNci1Oakt6clNZbFJWLURLZk9sZzYyTTRGbVRoTnN3UFJRaE9GWkFxOVMwT19ZeFVuTE94N3U4UXgxcU9WekV4dzNYd2x0N1cxamxqeW9WNEJOVlYyMmdWLUNuODJ0RGIyNVdWV1VqencxVm1lS2EtcTJpWEloNUNSeHVmOWRXZE0?oc=5",
+          "published": "2026-06-01T19:44:58+00:00",
+          "publisher": "MSN",
+          "title": "Judge rules '86-47' protest flag is protected speech - MSN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxORXpDbldfS3dmdndvVVhpdDUwaFBwZ1dPUkZoVUQ5YzFnZXpnVjZRMEtWRkRFclNzQVhvclpRSG5nYnFkOF8zOEMxVmxxSnZNVnR5Q05MLXl0cWxGNXdWSW1sMTdhU3VXOFN1NmZnRXFRaEluV0tWZE56Q203RXhkWG1xcU8tczlYbkRiUEFXWGZ4aTRpRXNUeGhKRHgyYkc3Sl9lbXZtRlVfbFRjaF81c0Q1b2hfYlktcVhKQ3ZCV01rdDNGbTAzWVNmODlVeDNZcmk3d3hGN1c0UHJkWk5RRzdyTk1JVUhFYWFKc2hCdGN0WG1SQm1QOA?oc=5",
+          "published": "2026-05-31T21:21:45+00:00",
+          "publisher": "MSN",
+          "title": "Trump calls for judge\u2019s impeachment after Kennedy Center ruling - MSN"
+        }
+      ],
+      "hits": 6,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNnlnUXRnNU5FX05jWndJYXdmdFk3RGN5bzB1TkF4T0Z4SFMyNnRoSkhRVHhMckoxLWF0VllyZ3N1c3FDS2IxWHJJTlVXUjJzUG96YkltOU5lamZVWHJQNTRuNC1pUUtHMVRtNU5TVHRFRlNjYnd6VnFMVndaYXM3OUh3?oc=5",
+          "published": "2026-06-01T13:24:46+00:00",
+          "publisher": "AOL.com",
+          "title": "SCOOP: 2A Organizations Slap Virginia With Complaint Alleging State Defied Court Order With Gun Law - AOL.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSXRpLThMOWlud3Y1MGV4ZlF6a0xzbUEyT0N3Uk5ZZG1ZMFZMQVR4Z0FyOFJjdjRiWDF4UXFCaDJLcVNPVEozSk5RY1VheG53TjNQc2dFenh3MDFUbGZnLTA1a3hhclVOUjEwcWRQakxxalFrRUstUUd0Ny02X29CcWJ6LXZSNHladjR0RE42eGlDNjRi?oc=5",
+          "published": "2026-06-01T22:30:00+00:00",
+          "publisher": "The Truth About Guns",
+          "title": "Virginia State Police Defy Court Injunction on Background Checks; Gun-Rights Groups File Contempt Motion - The Truth About Guns"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQnJqUnlxNGcxcWxkRUpYb0s2eTlYZldZYlNHWld3Ym0xWmFjS0sxaW1IcUtmeUpWMHNsam5TQ2YyNU83OHBmM3Y4Vmtxc2V1TTE5V0RrMUN1dlVfWDRGeHp2NEdTQ1VTalhlVHJoUDF1QllhcUx3eTJQeWNJNW9IdUNCaWdsQWJUTjNidGp5ZkN5aWh3Y1h5ZXJPV0hMclZscDFnZEhVWnRCX0JRSEk3UHY2RHd4SFVYQXQ0UUtWNzdwNVB2NU95UGVsNzJjMkJiOU4xakw4UkZHb1oySVBTM09HYTc1MHREX0g4?oc=5",
+          "published": "2026-06-01T15:22:20+00:00",
+          "publisher": "MSN",
+          "title": "Pro-gun organizations slap Virginia with complaint alleging Virginia defied court orders on gun control - MSN"
+        }
+      ],
+      "hits": 3,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 2,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 3
+    },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRXQ3WTJ6MUdtcE8yNmZicW9EbThhbVhhcUJrNDBzNXBCLTJMeUNLU1JKNDItdkJHcnNydXBDZEJ2aDVsTWJ3U291XzdTWFJJdGwxeXloMnpEVlFvSk9aQ3dlZkJtSkh1MS1WTmxrNk4waU0xRFM3VEJYU1FqZk9pX3VqRXlrYTl1T1A3V3hoSURQVWYyT0ZIZl9mak5EdHJnVG92VFJPLTg4MXBWdVBuQWNscXIxaGJhZmc?oc=5",
+          "published": "2026-06-02T01:32:24+00:00",
+          "publisher": "Jurist.org",
+          "title": "Rights groups report Gulf states intensifying crackdown on war-related expression - Jurist.org"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSUNvdUVqWjdsS3ZxTWJVOFlwLWhVdDBwbXZTSXBMUUR1TTB1NVRxOUx0bWx4cVFGY3R6SWYzcGFuNi1fYkdpcXZJaDk3WFp0cmRoY0tmdmF6R0NlT1BDX21sSzVuTC16NGx0QU1FS1JlNUY2eGtWUUU4VWdoejFVREN4bjhSdnVzelJRQzRXLUh3eEM4cWFCMnRvakFJenpiNVHSAacBQVVfeXFMUG43aGpDQkNUelRhdTJIU2Z1R21YTUxTdzMwdFM5RTM4bDNjUkQ1cXJoRlp2c1hXbzJzVkVNSWpaUWFPNHc0VmNtRWF5aXdPUUNOWGd4Ymc4YTlYNjUtNXNxVHN6QllnbmVzMlBLa1g2cEJXUWNrbDB6YURRS19mNTVISVFSMkR5VFFWb2pMaVZWYlBzcE9JZG41XzhXVG5JaF9zdzFRNDg?oc=5",
-          "published": "2026-05-31T23:17:43+00:00",
+          "published": "2026-06-01T22:16:00+00:00",
           "publisher": "The Business Standard",
           "title": "US, China exchange journalist restrictions in latest media dispute - The Business Standard"
         }
       ],
-      "hits": 1,
+      "hits": 2,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -121,62 +178,82 @@
           "published": "2026-06-01T00:12:52+00:00",
           "publisher": "Borkena",
           "title": "Ethiopia\u2019s June 1,2026 Election Is Not Democracy. It Is a Coronation Dressed in Ballot Paper - Borkena"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5WNzhkN1JMY3Y2MTdZODNzcWFydjJPNHVuNWlFVk9CV1lXbjZjMXg4eXRTeEpKenN1WHdkclZTaGZTRjZudUtGcE10YWpWYkNtRVZ0OEN5ME1lLThGWkZHUDVKTnU0LWZXMXZMU3BmdHc0SU1qTmJNT1p5TQ?oc=5",
-          "published": "2026-05-31T06:06:23+00:00",
-          "publisher": "Novinite.com",
-          "title": "Bulgaria: \"Revival\" Party Leads Surge of Dual-Citizen Parliamentary Candidates, Many Tied to Russia - Novinite.com"
         }
       ],
-      "hits": 2,
+      "hits": 1,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMzlsRDNlT2pZYlVDX1Q1Y3NwR3lMajZRRjNrU25aSTlLa0hVcE05b21oZHRHY09XMUVucnNidEVCU2pKdjBDbHpOZWd4b0t2YXFSTWZ2NG9jSVpLNW5iT3lzdUdWWTZOYVVGUkliQ05FUi1CRU1LYk90d3lHNEg0N2ZWWWZCZTFtek1zN1hCa1MxY2xOR0FGR092OEhqUDBxamlxcGl1emlnMkpTcWdHZV9uNHpzX21MWmROTTByV1p0bnZ0aHc?oc=5",
+          "published": "2026-06-01T20:16:27+00:00",
+          "publisher": "Government Executive",
+          "title": "Federal oversight faces \u2018structural conflict\u2019 as political appointees enter IG offices - Government Executive"
+        }
+      ],
+      "hits": 1,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jMzNGQ0hXb0dOVUswVXR1TXVEOGV3djNGMEVZUHpQbHhYUE5uZFdIajAwdnQ1NFJSY0pCS1pHYldWZmVGbGZtLUNaVUs0bVEwZ3RXTVJEZXJDNEE0LU1odlVnNjVZSWdBNTFJeW9FQzhKdE5DbWdUOU5ZOEpxdw?oc=5",
+          "published": "2026-06-02T06:06:32+00:00",
+          "publisher": "Out Loud with Ahmed",
+          "title": "Protecting Israel, Criminalizing Dissent - Out Loud with Ahmed"
+        }
+      ],
+      "hits": 1,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxNQlNLdE80cjVHQldUUUdVN2dkeGhnX3Zya094bUV0bFdiQkJ1SXFpZU5fcHVkT0xnNnZDZENfR28xaFB2VlUwd1ZvM2F4Nm5pSXlLRFVaa3JtQnhhM05qVDE4UmRGbk1pbGtPTER5UHd3a05wVDFjLW5GNWozc0RWLUpOYWF4amhqYkxSTUpSeWZ6UkREelBaSjNxV1ZtTDlGVWJJemp1Q3VQV3ZSc3cyY1lCZGxCVFB5RndSMS1KTnVqSnJlbTBRYk01aV9UVE1ldXB4UFhaamY2dnViQXRlWUdSMmlvME9MM2ZDNTVaYkFmOW0zdzM2dTgxb1FhNWNzY2pDbjNZeHBIVlI2UnpiVV9xQnRhVV9HaFR6bk5WajU4aVJOTC12N1l6eUFLOGZ4alpVR09NS0Q0c1VONUtGUk9aVzNUaHRfVTNLa2xLM0FnTTBlZnp4TnUwdmdHWUdYTkFBelF0Zw?oc=5",
-          "published": "2026-05-30T15:57:08+00:00",
-          "publisher": "MSN",
-          "title": "Supreme Court To Hear Case Threatening Trump\u2019s Tariffs And Presidential Power - MSN"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tTWFZUFE4Qml4b19QRGVCcnhkSVlOMVA3UjZkUDVKMDFVUTIzN19HUnNnZmxCZ3ozV0VmazZqMmI3NGZCVy1KWE1mRllXNzlBNGJUVHhDQkFZTVZES3gtVWpEdw?oc=5",
-          "published": "2026-05-31T16:20:00+00:00",
-          "publisher": "The New York Times",
-          "title": "Judge Halts White House Ballroom Construction - The New York Times"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -187,20 +264,7 @@
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -213,7 +277,7 @@
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -226,20 +290,7 @@
       "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
