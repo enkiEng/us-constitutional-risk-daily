@@ -1,57 +1,57 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.88,
+  "average_7d": 12.3,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 2.0,
-  "delta_vs_7d": 2.41,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": 1.12,
   "domain_breakdown": [
     {
-      "avg_severity": 0.25,
+      "avg_severity": 0.1625,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.375,
+      "points": 0.89375,
       "weight": 22
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.0999999999999999,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 5.0,
+      "points": 4.124999999999999,
       "weight": 15
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.6666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.9249999999999998,
+      "points": 2.333333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.3333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.4083333333333334,
+      "points": 1.0833333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.6666666666666666,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.8333333333333333,
+      "points": 1.6666666666666665,
       "weight": 10
     },
     {
-      "avg_severity": 1.5,
+      "avg_severity": 1.325,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.75,
+      "points": 3.3125,
       "weight": 10
     },
     {
@@ -72,49 +72,55 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-06-03T14:02:30.703881+00:00",
-  "previous_score": 12,
+  "generated_at": "2026-06-04T13:29:21.283289+00:00",
+  "previous_score": 14,
   "provisional": false,
-  "score": 14,
-  "score_raw": 14.29,
+  "score": 13,
+  "score_raw": 13.41,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWTVJaWMtV0EyQUhrTDUtOXhmYmxwbm5YU3p5NnM0MVdEWnVJd2xOYUlyNWtOU0RmRUVnQzJfZzVjMzlMNlc1T29qVHZncW9tdldaNU9QbmxLZ3VRVTBUSV83NnlrWUlqQTZNYlAyRGJSNkhyQ3daaDA3NzBoLTloNWMyTkx5ZDAzWnhmSXowSjRWU3Y5SXRmcjhLTV9jcGU3N2c0VWh4TjdWVjVGVnVHUmUwVmxPX21kVk9yajM5Ylk0MWRIQWtJT0wtNTZXWFVYSzZHTXY2dXNuRjVNcVBHT0ExOHpQUU5NSlB2WW9KYw?oc=5",
-          "published": "2026-06-02T15:42:24+00:00",
-          "publisher": "MSN",
-          "title": "Judge blocks NPS from removing '86 47' protest flag - MSN"
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZXRaSmhvbGNFUXhWU2hwZUVScElKb3J0TS1HcUQ5dFpSeC1rSzZfLUEzSThibWJBdTVfM3BMS1NNYm9kaTVHY0tya0VVb2I5VGZIUWdld2NUN3lLdlpNaXVyZ0U4SXluclVkT3lEQW82UmtNVDh4a2lCSlBVWFRXU2xKVFplc0RnN0VuVHdIX0pIMTdFYTZoQUFZeVV4RUJfSDZyblRVejlwVGpOdHB3d2IzRDlJb0E?oc=5",
+          "published": "2026-06-04T00:17:11+00:00",
+          "publisher": "Federal News Network",
+          "title": "Trump moves about 8,000 federal positions to Schedule Policy/Career - Federal News Network"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVW0tcUE1VURvUVF5S1BqREZlY1FCWVpGMkFNWndINkFTTUdiY0Q3SUFqalVqaDNWUXljZl9CWDRGNWRUdFhKMV9SWFktMUd3YXk4MFRtaXdNWElBSVRlQU14VFhuWVRlbEN3bmZRY3ozVXpPNWFRRUtaeko2ZEZsSDFGZ1RvbVVITTI5eWFaU2Q1SDlrdGEyUnJSYVYyU2R5cUpzT0JjNkR0WlVjUzFXUms0NlFKeHJraFdlVjlGaFZrQkp2UndLUEJVVnRySXliUHpQTA?oc=5",
-          "published": "2026-06-02T05:31:04+00:00",
-          "publisher": "MSN",
-          "title": "Judge blocks NPS from removing '8647' protest flag - MSN"
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQWs3Z3ZDNVdZR01reTBQSTNweDBuMFdXTHlkZmQ1RE84ZnlVTkhOYnJMYkdZQ1ctZmIwOVEtQkJEMUZ3LUthbndzelpHbTZkc0JrTG9uUFYzelp6MTlGSENDZF9jWlBKWnBsTS0wMlZwQlZ0dE9seWlhdUVDdE52czhDU3AxbDB2dVgxaTVZa3RtbkNkSWhoLVdycGRGd3RkSFJUbU1HdW9uMkJEdkE?oc=5",
+          "published": "2026-06-03T19:53:21+00:00",
+          "publisher": "NPR",
+          "title": "Trump strips job protections from 8,000 federal workers - NPR"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdkZnRzZ1NklBeXQ5YmpmdEVTVlM5Z3RXRkVrVTlaa1VYUmFDLU5Xa2xZaElZYkJiMTl5TVlHNFJ4YzUzSmJTN2tWTzN6MWJiZGFaa1p2VGFNaWdVX3BaWGtSaXNiOHBRRUloRUxQT1E3LWt2enNpd0RsVE1jU2RNa3pxOVBseFotTHVqMjJ6VHZlbVBTUHYxREFrSGpGVG5iVmh1VHI5Y0F2a28ya19veFU3UVVMSTY3eW5RdXo2bV9xWEFOeHI2WDZiWllUcFRPeV96ZVF0d0dEbHV0cnB4WGpPVF8?oc=5",
-          "published": "2026-06-02T13:08:45+00:00",
-          "publisher": "MSN",
-          "title": "Judge blocks removal of '86 47' protest flag in DC - MSN"
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOHhzUDBsYjdibWpLdEZXSFZEUmVvVF9DUTV3NXNOdGZUY2ZIdjFpdUV5dzZMUGJjZHBabk5ia0EyaUdGcDZPdjdxc3RIRFJCN1dsQWJDUFhoTDlaRm9UbzZnczdVQjBsYjFqbllRT3pfRU9fNEhXUkFEZ0VCd1hNZkFDWnBjbFBobW55MkxUSjVGZWdYcGZ4MFE4X2NRZw?oc=5",
+          "published": "2026-06-03T20:09:00+00:00",
+          "publisher": "E&E News by POLITICO",
+          "title": "Trump strips civil service protections from thousands of workers - E&E News by POLITICO"
         }
       ],
-      "hits": 7,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "hits": 11,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 10
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-06-04T12:22:15+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUS1kQmhFamNiQ3JlYXJIakhBQ2FQdlFzMDB4T0g1Mlc5RXZueW5pS2JrVWdydFRlRDlkUl9Ka1RCUkpvQjc1MTVpbkFHU1BpaEFsLXNOUXJQYlNubkVmNjZnUEFmUksyWmdBMjh1V0xyNXRqQ3JaNmVQQnB0aHhxdENCRXJ3a2tRZHFEM2s5aFlfQWR0UnBvRU13WkVUN3lSblE?oc=5",
           "published": "2026-06-02T22:08:17+00:00",
@@ -126,12 +132,6 @@
           "published": "2026-06-03T06:15:00+00:00",
           "publisher": "The Business Standard",
           "title": "CPJ urges PM to stop the cycle of press repression and political retaliation - The Business Standard"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTDBidXBaQ2M4SEpoTG5BT2hvZGI4eEZ4czVMMmJWeGJianljOHd1LUluN3hNLU5JX3hUM3VZQ1NLQVRPVjRNMG9jTy02UjZaUnNEYTQzd19IVzR2S3N6eWhZZnd5c0ltYTgxUWUtRUgzN0xNZmFCTXZUc1ZaOVJvLWJwemgtbEpFdTNDVFBHcFJ6WnNPRGZVV3ZOUjBRMEJMc1FMclY2RnQ1MEY4T2xtNFZpVlpadw?oc=5",
-          "published": "2026-06-03T08:30:47+00:00",
-          "publisher": "daily-sun.com",
-          "title": "CPJ urges PM to break cycle of media repression with 10 recommendations - daily-sun.com"
         }
       ],
       "hits": 4,
@@ -148,70 +148,50 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSXRpLThMOWlud3Y1MGV4ZlF6a0xzbUEyT0N3Uk5ZZG1ZMFZMQVR4Z0FyOFJjdjRiWDF4UXFCaDJLcVNPVEozSk5RY1VheG53TjNQc2dFenh3MDFUbGZnLTA1a3hhclVOUjEwcWRQakxxalFrRUstUUd0Ny02X29CcWJ6LXZSNHladjR0RE42eGlDNjRi?oc=5",
-          "published": "2026-06-01T22:30:00+00:00",
-          "publisher": "The Truth About Guns",
-          "title": "Virginia State Police Defy Court Injunction on Background Checks; Gun-Rights Groups File Contempt Motion - The Truth About Guns"
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-06-04T12:22:15+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQnJqUnlxNGcxcWxkRUpYb0s2eTlYZldZYlNHWld3Ym0xWmFjS0sxaW1IcUtmeUpWMHNsam5TQ2YyNU83OHBmM3Y4Vmtxc2V1TTE5V0RrMUN1dlVfWDRGeHp2NEdTQ1VTalhlVHJoUDF1QllhcUx3eTJQeWNJNW9IdUNCaWdsQWJUTjNidGp5ZkN5aWh3Y1h5ZXJPV0hMclZscDFnZEhVWnRCX0JRSEk3UHY2RHd4SFVYQXQ0UUtWNzdwNVB2NU95UGVsNzJjMkJiOU4xakw4UkZHb1oySVBTM09HYTc1MHREX0g4?oc=5",
-          "published": "2026-06-01T15:22:20+00:00",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZlM5OExZLVoyS0g4MlRkcXExZWl4a3RQVWFTUmktY2hucVBXd1dIN1c3aGdzTkl2SG5vME1OMGd1UnQtbGtPOW1kZkZGMTJGdDFOWVdBb2kyaHFRb19ndkFOVTB6b201TFlJbGItSUpkUHVZNnZqZ1hnMHFhZGJFSTZ3X1dVOEY0bzdMb0dHSnVhOEdwV0xOS2dvWmxpNnMwWVpPTFZEcUhfM010VWFOal9SazFtazVqX0phQkRWVnNTSW5YNW95ZHZfTXhEczVzY0JUcXhiWWcxcTVRWU1xRThVc0tFQQ?oc=5",
+          "published": "2026-06-03T02:31:14+00:00",
           "publisher": "MSN",
-          "title": "Pro-gun organizations slap Virginia with complaint alleging Virginia defied court orders on gun control - MSN"
-        }
-      ],
-      "hits": 2,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 1,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWGZjY0w5TnFIcWhCeTkxSHo5Wndid20wRm5jeTZYUWFlUU1JYlF6TkNVLUw0Z0xPcVlxdXQxWWJJYV9LQXBiTk1UcXAyc3lmMDNIQlJacEVvQmVKZGlzY0dPQ1dZX3FrdkM4TWFDbWVTZUMzZE1uVEpCQkdhbUp2a2lXbkFqcXJyUVZJV21peTdRcFBZNXhZc1IwTEdtV3Z6aEV5TUpBY3NWeGRJQkFqUlA0SUo0bEpj?oc=5",
-          "published": "2026-06-02T01:12:09+00:00",
-          "publisher": "Democracy Docket",
-          "title": "Democrats appeal ruling that left Trump\u2019s anti-mail voting order in place - Democracy Docket"
+          "title": "Judge blocks NPS from removing '86 47' protest flag - MSN"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMDZFLXFsdERkYVJvNTBVWWsxYXR2cFIzTXFIQVZ0dU5MM0Q3LU1kc2pFRjNhRXRuTm5Vc2dzMzdWczdwZHZHQ0l1cUg5VEdDZDU2dnN4RkVQcE1xWE1WUFp6b09PcFdNNnlzNHA4elk2WlIzbzl3RmxWbVk3WGVOZ3FWRTBlTnF3R1pUbExNSUU?oc=5",
-          "published": "2026-06-02T16:00:00+00:00",
-          "publisher": "jdjournal.com",
-          "title": "Trump Mail Voting Order Faces Major Legal Challenge - jdjournal.com"
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcXQtQWQ2V0M3X1B1WnpVYlJyZndXTlBGc0puc1d0MHpTeWUyeUl1UXZZTHAzSDdIdnRQY2wtaDBtajVEMXdraUgyMGpDdGdNNzh5NkFiU2Y2UGhIUVFGTDk3U2Q2Qm56OGt5RVBYUGdOOFBQZHlvVlNMcC1hNFJDNmFoYk5ac1FMRlAzWFlRbC1LLTliVmVKNVBubncxVnR3SnhtVDZLbDR3WVJuWFZWbXN6TGpROFQyVTRKWlBwbnRtSDY0bTRtSUpQZTltZTJwMUZOOFdleks0dUZNeko0RWNCblEzZTB3czJELWhVZnYwVFR2QjFkcA?oc=5",
+          "published": "2026-06-03T10:29:54+00:00",
+          "publisher": "MSN",
+          "title": "Judge halts NCAR supercomputer transfer amid retaliation claims - MSN"
         }
       ],
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "hits": 3,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
+      "severity": 1.65,
       "severity_label": "Watch",
       "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5",
-          "published": "2026-06-02T11:47:57+00:00",
-          "publisher": "Iowa Public Radio",
-          "title": "Today's Iowa News \u2193 - Iowa Public Radio"
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOFhKSEdaQXBPWDJwaGpCM2NQX2NocXRKWjdmdHZYc0RwQmRfbF9NaXdOQmFZckwxS0VCTXFTQlBtVExSWmplSExkZEdvV3Vfc0ZESzg4RTUyVk9Ca3liNmc2NV9VbmJmZlNXWGJFNjFpRWcwVjRUSW9ETWREellmc0cxc1BmNHZjbEt5VlpfS0ZkVkV5X2xORnRaXzd2M0ZVV1pVbF9sQUw5dUlrMHpRNWNWeS1WSzdoRmh3?oc=5",
+          "published": "2026-06-04T10:09:52+00:00",
+          "publisher": "streamlinefeed.co.ke",
+          "title": "US Military Defies Kenyan Court Order as Secret Ebola Facility Sparks Deadly Protests - streamlinefeed.co.ke"
         }
       ],
       "hits": 1,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
+      "severity": 1.65,
       "severity_label": "Watch",
       "unique_publishers": 1
     },
@@ -237,51 +217,51 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONkVqQ2QxTGVWZHJnQTVDeXpxbUVselJpT0ZzMUk1TkFsaHpGY3Z5ZVJiQ3pkNmhtWEdaQ0FDN3ZYZF9EVmpmYzlMbW5TUVpZRmdJb3JhbXh0VHQxZEI3eGcyWEtvM0FqNXZDTDB2b01BNzh0ak5ad0UtM3BGLUpMUWtkZmtkelotVk43TlNqcWhXMWJMc3MyZV9kQWcwVGNzeVE?oc=5",
-          "published": "2026-06-01T20:16:27+00:00",
-          "publisher": "Government Executive",
-          "title": "Federal oversight faces \u2018structural conflict\u2019 as political appointees enter IG offices - Government Executive"
-        }
-      ],
-      "hits": 1,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jMzNGQ0hXb0dOVUswVXR1TXVEOGV3djNGMEVZUHpQbHhYUE5uZFdIajAwdnQ1NFJSY0pCS1pHYldWZmVGbGZtLUNaVUs0bVEwZ3RXTVJEZXJDNEE0LU1odlVnNjVZSWdBNTFJeW9FQzhKdE5DbWdUOU5ZOEpxdw?oc=5",
-          "published": "2026-06-02T06:06:32+00:00",
-          "publisher": "Out Loud with Ahmed",
-          "title": "Protecting Israel, Criminalizing Dissent - Out Loud with Ahmed"
-        }
-      ],
-      "hits": 1,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV0tWa2dYZ3ZZRHJlT3BjVmcxZFZNWWc4bHhjOXB6RkoyQmJJQmEyZng5YlgtMjZ0WWctNmk4UEZQX0phNS1vbjRqeEhHb0xnQzhrSXRXaFZvdllBblVNem90UFpxb0FRX3lnX25ZU21XRXVHT2lHVmtFZDhDeVlaS01tMUFQV0Q0M25JUURpcnJMX3gyRUhnU0VOZWZzRU1mdFBwaQ?oc=5",
+          "published": "2026-06-03T18:03:16+00:00",
+          "publisher": "Digital Journal",
+          "title": "Amid fears of foul play, Venezuela girds for uncertain election - Digital Journal"
+        }
+      ],
+      "hits": 1,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMDZFLXFsdERkYVJvNTBVWWsxYXR2cFIzTXFIQVZ0dU5MM0Q3LU1kc2pFRjNhRXRuTm5Vc2dzMzdWczdwZHZHQ0l1cUg5VEdDZDU2dnN4RkVQcE1xWE1WUFp6b09PcFdNNnlzNHA4elk2WlIzbzl3RmxWbVk3WGVOZ3FWRTBlTnF3R1pUbExNSUU?oc=5",
+          "published": "2026-06-02T16:00:00+00:00",
+          "publisher": "jdjournal.com",
+          "title": "Trump Mail Voting Order Faces Major Legal Challenge - jdjournal.com"
+        }
+      ],
+      "hits": 1,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "hits": 0,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
@@ -290,14 +270,14 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_liberties_information",
       "evidence": [],
       "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.65,
       "severity_label": "Green",
       "unique_publishers": 0
     }
