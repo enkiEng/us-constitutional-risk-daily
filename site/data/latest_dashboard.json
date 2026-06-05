@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.3,
+  "average_7d": 12.69,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,21 +9,21 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": 1.12,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": 1.49,
   "domain_breakdown": [
     {
-      "avg_severity": 0.1625,
+      "avg_severity": 0.075,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.89375,
+      "points": 0.4125,
       "weight": 22
     },
     {
-      "avg_severity": 1.0999999999999999,
+      "avg_severity": 1.4333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 4.124999999999999,
+      "points": 5.375,
       "weight": 15
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-06-04T13:29:21.283289+00:00",
-  "previous_score": 14,
+  "generated_at": "2026-06-05T13:24:30.533899+00:00",
+  "previous_score": 13,
   "provisional": false,
-  "score": 13,
-  "score_raw": 13.41,
+  "score": 14,
+  "score_raw": 14.18,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,25 +84,25 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZXRaSmhvbGNFUXhWU2hwZUVScElKb3J0TS1HcUQ5dFpSeC1rSzZfLUEzSThibWJBdTVfM3BMS1NNYm9kaTVHY0tya0VVb2I5VGZIUWdld2NUN3lLdlpNaXVyZ0U4SXluclVkT3lEQW82UmtNVDh4a2lCSlBVWFRXU2xKVFplc0RnN0VuVHdIX0pIMTdFYTZoQUFZeVV4RUJfSDZyblRVejlwVGpOdHB3d2IzRDlJb0E?oc=5",
-          "published": "2026-06-04T00:17:11+00:00",
-          "publisher": "Federal News Network",
-          "title": "Trump moves about 8,000 federal positions to Schedule Policy/Career - Federal News Network"
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSmptb2JyYXJNZ2xjc3RhUU1EaGNxSHlPZ09BSTUxbmhsWERyTGg4NXFtVzlPVDBqd2xmY2Q2d2ZyTDRfeS1uZC0xODhGQUxtel9IQmJIYldqRkpjb1ZTbjVzNzNJRmo5S2NVNHBrXzlIWmNrVDdDXzZ1ZlhfRTVqb2V6TlJWb2tiQm5EOXRTdm82N3QwdjJ5c08tOENYRFB5MlhXbzFTNFFQbjNvb3AyV25MS3AzZEtxLTFn?oc=5",
+          "published": "2026-06-04T22:37:29+00:00",
+          "publisher": "Maryland Matters",
+          "title": "Trump moves about 8,000 federal jobs to new category that strips job protections - Maryland Matters"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVjRDVS1SQXhiLXVVUWRmVDdZdnhCYmU0aWVkaUpGVVNqN1dYLWxnSFM4WXY4aGoyRWUtRWtQRE9jd2QzajN4WTNkSmtGY1ZVOUd0MUxPblhYUHhJbnBHNDFLbzFKbnlUV0k3dF95X0pfaWJMZUdQWFdwamhpcFJpNVNZWUZacjVtTkdFeE04WXhEZFdGQkJHYWFWNl95Z1AxaFR4RnVjQU9ScDQ?oc=5",
+          "published": "2026-06-03T20:13:06+00:00",
+          "publisher": "Government Executive",
+          "title": "Trump signs order moving thousands of federal employees into Schedule F - Government Executive"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQWs3Z3ZDNVdZR01reTBQSTNweDBuMFdXTHlkZmQ1RE84ZnlVTkhOYnJMYkdZQ1ctZmIwOVEtQkJEMUZ3LUthbndzelpHbTZkc0JrTG9uUFYzelp6MTlGSENDZF9jWlBKWnBsTS0wMlZwQlZ0dE9seWlhdUVDdE52czhDU3AxbDB2dVgxaTVZa3RtbkNkSWhoLVdycGRGd3RkSFJUbU1HdW9uMkJEdkE?oc=5",
           "published": "2026-06-03T19:53:21+00:00",
           "publisher": "NPR",
           "title": "Trump strips job protections from 8,000 federal workers - NPR"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOHhzUDBsYjdibWpLdEZXSFZEUmVvVF9DUTV3NXNOdGZUY2ZIdjFpdUV5dzZMUGJjZHBabk5ia0EyaUdGcDZPdjdxc3RIRFJCN1dsQWJDUFhoTDlaRm9UbzZnczdVQjBsYjFqbllRT3pfRU9fNEhXUkFEZ0VCd1hNZkFDWnBjbFBobW55MkxUSjVGZWdYcGZ4MFE4X2NRZw?oc=5",
-          "published": "2026-06-03T20:09:00+00:00",
-          "publisher": "E&E News by POLITICO",
-          "title": "Trump strips civil service protections from thousands of workers - E&E News by POLITICO"
         }
       ],
-      "hits": 11,
+      "hits": 15,
       "id": "civil_service_purge_schedule_f",
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
@@ -113,62 +113,50 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-06-04T12:22:15+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQmo5UmJuNjM0eG9BTHRNWEtVbHZPb1lxMW9VTzlOSWV3cEtfWURIQ0ZlN3hNQzV4bm4zMVVrcjlEckRjMUViYlJyUnFtY21aZnFidXdrTDlPczEwTzE4SU5oa3RJbVF4Qmlkbm1mSXdwZ3VQeGFrN3NzTmRJdmNCZlpJbHdMbXIyTmRwQlZoc29nUHNBeVNiZDdxVW9yQQ?oc=5",
+          "published": "2026-06-04T14:21:00+00:00",
+          "publisher": "dailycaller.com",
+          "title": "Blue State Governor Suffers Legal Defeat Over Gun Background Checks - dailycaller.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUS1kQmhFamNiQ3JlYXJIakhBQ2FQdlFzMDB4T0g1Mlc5RXZueW5pS2JrVWdydFRlRDlkUl9Ka1RCUkpvQjc1MTVpbkFHU1BpaEFsLXNOUXJQYlNubkVmNjZnUEFmUksyWmdBMjh1V0xyNXRqQ3JaNmVQQnB0aHhxdENCRXJ3a2tRZHFEM2s5aFlfQWR0UnBvRU13WkVUN3lSblE?oc=5",
-          "published": "2026-06-02T22:08:17+00:00",
-          "publisher": "RSF.ORG",
-          "title": "Venezuela: liberated journalist Rory Branker still prosecuted, subject to restrictions - RSF.ORG"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTGEyd2RyZjU0MzRnSnRiX01oMXRHWEd0am5odTc1TjlaeEZGekZkeFRvMDNwQUZ3RWpXQTc3TnJvZ0ExTmx2TW94OUU2UVQ3ZmVxUGhZR0FKUXNkV2gzVEo4cVNvNnFKZ2FLSzRaZzdVTEdxYzd6MlNoRUJRTmIteEt3OHhQc0ZudFZBSk9WRXg4c0FTdjRrOTdkUExUUGoxNjVCcWZlSXliVF85MVZCTTVIONIBswFBVV95cUxQTGEyd2RyZjU0MzRnSnRiX01oMXRHWEd0am5odTc1TjlaeEZGekZkeFRvMDNwQUZ3RWpXQTc3TnJvZ0ExTmx2TW94OUU2UVQ3ZmVxUGhZR0FKUXNkV2gzVEo4cVNvNnFKZ2FLSzRaZzdVTEdxYzd6MlNoRUJRTmIteEt3OHhQc0ZudFZBSk9WRXg4c0FTdjRrOTdkUExUUGoxNjVCcWZlSXliVF85MVZCTTVIOA?oc=5",
-          "published": "2026-06-03T06:15:00+00:00",
-          "publisher": "The Business Standard",
-          "title": "CPJ urges PM to stop the cycle of press repression and political retaliation - The Business Standard"
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOFhKSEdaQXBPWDJwaGpCM2NQX2NocXRKWjdmdHZYc0RwQmRfbF9NaXdOQmFZckwxS0VCTXFTQlBtVExSWmplSExkZEdvV3Vfc0ZESzg4RTUyVk9Ca3liNmc2NV9VbmJmZlNXWGJFNjFpRWcwVjRUSW9ETWREellmc0cxc1BmNHZjbEt5VlpfS0ZkVkV5X2xORnRaXzd2M0ZVV1pVbF9sQUw5dUlrMHpRNWNWeS1WSzdoRmh3?oc=5",
+          "published": "2026-06-04T10:09:52+00:00",
+          "publisher": "streamlinefeed.co.ke",
+          "title": "US Military Defies Kenyan Court Order as Secret Ebola Facility Sparks Deadly Protests - streamlinefeed.co.ke"
         }
       ],
-      "hits": 4,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "hits": 2,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 4
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-06-04T12:22:15+00:00",
+          "published": "2026-06-05T08:19:12+00:00",
           "publisher": "ABC News - Breaking News, Latest News and Videos",
           "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZlM5OExZLVoyS0g4MlRkcXExZWl4a3RQVWFTUmktY2hucVBXd1dIN1c3aGdzTkl2SG5vME1OMGd1UnQtbGtPOW1kZkZGMTJGdDFOWVdBb2kyaHFRb19ndkFOVTB6b201TFlJbGItSUpkUHVZNnZqZ1hnMHFhZGJFSTZ3X1dVOEY0bzdMb0dHSnVhOEdwV0xOS2dvWmxpNnMwWVpPTFZEcUhfM010VWFOal9SazFtazVqX0phQkRWVnNTSW5YNW95ZHZfTXhEczVzY0JUcXhiWWcxcTVRWU1xRThVc0tFQQ?oc=5",
-          "published": "2026-06-03T02:31:14+00:00",
-          "publisher": "MSN",
-          "title": "Judge blocks NPS from removing '86 47' protest flag - MSN"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcXQtQWQ2V0M3X1B1WnpVYlJyZndXTlBGc0puc1d0MHpTeWUyeUl1UXZZTHAzSDdIdnRQY2wtaDBtajVEMXdraUgyMGpDdGdNNzh5NkFiU2Y2UGhIUVFGTDk3U2Q2Qm56OGt5RVBYUGdOOFBQZHlvVlNMcC1hNFJDNmFoYk5ac1FMRlAzWFlRbC1LLTliVmVKNVBubncxVnR3SnhtVDZLbDR3WVJuWFZWbXN6TGpROFQyVTRKWlBwbnRtSDY0bTRtSUpQZTltZTJwMUZOOFdleks0dUZNeko0RWNCblEzZTB3czJELWhVZnYwVFR2QjFkcA?oc=5",
-          "published": "2026-06-03T10:29:54+00:00",
-          "publisher": "MSN",
-          "title": "Judge halts NCAR supercomputer transfer amid retaliation claims - MSN"
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTzVVNkk1ai1iaU03MktyaEcwYnlJRGphY1NfV05tSEdWYVdsT0p6ZFVaeDl0ZUhzYUlSMDltdVBpWEJEeHVOY2xaQ29TTXNRVEpKMTEtRW12dUZ5MHpfcGhrLURUd1hLcnVmbTJZQjNVWkN4LXh6em9iaEFJYldEenhZaUtVQS1fZE51NTNzejZscjRhNEstVjFYcEY1anBwUHNEeFRLQW02TDdCcUHSAbMBQVVfeXFMUExhMndkcmY1NDM0Z0p0Yl9NaDF0R1hHdGpuaHU3NU45WnhGRnpGZHhUbzAzcEFGd0VqV0E3N05yb2dBMU5sdk1veDlFNlFUN2ZlcVBoWUdBSlFzZFdoM1RKOHFTbzZxSmdhS0s0Wmc3VUxHcWM3ejJTaEVCUU5iLXhLdzh4UHNGbnRWQUpPVkV4OHNBU3Y0azk3ZFBMVFBqMTY1QnFmZUl5YlRfOTFWQk01SDg?oc=5",
+          "published": "2026-06-05T03:07:22+00:00",
+          "publisher": "The Business Standard",
+          "title": "CPJ urges PM to stop the cycle of press repression and political retaliation - The Business Standard"
         }
       ],
-      "hits": 3,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.65,
@@ -180,30 +168,74 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOFhKSEdaQXBPWDJwaGpCM2NQX2NocXRKWjdmdHZYc0RwQmRfbF9NaXdOQmFZckwxS0VCTXFTQlBtVExSWmplSExkZEdvV3Vfc0ZESzg4RTUyVk9Ca3liNmc2NV9VbmJmZlNXWGJFNjFpRWcwVjRUSW9ETWREellmc0cxc1BmNHZjbEt5VlpfS0ZkVkV5X2xORnRaXzd2M0ZVV1pVbF9sQUw5dUlrMHpRNWNWeS1WSzdoRmh3?oc=5",
-          "published": "2026-06-04T10:09:52+00:00",
-          "publisher": "streamlinefeed.co.ke",
-          "title": "US Military Defies Kenyan Court Order as Secret Ebola Facility Sparks Deadly Protests - streamlinefeed.co.ke"
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-06-05T08:19:12+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xSkpzYkpQeC1iNDJjbDNpdlRfYTh0SjFBdjVabWNwSElpWEdkMWpGVGVZQ1BiRXBHaHI5NXFYR0tRdTRYRFRNRVVWZkRQelRXTDZ6NUo3QXl2UW04UkV3?oc=5",
+          "published": "2026-06-04T20:19:29+00:00",
+          "publisher": "The New Republic",
+          "title": "Breaking News - The New Republic"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNa0VaTjlvRzAtVDQ4X3dpRlVhWjlnTk5ZNHQweEd0VWZ4UDg5SlhDZHAtUGlRTHV4cmtVNmI3MFdyMzE4Z3JMSG1Hc0tEU2lRdDB1SFgtMWJWZHBxZ3JkVXgxUnlmYXJjd1g1SnlyLS1FTDMtWnhpOUpjNU02SG9wVzhUZ1VHMkxGY0NFMy10THBDUTdvY0dJT3dqNTBMZEtHSzFoX0xqT0xFUVh4VC1WWnBXUTljcEplTGdqaHVOSjAwM2ZMTzlsVlUxaW1taWlGZU9TX2pjOHdsaUpCdjcwTkJQUEdCdUlrZWlkRnhsV0twS0V1TVNkaFVQcC1zYmROXzl3eF9lVmFJVXJGWnJrb1d2Sk9sOXExQUI3dnJ6dlBXSXRXVkRYcVhkdU0xWks0QmVlTQ?oc=5",
+          "published": "2026-06-04T11:06:50+00:00",
+          "publisher": "MSN",
+          "title": "56 ex-judges throw weight behind Madras HC judge - MSN"
         }
       ],
-      "hits": 1,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
+      "hits": 3,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQenNGY25JTVFaa21sTGpCTFhyZ2JudENxOVFjR3dFTmptM0ZGMTNTeUlpWWRvQURfaVVZdUc2QndHMEJYbVlweHdWSjNRcGJsbkZ5dGx5UEdQcURVUmNpUmo4VENPNUFyMkVRRmluYm1IcWlPdlNxQW1yU3p4WFZHUGQxTDRWX1ladWR0OXJ2OW9jZThxXzNFZmxFYTZtQ1NoaHk4Z096TS0?oc=5",
+          "published": "2026-06-05T10:18:58+00:00",
+          "publisher": "Modern Diplomacy",
+          "title": "Trump White House Ballroom Case Tests Limits of Presidential Power - Modern Diplomacy"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80Vy00QUdvblo5bHdkaHJnRlMxTXcxYXdjbm9RMnJEQmY3QWFQUXpnZkVDRWt1X3pTVEVDelNXWjNEaWhyb3YzY3VMNTRPZk1zMm9ISmZXdmVjN0JZWjZmeVMxQUhPeDlQcWljMFRFczBqSl9EMm1POHU1VQ?oc=5",
+          "published": "2026-06-04T15:29:26+00:00",
+          "publisher": "Legis1",
+          "title": "White House Challenges Records Law - Legis1"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYVB3MGMzYVBXdHNrUUxFR295TV8tM0EtalN4T1czek1FSWlLYmo5NHNuTVRSaTYwdDdYckhXUmk0SzNwWDFDdm1tbXpjZTNVZzlGaUI5LTkwQllNYV9ObkVYUmNhS0RSWmJZUVdIZlp5eW5ucHNwNHplcnBRSWdkTlpGZkt5T0g5aHM2ZEpCcmlMS3RmdDEtbHZQd2JyUkNIS0J1TzcxaTFHZ09meWZpTE1pZU03dEZJZzNOX2JMendfeUNLSHpMZkJQQk41R2hybXhzenpOY1RmREZZeGRCMWZ5dmxLYnZBcUHSAe8BQVVfeXFMTzRSQjBiVHYxTW9ibHlPRDdWVEhqb1JIa0k2TFVvNnNVV04zNkdacGoySFA5V1Q4SzVnU2p0MjgzTTF5RUhfZXA2MVV3dllfcDJ0MjJiTFo4aF9jTUI1eVZJRUxpSkQ4VC1xc1JQUFdxWjdzUktvMDRzb3FKWkk4clhuTzd3alI4cWIxQTRvcGx5aXFLVHRNX3RRT0w1UTk0Q29KQjJiVVdyWUdYeW1kU2FHLTF6ZEdraGhiRzlZWWNUV0Q2aVZqUGdPWWdkZVdhdkI5OEZPanRkRmZ4N1hXZmFhQ3dSRnc1ZHVrWmE0cWM?oc=5",
+          "published": "2026-06-04T17:57:58+00:00",
+          "publisher": "The Sunday Guardian",
+          "title": "Trump Iran News: US President Calls Republicans \u2018Unpatriotic\u2019 After House War Powers Vote Amid Iran Negotiations - The Sunday Guardian"
+        }
+      ],
+      "hits": 3,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9kRUVIaWlEZFF4eFlBVjNaX1YyeE1lS3Q5SlZGdTZUMnZRNnVtOGo0WjM0bFJZTkN4bDJ4cVpvbVUyMVQxbC1aQVBJYjRZbk0?oc=5",
-          "published": "2026-06-02T14:38:36+00:00",
-          "publisher": "\ub9e4\uc77c\uacbd\uc81c",
-          "title": "U.S. President Donald Trump announced on the 2nd (local time) that he will appoint William Pultey (3.. - \ub9e4\uc77c\uacbd\uc81c"
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-06-05T08:19:12+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "hits": 1,
@@ -237,18 +269,38 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMDZFLXFsdERkYVJvNTBVWWsxYXR2cFIzTXFIQVZ0dU5MM0Q3LU1kc2pFRjNhRXRuTm5Vc2dzMzdWczdwZHZHQ0l1cUg5VEdDZDU2dnN4RkVQcE1xWE1WUFp6b09PcFdNNnlzNHA4elk2WlIzbzl3RmxWbVk3WGVOZ3FWRTBlTnF3R1pUbExNSUU?oc=5",
-          "published": "2026-06-02T16:00:00+00:00",
-          "publisher": "jdjournal.com",
-          "title": "Trump Mail Voting Order Faces Major Legal Challenge - jdjournal.com"
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNckJ2SHlWX0taLXV4NVYzZlBIVDlwTks3b1JqbUxHUXY4cU45Wm1hbjNRNmRNbmdTYzJMek5EOXA0cFl2RXRGN1RlZDVkM2NpakZEZlJQU0pvN1FoV2JYTFhtUDI2Wkw2c1RCdHlFT2Juby15djUwTzdZdUxWZi1KQnE0elRUVjkxS2YtSzZ2a2puZzN0WXA2aDVVdHp4ekk?oc=5",
+          "published": "2026-06-04T17:45:20+00:00",
+          "publisher": "FedSmith.com",
+          "title": "Supreme Court Decision Could Reshape MSPB And FLRA Appeals For Federal Employees - FedSmith.com"
         }
       ],
       "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1tUzlJS2FaQjdEamMxTzl5VlpTd1UxQUhETUZsbzdNUmZEMDd1Yy0wQkhIMzU1Zy12RzlQZkJYNXp5Zw?oc=5",
+          "published": "2026-06-03T21:58:47+00:00",
+          "publisher": "\u0627\u0644\u062d\u0631\u0629",
+          "title": "Iran\u2019s Revolutionary Execution Machine - \u0627\u0644\u062d\u0631\u0629"
+        }
+      ],
+      "hits": 1,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -264,20 +316,7 @@
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }
