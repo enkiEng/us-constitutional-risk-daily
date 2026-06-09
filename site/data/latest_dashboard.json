@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 13.43,
+  "average_7d": 13.63,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,49 +9,49 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -4.0,
-  "delta_vs_7d": -1.61,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": 0.02,
   "domain_breakdown": [
     {
-      "avg_severity": 0.1625,
+      "avg_severity": 0.25,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.89375,
+      "points": 1.375,
       "weight": 22
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 1.3333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.875,
+      "points": 5.0,
       "weight": 15
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 0.65,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 3.091666666666667,
+      "points": 2.275,
       "weight": 14
     },
     {
-      "avg_severity": 0.21666666666666667,
+      "avg_severity": 0.3333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 0.7041666666666667,
+      "points": 1.0833333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.7666666666666666,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.3749999999999998,
+      "points": 1.9166666666666665,
       "weight": 10
     },
     {
-      "avg_severity": 1.15,
+      "avg_severity": 0.8,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.875,
+      "points": 2.0,
       "weight": 10
     },
     {
@@ -72,44 +72,57 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-06-08T13:48:53.904382+00:00",
-  "previous_score": 16,
+  "generated_at": "2026-06-09T13:19:30.725651+00:00",
+  "previous_score": 12,
   "provisional": false,
-  "score": 12,
-  "score_raw": 11.81,
+  "score": 14,
+  "score_raw": 13.65,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUnVqRktjY1BBc1BVa3Z4bFBEZnpuUUZmMnFpRl9xOUVLZ3lOVWF4NUEzU2I1WDVVeVFMUXpmcVNsSldBWTR5dWplc0hhb0RFdlFtWDVIbndRbEh2WkE5OG9uakU4WEZhanJudlVqVVB5d3VVZTZWSE1TMUJwQWw4MDhB?oc=5",
-          "published": "2026-06-07T17:51:41+00:00",
-          "publisher": "AOL.com",
-          "title": "7 Platte County candidates could be pulled off ballot due to \u2018misleading\u2019 error - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPemJwUWdkak12eXp4VFpPQUtUX0d0RDAzN2RYZmVmemtRLS16WnZ3N0pqckwwNTh5Y0x2TS1VTnY0N2d5QjVXRVJ3NjE0V09reHJpdGVlaURTQmQwejRDbmFlNms3Ry15SWZ1Z3V5bWtGOEc1X0pxcUxkT3E4dGZ5S1YzZU52M2duUGozU2lkSXppbFRmaTRsSEVfdw?oc=5",
+          "published": "2026-06-08T15:00:00+00:00",
+          "publisher": "Slate Magazine",
+          "title": "What the Latest Judicial Sex Scandal Tells Us About a Broken System - Slate Magazine"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNblRkRm41T1BIRFNVOXdpS0puTHlKbW16MTZrN2g1V293V2dScTc2N3VDREFtTmY3SVkxQkJYV3Zzd0hLa2x3aGs0S1d6NFB1a2p1UDVGZVNzNmVfcHMzdVB6ZDBETTB2ZDRBbURyNmRMZzhmQ0c2UWM0aGlaWXIzdDJyTDZxbkNfUTFOLVQxZ0R6NnVRTUxHMEdPNnRuM1pPSjVDOTFqUFhvOTZEM1ZwSW8yTDhVVUlnRXc?oc=5",
-          "published": "2026-06-06T17:49:22+00:00",
-          "publisher": "T\u00fcrkiye Today",
-          "title": "Armenia arrests six opposition candidates on eve of parliamentary election - T\u00fcrkiye Today"
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQm9Bdm1kUEU5dE84eUJ2dEVGalpMRXRMVi1mTmVwVE0tdFFEb3had1BhVV9rby1hTnFEcHlHUTJQUS11UENvdzhWMjliNjdORGMxdXFabzdYdWtpdWlRWkFpRTZoMFhuOHdWUGptUHpzME5QTWpNWHpyUWtXeDdyLXYyemtBbUpwYXFscHNEM3VMamNtejRaZXY0S3gtenFjUXFYdk5nRGJ4QQ?oc=5",
+          "published": "2026-06-09T11:55:48+00:00",
+          "publisher": "Capital FM Kenya",
+          "title": "Karua Questions Legality of Court Ruling on Gachagua Impeachment - Capital FM Kenya"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wOXpkeXotNktTWTY3b1JsTU5nRC1ackNLRnljSThpUENZcFFoMlhhNFBtUkNrcEJzZVk3U09qQ2tTakpjRjRTYWMyenE0dlhEOGFtWGFjWENLYllfY2N5WDRzU2JQcUdTUDYxS3NUb3ZBb0R5UDhwSjNKemFPOTA?oc=5",
-          "published": "2026-06-06T15:47:55+00:00",
-          "publisher": "UA.NEWS",
-          "title": "Pre-election scandal in Armenia: CEC decision - UA.NEWS"
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZzAwbjBYNlVXZmhoNUowd0F6ZDg4bFpDak4zemtadlhfbU5SWVEzaVNsem56eGszSW9jbWl0VVdQcExhNGRiRzRBTUEtOEljVDB3ZVRMNVBJd2tUT2dpRmxWS3hKMkFYQmM0bk9DTWhEaXlWWEFNSm5NUm9ldGdWOTVJWVRyZVFKcTJ1YzdKY0hfSi1RV2RDejJHNUlLbFJwbU9TSGlVWGdBejUzZEE?oc=5",
+          "published": "2026-06-08T19:25:05+00:00",
+          "publisher": "Capital FM Kenya",
+          "title": "Court upholds Gachagua impeachment, affirms Kindiki appointment but awards ex-DP Sh50mn - Capital FM Kenya"
         }
       ],
-      "hits": 3,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "hits": 4,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 3
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [],
+      "hits": 0,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -127,32 +140,91 @@
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY05qbmZtaWZlZVI3cmdSLUdfUUpVVmMxaVQwWll2WF9DUjZBUW5TQnJqZG03dnhtRW1kUlVPNkYwU0p2RHhqWnd0UzdVa096SjFoUkx0WVZUeXZ1Q0FVY2dGWkkzM1F4cnVKd0NCSnFya0k0X1pNOVdxYWFQZDRHV2JBa1l3Zw?oc=5",
+          "published": "2026-06-09T13:02:23+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "Journalist Razi Tahir gets bail in PECA case - Journalism Pakistan"
+        }
+      ],
+      "hits": 1,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYTd1aGRkOG1jc0RxWWxCRGNOQjJzWHpLSXY2U1o4Q0VGRmFXVDgzRHQwVjhFY2VuMlBRU1Z2NTlfMUUxeWF0Y25oM1FMeHFjekZyTEVQWGpfVGRuODNDX1NiQVQ0Z1NJZjZwT0I0bjROa194XzhQNm9YWlM2YVQ2UXI1eV8zRkNpVFhyWnlBakNSREVqdkJyaUVsU1ZPSDB5LUVCUmdhUGlDSE4wSTBnQ2RJaG14aVphVkdpRERIWUVCaVhWc09acTJFZFk4SWxtZHNTMlVvdVhpaUpt?oc=5",
+          "published": "2026-06-08T22:58:56+00:00",
+          "publisher": "WFIN",
+          "title": "Obama-appointed judge who blocked Trump birthright citizenship order strikes again, throws out visa overhaul - WFIN"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcU95UVFjVHNVZzFoMHdnb3hWTWhFRlJSazltWVZmanRpcUpvVXZGTUgwMG1mOXFTSlZKN0d2ZUx5T2F6dDRJT01yMWtWWGpYNkdfX1ZQOWZUODE3Y0c5bl9aMkt1blJLR1dhWmtJbWZRN1hlaVRoWWNCVXpidVpqVEc4ZEtaZGZUV2p6S3NHMWplay1SYXgyeExGSTNFX2cxVERwY0FXZ2ViSnhfR2tmUGMwM2RobzFaQVRaend0T0xEX2pfRG1hckFzZWVjV1R4OC1hOU92MDl5S0HSAeABQVVfeXFMTUl5ZzFMUVRrU19ESFUwMnplOVFRM0V4OERubWdCUHd4bUd0aHpVN3gtaTlBOFJHQlB6ZTl4RmsyV0cwUm1RTTB0eUY4ZVMwTkVESXNRcnU5YXZxN0lub195NEFCUEZZanp3VERWMWRoZ2QxTEs5QjZhUXpLSnRjRlRRMmIzcVpEYXpSN0xOTl8zUDhKRlRUUFRCcmtTY3c0dGg2dHpXeFNEUE9sdXpGWFFSanlPTEt1bUZlQ2pNNUt4VlVwdlZ3WVdrZ2dvWEhzU0JTSTZMTzA2U1B1bjNkbWM?oc=5",
+          "published": "2026-06-09T06:28:24+00:00",
+          "publisher": "The Economic Times",
+          "title": "Trump's toughest immigration opponent isn't the Democrats. It's the courts - The Economic Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GVmt5SE40Rl9kSk9vNThNbVZ5b21mV0pLWnFhN01lamtMZmxhV0JUcXZLRzVrQS1sMlRCbGt1WDhtc1NweHBMSEUtZ1g5RElfcE1JalJaTkw1azdfRDlIOUNjcjNzd1dmeDMxZU1MMElCT2ZadDBLVA?oc=5",
+          "published": "2026-06-09T06:25:35+00:00",
+          "publisher": "LawChakra",
+          "title": "Major Blow To Trump Administration: US Court Strikes Down $100,000 H-1B Visa Fee - LawChakra"
+        }
+      ],
+      "hits": 4,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 4
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQRXVheW14cnNkZUdGMWxROTg2VENKTndDam9ka1hiUTdUX1U2b2hXT2p3Y2huOFc5emxPejlTSVgzMmpFU3NPQ3AycjdlQmZtWEgyODQ0TVRPRGhwSDdaRWVPNkZaVU9yZG9RX0NVU2pmOGVIMWJ3WjB4VDA2dHVBQzZ0MU5aVU0xN2hiZTJhM3lEbFRpcU1RVWx3VnVsQWlVeWVhbnRHTnBVMU1vcGxlaVVFbEFzNE5GX05tU2ZZRHBXYzNydzEtQTNpNklIX2JSMnY5M09KSVp2N0ItQXZKbjdrS3ZYMU9DLXZEdFRVTGs2WW1kU2N1ZUJXa2hQLXZWS1hCcVRoZFE4VEh1R0NINklJM09RRTJmSENlN3NjLUc5YXFobFlXVDRlZndRcGJZaUhvSDBiYVUwZGZSZTFTVkhLdWt2ZGFCZkR5b01KS0pCdw?oc=5",
+          "published": "2026-06-09T12:03:42+00:00",
+          "publisher": "Sierra Sun Times",
+          "title": "California U.S. Senator Alex Padilla, Democrat Colleagues Sound Alarm on Trump Administration Use of Election Crimes Prosecutions to Interfere in Midterm Elections - Sierra Sun Times"
+        }
+      ],
+      "hits": 1,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPb1MyMFpCa2pzT0NOeGd2WXVFX0MzcnZQVmVTbi1LWXFBM0R2bVRueGQwWU9FOHBvRXR4UTNIZHZ0YTBMTzByT1VJdmpHWE05clNySDdwSDFrZ3JnWU5lTGZadUctV0lYRDBKUTZWVHZHN2tDVDNsbTZwanNta2prblE2ZlBSTkx2VmpTemhXbw?oc=5",
-          "published": "2026-06-06T19:00:00+00:00",
-          "publisher": "The Truth About Guns",
-          "title": "Virginia Judge Rejects State Police Attempt to Revive Gun Law - The Truth About Guns"
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnlWdUpvX0NoNlVtdjBkbWtxakE0VDJvX2E0N2RUMC1lc2dueFNjZWJMX1I1bmlXSVJKZG5CZnpoaXVYbzBlY3NHV2QzWVF1Si1DSXFwWFJkb3B6NjkwaWdQMk1MZDZtXzlvWWl2a0RfYXlON1dsTEc4OC1PNXR5dDdlbkJDa2h2R2pHNmNDMXl1aUJmUnVxUWVKdjRIRURVX2YtYlMtZy1NckN4bS1OUE5maERhaDhCY0JQV2ZxUm9EWVhKSHJCY2JIa1ZnNkFHc0xjbjd3?oc=5",
+          "published": "2026-06-08T14:42:25+00:00",
+          "publisher": "Pulse Ghana",
+          "title": "High court slaps 13 family members with GH\u00a250,000 fine for defying marriage injunction - Pulse Ghana"
         }
       ],
       "hits": 1,
@@ -166,16 +238,43 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZ2o1cnRiX3MtOWtFclZPdGNDSEdwb1lzQ29TcGo0eXZmTUdYLTB2RGlNUzlaRnh0NG5JZEQzdVFLUzJVdmVEbWRxelFXZlJWTk03azEtckl6OHdLY0hUZzFybnhRZ29ZU2hOVXhxWldrRzVQaDJNM1lKVDBBVU1leTJQcVo0M0tsaHc3ZlZFWGVoQTVNNWdvMzVJSFhtSFVHd2JJUkdtMG9oS0stdlRZSWpoMGNrV3V6c00tU1plR3JpbW1rRl9oaHlQVjRpRktieUxRZUhRV0tiTVpjVUVBY3EyRDNjc05ueFR3U0tVbEJhMmZVS01kLTRJVVRpMGgwRXfSAYcCQVVfeXFMTUJjMkkzN1B5SjlDVmtHZjVuWmg3alRTVmExMUNvZ3VwU1NJbXB2UUF6dTItc0NES1pBN3BVejl0RDJWOUxJV1NRUlNCdXpxYVAzNHhVbC1md3dxZGtZNVYtVGhzT1BLM2ZxWnoyV0xNRVY2VHVkNzFQWnR4MHpOS2xncE5ya014cTZrREdBU3ZFLUlvZnBKRnZ5THZoVVVJZmN4VlNVTTBZa2pVaXJMSHRyQ19UZ2VaWVFkUmNRbV9HVzl1UGU2ZnJVTTJLUGRDSkhOdldMS1FJb0JORkl1azR0RlFpLTJzVzRTZC1CX0lyT1JIQm5fckNBMUcySEFieTRfZHJHYUU?oc=5",
+          "published": "2026-06-09T01:48:34+00:00",
+          "publisher": "The Manila Times",
+          "title": "NCLA to SCOTUS: Overturn Precedent Limiting Court Jurisdiction in Constitutional Challenges to Laws - The Manila Times"
+        }
+      ],
+      "hits": 1,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOF9WT2tRTHdlYzQzd2dkM2VSOTY1LXFsajBsMlNIZ2JhbVpYQWNWbXNpdlRYNVJNMGdiVFhDM2ZXSjNfMFhfX21seW50SXlNNnR5dno1MkZkd1hyQTM5emNUUXprX25laHl3QXRIRGNJOTNLUWtadVJwS1lINS1obGdGOWw?oc=5",
+          "published": "2026-06-08T21:22:13+00:00",
+          "publisher": "Straight Arrow News - SAN - Unbiased. Straight Facts.",
+          "title": "As term nears end, Supreme Court weighs presidential powers - Straight Arrow News - SAN - Unbiased. Straight Facts."
+        }
+      ],
+      "hits": 1,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -186,46 +285,7 @@
       "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -238,7 +298,7 @@
       "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }
