@@ -1,16 +1,16 @@
 {
   "attempted_queries": 22,
-  "average_7d": 13.63,
+  "average_7d": 13.89,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
   "delta_previous_day": 2.0,
-  "delta_vs_7d": 0.02,
+  "delta_vs_7d": 2.23,
   "domain_breakdown": [
     {
       "avg_severity": 0.25,
@@ -20,38 +20,38 @@
       "weight": 22
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.55,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 5.0,
+      "points": 5.8125,
       "weight": 15
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.43333333333333335,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.275,
+      "points": 1.5166666666666666,
       "weight": 14
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 1.0,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.0833333333333333,
+      "points": 3.25,
       "weight": 13
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 0.6666666666666666,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.9166666666666665,
+      "points": 1.6666666666666665,
       "weight": 10
     },
     {
-      "avg_severity": 0.8,
+      "avg_severity": 1.0,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.0,
+      "points": 2.5,
       "weight": 10
     },
     {
@@ -72,22 +72,80 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-06-09T13:19:30.725651+00:00",
-  "previous_score": 12,
+  "generated_at": "2026-06-10T13:33:19.287891+00:00",
+  "previous_score": 14,
   "provisional": false,
-  "score": 14,
-  "score_raw": 13.65,
+  "score": 16,
+  "score_raw": 16.12,
   "successful_queries": 22,
   "top_signals": [
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVXdud081TWE5SjhFeHZtSGVsTG52UHprNmx1al9Zems3dzdPN19MRkdXaTU3dE4tUU9EMklOalB2T3MxT3JIZVg1NnJ0c1RzaDJzRlJOS1Q2RkxzcDlDcmVLX3hMMEZIVjdDT1N3bktPejl5ZzJYcGllUmo1bDJySVdnNHg0c0hjUVN1NzB0elNtNW1Wc19n?oc=5",
+          "published": "2026-06-09T01:01:34+00:00",
+          "publisher": "Lawfare",
+          "title": "What Congressional Resolutions Mean for the War in Iran - Lawfare"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONHlPOGE3OGZNX09xYlhlRjJjZzJsYjNtd19CSHhRZGJRSDVWWHhfb2FPbE9sTEFKeDVfZEViUUxzbTlzZzNDeFFDUmw5MS1fX1QxMkhRVHFHZzRBdzNTMURGanB4M2tQUXFhLXhDY0oxM254QnJTVEdEUDgtWVNGWXhGNElrRVhROS1zdC1LRXFCd9IBkgFBVV95cUxONHlPOGE3OGZNX09xYlhlRjJjZzJsYjNtd19CSHhRZGJRSDVWWHhfb2FPbE9sTEFKeDVfZEViUUxzbTlzZzNDeFFDUmw5MS1fX1QxMkhRVHFHZzRBdzNTMURGanB4M2tQUXFhLXhDY0oxM254QnJTVEdEUDgtWVNGWXhGNElrRVhROS1zdC1LRXFCdw?oc=5",
+          "published": "2026-06-09T20:01:10+00:00",
+          "publisher": "The National Law Review",
+          "title": "Court Strikes Down $100,000 H-1B Payment as Unlawful Tax - The National Law Review"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQTl2bVQwUzJrWTBvNlJCbnA5S3JCcnVfcGZDM2Vid0hnRTdIR210ZkoyU2RlcENpSHZCOHNOSHBzWThyVENTSGdsUmo5ZGVxeEtXcXNST0E3dDdaNGlpNE9wLU5xUElNdTFqUDJYOTVobkpjTndxM3pLTy1BYkV4cmxQMUM0bDBjZG5mYjdZM1hlcnFjVHRoOFpkeUgxUjd5clRR?oc=5",
+          "published": "2026-06-09T16:27:00+00:00",
+          "publisher": "Business Insider",
+          "title": "Congress hasn't officially declared war since 1942. Here are 11 military operations presidents launched anyway. - Business Insider"
+        }
+      ],
+      "hits": 9,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 9
+    },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPemJwUWdkak12eXp4VFpPQUtUX0d0RDAzN2RYZmVmemtRLS16WnZ3N0pqckwwNTh5Y0x2TS1VTnY0N2d5QjVXRVJ3NjE0V09reHJpdGVlaURTQmQwejRDbmFlNms3Ry15SWZ1Z3V5bWtGOEc1X0pxcUxkT3E4dGZ5S1YzZU52M2duUGozU2lkSXppbFRmaTRsSEVfdw?oc=5",
-          "published": "2026-06-08T15:00:00+00:00",
-          "publisher": "Slate Magazine",
-          "title": "What the Latest Judicial Sex Scandal Tells Us About a Broken System - Slate Magazine"
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMVF3dEtlUWFqZFo2MmJucU9PampoOE9iUjMzY2VDMnVWN1kxRVBZTUp0S2tibEMtYmcybXpaRm14ZkhXOW1VR3g5ZFByY0lIakZxYTUzWVZPQ2NSSVBuelJ0eUJNN3hiN1I3b3lJZXFGN1ppM2NvUGNXc3RpTXY4VQ?oc=5",
+          "published": "2026-06-09T12:18:00+00:00",
+          "publisher": "Cato Institute",
+          "title": "RE: \u201cAmnesty and Chaos: Abuse of U.S. Immigration Policy\u201d - Cato Institute"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnlWdUpvX0NoNlVtdjBkbWtxakE0VDJvX2E0N2RUMC1lc2dueFNjZWJMX1I1bmlXSVJKZG5CZnpoaXVYbzBlY3NHV2QzWVF1Si1DSXFwWFJkb3B6NjkwaWdQMk1MZDZtXzlvWWl2a0RfYXlON1dsTEc4OC1PNXR5dDdlbkJDa2h2R2pHNmNDMXl1aUJmUnVxUWVKdjRIRURVX2YtYlMtZy1NckN4bS1OUE5maERhaDhCY0JQV2ZxUm9EWVhKSHJCY2JIa1ZnNkFHc0xjbjd3?oc=5",
+          "published": "2026-06-08T14:42:25+00:00",
+          "publisher": "Pulse Ghana",
+          "title": "High court slaps 13 family members with GH\u00a250,000 fine for defying marriage injunction - Pulse Ghana"
+        }
+      ],
+      "hits": 2,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYURuRVByUExNeURBWjgxajhRQU1oTWRYNTZmYlExNjZ5RUlZX0xyZ3RINHRlcUZNWkFsTWhBLVJBWEVaT2dWWFo1aTNIZnozaEE1c0swb0tlMDNPWXNRc0RaS1NCZGRaa2Z6VWRhVWNiUWM0bk5uYjdydERhTTEtSmxweFJzaVFlUGVUWmdWM2pMREpISlBpWFNXWUhXbzc2bXQ0QnJWQWhxMmV1YjBteUR0WVBUTjdTeGpSOVhhU25mUEVIUkN4U09HX2Z4Q2ZzYktUOG1GNGU3LXZMV1VRck9xaXRmY3c?oc=5",
+          "published": "2026-06-09T12:00:26+00:00",
+          "publisher": "MSN",
+          "title": "House Republicans move to impeach Judge Eleanor Ross - MSN"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQm9Bdm1kUEU5dE84eUJ2dEVGalpMRXRMVi1mTmVwVE0tdFFEb3had1BhVV9rby1hTnFEcHlHUTJQUS11UENvdzhWMjliNjdORGMxdXFabzdYdWtpdWlRWkFpRTZoMFhuOHdWUGptUHpzME5QTWpNWHpyUWtXeDdyLXYyemtBbUpwYXFscHNEM3VMamNtejRaZXY0S3gtenFjUXFYdk5nRGJ4QQ?oc=5",
@@ -102,42 +160,29 @@
           "title": "Court upholds Gachagua impeachment, affirms Kindiki appointment but awards ex-DP Sh50mn - Capital FM Kenya"
         }
       ],
-      "hits": 4,
+      "hits": 3,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNanRGVWUyRmVaMEMzTzhoSHkwdXBYNW1fVXpmREtyZ0tyaVl6dnk0X01FdjZmc3hHUHJtQUNRb3NNcmN0cGhNRkRSNUVJcmo5SEYyV0hlTFJtbE1DaDNqWXI4SjZKX3ljS1lCUUZMQktidV9ySU0xRjdTcDVlWWVXeHcxUmp2d19ZX29aUE8zXzc2Zw?oc=5",
-          "published": "2026-06-07T20:02:42+00:00",
-          "publisher": "eciks.org",
-          "title": "Trump administration reclassifies 8,000 federal employees, removing civil service job protections - eciks.org"
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWlc3NkpjRWhIeW1Yc2xKWEF2UXdEbk8yeU1DWGRHX1I2cFIzbDJpeGZHRU5Td05qMDFhVHhmdldpeGpWdFA2UC01WFBMUlZnbkFpTTBIc2xDM3VxMXk3NTRZdFZNXzB3V1JXR0Y1QjVwRFdEbTYxX2JFZE95UFFENlZDZTk4OElpWjIzaVMyOXJZc0pWbGtCMFJSenBHaG43VEM3VUtZMGFKMmY3dXZXeTV6Y09lc29SMmtHekktMzdqcm0wR19KRFpJMFRqSlZFOG9oNjNPbDJJNWE2YmM5WmpNUlRKOUtW0gHvAUFVX3lxTE5KNWMwVkpsSzJmdWJGTV9OX3l3UUpfZU9mWDhlWHktUHc5dXV5d25XTm9wa2Qxbm9Tb1RuLTd4Q2FTc1AxZGxXNkN6RjBEd1BYdG9Sc0dEVFNrMWdYMjlqaWJUazdxYTV4YkVQM2ZLMWR6WkdLdlgxenFMZVdVY053dlIyb3A2aVBtOUprdjJyWnVGaUtPLWs0clRRaFdGLWFTbTR1LU15N1lxZGFEcUlMa2VuRDFFbGtQRzZWbDhNM3pKX2pEZldiWFFjNk4tc1UxdkhzZm5lOGE0Uk9salJkUm1tTXp1R3ZSbEEzYjQw?oc=5",
+          "published": "2026-06-09T14:28:01+00:00",
+          "publisher": "The Hindu",
+          "title": "Rajya Sabha polls: Congress candidate Meenakshi Natarajan\u2019s nomination rejected amid chaos in Madhya Pradesh - The Hindu"
         }
       ],
       "hits": 1,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.3,
@@ -149,87 +194,73 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObnFvTlpveWVreDcxWnBVTEFYRGxiYTBfaUJLUzBMaXdnbnpwX01uSFJGczFtM21IUVktaDg3NXNlWkZKdUpKZjg5ZXprZ2xONEpKMV9TWVU3UVA2NmV6azRoa1NqREZJX21iQTVXQTg4dmxxbUlacU9jOWJoMUc2Mm1R?oc=5",
+          "published": "2026-06-10T12:40:52+00:00",
+          "publisher": "Human Rights Watch",
+          "title": "Jailed for Calling a Fact a Fact in Mali - Human Rights Watch"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY05qbmZtaWZlZVI3cmdSLUdfUUpVVmMxaVQwWll2WF9DUjZBUW5TQnJqZG03dnhtRW1kUlVPNkYwU0p2RHhqWnd0UzdVa096SjFoUkx0WVZUeXZ1Q0FVY2dGWkkzM1F4cnVKd0NCSnFya0k0X1pNOVdxYWFQZDRHV2JBa1l3Zw?oc=5",
           "published": "2026-06-09T13:02:23+00:00",
           "publisher": "Journalism Pakistan",
           "title": "Journalist Razi Tahir gets bail in PECA case - Journalism Pakistan"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVU1LZEJwQXBoUllzMWMyS1g5Y2g4UGtTNXhBbjZtR3lyOVpKX0pPeTRVYXNWampBVnlUV2QxRVJtR3NYVXZIZ3g0VkIyODJyWjUzY3AwV0RuTmdCelp4S1lRenpZVldGODFERFhSRGpXTUxKZGp6UlluUkppamdSY1R2RldnVU1BVkhkMkpqU1dDVzdtb25xbG9MMjJpU1RyR0E?oc=5",
+          "published": "2026-06-10T11:30:15+00:00",
+          "publisher": "streamlinefeed.co.ke",
+          "title": "Malian Junta Arrests Prominent Journalists in Severe Press Freedom Crackdown - streamlinefeed.co.ke"
         }
       ],
-      "hits": 1,
+      "hits": 3,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYTd1aGRkOG1jc0RxWWxCRGNOQjJzWHpLSXY2U1o4Q0VGRmFXVDgzRHQwVjhFY2VuMlBRU1Z2NTlfMUUxeWF0Y25oM1FMeHFjekZyTEVQWGpfVGRuODNDX1NiQVQ0Z1NJZjZwT0I0bjROa194XzhQNm9YWlM2YVQ2UXI1eV8zRkNpVFhyWnlBakNSREVqdkJyaUVsU1ZPSDB5LUVCUmdhUGlDSE4wSTBnQ2RJaG14aVphVkdpRERIWUVCaVhWc09acTJFZFk4SWxtZHNTMlVvdVhpaUpt?oc=5",
-          "published": "2026-06-08T22:58:56+00:00",
-          "publisher": "WFIN",
-          "title": "Obama-appointed judge who blocked Trump birthright citizenship order strikes again, throws out visa overhaul - WFIN"
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORjdodFdfc2VWMklVTXNoNVIyRDc3M3JpN0dFQ2NJeFJ0T3M2NnYxQVJ0dE9oY01xM2FVZHpjdUJzUzhjajFSaVJHMkNDYk9XbjhIMDlWbGlXVGw2V2daVmxHUkl3dTJtbDlwbUJzQ21sUnpQVVVOZ2tUMXhXYmFLWGtxUjR3M2hmZ0szR3hzei1NckhweDU0OVZNNWJFNE83a0taanVsMlFDUlZMbU1Cdg?oc=5",
+          "published": "2026-06-09T15:32:01+00:00",
+          "publisher": "FEDmanager",
+          "title": "Schedule Policy/Career Takes Effect as Agencies Begin 8,000 Employee Conversions - FEDmanager"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOcU95UVFjVHNVZzFoMHdnb3hWTWhFRlJSazltWVZmanRpcUpvVXZGTUgwMG1mOXFTSlZKN0d2ZUx5T2F6dDRJT01yMWtWWGpYNkdfX1ZQOWZUODE3Y0c5bl9aMkt1blJLR1dhWmtJbWZRN1hlaVRoWWNCVXpidVpqVEc4ZEtaZGZUV2p6S3NHMWplay1SYXgyeExGSTNFX2cxVERwY0FXZ2ViSnhfR2tmUGMwM2RobzFaQVRaend0T0xEX2pfRG1hckFzZWVjV1R4OC1hOU92MDl5S0HSAeABQVVfeXFMTUl5ZzFMUVRrU19ESFUwMnplOVFRM0V4OERubWdCUHd4bUd0aHpVN3gtaTlBOFJHQlB6ZTl4RmsyV0cwUm1RTTB0eUY4ZVMwTkVESXNRcnU5YXZxN0lub195NEFCUEZZanp3VERWMWRoZ2QxTEs5QjZhUXpLSnRjRlRRMmIzcVpEYXpSN0xOTl8zUDhKRlRUUFRCcmtTY3c0dGg2dHpXeFNEUE9sdXpGWFFSanlPTEt1bUZlQ2pNNUt4VlVwdlZ3WVdrZ2dvWEhzU0JTSTZMTzA2U1B1bjNkbWM?oc=5",
-          "published": "2026-06-09T06:28:24+00:00",
-          "publisher": "The Economic Times",
-          "title": "Trump's toughest immigration opponent isn't the Democrats. It's the courts - The Economic Times"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GVmt5SE40Rl9kSk9vNThNbVZ5b21mV0pLWnFhN01lamtMZmxhV0JUcXZLRzVrQS1sMlRCbGt1WDhtc1NweHBMSEUtZ1g5RElfcE1JalJaTkw1azdfRDlIOUNjcjNzd1dmeDMxZU1MMElCT2ZadDBLVA?oc=5",
-          "published": "2026-06-09T06:25:35+00:00",
-          "publisher": "LawChakra",
-          "title": "Major Blow To Trump Administration: US Court Strikes Down $100,000 H-1B Visa Fee - LawChakra"
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TOFUzaVBaLUtqRktRQkJVZEVkQUM4WkZ5VGRJR3R2ckttOEZVcm1KbUcyV0kzOVg0Vk9yUHlzb3NoaGNzcTdtWFNFMmlvSVJLMGl3OTNTc0J6Z3JINzJ6TTUxTlp5ZUtGRVFvb1BDY1ZDbkJjcUNBb3pVV2l2ZHc?oc=5",
+          "published": "2026-06-09T20:02:40+00:00",
+          "publisher": "eciks.org",
+          "title": "Trump administration converts 8,000 senior federal workers to at-will employment status - eciks.org"
         }
       ],
-      "hits": 4,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "hits": 2,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 4
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQRXVheW14cnNkZUdGMWxROTg2VENKTndDam9ka1hiUTdUX1U2b2hXT2p3Y2huOFc5emxPejlTSVgzMmpFU3NPQ3AycjdlQmZtWEgyODQ0TVRPRGhwSDdaRWVPNkZaVU9yZG9RX0NVU2pmOGVIMWJ3WjB4VDA2dHVBQzZ0MU5aVU0xN2hiZTJhM3lEbFRpcU1RVWx3VnVsQWlVeWVhbnRHTnBVMU1vcGxlaVVFbEFzNE5GX05tU2ZZRHBXYzNydzEtQTNpNklIX2JSMnY5M09KSVp2N0ItQXZKbjdrS3ZYMU9DLXZEdFRVTGs2WW1kU2N1ZUJXa2hQLXZWS1hCcVRoZFE4VEh1R0NINklJM09RRTJmSENlN3NjLUc5YXFobFlXVDRlZndRcGJZaUhvSDBiYVUwZGZSZTFTVkhLdWt2ZGFCZkR5b01KS0pCdw?oc=5",
-          "published": "2026-06-09T12:03:42+00:00",
-          "publisher": "Sierra Sun Times",
-          "title": "California U.S. Senator Alex Padilla, Democrat Colleagues Sound Alarm on Trump Administration Use of Election Crimes Prosecutions to Interfere in Midterm Elections - Sierra Sun Times"
+          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPa1d0S3p1MDR6SWRHcnNic3FlVlhqdmJ2SGlrcERVT0dlMTViX1RWaGlucjdFSThrTVBocHA1d0FNUGZ4OGg0Q1pxamZPTmV2bmRaU0tNd3FkX01qWUNpYjZzZldfU1Jyeno4YjJpaDQ0RzJTWWlTSE9oclBWWkxYVWdZYWxSbWlqSERTR1RYUXpidE9Bdjk5X1pFV1QyZEp0OGdtNmFXNTNUOW5QUjgtelBLLWlfcVhrTHpvYml2bElNWGQ4Y2ZRSTNld0ZTUE9rX093UllaTTlfOTlIUHQ1bVpCakN0NUtreUlqLWZyUUpFVGk5QUZaVGlFeVlLVzVHTmJKYkxNZw?oc=5",
+          "published": "2026-06-09T14:03:48+00:00",
+          "publisher": "Van Nuys News Press",
+          "title": "Padilla, Durbin, Whitehouse, Colleagues Sound Alarm on Trump Administration Use of Election Crimes Prosecutions to Interfere in Midterm Elections \u2013 Van Nuys News Press - Van Nuys News Press"
         }
       ],
       "hits": 1,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnlWdUpvX0NoNlVtdjBkbWtxakE0VDJvX2E0N2RUMC1lc2dueFNjZWJMX1I1bmlXSVJKZG5CZnpoaXVYbzBlY3NHV2QzWVF1Si1DSXFwWFJkb3B6NjkwaWdQMk1MZDZtXzlvWWl2a0RfYXlON1dsTEc4OC1PNXR5dDdlbkJDa2h2R2pHNmNDMXl1aUJmUnVxUWVKdjRIRURVX2YtYlMtZy1NckN4bS1OUE5maERhaDhCY0JQV2ZxUm9EWVhKSHJCY2JIa1ZnNkFHc0xjbjd3?oc=5",
-          "published": "2026-06-08T14:42:25+00:00",
-          "publisher": "Pulse Ghana",
-          "title": "High court slaps 13 family members with GH\u00a250,000 fine for defying marriage injunction - Pulse Ghana"
-        }
-      ],
-      "hits": 1,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -258,6 +289,26 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORzdzNjMxY2FrNDNXRXF5OW9aU1VUQTUyY2wyWk1wRWxqbFNuSFVmaGVsdmtlMnQ3dDNMTXZNOXBTMDV6Qkc1LXZNcnZfT3Y4TjJFUHdXRHMwU0U5a2lxVnhsUmFFX21WLUIzVlFHM1ZWc2x3c3htYjZqVWhSaHFOZ0lyV0JfMzI4TkdN?oc=5",
+          "published": "2026-06-10T05:05:00+00:00",
+          "publisher": "The Guardian Nigeria News",
+          "title": "Court rulings threaten 2027 election timetable, INEC warns - The Guardian Nigeria News"
+        }
+      ],
+      "hits": 1,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
@@ -278,29 +329,23 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRi15cDVUVXY4cGFpNWZUcTNzalVyMWUwYWtvZmdmSUYzejItUy13enpjeEt0TGI0aWR2VEdCMHM5QThWcm5BX09KdC02cG8xWHNVcDFRWkJxRE5UcHYxZVFSVFZlNnBfWXFIUEFzWm04TVhIdnMzWlNheUF2Y1FyWFJ3YTRpTkRCLTd1NWdoMFY3QnFNT21DQ196cWZMcVE1SFJwMU1jQnZVQXB2ekVhM3d3UWhVR1BpQzlUbk9kblVBX2FTR3ZMZmNwYzkxRHNUbXFPcG1rM3g2V24xLWM0M0JpUQ?oc=5",
+          "published": "2026-06-09T15:58:25+00:00",
+          "publisher": "Kashmir Despatch",
+          "title": "30 Killed, Nearly 300 Injured in Rawalakot, PoK: Pakistan Rangers Go For Deadly Crackdown and Grave Human Rights Violations - Kashmir Despatch"
+        }
+      ],
+      "hits": 1,
       "id": "political_speech_surveillance",
       "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     }
   ]
 }
