@@ -1,22 +1,22 @@
 {
   "attempted_queries": 22,
-  "average_7d": 13.89,
+  "average_7d": 14.12,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
     "max": 29,
     "min": 15
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 2.0,
-  "delta_vs_7d": 2.23,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": 0.88,
   "domain_breakdown": [
     {
-      "avg_severity": 0.25,
+      "avg_severity": 0.1625,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.375,
+      "points": 0.89375,
       "weight": 22
     },
     {
@@ -27,10 +27,10 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.3333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.5166666666666666,
+      "points": 1.1666666666666665,
       "weight": 14
     },
     {
@@ -41,10 +41,10 @@
       "weight": 13
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 0.5499999999999999,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.6666666666666665,
+      "points": 1.3749999999999998,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-06-10T13:33:19.287891+00:00",
-  "previous_score": 14,
+  "generated_at": "2026-06-11T13:42:58.793755+00:00",
+  "previous_score": 16,
   "provisional": false,
-  "score": 16,
-  "score_raw": 16.12,
+  "score": 15,
+  "score_raw": 15.0,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,110 +84,77 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVXdud081TWE5SjhFeHZtSGVsTG52UHprNmx1al9Zems3dzdPN19MRkdXaTU3dE4tUU9EMklOalB2T3MxT3JIZVg1NnJ0c1RzaDJzRlJOS1Q2RkxzcDlDcmVLX3hMMEZIVjdDT1N3bktPejl5ZzJYcGllUmo1bDJySVdnNHg0c0hjUVN1NzB0elNtNW1Wc19n?oc=5",
-          "published": "2026-06-09T01:01:34+00:00",
-          "publisher": "Lawfare",
-          "title": "What Congressional Resolutions Mean for the War in Iran - Lawfare"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONHlPOGE3OGZNX09xYlhlRjJjZzJsYjNtd19CSHhRZGJRSDVWWHhfb2FPbE9sTEFKeDVfZEViUUxzbTlzZzNDeFFDUmw5MS1fX1QxMkhRVHFHZzRBdzNTMURGanB4M2tQUXFhLXhDY0oxM254QnJTVEdEUDgtWVNGWXhGNElrRVhROS1zdC1LRXFCd9IBkgFBVV95cUxONHlPOGE3OGZNX09xYlhlRjJjZzJsYjNtd19CSHhRZGJRSDVWWHhfb2FPbE9sTEFKeDVfZEViUUxzbTlzZzNDeFFDUmw5MS1fX1QxMkhRVHFHZzRBdzNTMURGanB4M2tQUXFhLXhDY0oxM254QnJTVEdEUDgtWVNGWXhGNElrRVhROS1zdC1LRXFCdw?oc=5",
-          "published": "2026-06-09T20:01:10+00:00",
-          "publisher": "The National Law Review",
-          "title": "Court Strikes Down $100,000 H-1B Payment as Unlawful Tax - The National Law Review"
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNUFLdi0zVmFqTUZMMUo2N2hyTkx3UmxPS25Qd3ZuSDRzdnYxbHJ5Tk5rdVM1LU95Nm5qWTBLX0IxeHA3TTBLR29qNGxaakpoRWZGZzJ1NWY2QjhBSnVsRzJJZjUzaHE5akZ5T0IwLUJTTVR1aHhzdE9lVjVSb0Nwd2MtUzY0bmM2ZjRoUjVoNDAzNW9xTkhlUFZxVkZxUjFISVJNbUxRMFBQS3Q3T1BuM0cybXNvTXFoMTlMZ1djdWhqUFAtaXc?oc=5",
+          "published": "2026-06-10T13:42:21+00:00",
+          "publisher": "RealClearEnergy",
+          "title": "Congress Has Become a Task Force. It Should Govern Like a Board. - RealClearEnergy"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQTl2bVQwUzJrWTBvNlJCbnA5S3JCcnVfcGZDM2Vid0hnRTdIR210ZkoyU2RlcENpSHZCOHNOSHBzWThyVENTSGdsUmo5ZGVxeEtXcXNST0E3dDdaNGlpNE9wLU5xUElNdTFqUDJYOTVobkpjTndxM3pLTy1BYkV4cmxQMUM0bDBjZG5mYjdZM1hlcnFjVHRoOFpkeUgxUjd5clRR?oc=5",
           "published": "2026-06-09T16:27:00+00:00",
           "publisher": "Business Insider",
           "title": "Congress hasn't officially declared war since 1942. Here are 11 military operations presidents launched anyway. - Business Insider"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNU1JZLWViczh5V3llcnFBMTBCVThTaTNiNFhLZ1RnVWpJU01QQU9kM3V0UGpOSG9IdTFuV1ZjOUNmSFBPV2VUOURrWnBKbTlQVnNySW13UDdvSVM1emVya2lXTHpWaFpEX3ZFZzRia0Z3eXFNN3I4bHpoWTdLNnc5UQ?oc=5",
+          "published": "2026-06-11T12:05:32+00:00",
+          "publisher": "Dagens.com",
+          "title": "Trump is in serious trouble, latest report shows - Dagens.com"
         }
       ],
-      "hits": 9,
+      "hits": 5,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 9
+      "unique_publishers": 5
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMVF3dEtlUWFqZFo2MmJucU9PampoOE9iUjMzY2VDMnVWN1kxRVBZTUp0S2tibEMtYmcybXpaRm14ZkhXOW1VR3g5ZFByY0lIakZxYTUzWVZPQ2NSSVBuelJ0eUJNN3hiN1I3b3lJZXFGN1ppM2NvUGNXc3RpTXY4VQ?oc=5",
-          "published": "2026-06-09T12:18:00+00:00",
-          "publisher": "Cato Institute",
-          "title": "RE: \u201cAmnesty and Chaos: Abuse of U.S. Immigration Policy\u201d - Cato Institute"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNnlWdUpvX0NoNlVtdjBkbWtxakE0VDJvX2E0N2RUMC1lc2dueFNjZWJMX1I1bmlXSVJKZG5CZnpoaXVYbzBlY3NHV2QzWVF1Si1DSXFwWFJkb3B6NjkwaWdQMk1MZDZtXzlvWWl2a0RfYXlON1dsTEc4OC1PNXR5dDdlbkJDa2h2R2pHNmNDMXl1aUJmUnVxUWVKdjRIRURVX2YtYlMtZy1NckN4bS1OUE5maERhaDhCY0JQV2ZxUm9EWVhKSHJCY2JIa1ZnNkFHc0xjbjd3?oc=5",
-          "published": "2026-06-08T14:42:25+00:00",
-          "publisher": "Pulse Ghana",
-          "title": "High court slaps 13 family members with GH\u00a250,000 fine for defying marriage injunction - Pulse Ghana"
-        }
-      ],
-      "hits": 2,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYURuRVByUExNeURBWjgxajhRQU1oTWRYNTZmYlExNjZ5RUlZX0xyZ3RINHRlcUZNWkFsTWhBLVJBWEVaT2dWWFo1aTNIZnozaEE1c0swb0tlMDNPWXNRc0RaS1NCZGRaa2Z6VWRhVWNiUWM0bk5uYjdydERhTTEtSmxweFJzaVFlUGVUWmdWM2pMREpISlBpWFNXWUhXbzc2bXQ0QnJWQWhxMmV1YjBteUR0WVBUTjdTeGpSOVhhU25mUEVIUkN4U09HX2Z4Q2ZzYktUOG1GNGU3LXZMV1VRck9xaXRmY3c?oc=5",
-          "published": "2026-06-09T12:00:26+00:00",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdFlPcm1hSzlFV2RERmRQM1hoYkpuVlNTTm1mMzNmU3YwVUFCeGFZamlLOFhfRlBDR0FaUzdTR3B6bU84ZXBpQUgxSUlCSWgtVVVkQ0gtcHptQjBHUFJLLWo0YnYtLWJOTXh5Tk1rcWNwY2N0YW04aW9EYWpTNGlIbzRDVVB0RndUN21jQjZqaTltakZ6YjltWTVHVklJZUwzX0tqaGx5UTBMMGJWUzc5V0xqb291UnpzNGxQbm50cXExcXRVU0Y1Z2VWTHJFbUxldVZIRGZsT0gtYUtzcjFwcEdKSHY?oc=5",
+          "published": "2026-06-09T15:23:56+00:00",
           "publisher": "MSN",
           "title": "House Republicans move to impeach Judge Eleanor Ross - MSN"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQm9Bdm1kUEU5dE84eUJ2dEVGalpMRXRMVi1mTmVwVE0tdFFEb3had1BhVV9rby1hTnFEcHlHUTJQUS11UENvdzhWMjliNjdORGMxdXFabzdYdWtpdWlRWkFpRTZoMFhuOHdWUGptUHpzME5QTWpNWHpyUWtXeDdyLXYyemtBbUpwYXFscHNEM3VMamNtejRaZXY0S3gtenFjUXFYdk5nRGJ4QQ?oc=5",
-          "published": "2026-06-09T11:55:48+00:00",
-          "publisher": "Capital FM Kenya",
-          "title": "Karua Questions Legality of Court Ruling on Gachagua Impeachment - Capital FM Kenya"
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd0Q0aU1CQ0pCcXZrQUo1QWhVdW1nTWJuVlRvSk5weGxSelNqMVNQd2RnMWJiQWwxSmxuaVI1ZFZMQUlmeHQtQnFva0dwRm5abTVqM3NDaHF6WjNEMjZIR0dQSHU4dVg5OUlYbk0temhMY3Bkd25sUXM2MXJuSjg1Q2NOLUcxRnpheTgzbk5mbVNkWEFhMktPelptQnJrOU01WlE3cEFpWG1iLTMz?oc=5",
+          "published": "2026-06-09T23:42:11+00:00",
+          "publisher": "Washington Times",
+          "title": "Impeachment sought against federal judge over alleged sex in chambers, lying to investigators - Washington Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZzAwbjBYNlVXZmhoNUowd0F6ZDg4bFpDak4zemtadlhfbU5SWVEzaVNsem56eGszSW9jbWl0VVdQcExhNGRiRzRBTUEtOEljVDB3ZVRMNVBJd2tUT2dpRmxWS3hKMkFYQmM0bk9DTWhEaXlWWEFNSm5NUm9ldGdWOTVJWVRyZVFKcTJ1YzdKY0hfSi1RV2RDejJHNUlLbFJwbU9TSGlVWGdBejUzZEE?oc=5",
-          "published": "2026-06-08T19:25:05+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRzhEQTMzXzJjX3hFdkxhMGRia2FOTnVPdHM1TnVmMm1Hb3J4bGRPQlJ4aWNkSERDYl8wd2lfcGpjVXdRMmVLRXIxV2FvWWpIdW5jUzZrNnBRSXNRaWNjWWJFS05ROHFzbDNNeVBGSG5VeGtxWWJRV29kR043eGEzSks4X19yeC1YWW9VdDJBeGJOYzEtTHNuMElRaW1aY2JRN09scDhlYUNpQQ?oc=5",
+          "published": "2026-06-09T14:08:40+00:00",
           "publisher": "Capital FM Kenya",
-          "title": "Court upholds Gachagua impeachment, affirms Kindiki appointment but awards ex-DP Sh50mn - Capital FM Kenya"
+          "title": "Gachagua rejects Sh50mn award in impeachment case terming it an insult - Capital FM Kenya"
         }
       ],
-      "hits": 3,
+      "hits": 4,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 2
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 4
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWlc3NkpjRWhIeW1Yc2xKWEF2UXdEbk8yeU1DWGRHX1I2cFIzbDJpeGZHRU5Td05qMDFhVHhmdldpeGpWdFA2UC01WFBMUlZnbkFpTTBIc2xDM3VxMXk3NTRZdFZNXzB3V1JXR0Y1QjVwRFdEbTYxX2JFZE95UFFENlZDZTk4OElpWjIzaVMyOXJZc0pWbGtCMFJSenBHaG43VEM3VUtZMGFKMmY3dXZXeTV6Y09lc29SMmtHekktMzdqcm0wR19KRFpJMFRqSlZFOG9oNjNPbDJJNWE2YmM5WmpNUlRKOUtW0gHvAUFVX3lxTE5KNWMwVkpsSzJmdWJGTV9OX3l3UUpfZU9mWDhlWHktUHc5dXV5d25XTm9wa2Qxbm9Tb1RuLTd4Q2FTc1AxZGxXNkN6RjBEd1BYdG9Sc0dEVFNrMWdYMjlqaWJUazdxYTV4YkVQM2ZLMWR6WkdLdlgxenFMZVdVY053dlIyb3A2aVBtOUprdjJyWnVGaUtPLWs0clRRaFdGLWFTbTR1LU15N1lxZGFEcUlMa2VuRDFFbGtQRzZWbDhNM3pKX2pEZldiWFFjNk4tc1UxdkhzZm5lOGE0Uk9salJkUm1tTXp1R3ZSbEEzYjQw?oc=5",
-          "published": "2026-06-09T14:28:01+00:00",
-          "publisher": "The Hindu",
-          "title": "Rajya Sabha polls: Congress candidate Meenakshi Natarajan\u2019s nomination rejected amid chaos in Madhya Pradesh - The Hindu"
-        }
-      ],
-      "hits": 1,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "hits": 0,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.65,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -200,16 +167,16 @@
           "title": "Jailed for Calling a Fact a Fact in Mali - Human Rights Watch"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY05qbmZtaWZlZVI3cmdSLUdfUUpVVmMxaVQwWll2WF9DUjZBUW5TQnJqZG03dnhtRW1kUlVPNkYwU0p2RHhqWnd0UzdVa096SjFoUkx0WVZUeXZ1Q0FVY2dGWkkzM1F4cnVKd0NCSnFya0k0X1pNOVdxYWFQZDRHV2JBa1l3Zw?oc=5",
-          "published": "2026-06-09T13:02:23+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "Journalist Razi Tahir gets bail in PECA case - Journalism Pakistan"
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdXJiOVlQdW9TVDRjVjJJdVlSSXJFZDYxQjg5QlRMVXRTUkdiakJycjh3YklLUnVLa2hmdmEwS1VEZjFMSmhXWHdfLTZDMC1YeEthWUFmQWJqTVJETmd1dkllWUZJRmJ2UnNaN3d3RzZJMFo3RV94MGNuc2hwOExac1RvQ2RVNkw4SklmZ0VUVWVsVWYwMmJuNWlhY3N0d0lBOWpQWjJYdG9Bam43X29TS0F3?oc=5",
+          "published": "2026-06-10T13:14:08+00:00",
+          "publisher": "Organized Crime and Corruption Reporting Project | OCCRP",
+          "title": "Up to 15 Years in Prison Sought for Azerbaijani Journalists in Deepening Crackdown - Organized Crime and Corruption Reporting Project | OCCRP"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVU1LZEJwQXBoUllzMWMyS1g5Y2g4UGtTNXhBbjZtR3lyOVpKX0pPeTRVYXNWampBVnlUV2QxRVJtR3NYVXZIZ3g0VkIyODJyWjUzY3AwV0RuTmdCelp4S1lRenpZVldGODFERFhSRGpXTUxKZGp6UlluUkppamdSY1R2RldnVU1BVkhkMkpqU1dDVzdtb25xbG9MMjJpU1RyR0E?oc=5",
-          "published": "2026-06-10T11:30:15+00:00",
-          "publisher": "streamlinefeed.co.ke",
-          "title": "Malian Junta Arrests Prominent Journalists in Severe Press Freedom Crackdown - streamlinefeed.co.ke"
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZU1kMWZ1c0FXejl5Q3lURXdvWWZUcDRDbkRyUXNxemU5N0dwS0R5Z0MzQjRXcDhkWVhrWkEwM00xMVA4NDF3RWhscUlMUjVtRUVxLUgtOTFSOXFQUjBoZmVqMzhyazU1T25iUGVCWEp5QklwZFExcVNzb1cwODg3TGJzTVVIU3dCQXZaVi16MGpMRk1FV0QwNkFNMlFjTXVHdnJ2bW5NYVpieHNBc29haNIBsAFBVV95cUxQZU1kMWZ1c0FXejl5Q3lURXdvWWZUcDRDbkRyUXNxemU5N0dwS0R5Z0MzQjRXcDhkWVhrWkEwM00xMVA4NDF3RWhscUlMUjVtRUVxLUgtOTFSOXFQUjBoZmVqMzhyazU1T25iUGVCWEp5QklwZFExcVNzb1cwODg3TGJzTVVIU3dCQXZaVi16MGpMRk1FV0QwNkFNMlFjTXVHdnJ2bW5NYVpieHNBc29haA?oc=5",
+          "published": "2026-06-11T07:21:18+00:00",
+          "publisher": "Devdiscourse",
+          "title": "UN Experts Raise Alarm Over Journalist\u2019s Arrest in Kuwait - Devdiscourse"
         }
       ],
       "hits": 3,
@@ -220,6 +187,32 @@
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVWwwZjNGZFRVX2lyN3Q0cmNjbFVaYWJUMWxjUzhSSTVla19LSU90Q0JxU3pQMkxZT3NsalpVZjJaOTE1cVBscE9ObzRDNm54OUlRMVpMNUI4SW1hazRoOXNJQmROYlJvUjVFaWU0QllTV01QdlNIdWdudnk0d1ZpQk5qcXNrem9MN2ZES1Zqb3ZDd1MzYjdPM0xRbl9HSmY3TF83d2dXd1lEdFZEazZQV2lKOEtJV3hpZjRpRjFPbUNYeG1xN1YxcElzMHpRS3ZMSWZxOWc4b191UXI0VjVuVnZxMkJ2V0wyN0NVWGtQWTVCdw?oc=5",
+          "published": "2026-06-10T22:30:00+00:00",
+          "publisher": "The Des Moines Register",
+          "title": "3 Libertarians face GOP challenges to boot them from Iowa's ballot - The Des Moines Register"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUVlYaUYzR0dCR1RHWHlYVE55bUVNMFluNndVbGh2SXk5NTBGeUhvU2RPQlVhZGViTnJCTExpbllJVG1XUkhpWmlWVWNkOFpQOWw3bUZfbFVkUkJOZGswTUVFcXg4M2ZHcTVwVGxlbFB2cTZtaWppTDhfWThzY0xaVXd5SnRGMkk3MDd1dGpQVWIyX2tJcXFralBRbWN1a1oyY3cwYmRaV0lWMURybFZ3U3lB?oc=5",
+          "published": "2026-06-10T18:09:26+00:00",
+          "publisher": "MSN",
+          "title": "Congress nomination rejection gives BJP all MP Rajya Sabha seats - MSN"
+        }
+      ],
+      "hits": 2,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -249,33 +242,13 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPa1d0S3p1MDR6SWRHcnNic3FlVlhqdmJ2SGlrcERVT0dlMTViX1RWaGlucjdFSThrTVBocHA1d0FNUGZ4OGg0Q1pxamZPTmV2bmRaU0tNd3FkX01qWUNpYjZzZldfU1Jyeno4YjJpaDQ0RzJTWWlTSE9oclBWWkxYVWdZYWxSbWlqSERTR1RYUXpidE9Bdjk5X1pFV1QyZEp0OGdtNmFXNTNUOW5QUjgtelBLLWlfcVhrTHpvYml2bElNWGQ4Y2ZRSTNld0ZTUE9rX093UllaTTlfOTlIUHQ1bVpCakN0NUtreUlqLWZyUUpFVGk5QUZaVGlFeVlLVzVHTmJKYkxNZw?oc=5",
-          "published": "2026-06-09T14:03:48+00:00",
-          "publisher": "Van Nuys News Press",
-          "title": "Padilla, Durbin, Whitehouse, Colleagues Sound Alarm on Trump Administration Use of Election Crimes Prosecutions to Interfere in Midterm Elections \u2013 Van Nuys News Press - Van Nuys News Press"
-        }
-      ],
-      "hits": 1,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOZ2o1cnRiX3MtOWtFclZPdGNDSEdwb1lzQ29TcGo0eXZmTUdYLTB2RGlNUzlaRnh0NG5JZEQzdVFLUzJVdmVEbWRxelFXZlJWTk03azEtckl6OHdLY0hUZzFybnhRZ29ZU2hOVXhxWldrRzVQaDJNM1lKVDBBVU1leTJQcVo0M0tsaHc3ZlZFWGVoQTVNNWdvMzVJSFhtSFVHd2JJUkdtMG9oS0stdlRZSWpoMGNrV3V6c00tU1plR3JpbW1rRl9oaHlQVjRpRktieUxRZUhRV0tiTVpjVUVBY3EyRDNjc05ueFR3U0tVbEJhMmZVS01kLTRJVVRpMGgwRXfSAYcCQVVfeXFMTUJjMkkzN1B5SjlDVmtHZjVuWmg3alRTVmExMUNvZ3VwU1NJbXB2UUF6dTItc0NES1pBN3BVejl0RDJWOUxJV1NRUlNCdXpxYVAzNHhVbC1md3dxZGtZNVYtVGhzT1BLM2ZxWnoyV0xNRVY2VHVkNzFQWnR4MHpOS2xncE5ya014cTZrREdBU3ZFLUlvZnBKRnZ5THZoVVVJZmN4VlNVTTBZa2pVaXJMSHRyQ19UZ2VaWVFkUmNRbV9HVzl1UGU2ZnJVTTJLUGRDSkhOdldMS1FJb0JORkl1azR0RlFpLTJzVzRTZC1CX0lyT1JIQm5fckNBMUcySEFieTRfZHJHYUU?oc=5",
-          "published": "2026-06-09T01:48:34+00:00",
-          "publisher": "The Manila Times",
-          "title": "NCLA to SCOTUS: Overturn Precedent Limiting Court Jurisdiction in Constitutional Challenges to Laws - The Manila Times"
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYW9wZVR6WG9MbEdlQ2xZTkp2OGY3ZkxzUDFyV2tnZ0ZpUTFtVDRyR1RIZlZaNXJzbVlCTS0tTWhZb0NBMVY0RXlBREp4WTBNZEVCNURmZ1Y1WWZEUEwyc0NvLUJwWjVqclJYUUtCN0t3M05NUXdSZjYxWmpzSExzUExQSGg4bWVWcjlNcjdqTQ?oc=5",
+          "published": "2026-06-10T14:20:01+00:00",
+          "publisher": "Jacobin",
+          "title": "How to Democratize the United States - Jacobin"
         }
       ],
       "hits": 1,
@@ -309,26 +282,6 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOF9WT2tRTHdlYzQzd2dkM2VSOTY1LXFsajBsMlNIZ2JhbVpYQWNWbXNpdlRYNVJNMGdiVFhDM2ZXSjNfMFhfX21seW50SXlNNnR5dno1MkZkd1hyQTM5emNUUXprX25laHl3QXRIRGNJOTNLUWtadVJwS1lINS1obGdGOWw?oc=5",
-          "published": "2026-06-08T21:22:13+00:00",
-          "publisher": "Straight Arrow News - SAN - Unbiased. Straight Facts.",
-          "title": "As term nears end, Supreme Court weighs presidential powers - Straight Arrow News - SAN - Unbiased. Straight Facts."
-        }
-      ],
-      "hits": 1,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
@@ -346,6 +299,32 @@
       "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "hits": 0,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "hits": 0,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     }
   ]
 }
