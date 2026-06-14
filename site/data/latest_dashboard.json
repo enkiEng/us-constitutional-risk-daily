@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 15.65,
+  "average_7d": 16.01,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,49 +9,49 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 2.0,
-  "delta_vs_7d": 4.14,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": 2.03,
   "domain_breakdown": [
     {
-      "avg_severity": 0.4125,
+      "avg_severity": 0.325,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.26875,
+      "points": 1.7875,
       "weight": 22
     },
     {
-      "avg_severity": 1.4333333333333333,
+      "avg_severity": 1.3166666666666667,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 5.375,
+      "points": 4.9375,
       "weight": 15
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 0.5499999999999999,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.333333333333333,
+      "points": 1.9249999999999998,
       "weight": 14
     },
     {
-      "avg_severity": 0.5333333333333333,
+      "avg_severity": 0.3333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.7333333333333334,
+      "points": 1.0833333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.0999999999999999,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 3.333333333333333,
+      "points": 2.7499999999999996,
       "weight": 10
     },
     {
-      "avg_severity": 1.5,
+      "avg_severity": 1.825,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.75,
+      "points": 4.5625,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-06-13T12:56:35.925120+00:00",
-  "previous_score": 18,
+  "generated_at": "2026-06-14T13:00:36.208418+00:00",
+  "previous_score": 20,
   "provisional": false,
-  "score": 20,
-  "score_raw": 19.79,
+  "score": 18,
+  "score_raw": 18.05,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,64 +84,32 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1nVVJvWFdaNTdmVzc3YnNyaTJIeWQ5dV9EcXFKOXZHQ1NlM0tTakU5YU9FeTk2cU0teDFIcGE5d0RhMnNGNExQdW4tbDlKNTF2YktpZWhYN0ZZZnd5YlRjcWdDR3A2eDFUdFNwMWVReUpxcENMWDBr?oc=5",
-          "published": "2026-06-11T20:41:41+00:00",
-          "publisher": "Political Research Associates",
-          "title": "A Reckoning with the Future of Resistance - Political Research Associates"
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeDZhYnlScDUyekVQSnhYU0g5azR2dEF4Z01aLUFYQXZ4UmRBTTk4cFk3MWc5Q3V2MUNCUUhWMlp2NmJ2Wl9Ec202ajdVZHFka010c1pJdmU2QklQdGtyd1p0Z1JSUDZNT3V3T3RpbmpCWnI4dnVXNkJEeHJTaDQ2a1FDTXp0Qy03MHl4THF1c1QzTE56c1hoMlhzZU1WbnJKZTlKQ0Z4R1BfbEVyYWdKa3lQMl8taTVC?oc=5",
+          "published": "2026-06-14T09:12:32+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "Press freedom review: From jail cells to cyberspace, threats to journalists multiply - Journalism Pakistan"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15TUVvZnFiQW10aXRZcmJEbXcwZ2ZHWkVRd1VpdFNzQmU2UlpMTk1lbU1aQW80LVZ3Y1ZUSlFBTGgzallsTkc3eEh6cUNhUFZPMG5HUHlDT0tiZHhLdGNld3RTUVNvVjlCdTRjcHZUVDdXQnJ2?oc=5",
-          "published": "2026-06-12T21:46:19+00:00",
-          "publisher": "Substack",
-          "title": "Britain Is Showing the World How to Criminalize Dissent - Substack"
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTUpPX2xlZ09TalFGSDZDaVRKdEhubE5KOEdUZ2l6RHVVQ0FaZE5qMjlSV0RqVms4WDRtZmxRVEUtLUx2WGJzVnprd2pQLU5RU2Fjdl81Sk9idEN2UXVKaWJrS3RMbkMtVENqVjdfd1FvWFRBVGwwRTB0REIzV1MzMGlYV08zU2l1UEtyUmlyUDk4ck5xb0JNSGt3c3NMaURiSkxR?oc=5",
+          "published": "2026-06-14T12:53:38+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "The right to know: Comparing access-to-information laws across Asia - Journalism Pakistan"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWVlUVHZEMHI3bFVoWXRhaEdZRVl5SHlGV3pKYWRISVZMUnE4R3VoLXFNc04xdUdWU0pyTVVkV3FIOG42Z1JRZkFCWDBQckxQeUt3aGtyVW84UlBXeVBsUUU4Skh3OGlzWEwxUHpBRXRTazcwVTlHR2ZSSlFsY0ZMUzZEMmZNSkdMOHhDbnY1czlOUkFsRVF4ZkotUkp0SHo3UzV3anRWdnlWbWc?oc=5",
-          "published": "2026-06-11T18:06:14+00:00",
-          "publisher": "Detroit Metro Times",
-          "title": "Feds wrapped U-M protest case in baseless terrorism rhetoric, attorneys say - Detroit Metro Times"
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZGdqQ1JxTGZIVkFBOEJ6dDlLbTVSQzZfdDZQcmtfSWtfMzh4WjZUMUlJY3pZWnZNMlY1ZmpfYUdaZE9RQV9BWmMzR1RaLXlkV3JnajlobEpyR0dBUHR3V1lPLUJBSkJMNFRNT1pHTGIwcS1fdE5oYXBDY2dtY0lsRFdwSUJBNmRLTlNVU3JaOEg5clJPMG5qSVoxN3FsYXh0V2gyaVZCbVIzX19WdjRqUFIyeE4xQnhYU2hF?oc=5",
+          "published": "2026-06-14T06:31:37+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "Open-Source Intelligence (OSINT): How journalists verify information in the digital age - Journalism Pakistan"
         }
       ],
-      "hits": 4,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
+      "hits": 7,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 4
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRUduMDBReWoxdlZISmQ0eC1BV2sxTE5ZRkstbDRFOWN1WFExX0paYkppbWJ1ekd5dWttUTFaQjVBdTRpTlNaZXoyTHAweU91QUxBaDZtTGMxVmFBNzkzSWlIOHpReFJmX0pxcThjaV9PbURITjBQNllrel9BZUhfRjMzbFFBeDhfc28za0Jmb1J5UVp5YldpNVdpSlREYmV0eXJXZjF3SU9HZjlrSWFNMnp1d3B4OUhvUVZRRVNRc2lPZ2VSdmNma3ZZeGhnXzB4?oc=5",
-          "published": "2026-06-12T14:29:00+00:00",
-          "publisher": "WVIK, Quad Cities NPR",
-          "title": "Republicans challenge Libertarian candidates, prompting state panel review - WVIK, Quad Cities NPR"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT25QZzJqdGw4S0R0cy15OW5SR2U0cVdrbDNvUFZtbHYzUERfUkxjX3M3bnlmNVJUOWs4SzRtYmdEdHhBaUJlN1EtRzdGNGYyTUVoS0pSN0xoWUxONDlGczVjdXhyclhFY0VuSk92Z3d5QU8xRFc2V09wUUs3bDRydVMzdkNQLVpGU1BaY0dsZkhCZmpFLXNCdV9rWWY0Z3p3VnpPcThrSm5Yai1jTHpFRQ?oc=5",
-          "published": "2026-06-11T15:30:10+00:00",
-          "publisher": "Telangana Today",
-          "title": "After \u2018vote chori\u2019 and \u2018sarkar chori\u2019, Rahul alleges BJP\u2019s \u2018seat chori\u2019 in Rajya Sabha polls - Telangana Today"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPM2RzSDFXMHBINGtSYVRFd0hwWDN6Y3ZxVGVCbU9OU1FOWVdRamVHMXNRdUZiaFFTVWRvZHZjNkRQV2Nwc2p0NThvVlpXejNob0p0VDVnd2tjWkZzR29VTGlaQlNIZk1GdE9PMlVXTHBEVWoxdGk5ejNhOWhTelp3Rjh0dm9MWWVJSXFua3VUYmZWbU9Zb3lwRGZjMTREM1RHMXpIaTBiQjZjNjFRTVY1LUUxSDBGYWVkZF9yeEt0NFRHSldEcXR3S29aMVPSAdMBQVVfeXFMT19NN0lQX0xkbVBKaF9USHR2c3BtWlpoOHFycWItdDIxdkhoVGl3T3RCTGUyZHpJNDBXSUQ3cUNweFpjd0E1TW9wY053TGZRaTJBQjhQbVR1cGlxXzdHT3QzWTl0WWp2UWxtNDI4amgtZ1NGeUhxbnFwZnJSTHFtTE1Ud0xhcThsWWRVazB3empRUzA1NTJlbmRGSVE2VkhhN3ozNVdJQlpnQ3dNbG1hekxiREF4YklUUkFDQ2NVSUJKdDRjbnNYYzdCRkFJbU5CNUM1dw?oc=5",
-          "published": "2026-06-12T13:05:00+00:00",
-          "publisher": "The Indian Express",
-          "title": "Why Congress leader Meenakshi Natarajan\u2019s Rajya Sabha nomination from Madhya Pradesh was rejected - The Indian Express"
-        }
-      ],
-      "hits": 3,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 3
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -158,54 +126,42 @@
           "published": "2026-06-12T22:47:00+00:00",
           "publisher": "New York Post",
           "title": "Biden-era DOE officials defied the law to protect 'gender identity' rights \u2014and still have their jobs - New York Post"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaXU3cFI4akdyVjI4Yzk1aU9BcnUzdTYySnkwRmc2TFRza3draUVIbGpQM1hXUWhLNV9XVUJIYmE1dUZqamVPNjhrdTdVTElaajBpVzVVbUx3bEdYMldJbUNmVmhLU3FKcHN6S3lQa2hWeXFUN0hYc3dVTkJQaExxSE1CTFJwM0d2cHBzeDhaSWFuRHgzUWZPT0w3S1hKNExuYjR6cjF5RWhHXzA?oc=5",
-          "published": "2026-06-11T15:12:43+00:00",
-          "publisher": "MSN",
-          "title": "Court Slaps 13 With GH\u00a250,000 Fine Over Defied Injunction - MSN"
         }
       ],
-      "hits": 3,
+      "hits": 2,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 3
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYlBndDJwVGU1eWEzV0F5MXRDcDJyWlZjeS1PcTlxdWNkd1pfbU1ic3NZUjhkczBkR3lXQV9TSjVpb1hhMldwWVN1Z0xmZFdwZ28waHJRMFk0WGZsVmI5cHl1ckd1VDl0Q3VRUlZRTG1CSThkUDFxR09HdW1KVFBFLVozY2NaQnpENkE?oc=5",
-          "published": "2026-06-12T13:09:14+00:00",
-          "publisher": "NC State University",
-          "title": "You Decide: What to Expect From the New Federal Reserve? - NC State University"
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRUduMDBReWoxdlZISmQ0eC1BV2sxTE5ZRkstbDRFOWN1WFExX0paYkppbWJ1ekd5dWttUTFaQjVBdTRpTlNaZXoyTHAweU91QUxBaDZtTGMxVmFBNzkzSWlIOHpReFJmX0pxcThjaV9PbURITjBQNllrel9BZUhfRjMzbFFBeDhfc28za0Jmb1J5UVp5YldpNVdpSlREYmV0eXJXZjF3SU9HZjlrSWFNMnp1d3B4OUhvUVZRRVNRc2lPZ2VSdmNma3ZZeGhnXzB4?oc=5",
+          "published": "2026-06-12T14:29:00+00:00",
+          "publisher": "WVIK, Quad Cities NPR",
+          "title": "Republicans challenge Libertarian candidates, prompting state panel review - WVIK, Quad Cities NPR"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUFQ3NE04bkpBMUt1V1hjVi1uNm80LVBiYnc2d3U4ZWVPOV9zVTJpZk5mWE45R3FMREVCRHJoTU5KRnVONmxPVlJKeXFoeEIzQnpISTVDdWtlWVZESEt5VHlITk43c0FNLWc1U2VxRlZld0JmYWxxdTBnRkNGWURCVXdVbTI4NzlHUS1uam9mTWN6X2tCM050R0hWb2V5TWtMVVFGajZFWEFnZzd2NFpEejRGUDJKWkYx?oc=5",
-          "published": "2026-06-12T19:41:00+00:00",
-          "publisher": "Law.com",
-          "title": "June Boom: Supreme Court Prepares for Explosive End-of-Term Rulings - Law.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMmVIWGE0ZkZlMlF6cUZmeEMzX3BjTnRlS3p1UGd6ckRXYVpMbkpHVDl4dVMzUkQyUFZNT24xVGZMMmRJNWttNm5XV3dJalNqSmZSeFMwNnVZbFVGTG91Rm9ULVZOSmx1Z0JqRlRJcGczRnR2RkpDdE9DTU9HMkF1bEN3?oc=5",
-          "published": "2026-06-12T05:30:00+00:00",
-          "publisher": "The Boston Globe",
-          "title": "Trump has run roughshod over Washington. This federal agency has stymied him \u2014 so far. - The Boston Globe"
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPM2RzSDFXMHBINGtSYVRFd0hwWDN6Y3ZxVGVCbU9OU1FOWVdRamVHMXNRdUZiaFFTVWRvZHZjNkRQV2Nwc2p0NThvVlpXejNob0p0VDVnd2tjWkZzR29VTGlaQlNIZk1GdE9PMlVXTHBEVWoxdGk5ejNhOWhTelp3Rjh0dm9MWWVJSXFua3VUYmZWbU9Zb3lwRGZjMTREM1RHMXpIaTBiQjZjNjFRTVY1LUUxSDBGYWVkZF9yeEt0NFRHSldEcXR3S29aMVPSAdMBQVVfeXFMT19NN0lQX0xkbVBKaF9USHR2c3BtWlpoOHFycWItdDIxdkhoVGl3T3RCTGUyZHpJNDBXSUQ3cUNweFpjd0E1TW9wY053TGZRaTJBQjhQbVR1cGlxXzdHT3QzWTl0WWp2UWxtNDI4amgtZ1NGeUhxbnFwZnJSTHFtTE1Ud0xhcThsWWRVazB3empRUzA1NTJlbmRGSVE2VkhhN3ozNVdJQlpnQ3dNbG1hekxiREF4YklUUkFDQ2NVSUJKdDRjbnNYYzdCRkFJbU5CNUM1dw?oc=5",
+          "published": "2026-06-12T13:05:00+00:00",
+          "publisher": "The Indian Express",
+          "title": "Why Congress leader Meenakshi Natarajan\u2019s Rajya Sabha nomination from Madhya Pradesh was rejected - The Indian Express"
         }
       ],
-      "hits": 3,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "hits": 2,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 3
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -222,64 +178,84 @@
           "published": "2026-06-12T20:02:53+00:00",
           "publisher": "eciks.org",
           "title": "Nearly 8,000 career federal workers lose civil service job protections under Trump's new Schedule Policy/Career order - eciks.org"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRkR6b09qYjVrX0FfMzVfZlJNeW8zVXYwaWRrNThnenBJRTl0U1JYS2Fzcm05UG13UXF0Mm42T0FYOXNkMEdBNHhINEJYUDVSLTNJb0ZhTU1ZQ3FVNVZZejdLREtLTk96SFZFcGM0emNlWnJMbkIzcnJoNHlNSXctT0NzSmM?oc=5",
-          "published": "2026-06-11T20:04:14+00:00",
-          "publisher": "eciks.org",
-          "title": "Executive order reclassifies senior federal workers as at-will employees, eliminating civil service protections - eciks.org"
         }
       ],
-      "hits": 3,
+      "hits": 2,
       "id": "civil_service_purge_schedule_f",
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYlBndDJwVGU1eWEzV0F5MXRDcDJyWlZjeS1PcTlxdWNkd1pfbU1ic3NZUjhkczBkR3lXQV9TSjVpb1hhMldwWVN1Z0xmZFdwZ28waHJRMFk0WGZsVmI5cHl1ckd1VDl0Q3VRUlZRTG1CSThkUDFxR09HdW1KVFBFLVozY2NaQnpENkE?oc=5",
+          "published": "2026-06-12T13:09:14+00:00",
+          "publisher": "NC State University",
+          "title": "You Decide: What to Expect From the New Federal Reserve? - NC State University"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUFQ3NE04bkpBMUt1V1hjVi1uNm80LVBiYnc2d3U4ZWVPOV9zVTJpZk5mWE45R3FMREVCRHJoTU5KRnVONmxPVlJKeXFoeEIzQnpISTVDdWtlWVZESEt5VHlITk43c0FNLWc1U2VxRlZld0JmYWxxdTBnRkNGWURCVXdVbTI4NzlHUS1uam9mTWN6X2tCM050R0hWb2V5TWtMVVFGajZFWEFnZzd2NFpEejRGUDJKWkYx?oc=5",
+          "published": "2026-06-12T19:41:00+00:00",
+          "publisher": "Law.com",
+          "title": "June Boom: Supreme Court Prepares for Explosive End-of-Term Rulings - Law.com"
+        }
+      ],
+      "hits": 2,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.65,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE15TUVvZnFiQW10aXRZcmJEbXcwZ2ZHWkVRd1VpdFNzQmU2UlpMTk1lbU1aQW80LVZ3Y1ZUSlFBTGgzallsTkc3eEh6cUNhUFZPMG5HUHlDT0tiZHhLdGNld3RTUVNvVjlCdTRjcHZUVDdXQnJ2?oc=5",
+          "published": "2026-06-12T21:46:19+00:00",
+          "publisher": "Substack",
+          "title": "Britain Is Showing the World How to Criminalize Dissent - Substack"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSmhubWFOYjVpMW90NS1GZ0J1eGFHTlJRSU5GdTVIVV91R3p4OFhNM2JsVXFqczRMZ3RMTmdsdWNsVkxxSkFTWFd2QVI0REZrVUVRN3dVMENvTV9mSm5EbWpSREFRU1dvbGp6VEJhVEhCWklKRkFTd2ZRRFcxVFRNbThSaFBJTzFzTV9zbzNpbFozTXpZSmVmS1NrU3VxVFJOSFozQQ?oc=5",
+          "published": "2026-06-12T18:01:16+00:00",
+          "publisher": "Drop Site News",
+          "title": "The Issue of Israel Is Ending Democracy In Michigan - Drop Site News"
+        }
+      ],
+      "hits": 2,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.65,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd0hZb09PWEF4RkEwMERsTE12VjlrMnVLTHNSSjhSVEszUHZUYjN6aW1kejFuNE9GR2dCZFVmX0owYUhGa3ZZdFJ6ZEFZalRnVm51amRNaHpvRmxoRHI0TnBfM3F0WENVOThZLWE2VEpsdkx3SHJKLVhvY1UzODcyN0MtV1o1REJRWDVla1I3TElOaHQyS2xhWUdzX0hZNWs1aHp2bUJVSkdGdWZMYmwyZVhZaXZ1bW1wNXNzRWpR?oc=5",
+          "published": "2026-06-13T16:57:00+00:00",
+          "publisher": "Votebeat",
+          "title": "This ballot measure could reshape voting in Arizona - Votebeat"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOWDFqYlF0TUhfaFZ3QkpYdjBtaTByTEJYQ0g3OVV2cEZzWDJJcW1EeFQtM0ZQOTJ2X0FFTjNYN2UtaWE5ZWNKYTQ3VkdRRFhzb1VfVXVxUmpQQUZCUFduZnJqcXFuWnRuVU5SVDZpNXQ3WHZlWHZaNXBkb2xsLWx0Vldkd2NVZHRydHpTUlpUVTAyRkRueUVNMlFEMWt6b0xmS3BiRUpJT2RLYUlSSF9NOTg3WDhyUlUxTWs0ZXY4R1I2aXNzNjgzNVJTeE1sdllUSmJDQk5wa2tpWmpYWjNjZWRNamh0VDhQazFvd21CX1NOekpO?oc=5",
           "published": "2026-06-12T20:39:22+00:00",
           "publisher": "Merkley (.gov)",
           "title": "Merkley, Wyden, Colleagues Sound Alarm on Trump Administration Use of Election Crimes Prosecutions to Interfere in Midterm Elections - Merkley (.gov)"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbWJuS3J1VTVEaHBpbFNxYm43YWE2eWk1YnNKVE41WkdUZmlWWjl5SUQ5Rnh3V1RjRFlqVDZmQmVJOVhlakRaUmhLOWMzYWs3dkJzdl9QMzBmekFZZXBrZl9FZlBNcGdNT1NjUzVLeFJOVDdvTENLN2RkM29nbnlYdEU3a3BTSFRNU3c?oc=5",
-          "published": "2026-06-12T10:00:00+00:00",
-          "publisher": "The Texas Tribune",
-          "title": "Texas takes over voter registration in Val Verde County amid struggles - The Texas Tribune"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTjNEOUtKY09jSEpHMXVLQnFWa1kwNllYaWFqaE5hVDVEOE04QW1Wd1N1UDAzU0ZLYUJkQnBhMzhnQUtVTDVXN0FXMlpFWS0waGcxelQ5TkVTNXZlRUlsR3RMT1hWTkd4eWRRRUZIeTloUjRXYmlIdGRjbjdFb2JKbjVfVzlHaXdPY3BFc3NlRTBsUHdUNzA5RmlBZHpsd3BDWEhhcFlpcm9Yc1g1d0cwQVpFRQ?oc=5",
@@ -299,24 +275,24 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZW0yTVQzc3J4UXg2eS03SkFiTllWbXdWTWE2NGQzbDRiR1JabUVaUEs3blhxaDRETjBQbFNxX3doMGxEMXlwQ0tZUGdXaTRzZjU2cnhKRXc5MVdYVm54eVJWR2lKZ2wtUC1HOGZ5MnZ3R1VXSlhib25RQUpOakRYVkpFZmFGSGFQTUtTcDZDT3V0dE9SLURSYm05MDM3OVhMcEE?oc=5",
-          "published": "2026-06-12T15:41:14+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "The JournalismPakistan Global Media Brief | Edition 24 | June 12, 2026 - Journalism Pakistan"
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0gteHF2RDE5ZEJYdXRZVUdqc1VaUk5QTy1JWHRPcVNod3ZyNUg1UGhwYjl0bnBoQ25WSmZRQmtVZTZ1MUpscFJudklTOGNjWDhDdUU5Q1MtNVV0elVvdUtJSVJjeEUwcnptYmNiRHZ5Z05yOU5iSDVPWmg5RG12SGhMSnBiNjAwaC1wdXAyRU00ZGg3dUdydlFpOUVDSUYzaGJUVUlENTQ1N0huN2VRZjRiU084QQ?oc=5",
+          "published": "2026-06-14T07:01:00+00:00",
+          "publisher": "USA Today",
+          "title": "Donald Trump's legacy rests in the hands of federal courts - USA Today"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYjVMZ3Ixc3U0M09iY0M4UEhfVUJCWGtNbWluRFZsWVFRSmV0WExMVkVHZEY1aDNYM1k3Vk1Tcm1WQlpPYUs5MG82dlFTX2g2QUVxbmMzSEVuWmpkZnIyUFhCTlQ4NkJmelhfUzNyclNVY0g0QmRTYllaR21qbmdscWtsWGN2dWtIUWJkSVdSVjJqa2MxQ2RwUkNSUkZzS0I2NkFUWjg2SU9BNGpNRFIwTTZ3RURLUk00VkNZV3kxV0pEZGJGbFFENmxYelBZaTRlWmpvNXpR0gHWAUFVX3lxTFBiNUxncjFzdTQzT2JjQzhQSF9VQkJYa01taW5EVmxZUVFKZXRYTExWRUdkRjVoM1gzWTdWTVNybVZCWk9hSzkwbzZ2UVNfaDZBRXFuYzNIRW5aamRmcjJQWEJOVDg2QmZ6WF9TM3JyU1VjSDRCZFNiWVpHbWpuZ2xxa2xYY3Z1a0hRYmRJV1JWMmprYzFDZHBSQ1JSRnNLQjY2QVRaODZJT0E0ak1EUjBNNndFREtSTTRWQ1lXeTFXSkRkYkZsUUQ2bFh6UFlpNGVaam81elE?oc=5",
-          "published": "2026-06-13T10:00:07+00:00",
-          "publisher": "The Hans India",
-          "title": "Shrinking civic space in Pakistan fuels concerns over democratic sliding: Report - The Hans India"
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYkJUby1tcWpGVGNMU0dPblBLRnBHRXI1ckExak5ZWDFQQkFSU1k0cnhONGZTZ3pMOXg4X01FZHpYRWxJRHRkeGl0czFET0FDMnU1X05hWGRoTHA3NEpHYjZReEhjYkNyWTZWT3ZZSHlwblBIOV9Oc2RkOElTT3FqbTFxNkdNUHVBaENpX3ZmdEpWV0puaUlYMl9R?oc=5",
+          "published": "2026-06-14T09:07:54+00:00",
+          "publisher": "Let's Data Science",
+          "title": "States Forge Ahead with AI Regulations Despite Trump - Let's Data Science"
         }
       ],
       "hits": 2,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -348,10 +324,10 @@
       "domain_id": "security_sector_neutrality",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42c1JwRC11RjEzbHV5MDMzUzhoTU9Wd3pZYWRSajlrczZQZE04YkdGUVhyZTlydW5USVgwc3RNdldkSUNvNFBxRjBqXzFTaV9TNllQYVRtN3ZOU2JIUld0R295TzVpN21aMy1UTkEzQ2hkTjNoVTJreHkwUWtIWUE?oc=5",
-          "published": "2026-06-11T21:01:37+00:00",
-          "publisher": "Robert Reich | Substack",
-          "title": "Warning: Trump's Rolling Coup Is Already Underway - Robert Reich | Substack"
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdzVRUVpDV0VYTi1LOTRMX2VtMHFubnNrYzdFRkNpVzBqbmwyRk9qRVRXYW91Q0NzRnFMM010c3NWQ0oxa3pJbmtlc2lwRkIwdUxGaXZCUE9DVmM0VXBZTmVLTXd1UHNXT04tOGdZbDdiWTlSdWROY2d4b2w0YmVERkU2TkQyUWs?oc=5",
+          "published": "2026-06-13T15:55:45+00:00",
+          "publisher": "MR Online",
+          "title": "Warning: Trump\u2019s rolling coup is already underway - MR Online"
         }
       ],
       "hits": 1,
@@ -365,24 +341,24 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "hits": 0,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.95,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [],
       "hits": 0,
       "id": "alternate_elector_scheme",
       "name": "Alternate Elector Scheme Activity",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
