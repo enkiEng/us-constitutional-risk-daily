@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-06-14 13:00:36 UTC
-- Score: **18 / 100** (Elevated Strain)
-- Previous day delta: **-2.0**
-- Delta vs 7-day average: **+2.0**
+- Generated: 2026-06-15 14:31:11 UTC
+- Score: **15 / 100** (Elevated Strain)
+- Previous day delta: **-3.0**
+- Delta vs 7-day average: **-1.1**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -14,12 +14,12 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.33 | 1.79 |
-| Judicial Independence and Rule of Law | 15 | 1.32 | 4.94 |
-| Opposition Rights and Political Pluralism | 14 | 0.55 | 1.92 |
+| Elections and Transfer of Power | 22 | 0.25 | 1.38 |
+| Judicial Independence and Rule of Law | 15 | 0.97 | 3.62 |
+| Opposition Rights and Political Pluralism | 14 | 0.43 | 1.52 |
 | Executive Constraints and Emergency Powers | 13 | 0.33 | 1.08 |
 | Civil Service and Agency Independence | 10 | 1.10 | 2.75 |
-| Civil Liberties and Information Environment | 10 | 1.82 | 4.56 |
+| Civil Liberties and Information Environment | 10 | 1.65 | 4.12 |
 | Security Sector Neutrality | 8 | 0.50 | 1.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -27,47 +27,43 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 7 | 2 |
-| Court Order Noncompliance | judiciary_rule_of_law | 2.00 (Yellow) | 2 | 2 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.65 (Watch) | 2 | 2 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 1.65 (Watch) | 2 | 2 |
-| Independent Agency Capture | civil_service_integrity | 1.65 (Watch) | 2 | 2 |
-| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.65 (Watch) | 2 | 2 |
-| Election Administration Capture | elections_transfer | 1.00 (Watch) | 3 | 3 |
-| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 2 | 2 |
-| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
+| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 6 | 2 |
+| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 3 | 3 |
+| Court Order Noncompliance | judiciary_rule_of_law | 1.65 (Watch) | 1 | 1 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 1.30 (Watch) | 1 | 1 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.30 (Watch) | 0 | 0 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.30 (Watch) | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 3 | 3 |
+| Election Administration Capture | elections_transfer | 1.00 (Watch) | 1 | 1 |
 | Domestic Military Use in Political Conflict | security_sector_neutrality | 1.00 (Watch) | 1 | 1 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 0.95 (Watch) | 0 | 0 |
-| Alternate Elector Scheme Activity | elections_transfer | 0.30 (Green) | 0 | 0 |
+| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 0.65 (Green) | 0 | 0 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 0.60 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Press Restrictions or Retaliation
+- [Civicus Monitor] Afghanistan: Ongoing repression of the press and activists as peaceful protest in Herat disrupted with excessive force - Civicus Monitor (2026-06-15) - https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSC1temJyVGFHNzFxeF9qYXJkZ0tJMmljQTVGeTVkMGhFU01aMHJxbWV0WURlcjhqX0NXdktfWm53OFpGaTV6ajBMdDJhb2ktcW5wSldFS2ttbkJzVTBGTlRGS0p2N09lTVNXQnRpMGRzZGl5UUN4RFZXN3BRbWVHT0o2RWlCSGdFYUM4UjV0LTVvX3dLQzVmZWlaOW1nVlZrYkd1T083STh0U2NFRHNFRmhmU3V4UkhtVHJYakI2TVN6V0FobENkTzlZR2kzUlhaai0zNm1xWHpfTWR1Y29CZDBoUm9ZYVg2QkE?oc=5
+- [Journalism Pakistan] Supreme Court shutters press room amid backlash - Journalism Pakistan (2026-06-15) - https://news.google.com/rss/articles/CBMiigFBVV95cUxQSFN0YkhPMnh3X3RUSjR2OVRUQ3FyTlI5bnFDRzY3dno4LUdnQ0QtaGh2TVJxMXBCT1hDZUkxbWhlbG9LLVowcDFmYnVYeGZKVVFXUmFSd012V2hLSThfN1p0clhSWDJMbzc1Q0JOUWJqZk5RQWFvX1V5bzhyNEkwSzBZQ0NGWllVRmc?oc=5
 - [Journalism Pakistan] Press freedom review: From jail cells to cyberspace, threats to journalists multiply - Journalism Pakistan (2026-06-14) - https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeDZhYnlScDUyekVQSnhYU0g5azR2dEF4Z01aLUFYQXZ4UmRBTTk4cFk3MWc5Q3V2MUNCUUhWMlp2NmJ2Wl9Ec202ajdVZHFka010c1pJdmU2QklQdGtyd1p0Z1JSUDZNT3V3T3RpbmpCWnI4dnVXNkJEeHJTaDQ2a1FDTXp0Qy03MHl4THF1c1QzTE56c1hoMlhzZU1WbnJKZTlKQ0Z4R1BfbEVyYWdKa3lQMl8taTVC?oc=5
-- [Journalism Pakistan] The right to know: Comparing access-to-information laws across Asia - Journalism Pakistan (2026-06-14) - https://news.google.com/rss/articles/CBMiowFBVV95cUxPTUpPX2xlZ09TalFGSDZDaVRKdEhubE5KOEdUZ2l6RHVVQ0FaZE5qMjlSV0RqVms4WDRtZmxRVEUtLUx2WGJzVnprd2pQLU5RU2Fjdl81Sk9idEN2UXVKaWJrS3RMbkMtVENqVjdfd1FvWFRBVGwwRTB0REIzV1MzMGlYV08zU2l1UEtyUmlyUDk4ck5xb0JNSGt3c3NMaURiSkxR?oc=5
-- [Journalism Pakistan] Open-Source Intelligence (OSINT): How journalists verify information in the digital age - Journalism Pakistan (2026-06-14) - https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZGdqQ1JxTGZIVkFBOEJ6dDlLbTVSQzZfdDZQcmtfSWtfMzh4WjZUMUlJY3pZWnZNMlY1ZmpfYUdaZE9RQV9BWmMzR1RaLXlkV3JnajlobEpyR0dBUHR3V1lPLUJBSkJMNFRNT1pHTGIwcS1fdE5oYXBDY2dtY0lsRFdwSUJBNmRLTlNVU3JaOEg5clJPMG5qSVoxN3FsYXh0V2gyaVZCbVIzX19WdjRqUFIyeE4xQnhYU2hF?oc=5
-
-### Court Order Noncompliance
-- [Tech Times] Green Card Freeze Defied: Judge Orders USCIS to Comply Within 24 Hours - Tech Times (2026-06-12) - https://news.google.com/rss/articles/CBMivgFBVV95cUxQSzN3RV94Rmc1ZThzbGZIb2dFd084a1ltTFk0VFBGZTlaYXU2Y29ZNjNTOEtxQ0x6NjhHTFcxTzl5bFotb2U4OTJYMVFhUmlIUm1sRXg1a2g1aUFUVUhRVGw3ck9TQlVWUUFBV19CVnV3SkFxMUNpc0lnbEJmMEJ1RlZhS1Y0cV9fRlh6RUFRcWM3bjVGRms5Vk9udWdMUTAwZV9vWTlEZlZLMGZaT1A2aDhqZV9lbnc2VzBtQ2pB?oc=5
-- [New York Post] Biden-era DOE officials defied the law to protect 'gender identity' rights —and still have their jobs - New York Post (2026-06-12) - https://news.google.com/rss/articles/CBMi0wFBVV95cUxQS3JDUDMwRXZYRGlCTFl5QkJTYV9kRV9oOUFsaWdYR2VBQ0poNGYtcVZ0dzR6MHRjZktVSW5GZ3VrYkR5bVN5RFlOWEk1MDBDUjdST1J2aDI1YUlHVTRicFZhZnRWNHlhRUNxNU5xdjQwQnY3RVhUU3lRX09RS19IbzFnb19jdTlXblRTVDRRLS1KZ05fSkdVNEM1aUgtTXYtVXNTSDVTQWZzd3h2Z1lrRkRvTmxaUFVVNzdSX0RaVXRQTHdieWl0aW1BZnptd1k2LThn?oc=5
-
-### Opposition Ballot Exclusion
-- [WVIK, Quad Cities NPR] Republicans challenge Libertarian candidates, prompting state panel review - WVIK, Quad Cities NPR (2026-06-12) - https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRUduMDBReWoxdlZISmQ0eC1BV2sxTE5ZRkstbDRFOWN1WFExX0paYkppbWJ1ekd5dWttUTFaQjVBdTRpTlNaZXoyTHAweU91QUxBaDZtTGMxVmFBNzkzSWlIOHpReFJmX0pxcThjaV9PbURITjBQNllrel9BZUhfRjMzbFFBeDhfc28za0Jmb1J5UVp5YldpNVdpSlREYmV0eXJXZjF3SU9HZjlrSWFNMnp1d3B4OUhvUVZRRVNRc2lPZ2VSdmNma3ZZeGhnXzB4?oc=5
-- [The Indian Express] Why Congress leader Meenakshi Natarajan’s Rajya Sabha nomination from Madhya Pradesh was rejected - The Indian Express (2026-06-12) - https://news.google.com/rss/articles/CBMizAFBVV95cUxPM2RzSDFXMHBINGtSYVRFd0hwWDN6Y3ZxVGVCbU9OU1FOWVdRamVHMXNRdUZiaFFTVWRvZHZjNkRQV2Nwc2p0NThvVlpXejNob0p0VDVnd2tjWkZzR29VTGlaQlNIZk1GdE9PMlVXTHBEVWoxdGk5ejNhOWhTelp3Rjh0dm9MWWVJSXFua3VUYmZWbU9Zb3lwRGZjMTREM1RHMXpIaTBiQjZjNjFRTVY1LUUxSDBGYWVkZF9yeEt0NFRHSldEcXR3S29aMVPSAdMBQVVfeXFMT19NN0lQX0xkbVBKaF9USHR2c3BtWlpoOHFycWItdDIxdkhoVGl3T3RCTGUyZHpJNDBXSUQ3cUNweFpjd0E1TW9wY053TGZRaTJBQjhQbVR1cGlxXzdHT3QzWTl0WWp2UWxtNDI4amgtZ1NGeUhxbnFwZnJSTHFtTE1Ud0xhcThsWWRVazB3empRUzA1NTJlbmRGSVE2VkhhN3ozNVdJQlpnQ3dNbG1hekxiREF4YklUUkFDQ2NVSUJKdDRjbnNYYzdCRkFJbU5CNUM1dw?oc=5
-
-### Civil Service Purge / Schedule F
-- [FEDweek] Thousands of Federal Employees Could Be Bracing for Changes in Classification - FEDweek (2026-06-12) - https://news.google.com/rss/articles/CBMizAFBVV95cUxQcnN4OEZjZzdFcTExemprV0JWby1rUjBkM1JBOE51SEFUM3B0VEFfQnBpNUU3S010djRGdF9XQkkwQjVwT0doT3FGaUV1UkI0YlQxMkhBNkF2RGFOZENQX1N1NS02OXotSlUyUkhmdHBma3ppSmRYUHoxRGpid2UxdGFJZWdzVnFveHVEQUV3YWlfNkw3TTY1emtLMFM4VG56MTFWeW5JQjZBZ3AwSHFrVEFyZ3lGU3lnaVhHQkRadi1KNnY0RFVXR2dVbzc?oc=5
-- [eciks.org] Nearly 8,000 career federal workers lose civil service job protections under Trump's new Schedule Policy/Career order - eciks.org (2026-06-12) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxQd0hGQkctakJOcFVmNjh2d2J1UEF0WVpQQW9NSjhBUi1YNFFCX0cwVDdDTmZDN2VDQndzSnpfOC1BU0N3c21fcWl1YXNlVDllaVBtNEFncDNlMHFYX0d4TUVQMU9oamV5T21lOUxuNl9pOGN6aDZiV3lGOTByT3Z2YjdJTUxkQ2lW?oc=5
 
 ### Independent Agency Capture
-- [NC State University] You Decide: What to Expect From the New Federal Reserve? - NC State University (2026-06-12) - https://news.google.com/rss/articles/CBMiigFBVV95cUxPYlBndDJwVGU1eWEzV0F5MXRDcDJyWlZjeS1PcTlxdWNkd1pfbU1ic3NZUjhkczBkR3lXQV9TSjVpb1hhMldwWVN1Z0xmZFdwZ28waHJRMFk0WGZsVmI5cHl1ckd1VDl0Q3VRUlZRTG1CSThkUDFxR09HdW1KVFBFLVozY2NaQnpENkE?oc=5
-- [Law.com] June Boom: Supreme Court Prepares for Explosive End-of-Term Rulings - Law.com (2026-06-12) - https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUFQ3NE04bkpBMUt1V1hjVi1uNm80LVBiYnc2d3U4ZWVPOV9zVTJpZk5mWE45R3FMREVCRHJoTU5KRnVONmxPVlJKeXFoeEIzQnpISTVDdWtlWVZESEt5VHlITk43c0FNLWc1U2VxRlZld0JmYWxxdTBnRkNGWURCVXdVbTI4NzlHUS1uam9mTWN6X2tCM050R0hWb2V5TWtMVVFGajZFWEFnZzd2NFpEejRGUDJKWkYx?oc=5
+- [AOL.com] Jury trial over Sam Page’s election-related charges set for 2027 - AOL.com (2026-06-13) - https://news.google.com/rss/articles/CBMickFVX3lxTE5qSDBBS1JPeHV4emJvM3ljb3dZVDU4WFRhUG9WLUs0cmd0WW5TZVJPRlB6ZVk2T1lodWdvTTlLYnp1RldZVjlTUDZqQlI4d2FCMFc2WWtwaWctTHJSSURFLS1jcFZlOUZUNV9xOGdOSHlvQQ?oc=5
+- [JoCo Report] You Decide: What To Expect From The New Federal Reserve? - JoCo Report (2026-06-14) - https://news.google.com/rss/articles/CBMihAFBVV95cUxPY251S3dxTnI1cmRfX3FtSXNfTFo2SHh3VXFaN200SGdaLXp3bFlheW55aF9POFZ0WXhTOEV1SU14dGczbEFUMVk3SXI0QllGQmhJM0E0UEdXWFNUNVpzemh3MXhYdUQ1eGw4UkVwcVlDNnJVdkZ3R3dSNFJzbkItVTRRQ2U?oc=5
+- [Just The News] Supreme Court nears end of term with several high-profile cases still pending - Just The News (2026-06-13) - https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ3Bnb2dpSjZwWGM2cVl3b0JCUWlCOVo4WXZDTkFVV2tmNWIwMHh3Mkt0QVhJRkpqX2FObmNzaTRoOTJhaHc1Q2pmZGYtT2RIQ1FtTnZORUhkWnpTT1M4ZmNvam9qYzRPajJVWHRVQUk0MXRzbnVpdXZfTWFBaFM0aHdCWnVCcFNWSWxGVmlwdUhvTG84Yko0ekJIWjlwLVUzYTZLdFFLWlRlZlVDYUFBNFVQRTI1UQ?oc=5
 
+### Court Order Noncompliance
+- [streamlinefeed.co.ke] U.S. Troops Arrive at Laikipia Air Base for Sh1.7 Billion Ebola Facility - streamlinefeed.co.ke (2026-06-15) - https://news.google.com/rss/articles/CBMipwFBVV95cUxPd2tKLWo0T01hVzJYdFVuaWZGR0JPWW9EN1dmRWFCdUZ0Mm92b1Y4SG53YmVVMDM0dS1OTnpadHo1a2lIdHQ2cUJ0Vmk0eDlfb0V4OWoyZVJRX1hxSHBVbUREOHNYU0xFdV8wWUVTdElZektMUGJRb08yUzNvam9ybEJTR1JCZWhFcUlocnhZMmhiM1lhTnFuUGJmZEs4YndxZGZmYkdkQQ?oc=5
+
+### Civil Service Purge / Schedule F
+- [Global Government Forum] Thousands of US federal employees moved to new employment terms - Global Government Forum (2026-06-15) - https://news.google.com/rss/articles/CBMipAFBVV95cUxORl9qbUQ3c18yS25nZjRFcmZhdUlIOVZzczVVcGJXZVRxRm0zZUlpNlI0aWk1WGpQS1BkLUg3Y1J3NUN6VkF3ZzRlRTE5UXpIYzY0ZG5XSmVVdWRpc29JU05VaXZsZlNrVjJkUWtNX0tpczN0UlNmVU1NRkZReTdmLXJtaC03a0NYQ0QyWDB2Q1luN2RWT0l4cGRwYm1ZUmxfVXRIaw?oc=5
+
+### Opposition Ballot Exclusion
+- No fresh evidence links in the current lookback window.
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Confidence: **High**
+- Confidence: **Medium**
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.
