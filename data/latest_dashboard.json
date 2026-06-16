@@ -1,16 +1,16 @@
 {
   "attempted_queries": 22,
-  "average_7d": 16.54,
+  "average_7d": 16.64,
   "band": {
-    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
-    "label": "Elevated Strain",
-    "max": 29,
-    "min": 15
+    "description": "Normal democratic conflict and routine legal contestation.",
+    "label": "Baseline Institutional Noise",
+    "max": 14,
+    "min": 0
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -3.0,
-  "delta_vs_7d": -1.06,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -2.28,
   "domain_breakdown": [
     {
       "avg_severity": 0.25,
@@ -20,45 +20,45 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.9666666666666667,
+      "avg_severity": 0.6166666666666667,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.625,
+      "points": 2.3125,
       "weight": 15
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.6666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.5166666666666666,
+      "points": 2.333333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.6666666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.0833333333333333,
+      "points": 2.1666666666666665,
       "weight": 13
     },
     {
-      "avg_severity": 1.0999999999999999,
+      "avg_severity": 0.8833333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 2.7499999999999996,
+      "points": 2.208333333333333,
       "weight": 10
     },
     {
-      "avg_severity": 1.65,
+      "avg_severity": 1.325,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 4.125,
+      "points": 3.3125,
       "weight": 10
     },
     {
-      "avg_severity": 0.5,
+      "avg_severity": 0.325,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 1.0,
+      "points": 0.65,
       "weight": 8
     },
     {
@@ -72,76 +72,102 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-06-15T14:31:11.536763+00:00",
-  "previous_score": 18,
+  "generated_at": "2026-06-16T14:08:50.755422+00:00",
+  "previous_score": 15,
   "provisional": false,
-  "score": 15,
-  "score_raw": 15.47,
+  "score": 14,
+  "score_raw": 14.36,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSC1temJyVGFHNzFxeF9qYXJkZ0tJMmljQTVGeTVkMGhFU01aMHJxbWV0WURlcjhqX0NXdktfWm53OFpGaTV6ajBMdDJhb2ktcW5wSldFS2ttbkJzVTBGTlRGS0p2N09lTVNXQnRpMGRzZGl5UUN4RFZXN3BRbWVHT0o2RWlCSGdFYUM4UjV0LTVvX3dLQzVmZWlaOW1nVlZrYkd1T083STh0U2NFRHNFRmhmU3V4UkhtVHJYakI2TVN6V0FobENkTzlZR2kzUlhaai0zNm1xWHpfTWR1Y29CZDBoUm9ZYVg2QkE?oc=5",
-          "published": "2026-06-15T06:30:22+00:00",
-          "publisher": "Civicus Monitor",
-          "title": "Afghanistan: Ongoing repression of the press and activists as peaceful protest in Herat disrupted with excessive force - Civicus Monitor"
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQY2JFc0c3YnV5NGY4UTMyTnA0V3FEWmdFSVZ2bGUydXhYREcxa2JPU3BoM0JGVG55aWpjVGpBQkNIS081ZW1taWtneUZtTUN0c2VqWUgtWm1velJYUmM2NTZ3ODJiOUI3a0l1TEc5TEp3SDhrX1R3QndCcDhadVNEWjdnQ3dQMjV2czRXQm56ZXhEaXRzNnZvSV9fRlNrd3QyWUpIOEl0ZThQWXBIR0F3aHZjWTJGZHg5VUd1ekxYbURxTm82bUVPNDlmU0poejVOa0FnWm5uV0F3aWlOY1VvSDhWQzRIZkxjdVdvMC0zNHNyMndzVFF3?oc=5",
+          "published": "2026-06-16T00:44:17+00:00",
+          "publisher": "The Des Moines Register",
+          "title": "Panel boots Libertarians from Iowa ballot for governor, US House - The Des Moines Register"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSFN0YkhPMnh3X3RUSjR2OVRUQ3FyTlI5bnFDRzY3dno4LUdnQ0QtaGh2TVJxMXBCT1hDZUkxbWhlbG9LLVowcDFmYnVYeGZKVVFXUmFSd012V2hLSThfN1p0clhSWDJMbzc1Q0JOUWJqZk5RQWFvX1V5bzhyNEkwSzBZQ0NGWllVRmc?oc=5",
-          "published": "2026-06-15T13:22:16+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "Supreme Court shutters press room amid backlash - Journalism Pakistan"
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONWpBUmlRd1VaZmdtWXB0X3FULTkzMVN5a1RqdlFMLXBibDAxYnNxOUlCa2dRazFCMlUtc1IxVEs3UmR4bXpUamJOQUJ6WFJIeXduZXVrdWpjQ3VMRk1xQWJMSkNya1c4RC1Ncm9kRUViNjBvRlF0dE5INTF6ZVRTU2QyUnFMYUUxYkFGeFNqYXIwSWxmaVhZeG1BeE5FTkNJNUc3cFh1V3hNUHpJWE5EbFlGaUQ2Mi12OFIzSU1ZV0pwR2s?oc=5",
+          "published": "2026-06-15T20:04:04+00:00",
+          "publisher": "Orlando Sentinel",
+          "title": "Disqualification baffles Stark, St. Cloud Republican, but state cites missing papers - Orlando Sentinel"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeDZhYnlScDUyekVQSnhYU0g5azR2dEF4Z01aLUFYQXZ4UmRBTTk4cFk3MWc5Q3V2MUNCUUhWMlp2NmJ2Wl9Ec202ajdVZHFka010c1pJdmU2QklQdGtyd1p0Z1JSUDZNT3V3T3RpbmpCWnI4dnVXNkJEeHJTaDQ2a1FDTXp0Qy03MHl4THF1c1QzTE56c1hoMlhzZU1WbnJKZTlKQ0Z4R1BfbEVyYWdKa3lQMl8taTVC?oc=5",
-          "published": "2026-06-14T09:16:37+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "Press freedom review: From jail cells to cyberspace, threats to journalists multiply - Journalism Pakistan"
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMUFFcTlYZFkxcVBCQmhwNXNpZXBsNjMxcUpnaDYycDN6dDFiUWZVMFRkdGF2S0VzemVvem1RVDNoN0I5WWVSZXQ1MEs5OUszVXhVMm9yU2tqekttdDM0cy1SUXdIR0JmXzE5YzdBM0RJbmF3a1pmS3NnTGppM0dmdlVn?oc=5",
+          "published": "2026-06-16T01:30:00+00:00",
+          "publisher": "AOL.com",
+          "title": "Same-name candidate disqualified from key Senate race over alleged Dem scheme to confuse voters - AOL.com"
         }
       ],
-      "hits": 6,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "hits": 5,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 5
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0gteHF2RDE5ZEJYdXRZVUdqc1VaUk5QTy1JWHRPcVNod3ZyNUg1UGhwYjl0bnBoQ25WSmZRQmtVZTZ1MUpscFJudklTOGNjWDhDdUU5Q1MtNVV0elVvdUtJSVJjeEUwcnptYmNiRHZ5Z05yOU5iSDVPWmg5RG12SGhMSnBiNjAwaC1wdXAyRU00ZGg3dUdydlFpOUVDSUYzaGJUVUlENTQ1N0huN2VRZjRiU084QQ?oc=5",
+          "published": "2026-06-14T15:32:00+00:00",
+          "publisher": "USA Today",
+          "title": "Donald Trump's legacy rests in the hands of federal courts - USA Today"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUTlqbFpnaEd1M1B4R2lCREh5VDdaMmRxTExYQmJscmZLUzhWcTV3WkV0SmNaZEd5MzNlQzhRVlRIc3k2bjVkYXYtOFJKQ3RhbWFHa2RkQ3FHWEVsOVdHS1Y3VnVoMVRLS2ZUTklUejRGOW0ycGRQNjVPcXIyd012eEl6bzlGbWk3Tk0yMkR6dDFvT0dpekdEZXp1VE16M2wtS3ZiaWFoYlFGQdIBrwFBVV95cUxNUDRoVmlFbmowdXdBVjctbjVQR1k0dkJnOUVCN2xkTnZWS2E1THdBNG03NXIyZFpqdE9pYWNoMUE0WWtrbUZyMGhFTTFSbHZ3OFVtYWlYSVlQUXIzNGk0Sjdzb3RqbWJ1RjdPMTE1MkczN21PYVRLV2Yxd3FzNm5oNWloTHlveVdIUGZZWXJWcEptUzNZLWcyRC1qX0xzZkt4cmIya1VNLWdfQk5Zc3pn?oc=5",
+          "published": "2026-06-15T18:19:54+00:00",
+          "publisher": "Channels Television",
+          "title": "ADC Rejects Deregistration Order, Alleges Plot To Cripple Opposition - Channels Television"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeFpSWlBjdklYZFpIUWZvOXpBNm9ROHo1SHgzU0xpaDVITXJDbmxFUFVjQ3hXVzdVbkw1QTN6UzFVN3I1QVBJQkU2U1VJVFJTRGdJVEhyRHJQd0NmU2ZiNGFpc1FzdDV0TjRkel9DNWF2MGhEc2UzRVdrMEc5dVJDeWtPZ0xwamsxbGtjRnRkQV9KVzg?oc=5",
+          "published": "2026-06-15T17:44:00+00:00",
+          "publisher": "The Guardian Nigeria News",
+          "title": "ADC rejects court order for deregistration, vows to petition NJC - The Guardian Nigeria News"
+        }
+      ],
+      "hits": 5,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 5
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qSDBBS1JPeHV4emJvM3ljb3dZVDU4WFRhUG9WLUs0cmd0WW5TZVJPRlB6ZVk2T1lodWdvTTlLYnp1RldZVjlTUDZqQlI4d2FCMFc2WWtwaWctTHJSSURFLS1jcFZlOUZUNV9xOGdOSHlvQQ?oc=5",
-          "published": "2026-06-13T18:13:50+00:00",
-          "publisher": "AOL.com",
-          "title": "Jury trial over Sam Page\u2019s election-related charges set for 2027 - AOL.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY251S3dxTnI1cmRfX3FtSXNfTFo2SHh3VXFaN200SGdaLXp3bFlheW55aF9POFZ0WXhTOEV1SU14dGczbEFUMVk3SXI0QllGQmhJM0E0UEdXWFNUNVpzemh3MXhYdUQ1eGw4UkVwcVlDNnJVdkZ3R3dSNFJzbkItVTRRQ2U?oc=5",
-          "published": "2026-06-14T12:50:00+00:00",
-          "publisher": "JoCo Report",
-          "title": "You Decide: What To Expect From The New Federal Reserve? - JoCo Report"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ3Bnb2dpSjZwWGM2cVl3b0JCUWlCOVo4WXZDTkFVV2tmNWIwMHh3Mkt0QVhJRkpqX2FObmNzaTRoOTJhaHc1Q2pmZGYtT2RIQ1FtTnZORUhkWnpTT1M4ZmNvam9qYzRPajJVWHRVQUk0MXRzbnVpdXZfTWFBaFM0aHdCWnVCcFNWSWxGVmlwdUhvTG84Yko0ekJIWjlwLVUzYTZLdFFLWlRlZlVDYUFBNFVQRTI1UQ?oc=5",
-          "published": "2026-06-13T22:45:14+00:00",
-          "publisher": "Just The News",
-          "title": "Supreme Court nears end of term with several high-profile cases still pending - Just The News"
-        }
-      ],
-      "hits": 3,
+      "evidence": [],
+      "hits": 0,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 3
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [],
+      "hits": 0,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -159,7 +185,27 @@
       "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVW9XRlBkM053cXB4Y19tVlZ6RkVqNGRXUXdxQzczUUp0dV9JQWZFS0c3MS1qMExobWw5eENrRzBKaWFBV25NWWVjNk5GM05mZzJLcFU2RU9IVEZmWmUtZWdXNWxNRzUyRHpOa1hLLWZ5d09RNHJKSGJ4VG9yTmQwR0lybw?oc=5",
+          "published": "2026-06-16T12:32:00+00:00",
+          "publisher": "The Guardian",
+          "title": "Experts alarmed as Trump launches broad-front attack on US voting rights - The Guardian"
+        }
+      ],
+      "hits": 1,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
     },
@@ -179,82 +225,24 @@
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 1
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0gteHF2RDE5ZEJYdXRZVUdqc1VaUk5QTy1JWHRPcVNod3ZyNUg1UGhwYjl0bnBoQ25WSmZRQmtVZTZ1MUpscFJudklTOGNjWDhDdUU5Q1MtNVV0elVvdUtJSVJjeEUwcnptYmNiRHZ5Z05yOU5iSDVPWmg5RG12SGhMSnBiNjAwaC1wdXAyRU00ZGg3dUdydlFpOUVDSUYzaGJUVUlENTQ1N0huN2VRZjRiU084QQ?oc=5",
-          "published": "2026-06-14T15:32:00+00:00",
-          "publisher": "USA Today",
-          "title": "Donald Trump's legacy rests in the hands of federal courts - USA Today"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUkhxV1FiaTVmNkZWeV8wXzNFSzg4a21FVVB6ZGFVeGJRRF85M1BhZGZSZGhIMEt1Y0x4Qm8yRXY4V2k5eXZTYW5GNUNzenlhTVQ0OHpNQ1F4d1dZUzBHRmp2WEJRWXpGaWF1UU9XbGRVeF9VRmR4ZjR2cGd6Ymd3X25hTHlDRGQzNFA2TFQtZHQ?oc=5",
-          "published": "2026-06-14T13:44:00+00:00",
-          "publisher": "Business Insider",
-          "title": "Congress hasn't officially declared war since 1942. Presidents launched these 11 military operations anyway. - Business Insider"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYkJUby1tcWpGVGNMU0dPblBLRnBHRXI1ckExak5ZWDFQQkFSU1k0cnhONGZTZ3pMOXg4X01FZHpYRWxJRHRkeGl0czFET0FDMnU1X05hWGRoTHA3NEpHYjZReEhjYkNyWTZWT3ZZSHlwblBIOV9Oc2RkOElTT3FqbTFxNkdNUHVBaENpX3ZmdEpWV0puaUlYMl9R?oc=5",
-          "published": "2026-06-14T09:07:54+00:00",
-          "publisher": "Let's Data Science",
-          "title": "States Forge Ahead with AI Regulations Despite Trump - Let's Data Science"
-        }
-      ],
-      "hits": 3,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd0hZb09PWEF4RkEwMERsTE12VjlrMnVLTHNSSjhSVEszUHZUYjN6aW1kejFuNE9GR2dCZFVmX0owYUhGa3ZZdFJ6ZEFZalRnVm51amRNaHpvRmxoRHI0TnBfM3F0WENVOThZLWE2VEpsdkx3SHJKLVhvY1UzODcyN0MtV1o1REJRWDVla1I3TElOaHQyS2xhWUdzX0hZNWs1aHp2bUJVSkdGdWZMYmwyZVhZaXZ1bW1wNXNzRWpR?oc=5",
-          "published": "2026-06-13T16:57:00+00:00",
-          "publisher": "Votebeat",
-          "title": "This ballot measure could reshape voting in Arizona - Votebeat"
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeXYzWVhuTUhqenBNZ3BoSlVkUTBEV29SUkEwem5LcVpyaXdLbnc1ZGgwNDhIUXJyUHdBTDR3OWtGMXRjdHVhNHNtaUZiUTUzRmd2aTMxcDZiS1FCZzFoOExoaUNfOFYwVE5hREVTWHp6WkJqNVZsbHhxOEhWLW5QUjdYN1JtcXM0dGtILWtIZFpSc3ZVUFp5bjROTmJxTDBPWTMzVGVNdGV2Rm9Ba3ZCc2FJb3Q5a1BYRFpKZ2c1RVQ1cXNTbFc4?oc=5",
+          "published": "2026-06-14T23:01:00+00:00",
+          "publisher": "Amnesty International",
+          "title": "Georgia: Authorities built coordinated system to crush dissent and entrench power - Amnesty International"
         }
       ],
       "hits": 1,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -264,22 +252,15 @@
     {
       "critical_hits": 0,
       "domain_id": "security_sector_neutrality",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdzVRUVpDV0VYTi1LOTRMX2VtMHFubnNrYzdFRkNpVzBqbmwyRk9qRVRXYW91Q0NzRnFMM010c3NWQ0oxa3pJbmtlc2lwRkIwdUxGaXZCUE9DVmM0VXBZTmVLTXd1UHNXT04tOGdZbDdiWTlSdWROY2d4b2w0YmVERkU2TkQyUWs?oc=5",
-          "published": "2026-06-13T15:55:45+00:00",
-          "publisher": "MR Online",
-          "title": "Warning: Trump\u2019s rolling coup is already underway - MR Online"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "military_domestic_political_use",
       "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -290,7 +271,7 @@
       "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -303,7 +284,7 @@
       "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
