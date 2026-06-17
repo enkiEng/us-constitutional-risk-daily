@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 16.64,
+  "average_7d": 16.32,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,21 +9,21 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": -2.28,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": -2.44,
   "domain_breakdown": [
     {
-      "avg_severity": 0.25,
+      "avg_severity": 0.5,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.375,
+      "points": 2.75,
       "weight": 22
     },
     {
-      "avg_severity": 0.6166666666666667,
+      "avg_severity": 0.31666666666666665,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.3125,
+      "points": 1.1875,
       "weight": 15
     },
     {
@@ -34,31 +34,31 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 1.0,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.1666666666666665,
+      "points": 3.25,
       "weight": 13
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 0.65,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 2.208333333333333,
+      "points": 1.625,
       "weight": 10
     },
     {
-      "avg_severity": 1.325,
+      "avg_severity": 0.9750000000000001,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.3125,
+      "points": 2.4375,
       "weight": 10
     },
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.15,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.65,
+      "points": 0.3,
       "weight": 8
     },
     {
@@ -72,17 +72,23 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-06-16T14:08:50.755422+00:00",
-  "previous_score": 15,
+  "generated_at": "2026-06-17T13:34:33.190549+00:00",
+  "previous_score": 14,
   "provisional": false,
   "score": 14,
-  "score_raw": 14.36,
+  "score_raw": 13.88,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxQRUVONXNlNDZNNWlEd1hNaEFRSldJT0F2T2pqaGhVWW5pN1J4bmhHWWI1cTZRaFNIOEZKX3FDTUdoRGxwSFpudEF1ajlHbk9ELUhpVENBNjQ3QWNfR3dVRElJdTExRzNfcl9YQkpYSFc5eFhPX1RxUkV0U0RSeTlOMHpHVGhKQ3ktVUY2RlVLZU0zQm1BNUpQR0VDd1VFNkRRVVd4cGdrRnZPV2NQeTNRWjhZZU9DV2MxaWd6aGRXTi1kZUVCTTAtMzZVaklSWlBOT21IT3QwRGhCbjlnTFlTazJUdU1VNmpSVk5IajB4c1dlUURPdUg2clhOY2xWRWpKdlRKdlI3eW0xUWEzMHdWMU9JVTB6VE1qVXoyMjdES3NNYkdLOUJDb0RzVHc3S25ZYTQ4?oc=5",
+          "published": "2026-06-17T01:18:00+00:00",
+          "publisher": "weareiowa.com",
+          "title": "Libertarian candidates removed from ballot by state panel, appeals planned - weareiowa.com"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQY2JFc0c3YnV5NGY4UTMyTnA0V3FEWmdFSVZ2bGUydXhYREcxa2JPU3BoM0JGVG55aWpjVGpBQkNIS081ZW1taWtneUZtTUN0c2VqWUgtWm1velJYUmM2NTZ3ODJiOUI3a0l1TEc5TEp3SDhrX1R3QndCcDhadVNEWjdnQ3dQMjV2czRXQm56ZXhEaXRzNnZvSV9fRlNrd3QyWUpIOEl0ZThQWXBIR0F3aHZjWTJGZHg5VUd1ekxYbURxTm82bUVPNDlmU0poejVOa0FnWm5uV0F3aWlOY1VvSDhWQzRIZkxjdVdvMC0zNHNyMndzVFF3?oc=5",
           "published": "2026-06-16T00:44:17+00:00",
@@ -91,35 +97,29 @@
         },
         {
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONWpBUmlRd1VaZmdtWXB0X3FULTkzMVN5a1RqdlFMLXBibDAxYnNxOUlCa2dRazFCMlUtc1IxVEs3UmR4bXpUamJOQUJ6WFJIeXduZXVrdWpjQ3VMRk1xQWJMSkNya1c4RC1Ncm9kRUViNjBvRlF0dE5INTF6ZVRTU2QyUnFMYUUxYkFGeFNqYXIwSWxmaVhZeG1BeE5FTkNJNUc3cFh1V3hNUHpJWE5EbFlGaUQ2Mi12OFIzSU1ZV0pwR2s?oc=5",
-          "published": "2026-06-15T20:04:04+00:00",
+          "published": "2026-06-15T20:04:55+00:00",
           "publisher": "Orlando Sentinel",
           "title": "Disqualification baffles Stark, St. Cloud Republican, but state cites missing papers - Orlando Sentinel"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMUFFcTlYZFkxcVBCQmhwNXNpZXBsNjMxcUpnaDYycDN6dDFiUWZVMFRkdGF2S0VzemVvem1RVDNoN0I5WWVSZXQ1MEs5OUszVXhVMm9yU2tqekttdDM0cy1SUXdIR0JmXzE5YzdBM0RJbmF3a1pmS3NnTGppM0dmdlVn?oc=5",
-          "published": "2026-06-16T01:30:00+00:00",
-          "publisher": "AOL.com",
-          "title": "Same-name candidate disqualified from key Senate race over alleged Dem scheme to confuse voters - AOL.com"
         }
       ],
-      "hits": 5,
+      "hits": 7,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
-      "severe_hits": 0,
+      "severe_hits": 1,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 5
+      "unique_publishers": 7
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ0gteHF2RDE5ZEJYdXRZVUdqc1VaUk5QTy1JWHRPcVNod3ZyNUg1UGhwYjl0bnBoQ25WSmZRQmtVZTZ1MUpscFJudklTOGNjWDhDdUU5Q1MtNVV0elVvdUtJSVJjeEUwcnptYmNiRHZ5Z05yOU5iSDVPWmg5RG12SGhMSnBiNjAwaC1wdXAyRU00ZGg3dUdydlFpOUVDSUYzaGJUVUlENTQ1N0huN2VRZjRiU084QQ?oc=5",
-          "published": "2026-06-14T15:32:00+00:00",
-          "publisher": "USA Today",
-          "title": "Donald Trump's legacy rests in the hands of federal courts - USA Today"
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DaWRJR2VNZnIyaTRHTHhZZnZMRDROMzhfNTNRY1RSVzd1UUU2ZElnb0puNG5CV3U3Tl9pM09jVDJRVmFTeGpvSHRObVFYLXRnbTJPM2gzRWFxSDlKanBNWUhNLV9zcjNCQnhlaVZuSF9pZkZ3S2c?oc=5",
+          "published": "2026-06-16T18:53:48+00:00",
+          "publisher": "Executive Functions | Jack Goldsmith",
+          "title": "The Iran Deal in the Context of the President's Astonishing Foreign Affairs Powers - Executive Functions | Jack Goldsmith"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUTlqbFpnaEd1M1B4R2lCREh5VDdaMmRxTExYQmJscmZLUzhWcTV3WkV0SmNaZEd5MzNlQzhRVlRIc3k2bjVkYXYtOFJKQ3RhbWFHa2RkQ3FHWEVsOVdHS1Y3VnVoMVRLS2ZUTklUejRGOW0ycGRQNjVPcXIyd012eEl6bzlGbWk3Tk0yMkR6dDFvT0dpekdEZXp1VE16M2wtS3ZiaWFoYlFGQdIBrwFBVV95cUxNUDRoVmlFbmowdXdBVjctbjVQR1k0dkJnOUVCN2xkTnZWS2E1THdBNG03NXIyZFpqdE9pYWNoMUE0WWtrbUZyMGhFTTFSbHZ3OFVtYWlYSVlQUXIzNGk0Sjdzb3RqbWJ1RjdPMTE1MkczN21PYVRLV2Yxd3FzNm5oNWloTHlveVdIUGZZWXJWcEptUzNZLWcyRC1qX0xzZkt4cmIya1VNLWdfQk5Zc3pn?oc=5",
@@ -145,6 +145,32 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYd21ENGFSLXVxdGVKVmd2cnpFOWlxUUhteVNuTExUMUM1aml0eF80U21pcHFXNEtWN0w0bWVhTFRkWlFBODRpeHNyakI0Qzg4dzZz?oc=5",
+          "published": "2026-06-16T14:43:35+00:00",
+          "publisher": "Bangladesh Sangbad Sangstha (BSS)",
+          "title": "PM calls for changing revenge mindset - Bangladesh Sangbad Sangstha (BSS)"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zazdOUEdUNWpaYmZHdnBmcDVZbWdEcUV2YUltMGFvVG9nRG9aQUdvd3VXaUJQaS1yV09OYWl3YXpJdHBRYUJTc2pKMXE2RklaWlE5M1FraEZsc2gzSlU2Qg?oc=5",
+          "published": "2026-06-16T15:12:51+00:00",
+          "publisher": "Just News BD",
+          "title": "PM urges all to prioritise national interest, avoid mindset of revenge - Just News BD"
+        }
+      ],
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [],
       "hits": 0,
@@ -152,8 +178,100 @@
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTWVaLVd1My1QNFBjaVpVQmh0VGc4clVpZGx3cE5oV3luc1NqblRCRk5BZnJaYVZqd1dLVTFiMTNBX1pFWTRmUXh0bk5XWkRXUmt3UHV5aHZOWTFTdXRtaVFvMUI4S0lIdUNVVDIwUnU3RTV0QXdPRHIxOE9RbUNmdGNFVldaV2ZiZUNVemt1RDRSN3BOd1cyRTN5bUc4bXE0YUxVYlJZc1JleXFZeHMwbjBTSF9DbG4zMTNPN3hBNm9sZWpDXy12dDMxT0YwcXY1VXfSAdIBQVVfeXFMT01lWi1XdTMtUDRQY2laVUJodFRnOHJVaWRsd3BOaFd5bnNTam5UQkZOQWZyWmFWandXS1UxYjEzQV9aRVk0ZlF4dG5OV1pEV1Jrd1B1eWh2TlkxU3V0bWlRbzFCOEtJSHVDVVQyMFJ1N0U1dEF3T0RyMThPUW1DZnRjRVZXWldmYmVDVXprdUQ0UjdwTndXMkUzeW1HOG1xNGFMVWJSWXNSZXlxWXhzMG4wU0hfQ2xuMzEzTzd4QTZvbGVqQ18tdnQzMU9GMHF2NVV3?oc=5",
+          "published": "2026-06-16T12:48:24+00:00",
+          "publisher": "The Mercury News",
+          "title": "The Latest: Trump-backed candidates secure GOP Senate nominations in Alabama, Georgia, Oklahoma - The Mercury News"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQnFpMEpIemxDeWpLN0tiaHZhb3pOa0hiZGMwV2RidG14WW9RSnN5QjN0WjlOdmtUaGpNaTZ1MEQwbzRLM21feC1EbTJHMEYtTDVWZmhoLWx5TXRpNG81M1U1cUZEaDZoYk5JRjZUR2RNZGE4SXp2dy1XdFlMaHUycE1taGE3UEE?oc=5",
+          "published": "2026-06-15T20:46:26+00:00",
+          "publisher": "Oneida Dispatch",
+          "title": "Georgia\u2019s vote-counting method will soon be banned. Lawmakers will try to find a fix this week - Oneida Dispatch"
+        }
+      ],
+      "hits": 2,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQlVuSmwxSjRJa0hVTVpRRUNhYkhZMnRmdUZ2WFh1NG9NTkNROHhPVWQ0T0RENGxEYWU0amFHSGNUVjZJNjZkdGg4TVl5cjc3MVl3Tm8wMUZwTzg5QzNXVzIxQXBEVlY2ZDBETFFPMlA3UFFVNzJRM3ZfWV83VExPSmFKZDJzeDZydlB0TE4tZHp0QkpRbnZzb0F1ZlA2blJFZXR3dnp2RVp6MlJWZ2R2a2VDaUZSQm9GeDF4cFFTTEpibGFfZGEyVFlOUm5Iajd3UkZNd1NlOGVObThRVTNuQnQyQnE0STUyX3c?oc=5",
+          "published": "2026-06-16T19:05:45+00:00",
+          "publisher": "NewsBreak: Local News & Alerts",
+          "title": "Former Trump attorneys, aides plead not guilty to Wisconsin fake elector felony charges - NewsBreak: Local News & Alerts"
+        }
+      ],
+      "hits": 1,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRHpCSHpTMW82OU4wUFVWdVJ6cDNPWUlvX2FwaTkxVW5ONExGbWtPbUtjM0xsNTVOTjBvY1lYOHlqTklyNDFfVjItaUMxT19EOUFIcGdJdVZ6ZkpFN0RLclVua2RiRjBuOWV5SXlEUU9EazBWSWR6VkhLTGttUkhrbzlqM2xhOFd3cWRKV0VDRlpITGFzYzBtSXZELTlTLVk2QUZMb1dBeXIyREhBcHVDLUhGNXVacmM?oc=5",
+          "published": "2026-06-17T02:53:51+00:00",
+          "publisher": "thesouthernexaminer.com",
+          "title": "Wisdom and the Ballot: Why Timing Matters in Party Deregistration Case - thesouthernexaminer.com"
+        }
+      ],
+      "hits": 1,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "hits": 0,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.95,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "hits": 0,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -161,93 +279,13 @@
       "domain_id": "civil_liberties_information",
       "evidence": [],
       "hits": 0,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd2tKLWo0T01hVzJYdFVuaWZGR0JPWW9EN1dmRWFCdUZ0Mm92b1Y4SG53YmVVMDM0dS1OTnpadHo1a2lIdHQ2cUJ0Vmk0eDlfb0V4OWoyZVJRX1hxSHBVbUREOHNYU0xFdV8wWUVTdElZektMUGJRb08yUzNvam9ybEJTR1JCZWhFcUlocnhZMmhiM1lhTnFuUGJmZEs4YndxZGZmYkdkQQ?oc=5",
-          "published": "2026-06-15T08:52:57+00:00",
-          "publisher": "streamlinefeed.co.ke",
-          "title": "U.S. Troops Arrive at Laikipia Air Base for Sh1.7 Billion Ebola Facility - streamlinefeed.co.ke"
-        }
-      ],
-      "hits": 1,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVW9XRlBkM053cXB4Y19tVlZ6RkVqNGRXUXdxQzczUUp0dV9JQWZFS0c3MS1qMExobWw5eENrRzBKaWFBV25NWWVjNk5GM05mZzJLcFU2RU9IVEZmWmUtZWdXNWxNRzUyRHpOa1hLLWZ5d09RNHJKSGJ4VG9yTmQwR0lybw?oc=5",
-          "published": "2026-06-16T12:32:00+00:00",
-          "publisher": "The Guardian",
-          "title": "Experts alarmed as Trump launches broad-front attack on US voting rights - The Guardian"
-        }
-      ],
-      "hits": 1,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORl9qbUQ3c18yS25nZjRFcmZhdUlIOVZzczVVcGJXZVRxRm0zZUlpNlI0aWk1WGpQS1BkLUg3Y1J3NUN6VkF3ZzRlRTE5UXpIYzY0ZG5XSmVVdWRpc29JU05VaXZsZlNrVjJkUWtNX0tpczN0UlNmVU1NRkZReTdmLXJtaC03a0NYQ0QyWDB2Q1luN2RWT0l4cGRwYm1ZUmxfVXRIaw?oc=5",
-          "published": "2026-06-15T11:49:34+00:00",
-          "publisher": "Global Government Forum",
-          "title": "Thousands of US federal employees moved to new employment terms - Global Government Forum"
-        }
-      ],
-      "hits": 1,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeXYzWVhuTUhqenBNZ3BoSlVkUTBEV29SUkEwem5LcVpyaXdLbnc1ZGgwNDhIUXJyUHdBTDR3OWtGMXRjdHVhNHNtaUZiUTUzRmd2aTMxcDZiS1FCZzFoOExoaUNfOFYwVE5hREVTWHp6WkJqNVZsbHhxOEhWLW5QUjdYN1JtcXM0dGtILWtIZFpSc3ZVUFp5bjROTmJxTDBPWTMzVGVNdGV2Rm9Ba3ZCc2FJb3Q5a1BYRFpKZ2c1RVQ1cXNTbFc4?oc=5",
-          "published": "2026-06-14T23:01:00+00:00",
-          "publisher": "Amnesty International",
-          "title": "Georgia: Authorities built coordinated system to crush dissent and entrench power - Amnesty International"
-        }
-      ],
-      "hits": 1,
       "id": "political_speech_surveillance",
       "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -258,33 +296,7 @@
       "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
