@@ -1,12 +1,12 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-06-18 13:31:22 UTC
-- Score: **15 / 100** (Elevated Strain)
-- Previous day delta: **+1.0**
-- Delta vs 7-day average: **-1.6**
+- Generated: 2026-06-19 13:32:34 UTC
+- Score: **14 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-1.0**
+- Delta vs 7-day average: **-2.1**
 
 ## Interpretation
-- Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
+- Band meaning: Normal democratic conflict and routine legal contestation.
 - Signal scale: 0=green, 1=watch, 2=yellow, 3=orange, 4=red.
 - Formula: domain points = domain weight * (average signal severity / 4); total score = sum of domain points.
 
@@ -15,10 +15,10 @@
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
 | Elections and Transfer of Power | 22 | 0.33 | 1.79 |
-| Judicial Independence and Rule of Law | 15 | 0.53 | 2.00 |
-| Opposition Rights and Political Pluralism | 14 | 0.67 | 2.33 |
-| Executive Constraints and Emergency Powers | 13 | 1.10 | 3.57 |
-| Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
+| Judicial Independence and Rule of Law | 15 | 0.42 | 1.56 |
+| Opposition Rights and Political Pluralism | 14 | 0.55 | 1.92 |
+| Executive Constraints and Emergency Powers | 13 | 0.75 | 2.44 |
+| Civil Service and Agency Independence | 10 | 1.33 | 3.33 |
 | Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
@@ -27,45 +27,46 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | 4 | 3 |
-| Opposition Ballot Exclusion | opposition_pluralism | 2.00 (Yellow) | 2 | 2 |
-| Legislative Bypass by Executive | executive_constraints | 1.65 (Watch) | 1 | 1 |
+| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 7 | 3 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | 5 | 4 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.65 (Watch) | 1 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 1.30 (Watch) | 1 | 1 |
 | Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
+| Election Administration Capture | elections_transfer | 1.00 (Watch) | 1 | 1 |
 | Targeted Jurisdiction Stripping | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
-| Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Independent Agency Capture | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
-| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
-| Election Administration Capture | elections_transfer | 0.65 (Green) | 0 | 0 |
-| Alternate Elector Scheme Activity | elections_transfer | 0.65 (Green) | 0 | 0 |
-| Martial Law or Military Governance Language | executive_constraints | 0.65 (Green) | 0 | 0 |
-| Court Order Noncompliance | judiciary_rule_of_law | 0.60 (Green) | 0 | 0 |
+| Emergency Powers Expansion | executive_constraints | 0.65 (Green) | 0 | 0 |
+| Alternate Elector Scheme Activity | elections_transfer | 0.30 (Green) | 0 | 0 |
+| Martial Law or Military Governance Language | executive_constraints | 0.30 (Green) | 0 | 0 |
+| Court Order Noncompliance | judiciary_rule_of_law | 0.25 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
+### Independent Agency Capture
+- [AOL.com] These 11 upcoming Supreme Court decisions could make or break Trump's second term agenda - AOL.com (2026-06-18) - https://news.google.com/rss/articles/CBMihgFBVV95cUxQTEFzWjI3SmtoVlFUY2ZXUm5lMVpxemZOS2RqcHBFczJERmc4WE5tSmZiZnEweEhtNndac1ozelVSRVN6TF9xanctX1FPTlJheXJ6cVQyUWVrOTVDRVVocDlmazZJWnRUOFgtLUhtZDJLV2dIRm1zUXIteEhUOWEwQmZlbGsxZw?oc=5
+- [Fox News] Trump’s firing power faces twin Supreme Court tests, but one agency may get special treatment - Fox News (2026-06-18) - https://news.google.com/rss/articles/CBMivAFBVV95cUxOUnJMVUZqX1lwMWZwaU1pR2w2ZWgzTDZDMEhiNFFiMWNNRFF5N19YclhrWlUweDBsN1Y5TzU1c3JOaTA1bDRuN3NXR01KZjZla3BFbEdueXdiNnVJZWwwQTVZb24xM1BOb2lXUUYwUzNVWERmdHZfTnRvMEJGQWg2VDVyei1Na1dpV01PMllsTDZ1Y01MdWkzbnZJVmFTVFczR29EamcyTEs4UmR4WEdvWlhabFVRdG5abEt3d9IBwgFBVV95cUxPRjdHMEdhcHFPWHhjZDU5aUVnWmh0RTdhVUNHTG1RMlpXRjk4T1FRZEZhblhEX05QNEgyd2loSkYyV3ozS0RvR25od21QZFN3QTIwbUpCTnhnT245TlZOZk1SdTVxd01TaVowLS1Jbzc1Sk9TVVl5SFZlUWUxclNrdzBhZHIyMXZCWVR4TlIwdkNxOVFLNEJBay1ZdVZCdUNJUTJsSUR4Z2xOOE5lN3luVnFXN3BCMzlHMm5aWUo4anFGZw?oc=5
+- [MSN] Supreme Court may end 91-year limit on presidential firings - MSN (2026-06-18) - https://news.google.com/rss/articles/CBMi9AFBVV95cUxNU0pIX2F0WGRfdnBjRVpqazItV081Ml9xRW4tLUVUVXVIeHFZZU5UQURkaDRkN2FQMTE5bjBON2pBa0lMUTN6NVNYaDJ6UnJ0anVzLUpDcGtMVjV1aDFET051UFlLZl85QmRrZWtpaVM5V2c3OVY4WV9UaWREMlJHZ2MtN1JPb1cwWDhSU1hPNFYzczZJeU8wYzlQY1FTMXpIckpoMzA1bUktQ050RXZsUF94REdPU0hoWnVSemlsb2tZV2p0NzBESjhQUTNsTVNsWFNVSk5NUWM0NWpVaXpFdzJwLXQ1dVZORllNWjhBZHdIMDhD?oc=5
+
 ### Civil Service Purge / Schedule F
 - [Federal News Network] The ‘new’ Schedule F will NOT, necessarily, politicize the civil service - Federal News Network (2026-06-17) - https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVzlRbktzMDAtQ3dOT24xZlFyX3liMzlaLUJoRWQtcFFXRnlpYUFkeTBabTBkZlFpWUhMcHFHWGZJZ3VLVzF6LXA0Ukk4MDdvalpWaGoyNDVXbEVEQ3FqNWNuaHdmMjcya2JIMmdwMm96R2hodGE2NmlUdXJQVy10QjdLOUxiYWhQZGJXMDR2MjBXTjZMc3hmaXVISGpxNTJBSS1lYk5GMUZvdUpPUXlHd21BU1JfUXdFLXYw?oc=5
+- [FEDagent] Federal Workforce Shift Begins as 8,000 Positions Move into Schedule Policy/Career - FEDagent (2026-06-18) - https://news.google.com/rss/articles/CBMisAFBVV95cUxQUzlZc3FRdWVVZHlqWFBvMkE1cElkbmptU1dBUzRQQ3dTUHZPTmw1N2RpSkIyUU9iZGg4RldpVk5xR3dpZWtST3dHZGpQVWEwQVlrNWtIWkF3REVVdDd1aS1zcktPVFd1dTVYNkdIU21uME56U1NwZjV2MEtGeVUzNlVWSGl1VUdhNzF3UlpGcU1ZLU8tRGtnUFN0VlNsSUF0XzQtcUNqSWllQmZQYWlLLQ?oc=5
 - [eciks.org] Trump strips civil service protections from 8,000 federal employees - eciks.org (2026-06-17) - https://news.google.com/rss/articles/CBMifEFVX3lxTE1xOVhRZXVnMFVUSU9aRVlWX2JiM2RVOVZLWjAyZlZBTlNlb2pSU2dHSXJ6cHhOZzRkOVZQY3drLU4tc2hzMms0b3paREJRNGlIUmtFREVaM0I0WkF5STZyV2luUGJMQ1pSaWdFMXVld2FETXQ5aHp3VnFJYkE?oc=5
-- [Federal News Network] The public’s opinion of civil servants continues to climb - Federal News Network (2026-06-17) - https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb0tsUHk5VFhfWG5XRVE5T0VFT0RzSkttdEpBeGw1Sm9yendmbGdBUDBvNGlqb1dZLUh3ZEtXNXRQSUFndHoxbDlQQlBfaG54bHBkdTRJbmV2LWxjQXlXM29xa0l1a3RRNG41QktyN3pQMlk2Ml9MYXZTS09QTUlnb01UNzl1aE9XWVJYQWVUbFpPbXFZaUlkSW9uR2JONE5udlNRQzNaaXNWZw?oc=5
 
 ### Opposition Ballot Exclusion
-- [WQAD] Libertarian candidates removed from Iowa ballot by state panel, appeals planned - WQAD (2026-06-17) - https://news.google.com/rss/articles/CBMinAJBVV95cUxOcW1GcUN6VUZ3aTM3ckgzZUJaMUl0WHdjTk9JaTRkYW5qUVY1YzU4ZXVUTnBvNmEyMkVwMjh6SjdWWmdfWkEyMmxmazVLYkhtYW9aZUoxZkhnRmtORTRDLUgtMnF6eHNaTmVrclJRQ3pnZ01JNlhfWGhURkNIb3dIeG43X1VKM1YydjJxTW4yV2hBRmNQVlJSdEtPWmFpN3p6TXF1UGhCclBKa1MxZEpMNlJfZDZLYS1rblhDdzk2b1Z0ZVYwR3g4VkdNc3RkbEJYMng0SkpqLW1idzU2V3N6NE9GeHNzamNISzZ6TjJwVXEydV8xRTcxUnpJczh5Y3VYcGI1TmVXd053WG5OOW5nUU5QeGpxNWZFZzJ1WA?oc=5
-- [Yahoo] Libertarian candidates removed from ballot by state panel, appeals planned - Yahoo (2026-06-16) - https://news.google.com/rss/articles/CBMipgFBVV95cUxPUVN4NlZpRDE3dWJ3dFRnek9MN1dHSTEybHNMMUU2TjdBYjZwM2pkbk1fS3pLNlo0cWNKdmkzczZIdE1kdzZMLXdLMjBFYTBya1h3TmdyczJtMVJwM0gzemZfMXpGcUxJa2NJNDF2WjQyRkNudlcwbUJ2UUFfRjJYZTFkZGRtLWM2VG9EWVZ0YzI0c2xOaFhhRlMwNnpJUGswU0lfTkhR?oc=5
+- [Honolulu Star-Advertiser] Ozawa lawsuit seeks to remove Waters from race - Honolulu Star-Advertiser (2026-06-19) - https://news.google.com/rss/articles/CBMiowFBVV95cUxQYzRyd2VXUEV5UzRqcFhOTWI3UkJJZnUtRmNjWHhoRENDS0hWOHpqak9ZS2hSM3RvVm9XdlF3UWlIa2VxNTRqamZGU2FTbkx1b3ZRUFU3Z2dleG1wMU1IX2R0aE5vTlNfOFJGNml6NldtVXhoeExDdmstT1dLUzNrTElKZ2JhZWRQQWpZZUpmaXJTbk9ZcXJzSENxbkcwaXdNNUFV?oc=5
 
 ### Legislative Bypass by Executive
-- [Executive Functions | Jack Goldsmith] The Iran Deal in the Context of the President's Astonishing Foreign Affairs Powers - Executive Functions | Jack Goldsmith (2026-06-16) - https://news.google.com/rss/articles/CBMidkFVX3lxTE5DaWRJR2VNZnIyaTRHTHhZZnZMRDROMzhfNTNRY1RSVzd1UUU2ZElnb0puNG5CV3U3Tl9pM09jVDJRVmFTeGpvSHRObVFYLXRnbTJPM2gzRWFxSDlKanBNWUhNLV9zcjNCQnhlaVZuSF9pZkZ3S2c?oc=5
+- [The Center for Renewing America] Primer: The National Defense Authorization Act Is Endangering the United States - The Center for Renewing America (2026-06-18) - https://news.google.com/rss/articles/CBMitAFBVV95cUxOaENyTnkxYUNBc1pYRXJhZDRqekRaQWZOYXJpSlZ1WWVsVkxPRmZyU2pSY191UXJEalB6dm5KUHNzY3Z2T2hNQzJHS2hUWXhoUGhkYTlVR3JxYll6TUZLZHJNbkd2ZlItNm84Y0FWdGxhakJtM3o1V0kzSWw0UTUzb2ZhQS0zX3ZFQWVrQ1RMejVwOEdCbThrUE1rbm5KeUc3dlNwMDJJVjAtWjc4ZXNjdmpaaGo?oc=5
 
 ### Press Restrictions or Retaliation
-- [Bangladesh Sangbad Sangstha (BSS)] PM calls for changing revenge mindset - Bangladesh Sangbad Sangstha (BSS) (2026-06-16) - https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYd21ENGFSLXVxdGVKVmd2cnpFOWlxUUhteVNuTExUMUM1aml0eF80U21pcHFXNEtWN0w0bWVhTFRkWlFBODRpeHNyakI0Qzg4dzZz?oc=5
-- [Just News BD] PM urges all to prioritise national interest, avoid mindset of revenge - Just News BD (2026-06-16) - https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zazdOUEdUNWpaYmZHdnBmcDVZbWdEcUV2YUltMGFvVG9nRG9aQUdvd3VXaUJQaS1yV09OYWl3YXpJdHBRYUJTc2pKMXE2RklaWlE5M1FraEZsc2gzSlU2Qg?oc=5
-
-### Targeted Jurisdiction Stripping
-- [Stars and Stripes] Incarcerated veteran’s challenge to keep disability benefits heads to Supreme Court - Stars and Stripes (2026-06-17) - https://news.google.com/rss/articles/CBMipwFBVV95cUxNdEZSUTRodUhlcUpGVTFsTnVFcTBPeWthZE1uaFB2LXJrSkFKa1ZSNHFtS0VCMkNBSWZQOVFIV3Q3VUdmU0hab1ZTaXF0b09YazlpdkVrS2NxcU9oUC1oMzRpTV9RUE9sSUYzUmkydjhoV18yRnNPRTFSWmNlaHk3RVNvT244R2x2RHdTQXBQVGxjTVpXZlBaenUtZElBZUZhMzZ3dGhEYw?oc=5
+- [Amu TV] Half of world’s exiled journalists since 2021 are Afghan, RSF says - Amu TV (2026-06-19) - https://news.google.com/rss/articles/CBMiOkFVX3lxTFBqVDcwREEwb2NLeFNEb0tCeERLMjhjWnk3b2FoeFc1MFFwUUd5OXFuc0FuVHpoTXVYU2c?oc=5
+- [Journalism Pakistan] The JournalismPakistan Global Media Brief | Edition 25 | June 19, 2026 - Journalism Pakistan (2026-06-19) - https://news.google.com/rss/articles/CBMiogFBVV95cUxONk0yQXRENHpZSTNLVWM2VEJYMmQxUzFHZ1kwY3FDdUcyNVhJQ0xJMXB2UTlQeEJWU0VMVUNuam96X01aT2ZOWG5ncjNHMzBNaTNrV1BqMTFQUWoxLTZDcTdSZ0lYQ280dEF4UWJPM2FOLXFQc3dRTHNPMFprdWowZjhjQ2lXSlM2UjN0NzI5WkdnWlpKaVcxTnpnMDJvUWg1TGc?oc=5
 
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Confidence: **Medium**
+- Confidence: **High**
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.
