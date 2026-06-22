@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-06-21 13:02:43 UTC
+- Generated: 2026-06-22 14:14:44 UTC
 - Score: **13 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **-1.1**
+- Previous day delta: **0.0**
+- Delta vs 7-day average: **-0.3**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -14,50 +14,49 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.50 | 2.75 |
-| Judicial Independence and Rule of Law | 15 | 0.10 | 0.37 |
-| Opposition Rights and Political Pluralism | 14 | 0.32 | 1.11 |
-| Executive Constraints and Emergency Powers | 13 | 0.67 | 2.17 |
-| Civil Service and Agency Independence | 10 | 0.87 | 2.17 |
+| Elections and Transfer of Power | 22 | 0.41 | 2.27 |
+| Judicial Independence and Rule of Law | 15 | 0.67 | 2.50 |
+| Opposition Rights and Political Pluralism | 14 | 0.33 | 1.17 |
+| Executive Constraints and Emergency Powers | 13 | 0.55 | 1.79 |
+| Civil Service and Agency Independence | 10 | 0.65 | 1.62 |
 | Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
-| Security Sector Neutrality | 8 | 1.00 | 2.00 |
+| Security Sector Neutrality | 8 | 0.82 | 1.65 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Domestic Military Use in Political Conflict | security_sector_neutrality | 2.00 (Yellow) | 3 | 3 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 1.30 (Watch) | 0 | 0 |
-| Independent Agency Capture | civil_service_integrity | 1.30 (Watch) | 0 | 0 |
-| Election Administration Capture | elections_transfer | 1.00 (Watch) | 3 | 3 |
-| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 2 | 2 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
-| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
-| Alternate Elector Scheme Activity | elections_transfer | 1.00 (Watch) | 1 | 1 |
-| Martial Law or Military Governance Language | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Opposition Ballot Exclusion | opposition_pluralism | 0.95 (Watch) | 0 | 0 |
-| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 0.30 (Green) | 0 | 0 |
+| Domestic Military Use in Political Conflict | security_sector_neutrality | 1.65 (Watch) | 0 | 0 |
+| Independent Agency Capture | civil_service_integrity | 1.00 (Watch) | 2 | 2 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 2 | 1 |
+| Election Administration Capture | elections_transfer | 1.00 (Watch) | 1 | 1 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
+| Court Order Noncompliance | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 1 | 1 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 0.95 (Watch) | 0 | 0 |
+| Alternate Elector Scheme Activity | elections_transfer | 0.65 (Green) | 0 | 0 |
+| Martial Law or Military Governance Language | executive_constraints | 0.65 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Domestic Military Use in Political Conflict
-- [The Guardian] Bolivian president declares state of emergency and deploys military to quell anti-government protests - The Guardian (2026-06-21) - https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaWQyYTZLd3FiSzBlNUYxejMtbS1hcGxYNXZZVmhPQ0lXMzVMTVdubFAteVZpSjhvUHlqYVlJQjNFYVctRTFpRVFBa0dJMmo3NFNpcXI0NzNlZC1USXFydDlYSERLQUlsSl9BSUcxRGt2ZWIwTlZ2RUw0UjdPa1NCeXJhQ1NTcll4UWtGOURUWFJYN2RFc1hTTElmMWFfcGF4TS1qXzVQRE9nOEQycEF4WHVtNE14dkxCaEFGNVdHN0hCZ2cyM2F2dFU0cFlLT2t5TTRfLTJ6MTlDVXFBX0lBTQ?oc=5
-- [Jagran Josh] Bolivia Declares State of Emergency: Know Causes, Key Facts, and Impacts - Jagran Josh (2026-06-20) - https://news.google.com/rss/articles/CBMixgFBVV95cUxNMl9UakEzUVRTTU1kTV9ENUttZS1Gbi1FYUxveFhKMTRINk11MTVVcG5QTWh6TXlHNmh5UmhjZVVkcXNkdFYxaVc4MUpVWFhlQllqMk4xU0p1OHhYQk44OGxvbUZ3bzZucjVYRUc2c0lNSEhRR2xBQ2tma01qNWx4cXpGcmIzZDJOZHBGTzRHZWZ3cmRpUmxjWXozVERPaU03TzdCdVV5UndFdElndzhOVjNSX1FuWktLR2tvM21kand0RGNQTUE?oc=5
-- [Head Topics] Bolivia's President Declares State of Emergency to Clear Blockades, Warns Protesters - Head Topics (2026-06-20) - https://news.google.com/rss/articles/CBMinAFBVV95cUxPUlItVFpLRWdTZjFYU24xWFp3amNkR29BRXJqVm1qUEh4VE1XcHZoaVc1SEhKV1hZWWtYdzRfWTRQRzhlZ1ZOSW9RejN6ZFlQWVNfZ2ZNT05vRFh3SDNLbk9HTUpSY3JjbUtMY2JZM08wdWdEbkgyVlZLcy16TWJPaG5pNG9JcTNodEJ4blNDQW9pbGQzWGQydWdlbWo?oc=5
-
-### Civil Service Purge / Schedule F
 - No fresh evidence links in the current lookback window.
 ### Independent Agency Capture
-- No fresh evidence links in the current lookback window.
-### Election Administration Capture
-- [Politico] Playbook - Politico (2026-06-20) - https://news.google.com/rss/articles/CBMiSEFVX3lxTFAyQkZwUjVOOEFSSFFicG1RMFhQTVo2TWdmZDN2Zjd2aWtJM0lpMklrQkVPR3dVRDByTkFORmJHZU9qSXlEdTNxbw?oc=5
-- [Iowa Public Radio] Today's Iowa News ↓ - Iowa Public Radio (2026-06-19) - https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5
-- [The Eastleigh Voice] Guinea-Bissau: Opposition leader Domingos Pereira house arrest raises stakes - The Eastleigh Voice (2026-06-20) - https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdm0tYTk1NFcteVVKU2duUXF5cmN4VkRrc2o1TE1VS2pTaFJMVzRkSllHVDBzbzE3bTE2WWtxeFVFUmd0QnhsSWlVV1Etc1RxT0h0dDcyaHU2UGkxcnJ5RTRQbWVSQWtLcFB3RXRlWEEwTE13YVN6ZWR0dnZTZXRTOFgzVGtUQ2FPV2pCZzhhTFRJbDBDOWlCS1JzWEtRR0djdk1DSmNrVk01MnNkMGFCMjdSNllYZE82NHBwRGlucEE?oc=5
+- [Just Security] Looking Back at Humphrey’s Executor - Just Security (2026-06-21) - https://news.google.com/rss/articles/CBMicEFVX3lxTFBzT0dERTRxcHVtRFI5VU4wRDlOX0VwOEZBazJ4aUU5NFd2WE1CRTVFV2dYMDNtN0JSdEFlVldkZGgxbUdEWHo5RHdYY2NNb1VZOVlxSnlDZVV1LXNYZzZ3UnByTXRnMVdlZzdPYk5GRVc?oc=5
+- [AOL.com] Trump’s firing power faces twin Supreme Court tests, but one agency may get special treatment - AOL.com (2026-06-21) - https://news.google.com/rss/articles/CBMifkFVX3lxTE1yM19fcVk4U09faERzYlNBNmx5TG9uNWZrbkpRN0xyWEFLTnFMT2YxRlktQUprc2dpMnF2S01Xb0N0bGhEc0g1VWdVWmhXU1NfZEFzSklFM1RjX04xa1JGbEh1TWtEaE5OV0tVXzg0RmlaQkZueDBjVENDZS03QQ?oc=5
 
-### Legislative Bypass by Executive
-- [SCC Online] The Constitutional Allocation of Economic Power: Disciplining Executive Authority over Tariffs in the United States and India’s Functional Alternative to the Major Questions Doctrine - SCC Online (2026-06-20) - https://news.google.com/rss/articles/CBMiygFBVV95cUxQSDdwc0tWeWtOOFc5VWZ5YW5lel95TFRZQV90NldqWGpPLXFqVmhBV3ZETzFuTFZOVmFiQTF3bTIyNHM3N0lRV0ZDRndzU2ZsY0VEV3E0SHpqNERqWER3ZTJiaEJjQlQ4elJkZFNDYUdLZlMtUFFEYTVhcHMySVpHczl2ZVhUR1d4UWNLaG9yR0NOeTVkeVZmMk9NellNSkFMNGVmNWhPNjRvRXlRcS0wSGx2OV9QZE9iVmRkd2xfbk1ycTRoOEowaUF3?oc=5
-- [NewsBreak: Local News & Alerts] Federal Judge Allows Key Challenges to Trump's Mail-Voting Order to Move Forward Ahead of Midterms - NewsBreak: Local News & Alerts (2026-06-19) - https://news.google.com/rss/articles/CBMi_wFBVV95cUxPS2E1VzN2SFhfVlFsNjhxRGpEMWZuMEZLNFVDZkNNZmd2dnV5Y214QV91ODdieUpEZnE3Q3RVZDZIT0tFRy1xQWk5TzN2OGlyMlMtM21ubnJCclQ5VEZsVHJDV3Y4V3ozcVpPMnB3VE1GUWhvMHBjOXhSZlY3MDZwNFJnTDFrY2VDRG1yYXBZWVB4b3B2X19yWFVXT24xeEsyV3NKdW5vQzJaYTFrN1FDSW1YTnQyVC1NQllYaVJjTkhXcnZBM2IyNUZkYVpkRFNvaWhteXhuQ1h5dDVlNHBuYk5EMnlFbERiX0Z2TGgtV1Z1WldoM0FpR0hROFZPOE0?oc=5
+### Press Restrictions or Retaliation
+- [Journalism Pakistan] Pakistan Media Monitor | Edition 2 | June 9-22, 2026 - Journalism Pakistan (2026-06-22) - https://news.google.com/rss/articles/CBMiigFBVV95cUxPdzVpTTJhS2dsb2szX2hFWGlUSzFOdUowNzhVX0t5SkJrd0taa0NZV1pBVmlsQ2dxMGVGV2pWVTJ6TVlUZHlrY2pVZDZTZ21pWWNhanRJcXEya1Q4dWpQTVo3WUpleGVTckhONVNxQzBlT0M3Mmp3QTh3U1JoM3ZlWDBoN0poTHdiSVE?oc=5
+- [Journalism Pakistan] Journalist exile crisis deepens as countries forcing reporters to flee doubles - Journalism Pakistan (2026-06-20) - https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDJvdjJPMTVTYXdRVmJGMmRFb1g0d3owNUFBb3VPalFHWlR6cjkwaXlrSFZjd2NfWmZrOWxnWGVRQkFCaVBwZXhkd1hJMzBPTUx3UmhFMUpBMXZkc0UyRldGeXNhcU5zYkMyTmdOS3BYR1F5VHhybXJka29xT0RjSEZqTVJHa2JmeHpGaEhnZGpaVUlhaFQyb2U2bUo2YXVQLWFuaUFDa2d0WF83Y2Y2S05IYw?oc=5
+
+### Election Administration Capture
+- [inkl] Trump DOJ U-Turn: Administration Asks Supreme Court to Revive Blocked Voter Purge Rules Ahead of Midterms - inkl (2026-06-21) - https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZl9kY1Nzb01JcU8yVTRVY1NkUDJuM2hLc25vZDd4d2xESUt2c2RWclpPSWt0MGVlbV9yblZJdTVNVHpKQTdzU2tOWVZlUkxySU1LMFdIeldMS1BPQ290Mjc4NDBvTTV6U2kza1lCMUQ3Q21IUVZOUU1PY28zY1lxSm1xaVRfUVljc3VyeThlVHlRbkgyQmZhbEozWkZKQmdXWTZ5VTBDdUh1WV9xbkc5bWR4Szlmc242bjhYZko3RjQ1b3h5NUY2NG5XczZHVXYxZTVr?oc=5
+
+### Opposition Ballot Exclusion
+- [ANI News] "Foolish step": Suspended BJD MLA slams party's disqualification petition after Odisha Assembly Speaker's dismissal - ANI News (2026-06-22) - https://news.google.com/rss/articles/CBMi_wFBVV95cUxOblcwQjVSUXdvV012bmhYaHFVbHhrQ3hWY2RINTVUSHpjZlZuRGlkVVUtbmdQV2dRY0RuQVZtb3ZpcEJGVkFNWHZqNVl5T3VybkROQmlZVnhWY29HYmg3ZWdxeXk5MEprS3ZoSTlBXzl2WjNXeE0yVWFfR1hOOWNSeUhUVnBJQjE1ZVZkLVNSTkdHZkRPSHgyZXVXVFlaa1ViMExMMmI1MTVXZVk0Q05yY3JJdmVnZ0kxMEdOSWtUN1JFRm1GdWUtMFlaaGY4b2Y2QzdLZVA3RFNZWGVwN2R1ckI2WUQ0RXhOcTJaN3dVOENVazZWbktpRzlKa3c0Zzg?oc=5
 
 ## Data Quality
 
