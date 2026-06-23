@@ -1,22 +1,22 @@
 {
   "attempted_queries": 22,
-  "average_7d": 13.84,
+  "average_7d": 13.94,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -0.34,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": 1.14,
   "domain_breakdown": [
     {
-      "avg_severity": 0.4125,
+      "avg_severity": 0.325,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.26875,
+      "points": 1.7875,
       "weight": 22
     },
     {
@@ -27,24 +27,24 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 1.0,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1666666666666665,
+      "points": 3.5,
       "weight": 14
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.6666666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.7874999999999999,
+      "points": 2.1666666666666665,
       "weight": 13
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.5333333333333333,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.625,
+      "points": 1.3333333333333333,
       "weight": 10
     },
     {
@@ -55,10 +55,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.65,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 1.65,
+      "points": 1.3,
       "weight": 8
     },
     {
@@ -72,46 +72,91 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-06-22T14:14:44.407179+00:00",
+  "generated_at": "2026-06-23T13:19:23.161740+00:00",
   "previous_score": 13,
   "provisional": false,
-  "score": 13,
-  "score_raw": 13.5,
+  "score": 15,
+  "score_raw": 15.09,
   "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaUZJWTBhS19UYjJPOHZKTnJpS1FkYm5KeV9ZaUpUYkRqOG5LY01NLU1VWE5yc2d0a01HZ3hXTEZWWmZiVnA5QlpCOTBLd0ZkeUl5ejdXUW1rbEVaZHVtRUx4dkh0R2pwQ0tWTk92TWxKZlZPVFpHQVBraVVuZWpDd1NZNXRUVFppazhyaW1fTl9qZGl5MUtkeW1yTU13QzZLNE1CLWNFUEZWUFJuSS1rcTR1QWRVSVFiVm85LVowamJldWc?oc=5",
+          "published": "2026-06-23T02:18:36+00:00",
+          "publisher": "WRAL",
+          "title": "Challenger with same name as Alaska US Sen. Dan Sullivan sues to stay on ballot - WRAL"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRHhsZEZHeGxXRzJpQ2NQcHBnbjdLTEVqblM2OFowZ1d0NzdsRi1sWXZnVUV1Z00tWEQwN3h2b3B2TlVHVGhfekVTRDZfWkJ4STEyRTlCOENaYUZkYWdRdWdzN2RUSktWa2gxREs0NExGUUNqUHZxWS03dFN5ZjVwb1RhTFltdkZVNGZ1QzdPNE1QLTVjUHVSbjY0Tm5ZU3BaSWZ2VWJBWGFibWl6QnZWOEItV3ZjVXZtVXg2S2ZlRVM0NlFiN2JHbg?oc=5",
+          "published": "2026-06-22T20:47:23+00:00",
+          "publisher": "CityNews Halifax",
+          "title": "Challenger with same name as Alaska US Sen. Dan Sullivan files challenge to stay on ballot - CityNews Halifax"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQWU2cWFqZHd3TjNlTkxXUWtsSnhUNVlrS1NvMDZkYV9ER2tXOUQwcnNZYnJuTlhMSEVqaWZqRkdJZGhsd285VTdQOGs5V2RBMDVnU19lckpYTmxhOVlSSjVKYm03T2VDd2w1LXJqbnR4cV9WcUtybHpTMlA0RDBra2M4VE9Ia3hzU09XWHNLekJnS1ItcTFSSFpaZV9yRXJCWVFMeTg3X1ktWHI1cUdMNEFtVnhMaHFnVHRGbU13aXUwZFlkRmp5bXhfYW1wdmNQ?oc=5",
+          "published": "2026-06-21T15:51:00+00:00",
+          "publisher": "thegazette.com",
+          "title": "Rob Sand changes his tune on ballot access in Iowa - thegazette.com"
+        }
+      ],
+      "hits": 5,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 5
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "security_sector_neutrality",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsYWkzdmU0NmpzYlcxX3FLSUdTN1ZhT1JBTU1RMXNUM0VhOXY5Y0xKRWFYQjBZdk5pcmZOY0xrQmJ6eTh4TGYxODFaZXpJZUhsb0JfdWJvaHF0cmdCcEg0aUJoSm4yektJaEpsR1QwZ9IBd0FVX3lxTFBsSTVJMk5vX1pvemdxaG5oMlBiQWZ6Wng1bmlYX1dnRlZVd0FuejRCc00zcTRhYTRsSGFCaG81NzE5X09zcXNLMFExSmxadmdNWFZnVW4wYkQ3T2JObUpBbzNyUEFSaDFLNHBCOXR1eWc5NWpBWk9Z?oc=5",
+          "published": "2026-06-22T11:49:55+00:00",
+          "publisher": "The Nation",
+          "title": "We Are in the Middle of a \u201cRolling Coup\u201d - The Nation"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbnJBYUFERG5aRFdKOHlOeEdkcEZvVk5Ec3lvRTRPZjl6ajFUWW8yT19nSHVOUHM3S25xekJDLUZ4RU5tN1U3eHh3UEpMZFJKUElSSjdFZzJxeF9ESnpHV3B2Tl9icHFja2JpVVBtOHUxSW1PclZDbTNNLWlpa3pqV3hHcEFLQ2JkMTJkUEtnd3dqSEFpTlHSAZYBQVVfeXFMUG5yQWFBRERuWkRXSjh5TnhHZHBGb1ZORHN5b0U0T2Y5emoxVFlvMk9fZ0h1TlBzN0tucXpCQy1GeEVObTdVN3h4d1BKTGRSSlBJUko3RWcycXhfREp6R1dwdk5fYnBxY2tiaVVQbTh1MUltT3JWQ20zTS1paWt6ald4R3BBS0NiZDEyZFBLZ3d3akhBaU5R?oc=5",
+          "published": "2026-06-22T09:36:51+00:00",
+          "publisher": "The Nation",
+          "title": "The Warning America Can\u2019t Afford to Ignore - The Nation"
+        }
+      ],
+      "hits": 2,
       "id": "military_domestic_political_use",
       "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzT0dERTRxcHVtRFI5VU4wRDlOX0VwOEZBazJ4aUU5NFd2WE1CRTVFV2dYMDNtN0JSdEFlVldkZGgxbUdEWHo5RHdYY2NNb1VZOVlxSnlDZVV1LXNYZzZ3UnByTXRnMVdlZzdPYk5GRVc?oc=5",
-          "published": "2026-06-21T13:10:22+00:00",
-          "publisher": "Just Security",
-          "title": "Looking Back at Humphrey\u2019s Executor - Just Security"
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRzVEYzYtR0ZrY0N4SDNvb016bE5XQ0FkWW0xWHA1WUJkUnNhbnpreEttdV9Gc0dFVEktZ2lfeDVwYmxpM05OVmE4UXhubDFNVUhsYXNuV3BJZ29sandKYmdtY1lCcjU2OGxaakNDQVlzbS1zUkM4TWJvSmhjQ2pmbkVn?oc=5",
+          "published": "2026-06-22T09:28:38+00:00",
+          "publisher": "CNN",
+          "title": "At least 77 court rulings concerning Trump\u2019s second term include sharp criticism from judges - CNN"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1yM19fcVk4U09faERzYlNBNmx5TG9uNWZrbkpRN0xyWEFLTnFMT2YxRlktQUprc2dpMnF2S01Xb0N0bGhEc0g1VWdVWmhXU1NfZEFzSklFM1RjX04xa1JGbEh1TWtEaE5OV0tVXzg0RmlaQkZueDBjVENDZS03QQ?oc=5",
-          "published": "2026-06-21T22:24:22+00:00",
-          "publisher": "AOL.com",
-          "title": "Trump\u2019s firing power faces twin Supreme Court tests, but one agency may get special treatment - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xSkpzYkpQeC1iNDJjbDNpdlRfYTh0SjFBdjVabWNwSElpWEdkMWpGVGVZQ1BiRXBHaHI5NXFYR0tRdTRYRFRNRVVWZkRQelRXTDZ6NUo3QXl2UW04UkV3?oc=5",
+          "published": "2026-06-22T20:54:19+00:00",
+          "publisher": "The New Republic",
+          "title": "ICE Agents Do Donuts With Their Cars to Celebrate Father\u2019s Day Raid - The New Republic"
         }
       ],
       "hits": 2,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -123,16 +168,42 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdzVpTTJhS2dsb2szX2hFWGlUSzFOdUowNzhVX0t5SkJrd0taa0NZV1pBVmlsQ2dxMGVGV2pWVTJ6TVlUZHlrY2pVZDZTZ21pWWNhanRJcXEya1Q4dWpQTVo3WUpleGVTckhONVNxQzBlT0M3Mmp3QTh3U1JoM3ZlWDBoN0poTHdiSVE?oc=5",
-          "published": "2026-06-22T09:23:34+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "Pakistan Media Monitor | Edition 2 | June 9-22, 2026 - Journalism Pakistan"
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPckFjY3pEa2d2Z0FrRDlfM3lLdEYwSTRGSkppTmpTbUR1a3hWQnVMX1o4N2FLdWp0bkpvbFd6RS1kTWg1cWJfUkhmcFViU1RBZUxKTlZnZERJdWEyY2Izd19OdWliNUs3VmdVVzdWZDJkX3E2eGt4eDZhek9YTHA5TA?oc=5",
+          "published": "2026-06-22T14:00:00+00:00",
+          "publisher": "theappeal.org",
+          "title": "Trump\u2019s Crackdown on Dissent Comes for Minnesota Anti-ICE Organizers - theappeal.org"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDJvdjJPMTVTYXdRVmJGMmRFb1g0d3owNUFBb3VPalFHWlR6cjkwaXlrSFZjd2NfWmZrOWxnWGVRQkFCaVBwZXhkd1hJMzBPTUx3UmhFMUpBMXZkc0UyRldGeXNhcU5zYkMyTmdOS3BYR1F5VHhybXJka29xT0RjSEZqTVJHa2JmeHpGaEhnZGpaVUlhaFQyb2U2bUo2YXVQLWFuaUFDa2d0WF83Y2Y2S05IYw?oc=5",
-          "published": "2026-06-20T15:28:09+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb0NOVnJaNmlVZjZwd0hJdXVxUzV3Y2RLaThvanpYb0Y0dTRJaEszLWJkNDllcTBienY4QW81TXBRQ09Db3JTTEJrb1ozeUd6M0k5Wm1CajhJemJobUw3cjlRNjNzM0hmMXZBUE94TlRDTDRmNWpsZGdtRF9nelNFa0ZELUkyVkpDVVRTOGF4Ty1Ram1XWjAyWGh3VGljRnludllEQ0NXQWtCb0tZMFVTd3ZBcVROM0JHQ0E?oc=5",
+          "published": "2026-06-22T20:07:29+00:00",
+          "publisher": "Unicorn Riot",
+          "title": "Terror Charges, and the Criminalization of Pro-Palestine Activism in the Czech Republic - Unicorn Riot"
+        }
+      ],
+      "hits": 2,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNODU5cGxqZ1ByWFdHTHFibkhZSkJBcDlkakNYSGtxTWVBbklrRi1GQUhFTjVoMDRVNEw0alROZTdrN2lmUEw1LXBwd0w1Q0ZITGtyelYtMnNwUUo2SlR6a1V4RnUwLUNaN3hGaDN2YkRyMENaRGxSN01EaFc0bGNiZGdfSzRJMG1VTTUwNk5PR1c5RHJVLXc?oc=5",
+          "published": "2026-06-23T08:23:24+00:00",
           "publisher": "Journalism Pakistan",
-          "title": "Journalist exile crisis deepens as countries forcing reporters to flee doubles - Journalism Pakistan"
+          "title": "UNESCO report makes economic case for independent media - Journalism Pakistan"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdzVpTTJhS2dsb2szX2hFWGlUSzFOdUowNzhVX0t5SkJrd0taa0NZV1pBVmlsQ2dxMGVGV2pWVTJ6TVlUZHlrY2pVZDZTZ21pWWNhanRJcXEya1Q4dWpQTVo3WUpleGVTckhONVNxQzBlT0M3Mmp3QTh3U1JoM3ZlWDBoN0poTHdiSVE?oc=5",
+          "published": "2026-06-22T14:20:58+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "Pakistan Media Monitor | Edition 2 | June 9-22, 2026 - Journalism Pakistan"
         }
       ],
       "hits": 2,
@@ -149,10 +220,10 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZl9kY1Nzb01JcU8yVTRVY1NkUDJuM2hLc25vZDd4d2xESUt2c2RWclpPSWt0MGVlbV9yblZJdTVNVHpKQTdzU2tOWVZlUkxySU1LMFdIeldMS1BPQ290Mjc4NDBvTTV6U2kza1lCMUQ3Q21IUVZOUU1PY28zY1lxSm1xaVRfUVljc3VyeThlVHlRbkgyQmZhbEozWkZKQmdXWTZ5VTBDdUh1WV9xbkc5bWR4Szlmc242bjhYZko3RjQ1b3h5NUY2NG5XczZHVXYxZTVr?oc=5",
-          "published": "2026-06-21T12:53:24+00:00",
-          "publisher": "inkl",
-          "title": "Trump DOJ U-Turn: Administration Asks Supreme Court to Revive Blocked Voter Purge Rules Ahead of Midterms - inkl"
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xSkpzYkpQeC1iNDJjbDNpdlRfYTh0SjFBdjVabWNwSElpWEdkMWpGVGVZQ1BiRXBHaHI5NXFYR0tRdTRYRFRNRVVWZkRQelRXTDZ6NUo3QXl2UW04UkV3?oc=5",
+          "published": "2026-06-22T20:54:19+00:00",
+          "publisher": "The New Republic",
+          "title": "ICE Agents Do Donuts With Their Cars to Celebrate Father\u2019s Day Raid - The New Republic"
         }
       ],
       "hits": 1,
@@ -169,15 +240,15 @@
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOblcwQjVSUXdvV012bmhYaHFVbHhrQ3hWY2RINTVUSHpjZlZuRGlkVVUtbmdQV2dRY0RuQVZtb3ZpcEJGVkFNWHZqNVl5T3VybkROQmlZVnhWY29HYmg3ZWdxeXk5MEprS3ZoSTlBXzl2WjNXeE0yVWFfR1hOOWNSeUhUVnBJQjE1ZVZkLVNSTkdHZkRPSHgyZXVXVFlaa1ViMExMMmI1MTVXZVk0Q05yY3JJdmVnZ0kxMEdOSWtUN1JFRm1GdWUtMFlaaGY4b2Y2QzdLZVA3RFNZWGVwN2R1ckI2WUQ0RXhOcTJaN3dVOENVazZWbktpRzlKa3c0Zzg?oc=5",
-          "published": "2026-06-22T09:28:00+00:00",
-          "publisher": "ANI News",
-          "title": "\"Foolish step\": Suspended BJD MLA slams party's disqualification petition after Odisha Assembly Speaker's dismissal - ANI News"
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRUJPSjZUaEFBQkFvd3Q2eHJNcy1HeEtXOTR2UHVaWkhsT0lYUmFSdTEzS2ppMlMyVV9fN1NwTUdGZ3BmbExFenhOVEFYRzNnTnpjRWZSV0wtT2NSaWk0aDBRV01WSXl4N3hrQk1YOEhyU0F4RnltZzhTQUl1OTM5ajNzQnhOVk1KTzF2R3V5ZVo4V253RE1BRXFwNUJ3aXgxaUNHWlRRcjlUdFd4WVpvRnZqaVJ5MHRBcllUX2o2TnNZVHZ6dlhYTDVpTC1YVTBz0gHWAUFVX3lxTFBCUFdFX0g0RE9Md2M1ZXJQTlRLVkJEOXJTOW9mdTF3ejJzY29tQnRKRUlxWHdiQUdGcmFvQTFqV1AxX3VVcWFhX1ktZmt0LVpBemFSLWNtUXpDTnc3YzIwVDhkeFpJaXlSOFRDUi1KeVhGZFhLOXVTc0FyckVCRExBZFJ6blliRGhEaFVqQVFaRWdPN2l2TzBValpGWDFXYlozMXdGZnN3WUpSUkRKRE1Da3MtTTA3WW41X0VIWWEyZFdEeGxOa3NPWEJtMmt4Z3VudTZodHc?oc=5",
+          "published": "2026-06-22T17:26:18+00:00",
+          "publisher": "PBS",
+          "title": "Federal judge halts Trump administration effort to subpoena Walz in immigration enforcement probe - PBS"
         }
       ],
       "hits": 1,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -189,30 +260,10 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRzVEYzYtR0ZrY0N4SDNvb016bE5XQ0FkWW0xWHA1WUJkUnNhbnpreEttdV9Gc0dFVEktZ2lfeDVwYmxpM05OVmE4UXhubDFNVUhsYXNuV3BJZ29sandKYmdtY1lCcjU2OGxaakNDQVlzbS1zUkM4TWJvSmhjQ2pmbkVn?oc=5",
-          "published": "2026-06-22T09:28:38+00:00",
-          "publisher": "CNN",
-          "title": "At least 77 court rulings concerning Trump\u2019s second term include sharp criticism from judges - CNN"
-        }
-      ],
-      "hits": 1,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNcTlSb3RNQXliV3duNlU2aHpaSGhLRFBZbGVjT1pXMkI3bi1reEVHMEdDSmp2bi1JcVlKWFlabUViM1Y4N0RXX0wtblJsNDlUeGVuakx2Yjl2aHl4WGlBd2hSb3BXMjBKZ1EwM3QwTVY3VmptQk9wdVY1QVBodmVhTS1YbklEMDVSS3U3aTJUbHhDeXBqZDBHTFB5S2NXVy11NjRuakhfSDI2cjIxRXF2SlQzeW84VlhYZ1lTOU1pQ042alVZaWU0dTdJb3k4VGt4NlB6bm9uWlkyOGM2cm1SRkdSci1NTFdyTjFrNGxodXF4bzg1VkNBeVJJMEZ4TmRpazJGN185UTFyM3ByQVM2QTBLR0U5LWpxalVYcVJCVm04R1JtT1p3blNlX1lpT2gtSmVPNzFoOXo2SUlNRndYbDdn?oc=5",
-          "published": "2026-06-21T10:37:23+00:00",
-          "publisher": "MSN",
-          "title": "Court Slaps 13 With GH\u00a250,000 Fine Over Defied Injunction - MSN"
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQWtUcXdkSzl1bFFVQnlyaU1zVnlZS21YUUFsTTEyYXlSaDBROWhTYk16eFdwRU9TcHZrOEl4UnQ2ajNSRGF2Sk5aWVphdXBRYVc2YjJOcEFxUWNKREpPSUJOUjNxNzM2bzNBbWpvQm5NaDQ0TjFOWHdoRDJjWnJ1VmVKdWdDQzQ?oc=5",
+          "published": "2026-06-22T20:57:31+00:00",
+          "publisher": "Nyasa Times",
+          "title": "Chipiko challenges Malawi police over court defiance - Malawi News | Breaking News, Politics, Business & Sports - Nyasa Times"
         }
       ],
       "hits": 1,
@@ -229,10 +280,10 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTGEyU2VUek5id2VMTzZyeXA3VzRRQnJqOHkzM3JLU05EWkRGV2xpQ0dfV1hJZ2M3U0pCeWdZNUtmZlNRSWRoenl3UXhRR2ZULW1DV0hxc1JkXzY3RDhCRzd6OTJzTFFmRGF0Q0NkSFhRSkZDbWU3NlZ6cHNfWEwzalN0RXRFenl0SXNYZTBnemZxUkFiUmg5dXh6OEFwbno4a29hREl1bGZ4SnM4OU5NNkhmcEVScUsxWGJZT0xsdFdYTDF4Y0lwazI1OXl1bDE3R3pjdHY2dUh5TG1KSjlfRURsMnJISDNoYXhUak42bzlLa3FWVnc?oc=5",
-          "published": "2026-06-21T14:46:37+00:00",
-          "publisher": "NewsBreak: Local News & Alerts",
-          "title": "Trump Says There Are \u2018No Limits\u2019 to His Power After Iran War as War Powers Debate Intensifies - NewsBreak: Local News & Alerts"
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGVDdJSVdGQWthekVqb1BUOEZ0WHZUTF9zbUpOTkN1bjNTMkxBYjhNTmRXSnZWamtVRjlFbWpnZEVVTGFXc2ZnSXh2eFNhOVZ2WEdROTQ0MW5DLXNQc1k3VUh5bXZTZ2Y2YTMzTGM2NFc?oc=5",
+          "published": "2026-06-22T21:29:58+00:00",
+          "publisher": "Eurasia Review",
+          "title": "The Sixth Republic? \u2013 OpEd - Eurasia Review"
         }
       ],
       "hits": 1,
@@ -246,18 +297,38 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPckFjY3pEa2d2Z0FrRDlfM3lLdEYwSTRGSkppTmpTbUR1a3hWQnVMX1o4N2FLdWp0bkpvbFd6RS1kTWg1cWJfUkhmcFViU1RBZUxKTlZnZERJdWEyY2Izd19OdWliNUs3VmdVVzdWZDJkX3E2eGt4eDZhek9YTHA5TA?oc=5",
-          "published": "2026-06-22T14:00:00+00:00",
-          "publisher": "theappeal.org",
-          "title": "Trump\u2019s Crackdown on Dissent Comes for Minnesota Anti-ICE Organizers - theappeal.org"
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdUZGMWRNd0tzZ0ZhS3lEYlRCT1EwYTZ6ckJTcl9TZTlDTF9WTmtNMTd5azUzSFRsUzluLTVQbUo0aDRTRUpRYjFxVGh2NkRFdDZ2LTFkVm9TOTJrVUk3bl9YSVFpaDdqUlFkMlpGeXZBWm10TXRlczFOc0Z6UTZCVXQxcTlMV3ZzYV9JNDJJaDQzU29QZl9aVmZVSXprRjgydm1SeElFSlUwcTRfOU40NFo3RjBkNGNLTjZMaWlNLVRTUQ?oc=5",
+          "published": "2026-06-22T09:45:07+00:00",
+          "publisher": "Arise News",
+          "title": "Ojukwu Property Dispute: Firm Seeks IGP\u2019s Intervention Over Alleged Enforcement Of Judgment Under Appeal - Arise News"
         }
       ],
       "hits": 1,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1yM19fcVk4U09faERzYlNBNmx5TG9uNWZrbkpRN0xyWEFLTnFMT2YxRlktQUprc2dpMnF2S01Xb0N0bGhEc0g1VWdVWmhXU1NfZEFzSklFM1RjX04xa1JGbEh1TWtEaE5OV0tVXzg0RmlaQkZueDBjVENDZS03QQ?oc=5",
+          "published": "2026-06-21T22:24:22+00:00",
+          "publisher": "AOL.com",
+          "title": "Trump\u2019s firing power faces twin Supreme Court tests, but one agency may get special treatment - AOL.com"
+        }
+      ],
+      "hits": 1,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -273,8 +344,8 @@
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -286,20 +357,7 @@
       "name": "Alternate Elector Scheme Activity",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }
