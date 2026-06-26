@@ -52,7 +52,7 @@
     .score {
       font-size: clamp(2rem, 4vw, 3rem);
       font-weight: 800;
-      color: hsl(97.2 82% 38%);
+      color: hsl(104.4 82% 38%);
       text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     }
     .score-scale-note {
@@ -189,17 +189,17 @@
     <section class="headline">
       <h1>US Constitutional Risk Daily</h1>
       <div class="score-row">
-        <div class="score">19 / 100</div>
-        <div class="band">Elevated Strain</div>
+        <div class="score">13 / 100</div>
+        <div class="band">Baseline Institutional Noise</div>
       </div>
       <div class="score-scale-note">Scale: 0 = no constitutional risk, 100 = constitution destroyed.</div>
       <div class="risk-context">
         This score estimates current constitutional-order stress from observable events across elections, courts, executive power, and opposition rights.
         A score of 0 means no credible current events indicating breakdown risk beyond normal political noise, while 100 means effective constitutional failure where lawful transfer of power and checks-and-balances no longer function.
       </div>
-      <div>Repeated norm-breaking attempts, but institutional checks mostly holding.</div>
-      <div class="status status-ok">Live data pulled today.</div>
-      <div class="note">Updated: 2026-06-25T13:06:55.302944+00:00</div>
+      <div>Normal democratic conflict and routine legal contestation.</div>
+      <div class="status status-warning">No successful feed pulls today. Score is provisional.</div>
+      <div class="note">Updated: 2026-06-26T13:03:31.022219+00:00</div>
     </section>
 
     <section class="grid">
@@ -210,10 +210,10 @@
       <div class="panel">
         <h2>Quick Metrics</h2>
         <div class="metrics">
-          <div class="metric"><div class="k">Previous Day Delta</div><div class="v">+4.0</div></div>
-          <div class="metric"><div class="k">Delta vs 7-Day Avg</div><div class="v">+4.2</div></div>
-          <div class="metric"><div class="k">Feed Pull Success</div><div class="v">22 / 22</div></div>
-          <div class="metric"><div class="k">Confidence</div><div class="v">High</div></div>
+          <div class="metric"><div class="k">Previous Day Delta</div><div class="v">-6.0</div></div>
+          <div class="metric"><div class="k">Delta vs 7-Day Avg</div><div class="v">-1.3</div></div>
+          <div class="metric"><div class="k">Feed Pull Success</div><div class="v">0 / 22</div></div>
+          <div class="metric"><div class="k">Confidence</div><div class="v">Low</div></div>
         </div>
       </div>
     </section>
@@ -230,13 +230,13 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td>Executive Constraints and Emergency Powers</td><td>13</td><td>1.33</td><td>4.33</td></tr>
-<tr><td>Judicial Independence and Rule of Law</td><td>15</td><td>1.00</td><td>3.75</td></tr>
-<tr><td>Opposition Rights and Political Pluralism</td><td>14</td><td>0.88</td><td>3.09</td></tr>
-<tr><td>Civil Liberties and Information Environment</td><td>10</td><td>1.15</td><td>2.88</td></tr>
-<tr><td>Civil Service and Agency Independence</td><td>10</td><td>1.00</td><td>2.50</td></tr>
-<tr><td>Elections and Transfer of Power</td><td>22</td><td>0.33</td><td>1.79</td></tr>
-<tr><td>Security Sector Neutrality</td><td>8</td><td>0.30</td><td>0.60</td></tr>
+          <tr><td>Executive Constraints and Emergency Powers</td><td>13</td><td>0.98</td><td>3.20</td></tr>
+<tr><td>Judicial Independence and Rule of Law</td><td>15</td><td>0.77</td><td>2.88</td></tr>
+<tr><td>Opposition Rights and Political Pluralism</td><td>14</td><td>0.65</td><td>2.27</td></tr>
+<tr><td>Civil Liberties and Information Environment</td><td>10</td><td>0.80</td><td>2.00</td></tr>
+<tr><td>Civil Service and Agency Independence</td><td>10</td><td>0.77</td><td>1.92</td></tr>
+<tr><td>Elections and Transfer of Power</td><td>22</td><td>0.16</td><td>0.89</td></tr>
+<tr><td>Security Sector Neutrality</td><td>8</td><td>0.12</td><td>0.25</td></tr>
 <tr><td>Federalism and Legislative Oversight</td><td>8</td><td>0.00</td><td>0.00</td></tr>
         </tbody>
       </table>
@@ -255,39 +255,28 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td>Legislative Bypass by Executive</td><td>executive_constraints</td><td>2.00 (Yellow)</td><td>6</td><td>6</td></tr>
-<tr><td>Independent Agency Capture</td><td>civil_service_integrity</td><td>2.00 (Yellow)</td><td>3</td><td>3</td></tr>
-<tr><td>Court Order Noncompliance</td><td>judiciary_rule_of_law</td><td>2.00 (Yellow)</td><td>2</td><td>2</td></tr>
-<tr><td>Opposition Ballot Exclusion</td><td>opposition_pluralism</td><td>1.65 (Watch)</td><td>2</td><td>2</td></tr>
-<tr><td>Press Restrictions or Retaliation</td><td>civil_liberties_information</td><td>1.65 (Watch)</td><td>2</td><td>2</td></tr>
-<tr><td>Election Delay or Cancellation</td><td>elections_transfer</td><td>1.00 (Watch)</td><td>1</td><td>1</td></tr>
-<tr><td>Politicized Prosecution of Opposition</td><td>opposition_pluralism</td><td>1.00 (Watch)</td><td>1</td><td>1</td></tr>
-<tr><td>Judge Intimidation Campaign</td><td>judiciary_rule_of_law</td><td>1.00 (Watch)</td><td>1</td><td>1</td></tr>
-<tr><td>Emergency Powers Expansion</td><td>executive_constraints</td><td>1.00 (Watch)</td><td>1</td><td>1</td></tr>
-<tr><td>Martial Law or Military Governance Language</td><td>executive_constraints</td><td>1.00 (Watch)</td><td>1</td><td>1</td></tr>
-<tr><td>Civil Service Purge / Schedule F</td><td>civil_service_integrity</td><td>1.00 (Watch)</td><td>1</td><td>1</td></tr>
-<tr><td>Political Speech Criminalization or Surveillance</td><td>civil_liberties_information</td><td>0.65 (Green)</td><td>0</td><td>0</td></tr>
+          <tr><td>Court Order Noncompliance</td><td>judiciary_rule_of_law</td><td>1.65 (Watch)</td><td>0</td><td>0</td></tr>
+<tr><td>Legislative Bypass by Executive</td><td>executive_constraints</td><td>1.65 (Watch)</td><td>0</td><td>0</td></tr>
+<tr><td>Independent Agency Capture</td><td>civil_service_integrity</td><td>1.65 (Watch)</td><td>0</td><td>0</td></tr>
+<tr><td>Opposition Ballot Exclusion</td><td>opposition_pluralism</td><td>1.30 (Watch)</td><td>0</td><td>0</td></tr>
+<tr><td>Press Restrictions or Retaliation</td><td>civil_liberties_information</td><td>1.30 (Watch)</td><td>0</td><td>0</td></tr>
+<tr><td>Election Delay or Cancellation</td><td>elections_transfer</td><td>0.65 (Green)</td><td>0</td><td>0</td></tr>
+<tr><td>Politicized Prosecution of Opposition</td><td>opposition_pluralism</td><td>0.65 (Green)</td><td>0</td><td>0</td></tr>
+<tr><td>Judge Intimidation Campaign</td><td>judiciary_rule_of_law</td><td>0.65 (Green)</td><td>0</td><td>0</td></tr>
+<tr><td>Emergency Powers Expansion</td><td>executive_constraints</td><td>0.65 (Green)</td><td>0</td><td>0</td></tr>
+<tr><td>Martial Law or Military Governance Language</td><td>executive_constraints</td><td>0.65 (Green)</td><td>0</td><td>0</td></tr>
+<tr><td>Civil Service Purge / Schedule F</td><td>civil_service_integrity</td><td>0.65 (Green)</td><td>0</td><td>0</td></tr>
+<tr><td>Political Speech Criminalization or Surveillance</td><td>civil_liberties_information</td><td>0.30 (Green)</td><td>0</td><td>0</td></tr>
         </tbody>
       </table>
     </section>
 
-    <section class="panel"><h3>Legislative Bypass by Executive</h3>
-<ul>
-<li><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWU5fU2VTNUZBcVlTbTI4LW5BY3k5cTJBc0ljODlmWUwzSThEYTBuRVowTDNxdlFMZnNwR0taTVVTeWlVeXBIdUJITGgyXzBIQkVPQlJvTEZpdHJTVlktdXVvdXZSZmZQYVJzMXRSSG1uUVhPeFpZR0FWeU1HVHpsX0tteFhjZkxGUzBUWEVtZW1WanF4SHZNczFuQkNrRjhHUjRvYjEtSmxxSk5ac1hqcUlQbVdUd1lpR1FheXFQWlg?oc=5" target="_blank" rel="noopener noreferrer">In big win for voters, court permanently blocks key parts of Trump’s first anti-voting executive order - Democracy Docket</a> <span class="meta">Democracy Docket | 2026-06-24</span></li>
-<li><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxQdWE2NDdXNk9rdWJDcFpma2puU0VDeFVCb3k3dHV4UGVMS3VHWVh1bVRzRGU4WVFkU1hPWmoydWRZLU9JMFZXUl9KNUJ5TjMzT0luMDVpbk9FSlg0MHN3eGdKakcyWGt6S2wyVkRYUkw0YXBxWHFIdURJTkIxYzVoSGZyYlQ5Z194TlhvRHBlUlB2aUtCRko1dVRPTTlDS2lodHRvbGdQelBGbXhhV3puUFZUb3E2OUxaZnRWUno3U0VwWDNabS1UNnl3?oc=5" target="_blank" rel="noopener noreferrer">Judge permanently blocks Trump Admin from requiring proof of citizenship when registering to vote - 947 KTTS</a> <span class="meta">947 KTTS | 2026-06-25</span></li>
-<li><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbEs1MDhYVHRpNnNSNTFqS2Y4R3llOFE2ZVpoNHZZaFZOek5mWWZ3ZmJNNDZlM2h5UkxEQTV6Y0pxbEc5Zzd0WmFYdVFwMzhDdXFCNlpSTURzWmhSNV9xeVF6ZFJLWWVDX0VXaGlpdWY3V2FlSXJsMlM3NXZ4blNDa3JZcF9JTWh6NXZBbE1pRmVUd3Fkd3M0VGFXNDBDOXZKNHNJWmpfUVU4V2ZJUUo4UmVRLXVWU2cySGtDSmpXMTM?oc=5" target="_blank" rel="noopener noreferrer">Federal Judge Blocks Key Parts of Trump Election Order on Proof of Citizenship - Law Commentary</a> <span class="meta">Law Commentary | 2026-06-24</span></li>
-</ul></section>
+    <section class="panel"><h3>Court Order Noncompliance</h3>
+<p>No evidence links in current lookback window.</p></section>
+<section class="panel"><h3>Legislative Bypass by Executive</h3>
+<p>No evidence links in current lookback window.</p></section>
 <section class="panel"><h3>Independent Agency Capture</h3>
-<ul>
-<li><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE1hMm1NQWpRLUJRdGlYRS01ZGpNdWVCckNudEJfckVkMmpZdTdRTmpMZDFuSm1CRDNjdjU3dHJMdDhPV3lEcFlucWRKTXJSTkxTajZpNldUeXlPSlB0Mm5RUTN3WnIzdEZ4TVNqS2FHb2VEY2Zza0hFSWZIZHFUdw?oc=5" target="_blank" rel="noopener noreferrer">Supreme Court ruling could expand Trump’s control over federal regulators - Crypto Briefing</a> <span class="meta">Crypto Briefing | 2026-06-25</span></li>
-<li><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxOVHJuR19vREpSenJxQ1ZrSEN5Skt2ajd1T1oxakl3UmdCQkphZy1wUFRQSUVVUXo4RWh4WXJQLXBibGNKcmRPM3lfc2pNeTAyODgxMVVrUjMxcGRKTzBRa0d5NFg4Zm9hZEJTcjVNQTJsWFAxWWdSbWFCTVQxUzM2TDEtWkRtbl9QN0JYcjNhNGJzLVFKNHNj?oc=5" target="_blank" rel="noopener noreferrer">As Blockbusters Loom, Monkey Business at the Supreme Court - The New York Times</a> <span class="meta">The New York Times | 2026-06-24</span></li>
-<li><a href="https://news.google.com/rss/articles/CBMihgJBVV95cUxNV242RTJvYXlaNUhQaS1sMTU5aGRiR0h3Slo2ZDNzejJCZnZVSEJPQS1MeE45ZWIydVk1WWc5UndsbWlkM3FLUkxNRHh5Sks0b1N2SFlIcmc5eUdtMUxZdTlRQTg0bWNLdi1zMDNiLXRsT0JlX0JnX2c2N2FYN1EyOEM3dFhCblFuUHRzY3RaZzFEb0VEVmFHbUFoal9VUm45UlM1aWZBWmxqcHJRd1VlYnVnMlkwbEZqZFVKQThSb0o4c3pURDk0SUl3dWpUbVlyQlE3SkNTMW1Qa09WTDNveEgzMFlHdFF2QnRKR1EwWWl3RkJlQ3NJOUJaYUVhNnFwakVJTV9R?oc=5" target="_blank" rel="noopener noreferrer">Barrett breaks with Thomas as Trump–Supreme Court tensions rise - MSN</a> <span class="meta">MSN | 2026-06-24</span></li>
-</ul></section>
-<section class="panel"><h3>Court Order Noncompliance</h3>
-<ul>
-<li><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5od2tndTFSRVNZb2V2bS1PSFRIUlMzUUtHUUJDY0FEUFpTQ3Jja1I5N0Rtd2VPclhyYjQwaDBXQTgzUnpOdVh0TU1iT24yUGliNnY4YlNSYmZ0R2RMOVVFTDN2eGkxRjVQa1JkdXF0Wmg?oc=5" target="_blank" rel="noopener noreferrer">Boasberg Contempt Proceedings - Civil Discourse with Joyce Vance</a> <span class="meta">Civil Discourse with Joyce Vance | 2026-06-25</span></li>
-<li><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaDNPbkxZS0RLTC05VWgyclRxbnNiaGtpRjJiSUlfckg4OFgwWlBVRXkwdGY2X1RGZXh3ZWZwbXhXeW5ndEhia25PTTdYVEh1Vjl5N183M3dfZFpFVjIwQXp1Z0FMZkxUT2RQaXlUY1NOSUp2cjdXSzY3MF9hcUF2cUJUSmNFM0Qt?oc=5" target="_blank" rel="noopener noreferrer">Kenya halts construction of US-backed Ebola facility - Tanzania Insight</a> <span class="meta">Tanzania Insight | 2026-06-24</span></li>
-</ul></section>
+<p>No evidence links in current lookback window.</p></section>
 
     <footer>
       <p>Method: score is a weighted 0-100 indicator from domain-level constitutional stress signals. This is an early-warning tool, not legal proof.</p>
@@ -298,8 +287,8 @@
   </main>
 
   <script>
-    const labels = ["2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25"];
-    const values = [12.0, 11.0, 11.0, 12.0, 12.0, 10.0, 12.0, 14.0, 13.0, 14.0, 13.0, 16.0, 12.0, 14.0, 16.0, 15.0, 18.0, 20.0, 18.0, 15.0, 14.0, 14.0, 15.0, 14.0, 14.0, 13.0, 13.0, 15.0, 15.0, 19.0];
+    const labels = ["2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26"];
+    const values = [11.0, 11.0, 12.0, 12.0, 10.0, 12.0, 14.0, 13.0, 14.0, 13.0, 16.0, 12.0, 14.0, 16.0, 15.0, 18.0, 20.0, 18.0, 15.0, 14.0, 14.0, 15.0, 14.0, 14.0, 13.0, 13.0, 15.0, 15.0, 19.0, 13.0];
     const canvas = document.getElementById("scoreChart");
     const ctx = canvas.getContext("2d");
     const w = canvas.width;
