@@ -1,43 +1,43 @@
 {
   "attempted_queries": 22,
-  "average_7d": 14.66,
+  "average_7d": 15.27,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
-  "confidence": "Low",
-  "data_available": false,
-  "delta_previous_day": -6.0,
-  "delta_vs_7d": -1.26,
+  "confidence": "High",
+  "data_available": true,
+  "delta_previous_day": 5.0,
+  "delta_vs_7d": 2.79,
   "domain_breakdown": [
     {
-      "avg_severity": 0.1625,
+      "avg_severity": 0.325,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.89375,
+      "points": 1.7875,
       "weight": 22
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 1.3333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.875,
+      "points": 5.0,
       "weight": 15
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.43333333333333335,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.275,
+      "points": 1.5166666666666666,
       "weight": 14
     },
     {
-      "avg_severity": 0.9833333333333334,
+      "avg_severity": 1.3333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.1958333333333337,
+      "points": 4.333333333333333,
       "weight": 13
     },
     {
@@ -48,17 +48,17 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.8,
+      "avg_severity": 1.0,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.0,
+      "points": 2.5,
       "weight": 10
     },
     {
-      "avg_severity": 0.125,
+      "avg_severity": 0.5,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.25,
+      "points": 1.0,
       "weight": 8
     },
     {
@@ -69,103 +69,321 @@
       "weight": 8
     }
   ],
-  "failed_queries": 22,
-  "fetch_errors": [
-    "election_certification_interference: HTTP Error 503: Service Unavailable",
-    "election_administration_capture: HTTP Error 503: Service Unavailable",
-    "election_delay_or_cancellation: HTTP Error 503: Service Unavailable",
-    "alternate_elector_scheme: HTTP Error 503: Service Unavailable",
-    "politicized_prosecution_opposition: HTTP Error 503: Service Unavailable",
-    "opposition_ballot_exclusion: HTTP Error 503: Service Unavailable",
-    "retaliation_architecture: HTTP Error 503: Service Unavailable",
-    "judge_intimidation_campaign: HTTP Error 503: Service Unavailable",
-    "court_order_noncompliance: HTTP Error 503: Service Unavailable",
-    "jurisdiction_stripping_targeted: HTTP Error 503: Service Unavailable",
-    "emergency_powers_expansion: HTTP Error 503: Service Unavailable",
-    "legislative_bypass_executive: HTTP Error 503: Service Unavailable",
-    "martial_law_or_military_language: HTTP Error 503: Service Unavailable",
-    "civil_service_purge_schedule_f: HTTP Error 503: Service Unavailable",
-    "independent_agency_capture: HTTP Error 503: Service Unavailable",
-    "inspector_general_retaliation: HTTP Error 503: Service Unavailable",
-    "press_restrictions: HTTP Error 503: Service Unavailable",
-    "political_speech_surveillance: HTTP Error 503: Service Unavailable",
-    "military_domestic_political_use: HTTP Error 503: Service Unavailable",
-    "security_loyalty_tests: HTTP Error 503: Service Unavailable",
-    "state_election_preemption: HTTP Error 503: Service Unavailable",
-    "legislative_oversight_obstruction: HTTP Error 503: Service Unavailable"
-  ],
+  "failed_queries": 0,
+  "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-06-26T13:03:31.022219+00:00",
-  "previous_score": 19,
-  "provisional": true,
-  "score": 13,
-  "score_raw": 13.41,
-  "successful_queries": 0,
+  "generated_at": "2026-06-27T12:48:44.830874+00:00",
+  "previous_score": 13,
+  "provisional": false,
+  "score": 18,
+  "score_raw": 18.05,
+  "successful_queries": 22,
   "top_signals": [
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5RDJjY3BTSGJ0YlBHWGIxOTFlYkxwNDEtQlJkb2dQbjY0OWJ1RHFGVHVtQVBRaDJVejBET1d6d3c0UlpUNW82R3B3OXB5Ul9Vdk9Hc3NpbmY5TWtlMWJPY2pfUFRIdDFo?oc=5",
+          "published": "2026-06-25T13:01:45+00:00",
+          "publisher": "SCOTUSblog",
+          "title": "Major decisions ahead - SCOTUSblog"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS3RPTnNSQlAzNGVkVFBFRzZFS3RBNURtd2lDLVZ1QUluenk3ZndtN0p2WFR2OGktZF9jQm1QeGEyUGZGVXBMYWV4RnlWdzM0Z0pJWVUtWF9XWkMzVjJodllGWm1qVDZhYUpuNDhqNm55eVlmd0NQaTJsZW5nQVNWM0laQXRQemtOUVJfTU9lVURQMEZfZjB4NFJFNmtONUxKVmstRy1rWkljbWJKcVE?oc=5",
+          "published": "2026-06-26T00:15:34+00:00",
+          "publisher": "The Washington Post",
+          "title": "Federal court blocks Trump\u2019s executive order limiting mail ballots - The Washington Post"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYnJpOUN3VUNtRjVPMHZCLWc1SUc0ZllwSktwUjR0N0M2UE5jN0FMNjdiTDJUSktQQm95QXhOMEtLaXhOdmdYSlRKN2k5ZmlPLW0tMEx2bnVfV3lzY0pUTGw1bHI3anQwWHZONmZfZTBwRGZ3RlMtVXZfVnF5SjBpVzN6XzR3ZS0teUtpRmRlUndaZF84Z0E?oc=5",
+          "published": "2026-06-25T16:13:48+00:00",
+          "publisher": "Democracy Docket",
+          "title": "Judge blocks Trump order that would have let USPS refuse to deliver mail ballots - Democracy Docket"
+        }
+      ],
+      "hits": 6,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 6
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPamtOb1h1V1h6MFJhR2w5c3VidDYzcGo4Nk5nUG1lM0NKSG9VU3dGWmNEM1F6dFVoaFRSZ2cxTldYTVFnTnAyNENSenVkbVRlVVZmc0JIMk9BV0h1MVpIMmFCTHhzLUYzRWdfZ2RyaEVJYk9rNEJjemFsajROTmFpUXdtUWt6eHEtcDdHSXpjNHctR0EyaUkzWlEwcTZhRm5hWFlNSWhDWHUxWTB6eDBV?oc=5",
+          "published": "2026-06-27T12:16:21+00:00",
+          "publisher": "SRN News",
+          "title": "Supreme Court ruling, ECB conference likely to further frame Fed chief Warsh\u2019s early tenure - SRN News"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNm9YOEVfaG5ua1lzMDVSMEFUT3kwclJJRnk1ekhmMWEtdzg3a1ctUklrTTZGN2hrcS00RDRqOUhVTXRZVFBBbERxQ0gwZ1ltRmxzbnQ5dFN6Y2c3dEdtejFxSmNjU1JXSjRoTFcxNEcyX095RXJPRTF3Wm5fZzZvLURNV1dVSFZQRV8xUzhTZ1Bsa29DOGV3aUhPcGdoVi1OUlctWEZHQkk?oc=5",
+          "published": "2026-06-25T18:51:54+00:00",
+          "publisher": "The Coastland Times",
+          "title": "You Decide: What to expect from the new Federal Reserve? - The Coastland Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YaWhSNUlCanNvNXl5ejFlZTQtczBYV0JfbHVDc1JZYW1BQjNLbnlfU3RoNUZNdDA3VVVFTmVvT2tsOTZLclN6Y2ZfRm1YOTNudEt6QlA1VENLZXVNbmNPcUpxc29BMi1YT0h3TXhTUURleDdVaEpWQkQ1M2NZQQ?oc=5",
+          "published": "2026-06-25T19:27:48+00:00",
+          "publisher": "AOL.com",
+          "title": "Trump\u2019s firing power faces twin Supreme Court tests, but one agency may get special treatment - AOL.com"
+        }
+      ],
+      "hits": 3,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcURidXBfWnBtUDNOaDhObUJZTjNhbmttSE92dEd5eXRHUWVfVVVGSDM0NVNOWDNVVzBqbUNhUXE1MTRSYWtyUE1FcmhDc0JlUE1EMGtNLXBxY2NFRElQUERfZDNFWHJJVGVMYzBRYXcwaGFsaGdwNUNlOVA4elpSVVd4SkNRTzNmbEpuUThPZG9INmhNMTVhQVFiM2RJWTBCeEF4N2pQQXMyTGJOaWtXdkhrU2hDYUw0RUZTOUp5Y1Q?oc=5",
+          "published": "2026-06-26T10:13:55+00:00",
+          "publisher": "streamlinefeed.co.ke",
+          "title": "Inspector General Douglas Kanja Faces Six-Month Jail Term Over Nairobi Protest Barricades - streamlinefeed.co.ke"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOXBDUmVxbVcxT0N5dlJKOXhHa0x2cTQzZ1o3YW5EbV9RaUYta0ZoUUp0MlFycFNoZjJycWlYc0FCNlEyWS16S1VrT1ZhZEdkVi1FaUlMd0hrSzJlN2NZeHZlOEJHX3pSZjIwMFpMSGlKUDFoQVZEYmlEMU1pTnF2c3g4aUxHaEll?oc=5",
+          "published": "2026-06-26T15:14:48+00:00",
+          "publisher": "MyJoyOnline",
+          "title": "Herald Editor granted bail after contempt conviction - MyJoyOnline"
+        }
+      ],
+      "hits": 2,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcm9lVUdMUktJZmxWSzhBWXJXQWtldUljWl9HNVFtMW5fd0RhOWFieldaZDNNS003c1p5NHcyR3RRV3FOSkVubnNZZi1hdmlKLTdFcmljbkprd2xKdVZzVFJhYkdFSWFieFZUMlRwUzVlSi1SbW13RERHOVZfNW56a2pycTZRcnJUeDVXdVZkbTNvUQ?oc=5",
+          "published": "2026-06-26T19:00:00+00:00",
+          "publisher": "The American Prospect",
+          "title": "Courts Keep Blocking Trump\u2019s Moves Against the Right to Vote - The American Prospect"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOVgzSU1PWklXRFJ0OHhOMHUya0NhUWVScGhON3JkSW56MEtFQ2RWTmVtay1jUzRRUXVkeVVCRGMtblBIUm1TM0VubXVQM0dsZ05waUVNSGRRa1c1Rjk4dXRmZEZmWmw4Z196SklJUVZOcEhtb1ROTTBaY09zM3hBRElqQW1OUnkxSTUtNVdnZTA1elJJbEZIM1JlOHVqUkEzM3doZGozdzhuRmRDQTJHNng2NEYtV1NqYWotRnctRHNpcXdOeXZPQnRJNHo3OUJO?oc=5",
+          "published": "2026-06-25T21:53:48+00:00",
+          "publisher": "Democracy Docket",
+          "title": "Far-right stokes fears of \u2018nightmare\u2019 Democratic midterm sweep to push for election takeover - Democracy Docket"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNGc4Tk45bjV2RkdRbVFrWldrMTN6SjlFOUZLN25UX25DZ1NuMWROVlFCS3Z3MHZWdVpTQ3k2bmQzRkFrRFpvckJMaUphU0FyQy1KRzNTN28zSEpCbERyZ1dmT0NNOHdxU09RaUtPN2V1emFQYVVnT0lXQU5kQ0ZnLVctemhhY0dPS2R1dzh0YXhIUQ?oc=5",
+          "published": "2026-06-26T09:06:17+00:00",
+          "publisher": "The Eastern Herald",
+          "title": "RFK Jr. Recorded Urging Iowa Libertarian Candidates to Quit House Races - The Eastern Herald"
+        }
+      ],
+      "hits": 3,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRUtqaXNHY0loZ2hoWXJ3ekNoRmp6V0xFWXNudTVDeXoxN1VMenBhYkdGSk4xM2xzMkN2WjJOYVNEVW9pLVVPU2I4VkZGX05CU3lZR1V0aUt1YzVHdnVOSjRNSWpJMnAzcXVMd0g4WXhLNDdkMDc3Vk5pckE5TEFlaFI2dE81dnhyLVhXWFVvZkVDUFEzak5ha0FnV3JodGNwYktJbnRKT1pTcWFz?oc=5",
+          "published": "2026-06-25T20:33:59+00:00",
+          "publisher": "Iowa Capital Dispatch",
+          "title": "Libertarian candidates ask court to put them back on 2026 ballot - Iowa Capital Dispatch"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPLUZacXhSUWZhRkhRS1JuS0tMTXc4aFA5UUhpNkg5ZmlQRDJjTjU3eHVob0EtVGJTYVJqZG5rMzlnUnFEb2VEY2lZV1hMQWN3cGxZNC1BcUhfZEUyY0pLYnByZVJZczROZWNVLWpRUWlPaEtzeVdrek5Hcm5tTkxfZHhhdFBKa1poVndvUTFxa1hyRjV0WWYzMkhoUjBTN0NWaDhJRDlleU9pT25CVkp2RTF5MTdycWZyaTBhUjI3Y191YS1YMm5HVE5lZzhvZXdzT01GQUtoMVBYREhFT2dWUkdHOTJLc3BrTURTWHJ0bGJ2TGxQUHg2RFNn?oc=5",
+          "published": "2026-06-25T21:27:44+00:00",
+          "publisher": "MSN",
+          "title": "BJP wins all MP Rajya Sabha seats after Congress nominee ousted - MSN"
+        }
+      ],
+      "hits": 2,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdVNrWnNJWUNBSkRTU1RBdjBDVmN0VmxDZ2tiT3RqZW9ST0h5bTBLcWFaT0ZneDhBYlM0Ny10Qmg4N01sNmhtSzlzMlhZc0xuUHJuMlFTR1lxdHVGTkZCRmgySWRjb3JySEM3OTFvRG1GSmZiQlZPWDg3T2JrQTRkZ0x3?oc=5",
+          "published": "2026-06-26T15:54:43+00:00",
+          "publisher": "The Boston Globe",
+          "title": "R.I. Bar Association decries call to impeach judge for ruling against Trump policies - The Boston Globe"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPU24zaWFId010ZE5sV3N5YlVVOHJZYzNlN2lWOGcwWnEwNmN5bnBaVVdtRDY4N2VRNE52X3UwSnVyc3hVNEdheDJESnM3NThvR1RvNWJrS3FfaFBUZ0NWR1pSM0xGMGFMcEtrdjlPSVBPTENnaU95VFJ5U3V6eUIxQVR0VWpfUVNELTZUNVdPRFNqOTl6MHU0TUpsY1lCLVRlZTVJS0hBQmwxOF9EQ3ZydTFodE9scFdnY0k3TGpWeDVCNDJ0MVVwZzJjRkVpS2dHeUdDZUVCS3E?oc=5",
+          "published": "2026-06-26T03:43:00+00:00",
+          "publisher": "The Providence Journal",
+          "title": "RI Bar rallies behind judge over `deeply troubling' impeachment push - The Providence Journal"
+        }
+      ],
+      "hits": 2,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oQnZvbUhDNEFuMlFIMU1qYUJ3dkpOa0sxWFh5dmh2LU92N0NGQy1RamFybVk3cjdobUFFSWN3STJmaXJfSkJmMFhsN01QTWRNekk0QUtES3g2WEkyT09pTU1aOEJOZ29sRnl1RjAyamJ2N19pSzJhXw?oc=5",
+          "published": "2026-06-26T20:46:34+00:00",
+          "publisher": "alexnowrasteh.com",
+          "title": "Repeal All Immigration Laws Stripping Court Review - alexnowrasteh.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbjZtdldxdndLLWZuc2NTSzlPaV9CdzdDNWZtaE4tM2VpZ3psTExGNnFkeFJ5VWtBWHF4aXhib055bW0wLUQ0RVNHeTJHdXVYbG5vbFliXzljSHlVTXplQ3BGbHF6Zll6OE55NTlCSU95TDAzWWE4RlpwLUwzX0d5LTlVdmctQnotZ0hGaW1VZW02N19vcnlEMDV6TG5SYzV2dVpmN0Jn?oc=5",
+          "published": "2026-06-25T18:02:00+00:00",
+          "publisher": "Lavender Hotel",
+          "title": "The Architecture of Executive Discretion in Federal Immigrat - Lavender Hotel"
+        }
+      ],
+      "hits": 2,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5STTJsaDNIQTNuRTdFQUJJMGVkMng2YU82ZVN2ZFY0ZmltMkVSalV5b0d6N3NiMDlzZFBfd3V2RGJQMk91bGllZVY3QjhMYVlRVkRKbXduSUpSbzlHcWoxcEg4dHo?oc=5",
+          "published": "2026-06-26T19:16:24+00:00",
+          "publisher": "Common Dreams",
+          "title": "'Criminalizing Dissent': Alarm Grows Over Extreme Prison Terms for Texas ICE Protesters - Common Dreams"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQmdMQlRCb1AxalJBNFlVc3ZlM3Z6VjlNYWhacHdaZ1hmVDdRa1Y1dm0xZXJjQ0F2c3E0ZXRENU1JY1lBeFlIdWdQUmxNMXd4MUNwcldnTTdKY2pNNTZEVmpUQ21aTEtuUVhQalYzZEV3VW1fdXd1ZE02b1JoZm56R3U1VlhqNzFTMzREdHFXT2tQM2hLcWF2dVA5SWl4LVk5TDl0QVdJalhPcGNhQjluVGdZSElPdw?oc=5",
+          "published": "2026-06-26T06:13:47+00:00",
+          "publisher": "CounterPunch.org",
+          "title": "Empire at 250: Can the Principles of 1776 Survive the American Police State? - CounterPunch.org"
+        }
+      ],
+      "hits": 2,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQmdMQlRCb1AxalJBNFlVc3ZlM3Z6VjlNYWhacHdaZ1hmVDdRa1Y1dm0xZXJjQ0F2c3E0ZXRENU1JY1lBeFlIdWdQUmxNMXd4MUNwcldnTTdKY2pNNTZEVmpUQ21aTEtuUVhQalYzZEV3VW1fdXd1ZE02b1JoZm56R3U1VlhqNzFTMzREdHFXT2tQM2hLcWF2dVA5SWl4LVk5TDl0QVdJalhPcGNhQjluVGdZSElPdw?oc=5",
+          "published": "2026-06-26T06:13:47+00:00",
+          "publisher": "CounterPunch.org",
+          "title": "Empire at 250: Can the Principles of 1776 Survive the American Police State? - CounterPunch.org"
+        }
+      ],
+      "hits": 1,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU0steVIwRVJ4dlp5TURQVHpuS05DbUJOYmMtMlVTQV9CQU1hT3lEbFJWaE94anV1Z3V4NVpMN1JEeEQ3TnFpUnc3MFRpZHdvTzJzenpzWjdiZmM5Y3hQTDNId3F4SjViZk5ZbnhzN1dBM0xiT24wUnl0Vm14bGZ2MkJ4eU9iR3EyV0U3UEJvSEpIZ1JMMVFXaFd6U1TSAZwBQVVfeXFMTlNLLXlSMEVSeHZaeU1EUFR6bktOQ21CTmJjLTJVU0FfQkFNYU95RGxSVmhPeGp1dWd1eDVaTDdSRHhEN05xaVJ3NzBUaWR3b08yc3p6c1o3YmZjOWN4UEwzSHdxeEo1YmZOWW54czdXQTNMYk9uMFJ5dFZteGxmdjJCeHlPYkdxMldFN1BCb0hKSGdSTDFRV2hXelNU?oc=5",
+          "published": "2026-06-25T23:16:42+00:00",
+          "publisher": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+          "title": "US court blocked Trump's executive order on tightening mail-in voting rules - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)"
+        }
+      ],
+      "hits": 1,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSkpEWXFaT1BCRUVVNTF6YjlmMFI2UzNyaE0wRXFkZmgwSlYzd1gxTW4td2FoUmUtc081bWU1LTY1U3h1bDVyMW1nSHNHVkhUVEhfU054ZDg2MXdPWWpoc0owZmlNWVl6Q21pdFhRbkpTNGs0Mmc3NTYxNXdsRm5GN2UtUk1TM0NMc2p5TDF6Q0E4clY0SEswb1FidVpoLWNpdWVaUzVXWmdFREZtbl9PNHZZZWJyOEpJeWxSaEhjRG00VUNZaDhUTDdnc3owQlJtTWfSAdIBQVVfeXFMTkpKRFlxWk9QQkVFVTUxemI5ZjBSNlMzcmhNMEVxZGZoMEpWM3dYMU1uLXdhaFJlLXNPNW1lNS02NVN4dWw1cjFtZ0hzR1ZIVFRIX1NOeGQ4NjF3T1lqaHNKMGZpTVlZekNtaXRYUW5KUzRrNDJnNzU2MTV3bEZuRjdlLVJNUzNDTHNqeUwxekNBOHJWNEhLMG9RYnVaaC1jaXVlWlM1V1pnRURGbW5fTzR2WWVicjhKSXlsUmhIY0RtNFVDWWg4VEw3Z3N6MEJSbU1n?oc=5",
+          "published": "2026-06-25T19:54:56+00:00",
+          "publisher": "Devdiscourse",
+          "title": "Press Freedom Under Fire: Turkish Journalists Denied NATO Summit Accreditation - Devdiscourse"
+        }
+      ],
+      "hits": 1,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "security_sector_neutrality",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBRSjg5blkzbWJyQlpwcmlRU1pZejBkOWwyUUpYVVI1eVRoZ0RldTMxQldHSktFTXNpdUtNV1pUWk8weG9iQmg5LThYM2h0enZpcllqX212YktBZ2lLdTI5ZlZHUWVkVmM5Q1ZGSU5nRThGWTB0UGx6NTcyQ2o?oc=5",
+          "published": "2026-06-26T08:44:49+00:00",
+          "publisher": "NPR",
+          "title": "In a first since Trump deployed the guard to D.C., Democrats are sending troops - NPR"
+        }
+      ],
+      "hits": 1,
+      "id": "military_domestic_political_use",
+      "name": "Domestic Military Use in Political Conflict",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -176,7 +394,7 @@
       "name": "Election Delay or Cancellation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -189,46 +407,7 @@
       "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -241,33 +420,7 @@
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "security_sector_neutrality",
-      "evidence": [],
-      "hits": 0,
-      "id": "military_domestic_political_use",
-      "name": "Domestic Military Use in Political Conflict",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
