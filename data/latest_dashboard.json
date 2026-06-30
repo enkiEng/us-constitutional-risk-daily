@@ -1,29 +1,29 @@
 {
   "attempted_queries": 22,
-  "average_7d": 15.24,
+  "average_7d": 15.13,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": -3.0,
-  "delta_vs_7d": -3.5,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": -0.81,
   "domain_breakdown": [
     {
-      "avg_severity": 0.1625,
+      "avg_severity": 0.25,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.89375,
+      "points": 1.375,
       "weight": 22
     },
     {
-      "avg_severity": 0.75,
+      "avg_severity": 0.65,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.8125,
+      "points": 2.4375,
       "weight": 15
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.75,
+      "avg_severity": 1.3333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.4375,
+      "points": 4.333333333333333,
       "weight": 13
     },
     {
@@ -48,17 +48,17 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 1.0,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.625,
+      "points": 2.5,
       "weight": 10
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.3,
+      "points": 0.0,
       "weight": 8
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-06-29T13:48:39.320319+00:00",
-  "previous_score": 15,
+  "generated_at": "2026-06-30T13:03:41.450302+00:00",
+  "previous_score": 12,
   "provisional": false,
-  "score": 12,
-  "score_raw": 11.74,
+  "score": 14,
+  "score_raw": 14.31,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,71 +84,116 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObjdtOGVSdWZzWVJTbV9zS3N5WTlEcFBjb2xWcFRkYUNBYlVvZElvT1BsZXNCSXV2WlB0WmQzd3pRa2dib3BoQU1vdmUzSXBwTnN1cVpwbEJ5VG1BNHhSY1hCQms3eXo5Q3VHLTlrWUx2SDlrMTltenFiWkt6aEVkdklUQzZQMEpzWlJwaVdSZWJjc1JLMEE?oc=5",
-          "published": "2026-06-29T11:05:00+00:00",
-          "publisher": "The Daily Economy",
-          "title": "Trump v. Cook Won\u2019t Settle the Fed\u2019s Independence Problem - The Daily Economy"
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZnYtQlF3d3VfR2xkV29CdGFUWUxpUEY5Ml9Ld3V1Z0pveHFDTkJkTE1oUEc1U0E4a3VrS1pLRFBsZlFiQzhkd2p1UHhrSnF3S3M4cmJXZHNtbDVDWjhMY1NpUGdfN0VHUVNEQ3N3U0trZ0VyeHk2ODVTR1ZuZXBzd3ZuYks3ZnY1Ym9IZEZaaXNNa0VjOUlYM0ZCVnNabklCS1N3OGZ5Z3RKZmRQd0c1SQ?oc=5",
+          "published": "2026-06-30T02:13:28+00:00",
+          "publisher": "The Washington Post",
+          "title": "Supreme Court expands Trump\u2019s power over the federal bureaucracy - The Washington Post"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQYk9WZFc0dDFKTTFhdE5YYjBtRXFtMGVseVhfSm40ZGYwOHRLOHVDODlTYlgtNWZxWkxhTTRmaFJONUtXb0pSb3JJSXVOWWJfYmZWYWdWVHY4R0hFY3RhWjRIdWYzamdqbks0TUtVdW5EZlNoMmh4ZjJLTVBrajBEbm9XOTJwM0NPUTdtNlduQmtLV0oxYUpla09BWENleV9FYzZWaFpmM0s3YVBicnZTWDlBQ25ISnRnRmptNkhZd2V3Snc3VlAwSVhwSjVwZTF5ZHJCblBqVzhPWVlGdjViTTUxUHpCYjTSAecBQVVfeXFMUGJPVmRXNHQxSk0xYXROWGIwbUVxbTBlbHlYX0puNGRmMDh0Szh1Qzg5U2JYLTVmcVpMYU00ZmhSTjVLV29KUm9ySUl1TlliX2JmVmFnVlR2OEdIRWN0YVo0SHVmM2pnam5LNE1LVXVuRGZTaDJoeGYyS01Qa2owRG5vVzkycDNDT1E3bTZXbkJrS1dKMWFKZWtPQVhDZXlfRWM2VmhaZjNLN2FQYnJ2U1g5QUNuSEp0Z0ZqbTZIWXdld0p3N1ZQMElYcEo1cGUxeWRyQm5Qalc4T1lZRnY1Yk01MVB6QmI0?oc=5",
-          "published": "2026-06-29T10:45:09+00:00",
-          "publisher": "EL PA\u00cdS English",
-          "title": "US Supreme Court is set to rule on cases that will define the limits of presidential power - EL PA\u00cdS English"
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMUhnV2JWanJRWkVyR09IdXlPVlc2eHd2QWZpdjliZGl0LTZoUkYyWmdCVW9meUs2R2wwRWpmbUJ6WkROa292NkVCdFNINWI1WWl5OVpTS25yY2J1NmhGNEJWajFrNXVjcDRVckU1WTdiVFpRTkpqam9rN0lqbmp4SmtnQWM0dFh5XzZjaEFnSlVCSXZVNmY0dVNlNUwtcnVoZzV0cU1waEVkSG5zSVA5M2E2b2p1bE1vcTJNZExJakxxTXVo?oc=5",
+          "published": "2026-06-29T17:47:00+00:00",
+          "publisher": "E&E News by POLITICO",
+          "title": "Supreme Court hands Trump new power over independent agencies that oversee energy development - E&E News by POLITICO"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNd1Bvbkk1NWNqQXpPZVJCeVhfR1NuYWdOcFRoNEg2R1ZtZVVzaDM5VHZ1djY1RGZWV3JRWFFBVmxsR25kOEliQU5EM0xSWEctM1FfZE02NVpmTXNPcDRsSmpZZVNfYmFIdGMzTzJsdjk1NFc0djhaLTR6MDF1ZzJfSGFYbUpkMVFHNjBZOVJnSWZvWk14S1ZRWThDRUhzcnNqT2E1elcxQkFjc1RkN3AzYlFobGMxRXM?oc=5",
-          "published": "2026-06-28T10:03:00+00:00",
-          "publisher": "Reuters",
-          "title": "As Supreme Court's term nears its end, three major Trump rulings due - Reuters"
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZTEzMXd5c2V5aWJJejhqUjBJdFlaakh2RUFua1BOcW02ZmlEWkFaajh2a3BlTnlwTkY1eGt2ZDNleldRUmFBXzZhemVMX2I5bXRfWXBRZG51b3d4YWx2S2RpTzZ4NjlzVlhWSzE2QkVXaldpUGJ5ZGM0bENZcjBzeUZUcWh6MGtCYlc2cEYyUmpVWWNpaHY0R29RQ3VpLWp2S0prcw?oc=5",
+          "published": "2026-06-29T14:33:27+00:00",
+          "publisher": "NPR",
+          "title": "Supreme Court cements Trump's power over agencies long considered independent - NPR"
         }
       ],
-      "hits": 9,
+      "hits": 53,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 9
+      "unique_publishers": 32
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCQXhveGdGd2JLWEsyS3o4Ym5jOG5VclJDdTZiQW9waVpPSnBGZjVtWlA0N3k4em95VWJLdzloOWk5X0VzUUQ0NS1vT2treFNhMTN4eU40ZlI0ejdWWVk2Y0d4S0c?oc=5",
-          "published": "2026-06-28T10:31:46+00:00",
-          "publisher": "The Jerusalem Post",
-          "title": "As Supreme Court's term nears its end, three major Trump rulings are due - The Jerusalem Post"
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ2hTM2hZcjNoTy04VGZqMFNOX1l0NGFwdTZDVkliVW1WbG5yWGlab0todGIybmxsUWlIMHFHdTF6ZThxaHBUUUhYb2tHUTQwQTVtRWZnQ2tyc0RZdjVDQlYza0VmWFhnNlVqNGxQZ3luUWNvNnh6RXFOLVFkTWlMYVhVZGNiUENUVDhybWJqcjRBM0R1aXpNZVdqeDdhejR1eU5IQjNWWUlHenluZmdaQWplUzZlYWNMV1pKNVg4eUZtZUM1VEd6cU5Bcw?oc=5",
+          "published": "2026-06-30T00:15:00+00:00",
+          "publisher": "SCOTUSblog",
+          "title": "Supreme Court allows Trump to fire FTC commissioner and overturns major restraint on presidential power - SCOTUSblog"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ2FfbmVodlhYYjBETGJ4WHRrei1EaHlra0tpRGZGc1dUNU10S0JVWTd6NTFKNWlrUFBCeFVCaXNheGRGT1JkOFJaVlFmNEx3aXhGVERSbWQ0elItZU9yRzRMRWFoaFlIMlh4cThSQllfaU9EMjVicWdWX3MtVWMwbXVza2ZUWXVwLWNjLWpTZlJSYUNVTnptSmVCdnJaUnIxWUZFRURLRUhNVHliUmVJ?oc=5",
-          "published": "2026-06-29T08:32:57+00:00",
-          "publisher": "americanthinker.com",
-          "title": "Congress Is No Longer Performing Its Constitutional Function - americanthinker.com"
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM2ZGYXZ3VlpqdWg3NHJLakNONkFOSi1DVmF1UWRjTUg2eGxHX1kyY1FKTUEyMTg3VGtXVGp4a3lhaU1nMURhdm1IUkVZbVE4RVBhQmtvZFFJczA1czFwZDdXa3YyTkoyZEw4cUc2Z1ZhOF9hQWo3QUNjTzVTc1lUdjBwaEtiaWJOSkJEY0trdTVVUFNKSUdr?oc=5",
+          "published": "2026-06-29T16:02:46+00:00",
+          "publisher": "The American Mind",
+          "title": "The Supreme Court Reins in Judicial Overreach on Immigration - The American Mind"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9HQmtuX20xczU3RzR0VjU5MThwZmJ5OGRjejZDSG5CRXoyRGNRdWRNcUdmdTFwU3Rxc2FBenNEUVZOUEpuQ3NSWHAwSzlfS3FhYmxfcUN1YU0tN0hoRFM5NFZpR1dQR3AtbjZROEN6SQ?oc=5",
+          "published": "2026-06-29T15:40:22+00:00",
+          "publisher": "HowStuffWorks",
+          "title": "Lisa Cook Remains on Federal Reserve Board After SCOTUS Rules Against Trump - HowStuffWorks"
         }
       ],
-      "hits": 2,
+      "hits": 5,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 5
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOXhFQjJ1cU94UEtEeklQS0xYTE5kODN0d1JwNXpPSkRQMGxZMjNHOFhKTmpYZ2RTNlF0X1hBS0doZmF1T2dNR3lISV9VM19ydjI2dWhZdTVkclJkRjZYMGZjLV9fY0RrRk1PWGhGUm9hYVVJaE16Z1JRNm1DdWNJbGxuWHFYUGVZY2dDRkdtVkxWM0xHbFE?oc=5",
+          "published": "2026-06-29T16:34:59+00:00",
+          "publisher": "Missouri Lawyers Media",
+          "title": "High court expands Trump\u2019s power over the federal bureaucracy - Missouri Lawyers Media"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY3RQRW50VDB3Q3ZPMXd3UDJqdjgtSHRhUkNXRHppRWUxWVU5NzJzSGpKY0o1Z3M3LV9HWThVYV9EQW1WbE9KbGJ1YmE5SllBNWZONDNjRHVIMjNRNVA5UDRDaGRIemNIUlZsVUprWkR3MURUdEtSOUl6NlhmMEZ1bjRzRFNvR2hNSHM5bkN4aTBhdw?oc=5",
+          "published": "2026-06-29T17:48:43+00:00",
+          "publisher": "Lavender Hotel",
+          "title": "How the Supreme Court Just Rewrote the Rules for Firing Fede - Lavender Hotel"
+        }
+      ],
+      "hits": 2,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNjdQcENJdlZ0TUVYWFlYYlJwc1AyMGVEdlVBQWFDc1RyeV9kSWdkdEJpMkZPaG1SRVo1dEFNYnl0VDY0LUV0YkNqbGhaTHhrc1NsZENDM05Gam5aSFl5dFRYZzNVV0I1bzY2VVdxX3hJMElQRURPVk5jOFhfQVdvNXBKSnNhLUw1dXVsWjJnRU9hOHZ6eWpvaW9jU3l2WnFoWEZkUWRVdFVETXY2ZDFfSmFwd043MFFRd0JyQ21jNzd1YVk2bk1XVlkwUXQ4UjZSbmJ6N1ZrM2gyemlMMnpVVQ?oc=5",
+          "published": "2026-06-29T06:00:18+00:00",
+          "publisher": "facebook.com",
+          "title": "Uganda\u2019s military chief Muhoozi Kainerugaba ordered the shutdown of two media outlets, NTV and the Daily Monitor, saying he \u201cdoesn\u2019t believe in a free press.\u201d He said the move was approved by President Yoweri Museveni. #dwnews - facebook.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVHA5VTF1RUpZd1ZXMm5xangwZjhDcW5UZHBPaGw3V25uNHQ1eHBjWmdOWnI4LWwyTktfMmtNMHFoc3U4cmlrXzFEZk5SVnYtWmFUT1BXNFJ3ZjJLMTRQWC1XdDc3c0dKcmdOdktjZU8wRFNNSWxXYjRhVFNyWVREdjI5cDRUUlF4ZElqTjlweFhKbzN6UTZaR3FoTXVVZEw3YWE3dUlPYVFDVndkcmtJOG5ndGdMR05rZGZIUjNLaw?oc=5",
+          "published": "2026-06-29T16:38:58+00:00",
+          "publisher": "The Financial Express",
+          "title": "CJA urges Bangladesh to drop 'politically motivated' charges against journalists - The Financial Express"
+        }
+      ],
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
@@ -178,6 +223,26 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPcUFvYUJseEwybmtDR05oNjNXUHgxcmUzVENwWlk3a25xM1FKOEpBaTlmSWNCNGdqa3FIRmxzMXZNX3Z0QVV1VzRlUjB6SzRMZGRGbUl6Yi1oNUVfRjNmS3hQTzZHcmNUUzF3dDBwT3pIckljVlNPREV6cWI5Rm5wRW10azdvcnd2c3VQSzZKNmRXRmVjdF9KU3pHNjJqcXZzS1NpUElJUFUzYVRBQlpPQmNyWHh4R05QQTBTbUJQUzkwcjJ6Qk1MNERVcGFqaVhtM29sLVVQdmVSbndxSlBjMS1ERU5lZEJUSGVrMUR0T1pJN0NyUk9fVFU5Wk11MkRZMVREZjA1d2s5Zw?oc=5",
+          "published": "2026-06-29T15:30:41+00:00",
+          "publisher": "Van Nuys News Press",
+          "title": "After Trump Threatens To \u201cTake Over The Voting,\u201d Padilla, Schiff, Senate Democrats Warn Trump Agency Heads: No Cover-Ups, Preserve All Election Records \u2013 Van Nuys News Press - Van Nuys News Press"
+        }
+      ],
+      "hits": 1,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
@@ -198,18 +263,18 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbHJtMmJ6R3JjdV9SdFhWSXVZaS1XLTViTlBRdERJbTZJZTk0bjA5bmdudlhWWC1GZ2dVSTZlX0txQ3dNR29nUVV3U3JObnJNaXBOekZrVkFBNTVhZnlkME1sTzdNTFU4M1BDeS1xNUI5RmxpS055RXdDLVlZYU1QS1lpdWN0eGZiMEpnSjRhbVh2Zy1pQ2N2dmplT1d5LUVqX1pPYnZMRQ?oc=5",
-          "published": "2026-06-28T09:00:15+00:00",
-          "publisher": "The New York Times",
-          "title": "White House Secretly Swayed Board Meant to Protect Federal Workers From Unfair Firings - The New York Times"
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaWRFMmw5dE9kQThqcktGcFBNX09QdTlxWnlTUk1sU0xaZmQxRDl3LU9DTDZIUENQT1pXbWhhZ0lJbWhySF9yM0ZwQ3kxT2pKMG9yOTVWYTFrUUQzUEZBNEN4dkRqSjdSQUsyeDgwM0FZbjBVWHE4MGYxSEhHb05JWndrbFlUcE5DTmNwV0dScDFNMVRGT3ZQRktTOF93LXZ1cXQ1SNIBqgFBVV95cUxNdEg1RXljVGd5alNqek45LVRsNkZDMUpidXNNYWk3TUVIZGozNjhQUU5JNVZseXJxeUtEeUU4WjRMLXFQc0Y0ajF1SU5RZTcxSWxBVFhNaGswRjVIYV84VmVSMEZacTNUT3FlVF9ZRlhYS3Y0SU1YYVRyS2dVS2lvN2hJYXhjRVlTbnZoaTVMbWdyRGw1UzA2TVh4MExhWW1Ueng3N1ppLVktdw?oc=5",
+          "published": "2026-06-30T10:29:39+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "title": "What to know about birthright citizenship ahead of Supreme Court's ruling - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "hits": 1,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -218,93 +283,55 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZUNtaUFqbU1IUkt1QTRBcUEyM2pHcUMwWGZEbzRJS0k3ZEdTZmFMNzhZaEQ4MXRacENjTGJZRTQ2TnR6T1docmZoZEVxNDh2UzlCcE9nb0VBTlpnYkd5Vl94ZnpYYmtiYzBUQ3Zxcm10ZkxVZ2RUR2ZOV2lWQTNlb01PZk1FU1lXYnpGVXJzTHlVdVRxUU44alg4Q3VXaWtNbmwwMlhPaw?oc=5",
+          "published": "2026-06-30T09:00:25+00:00",
+          "publisher": "streamlinefeed.co.ke",
+          "title": "Why Congress Faces an Unprecedented Institutional Overhaul in the Post-Trump Era - streamlinefeed.co.ke"
+        }
+      ],
+      "hits": 1,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNWxtSENIbUdXOU1zSHBnMUc5cFdITE5zNldLZy1RYlRwWjFSejFHaW9MZDhLNW9EbHBOb2tIdFZSdXhPelcyalVzYm81ZkFtZ1lUTTZvaFJqMHpQa181VW5oLWU2SDI2UWFwczNNczl6bzNZUHlVM1diV2ZQRk9DazlmdlJjdC1BUGtGMkhBUVpXdjM0X3BJQk5kVU1VZ0NLamFYSHZheGFLU0FVNU4zT1pINXE5RnY5bWJ3UklHa0Zqbl9Q0gHKAUFVX3lxTE1fbHBTWHAtVWVJak12aDNfTFBPNmR3b3Rta0wxMHB1anZkMGJkaTgzaF9LeTB3aGNIRTUyYlEwZGREdTZzemFwaUJHSEtqbUVHWXdUSXpVWlZ1MnpJdUw1Z0pzbnRaWVYtR094T0dkRllYMExvSmNjNHVzNEt6WThPdW5wdkoyM3pCLVZuUEE4eFJ5ai1rbVpjNGdEVzA2WUM0LU96dWRCaERuM3QxQ1BVWGdIUWVQTzFPUDZCZHRqOWZpMjJKUGF5S1E?oc=5",
+          "published": "2026-06-29T13:51:38+00:00",
+          "publisher": "fox5sandiego.com",
+          "title": "Supreme Court agrees to take up part of Arizona proof-of-citizenship voter law dispute - fox5sandiego.com"
+        }
+      ],
+      "hits": 1,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "security_sector_neutrality",
-      "evidence": [],
-      "hits": 0,
-      "id": "military_domestic_political_use",
-      "name": "Domestic Military Use in Political Conflict",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
+      "severity": 0.95,
+      "severity_label": "Watch",
       "unique_publishers": 0
     }
   ]
