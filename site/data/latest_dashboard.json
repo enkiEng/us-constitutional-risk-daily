@@ -9,56 +9,56 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 5.0,
-  "delta_vs_7d": 3.53,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": 3.14,
   "domain_breakdown": [
     {
-      "avg_severity": 0.25,
+      "avg_severity": 0.1625,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.375,
+      "points": 0.89375,
       "weight": 22
     },
     {
-      "avg_severity": 0.8666666666666667,
+      "avg_severity": 0.6333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.25,
+      "points": 2.375,
       "weight": 15
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.6666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1666666666666665,
+      "points": 2.333333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 1.6666666666666667,
+      "avg_severity": 1.55,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 5.416666666666667,
+      "points": 5.0375000000000005,
       "weight": 13
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.2166666666666666,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 3.333333333333333,
+      "points": 3.0416666666666665,
       "weight": 10
     },
     {
-      "avg_severity": 1.5,
+      "avg_severity": 1.825,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.75,
+      "points": 4.5625,
       "weight": 10
     },
     {
-      "avg_severity": 0.5,
+      "avg_severity": 0.325,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 1.0,
+      "points": 0.65,
       "weight": 8
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-07-01T13:16:43.071463+00:00",
-  "previous_score": 14,
+  "generated_at": "2026-07-02T13:01:12.711329+00:00",
+  "previous_score": 19,
   "provisional": false,
   "score": 19,
-  "score_raw": 19.29,
+  "score_raw": 18.89,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,32 +84,32 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMUhnV2JWanJRWkVyR09IdXlPVlc2eHd2QWZpdjliZGl0LTZoUkYyWmdCVW9meUs2R2wwRWpmbUJ6WkROa292NkVCdFNINWI1WWl5OVpTS25yY2J1NmhGNEJWajFrNXVjcDRVckU1WTdiVFpRTkpqam9rN0lqbmp4SmtnQWM0dFh5XzZjaEFnSlVCSXZVNmY0dVNlNUwtcnVoZzV0cU1waEVkSG5zSVA5M2E2b2p1bE1vcTJNZExJakxxTXVo?oc=5",
-          "published": "2026-06-29T17:47:00+00:00",
-          "publisher": "E&E News by POLITICO",
-          "title": "Supreme Court hands Trump new power over independent agencies that oversee energy development - E&E News by POLITICO"
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTzF1cm1ONHFabXNfSVViUl9aMTBxbHFYb0JLRWxtY1U2ZUJFd2pDZEkzRUV4c1daWUxQVkUwSGMtWlI0TVN5M1N3UlpEN1pUd1dqR2ZXWGRlaW5VdDEyRDJ4M2Zxc0JNeGpRVUVUdDZjX2JSZjBkWEp3VkhRVmg5WVZiZGZIejhVM0d0czhGaUE1NTRRTDFNbTFNRzRXQ0xoNWpGS3NXcmdWUFN6RHc?oc=5",
+          "published": "2026-07-01T02:49:39+00:00",
+          "publisher": "Morgan Lewis",
+          "title": "US Supreme Court Reshapes Independent Agency Removals, Carves Out Fed - Morgan Lewis"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNdjJ3azBydjJZeklMZFAyYlk4Tk8tWnk0dk12ZDVkdU9zQXVLdklhMW5TNGZBclFMZEhRWFZqN3lqa0Z2cEYzZzlUR2twOGdnM256OHpBcV9MV0wzYlZfWXYzSldkeTExQkVZdUljLVlPSmc2LTNSLTNVY0JuV1BXcVpBcURGLTc0VXZYOXRkUGN3SVFIVjk4OVN0M2JOWVVqaVctRXFnMFpEUXhwWnpqMWhMa1lMc2VLOV92enlTeF9KRlRJU0NYTGp3UW1yQUFvMUVJU1JSenk0TnlPNUNkcklFMy1wTEt3TzBUVjZhZEVsZXU1azI5aHF5Q0Fpc25rdFpTRURzZEpMUE9sRmR3?oc=5",
-          "published": "2026-06-29T19:18:43+00:00",
-          "publisher": "Consumer Finance Monitor",
-          "title": "Supreme Court Overrules Humphrey\u2019s Executor, Vastly Expands Presidential Removal Authority\u2014But Preserves Federal Reserve Independence - Consumer Finance Monitor"
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcVVhVFlLbkgwUjhLYTlVWXhtOTA5dXBmbEswZnFQVEN2M056UEZ1TWJDX2Q0aW9vaWVFNjdkcm1sWVBSM19RVXBkcW1sQmJvdC1LT3BDWTJZX0ZobURyY3hFS2lWZkszRDJHeXBGdHR0MEpaeWhvQkZXNnZrVHFsX1ZqNHpoQ2NPMGtfLWRuQnJrS2NzWVBiOTlqbWU0NXRCdExRb1ZkYVBWdHhmQWQ5MGtRN0xwUlYxRHEyWGNkZDh2WS1tcDdJQw?oc=5",
+          "published": "2026-07-01T19:13:20+00:00",
+          "publisher": "Ballotpedia News",
+          "title": "U.S. Supreme Court rules 6-3 for presidential removal of independent agency commissioners - Ballotpedia News"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ2hTM2hZcjNoTy04VGZqMFNOX1l0NGFwdTZDVkliVW1WbG5yWGlab0todGIybmxsUWlIMHFHdTF6ZThxaHBUUUhYb2tHUTQwQTVtRWZnQ2tyc0RZdjVDQlYza0VmWFhnNlVqNGxQZ3luUWNvNnh6RXFOLVFkTWlMYVhVZGNiUENUVDhybWJqcjRBM0R1aXpNZVdqeDdhejR1eU5IQjNWWUlHenluZmdaQWplUzZlYWNMV1pKNVg4eUZtZUM1VEd6cU5Bcw?oc=5",
-          "published": "2026-06-30T00:15:00+00:00",
-          "publisher": "SCOTUSblog",
-          "title": "Supreme Court allows Trump to fire FTC commissioner and overturns major restraint on presidential power - SCOTUSblog"
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZHJheVQzS1JjQTM0ZzBsMDA2TU11U1MxWnBDRjVQWHdESGI5dzRMUk15bEl3THZKdHVRSFAyMEdFV3BzdkRVTFNnbWp6V3hGTFdFWFUyU2QxNHJGcThKQ3JmTTBxMUxlbUJqN084dWtjVV9FOXRrZjd3aVVFZDNucVFRR3ZQakJFZFRwUHYwUU9SQQ?oc=5",
+          "published": "2026-06-30T16:39:24+00:00",
+          "publisher": "Harvard Law School",
+          "title": "SCOTUS Review: A win for the Federal Reserve\u2019s independence - Harvard Law School"
         }
       ],
-      "hits": 47,
+      "hits": 50,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 27
+      "unique_publishers": 32
     },
     {
       "critical_hits": 0,
@@ -122,16 +122,16 @@
           "title": "Supreme Court Rules to Protect Birthright Citizenship in Landmark Case - American Civil Liberties Union"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ2hTM2hZcjNoTy04VGZqMFNOX1l0NGFwdTZDVkliVW1WbG5yWGlab0todGIybmxsUWlIMHFHdTF6ZThxaHBUUUhYb2tHUTQwQTVtRWZnQ2tyc0RZdjVDQlYza0VmWFhnNlVqNGxQZ3luUWNvNnh6RXFOLVFkTWlMYVhVZGNiUENUVDhybWJqcjRBM0R1aXpNZVdqeDdhejR1eU5IQjNWWUlHenluZmdaQWplUzZlYWNMV1pKNVg4eUZtZUM1VEd6cU5Bcw?oc=5",
-          "published": "2026-06-30T00:15:00+00:00",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tRFdxWk42blhrMVFxMkJWQ1M5YVZub0R2RWFBZmg2ZWl6RzF2T0NEOVBwLWtHZmhPSFZrZXl3T2pmZjVTbXExSk14UmJnakNNTzlhSzBCRjRQS0IwV0JkcTlULWNZNEE?oc=5",
+          "published": "2026-06-30T13:09:03+00:00",
           "publisher": "SCOTUSblog",
-          "title": "Supreme Court allows Trump to fire FTC commissioner and overturns major restraint on presidential power - SCOTUSblog"
+          "title": "The final four - SCOTUSblog"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQblJtOTM4TVBaNUpqOVNNTzVZTV9vV1NuUzh3VUpWek9XQXh2VmJpdWJHTXVVdm1ERnVqa1lwX2FweU92a0xVUW9uaFpuNXVleUhRLS03ZW5xWEx4VUlFYjhKY0dkSDBGWG5EdnJnTFVzbUE2ZmJkNXpISkNnN1Y5c2hOYkpRa1lsMjI5MGRibFdFb09aQTdBT1F3?oc=5",
-          "published": "2026-06-30T23:44:47+00:00",
-          "publisher": "Independent Voter News",
-          "title": "Commentary: Birthright Citizenship Is More Complicated Than It Sounds - Independent Voter News"
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVlhDaGdJUmhyYl9TUDBEajRSeUJINHh4RDdDZ2Q3SEZGREhxZmVxckZHaWh2V3E3ckpxSlhQT0diSC1jQ3VGMkZWVHJMZ1FtQWxwYTVKWEtPSUNsSEZvSG9ySjA4Q21VZW56b2U4blBHRDFwTWpRaVpTWnRpQ01INjZKMmhoRnc2X3M3U09R?oc=5",
+          "published": "2026-06-30T20:00:01+00:00",
+          "publisher": "Cato Institute",
+          "title": "Trump Violated the Constitution by Trying to Deport US-Born Americans - Cato Institute"
         }
       ],
       "hits": 16,
@@ -141,34 +141,34 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 12
+      "unique_publishers": 16
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xSkpzYkpQeC1iNDJjbDNpdlRfYTh0SjFBdjVabWNwSElpWEdkMWpGVGVZQ1BiRXBHaHI5NXFYR0tRdTRYRFRNRVVWZkRQelRXTDZ6NUo3QXl2UW04UkV3?oc=5",
-          "published": "2026-06-30T21:16:18+00:00",
-          "publisher": "The New Republic",
-          "title": "Trump Hosts Convicted Election Fraudster at White House - The New Republic"
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQXN2QXJacGhSRXpIRzJXSERLcWhCRHBVNGJzMW5ENmFoZWhLUUtfU191Y0VPUjFDOTdnazAtTWI5Uk1IcTY2TW83Vl9XWlh3Q2dPNHltYTdZS3VQMkhXa0dyM19odHplM3E5UDFNSEtUTHlzN3FlakF0V2RtdkY5OENTRDdkLXp3UlYxZ0dDZldpSk1OX1pUR3lDRS16YUw3OW9NR3JrOA?oc=5",
+          "published": "2026-07-02T12:19:55+00:00",
+          "publisher": "The Diplomat \u2013 Asia-Pacific",
+          "title": "Mahrang Baloch\u2019s Conviction is a Pyrrhic Victory for the Pakistani State - The Diplomat \u2013 Asia-Pacific"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbDc2MEJrTGlzaVJ1YnA4MkNic29ZdFVpOGpkRnNEWTBtMUVGa0VmaXczNjVTMUF1UTlRajlFMEp2M3Y1UVRsZXNlRm14aXM4UldEV0tYSnc1WTgyWERxaGVqcGdsb2premVxMEF0bUxqU29qX2RwZWxRZy1WejlFTDRqWGN0SUJMaFUtaWFqOXpMMDQ1eG5RVEI5Wlc4SUtySnpEOVN3?oc=5",
-          "published": "2026-06-30T15:30:17+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "JP Monthly Review | June 2026: Journalism under pressure, AI on the rise - Journalism Pakistan"
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR1JLb1Q0ZG1xZkpzMkFjMkxKUEhTRVZlZElyRy00ZEhWdW5FZEVQdFYyM1BuODhxZmY2UERVTXE5cm1FNnYyYlRrNHFINzU1ZC1wR3JvME5aaS16enRmYVdJYkJabGhPRm5ncFVnWmZ1aGl6VGNOMHNfaVdHWTE0bEFLdFhrNk1RUENuWFFTRnljenAzX0N5S2VyUTFWSnMyRE1DOA?oc=5",
+          "published": "2026-06-30T21:59:35+00:00",
+          "publisher": "MLFA",
+          "title": "\u2018Criminalizing Dissent\u2019: Alarm Grows Over Extreme Prison Terms for Texas ICE Protesters - MLFA"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVHA5VTF1RUpZd1ZXMm5xangwZjhDcW5UZHBPaGw3V25uNHQ1eHBjWmdOWnI4LWwyTktfMmtNMHFoc3U4cmlrXzFEZk5SVnYtWmFUT1BXNFJ3ZjJLMTRQWC1XdDc3c0dKcmdOdktjZU8wRFNNSWxXYjRhVFNyWVREdjI5cDRUUlF4ZElqTjlweFhKbzN6UTZaR3FoTXVVZEw3YWE3dUlPYVFDVndkcmtJOG5ndGdMR05rZGZIUjNLaw?oc=5",
-          "published": "2026-06-29T16:38:58+00:00",
-          "publisher": "The Financial Express",
-          "title": "CJA urges Bangladesh to drop 'politically motivated' charges against journalists - The Financial Express"
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORHlYUXFucElZOV9oRzdUZ0NOSmJxc2ZSdWVadXFldV9TRzRVU3BPUmp5MDY2UG1hM1htSmxkZjhUZjViM0w5QnE1bEcwbmVZM3JHeHM1dDNfdjBJY0tZZVl0eWNQYklBSGtISEo2UUo0enhfM2NOTDAzQWlPNkREbnlXN3hrU0pGb0o5RzNTZXQwVFRfc0FKZXpwMjJQMlh5TkVnbTlZQ1NWZDhQQ3dFQUhLQU4tcDFnd056SWhoVDJYeTJfX3hESUloWHlsbFBQcU90cHZOd2lpaE5Odkln0gHkAUFVX3lxTE55d2lMOUNWcXM4ZDVzRllLMjNFTzlEbFFTaWJ6OU5na0dWRUQzQlBpcEctbWZndzYtdGJCUDhnS2h1RERfQnlYY0dFZ1hIMm1vSHhZeWtsQVRKcUtSUnN2TF9UY2RFUWlURm5QbWF3dVEzemswUFhQZ3VIaFJjbVo1TXdqcGR4VTVUWENQZjI0WmhXWXEtU2p4UDVsbExhZmk5YWcyZmVpNmRKRjI4SjhGbWI0d3dOY2p3bDJqamozQTR6YnZ5d2F2bF91Yk9peWRvZzdYRXd2Sm56NlgwVHp5MEE3TQ?oc=5",
+          "published": "2026-07-01T14:18:09+00:00",
+          "publisher": "Defending Rights & Dissent",
+          "title": "Defending Rights & Dissent Policy Director Raises Concerns with Trump \u201cAntifa\u201d Prosecution and Heavy Sentencing - Defending Rights & Dissent"
         }
       ],
       "hits": 4,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
@@ -177,102 +177,89 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbDc2MEJrTGlzaVJ1YnA4MkNic29ZdFVpOGpkRnNEWTBtMUVGa0VmaXczNjVTMUF1UTlRajlFMEp2M3Y1UVRsZXNlRm14aXM4UldEV0tYSnc1WTgyWERxaGVqcGdsb2premVxMEF0bUxqU29qX2RwZWxRZy1WejlFTDRqWGN0SUJMaFUtaWFqOXpMMDQ1eG5RVEI5Wlc4SUtySnpEOVN3?oc=5",
+          "published": "2026-06-30T15:30:17+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "JP Monthly Review | June 2026: Journalism under pressure, AI on the rise - Journalism Pakistan"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa2tLczFVZGhNMWFGejRLMHQ1TG5OaWUza0gzdEU0VF9jcnliTGVJMVZpUWUyTlhKcTY4czJmdkJwS2hOS0VEb282aGRDb3hXQXZuZ1lrazhoX1VTeDN4WmFMQ1pHcHVXS0VzRmk0YWlnRlgtYXJJTUdtWkNaRzRsallBMGRfZ2fSAYcBQVVfeXFMUGtrS3MxVWRoTTFhRno0SzB0NUxuTmllM2tIM3RFNFRfY3J5YkxlSTFWaVFlMk5YSnE2OHMyZnZCcEtoTktFRG9vNmhkQ294V0F2bmdZa2s4aF9VU3gzeFphTENaR3B1V0tFc0ZpNGFpZ0ZYLWFySU1HbVpDWkc0bGpZQTBkX2dn?oc=5",
+          "published": "2026-07-02T04:54:57+00:00",
+          "publisher": "breitbart.com",
+          "title": "Judge blocks Pentagon reporter escort policy - breitbart.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPczVHcTV3ZDBzT3dMdjloOUg4VFZVVDBYMDVxZGlzOXkzVjV6akZJWEhRei1GR2s2YkhxdnRkZmZicXlCcDdyVllUTk93VXBxVkNSYjJjc3dIdFdxczd3cUxSZFIyR1hITzFWMHNGZGlhNkJVQk43NGp5dW1nUjRnXzFuSzlCTG5qTzFqXzc0a2pHVkpBNmE2TVBVWXVxWmkxcGNPcDN3TUZDb2pTTy1hU2tZemRSM2M?oc=5",
+          "published": "2026-07-01T07:47:04+00:00",
+          "publisher": "streamlinefeed.co.ke",
+          "title": "Uganda Arrests Danish Photojournalist Klaus Thymann Amid Deepening Media Crackdown - streamlinefeed.co.ke"
+        }
+      ],
+      "hits": 3,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSmUtQWs1a2wzVHNpWW9rWVgxU2NYajhjQ1g0U2VIYkhtWi0wblRkN3I4TEp1TWhVNC1fc3NwR01CTUVLM1BBUV9SZzBmbTN4QW9veGYyVE5SZGN0UXhQWC1LSnppYW04dnlVcm1Wc0Q5WDlCVDU1Z3Q2UFJFZTJlY2FDZ2NrWTJGTVhWelNTZm5RUHl6QnNGazhWV2t1OGF4UTl6ZXRvaUUzejEyOGpuZ2N3?oc=5",
+          "published": "2026-07-01T20:04:42+00:00",
+          "publisher": "GovExec.com",
+          "title": "OPM finalizes \u2018Nixonian\u2019 rule centralizing and enabling some federal firings - GovExec.com"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfbTJWb0tBV3o4M0Z2NVhFMWhKc0kweC1QQ1FSTHNzZF9VWHBJZThaVjNwd0ppd0lLQzdDckwtUkVMQmViejZiMlA3aWdXYlRhZFdVZXhDRENjVzJsejYzUk9EZHNZTzQ?oc=5",
           "published": "2026-06-30T21:51:51+00:00",
           "publisher": "Lawfare",
           "title": "Slaughter\u2019s Silence - Lawfare"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOXhFQjJ1cU94UEtEeklQS0xYTE5kODN0d1JwNXpPSkRQMGxZMjNHOFhKTmpYZ2RTNlF0X1hBS0doZmF1T2dNR3lISV9VM19ydjI2dWhZdTVkclJkRjZYMGZjLV9fY0RrRk1PWGhGUm9hYVVJaE16Z1JRNm1DdWNJbGxuWHFYUGVZY2dDRkdtVkxWM0xHbFE?oc=5",
-          "published": "2026-06-29T16:34:59+00:00",
-          "publisher": "Missouri Lawyers Media",
-          "title": "High court expands Trump\u2019s power over the federal bureaucracy - Missouri Lawyers Media"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQY3RQRW50VDB3Q3ZPMXd3UDJqdjgtSHRhUkNXRHppRWUxWVU5NzJzSGpKY0o1Z3M3LV9HWThVYV9EQW1WbE9KbGJ1YmE5SllBNWZONDNjRHVIMjNRNVA5UDRDaGRIemNIUlZsVUprWkR3MURUdEtSOUl6NlhmMEZ1bjRzRFNvR2hNSHM5bkN4aTBhdw?oc=5",
-          "published": "2026-06-29T17:48:43+00:00",
-          "publisher": "weddings.lavenderhotels.co.uk",
-          "title": "How the Supreme Court Just Rewrote the Rules for Firing Fede - weddings.lavenderhotels.co.uk"
         }
       ],
-      "hits": 3,
+      "hits": 2,
       "id": "civil_service_purge_schedule_f",
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTFE3bzAzTDFzX1JoZDhDMXF4ZHdwVXFtaDdVNmxCUjZRZkRXZFZ6SEpKM0ZRRk16THg1WDVYZnN6aHd2OWU2MEJJZk13NUVYaEtkQ1B4MEExZ1RvdWVwb21YbmR4ay1wNmxobW1WS3RWc25nX2ZBUnQxclFlTjl1UTRBaFRvMjN3aXlqVlVJS2xhbHNuRFIzZ2FzWlRvTzFmZXRIWWlBSQ?oc=5",
-          "published": "2026-06-29T18:30:00+00:00",
-          "publisher": "SCOTUSblog",
-          "title": "Justices uphold state law allowing for late-arriving mail-in ballots - SCOTUSblog"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNWxtSENIbUdXOU1zSHBnMUc5cFdITE5zNldLZy1RYlRwWjFSejFHaW9MZDhLNW9EbHBOb2tIdFZSdXhPelcyalVzYm81ZkFtZ1lUTTZvaFJqMHpQa181VW5oLWU2SDI2UWFwczNNczl6bzNZUHlVM1diV2ZQRk9DazlmdlJjdC1BUGtGMkhBUVpXdjM0X3BJQk5kVU1VZ0NLamFYSHZheGFLU0FVNU4zT1pINXE5RnY5bWJ3UklHa0Zqbl9Q0gHKAUFVX3lxTE1fbHBTWHAtVWVJak12aDNfTFBPNmR3b3Rta0wxMHB1anZkMGJkaTgzaF9LeTB3aGNIRTUyYlEwZGREdTZzemFwaUJHSEtqbUVHWXdUSXpVWlZ1MnpJdUw1Z0pzbnRaWVYtR094T0dkRllYMExvSmNjNHVzNEt6WThPdW5wdkoyM3pCLVZuUEE4eFJ5ai1rbVpjNGdEVzA2WUM0LU96dWRCaERuM3QxQ1BVWGdIUWVQTzFPUDZCZHRqOWZpMjJKUGF5S1E?oc=5",
-          "published": "2026-06-29T13:51:38+00:00",
-          "publisher": "fox5sandiego.com",
-          "title": "Supreme Court agrees to take up part of Arizona proof-of-citizenship voter law dispute - fox5sandiego.com"
-        }
-      ],
-      "hits": 2,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNYXMwTUlzSnN0bDVvMWx5LWpiUW1FdnJPcFk0bGNhdDFOWFlrV0Q2a2p3SFRja3dROEFac1JCem05Z1ltNGxMUjVXeDVRNHI1VXpTV3ZBRGVHelp5NmVqM1VfZXByMEhkcmUyU2Yta0R3RmhMd01EZGtFWHlvNjdIOXhIMzJTU1hJTE1TTHExZHBkODI2WDNCODBXREM5eGc5b1hlZ0ZGWk5DVFpTV2F4NW56VE1EallueDZEcUx5Wi0xMjNVQUpPdTZBdVp2aGFFNDJEOGZtQmwxbTlUUktRWjd5dldIR0JuMmwwd0ZhbWZRcW90TmpTUmlBTGIzeGVs?oc=5",
-          "published": "2026-06-30T18:22:05+00:00",
-          "publisher": "MSN",
-          "title": "Judge grants permanent free speech win to pro-impeachment protesters - MSN"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xSkpzYkpQeC1iNDJjbDNpdlRfYTh0SjFBdjVabWNwSElpWEdkMWpGVGVZQ1BiRXBHaHI5NXFYR0tRdTRYRFRNRVVWZkRQelRXTDZ6NUo3QXl2UW04UkV3?oc=5",
-          "published": "2026-06-30T21:16:18+00:00",
-          "publisher": "The New Republic",
-          "title": "Trump Hosts Convicted Election Fraudster at White House - The New Republic"
-        }
-      ],
-      "hits": 2,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
+      "severity": 1.65,
       "severity_label": "Watch",
       "unique_publishers": 2
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "hits": 0,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPcUFvYUJseEwybmtDR05oNjNXUHgxcmUzVENwWlk3a25xM1FKOEpBaTlmSWNCNGdqa3FIRmxzMXZNX3Z0QVV1VzRlUjB6SzRMZGRGbUl6Yi1oNUVfRjNmS3hQTzZHcmNUUzF3dDBwT3pIckljVlNPREV6cWI5Rm5wRW10azdvcnd2c3VQSzZKNmRXRmVjdF9KU3pHNjJqcXZzS1NpUElJUFUzYVRBQlpPQmNyWHh4R05QQTBTbUJQUzkwcjJ6Qk1MNERVcGFqaVhtM29sLVVQdmVSbndxSlBjMS1ERU5lZEJUSGVrMUR0T1pJN0NyUk9fVFU5Wk11MkRZMVREZjA1d2s5Zw?oc=5",
-          "published": "2026-06-29T15:30:41+00:00",
-          "publisher": "Van Nuys News Press",
-          "title": "After Trump Threatens To \u201cTake Over The Voting,\u201d Padilla, Schiff, Senate Democrats Warn Trump Agency Heads: No Cover-Ups, Preserve All Election Records \u2013 Van Nuys News Press - Van Nuys News Press"
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd3RrUlN5Q3lFdk5oeGpRQXVHWG85SDU0M2U3U0ZBY2ROVnY2c0ctREVQMWR6MlY3TnExNjkzQ1F4UDhlMngtR1BZZVNhWmkyZzFFRGpQNHJvNUEzZlpJdk9hSEt0T21fVnRlb2R6SjdzR2lYNHl0eXhubDFydGowLS10WHJzVTl1cFpTalFLWm43aDNfY01FeFJiZzJYRV9SYW8xMklfWEVYUkHSAbABQVVfeXFMTS1IbWszZ0FoTlF3WmFHX0sxMzFzUnNZcDItc2J2MkVxWXMxaUgwUnkydi1oTHNQc2ROWFN2UXpqTkREaTdmVXpOSkFqVC0yZXI1cTZiLTM2WUtHQVNkS2VfRll5RGRPVDRveThWNDhVTUs0TGVxdVNwODhoSlQ1UllOY2N3dk1rd3hBSEtSdjdWVXhyLWc4UUFEenFObVNMcmhlbmZVUDJ4SDBmQkhEbnE?oc=5",
+          "published": "2026-07-01T10:58:27+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "title": "Combative Bondi grilled over Epstein files, targeting of Trump's political foes - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "hits": 1,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -304,10 +291,10 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaWRFMmw5dE9kQThqcktGcFBNX09QdTlxWnlTUk1sU0xaZmQxRDl3LU9DTDZIUENQT1pXbWhhZ0lJbWhySF9yM0ZwQ3kxT2pKMG9yOTVWYTFrUUQzUEZBNEN4dkRqSjdSQUsyeDgwM0FZbjBVWHE4MGYxSEhHb05JWndrbFlUcE5DTmNwV0dScDFNMVRGT3ZQRktTOF93LXZ1cXQ1SNIBqgFBVV95cUxNdEg1RXljVGd5alNqek45LVRsNkZDMUpidXNNYWk3TUVIZGozNjhQUU5JNVZseXJxeUtEeUU4WjRMLXFQc0Y0ajF1SU5RZTcxSWxBVFhNaGswRjVIYV84VmVSMEZacTNUT3FlVF9ZRlhYS3Y0SU1YYVRyS2dVS2lvN2hJYXhjRVlTbnZoaTVMbWdyRGw1UzA2TVh4MExhWW1Ueng3N1ppLVktdw?oc=5",
-          "published": "2026-06-30T07:00:00+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "title": "What to know about birthright citizenship ahead of Supreme Court's ruling - ABC News - Breaking News, Latest News and Videos"
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOEctUEFmTXBwSHdIdUV6cEVHRUt3UElkV1F3YVE5RGV3ZUgyWUlUWl8xQ0JfNDhfclRpXzZpelNvOUZ0WnczTEtSLWpXalA4RFJXOU8zZWpNNEl0ZmRiNV9qa3FWRmdoeFFxOW9kZHhzbXRsV0FZZGRVNklSakRwdHc0UUl0TjR0LVVxdmswNFhBYkRSQy1sN00xMW50Wk1MT05SNUhpMFVlcldyNVFiM0xxWHh4UjctNHNURmNCNWozV25yVWZzWnVXVTVBeFJsbkdTUG0tVGdQakN5YnptMDNR?oc=5",
+          "published": "2026-06-30T14:58:41+00:00",
+          "publisher": "facebook.com",
+          "title": "In a landmark 6-3 ruling authored by Chief Justice John Roberts, the Supreme Court held that children born in the United States to parents unlawfully or temporarily present are \u201csubject to the jurisdiction\u201d of the United States and are citizens at birth under the F - facebook.com"
         }
       ],
       "hits": 1,
@@ -341,43 +328,42 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR1JLb1Q0ZG1xZkpzMkFjMkxKUEhTRVZlZElyRy00ZEhWdW5FZEVQdFYyM1BuODhxZmY2UERVTXE5cm1FNnYyYlRrNHFINzU1ZC1wR3JvME5aaS16enRmYVdJYkJabGhPRm5ncFVnWmZ1aGl6VGNOMHNfaVdHWTE0bEFLdFhrNk1RUENuWFFTRnljenAzX0N5S2VyUTFWSnMyRE1DOA?oc=5",
-          "published": "2026-06-30T21:59:35+00:00",
-          "publisher": "MLFA",
-          "title": "\u2018Criminalizing Dissent\u2019: Alarm Grows Over Extreme Prison Terms for Texas ICE Protesters - MLFA"
-        }
-      ],
-      "hits": 1,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "hits": 0,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "hits": 0,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "security_sector_neutrality",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tY2xDZkJjWGtNWXF0OU5jbzR4RUlCR0NoSjNBUjA4TXVXV0E2cDc5VERJMExLWkxtdm9HRlpJUHk1Wmg3alozSE9DMVRkek1BVmNxeXg3YlY5WVRfZFl1WS14WVNjbTVXa3VDV1ZZVi1Id3NCYlQybw?oc=5",
-          "published": "2026-06-30T16:00:00+00:00",
-          "publisher": "Taipei Times",
-          "title": "Political tensions swell as rally paralyzes Manila - Taipei Times"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "military_domestic_political_use",
       "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -388,7 +374,7 @@
       "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
