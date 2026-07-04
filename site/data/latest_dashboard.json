@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 16.27,
+  "average_7d": 15.88,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -10,55 +10,55 @@
   "confidence": "High",
   "data_available": true,
   "delta_previous_day": -2.0,
-  "delta_vs_7d": 0.74,
+  "delta_vs_7d": -0.59,
   "domain_breakdown": [
     {
-      "avg_severity": 0.075,
+      "avg_severity": 0.25,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.4125,
+      "points": 1.375,
       "weight": 22
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 0.43333333333333335,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.875,
+      "points": 1.625,
       "weight": 15
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 1.0,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.333333333333333,
+      "points": 3.5,
       "weight": 14
     },
     {
-      "avg_severity": 1.4333333333333333,
+      "avg_severity": 1.0833333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.658333333333333,
+      "points": 3.520833333333333,
       "weight": 13
     },
     {
-      "avg_severity": 1.0999999999999999,
+      "avg_severity": 0.9833333333333334,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 2.7499999999999996,
+      "points": 2.4583333333333335,
       "weight": 10
     },
     {
-      "avg_severity": 1.475,
+      "avg_severity": 1.125,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.6875,
+      "points": 2.8125,
       "weight": 10
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.3,
+      "points": 0.0,
       "weight": 8
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-07-03T14:33:57.868890+00:00",
-  "previous_score": 19,
+  "generated_at": "2026-07-04T14:02:05.830146+00:00",
+  "previous_score": 17,
   "provisional": false,
-  "score": 17,
-  "score_raw": 17.02,
+  "score": 15,
+  "score_raw": 15.29,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,32 +84,64 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUlRBSDk4V0NpM0RHSGJyeVMxTjkweVpuWlJJblpjTUlyOG05MHhPT0doSUJPaVBFUW1tcGhkUGFkOHh0bWY3amhMSFg3LS1pdlJ2VkZ1NktXaXREOEFIZXZhWXRvb3pLT0l3a2o5Y2JtRWlhRm1teThrNFhSY1hQNmtLT0JaZ0xu?oc=5",
+          "published": "2026-07-04T04:52:36+00:00",
+          "publisher": "qz.com",
+          "title": "Supreme Court blocks Trump from firing Fed governor, but gives him freer hand over other agencies - qz.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPS1dhZWFmTFJpSFdxQ3ZXc0ZqdlZWT3JrTUVrek9XWXY5d01Sa2EtemhDWXdkdlJOcy1hMUdtLThwR1RjUEdzLTVIblBndGdaV2xoZGpxYXlfVE1VZS1VSncxTVpFMWhPRkZJTHE2NHBwRzBaeDN6QnN5R2FhUDJmREZMTQ?oc=5",
+          "published": "2026-07-03T20:28:28+00:00",
+          "publisher": "JD Supra",
+          "title": "Supreme Court Expands Presidential Removal Authority Over Independent Agencies - JD Supra"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PRkk5bEp1U0F6VmpEWVJsc0tsU3ZvR3JibDBfWVJydmN1dTl3My0yN2V4S1lSY3B4bjl2MmJaX2lkOTRfUkd2cllCZGVVbWhic2JPUEhtdnFMQXJ4VUpWTTJ6T0RZTjR3VW9j?oc=5",
           "published": "2026-07-03T07:48:05+00:00",
           "publisher": "The Regulatory Review",
           "title": "Week in Review - The Regulatory Review"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVFp2Z21lbVRkTlg0amxVb0ZldjhrZnZWV1Q1MGxjblZWaEpZNGVWVVBxbENzbmNnT0FnWWJIa0dQakctYzR4aTNQWGdoTHVPdmtxRS01ZmNmSUVHeWNoT1BGZmN4SXZkZ2JTelppNVpVRWwyMHVkbzNqYjhsZUs0d1NuWGlfMkJ0VnJSZVJJZXJzVjFrdkF6YU9FcDU4Si1oLXhTOWVrblJTM2tXSUJyaA?oc=5",
-          "published": "2026-07-02T14:01:28+00:00",
-          "publisher": "SCOTUSblog",
-          "title": "After Slaughter and Cook: future Fed fights, and maybe some midnight firings - SCOTUSblog"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPREdjb3d2THNHekdfWF9MR0FYTU5SZHNtRDFWWlRUaVY5RUNSdUI1MDBHT281SkxucFVOVFNKWnNCTF9oQi1Oc3oySmxLOVJGU2FNYUlFN2s5VS14WHI4ZGFyUVl5MVd4TTFsVWNqUElaWmxZU2U0RXhndHNDQVRNUEVJR1E5YXlVTS1OTjFZMUJITXV6MDBtenZraTdfUQ?oc=5",
-          "published": "2026-07-01T21:30:43+00:00",
-          "publisher": "Pacific Legal Foundation",
-          "title": "Supreme Court rules for presidential removal power in Trump v. Slaughter - Pacific Legal Foundation"
         }
       ],
-      "hits": 41,
+      "hits": 34,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 27
+      "unique_publishers": 18
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQekJuaHRrZzJMN0tBVklHYTZYMUN2OFJOZTdwamh4Y19nU1lFUTl6X242UnlhbmZHN3pWLXVabTlUOWVRYTVCLXhIa3RhRDJfMjl1VDlFNFZoY1k5OFJieU1TNEV4blc1cnFqQWdkVUhwR3I2SElRVGd0eHRQajdWQUhTYjRLdk16cUNQMzNENGgxZzV4YlNtaThXdWdrM2RPV2VPOVkxYy1QZlVxUUliWWt3OXo0NlAxM1VJeFpiODdwOHNYYzl3UXN1MTZkZmFvbzBjSTBXbGx4ekhxT0NHZG9vcEN1SGFUMXc?oc=5",
+          "published": "2026-07-02T22:43:00+00:00",
+          "publisher": "WQAD",
+          "title": "Iowa Libertarian candidate Marco Battaglia seeks judicial review of ballot removal - WQAD"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPY1gtRE10c3F0dVNJdFBJQ1ZQcFk4RFpsLUo4QUoxeEhMMDVzcEFLUTQyQ1AtMDRnOVhjNklYTzlVRVlVc0pERHZ4dGduZmx6Vl9JMWU2MlVPOVEwN1c3Y0JRZ3RabG5CSzhxY3hrczZvM1ozWXhWNVh2T0Q2MklsSXJWekVVbWxnZ2VPZnpHSVV6NWJhWjBGRUt1VFlyYWJjZ21TbUprTUY3SnljbUIyMVgtSnRXeE1JYjY2cmhDV3RXWVFMRXl2ZUFqQndVOXl0S2Y0TS02cXJ6eFpBM2NzbWxnczlTc0RWeGR6YXVB0gHzAUFVX3lxTFBkcFBuLWVqRGxXbGs0THdLUmxOUWpHNlVHTmdRbkZMLWZCUUhINDVGS3h0SnN5YzJSQ0hDVGQtWm9NLUV2R3h3VHJpeWRIRUpGVkhQZDBuYUhPdGlkbzBYbXM5TFJrckhtOTdkRjFJV2Zhc2NPUDd6MUdfOFB6ZGtVSHdnVjZ5eENINVhOaEZ1NlZZQnRvODMxdDREY2pMUHBaOWM0WmZZU1lOUkEtRFJrYVBWbFgzM1dMSkNjNmQ2elNZcE04cVRxWGJ3SEM4TlFFLTB3VkJsQmM2OXVubkZvek12NkV2S0FoTlpXN3czWmhyOA?oc=5",
+          "published": "2026-07-03T12:00:00+00:00",
+          "publisher": "Atalayar",
+          "title": "Elections in Algeria: Plunge in turnout to 20.79% triggers a historic crisis of legitimacy - Atalayar"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM0l6X3U5dmlzNGxYVFc5TG5XakhQQkpmdnVpLS1BaWNiQ2xJYnVoVi02TVNnQ29vU015b3J5QVByWm1LNVJfa1RGZFlmdWNqNWdnQXV3Q0o1ZmNYVzJDSXJpVWRWZkNWbDF0Y05NamI1RWt1dEZPNTl4LUNmTFVWdzdQLXdFellOME1keW5KcTZvMGEweGY4azZ5UTBVOXVQREVFckIzd3ExVE8zOGhnNVROOGctd9IBvgFBVV95cUxQTDZKT2gwbGI5c3BnN2dPUXpRV2FTMDhMM1ZVMEctdmJfbWE1Z2xEN0xvOFJYSzROTl9EREhQODZJa1NVRTR5djFieTAxWDBDU2tSOE15WkRmVTByeFp2LWtCMUJ0dmk0RlhQTjU4bVoxdC1ueElsREIzZ3J4c3o4c1BTX1g5VV9uUEZpMkVzcUxNbVQyeGNzaGd2NXhDbzIyRlZac0gtZ0gzVjdkMVFhb3RBdDNlTm5hZUFsZnl3?oc=5",
+          "published": "2026-07-02T16:50:27+00:00",
+          "publisher": "NDTV",
+          "title": "MLA Disqualified, Bypoll In Madhya Pradesh's Datia To See Prestige Fight - NDTV"
+        }
+      ],
+      "hits": 3,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
@@ -122,94 +154,34 @@
           "title": "Centralizing voter data lays the blueprint for a surveillance state - Las Vegas Sun"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmd2VKOGg1MVBXaDhJRXg1WEJ1Vms2aDI5Yk5uVnUyZDZBRGRDRDUzN3ZsZnBQeGlpUGNYaUw4QUNJUUNldy1FQ19LZ01tZWp6MXF5aTBTcGZ1QU5Bdl9YdUZBbFRJSkZJRDRnenZCbDZwNGhiMTFNdA?oc=5",
-          "published": "2026-07-02T14:30:29+00:00",
-          "publisher": "Mother Jones",
-          "title": "This Supreme Court Term Was About Weakening Democracy - Mother Jones"
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOM1E5Q3hPV0d4by05dHJWMk96cnRMQnlFaGZvM285VFJaVXVJTTV1WjNZRkJBdjd0ZmFrcFNnRjEwbk93b1BVb003eEpwSjFucjVyUEVXYWF3cmRHbHA1RUh0dzFSZmJsbjl2YXA5U0dUc1NLaER4eVpfYVc2eXRqamc5SXFJMk8zblZpbWtIQUJpOE9kc0x6d3BQS3htRktNY3l0bHQxb29Qekt2VjJ3U2FLUmMwakpzQXhaaUdORW02dmxwWmZhWGJ2dnFJeUl3R3BxYTdJbGFMQVBKWGYtMmI3c0VXVkdHLWRzdQ?oc=5",
+          "published": "2026-07-02T19:44:03+00:00",
+          "publisher": "MSN",
+          "title": "Arizona AG scores major wins in lawsuits against Trump - MSN"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOV0UxVEsxSlJxR2R0TFhvNDRQdmJNMzg2QW56aFI2WW1ybUdaWlRDMHZ4dXQzeWNLRXhTUDhpR096YkFUQmprQUN3bTJUSTJDVGNrUHZCc3pSTnFNdHZpT2YxTGZ4MUtrYm5QWUctLTBRSll3MTBOZnBveXF5dWQzdnZOV29yV2h1ZGU5WkZlR05pc2ZRM2FXV0ZiQUdlclF5clpJV1o4M3dwSnJ4bXJCbUxJdkxqRVJSQTNrVnVwa0xRdldtTTJJ?oc=5",
-          "published": "2026-07-02T08:00:00+00:00",
-          "publisher": "Breaking AC News",
-          "title": "Fideri Celebrates America 250 with college scholarship essay contest: Meet our third winner - Breaking AC News"
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbnhDcFhkWGFzQXBPNGU2MnNxSDdIWnNqR2d3dEZjdXcxWDVpenNjam5uUTRIMW1WQ1RERXFoT0l1Q2ppMjZJbnV5RDNBQnZtNTIzZURCVnpGN21USkM0T095UWt2NzFLbkpHZmgwUEpHelVtUGhycHM0eVFYUGh5d3BxazZTQUpITGNLVHRwMFpwR2JTdWJBZHkyZk1ZT1A0Q0hHa0lKbmNSWV93eUsxNVdSTmxiMWtaYWw0?oc=5",
+          "published": "2026-07-02T23:40:06+00:00",
+          "publisher": "visiontimes.com",
+          "title": "Supreme Court Leaves Door Open to Future Debate Over Birthright Citizenship - visiontimes.com"
         }
       ],
-      "hits": 6,
+      "hits": 4,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 6
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQXN2QXJacGhSRXpIRzJXSERLcWhCRHBVNGJzMW5ENmFoZWhLUUtfU191Y0VPUjFDOTdnazAtTWI5Uk1IcTY2TW83Vl9XWlh3Q2dPNHltYTdZS3VQMkhXa0dyM19odHplM3E5UDFNSEtUTHlzN3FlakF0V2RtdkY5OENTRDdkLXp3UlYxZ0dDZldpSk1OX1pUR3lDRS16YUw3OW9NR3JrOA?oc=5",
-          "published": "2026-07-02T12:19:55+00:00",
-          "publisher": "The Diplomat \u2013 Asia-Pacific",
-          "title": "Mahrang Baloch\u2019s Conviction is a Pyrrhic Victory for the Pakistani State - The Diplomat \u2013 Asia-Pacific"
-        }
-      ],
-      "hits": 1,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 1.65,
       "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSmUtQWs1a2wzVHNpWW9rWVgxU2NYajhjQ1g0U2VIYkhtWi0wblRkN3I4TEp1TWhVNC1fc3NwR01CTUVLM1BBUV9SZzBmbTN4QW9veGYyVE5SZGN0UXhQWC1LSnppYW04dnlVcm1Wc0Q5WDlCVDU1Z3Q2UFJFZTJlY2FDZ2NrWTJGTVhWelNTZm5RUHl6QnNGazhWV2t1OGF4UTl6ZXRvaUUzejEyOGpuZ2N3?oc=5",
-          "published": "2026-07-01T20:04:42+00:00",
-          "publisher": "GovExec.com",
-          "title": "OPM finalizes \u2018Nixonian\u2019 rule centralizing and enabling some federal firings - GovExec.com"
-        }
-      ],
-      "hits": 1,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 4
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa2tLczFVZGhNMWFGejRLMHQ1TG5OaWUza0gzdEU0VF9jcnliTGVJMVZpUWUyTlhKcTY4czJmdkJwS2hOS0VEb282aGRDb3hXQXZuZ1lrazhoX1VTeDN4WmFMQ1pHcHVXS0VzRmk0YWlnRlgtYXJJTUdtWkNaRzRsallBMGRfZ2fSAYcBQVVfeXFMUGtrS3MxVWRoTTFhRno0SzB0NUxuTmllM2tIM3RFNFRfY3J5YkxlSTFWaVFlMk5YSnE2OHMyZnZCcEtoTktFRG9vNmhkQ294V0F2bmdZa2s4aF9VU3gzeFphTENaR3B1V0tFc0ZpNGFpZ0ZYLWFySU1HbVpDWkc0bGpZQTBkX2dn?oc=5",
-          "published": "2026-07-02T04:54:57+00:00",
-          "publisher": "breitbart.com",
-          "title": "Judge blocks Pentagon reporter escort policy - breitbart.com"
-        }
-      ],
-      "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
       "evidence": [],
       "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.3,
@@ -218,29 +190,23 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPY1gtRE10c3F0dVNJdFBJQ1ZQcFk4RFpsLUo4QUoxeEhMMDVzcEFLUTQyQ1AtMDRnOVhjNklYTzlVRVlVc0pERHZ4dGduZmx6Vl9JMWU2MlVPOVEwN1c3Y0JRZ3RabG5CSzhxY3hrczZvM1ozWXhWNVh2T0Q2MklsSXJWekVVbWxnZ2VPZnpHSVV6NWJhWjBGRUt1VFlyYWJjZ21TbUprTUY3SnljbUIyMVgtSnRXeE1JYjY2cmhDV3RXWVFMRXl2ZUFqQndVOXl0S2Y0TS02cXJ6eFpBM2NzbWxnczlTc0RWeGR6YXVB0gHzAUFVX3lxTFBkcFBuLWVqRGxXbGs0THdLUmxOUWpHNlVHTmdRbkZMLWZCUUhINDVGS3h0SnN5YzJSQ0hDVGQtWm9NLUV2R3h3VHJpeWRIRUpGVkhQZDBuYUhPdGlkbzBYbXM5TFJrckhtOTdkRjFJV2Zhc2NPUDd6MUdfOFB6ZGtVSHdnVjZ5eENINVhOaEZ1NlZZQnRvODMxdDREY2pMUHBaOWM0WmZZU1lOUkEtRFJrYVBWbFgzM1dMSkNjNmQ2elNZcE04cVRxWGJ3SEM4TlFFLTB3VkJsQmM2OXVubkZvek12NkV2S0FoTlpXN3czWmhyOA?oc=5",
-          "published": "2026-07-03T12:00:00+00:00",
-          "publisher": "Atalayar",
-          "title": "Elections in Algeria: Plunge in turnout to 20.79% triggers a historic crisis of legitimacy - Atalayar"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQekJuaHRrZzJMN0tBVklHYTZYMUN2OFJOZTdwamh4Y19nU1lFUTl6X242UnlhbmZHN3pWLXVabTlUOWVRYTVCLXhIa3RhRDJfMjl1VDlFNFZoY1k5OFJieU1TNEV4blc1cnFqQWdkVUhwR3I2SElRVGd0eHRQajdWQUhTYjRLdk16cUNQMzNENGgxZzV4YlNtaThXdWdrM2RPV2VPOVkxYy1QZlVxUUliWWt3OXo0NlAxM1VJeFpiODdwOHNYYzl3UXN1MTZkZmFvbzBjSTBXbGx4ekhxT0NHZG9vcEN1SGFUMXc?oc=5",
-          "published": "2026-07-02T22:43:00+00:00",
-          "publisher": "WQAD",
-          "title": "Iowa Libertarian candidate Marco Battaglia seeks judicial review of ballot removal - WQAD"
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5",
+          "published": "2026-07-03T18:29:00+00:00",
+          "publisher": "Iowa Public Radio",
+          "title": "Today's Iowa News \u2193 - Iowa Public Radio"
         }
       ],
-      "hits": 2,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "hits": 1,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -264,100 +230,79 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "hits": 0,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.95,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "hits": 0,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.95,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [],
+      "hits": 0,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.95,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wNng2TlRMbmxHb29EbkQ5VkhFVnlGQ1NVR0NHRlRULUJGZW9oUzZTVkhNY2Zva010TE9rM3dzb0Ytei11czFLQ3llSU50MGk1WkxBQnZnQm9YUmtJWUU3cEhHeDdjQzlMYWJ3cG5IbWVWVGRm?oc=5",
-          "published": "2026-07-02T13:23:58+00:00",
-          "publisher": "Executive Functions | Jack Goldsmith",
-          "title": "The Powerful, Resilient, Independent Supreme Court - Executive Functions | Jack Goldsmith"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN1ZXUHUxWTM0blNrR0hPZVJHdWhJbFJHUk9wWk5qclVhNGV6bmoxYUpkemNOT1lNS2xLdndsR095UGYyazVZT21FVHJFaHVFS2ptS1dTQUxCcFlhRlBYMlEzRWdGV2NpSEp0NVF3TTVEcldXMjJ6N29Fdkh2YWYwQ1pYSmlzRklYRG1CQXEwWkVONHl2NS1hR1llRndLVzZnMWcyeVVfYndUUDRhMVgzWkVFUzNGQQ?oc=5",
-          "published": "2026-07-01T19:16:00+00:00",
-          "publisher": "KFF",
-          "title": "Litigation Involving Reproductive Health and Rights in the Federal Courts - KFF"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "jurisdiction_stripping_targeted",
       "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT3dnMEJzbUZKMkxxdUl0WnV6aHlhX2dfeHZNWGVMbWo0N1g0NVNHQWgyZVYzQ1RVLXVVdWQwNnEwb3Z3azI2Y3dudVRza0RCS0NOZ1pCNThTT0NiMkljNkZ2T3hfbHZxd3lFc0dnQUZna2JiMDhXSFBiRFppOVJOMmVrRTd0ZWNaUEprcXRDOTlpZ3NMWHRnTVBoUFdDSVZQNTRjSExMMjVUd0dvN2ZDekV2TUp3bHFTbmpYQXJ5NHJGY0FWTHFPLUlqLWZqRlJBSnNEYw?oc=5",
-          "published": "2026-07-01T18:24:54+00:00",
-          "publisher": "Sentinel Colorado",
-          "title": "Takeaways from Supreme Court term: Trump's power is enhanced, but he lost some high-profile cases - Sentinel Colorado"
-        }
-      ],
-      "hits": 1,
+      "evidence": [],
+      "hits": 0,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "security_sector_neutrality",
-      "evidence": [],
-      "hits": 0,
-      "id": "military_domestic_political_use",
-      "name": "Domestic Military Use in Political Conflict",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.65,
       "severity_label": "Green",
       "unique_publishers": 0
     }
