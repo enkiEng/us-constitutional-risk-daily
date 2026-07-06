@@ -1,50 +1,50 @@
 {
   "attempted_queries": 22,
-  "average_7d": 15.82,
+  "average_7d": 15.79,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": -1.65,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": -4.24,
   "domain_breakdown": [
     {
-      "avg_severity": 0.25,
+      "avg_severity": 0.1625,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.375,
+      "points": 0.89375,
       "weight": 22
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.3333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.625,
+      "points": 1.25,
       "weight": 15
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 0.5333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.683333333333333,
+      "points": 1.8666666666666667,
       "weight": 14
     },
     {
-      "avg_severity": 0.8666666666666667,
+      "avg_severity": 0.6666666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.816666666666667,
+      "points": 2.1666666666666665,
       "weight": 13
     },
     {
-      "avg_severity": 0.8666666666666667,
+      "avg_severity": 0.75,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 2.166666666666667,
+      "points": 1.875,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-07-05T14:12:04.505374+00:00",
-  "previous_score": 15,
+  "generated_at": "2026-07-06T15:56:04.624556+00:00",
+  "previous_score": 14,
   "provisional": false,
-  "score": 14,
-  "score_raw": 14.17,
+  "score": 12,
+  "score_raw": 11.55,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,32 +84,32 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUlRBSDk4V0NpM0RHSGJyeVMxTjkweVpuWlJJblpjTUlyOG05MHhPT0doSUJPaVBFUW1tcGhkUGFkOHh0bWY3amhMSFg3LS1pdlJ2VkZ1NktXaXREOEFIZXZhWXRvb3pLT0l3a2o5Y2JtRWlhRm1teThrNFhSY1hQNmtLT0JaZ0xu?oc=5",
-          "published": "2026-07-05T10:32:29+00:00",
-          "publisher": "qz.com",
-          "title": "Supreme Court blocks Trump from firing Fed governor, but gives him freer hand over other agencies - qz.com"
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbUhHYy16SmZuRl9tWVRRV2gwd0s3UXJWRWI4RFJwY2JkUWZBQ1N3TUZZTmtRbzB0T19SS3hfTXRneUpLY1p4SkNFaDhiR0lkd2loWmJqazlDbHZiQmlwMEluUEhDb2ZzNDlFTXZEWXJ5X0s2eExiSThvZ2RweHNtVW9HWnpZNXFhUGVIYjJmei1qRTdpM2lBVy1EV2J4MGZrV2hvOQ?oc=5",
+          "published": "2026-07-06T13:16:50+00:00",
+          "publisher": "American Enterprise Institute - AEI",
+          "title": "After Slaughter and Cook: Future Fed Fights, and Maybe Some Midnight Firings - American Enterprise Institute - AEI"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOE0wbEFWU3IxMnFzekNTbno4cHJyQWVuOE9ndWIzaTVwVkw0TWpFQWdWYkdoNUNHdFNVcDE2TTdzMHNTaU9OTUxTNW5IcF9HcTVDckNsSUNnajExakxEQ1RMeHVXd1JKdXRiMUZRMkFpMzFSWFY0RURZRDdIQkw1SFF6S0tpenlLRFhMMkVBanFoN2Jk?oc=5",
-          "published": "2026-07-05T11:22:11+00:00",
-          "publisher": "The Atlantic",
-          "title": "A President With More Control, but Less Power - The Atlantic"
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOenFYWVlVTkx6NC04Sm8tZ2h3UUo5TFUzSkdYX0FQU1B2bVo1OFFYX2tIMlBJaFZieVl2RFEwUjgzWklBajBmeG9SRTAtVDhXUzZLVlpsdlN6UHpBOGVKQXRvblhudUhCVnpzRzltWXo4UDQ0TWpKNDc1eGd4UHNKSFJEbUJCeTU2cFg1TXRIVEdCcGhlTVVvZzQxNVE5eWttcWdFNmZPTVFuNUd4RFE?oc=5",
+          "published": "2026-07-06T13:35:26+00:00",
+          "publisher": "Tech Policy Press",
+          "title": "The Supreme Court\u2019s Decision in Trump v. Slaughter is Misguided, But Changes Little - Tech Policy Press"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa3J4Q1dmNEFGTGVMbFlsU0NqbDd1dVM4eDZCYXhybHY1cEh4V3QzQ0tVZmRUQ3pJdHJ2dnNWcG5zX3VDYjV6XzVYUE5IVkpSTlRnRkRNamlSMFRiNlpla05RUlZhRlFoMDkwVVBoQTQwNWg0LUtyVk1pZjdTRUxtUXVSby1YMnFxRkRxU0M3dUJnb0d6N3pIckM4Q2djVkMxZ2FB?oc=5",
-          "published": "2026-07-05T09:00:00+00:00",
-          "publisher": "Washington Examiner",
-          "title": "Roberts threads the needle on executive power - Washington Examiner"
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdURQQVJnSTBsUnh6eHZxajFoWDhxT1lsQ1A0b1J1SGdPbjNrXzVjWGt5MmkwczNGMEI1dFNpUnZfVnc5amlCWmpXOURtOVlxeVdVdms3SE1pY21sVzIzbXN1XzF4UHRMck9VZ3Fianl1RmxFZ0hzTVVWXzlzSFpSLTViQlNWSVJmRlVlSzZB?oc=5",
+          "published": "2026-07-06T13:38:06+00:00",
+          "publisher": "SCOTUSblog",
+          "title": "Is the Roberts court hyperopic or willfully blind? - SCOTUSblog"
         }
       ],
-      "hits": 24,
+      "hits": 11,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 14
+      "unique_publishers": 11
     },
     {
       "critical_hits": 0,
@@ -120,87 +120,28 @@
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
       "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVm04LWc4ZlRDVDFVR2liUFRLOVhJMWhROEpHVVZzRUh4TFQ4RVF5aFpZTFNDTkVNOEhMRDlYc2JyTmhGdXozOWJrMFA1VmVlZTR1YXhabk5EcnczSVFyRll1d182RXljUGQ2QTB5NjJxNkJzR3NTYjVDaWcwVk1wTHRqRjlpMkF0eWRRRDJJWXljTG94bzlIbGdGUnFISXRUUFR2Nms4VzVoWVdfajY3TmlKTQ?oc=5",
-          "published": "2026-07-04T13:00:00+00:00",
-          "publisher": "Bianet",
-          "title": "Thibaut Bruttin: 'Turkey was a matrix of policies to repress journalism in the West' - Bianet"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQjdfMk1oMWFWSkZsYUZhQlR0VkFxQWRDR05KZGF4MGVkZVF6dUxhWjRZM1VZdm5zQ1dHbWlJQVlENWtHVjhGaWlIc0otX2RLM1RWXzBLWFlfQmpqWEJsRWlaVS1RbUY5TjVjeWVBcFVTX014SzB4ZHV5aE1RVVpkb2kxWS16SXpNQ0hvUzNpX0RTaUVUa3hDaWNwVEdNWkdTSFFHNGZHZWpiTUluejdBTU9BUmFTYlJlY1VjVVNCc0dYZHMzajh1UEZiVU9sS1BZSVA0Yy1ZbjkwVkMtU3ZkZUlYZw?oc=5",
-          "published": "2026-07-03T22:20:13+00:00",
-          "publisher": "The Eastleigh Voice",
-          "title": "Journalism under pressure: New report documents escalating threats to media freedom in Ethiopia - The Eastleigh Voice"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZWg5NGo2dkVTeVFSZ1gtRVFpbjVRODRrbzRZNEpVQWNIaFkxeFFheTV1a1ZZUVZ0NzVVS1Vic2dFa1Q3Y0hibEZteGJ3azNHVHpTcjRXRFlHa0tPSnJqYnloYlFxVG5HbS16bFphNjhseXZldUZESnpVOWNMeFBxTHdCcVdxOV90WFAybGlkOWhhLWVQQ3dZRWJ6enRqNmhINEF3UjgtZ2QzOFpHTi0xVDBBZll4NkxEaVRlSm5pVEVqRnUtX2g0RVgtR2ZnZw?oc=5",
-          "published": "2026-07-04T17:58:50+00:00",
-          "publisher": "The Eastleigh Voice",
-          "title": "Somalia\u2019s journalist union raises alarm over arrests and harassment in Mogadishu - The Eastleigh Voice"
-        }
-      ],
-      "hits": 3,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5",
-          "published": "2026-07-04T11:14:28+00:00",
-          "publisher": "Iowa Public Radio",
-          "title": "Today's Iowa News \u2193 - Iowa Public Radio"
-        }
-      ],
-      "hits": 1,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUU5qR0pDVWdEdV9RdENoOGMyUWxVWHZ4T2NCX25pdng4dGNGRGxfSzJsY0x1dXBwRkNoRVoyTFZ4ZDgxakJXLUNkc28xekF5cmN4NU9Ob2o3SmVBenU1em1jelQzYXdHWXVySmVkVUJGSTMwLTlBbVRoLUpCSjFKZ0RVNHgxNk1tai1QQWNnZnlmRGxtSll2d3RIZWo5LWE4?oc=5",
-          "published": "2026-07-04T13:04:16+00:00",
-          "publisher": "streamlinefeed.co.ke",
-          "title": "Court Order Defied as 200 Mombasa Families Face Imminent Eviction - streamlinefeed.co.ke"
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9PY3U4SDQ3Mm82djJwUHNKSm51OXc2enFlQ3ExR2RaUzJkMEs2N2ZxYnNZTVVwM1ZQcDI5X0FyQnlOcTN2Mzd5bm5paUJGN21WM0tsOUtmWUJjRjRVU1FJLVZhWTVPNDA4OEx2a2lDdG9tcFd2d3ZXZGwwbw?oc=5",
+          "published": "2026-07-05T19:19:30+00:00",
+          "publisher": "The Jerusalem Post",
+          "title": "Israeli gov't to ignore Supreme Court freeze on media regulator in legal clash - The Jerusalem Post"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4Y1EybDZmU2FPS3I1aElwTHNqZ1l2SnpzM1dwdTVFdDl0YXk1STVwekwtdzdnUkRHOTZ3UTZ0Z284aUllV19FVVdvV1Q0YXJjZnMxQmZ0MkVYRS1qX2I5bTRoZ2pSaDRnRzhjT052WGlIMVY5QmZUdVd4UQ?oc=5",
+          "published": "2026-07-05T19:05:54+00:00",
+          "publisher": "The Jerusalem Post",
+          "title": "Attorney-General Gali Baharav-Miara, Isaac Herzog, Yair Lapid denounce government's court defiance - The Jerusalem Post"
         }
       ],
-      "hits": 1,
+      "hits": 2,
       "id": "court_order_noncompliance",
       "name": "Court Order Noncompliance",
       "override_note": null,
@@ -214,15 +155,61 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNVFV3Q1ZhSmpLUGpNV1dnQXI5WHQyLXVQeWVYRUF4OTdtd2E0djJqZVZNc08zb0h1TFJ6QXNJaGNxaU1DTFhZcXN6RlVUcVgwVURpcER2bndSY3A0NWV5MEMtcUZ0XzIybm5sWnlOdFV4YXVEOVpJdXFxaDdDOXR5ajRPSHRGYldKVjJZMTk5aWpzR3pSX0xBZTh1Y0dBa2tFX042UzBMZjZQM1QyTVI5UFR3NUtJeU84MGR5Ym9EcDUtR0F4YXhGaTlqQXBOa3RIOXFFVEIxQUVod3lkWEJjSnlIMF92aEZSQmVxX2YzamdVcDZpLU5oMnpjUlNudWVYd3FBc2tmUGh3c1NaRG5zdW1VSGNKZw?oc=5",
-          "published": "2026-07-04T12:25:00+00:00",
-          "publisher": "\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
-          "title": "Driver complained about police and military enlistment center actions at checkpoint via 102, but was fined for allegedly false call: how the court resolved the dispute - \u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430"
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT002MEJNdkxST3E5SGN1eDE5cG5nZm9GR0pLZWtLQi1zNWw1T1hENFhqRUFsM2xERFVndm5fU2diTTQ3ZU4wUGU1VHUzUUhZVHZSSjIyOTBEY3JuTDkxdWI2NHBweHZiOWp1T25qX293VFkyZ3RBN1lJMDF5VmF0QTQtWFNwZFZsRFI1R2V1cWwxQ05QVzZnM19jVHZhTzVlYzBGR3gxSWdDT3dvN2hRYUR5cVBBcGxLcGJ2cXlkTzlKX19lMExlTl9neUdaQQ?oc=5",
+          "published": "2026-07-06T14:57:32+00:00",
+          "publisher": "NewsBreak: Local News & Alerts",
+          "title": "A Major Asked Congress to Use the Power It Keeps Surrendering - NewsBreak: Local News & Alerts"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWFJNTFc2ZUh4YzRjb2NFc0laRGFlclR3R3hzY1BRbnFUQXJJdzBxV0hiaFhvc2pHN2dOTkF3WWJqWXdDRW12RFNCb3hjSE12QkE4aUtMLWlQWkZ5QmgtQzctTXBUTU5BeU5pbXNYTm16aEtDR3V2ek5WcmQtdENBOW9RX3IyTmFYaHYyQWEtUlljcWJUUHJhQm5QSWU0ZThOODItMmtFeTRmdVBmbjlZdmRlZU0?oc=5",
+          "published": "2026-07-05T14:52:43+00:00",
+          "publisher": "NewsBreak: Local News & Alerts",
+          "title": "'This Week' Transcript 7-5-26: Interior Secretary Doug Burgum - NewsBreak: Local News & Alerts"
+        }
+      ],
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcF9yVGdvbmVSRVBOTER5d0ZrRDQ2X1dsUWQ0V1MtLVpQYXJ5cVZRWnVmMWMwa2Q2SXJyTk9FLXBRTHZWbWRSbFkxT0NCdEJ6cm5uQUVNVS1vTDhzRjVVZjhCOG5jRTFlSUNQYWRvZlRQV3kzUnpWRF9vSGJtQ1J0NkloN3BMc0x0RGc?oc=5",
+          "published": "2026-07-06T14:03:41+00:00",
+          "publisher": "SFG Media",
+          "title": "Israel\u2019s Government Refused to Obey a Supreme Court Ruling on the Broadcast Regulator - SFG Media"
         }
       ],
       "hits": 1,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZWg5NGo2dkVTeVFSZ1gtRVFpbjVRODRrbzRZNEpVQWNIaFkxeFFheTV1a1ZZUVZ0NzVVS1Vic2dFa1Q3Y0hibEZteGJ3azNHVHpTcjRXRFlHa0tPSnJqYnloYlFxVG5HbS16bFphNjhseXZldUZESnpVOWNMeFBxTHdCcVdxOV90WFAybGlkOWhhLWVQQ3dZRWJ6enRqNmhINEF3UjgtZ2QzOFpHTi0xVDBBZll4NkxEaVRlSm5pVEVqRnUtX2g0RVgtR2ZnZw?oc=5",
+          "published": "2026-07-04T17:58:50+00:00",
+          "publisher": "The Eastleigh Voice",
+          "title": "Somalia\u2019s journalist union raises alarm over arrests and harassment in Mogadishu - The Eastleigh Voice"
+        }
+      ],
+      "hits": 1,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -271,6 +258,19 @@
     },
     {
       "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "hits": 0,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [],
       "hits": 0,
@@ -278,7 +278,7 @@
       "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -291,33 +291,7 @@
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }

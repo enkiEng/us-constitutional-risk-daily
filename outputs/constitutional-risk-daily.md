@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-07-05 14:12:04 UTC
-- Score: **14 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **-1.6**
+- Generated: 2026-07-06 15:56:04 UTC
+- Score: **12 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-2.0**
+- Delta vs 7-day average: **-4.2**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -14,11 +14,11 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.25 | 1.38 |
-| Judicial Independence and Rule of Law | 15 | 0.43 | 1.62 |
-| Opposition Rights and Political Pluralism | 14 | 0.77 | 2.68 |
-| Executive Constraints and Emergency Powers | 13 | 0.87 | 2.82 |
-| Civil Service and Agency Independence | 10 | 0.87 | 2.17 |
+| Elections and Transfer of Power | 22 | 0.16 | 0.89 |
+| Judicial Independence and Rule of Law | 15 | 0.33 | 1.25 |
+| Opposition Rights and Political Pluralism | 14 | 0.53 | 1.87 |
+| Executive Constraints and Emergency Powers | 13 | 0.67 | 2.17 |
+| Civil Service and Agency Independence | 10 | 0.75 | 1.88 |
 | Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
 | Security Sector Neutrality | 8 | 0.50 | 1.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
@@ -27,43 +27,43 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 24 | 14 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.65 (Watch) | 0 | 0 |
-| Legislative Bypass by Executive | executive_constraints | 1.30 (Watch) | 0 | 0 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 3 | 2 |
-| Election Administration Capture | elections_transfer | 1.00 (Watch) | 1 | 1 |
-| Court Order Noncompliance | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
+| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 11 | 11 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.30 (Watch) | 0 | 0 |
+| Court Order Noncompliance | judiciary_rule_of_law | 1.00 (Watch) | 2 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 2 | 1 |
 | Martial Law or Military Governance Language | executive_constraints | 1.00 (Watch) | 1 | 1 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
 | Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
 | Domestic Military Use in Political Conflict | security_sector_neutrality | 1.00 (Watch) | 1 | 1 |
-| Politicized Prosecution of Opposition | opposition_pluralism | 0.65 (Green) | 0 | 0 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 0.60 (Green) | 0 | 0 |
-| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 0.30 (Green) | 0 | 0 |
+| Election Administration Capture | elections_transfer | 0.65 (Green) | 0 | 0 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 0.30 (Green) | 0 | 0 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 0.25 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Independent Agency Capture
-- [qz.com] Supreme Court blocks Trump from firing Fed governor, but gives him freer hand over other agencies - qz.com (2026-07-05) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUlRBSDk4V0NpM0RHSGJyeVMxTjkweVpuWlJJblpjTUlyOG05MHhPT0doSUJPaVBFUW1tcGhkUGFkOHh0bWY3amhMSFg3LS1pdlJ2VkZ1NktXaXREOEFIZXZhWXRvb3pLT0l3a2o5Y2JtRWlhRm1teThrNFhSY1hQNmtLT0JaZ0xu?oc=5
-- [The Atlantic] A President With More Control, but Less Power - The Atlantic (2026-07-05) - https://news.google.com/rss/articles/CBMilAFBVV95cUxOOE0wbEFWU3IxMnFzekNTbno4cHJyQWVuOE9ndWIzaTVwVkw0TWpFQWdWYkdoNUNHdFNVcDE2TTdzMHNTaU9OTUxTNW5IcF9HcTVDckNsSUNnajExakxEQ1RMeHVXd1JKdXRiMUZRMkFpMzFSWFY0RURZRDdIQkw1SFF6S0tpenlLRFhMMkVBanFoN2Jk?oc=5
-- [Washington Examiner] Roberts threads the needle on executive power - Washington Examiner (2026-07-05) - https://news.google.com/rss/articles/CBMiowFBVV95cUxQa3J4Q1dmNEFGTGVMbFlsU0NqbDd1dVM4eDZCYXhybHY1cEh4V3QzQ0tVZmRUQ3pJdHJ2dnNWcG5zX3VDYjV6XzVYUE5IVkpSTlRnRkRNamlSMFRiNlpla05RUlZhRlFoMDkwVVBoQTQwNWg0LUtyVk1pZjdTRUxtUXVSby1YMnFxRkRxU0M3dUJnb0d6N3pIckM4Q2djVkMxZ2FB?oc=5
+- [American Enterprise Institute - AEI] After Slaughter and Cook: Future Fed Fights, and Maybe Some Midnight Firings - American Enterprise Institute - AEI (2026-07-06) - https://news.google.com/rss/articles/CBMipAFBVV95cUxPbUhHYy16SmZuRl9tWVRRV2gwd0s3UXJWRWI4RFJwY2JkUWZBQ1N3TUZZTmtRbzB0T19SS3hfTXRneUpLY1p4SkNFaDhiR0lkd2loWmJqazlDbHZiQmlwMEluUEhDb2ZzNDlFTXZEWXJ5X0s2eExiSThvZ2RweHNtVW9HWnpZNXFhUGVIYjJmei1qRTdpM2lBVy1EV2J4MGZrV2hvOQ?oc=5
+- [Tech Policy Press] The Supreme Court’s Decision in Trump v. Slaughter is Misguided, But Changes Little - Tech Policy Press (2026-07-06) - https://news.google.com/rss/articles/CBMirgFBVV95cUxOenFYWVlVTkx6NC04Sm8tZ2h3UUo5TFUzSkdYX0FQU1B2bVo1OFFYX2tIMlBJaFZieVl2RFEwUjgzWklBajBmeG9SRTAtVDhXUzZLVlpsdlN6UHpBOGVKQXRvblhudUhCVnpzRzltWXo4UDQ0TWpKNDc1eGd4UHNKSFJEbUJCeTU2cFg1TXRIVEdCcGhlTVVvZzQxNVE5eWttcWdFNmZPTVFuNUd4RFE?oc=5
+- [SCOTUSblog] Is the Roberts court hyperopic or willfully blind? - SCOTUSblog (2026-07-06) - https://news.google.com/rss/articles/CBMijgFBVV95cUxOdURQQVJnSTBsUnh6eHZxajFoWDhxT1lsQ1A0b1J1SGdPbjNrXzVjWGt5MmkwczNGMEI1dFNpUnZfVnc5amlCWmpXOURtOVlxeVdVdms3SE1pY21sVzIzbXN1XzF4UHRMck9VZ3Fianl1RmxFZ0hzTVVWXzlzSFpSLTViQlNWSVJmRlVlSzZB?oc=5
 
 ### Opposition Ballot Exclusion
 - No fresh evidence links in the current lookback window.
-### Legislative Bypass by Executive
-- No fresh evidence links in the current lookback window.
-### Press Restrictions or Retaliation
-- [Bianet] Thibaut Bruttin: 'Turkey was a matrix of policies to repress journalism in the West' - Bianet (2026-07-04) - https://news.google.com/rss/articles/CBMiswFBVV95cUxQVm04LWc4ZlRDVDFVR2liUFRLOVhJMWhROEpHVVZzRUh4TFQ4RVF5aFpZTFNDTkVNOEhMRDlYc2JyTmhGdXozOWJrMFA1VmVlZTR1YXhabk5EcnczSVFyRll1d182RXljUGQ2QTB5NjJxNkJzR3NTYjVDaWcwVk1wTHRqRjlpMkF0eWRRRDJJWXljTG94bzlIbGdGUnFISXRUUFR2Nms4VzVoWVdfajY3TmlKTQ?oc=5
-- [The Eastleigh Voice] Journalism under pressure: New report documents escalating threats to media freedom in Ethiopia - The Eastleigh Voice (2026-07-03) - https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQjdfMk1oMWFWSkZsYUZhQlR0VkFxQWRDR05KZGF4MGVkZVF6dUxhWjRZM1VZdm5zQ1dHbWlJQVlENWtHVjhGaWlIc0otX2RLM1RWXzBLWFlfQmpqWEJsRWlaVS1RbUY5TjVjeWVBcFVTX014SzB4ZHV5aE1RVVpkb2kxWS16SXpNQ0hvUzNpX0RTaUVUa3hDaWNwVEdNWkdTSFFHNGZHZWpiTUluejdBTU9BUmFTYlJlY1VjVVNCc0dYZHMzajh1UEZiVU9sS1BZSVA0Yy1ZbjkwVkMtU3ZkZUlYZw?oc=5
-- [The Eastleigh Voice] Somalia’s journalist union raises alarm over arrests and harassment in Mogadishu - The Eastleigh Voice (2026-07-04) - https://news.google.com/rss/articles/CBMizgFBVV95cUxNZWg5NGo2dkVTeVFSZ1gtRVFpbjVRODRrbzRZNEpVQWNIaFkxeFFheTV1a1ZZUVZ0NzVVS1Vic2dFa1Q3Y0hibEZteGJ3azNHVHpTcjRXRFlHa0tPSnJqYnloYlFxVG5HbS16bFphNjhseXZldUZESnpVOWNMeFBxTHdCcVdxOV90WFAybGlkOWhhLWVQQ3dZRWJ6enRqNmhINEF3UjgtZ2QzOFpHTi0xVDBBZll4NkxEaVRlSm5pVEVqRnUtX2g0RVgtR2ZnZw?oc=5
+### Court Order Noncompliance
+- [The Jerusalem Post] Israeli gov't to ignore Supreme Court freeze on media regulator in legal clash - The Jerusalem Post (2026-07-05) - https://news.google.com/rss/articles/CBMie0FVX3lxTE9PY3U4SDQ3Mm82djJwUHNKSm51OXc2enFlQ3ExR2RaUzJkMEs2N2ZxYnNZTVVwM1ZQcDI5X0FyQnlOcTN2Mzd5bm5paUJGN21WM0tsOUtmWUJjRjRVU1FJLVZhWTVPNDA4OEx2a2lDdG9tcFd2d3ZXZGwwbw?oc=5
+- [The Jerusalem Post] Attorney-General Gali Baharav-Miara, Isaac Herzog, Yair Lapid denounce government's court defiance - The Jerusalem Post (2026-07-05) - https://news.google.com/rss/articles/CBMie0FVX3lxTFB4Y1EybDZmU2FPS3I1aElwTHNqZ1l2SnpzM1dwdTVFdDl0YXk1STVwekwtdzdnUkRHOTZ3UTZ0Z284aUllV19FVVdvV1Q0YXJjZnMxQmZ0MkVYRS1qX2I5bTRoZ2pSaDRnRzhjT052WGlIMVY5QmZUdVd4UQ?oc=5
 
-### Election Administration Capture
-- [Iowa Public Radio] Today's Iowa News ↓ - Iowa Public Radio (2026-07-04) - https://news.google.com/rss/articles/CBMibEFVX3lxTE1tUFVVTnU0aW5kS0NMT21NMnF0Z3JCdXJwUVJwUTl1MGlrNTRtYzZmMzFZOHlMSW0wQ0Q3dmgzRk9NUTFKbXpjODlZLUVXX0VaZDdhcUlwdHRKVDdBSkJOeTNOcHZ6WWFhYnY4Nw?oc=5
+### Legislative Bypass by Executive
+- [NewsBreak: Local News & Alerts] A Major Asked Congress to Use the Power It Keeps Surrendering - NewsBreak: Local News & Alerts (2026-07-06) - https://news.google.com/rss/articles/CBMizgFBVV95cUxPT002MEJNdkxST3E5SGN1eDE5cG5nZm9GR0pLZWtLQi1zNWw1T1hENFhqRUFsM2xERFVndm5fU2diTTQ3ZU4wUGU1VHUzUUhZVHZSSjIyOTBEY3JuTDkxdWI2NHBweHZiOWp1T25qX293VFkyZ3RBN1lJMDF5VmF0QTQtWFNwZFZsRFI1R2V1cWwxQ05QVzZnM19jVHZhTzVlYzBGR3gxSWdDT3dvN2hRYUR5cVBBcGxLcGJ2cXlkTzlKX19lMExlTl9neUdaQQ?oc=5
+- [NewsBreak: Local News & Alerts] 'This Week' Transcript 7-5-26: Interior Secretary Doug Burgum - NewsBreak: Local News & Alerts (2026-07-05) - https://news.google.com/rss/articles/CBMitAFBVV95cUxQWFJNTFc2ZUh4YzRjb2NFc0laRGFlclR3R3hzY1BRbnFUQXJJdzBxV0hiaFhvc2pHN2dOTkF3WWJqWXdDRW12RFNCb3hjSE12QkE4aUtMLWlQWkZ5QmgtQzctTXBUTU5BeU5pbXNYTm16aEtDR3V2ek5WcmQtdENBOW9RX3IyTmFYaHYyQWEtUlljcWJUUHJhQm5QSWU0ZThOODItMmtFeTRmdVBmbjlZdmRlZU0?oc=5
+
+### Martial Law or Military Governance Language
+- [SFG Media] Israel’s Government Refused to Obey a Supreme Court Ruling on the Broadcast Regulator - SFG Media (2026-07-06) - https://news.google.com/rss/articles/CBMiigFBVV95cUxPcF9yVGdvbmVSRVBOTER5d0ZrRDQ2X1dsUWQ0V1MtLVpQYXJ5cVZRWnVmMWMwa2Q2SXJyTk9FLXBRTHZWbWRSbFkxT0NCdEJ6cm5uQUVNVS1vTDhzRjVVZjhCOG5jRTFlSUNQYWRvZlRQV3kzUnpWRF9vSGJtQ1J0NkloN3BMc0x0RGc?oc=5
 
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Confidence: **High**
+- Confidence: **Medium**
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.
