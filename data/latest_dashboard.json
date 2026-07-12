@@ -1,16 +1,16 @@
 {
   "attempted_queries": 22,
-  "average_7d": 16.29,
+  "average_7d": 16.53,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
     "max": 29,
     "min": 15
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": 1.61,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": -0.68,
   "domain_breakdown": [
     {
       "avg_severity": 0.5,
@@ -20,24 +20,24 @@
       "weight": 22
     },
     {
-      "avg_severity": 1.4333333333333333,
+      "avg_severity": 1.2,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 5.375,
+      "points": 4.5,
       "weight": 15
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.5499999999999999,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1666666666666665,
+      "points": 1.9249999999999998,
       "weight": 14
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 0.5333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.4916666666666663,
+      "points": 1.7333333333333334,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 1.325,
+      "avg_severity": 0.975,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.3125,
+      "points": 2.4375,
       "weight": 10
     },
     {
@@ -62,76 +62,44 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.3,
+      "points": 0.0,
       "weight": 8
     }
   ],
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-07-11T13:57:05.093938+00:00",
-  "previous_score": 19,
+  "generated_at": "2026-07-12T13:58:27.772838+00:00",
+  "previous_score": 18,
   "provisional": false,
-  "score": 18,
-  "score_raw": 17.9,
+  "score": 16,
+  "score_raw": 15.85,
   "successful_queries": 22,
   "top_signals": [
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORG9ibFZYRGxDcWQ3bTg2WEpVM2Q0Z2c5cENJaFI2M2FKU212VDlOLUZGZFBkN0ZuZ0lHTFgwRnl3RnRlQ05aSndzN2FfcWZZOHE5cnRiNWZXc3ZnTlRJSVlKdHdDLThybTZSTTE3REN4RVNVbDdIMlJ3dXJiVVNaTTFkcGJUYnlDUWhhaUc5MTFvQ2cyaGRhRFhxd1ViOFJERm9VanB4RnAybndENVRDNGdFdS1KSWljbWN1NlpLekJMYTZ6VmpPWGh0WVk3YU11SzUwb1pR?oc=5",
-          "published": "2026-07-10T14:31:00+00:00",
-          "publisher": "Nextgov/FCW",
-          "title": "Trump empties out election commission leadership just months before midterms - Nextgov/FCW"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPLTZNbVZMMlkwMG4wY0pqTTdMYmp0UERzekpFdnFJMG55dzM4N29vS1g4OFVQNU5LdWl0MEM2NXpiaEJwZlZ6bGNWdUVsOGppcUh2S2VKQVFqbVVPbG1OQnZyRGNQN2FiTHphNlkwUXhFQjkteU1zNTNVanpiN0VIMV9PVXU5X1N3WVMzQXhjemZyQmxR?oc=5",
-          "published": "2026-07-10T03:00:00+00:00",
-          "publisher": "ProPublica",
-          "title": "Trump Pushes Out Remaining Members of Bipartisan Election Commission Ahead of Midterms - ProPublica"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUpHeVhmRXBNeUp2T1Zyei04VXlXSUlpbkZXLVVMenNvb19fdEhZMm9EZ2dTdXBrQzF1dU5iakNIRl9vM3dpRkw5eVI1YUhuS3Nxb2ZGS1RubHliR3F4bjRIajR2YnJ3UkpuamM3X0JjMGZibGZlZVJPdUZPMG42UTlpNzZkamhxSWZ1OXJ1UFpwRWhZU3BZMnJjNlFxNC02V2l6SDZsbXdpUUpOMFhUa1NlOWFhVjZEUTd4UzlreFp5U1E?oc=5",
-          "published": "2026-07-10T14:18:10+00:00",
-          "publisher": "WTOP",
-          "title": "Donald Trump ousts election commission members in latest push to reshape US voting process - WTOP"
-        }
-      ],
-      "hits": 6,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 6
-    },
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbUhHYy16SmZuRl9tWVRRV2gwd0s3UXJWRWI4RFJwY2JkUWZBQ1N3TUZZTmtRbzB0T19SS3hfTXRneUpLY1p4SkNFaDhiR0lkd2loWmJqazlDbHZiQmlwMEluUEhDb2ZzNDlFTXZEWXJ5X0s2eExiSThvZ2RweHNtVW9HWnpZNXFhUGVIYjJmei1qRTdpM2lBVy1EV2J4MGZrV2hvOQ?oc=5",
+          "published": "2026-07-11T19:13:32+00:00",
+          "publisher": "American Enterprise Institute - AEI",
+          "title": "After Slaughter and Cook: Future Fed Fights, and Maybe Some Midnight Firings - American Enterprise Institute - AEI"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZWE4SGE5LUllTW1JeFZMa1lCZ1VWMmRINzM4STNvRGRMMlRVLWlKaHJqdGtLNUdxUjhkQ0VlSFNuUXZJM2ZENXoxMUZxcTZic28xWE5EaF9kaW1zTzF2OENvNWlEVm9QM1hnTjM3UWM3WnBjTlRnWThlLTI0UHdlYUZHdXJ6R1JOSkVsTXM5Zw?oc=5",
+          "published": "2026-07-12T09:00:00+00:00",
+          "publisher": "Las Vegas Sun",
+          "title": "The Fed\u2019s independence is unfinished business - Las Vegas Sun"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaHVjQVl6TFZtWGptVnVrZ1NSaUY3dnEtaXBsVF9SM3RMejlUc2xiMXZHYWtCQ29sbWs4MVJuUjJaOFg4WERZLS01S084ZjVFVDFvakthd3N4WHFPLUZaTmh3SERpZzd3OGVqd1RmbjhTMXRIVWRjSmRqeDBUem1uSWhZWVZXbXVneWdPdXBIQThNNm5RSGZVOF9oUzNPdjc5Y0NrUTI5eE95THU2LVUzemdVRFTSAboBQVVfeXFMT1lSbnUwODc1SnRsdGt0QUZCWHc5QXRVcDJLcUQyQnVxTnprU1hxNTJSc1pPdFNOeFNOU2s0YmpFSUZNRXo0Y2s4bjVRWUhVUWN4ZDJ1UFFMZTJRQmJCalliYWxUQ2JtY2tmYmN5MzI4WHJFRFZmWGJXaTdGWFp3X0wyY0dra2xtSUFoaEhDQ3Z5VkxuVXJsV2ZWSmFScXhWdkhyNGloLUppeXdMWU9tMk5EakRRY2FYcWVB?oc=5",
           "published": "2026-07-10T17:01:06+00:00",
           "publisher": "PBS",
           "title": "Trump ousts election commission members in latest push to reshape U.S. voting - PBS"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdkpoY29JRlhINjNBWG5FdDVBY3d6WVdDNFVBblNkSEw2S3FKZDRJQlFmWThLQV9meF9KaHZSeEhya01yT1dvSTZpUEJZTnk3N0xpWlo0dndEem5HRl9ReEk4ck1yZVA4T3VQTXEyWDUzaU1pRlF0YlRISG1fVDM5YnZTM29wSVBwdllEQ19lUV9rNG4wa2l1eGNkTmFaMUk?oc=5",
-          "published": "2026-07-10T23:05:37+00:00",
-          "publisher": "Chattanooga Times Free Press",
-          "title": "Times Opinion: The Fed\u2019s independence is unfinished business - Chattanooga Times Free Press"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbUhHYy16SmZuRl9tWVRRV2gwd0s3UXJWRWI4RFJwY2JkUWZBQ1N3TUZZTmtRbzB0T19SS3hfTXRneUpLY1p4SkNFaDhiR0lkd2loWmJqazlDbHZiQmlwMEluUEhDb2ZzNDlFTXZEWXJ5X0s2eExiSThvZ2RweHNtVW9HWnpZNXFhUGVIYjJmei1qRTdpM2lBVy1EV2J4MGZrV2hvOQ?oc=5",
-          "published": "2026-07-09T19:10:50+00:00",
-          "publisher": "American Enterprise Institute - AEI",
-          "title": "After Slaughter and Cook: Future Fed Fights, and Maybe Some Midnight Firings - American Enterprise Institute - AEI"
         }
       ],
       "hits": 5,
@@ -145,14 +113,40 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTjBiRUxrQmJBOUhrbE9ScVZwaWpXRWdXcUVBVDFaOHE2bkg4bjNVS2ZzZ05KVnN5TU1Jd1Rjbm10VUZ4TVE5MlUwWUY1RjU2WVFjZkZocGNOaDZhTGowTElUaVNsV1RqcFEwa19peWxpRVRJN25vb3dBMlFrVVA0QVZWWk5hQ1ZfRGM4eVM5Y0Y?oc=5",
-          "published": "2026-07-11T13:12:16+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "Somalia union demands release of detained journalist - Journalism Pakistan"
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORG9ibFZYRGxDcWQ3bTg2WEpVM2Q0Z2c5cENJaFI2M2FKU212VDlOLUZGZFBkN0ZuZ0lHTFgwRnl3RnRlQ05aSndzN2FfcWZZOHE5cnRiNWZXc3ZnTlRJSVlKdHdDLThybTZSTTE3REN4RVNVbDdIMlJ3dXJiVVNaTTFkcGJUYnlDUWhhaUc5MTFvQ2cyaGRhRFhxd1ViOFJERm9VanB4RnAybndENVRDNGdFdS1KSWljbWN1NlpLekJMYTZ6VmpPWGh0WVk3YU11SzUwb1pR?oc=5",
+          "published": "2026-07-10T14:31:00+00:00",
+          "publisher": "Nextgov/FCW",
+          "title": "Trump empties out election commission leadership just months before midterms - Nextgov/FCW"
         },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUpHeVhmRXBNeUp2T1Zyei04VXlXSUlpbkZXLVVMenNvb19fdEhZMm9EZ2dTdXBrQzF1dU5iakNIRl9vM3dpRkw5eVI1YUhuS3Nxb2ZGS1RubHliR3F4bjRIajR2YnJ3UkpuamM3X0JjMGZibGZlZVJPdUZPMG42UTlpNzZkamhxSWZ1OXJ1UFpwRWhZU3BZMnJjNlFxNC02V2l6SDZsbXdpUUpOMFhUa1NlOWFhVjZEUTd4UzlreFp5U1E?oc=5",
+          "published": "2026-07-10T14:18:10+00:00",
+          "publisher": "WTOP",
+          "title": "Donald Trump ousts election commission members in latest push to reshape US voting process - WTOP"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVmh6dWY1eTFhcnRxMlRaajRYTWh0VkhjVnJWaDBxcHVkeHNPcFZnVVFvejE2cDZOZ21XdTNuNVc3Sm5sNlVkSEVSRWE3QzhWTXE5YjNBWklYMTV1NnRHWDcwSzZCZ1djYXRsSExRZG9lZGVXbWhUdUNwM2hzWWh3TWtuSEF2aDgwWHdjZFZoaTlZZjRoWXZFNUJLNDlQOFdzODhJdnM2TUhHc1pU?oc=5",
+          "published": "2026-07-10T14:07:39+00:00",
+          "publisher": "Washington Times",
+          "title": "Trump fires Democrats on election board ahead of midterms - Washington Times"
+        }
+      ],
+      "hits": 4,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 4
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
         {
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYm9jOU9JUG9IZC1fRGtaVXVHbUJua2tVV1MyUkp0SGZrTjVsUU5wNmtfUmVyTjhqVlNwQUVaQ0thSkVLQlAwdXprMVVuNEUxTUZZazNfOHVHRHI3c1FPSFBzSUkybEt2Vy11U3BLRGNvNGhZRmdscnhHQXc4bFBfQ0VONFc3VlN0cndDSUpONVR0S0VNWG1qUkNyekNqeml3M3BQYV84akg5TVNaNnJVLThlcnZLbnJ4eVZOZ1dUN0l6dnM?oc=5",
           "published": "2026-07-10T22:55:05+00:00",
@@ -160,19 +154,25 @@
           "title": "NUSOJ condemns arrest of journalist Suways Ga\u2019ayte as politically motivated - Hiiraan Online"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNelk1OTdXRXJSSV8xUzBvYVdKUVR5Uno0RVJHenJncVlpazVJRjg3QjhOYnJIYjJzUy1teEYybDhVREYtWGdldS16NDgtNHJIN0RhVVBpenhIOV9ORzVEWk1KVTROWVUwTUVGTkdnUlRYcEk1Zmd2V2dqamNJM1ZBNXRtMTlvc3NSdDhHX19WQnNxd3BqYm5sUnZaMmk?oc=5",
-          "published": "2026-07-11T13:22:16+00:00",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTjBiRUxrQmJBOUhrbE9ScVZwaWpXRWdXcUVBVDFaOHE2bkg4bjNVS2ZzZ05KVnN5TU1Jd1Rjbm10VUZ4TVE5MlUwWUY1RjU2WVFjZkZocGNOaDZhTGowTElUaVNsV1RqcFEwa19peWxpRVRJN25vb3dBMlFrVVA0QVZWWk5hQ1ZfRGM4eVM5Y0Y?oc=5",
+          "published": "2026-07-11T13:12:16+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "Somalia union demands release of detained journalist - Journalism Pakistan"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSzFZeWU0X0dGRjdicG90M2pOeGNPRE5VTWdUbFNLVHVGdExPMVFNS1F5RjdjNFh1eFZwTkpYalJaaUNqWEw3ekhLMll1cDNSYjZWUVNMRzM3UUxHN0NZTkt2RHlxOVF6Qlg4Nk00bWlXb0dxbm1GVEZKTTBkc2ZYUkNMX1ZGenAxanhtWFgxSUE0V2NtX0RRNTE5SmJoUQ?oc=5",
+          "published": "2026-07-11T15:09:35+00:00",
           "publisher": "Journalism Pakistan",
           "title": "Nigerian journalist freed after DSS drone equipment detention - Journalism Pakistan"
         }
       ],
-      "hits": 4,
+      "hits": 3,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 2
     },
     {
@@ -180,61 +180,15 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWExaTjVBQ0pHVW56NVkteTB4Y3loSkJHdkMtV2JaSWI4Q25XY3N1eDk4eWFxbVpPTFZ6Z2doX1c5enhrX1F6bHQwNHZhSGREX05CQTFJd1JKZEJPRHRCZ2hOdjdtanFuT3phRW1zRVRrRVFIaTRqcGpwQ1ZJaDJyUHN6UWJIcm1JMzR3d3lTbV9oQ3ZOdEx1dFpSdkd4NmR0VjdGeXFZVWs4N2dSWkFkOC12SEJ1U0xzRjFwQlVjd3dyUjhhVWMybGc3c293UWVwbFl0RzB6QUQ3bUFj?oc=5",
-          "published": "2026-07-09T23:53:14+00:00",
-          "publisher": "facebook.com",
-          "title": "#Storycon | Lawyer Ralph Sarmiento, former dean of the University of St. La Salle College of Law, said impeachment cases should not be treated like ordinary criminal proceedings. https://tinyurl.com/3dfs7ksh | ONE News - facebook.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTzR1Q09ONXVTYjFxcmZXSTlfV2RnVXhHQ2JRazB1RHVWSkctZmk0dDlobDk5T2c0VGxnNHZ4cXN4eHZUSTNkVkZmYTJYVDE2dVl3aHZNRTd0czBlT0hUQ2ZXTnlNclBtTE03Z294R0pWeGMwZTh6el9reVo4bWR1d0ZWMUd3VzVPVm1WU2lkeElqZElZdllvb0JSZ2xOcnpUS1E2VWh6VkdtMkNH0gGyAUFVX3lxTE43bWNya3l2XzQ5UVpsN1R2eWJHQmpqVlpVdGRYdDN6ZjZnRW8yeDdYdHYyTnZGcVVzX0hGM1JBVWpvYmFuM3c0aFdIRWtsaTJnRnlPSTRLRWxzZUFIS0JmaWJaZ1BEbGNFcVQyX1J2b2MzN0d3TjFHdkIwTFctMktiWTVybURZR283cGtSMXJKMGM2RHk3N0hGOG9oSVF0UHh2MW5WMHdfdUlwcUx5QXhJb1E?oc=5",
-          "published": "2026-07-10T12:13:24+00:00",
-          "publisher": "GMA Network",
-          "title": "Sara Duterte impeachment trial Week 1: Is the VP assassination threat impeachable? Prosecution, defense tussle - GMA Network"
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-07-11T15:46:55+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
         }
       ],
-      "hits": 2,
+      "hits": 1,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMDBxV3EtTWM3c0NoU0pjeWRwNFNPQjBCLW8waS1EQzV6SGs2cjQwWEdGNkhQVmVmME9Pb1pGcTdxUFlSN1ZCck9mMG1INFhPcENfejhfWFloVnh6R1Q5QncyRmdIdDdncXdDVFk5Z0pwcC1YaEdYRTZKYmVUSjBxelBIYUtpMUl1RjhsRzZyXzZNUjhiZkdCb0RiTHl1Q2NVYnZJN0E4UmJKYzJNSG1fY1ZmOUFILWEtQVBLOVljTDc0WU9scXdDQW1R?oc=5",
-          "published": "2026-07-10T12:30:35+00:00",
-          "publisher": "Radio47 - Hapa Ndipo",
-          "title": "Kisumu city manager fined KSh500,000 for defying court order over Ofafa Memorial Hall demolition - Radio47 - Hapa Ndipo"
-        }
-      ],
-      "hits": 1,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdWVKUEw0S0lRRVlXMzFXV09JTjhra1RkUnJJWE5YTm80TW5ueVRZQXQ1NE1KbEtROHJBTUVKS2RJVkMzZ29FVHBzVFFPQ1o0WWFta1k1Sm1oRmxSY0pZcDdNdnd5eVRBeUFmT19zZWRHSFkybFhfWHlEbEMxY1N3bHdMd3lnaXdKYVhkTUdXRnZONEZnemx0WDhPbU5VY0tITVA1MGwzZFExcHVUYWFIMzBMNE9SQTJEWG40?oc=5",
-          "published": "2026-07-09T19:19:32+00:00",
-          "publisher": "WHEC.com",
-          "title": "South Korea\u2019s Supreme Court upholds prison sentence for Yoon in first martial law case - WHEC.com"
-        }
-      ],
-      "hits": 1,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.3,
@@ -244,12 +198,25 @@
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "hits": 0,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeVVBY3JTeGNfTmFoWWhZcmZENThtYXdoWmZPTGFnR3hXZWdzX3JHSnpUZW8zUHpjUm4zWk1yLVNjT19VYklYRm5CZUFyWkJLVmZacmg5Z1dCYlRvSlltQUowZlJsWVdYQzM5emtsZUUtS0pETkNOZkFFQVpsQ1Q5Mi04dGhjbEtUazRjbkNndFRpd2VqYngtSjJJeFFpcEtMTmI1eVhZd0ZocWFrVFhYemtQazg2M2PSAbcBQVVfeXFMTXlVQWNyU3hjX05haFloWXJmRDU4bWF3aFpmT0xhZ0d4V2Vnc19yR0p6VGVvM1B6Y1JuM1pNci1TY09fVWJJWEZuQmVBclpCS1ZmWnJoOWdXQmJUb0pZbUFKMGZSbFlXWEMzOXprbGVFLUtKRE5DTmZBRUFabENUOTItOHRoY2xLVGs0Y25DZ3RUaXdlamJ4LUoySXhRaXBLTE5iNXlYWXdGaHFha1RYWHprUGs4NjNj?oc=5",
-          "published": "2026-07-09T23:35:54+00:00",
-          "publisher": "The National Law Review",
-          "title": "Environmental Law in the Past Supreme Court Term: Federalism and Agency Power, With Key Cases in the Term Ahead - The National Law Review"
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb0tRSHpKSWhZSm1ZTjRCTkNwYzkwak1JMUdtcDJzLXg0ZnFkX0hnWGgyQlY4NHlWTWZENFBWbWFhLU1FemJzXzBWNzg1MG1Eb3FxeENlalBZdVRpUjNicGRkbXRGc1BMR3dNZTJXUklNSTA4UHRXNjM3TjJMVGdjbmg0VUl4aW12cGx0WWE5ZGxEUQ?oc=5",
+          "published": "2026-07-12T13:30:35+00:00",
+          "publisher": "Blaze Media",
+          "title": "Where is the outrage over our stolen birthright? - Blaze Media"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYU13TVYtOGg2YlpCMV9GdEVZWFYydU5oVlBmc2Y1S1BvTmhLbkNJSjlJMWpxOGpLMG0wWGlFMWZmVUVDVW9xWFhWRHVZX0U4Wm9HWFZXb1ptdHV5QkMwNkhsWDJkc19VQnpQZ1lyb1pqeEo4ZkE4dGtKZENSOXJzd1RsaVI1R1Vpam9MWm5CekJWLXN4czRv0gGXAUFVX3lxTE9hTXdNVi04aDZiWkIxX0Z0RVlYVjJ1TmhWUGZzZjVLUG9OaEtuQ0lKOUkxanE4akswbTBYaUUxZmZVRUNVb3FYWFZEdVlfRThab0dYVldvWm10dXlCQzA2SGxYMmRzX1VCelBnWXJvWmp4SjhmQTh0a0pkQ1I5cnN3VGxpUjVHVWlqb0xabkJ6QlYtc3hzNG8?oc=5",
@@ -298,15 +265,15 @@
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNeUFBbmROWVFEUjdkR2U4Y29zWndHMzE3MG9zZU9RQmlSd1pyVVFTZjJfTGlmVUlEUzhnT1d3Y1liYlB1UXZycDduMUVqUnVGaHVqdUN6a0VqV2JlM3dIbnZhbWUyTGZKWGJ0SlUxRGE5VkdQR3NEMmxjdTVWZ0JlbHJhYXBYX0hMeWZQYlFyZ19aVG5QaUx1UGI1enpmTGZsRDRVcjJfcmQ3WlE2cnBMT2xweHNmbzEtd2xvUnZyTHJUU04tTEJJTkswNEM5bVJabEtn?oc=5",
-          "published": "2026-07-10T05:44:51+00:00",
-          "publisher": "People Daily",
-          "title": "Willis Otieno calls for UDA candidate\u2019s disqualification, citing open voter bribery in Ol Kalou - People Daily"
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-07-11T15:46:55+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "hits": 1,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -316,30 +283,23 @@
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBrT3NJSi1QSVBEQlk4Rkh5NDdjMTZSaWlMWU80SHBCRTNXUUZLbEZua2Q0ME1EVnpORHFqQm5fVGNYSEJBWjJ6ZUFDNGRscU5TUzRPd3J3Uzd2dWlfdjUtSlJmVGNGb2cwMi1ZZHl0a1gtV19jSEE?oc=5",
-          "published": "2026-07-09T14:42:28+00:00",
-          "publisher": "Dissent Magazine",
-          "title": "The Court vs. Democracy - Dissent Magazine"
-        }
-      ],
-      "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "evidence": [],
+      "hits": 0,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
+      "severity": 0.95,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "opposition_pluralism",
       "evidence": [],
       "hits": 0,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
@@ -348,11 +308,24 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "federalism_oversight",
+      "domain_id": "executive_constraints",
       "evidence": [],
       "hits": 0,
-      "id": "state_election_preemption",
-      "name": "Federal Preemption of State Election Authority",
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [],
+      "hits": 0,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
