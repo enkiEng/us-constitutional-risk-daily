@@ -1,12 +1,12 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-07-12 13:58:27 UTC
-- Score: **16 / 100** (Elevated Strain)
-- Previous day delta: **-2.0**
-- Delta vs 7-day average: **-0.7**
+- Generated: 2026-07-13 15:14:32 UTC
+- Score: **13 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-3.0**
+- Delta vs 7-day average: **-4.1**
 
 ## Interpretation
-- Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
+- Band meaning: Normal democratic conflict and routine legal contestation.
 - Signal scale: 0=green, 1=watch, 2=yellow, 3=orange, 4=red.
 - Formula: domain points = domain weight * (average signal severity / 4); total score = sum of domain points.
 
@@ -14,12 +14,12 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.50 | 2.75 |
-| Judicial Independence and Rule of Law | 15 | 1.20 | 4.50 |
+| Elections and Transfer of Power | 22 | 0.41 | 2.27 |
+| Judicial Independence and Rule of Law | 15 | 0.97 | 3.62 |
 | Opposition Rights and Political Pluralism | 14 | 0.55 | 1.92 |
-| Executive Constraints and Emergency Powers | 13 | 0.53 | 1.73 |
-| Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
-| Civil Liberties and Information Environment | 10 | 0.97 | 2.44 |
+| Executive Constraints and Emergency Powers | 13 | 0.30 | 0.97 |
+| Civil Service and Agency Independence | 10 | 0.88 | 2.21 |
+| Civil Liberties and Information Environment | 10 | 0.65 | 1.62 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -27,41 +27,36 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 5 | 5 |
-| Election Administration Capture | elections_transfer | 2.00 (Yellow) | 4 | 4 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.65 (Watch) | 3 | 2 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 1.30 (Watch) | 1 | 1 |
-| Court Order Noncompliance | judiciary_rule_of_law | 1.30 (Watch) | 0 | 0 |
-| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 1.00 (Watch) | 2 | 2 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 1.00 (Watch) | 2 | 2 |
-| Politicized Prosecution of Opposition | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
-| Martial Law or Military Governance Language | executive_constraints | 0.95 (Watch) | 0 | 0 |
-| Opposition Ballot Exclusion | opposition_pluralism | 0.65 (Green) | 0 | 0 |
-| Legislative Bypass by Executive | executive_constraints | 0.65 (Green) | 0 | 0 |
-| Political Speech Criminalization or Surveillance | civil_liberties_information | 0.30 (Green) | 0 | 0 |
+| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 5 | 4 |
+| Election Administration Capture | elections_transfer | 1.65 (Watch) | 1 | 1 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.30 (Watch) | 0 | 0 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 1 | 1 |
+| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 0.95 (Watch) | 0 | 0 |
+| Court Order Noncompliance | judiciary_rule_of_law | 0.95 (Watch) | 0 | 0 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 0.65 (Green) | 0 | 0 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 0.65 (Green) | 0 | 0 |
+| Martial Law or Military Governance Language | executive_constraints | 0.60 (Green) | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 0.30 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Independent Agency Capture
+- [Longmont Times-Call] Views from the nation’s press - Longmont Times-Call (2026-07-13) - https://news.google.com/rss/articles/CBMiekFVX3lxTFBaRjYzbHBzRmFZeTRMZFRCR3VucV9meWVab1g2eWdQMm81WWhkb1hQX1FWdk0yWERKZ0lLQ3YxaUh3TldKSFFZM1JiTXg1OE53V1ZHbmQ5WmhLSmVWNDRvRmZSYkhfYlg0ZjZFaFJiRzgtZ3doMDVNOWd3?oc=5
 - [American Enterprise Institute - AEI] After Slaughter and Cook: Future Fed Fights, and Maybe Some Midnight Firings - American Enterprise Institute - AEI (2026-07-11) - https://news.google.com/rss/articles/CBMipAFBVV95cUxPbUhHYy16SmZuRl9tWVRRV2gwd0s3UXJWRWI4RFJwY2JkUWZBQ1N3TUZZTmtRbzB0T19SS3hfTXRneUpLY1p4SkNFaDhiR0lkd2loWmJqazlDbHZiQmlwMEluUEhDb2ZzNDlFTXZEWXJ5X0s2eExiSThvZ2RweHNtVW9HWnpZNXFhUGVIYjJmei1qRTdpM2lBVy1EV2J4MGZrV2hvOQ?oc=5
-- [Las Vegas Sun] The Fed’s independence is unfinished business - Las Vegas Sun (2026-07-12) - https://news.google.com/rss/articles/CBMijwFBVV95cUxNZWE4SGE5LUllTW1JeFZMa1lCZ1VWMmRINzM4STNvRGRMMlRVLWlKaHJqdGtLNUdxUjhkQ0VlSFNuUXZJM2ZENXoxMUZxcTZic28xWE5EaF9kaW1zTzF2OENvNWlEVm9QM1hnTjM3UWM3WnBjTlRnWThlLTI0UHdlYUZHdXJ6R1JOSkVsTXM5Zw?oc=5
-- [PBS] Trump ousts election commission members in latest push to reshape U.S. voting - PBS (2026-07-10) - https://news.google.com/rss/articles/CBMitAFBVV95cUxNaHVjQVl6TFZtWGptVnVrZ1NSaUY3dnEtaXBsVF9SM3RMejlUc2xiMXZHYWtCQ29sbWs4MVJuUjJaOFg4WERZLS01S084ZjVFVDFvakthd3N4WHFPLUZaTmh3SERpZzd3OGVqd1RmbjhTMXRIVWRjSmRqeDBUem1uSWhZWVZXbXVneWdPdXBIQThNNm5RSGZVOF9oUzNPdjc5Y0NrUTI5eE95THU2LVUzemdVRFTSAboBQVVfeXFMT1lSbnUwODc1SnRsdGt0QUZCWHc5QXRVcDJLcUQyQnVxTnprU1hxNTJSc1pPdFNOeFNOU2s0YmpFSUZNRXo0Y2s4bjVRWUhVUWN4ZDJ1UFFMZTJRQmJCalliYWxUQ2JtY2tmYmN5MzI4WHJFRFZmWGJXaTdGWFp3X0wyY0dra2xtSUFoaEhDQ3Z5VkxuVXJsV2ZWSmFScXhWdkhyNGloLUppeXdMWU9tMk5EakRRY2FYcWVB?oc=5
+- [Texas Metro News] 47th president ousts election commission members in latest push to reshape US voting process - Texas Metro News (2026-07-13) - https://news.google.com/rss/articles/CBMixgFBVV95cUxORTF6a01DQ2xJNDF3ZHVWaDBndXVOa1NRVF9WUDQwUEhjOEtYUHNyTG1XWXhGTXg3X3hnRVpBTnNRT3g2R3dnWXNmVHZETkZ5Q0JYVENLOExzVDJxd3lhb1Z1azlCVzRIN3hGVDRYTWZzeWJOZmQ0SWxVeWctYUk5TWM5VEU3UEoyOWJOeWxDWkZFWUItWVhqblNqRTktWGVadTIwT1IxeFdlSW5yNzFNYmdsS0x6dHdmY1o5YlpERUQxZThXbHc?oc=5
 
 ### Election Administration Capture
-- [Nextgov/FCW] Trump empties out election commission leadership just months before midterms - Nextgov/FCW (2026-07-10) - https://news.google.com/rss/articles/CBMi1gFBVV95cUxORG9ibFZYRGxDcWQ3bTg2WEpVM2Q0Z2c5cENJaFI2M2FKU212VDlOLUZGZFBkN0ZuZ0lHTFgwRnl3RnRlQ05aSndzN2FfcWZZOHE5cnRiNWZXc3ZnTlRJSVlKdHdDLThybTZSTTE3REN4RVNVbDdIMlJ3dXJiVVNaTTFkcGJUYnlDUWhhaUc5MTFvQ2cyaGRhRFhxd1ViOFJERm9VanB4RnAybndENVRDNGdFdS1KSWljbWN1NlpLekJMYTZ6VmpPWGh0WVk3YU11SzUwb1pR?oc=5
-- [WTOP] Donald Trump ousts election commission members in latest push to reshape US voting process - WTOP (2026-07-10) - https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUpHeVhmRXBNeUp2T1Zyei04VXlXSUlpbkZXLVVMenNvb19fdEhZMm9EZ2dTdXBrQzF1dU5iakNIRl9vM3dpRkw5eVI1YUhuS3Nxb2ZGS1RubHliR3F4bjRIajR2YnJ3UkpuamM3X0JjMGZibGZlZVJPdUZPMG42UTlpNzZkamhxSWZ1OXJ1UFpwRWhZU3BZMnJjNlFxNC02V2l6SDZsbXdpUUpOMFhUa1NlOWFhVjZEUTd4UzlreFp5U1E?oc=5
-- [Washington Times] Trump fires Democrats on election board ahead of midterms - Washington Times (2026-07-10) - https://news.google.com/rss/articles/CBMirAFBVV95cUxNVmh6dWY1eTFhcnRxMlRaajRYTWh0VkhjVnJWaDBxcHVkeHNPcFZnVVFvejE2cDZOZ21XdTNuNVc3Sm5sNlVkSEVSRWE3QzhWTXE5YjNBWklYMTV1NnRHWDcwSzZCZ1djYXRsSExRZG9lZGVXbWhUdUNwM2hzWWh3TWtuSEF2aDgwWHdjZFZoaTlZZjRoWXZFNUJLNDlQOFdzODhJdnM2TUhHc1pU?oc=5
+- [The Hill] Ex-White House lawyer: Trump ‘stacking every card in the deck’ ahead of midterms - The Hill (2026-07-11) - https://news.google.com/rss/articles/CBMijgFBVV95cUxNNks5OTZYcU5XV09nQnptWkNZTng2Rkc4TDFFNXVEWmhfUWJQcDJFLTYtdVg1NGQwd01WMG54WnVBb1BBSnktRl84allQSTVUVzUzNTd4LThCYURKV3JqMXNrMHpZUlpYZm43VzUybi1uYjh6NVVhOGp5QV9QaFRxTWN0Z1QxOEMwTmwxejB30gGTAUFVX3lxTE1OeVl1Zm5EMDA5emlkNEJyOGc2TTFWOW5YMnJpakRsT09zVjZNQ3F3QkxjNFFQYzF4WUNnZDJzNjB6M0FXNXJsQTNQVE5HZENlUERTTzNZUll0TUI5SVlBYVdoRktmWkhneXhlZzRlZENHUFViU1liWnhoaVJzXzdtdVR1N3RJMnd3Qk9yTzdma2YwQQ?oc=5
 
 ### Press Restrictions or Retaliation
-- [Hiiraan Online] NUSOJ condemns arrest of journalist Suways Ga’ayte as politically motivated - Hiiraan Online (2026-07-10) - https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYm9jOU9JUG9IZC1fRGtaVXVHbUJua2tVV1MyUkp0SGZrTjVsUU5wNmtfUmVyTjhqVlNwQUVaQ0thSkVLQlAwdXprMVVuNEUxTUZZazNfOHVHRHI3c1FPSFBzSUkybEt2Vy11U3BLRGNvNGhZRmdscnhHQXc4bFBfQ0VONFc3VlN0cndDSUpONVR0S0VNWG1qUkNyekNqeml3M3BQYV84akg5TVNaNnJVLThlcnZLbnJ4eVZOZ1dUN0l6dnM?oc=5
-- [Journalism Pakistan] Somalia union demands release of detained journalist - Journalism Pakistan (2026-07-11) - https://news.google.com/rss/articles/CBMikAFBVV95cUxNTjBiRUxrQmJBOUhrbE9ScVZwaWpXRWdXcUVBVDFaOHE2bkg4bjNVS2ZzZ05KVnN5TU1Jd1Rjbm10VUZ4TVE5MlUwWUY1RjU2WVFjZkZocGNOaDZhTGowTElUaVNsV1RqcFEwa19peWxpRVRJN25vb3dBMlFrVVA0QVZWWk5hQ1ZfRGM4eVM5Y0Y?oc=5
-- [Journalism Pakistan] Nigerian journalist freed after DSS drone equipment detention - Journalism Pakistan (2026-07-11) - https://news.google.com/rss/articles/CBMingFBVV95cUxQSzFZeWU0X0dGRjdicG90M2pOeGNPRE5VTWdUbFNLVHVGdExPMVFNS1F5RjdjNFh1eFZwTkpYalJaaUNqWEw3ekhLMll1cDNSYjZWUVNMRzM3UUxHN0NZTkt2RHlxOVF6Qlg4Nk00bWlXb0dxbm1GVEZKTTBkc2ZYUkNMX1ZGenAxanhtWFgxSUE0V2NtX0RRNTE5SmJoUQ?oc=5
-
-### Judge Intimidation Campaign
-- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-07-11) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
-
-### Court Order Noncompliance
 - No fresh evidence links in the current lookback window.
+### Opposition Ballot Exclusion
+- [Tuko News] "Open voter bribery": Nyutu asks IEBC to disqualify UDA's Ol Kalou candidate - Tuko News (2026-07-13) - https://news.google.com/rss/articles/CBMitwFBVV95cUxOdEJNOXhPYXF3dmxuM3E4cmg1bEpWdzI4WW9fVFRpdnRoQ2NWWE96Y3pDT0g3Tmw2aE8tajlUZnYta0pXR3E2aGdxTEc0bnZjSExtT1FtR012aXpiUm9fYjlkZndOT1lsWlFGcF9yQmhYOTlVV2tKZzJMQWxCTHgwYjRyWktqMzBFSTQ2dV9QbFlXSGVJbUZVeEl2bmhCQ3JSa3ZQV25HNTNFY3J4TUp6T3hzWlgzNVE?oc=5
+
+### Targeted Jurisdiction Stripping
+- [Blaze Media] Where is the outrage over our stolen birthright? - Blaze Media (2026-07-12) - https://news.google.com/rss/articles/CBMikgFBVV95cUxOb0tRSHpKSWhZSm1ZTjRCTkNwYzkwak1JMUdtcDJzLXg0ZnFkX0hnWGgyQlY4NHlWTWZENFBWbWFhLU1FemJzXzBWNzg1MG1Eb3FxeENlalBZdVRpUjNicGRkbXRGc1BMR3dNZTJXUklNSTA4UHRXNjM3TjJMVGdjbmg0VUl4aW12cGx0WWE5ZGxEUQ?oc=5
+
 ## Data Quality
 
 - Query feeds attempted: 22
