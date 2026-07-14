@@ -1,57 +1,57 @@
 {
   "attempted_queries": 22,
-  "average_7d": 16.68,
+  "average_7d": 16.23,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": -3.0,
-  "delta_vs_7d": -4.05,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": -3.44,
   "domain_breakdown": [
     {
-      "avg_severity": 0.4125,
+      "avg_severity": 0.325,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 2.26875,
+      "points": 1.7875,
       "weight": 22
     },
     {
-      "avg_severity": 0.9666666666666667,
+      "avg_severity": 1.0833333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.625,
+      "points": 4.0625,
       "weight": 15
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 1.0,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.9249999999999998,
+      "points": 3.5,
       "weight": 14
     },
     {
-      "avg_severity": 0.3,
+      "avg_severity": 0.08333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 0.975,
+      "points": 0.2708333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 0.7666666666666666,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 2.208333333333333,
+      "points": 1.9166666666666665,
       "weight": 10
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.5,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.625,
+      "points": 1.25,
       "weight": 10
     },
     {
@@ -72,37 +72,69 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-07-13T15:14:32.118835+00:00",
-  "previous_score": 16,
+  "generated_at": "2026-07-14T14:16:12.664540+00:00",
+  "previous_score": 13,
   "provisional": false,
   "score": 13,
-  "score_raw": 12.63,
+  "score_raw": 12.79,
   "successful_queries": 22,
   "top_signals": [
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFdG9PZ0xlRTJNNUxlSDBfUm4zY3JkLVVlS3IwZldJQ0x3bXBsdW5RQzRmbE5vdWJsYjdTUlVJRzNXYjhDRFZiYzlRMmVmZWg2SzQyMENaN1R3eUU?oc=5",
+          "published": "2026-07-14T10:59:00+00:00",
+          "publisher": "Alternet",
+          "title": "Judge's 'scalding' Trump takedown opens the door: 'Impeachment is next' - Alternet"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQThzelNGRXRVaUNFMXJBc19acG9vOW91UWhxcnlXZUFfdU8xNkxmTDFab0g4TmczZy00bU5lWWJjYVVLSzVMNHdMazZDZjExMWFUQ2wxN1B4enRVU1BETTBGV1g1VFc0aG5hS1BhNGtXcDM2VHVDdV9EQlFkR0NWaWtNeWlwdzl1T2MwMjktT1Y0WGtyV2x2SjcxeW55S0VicG5qbGV4VjlZbHU0b0FfNEZiMktKdFIteUlrTmZwRGpFQzJwYlBQMEdaSW53Q05BSTl1cExYR2g?oc=5",
+          "published": "2026-07-14T08:17:34+00:00",
+          "publisher": "facebook.com",
+          "title": "Senator-judge Pia Cayetano asks the counsel for the prosecutors, counsel for the respondent, and the witness about their appreciation of grave threats is. She asked if the victim should feel threatened for an act to be considered a grave threat. Prosecution cou - facebook.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYWxIV0wyMHlMZW5haUxiWTJabmdsOUlYaUZqWGt4amdld3dWOFZXWVRRRFN4NTA5eVAxbmFncy1EdkhhSlBtQjRQSXlnOS1ZMDJ3RlJKN2k2TFRoVjBsbU4yMmFmZnpOSXd2RnhwWW9rVVFWZUdTZXRVOHcxNl9mMktZX1BHTm5vekpUZjB3SVlaNlZsYW1iSlVUOUlVMW9EbGk3VHh3M0xialVpdHYtMlZiVDB2Wkhx?oc=5",
+          "published": "2026-07-14T13:07:30+00:00",
+          "publisher": "ABS-CBN",
+          "title": "LIVE UPDATES: Vice President Sara Duterte's Impeachment Trial (Day 5) - ABS-CBN"
+        }
+      ],
+      "hits": 8,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 4
+    },
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaRjYzbHBzRmFZeTRMZFRCR3VucV9meWVab1g2eWdQMm81WWhkb1hQX1FWdk0yWERKZ0lLQ3YxaUh3TldKSFFZM1JiTXg1OE53V1ZHbmQ5WmhLSmVWNDRvRmZSYkhfYlg0ZjZFaFJiRzgtZ3doMDVNOWd3?oc=5",
-          "published": "2026-07-13T11:01:36+00:00",
-          "publisher": "Longmont Times-Call",
-          "title": "Views from the nation\u2019s press - Longmont Times-Call"
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYnVGTXBMN2Fxb09ZaUlZczFWNVV4aWducnFCaGRuQ1lRenVxVEIwaDdjeWFQTEZzLXdkVGhGdzc5LXBtdVl0TzdYbFJIU0s2UDE4TjFpLVdmNWdWcEpoTVNnYU1sdjFfRjF3MFQxZnM1TnJ5NlQtQ1U3TWVuZ0tyUklXNU8tcjZNSnJQMWhEQmduWHlwTkVwOXdB?oc=5",
+          "published": "2026-07-14T10:00:00+00:00",
+          "publisher": "promarket.org",
+          "title": "Presidential Control of Independent Agencies Has a Price - promarket.org"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbUhHYy16SmZuRl9tWVRRV2gwd0s3UXJWRWI4RFJwY2JkUWZBQ1N3TUZZTmtRbzB0T19SS3hfTXRneUpLY1p4SkNFaDhiR0lkd2loWmJqazlDbHZiQmlwMEluUEhDb2ZzNDlFTXZEWXJ5X0s2eExiSThvZ2RweHNtVW9HWnpZNXFhUGVIYjJmei1qRTdpM2lBVy1EV2J4MGZrV2hvOQ?oc=5",
-          "published": "2026-07-11T19:13:32+00:00",
-          "publisher": "American Enterprise Institute - AEI",
-          "title": "After Slaughter and Cook: Future Fed Fights, and Maybe Some Midnight Firings - American Enterprise Institute - AEI"
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWDBMbTlaenZiX0I4bXJwWWNMMnZudFRLVzNFcGxFRlhZNFMyQmEtZ0ktY21EaldrcGVUc3ZINHB0U1gxV092dS1qUXMxanpJSExfZDN3OEM5ajQ5T0h4bS11YmVhMldyZktlY25TYkUxQkYxZlFEMFZFd3M1UWFjUk9USmpXdHZ6?oc=5",
+          "published": "2026-07-14T11:00:32+00:00",
+          "publisher": "Reason Magazine",
+          "title": "4 Takeaways From the Supreme Court's 2025\u20132026 Term - Reason Magazine"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORTF6a01DQ2xJNDF3ZHVWaDBndXVOa1NRVF9WUDQwUEhjOEtYUHNyTG1XWXhGTXg3X3hnRVpBTnNRT3g2R3dnWXNmVHZETkZ5Q0JYVENLOExzVDJxd3lhb1Z1azlCVzRIN3hGVDRYTWZzeWJOZmQ0SWxVeWctYUk5TWM5VEU3UEoyOWJOeWxDWkZFWUItWVhqblNqRTktWGVadTIwT1IxeFdlSW5yNzFNYmdsS0x6dHdmY1o5YlpERUQxZThXbHc?oc=5",
-          "published": "2026-07-13T06:48:33+00:00",
-          "publisher": "Texas Metro News",
-          "title": "47th president ousts election commission members in latest push to reshape US voting process - Texas Metro News"
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc0pCcjlWYllsTEd0QkFTdTQ2NTlQbUtXZnFxY1dja00xU2Y5VElGX0h5VElIR1UyNXZZWGFnWDR0bVRhUDhMWVVQT0hFVlNfZC1CS0hnSEFfOWhzV09KY2g0S3hYMGlzSXJBQ090emYzMktJa1o3ek1aVlB3aHM0dg?oc=5",
+          "published": "2026-07-13T11:02:17+00:00",
+          "publisher": "Loveland Reporter-Herald",
+          "title": "Views from the nation\u2019s press - Loveland Reporter-Herald"
         }
       ],
-      "hits": 5,
+      "hits": 4,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
@@ -113,41 +145,20 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNks5OTZYcU5XV09nQnptWkNZTng2Rkc4TDFFNXVEWmhfUWJQcDJFLTYtdVg1NGQwd01WMG54WnVBb1BBSnktRl84allQSTVUVzUzNTd4LThCYURKV3JqMXNrMHpZUlpYZm43VzUybi1uYjh6NVVhOGp5QV9QaFRxTWN0Z1QxOEMwTmwxejB30gGTAUFVX3lxTE1OeVl1Zm5EMDA5emlkNEJyOGc2TTFWOW5YMnJpakRsT09zVjZNQ3F3QkxjNFFQYzF4WUNnZDJzNjB6M0FXNXJsQTNQVE5HZENlUERTTzNZUll0TUI5SVlBYVdoRktmWkhneXhlZzRlZENHUFViU1liWnhoaVJzXzdtdVR1N3RJMnd3Qk9yTzdma2YwQQ?oc=5",
-          "published": "2026-07-11T15:18:00+00:00",
-          "publisher": "The Hill",
-          "title": "Ex-White House lawyer: Trump \u2018stacking every card in the deck\u2019 ahead of midterms - The Hill"
-        }
-      ],
-      "hits": 1,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "hits": 0,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40QlNnYi1SMk85Z2NKQ3NubmtuV3lFSnpwbE1TQUszTVdnNkt6eVRLQWYtODZ3VHFHamI1YTRWa190SjFiQTduWHBhY0I4U1ZJUmt0WnlON25ob0Jlck95SmNtT2tkY0NCTDZGYVo1d0dWZ1VWb2RJ?oc=5",
+          "published": "2026-07-14T11:02:41+00:00",
+          "publisher": "Uncloseted Media",
+          "title": "Democrats Are Trying to Disqualify Trans Candidates. Here\u2019s How - Uncloseted Media"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXTWxUTUFGWkhKZnZkdmI3Ry13MFZkaHZ1d0NPQmVZaTFZenpxSjN3SmNwclBDOVkyN1AzS09mZjdjdXZZdVJtcDBPeWkwSFIzUW1wTGxzaFMzNk96bUNtMENiWkozTjBXcHc?oc=5",
+          "published": "2026-07-13T05:00:00+00:00",
+          "publisher": "Encyclopedia Britannica",
+          "title": "Bassirou Diomaye Faye | Date of Birth, Biography, Election, Sonko, Ndiaganiao, & Facts - Encyclopedia Britannica"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdEJNOXhPYXF3dmxuM3E4cmg1bEpWdzI4WW9fVFRpdnRoQ2NWWE96Y3pDT0g3Tmw2aE8tajlUZnYta0pXR3E2aGdxTEc0bnZjSExtT1FtR012aXpiUm9fYjlkZndOT1lsWlFGcF9yQmhYOTlVV2tKZzJMQWxCTHgwYjRyWktqMzBFSTQ2dV9QbFlXSGVJbUZVeEl2bmhCQ3JSa3ZQV25HNTNFY3J4TUp6T3hzWlgzNVE?oc=5",
           "published": "2026-07-13T09:23:00+00:00",
@@ -155,9 +166,61 @@
           "title": "\"Open voter bribery\": Nyutu asks IEBC to disqualify UDA's Ol Kalou candidate - Tuko News"
         }
       ],
-      "hits": 1,
+      "hits": 3,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTkdLOWs5UXBtY0sycElQZ3o2TmRNc3VPVUREMGdscXVHRm9hMk1OQ3NWNGo3bkNSd0dmdHZJbG1NYUpoaTZqQzk3bFNCZTNNTWhpc0JsdlJraU82OFQ2eFJLN3FMbzhiR1kzUVg4N1l0UGkwUXV3RzNJd2RyTWdjemdPWE1nTTkwM3FSb1JIaHk4VnJZSHlOZm9Ja19nYVJlc2lDTjdqZkNlRUxNOERz?oc=5",
+          "published": "2026-07-14T08:07:07+00:00",
+          "publisher": "Florida Politics",
+          "title": "Sunburn \u2014 The morning read of what\u2019s hot in Florida politics \u2014 7.14.26 - Florida Politics"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxON0pyOEZnclBJWnZUeWxuWUpSSEJYYjlRekVSNWI5WHNYYkduR1czME92X0hqZFR5bHFhT3huMHNBbWpuRXRLTGItaUVKQWwzTTFnc3VIVjJQYjR1dmt5VldTbGJ6WmpfX19MRWRFVXFzQzRkZTNpMFVGNFVabi1FRFJ3?oc=5",
+          "published": "2026-07-13T23:51:58+00:00",
+          "publisher": "AOL.com",
+          "title": "U.S. House passes election campaign financing bill - AOL.com"
+        }
+      ],
+      "hits": 2,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObkszTXFDaGpISHNHd0pBb1BOcHQtNXFBNkhVU1FmeDlnOTJGOHZLUVllTFB4NEZoNG1Kbmx5T0duTTZzdHNXRW5ZQjhuVnA0WXdpdDlTM3AwbVlrc2xqZmxZbDdVY0kwTk82UHJZd3hMMDVENXhSRVRYMnpBQlVsaG5HdXktaXpjc1VoNDZINXNZZUZBblM3Mml4dWg?oc=5",
+          "published": "2026-07-14T05:27:25+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "US subpoenas New York Times journalists in leak investigation - Journalism Pakistan"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRjc0RjM4RjdTR2hYQURrOXVOM0VZbHF4NkFsNVl2LTZDZmUtNTFpLUxjX3NnWnd0QWZ2MFpfOW1Zd0tjY0tLQV92V0swTFZGMWdkMld5VE4xZjN3T3JNUjE5ZlE1LTdKRUY4bGdwYUh6NnBRZjNrSzBIekxRemlmLUNadkIzR2Q1TkRoTUxJYVE1RDhLeFNUQw?oc=5",
+          "published": "2026-07-14T12:27:25+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "Moroccan journalist Ali Lmrabet held in pretrial detention - Journalism Pakistan"
+        }
+      ],
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -166,18 +229,18 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb0tRSHpKSWhZSm1ZTjRCTkNwYzkwak1JMUdtcDJzLXg0ZnFkX0hnWGgyQlY4NHlWTWZENFBWbWFhLU1FemJzXzBWNzg1MG1Eb3FxeENlalBZdVRpUjNicGRkbXRGc1BMR3dNZTJXUklNSTA4UHRXNjM3TjJMVGdjbmg0VUl4aW12cGx0WWE5ZGxEUQ?oc=5",
-          "published": "2026-07-12T13:30:35+00:00",
-          "publisher": "Blaze Media",
-          "title": "Where is the outrage over our stolen birthright? - Blaze Media"
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaXcwcDJSTUNKa2lreFdpTWZnZUI4aXl5RUhfMVdLQlNxNTE0THNOQmgxSmtLdHNjbEtvbjk0TDEwMlFobFBiWDNsY3E2NzdhSV9wR0xqcFYzdHF0STM3REdZdm54UWVLQndhTWxRWlFGM0dObzh1eFl4Ykc2aTRsOW9HS1Y0aU52QTlxTDRFSUtNWWJnbWJVS19xTFFvb1RJbDRfTm8zN29ad2xfVGc?oc=5",
+          "published": "2026-07-14T12:45:00+00:00",
+          "publisher": "Muslim Network TV",
+          "title": "White supremacist indicted over threats against Congress, Muslims, and minorities - Muslim Network TV"
         }
       ],
       "hits": 1,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -189,12 +252,12 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.65,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -206,20 +269,7 @@
       "name": "Court Order Noncompliance",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -232,7 +282,7 @@
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -245,20 +295,7 @@
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
