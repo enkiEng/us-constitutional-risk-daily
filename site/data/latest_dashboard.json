@@ -1,57 +1,57 @@
 {
   "attempted_queries": 22,
-  "average_7d": 16.23,
+  "average_7d": 16.32,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -3.44,
+  "delta_previous_day": 5.0,
+  "delta_vs_7d": 1.49,
   "domain_breakdown": [
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.5,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.7875,
+      "points": 2.75,
       "weight": 22
     },
     {
-      "avg_severity": 1.0833333333333333,
+      "avg_severity": 1.0999999999999999,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 4.0625,
+      "points": 4.124999999999999,
       "weight": 15
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.7666666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 3.5,
+      "points": 2.683333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 0.08333333333333333,
+      "avg_severity": 1.0,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 0.2708333333333333,
+      "points": 3.25,
       "weight": 13
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 1.0,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.9166666666666665,
+      "points": 2.5,
       "weight": 10
     },
     {
-      "avg_severity": 0.5,
+      "avg_severity": 1.0,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.25,
+      "points": 2.5,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-07-14T14:16:12.664540+00:00",
+  "generated_at": "2026-07-15T14:13:33.186511+00:00",
   "previous_score": 13,
   "provisional": false,
-  "score": 13,
-  "score_raw": 12.79,
+  "score": 18,
+  "score_raw": 17.81,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -96,10 +96,10 @@
           "title": "Senator-judge Pia Cayetano asks the counsel for the prosecutors, counsel for the respondent, and the witness about their appreciation of grave threats is. She asked if the victim should feel threatened for an act to be considered a grave threat. Prosecution cou - facebook.com"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYWxIV0wyMHlMZW5haUxiWTJabmdsOUlYaUZqWGt4amdld3dWOFZXWVRRRFN4NTA5eVAxbmFncy1EdkhhSlBtQjRQSXlnOS1ZMDJ3RlJKN2k2TFRoVjBsbU4yMmFmZnpOSXd2RnhwWW9rVVFWZUdTZXRVOHcxNl9mMktZX1BHTm5vekpUZjB3SVlaNlZsYW1iSlVUOUlVMW9EbGk3VHh3M0xialVpdHYtMlZiVDB2Wkhx?oc=5",
-          "published": "2026-07-14T13:07:30+00:00",
-          "publisher": "ABS-CBN",
-          "title": "LIVE UPDATES: Vice President Sara Duterte's Impeachment Trial (Day 5) - ABS-CBN"
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPQ1JKa3ozeUNxSzhYbG16MVZoZ05TYWVYN2lMNGdQRTBNLW9qVVZBNm54UDZtc2pFRlZrRFFYOGc4REpseWxYTlVBSGVTQWpmZ05xMTlzX2ZIRm5JdFpVcDdxY01Xcm0zUnRhSVBaNWZqYm1yZWlmMXVBbHZFY2l3VmxEalFmT3NoVHZWY0pkQ0lTOEpYTER2N293TVB0MmV5clJwNlJhby13RjRzTHVlX2hjWWNQYW9zVHNSa0FiNnBqTGxHelN3dWo2a0JZWS11Wm9GQXhUWHF1MkhRRHNqajVKRlZKQTJCVldyXzR1b9IB9AFBVV95cUxNNWQyM0RUaW5rdHROd2xlVUZUUnhNdnl6bzBqQjBQUUJ6ZTZSdTdHbG9tdXRPTE5IcVJxc2VwUlZwajlOU192Mmd5akdjVUZnMFh1OHpMeWpTTUtuLXhUWXkwT09vdHhhVE1QeExSdVBnZV96V2FxcXUxenJIVGJlb05ZdWUyVzJyNDNaMXhqWGs4ZXdkNFZaMEwtOU5BYno2NG51UjdRbHgwTHBxNE91cGo4UzhoSWxSOGJGcWZkWGY2UU5wUndRV3VUOFRTWUdxNk94MktfcVN1Q3E2ZUZDOXEyOEJ2UEVrTWR4UkxRMUM5UV9T?oc=5",
+          "published": "2026-07-14T19:51:26+00:00",
+          "publisher": "GMA Network",
+          "title": "Sara Duterte impeachment trial Day 5: 'Admission against interest' clashes with 'no threat' defense - GMA Network"
         }
       ],
       "hits": 8,
@@ -109,12 +109,18 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 4
+      "unique_publishers": 5
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOejRoamRIcFVZZlZwcVBxOUlHSjJaamNhcEVDNG9HNlZjcHJNczloTVFDcU1GZk1aRUNQZjdFRFNQNHJvRnhvaWFjYldsOGFkUzhXZHV6azRNSVNnc3NQSjVpNXlUQTdqN2xVT2RjdmlzdjdpWWNNYXh6XzVUTi1pLVJpRjVldFN2eWk1UEF1cmprYm1JM1RBOWNfVVBrbi1RVDBuTTRmckxEY0NRdmU2aWhXZnhlM2pKanVaRTNiSURacC04V1M5MzViVUlvTmRx?oc=5",
+          "published": "2026-07-14T18:44:20+00:00",
+          "publisher": "Arnold & Porter",
+          "title": "The End of For-Cause Removal? Supreme Court Reshapes Removal Protections for Independent Agency Leadership - Arnold & Porter"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYnVGTXBMN2Fxb09ZaUlZczFWNVV4aWducnFCaGRuQ1lRenVxVEIwaDdjeWFQTEZzLXdkVGhGdzc5LXBtdVl0TzdYbFJIU0s2UDE4TjFpLVdmNWdWcEpoTVNnYU1sdjFfRjF3MFQxZnM1TnJ5NlQtQ1U3TWVuZ0tyUklXNU8tcjZNSnJQMWhEQmduWHlwTkVwOXdB?oc=5",
           "published": "2026-07-14T10:00:00+00:00",
@@ -122,63 +128,31 @@
           "title": "Presidential Control of Independent Agencies Has a Price - promarket.org"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWDBMbTlaenZiX0I4bXJwWWNMMnZudFRLVzNFcGxFRlhZNFMyQmEtZ0ktY21EaldrcGVUc3ZINHB0U1gxV092dS1qUXMxanpJSExfZDN3OEM5ajQ5T0h4bS11YmVhMldyZktlY25TYkUxQkYxZlFEMFZFd3M1UWFjUk9USmpXdHZ6?oc=5",
-          "published": "2026-07-14T11:00:32+00:00",
-          "publisher": "Reason Magazine",
-          "title": "4 Takeaways From the Supreme Court's 2025\u20132026 Term - Reason Magazine"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc0pCcjlWYllsTEd0QkFTdTQ2NTlQbUtXZnFxY1dja00xU2Y5VElGX0h5VElIR1UyNXZZWGFnWDR0bVRhUDhMWVVQT0hFVlNfZC1CS0hnSEFfOWhzV09KY2g0S3hYMGlzSXJBQ090emYzMktJa1o3ek1aVlB3aHM0dg?oc=5",
-          "published": "2026-07-13T11:02:17+00:00",
-          "publisher": "Loveland Reporter-Herald",
-          "title": "Views from the nation\u2019s press - Loveland Reporter-Herald"
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMzRfbm5QN20zUEZfRXJZdThXVUwxUmlBbUpyQnA1WlBqUHAxTXg2TkF2cGg3M25EX0poU253cTU3TEJ6V0FzU2dTMGlRSUdoUVJfV2RUcDZfWWRTMmhMV1dxSXZudkhSWFNyWjU1eWV3d2pXODN2aXNnTm5MemkyUmkxM2JVb2tDaXc?oc=5",
+          "published": "2026-07-14T18:47:38+00:00",
+          "publisher": "JD Supra",
+          "title": "The End of Humphrey\u2019s Executor: What the Supreme Court\u2019s Ruling on Presidential Removal Authority Means for Employers - JD Supra"
         }
       ],
-      "hits": 4,
+      "hits": 6,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 4
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40QlNnYi1SMk85Z2NKQ3NubmtuV3lFSnpwbE1TQUszTVdnNkt6eVRLQWYtODZ3VHFHamI1YTRWa190SjFiQTduWHBhY0I4U1ZJUmt0WnlON25ob0Jlck95SmNtT2tkY0NCTDZGYVo1d0dWZ1VWb2RJ?oc=5",
-          "published": "2026-07-14T11:02:41+00:00",
-          "publisher": "Uncloseted Media",
-          "title": "Democrats Are Trying to Disqualify Trans Candidates. Here\u2019s How - Uncloseted Media"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXTWxUTUFGWkhKZnZkdmI3Ry13MFZkaHZ1d0NPQmVZaTFZenpxSjN3SmNwclBDOVkyN1AzS09mZjdjdXZZdVJtcDBPeWkwSFIzUW1wTGxzaFMzNk96bUNtMENiWkozTjBXcHc?oc=5",
-          "published": "2026-07-13T05:00:00+00:00",
-          "publisher": "Encyclopedia Britannica",
-          "title": "Bassirou Diomaye Faye | Date of Birth, Biography, Election, Sonko, Ndiaganiao, & Facts - Encyclopedia Britannica"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdEJNOXhPYXF3dmxuM3E4cmg1bEpWdzI4WW9fVFRpdnRoQ2NWWE96Y3pDT0g3Tmw2aE8tajlUZnYta0pXR3E2aGdxTEc0bnZjSExtT1FtR012aXpiUm9fYjlkZndOT1lsWlFGcF9yQmhYOTlVV2tKZzJMQWxCTHgwYjRyWktqMzBFSTQ2dV9QbFlXSGVJbUZVeEl2bmhCQ3JSa3ZQV25HNTNFY3J4TUp6T3hzWlgzNVE?oc=5",
-          "published": "2026-07-13T09:23:00+00:00",
-          "publisher": "Tuko News",
-          "title": "\"Open voter bribery\": Nyutu asks IEBC to disqualify UDA's Ol Kalou candidate - Tuko News"
-        }
-      ],
-      "hits": 3,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 3
+      "unique_publishers": 6
     },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ2dWZEJnbS14V0d4bTl4a0d3d1VBdHlMY3l5cmo3QUZyMVVQZmhvTEZNbXR2cy1naF9oek1SNEJsUy1QU0hZYTF3Y2VqY1ZSaXZKTWU5SjRGZG1OS05tOWoxLTdWNzVoVFUtUklNQk1iTEFsbVRRWnJmMnQ2WG8wQjFGQ2wxc1BRdE1lNEt5U21FVWJTNkJIQ0dXUDZ1cG5pa0tneHZzNWJwdnIya2gwN2pB?oc=5",
+          "published": "2026-07-14T22:30:03+00:00",
+          "publisher": "PBS",
+          "title": "Ousted Election Assistance Commission chair on Trump's effort to control voting - PBS"
+        },
         {
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTkdLOWs5UXBtY0sycElQZ3o2TmRNc3VPVUREMGdscXVHRm9hMk1OQ3NWNGo3bkNSd0dmdHZJbG1NYUpoaTZqQzk3bFNCZTNNTWhpc0JsdlJraU82OFQ2eFJLN3FMbzhiR1kzUVg4N1l0UGkwUXV3RzNJd2RyTWdjemdPWE1nTTkwM3FSb1JIaHk4VnJZSHlOZm9Ja19nYVJlc2lDTjdqZkNlRUxNOERz?oc=5",
           "published": "2026-07-14T08:07:07+00:00",
@@ -186,20 +160,20 @@
           "title": "Sunburn \u2014 The morning read of what\u2019s hot in Florida politics \u2014 7.14.26 - Florida Politics"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxON0pyOEZnclBJWnZUeWxuWUpSSEJYYjlRekVSNWI5WHNYYkduR1czME92X0hqZFR5bHFhT3huMHNBbWpuRXRLTGItaUVKQWwzTTFnc3VIVjJQYjR1dmt5VldTbGJ6WmpfX19MRWRFVXFzQzRkZTNpMFVGNFVabi1FRFJ3?oc=5",
-          "published": "2026-07-13T23:51:58+00:00",
-          "publisher": "AOL.com",
-          "title": "U.S. House passes election campaign financing bill - AOL.com"
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa0dsSTdheXVEeEQ2Z2JtOFFfbGJiZGlMd2pmR1NSblN5VXp3TUxZWmtWTlNOZVktVkdaemNjdGRjNVBoQWhvQWg0YXpoMnE3OUpLSDhPcExHTTdCZlE4eEstWWIxNFZFVWF2dTAwblplZ29icmdpdjBZQXRBVHpZVWx5UG4xRlE0cGJuQmp0Rm9Qb1BqZFRvVUo4bmZya2dSTE50RUtidWw?oc=5",
+          "published": "2026-07-14T15:25:31+00:00",
+          "publisher": "Los Angeles Blade",
+          "title": "Democrats are trying to disqualify trans candidates. Here\u2019s how - Los Angeles Blade"
         }
       ],
-      "hits": 2,
+      "hits": 5,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 2
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 5
     },
     {
       "critical_hits": 0,
@@ -212,15 +186,133 @@
           "title": "US subpoenas New York Times journalists in leak investigation - Journalism Pakistan"
         },
         {
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd1dyM0l4Z3g4bGMyMlU5ell6eG5Ec2lWeF9rNFBET21vXzA3OHRqck16anFhU0VhWUJUQVNMeTRHOEw0bG9NWGxfOERsLUxCX1lNNUFUenljbXhmVm5RM0hNYzBjdThueW9WV0sxa1J3b1dZWTBUeXYtZWxwUlpUWU1BVXFGemJ6TkFhc2Ruc2NBaDRFNFlpRTByc1ZMWVhFSlRHRGJn?oc=5",
+          "published": "2026-07-14T16:22:25+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "Why Punjab's district journalists are working second jobs to survive - Journalism Pakistan"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRjc0RjM4RjdTR2hYQURrOXVOM0VZbHF4NkFsNVl2LTZDZmUtNTFpLUxjX3NnWnd0QWZ2MFpfOW1Zd0tjY0tLQV92V0swTFZGMWdkMld5VE4xZjN3T3JNUjE5ZlE1LTdKRUY4bGdwYUh6NnBRZjNrSzBIekxRemlmLUNadkIzR2Q1TkRoTUxJYVE1RDhLeFNUQw?oc=5",
           "published": "2026-07-14T12:27:25+00:00",
           "publisher": "Journalism Pakistan",
           "title": "Moroccan journalist Ali Lmrabet held in pretrial detention - Journalism Pakistan"
         }
       ],
-      "hits": 2,
+      "hits": 4,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE91WGRkd1hFVWxGNzhOYzM2VUlabWVjY0d1YklTOXA0akREemh3Mk1vNUxKekhRRXZBRDA2eUw1WVo2Y3l4cjVaaF9zZE9NT1JIbkppSDJkUQ?oc=5",
+          "published": "2026-07-15T13:02:49+00:00",
+          "publisher": "Ynetnews",
+          "title": "High Court freezes law shielding ultra-Orthodox draft dodgers from arrest - Ynetnews"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR3YyLUE4NDNqUGVkcVJNV09LNDljakNtdEt1dWIwdWIzMVJLSElPeHYwc1VmUnNiblFJLVB5OXh3V2R0eFFxRW9DekR4bE9FYkN0dzgtWmZtR1ZCd1VqbEdyVGdFX0o0VlFJVjE3TVdYbENPeHB2VVZyYVdncXFhOWptSGh3R1BNZU91M09CbDNZZkdhMzROWHd0ZEFPRTJPdThIbjk5Yw?oc=5",
+          "published": "2026-07-15T05:29:27+00:00",
+          "publisher": "Blueprint Newspapers",
+          "title": "Appeal Court judgement: Kaduna ADC legacy faction demands compliance, reconciliation - Blueprint Newspapers"
+        }
+      ],
+      "hits": 2,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE40QlNnYi1SMk85Z2NKQ3NubmtuV3lFSnpwbE1TQUszTVdnNkt6eVRLQWYtODZ3VHFHamI1YTRWa190SjFiQTduWHBhY0I4U1ZJUmt0WnlON25ob0Jlck95SmNtT2tkY0NCTDZGYVo1d0dWZ1VWb2RJ?oc=5",
+          "published": "2026-07-14T11:02:41+00:00",
+          "publisher": "Uncloseted Media",
+          "title": "Democrats Are Trying to Disqualify Trans Candidates. Here\u2019s How - Uncloseted Media"
+        }
+      ],
+      "hits": 1,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVU43bDVxX0xnOTMzeWVzZDF2a3lOaVJYS29ZZGE2TmpEWVVBbkxHaC1XQ016V1ZtZFJTMV9POXFtb0FvMWxqN3lsMXpYUmY4Z1dxWkhsTWtpeHZ2dGt4X2NEb29iVDhCeHUyR2g0WS1mVG1OVHpvc2NTdTlNTDJidXh4SVkyUnFMSjBCN0JqZVBhNkFYU2JIcFNmeTNvTVpXNTByWkZvVk9xakJaakJlSGR5b3ljbFpJTUlIbE5law?oc=5",
+          "published": "2026-07-15T11:16:21+00:00",
+          "publisher": "Tech Times",
+          "title": "Senate Blocks FY2027 NDAA Over Iran War: $1.15T in Weapons Programs in Limbo - Tech Times"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcndJWEpCa2xnLTlaZ25oWjNURWhMNmI2b2RKLWxCaW13RFB6RFB3d0NyUkwzeGdET3A1S0doc3hkNGFycFg3UHJyOEU0TEVJYnQ1TXRPSFczYXpBR1YwcENVSm9pTF9nbnpzQXdhX3R0cXB2dlZDREFXakRUeFQ3UGswNGRjN3pDTUNPY1dnRG04OGRNTXE5T3dfN01rX0NwdnNnd212VVJ2RDlPV0tZTjh1M2pPdDd4TGZhbmx1b2RlWElpMmVnOHZBa1FQamJGRXJYZ0hnTzNnUWllRzVGX2hn?oc=5",
+          "published": "2026-07-14T15:50:50+00:00",
+          "publisher": "NewsBreak: Local News & Alerts",
+          "title": "Trump\u2019s Election Power Fight Escalates as States Push Back Ahead of Midterms - NewsBreak: Local News & Alerts"
+        }
+      ],
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQWmpQV0pTemZwZTFxYmNYT19KZ3ZhRGhoN21zeHgyRGtwR2ZkWEdDTUthNUdUc2MzMVFtT0s2RDNZS0tvWE9KdkJVM1dUQ2dsM2RoWHlZSGVkcm9JOWRvTDNwZkUxT05GaW5WNmFqYkc2czV6NHZhNkV0eURZVW0wb3huZ194OWl2REZTUXdnVmZKa3REQ0RVc0JhN2xOVGV4UEVsM3NfZWFsNFd3RzNhRlZUUDRQUUpzSTlDNGdDeTZhbUltT1lRT20tSWh3RnU2Szdua05scklBR2o5cXozT1cxVm03ZTFGanVIMXZpMkhGREJSanY2am5wZVhXWUNZQzZha1BDRUJfbTZzMzZFWENMUQ?oc=5",
+          "published": "2026-07-14T17:54:00+00:00",
+          "publisher": "Law and Crime News",
+          "title": "Judge rails against ICE for 'open defiance' of numerous court orders - Law and Crime News"
+        }
+      ],
+      "hits": 1,
+      "id": "court_order_noncompliance",
+      "name": "Court Order Noncompliance",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUTlKcGZSTm5PMTl4SHVXUDJPTThqZjR6S2xfWm9JSHpUQmZjVFhBTnAwREpOOVJFOUM0NFcyZTloc1IyWUtIejZ5MzZ2QXRWV0JqQ01oalV0YTE5bEdYNDJRSXlwSmU3bnJrZEt5V0NaR2ZmUWVWMUg3RElJZVNrQTVhR2k?oc=5",
+          "published": "2026-07-15T13:09:37+00:00",
+          "publisher": "Just Security",
+          "title": "Justice Gorsuch\u2019s Slaughter Opinion is a Direct Threat to Congress - Just Security"
+        }
+      ],
+      "hits": 1,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -230,30 +322,10 @@
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaXcwcDJSTUNKa2lreFdpTWZnZUI4aXl5RUhfMVdLQlNxNTE0THNOQmgxSmtLdHNjbEtvbjk0TDEwMlFobFBiWDNsY3E2NzdhSV9wR0xqcFYzdHF0STM3REdZdm54UWVLQndhTWxRWlFGM0dObzh1eFl4Ykc2aTRsOW9HS1Y0aU52QTlxTDRFSUtNWWJnbWJVS19xTFFvb1RJbDRfTm8zN29ad2xfVGc?oc=5",
-          "published": "2026-07-14T12:45:00+00:00",
-          "publisher": "Muslim Network TV",
-          "title": "White supremacist indicted over threats against Congress, Muslims, and minorities - Muslim Network TV"
-        }
-      ],
-      "hits": 1,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.65,
@@ -265,37 +337,11 @@
       "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "hits": 0,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
       "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
