@@ -1,36 +1,36 @@
 {
   "attempted_queries": 22,
-  "average_7d": 16.14,
+  "average_7d": 16.28,
   "band": {
-    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
-    "label": "Elevated Strain",
-    "max": 29,
-    "min": 15
+    "description": "Normal democratic conflict and routine legal contestation.",
+    "label": "Baseline Institutional Noise",
+    "max": 14,
+    "min": 0
   },
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -2.0,
-  "delta_vs_7d": -0.46,
+  "delta_vs_7d": -2.65,
   "domain_breakdown": [
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.65,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 4.5375,
+      "points": 3.575,
       "weight": 22
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.0624999999999996,
+      "points": 1.625,
       "weight": 15
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.3333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.5166666666666666,
+      "points": 1.1666666666666665,
       "weight": 14
     },
     {
@@ -41,10 +41,10 @@
       "weight": 13
     },
     {
-      "avg_severity": 0.9833333333333334,
+      "avg_severity": 0.8666666666666667,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 2.4583333333333335,
+      "points": 2.166666666666667,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-07-19T13:56:22.822193+00:00",
-  "previous_score": 18,
+  "generated_at": "2026-07-20T14:35:00.199859+00:00",
+  "previous_score": 16,
   "provisional": false,
-  "score": 16,
-  "score_raw": 15.68,
+  "score": 14,
+  "score_raw": 13.64,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,143 +84,118 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSWUtUWVuemp6aGE1SnBYMktEOXVKX2FxZjFXTjBhOFlpY282OFcyZDUtYkJvU2dFaGI0TVVHdzdPNUJwR1N4bWY3RVpqN3JibndsSldQSWItMk1fMGUzVV9rWGlJY1BFMGVYaERVbzVkU3JETVcwX2kyWWFfaHN4M29QNUNmaUhkTVE?oc=5",
+          "published": "2026-07-20T09:26:12+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "Pakistan Media Monitor | Edition 4 | July 7-20, 2026 - Journalism Pakistan"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYXRRYWhBckxFSE9aUERiRVBNcjhsaWt6cnB5azZCVEZTMWtzaXZFdDFxaDZGeGpacjRzcWkxVjVoOS1VNG1kZnBMR1VnUWRfbzRuZDRWX1hHa1JaMk5keHVJR3k2eUF1VmtEaUQ5UjZGVlNTUldyMjJiTHo0NG84TlJUOXFLVjJyamFiZjc1eERac3l6SGJRRUlDM0lDLWtPR1hF?oc=5",
           "published": "2026-07-19T09:41:06+00:00",
           "publisher": "Journalism Pakistan",
           "title": "Press freedom review: Governments tighten the screws on journalists - Journalism Pakistan"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xbTZfVUxGSkREWEpuaFFIcXIyaHhqM1FGRkllWk1fTmJOWTd0RjVNUzFEcGJ0QjlaR1hYVXg5V2hIQWY3YllJNXI0N0gtUQ?oc=5",
-          "published": "2026-07-17T20:26:41+00:00",
-          "publisher": "The New Republic",
-          "title": "Trump Now Wants to Tariff Canada Over the Wildfires - The New Republic"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeTdoQXhvbDhWLUV6czlQNFFSeVNIOW90YXNRdWI5WUJrWEtpNnRMUV9FVTZlTzhNQ3pyRnFUSWVJdUw2V0dieVcyYTZPbmswNGR6Q0JOYnhRTnp3Yl9RbXIyUnhJTnVQbGdxcFBzY21CMWJTeTBRZ21waFZrR0hPNDdmNjhvRFFhMWZvcmFVZUplcmp3MU5TSHQyb2E3dw?oc=5",
-          "published": "2026-07-18T17:51:32+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "China warns of retaliation over new US journalist visa limits - Journalism Pakistan"
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbFA0Mzh4TUtQdS1xd1pYTnk4T0xUSkF3NlpBSjNNQTJWa3N4QVdVQUNrd1lRVTJ6aXM2QkVFWTZuZzFmOVg4UmRTRTRTOGxHdXlEVFRqTGNPVnc4VlhWUFdpWXBUMDRGM1N1cExObTNWTXRSY2w1YXJIVENPc1R1ZTBwdm9BbUl4eHVYMDhn?oc=5",
+          "published": "2026-07-20T06:46:00+00:00",
+          "publisher": "TheCable",
+          "title": "David Umahi: Asset or albatross for the Tinubu administration? - TheCable"
         }
       ],
-      "hits": 7,
+      "hits": 9,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 3
     },
     {
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9WWS1yZHl0dlpMY3JQc3RsRG9XZUhuSFNwMFJnMHR0MVZvMHI0dEhCOWZHczduN0hSSHEwRTAwUFozWFdReW9mV29JNElhR0FLN18tejVQZjZYdjBVLTZVOUZCeTNpV1hqVDlxZzJfN0d1U2tTbFVmUFY4cG0?oc=5",
-          "published": "2026-07-17T14:14:14+00:00",
-          "publisher": "Crypto Briefing",
-          "title": "Supreme Court shields the Fed from presidential firing power while stripping protections from other agencies - Crypto Briefing"
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOejE2a1c3VmxUa1JnenRGVHQ0OG1XRlAtZjBjWjRVZ1JhSVNiYWtRVXB0c0VTbWdlLUszbjdhQzZDY0VMWU1FWWRLblpWdHJsVGxkaUxiX01KcmRDcjdnVS05UjRVS2hFRDhTSTkxd19tbHRiZ1pCS2NEUkk1cDhVbWhSOWU?oc=5",
+          "published": "2026-07-20T11:00:01+00:00",
+          "publisher": "Financial Times",
+          "title": "The Federal Reserve\u2019s independence is still under threat, warns Rebecca Slaughter - Financial Times"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE84UVluTlIzYVJsb1dxby0wNVYyREs4UUZuTUUxTGIzd3lvdFkwMVo4VmJCN3NhWTFETHY0WFdGajFWR2h3Nzl5djJYdy1Ja2VBMzhnVHVwY3IwZEhfcGp1SExQMzBiNmRLend1dWp6aXdUYjg1UTZpbGJFVTZKZw?oc=5",
-          "published": "2026-07-17T15:06:33+00:00",
-          "publisher": "Crypto Briefing",
-          "title": "Iran's IRGC commander vows continued strikes near Strait of Hormuz, and crypto markets are paying attention - Crypto Briefing"
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOamlmTXlJYmFvWHpxckZQRjUxemJTMlE1MnpsdnlPTkk0ZGpGbi01TF9pZVBCdjl2M2ZvTGNYVHd2LXdUTGtlNEQ4d3Z2ck9PVnUtYUJ4Q2tTQ3d5TGdjdW80SEdjMXBUUUhZUk9uZ1hvMTU4amQwbl9SYi16VnhCM09mM2pyY3FJTTdVcXBvRGZJU1ZKVFdldmhJbjMyZ25yQjZFVV8yWS1leXIzRzZN?oc=5",
+          "published": "2026-07-20T04:23:18+00:00",
+          "publisher": "The Regulatory Review",
+          "title": "Article II Removal Power and the Roberts Court\u2019s Reckless Hubris - The Regulatory Review"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxQeFF6LVc5MEtyYnVaV0xwZm1XR3lueEwxUEdaR3phSFRwYUxUYmlzQlNjdm1EdmlzNVFoS3h3aHIwcGRlM05KWnNGVnVraXZzcjBXS2k0OVVMaGMzd3Q0RWRCaTBmSE5SZVd1NE0takNrSTdzOEZjRGozZlY3UjNKWXVKa1hJcEdiUUxveDFIZ3R2R21WUlkyMjlRZzRNNURLUml4eHZNVXctZXBOSW5paVNTWXRiMTg2QkpSQjFRN1QxVTh0RnlZclUyVzdEZXBmdHZKWDFkQjhvbDlYZlotamNBb2V0WFVvVmJTaHlzb0hDWGNVd0FOSC12b0hCQXllcGxBS25uUnBDOHZfNV85NGRaRFhtMm1rTVBGdUZuZThPRUhPVXpuNVIwd29EWjRrVG9LMlVhTUN3M3d3QV80Y2RNcWlnTlBDQlVvWVlHZERub01NanoxbDE1azd0YXd1ZzlabA?oc=5",
-          "published": "2026-07-18T10:58:32+00:00",
-          "publisher": "MSN",
-          "title": "SCOTUS punts Fed independence question to future courts - MSN"
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU25Oekd5VmpNX0huSjNvQm5odUFhS3RfQVF4MmZsZ1ZGSXN2VjZ1Rl90NWxPT19RUWtvRTd6eFpFakFDVlhpNTVEM3U2aVVTejVSR1l6d2lpd3FFdFY3d1FoU01PMXd2clNtSGIydFhfYnJsSjhfT0JDSjhmZkJZeGJKU3RRMFN0ZFNvUS1GYTU3dw?oc=5",
+          "published": "2026-07-20T10:00:00+00:00",
+          "publisher": "American Banker",
+          "title": "What comes next for the Fed's regulatory independence? - American Banker"
         }
       ],
-      "hits": 3,
+      "hits": 4,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 4
     },
     {
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQU5jOVBjOUw0UFFFZDBxblhTZXVac0pDLXQzSzd6V1ZfdjJsaU15cXU5RWdQOHg4aFk3dG1nc2hmaXBiZU4wX0RJbnQyN3pTNXowcVNvNVE4dVVRYXNnc08taFlHVkVXcDNsektyZVFOdVVSWTZGZlFXV3k2UWFEdmo3YmRNVi1MSElhbkNEa3JxN0ZLMWxxV1ZMUERsTTY5N1lOVHl6b25RVkFsVlZSWFpWNlp4Mk52QVp0NnVTaGNSeVFtX25qRWVnX21YblNDa3hB?oc=5",
-          "published": "2026-07-17T21:35:06+00:00",
-          "publisher": "facebook.com",
-          "title": "Homeland Security Secretary Markwayne Mullin threatened local election officials on Friday with prison time if they did not comply with the Trump administration\u2019s efforts to change election policies, while reiterating many of the president\u2019s unsubstantiated clai - facebook.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdEdlWXY5ZGdzaGxHVURuc3RibEUtSkd3YjZPMndITUprTWJRX3dnelVBTXVsWVF0anlrLTE0Ml9ramZZMXgybXNaNnhIUEdlUkpHVXpzRmtZazlLbFhiOTcxMWtZdGFYX0dYM1kxVkg4X1lsRWZTZTNTbXhUQjg2dTJkb3ZZVlI2RVV0TVRPamlvLUJC?oc=5",
-          "published": "2026-07-17T21:42:01+00:00",
-          "publisher": "Yahoo",
-          "title": "Gov. Abbott taps senior advisor Robert Howden as Texas Secretary of State - Yahoo"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5PQWw3czVCOUI0MXM2c29VZHRaRlZaVzQyWVJXbktnWWhwdFdXcWZZQk9wZU13SkQ2dzY1djBZMDJ4WlJZNEh5RlAyc2pTN0xwZnN2ak5vbUVBa1h0QlZWY09kWWZxZjB3Y2U4Um1sTU1FeVhqWTlhX3BR?oc=5",
-          "published": "2026-07-17T20:23:05+00:00",
-          "publisher": "judicialwatch.org",
-          "title": "Election System Vulnerabilities Exposed - judicialwatch.org"
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNclAyUko4YWw3dW9zanBCQmx5ZmpuS3NSVlhMTkJZM0FsZWN0Y1hTcFk1ZHZNc1puMmEyY2VjOGNmM0x4VU83bGIyX01HUm91RjN1RnJCRjF5OGJaZzlfeDM3M0VTZXVQb01EUzBWT1hQOWJIbi1uU2Y2NExQcG5ab0VnWE13bUtQMXRyeFZxd3F5UE1iYk1iS2UzM215UlpOaDVKTXdZaWN2NlNWYllQRVNLVEtqNzhwdlE?oc=5",
+          "published": "2026-07-20T11:11:32+00:00",
+          "publisher": "MSN",
+          "title": "Trump revives 2020 election meddling allegations. Here's what followed - MSN"
         }
       ],
-      "hits": 3,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 3
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQV3FKYnZJUkhBaTdxaUVTRWRGQjlpaENDbVBWOGttLXJwNXJ6LWp3NjZUcEZ3UUkxNWQ4MzRYNDNNVVpTRzlzVXZsbUd3QzJUTVJpX1FjSktNcnozMWZnSDBQdHA2dUhvOXY2T1hKVFFjckhDX2UyaEJNZHY3N0lpY1RkV0wwbGRWVHpJazRBWnR4bzBiVUJEanN6YnRrdldoY2dkdVBKTFlVMnBlbjgxVFZfLVhrdi1KT3c?oc=5",
-          "published": "2026-07-17T17:43:00+00:00",
-          "publisher": "USA Today",
-          "title": "Trump revives 2020 election meddling allegations. Here's what followed - USA Today"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZFgtRnNGZDlrbU5rOEJyOXNFeWNKZHlZUmtYUXVGM1NLUWZFZGxUTFJTS2I2TzBFaXNzSmVvQW5TaGFGeTFmQmxJaXU4X0gybkJnMzhtU29hWGJNeUh5cTVCM1l5bmNYdXdtOEJrM2Z2OWY2QUpxZ3RkM0Qza2tVTkE4bVdXVk1GdjY2QThHOA?oc=5",
-          "published": "2026-07-17T20:30:45+00:00",
-          "publisher": "AOL.ca",
-          "title": "Remember When Trump Accused His Republican Opponents of Trying to Rig the 2024 Iowa Caucus? - AOL.ca"
-        }
-      ],
-      "hits": 2,
+      "hits": 1,
       "id": "alternate_elector_scheme",
       "name": "Alternate Elector Scheme Activity",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "hits": 0,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUzRsMkVyWTVyRUZBYVIxNjhSb1NvYUc3TkpZVXpxeVFLNWdwSjlHWVF4bjZab2RYMC0xcktpbHZ3SERJNlBvZ2dPQTBsNkpVVWJNaE5MSUh0NnRFUzVMajdkblAzWFdOYTJoYnJnaFQ1WjM1RjN3dmpXbzMwVmtPVzhiQk9OcmJ0UWNCQlVDcHpKYUU2OHBJNUNqSE8xMUVKNnpCM3BIbXRiX1U?oc=5",
-          "published": "2026-07-17T20:06:26+00:00",
-          "publisher": "Eurasia Review",
-          "title": "From Pluralism To Polarization: India At A Dangerous Crossroads \u2013 OpEd - Eurasia Review"
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNd21McUFlR2NvbXhQU2NSd19xRHZmYUQ3eERsbUZ3RlBFTzM3bmVTOWN4Y1Rkb1V3YUkxYTlFQkx0MDdqUmVubkV6Z3NLNHg4SGg0TGhtQWM4MlpsTGZhcXRiVmd3bWhxakdqbWtoVnhBaHR6NTNWRndKV0pKa050R2J6dGFmdjdEemNhTVhaZkgydE5xLVo5d2lfcUJWdWRJcFpreA?oc=5",
+          "published": "2026-07-20T08:00:50+00:00",
+          "publisher": "Citizen Digital",
+          "title": "East Africans find fragile refuge in Kenya as repression soars - Citizen Digital"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSDE2bjFNR21NMi1rdGp4dkJENEVnMU9KNXhtdTdJRGJZdUNEMV9BaE8xcV9ZNW44MkptS1V3NXBlTVJKNzRqcHZseFNPV1FOVTNHN1owTVA4UlFZSm1DM0M5eVZybVlWZi1pamlHOWxfREhwYmhjMzZUZ2UzT1lZNUxVMnBjSDZWQWptMzVadU1nZ2V5Mnk3NA?oc=5",
-          "published": "2026-07-17T15:41:43+00:00",
-          "publisher": "News-Times",
-          "title": "The Trump administration\u2019s global campaign against \u2018radical left terrorism\u2019 is built on a national security memo without congressional approval - News-Times"
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9aSnlPVS16V3diUW9YMXRuMVNzWE1DTjJ3aUNGZEpydWpwSzFQcUE5aE0wQnVsdnJGdkpaZDNYaFFZNEhjUmxWMHZacjl2RUQtV1hKZzVzWlJqbnlpVkNRdVNrU2VrTU8tWFlQUkJ2QzNtUQ?oc=5",
+          "published": "2026-07-18T18:55:00+00:00",
+          "publisher": "Readers.id",
+          "title": "Cindy Burbank Requests Removal From Nebraska Senate Ballot - Readers.id"
         }
       ],
       "hits": 2,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -229,18 +204,18 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9aSnlPVS16V3diUW9YMXRuMVNzWE1DTjJ3aUNGZEpydWpwSzFQcUE5aE0wQnVsdnJGdkpaZDNYaFFZNEhjUmxWMHZacjl2RUQtV1hKZzVzWlJqbnlpVkNRdVNrU2VrTU8tWFlQUkJ2QzNtUQ?oc=5",
-          "published": "2026-07-18T18:55:00+00:00",
-          "publisher": "Readers.id",
-          "title": "Cindy Burbank Requests Removal From Nebraska Senate Ballot - Readers.id"
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNOUFCSDJwY0loOWR2RG5uMmNVbGpCUGhNeWpYRG5hMkRsSm4zcWZ3d3RkWm9CY0cxZzNFWVlnZVNPdkV5Y2pORlBXeXY4VVBUMVBoYkVucGo0VWswR3dQeElhMVFkQVhMNmVmNHdhRHVveFRScWpLaFRRcnlIRlZFTWJwTmtPX3JJMkZ5RWlUb0JPTEctVXFjRnhZaUMzbDlIMUpFM29wM2RoSjh1VWMxUzd4VlZIUURLQ0o1bU9zY3o4N2dCYTduczZDUHBadjhpd2o1dlA2eGrSAd4BQVVfeXFMTWUtbGZuMGwzYXV1SXhQakpFbDRHZkQ1NWZDUEtLVGZWcUE2a0NCWm12RXQ3Z1A5Y3lCM0o3SnQzRk1UbHFBUFEzZWlwbUM2OGp4UTVxczFCSXNMRnQxNXE1dnJEYTNxNXU4ZldycFRWWFFicjNxRjVxejdzNWRRWHB1b2NwbUx5bXkwSjdNSWFORHhmYXJib0U0VTllLXdlLV9vTHlMYTFkM3lZYWdvRkNaVmFhMTRQSUJUVG9qcHVQUkxDaE9GQWxWUGJzTEhlZXFFM2hhSjlTcjlWdGFB?oc=5",
+          "published": "2026-07-19T14:03:09+00:00",
+          "publisher": "GMA Network",
+          "title": "Matibag to shed light on probe into VP Sara Duterte's 'kill' threat \u2014 spox - GMA Network"
         }
       ],
       "hits": 1,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -249,18 +224,38 @@
     },
     {
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xbTZfVUxGSkREWEpuaFFIcXIyaHhqM1FGRkllWk1fTmJOWTd0RjVNUzFEcGJ0QjlaR1hYVXg5V2hIQWY3YllJNXI0N0gtUQ?oc=5",
-          "published": "2026-07-17T20:26:41+00:00",
-          "publisher": "The New Republic",
-          "title": "Trump Now Wants to Tariff Canada Over the Wildfires - The New Republic"
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTlhuMHBsSkpwNE9QdFJ5NENzR1MxZmZkZkVaOXEyZDFTUWdDWEI5SVBCaUlJOFdncEdyTjdicVU0SW9NV2pYY1h0QnJKQ1Z0bFI5eXBGNXB3cWxHWU1laUhiaDdNd0tnbHloa2VjNUVGUWpraW1wb3FFOFJJY05qaFVHUUlXbDJYaENrNzd3V1d5RzjSAZMBQVVfeXFMTU5YbjBwbEpKcDRPUHRSeTRDc0dTMWZmZGZFWjlxMmQxU1FnQ1hCOUlQQmlJSThXZ3BHck43YnFVNElvTVdqWGNYdEJySkNWdGxSOXlwRjVwd3FsR1lNZWlIYmg3TXdLZ2x5aGtlYzVFRlFqa2ltcG9xRThSSWNOamhVR1FJV2wyWGhDazc3d1dXeUc4?oc=5",
+          "published": "2026-07-19T14:46:51+00:00",
+          "publisher": "Qoo Media",
+          "title": "Congress Has the Power to Act, Yet It Keeps Letting Presidents Take the Lead - Qoo Media"
         }
       ],
       "hits": 1,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV3ppcGFnNmNER2NfLTZHdmVqWU43cVhoMWI2a0xnQW81Ny1wTUh4V3Y4QlgzOWVnMUZBeml6ZkRkRG53YWZRdmh3SE9ZYXZ0c19jZFI3V0UxX3lPNmp5V21IOXRWZ09ZTktkZDRqcHlPaWJkNTRaQ1BJQjVDV245Y1U0YVRBSlJ1?oc=5",
+          "published": "2026-07-20T12:00:00+00:00",
+          "publisher": "revcom.us",
+          "title": "From Prairieland to All of Us: Unite to Defeat Fascist Political Repression - revcom.us"
+        }
+      ],
+      "hits": 1,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
@@ -276,8 +271,8 @@
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -289,20 +284,7 @@
       "name": "Targeted Jurisdiction Stripping",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "hits": 0,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -315,20 +297,7 @@
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.3,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
