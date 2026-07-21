@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-07-20 14:35:00 UTC
-- Score: **14 / 100** (Baseline Institutional Noise)
+- Generated: 2026-07-21 14:26:57 UTC
+- Score: **12 / 100** (Baseline Institutional Noise)
 - Previous day delta: **-2.0**
-- Delta vs 7-day average: **-2.6**
+- Delta vs 7-day average: **-4.3**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -14,11 +14,11 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.65 | 3.58 |
-| Judicial Independence and Rule of Law | 15 | 0.43 | 1.62 |
+| Elections and Transfer of Power | 22 | 0.49 | 2.68 |
+| Judicial Independence and Rule of Law | 15 | 0.33 | 1.25 |
 | Opposition Rights and Political Pluralism | 14 | 0.33 | 1.17 |
-| Executive Constraints and Emergency Powers | 13 | 0.42 | 1.35 |
-| Civil Service and Agency Independence | 10 | 0.87 | 2.17 |
+| Executive Constraints and Emergency Powers | 13 | 0.33 | 1.08 |
+| Civil Service and Agency Independence | 10 | 0.75 | 1.88 |
 | Civil Liberties and Information Environment | 10 | 1.50 | 3.75 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
@@ -28,43 +28,45 @@
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
 | Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 9 | 3 |
-| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 4 | 4 |
-| Alternate Elector Scheme Activity | elections_transfer | 1.30 (Watch) | 1 | 1 |
-| Election Administration Capture | elections_transfer | 1.30 (Watch) | 0 | 0 |
+| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 8 | 8 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 5 | 1 |
 | Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 2 | 2 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
+| Alternate Elector Scheme Activity | elections_transfer | 1.00 (Watch) | 1 | 1 |
 | Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 0.60 (Green) | 0 | 0 |
-| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 0.30 (Green) | 0 | 0 |
-| Martial Law or Military Governance Language | executive_constraints | 0.25 (Green) | 0 | 0 |
+| Election Administration Capture | elections_transfer | 0.95 (Watch) | 0 | 0 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 0.25 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
 ### Press Restrictions or Retaliation
-- [Journalism Pakistan] Pakistan Media Monitor | Edition 4 | July 7-20, 2026 - Journalism Pakistan (2026-07-20) - https://news.google.com/rss/articles/CBMiigFBVV95cUxPSWUtUWVuemp6aGE1SnBYMktEOXVKX2FxZjFXTjBhOFlpY282OFcyZDUtYkJvU2dFaGI0TVVHdzdPNUJwR1N4bWY3RVpqN3JibndsSldQSWItMk1fMGUzVV9rWGlJY1BFMGVYaERVbzVkU3JETVcwX2kyWWFfaHN4M29QNUNmaUhkTVE?oc=5
-- [Journalism Pakistan] Press freedom review: Governments tighten the screws on journalists - Journalism Pakistan (2026-07-19) - https://news.google.com/rss/articles/CBMiowFBVV95cUxNYXRRYWhBckxFSE9aUERiRVBNcjhsaWt6cnB5azZCVEZTMWtzaXZFdDFxaDZGeGpacjRzcWkxVjVoOS1VNG1kZnBMR1VnUWRfbzRuZDRWX1hHa1JaMk5keHVJR3k2eUF1VmtEaUQ5UjZGVlNTUldyMjJiTHo0NG84TlJUOXFLVjJyamFiZjc1eERac3l6SGJRRUlDM0lDLWtPR1hF?oc=5
-- [TheCable] David Umahi: Asset or albatross for the Tinubu administration? - TheCable (2026-07-20) - https://news.google.com/rss/articles/CBMijgFBVV95cUxNbFA0Mzh4TUtQdS1xd1pYTnk4T0xUSkF3NlpBSjNNQTJWa3N4QVdVQUNrd1lRVTJ6aXM2QkVFWTZuZzFmOVg4UmRTRTRTOGxHdXlEVFRqTGNPVnc4VlhWUFdpWXBUMDRGM1N1cExObTNWTXRSY2w1YXJIVENPc1R1ZTBwdm9BbUl4eHVYMDhn?oc=5
+- [Journalism Pakistan] Lawyer says Lahore court grants Rehan Tariq post-arrest bail - Journalism Pakistan (2026-07-21) - https://news.google.com/rss/articles/CBMimwFBVV95cUxNT0ZETC1IeTVMdnJLQ0lWS3poM3RNaU1fY2RUX3MxMHg4UTF2RmFHLUkzelJpMGJLN3FHckV4a1ZEcDZCbmZNby02NmdRTnJaSmJBOTVjM09VTWlteXdnNEJlOHI4cWVCdl9NUzE5NVFzdGV0YmtGUGJmbzZjSmR1d0ZIcVJLUGtreVdHWkdMT3E0X0QtUUFrYnZCcw?oc=5
+- [Journalism Pakistan] Why are media companies laying off journalists? - Journalism Pakistan (2026-07-21) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxOV0ItMDlkbTM5ekdtdE5NSTFGRkxmVlg3TXB4M2FadmVsU2kxUlNzTm1rY2lJamRPV1kzUlVMTnRIQXV4Q2JlUTVma1Q0Vm9RQy1FcFh4XzV5V0FkNHlHTXVpZWZfRGptQTBwTDN5VEVhekdBbDJqc0loLU1TQ1dGUWxySkxzQ3d4?oc=5
+- [dailyasianage.com] Violated Legal Rights, False Cases, FDI Nosedive Pollute Governance - dailyasianage.com (2026-07-19) - https://news.google.com/rss/articles/CBMipgFBVV95cUxNQXE2SHBXSXRxVEZFWTQ4dmh2TVVtOHpFenJnMjVnWGs5RENJM3dpSFduSVAzd1Nsb3BsaUNCbE5DSG04bjlkQ3U0SlBBSkxvNTRma3JOb19fVFZfVjdKOXozWTE2OUNYNDhFME82TzdMQ2NaWEp3bk5wZ3JYR0VuYmxlUUdVTkNMV19XVDhZUTBtSzRFaFhneTJlcHl4M2txdkdiVXhR?oc=5
 
 ### Independent Agency Capture
-- [Financial Times] The Federal Reserve’s independence is still under threat, warns Rebecca Slaughter - Financial Times (2026-07-20) - https://news.google.com/rss/articles/CBMihAFBVV95cUxOejE2a1c3VmxUa1JnenRGVHQ0OG1XRlAtZjBjWjRVZ1JhSVNiYWtRVXB0c0VTbWdlLUszbjdhQzZDY0VMWU1FWWRLblpWdHJsVGxkaUxiX01KcmRDcjdnVS05UjRVS2hFRDhTSTkxd19tbHRiZ1pCS2NEUkk1cDhVbWhSOWU?oc=5
-- [The Regulatory Review] Article II Removal Power and the Roberts Court’s Reckless Hubris - The Regulatory Review (2026-07-20) - https://news.google.com/rss/articles/CBMirwFBVV95cUxOamlmTXlJYmFvWHpxckZQRjUxemJTMlE1MnpsdnlPTkk0ZGpGbi01TF9pZVBCdjl2M2ZvTGNYVHd2LXdUTGtlNEQ4d3Z2ck9PVnUtYUJ4Q2tTQ3d5TGdjdW80SEdjMXBUUUhZUk9uZ1hvMTU4amQwbl9SYi16VnhCM09mM2pyY3FJTTdVcXBvRGZJU1ZKVFdldmhJbjMyZ25yQjZFVV8yWS1leXIzRzZN?oc=5
-- [American Banker] What comes next for the Fed's regulatory independence? - American Banker (2026-07-20) - https://news.google.com/rss/articles/CBMikgFBVV95cUxQU25Oekd5VmpNX0huSjNvQm5odUFhS3RfQVF4MmZsZ1ZGSXN2VjZ1Rl90NWxPT19RUWtvRTd6eFpFakFDVlhpNTVEM3U2aVVTejVSR1l6d2lpd3FFdFY3d1FoU01PMXd2clNtSGIydFhfYnJsSjhfT0JDSjhmZkJZeGJKU3RRMFN0ZFNvUS1GYTU3dw?oc=5
+- [Brookings] Fed independence after Trump v. Cook - Brookings (2026-07-21) - https://news.google.com/rss/articles/CBMie0FVX3lxTE05cXdxSlAtY2VWWjg4djBWbG80UDF1QnFWUHhMaG9LMWwxRzlCektjdi15YWx3amdfdk15QlFvRUJEUmFhYktFOGhvdThGU3BEZ25ON2N2RVE0TTZzVk1uY2RfMFVfNWNOWm5iemNwMkpIdG9HbHVOX1Z2UQ?oc=5
+- [The Hill] Handing agency oversight to Trump is a fatal blow to public trust - The Hill (2026-07-21) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUGFPbHgxVzE4SjJRR29nVFJHVmZzdzZ1MWJCc3VnREFjN2RpMW4zU2REZ2RQd3V4QVZqOGFDUEhlcDhTQlFCZEtxN1lsYlpPbTVxVkZUT01LcmFtSU5hY2k1OEY1YlA2eERxLU1zOWZackNvNDA1enhmdF9KZjFES1ZUUmV4M1h50gGOAUFVX3lxTE1EOThRaTFyTzMtQ1hDeXhGb05sQkpkeU4xMGdKbU80Tm9Jc2w1YTRCbEI5bXVGN2Q1WVF1QzVETEdFWXljV1V4NnhJZHZtMm5uUVdYS3JOUkM1VlR0NHZBQl9wWkhQOG5Ia2ZudllwdWdiZzQ4ZjhNQ0JVUFpFakJjWnZjWlRBSDNEaWFVM3c?oc=5
+- [Epstein Becker Green] “The House Is White”: Justice Gorsuch’s Concurrence in Trump v. Slaughter and the Coming Reckoning for Delegated Power - Epstein Becker Green (2026-07-20) - https://news.google.com/rss/articles/CBMi7wFBVV95cUxQS09hVUw0R2d3YnlmR1ZUR05RQnFoSHRJQW13dHBiX2RQbHdhOUJmVW12TWRVWGVJUThiUUxCa21PZFpIZDRNcEZ2cWxjbWJseFdoYVBIRmJGNVhiMkdJWThVaUwzWEhoM0ZBcDJTc0s4NmtiR2xxX1hQcHFJQWVuU2d4OGlHcUtaMGJ0a1FtZHlGOXoyTHg3TklkNDd0M3A5YTlBSFNMVklsbkhxWHE5cEpDdkUyMDQyN2VTTXFkQ1dsSnNJZktHb3V0bzN1RzM0QnU3c1JpNVdEYmNHMllsdV9SalhZek9YMW9xZWF4aw?oc=5
 
-### Alternate Elector Scheme Activity
-- [MSN] Trump revives 2020 election meddling allegations. Here's what followed - MSN (2026-07-20) - https://news.google.com/rss/articles/CBMiugFBVV95cUxNclAyUko4YWw3dW9zanBCQmx5ZmpuS3NSVlhMTkJZM0FsZWN0Y1hTcFk1ZHZNc1puMmEyY2VjOGNmM0x4VU83bGIyX01HUm91RjN1RnJCRjF5OGJaZzlfeDM3M0VTZXVQb01EUzBWT1hQOWJIbi1uU2Y2NExQcG5ab0VnWE13bUtQMXRyeFZxd3F5UE1iYk1iS2UzM215UlpOaDVKTXdZaWN2NlNWYllQRVNLVEtqNzhwdlE?oc=5
+### Judge Intimidation Campaign
+- [facebook.com] SIESTA TIME? 💤 Snoring could be heard during the livestream of the eighth day of Vice President Sara Duterte’s impeachment trial, while a video of her making threats against the Marcos family was shown on screen. Catch moments like this you might have m - facebook.com (2026-07-21) - https://news.google.com/rss/articles/CBMi2wFBVV95cUxPS3dPQjNlZG9sQkkyUFE0bDVNc0pNeWhmOWpwZnY4WUdTSS1lME80ZGJEbWlTU0tYNXd1b194VW9Hc1J5T3JDZFk5bUx2RGxRVUJETHpXMnNQMDdNV1pRUDU1SjdtcGR6eWJFWTlyblh2RkwwSlpYM2h6Rl83WDFHX3NlSkhfb0RnNVNNTHJPcDE2SUFSc3U1NVNFcks1cWpIcHNiMjhhU3lpcFV0eW56NkxwZnVkTExwMzBjSjJnUHdsck92OFVURzdXRmN1OG9qUVE2MVZBVmJ4eEU?oc=5
+- [facebook.com] LOOK: NBI Director Melvin Matibag arrives at the Senate ahead of the impeachment trial of Vice President Sara Duterte on Tuesday, July 21, 2026. He is the final witness of the prosecution for the "grave threats" charge against the vice president. | via Maria Ta - facebook.com (2026-07-21) - https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaHVhRXRCN29yYWFyUUU1SmluYWdTd0o4T1JReS10TURHbXdmWUxPQzFFS21hR2ZKSzhrbmp3OWlhc3BLN2NpbFZWNWxPUmQ0WDB5WmpELTdKTDlFU2RUM09CQVF0ZWVMV2ttTjBDcTYydjB6dEZyMU1zN2I5N2ZJYTFyQVF1Sy1CeWtPV3YwSklxSEtyNF9ab0dqSWpXRkppUEZ3ZDExLXEwOWt0VHNJU05VVFR6RnRfWlhYeFJNN1V6NlozNDJQekZUZWtzakRqU043QXl2NA?oc=5
+- [facebook.com] UPDATE: Presiding Officer Francis Escudero allows the testimony of NBI Director Melvin Matibag as a witness for the fourth article of impeachment (grave threats), with the defense registering its continuing objection, saying that Matibag lacks personal knowled - facebook.com (2026-07-21) - https://news.google.com/rss/articles/CBMi1wFBVV95cUxORkc1ZmtFVnZOTUZUcHNuRkJRd0p6X3NMd0xXOV9Bb0JtVzZNVVlYQXZPMlBwdFdodDhFamZNTThWblczRC1EV1NHOEtQczFjUXUyd1Q4MW9rOVNUdnN3T19Xams2M01MYWVkM0NUYlNpendXMktfek5zS0dXSF9LcWRjUXltaFdoaVJVaFo0RTNuXzR0eE92dTlYN3FHRzJwS1QtVTNWamI4VEZCV1NTVXM1X0RKTFllSGNtSkptenFaYUx6bFJ2dEpFZTFDMDVINmU5emt6VQ?oc=5
 
-### Election Administration Capture
-- No fresh evidence links in the current lookback window.
 ### Opposition Ballot Exclusion
+- [The Moscow Times] Yabloko Candidates Disqualified in St. Petersburg Elections Over Missing Paperwork - The Moscow Times (2026-07-21) - https://news.google.com/rss/articles/CBMiygFBVV95cUxQUlRIclJBOVpqWUFjZHZRdlhJZWR5YWg5NHNHdmRPLUdweXJSWHYyT0x1bHV1NDY0Q1YzNWMwRXRuUEg1WUEwY0NxM2R1V1dqWFdXeGQ5eE9kMmdERmZlOEZYeUkxaGFBa09sMmtIcnZtMVJQX180SDNYZXJiclVIQkVZOEs1TU9VSloyeGJnNkR6WkI0M01fZUNpVGxwVk9QM0lYNjFKYzJnUlNUZWxHNXR1QU1URjRiM25BaHRLYkU0YlpOd3JmWW9n?oc=5
 - [Citizen Digital] East Africans find fragile refuge in Kenya as repression soars - Citizen Digital (2026-07-20) - https://news.google.com/rss/articles/CBMipAFBVV95cUxNd21McUFlR2NvbXhQU2NSd19xRHZmYUQ3eERsbUZ3RlBFTzM3bmVTOWN4Y1Rkb1V3YUkxYTlFQkx0MDdqUmVubkV6Z3NLNHg4SGg0TGhtQWM4MlpsTGZhcXRiVmd3bWhxakdqbWtoVnhBaHR6NTNWRndKV0pKa050R2J6dGFmdjdEemNhTVhaZkgydE5xLVo5d2lfcUJWdWRJcFpreA?oc=5
-- [Readers.id] Cindy Burbank Requests Removal From Nebraska Senate Ballot - Readers.id (2026-07-18) - https://news.google.com/rss/articles/CBMickFVX3lxTE9aSnlPVS16V3diUW9YMXRuMVNzWE1DTjJ3aUNGZEpydWpwSzFQcUE5aE0wQnVsdnJGdkpaZDNYaFFZNEhjUmxWMHZacjl2RUQtV1hKZzVzWlJqbnlpVkNRdVNrU2VrTU8tWFlQUkJ2QzNtUQ?oc=5
+
+### Political Speech Criminalization or Surveillance
+- [Talking Points Memo] The Trump Admin’s Global Campaign Against ‘Radical Left Terrorism’ Is Built on a National Security Memo Without Congressional Approval - Talking Points Memo (2026-07-20) - https://news.google.com/rss/articles/CBMi-gFBVV95cUxPM1YwQ1FfUkhOcUNpY3dVUWtGY3ExY2dyTTdINzM1VFdjWU81MHk5T1pUZWVXVXJqODMwczlIa0ZXVm1QNEl5N0QyV1kwQ1hkRHVzNFRtWHBhLTlkRlFGRnRiRWhJNDZBQ2dWTS1saTdaQ0dyTWc1M1p4ZkRfdmNRSnJZdUIxa1pOLWRjNEg4d2RZeWtxWHBjS01UT0FUOG5semJPSW5xcGwtNERac2tIX2ZtYmtRTV9BdFM3RDI1QjVlWWJiSy1MU2V3TUl2eXdEQWVJVUF0S25uOS1ONDlDS2JoLTRLQW5CdWdCbWpyMkQ1cm5Wa3AwazNn?oc=5
+- [revcom.us] From Prairieland to All of Us: Unite to Defeat Fascist Political Repression - revcom.us (2026-07-20) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV3ppcGFnNmNER2NfLTZHdmVqWU43cVhoMWI2a0xnQW81Ny1wTUh4V3Y4QlgzOWVnMUZBeml6ZkRkRG53YWZRdmh3SE9ZYXZ0c19jZFI3V0UxX3lPNmp5V21IOXRWZ09ZTktkZDRqcHlPaWJkNTRaQ1BJQjVDV245Y1U0YVRBSlJ1?oc=5
 
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Confidence: **Medium**
+- Confidence: **High**
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.
