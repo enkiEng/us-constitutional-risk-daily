@@ -1,12 +1,12 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-07-21 14:26:57 UTC
-- Score: **12 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-2.0**
-- Delta vs 7-day average: **-4.3**
+- Generated: 2026-07-22 14:28:01 UTC
+- Score: **16 / 100** (Elevated Strain)
+- Previous day delta: **+4.0**
+- Delta vs 7-day average: **-0.2**
 
 ## Interpretation
-- Band meaning: Normal democratic conflict and routine legal contestation.
+- Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
 - Signal scale: 0=green, 1=watch, 2=yellow, 3=orange, 4=red.
 - Formula: domain points = domain weight * (average signal severity / 4); total score = sum of domain points.
 
@@ -14,12 +14,12 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.49 | 2.68 |
-| Judicial Independence and Rule of Law | 15 | 0.33 | 1.25 |
-| Opposition Rights and Political Pluralism | 14 | 0.33 | 1.17 |
-| Executive Constraints and Emergency Powers | 13 | 0.33 | 1.08 |
-| Civil Service and Agency Independence | 10 | 0.75 | 1.88 |
-| Civil Liberties and Information Environment | 10 | 1.50 | 3.75 |
+| Elections and Transfer of Power | 22 | 0.31 | 1.72 |
+| Judicial Independence and Rule of Law | 15 | 0.67 | 2.50 |
+| Opposition Rights and Political Pluralism | 14 | 0.67 | 2.33 |
+| Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
+| Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
+| Civil Liberties and Information Environment | 10 | 1.32 | 3.31 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -27,40 +27,43 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 9 | 3 |
-| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 8 | 8 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 5 | 1 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 2 | 2 |
-| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 2 | 2 |
-| Alternate Elector Scheme Activity | elections_transfer | 1.00 (Watch) | 1 | 1 |
-| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Election Administration Capture | elections_transfer | 0.95 (Watch) | 0 | 0 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 0.25 (Green) | 0 | 0 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 2.00 (Yellow) | 8 | 3 |
+| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | 4 | 4 |
+| Martial Law or Military Governance Language | executive_constraints | 2.00 (Yellow) | 4 | 2 |
+| Opposition Ballot Exclusion | opposition_pluralism | 2.00 (Yellow) | 3 | 3 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.65 (Watch) | 10 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 2 | 2 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 1.00 (Watch) | 1 | 1 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.00 (Watch) | 1 | 1 |
+| Alternate Elector Scheme Activity | elections_transfer | 0.65 (Green) | 0 | 0 |
+| Election Administration Capture | elections_transfer | 0.60 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
-### Press Restrictions or Retaliation
-- [Journalism Pakistan] Lawyer says Lahore court grants Rehan Tariq post-arrest bail - Journalism Pakistan (2026-07-21) - https://news.google.com/rss/articles/CBMimwFBVV95cUxNT0ZETC1IeTVMdnJLQ0lWS3poM3RNaU1fY2RUX3MxMHg4UTF2RmFHLUkzelJpMGJLN3FHckV4a1ZEcDZCbmZNby02NmdRTnJaSmJBOTVjM09VTWlteXdnNEJlOHI4cWVCdl9NUzE5NVFzdGV0YmtGUGJmbzZjSmR1d0ZIcVJLUGtreVdHWkdMT3E0X0QtUUFrYnZCcw?oc=5
-- [Journalism Pakistan] Why are media companies laying off journalists? - Journalism Pakistan (2026-07-21) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxOV0ItMDlkbTM5ekdtdE5NSTFGRkxmVlg3TXB4M2FadmVsU2kxUlNzTm1rY2lJamRPV1kzUlVMTnRIQXV4Q2JlUTVma1Q0Vm9RQy1FcFh4XzV5V0FkNHlHTXVpZWZfRGptQTBwTDN5VEVhekdBbDJqc0loLU1TQ1dGUWxySkxzQ3d4?oc=5
-- [dailyasianage.com] Violated Legal Rights, False Cases, FDI Nosedive Pollute Governance - dailyasianage.com (2026-07-19) - https://news.google.com/rss/articles/CBMipgFBVV95cUxNQXE2SHBXSXRxVEZFWTQ4dmh2TVVtOHpFenJnMjVnWGs5RENJM3dpSFduSVAzd1Nsb3BsaUNCbE5DSG04bjlkQ3U0SlBBSkxvNTRma3JOb19fVFZfVjdKOXozWTE2OUNYNDhFME82TzdMQ2NaWEp3bk5wZ3JYR0VuYmxlUUdVTkNMV19XVDhZUTBtSzRFaFhneTJlcHl4M2txdkdiVXhR?oc=5
+### Judge Intimidation Campaign
+- [facebook.com] Prosecution's final witness, NBI Director Melvin Matibag is allowed to leave and Senate impeachment court presiding officer Francis Escudero thanks him for his cooperation. #VPOnTrial | via Victoria Tulad, ABS-CBN News - facebook.com (2026-07-22) - https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN2J6c1FzOGpySkttT1JVSll1THpiU0c2V1RHdWp4TnNEbnE2VDdQeDFlV0tmUmdkQ2sxVVlZMUkyMDNTYWVrOFJkNllYOUpYQVEtVnhIbzV4WDJNdkQ1WTkzVXlJM0pySDBIUDd5dkVGSnFQSHpSYUF0SHpUT2dBZmE0Ukt0S1BfOUtlU2ZtY0hxZnpQamxWOWUtclZTM0xReGc1Qk9rVFc4dG5lUXd3SFF3cTlCUGJpY3VnNFBkSXVOODZTeWpsX2dubEtqdkxUMW5SUEVlbw?oc=5
+- [Philstar Life] [OPINION] Duterte impeachment trial Day 9: Who is afraid of the elephant in the room? - Philstar Life (2026-07-22) - https://news.google.com/rss/articles/CBMijwFBVV95cUxPVW5UTXhkdzJheXJuVGNLblVMamZBaktMSXRycWtnbVJIUUlrbU95bXRWMXZXbmI2N3p4LVlmZ1NUWUM0RXU0RC05eUV2VEhqWDBVRTJuSklnQy1yUmp4b3hCZDVFM3NMOG5zbExydi1QSWloS05iMlQtWmtlc2N5amtQYjNFWlpjQjRSVUlMdw?oc=5
+- [Philstar.com] Sara Duterte trial recap, July 22: Hitman shortlist, 'iron fist' vs 'kid gloves' - Philstar.com (2026-07-22) - https://news.google.com/rss/articles/CBMiywFBVV95cUxOTU9xSWRtRlRteDhjRzFJZnZ4UkRtcFhHb2pTdEtGV29WOFR3cDdDTktTeGlKNVBUcEUwcUJ1ajVoSTdhT1F6dFJQTThza0N6VkFMajFUOHNDaUR6UEV1N3FscVhOZFBFS2g0NkVmRnUzU0x4UUxPNW1pal9DdlMxOWZwZWpTQzFSTEtNb1J1Nm9sSFU0czBxQUc3bmJFRlQ1RDhtNFFEWUllbUR2Umg5WHFCLUFqWU5wTjVmeFhIdUFPbzhUSm9vRHFwSdIBywFBVV95cUxOTU9xSWRtRlRteDhjRzFJZnZ4UkRtcFhHb2pTdEtGV29WOFR3cDdDTktTeGlKNVBUcEUwcUJ1ajVoSTdhT1F6dFJQTThza0N6VkFMajFUOHNDaUR6UEV1N3FscVhOZFBFS2g0NkVmRnUzU0x4UUxPNW1pal9DdlMxOWZwZWpTQzFSTEtNb1J1Nm9sSFU0czBxQUc3bmJFRlQ1RDhtNFFEWUllbUR2Umg5WHFCLUFqWU5wTjVmeFhIdUFPbzhUSm9vRHFwSQ?oc=5
 
 ### Independent Agency Capture
+- [VitalLaw.com] FEDERAL RESERVE SYSTEM—Brookings research finds Trump v. Cook ‘largely affirms’ legal basis for Fed’s independence - VitalLaw.com (2026-07-21) - https://news.google.com/rss/articles/CBMiiwJBVV95cUxPeFdtQUw2THd2WlE5RUNTam5MRUtxcHlmRjBIaXhNam1BVjI2LXZVcjhUN3gwZGttN01xaVNHTDNvMG5hWC1ZOEE1b0hTMl80ME5KLXI4djBKWDVqREZrcTFPMUt5VEFLMm5Mbzk5Q3I3Zm5BTXdxNVdNbWpKdXBfM3hRY2hDcTgzbHduZ0ZaRldsWlBzOWJFVUxHdFNqdDIydXpiTzljLTdvRGR1aGFHRjk4MG5XcTVhcEczam5MbW42VzlrVW9xWkxXVVpycVBOR2VucWt6Y0NDYTloX1p4RG1vYkRVZTB1ZTduSjZOVnV4cS02MkREVHBIY3NGWW1WVjAxckZub2pObFk?oc=5
 - [Brookings] Fed independence after Trump v. Cook - Brookings (2026-07-21) - https://news.google.com/rss/articles/CBMie0FVX3lxTE05cXdxSlAtY2VWWjg4djBWbG80UDF1QnFWUHhMaG9LMWwxRzlCektjdi15YWx3amdfdk15QlFvRUJEUmFhYktFOGhvdThGU3BEZ25ON2N2RVE0TTZzVk1uY2RfMFVfNWNOWm5iemNwMkpIdG9HbHVOX1Z2UQ?oc=5
-- [The Hill] Handing agency oversight to Trump is a fatal blow to public trust - The Hill (2026-07-21) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUGFPbHgxVzE4SjJRR29nVFJHVmZzdzZ1MWJCc3VnREFjN2RpMW4zU2REZ2RQd3V4QVZqOGFDUEhlcDhTQlFCZEtxN1lsYlpPbTVxVkZUT01LcmFtSU5hY2k1OEY1YlA2eERxLU1zOWZackNvNDA1enhmdF9KZjFES1ZUUmV4M1h50gGOAUFVX3lxTE1EOThRaTFyTzMtQ1hDeXhGb05sQkpkeU4xMGdKbU80Tm9Jc2w1YTRCbEI5bXVGN2Q1WVF1QzVETEdFWXljV1V4NnhJZHZtMm5uUVdYS3JOUkM1VlR0NHZBQl9wWkhQOG5Ia2ZudllwdWdiZzQ4ZjhNQ0JVUFpFakJjWnZjWlRBSDNEaWFVM3c?oc=5
 - [Epstein Becker Green] “The House Is White”: Justice Gorsuch’s Concurrence in Trump v. Slaughter and the Coming Reckoning for Delegated Power - Epstein Becker Green (2026-07-20) - https://news.google.com/rss/articles/CBMi7wFBVV95cUxQS09hVUw0R2d3YnlmR1ZUR05RQnFoSHRJQW13dHBiX2RQbHdhOUJmVW12TWRVWGVJUThiUUxCa21PZFpIZDRNcEZ2cWxjbWJseFdoYVBIRmJGNVhiMkdJWThVaUwzWEhoM0ZBcDJTc0s4NmtiR2xxX1hQcHFJQWVuU2d4OGlHcUtaMGJ0a1FtZHlGOXoyTHg3TklkNDd0M3A5YTlBSFNMVklsbkhxWHE5cEpDdkUyMDQyN2VTTXFkQ1dsSnNJZktHb3V0bzN1RzM0QnU3c1JpNVdEYmNHMllsdV9SalhZek9YMW9xZWF4aw?oc=5
 
-### Judge Intimidation Campaign
-- [facebook.com] SIESTA TIME? 💤 Snoring could be heard during the livestream of the eighth day of Vice President Sara Duterte’s impeachment trial, while a video of her making threats against the Marcos family was shown on screen. Catch moments like this you might have m - facebook.com (2026-07-21) - https://news.google.com/rss/articles/CBMi2wFBVV95cUxPS3dPQjNlZG9sQkkyUFE0bDVNc0pNeWhmOWpwZnY4WUdTSS1lME80ZGJEbWlTU0tYNXd1b194VW9Hc1J5T3JDZFk5bUx2RGxRVUJETHpXMnNQMDdNV1pRUDU1SjdtcGR6eWJFWTlyblh2RkwwSlpYM2h6Rl83WDFHX3NlSkhfb0RnNVNNTHJPcDE2SUFSc3U1NVNFcks1cWpIcHNiMjhhU3lpcFV0eW56NkxwZnVkTExwMzBjSjJnUHdsck92OFVURzdXRmN1OG9qUVE2MVZBVmJ4eEU?oc=5
-- [facebook.com] LOOK: NBI Director Melvin Matibag arrives at the Senate ahead of the impeachment trial of Vice President Sara Duterte on Tuesday, July 21, 2026. He is the final witness of the prosecution for the "grave threats" charge against the vice president. | via Maria Ta - facebook.com (2026-07-21) - https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaHVhRXRCN29yYWFyUUU1SmluYWdTd0o4T1JReS10TURHbXdmWUxPQzFFS21hR2ZKSzhrbmp3OWlhc3BLN2NpbFZWNWxPUmQ0WDB5WmpELTdKTDlFU2RUM09CQVF0ZWVMV2ttTjBDcTYydjB6dEZyMU1zN2I5N2ZJYTFyQVF1Sy1CeWtPV3YwSklxSEtyNF9ab0dqSWpXRkppUEZ3ZDExLXEwOWt0VHNJU05VVFR6RnRfWlhYeFJNN1V6NlozNDJQekZUZWtzakRqU043QXl2NA?oc=5
-- [facebook.com] UPDATE: Presiding Officer Francis Escudero allows the testimony of NBI Director Melvin Matibag as a witness for the fourth article of impeachment (grave threats), with the defense registering its continuing objection, saying that Matibag lacks personal knowled - facebook.com (2026-07-21) - https://news.google.com/rss/articles/CBMi1wFBVV95cUxORkc1ZmtFVnZOTUZUcHNuRkJRd0p6X3NMd0xXOV9Bb0JtVzZNVVlYQXZPMlBwdFdodDhFamZNTThWblczRC1EV1NHOEtQczFjUXUyd1Q4MW9rOVNUdnN3T19Xams2M01MYWVkM0NUYlNpendXMktfek5zS0dXSF9LcWRjUXltaFdoaVJVaFo0RTNuXzR0eE92dTlYN3FHRzJwS1QtVTNWamI4VEZCV1NTVXM1X0RKTFllSGNtSkptenFaYUx6bFJ2dEpFZTFDMDVINmU5emt6VQ?oc=5
+### Martial Law or Military Governance Language
+- [The Washington Post] Appeals court upholds Peter Navarro’s convictions for defying Jan. 6 subpoena - The Washington Post (2026-07-22) - https://news.google.com/rss/articles/CBMizAFBVV95cUxOLXpUb3NVVlZ3ZFQ3XzU3M3NwTFdaRE1FYjh2VW5sY014SzhDajBSakRsLV9zUml3VWxFazhncUdyTFltVjhWNHFGVGlfTmpaakhSUEZIVVh0NC1BRHFuYWNpc2V0MXNfdHhwTkFnZUpJdzFNNG1TMVlORC1fQ2hhaVdjV3h5eHlqUWd2MEhvS1ZIRjJQTnJRWXJyLU5JUWZhbUk0SjNIU3BzREVkZWV1em9QTFNpdlRfS1ZudFlrbnZhZHczc1kyc0NUdXY?oc=5
+- [Судово-юридична газета] Buying an Apartment in 2026, Documents and Mistakes: What Risks Await the Buyer - Судово-юридична газета (2026-07-22) - https://news.google.com/rss/articles/CBMixgFBVV95cUxOMkhsWE1qakV0dEQyNFZCd3BQYWphY3JzV3BvTFZ6cFdlLS1RMGxBcmVuZkNHUEVrak9NeERyRVlwb0hSZmg2MDNvUUU3ZGFzd1ZXdnZkXzh5Wmx6NEdUSk9GYlZTUXFMS3E3dW8yOGlkbzllS2I0WHdZbFZuUC1pcUk0UEcyX0Y4TThPbTlabVJic2pZbVNZRWU5emo4UlFJVjVTZDVJWnZyT0hySHY0UVhvZll5cU1JREM4cW5mMU9oV0ttX0E?oc=5
+- [Судово-юридична газета] Faith Does Not Allow Fighting: Court Sentences Serviceman Who Refused to Follow Order - Судово-юридична газета (2026-07-21) - https://news.google.com/rss/articles/CBMi3wFBVV95cUxQN1V1SG5tcEkyZUEyQ1I2d05DVnltNkxMTzZWaDYyV3VEN2xkYkdnYk50SGluOHJpVFFSeGtrcXFpbmQ2bHNKS09ldzNja1M3TlgyVGxvTmFlenFNcUJ1SDRONmNZYUhlQVNEaDNsYXB1QlYzOE9GTkRiRUlPYVF4ampLNXdjMnpkWWZ0NldwUkUzREVicGhEWG93YWJ5YllwNXpvU0ZCZi01VGFjdDFsZDA4SWltVXNwZ0kyWVRpSFNpeFdQRTRyVzRmUDQtTVBoc1lwbkR1WU5RbUdmQWVr?oc=5
 
 ### Opposition Ballot Exclusion
 - [The Moscow Times] Yabloko Candidates Disqualified in St. Petersburg Elections Over Missing Paperwork - The Moscow Times (2026-07-21) - https://news.google.com/rss/articles/CBMiygFBVV95cUxQUlRIclJBOVpqWUFjZHZRdlhJZWR5YWg5NHNHdmRPLUdweXJSWHYyT0x1bHV1NDY0Q1YzNWMwRXRuUEg1WUEwY0NxM2R1V1dqWFdXeGQ5eE9kMmdERmZlOEZYeUkxaGFBa09sMmtIcnZtMVJQX180SDNYZXJiclVIQkVZOEs1TU9VSloyeGJnNkR6WkI0M01fZUNpVGxwVk9QM0lYNjFKYzJnUlNUZWxHNXR1QU1URjRiM25BaHRLYkU0YlpOd3JmWW9n?oc=5
-- [Citizen Digital] East Africans find fragile refuge in Kenya as repression soars - Citizen Digital (2026-07-20) - https://news.google.com/rss/articles/CBMipAFBVV95cUxNd21McUFlR2NvbXhQU2NSd19xRHZmYUQ3eERsbUZ3RlBFTzM3bmVTOWN4Y1Rkb1V3YUkxYTlFQkx0MDdqUmVubkV6Z3NLNHg4SGg0TGhtQWM4MlpsTGZhcXRiVmd3bWhxakdqbWtoVnhBaHR6NTNWRndKV0pKa050R2J6dGFmdjdEemNhTVhaZkgydE5xLVo5d2lfcUJWdWRJcFpreA?oc=5
+- [HowStuffWorks] Nicaragua's President Daniel Ortega Cancels Future Elections - HowStuffWorks (2026-07-21) - https://news.google.com/rss/articles/CBMifkFVX3lxTE9FWXRLY2tjRHVNeXZCUUtUSXhlWWFGa1luS0JweFdrTFA3cURMOEhNNUZZYnhiUjVlZEZGUnFIY01KRVBPVGJid3VmMnhDcS1CTWFkZXRaaG9qdHo4X1JrVGNGNmVTNmNnaC1KUWo1elIwRFJraS1RMzFwbDZRUQ?oc=5
+- [Prothom Alo English] What will happen to expelled Jamaat leader Gazi Nazrul's parliamentary seat? - Prothom Alo English (2026-07-22) - https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xUHltS3gxaV9BT3ZqU2ZKcFNQNVdIUVBFRzJxYnloWTY3VHBScDlVWC1HZF80T2V1SWQ2VVNOd0s0X1FveWJwM3NsakZSdjdXT0FwZ0pqekM3RzBZVFhSeWlKLTkxVDTSAXRBVV95cUxOV2FoMFc1MnNSS1dvNGxxTjBBTnUxeWFZOUw4VkRmUG5vSnlERkRHYVhDZHNGczFjNlcwNXVqRkluZDA1VnBWVnI5ZDhoY2tHLUthYWpNVEZudGxFeGtQRGJIV3BLeG5nUEEtdWhDT0YwaTVzbg?oc=5
 
-### Political Speech Criminalization or Surveillance
-- [Talking Points Memo] The Trump Admin’s Global Campaign Against ‘Radical Left Terrorism’ Is Built on a National Security Memo Without Congressional Approval - Talking Points Memo (2026-07-20) - https://news.google.com/rss/articles/CBMi-gFBVV95cUxPM1YwQ1FfUkhOcUNpY3dVUWtGY3ExY2dyTTdINzM1VFdjWU81MHk5T1pUZWVXVXJqODMwczlIa0ZXVm1QNEl5N0QyV1kwQ1hkRHVzNFRtWHBhLTlkRlFGRnRiRWhJNDZBQ2dWTS1saTdaQ0dyTWc1M1p4ZkRfdmNRSnJZdUIxa1pOLWRjNEg4d2RZeWtxWHBjS01UT0FUOG5semJPSW5xcGwtNERac2tIX2ZtYmtRTV9BdFM3RDI1QjVlWWJiSy1MU2V3TUl2eXdEQWVJVUF0S25uOS1ONDlDS2JoLTRLQW5CdWdCbWpyMkQ1cm5Wa3AwazNn?oc=5
-- [revcom.us] From Prairieland to All of Us: Unite to Defeat Fascist Political Repression - revcom.us (2026-07-20) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV3ppcGFnNmNER2NfLTZHdmVqWU43cVhoMWI2a0xnQW81Ny1wTUh4V3Y4QlgzOWVnMUZBeml6ZkRkRG53YWZRdmh3SE9ZYXZ0c19jZFI3V0UxX3lPNmp5V21IOXRWZ09ZTktkZDRqcHlPaWJkNTRaQ1BJQjVDV245Y1U0YVRBSlJ1?oc=5
+### Press Restrictions or Retaliation
+- [Journalism Pakistan] Italian sports journalist found dead; media groups seek full investigation - Journalism Pakistan (2026-07-21) - https://news.google.com/rss/articles/CBMirgFBVV95cUxNc1p2dXB3WE9lQkZHWjM2UlpXZFNNWmVjNGVYamdncmg0dDNOdmlDT2Z0THdrQlhCejV0eFRvYnhPYzFHNzc3Sms1TjVMcFd0dmx2RUxWTWFIMmJ1NkhtYlNmTlRfS290cEcxSDNtV1dKYXd3ZlhsS3laMTZCeklvaXJhQUNfcnpTOTF3aVZTMFRQcjU2eDhVZl80ZFNpQlJQMUVOSkxPS3ZCTmNFbkE?oc=5
+- [Journalism Pakistan] Sehar Kamran walks out after clash with Tarar - Journalism Pakistan (2026-07-22) - https://news.google.com/rss/articles/CBMihwFBVV95cUxQZnpVQ05QeWpRYUN5MjhkZ3UxeXBmLVFnYmlYODcxUmR4SzFoMDdyQWFfcDVaZTcyckg1dzZmbWtEVHFlUmd1M0kwMmxvOUZOeHFXeDVpZXZuUVJYM0hIbWplTDJERmhLaVBJNzZ1UWhiYkEtOEw3eHhOTDQyNVMzVmViajE4U1U?oc=5
+- [Journalism Pakistan] Cambodian journalist jailed over border conflict reporting - Journalism Pakistan (2026-07-21) - https://news.google.com/rss/articles/CBMimAFBVV95cUxOWkotV2NaV0tpcXZSaXNzazZ4bHhCcFFEYWVwLU9ZV1B2WGZfV05HTWFmT3dZeUhYdVFVZlFlNFdpRzNBNEJWd3JMd1lMVEZwRG5IWVRZRzJaOVVoRFJMamtPYzFpS0dYU01tdXNsdnFNRWh5by1FdWZ4WDUyMmpkdXNvZmRvb3VDdGc2OC1SYnMzUURCaEtFSg?oc=5
 
 ## Data Quality
 
