@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 14.31,
+  "average_7d": 13.33,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,7 +10,7 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -1.0,
-  "delta_vs_7d": -2.22,
+  "delta_vs_7d": -2.25,
   "domain_breakdown": [
     {
       "avg_severity": 0.25,
@@ -20,17 +20,17 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.3333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.625,
+      "points": 1.25,
       "weight": 15
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.3333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.5166666666666666,
+      "points": 1.1666666666666665,
       "weight": 14
     },
     {
@@ -41,10 +41,10 @@
       "weight": 13
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 0.7666666666666666,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 2.208333333333333,
+      "points": 1.9166666666666665,
       "weight": 10
     },
     {
@@ -72,11 +72,11 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-07-24T14:15:58.801735+00:00",
-  "previous_score": 13,
+  "generated_at": "2026-07-25T14:04:54.640937+00:00",
+  "previous_score": 12,
   "provisional": false,
-  "score": 12,
-  "score_raw": 12.1,
+  "score": 11,
+  "score_raw": 11.08,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -84,10 +84,10 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNjJvVzBHN0tJc2tIRDhtMERPYmJUTlBUT3gtb1pfaDRRSEtMU09Zc281bXd5bVlydW1EUl96ZzJYZkpKWE0wcmN6cDFHQVNGbF9Fb0Q1ZmJaV3VwU2VLN2tQZHlpTDA2cjc2dnZvN1ZfeXJ5bHlleUN6ZExNd3JtVVc2dVpTMVZ3ejZEaVZHWQ?oc=5",
-          "published": "2026-07-23T10:02:03+00:00",
-          "publisher": "Mackinac Center",
-          "title": "Notable rulings from the U.S. Supreme Court this term - Mackinac Center"
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObkhIZTJ1cEMzTUxPT2ZfaUllZmtzbFIyUnBTanBtZkJFM0xpRmE5TUVJRnVsX1FOUkNfTG1mNnA3LWtBQXp0TUF6MDV0VE9QaUdOR0ZFR2x3ZHVjRmZPaGk0YVNuN3NSNjl2MkgtTzE1QTZvMmFOaEZrQzVrQ3A1cXJXT0NySndmWHNwNUNPcjlNY0lVRTl3NV9BWUJxeTFxX3czb1lISdIBpwFBVV95cUxObkhIZTJ1cEMzTUxPT2ZfaUllZmtzbFIyUnBTanBtZkJFM0xpRmE5TUVJRnVsX1FOUkNfTG1mNnA3LWtBQXp0TUF6MDV0VE9QaUdOR0ZFR2x3ZHVjRmZPaGk0YVNuN3NSNjl2MkgtTzE1QTZvMmFOaEZrQzVrQ3A1cXJXT0NySndmWHNwNUNPcjlNY0lVRTl3NV9BWUJxeTFxX3czb1lISQ?oc=5",
+          "published": "2026-07-25T09:24:50+00:00",
+          "publisher": "The Christian Science Monitor",
+          "title": "Supreme Court gave presidents more power over agencies. Are any still independent? - The Christian Science Monitor"
         },
         {
           "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1LS3J2VGVTaVJUQUZnN0xyaEtxX2NEOVNRaHc3SlpUZ2tLaUZkT3VjZjNsNmxTdWlVWXVuYnRkMGJMT3FERVdydGVLODUtVXAwMDJpdGxkOGppcy1RZDY0QlNkTmM2Q2o2a1Fn?oc=5",
@@ -116,71 +116,136 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcVpzaUFHek9HQVZ4M2FjSDZ0U01JLW0wajFwTWZwc1RQZmpPOHBrWEMzSUpGMmhxR3B5SklnV1F5VVl4UzFBUVdhdUtBa19zZ1JPdC12ellPQnpsMWJzQ1dlRFF1Nm9zRFItUlQ2bVV5eks0d1QtTW1FakFEX2EtVTlOUGtndXJiTElYQ3ltaUxDVFpYUUhZZXptTE9SZHl6TFJuRGI1cVAzMjVleGQ5eDZvYllPMXPSAbcBQVVfeXFMUHFac2lBR3pPR0FWeDNhY0g2dFNNSS1tMGoxcE1mcHNUUGZqTzhwa1hDM0lKRjJocUdweUpJZ1dReVVZeFMxQVFXYXVLQWtfc2dST3QtdnpZT0J6bDFic0NXZURRdTZvc0RSLVJUNm1VeXpLNHdULU1tRWpBRF9hLVU5TlBrZ3VyYkxJWEN5bWlMQ1RaWFFIWWV6bUxPUmR5ekxSbkRiNXFQMzI1ZXhkOXg2b2JZTzFz?oc=5",
+          "published": "2026-07-23T21:35:33+00:00",
+          "publisher": "The National Law Review",
+          "title": "Court Reverses Temporary Injunction In Trust Case Where The Order Was Not Sufficiently Precise But Held That County Court At Law Had Jurisdiction Over Dispute Because A Statutory Probate Judge Presided Over The Case - The National Law Review"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWV9EbEZDazF4TkpDb0IxQTNMWmZKQ1d1QXkzN2N4TWpJd09HNExvUkp6czRfajk4bDRqd3Fsc1dhdVZ5N0o2X05kR1c5OVNnQk5pMXU5Ui1pU3RfWEFZekNkSmRsMVdjZ2Fld2l1Nm1UUHR1VFV3VjVMY01wNUhKekNMb0YtV3Q2TVhoOHJtSmFlQk1BbjhGZS0xR2dXZVE3STc1Y0pfQWJzLXhhWWhRVWNHQ0J6S25jMTQySkdfZWg5cGJiRVE?oc=5",
           "published": "2026-07-24T08:53:00+00:00",
           "publisher": "\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
           "title": "Martial law and mobilization extended until October 31, 2026: Zelensky signed the laws - \u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPYVhVc2N1Y2FFUVU5R3dYaUMwMlFqVTlzRkhKTnNVcmM0djNocUVES2xqQjk2emdKQzlNZF93MnUyT1JEUF9qYjNFUTBYSjc4MERicm9UYThXM0t5RDREblZLRUNnUWh4RzNTc3VnZHcxY2NMLWdLYzBTQmV4eDZrWVctQVZxTzBDSHR3aEVzTk00RDB4UFdXQUVGaHRNbkl3TUdpZlFibnhiM2cyTmZON0ZISmxmVlByOTBZRG5CMTJUM2wzT1ZpanAzaTk5UQ?oc=5",
-          "published": "2026-07-24T07:20:00+00:00",
-          "publisher": "\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
-          "title": "The Verkhovna Rada is preparing the legislative framework for the first elections after the war: what are the main challenges - \u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430"
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdUFXVEQ0SVFLRWtONzRzZ0QtbWlpV28yclluNXA4RUlMYTBhNV9zLXA4ZXF2Q3dNN0l6Rm0yejJoR2FzUjRJOU95NEtfZUVyQ09vRzJKcTlzVkcyU3NvbHNwYXRWd1FubGpDbFNBZkowLThhejdrY0pQWGt5RjEydGw3YVlhS1hTdTdXSGNDTWFVb3VFR21MSG12aUxVV0FW?oc=5",
+          "published": "2026-07-24T07:51:38+00:00",
+          "publisher": "Arise News",
+          "title": "N\u2019Assembly Rewrites Inland Waterways Law To Comply With Supreme Court Judgment - Arise News"
         }
       ],
-      "hits": 2,
+      "hits": 4,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUDF4eTFVaHRXVjE4N3puX0RvS1pCMVNvMXM3TEdPV2ZaUGY5NF8zV3d2N0EyUEdYZHZjQzg0c0trbU5lNXB1aTB3NGlqclhoWnpzVVlFSXVLUWZSYjJFbC1ZQ0hVZFE0N3RDMGtWOWkxVkI0ZFpHUEIzU0g0ajJtYXBudHAyQm1lSi1DM3hnQlJ0Rmtwa3NETmxjMjZjZEtiQWRFT1F4cmhHTEpTaVlZS2FvaEhsNGVkWWFKY2trVTFWWk1EYUtpbjQ3MlVMZw?oc=5",
+          "published": "2026-07-25T10:08:42+00:00",
+          "publisher": "Jurist.org",
+          "title": "Rights group calls on Zambia to release journalist arrested for controversial social media posts - Jurist.org"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVG91SlVWVExTZ3ZLWUxySEtCMHlaU2pNSlRGUDdpb2hrMy1NdVIxNHI2YUhWaWdSbUROZ2RCVDl0cDdnUWNTWDFwQVZDbXBCS1RhUlFacWMtVlUwZEFBVEhVcGhxMVBiNkI4bmJ2THEzdThtYzU3dmtCM2Jhd1NjMVVNSDhZeUJTWnMxa0FoY1ZfLVp4UzB6ejF4ei1GZmd3VUt0TmV1R0IwNE9ka0QxN3BaYlozNkxBQzdFcTlMYW0yYjZPb21jR2ZzVWY5OEdHVk9WMG1GOWRBMEtsWUFHR3lVSk8tZ2lsbTFsNlBvVk16Zw?oc=5",
+          "published": "2026-07-25T07:00:42+00:00",
+          "publisher": "Horn Observer",
+          "title": "Puntland intelligence agency releases journalist arrested in Bosaso for critical reporting as media crackdown intensifies - Horn Observer"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOVlmNk1VRnBrajlyOTdjRG1LUl9SR0xhMW1EVkFSc2RqVmFDdDJmNkZoNzRaWXpDdlVjRWdkVkQzaC1fcGpTVWYxRUlQcmtTS21VNmRIc2FVZ0ZpemJsQ1dRN3FvRks5bDBRWFZDb1VLTVpvNklxdm5aY0RNT3FLSFhPR3FiUnNlM1hkeDItazVmSWNLVGJ6MUpnT2l6c2RMY1E?oc=5",
+          "published": "2026-07-24T15:43:00+00:00",
+          "publisher": "Journalism Pakistan",
+          "title": "The JournalismPakistan Global Media Brief | Edition 30 | July 24, 2026 - Journalism Pakistan"
+        }
+      ],
+      "hits": 3,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 1
+      "unique_publishers": 3
+    },
+    {
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTnFMYl9Wb1VRRlA0R0Q3cllMWUtsa3JiX0dYMl9xLUpkODhZemo2QjNXdVBuRlM4VE4waW1JQmtOdG0xbGo1Ti1waVpGLWNoSFYxUTJOYVBCU1U0dWo0TmRFdzRJeFJjSmNscXRVTmRycFJVYzRmY3VOTUVaRmNBRkZVM0FwbDExcEh6S0FhTktHWEhlTFFlTUhR?oc=5",
+          "published": "2026-07-24T19:00:00+00:00",
+          "publisher": "Carolina Coast Online",
+          "title": "Top lawmakers, elections board defend challenged law at 4th Circuit - Carolina Coast Online"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR0kzVjFBWm5hektfa2x3Zmw2el8yY3ZvaE5EQkpHUkpqSUdteWZSSmNudnpxVVVuWkU4ZkNob2xlbjZ5TXB0aU1CbkdGZm1KSTFlQm1NbUdBQXpONUVKTEszRFpfd0VHQzZ6bVNXdFdkbzJLdHFGZGVQdHZpWlZZLTY1aVNhM3dYMDFvT18yN0FFZ3NkbUVvOGxFTFRJR3dfNVFzeGNoOA?oc=5",
+          "published": "2026-07-24T12:01:00+00:00",
+          "publisher": "WIFR",
+          "title": "Here\u2019s how Illinois election authorities guard against noncitizen voting - WIFR"
+        }
+      ],
+      "hits": 2,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
       "evidence": [
         {
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWVBFRWdzT3VRRk5LT256dy1RMkZRdWRQYmVrZVAzUms1ZE12ZW1DU2RzTEtOTXFMU2FzTlpScW8tZ2Y1MmRQaFRROTRzNGdLNjVWa1ZPZjN6V0l4cVZaSkRzV3l6R3RxV1lzYTllMklvTWZFdlVfVnNDdlZ0dnk0VFhqend3WVZsbGt3RlpzcGVFU0NraXFjbGNWWmkzV0tFLUJjajZwY1JDaU5icW5wWGRjVmJMci1US0ttcWgxVk1NQTJ0U3Q2REFMaGE2Z2s?oc=5",
+          "published": "2026-07-24T10:56:54+00:00",
+          "publisher": "myRepublica",
+          "title": "Three int\u2019l rights groups allege resignation pressure, impeachment threats against senior SC justices - myRepublica"
+        },
+        {
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQelR0eEUyRURNR1hZWHZGUTlENDdaaGRvMzJ2RHo2X2lQN0hPNGc2ZUcyTktBZ21tU3hPSkh6YW81N2twNldQWHBleGcyVExhUjYwVnc4VWJmcHlpaWRSSnQ4LVpCZTFBX0Myb0tRTldBUXlFb2l1eG9zRnZpNVBLYm8xWlpjcDB4M3VET05oVnFEZGZCS0RHdThoT0UyZTIya3JpNFJhQl9NYUlnNHlxb0x3LTROQ3VYZG1xM253SlNIallrdjlNY3RJVnJiZlluaUtpUThqQQ?oc=5",
-          "published": "2026-07-24T10:19:20+00:00",
+          "published": "2026-07-24T04:15:36+00:00",
           "publisher": "facebook.com",
           "title": "WATCH: Amid criticisms against \u201cbiased\u201d witnesses in the impeachment court trying VP Sara Duterte, NBI Director Melvin Matibag says he is not biased as he is only telling the truth. | via Adrian Ayalin, ABS-CBN News (\ud83d\udcf9: Jonathan Cellona, ABS-CBN News) - facebook.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xSkpzYkpQeC1iNDJjbDNpdlRfYTh0SjFBdjVabWNwSElpWEdkMWpGVGVZQ1BiRXBHaHI5NXFYR0tRdTRYRFRNRVVWZkRQelRXTDZ6NUo3QXl2UW04UkV3?oc=5",
-          "published": "2026-07-23T20:08:14+00:00",
-          "publisher": "The New Republic",
-          "title": "Man Who Killed Minnesota Democratic Rep. Sentenced to Life in Prison - The New Republic"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQN2J6c1FzOGpySkttT1JVSll1THpiU0c2V1RHdWp4TnNEbnE2VDdQeDFlV0tmUmdkQ2sxVVlZMUkyMDNTYWVrOFJkNllYOUpYQVEtVnhIbzV4WDJNdkQ1WTkzVXlJM0pySDBIUDd5dkVGSnFQSHpSYUF0SHpUT2dBZmE0Ukt0S1BfOUtlU2ZtY0hxZnpQamxWOWUtclZTM0xReGc1Qk9rVFc4dG5lUXd3SFF3cTlCUGJpY3VnNFBkSXVOODZTeWpsX2dubEtqdkxUMW5SUEVlbw?oc=5",
-          "published": "2026-07-23T01:26:51+00:00",
-          "publisher": "facebook.com",
-          "title": "Prosecution's final witness, NBI Director Melvin Matibag is allowed to leave and Senate impeachment court presiding officer Francis Escudero thanks him for his cooperation. #VPOnTrial | via Victoria Tulad, ABS-CBN News - facebook.com"
         }
       ],
-      "hits": 3,
+      "hits": 2,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
       "unique_publishers": 2
     },
     {
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "hits": 0,
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQU2xseUM2VE9JSWVLa0tCYzFyT0FKTFc4aUN5ckMwWWlXbG5nNTNnSV9iUlc1RzdrU284a1ZXNnNFZkpmSlpRRjNSRGxycmNFZEMwc0JXOTdxSUZQVEZyWGVZeXVYbGV5LWp0YzBLV0liQTR5blFwcTczY2gtVXM2dWdLUThKTVI4VVNfRk51WnFEOXFLNmxrNkZmX0VlY2xfS2RoNGpMX2h3OWJaMVBVSnF2UENCZHJBbHBxQWtqenRtcHk5VGNKX3Y0bHRRNUVlSkswVA?oc=5",
+          "published": "2026-07-23T17:16:06+00:00",
+          "publisher": "Sun Sentinel",
+          "title": "Republicans want to remove Libertarian competitor in high-stakes South Florida congressional race - Sun Sentinel"
+        }
+      ],
+      "hits": 1,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 0
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
@@ -191,100 +256,29 @@
           "published": "2026-07-23T21:51:02+00:00",
           "publisher": "Tech Policy Press",
           "title": "India's CJP Protests Meet Internet Shutdowns and Pervasive Surveillance - Tech Policy Press"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE00cXFHVGV1TFhqRDBYVjB5dkthSGNVMHF4ZVBkc2lyY2k2OFIyVjY1dzA2ZUNybHRSX2ROVllnOG9MWDQyakdJZ2h5ZWRsd0Q2UmJ1Si1KR1ZVRXJNR3EzNDBIRkJ4YkNUeGlUM1I2TFVZakhiZm1KVEVR?oc=5",
-          "published": "2026-07-23T08:57:20+00:00",
-          "publisher": "LA Progressive",
-          "title": "How Trump Is Criminalizing Dissent and Normalizing Fascism - LA Progressive"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX1kzd1pqLUItZ0E4SmJWT0lkRWMzRTh4dDVBbFZMWEl4dmh3ZEZqd0pCc2xhRVlja3ozSEQtQk9tWC1CNEF5UWpuSkRjNGtfX201REdSWTd3azhoQTV1Yi1ZbkM2M0V0M3pFZVZaUnNEb2JYTUJzV1l6aXFhTm12aXE2N0s3ZWs?oc=5",
-          "published": "2026-07-23T12:21:04+00:00",
-          "publisher": "Lavender Hotel",
-          "title": "Why Showing a Photo in Tibet Can Land You in Prison for Inci - Lavender Hotel"
         }
       ],
-      "hits": 3,
+      "hits": 1,
       "id": "political_speech_surveillance",
       "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 3
+      "unique_publishers": 1
     },
     {
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYjRJenZTSWJxXzRBM3RIQ1lHSEJ0TGxRbUh4SUVGZFZiQTJHcHBhNl9qdERFcUF0TWQyZmN1SHJUam92QndsRlJtaC1uSXREYk9YUjg2Uno1XzB3Z1l2bkp5TDRqZV9lT1p2Zmt1MTFPenA4TjF6Wms0M3FpTHdwaEc2WjFWcjItenN1X1o0TFNaZ2N6VTdXenJR?oc=5",
-          "published": "2026-07-23T04:10:35+00:00",
-          "publisher": "The Regulatory Review",
-          "title": "Misframing the Trump-Era Appropriations Battles - The Regulatory Review"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeDZCZ3d5RHM4UVFBOGRPRjREcGFid3Q3TElrVTI4YVlhZUZIa1czU29Da1I5bnpwMFBwVjFYMVZUeUg4Y0R6M3dXOU5sQkh3TGJHcEV3SGFlUGZTVmc2VXJBYnE5OFkwZ01hMlhxc2JmVzVHZjBDaGlaZ2RpN1VRd3p0V2VrRElHMWVRczJIcWE3QUJGal9LaXJn?oc=5",
-          "published": "2026-07-23T08:04:00+00:00",
-          "publisher": "Bergen Record",
-          "title": "The presidency fuels perpetual war. Iran conflict must end | Opinion - Bergen Record"
-        }
-      ],
-      "hits": 2,
+      "evidence": [],
+      "hits": 0,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOVlmNk1VRnBrajlyOTdjRG1LUl9SR0xhMW1EVkFSc2RqVmFDdDJmNkZoNzRaWXpDdlVjRWdkVkQzaC1fcGpTVWYxRUlQcmtTS21VNmRIc2FVZ0ZpemJsQ1dRN3FvRks5bDBRWFZDb1VLTVpvNklxdm5aY0RNT3FLSFhPR3FiUnNlM1hkeDItazVmSWNLVGJ6MUpnT2l6c2RMY1E?oc=5",
-          "published": "2026-07-24T09:41:48+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "The JournalismPakistan Global Media Brief | Edition 30 | July 24, 2026 - Journalism Pakistan"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbWdkeTU2NUJ5NWI2VkdGVXktd0VBM2JJcjRZNnpURndrWFBlRzRwa0hzN3NKbEU0MkFNa3FySFhBMHR1RTh2cmFDTmtCY1BFMkZnYjlSTjNtczlMRzZNZUxkQUI3Z2dyTl9NZzdZQlliLUEtakdLbmZhMHFJVURaS3R4N2J5SGpYZmFoZ01jcU8zbzI2N0Jz?oc=5",
-          "published": "2026-07-22T16:31:04+00:00",
-          "publisher": "Journalism Pakistan",
-          "title": "Mumbai Press Club condemns attack on journalists in Delhi - Journalism Pakistan"
-        }
-      ],
-      "hits": 2,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNR0kzVjFBWm5hektfa2x3Zmw2el8yY3ZvaE5EQkpHUkpqSUdteWZSSmNudnpxVVVuWkU4ZkNob2xlbjZ5TXB0aU1CbkdGZm1KSTFlQm1NbUdBQXpONUVKTEszRFpfd0VHQzZ6bVNXdFdkbzJLdHFGZGVQdHZpWlZZLTY1aVNhM3dYMDFvT18yN0FFZ3NkbUVvOGxFTFRJR3dfNVFzeGNoOA?oc=5",
-          "published": "2026-07-24T12:01:00+00:00",
-          "publisher": "WIFR",
-          "title": "Here\u2019s how Illinois election authorities guard against noncitizen voting - WIFR"
-        }
-      ],
-      "hits": 1,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "critical_hits": 0,
@@ -295,7 +289,7 @@
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }
