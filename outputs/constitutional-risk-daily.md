@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-07-26 14:01:37 UTC
-- Score: **13 / 100** (Baseline Institutional Noise)
-- Previous day delta: **+2.0**
-- Delta vs 7-day average: **-0.3**
+- Generated: 2026-07-27 15:17:12 UTC
+- Score: **11 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-2.0**
+- Delta vs 7-day average: **-1.6**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -14,12 +14,12 @@
 
 | Domain | Weight | Avg Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.25 | 1.38 |
-| Judicial Independence and Rule of Law | 15 | 0.67 | 2.50 |
+| Elections and Transfer of Power | 22 | 0.16 | 0.89 |
+| Judicial Independence and Rule of Law | 15 | 0.55 | 2.06 |
 | Opposition Rights and Political Pluralism | 14 | 0.33 | 1.17 |
-| Executive Constraints and Emergency Powers | 13 | 0.88 | 2.87 |
-| Civil Service and Agency Independence | 10 | 0.55 | 1.37 |
-| Civil Liberties and Information Environment | 10 | 1.32 | 3.31 |
+| Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
+| Civil Service and Agency Independence | 10 | 0.43 | 1.08 |
+| Civil Liberties and Information Environment | 10 | 0.97 | 2.44 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -27,36 +27,35 @@
 
 | Signal | Domain | Severity | Hits | Unique Publishers |
 |---|---|---:|---:|---:|
-| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | 6 | 6 |
-| Independent Agency Capture | civil_service_integrity | 1.65 (Watch) | 2 | 2 |
-| Martial Law or Military Governance Language | executive_constraints | 1.65 (Watch) | 1 | 1 |
+| Martial Law or Military Governance Language | executive_constraints | 2.00 (Yellow) | 3 | 2 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.65 (Watch) | 1 | 1 |
+| Independent Agency Capture | civil_service_integrity | 1.30 (Watch) | 1 | 1 |
 | Opposition Ballot Exclusion | opposition_pluralism | 1.00 (Watch) | 2 | 2 |
-| Election Administration Capture | elections_transfer | 1.00 (Watch) | 1 | 1 |
 | Judge Intimidation Campaign | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
-| Court Order Noncompliance | judiciary_rule_of_law | 1.00 (Watch) | 1 | 1 |
 | Legislative Bypass by Executive | executive_constraints | 1.00 (Watch) | 1 | 1 |
-| Political Speech Criminalization or Surveillance | civil_liberties_information | 0.65 (Green) | 0 | 0 |
+| Election Administration Capture | elections_transfer | 0.65 (Green) | 0 | 0 |
+| Court Order Noncompliance | judiciary_rule_of_law | 0.65 (Green) | 0 | 0 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 0.30 (Green) | 0 | 0 |
 
 ## Evidence Samples
 
+### Martial Law or Military Governance Language
+- [The Killeen Daily Herald] South Korean court gives ousted President Yoon suspended jail term for lying during campaign - The Killeen Daily Herald (2026-07-27) - https://news.google.com/rss/articles/CBMigwJBVV95cUxONVF3VWRJM0FKZjdpTjNIdVphUkZqdHRwTGZnVmg4OTduVUltTmphZUw5Z21yU2NwdzdIbWJkS1Z1X1JjSXM3MGthMlNSbmNyQlpva2laWk5STm5JTGZ0WHdBMW9CMGY1NG5JNXpRSXkyaVEwblRYcGJSWVo1d1FsZmhMVlg5YTZDVjhRUExKYVhqWWRjb3d2NkVEaGcyOU54TkxUMTNuSmxIb0I2UjFaZjU5MGJhaW52WVI1VTJrSXlKT01WUnQ2U2RZRGx6T3M2X01ITjhpRGUxMnRnODlacGNJOV9OcW5DZGFaWXdrdzFfWnktQVUxcEpmQlRVSi1EbkJB?oc=5
+- [Судово-юридична газета] The Supreme Court allowed the enforcement in Ukraine of a foreign court decision on the recovery of alimony arrears - Судово-юридична газета (2026-07-26) - https://news.google.com/rss/articles/CBMi8wFBVV95cUxObms4MjRhRzRNLXdYQ0MwZmtvZGJkdmh6ejZsYjVTT0RXNWxFM2FITVBMb2oyTGtiVHpHanY2d2M2Ny1nZG9xU2NwY0RLcjhvU1NZNVZEeWVhaTNOSXpfbnR4SFA4Vm52bi1hXzNyY0NjZjVhQmRpR29IelZiS1VvYW83OGp3NXpLcllSd3NfZkFvQ09PYTFxbkkwdldIbW5QOVlnazFiMWx4NExtYlBTazd6Wm8xM0VaazRNMFNZTFV3b19ZbC01MU9JOHZ3T2RPcXdpLWp2Nk5TZnpiZFVkYlYwVnJSX1UxNV9sYTR0Rk84TmM?oc=5
+- [Судово-юридична газета] Resolution 821 is not yet in effect: The Supreme Court opened cassation but preserved pensioners' right to payments - Судово-юридична газета (2026-07-26) - https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZFJvb2duWnBQTGpTVW1Uc1kzYnZnVU9DQVNkS1VVOE0zT2R2cTdPU2lram9hQU4wd2Y3Ny1SQjkxbjFYZi1COFMwZ0IwOVFmQU5PdUdBdnFvZUREWXZUTE4wUUMwMUlSWTkzZGtwbzVBeDh4TER2QWlZNGJPMzZXZEt0V0pMMzBUaWhmbGVSTlAzeGZCTVVkeEgtODd4OTU2eGtJUG9pMkx5cGYzSy1lM1JtVUZGbU9LQU1vVGJkc0hXaFRMb0tTSHNmNHlWTDZIOTRSX05Mcld2aFk?oc=5
+
 ### Press Restrictions or Retaliation
-- [Jurist.org] Rights group calls on Zambia to release journalist arrested for social media posts - JURIST - News - Jurist.org (2026-07-25) - https://news.google.com/rss/articles/CBMizgFBVV95cUxPUDF4eTFVaHRXVjE4N3puX0RvS1pCMVNvMXM3TEdPV2ZaUGY5NF8zV3d2N0EyUEdYZHZjQzg0c0trbU5lNXB1aTB3NGlqclhoWnpzVVlFSXVLUWZSYjJFbC1ZQ0hVZFE0N3RDMGtWOWkxVkI0ZFpHUEIzU0g0ajJtYXBudHAyQm1lSi1DM3hnQlJ0Rmtwa3NETmxjMjZjZEtiQWRFT1F4cmhHTEpTaVlZS2FvaEhsNGVkWWFKY2trVTFWWk1EYUtpbjQ3MlVMZw?oc=5
 - [Bulatlat] Media community faces killings, weaponization of laws under Marcos Jr. - Bulatlat (2026-07-26) - https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb0M5TVJvdjF4aHRsaDZKRzRpQ1c4dUhaamNOeV9nSUxmaXpLODkyMDhGRlpxQmxuaFRBeDA4ZmhERkM2SjM2YzQtVDUyek91SVRHbG1yQm5Bdzh0YmlPLXJYQXYwU2hzeVlVMVYyRGRFSXRnWklkaTFJTm9WR2FPQ2xzVm9wbFpKeFBLd1h1WTFBbTk4b1k2VnNMMlFXTnRySWxrRkdiT2o?oc=5
-- [Horn Observer] Puntland intelligence agency releases journalist arrested in Bosaso for critical reporting as media crackdown intensifies - Horn Observer (2026-07-25) - https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVG91SlVWVExTZ3ZLWUxySEtCMHlaU2pNSlRGUDdpb2hrMy1NdVIxNHI2YUhWaWdSbUROZ2RCVDl0cDdnUWNTWDFwQVZDbXBCS1RhUlFacWMtVlUwZEFBVEhVcGhxMVBiNkI4bmJ2THEzdThtYzU3dmtCM2Jhd1NjMVVNSDhZeUJTWnMxa0FoY1ZfLVp4UzB6ejF4ei1GZmd3VUt0TmV1R0IwNE9ka0QxN3BaYlozNkxBQzdFcTlMYW0yYjZPb21jR2ZzVWY5OEdHVk9WMG1GOWRBMEtsWUFHR3lVSk8tZ2lsbTFsNlBvVk16Zw?oc=5
 
 ### Independent Agency Capture
-- [The Christian Science Monitor] Supreme Court gave presidents more power over agencies. Are any still independent? - The Christian Science Monitor (2026-07-25) - https://news.google.com/rss/articles/CBMijgFBVV95cUxNR3ZKcEFuN2hpcHVKcUsyTUxhSnY2bVkwdXU1TzJKR1cyQW5yTno5Yl9uY2ZLOEtFLUxPTWxRb1E1N0Nsa1Jpbzl6YjNRQWlDODFBVEc0QlA5azlVdG9waWhidjF0dVlJTU5HU2habEt3NVZ2SjMwd0x1UHp1SkZFNmFpTVlLelA3QkI0WmV30gGnAUFVX3lxTE5uSEhlMnVwQzNNTE9PZl9pSWVma3NsUjJScFNqcG1mQkUzTGlGYTlNRUlGdWxfUU5SQ19MbWY2cDcta0FBenRNQXowNXRUT1BpR05HRkVHbHdkdWNGZk9oaTRhU243c1I2OXYySC1PMTVBNm8yYU5oRmtDNWtDcDVxcldPQ3JKd2ZYc3A1Q09yOU1jSVVFOXc1X0FZQnF5MXFfdzNvWUhJ?oc=5
-- [The Fulcrum] Court’s Slaughter Decision Hands Presidents Sweeping New Authority - The Fulcrum (2026-07-25) - https://news.google.com/rss/articles/CBMisgFBVV95cUxPTWZPNVg3UHZvNE96Zk41ZkdmNGRjZzZpMDFGM0kzOWlBZmVBZmdyUG9tUHVtb2VXaVpSYndjdFhFMDFXY3FGZEI4U090cFRYLTBQdXhNUzgzSGtuMHMyOXFWakFPbm5MeFFsYWRCWGtIYmhBTkd3RTgxamdxWmNEaTVLVnh1Qk5fajgtZDNOZWU3RndVQWt2R292TUdXZ0Z1MWZuSGJmZzF5Y0VzVEplM1Zn?oc=5
-
-### Martial Law or Military Governance Language
-- [The Guardian Nigeria News] AA decries economic hardship, accuses INEC of defying court judgments - The Guardian Nigeria News (2026-07-26) - https://news.google.com/rss/articles/CBMimgFBVV95cUxOUm83clRuUUU4bFpFYXdENHZuTXhodUdPZGJ6aVlfZ2pTdHRWN1A3TUdHbDVfU0V6UWFaUHJsUjMyT1l3UGlZbFZoV19qZlVONmZfeFFLcFhVQXNPNHdENFl2SGUzQXhRald5U3RmU1Z6ZGt2bDJ5LU1jWGs5MHc5cnd6akNhekVaeUV0b3gtS2phbHdteUdyQzZR?oc=5
+- [The Regulatory Review] The End of NRC Independence and the Future of Nuclear Safety - The Regulatory Review (2026-07-27) - https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUNmUWRxOHh5c2p0QzBsVHZERWZncjVkSDkydWFmbDJDVGZyQy1OV0Z1UFMzUDVPdXNkM0VTczNvcm9YNjZqbEdLZUd3eFpRU1pXWVdoWHZVWEFmRHFON3o3bktOQXNjczR5RndqWXZsM3oxcVBWeXpsN1FKeWQyc2Z0REZoY0dTa3c2TWtQenVVaU0tTS1YY0k2cW54Zks0SEd3TWg5WmtreXlab3dYOGh6cEFSUGc?oc=5
 
 ### Opposition Ballot Exclusion
-- [Independent Newspaper Nigeria] 2027: Opposition Terrified By Acceptance Of Aondoakaa – PDP - Independent Newspaper Nigeria (2026-07-26) - https://news.google.com/rss/articles/CBMihwFBVV95cUxNWjFOYmJodnd0VU1JbmE1UloySlVocE1nZW9vNWRXNWpoRmIwTm1zRGxmWVAxRzBneGotM0lobDlGNnAtelNwOEtSRi12Wk8zV1VCUnMzc1RHYWdlUm1DS2ljZVRDeWdEeDA1SU1DSDB5SHU5WmJzVHF2VS1MZTJ5emFCZ0xzUms?oc=5
+- [LEADERSHIP Newspapers] PDP: Aondoakaa Not Barred From Public Office, Says Supreme Court Never Disqualified Him - LEADERSHIP Newspapers (2026-07-26) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQSG9hTEdQbW1aVG5kLU1DbzBXbkJwSlJUSHpETjVoV1JUU2l1X2xiZ3JIdjZvTmVBLU1TU3A0NEdaN01fWEF2YmxrUkhXYkVwSXQyQ3BON2xUREJTZVRFNTZjT2llOUhZQlYtY3VRSURZSm1xMHQzeDZja09QT2JFdWtYMlVLRnAySi1uOWUxeThTQlI4OHMtWU5uTmRLRUdZWkVJOElHS2txcUp5?oc=5
 - [Head Topics] PDP Dismisses Claims Against Governorship Candidate - Head Topics (2026-07-25) - https://news.google.com/rss/articles/CBMilgFBVV95cUxOcHB4Uzc2NFhwMHY0MUJaX1NJWWhoYlQ1NUFpY2xXZ0hlQ1Y3ckZtOU1JTzN4X01MaVZSejRhbFVsOHZuLUZhSndxc0pLS0VlQzZRV3I4Rkl6YXBrVzMzU0lrUkwydXVva1Y0eUJGdDczR3FBY01BUDJIMS1SUVYteXBuODlPZDN5U1pORGV2ak0wRWpUWnc?oc=5
 
-### Election Administration Capture
-- [Carolina Coast Online] Top lawmakers, elections board defend challenged law at 4th Circuit - Carolina Coast Online (2026-07-24) - https://news.google.com/rss/articles/CBMimgFBVV95cUxOTnFMYl9Wb1VRRlA0R0Q3cllMWUtsa3JiX0dYMl9xLUpkODhZemo2QjNXdVBuRlM4VE4waW1JQmtOdG0xbGo1Ti1waVpGLWNoSFYxUTJOYVBCU1U0dWo0TmRFdzRJeFJjSmNscXRVTmRycFJVYzRmY3VOTUVaRmNBRkZVM0FwbDExcEh6S0FhTktHWEhlTFFlTUhR?oc=5
+### Judge Intimidation Campaign
+- [The Manila Times] The collapse of the US bipartisan consensus over Israel ties - The Manila Times (2026-07-26) - https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2ZmQkxwYXdRZW04RzdKeEF1cWMtWTR3Z2tGUmMzaVI2MnJCbTk0T1ZnWWVEMVIybkZ2MldxS1lLMG96dkZzNkRjTlBGWTBYNnBCMnl0WnVBdEVmMmpmOEh4VGtEWGFuaDBDd29qQUV0LUcyRE5KR0hfSVlMOTU5d0c4STFscDQwd0R5V0IxckZFZng3TlRLUzBaNElmNXpVYjRzVkJkQ2p3ZnNnVjdIb1lNUzNGbWROMEpnSUl6MkFZbnhvZlHSAcYBQVVfeXFMTktmZkJMcGF3UWVtOEc3SnhBdXFjLVk0d2drRlJjM2lSNjJyQm05NE9WZ1llRDFSMm5GdjJXcUtZSzBvenZGczZEY05QRlkwWDZwQjJ5dFp1QXRFZjJqZjhIeFRrRFhhbmgwQ3dvakFFdC1HMkROSkdIX0lZTDk1OXdHOEkxbHA0MHdEeVdCMXJGRWZ4N05US1MwWjRJZjV6VWI0c1ZCZENqd2ZzZ1Y3SG9ZTVMzRm1kTjBKZ0lJejJBWW54b2ZR?oc=5
 
 ## Data Quality
 
