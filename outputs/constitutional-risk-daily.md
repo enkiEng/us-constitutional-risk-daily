@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-07-28 16:37:53 UTC
+- Generated: 2026-07-28 18:36:01 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **10 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **-3.3**
+- Score: **7 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-4.0**
+- Delta vs 7-day average: **-5.9**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -16,11 +16,11 @@
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
 | Elections and Transfer of Power | 22 | 0.00 | 0.00 |
-| Judicial Independence and Rule of Law | 15 | 0.43 | 1.62 |
-| Opposition Rights and Political Pluralism | 14 | 0.22 | 0.76 |
-| Executive Constraints and Emergency Powers | 13 | 1.22 | 3.95 |
-| Civil Service and Agency Independence | 10 | 0.65 | 1.62 |
-| Civil Liberties and Information Environment | 10 | 0.65 | 1.62 |
+| Judicial Independence and Rule of Law | 15 | 0.20 | 0.75 |
+| Opposition Rights and Political Pluralism | 14 | 0.10 | 0.35 |
+| Executive Constraints and Emergency Powers | 13 | 1.10 | 3.57 |
+| Civil Service and Agency Independence | 10 | 0.43 | 1.08 |
+| Civil Liberties and Information Environment | 10 | 0.30 | 0.75 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -28,14 +28,14 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | ai | 2 | 3 |
-| Independent Agency Capture | civil_service_integrity | 1.65 (Watch) | ai | 0 | 6 |
-| Martial Law or Military Governance Language | executive_constraints | 1.65 (Watch) | ai | 0 | 2 |
-| Press Restrictions or Retaliation | civil_liberties_information | 0.65 (Green) | ai | 0 | 6 |
-| Opposition Ballot Exclusion | opposition_pluralism | 0.65 (Green) | ai | 0 | 2 |
-| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 0.65 (Green) | ai | 0 | 1 |
-| Political Speech Criminalization or Surveillance | civil_liberties_information | 0.65 (Green) | ai | 0 | 1 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 0.65 (Green) | keyword | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | ai | 2 | 5 |
+| Independent Agency Capture | civil_service_integrity | 1.30 (Watch) | ai | 0 | 6 |
+| Martial Law or Military Governance Language | executive_constraints | 1.30 (Watch) | ai | 0 | 1 |
+| Press Restrictions or Retaliation | civil_liberties_information | 0.30 (Green) | ai | 0 | 6 |
+| Opposition Ballot Exclusion | opposition_pluralism | 0.30 (Green) | ai | 0 | 2 |
+| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 0.30 (Green) | ai | 0 | 1 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 0.30 (Green) | ai | 0 | 1 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 0.30 (Green) | keyword | 0 | 0 |
 
 ## Evidence Samples
 
@@ -50,7 +50,6 @@
 - [Mises Institute] The Supreme Court Plays Wizard of Oz with the Fed - Mises Institute (2026-07-28) - https://news.google.com/rss/articles/CBMickFVX3lxTE01RGcwZzNVUkRjeHZ1TjlieTNOelZ0RlMzRFhTMHgxSmI0elVMVXNEbkprSHFJVGpBdXRXMmtDYmlEcUk5eEdiUzVNYnltejNyX3FUeG40U2RuMlhPd0s1R3dNdi1TZURjOHpkV0ZzV1NhQQ?oc=5
 
 ### Martial Law or Military Governance Language
-- [Судово-юридична газета] If the law allows carrying weapons in public places, can they be banned in parks — the US court decides - Судово-юридична газета (2026-07-27) - https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNllUbFpNYU9IUkZ6U25mZmROaEZZUGxXR0pRSXhHYjF1QXh1RHFqSlFiV184Q3FEZ3ozTDlIZEQ4T2I2c0pHWlNwTXcyQTlmXzFSZzZfYTM3TnZNVzFEMEpQbVVuVGFaM1ExWk9jRFRmQWVNVWVYX205SDBBc01xQUpzU3BFUnFTcklHeVE1Nm56cUJPNDgyeUt1d0JwOHZ4ZFY1eHhaRF95bUl0SzVhNjVrNXdsbm9qZjVhZHdzcFBJMEQ3RDYxUEJqbFZQSFYtLUNYTzVxd2V0Y3FjN3V3R2FHd2c4MS1QMUE?oc=5
 - [Outlook India] Former South Korean President Yoon Handed Suspended Sentence Over Election Law Violation - Outlook India (2026-07-27) - https://news.google.com/rss/articles/CBMiywFBVV95cUxQVlNLNU1ONzlOME45SVZXTGtqd3NWbm1NbkRLTVZjYjVjS1ZsenFnZ3l5c2g0NUNIYWdQdU1SaG80UWdoenZLTHdXYnF1bWRqX09wNnp0RjFXbUtXMWhaNGZlMG93bUlyVWRKQTVndVNWU0xsWnJqcHBRX1prd1Y5Z2pYcDc1a3dLZGN0U1pVOFl2RUp6aHlFZjdLcGJSUGR2M1BVWmhFbGpIVVMzQWRhbjFZU3lEYllMd3BWMjVqczRTWnlPa194bzhDONIB2AFBVV95cUxOYkRraHZmdm1MWFVCTUpaNEVFYW8xQVRqVTNPb0NHLWdWZGVPV1FYTm1iUEw0ZnFyTFFLVEl3MkRWYlJPaEtDYnJJS21ORV9PMjkzT054a1hFV3VrekJYYUJKeGUxLThNb21VaXNkWFlidnFZLW9ib2tTNlFLd040NUE1cDNLUTdPVHRZbmJQWEpJS1ZwdWk3OG9SRklOS2RHT3hLQXVRQU8weGVlbGhZRHVCUnVTbjZBX2ZaZF9kX0pWV1ZxVUttallRcml1WWN4dFIxUThnbEc?oc=5
 
 ### Press Restrictions or Retaliation

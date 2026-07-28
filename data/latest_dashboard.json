@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.84,
+  "average_7d": 12.4,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,8 +9,8 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": -3.25,
+  "delta_previous_day": -4.0,
+  "delta_vs_7d": -5.89,
   "domain_breakdown": [
     {
       "avg_severity": 0.0,
@@ -20,38 +20,38 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.19999999999999998,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.625,
+      "points": 0.7499999999999999,
       "weight": 15
     },
     {
-      "avg_severity": 0.21666666666666667,
+      "avg_severity": 0.09999999999999999,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.7583333333333333,
+      "points": 0.35,
       "weight": 14
     },
     {
-      "avg_severity": 1.2166666666666666,
+      "avg_severity": 1.0999999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.954166666666666,
+      "points": 3.5749999999999997,
       "weight": 13
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.6249999999999998,
+      "points": 1.0833333333333335,
       "weight": 10
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.3,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.625,
+      "points": 0.75,
       "weight": 10
     },
     {
@@ -73,13 +73,13 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-07-28T16:37:53.258525+00:00",
+  "generated_at": "2026-07-28T18:36:01.895715+00:00",
   "methodology_version": 2,
   "previous_score": 11,
   "provisional": false,
-  "score": 10,
-  "score_raw": 9.59,
-  "score_raw_pre_trip_wire": 9.59,
+  "score": 7,
+  "score_raw": 6.51,
+  "score_raw_pre_trip_wire": 6.51,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -101,7 +101,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 5,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -144,7 +144,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -154,12 +154,6 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNllUbFpNYU9IUkZ6U25mZmROaEZZUGxXR0pRSXhHYjF1QXh1RHFqSlFiV184Q3FEZ3ozTDlIZEQ4T2I2c0pHWlNwTXcyQTlmXzFSZzZfYTM3TnZNVzFEMEpQbVVuVGFaM1ExWk9jRFRmQWVNVWVYX205SDBBc01xQUpzU3BFUnFTcklHeVE1Nm56cUJPNDgyeUt1d0JwOHZ4ZFY1eHhaRF95bUl0SzVhNjVrNXdsbm9qZjVhZHdzcFBJMEQ3RDYxUEJqbFZQSFYtLUNYTzVxd2V0Y3FjN3V3R2FHd2c4MS1QMUE?oc=5",
-          "published": "2026-07-27T17:49:00+00:00",
-          "publisher": "\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
-          "title": "If the law allows carrying weapons in public places, can they be banned in parks \u2014 the US court decides - \u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430"
-        },
-        {
           "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVlNLNU1ONzlOME45SVZXTGtqd3NWbm1NbkRLTVZjYjVjS1ZsenFnZ3l5c2g0NUNIYWdQdU1SaG80UWdoenZLTHdXYnF1bWRqX09wNnp0RjFXbUtXMWhaNGZlMG93bUlyVWRKQTVndVNWU0xsWnJqcHBRX1prd1Y5Z2pYcDc1a3dLZGN0U1pVOFl2RUp6aHlFZjdLcGJSUGR2M1BVWmhFbGpIVVMzQWRhbjFZU3lEYllMd3BWMjVqczRTWnlPa194bzhDONIB2AFBVV95cUxOYkRraHZmdm1MWFVCTUpaNEVFYW8xQVRqVTNPb0NHLWdWZGVPV1FYTm1iUEw0ZnFyTFFLVEl3MkRWYlJPaEtDYnJJS21ORV9PMjkzT054a1hFV3VrekJYYUJKeGUxLThNb21VaXNkWFlidnFZLW9ib2tTNlFLd040NUE1cDNLUTdPVHRZbmJQWEpJS1ZwdWk3OG9SRklOS2RHT3hLQXVRQU8weGVlbGhZRHVCUnVTbjZBX2ZaZF9kX0pWV1ZxVUttallRcml1WWN4dFIxUThnbEc?oc=5",
           "published": "2026-07-27T09:32:41+00:00",
           "publisher": "Outlook India",
@@ -167,14 +161,14 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 1,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -210,7 +204,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -240,7 +234,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -264,7 +258,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -288,7 +282,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -305,7 +299,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }
