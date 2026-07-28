@@ -26,6 +26,20 @@
       {"signal_id": "election_certification_interference", "min_severity": 4, "floor_score": 45, "label": "Lawful election certification overridden"}
     ]
   },
+  "cumulative": {
+    "note": "Cumulative Erosion Sub-Index (CEI) parameters — see docs/cumulative-erosion-subindex-proposal.md. pressure = per-signal EWMA of daily final_score with the given half-life; ledger entries (data/erosion_ledger.json) are human-vetted structural conditions. CEI = min(100, ledger_score + pressure_coefficient * pressure_score). CEI is provisional until the ledger is seeded.",
+    "pressure_half_life_days": 180,
+    "pressure_coefficient": 0.35,
+    "ledger_path": "data/erosion_ledger.json",
+    "history_path": "data/cumulative_erosion_history.csv",
+    "bands": [
+      {"min": 0, "max": 14, "label": "Checks intact"},
+      {"min": 15, "max": 29, "label": "Noticeable erosion"},
+      {"min": 30, "max": 49, "label": "Substantial erosion"},
+      {"min": 50, "max": 69, "label": "Severe erosion"},
+      {"min": 70, "max": 100, "label": "Consolidation - checks largely dismantled"}
+    ]
+  },
   "ai": {
     "enabled": true,
     "model": "claude-haiku-4-5",

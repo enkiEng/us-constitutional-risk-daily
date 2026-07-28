@@ -20,6 +20,7 @@ def main() -> int:
     repo_root = Path(__file__).resolve().parents[1]
     python = sys.executable
     run([python, "scripts/update_constitutional_risk.py"], cwd=repo_root)
+    run([python, "scripts/backfill_erosion_pressure.py"], cwd=repo_root)
     run([python, "scripts/render_site.py"], cwd=repo_root)
     print("Daily pipeline complete.")
     return 0
