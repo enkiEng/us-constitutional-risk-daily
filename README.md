@@ -66,6 +66,8 @@ Variables sent to the GitLab trigger:
 - `DASHBOARD_STATUS` can also be `failed` if the daily workflow errors
 - `DASHBOARD_SCORE`
 - `DASHBOARD_BAND`
+- `DASHBOARD_CEI` (Cumulative Erosion Index, `n/a` on failure)
+- `DASHBOARD_CEI_BAND`
 - `DASHBOARD_DELTA_PREVIOUS_DAY`
 - `DASHBOARD_CONFIDENCE`
 - `DASHBOARD_DATE`

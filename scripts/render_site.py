@@ -367,6 +367,53 @@ def ledger_table_html(entries: list[dict[str, Any]], domain_names: dict[str, str
     )
 
 
+def hero_duo_html(
+    score: int,
+    band_label: str,
+    trip_wires: list[dict[str, Any]],
+    cum_rows: list[dict[str, str]],
+) -> str:
+    """Two-dial hero: cumulative erosion first, acute risk second.
+
+    The divergence between the two numbers is the page's core insight, so
+    neither is allowed to headline alone.
+    """
+    acute_note = (
+        "⚠ Trip-wire active — a confirmed catastrophic event has floored the index; see below."
+        if trip_wires
+        else "No active trip-wires — no confirmed breach in progress."
+    )
+    acute_card = (
+        '<div class="hero-card">'
+        '<div class="hero-k">Acute risk today</div>'
+        '<div class="hero-q">Is a constitutional breach happening right now?</div>'
+        f'<div class="score-row"><div class="score" style="color:{score_color(score)}">{score} / 100</div>'
+        f'<span class="band">{html.escape(band_label)}</span></div>'
+        f'<div class="hero-note">{acute_note}</div>'
+        "</div>"
+    )
+    if not cum_rows:
+        return f'<div class="hero-duo">{acute_card}</div>'
+    latest = cum_rows[-1]
+    try:
+        cei = float(latest.get("cei", "0"))
+    except ValueError:
+        return f'<div class="hero-duo">{acute_card}</div>'
+    cei_band = html.escape(str(latest.get("cei_band", "")))
+    provisional = str(latest.get("provisional", "true")).lower() == "true"
+    provisional_text = " (provisional)" if provisional else ""
+    cei_card = (
+        '<div class="hero-card hero-cei">'
+        '<div class="hero-k">Cumulative erosion</div>'
+        '<div class="hero-q">How much of the check system has been removed?</div>'
+        f'<div class="score-row"><div class="score" style="color:{score_color(int(round(cei)))}">{cei:.0f} / 100</div>'
+        f'<span class="band">{cei_band}{provisional_text}</span></div>'
+        '<div class="hero-note">Declines only when a check is verifiably restored.</div>'
+        "</div>"
+    )
+    return f'<div class="hero-duo">{cei_card}{acute_card}</div>'
+
+
 def cei_panel_html(
     cum_rows: list[dict[str, str]],
     ledger_entries: list[dict[str, Any]],
@@ -396,12 +443,12 @@ def cei_panel_html(
     ledger_html = ledger_table_html(ledger_entries, domain_names)
     return f"""
     <section class="panel cei-panel">
-      <h2>Cumulative erosion — the stock of removed checks</h2>
+      <h2>Cumulative erosion — detail and ledger</h2>
       <div class="score-row">
         <div class="score" style="color:{color}">{cei:.0f} / 100</div>
         <div class="badges"><span class="band">{band_label}</span>{provisional_tag}</div>
       </div>
-      <p class="risk-context">The daily score above is a <strong>seismograph</strong>: confirmed events in a
+      <p class="risk-context">The acute score is a <strong>seismograph</strong>: confirmed events in a
       two-day window that decay within days. This index is <strong>sea level</strong>: durable structural
       conditions — rulings in force, statutes, executed orders, entrenched practices — that have removed or
       weakened constitutional checks, plus long-memory pressure from sustained events. It declines only when a
@@ -479,6 +526,7 @@ def render_html(
         except ValueError:
             cei_values.append(0.0)
     cei_html = cei_panel_html(cum_rows, ledger_entries or [], pending_count, domain_names or {})
+    hero_html = hero_duo_html(score, str(band.get("label", "")), trip_wires, cum_rows)
 
     active_signals = [s for s in top_signals if float(s.get("severity", 0)) > 0]
     signal_rows_html = "\n".join(signal_row(item, prev) for item in active_signals[:14])
@@ -580,6 +628,14 @@ def render_html(
     .legend {{ display: flex; flex-wrap: wrap; gap: 10px; font-size: 0.82rem; color: var(--muted); margin-top: 8px; }}
     .legend span {{ display: inline-flex; align-items: center; gap: 5px; }}
     .legend i {{ width: 12px; height: 12px; border-radius: 3px; display: inline-block; }}
+    .hero-duo {{ display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }}
+    .hero-card {{ background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+      padding: 12px 14px; box-shadow: 0 2px 6px rgba(14, 31, 53, 0.04); }}
+    .hero-cei {{ border-left: 5px solid #7a2e8f; }}
+    .hero-k {{ font-family: "Merriweather", Georgia, serif; font-weight: 700; font-size: 1.05rem; }}
+    .hero-q {{ color: var(--muted); font-size: 0.88rem; margin: 2px 0 6px; }}
+    .hero-note {{ color: var(--muted); font-size: 0.85rem; margin-top: 4px; }}
+    @media (max-width: 700px) {{ .hero-duo {{ grid-template-columns: 1fr; }} }}
     .cei-panel {{ border-left: 5px solid #7a2e8f; margin: 16px 0; }}
     .cei-panel .metrics {{ margin: 10px 0; }}
     .cei-panel details {{ margin-top: 12px; }}
@@ -600,18 +656,17 @@ def render_html(
   <main>
     <section class="headline">
       <h1>US Constitutional Risk Daily</h1>
-      <div class="score-row">
-        <div class="score">{score} / 100</div>
-        <div class="badges">
-          <span class="band">{band_label}</span>
-          <span class="tag {"tag-ai" if extraction_mode == "ai" else ""}">Methodology v{methodology_version} · {extraction_label}</span>
-        </div>
-      </div>
-      <div class="score-scale-note">Scale: 0 = no constitutional risk, 100 = constitution destroyed. Ideally this stays near 0.</div>
+      {hero_html}
       <div class="risk-context">
-        This score estimates current constitutional-order stress from observable events across elections, courts,
-        executive power, and opposition rights. A single confirmed catastrophic event (a defied court order, a
-        cancelled election) trips a floor that raises the whole index regardless of the weighted total.
+        These two numbers answer different questions, and the gap between them is the point. <strong>Cumulative
+        erosion</strong> is the stock of structural damage: checks — court constraints, agency independence,
+        oversight — that have been durably removed or weakened, mostly through lawful channels. <strong>Acute
+        risk</strong> is today's events: confirmed actions in a two-day window that decay within days, with
+        trip-wire floors for catastrophic events (a defied court order, a cancelled election). A quiet news day
+        does not repair the stock.
+      </div>
+      <div class="badges">
+        <span class="tag {"tag-ai" if extraction_mode == "ai" else ""}">Methodology v{methodology_version} · {extraction_label}</span>
       </div>
       <div>{band_desc}</div>
       <div class="status {status_class}">{status_text}</div>
@@ -620,9 +675,11 @@ def render_html(
 
     {tripwire_banner}
 
+    {cei_html}
+
     <section class="grid">
       <div class="panel">
-        <h2>Where the score sits</h2>
+        <h2>Where the acute score sits</h2>
         <div class="ladder">
           {ladder_html}
         </div>
@@ -639,8 +696,6 @@ def render_html(
       </div>
     </section>
 
-    {cei_html}
-
     <section class="panel">
       <h2>Domain stress</h2>
       <p class="note">Severity is shown by both a labelled badge and a bar, so the reading does not depend on colour.</p>
@@ -650,8 +705,8 @@ def render_html(
     </section>
 
     <section class="panel">
-      <h2>60-day trend</h2>
-      <canvas id="scoreChart" width="700" height="260" role="img" aria-label="Line chart of the 0-100 constitutional risk score over the last 60 days"></canvas>
+      <h2>60-day acute trend</h2>
+      <canvas id="scoreChart" width="700" height="260" role="img" aria-label="Line chart of the 0-100 acute constitutional risk score over the last 60 days"></canvas>
     </section>
 
     <section class="panel">

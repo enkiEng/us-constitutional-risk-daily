@@ -70,6 +70,7 @@ jobs:
         id: dashboard
         run: |
           python - <<'PY'
+          import csv
           import json
           import os
           from pathlib import Path
@@ -87,6 +88,21 @@ jobs:
           date_text = generated_at[:10] if len(generated_at) >= 10 else "unknown-date"
           status = "provisional" if bool(payload.get("provisional", False)) else "live"
 
+          # Cumulative Erosion Index (CEI) from the last row of the history CSV.
+          cei_text = "n/a"
+          cei_band = "Unknown"
+          try:
+              with Path("data/cumulative_erosion_history.csv").open(newline="", encoding="utf-8") as fh:
+                  rows = list(csv.DictReader(fh))
+              if rows:
+                  last = rows[-1]
+                  cei_text = str(int(round(float(last.get("cei", "0")))))
+                  cei_band = (last.get("cei_band") or "Unknown").strip() or "Unknown"
+                  if str(last.get("provisional", "")).lower() == "true":
+                      cei_band += " (provisional)"
+          except (OSError, ValueError):
+              pass
+
           with Path(os.environ["GITHUB_OUTPUT"]).open("a", encoding="utf-8") as out:
               out.write(f"score={score}\n")
               out.write(f"band={band}\n")
@@ -94,6 +110,8 @@ jobs:
               out.write(f"confidence={confidence}\n")
               out.write(f"status={status}\n")
               out.write(f"date={date_text}\n")
+              out.write(f"cei={cei_text}\n")
+              out.write(f"cei_band={cei_band}\n")
           PY
 
       - name: Trigger GitLab scheduler
@@ -126,6 +144,8 @@ jobs:
             --form variables[DASHBOARD_STATUS]="${{ steps.dashboard.outputs.status }}" \
             --form variables[DASHBOARD_SCORE]="${{ steps.dashboard.outputs.score }}" \
             --form variables[DASHBOARD_BAND]="${{ steps.dashboard.outputs.band }}" \
+            --form variables[DASHBOARD_CEI]="${{ steps.dashboard.outputs.cei }}" \
+            --form variables[DASHBOARD_CEI_BAND]="${{ steps.dashboard.outputs.cei_band }}" \
             --form variables[DASHBOARD_DELTA_PREVIOUS_DAY]="${{ steps.dashboard.outputs.delta_previous_day }}" \
             --form variables[DASHBOARD_CONFIDENCE]="${{ steps.dashboard.outputs.confidence }}" \
             --form variables[DASHBOARD_DATE]="${{ steps.dashboard.outputs.date }}" \
@@ -169,6 +189,8 @@ jobs:
             --form variables[DASHBOARD_STATUS]="failed" \
             --form variables[DASHBOARD_SCORE]="n/a" \
             --form variables[DASHBOARD_BAND]="Unknown" \
+            --form variables[DASHBOARD_CEI]="n/a" \
+            --form variables[DASHBOARD_CEI_BAND]="Unknown" \
             --form variables[DASHBOARD_DELTA_PREVIOUS_DAY]="n/a" \
             --form variables[DASHBOARD_CONFIDENCE]="unknown" \
             --form variables[DASHBOARD_DATE]="unknown-date" \
