@@ -1,16 +1,16 @@
 {
   "attempted_queries": 22,
-  "average_7d": 13.17,
+  "average_7d": 12.84,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": -1.26,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -3.25,
   "domain_breakdown": [
     {
       "avg_severity": 0.0,
@@ -20,38 +20,38 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.6666666666666666,
+      "avg_severity": 0.43333333333333335,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.5,
+      "points": 1.625,
       "weight": 15
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.21666666666666667,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1666666666666665,
+      "points": 0.7583333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 1.2166666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 3.954166666666666,
       "weight": 13
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 2.5,
+      "points": 1.6249999999999998,
       "weight": 10
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.65,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.5,
+      "points": 1.625,
       "weight": 10
     },
     {
@@ -69,19 +69,49 @@
       "weight": 8
     }
   ],
-  "extraction_mode": "keyword",
+  "extraction_mode": "ai",
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-07-28T14:43:01.396590+00:00",
+  "generated_at": "2026-07-28T16:37:53.258525+00:00",
   "methodology_version": 2,
   "previous_score": 11,
   "provisional": false,
-  "score": 12,
-  "score_raw": 11.92,
-  "score_raw_pre_trip_wire": 11.92,
+  "score": 10,
+  "score_raw": 9.59,
+  "score_raw_pre_trip_wire": 9.59,
   "successful_queries": 22,
   "top_signals": [
+    {
+      "confirmed_hits": 2,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOHZfeWItUWw5Rk5BM0ZGQ3o3dWhzSHNzQUEyTFRVVmNRNFhVQWlPM1JobkZhNFZXTnVHNjVVaU5helZhSjJLR0MxMWJfUWNnRHV4ZGt6SEhMbklyNmJPNGI2QkR1NFl6b3pkRXFhb3NDQ0xPcUZYVWFYWGJyaU1LOWlXLXNtaDNLN0pBMF9wejRsSnc5b2gzeGYyTElsdHFrTUEyTEJpM1daQ2ZsdjktdndlVl9rb2h3SUdMc3RGQ2pwY2NOWlRhdUNrdHBxYUcySnJoNHZpSDJVenVz?oc=5",
+          "published": "2026-07-27T20:22:31+00:00",
+          "publisher": "facebook.com",
+          "title": "Breaking news: The Trump administration asked the Supreme Court on Monday to clear the way for a sweeping executive order that would place major new restrictions on mail-in voting for November\u2019s midterm elections. - facebook.com"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdG4xQnZZOHF6UmZ0YUVJWnhLa1JaM1prZUxjS21KNVNhMllLakprUy1hbVRWRnFpeGpleGZqYzI1SU1iR0I1amR1cWpmNkVWWGVzVnQ3V2dLMms0czJGSTdSNUVZc2pBbXRvWGtLUzNlUFh5US0wQXlIMlVocXlJSUlfNmxZLU1qdjZLa2h2azdwUzJoNFN4dWJjaElNa2NhSVpUSV9DMzhoMDVFVk1sc0VoNW5PVHdtNGIxZ1BwZUI2eG9y?oc=5",
+          "published": "2026-07-28T14:59:59+00:00",
+          "publisher": "The Maine Wire",
+          "title": "Trump Administration Asks Supreme Court to Revive Mail-In Voting Order Ahead of Midterms - The Maine Wire"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 3,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_source_url": "facebook.com",
+      "rationale": "The Trump administration filed a request with the Supreme Court seeking approval for an executive order restricting mail-in voting for midterm elections. This represents an attempt to implement major electoral restrictions through executive action rather than legislation, which is a credible signal of legislative bypass. However, the action is a petition request (not yet approved or implemented), and it was apparently blocked by an appeals court per item [2], limiting its current severity. This is a real, confirmed action by an official entity attempting executive overreach on electoral matters.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
@@ -94,29 +124,29 @@
           "title": "An Unconstrained Supreme Court | David Cole - The New York Review of Books"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT3AzUGFvU21YeEpHQzNtYUlDN1JPblhVUkRlRlp5QjYtbjg5TldJMU9CLW9kaFFlODdVNVZmM0tLVmQ3bEVUdndnWWQ1OWJWazduQWZaVmtFXzRNa3RsdTFVSUJQWWZnQjNwcnhXTGRPOGMyUTRubmF4TG1LTEVya09RUS1NMi1zRkdUM3B2SThmWk43RG90NUNwNnbSAaIBQVVfeXFMTUpWYmxHOGg1cUpvTndTM2VncnQwa3Z5b3VWb2ZldXI1bFJDZDhnYXhTemNmNUxjai1aUFl5Z01JNkh2MnBRN3VGaFFIRHZqbWlzYkxMMFU1RGloYktpeU5IMENtTUIzWnVvNEdOUWVFcDY0Z3N0MlB0YUhrV1ZGYnlSUmh4b3dadDlIbGlESGtsV21yVFhTS0xwSDNsa3l0X3pB?oc=5",
-          "published": "2026-07-27T20:01:33+00:00",
-          "publisher": "Marin Independent Journal",
-          "title": "Guest editorial: The Fed\u2019s independence is unfinished business - Marin Independent Journal"
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNzZwZHkzQ1dtT3Vici1KUy0xUS1NOHoyRFRsNXpGZnpZeUNabGZsekpCbDJheG5tcXctVDRIVHhjak9iMFlVSDl6ZkRJazJIZHU0THpzMGU5SEppS045NXl1Tno1ZWczMWtUcEhTaFhiWFFXNDdfX29OOEFhQkVCblRyeWx6V2FuUmtJWUNDRUM3cWJCc2Q3YTBHNE5YU2dfOFR3b3RZTUlNeFpVbzM2d3BRZGhMcFBN?oc=5",
+          "published": "2026-07-28T04:15:55+00:00",
+          "publisher": "The Regulatory Review",
+          "title": "Preserving the Adjudicative Capacity of Non-Article III Tribunals - The Regulatory Review"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUNmUWRxOHh5c2p0QzBsVHZERWZncjVkSDkydWFmbDJDVGZyQy1OV0Z1UFMzUDVPdXNkM0VTczNvcm9YNjZqbEdLZUd3eFpRU1pXWVdoWHZVWEFmRHFON3o3bktOQXNjczR5RndqWXZsM3oxcVBWeXpsN1FKeWQyc2Z0REZoY0dTa3c2TWtQenVVaU0tTS1YY0k2cW54Zks0SEd3TWg5WmtreXlab3dYOGh6cEFSUGc?oc=5",
-          "published": "2026-07-27T04:20:55+00:00",
-          "publisher": "The Regulatory Review",
-          "title": "The End of NRC Independence and the Future of Nuclear Safety - The Regulatory Review"
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE01RGcwZzNVUkRjeHZ1TjlieTNOelZ0RlMzRFhTMHgxSmI0elVMVXNEbkprSHFJVGpBdXRXMmtDYmlEcUk5eEdiUzVNYnltejNyX3FUeG40U2RuMlhPd0s1R3dNdi1TZURjOHpkV0ZzV1NhQQ?oc=5",
+          "published": "2026-07-28T12:00:00+00:00",
+          "publisher": "Mises Institute",
+          "title": "The Supreme Court Plays Wizard of Oz with the Fed - Mises Institute"
         }
       ],
-      "evidence_mode": "keyword",
-      "hits": 4,
+      "evidence_mode": "ai",
+      "hits": 6,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 4
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
@@ -136,7 +166,7 @@
           "title": "Former South Korean President Yoon Handed Suspended Sentence Over Election Law Violation - Outlook India"
         }
       ],
-      "evidence_mode": "keyword",
+      "evidence_mode": "ai",
       "hits": 2,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
@@ -144,9 +174,9 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
@@ -166,23 +196,23 @@
           "title": "Bangladesh seeks editors' input on new media policy - Journalism Pakistan"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYkZXMFhnUTduVGlDNmdlOUc2ZzQwME03eFdPZWtrSk1PYjZ3ZjhLMXlaazVSeWNaZTI2NVVURTRFWjFZVHJLNUhBd3FENlJkMHBfdktPNlktbHVvVDZzMzhIR3ItN1FkMWdCUjJuZ2xqVW9UbmM1Ri1FLW4wQUowRXZBelN5RjJmekw4dV92RndnaWpi?oc=5",
-          "published": "2026-07-28T09:04:01+00:00",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmF4d3k2UWRPOWoyVTl3Y2lrMV9MTWxfUjlNOXA3NjB0Z3d2MUo4NVk1cGlBcjhMOXBaQWE1WmNFbVZlM0g1RlpkOXFNT2t0b3h3dV8tWXVVWHpscVB5bWJxT0U3ZVFwb2pORjBWb0JQUzc1cGNJRFBvV1dhOEMybHdFREVGLUdOWHVYOHRiWExxUQ?oc=5",
+          "published": "2026-07-28T16:03:17+00:00",
           "publisher": "Journalism Pakistan",
-          "title": "SCO media summit spotlights AI and regional cooperation - Journalism Pakistan"
+          "title": "Iran, Pakistan media groups sign cooperation agreement - Journalism Pakistan"
         }
       ],
-      "evidence_mode": "keyword",
-      "hits": 5,
+      "evidence_mode": "ai",
+      "hits": 6,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
@@ -202,7 +232,7 @@
           "title": "PDP: Aondoakaa Not Barred From Public Office, Says Supreme Court Never Disqualified Him - LEADERSHIP Newspapers"
         }
       ],
-      "evidence_mode": "keyword",
+      "evidence_mode": "ai",
       "hits": 2,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
@@ -210,63 +240,9 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOHZfeWItUWw5Rk5BM0ZGQ3o3dWhzSHNzQUEyTFRVVmNRNFhVQWlPM1JobkZhNFZXTnVHNjVVaU5helZhSjJLR0MxMWJfUWNnRHV4ZGt6SEhMbklyNmJPNGI2QkR1NFl6b3pkRXFhb3NDQ0xPcUZYVWFYWGJyaU1LOWlXLXNtaDNLN0pBMF9wejRsSnc5b2gzeGYyTElsdHFrTUEyTEJpM1daQ2ZsdjktdndlVl9rb2h3SUdMc3RGQ2pwY2NOWlRhdUNrdHBxYUcySnJoNHZpSDJVenVz?oc=5",
-          "published": "2026-07-27T20:22:31+00:00",
-          "publisher": "facebook.com",
-          "title": "Breaking news: The Trump administration asked the Supreme Court on Monday to clear the way for a sweeping executive order that would place major new restrictions on mail-in voting for November\u2019s midterm elections. - facebook.com"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY0dCdjNjRkJsUGdDazg1YS1HOTZtNVBrQmlzT2NIYmNXVGN1cWNtOE9GSGlrRklxUFM0UDFCWjJDQXRxV2diM3BlNmdRVnQ0UEZjeERRSnZ4MDVjdUQ4U3docjhxNXNVNjNMZFUzVldVbG5NTm1qb1JkNjlZN084UVhKSF92eGlEeU9WM2tR?oc=5",
-          "published": "2026-07-27T05:43:00+00:00",
-          "publisher": "jdjournal.com",
-          "title": "Appeals Court Blocks Trump\u2019s Mail-In Voting Order - jdjournal.com"
-        }
-      ],
-      "evidence_mode": "keyword",
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2ZmQkxwYXdRZW04RzdKeEF1cWMtWTR3Z2tGUmMzaVI2MnJCbTk0T1ZnWWVEMVIybkZ2MldxS1lLMG96dkZzNkRjTlBGWTBYNnBCMnl0WnVBdEVmMmpmOEh4VGtEWGFuaDBDd29qQUV0LUcyRE5KR0hfSVlMOTU5d0c4STFscDQwd0R5V0IxckZFZng3TlRLUzBaNElmNXpVYjRzVkJkQ2p3ZnNnVjdIb1lNUzNGbWROMEpnSUl6MkFZbnhvZlHSAcYBQVVfeXFMTktmZkJMcGF3UWVtOEc3SnhBdXFjLVk0d2drRlJjM2lSNjJyQm05NE9WZ1llRDFSMm5GdjJXcUtZSzBvenZGczZEY05QRlkwWDZwQjJ5dFp1QXRFZjJqZjhIeFRrRFhhbmgwQ3dvakFFdC1HMkROSkdIX0lZTDk1OXdHOEkxbHA0MHdEeVdCMXJGRWZ4N05US1MwWjRJZjV6VWI0c1ZCZENqd2ZzZ1Y3SG9ZTVMzRm1kTjBKZ0lJejJBWW54b2ZR?oc=5",
-          "published": "2026-07-26T16:04:00+00:00",
-          "publisher": "The Manila Times",
-          "title": "The collapse of the US bipartisan consensus over Israel ties - The Manila Times"
-        }
-      ],
-      "evidence_mode": "keyword",
-      "hits": 1,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
@@ -280,7 +256,7 @@
           "title": "Firm to Farm: Supreme Court Ruling Gives Farmers More Time to Challenge FSA Actions - RFD-TV"
         }
       ],
-      "evidence_mode": "keyword",
+      "evidence_mode": "ai",
       "hits": 1,
       "id": "jurisdiction_stripping_targeted",
       "name": "Targeted Jurisdiction Stripping",
@@ -288,9 +264,9 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
@@ -304,7 +280,7 @@
           "title": "The 'Azadi' Slogan Ignites a New Political Firestorm in Bengal - streamlinefeed.co.ke"
         }
       ],
-      "evidence_mode": "keyword",
+      "evidence_mode": "ai",
       "hits": 1,
       "id": "political_speech_surveillance",
       "name": "Political Speech Criminalization or Surveillance",
@@ -312,9 +288,26 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.65,
+      "severity_label": "Green",
+      "unique_publishers": 0
     }
   ],
   "trip_wires_fired": []
