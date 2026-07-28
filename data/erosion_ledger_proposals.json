@@ -1,0 +1,277 @@
+{
+  "generated_at": "2026-07-28",
+  "status": "merged into data/erosion_ledger.json on 2026-07-28 (reviewer: magnitudes adjusted for humphreys_executor_overruled -> 4, inspector_general_mass_removal_unremedied -> 3)",
+  "entries": [
+    {
+      "id": "ieepa_tariff_emergency_powers",
+      "domain_id": "executive_constraints",
+      "title": "IEEPA national-emergency declarations used to impose sweeping tariffs without Congress",
+      "class": "executive_action",
+      "magnitude": 3,
+      "status": "reversed",
+      "established": "2025-04-02",
+      "reversed": "2026-02-20",
+      "evidence": [
+        "https://www.supremecourt.gov/opinions/25pdf/24-1287_4gcj.pdf",
+        "https://www.congress.gov/crs-product/LSB11398",
+        "https://www.brookings.edu/articles/brookings-experts-on-the-supreme-courts-tariff-decision/"
+      ],
+      "note": "Emergency powers run routine trade policy Apr 2025 - Feb 2026; SCOTUS reversed in Learning Resources v. Trump (2026-02-20): IEEPA does not authorize tariffs. Kept as reversed for the historical record; contributes 0 after reversal date. Judicial check functioned here."
+    },
+    {
+      "id": "pocket_rescission_impoundment",
+      "domain_id": "federalism_oversight",
+      "title": "Pocket rescission executed: appropriated funds withheld until expiration over congressional objection",
+      "class": "practice",
+      "magnitude": 3,
+      "status": "active",
+      "established": "2025-09-26",
+      "reversed": null,
+      "evidence": [
+        "https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-trump-withhold-4-billion-foreign-aid-funding-rcna230348",
+        "https://www.gao.gov/blog/what-pocket-rescission-and-it-legal",
+        "https://www.congress.gov/crs-product/LSB11374"
+      ],
+      "note": "~$4B lapsed 2025-09-30 after SCOTUS emergency stay; GAO/CRS say the tactic violates the Impoundment Control Act but no merits ruling exists. Power of the purse over expiring funds now survives only at executive discretion. Reversal: merits ruling against unilateral impoundment or ICA amendment."
+    },
+    {
+      "id": "humphreys_executor_overruled",
+      "domain_id": "civil_service_integrity",
+      "title": "Trump v. Slaughter: Humphrey's Executor overruled; for-cause removal protection for independent agency heads unconstitutional",
+      "class": "ruling",
+      "magnitude": 4,
+      "status": "active",
+      "established": "2026-06-29",
+      "reversed": null,
+      "evidence": [
+        "https://www.supremecourt.gov/opinions/25pdf/25-332_qn12.pdf",
+        "https://www.congress.gov/crs-product/LSB11448",
+        "https://en.wikipedia.org/wiki/Trump_v._Slaughter"
+      ],
+      "note": "Reviewer set magnitude 4 (2026-07-28): the for-cause check is eliminated as controlling constitutional law; Trump v. Cook's Fed carve-out and Congress's indirect levers do not change that no statutory fix can reverse it. Reversal requires the Court itself or amendment."
+    },
+    {
+      "id": "schedule_policy_career_in_effect",
+      "domain_id": "civil_service_integrity",
+      "title": "Schedule Policy/Career in effect: OPM final rule + EO 14410 reclassify career civil servants to at-will",
+      "class": "executive_action",
+      "magnitude": 3,
+      "status": "active",
+      "established": "2026-03-09",
+      "reversed": null,
+      "evidence": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-02-06/pdf/2026-02375.pdf",
+        "https://www.congress.gov/crs-product/LSB11412",
+        "https://www.whitehouse.gov/presidential-actions/2026/06/implementing-schedule-policy-career-in-the-excepted-service/",
+        "https://federalnewsnetwork.com/workforce/2026/06/trump-moves-about-8000-federal-positions-to-schedule-policy-career/"
+      ],
+      "note": "OPM rule effective 2026-03-09; EO 14410 (2026-06-03) executed first tranche (~8,000 positions, up to ~50,000 eligible). No injunction as of late July 2026 despite NTEU/AFGE suits. Reversal: vacatur, rescinding EO, or statutory codification."
+    },
+    {
+      "id": "inspector_general_mass_removal_unremedied",
+      "domain_id": "civil_service_integrity",
+      "title": "Mass IG removals stand despite being held unlawful; 30-day-notice protection left without effective remedy",
+      "class": "practice",
+      "magnitude": 3,
+      "status": "active",
+      "established": "2025-01-24",
+      "reversed": null,
+      "evidence": [
+        "https://www.cnn.com/2025/09/24/politics/inspector-general-fired-lawsuit-trump",
+        "https://en.wikipedia.org/wiki/2025_dismissals_of_U.S._inspectors_general",
+        "https://federalnewsnetwork.com/agency-oversight/2025/09/trump-unlawfully-fired-17-agency-igs-judge-finds-but-wont-reinstate-them/"
+      ],
+      "note": "Reviewer set magnitude 3 (2026-07-28): D.D.C. held the removals unlawful but confirmed the notice requirement carries no reinstatement remedy, so IGs are de facto removable at will - the check survives only at executive discretion. Appeal/back-pay litigation pending; a remedy-bearing appellate ruling would lower this."
+    },
+    {
+      "id": "contempt_check_neutralized_aea_flights",
+      "domain_id": "judiciary_rule_of_law",
+      "title": "Criminal contempt for executive defiance neutralized: D.C. Circuit mandamus ends Boasberg proceedings",
+      "class": "ruling",
+      "magnitude": 3,
+      "status": "active",
+      "established": "2026-04-14",
+      "reversed": null,
+      "evidence": [
+        "https://www.pbs.org/newshour/nation/appeals-court-orders-judge-to-end-contempt-investigation-of-deportation-flights",
+        "https://www.lawdork.com/p/dc-circuit-aea-contempt-proceedings-mandamus",
+        "https://www.justsecurity.org/142031/boasberg-contempt-blanche-bove/"
+      ],
+      "note": "After the 2025-03-15 deportation flights defied a TRO, the one sustained contempt attempt was extinguished by 2-1 mandamus (2026-04-14, en banc denied). Contempt against the executive effectively unavailable in this circuit's current configuration. Reversal: en banc/SCOTUS repudiation or a successful future contempt prosecution."
+    },
+    {
+      "id": "doj_prosecutorial_independence_collapsed",
+      "domain_id": "judiciary_rule_of_law",
+      "title": "DOJ prosecutorial independence norm abandoned: directed dismissals/indictments; resisting career prosecutors removed",
+      "class": "practice",
+      "magnitude": 3,
+      "status": "active",
+      "established": "2025-02-10",
+      "reversed": null,
+      "evidence": [
+        "https://www.cnn.com/2025/04/02/politics/eric-adams-dismissal/index.html",
+        "https://en.wikipedia.org/wiki/2025_U.S._Department_of_Justice_resignations",
+        "https://www.nbcnews.com/politics/justice-department/judge-dismisses-cases-james-comey-letitia-james-finding-prosecutor-was-rcna244775"
+      ],
+      "note": "Entrenched pattern: Adams dismissal directive + mass resignations (Feb 2025); Comey/James indictments over career objections via hand-picked interim US Attorney; national-security prosecutor firings. Courts imposed partial friction (Nov 2025 dismissals on appointment grounds; appeal pending) but the directed-prosecution practice itself is unchecked. Overlaps directed_prosecutions_opposition_figures (different domain/facet - see that note)."
+    },
+    {
+      "id": "judge_intimidation_campaign",
+      "domain_id": "judiciary_rule_of_law",
+      "title": "Sustained intimidation environment for federal judges: impeachment-for-rulings campaigns, record threat levels",
+      "class": "practice",
+      "magnitude": 1,
+      "status": "active",
+      "established": "2025-03-18",
+      "reversed": null,
+      "evidence": [
+        "https://www.npr.org/2025/03/13/nx-s1-5316340/threats-judges-trump",
+        "https://www.usmarshals.gov/sites/default/files/media/document/2026-Judicial-Security.pdf"
+      ],
+      "note": "Formal check (life tenure) intact - no judge removed; harm is to the norm environment. Mag 1 conservative. Raise if USMS protection is ever actually pulled in retaliation."
+    },
+    {
+      "id": "federal_executive_intrusion_election_administration",
+      "domain_id": "elections_transfer",
+      "title": "Executive orders and DOJ campaign asserting federal control over state election administration (EO 14248, EO 14399, voter-roll demands)",
+      "class": "executive_action",
+      "magnitude": 2,
+      "status": "partially_reversed",
+      "established": "2025-03-25",
+      "reversed": null,
+      "evidence": [
+        "https://www.congress.gov/crs-product/LSB11368",
+        "https://en.wikipedia.org/wiki/Executive_Order_14399",
+        "https://www.federalregister.gov/documents/2026/06/02/2026-10968/ballot-mail-for-federal-elections",
+        "https://www.brennancenter.org/our-work/research-reports/tracker-justice-department-requests-voter-information",
+        "https://www.votebeat.org/national/2026/06/25/trump-election-overhaul-mail-voting-executive-order-blocked-talwani-usps-dhs/"
+      ],
+      "note": "Merged entry (two research passes covered EO 14399 separately). EO 14248 enjoined for 19 states; EO 14399 enjoined in 23 states + DC but operative elsewhere with USPS implementing rule; ~23 states already handed over voter data (durable transfer). SCOTUS emergency application pending (filed 2026-07-27) - a grant before the midterms raises this to 3."
+    },
+    {
+      "id": "nspm7_domestic_terrorism_directive",
+      "domain_id": "opposition_pluralism",
+      "title": "NSPM-7: counterterrorism and financial-enforcement apparatus directed at 'radical left' domestic opposition",
+      "class": "executive_action",
+      "magnitude": 3,
+      "status": "active",
+      "established": "2025-09-25",
+      "reversed": null,
+      "evidence": [
+        "https://www.aclu.org/news/national-security/how-nspm-7-seeks-to-use-domestic-terrorism-to-target-nonprofits-and-activists",
+        "https://www.brennancenter.org/our-work/research-reports/trumps-orders-targeting-antifascism-aim-criminalize-opposition",
+        "https://www.justsecurity.org/139553/domestic-terrorism-nspm-7-counterterrorism-strategy/"
+      ],
+      "note": "Standing directive, actively operationalized (designations Nov-Dec 2025; 15-defendant indictment June 2026). Neutral application of terrorism/tax enforcement now discretionary. No injunction against the memorandum itself as of July 2026."
+    },
+    {
+      "id": "directed_prosecutions_opposition_figures",
+      "domain_id": "opposition_pluralism",
+      "title": "DOJ prosecution of the president's named adversaries via hand-picked prosecutor (Comey, James)",
+      "class": "practice",
+      "magnitude": 2,
+      "status": "partially_reversed",
+      "established": "2025-09-25",
+      "reversed": null,
+      "evidence": [
+        "https://www.nbcnews.com/politics/justice-department/judge-dismisses-cases-james-comey-letitia-james-finding-prosecutor-was-rcna244775",
+        "https://www.lawfaremedia.org/article/federal-judge-dismisses-comey-and-james-indictments",
+        "https://www.congress.gov/crs-product/LSB11380"
+      ],
+      "note": "Opposition-rights facet of the DOJ-independence entry (judiciary domain) - kept separate because the harms land in different domains; magnitudes set so the pair is not double-counted at full weight. Judicial check held so far (Nov 2025 dismissals; 4th Cir. hearing Sept 2026). Revival there raises magnitude."
+    },
+    {
+      "id": "white_house_press_pool_control_ap_exclusion",
+      "domain_id": "civil_liberties_information",
+      "title": "White House seizure of press-pool composition; viewpoint-based exclusion of the AP",
+      "class": "practice",
+      "magnitude": 2,
+      "status": "active",
+      "established": "2025-02-25",
+      "reversed": null,
+      "evidence": [
+        "https://en.wikipedia.org/wiki/Associated_Press_v._Budowich",
+        "https://clearinghouse.net/case/46152/",
+        "https://www.rcfp.org/ap-white-house-dc-circuit-amicus/"
+      ],
+      "note": "WHCA pool control stripped Feb 2025; AP exclusion in effect after D.C. Cir. stayed the injunction (June 2025); merits undecided as of July 2026."
+    },
+    {
+      "id": "pentagon_press_credential_regime",
+      "domain_id": "civil_liberties_information",
+      "title": "Pentagon credential regime conditioning access on pre-publication restrictions; press corps expelled",
+      "class": "executive_action",
+      "magnitude": 2,
+      "status": "partially_reversed",
+      "established": "2025-10-15",
+      "reversed": null,
+      "evidence": [
+        "https://pressfreedomtracker.us/all-incidents/pete-hegseth-restricts-journalists-access-inside-pentagon/",
+        "https://www.pbs.org/newshour/politics/journalists-leave-pentagon-rather-than-agree-to-new-reporting-rules"
+      ],
+      "note": "~40-50 correspondents surrendered credentials Oct 2025. District court held revocation provisions unconstitutional (Mar 2026) but found DoD 'continues to flout' the order (Apr 2026); on-the-ground access still curtailed."
+    },
+    {
+      "id": "fcc_license_threats_broadcaster_retaliation",
+      "domain_id": "civil_liberties_information",
+      "title": "FCC license threats and 'news distortion' investigations policing broadcaster content",
+      "class": "practice",
+      "magnitude": 2,
+      "status": "active",
+      "established": "2025-09-17",
+      "reversed": null,
+      "evidence": [
+        "https://www.pbs.org/newshour/show/fcc-threatens-abcs-licenses-as-trumps-call-for-kimmels-firing",
+        "https://www.freepress.net/news/fcc-chairman-carrs-threat-pull-abc-broadcast-licenses-unconstitutional-attack-free-speech"
+      ],
+      "note": "Kept at 2: no license actually revoked and no court has blessed the practice. Reversal: closing retaliatory proceedings or injunction against content-based license review."
+    },
+    {
+      "id": "ideological_visa_revocation_speech",
+      "domain_id": "civil_liberties_information",
+      "title": "Standing visa-revocation and ideological social-media vetting targeting speech (Catch and Revoke)",
+      "class": "practice",
+      "magnitude": 2,
+      "status": "active",
+      "established": "2025-03-01",
+      "reversed": null,
+      "evidence": [
+        "https://www.brennancenter.org/our-work/research-reports/timeline-social-media-monitoring-vetting-department-homeland-security-and",
+        "https://news.bloomberglaw.com/daily-labor-report/state-department-sued-over-visa-policy-tied-to-social-media-work"
+      ],
+      "note": "Standing policy through mid-2026; established date approximate. Scope of revocations government-reported and hard to verify independently."
+    },
+    {
+      "id": "security_sector_loyalty_purge",
+      "domain_id": "security_sector_neutrality",
+      "title": "Loyalty-based purge of FBI leadership/agents and senior military officers as standing practice",
+      "class": "practice",
+      "magnitude": 3,
+      "status": "active",
+      "established": "2025-02-21",
+      "reversed": null,
+      "evidence": [
+        "https://www.nbcnews.com/politics/justice-department/former-top-fbi-officials-sue-say-kash-patel-fired-stay-trumps-good-gra-rcna230369",
+        "https://www.csmonitor.com/USA/Military/2026/0404/iran-war-hegseth-army-general-fired",
+        "https://www.aei.org/foreign-and-defense-policy/purge-at-the-pentagon-politicization-or-business-as-usual/"
+      ],
+      "note": "CJCS/CNO/JAG firings Feb 2025 through Army Chief of Staff ~Apr 2026 (21+ generals); FBI suits allege explicit loyalty vetting. Firings undisputed; allegations one-sided; no reinstatements as of July 2026."
+    },
+    {
+      "id": "domestic_guard_deployment_practice",
+      "domain_id": "security_sector_neutrality",
+      "title": "Long-term domestic Guard deployment for civilian policing (DC through 2029; Memphis, New Orleans), curtailed by Trump v. Illinois",
+      "class": "practice",
+      "magnitude": 2,
+      "status": "partially_reversed",
+      "established": "2025-06-07",
+      "reversed": null,
+      "evidence": [
+        "https://taskandpurpose.com/news/national-guard-dc-mission-extended-2026/",
+        "https://www.scotusblog.com/cases/case-files/trump-v-illinois/",
+        "https://www.brennancenter.org/our-work/analysis-opinion/trump-v-illinois-narrow-supreme-court-decision-broad-implications-0"
+      ],
+      "note": "DC deployment extended through Inauguration Day 2029; Memphis/New Orleans continue with state consent. Over-state-objection track checked by Trump v. Illinois (Dec 2025) and withdrawals from Chicago/LA/Portland. Insurrection Act not invoked but not foreclosed."
+    }
+  ]
+}
