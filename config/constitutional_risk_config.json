@@ -43,6 +43,7 @@
   "ai": {
     "enabled": true,
     "model": "claude-haiku-4-5",
+    "ledger_model": "claude-sonnet-5",
     "max_articles_per_signal": 12,
     "effort": "low",
     "cache_path": "data/ai_classification_cache.json",

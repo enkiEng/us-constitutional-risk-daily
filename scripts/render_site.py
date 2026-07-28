@@ -60,6 +60,36 @@ def parse_args() -> argparse.Namespace:
         default=Path("site/data/constitutional_risk_history.csv"),
         help="Path to copied history CSV for public consumption.",
     )
+    parser.add_argument(
+        "--cumulative-history",
+        type=Path,
+        default=Path("data/cumulative_erosion_history.csv"),
+        help="Path to Cumulative Erosion Index history CSV.",
+    )
+    parser.add_argument(
+        "--ledger",
+        type=Path,
+        default=Path("data/erosion_ledger.json"),
+        help="Path to the structural condition ledger JSON.",
+    )
+    parser.add_argument(
+        "--proposals",
+        type=Path,
+        default=Path("data/erosion_ledger_proposals.json"),
+        help="Path to pending ledger proposals JSON (for the review-debt note).",
+    )
+    parser.add_argument(
+        "--output-cumulative",
+        type=Path,
+        default=Path("site/data/cumulative_erosion_history.csv"),
+        help="Path to copied CEI history CSV for public consumption.",
+    )
+    parser.add_argument(
+        "--output-ledger",
+        type=Path,
+        default=Path("site/data/erosion_ledger.json"),
+        help="Path to copied ledger JSON for public consumption.",
+    )
     return parser.parse_args()
 
 
@@ -290,10 +320,118 @@ def trip_wire_html(trip_wires: list[dict[str, Any]]) -> str:
     )
 
 
+def ledger_table_html(entries: list[dict[str, Any]], domain_names: dict[str, str]) -> str:
+    if not entries:
+        return "<p class='note'>Ledger not yet seeded.</p>"
+
+    def sort_key(entry: dict[str, Any]) -> tuple[int, float]:
+        status_rank = {"active": 0, "partially_reversed": 1, "reversed": 2}
+        rank = status_rank.get(str(entry.get("status", "active")), 0)
+        try:
+            magnitude = float(entry.get("magnitude", 0))
+        except (TypeError, ValueError):
+            magnitude = 0.0
+        return (rank, -magnitude)
+
+    rows: list[str] = []
+    for entry in sorted(entries, key=sort_key):
+        title = html.escape(str(entry.get("title", "")))
+        domain = html.escape(domain_names.get(str(entry.get("domain_id", "")), str(entry.get("domain_id", ""))))
+        klass = html.escape(str(entry.get("class", "")))
+        status = str(entry.get("status", "active"))
+        status_label = {"active": "Active", "partially_reversed": "Partially reversed", "reversed": "Reversed"}.get(status, status)
+        try:
+            magnitude = float(entry.get("magnitude", 0))
+        except (TypeError, ValueError):
+            magnitude = 0.0
+        _, bg, ink, border = severity_style(magnitude)
+        established = html.escape(str(entry.get("established", "")))
+        links = "".join(
+            f' <a href="{html.escape(str(url))}" target="_blank" rel="noopener noreferrer">[{idx + 1}]</a>'
+            for idx, url in enumerate((entry.get("evidence") or [])[:3])
+        )
+        note = html.escape(str(entry.get("note", "")))
+        rows.append(
+            "<tr>"
+            f'<td><span class="sig-name">{title}</span><span class="sig-domain">{domain} · {klass}</span>'
+            f'<div class="sig-rationale">{note}</div></td>'
+            f'<td><span class="sev-chip" style="background:{bg};color:{ink};border-color:{border}">{magnitude:.0f}</span></td>'
+            f'<td class="ledger-status ledger-{status}">{status_label}</td>'
+            f"<td>{established}</td>"
+            f"<td>{links}</td>"
+            "</tr>"
+        )
+    return (
+        "<table><thead><tr><th>Condition</th><th>Mag</th><th>Status</th><th>Since</th><th>Evidence</th></tr></thead>"
+        f"<tbody>{''.join(rows)}</tbody></table>"
+    )
+
+
+def cei_panel_html(
+    cum_rows: list[dict[str, str]],
+    ledger_entries: list[dict[str, Any]],
+    pending_count: int,
+    domain_names: dict[str, str],
+) -> str:
+    if not cum_rows:
+        return ""
+    latest = cum_rows[-1]
+    try:
+        cei = float(latest.get("cei", "0"))
+        ledger_score = float(latest.get("ledger_score", "0"))
+        pressure_score = float(latest.get("pressure_score", "0"))
+    except ValueError:
+        return ""
+    band_label = html.escape(str(latest.get("cei_band", "")))
+    provisional = str(latest.get("provisional", "true")).lower() == "true"
+    color = score_color(int(round(cei)))
+    active_count = sum(1 for e in ledger_entries if str(e.get("status")) != "reversed")
+    provisional_tag = '<span class="tag">provisional — ledger not seeded</span>' if provisional else ""
+    pending_note = (
+        f'<div class="note pending-note">⏳ {pending_count} ledger proposal{"s" if pending_count != 1 else ""} awaiting human review '
+        '(proposals never affect this number until reviewed and merged).</div>'
+        if pending_count
+        else ""
+    )
+    ledger_html = ledger_table_html(ledger_entries, domain_names)
+    return f"""
+    <section class="panel cei-panel">
+      <h2>Cumulative erosion — the stock of removed checks</h2>
+      <div class="score-row">
+        <div class="score" style="color:{color}">{cei:.0f} / 100</div>
+        <div class="badges"><span class="band">{band_label}</span>{provisional_tag}</div>
+      </div>
+      <p class="risk-context">The daily score above is a <strong>seismograph</strong>: confirmed events in a
+      two-day window that decay within days. This index is <strong>sea level</strong>: durable structural
+      conditions — rulings in force, statutes, executed orders, entrenched practices — that have removed or
+      weakened constitutional checks, plus long-memory pressure from sustained events. It declines only when a
+      check is verifiably restored, and it can be high on an otherwise quiet day.</p>
+      <div class="metrics">
+        <div class="metric"><div class="k">Structural ledger</div><div class="v">{ledger_score:.1f} pts</div>
+          <div class="note">{active_count} active condition{"s" if active_count != 1 else ""}</div></div>
+        <div class="metric"><div class="k">Event pressure (180-day memory)</div><div class="v">{pressure_score:.1f}</div>
+          <div class="note">contributes ×0.35</div></div>
+      </div>
+      {pending_note}
+      <canvas id="ceiChart" width="700" height="200" role="img" aria-label="Line chart of the cumulative erosion index over its full history"></canvas>
+      <details>
+        <summary><strong>Structural condition ledger</strong> ({len(ledger_entries)} entries — the public audit trail)</summary>
+        <p class="note">Every entry is human-reviewed with linked evidence. Magnitude 1 = norm abandoned, check intact ·
+        2 = check weakened in a targeted scope · 3 = check survives only at executive discretion · 4 = check effectively
+        eliminated. Reversed entries stay listed (struck) as the record of checks that held.</p>
+        {ledger_html}
+      </details>
+    </section>"""
+
+
 def render_html(
     summary: dict[str, Any],
     history_rows: list[dict[str, str]],
     signal_rows: list[dict[str, str]],
+    cum_rows: list[dict[str, str]] | None = None,
+    ledger_entries: list[dict[str, Any]] | None = None,
+    pending_count: int = 0,
+    domain_names: dict[str, str] | None = None,
 ) -> str:
     score = int(summary.get("score", 0))
     score_css_color = score_color(score)
@@ -331,6 +469,16 @@ def render_html(
     extraction_label = (
         "AI event extraction" if extraction_mode == "ai" else "keyword volume (AI extraction unavailable)"
     )
+
+    cum_rows = sorted(cum_rows or [], key=lambda row: row.get("date", ""))
+    cei_labels = [row.get("date", "") for row in cum_rows]
+    cei_values: list[float] = []
+    for row in cum_rows:
+        try:
+            cei_values.append(float(row.get("cei", "0")))
+        except ValueError:
+            cei_values.append(0.0)
+    cei_html = cei_panel_html(cum_rows, ledger_entries or [], pending_count, domain_names or {})
 
     active_signals = [s for s in top_signals if float(s.get("severity", 0)) > 0]
     signal_rows_html = "\n".join(signal_row(item, prev) for item in active_signals[:14])
@@ -432,6 +580,16 @@ def render_html(
     .legend {{ display: flex; flex-wrap: wrap; gap: 10px; font-size: 0.82rem; color: var(--muted); margin-top: 8px; }}
     .legend span {{ display: inline-flex; align-items: center; gap: 5px; }}
     .legend i {{ width: 12px; height: 12px; border-radius: 3px; display: inline-block; }}
+    .cei-panel {{ border-left: 5px solid #7a2e8f; margin: 16px 0; }}
+    .cei-panel .metrics {{ margin: 10px 0; }}
+    .cei-panel details {{ margin-top: 12px; }}
+    .cei-panel summary {{ cursor: pointer; color: var(--accent); }}
+    .ledger-status {{ font-size: 0.85rem; font-weight: 700; white-space: nowrap; }}
+    .ledger-active {{ color: #8f1414; }}
+    .ledger-partially_reversed {{ color: #8a5a00; }}
+    .ledger-reversed {{ color: var(--ok); text-decoration: line-through; }}
+    tr:has(.ledger-reversed) .sig-name {{ text-decoration: line-through; color: var(--muted); }}
+    .pending-note {{ background: #fff6eb; border: 1px solid #f7dfbd; border-radius: 8px; padding: 6px 10px; margin: 8px 0; }}
     footer {{ margin-top: 20px; font-size: 0.9rem; color: var(--muted); }}
     canvas {{ width: 100%; height: 260px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }}
     @media (max-width: 840px) {{ .grid {{ grid-template-columns: 1fr; }} .heat {{ grid-template-columns: 1fr; }} }}
@@ -481,6 +639,8 @@ def render_html(
       </div>
     </section>
 
+    {cei_html}
+
     <section class="panel">
       <h2>Domain stress</h2>
       <p class="note">Severity is shown by both a labelled badge and a bar, so the reading does not depend on colour.</p>
@@ -525,40 +685,48 @@ def render_html(
       <a href="https://github.com/enkieng/us-constitutional-risk-daily/blob/main/docs/constitutional-risk-deep-dive.md" target="_blank" rel="noopener noreferrer">methodology deep-dive</a>
       · <a href="https://github.com/enkieng/us-constitutional-risk-daily/blob/main/docs/constitutional-risk-improvement-proposal.md" target="_blank" rel="noopener noreferrer">v2 rationale</a>.
       This is an early-warning tool, not legal proof; confirm high-severity changes with primary legal records.</p>
-      <p>Raw artifacts: <a href="./data/latest_dashboard.json">latest_dashboard.json</a> | <a href="./data/constitutional_risk_history.csv">constitutional_risk_history.csv</a> (v2 series)</p>
+      <p>The cumulative erosion index is documented in the
+      <a href="https://github.com/enkieng/us-constitutional-risk-daily/blob/main/docs/cumulative-erosion-subindex-proposal.md" target="_blank" rel="noopener noreferrer">CEI methodology proposal</a>.</p>
+      <p>Raw artifacts: <a href="./data/latest_dashboard.json">latest_dashboard.json</a> | <a href="./data/constitutional_risk_history.csv">constitutional_risk_history.csv</a> (v2 series)
+      | <a href="./data/cumulative_erosion_history.csv">cumulative_erosion_history.csv</a> | <a href="./data/erosion_ledger.json">erosion_ledger.json</a></p>
       <p>More analysis: <a href="https://progressive-mandate.org" target="_blank" rel="noopener noreferrer">Progressive Mandate</a></p>
     </footer>
   </main>
 
   <script>
-    const labels = {json.dumps(chart_labels)};
-    const values = {json.dumps(chart_values)};
-    const canvas = document.getElementById("scoreChart");
-    const ctx = canvas.getContext("2d");
-    const w = canvas.width, h = canvas.height;
-    const pad = {{ l: 44, r: 18, t: 16, b: 34 }};
-    const x0 = pad.l, y0 = h - pad.b, x1 = w - pad.r, y1 = pad.t;
-    const chartW = x1 - x0, chartH = y0 - y1;
-    function yFor(v) {{ return y0 - (Math.max(0, Math.min(100, v)) / 100) * chartH; }}
-    function xFor(i) {{ return values.length <= 1 ? x0 : x0 + (i / (values.length - 1)) * chartW; }}
-    ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, w, h);
-    ctx.strokeStyle = "#dbe3ee"; ctx.lineWidth = 1;
-    [0, 20, 40, 60, 80, 100].forEach((tick) => {{
-      const y = yFor(tick);
-      ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(x1, y); ctx.stroke();
-      ctx.fillStyle = "#57657a"; ctx.font = "12px sans-serif"; ctx.fillText(String(tick), 8, y + 4);
-    }});
-    ctx.strokeStyle = "#0b5ed7"; ctx.lineWidth = 2; ctx.beginPath();
-    values.forEach((v, i) => {{ const x = xFor(i), y = yFor(v); i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y); }});
-    ctx.stroke();
-    ctx.fillStyle = "#0b5ed7";
-    values.forEach((v, i) => {{ ctx.beginPath(); ctx.arc(xFor(i), yFor(v), 2.5, 0, Math.PI * 2); ctx.fill(); }});
-    ctx.fillStyle = "#57657a"; ctx.font = "12px sans-serif";
-    if (labels.length > 0) {{
-      ctx.fillText(labels[0], x0, h - 10);
-      const rightText = labels[labels.length - 1];
-      ctx.fillText(rightText, x1 - ctx.measureText(rightText).width, h - 10);
+    function drawLine(canvasId, labels, values, stroke, drawDots) {{
+      const canvas = document.getElementById(canvasId);
+      if (!canvas || values.length === 0) return;
+      const ctx = canvas.getContext("2d");
+      const w = canvas.width, h = canvas.height;
+      const pad = {{ l: 44, r: 18, t: 16, b: 34 }};
+      const x0 = pad.l, y0 = h - pad.b, x1 = w - pad.r, y1 = pad.t;
+      const chartW = x1 - x0, chartH = y0 - y1;
+      const yFor = (v) => y0 - (Math.max(0, Math.min(100, v)) / 100) * chartH;
+      const xFor = (i) => (values.length <= 1 ? x0 : x0 + (i / (values.length - 1)) * chartW);
+      ctx.fillStyle = "#ffffff"; ctx.fillRect(0, 0, w, h);
+      ctx.strokeStyle = "#dbe3ee"; ctx.lineWidth = 1;
+      [0, 20, 40, 60, 80, 100].forEach((tick) => {{
+        const y = yFor(tick);
+        ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(x1, y); ctx.stroke();
+        ctx.fillStyle = "#57657a"; ctx.font = "12px sans-serif"; ctx.fillText(String(tick), 8, y + 4);
+      }});
+      ctx.strokeStyle = stroke; ctx.lineWidth = 2; ctx.beginPath();
+      values.forEach((v, i) => {{ const x = xFor(i), y = yFor(v); i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y); }});
+      ctx.stroke();
+      if (drawDots) {{
+        ctx.fillStyle = stroke;
+        values.forEach((v, i) => {{ ctx.beginPath(); ctx.arc(xFor(i), yFor(v), 2.5, 0, Math.PI * 2); ctx.fill(); }});
+      }}
+      ctx.fillStyle = "#57657a"; ctx.font = "12px sans-serif";
+      if (labels.length > 0) {{
+        ctx.fillText(labels[0], x0, h - 10);
+        const rightText = labels[labels.length - 1];
+        ctx.fillText(rightText, x1 - ctx.measureText(rightText).width, h - 10);
+      }}
     }}
+    drawLine("scoreChart", {json.dumps(chart_labels)}, {json.dumps(chart_values)}, "#0b5ed7", true);
+    drawLine("ceiChart", {json.dumps(cei_labels)}, {json.dumps(cei_values)}, "#7a2e8f", false);
   </script>
 </body>
 </html>
@@ -581,16 +749,41 @@ def main() -> int:
     summary = read_json(args.summary_json)
     history_rows = read_history(args.history)
     signal_rows = read_history(args.signal_history)
+    cum_rows = read_history(args.cumulative_history)
 
-    # Load the full band ladder from config if available for the ladder widget.
+    # Load the full band ladder + domain names from config if available.
+    domain_names: dict[str, str] = {}
     config_path = Path("config/constitutional_risk_config.json")
     if config_path.exists():
         try:
-            summary["_bands"] = read_json(config_path).get("risk_bands", _DEFAULT_BANDS)
+            config = read_json(config_path)
+            summary["_bands"] = config.get("risk_bands", _DEFAULT_BANDS)
+            domain_names = {d["id"]: d["name"] for d in config.get("domains", [])}
         except (OSError, json.JSONDecodeError):
             summary["_bands"] = _DEFAULT_BANDS
 
-    output_html = render_html(summary, history_rows, signal_rows)
+    ledger_entries: list[dict[str, Any]] = []
+    if args.ledger.exists():
+        try:
+            ledger_entries = list(read_json(args.ledger).get("entries", []))
+        except (OSError, json.JSONDecodeError):
+            ledger_entries = []
+    pending_count = 0
+    if args.proposals.exists():
+        try:
+            pending_count = len(read_json(args.proposals).get("pending", []))
+        except (OSError, json.JSONDecodeError):
+            pending_count = 0
+
+    output_html = render_html(
+        summary,
+        history_rows,
+        signal_rows,
+        cum_rows=cum_rows,
+        ledger_entries=ledger_entries,
+        pending_count=pending_count,
+        domain_names=domain_names,
+    )
     args.output_html.parent.mkdir(parents=True, exist_ok=True)
     args.output_html.write_text(output_html, encoding="utf-8")
 
@@ -601,6 +794,13 @@ def main() -> int:
     args.output_history.parent.mkdir(parents=True, exist_ok=True)
     if args.history.exists():
         args.output_history.write_text(args.history.read_text(encoding="utf-8"), encoding="utf-8")
+
+    if args.cumulative_history.exists():
+        args.output_cumulative.parent.mkdir(parents=True, exist_ok=True)
+        args.output_cumulative.write_text(args.cumulative_history.read_text(encoding="utf-8"), encoding="utf-8")
+    if args.ledger.exists():
+        args.output_ledger.parent.mkdir(parents=True, exist_ok=True)
+        args.output_ledger.write_text(args.ledger.read_text(encoding="utf-8"), encoding="utf-8")
 
     print(f"Rendered {args.output_html}")
     return 0

@@ -20,6 +20,9 @@ def main() -> int:
     repo_root = Path(__file__).resolve().parents[1]
     python = sys.executable
     run([python, "scripts/update_constitutional_risk.py"], cwd=repo_root)
+    # Ledger review proposes CEI changes for human review; it always exits 0
+    # (any AI failure degrades to "no proposals today"), so it cannot fail the run.
+    run([python, "scripts/ledger_review.py"], cwd=repo_root)
     run([python, "scripts/backfill_erosion_pressure.py"], cwd=repo_root)
     run([python, "scripts/render_site.py"], cwd=repo_root)
     print("Daily pipeline complete.")
