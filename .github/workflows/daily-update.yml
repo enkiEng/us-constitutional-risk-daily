@@ -30,7 +30,16 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install AI extraction dependency (optional)
+        # The scorer falls back to the keyword path if this is missing, so a
+        # failure here must not fail the daily run.
+        run: pip install "anthropic>=0.40" || echo "anthropic install failed; keyword fallback will be used"
+
       - name: Run daily pipeline
+        env:
+          # Optional: when set, enables the AI event-extraction layer.
+          # When unset, the run automatically uses the keyword scorer.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/run_daily.py
 
       - name: Commit updated artifacts

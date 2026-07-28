@@ -1,57 +1,57 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.49,
+  "average_7d": 12.06,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "Medium",
-  "data_available": true,
-  "delta_previous_day": -2.0,
-  "delta_vs_7d": -1.6,
+  "confidence": "Low",
+  "data_available": false,
+  "delta_previous_day": -7.0,
+  "delta_vs_7d": -7.92,
   "domain_breakdown": [
     {
-      "avg_severity": 0.1625,
+      "avg_severity": 0.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.89375,
+      "points": 0.0,
       "weight": 22
     },
     {
-      "avg_severity": 0.5499999999999999,
+      "avg_severity": 0.09999999999999999,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.0624999999999996,
+      "points": 0.37499999999999994,
       "weight": 15
     },
     {
-      "avg_severity": 0.3333333333333333,
+      "avg_severity": 0.09999999999999999,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1666666666666665,
+      "points": 0.35,
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.5333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 1.7333333333333334,
       "weight": 13
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.19999999999999998,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.0833333333333335,
+      "points": 0.49999999999999994,
       "weight": 10
     },
     {
-      "avg_severity": 0.975,
+      "avg_severity": 0.475,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.4375,
+      "points": 1.1875,
       "weight": 10
     },
     {
@@ -69,192 +69,144 @@
       "weight": 8
     }
   ],
-  "failed_queries": 0,
-  "fetch_errors": [],
-  "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
-  "generated_at": "2026-07-27T15:17:12.052674+00:00",
-  "previous_score": 13,
-  "provisional": false,
-  "score": 11,
-  "score_raw": 10.89,
-  "successful_queries": 22,
+  "extraction_mode": "keyword",
+  "failed_queries": 22,
+  "fetch_errors": [
+    "election_certification_interference: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "election_administration_capture: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "election_delay_or_cancellation: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "alternate_elector_scheme: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "politicized_prosecution_opposition: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "opposition_ballot_exclusion: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "retaliation_architecture: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "judge_intimidation_campaign: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "court_order_noncompliance: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "jurisdiction_stripping_targeted: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "emergency_powers_expansion: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "legislative_bypass_executive: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "martial_law_or_military_language: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "civil_service_purge_schedule_f: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "independent_agency_capture: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "inspector_general_retaliation: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "press_restrictions: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "political_speech_surveillance: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "military_domestic_political_use: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "security_loyalty_tests: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "state_election_preemption: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "legislative_oversight_obstruction: <urlopen error Tunnel connection failed: 403 Forbidden>"
+  ],
+  "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
+  "generated_at": "2026-07-28T02:36:33.407658+00:00",
+  "methodology_version": 2,
+  "previous_score": 11,
+  "provisional": true,
+  "score": 4,
+  "score_raw": 4.15,
+  "score_raw_pre_trip_wire": 4.15,
+  "successful_queries": 0,
   "top_signals": [
     {
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxONVF3VWRJM0FKZjdpTjNIdVphUkZqdHRwTGZnVmg4OTduVUltTmphZUw5Z21yU2NwdzdIbWJkS1Z1X1JjSXM3MGthMlNSbmNyQlpva2laWk5STm5JTGZ0WHdBMW9CMGY1NG5JNXpRSXkyaVEwblRYcGJSWVo1d1FsZmhMVlg5YTZDVjhRUExKYVhqWWRjb3d2NkVEaGcyOU54TkxUMTNuSmxIb0I2UjFaZjU5MGJhaW52WVI1VTJrSXlKT01WUnQ2U2RZRGx6T3M2X01ITjhpRGUxMnRnODlacGNJOV9OcW5DZGFaWXdrdzFfWnktQVUxcEpmQlRVSi1EbkJB?oc=5",
-          "published": "2026-07-27T11:25:49+00:00",
-          "publisher": "The Killeen Daily Herald",
-          "title": "South Korean court gives ousted President Yoon suspended jail term for lying during campaign - The Killeen Daily Herald"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxObms4MjRhRzRNLXdYQ0MwZmtvZGJkdmh6ejZsYjVTT0RXNWxFM2FITVBMb2oyTGtiVHpHanY2d2M2Ny1nZG9xU2NwY0RLcjhvU1NZNVZEeWVhaTNOSXpfbnR4SFA4Vm52bi1hXzNyY0NjZjVhQmRpR29IelZiS1VvYW83OGp3NXpLcllSd3NfZkFvQ09PYTFxbkkwdldIbW5QOVlnazFiMWx4NExtYlBTazd6Wm8xM0VaazRNMFNZTFV3b19ZbC01MU9JOHZ3T2RPcXdpLWp2Nk5TZnpiZFVkYlYwVnJSX1UxNV9sYTR0Rk84TmM?oc=5",
-          "published": "2026-07-26T13:00:00+00:00",
-          "publisher": "\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
-          "title": "The Supreme Court allowed the enforcement in Ukraine of a foreign court decision on the recovery of alimony arrears - \u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZFJvb2duWnBQTGpTVW1Uc1kzYnZnVU9DQVNkS1VVOE0zT2R2cTdPU2lram9hQU4wd2Y3Ny1SQjkxbjFYZi1COFMwZ0IwOVFmQU5PdUdBdnFvZUREWXZUTE4wUUMwMUlSWTkzZGtwbzVBeDh4TER2QWlZNGJPMzZXZEt0V0pMMzBUaWhmbGVSTlAzeGZCTVVkeEgtODd4OTU2eGtJUG9pMkx5cGYzSy1lM1JtVUZGbU9LQU1vVGJkc0hXaFRMb0tTSHNmNHlWTDZIOTRSX05Mcld2aFk?oc=5",
-          "published": "2026-07-26T06:00:00+00:00",
-          "publisher": "\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
-          "title": "Resolution 821 is not yet in effect: The Supreme Court opened cassation but preserved pensioners' right to payments - \u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430"
-        }
-      ],
-      "hits": 3,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb0M5TVJvdjF4aHRsaDZKRzRpQ1c4dUhaamNOeV9nSUxmaXpLODkyMDhGRlpxQmxuaFRBeDA4ZmhERkM2SjM2YzQtVDUyek91SVRHbG1yQm5Bdzh0YmlPLXJYQXYwU2hzeVlVMVYyRGRFSXRnWklkaTFJTm9WR2FPQ2xzVm9wbFpKeFBLd1h1WTFBbTk4b1k2VnNMMlFXTnRySWxrRkdiT2o?oc=5",
-          "published": "2026-07-26T06:19:49+00:00",
-          "publisher": "Bulatlat",
-          "title": "Media community faces killings, weaponization of laws under Marcos Jr. - Bulatlat"
-        }
-      ],
-      "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUNmUWRxOHh5c2p0QzBsVHZERWZncjVkSDkydWFmbDJDVGZyQy1OV0Z1UFMzUDVPdXNkM0VTczNvcm9YNjZqbEdLZUd3eFpRU1pXWVdoWHZVWEFmRHFON3o3bktOQXNjczR5RndqWXZsM3oxcVBWeXpsN1FKeWQyc2Z0REZoY0dTa3c2TWtQenVVaU0tTS1YY0k2cW54Zks0SEd3TWg5WmtreXlab3dYOGh6cEFSUGc?oc=5",
-          "published": "2026-07-27T04:20:55+00:00",
-          "publisher": "The Regulatory Review",
-          "title": "The End of NRC Independence and the Future of Nuclear Safety - The Regulatory Review"
-        }
-      ],
-      "hits": 1,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
       "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSG9hTEdQbW1aVG5kLU1DbzBXbkJwSlJUSHpETjVoV1JUU2l1X2xiZ3JIdjZvTmVBLU1TU3A0NEdaN01fWEF2YmxrUkhXYkVwSXQyQ3BON2xUREJTZVRFNTZjT2llOUhZQlYtY3VRSURZSm1xMHQzeDZja09QT2JFdWtYMlVLRnAySi1uOWUxeThTQlI4OHMtWU5uTmRLRUdZWkVJOElHS2txcUp5?oc=5",
-          "published": "2026-07-26T19:46:34+00:00",
-          "publisher": "LEADERSHIP Newspapers",
-          "title": "PDP: Aondoakaa Not Barred From Public Office, Says Supreme Court Never Disqualified Him - LEADERSHIP Newspapers"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcHB4Uzc2NFhwMHY0MUJaX1NJWWhoYlQ1NUFpY2xXZ0hlQ1Y3ckZtOU1JTzN4X01MaVZSejRhbFVsOHZuLUZhSndxc0pLS0VlQzZRV3I4Rkl6YXBrVzMzU0lrUkwydXVva1Y0eUJGdDczR3FBY01BUDJIMS1SUVYteXBuODlPZDN5U1pORGV2ak0wRWpUWnc?oc=5",
-          "published": "2026-07-25T21:03:12+00:00",
-          "publisher": "Head Topics",
-          "title": "PDP Dismisses Claims Against Governorship Candidate - Head Topics"
-        }
-      ],
-      "hits": 2,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 2
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOS2ZmQkxwYXdRZW04RzdKeEF1cWMtWTR3Z2tGUmMzaVI2MnJCbTk0T1ZnWWVEMVIybkZ2MldxS1lLMG96dkZzNkRjTlBGWTBYNnBCMnl0WnVBdEVmMmpmOEh4VGtEWGFuaDBDd29qQUV0LUcyRE5KR0hfSVlMOTU5d0c4STFscDQwd0R5V0IxckZFZng3TlRLUzBaNElmNXpVYjRzVkJkQ2p3ZnNnVjdIb1lNUzNGbWROMEpnSUl6MkFZbnhvZlHSAcYBQVVfeXFMTktmZkJMcGF3UWVtOEc3SnhBdXFjLVk0d2drRlJjM2lSNjJyQm05NE9WZ1llRDFSMm5GdjJXcUtZSzBvenZGczZEY05QRlkwWDZwQjJ5dFp1QXRFZjJqZjhIeFRrRFhhbmgwQ3dvakFFdC1HMkROSkdIX0lZTDk1OXdHOEkxbHA0MHdEeVdCMXJGRWZ4N05US1MwWjRJZjV6VWI0c1ZCZENqd2ZzZ1Y3SG9ZTVMzRm1kTjBKZ0lJejJBWW54b2ZR?oc=5",
-          "published": "2026-07-26T16:04:00+00:00",
-          "publisher": "The Manila Times",
-          "title": "The collapse of the US bipartisan consensus over Israel ties - The Manila Times"
-        }
-      ],
-      "hits": 1,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY0dCdjNjRkJsUGdDazg1YS1HOTZtNVBrQmlzT2NIYmNXVGN1cWNtOE9GSGlrRklxUFM0UDFCWjJDQXRxV2diM3BlNmdRVnQ0UEZjeERRSnZ4MDVjdUQ4U3docjhxNXNVNjNMZFUzVldVbG5NTm1qb1JkNjlZN084UVhKSF92eGlEeU9WM2tR?oc=5",
-          "published": "2026-07-27T05:43:00+00:00",
-          "publisher": "jdjournal.com",
-          "title": "Appeals Court Blocks Trump\u2019s Mail-In Voting Order - jdjournal.com"
-        }
-      ],
-      "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "hits": 0,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "severe_hits": 0,
-      "severity": 0.65,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [],
+      "evidence_mode": "keyword",
       "hits": 0,
-      "id": "political_speech_surveillance",
-      "name": "Political Speech Criminalization or Surveillance",
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.95,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.6,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.3,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "judge_intimidation_campaign",
+      "name": "Judge Intimidation Campaign",
+      "override_note": null,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.3,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
       "severity": 0.3,
       "severity_label": "Green",
       "unique_publishers": 0
     }
-  ]
+  ],
+  "trip_wires_fired": []
 }

@@ -1,5 +1,6 @@
 {
   "project_name": "Constitutional Risk Dashboard",
+  "methodology_version": 2,
   "timezone": "America/New_York",
   "lookback_days": 2,
   "request_timeout_seconds": 20,
@@ -9,6 +10,32 @@
   "min_unique_publishers_for_critical": 2,
   "max_evidence_per_signal": 3,
   "user_agent": "economy-political-constitutional-risk/1.0",
+  "domain_aggregation": {
+    "method": "escalation_max",
+    "escalation_offset": 1.0,
+    "note": "domain_severity = max(mean_signal_severity, max_signal_severity - escalation_offset). Ordinary watch-level noise stays near the mean; a single orange/red signal pulls the domain toward its own severity so acute events are not averaged away."
+  },
+  "trip_wires": {
+    "note": "A single confirmed catastrophic signal should floor the whole index regardless of the weighted arithmetic. When a listed signal's final severity reaches min_severity, the total score is raised to at least floor_score (highest applicable floor wins).",
+    "rules": [
+      {"signal_id": "court_order_noncompliance", "min_severity": 3, "floor_score": 45, "label": "Executive defiance of a court order"},
+      {"signal_id": "election_delay_or_cancellation", "min_severity": 3, "floor_score": 60, "label": "Election delayed or cancelled outside constitutional process"},
+      {"signal_id": "martial_law_or_military_language", "min_severity": 4, "floor_score": 60, "label": "Martial law tied to a political/electoral dispute"},
+      {"signal_id": "military_domestic_political_use", "min_severity": 4, "floor_score": 55, "label": "Military used against lawful political opposition"},
+      {"signal_id": "alternate_elector_scheme", "min_severity": 4, "floor_score": 45, "label": "Unauthorized electoral slate accepted"},
+      {"signal_id": "election_certification_interference", "min_severity": 4, "floor_score": 45, "label": "Lawful election certification overridden"}
+    ]
+  },
+  "ai": {
+    "enabled": true,
+    "model": "claude-haiku-4-5",
+    "max_articles_per_signal": 12,
+    "effort": "low",
+    "cache_path": "data/ai_classification_cache.json",
+    "min_confidence": 0.55,
+    "note": "Optional LLM extraction layer. When ANTHROPIC_API_KEY is set and the anthropic SDK is installed, each candidate article is read by the model and returned as a structured judgment (US-domestic? actually occurred vs hypothetical/denied/historical? which signal? severity 0-4? primary source? one-line rationale?). Severity is derived from confirmed events instead of raw keyword volume. If the SDK or key is unavailable the run falls back to the deterministic keyword scorer and marks confidence accordingly. Haiku is used because this is a high-volume, short-input classification task run many times per day; change 'model' to raise capability at higher cost.",
+    "system_prompt": "You are a neutral analyst for a U.S. constitutional-risk early-warning dashboard. You read a single news item and decide, strictly and conservatively, whether it is EVIDENCE that a specific constitutional-stress event actually occurred in the United States. Distinguish real occurrences from hypotheticals, denials, opinion, satire, historical retrospectives, and coverage of other countries. When in doubt, treat the item as weak or irrelevant evidence. Do not inflate severity from emotional or high-volume coverage; severity reflects what verifiably happened, not how loudly it is reported."
+  },
   "risk_bands": [
     {
       "min": 0,

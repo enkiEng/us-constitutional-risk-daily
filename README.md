@@ -9,11 +9,29 @@ This is *HIGHLY SUBJECTIVE!*  **Ideally, this risk metric should stay near "0" i
 - `100`: constitutional failure / overturn conditions
 - Method: weighted domain model with explicit warning signals and daily evidence pulls
 
+### Methodology v2
+
+The scoring engine is now **v2**:
+
+- **Escalation-max domain aggregation** — `max(mean, max−1)` per domain, so one
+  confirmed red-level signal is no longer averaged away (the v1 flaw where three
+  simultaneous crisis events scored only ~15/100).
+- **Trip-wires** — a single confirmed catastrophic event (defied court order,
+  cancelled election, martial law) floors the whole index at a crisis band.
+- **Optional AI event extraction** — when `ANTHROPIC_API_KEY` is set, each
+  article is read by a model that confirms whether the event actually occurred
+  (vs hypothetical / denied / historical / foreign) before it is scored;
+  otherwise the run falls back to the keyword scorer.
+
+See [`docs/constitutional-risk-deep-dive.md`](docs/constitutional-risk-deep-dive.md)
+and [`docs/constitutional-risk-improvement-proposal.md`](docs/constitutional-risk-improvement-proposal.md).
+
 ## What this repo publishes
 
 - Public webpage (`site/index.html`) for daily tracking
 - Daily markdown report (`outputs/constitutional-risk-daily.md`)
-- Historical time series (`data/constitutional_risk_history.csv`)
+- Live v2 time series (`data/constitutional_risk_history_v2.csv`)
+- Frozen v1 time series (`data/constitutional_risk_history.csv`)
 - Per-signal daily history (`data/constitutional_signal_scores.csv`)
 - Latest machine-readable snapshot (`data/latest_dashboard.json`)
 

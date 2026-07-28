@@ -21,11 +21,16 @@ import sys
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
+
+try:
+    import ai_classifier
+except Exception:  # pragma: no cover - AI layer is optional
+    ai_classifier = None
 
 
 UTC = dt.timezone.utc
@@ -51,6 +56,10 @@ class SignalResult:
     critical_hits: int
     evidence: list[FeedEntry]
     override_note: str | None = None
+    evidence_mode: str = "keyword"
+    rationale: str | None = None
+    confirmed_hits: int = 0
+    primary_source_url: str | None = None
 
 
 def parse_args() -> argparse.Namespace:
@@ -70,8 +79,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--history",
         type=Path,
-        default=Path("data/constitutional_risk_history.csv"),
-        help="Path to score history CSV.",
+        default=Path("data/constitutional_risk_history_v2.csv"),
+        help="Path to score history CSV (v2 methodology series; the v1 file is frozen).",
     )
     parser.add_argument(
         "--signal-history",
@@ -299,13 +308,16 @@ def load_active_overrides(path: Path, as_of: dt.date) -> dict[str, dict[str, Any
     return active
 
 
-def evaluate_signal(
+def _keyword_auto_score(
     signal: dict[str, Any],
     entries: list[FeedEntry],
-    prev_score: float,
     cfg: dict[str, Any],
-    override: dict[str, Any] | None,
-) -> SignalResult:
+) -> tuple[float, int, int, int, int, list[FeedEntry]]:
+    """Deterministic keyword scorer (the fallback / legacy path).
+
+    Returns (auto_score, total_hits, unique_publishers, severe_hits,
+    critical_hits, evidence).
+    """
     severe_terms = [str(item).lower() for item in signal.get("severe_terms", [])]
     critical_terms = [str(item).lower() for item in signal.get("critical_terms", [])]
 
@@ -345,7 +357,101 @@ def evaluate_signal(
     elif total_hits > 0:
         auto_score = 1.0
 
+    # The keyword path can never confirm a red-level (4) event; only the AI
+    # extraction layer or a manual override may.
     auto_score = min(auto_score, float(cfg["auto_max_severity"]))
+    return auto_score, total_hits, unique_publishers, severe_hits, critical_hits, evidence
+
+
+def _ai_auto_score(
+    signal: dict[str, Any],
+    entries: list[FeedEntry],
+    judgments: list[dict[str, Any] | None],
+    cfg: dict[str, Any],
+) -> tuple[float, int, int, list[FeedEntry], str | None, str | None] | None:
+    """Severity from confirmed events (the AI path).
+
+    Returns (auto_score, confirmed_hits, unique_publishers, evidence,
+    rationale, primary_source_url) or None if the AI produced no usable
+    judgment for this signal.
+    """
+    if ai_classifier is None:
+        return None
+    min_confidence = float(cfg.get("ai", {}).get("min_confidence", 0.55))
+    max_evidence = int(cfg["max_evidence_per_signal"])
+    min_publishers_for_critical = int(cfg["min_unique_publishers_for_critical"])
+
+    qualifying: list[tuple[FeedEntry, dict[str, Any]]] = []
+    for entry, judgment in zip(entries, judgments):
+        if ai_classifier.qualifies(judgment, min_confidence):
+            qualifying.append((entry, judgment))
+
+    if not qualifying:
+        # AI ran but found no confirmed event: an explicit, defensible zero.
+        return 0.0, 0, 0, [], None, None
+
+    qualifying.sort(key=lambda pair: float(pair[1].get("severity", 0)), reverse=True)
+    top_entry, top_judgment = qualifying[0]
+    top_severity = float(top_judgment.get("severity", 0))
+    primary = (top_judgment.get("primary_source_url") or "").strip() or None
+    publishers = {e.publisher.lower() for e, _ in qualifying if e.publisher}
+    unique_publishers = len(publishers)
+
+    # A red-level (4) severity is only allowed to stand when it is either
+    # anchored to a primary source or independently corroborated; otherwise it
+    # is held at orange (3) pending confirmation.
+    auto_score = top_severity
+    if auto_score >= 4.0 and not (primary or unique_publishers >= min_publishers_for_critical):
+        auto_score = 3.0
+
+    evidence = [e for e, _ in qualifying[:max_evidence]]
+    return auto_score, len(qualifying), unique_publishers, evidence, top_judgment.get("rationale"), primary
+
+
+def evaluate_signal(
+    signal: dict[str, Any],
+    entries: list[FeedEntry],
+    prev_score: float,
+    cfg: dict[str, Any],
+    override: dict[str, Any] | None,
+    judgments: list[dict[str, Any] | None] | None = None,
+) -> SignalResult:
+    evidence_mode = "keyword"
+    rationale: str | None = None
+    confirmed_hits = 0
+    primary_source_url: str | None = None
+
+    ai_result = None
+    if judgments is not None:
+        ai_result = _ai_auto_score(signal, entries, judgments, cfg)
+
+    if ai_result is not None:
+        (
+            auto_score,
+            confirmed_hits,
+            unique_publishers,
+            evidence,
+            rationale,
+            primary_source_url,
+        ) = ai_result
+        evidence_mode = "ai"
+        # Keep keyword hit counts as descriptive context (raw coverage volume).
+        _, total_hits, keyword_publishers, severe_hits, critical_hits, kw_evidence = (
+            _keyword_auto_score(signal, entries, cfg)
+        )
+        unique_publishers = max(unique_publishers, 0)
+        if not evidence:
+            evidence = kw_evidence
+    else:
+        (
+            auto_score,
+            total_hits,
+            unique_publishers,
+            severe_hits,
+            critical_hits,
+            evidence,
+        ) = _keyword_auto_score(signal, entries, cfg)
+
     decayed_prev = clamp(prev_score - float(cfg["decay_per_day"]), 0.0, 4.0)
     blended_score = max(auto_score, decayed_prev)
     final_score = blended_score
@@ -359,6 +465,7 @@ def evaluate_signal(
         else:
             final_score = override_severity
         override_note = override.get("note") or None
+        evidence_mode = "override" if evidence_mode == "keyword" else evidence_mode + "+override"
 
     final_score = round(clamp(final_score, 0.0, 4.0), 2)
 
@@ -372,6 +479,10 @@ def evaluate_signal(
         critical_hits=critical_hits,
         evidence=evidence,
         override_note=override_note,
+        evidence_mode=evidence_mode,
+        rationale=rationale,
+        confirmed_hits=confirmed_hits,
+        primary_source_url=primary_source_url,
     )
 
 
@@ -392,6 +503,58 @@ def score_band(score: int, bands: list[dict[str, Any]]) -> dict[str, Any]:
         if int(band["min"]) <= score <= int(band["max"]):
             return band
     return bands[-1]
+
+
+def domain_severity(scores: list[float], cfg: dict[str, Any]) -> float:
+    """Aggregate a domain's signal severities into a single 0-4 value.
+
+    v2 uses ``max(mean, max - escalation_offset)``. Ordinary watch-level noise
+    (several signals at 1) stays at its mean, so baseline days are not
+    inflated; but as soon as one signal reaches orange/red the domain is pulled
+    toward that signal's severity instead of averaging it away. This is the fix
+    for the v1 flaw where a single confirmed red event contributed only a
+    fraction of its domain's weight.
+    """
+    if not scores:
+        return 0.0
+    agg = cfg.get("domain_aggregation", {}) or {}
+    method = str(agg.get("method", "escalation_max"))
+    mean_severity = sum(scores) / len(scores)
+    if method == "mean":  # legacy v1 behaviour, retained for comparison
+        return mean_severity
+    offset = float(agg.get("escalation_offset", 1.0))
+    return max(mean_severity, max(scores) - offset)
+
+
+def evaluate_trip_wires(
+    results: list[SignalResult],
+    cfg: dict[str, Any],
+) -> tuple[int, list[dict[str, Any]]]:
+    """Return (floor_score, fired_rules) for any confirmed catastrophic signal.
+
+    A single confirmed red-level event (e.g. an executive defying a court
+    order) should floor the whole index regardless of the weighted arithmetic.
+    """
+    rules = ((cfg.get("trip_wires", {}) or {}).get("rules", []))
+    by_id = {r.signal["id"]: r for r in results}
+    floor = 0
+    fired: list[dict[str, Any]] = []
+    for rule in rules:
+        result = by_id.get(rule.get("signal_id"))
+        if result is None:
+            continue
+        if result.final_score >= float(rule.get("min_severity", 4)):
+            floor = max(floor, int(rule.get("floor_score", 0)))
+            fired.append(
+                {
+                    "signal_id": rule.get("signal_id"),
+                    "label": rule.get("label", ""),
+                    "severity": result.final_score,
+                    "floor_score": int(rule.get("floor_score", 0)),
+                }
+            )
+    fired.sort(key=lambda item: item["floor_score"], reverse=True)
+    return floor, fired
 
 
 def load_previous_signal_state(path: Path) -> dict[str, float]:
@@ -526,16 +689,22 @@ def build_markdown(
     attempted_queries: int,
     successful_queries: int,
     fetch_errors: list[str],
+    methodology_version: int = 2,
+    ai_active: bool = False,
+    trip_wires_fired: list[dict[str, Any]] | None = None,
 ) -> str:
+    trip_wires_fired = trip_wires_fired or []
     prev_delta = None if previous_score is None else float(score - previous_score)
     avg_delta = None if avg_7d is None else float(raw_score - avg_7d)
     total_hits = sum(result.total_hits for result in top_results)
     confidence = confidence_label(successful_queries, attempted_queries, total_hits)
+    extraction = "AI event extraction" if ai_active else "keyword volume (AI extraction unavailable)"
 
     lines: list[str] = []
     lines.append("# Constitutional Risk Dashboard (0-100)")
     lines.append("")
     lines.append(f"- Generated: {generated_at.strftime('%Y-%m-%d %H:%M:%S %Z')}")
+    lines.append(f"- Methodology: **v{methodology_version}** (extraction: {extraction})")
     lines.append(f"- Score: **{score} / 100** ({band['label']})")
     lines.append(f"- Previous day delta: **{format_delta(prev_delta)}**")
     lines.append(f"- Delta vs 7-day average: **{format_delta(avg_delta)}**")
@@ -544,16 +713,29 @@ def build_markdown(
             "- Data status: **No successful feed pulls. Treat today's numeric score as unavailable/provisional.**"
         )
     lines.append("")
+    if trip_wires_fired:
+        lines.append("## Active Trip-Wires")
+        lines.append("")
+        lines.append(
+            "A confirmed catastrophic signal has floored the index above the weighted total:"
+        )
+        for tw in trip_wires_fired:
+            lines.append(
+                f"- **{tw['label']}** (severity {tw['severity']:.1f}) - floors score to at least {tw['floor_score']}"
+            )
+        lines.append("")
     lines.append("## Interpretation")
     lines.append(f"- Band meaning: {band['description']}")
     lines.append("- Signal scale: 0=green, 1=watch, 2=yellow, 3=orange, 4=red.")
     lines.append(
-        "- Formula: domain points = domain weight * (average signal severity / 4); total score = sum of domain points."
+        "- Formula: domain severity = max(mean signal severity, max signal severity - 1); "
+        "domain points = domain weight * (domain severity / 4); total score = sum of domain points, "
+        "then raised to any active trip-wire floor."
     )
     lines.append("")
     lines.append("## Domain Breakdown")
     lines.append("")
-    lines.append("| Domain | Weight | Avg Severity (0-4) | Points |")
+    lines.append("| Domain | Weight | Severity (0-4) | Points |")
     lines.append("|---|---:|---:|---:|")
     for row in domain_rows:
         lines.append(
@@ -562,22 +744,25 @@ def build_markdown(
     lines.append("")
     lines.append("## Highest-Risk Signals Today")
     lines.append("")
-    lines.append("| Signal | Domain | Severity | Hits | Unique Publishers |")
-    lines.append("|---|---|---:|---:|---:|")
+    lines.append("| Signal | Domain | Severity | Source | Confirmed | Coverage |")
+    lines.append("|---|---|---:|---|---:|---:|")
     for result in top_results[:12]:
         lines.append(
             "| "
             + f"{result.signal['name']} | "
             + f"{result.signal['domain_id']} | "
             + f"{result.final_score:.2f} ({severity_label(result.final_score)}) | "
-            + f"{result.total_hits} | "
-            + f"{result.unique_publishers} |"
+            + f"{result.evidence_mode} | "
+            + f"{result.confirmed_hits} | "
+            + f"{result.total_hits} |"
         )
     lines.append("")
     lines.append("## Evidence Samples")
     lines.append("")
     for result in top_results[:5]:
         lines.append(f"### {result.signal['name']}")
+        if result.rationale:
+            lines.append(f"- Assessment: {result.rationale}")
         if result.override_note:
             lines.append(f"- Manual override note: {result.override_note}")
         if not result.evidence:
@@ -595,6 +780,7 @@ def build_markdown(
     lines.append(f"- Query feeds attempted: {attempted_queries}")
     lines.append(f"- Query feeds successful: {successful_queries}")
     lines.append(f"- Query feeds failed: {attempted_queries - successful_queries}")
+    lines.append(f"- Evidence extraction: {extraction}")
     lines.append(f"- Confidence: **{confidence}**")
     if fetch_errors:
         lines.append("- Fetch errors:")
@@ -620,7 +806,12 @@ def build_summary_payload(
     attempted_queries: int,
     successful_queries: int,
     fetch_errors: list[str],
+    methodology_version: int = 2,
+    ai_active: bool = False,
+    trip_wires_fired: list[dict[str, Any]] | None = None,
+    raw_score_pre_floor: float | None = None,
 ) -> dict[str, Any]:
+    trip_wires_fired = trip_wires_fired or []
     prev_delta = None if previous_score is None else float(score - previous_score)
     avg_delta = None if avg_7d is None else float(raw_score - avg_7d)
     total_hits = sum(result.total_hits for result in top_results)
@@ -636,6 +827,10 @@ def build_summary_payload(
                 "domain_id": result.signal["domain_id"],
                 "severity": result.final_score,
                 "severity_label": severity_label(result.final_score),
+                "evidence_mode": result.evidence_mode,
+                "rationale": result.rationale,
+                "confirmed_hits": result.confirmed_hits,
+                "primary_source_url": result.primary_source_url,
                 "hits": result.total_hits,
                 "unique_publishers": result.unique_publishers,
                 "severe_hits": result.severe_hits,
@@ -655,8 +850,13 @@ def build_summary_payload(
 
     return {
         "generated_at": generated_at.isoformat(),
+        "methodology_version": methodology_version,
+        "extraction_mode": "ai" if ai_active else "keyword",
         "score": score,
         "score_raw": round(raw_score, 2),
+        "score_raw_pre_trip_wire": (
+            round(raw_score_pre_floor, 2) if raw_score_pre_floor is not None else round(raw_score, 2)
+        ),
         "band": band,
         "previous_score": previous_score,
         "delta_previous_day": prev_delta,
@@ -670,8 +870,9 @@ def build_summary_payload(
         "confidence": confidence,
         "domain_breakdown": domain_rows,
         "top_signals": top_signals,
+        "trip_wires_fired": trip_wires_fired,
         "fetch_errors": fetch_errors,
-        "formula": "domain_points = domain_weight * (average_signal_severity / 4); total_score = sum(domain_points)",
+        "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
     }
 
 
@@ -734,6 +935,13 @@ def main() -> int:
     timeout = int(config["request_timeout_seconds"])
     user_agent = str(config["user_agent"])
 
+    ai_cfg = config.get("ai", {}) or {}
+    ai_active = ai_classifier is not None and ai_classifier.is_available(ai_cfg)
+    ai_cache: dict[str, Any] = {}
+    ai_cache_path = Path(ai_cfg.get("cache_path", "data/ai_classification_cache.json"))
+    if ai_active:
+        ai_cache = ai_classifier.load_cache(ai_cache_path)
+
     for signal in signals:
         attempted_queries += 1
         query = str(signal["query"])
@@ -745,10 +953,17 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001
             fetch_errors.append(f"{signal['id']}: {exc}")
 
+        judgments = None
+        if ai_active and entries:
+            judgments = ai_classifier.classify_entries(signal, entries, ai_cfg, ai_cache)
+
         prev_score = float(previous_state.get(signal["id"], 0.0))
         override = overrides.get(signal["id"])
-        result = evaluate_signal(signal, entries, prev_score, config, override)
+        result = evaluate_signal(signal, entries, prev_score, config, override, judgments)
         results.append(result)
+
+    if ai_active and not args.dry_run:
+        ai_classifier.save_cache(ai_cache_path, ai_cache)
 
     results_by_domain: dict[str, list[SignalResult]] = {}
     for result in results:
@@ -760,11 +975,9 @@ def main() -> int:
     raw_score = 0.0
     for domain_id, domain in domains.items():
         domain_results = results_by_domain.get(domain_id, [])
-        if domain_results:
-            avg_severity = sum(item.final_score for item in domain_results) / len(domain_results)
-        else:
-            avg_severity = 0.0
-        points = float(domain["weight"]) * (avg_severity / 4.0)
+        severities = [item.final_score for item in domain_results]
+        agg_severity = domain_severity(severities, config)
+        points = float(domain["weight"]) * (agg_severity / 4.0)
         raw_score += points
         domain_points[domain_id] = points
         domain_rows.append(
@@ -772,12 +985,20 @@ def main() -> int:
                 "id": domain_id,
                 "name": domain["name"],
                 "weight": int(domain["weight"]),
-                "avg_severity": avg_severity,
+                "avg_severity": agg_severity,
                 "points": points,
             }
         )
 
     raw_score = clamp(raw_score, 0.0, 100.0)
+    raw_score_pre_floor = raw_score
+
+    # Trip-wires: a single confirmed catastrophic signal floors the whole index.
+    trip_wire_floor, trip_wires_fired = evaluate_trip_wires(results, config)
+    if trip_wire_floor > raw_score:
+        raw_score = float(trip_wire_floor)
+
+    methodology_version = int(config.get("methodology_version", 2))
     score = int(round(raw_score))
     band = score_band(score, config["risk_bands"])
 
@@ -825,6 +1046,9 @@ def main() -> int:
         attempted_queries=attempted_queries,
         successful_queries=successful_queries,
         fetch_errors=fetch_errors,
+        methodology_version=methodology_version,
+        ai_active=ai_active,
+        trip_wires_fired=trip_wires_fired,
     )
     summary_payload = build_summary_payload(
         generated_at=now,
@@ -838,6 +1062,10 @@ def main() -> int:
         attempted_queries=attempted_queries,
         successful_queries=successful_queries,
         fetch_errors=fetch_errors,
+        methodology_version=methodology_version,
+        ai_active=ai_active,
+        trip_wires_fired=trip_wires_fired,
+        raw_score_pre_floor=raw_score_pre_floor,
     )
 
     if args.dry_run:
