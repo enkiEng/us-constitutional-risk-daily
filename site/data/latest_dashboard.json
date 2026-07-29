@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.05,
+  "average_7d": 10.79,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -7.0,
-  "delta_vs_7d": -8.01,
+  "delta_previous_day": 5.0,
+  "delta_vs_7d": -1.54,
   "domain_breakdown": [
     {
-      "avg_severity": 0.0,
+      "avg_severity": 1.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.0,
+      "points": 5.5,
       "weight": 22
     },
     {
@@ -41,10 +41,10 @@
       "weight": 13
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.19999999999999998,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.7916666666666666,
+      "points": 0.49999999999999994,
       "weight": 10
     },
     {
@@ -73,26 +73,20 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-07-28T19:33:54.333214+00:00",
+  "generated_at": "2026-07-29T14:33:36.055293+00:00",
   "methodology_version": 2,
-  "previous_score": 11,
+  "previous_score": 4,
   "provisional": false,
-  "score": 4,
-  "score_raw": 4.04,
-  "score_raw_pre_trip_wire": 4.04,
+  "score": 9,
+  "score_raw": 9.25,
+  "score_raw_pre_trip_wire": 9.25,
   "successful_queries": 22,
   "top_signals": [
     {
-      "confirmed_hits": 2,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOHZfeWItUWw5Rk5BM0ZGQ3o3dWhzSHNzQUEyTFRVVmNRNFhVQWlPM1JobkZhNFZXTnVHNjVVaU5helZhSjJLR0MxMWJfUWNnRHV4ZGt6SEhMbklyNmJPNGI2QkR1NFl6b3pkRXFhb3NDQ0xPcUZYVWFYWGJyaU1LOWlXLXNtaDNLN0pBMF9wejRsSnc5b2gzeGYyTElsdHFrTUEyTEJpM1daQ2ZsdjktdndlVl9rb2h3SUdMc3RGQ2pwY2NOWlRhdUNrdHBxYUcySnJoNHZpSDJVenVz?oc=5",
-          "published": "2026-07-27T20:22:31+00:00",
-          "publisher": "facebook.com",
-          "title": "Breaking news: The Trump administration asked the Supreme Court on Monday to clear the way for a sweeping executive order that would place major new restrictions on mail-in voting for November\u2019s midterm elections. - facebook.com"
-        },
         {
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdG4xQnZZOHF6UmZ0YUVJWnhLa1JaM1prZUxjS21KNVNhMllLakprUy1hbVRWRnFpeGpleGZqYzI1SU1iR0I1amR1cWpmNkVWWGVzVnQ3V2dLMms0czJGSTdSNUVZc2pBbXRvWGtLUzNlUFh5US0wQXlIMlVocXlJSUlfNmxZLU1qdjZLa2h2azdwUzJoNFN4dWJjaElNa2NhSVpUSV9DMzhoMDVFVk1sc0VoNW5PVHdtNGIxZ1BwZUI2eG9y?oc=5",
           "published": "2026-07-28T14:59:59+00:00",
@@ -101,16 +95,40 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 5,
+      "hits": 4,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
-      "primary_source_url": "facebook.com",
-      "rationale": "The Trump administration filed a request with the Supreme Court seeking approval for an executive order restricting mail-in voting for midterm elections. This represents an attempt to implement major electoral restrictions through executive action rather than legislation, which is a credible signal of legislative bypass. However, the action is a petition request (not yet approved or implemented), and it was apparently blocked by an appeals court per item [2], limiting its current severity. This is a real, confirmed action by an official entity attempting executive overreach on electoral matters.",
+      "primary_source_url": "The Maine Wire",
+      "rationale": "Corroborating report of the same executive petition to revive mail-in voting restrictions. Describes the same administration action as item [0]. The framing of 'revive' suggests a prior order was blocked, which is consistent with item [2]. This is a real, documented attempt at executive action on electoral policy that bypasses legislative process.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbF84WFJQUHdLSU9fNFJrR2FoN2NBYUdDOGZQNDYxNnhIMGlBTUZlSGxpeGVaRlNRVWo4RlBpN3M3TGkzakFpZVdSeVFOak1HM1V3bXNQU0JpdUxoVDFpYnFiZDU2QlBTa0tDeENNZ0RKQ3hzaUJna2dremlLOFNhQm1MTUoyUXVvMkVpbDJMSmppTXRtdnVRNmQ3UW1kbmJGSDVnWnJ2b202TTEyVUU0NnU1Rng5QV9TUnBMX1FhVEhwU1Y0UXc?oc=5",
+          "published": "2026-07-28T22:56:39+00:00",
+          "publisher": "WRAL",
+          "title": "NC Senate votes to shorten early voting, purge more voters - WRAL"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "primary_source_url": "https://www.wral.com",
+      "rationale": "A state legislature voting to shorten early voting and expand voter purges represents a real action that moves election administration toward partisan control by restricting voter access and participation mechanisms. This is a credible, documented legislative action. However, without evidence that the measure represents systematic capture of the entire election administration apparatus or defiance of courts, and given that legislative changes to voting rules, while potentially contentious, remain within formal legal processes, this constitutes a real but contained signal rather than a systemic failure. Severity 2 reflects that this is a confirmed action with partisan electoral implications, but not yet a structural breakdown of election administration neutrality.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 0,
@@ -118,22 +136,22 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmpXMjN1MVBQMHhfOUhTQjdCQXUwMXVxSmZaVFJ6anp1aXFLOU9UTi1VUkhpQnNNRGQ2UlBBMGNJTGc2OXB5Rm5Zd0luRC15dThQZ1NGWHNNMi1wbkQxN2ZVajdYWkJyUjBPa3Y5WnpVSHYtVnBNaWVSR2pKTUl6RE12MldjSUdhNTJsOA?oc=5",
-          "published": "2026-07-28T12:43:37+00:00",
-          "publisher": "The New York Review of Books",
-          "title": "An Unconstrained Supreme Court | David Cole - The New York Review of Books"
-        },
-        {
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNzZwZHkzQ1dtT3Vici1KUy0xUS1NOHoyRFRsNXpGZnpZeUNabGZsekpCbDJheG5tcXctVDRIVHhjak9iMFlVSDl6ZkRJazJIZHU0THpzMGU5SEppS045NXl1Tno1ZWczMWtUcEhTaFhiWFFXNDdfX29OOEFhQkVCblRyeWx6V2FuUmtJWUNDRUM3cWJCc2Q3YTBHNE5YU2dfOFR3b3RZTUlNeFpVbzM2d3BRZGhMcFBN?oc=5",
           "published": "2026-07-28T04:15:55+00:00",
           "publisher": "The Regulatory Review",
           "title": "Preserving the Adjudicative Capacity of Non-Article III Tribunals - The Regulatory Review"
         },
         {
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE01RGcwZzNVUkRjeHZ1TjlieTNOelZ0RlMzRFhTMHgxSmI0elVMVXNEbkprSHFJVGpBdXRXMmtDYmlEcUk5eEdiUzVNYnltejNyX3FUeG40U2RuMlhPd0s1R3dNdi1TZURjOHpkV0ZzV1NhQQ?oc=5",
-          "published": "2026-07-28T12:00:00+00:00",
-          "publisher": "Mises Institute",
-          "title": "The Supreme Court Plays Wizard of Oz with the Fed - Mises Institute"
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmpXMjN1MVBQMHhfOUhTQjdCQXUwMXVxSmZaVFJ6anp1aXFLOU9UTi1VUkhpQnNNRGQ2UlBBMGNJTGc2OXB5Rm5Zd0luRC15dThQZ1NGWHNNMi1wbkQxN2ZVajdYWkJyUjBPa3Y5WnpVSHYtVnBNaWVSR2pKTUl6RE12MldjSUdhNTJsOA?oc=5",
+          "published": "2026-07-28T12:43:37+00:00",
+          "publisher": "The New York Review of Books",
+          "title": "An Unconstrained Supreme Court | David Cole - The New York Review of Books"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT3AzUGFvU21YeEpHQzNtYUlDN1JPblhVUkRlRlp5QjYtbjg5TldJMU9CLW9kaFFlODdVNVZmM0tLVmQ3bEVUdndnWWQ1OWJWazduQWZaVmtFXzRNa3RsdTFVSUJQWWZnQjNwcnhXTGRPOGMyUTRubmF4TG1LTEVya09RUS1NMi1zRkdUM3B2SThmWk43RG90NUNwNnbSAaIBQVVfeXFMTUpWYmxHOGg1cUpvTndTM2VncnQwa3Z5b3VWb2ZldXI1bFJDZDhnYXhTemNmNUxjai1aUFl5Z01JNkh2MnBRN3VGaFFIRHZqbWlzYkxMMFU1RGloYktpeU5IMENtTUIzWnVvNEdOUWVFcDY0Z3N0MlB0YUhrV1ZGYnlSUmh4b3dadDlIbGlESGtsV21yVFhTS0xwSDNsa3l0X3pB?oc=5",
+          "published": "2026-07-27T21:14:24+00:00",
+          "publisher": "Marin Independent Journal",
+          "title": "Guest editorial: The Fed\u2019s independence is unfinished business - Marin Independent Journal"
         }
       ],
       "evidence_mode": "ai",
@@ -144,32 +162,25 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVlNLNU1ONzlOME45SVZXTGtqd3NWbm1NbkRLTVZjYjVjS1ZsenFnZ3l5c2g0NUNIYWdQdU1SaG80UWdoenZLTHdXYnF1bWRqX09wNnp0RjFXbUtXMWhaNGZlMG93bUlyVWRKQTVndVNWU0xsWnJqcHBRX1prd1Y5Z2pYcDc1a3dLZGN0U1pVOFl2RUp6aHlFZjdLcGJSUGR2M1BVWmhFbGpIVVMzQWRhbjFZU3lEYllMd3BWMjVqczRTWnlPa194bzhDONIB2AFBVV95cUxOYkRraHZmdm1MWFVCTUpaNEVFYW8xQVRqVTNPb0NHLWdWZGVPV1FYTm1iUEw0ZnFyTFFLVEl3MkRWYlJPaEtDYnJJS21ORV9PMjkzT054a1hFV3VrekJYYUJKeGUxLThNb21VaXNkWFlidnFZLW9ib2tTNlFLd040NUE1cDNLUTdPVHRZbmJQWEpJS1ZwdWk3OG9SRklOS2RHT3hLQXVRQU8weGVlbGhZRHVCUnVTbjZBX2ZaZF9kX0pWV1ZxVUttallRcml1WWN4dFIxUThnbEc?oc=5",
-          "published": "2026-07-27T09:32:41+00:00",
-          "publisher": "Outlook India",
-          "title": "Former South Korean President Yoon Handed Suspended Sentence Over Election Law Violation - Outlook India"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],

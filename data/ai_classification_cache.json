@@ -1,4 +1,16 @@
 {
+  "election_administration_capture": {
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbF84WFJQUHdLSU9fNFJrR2FoN2NBYUdDOGZQNDYxNnhIMGlBTUZlSGxpeGVaRlNRVWo4RlBpN3M3TGkzakFpZVdSeVFOak1HM1V3bXNQU0JpdUxoVDFpYnFiZDU2QlBTa0tDeENNZ0RKQ3hzaUJna2dremlLOFNhQm1MTUoyUXVvMkVpbDJMSmppTXRtdnVRNmQ3UW1kbmJGSDVnWnJ2b202TTEyVUU0NnU1Rng5QV9TUnBMX1FhVEhwU1Y0UXc?oc=5": {
+      "actor": "North Carolina State Senate",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.wral.com",
+      "rationale": "A state legislature voting to shorten early voting and expand voter purges represents a real action that moves election administration toward partisan control by restricting voter access and participation mechanisms. This is a credible, documented legislative action. However, without evidence that the measure represents systematic capture of the entire election administration apparatus or defiance of courts, and given that legislative changes to voting rules, while potentially contentious, remain within formal legal processes, this constitutes a real but contained signal rather than a systemic failure. Severity 2 reflects that this is a confirmed action with partisan electoral implications, but not yet a structural breakdown of election administration neutrality.",
+      "severity": 2
+    }
+  },
   "independent_agency_capture": {
     "https://news.google.com/rss/articles/CBMickFVX3lxTE01RGcwZzNVUkRjeHZ1TjlieTNOelZ0RlMzRFhTMHgxSmI0elVMVXNEbkprSHFJVGpBdXRXMmtDYmlEcUk5eEdiUzVNYnltejNyX3FUeG40U2RuMlhPd0s1R3dNdi1TZURjOHpkV0ZzV1NhQQ?oc=5": {
       "actor": "N/A",
@@ -8,6 +20,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "The metaphorical headline ('Plays Wizard of Oz') suggests opinion or analysis of Supreme Court action regarding the Federal Reserve. This appears to be editorial commentary rather than factual reporting of an event that weakens regulatory independence. Metaphorical language indicates non-factual framing.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMidEFVX3lxTE5acmtlUm4ycFNVTVJJYU53MUtNMVJ0aW9vQndfSHlpNjJGbjJReTNtOFNUXzdYRFozZ1F6TU93OWN4ak0zMEZ3UDdHQnkxYnFCUEhyRDJxQXdVdWpYRXNvX2NjOVlvRjJMTDRNYl84Uy1HZXZD?oc=5": {
+      "actor": "US Supreme Court",
+      "confidence": 0.15,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item provides no substantive details about specific rulings, their content, or how they affect independent regulatory decision-making. The headline merely announces that Supreme Court rulings 'expand presidential power' but does not describe any actual weakening of independent agency safeguards. Without specific information about which rulings, what they entail, or whether they demonstrably compromised regulatory independence, this cannot be treated as evidence of independent agency capture. The summary is too generic and lacks the factual content needed to assess whether a real constitutional stress occurred.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmpXMjN1MVBQMHhfOUhTQjdCQXUwMXVxSmZaVFJ6anp1aXFLOU9UTi1VUkhpQnNNRGQ2UlBBMGNJTGc2OXB5Rm5Zd0luRC15dThQZ1NGWHNNMi1wbkQxN2ZVajdYWkJyUjBPa3Y5WnpVSHYtVnBNaWVSR2pKTUl6RE12MldjSUdhNTJsOA?oc=5": {
@@ -61,7 +83,59 @@
       "severity": 0
     }
   },
+  "judge_intimidation_campaign": {
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYWphSmNHWGM4SzZ0M0wyX0Zfc1ZkN1JMdUd1VGk0R1lkekFSODhxeERSTkYxSHVRMlhoOXJIRTg1dktTVXRHLVlDM2ZPV2o2Unh3TDlNbi1KLXNESWd1LXN5bHdqSEcxeHFCUlltUFl2V0dmbVpNOEt3Y0dSZWVveENsZFRGakdqOFVtNDVqSnFJaDk0R3pLN0lYZXViaHIzQ0xBR2x6Y3NWSzZfOFMyZ1RodkFJTWVPV1VGWXBtdzJ3cFRodk53SlQ2SFIzQWdKU2ZrWWdicHc4OHpQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "facebook.com",
+      "rationale": "This item describes an impeachment trial of Philippine Vice President Sara Duterte occurring in the Philippines in 2026. It is not a U.S. domestic event and contains no evidence of judge intimidation in the United States.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTHJXMnBSRU1iTXN4bkN2dVluR2xqanQ3X3AzWVBxb3E3VUpRNDV4WVdiclR1bnctUUJjS2l6RnpwTFhXZ0U0enA5YWp4NTRmUlNMa2tGZ1FMVEYwLV9SejhDYlEtQUZoVjZvcjBJUnFuN29rNzhGRk4wYVVVdWFFWE83RnZRTkhxb2NINnBUS1BCVWcxR1VYM1BqWmI1RWF0TnJod0RRTlltZ0VqcW5QaUJ5ZExublNEUEdBTUVzMDRFRTg5X0NDRDcyRUF3UUkwRHNZNmNZbTBLRDlQU1VxNmxYNHRmTkU?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.75,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "TheNigeriaLawyer",
+      "rationale": "This headline from a Nigerian legal news source presents an ABA warning about attacks and threats to judges, but lacks specific factual detail about actual incidents in the U.S., their scope, or organized pressure by officials. It reads as cautionary statement rather than documentation of a verified campaign.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOHlhbGQ1S3dHMGlsZ3FFQi1kbmM4bkFQSjBlcEhaSl9VY1Izbld5QmtxLVRvVzNQbmxlRE0tMFZfWE5sRGdUbzl5UW5CdXo3eWplYWMwdHFxRkdjQlpCX0REakJpcWNZNEtzQkRFWkNBOE5yZm5zOG5uY3UwbjJTa1NyTQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.7,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "Punch Newspapers",
+      "rationale": "This headline announces an ABA condemnation but provides no substantive detail about what specific events triggered the condemnation, what country is involved, or whether any actual intimidation campaign occurred. Without the full article, this is only a headline indicating concern or criticism, not verifiable evidence of a sustained intimidation campaign.",
+      "severity": 0
+    }
+  },
   "jurisdiction_stripping_targeted": {
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc3VvQTY3WGZ3OEhlNVZCUi1PNGxWTk12YVFrZzhzSHFPRkhxckZmTE9sMlFKbnZpa2otZXdiZTUybEhxMWdqbTNwR0hrTGl0NWU0LVVnbVlaMG9Ra0ZHcDBpSE1Eb05ISDFqMXNraUhDMWJuWVpJLUFrRV9pa1BmNm90cXRQdw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "SCOTUSblog",
+      "rationale": "The item title references 'the push to reduce the Supreme Court's power' which appears to be analysis or opinion commentary rather than documentation of a concrete jurisdiction-stripping action. No specific legislative enactment, official policy implementation, or confirmed effort to strip court review from constitutional disputes is described in the summary. This reads as prospective discussion or analysis, not evidence of an actual occurrence.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0tpYVgxWnRFc2tjdXc3d0Jqd0tZRGRrclI3dGl6UXRRemZGR2JvZXlST1lYOE55ekpJcTg1Z3cyOUF6VGlabjNfWVktc2JfTi1OVDNiQ1hia3h3NE40UmlCZmV1YjZkeV9fY1VWNXM3eVdJb0NacXJrWFdkemUyX09CelMyMjZJQVI2Q3lScWdKQlM3SFM4?oc=5": {
+      "actor": "AFGE (American Federation of Government Employees)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "AFGE",
+      "rationale": "This item concerns lawsuits filed against Trump and describes how litigation works. Filing lawsuits against an official is standard judicial process and does not constitute jurisdiction stripping. The summary provides no evidence of efforts to remove or restrict court review over constitutional disputes. This is documentation of normal litigation activity, not evidence of targeted jurisdiction stripping.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQng5aVdpUzRPdldXeEVaRUpWVFZqdlJ3UHR1emozbDhwVjZZRUdfM3pwb2lLM0RrQmYxUjM3QVp6Qy16VDNJbExYZy1JUDNNNVQtV1dkLUdoUlZMWlNmRHI1RDdhS0ZpWEcwX29GdlZXS0c0VXZnWlBQNERkTmhqeDVIMUxOMXhSdlVtTHdqZEhqOU9rSTc2a1daRVBkalhXWkhtNkFULUhuN1o3RmdfUjNNal85eGNQRE1N?oc=5": {
       "actor": "Supreme Court",
       "confidence": 0.95,
@@ -112,6 +186,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.cnn.com",
       "rationale": "Trump filed a petition to the Supreme Court requesting relief on mail voting policy. This is a legitimate use of judicial process (petitioning the Court) rather than unilateral executive bypass of legislation. The action itself\u2014appealing to the judiciary\u2014does not constitute legislative bypass via executive action. The outcome remains uncertain and subject to judicial review, which is the constitutional process.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0tpYVgxWnRFc2tjdXc3d0Jqd0tZRGRrclI3dGl6UXRRemZGR2JvZXlST1lYOE55ekpJcTg1Z3cyOUF6VGlabjNfWVktc2JfTi1OVDNiQ1hia3h3NE40UmlCZmV1YjZkeV9fY1VWNXM3eVdJb0NacXJrWFdkemUyX09CelMyMjZJQVI2Q3lScWdKQlM3SFM4?oc=5": {
+      "actor": "AFGE (American Federation of Government Employees)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a summary/explainer article about lawsuits and litigation procedures, not evidence of a specific executive bypass of legislative authority. The headline indicates it is educational content about 'how litigation works' rather than documentation of an actual governance action shifting from statute to unilateral executive action. No material signal of legislative bypass is present.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdG4xQnZZOHF6UmZ0YUVJWnhLa1JaM1prZUxjS21KNVNhMllLakprUy1hbVRWRnFpeGpleGZqYzI1SU1iR0I1amR1cWpmNkVWWGVzVnQ3V2dLMms0czJGSTdSNUVZc2pBbXRvWGtLUzNlUFh5US0wQXlIMlVocXlJSUlfNmxZLU1qdjZLa2h2azdwUzJoNFN4dWJjaElNa2NhSVpUSV9DMzhoMDVFVk1sc0VoNW5PVHdtNGIxZ1BwZUI2eG9y?oc=5": {
@@ -182,6 +266,16 @@
     }
   },
   "press_restrictions": {
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxRE1tX2p3OHRCOFRqV3pBdEZkMUl1em80MzBWSHFYdWpKMzU2Ynl6Q3o2VjJIaU9rWFlEUkJqZEdaODJ5Wk5RVk4tMXhYa1RSZTJWaVNTanpHd1RT?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "Item is a generic watchlist title with no substantive content provided. Cannot determine if any specific event occurred. Additionally, Civicus Monitor is a global organization tracking civic space worldwide; a July 2026 watchlist would likely cover international events, not U.S. domestic press restrictions.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wSjNybGVHRUhBdUt0RVBia2VyVzNDYXYzS2FaRE9LSWlFcXhtam9meXBvSzluNERYaWJMQW1VQ1lwR3A1MGZZMWNMdVNJUzlydzBtR3hKeWttM2Z2dkEtcW1YZ282MDE3RVB3UkVpMjQ3STlJb1NqdTFfdw?oc=5": {
       "actor": "Unknown perpetrators",
       "confidence": 0.99,
@@ -190,6 +284,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item concerns journalist protests in Kolkata, India. Not a U.S. domestic event; outside scope of U.S. constitutional-risk monitoring.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DQnNSYWlkb1VnNnFhOUVIX1E2NnVuSVBBZnZldEtvZXJGMDZBQmNzSHpCLVNXZTBncjFFQ0Q2STcyVGdQVk1ER2p3WTB3UmF1RjlpSGlpby1sNTRpSk5rUFJkVk5WS3pTNG1OaW5aUVBNclNnQ1lQdlh3?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This event concerns Kolkata (India), not the United States. The signal requires U.S. domestic press restrictions or retaliation. Even if journalist attacks or restrictions occurred in India, this falls outside the scope of U.S. constitutional-risk monitoring.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMmdMQjMtZ19rT2dKRUZGNUIyX3FIMWZYdWc5cVVMcUNJQlBUZjFZdmR3cjVDR1hIclR3UmJWZnRzNHJ6R25TNzg0RTRoczlHVGhlLTlkVUM0NEZmNHZsOXduOURkalFOMnVTSDhsLUNCWVduWGZvcXlwZ1ZQeHFpMGpJcGVZT2FQLXhzeS1B?oc=5": {
@@ -240,6 +344,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item concerns a Filipino photojournalist in what appears to be a protest context outside the United States. Not U.S. domestic event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcjFYSHhKM2U4SV80SGVISEM3OFc3VEpTdDFtaEtGcE15cm4wRlk1d1M5TW1XV3FCcEJVWjNmNk11cDZ1SDV1bzlzMGhPeTU1YW05dVRFODUxeEJoTW1mNTc4Z2V6OGd3eG91YTFBa3p2djFQdGV6V3Vadnl5WThNcGZRRThnQTZnekpDV1FENTNnTWFrbXFqeA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This event concerns the Philippines, not the United States. The signal specifically requires U.S. domestic constitutional risk. Even if the event occurred, it is geographically outside the scope of U.S. constitutional monitoring.",
       "severity": 0
     }
   }
