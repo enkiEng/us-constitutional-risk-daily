@@ -38,9 +38,17 @@ block in the config is checked against the official record:
   via RECAP, and published opinions.
 
 Both APIs are free and work without a key. `COURTLISTENER_API_TOKEN` is
-optional and only raises the rate limit; without it requests are spaced by
-`primary_sources.courtlistener.request_delay_seconds` and a 429 is retried with
-backoff.
+optional; requests are spaced by
+`primary_sources.courtlistener.request_delay_seconds` either way and a 429 is
+retried with backoff.
+
+CourtListener's documented limits for authenticated callers are **5 requests
+per minute, 50 per hour and 125 per day** on a rolling window, so the spacing
+is set to ~13s. Ten signals use about ten of the daily budget and add roughly
+two minutes to the job. To get a token: create a CourtListener account and copy
+it from <https://www.courtlistener.com/profile/api-token/>, then store it as the
+`COURTLISTENER_API_TOKEN` GitHub Actions secret. Raising the limits further
+requires a Free Law Project membership.
 
 Documents are merged into the same evidence list as news items and judged by
 the same AI extraction layer, but they carry `source_tier="primary"`. That tier

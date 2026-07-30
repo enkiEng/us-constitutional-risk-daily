@@ -117,8 +117,8 @@
       "enabled": true,
       "endpoint": "https://www.courtlistener.com/api/rest/v4/search/",
       "token_env": "COURTLISTENER_API_TOKEN",
-      "note": "search_type 'r' searches RECAP federal dockets; 'o' searches published opinions. Anonymous callers are throttled by burst, so requests are spaced and a 429 is retried with backoff; set COURTLISTENER_API_TOKEN to lift the limit.",
-      "request_delay_seconds": 3.0
+      "note": "search_type 'r' searches RECAP federal dockets; 'o' searches published opinions. CourtListener's documented limits for authenticated callers are 5 requests/minute, 50/hour and 125/day, so requests are spaced ~13s to stay under the per-minute rate; 10 signals use ~10 of the 125 daily calls. A 429 is retried with backoff. COURTLISTENER_API_TOKEN is optional -- anonymous access works but throttles harder.",
+      "request_delay_seconds": 13.0
     }
   },
   "risk_bands": [
