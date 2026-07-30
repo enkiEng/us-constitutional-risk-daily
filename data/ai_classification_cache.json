@@ -52,6 +52,16 @@
       "rationale": "Labeled as 'Guest editorial' - this is opinion writing, not reporting of a verifiable event. The title frames Fed independence as 'unfinished business,' suggesting prospective concern rather than documentation of actual capture or weakening of safeguards.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxNV0lBYVR0bFNvTjBFSGxiQ2dWMjJpN2ZOY0RxQ1dNLXRrTUh5X0oyVmNJOE05V2ZfTlU3MFhmd1QwWVdHSHhtUHRfUkZFdVYxT2U4VGZoSC1QVlhqMko4R2R4c2JZRWJjUi1ya3pRVVRsbGxrT0RoZDJScWRNbEt0a3JycjJBaW80RndSZHAzNUdvQUpFa0RQLXpFNVN1UQ?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item 1 is from a UAE-based publication (Gulf Today) and addresses global AI regulation in general terms. It is not a U.S. domestic event. The article appears to discuss the need for credible regulation rather than evidence of regulatory capture or weakening of independent agency safeguards. This is opinion/advocacy content rather than reporting a concrete occurrence of constitutional or regulatory stress in the U.S.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVmtueEZVRmJ6OG93NXpGNnpxc2paY25EbWF1ejN4Q25pLVAya1hxSGNYWjVvVU9ZVndyNU1wMk0zVkJhbXVWS3NVdWVlQWhQUjJFVWNQenl1bVliNzlPV1JZSEktaVFvY0M0TW5EdnZHVEpMNVljRU90d2laVWpWMi10c2ptSk5tdDdZVW0zdDRFMWZNaExSU0dzNUg1emU0OEFaaWFqQXFWVkFPRkp5Y9IBmgFBVV95cUxPeU9rbk5QYnhHMFpNdS1UR1dtdlllOVBYTGtIUkRHeTFZX0RzWlRnNmw1VXdwYUZ1ZGhncWtZZUw5MzZTRjNLRjZyQm5HVUJ0YlI3UDZrSllYLWdPcC1YT0YwNTBMMkVuRnQ1dG96a1BCVlQwZEZhcTdQRVZaU09wSmxoeDc1azhjWU5XWjJaUV90cTlrSHlpNU9R?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -80,6 +90,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Title suggests discussion of preserving non-Article III tribunals' capacity. Without access to full content, the summary indicates this is likely academic or policy discussion rather than evidence of an actual weakening of independent agency safeguards. No verifiable event is described.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxORGRPQWVFZXBvQmVHMHB0Z2I0XzF4RUdqZDl5Z1F1cndiQXRfQ1RrU0R1RDU1SUFyX2RCc05YX3k3YnZaa1dFc3ZVY1I2YkdzQTJZNm9hY0xJY1Y2N3YxcTQxSi02UzcwVk9UTUlKNlpCN2JxaXQzaUlrZkU4c1Etam8xUzYwb0g0dk1CTnhYWFhUNlZsS1BJN3RBNjdtdTFTRVF0R3p2TFdldWJETW9WYnFPRGxoYXRxV05sSg?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.85,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item 0 is a headline question or opinion piece about the fate of independent adjudication and civil service. The title uses interrogative phrasing ('The Fate of...?'), which signals this is likely speculative analysis, commentary, or a think-piece rather than reporting a concrete event that occurred. Without access to the full article text, the headline alone provides insufficient evidence of an actual occurrence of regulatory capture or weakening of legal safeguards. This appears to be discussion or concern about potential risks rather than documentation of a verifiable action.",
       "severity": 0
     }
   },
@@ -116,6 +136,16 @@
     }
   },
   "jurisdiction_stripping_targeted": {
+    "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQemc4YXRKV25hQndyVVVWQUJRVC1JS1QwdHV2cjNRaFR3VXN0aEJJbnlKR1FrTVAyb0NBYXdGNkoxSXR1cG9lOXRrQmtQQTdkbWZialdXWGVUckI5RzBsV2xScHF1YnYxejRSRk0xRW0za1AxN3Nramt4bldPSWFDUk52NjhDV05fMnZRVEZpX2VHSkpBSEFqazNMc3FzYmJEMFBZVXBSc1VtampTQ2o3bDdaZ2s5UDZyT0ZLN0RPWmxEREE0U2lJWlpxcVZmbTBlaFU0NFlKNE0?oc=5": {
+      "actor": "Ex-Credit Union CEO",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.creditunionimes.com",
+      "rationale": "An ex-CEO filing a petition to the Supreme Court to decide constitutional questions about regulatory authority is a normal appellate process and legitimate use of court review, not an effort to strip courts of jurisdiction. The petitioner is seeking to bring a matter before a court, not remove court review. This is routine constitutional litigation and does not represent targeted jurisdiction stripping.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc3VvQTY3WGZ3OEhlNVZCUi1PNGxWTk12YVFrZzhzSHFPRkhxckZmTE9sMlFKbnZpa2otZXdiZTUybEhxMWdqbTNwR0hrTGl0NWU0LVVnbVlaMG9Ra0ZHcDBpSE1Eb05ISDFqMXNraUhDMWJuWVpJLUFrRV9pa1BmNm90cXRQdw?oc=5": {
       "actor": "Unknown",
       "confidence": 0.95,
@@ -210,6 +240,16 @@
     }
   },
   "martial_law_or_military_language": {
+    "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR0R3bzVmNTZpLVNiSUNPNFRfakhKY2thLUo2c1NGZW9mTEl6aXEzZXR1c2h2XzlKbF8yNjROLVFFQnJzS2VJOUtudm1ib1ZkRDkyOFp4QU9kQUFBS3lENEVab0tfcDRpZDdfazVaQU0yS3B6Qi1xaEdJT3NLdUJleGYzT0NwRzlpbEpfR3JuNmlZelFIaWpwRXBYTFFmaFhfVk1yMHJ0b0ZuYURUSG1nNUV0TF8tMERBVWFBVXJJTFlfUVpBSDRMeWpSRzN0Q0toaDJFT3hGbXU?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports a Ukrainian court proceeding regarding a soldier missing in the Bakhmut conflict (Ukraine-Russia war). It is not a U.S. domestic event and contains no language or content related to martial law, military governance, or military management of political disputes in the United States. The article concerns a civil/family law matter in a foreign country during an active military conflict.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNllUbFpNYU9IUkZ6U25mZmROaEZZUGxXR0pRSXhHYjF1QXh1RHFqSlFiV184Q3FEZ3ozTDlIZEQ4T2I2c0pHWlNwTXcyQTlmXzFSZzZfYTM3TnZNVzFEMEpQbVVuVGFaM1ExWk9jRFRmQWVNVWVYX205SDBBc01xQUpzU3BFUnFTcklHeVE1Nm56cUJPNDgyeUt1d0JwOHZ4ZFY1eHhaRF95bUl0SzVhNjVrNXdsbm9qZjVhZHdzcFBJMEQ3RDYxUEJqbFZQSFYtLUNYTzVxd2V0Y3FjN3V3R2FHd2c4MS1QMUE?oc=5": {
       "actor": "U.S. court",
       "confidence": 0.95,
@@ -232,6 +272,16 @@
     }
   },
   "opposition_ballot_exclusion": {
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5ZlVmZDBBOXVKUzAtQnM1U3VlUnNNZWhodjlrcFJUdngxZktUdnlRMGxVLVRjcjJXNFVNWk1tVDVfX1JpX3dxWFVSLTM4aWprWXFBeFJn?oc=5": {
+      "actor": "Unknown entities approaching Action Alliance party",
+      "confidence": 0.35,
+      "event_occurred": true,
+      "is_us_domestic": false,
+      "matches_signal": true,
+      "primary_source_url": "https://instagram.com",
+      "rationale": "An Instagram post from an Action Alliance Spokesman claims that people approached the party with settlement offers to remove them from a deregistration suit. This is a claim of alleged coercion or pressure to withdraw from legal action contesting deregistration/ballot access. However, the reference to '#2027Politics' and the party names (ADC, AAC, APC) suggest this may refer to a non-U.S. context (possibly Pakistan or another country with similar political naming conventions). Without clear U.S. domestic confirmation and relying on a low-credibility social-media-only source with unverified claims, this merits lower confidence and severity as potential evidence of U.S. ballot exclusion. The claim itself\u2014if true\u2014would evidence pressure/coercion but is not independently verified.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Bcmdua3dCcEU2cUJJS1JHSTl1S1kwSW1hVktkVm0zdnYwWkU4Y0Z3emo4WC16TkVjelNHNHRCU0JCUEx6WmN5VlMwcXZiaFJYV3VPdnFFam5tazR6YXJsTVNpdkRCYnRNdE9BUUNhanpVcWhkWWt0YW8ycGZYZw?oc=5": {
       "actor": "PDP (Nigeria)",
       "confidence": 0.99,
@@ -251,6 +301,16 @@
       "primary_source_url": "",
       "rationale": "This article concerns Nigerian politics and legal proceedings regarding a Nigerian politician. The reference to a Supreme Court decision pertains to Nigeria's judicial system, not the U.S. This is not a U.S. domestic constitutional event.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmpTZGx4MkpaUW1Xb0FHX21iTS1rVk9PN1FDMlV5MzVNNlZOdmxKdGt5dFdwdnZfa195TzYyZERTdGRmaFgtdzIzUS1hT0NCZHdfTHlZSGNvR0tRTEFMWm5ielIwR1JNNjliSW5jZ2Y5WVdfZURCY1JBTkRoUjZzVHdMUEYzVnZpNF92Skk4aXhiNTFXTFRDcndlU2FfRUJ0UUZGSDdlMDUxc3QwUlNsQWI2akNGTGxyYmFHU3pEQXFRNFhHU2RF?oc=5": {
+      "actor": "Iowa state authorities",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://iowacapitaldispatch.com",
+      "rationale": "A Libertarian gubernatorial candidate was removed from the ballot in Iowa and is planning to appeal. This is a confirmed real occurrence of ballot exclusion of an opposition candidate. The fact that an appeal is being filed confirms the removal happened. However, without evidence of systematic, statewide, or coordinated removal of multiple opposition candidates, and given that legal challenge mechanisms appear available, this represents an isolated or contained action rather than structural failure. Severity 2: real but not yet confirmed as part of a systematic campaign.",
+      "severity": 2
     }
   },
   "political_speech_surveillance": {
@@ -262,6 +322,16 @@
       "matches_signal": false,
       "primary_source_url": "streamlinefeed.co.ke",
       "rationale": "Item concerns Bengal (India), not the United States. No U.S. constitutional event occurred. Signal is for U.S. political speech criminalization or surveillance; this item is geographically outside scope and contains no evidence of such action in the U.S.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTjU1SVkzeFNQYXFfdDRPRGZTb2w0ME5hQ3FKS0lpRHlValVhZ2pwdVpIckZNT1pUdTBVcm5iX0FKVEdoQUlsRDRLNExHeEVhcFp6ZTlaOWdBOW1hdXZXT0pEajROdXdhR2RaVGhfSTVFLXplQVBfXzUtcWMzV0NOOVVWcjZTN2FWU1luVmRPcTlUY1pQQWwxTzdn?oc=5": {
+      "actor": "Goa Police",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "streamlinefeed.co.ke",
+      "rationale": "This item reports on law enforcement action in Goa, India, not the United States. The signal is specifically about constitutional stress in the U.S. domestic context. While the item may describe surveillance or interrogation of protesters, it is geographically outside the scope of a U.S. constitutional-risk dashboard.",
       "severity": 0
     }
   },
@@ -354,6 +424,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This event concerns the Philippines, not the United States. The signal specifically requires U.S. domestic constitutional risk. Even if the event occurred, it is geographically outside the scope of U.S. constitutional monitoring.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU2JwUHVmVnJTSzRtUjc4eWFfbzdFY09oTEtuX09WMG00Qmo4eTN1cVB1bE9KUVNEbWV1RlVVUzg5YVJFLTJ3RVhlYnNiSUJKaW1aVGs0WjdCMGVvblZtSzZydnNMT1VhMEVPeW9yaVFwQ0hXSGlMSmhKcGNfZHVZdUxENE9DOFBLd3ZXR3RqOEVlNzV0OTJ0eG5KUXlZaXJJdmRYVWxhaw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes an incident in India (Assam Assembly), not the United States. The signal specifies state action raising costs or legal risk for independent reporting in the U.S. domestic context. A press restriction event in India, regardless of its severity, is not evidence of constitutional stress to the U.S. press system and falls outside the scope of this dashboard's mandate.",
       "severity": 0
     }
   }
