@@ -32,6 +32,11 @@ try:
 except Exception:  # pragma: no cover - AI layer is optional
     ai_classifier = None
 
+try:
+    import primary_sources
+except Exception:  # pragma: no cover - primary-source layer is optional
+    primary_sources = None
+
 
 UTC = dt.timezone.utc
 
@@ -43,6 +48,11 @@ class FeedEntry:
     summary: str
     publisher: str
     published: dt.datetime | None
+    # "news" for RSS coverage, "primary" for an official record (Federal
+    # Register document, court docket entry, published opinion). Primary items
+    # are the only ones that can anchor a red-level severity on their own.
+    source_tier: str = "news"
+    source_name: str = "google_news"
 
 
 @dataclass
@@ -60,6 +70,8 @@ class SignalResult:
     rationale: str | None = None
     confirmed_hits: int = 0
     primary_source_url: str | None = None
+    primary_documents: int = 0
+    primary_confirmed: int = 0
 
 
 def parse_args() -> argparse.Namespace:
@@ -249,6 +261,65 @@ def fetch_entries(
     return filtered
 
 
+def fetch_primary_entries(
+    signal: dict[str, Any],
+    primary_cfg: dict[str, Any],
+    today: dt.date,
+    timeout: int,
+    user_agent: str,
+) -> tuple[list[FeedEntry], list[str]]:
+    """Fetch official-record evidence (Federal Register, CourtListener).
+
+    Returns entries tagged ``source_tier="primary"`` so downstream scoring can
+    tell an executive order or a docketed motion apart from a news story about
+    one. Failures are returned as strings, never raised: a dead API degrades the
+    run to news-only.
+    """
+    if primary_sources is None or not primary_sources.is_enabled(primary_cfg):
+        return [], []
+    try:
+        documents, errors = primary_sources.fetch_for_signal(
+            signal,
+            primary_cfg,
+            today=today,
+            timeout=timeout,
+            user_agent=user_agent,
+        )
+    except Exception as exc:  # noqa: BLE001 - must never break the daily run
+        return [], [f"{signal.get('id', '?')}: primary_sources: {exc}"]
+
+    entries = [
+        FeedEntry(
+            title=normalize_text(doc.get("title", "")),
+            link=str(doc.get("link", "")),
+            summary=normalize_text(doc.get("summary", "")),
+            publisher=str(doc.get("publisher", "")),
+            published=parse_datetime(doc.get("published")),
+            source_tier="primary",
+            source_name=str(doc.get("source", "primary")),
+        )
+        for doc in documents
+    ]
+    return entries, errors
+
+
+def merge_entries(news: list[FeedEntry], primary: list[FeedEntry]) -> list[FeedEntry]:
+    """Combine feeds, primary first, de-duplicated by link.
+
+    Primary documents lead so that when a signal's evidence list is truncated to
+    ``max_evidence_per_signal`` the official record is what survives.
+    """
+    merged: list[FeedEntry] = []
+    seen: set[str] = set()
+    for entry in list(primary) + list(news):
+        key = (entry.link or entry.title).strip().lower()
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        merged.append(entry)
+    return merged
+
+
 def highest_level(text: str, severe_terms: list[str], critical_terms: list[str]) -> int:
     normalized = text.lower()
     if any(term.lower() in normalized for term in critical_terms):
@@ -317,17 +388,25 @@ def _keyword_auto_score(
 
     Returns (auto_score, total_hits, unique_publishers, severe_hits,
     critical_hits, evidence).
+
+    Primary-source documents are excluded here on purpose. This path scores by
+    counting keyword hits, which cannot tell whether an official record is
+    actually on point -- a Federal Register notice or a docket entry that merely
+    contains the search words would otherwise inflate both the hit count and the
+    publisher count. Letting them through would mean adding primary sources
+    silently raised historical scores in fallback mode. Official records earn
+    their weight only through the AI path, which reads them.
     """
     severe_terms = [str(item).lower() for item in signal.get("severe_terms", [])]
     critical_terms = [str(item).lower() for item in signal.get("critical_terms", [])]
+    scoring_entries = [entry for entry in entries if entry.source_tier != "primary"]
 
     total_hits = 0
     severe_hits = 0
     critical_hits = 0
     publishers: set[str] = set()
-    evidence: list[FeedEntry] = []
 
-    for entry in entries:
+    for entry in scoring_entries:
         text = f"{entry.title} {entry.summary}".strip()
         if not text:
             continue
@@ -339,8 +418,11 @@ def _keyword_auto_score(
             critical_hits += 1
         if entry.publisher:
             publishers.add(entry.publisher.lower())
-        if len(evidence) < int(cfg["max_evidence_per_signal"]):
-            evidence.append(entry)
+
+    # Evidence is drawn from everything that was looked at, including the
+    # official records that did not score here, so the report still shows a
+    # reader what the pipeline examined. Only the counting above is news-only.
+    evidence = list(entries)[: int(cfg["max_evidence_per_signal"])]
 
     unique_publishers = len(publishers)
     yellow_threshold = int(signal.get("yellow_threshold", 3))
@@ -368,12 +450,12 @@ def _ai_auto_score(
     entries: list[FeedEntry],
     judgments: list[dict[str, Any] | None],
     cfg: dict[str, Any],
-) -> tuple[float, int, int, list[FeedEntry], str | None, str | None] | None:
+) -> tuple[float, int, int, list[FeedEntry], str | None, str | None, int] | None:
     """Severity from confirmed events (the AI path).
 
     Returns (auto_score, confirmed_hits, unique_publishers, evidence,
-    rationale, primary_source_url) or None if the AI produced no usable
-    judgment for this signal.
+    rationale, primary_source_url, primary_confirmed) or None if the AI
+    produced no usable judgment for this signal.
     """
     if ai_classifier is None:
         return None
@@ -388,24 +470,62 @@ def _ai_auto_score(
 
     if not qualifying:
         # AI ran but found no confirmed event: an explicit, defensible zero.
-        return 0.0, 0, 0, [], None, None
+        return 0.0, 0, 0, [], None, None, 0
 
-    qualifying.sort(key=lambda pair: float(pair[1].get("severity", 0)), reverse=True)
+    # Sort by severity, then prefer official-record evidence at equal severity
+    # so the rationale and the cited source come from the primary document.
+    qualifying.sort(
+        key=lambda pair: (
+            float(pair[1].get("severity", 0)),
+            pair[0].source_tier == "primary",
+        ),
+        reverse=True,
+    )
     top_entry, top_judgment = qualifying[0]
     top_severity = float(top_judgment.get("severity", 0))
+    primary_confirmed = sum(1 for e, _ in qualifying if e.source_tier == "primary")
+
+    # The model may cite a primary source it found inside a news article. If the
+    # confirming item *is itself* an official record, its own URL is the anchor.
     primary = (top_judgment.get("primary_source_url") or "").strip() or None
-    publishers = {e.publisher.lower() for e, _ in qualifying if e.publisher}
+    if not primary and top_entry.source_tier == "primary":
+        primary = top_entry.link or None
+
+    # Publisher corroboration is a statement about independent *newsrooms*, so
+    # only news entries count. Otherwise an official record that confirms
+    # nothing more than a severity-2 fact would silently act as the second
+    # "publisher" corroborating an unrelated severity-4 claim.
+    publishers = {
+        e.publisher.lower()
+        for e, _ in qualifying
+        if e.publisher and e.source_tier != "primary"
+    }
     unique_publishers = len(publishers)
 
     # A red-level (4) severity is only allowed to stand when it is either
     # anchored to a primary source or independently corroborated; otherwise it
-    # is held at orange (3) pending confirmation.
+    # is held at orange (3) pending confirmation. An official record confirming
+    # the top-severity event satisfies that bar on its own -- two outlets
+    # rewriting the same wire story never should have been the stronger
+    # evidence than the executive order itself.
+    anchored = bool(primary) or any(
+        e.source_tier == "primary" and float(j.get("severity", 0)) >= top_severity
+        for e, j in qualifying
+    )
     auto_score = top_severity
-    if auto_score >= 4.0 and not (primary or unique_publishers >= min_publishers_for_critical):
+    if auto_score >= 4.0 and not (anchored or unique_publishers >= min_publishers_for_critical):
         auto_score = 3.0
 
     evidence = [e for e, _ in qualifying[:max_evidence]]
-    return auto_score, len(qualifying), unique_publishers, evidence, top_judgment.get("rationale"), primary
+    return (
+        auto_score,
+        len(qualifying),
+        unique_publishers,
+        evidence,
+        top_judgment.get("rationale"),
+        primary,
+        primary_confirmed,
+    )
 
 
 def evaluate_signal(
@@ -420,6 +540,8 @@ def evaluate_signal(
     rationale: str | None = None
     confirmed_hits = 0
     primary_source_url: str | None = None
+    primary_confirmed = 0
+    primary_documents = sum(1 for entry in entries if entry.source_tier == "primary")
 
     ai_result = None
     if judgments is not None:
@@ -433,6 +555,7 @@ def evaluate_signal(
             evidence,
             rationale,
             primary_source_url,
+            primary_confirmed,
         ) = ai_result
         evidence_mode = "ai"
         # Keep keyword hit counts as descriptive context (raw coverage volume).
@@ -483,6 +606,8 @@ def evaluate_signal(
         rationale=rationale,
         confirmed_hits=confirmed_hits,
         primary_source_url=primary_source_url,
+        primary_documents=primary_documents,
+        primary_confirmed=primary_confirmed,
     )
 
 
@@ -634,10 +759,15 @@ def upsert_signal_history(
                 "unique_publishers": str(result.unique_publishers),
                 "severe_hits": str(result.severe_hits),
                 "critical_hits": str(result.critical_hits),
+                "primary_documents": str(result.primary_documents),
+                "primary_confirmed": str(result.primary_confirmed),
                 "override_note": result.override_note or "",
             }
         )
 
+    # Rows written before primary-source ingestion existed simply have empty
+    # values in the two new columns (csv.DictWriter fills missing keys), so the
+    # historical series stays readable and comparable.
     fieldnames = [
         "date",
         "signal_id",
@@ -649,6 +779,8 @@ def upsert_signal_history(
         "unique_publishers",
         "severe_hits",
         "critical_hits",
+        "primary_documents",
+        "primary_confirmed",
         "override_note",
     ]
     signal_history_path.parent.mkdir(parents=True, exist_ok=True)
@@ -692,6 +824,8 @@ def build_markdown(
     methodology_version: int = 2,
     ai_active: bool = False,
     trip_wires_fired: list[dict[str, Any]] | None = None,
+    primary_signals_attempted: int = 0,
+    primary_documents_fetched: int = 0,
 ) -> str:
     trip_wires_fired = trip_wires_fired or []
     prev_delta = None if previous_score is None else float(score - previous_score)
@@ -773,13 +907,22 @@ def build_markdown(
             timestamp = entry.published.strftime("%Y-%m-%d") if entry.published else "unknown date"
             title = entry.title or "(untitled)"
             link = entry.link or ""
-            lines.append(f"- [{publisher}] {title} ({timestamp}) - {link}")
+            tier = " **[official record]**" if entry.source_tier == "primary" else ""
+            lines.append(f"- [{publisher}]{tier} {title} ({timestamp}) - {link}")
         lines.append("")
     lines.append("## Data Quality")
     lines.append("")
     lines.append(f"- Query feeds attempted: {attempted_queries}")
     lines.append(f"- Query feeds successful: {successful_queries}")
     lines.append(f"- Query feeds failed: {attempted_queries - successful_queries}")
+    lines.append(
+        f"- Primary-source lookups: {primary_signals_attempted} signals, "
+        f"{primary_documents_fetched} official documents "
+        "(Federal Register, CourtListener)"
+    )
+    lines.append(
+        f"- Primary-source confirmations: {sum(r.primary_confirmed for r in top_results)}"
+    )
     lines.append(f"- Evidence extraction: {extraction}")
     lines.append(f"- Confidence: **{confidence}**")
     if fetch_errors:
@@ -810,6 +953,8 @@ def build_summary_payload(
     ai_active: bool = False,
     trip_wires_fired: list[dict[str, Any]] | None = None,
     raw_score_pre_floor: float | None = None,
+    primary_signals_attempted: int = 0,
+    primary_documents_fetched: int = 0,
 ) -> dict[str, Any]:
     trip_wires_fired = trip_wires_fired or []
     prev_delta = None if previous_score is None else float(score - previous_score)
@@ -831,6 +976,8 @@ def build_summary_payload(
                 "rationale": result.rationale,
                 "confirmed_hits": result.confirmed_hits,
                 "primary_source_url": result.primary_source_url,
+                "primary_documents": result.primary_documents,
+                "primary_confirmed": result.primary_confirmed,
                 "hits": result.total_hits,
                 "unique_publishers": result.unique_publishers,
                 "severe_hits": result.severe_hits,
@@ -842,6 +989,8 @@ def build_summary_payload(
                         "publisher": entry.publisher,
                         "link": entry.link,
                         "published": entry.published.isoformat() if entry.published else None,
+                        "source_tier": entry.source_tier,
+                        "source_name": entry.source_name,
                     }
                     for entry in result.evidence
                 ],
@@ -868,6 +1017,12 @@ def build_summary_payload(
         "successful_queries": successful_queries,
         "failed_queries": attempted_queries - successful_queries,
         "confidence": confidence,
+        "primary_sources": {
+            "signals_queried": primary_signals_attempted,
+            "documents_fetched": primary_documents_fetched,
+            "documents_confirmed": sum(r.primary_confirmed for r in top_results),
+            "providers": ["federal_register", "courtlistener"],
+        },
         "domain_breakdown": domain_rows,
         "top_signals": top_signals,
         "trip_wires_fired": trip_wires_fired,
@@ -929,11 +1084,14 @@ def main() -> int:
 
     attempted_queries = 0
     successful_queries = 0
+    primary_signals_attempted = 0
+    primary_documents_fetched = 0
     fetch_errors: list[str] = []
     results: list[SignalResult] = []
 
     timeout = int(config["request_timeout_seconds"])
     user_agent = str(config["user_agent"])
+    primary_cfg = config.get("primary_sources", {}) or {}
 
     ai_cfg = config.get("ai", {}) or {}
     ai_active = ai_classifier is not None and ai_classifier.is_available(ai_cfg)
@@ -952,6 +1110,19 @@ def main() -> int:
             successful_queries += 1
         except Exception as exc:  # noqa: BLE001
             fetch_errors.append(f"{signal['id']}: {exc}")
+
+        # Official-record evidence is fetched independently of the news feed, so
+        # a Google News outage does not also blind the pipeline to the Federal
+        # Register and the courts.
+        if signal.get("primary_sources"):
+            primary_signals_attempted += 1
+            primary_entries, primary_errors = fetch_primary_entries(
+                signal, primary_cfg, today, timeout, user_agent
+            )
+            fetch_errors.extend(primary_errors)
+            if primary_entries:
+                primary_documents_fetched += len(primary_entries)
+                entries = merge_entries(entries, primary_entries)
 
         judgments = None
         if ai_active and entries:
@@ -1049,6 +1220,8 @@ def main() -> int:
         methodology_version=methodology_version,
         ai_active=ai_active,
         trip_wires_fired=trip_wires_fired,
+        primary_signals_attempted=primary_signals_attempted,
+        primary_documents_fetched=primary_documents_fetched,
     )
     summary_payload = build_summary_payload(
         generated_at=now,
@@ -1066,6 +1239,8 @@ def main() -> int:
         ai_active=ai_active,
         trip_wires_fired=trip_wires_fired,
         raw_score_pre_floor=raw_score_pre_floor,
+        primary_signals_attempted=primary_signals_attempted,
+        primary_documents_fetched=primary_documents_fetched,
     )
 
     if args.dry_run:

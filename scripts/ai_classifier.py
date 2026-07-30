@@ -169,13 +169,25 @@ def _build_prompt(signal: dict[str, Any], entries: list[Any], indices: list[int]
     lines.append(_SEVERITY_RUBRIC)
     lines.append("")
     lines.append(
-        "For EACH news item below decide, conservatively, whether it is real "
+        "For EACH item below decide, conservatively, whether it is real "
         "evidence that THIS signal's event occurred in the United States. Mark "
         "event_occurred=false for hypotheticals, denials, opinion/analysis, "
         "satire, historical retrospectives, and non-U.S. events. Only assign "
         "severity >= 3 when a specific, serious action has verifiably taken "
         "place (not merely been proposed, feared, or alleged). Return one "
         "judgment object per item, echoing its index."
+    )
+    lines.append("")
+    lines.append(
+        "Items tagged OFFICIAL RECORD are not press coverage: they are the "
+        "government's or a court's own documents (Federal Register documents, "
+        "federal docket entries, published opinions). Judge them as the act "
+        "itself rather than as a report about an act, and set "
+        "primary_source_url to the item's own URL when it confirms the event. "
+        "Take the same care in the other direction: a proposed rule, a filed "
+        "motion, or a routine notice is a request or a proposal, not an "
+        "accomplished action, and an unrelated document that merely happens to "
+        "contain the search words is severity 0."
     )
     lines.append("")
     lines.append("ITEMS:")
@@ -186,9 +198,18 @@ def _build_prompt(signal: dict[str, Any], entries: list[Any], indices: list[int]
         publisher = (getattr(entry, "publisher", "") or "").strip()
         published = getattr(entry, "published", None)
         date = published.strftime("%Y-%m-%d") if published else "unknown date"
-        lines.append(f"[{idx}] ({publisher}, {date}) {title}")
+        tier = (getattr(entry, "source_tier", "news") or "news").strip()
+        source_name = (getattr(entry, "source_name", "") or "").strip()
+        if tier == "primary":
+            marker = f"OFFICIAL RECORD - {source_name or publisher}"
+        else:
+            marker = publisher
+        lines.append(f"[{idx}] ({marker}, {date}) {title}")
         if summary and summary.lower() != title.lower():
             lines.append(f"     summary: {summary[:400]}")
+        link = (getattr(entry, "link", "") or "").strip()
+        if tier == "primary" and link:
+            lines.append(f"     url: {link}")
     return "\n".join(lines)
 
 

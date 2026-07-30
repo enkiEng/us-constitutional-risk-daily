@@ -22,6 +22,12 @@ The scoring engine is now **v2**:
   article is read by a model that confirms whether the event actually occurred
   (vs hypothetical / denied / historical / foreign) before it is scored;
   otherwise the run falls back to the keyword scorer.
+- **Primary-source ingestion** — signals are also checked against the official
+  record: the **Federal Register** (executive orders, presidential memoranda
+  and proclamations, agency rules and notices) and **CourtListener** (federal
+  dockets via RECAP, published opinions). Both APIs are free and keyless. These
+  documents are judged alongside news items but can anchor a red-level severity
+  on their own, where a news item still needs two independent publishers.
 
 See [`docs/constitutional-risk-deep-dive.md`](docs/constitutional-risk-deep-dive.md)
 and [`docs/constitutional-risk-improvement-proposal.md`](docs/constitutional-risk-improvement-proposal.md).
@@ -48,6 +54,12 @@ Required GitHub secret:
 
 - `GITLAB_TRIGGER_TOKEN`: pipeline trigger token created in the GitLab
   `bluesky-scheduler` project.
+
+Optional GitHub secrets:
+
+- `ANTHROPIC_API_KEY`: enables the AI event-extraction layer.
+- `COURTLISTENER_API_TOKEN`: raises the CourtListener rate limit. Primary-source
+  ingestion works without it.
 
 Optional GitHub repository variables:
 

@@ -58,6 +58,34 @@ Constitutional Crisis"). Trip-wires are configured in
 `config/constitutional_risk_config.json` under `trip_wires.rules` and the fired
 rules are surfaced on the page and in the daily report.
 
+## Primary-Source Evidence
+
+News coverage is a lagging, noisy proxy for what the government actually did.
+Over the first 164 days of the v2 series no signal ever exceeded severity 2.0,
+which meant every trip-wire configured below was unreachable and the bands
+above "Elevated Strain" were decorative. The missing ingredient was not the
+aggregation math — it was that the pipeline had no way to see the authoritative
+record.
+
+Signals are therefore also checked against two official sources:
+
+- **Federal Register** — executive orders, presidential memoranda and
+  proclamations, agency rules and notices; where an executive act is published
+  as an official act on the day it becomes operative.
+- **CourtListener** — federal docket entries (RECAP) and published opinions;
+  where a motion to enforce a court order against the government appears, often
+  well before it is a news story.
+
+These documents are judged by the same AI extraction layer as news items and
+differ in exactly one respect: they carry `source_tier="primary"` and can
+anchor a red-level (4) severity on their own. Two outlets rewriting the same
+wire story should never have been stronger evidence than the executive order
+itself. In the keyword fallback path primary documents get no special standing.
+
+Per-signal queries live under `primary_sources` in
+`config/constitutional_risk_config.json`; see the automation guide for the
+query quirks of each API.
+
 ## AI Event Extraction (optional)
 
 The weakest part of v1 was turning articles into severities by counting keyword

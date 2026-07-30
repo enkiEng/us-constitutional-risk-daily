@@ -293,10 +293,15 @@ def evidence_blocks(top_signals: list[dict[str, Any]]) -> str:
                     published_text = "unknown date"
             else:
                 published_text = "unknown date"
+            tier_html = (
+                ' <span class="src-tag src-primary">official record</span>'
+                if str(item.get("source_tier") or "") == "primary"
+                else ""
+            )
             blocks.append(
                 "<li>"
                 f'<a href="{link}" target="_blank" rel="noopener noreferrer">{title}</a>'
-                f' <span class="meta">{publisher} | {published_text}</span>'
+                f'{tier_html} <span class="meta">{publisher} | {published_text}</span>'
                 "</li>"
             )
         blocks.append("</ul></section>")
@@ -492,6 +497,10 @@ def render_html(
     trip_wires = list(summary.get("trip_wires_fired", []))
     bands = list(summary.get("_bands", [])) or _DEFAULT_BANDS
 
+    primary_stats = summary.get("primary_sources", {}) or {}
+    primary_fetched = int(primary_stats.get("documents_fetched", 0) or 0)
+    primary_confirmed = int(primary_stats.get("documents_confirmed", 0) or 0)
+
     domain_breakdown = list(summary.get("domain_breakdown", []))
     top_signals = list(summary.get("top_signals", []))
     generated_date = generated_at[:10] if len(generated_at) >= 10 else ""
@@ -617,10 +626,12 @@ def render_html(
       background: #eef2f7; color: var(--muted); white-space: nowrap; }}
     .src-ai {{ background: #ecfdf3; color: var(--ok); }}
     .src-override {{ background: #eef2ff; color: var(--accent); }}
+    .src-primary {{ background: #fff4e5; color: #8a4b00; }}
     .metrics {{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }}
     .metric {{ background: #f8fbff; border: 1px solid #e1eaf7; border-radius: 10px; padding: 10px; }}
     .metric .k {{ color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }}
     .metric .v {{ font-size: 1.25rem; font-weight: 700; margin-top: 2px; }}
+    .metric .sub {{ color: var(--muted); font-size: 0.72rem; margin-top: 1px; }}
     ul {{ margin: 0; padding-left: 20px; }}
     li {{ margin: 8px 0; }}
     .meta {{ color: var(--muted); font-size: 0.85rem; }}
@@ -692,6 +703,9 @@ def render_html(
           <div class="metric"><div class="k">Delta vs 7-Day Avg</div><div class="v">{fmt_number(summary.get("delta_vs_7d"))}</div></div>
           <div class="metric"><div class="k">Feed Pull Success</div><div class="v">{summary.get("successful_queries", 0)} / {summary.get("attempted_queries", 0)}</div></div>
           <div class="metric"><div class="k">Confidence</div><div class="v">{html.escape(str(summary.get("confidence", "n/a")))}</div></div>
+          <div class="metric"><div class="k">Official Records Pulled</div><div class="v">{primary_fetched}</div>
+            <div class="sub">Federal Register + CourtListener</div></div>
+          <div class="metric"><div class="k">Records Confirming an Event</div><div class="v">{primary_confirmed}</div></div>
         </div>
       </div>
     </section>

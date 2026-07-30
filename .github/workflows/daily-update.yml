@@ -40,6 +40,11 @@ jobs:
           # Optional: when set, enables the AI event-extraction layer.
           # When unset, the run automatically uses the keyword scorer.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Optional: raises the CourtListener rate limit. Primary-source
+          # ingestion works without it (requests are spaced and 429s are
+          # retried with backoff); the token just makes the pass faster and
+          # less likely to drop a signal for the day.
+          COURTLISTENER_API_TOKEN: ${{ secrets.COURTLISTENER_API_TOKEN }}
         run: python scripts/run_daily.py
 
       - name: Commit updated artifacts

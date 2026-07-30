@@ -18,26 +18,76 @@
   "trip_wires": {
     "note": "A single confirmed catastrophic signal should floor the whole index regardless of the weighted arithmetic. When a listed signal's final severity reaches min_severity, the total score is raised to at least floor_score (highest applicable floor wins).",
     "rules": [
-      {"signal_id": "court_order_noncompliance", "min_severity": 3, "floor_score": 45, "label": "Executive defiance of a court order"},
-      {"signal_id": "election_delay_or_cancellation", "min_severity": 3, "floor_score": 60, "label": "Election delayed or cancelled outside constitutional process"},
-      {"signal_id": "martial_law_or_military_language", "min_severity": 4, "floor_score": 60, "label": "Martial law tied to a political/electoral dispute"},
-      {"signal_id": "military_domestic_political_use", "min_severity": 4, "floor_score": 55, "label": "Military used against lawful political opposition"},
-      {"signal_id": "alternate_elector_scheme", "min_severity": 4, "floor_score": 45, "label": "Unauthorized electoral slate accepted"},
-      {"signal_id": "election_certification_interference", "min_severity": 4, "floor_score": 45, "label": "Lawful election certification overridden"}
+      {
+        "signal_id": "court_order_noncompliance",
+        "min_severity": 3,
+        "floor_score": 45,
+        "label": "Executive defiance of a court order"
+      },
+      {
+        "signal_id": "election_delay_or_cancellation",
+        "min_severity": 3,
+        "floor_score": 60,
+        "label": "Election delayed or cancelled outside constitutional process"
+      },
+      {
+        "signal_id": "martial_law_or_military_language",
+        "min_severity": 4,
+        "floor_score": 60,
+        "label": "Martial law tied to a political/electoral dispute"
+      },
+      {
+        "signal_id": "military_domestic_political_use",
+        "min_severity": 4,
+        "floor_score": 55,
+        "label": "Military used against lawful political opposition"
+      },
+      {
+        "signal_id": "alternate_elector_scheme",
+        "min_severity": 4,
+        "floor_score": 45,
+        "label": "Unauthorized electoral slate accepted"
+      },
+      {
+        "signal_id": "election_certification_interference",
+        "min_severity": 4,
+        "floor_score": 45,
+        "label": "Lawful election certification overridden"
+      }
     ]
   },
   "cumulative": {
-    "note": "Cumulative Erosion Sub-Index (CEI) parameters — see docs/cumulative-erosion-subindex-proposal.md. pressure = per-signal EWMA of daily final_score with the given half-life; ledger entries (data/erosion_ledger.json) are human-vetted structural conditions. CEI = min(100, ledger_score + pressure_coefficient * pressure_score). CEI is provisional until the ledger is seeded.",
+    "note": "Cumulative Erosion Sub-Index (CEI) parameters \u2014 see docs/cumulative-erosion-subindex-proposal.md. pressure = per-signal EWMA of daily final_score with the given half-life; ledger entries (data/erosion_ledger.json) are human-vetted structural conditions. CEI = min(100, ledger_score + pressure_coefficient * pressure_score). CEI is provisional until the ledger is seeded.",
     "pressure_half_life_days": 180,
     "pressure_coefficient": 0.35,
     "ledger_path": "data/erosion_ledger.json",
     "history_path": "data/cumulative_erosion_history.csv",
     "bands": [
-      {"min": 0, "max": 14, "label": "Checks intact"},
-      {"min": 15, "max": 29, "label": "Noticeable erosion"},
-      {"min": 30, "max": 49, "label": "Substantial erosion"},
-      {"min": 50, "max": 69, "label": "Severe erosion"},
-      {"min": 70, "max": 100, "label": "Consolidation - checks largely dismantled"}
+      {
+        "min": 0,
+        "max": 14,
+        "label": "Checks intact"
+      },
+      {
+        "min": 15,
+        "max": 29,
+        "label": "Noticeable erosion"
+      },
+      {
+        "min": 30,
+        "max": 49,
+        "label": "Substantial erosion"
+      },
+      {
+        "min": 50,
+        "max": 69,
+        "label": "Severe erosion"
+      },
+      {
+        "min": 70,
+        "max": 100,
+        "label": "Consolidation - checks largely dismantled"
+      }
     ]
   },
   "ai": {
@@ -50,6 +100,26 @@
     "min_confidence": 0.55,
     "note": "Optional LLM extraction layer. When ANTHROPIC_API_KEY is set and the anthropic SDK is installed, each candidate article is read by the model and returned as a structured judgment (US-domestic? actually occurred vs hypothetical/denied/historical? which signal? severity 0-4? primary source? one-line rationale?). Severity is derived from confirmed events instead of raw keyword volume. If the SDK or key is unavailable the run falls back to the deterministic keyword scorer and marks confidence accordingly. Haiku is used because this is a high-volume, short-input classification task run many times per day; change 'model' to raise capability at higher cost.",
     "system_prompt": "You are a neutral analyst for a U.S. constitutional-risk early-warning dashboard. You read a single news item and decide, strictly and conservatively, whether it is EVIDENCE that a specific constitutional-stress event actually occurred in the United States. Distinguish real occurrences from hypotheticals, denials, opinion, satire, historical retrospectives, and coverage of other countries. When in doubt, treat the item as weak or irrelevant evidence. Do not inflate severity from emotional or high-volume coverage; severity reflects what verifiably happened, not how loudly it is reported."
+  },
+  "primary_sources": {
+    "note": "Primary-source evidence ingestion. Official records are fetched per signal from the Federal Register API (executive orders, presidential memoranda and proclamations, agency rules and notices) and the CourtListener API (federal docket entries via RECAP, and published opinions), then merged into the same evidence list as news items and judged by the same AI extraction layer. Primary documents carry source_tier='primary' and can anchor a red-level (4) severity on their own, where news items still require two independent publishers. Both APIs are free and work without a key; COURTLISTENER_API_TOKEN is optional and only raises the rate limit. Only signals that declare a primary_sources block are queried.",
+    "enabled": true,
+    "lookback_days": 7,
+    "max_documents_per_source": 6,
+    "request_delay_seconds": 0.5,
+    "federal_register": {
+      "enabled": true,
+      "endpoint": "https://www.federalregister.gov/api/v1/documents.json",
+      "note": "Document type codes: PRESDOCU (presidential documents), RULE, PRORULE, NOTICE. conditions[term] is an AND over every word with no boolean OR, so each entry in a signal's 'terms' list is issued as its own request and the results are merged.",
+      "request_delay_seconds": 0.4
+    },
+    "courtlistener": {
+      "enabled": true,
+      "endpoint": "https://www.courtlistener.com/api/rest/v4/search/",
+      "token_env": "COURTLISTENER_API_TOKEN",
+      "note": "search_type 'r' searches RECAP federal dockets; 'o' searches published opinions. Anonymous callers are throttled by burst, so requests are spaced and a 429 is retried with backoff; set COURTLISTENER_API_TOKEN to lift the limit.",
+      "request_delay_seconds": 3.0
+    }
   },
   "risk_bands": [
     {
@@ -155,7 +225,13 @@
         "results not certified",
         "electoral votes rejected outside legal process",
         "certification process suspended"
-      ]
+      ],
+      "primary_sources": {
+        "courtlistener": {
+          "query": "\"refuse to certify\" OR \"refusal to certify\" OR \"certification of the election results\"",
+          "search_type": "r"
+        }
+      }
     },
     {
       "id": "election_administration_capture",
@@ -172,7 +248,20 @@
       "critical_terms": [
         "election administration placed under emergency control",
         "independent election board dissolved"
-      ]
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"election administration\"",
+            "\"voter registration list\""
+          ],
+          "types": [
+            "PRESDOCU",
+            "RULE",
+            "NOTICE"
+          ]
+        }
+      }
     },
     {
       "id": "election_delay_or_cancellation",
@@ -189,7 +278,13 @@
       "critical_terms": [
         "election canceled",
         "national election suspended"
-      ]
+      ],
+      "primary_sources": {
+        "courtlistener": {
+          "query": "\"postpone the election\" OR \"election was postponed\" OR \"cancel the election\"",
+          "search_type": "r"
+        }
+      }
     },
     {
       "id": "alternate_elector_scheme",
@@ -206,7 +301,13 @@
       "critical_terms": [
         "electoral votes substituted",
         "unauthorized electors accepted"
-      ]
+      ],
+      "primary_sources": {
+        "courtlistener": {
+          "query": "\"alternate electors\" OR \"fake electors\" OR \"slate of electors\"",
+          "search_type": "r"
+        }
+      }
     },
     {
       "id": "politicized_prosecution_opposition",
@@ -223,7 +324,13 @@
       "critical_terms": [
         "mass arrests of opposition",
         "opposition leaders jailed"
-      ]
+      ],
+      "primary_sources": {
+        "courtlistener": {
+          "query": "\"selective prosecution\" OR \"vindictive prosecution\"",
+          "search_type": "r"
+        }
+      }
     },
     {
       "id": "opposition_ballot_exclusion",
@@ -239,7 +346,13 @@
       "critical_terms": [
         "opposition party banned",
         "systematic disqualification of opposition"
-      ]
+      ],
+      "primary_sources": {
+        "courtlistener": {
+          "query": "\"removed from the ballot\" OR \"disqualified from the ballot\"",
+          "search_type": "r"
+        }
+      }
     },
     {
       "id": "retaliation_architecture",
@@ -256,7 +369,18 @@
       "critical_terms": [
         "formal program targeting opposition",
         "criminal penalties for opposition activity"
-      ]
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"security clearance\" revocation",
+            "\"designation\" \"domestic terrorism\""
+          ],
+          "types": [
+            "PRESDOCU"
+          ]
+        }
+      }
     },
     {
       "id": "judge_intimidation_campaign",
@@ -290,7 +414,13 @@
       "critical_terms": [
         "systematic noncompliance with court orders",
         "courts stripped of enforcement authority"
-      ]
+      ],
+      "primary_sources": {
+        "courtlistener": {
+          "query": "\"motion for contempt\" OR \"motion to enforce\" OR \"failure to comply with the Court's order\"",
+          "search_type": "r"
+        }
+      }
     },
     {
       "id": "jurisdiction_stripping_targeted",
@@ -322,7 +452,19 @@
       "critical_terms": [
         "indefinite emergency rule",
         "suspension of constitutional checks"
-      ]
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"national emergency\"",
+            "\"emergency powers\"",
+            "\"declaration of emergency\""
+          ],
+          "types": [
+            "PRESDOCU"
+          ]
+        }
+      }
     },
     {
       "id": "legislative_bypass_executive",
@@ -338,7 +480,21 @@
       "critical_terms": [
         "executive claims unchecked authority",
         "legislature function suspended"
-      ]
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"Impoundment Control Act\"",
+            "\"rescission of budget authority\"",
+            "\"pocket rescission\"",
+            "\"withholding of appropriated funds\""
+          ],
+          "types": [
+            "PRESDOCU",
+            "NOTICE"
+          ]
+        }
+      }
     },
     {
       "id": "martial_law_or_military_language",
@@ -354,7 +510,19 @@
       "critical_terms": [
         "martial law declared",
         "military directed to resolve election outcome"
-      ]
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"Insurrection Act\"",
+            "\"martial law\"",
+            "\"domestic deployment\""
+          ],
+          "types": [
+            "PRESDOCU"
+          ]
+        }
+      }
     },
     {
       "id": "civil_service_purge_schedule_f",
@@ -370,7 +538,21 @@
       "critical_terms": [
         "mass purge of career civil service",
         "loyalty based staffing mandate"
-      ]
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"Schedule Policy/Career\"",
+            "\"excepted service\"",
+            "\"Schedule F\""
+          ],
+          "types": [
+            "PRESDOCU",
+            "RULE",
+            "PRORULE"
+          ]
+        }
+      }
     },
     {
       "id": "independent_agency_capture",
@@ -386,7 +568,23 @@
       "critical_terms": [
         "at-will removal precedent for independent agencies",
         "federal reserve under direct executive control"
-      ]
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"independent regulatory agencies\"",
+            "\"independent agencies\"",
+            "\"for-cause removal\""
+          ],
+          "types": [
+            "PRESDOCU"
+          ]
+        },
+        "courtlistener": {
+          "query": "\"Humphrey's Executor\" OR \"for-cause removal\" OR \"removal power\"",
+          "search_type": "o"
+        }
+      }
     },
     {
       "id": "inspector_general_retaliation",
@@ -402,7 +600,13 @@
       "critical_terms": [
         "systematic removal of oversight officials",
         "inspector general offices neutralized"
-      ]
+      ],
+      "primary_sources": {
+        "courtlistener": {
+          "query": "\"Inspector General\" AND (removal OR termination OR retaliation)",
+          "search_type": "r"
+        }
+      }
     },
     {
       "id": "press_restrictions",
@@ -419,7 +623,19 @@
       "critical_terms": [
         "broad censorship order",
         "criminal penalties for routine reporting"
-      ]
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"news distortion\"",
+            "\"broadcast license\" revocation"
+          ],
+          "types": [
+            "NOTICE",
+            "PRESDOCU"
+          ]
+        }
+      }
     },
     {
       "id": "political_speech_surveillance",
@@ -435,7 +651,19 @@
       "critical_terms": [
         "broad criminalization of opposition speech",
         "systematic monitoring tied to political affiliation"
-      ]
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"social media\" vetting applicants",
+            "\"ideological\" screening visa"
+          ],
+          "types": [
+            "NOTICE",
+            "PRESDOCU"
+          ]
+        }
+      }
     },
     {
       "id": "military_domestic_political_use",
@@ -451,7 +679,22 @@
       "critical_terms": [
         "military used to suppress lawful political opposition",
         "armed forces enforce partisan outcomes"
-      ]
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"National Guard\"",
+            "\"posse comitatus\""
+          ],
+          "types": [
+            "PRESDOCU"
+          ]
+        },
+        "courtlistener": {
+          "query": "\"National Guard\" AND (\"posse comitatus\" OR deployment)",
+          "search_type": "r"
+        }
+      }
     },
     {
       "id": "security_loyalty_tests",
@@ -467,7 +710,20 @@
       "critical_terms": [
         "security agencies purged for partisan loyalty",
         "security forces subordinated to party loyalty"
-      ]
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"suitability and fitness\"",
+            "\"security clearance\" adjudication"
+          ],
+          "types": [
+            "RULE",
+            "PRORULE",
+            "PRESDOCU"
+          ]
+        }
+      }
     },
     {
       "id": "state_election_preemption",
@@ -483,7 +739,19 @@
       "critical_terms": [
         "state election governance suspended",
         "uniform federal control without judicial review"
-      ]
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"federal elections\"",
+            "\"election integrity\""
+          ],
+          "types": [
+            "PRESDOCU",
+            "RULE"
+          ]
+        }
+      }
     },
     {
       "id": "legislative_oversight_obstruction",
@@ -499,7 +767,13 @@
       "critical_terms": [
         "legislative oversight powers nullified",
         "courts blocked from enforcing subpoenas"
-      ]
+      ],
+      "primary_sources": {
+        "courtlistener": {
+          "query": "\"congressional subpoena\" OR \"executive privilege\"",
+          "search_type": "r"
+        }
+      }
     }
   ]
 }
