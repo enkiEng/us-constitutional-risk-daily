@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 10.12,
+  "average_7d": 9.31,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -0.73,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": -2.61,
   "domain_breakdown": [
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.325,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.5749999999999993,
+      "points": 1.7875,
       "weight": 22
     },
     {
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.1125,
+      "points": 1.4083333333333334,
       "weight": 13
     },
     {
-      "avg_severity": 0.08333333333333333,
+      "avg_severity": 0.0,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.20833333333333331,
+      "points": 0.0,
       "weight": 10
     },
     {
@@ -73,13 +73,22 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-07-30T14:36:00.700347+00:00",
+  "generated_at": "2026-07-31T14:39:56.867712+00:00",
   "methodology_version": 2,
   "previous_score": 9,
+  "primary_sources": {
+    "documents_confirmed": 0,
+    "documents_fetched": 10,
+    "providers": [
+      "federal_register",
+      "courtlistener"
+    ],
+    "signals_queried": 20
+  },
   "provisional": false,
-  "score": 9,
-  "score_raw": 9.4,
-  "score_raw_pre_trip_wire": 9.4,
+  "score": 7,
+  "score_raw": 6.7,
+  "score_raw_pre_trip_wire": 6.7,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -91,14 +100,18 @@
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmpTZGx4MkpaUW1Xb0FHX21iTS1rVk9PN1FDMlV5MzVNNlZOdmxKdGt5dFdwdnZfa195TzYyZERTdGRmaFgtdzIzUS1hT0NCZHdfTHlZSGNvR0tRTEFMWm5ielIwR1JNNjliSW5jZ2Y5WVdfZURCY1JBTkRoUjZzVHdMUEYzVnZpNF92Skk4aXhiNTFXTFRDcndlU2FfRUJ0UUZGSDdlMDUxc3QwUlNsQWI2akNGTGxyYmFHU3pEQXFRNFhHU2RF?oc=5",
           "published": "2026-07-29T21:54:45+00:00",
           "publisher": "Iowa Capital Dispatch",
+          "source_name": "google_news",
+          "source_tier": "news",
           "title": "Iowa Libertarian gubernatorial candidate plans to file appeal in ballot removal case - Iowa Capital Dispatch"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 1,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
       "primary_source_url": "https://iowacapitaldispatch.com",
       "rationale": "A Libertarian gubernatorial candidate was removed from the ballot in Iowa and is planning to appeal. This is a confirmed real occurrence of ballot exclusion of an opposition candidate. The fact that an appeal is being filed confirms the removal happened. However, without evidence of systematic, statewide, or coordinated removal of multiple opposition candidates, and given that legal challenge mechanisms appear available, this represents an isolated or contained action rather than structural failure. Severity 2: real but not yet confirmed as part of a systematic campaign.",
       "severe_hits": 0,
@@ -116,10 +129,12 @@
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -133,65 +148,13 @@
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORGRPQWVFZXBvQmVHMHB0Z2I0XzF4RUdqZDl5Z1F1cndiQXRfQ1RrU0R1RDU1SUFyX2RCc05YX3k3YnZaa1dFc3ZVY1I2YkdzQTJZNm9hY0xJY1Y2N3YxcTQxSi02UzcwVk9UTUlKNlpCN2JxaXQzaUlrZkU4c1Etam8xUzYwb0g0dk1CTnhYWFhUNlZsS1BJN3RBNjdtdTFTRVF0R3p2TFdldWJETW9WYnFPRGxoYXRxV05sSg?oc=5",
-          "published": "2026-07-30T04:14:03+00:00",
-          "publisher": "The Regulatory Review",
-          "title": "The Fate of Independent Adjudication and the Civil Service? - The Regulatory Review"
-        },
-        {
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV0lBYVR0bFNvTjBFSGxiQ2dWMjJpN2ZOY0RxQ1dNLXRrTUh5X0oyVmNJOE05V2ZfTlU3MFhmd1QwWVdHSHhtUHRfUkZFdVYxT2U4VGZoSC1QVlhqMko4R2R4c2JZRWJjUi1ya3pRVVRsbGxrT0RoZDJScWRNbEt0a3JycjJBaW80RndSZHAzNUdvQUpFa0RQLXpFNVN1UQ?oc=5",
-          "published": "2026-07-28T20:18:47+00:00",
-          "publisher": "Gulf Today",
-          "title": "AI has no future without credible regulation for sure - Gulf Today"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR0R3bzVmNTZpLVNiSUNPNFRfakhKY2thLUo2c1NGZW9mTEl6aXEzZXR1c2h2XzlKbF8yNjROLVFFQnJzS2VJOUtudm1ib1ZkRDkyOFp4QU9kQUFBS3lENEVab0tfcDRpZDdfazVaQU0yS3B6Qi1xaEdJT3NLdUJleGYzT0NwRzlpbEpfR3JuNmlZelFIaWpwRXBYTFFmaFhfVk1yMHJ0b0ZuYURUSG1nNUV0TF8tMERBVWFBVXJJTFlfUVpBSDRMeWpSRzN0Q0toaDJFT3hGbXU?oc=5",
-          "published": "2026-07-29T18:14:00+00:00",
-          "publisher": "\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
-          "title": "A woman waited three years for her husband: the court declared the soldier who disappeared near Bakhmut dead - \u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],

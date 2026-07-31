@@ -1,4 +1,48 @@
 {
+  "civil_service_purge_schedule_f": {
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxORTUzTHRfS0tWSmlZdE9rbUFXN0xuc013b2V2ZHZvbDVRQVVoanFjU3BvTG5zQkpIcGpaR3VFWnMtSldmbUl6RVB5S2FpXzBTZ3pXSG1LQjlXX3lpcWJfdEFaaEhLLVhoY2ZnNVAybHJ3TzFGWDNLbmlkOHhvSFN4U2ZrSjl4N2VabEx4LTR4WWt4Yk1HZzNpSm00NWhrUnZwV1hZVXl2a0Zsa3ZhS3dfTWtPTXc2c2lQdXc?oc=5": {
+      "actor": "MSPB",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports a warning by Democrats about a potential threat from an MSPB ruling to civil service protections. The headline and summary indicate opinion/analysis and forward-looking concern rather than evidence of an actual purge or at-will reclassification event. 'Threatens' and 'warn' signal speculation or prediction, not a confirmed occurrence of politicization or Schedule F-type action. Without the full text or a specific ruling document showing actual reclassification or removal of protections, this is coverage of a feared outcome, not evidence that the constitutional-stress event has verifiably occurred. The item does not confirm that civil servants have actually been reclassified or that a structural policy change has been implemented.",
+      "severity": 0
+    }
+  },
+  "court_order_noncompliance": {
+    "https://www.courtlistener.com/docket/67935987/505/united-states-v-bock/": {
+      "actor": "Aimee Marie Bock and USCIS (parties)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/67935987/505/united-states-v-bock/",
+      "rationale": "This document is an exhibit list filed in what appears to be a criminal case (United States v. Bock), unrelated to court order noncompliance by executive or administrative entities. The title and summary do not indicate any executive or administrative refusal to comply with a court order. This is procedural background material with no relevance to the signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73681410/2/hc-torres-castillo-v-warden-california-city-correctional-center/": {
+      "actor": "Rafael Torres Castillo (plaintiff)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73681410/2/hc-torres-castillo-v-warden-california-city-correctional-center/",
+      "rationale": "This is a motion filed BY an inmate TO ENFORCE a court order, not evidence of executive or administrative refusal to comply. Like item 0, this is a procedural filing alleging noncompliance; the motion itself is not confirmation that a government entity has actually defied judicial authority. This is routine correctional litigation.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73683181/2/muralles-gomez-v-warden-north-florida-detention-center-baker/": {
+      "actor": "Rigoberto de Jesus Muralles-Gomez (plaintiff)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73683181/2/muralles-gomez-v-warden-north-florida-detention-center-baker/",
+      "rationale": "This is a motion filed BY an inmate TO ENFORCE a court order, not evidence that an executive or administrative entity has refused to comply with a court order. A motion to enforce indicates the plaintiff alleges noncompliance, but the document itself is merely a procedural filing requesting relief\u2014it does not confirm that noncompliance actually occurred or was by a government actor defying court authority. This is a routine habeas/administrative matter.",
+      "severity": 0
+    }
+  },
   "election_administration_capture": {
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbF84WFJQUHdLSU9fNFJrR2FoN2NBYUdDOGZQNDYxNnhIMGlBTUZlSGxpeGVaRlNRVWo4RlBpN3M3TGkzakFpZVdSeVFOak1HM1V3bXNQU0JpdUxoVDFpYnFiZDU2QlBTa0tDeENNZ0RKQ3hzaUJna2dremlLOFNhQm1MTUoyUXVvMkVpbDJMSmppTXRtdnVRNmQ3UW1kbmJGSDVnWnJ2b202TTEyVUU0NnU1Rng5QV9TUnBMX1FhVEhwU1Y0UXc?oc=5": {
       "actor": "North Carolina State Senate",
@@ -9,6 +53,28 @@
       "primary_source_url": "https://www.wral.com",
       "rationale": "A state legislature voting to shorten early voting and expand voter purges represents a real action that moves election administration toward partisan control by restricting voter access and participation mechanisms. This is a credible, documented legislative action. However, without evidence that the measure represents systematic capture of the entire election administration apparatus or defiance of courts, and given that legislative changes to voting rules, while potentially contentious, remain within formal legal processes, this constitutes a real but contained signal rather than a systemic failure. Severity 2 reflects that this is a confirmed action with partisan electoral implications, but not yet a structural breakdown of election administration neutrality.",
       "severity": 2
+    }
+  },
+  "emergency_powers_expansion": {
+    "https://www.federalregister.gov/documents/2026/07/29/2026-15389/continuation-of-the-national-emergency-with-respect-to-brazil": {
+      "actor": "President of the United States",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/07/29/2026-15389/continuation-of-the-national-emergency-with-respect-to-brazil",
+      "rationale": "This is a routine continuation of a foreign-affairs national emergency declaration concerning Brazil. Like item [0], this is a standard statutory procedure for managing foreign threats and does not evidence domestic constitutional stress, bypass of legislative process for internal governance, or abuse of emergency powers in violation of the U.S. Constitution's structural constraints.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/07/31/2026-15658/continuation-of-the-national-emergency-with-respect-to-lebanon": {
+      "actor": "President of the United States",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15658/continuation-of-the-national-emergency-with-respect-to-lebanon",
+      "rationale": "This is a routine continuation of a foreign-affairs national emergency declaration concerning Lebanon. Foreign emergency declarations, while formally invoking emergency powers, are not evidence of domestic constitutional stress or bypass of ordinary legislative process for internal U.S. governance. Such declarations are a standard statutory procedure (50 U.S.C. \u00a7 1622) and do not constitute abuse of emergency authority in the domestic constitutional context the signal addresses.",
+      "severity": 0
     }
   },
   "independent_agency_capture": {
@@ -100,6 +166,28 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item 0 is a headline question or opinion piece about the fate of independent adjudication and civil service. The title uses interrogative phrasing ('The Fate of...?'), which signals this is likely speculative analysis, commentary, or a think-piece rather than reporting a concrete event that occurred. Without access to the full article text, the headline alone provides insufficient evidence of an actual occurrence of regulatory capture or weakening of legal safeguards. This appears to be discussion or concern about potential risks rather than documentation of a verifiable action.",
+      "severity": 0
+    }
+  },
+  "inspector_general_retaliation": {
+    "https://www.courtlistener.com/docket/73667914/1/longoria-v-of-america/": {
+      "actor": "Unknown (filed complaint)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73667914/1/longoria-v-of-america/",
+      "rationale": "This is a routine civil complaint against the United States of America filed in federal court. The docket summary provides no substantive information about the nature of the complaint or its allegations. Without sight of the actual complaint document and given only a bare case caption, there is no evidence that this relates to inspector general retaliation or watchdog-function interference. A filed complaint is a legal action, not confirmation that an underlying event occurred. No retaliatory action against anti-corruption monitoring is evident from this record.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73678082/1/anderson-v-city-of-philadelphia/": {
+      "actor": "Unknown (filed complaint)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73678082/1/anderson-v-city-of-philadelphia/",
+      "rationale": "This is a routine civil complaint filing in federal court. The docket summary provides no substantive information about the complaint's allegations, the defendant officials' roles, or any retaliatory action against watchdog functions. The names of defendants (City officials, Mayor Cherelle Parker) do not suggest IG retaliation without further details. A filed complaint is a legal action, not evidence that the complained-of event occurred; the court document does not confirm any retaliatory conduct against inspectors general or anti-corruption monitoring. This is a procedural filing with insufficient content to assess the underlying claim.",
       "severity": 0
     }
   },
@@ -260,6 +348,16 @@
       "rationale": "This item concerns a routine constitutional question about weapons regulations and park bans\u2014a standard judicial review matter. It contains no rhetoric, policy, or action involving military governance, martial law, or military management of political disputes. The signal is not implicated.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbVBGYzZwZk5fVHJSSV9QUUtJYlhGajF1SkxTQ3JWTTJIcUxNa1ZScThrS2xvRDFnQ2lnWklzZk0zVEI3bHdkY0gtYnNqUjZ2Y1N0RDhPVEJ6TG13ZEdENXY2NFgyclEyZnhkMVRuU09JSmd5T21pQmd2UG9NOUp6ZXE2LXRWQnBjMEJNLWthUmVyRDJnYnVfV1phRE4wZk1RN0dwZVo0LVdtRkdYV1hmTGRKRDZvN25xbE1jWW8tTU0tcDhHa2c3WU1rcDEzZ3lxcDRINUdvX1IxQm90MjZBQ2FFSndoTkllUE9JYlZWX0s2dnlaZXJWN2c0XzdyUTV1MFE?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is a Ukrainian legal publication (\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430 is a Ukrainian judicial gazette) concerning a ruling by the Ukrainian Supreme Court on condominium dispute jurisdiction. It is not a U.S. domestic event and contains no content related to martial law, military governance, or military management of political disputes. The signal explicitly targets U.S. constitutional risk; this is a non-U.S. civil procedure matter.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVlNLNU1ONzlOME45SVZXTGtqd3NWbm1NbkRLTVZjYjVjS1ZsenFnZ3l5c2g0NUNIYWdQdU1SaG80UWdoenZLTHdXYnF1bWRqX09wNnp0RjFXbUtXMWhaNGZlMG93bUlyVWRKQTVndVNWU0xsWnJqcHBRX1prd1Y5Z2pYcDc1a3dLZGN0U1pVOFl2RUp6aHlFZjdLcGJSUGR2M1BVWmhFbGpIVVMzQWRhbjFZU3lEYllMd3BWMjVqczRTWnlPa194bzhDONIB2AFBVV95cUxOYkRraHZmdm1MWFVCTUpaNEVFYW8xQVRqVTNPb0NHLWdWZGVPV1FYTm1iUEw0ZnFyTFFLVEl3MkRWYlJPaEtDYnJJS21ORV9PMjkzT054a1hFV3VrekJYYUJKeGUxLThNb21VaXNkWFlidnFZLW9ib2tTNlFLd040NUE1cDNLUTdPVHRZbmJQWEpJS1ZwdWk3OG9SRklOS2RHT3hLQXVRQU8weGVlbGhZRHVCUnVTbjZBX2ZaZF9kX0pWV1ZxVUttallRcml1WWN4dFIxUThnbEc?oc=5": {
       "actor": "South Korean government",
       "confidence": 0.98,
@@ -268,6 +366,18 @@
       "matches_signal": false,
       "primary_source_url": "Outlook India",
       "rationale": "This item reports on a South Korean legal matter and is not a U.S. domestic event. The signal definition specifies military management of political disputes in the United States. No U.S. constitutional-risk content is present.",
+      "severity": 0
+    }
+  },
+  "military_domestic_political_use": {
+    "https://www.courtlistener.com/docket/73667461/1/electronic-privacy-information-center-v-mullin/": {
+      "actor": "Electronic Privacy Information Center et al. v. Mullin et al.",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73667461/1/electronic-privacy-information-center-v-mullin/",
+      "rationale": "This is a civil complaint filed in federal court concerning privacy issues, likely related to CBP/ICE data practices. The filing of a lawsuit is a legal action, not evidence of military use in domestic political conflict. The complaint itself does not allege or describe use or threatened use of military in partisan political disputes. No military involvement is indicated in the available summary. This is a routine civil litigation matter unrelated to the constitutional stress signal being evaluated.",
       "severity": 0
     }
   },
@@ -332,6 +442,58 @@
       "matches_signal": false,
       "primary_source_url": "streamlinefeed.co.ke",
       "rationale": "This item reports on law enforcement action in Goa, India, not the United States. The signal is specifically about constitutional stress in the U.S. domestic context. While the item may describe surveillance or interrogation of protesters, it is geographically outside the scope of a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQXNuZ3FuR1h1QXN3TVdEWEM3SGl3S2ozYVYyS2NMTjZJeVpWQ25VbURNdzI5Y19nRFduVDdQYUlSakFmV01EdEN3b1hHZWIzdzNtVXFIOHJMUGNfcVFxRGVQcGh1OGdBWmZ1YzkwcUxyQkp1SjRrU1pmODVJQXBQMEs4bXppZUllWUhIenFobC1qMmJnaFk4TWlGaDRZdmJKZHhKRUZMTnB4enV6ZHEzOFZqYTA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Indian law enforcement action and Indian PM Modi. Streamlinefeed.co.ke is reporting on India, not the United States. Outside scope of U.S. constitutional-stress assessment.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVk8xTUdTUmRCR2R5N09GZGs1U0lVcFRkT0pIbTZlT3FEUmlsWjlSRGpXOXMzY0JmQXBQRzAtUEZZcUhnYWNZX3lCXzlISFhkVTB3TW1tR3JyeEdQUWJKN3NJZ0w2WXlzRFlmX0V3YVgyUW1ZcnB1TFJKUzNzSEkycWhxckhETWVpSTlsQmN6Zm9xVzJEM09SeXJYMGJDV1JnY2hLMDB5cU5CcU52Qzlqa2VuZzJPZw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Italy and Italian PM Meloni's security policies. Not a U.S. domestic event. Signal applies only to United States constitutional risk.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWjY2YzFqZUlheVlZOGdWSzg0VEZUWHk0OVVNNzRxczkyN1BYVTVMOG05SEQ3VG0zcW9kbTVIRDZmYWtyY01LQzhlYWVqNjVaNlljN2pHSmF4RnpmdERUSzN0YnZvOEZXRTZ6cFc1UE1BTm5IdXZscndHbVgwRjhqRmd0b0dQNzdkSzJGNnJkaENaLWU5RklOOS1QWDJ6X0kxZlpYYW5lRWZDc3pXQlo0b2JJQTBSNEdhVUs0Z250bXM?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is about Indian legal proceedings (Zero FIR, criminal defamation over PM slogans). Streamlinefeed.co.ke is a Kenyan source covering non-U.S. events. Not relevant to U.S. constitutional risk.",
+      "severity": 0
+    }
+  },
+  "politicized_prosecution_opposition": {
+    "https://www.courtlistener.com/docket/67935987/1692/united-states-v-brown/": {
+      "actor": "U.S. Government (prosecution)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/67935987/1692/united-states-v-brown/",
+      "rationale": "This is a routine criminal docket entry showing a government response to a motion and a report-and-recommendation on motions to suppress. These are standard procedural documents in criminal litigation. The summary contains no information indicating selective prosecution based on political opposition, no evidence of politicized targeting, and no indication the defendants are opposition political actors. This is a routine criminal case management entry, not evidence of constitutional stress from politicized prosecution.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73676547/1/brackley-v-united-states/": {
+      "actor": "Unknown (plaintiffs filing suit)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73676547/1/brackley-v-united-states/",
+      "rationale": "This is a complaint filing against the U.S. Government in federal court. The docket entry shows a civil suit was filed, but the summary does not indicate the nature of the claims, whether they allege politicized prosecution, or whether any such prosecution actually occurred. Filing a complaint is a procedural action, not evidence that the alleged harm occurred. Without substantive details showing selective prosecution of opposition actors, this cannot be assessed as evidence of the signal. The title 'Brackley v. United States' and plaintiff names alone do not indicate politicized prosecution has taken place.",
       "severity": 0
     }
   },
