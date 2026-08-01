@@ -1,4 +1,37 @@
 {
-  "note": "Pending CEI ledger proposals awaiting human review. To accept one: move it into data/erosion_ledger.json (entries[]), adjust magnitude/status as needed, delete it from pending, then rerun scripts/backfill_erosion_pressure.py. Generated daily by scripts/ledger_review.py; nothing here affects the published CEI. (The 2026-07-28 seeding slate that previously lived in this file was merged into the ledger that day - see git history.)",
-  "pending": []
+  "note": "Pending CEI ledger proposals awaiting human review. To accept one: move it into data/erosion_ledger.json (entries[]), adjust magnitude/status as needed, delete it from pending, then rerun scripts/backfill_erosion_pressure.py. Generated daily by scripts/ledger_review.py; nothing here affects the published CEI.",
+  "pending": [
+    {
+      "action": "add",
+      "id": "rif_performance_based_regulations",
+      "domain_id": "civil_service_integrity",
+      "title": "OPM final rule replaces seniority/tenure-protective RIF procedures with performance-based retention criteria",
+      "class": "statute",
+      "magnitude": 2,
+      "status": "active",
+      "established": "2026-08-01",
+      "evidence": [
+        "https://www.federalregister.gov/documents/2026/08/03/2026-15665/reduction-in-force"
+      ],
+      "rationale": "Final OPM rule (published, not proposed) restructures reduction-in-force procedures to prioritize performance ratings over tenure and length of service, removing a longstanding seniority-based safeguard against politicized personnel decisions. This is a confirmed, executed regulatory action creating a durable mechanism for at-will-style workforce reshaping within RIF actions, distinct from the broader Schedule Policy/Career reclassification already on the ledger. Scope is targeted to RIF procedures, warranting magnitude 2.",
+      "confidence": 0.62,
+      "proposed_on": "2026-08-01"
+    },
+    {
+      "action": "add",
+      "id": "mspb_suitability_appeals_removed",
+      "domain_id": "civil_service_integrity",
+      "title": "OPM final rule strips MSPB jurisdiction over suitability action appeals, consolidating review authority within OPM",
+      "class": "statute",
+      "magnitude": 2,
+      "status": "active",
+      "established": "2026-08-01",
+      "evidence": [
+        "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals"
+      ],
+      "rationale": "Final OPM rule removes the independent Merit Systems Protection Board from adjudicating suitability action appeals and consolidates that authority inside the executive personnel office itself. This eliminates an external check on the executive's use of suitability determinations to screen or remove federal personnel, a durable structural change confirmed via Federal Register final-rule publication. Effect is contained to suitability appeals, meriting magnitude 2 rather than higher.",
+      "confidence": 0.6,
+      "proposed_on": "2026-08-01"
+    }
+  ]
 }

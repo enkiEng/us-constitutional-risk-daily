@@ -9,6 +9,36 @@
       "primary_source_url": "",
       "rationale": "This item reports a warning by Democrats about a potential threat from an MSPB ruling to civil service protections. The headline and summary indicate opinion/analysis and forward-looking concern rather than evidence of an actual purge or at-will reclassification event. 'Threatens' and 'warn' signal speculation or prediction, not a confirmed occurrence of politicization or Schedule F-type action. Without the full text or a specific ruling document showing actual reclassification or removal of protections, this is coverage of a feared outcome, not evidence that the constitutional-stress event has verifiably occurred. The item does not confirm that civil servants have actually been reclassified or that a structural policy change has been implemented.",
       "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals": {
+      "actor": "Office of Personnel Management (OPM)",
+      "confidence": 0.83,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
+      "rationale": "OPM has issued final regulations replacing the Merit Systems Protection Board (MSPB) with OPM as the adjudicative authority for suitability action appeals. This removes an independent appellate check and consolidates appeal authority within the executive agency that makes the initial suitability determination. This is a real, published regulatory action that materially weakens employee due process and concentrates executive discretion over personnel decisions. It is a clear signal of bureaucratic politicization through procedural reform.",
+      "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/08/03/2026-15654/streamlining-probationary-and-trial-period-appeals": {
+      "actor": "Office of Personnel Management (OPM)",
+      "confidence": 0.8,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/03/2026-15654/streamlining-probationary-and-trial-period-appeals",
+      "rationale": "OPM has issued a final rule altering probationary and trial period appeal procedures, referencing an executive order on strengthening probationary periods. This real regulatory action reduces procedural protections for employees during probation. Weakening appeals mechanisms for new-hire terminations is consistent with at-will reclassification goals and reduces institutional checks on manager discretion. This is a credible, published stress signal reflecting structural politicization of hiring/retention procedures.",
+      "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/08/03/2026-15665/reduction-in-force": {
+      "actor": "Office of Personnel Management (OPM)",
+      "confidence": 0.82,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/03/2026-15665/reduction-in-force",
+      "rationale": "OPM has issued a final rule modifying RIF regulations to prioritize performance over tenure and length of service. This is a real, published regulatory action that materially changes federal personnel protections by reducing seniority-based safeguards. While presented as merit-based efficiency, the shift from tenure-protective RIF procedures to performance-based retention creates a concrete mechanism for politicizing career civil service. This is a contained but credible stress signal\u2014a structural change to established civil-service protections, not a mass purge event or emergency action.",
+      "severity": 2
     }
   },
   "court_order_noncompliance": {
@@ -40,6 +70,26 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/73683181/2/muralles-gomez-v-warden-north-florida-detention-center-baker/",
       "rationale": "This is a motion filed BY an inmate TO ENFORCE a court order, not evidence that an executive or administrative entity has refused to comply with a court order. A motion to enforce indicates the plaintiff alleges noncompliance, but the document itself is merely a procedural filing requesting relief\u2014it does not confirm that noncompliance actually occurred or was by a government actor defying court authority. This is a routine habeas/administrative matter.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73706041/1/momtazee-v-federal-insurance-company/": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73706041/1/momtazee-v-federal-insurance-company/",
+      "rationale": "This is a motion to enforce a foreign subpoena in a federal court docket. It is a routine procedural motion in a civil case between private parties, not evidence of an executive or administrative actor refusing to comply with a court order. No constitutional stress signal is present.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73707530/3/board-of-education-of-the-city-school-district-of-the-city-of-new-york-v/": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73707530/3/board-of-education-of-the-city-school-district-of-the-city-of-new-york-v/",
+      "rationale": "This is a statement of relatedness filing in a civil lawsuit between a school district and the Department of Education. It is a procedural motion to consolidate or relate cases, not evidence of court order noncompliance. No executive or administrative refusal to comply with a court order is described or implied.",
       "severity": 0
     }
   },
@@ -327,6 +377,18 @@
       "severity": 2
     }
   },
+  "legislative_oversight_obstruction": {
+    "https://www.courtlistener.com/docket/73690657/2/in-re-subpoenas-on-boris-epshteyn/": {
+      "actor": "Executive Office of the President",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.courtlistener.com/docket/73690657/2/in-re-subpoenas-on-boris-epshteyn/",
+      "rationale": "An official motion to quash third-party subpoenas filed by the Executive Office of the President represents a verifiable action to obstruct legislative fact-finding. The filing of a motion to quash subpoenas is a concrete legal action aimed at preventing disclosure of information to Congress or its agents. This constitutes a real occurrence of obstruction of legislative oversight, though the motion itself is a procedural challenge rather than an outright defiance of a court order or systematic campaign. The severity is 2 (repeated or credible stress signal\u2014a real but contained action) rather than 3, because this is a single motion through the normal judicial process, not an open defiance or structural campaign to prevent oversight.",
+      "severity": 2
+    }
+  },
   "martial_law_or_military_language": {
     "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR0R3bzVmNTZpLVNiSUNPNFRfakhKY2thLUo2c1NGZW9mTEl6aXEzZXR1c2h2XzlKbF8yNjROLVFFQnJzS2VJOUtudm1ib1ZkRDkyOFp4QU9kQUFBS3lENEVab0tfcDRpZDdfazVaQU0yS3B6Qi1xaEdJT3NLdUJleGYzT0NwRzlpbEpfR3JuNmlZelFIaWpwRXBYTFFmaFhfVk1yMHJ0b0ZuYURUSG1nNUV0TF8tMERBVWFBVXJJTFlfUVpBSDRMeWpSRzN0Q0toaDJFT3hGbXU?oc=5": {
       "actor": "N/A",
@@ -597,6 +659,18 @@
       "primary_source_url": "",
       "rationale": "This item describes an incident in India (Assam Assembly), not the United States. The signal specifies state action raising costs or legal risk for independent reporting in the U.S. domestic context. A press restriction event in India, regardless of its severity, is not evidence of constitutional stress to the U.S. press system and falls outside the scope of this dashboard's mandate.",
       "severity": 0
+    }
+  },
+  "security_loyalty_tests": {
+    "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals": {
+      "actor": "Office of Personnel Management (OPM)",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
+      "rationale": "This is a final OPM regulation that removes the Merit Systems Protection Board (MSPB)\u2014an independent adjudicative body\u2014from appeals of suitability actions and consolidates that authority within OPM itself. Suitability determinations affect federal employment eligibility and can be used to screen personnel. Removing independent oversight of such determinations and concentrating appeals authority within the executive personnel office constitutes a material shift in internal review mechanisms that could enable partisan loyalty filters in federal personnel decisions. This is a confirmed structural change to a coercive-state institution's internal accountability, though it remains procedural rather than involving overt purges or open defiance of courts. Severity 2: real, confirmed, official action affecting institutional independence in personnel matters.",
+      "severity": 2
     }
   }
 }
