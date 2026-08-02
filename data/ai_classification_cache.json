@@ -105,6 +105,18 @@
       "severity": 2
     }
   },
+  "election_delay_or_cancellation": {
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxONHlpVjNHWVA4dWtoY3ZsMUpFZ28tSjgxck9GTHVFaTEyTVBPbXAyY2diNjcxTF81b19nMFFpOTdJclRUejR0cUpxVHhjeE1HUlFXMHhkVTVfNUNOM1VsdEVpWjZ0UnpfenY5Z2NZQWNSdTlHYlZfSno0ckhsX2dVRTBPS2M?oc=5": {
+      "actor": "Fiji government",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.fijisun.com.fj",
+      "rationale": "This item concerns Fiji, a South Pacific island nation, not the United States. The signal applies strictly to U.S. constitutional-risk events. Coverage of foreign legal or emergency procedures, regardless of topic, does not constitute evidence of election delay or cancellation in the U.S. domestic context.",
+      "severity": 0
+    }
+  },
   "emergency_powers_expansion": {
     "https://www.federalregister.gov/documents/2026/07/29/2026-15389/continuation-of-the-national-emergency-with-respect-to-brazil": {
       "actor": "President of the United States",
@@ -128,6 +140,16 @@
     }
   },
   "independent_agency_capture": {
+    "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aa2dDMmtKQkE5bUpyXzFYbk9EMWJISDktWTRlNllxU2JrNURZZTMxTmgtaFNDdDl1VV92VkwtYjhoc19tU28wSVN1ZmxfRUdyS2hna3hEZm9wa2dhX09VLThXOTN6T2lWcUg4ZUg1QQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "California Law Review",
+      "rationale": "This appears to be an academic article title analyzing legal doctrine and constitutional theory (presumably following a Supreme Court decision). An article analyzing Trump v. Slaughter and unitary executive doctrine is legal commentary or scholarship, not evidence that a real-world event of independent agency capture occurred. Analysis of a legal principle is not itself evidence of structural capture in practice.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMickFVX3lxTE01RGcwZzNVUkRjeHZ1TjlieTNOelZ0RlMzRFhTMHgxSmI0elVMVXNEbkprSHFJVGpBdXRXMmtDYmlEcUk5eEdiUzVNYnltejNyX3FUeG40U2RuMlhPd0s1R3dNdi1TZURjOHpkV0ZzV1NhQQ?oc=5": {
       "actor": "N/A",
       "confidence": 0.9,
@@ -176,6 +198,26 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item 1 is from a UAE-based publication (Gulf Today) and addresses global AI regulation in general terms. It is not a U.S. domestic event. The article appears to discuss the need for credible regulation rather than evidence of regulatory capture or weakening of independent agency safeguards. This is opinion/advocacy content rather than reporting a concrete occurrence of constitutional or regulatory stress in the U.S.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa2NQR19oTDVmZzhTZTVvRjdlaWpON3ZxdE1jamlneGVkTHRTREo3eWVIMEhvc0pkUFhRM3Nvc2FPMFNnUGIxdFFKVXlfeHdTVHRHX3h4cldYanVfU3J6NUJPUzRxN1JCdy1YOWxwNzd2bjdCMFBIWnprQTdWanc0RTBYZUI3bXRpVnhoYWJmUjJMd2pSZ0NIaXdUSEJMUVJwWlVz?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "Reuters",
+      "rationale": "Item is a bare headline with no substantive content describing any actual event. Cannot assess whether any real occurrence of independent agency capture took place. Insufficient information to determine if this is reporting an actual event or merely a topic headline.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWXBIUWVrbm5UVnM2V2h2d0RLVE0wZVRFQzVZaUkzekVWSVVUVjBwLTB3MDc4eHpBM004Nnl4cDQtSWY0WjlPY0hUNGZ4RFF0U1l5TFo4YUVydkstMHVuLUtUMjNxVVQyWkpicGRGc203NmVxcE5ZSjVzZjZCQUlCR2pJbkRIR2RWNVJvLUFKYW5fb01kajVPc3lzbHJKTjJWLU9WQXRJaWpudmFqMGFJ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "Law.com",
+      "rationale": "This is a speculative opinion piece (headline phrasing 'Could Congress Be Next?' indicates prospective commentary, not reporting of an accomplished action). The item reports on Supreme Court decisions that have constrained agency authority, not evidence of agencies being captured or independence being weakened. It poses hypothetical questions about future congressional action, not documented agency capture.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVmtueEZVRmJ6OG93NXpGNnpxc2paY25EbWF1ejN4Q25pLVAya1hxSGNYWjVvVU9ZVndyNU1wMk0zVkJhbXVWS3NVdWVlQWhQUjJFVWNQenl1bVliNzlPV1JZSEktaVFvY0M0TW5EdnZHVEpMNVljRU90d2laVWpWMi10c2ptSk5tdDdZVW0zdDRFMWZNaExSU0dzNUg1emU0OEFaaWFqQXFWVkFPRkp5Y9IBmgFBVV95cUxPeU9rbk5QYnhHMFpNdS1UR1dtdlllOVBYTGtIUkRHeTFZX0RzWlRnNmw1VXdwYUZ1ZGhncWtZZUw5MzZTRjNLRjZyQm5HVUJ0YlI3UDZrSllYLWdPcC1YT0YwNTBMMkVuRnQ1dG96a1BCVlQwZEZhcTdQRVZaU09wSmxoeDc1azhjWU5XWjJaUV90cTlrSHlpNU9R?oc=5": {
@@ -284,6 +326,16 @@
       "rationale": "An ex-CEO filing a petition to the Supreme Court to decide constitutional questions about regulatory authority is a normal appellate process and legitimate use of court review, not an effort to strip courts of jurisdiction. The petitioner is seeking to bring a matter before a court, not remove court review. This is routine constitutional litigation and does not represent targeted jurisdiction stripping.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Yd3Ztbi1PYUlrUVotZFU5YUJ4ckZMLVpGcmpzX1o5MTRTVlg1NVJyLVgyekN1MUl3dko3TWNPY1pSc2NLTEZHQmlrQmpzcmtHYTlxX3pfbEttQVEtZS0tN25pM2lrMFFvb2g4dE9XaWJySzNISm9oWGlGVXR6dw?oc=5": {
+      "actor": "Opinion author/theunpopulist.net",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://theunpopulist.net",
+      "rationale": "This is an opinion piece calling for congressional action to limit the Supreme Court's power, not evidence that jurisdiction stripping has actually occurred. The headline expresses criticism and a policy proposal, not a documented act of removing court review over constitutional disputes. No specific legislation passed, no court's jurisdiction actually removed, and no verifiable structural action taken. This is advocacy/analysis, not a real occurrence of the signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc3VvQTY3WGZ3OEhlNVZCUi1PNGxWTk12YVFrZzhzSHFPRkhxckZmTE9sMlFKbnZpa2otZXdiZTUybEhxMWdqbTNwR0hrTGl0NWU0LVVnbVlaMG9Ra0ZHcDBpSE1Eb05ISDFqMXNraUhDMWJuWVpJLUFrRV9pa1BmNm90cXRQdw?oc=5": {
       "actor": "Unknown",
       "confidence": 0.95,
@@ -334,6 +386,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.tippinsights.com",
       "rationale": "This item is described as an analytical article about the presidency and perpetual war. It appears to be opinion/analysis or historical retrospective commentary rather than reporting on a specific verifiable event. No concrete action or bypass is identified. Does not constitute evidence of an actual legislative bypass event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Yd3Ztbi1PYUlrUVotZFU5YUJ4ckZMLVpGcmpzX1o5MTRTVlg1NVJyLVgyekN1MUl3dko3TWNPY1pSc2NLTEZHQmlrQmpzcmtHYTlxX3pfbEttQVEtZS0tN25pM2lrMFFvb2g4dE9XaWJySzNISm9oWGlGVXR6dw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://theunpopulist.net",
+      "rationale": "This is an opinion/editorial headline calling for congressional action against the Court and alleging executive overreach ('power grabs'). It is not evidence of an actual legislative bypass or executive action that occurred; it is a proposal or argument about what Congress should do, presented as normative critique rather than reporting a verifiable event. The phrasing 'Congress Must' and 'Enabling' indicates opinion and characterization, not documentation of an accomplished action.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY0dCdjNjRkJsUGdDazg1YS1HOTZtNVBrQmlzT2NIYmNXVGN1cWNtOE9GSGlrRklxUFM0UDFCWjJDQXRxV2diM3BlNmdRVnQ0UEZjeERRSnZ4MDVjdUQ4U3docjhxNXNVNjNMZFUzVldVbG5NTm1qb1JkNjlZN084UVhKSF92eGlEeU9WM2tR?oc=5": {
@@ -464,6 +526,26 @@
       "rationale": "This article concerns Nigerian politics (PDP is the People's Democratic Party of Nigeria) and a Nigerian public figure (Aondoakaa). It is not a U.S. domestic event and therefore irrelevant to monitoring constitutional stress in the United States.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGhPYVJraVZycDdTbGd4QklKZWM3SlowLWNsR0dKVXlvOXVkWkNMdkxFQmlnSkJ5dFZaWFJfRVY3eDdZNHpzUTdsekY3RUtPQWphcWd1em9Odi1idEx2bERGNEpLYmFXTTNmQ2Z1dFJpSkxnX0dZNEVYYXZaTmg5UXJsMnJVM1BMNnJUcw?oc=5": {
+      "actor": "Honolulu City Clerk",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.honolulucivil.beat",
+      "rationale": "A City Clerk announced that votes cast for a specific candidate (Tommy Waters) will not be counted, indicating removal of a candidate from meaningful ballot participation. This is a real administrative action, though localized to a single race and candidate. The severity is 2 rather than higher because it appears to be a single isolated case of disqualification (likely based on eligibility grounds) rather than a systematic campaign to remove multiple opposition candidates or a structural failure. The action is contained to one local race.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa1IzNHFma0UwUkNWemxaSGw3UEpYNjI5a3gtNUc2NEQwc01NajFLNG1tdEE3dFRrTWRKbzRfbXYwU3RPemZ5aGRvNXl6Z1V0enZWc21uTjZCdE9ZdUl3cEVJSkx5NDlSNmdTa0dZZkg4dGx6RU9jOHJzOGxYTmF1Smozbk1Mem5oWFllSkNsS0ZFVzlvWUx5bVpic0pra3BTZ0NGSU11dXRoQdIBvgFBVV95cUxQOUhiMWRZSGJLUFFPZnJUWUg1SWdmRXpPSmtHTHB0NkMzT0RiRnNaYVhHTTlvdjBubWlkMXp4RG1Nc0Qtb1cwTFdyUERiQndISXNoUVJJN3YwQVloeUpQcmc3MEJXU0sydlBFRzFpcG8zX0NEbXVRTUNqdzUtOHZNOTFUdkRTYlRRMWRRcmNqZkczXzVPa0tmM2xjZ0xJa0l5REx5WnlOVS15cmoyNzRUdmMtMmpiOWlnTndkQTRn?oc=5": {
+      "actor": "Honolulu election authorities",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.hawaiinewsnow.com",
+      "rationale": "Tommy Waters was disqualified from a local Honolulu City Council race, preventing his meaningful participation as a ballot option. This is a confirmed occurrence of candidate removal. However, severity remains 2 because this is a single candidate disqualification in one local race (not systematic removal of multiple opposition candidates across races or a structural constitutional failure). Without additional context suggesting the disqualification was pretextual or part of a broader pattern, this represents a contained action.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSG9hTEdQbW1aVG5kLU1DbzBXbkJwSlJUSHpETjVoV1JUU2l1X2xiZ3JIdjZvTmVBLU1TU3A0NEdaN01fWEF2YmxrUkhXYkVwSXQyQ3BON2xUREJTZVRFNTZjT2llOUhZQlYtY3VRSURZSm1xMHQzeDZja09QT2JFdWtYMlVLRnAySi1uOWUxeThTQlI4OHMtWU5uTmRLRUdZWkVJOElHS2txcUp5?oc=5": {
       "actor": "PDP (Nigeria)",
       "confidence": 0.99,
@@ -504,6 +586,16 @@
       "matches_signal": false,
       "primary_source_url": "streamlinefeed.co.ke",
       "rationale": "This item reports on law enforcement action in Goa, India, not the United States. The signal is specifically about constitutional stress in the U.S. domestic context. While the item may describe surveillance or interrogation of protesters, it is geographically outside the scope of a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxORzB0VGF1WlZtVWhMWUwwNjNDZUl6Ty0zTkV4WHRnYnF3bTU1c2lhRHdqWG9XaTFMb3l1VUZRejN3LW1aaFFIdzBOWEtZRGNRSkpSM2dTTVg1a0gtUlZ4MklGX20tUkhjeDhkUTUzcElwQjJqN3N4Q21ERkQ5eVFWVUVtLWRyQkh5dU5IN3lPWXFHQUhvX1pORXd5aUNXTmU4dm9IbXVHLUFDVUJialVr?oc=5": {
+      "actor": "Italian government",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Italy (Bologna, Meloni government) and is therefore not a U.S. domestic event. The signal is defined as expansion of criminal or surveillance tools around lawful dissent in the United States. Non-U.S. events do not constitute evidence of U.S. constitutional-risk signals, regardless of content.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQXNuZ3FuR1h1QXN3TVdEWEM3SGl3S2ozYVYyS2NMTjZJeVpWQ25VbURNdzI5Y19nRFduVDdQYUlSakFmV01EdEN3b1hHZWIzdzNtVXFIOHJMUGNfcVFxRGVQcGh1OGdBWmZ1YzkwcUxyQkp1SjRrU1pmODVJQXBQMEs4bXppZUllWUhIenFobC1qMmJnaFk4TWlGaDRZdmJKZHhKRUZMTnB4enV6ZHEzOFZqYTA?oc=5": {

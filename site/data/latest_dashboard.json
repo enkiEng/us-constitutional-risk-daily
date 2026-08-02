@@ -1,22 +1,22 @@
 {
   "attempted_queries": 22,
-  "average_7d": 9.18,
+  "average_7d": 8.98,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "Low",
-  "data_available": false,
-  "delta_previous_day": 4.0,
-  "delta_vs_7d": 1.93,
+  "confidence": "Medium",
+  "data_available": true,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": 2.49,
   "domain_breakdown": [
     {
-      "avg_severity": 0.2375,
+      "avg_severity": 0.15,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.30625,
+      "points": 0.825,
       "weight": 22
     },
     {
@@ -27,17 +27,17 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 1.0,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.2749999999999995,
+      "points": 3.5,
       "weight": 14
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.19999999999999998,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.0291666666666666,
+      "points": 0.6499999999999999,
       "weight": 13
     },
     {
@@ -70,36 +70,12 @@
     }
   ],
   "extraction_mode": "ai",
-  "failed_queries": 22,
-  "fetch_errors": [
-    "election_certification_interference: HTTP Error 503: Service Unavailable",
-    "election_administration_capture: HTTP Error 503: Service Unavailable",
-    "election_delay_or_cancellation: HTTP Error 503: Service Unavailable",
-    "alternate_elector_scheme: HTTP Error 503: Service Unavailable",
-    "politicized_prosecution_opposition: HTTP Error 503: Service Unavailable",
-    "opposition_ballot_exclusion: HTTP Error 503: Service Unavailable",
-    "retaliation_architecture: HTTP Error 503: Service Unavailable",
-    "judge_intimidation_campaign: HTTP Error 503: Service Unavailable",
-    "court_order_noncompliance: HTTP Error 503: Service Unavailable",
-    "jurisdiction_stripping_targeted: HTTP Error 503: Service Unavailable",
-    "emergency_powers_expansion: HTTP Error 503: Service Unavailable",
-    "legislative_bypass_executive: HTTP Error 503: Service Unavailable",
-    "martial_law_or_military_language: HTTP Error 503: Service Unavailable",
-    "civil_service_purge_schedule_f: HTTP Error 503: Service Unavailable",
-    "independent_agency_capture: HTTP Error 503: Service Unavailable",
-    "independent_agency_capture: courtlistener: The read operation timed out",
-    "inspector_general_retaliation: HTTP Error 503: Service Unavailable",
-    "press_restrictions: HTTP Error 503: Service Unavailable",
-    "political_speech_surveillance: HTTP Error 503: Service Unavailable",
-    "military_domestic_political_use: HTTP Error 503: Service Unavailable",
-    "security_loyalty_tests: HTTP Error 503: Service Unavailable",
-    "state_election_preemption: HTTP Error 503: Service Unavailable",
-    "legislative_oversight_obstruction: HTTP Error 503: Service Unavailable"
-  ],
+  "failed_queries": 0,
+  "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-01T13:59:33.812961+00:00",
+  "generated_at": "2026-08-02T14:01:37.668117+00:00",
   "methodology_version": 2,
-  "previous_score": 7,
+  "previous_score": 11,
   "primary_sources": {
     "documents_confirmed": 5,
     "documents_fetched": 15,
@@ -109,12 +85,48 @@
     ],
     "signals_queried": 20
   },
-  "provisional": true,
+  "provisional": false,
   "score": 11,
-  "score_raw": 11.11,
-  "score_raw_pre_trip_wire": 11.11,
-  "successful_queries": 0,
+  "score_raw": 11.47,
+  "score_raw_pre_trip_wire": 11.47,
+  "successful_queries": 22,
   "top_signals": [
+    {
+      "confirmed_hits": 2,
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGhPYVJraVZycDdTbGd4QklKZWM3SlowLWNsR0dKVXlvOXVkWkNMdkxFQmlnSkJ5dFZaWFJfRVY3eDdZNHpzUTdsekY3RUtPQWphcWd1em9Odi1idEx2bERGNEpLYmFXTTNmQ2Z1dFJpSkxnX0dZNEVYYXZaTmg5UXJsMnJVM1BMNnJUcw?oc=5",
+          "published": "2026-08-02T01:46:42+00:00",
+          "publisher": "Honolulu Civil Beat",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "City Clerk: Votes For Tommy Waters Won\u2019t Be Counted - Honolulu Civil Beat"
+        },
+        {
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa1IzNHFma0UwUkNWemxaSGw3UEpYNjI5a3gtNUc2NEQwc01NajFLNG1tdEE3dFRrTWRKbzRfbXYwU3RPemZ5aGRvNXl6Z1V0enZWc21uTjZCdE9ZdUl3cEVJSkx5NDlSNmdTa0dZZkg4dGx6RU9jOHJzOGxYTmF1Smozbk1Mem5oWFllSkNsS0ZFVzlvWUx5bVpic0pra3BTZ0NGSU11dXRoQdIBvgFBVV95cUxQOUhiMWRZSGJLUFFPZnJUWUg1SWdmRXpPSmtHTHB0NkMzT0RiRnNaYVhHTTlvdjBubWlkMXp4RG1Nc0Qtb1cwTFdyUERiQndISXNoUVJJN3YwQVloeUpQcmc3MEJXU0sydlBFRzFpcG8zX0NEbXVRTUNqdzUtOHZNOTFUdkRTYlRRMWRRcmNqZkczXzVPa0tmM2xjZ0xJa0l5REx5WnlOVS15cmoyNzRUdmMtMmpiOWlnTndkQTRn?oc=5",
+          "published": "2026-08-01T20:58:00+00:00",
+          "publisher": "Hawaii News Now",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Tommy Waters disqualified from Honolulu City Council District IV race - Hawaii News Now"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://www.honolulucivil.beat",
+      "rationale": "A City Clerk announced that votes cast for a specific candidate (Tommy Waters) will not be counted, indicating removal of a candidate from meaningful ballot participation. This is a real administrative action, though localized to a single race and candidate. The severity is 2 rather than higher because it appears to be a single isolated case of disqualification (likely based on eligibility grounds) rather than a systematic campaign to remove multiple opposition candidates or a structural failure. The action is contained to one local race.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
     {
       "confirmed_hits": 3,
       "critical_hits": 0,
@@ -218,20 +230,29 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Yd3Ztbi1PYUlrUVotZFU5YUJ4ckZMLVpGcmpzX1o5MTRTVlg1NVJyLVgyekN1MUl3dko3TWNPY1pSc2NLTEZHQmlrQmpzcmtHYTlxX3pfbEttQVEtZS0tN25pM2lrMFFvb2g4dE9XaWJySzNISm9oWGlGVXR6dw?oc=5",
+          "published": "2026-08-01T14:03:31+00:00",
+          "publisher": "theunpopulist.net",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Congress Must Rein In the Anti-Democratic Roberts Court Enabling Trump's Power Grabs - theunpopulist.net"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -249,27 +270,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],
