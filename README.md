@@ -53,10 +53,11 @@ both:
 - `evidence[].canonical_link` — the resolved publisher URL, or `null` when
   resolution was not attempted or did not succeed
 
-Consumers should prefer `canonical_link` and fall back to `link`. This matters
-beyond tidiness for anything with a length budget: a Bluesky post is capped at
-300 graphemes and counts the whole URL against it, so an unresolved redirect
-cannot fit in a post at all.
+Consumers should prefer `canonical_link` and fall back to `link`. Beyond
+tidiness, this matters for consumers that must place the citation inside a length
+budget — the Bluesky commentary drafter gets 300 graphemes per post, so an
+unresolved redirect leaves nothing to write with. It matters for readers too: a
+citation showing `news.google.com` does not say who reported the story.
 
 Resolution uses an undocumented Google endpoint and is expected to break
 eventually. Every failure degrades to the original link and never fails the

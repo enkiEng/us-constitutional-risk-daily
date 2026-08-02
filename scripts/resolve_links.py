@@ -8,9 +8,14 @@ is a redirect of the form::
     https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmpTZGx4MkpaUW1Xb0FH…?oc=5
 
 which runs 260-340 characters. That is fine for the dashboard, where the link is
-an ``href`` behind anchor text, and fatal for anything with a length budget: a
-Bluesky post is capped at 300 graphemes and counts the whole URL against it, so a
-single one of these leaves nothing — often less than nothing — to write with.
+an ``href`` behind anchor text, and expensive for a consumer whose citation has
+to sit inside the text it is citing from — the Bluesky commentary drafter is
+capped at 300 graphemes per post, so one of these leaves nothing to write with.
+
+(That cap is Bluesky's, but a URL only spends it because that repo's scheduler
+lacks link-card support and linkifies URLs already present in the post text. This
+resolver is worth having regardless of whether that changes: a citation reading
+``news.google.com`` does not tell a reader who actually reported the story.)
 
 Resolving them once here means every consumer gets the short link: the rendered
 site shows a real domain on hover instead of ``news.google.com``, and downstream
