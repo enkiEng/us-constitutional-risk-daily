@@ -37,6 +37,11 @@ try:
 except Exception:  # pragma: no cover - primary-source layer is optional
     primary_sources = None
 
+try:
+    import resolve_links
+except Exception:  # pragma: no cover - link resolution is optional
+    resolve_links = None
+
 
 UTC = dt.timezone.utc
 
@@ -53,6 +58,10 @@ class FeedEntry:
     # are the only ones that can anchor a red-level severity on their own.
     source_tier: str = "news"
     source_name: str = "google_news"
+    # Publisher URL behind a Google News redirect, filled in by resolve_links
+    # for the evidence that actually gets published. Empty when resolution was
+    # not attempted or did not succeed; consumers fall back to ``link``.
+    canonical_link: str = ""
 
 
 @dataclass
@@ -988,6 +997,10 @@ def build_summary_payload(
                         "title": entry.title,
                         "publisher": entry.publisher,
                         "link": entry.link,
+                        # The original Google redirect stays in ``link`` so the
+                        # provenance of a citation is never rewritten; this is
+                        # the short publisher URL when we could get one.
+                        "canonical_link": entry.canonical_link or None,
                         "published": entry.published.isoformat() if entry.published else None,
                         "source_tier": entry.source_tier,
                         "source_name": entry.source_name,
@@ -1205,6 +1218,26 @@ def main() -> int:
 
     previous_score, avg_7d = extract_history_trends(history_rows, date_str)
 
+    # Resolve Google News redirects to publisher URLs before anything is
+    # rendered or written. Only the evidence that will actually be published is
+    # resolved, and a total failure here costs nothing but longer links.
+    published_results = [item for item in sorted_results if item.final_score > 0.0]
+    if resolve_links is not None:
+        link_cfg = config.get("link_resolution", {}) or {}
+        link_cache_path = Path(link_cfg.get("cache_path", "data/link_resolution_cache.json"))
+        link_cache = resolve_links.load_cache(link_cache_path)
+        link_stats = resolve_links.resolve_evidence(
+            published_results, link_cache, link_cfg, timeout=timeout, user_agent=user_agent
+        )
+        if link_stats["resolved"] and not args.dry_run:
+            resolve_links.save_cache(link_cache_path, link_cache)
+        if link_stats["failed"]:
+            fetch_errors.append(
+                f"link resolution: {link_stats['failed']} link(s) left as Google "
+                f"redirects ({link_stats['resolved']} resolved, "
+                f"{link_stats['cached']} cached)"
+            )
+
     report = build_markdown(
         generated_at=now,
         score=score,
@@ -1213,7 +1246,7 @@ def main() -> int:
         previous_score=previous_score,
         avg_7d=avg_7d,
         domain_rows=sorted(domain_rows, key=lambda row: row["weight"], reverse=True),
-        top_results=[item for item in sorted_results if item.final_score > 0.0],
+        top_results=published_results,
         attempted_queries=attempted_queries,
         successful_queries=successful_queries,
         fetch_errors=fetch_errors,
@@ -1231,7 +1264,7 @@ def main() -> int:
         previous_score=previous_score,
         avg_7d=avg_7d,
         domain_rows=sorted(domain_rows, key=lambda row: row["weight"], reverse=True),
-        top_results=[item for item in sorted_results if item.final_score > 0.0],
+        top_results=published_results,
         attempted_queries=attempted_queries,
         successful_queries=successful_queries,
         fetch_errors=fetch_errors,

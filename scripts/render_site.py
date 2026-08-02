@@ -283,7 +283,10 @@ def evidence_blocks(top_signals: list[dict[str, Any]]) -> str:
         for item in evidence[:5]:
             publisher = html.escape(str(item.get("publisher") or "unknown"))
             title = html.escape(str(item.get("title") or "(untitled)"))
-            link = html.escape(str(item.get("link") or ""))
+            # Prefer the resolved publisher URL so a reader hovering a citation
+            # sees the outlet's own domain rather than news.google.com, and lands
+            # there directly. Falls back to the redirect when resolution failed.
+            link = html.escape(str(item.get("canonical_link") or item.get("link") or ""))
             published = item.get("published")
             if published:
                 try:

@@ -121,6 +121,13 @@
       "request_delay_seconds": 13.0
     }
   },
+  "link_resolution": {
+    "note": "Google News RSS gives redirect links of 260-340 characters. They are resolved to publisher URLs once here so every consumer gets a short, real citation - the rendered site shows a real domain, and length-capped consumers such as the Bluesky commentary drafter can fit a link inside 300 graphemes at all. The endpoint is undocumented; failure degrades to the original Google link and never fails the run.",
+    "enabled": true,
+    "cache_path": "data/link_resolution_cache.json",
+    "max_requests_per_run": 40,
+    "delay_seconds": 1.0
+  },
   "risk_bands": [
     {
       "min": 0,

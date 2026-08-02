@@ -41,6 +41,28 @@ and [`docs/constitutional-risk-improvement-proposal.md`](docs/constitutional-ris
 - Per-signal daily history (`data/constitutional_signal_scores.csv`)
 - Latest machine-readable snapshot (`data/latest_dashboard.json`)
 
+### Evidence links
+
+Google News RSS hands out redirect links of 260-340 characters rather than the
+publisher's URL. `scripts/resolve_links.py` resolves the published evidence to
+real publisher URLs (typically 100-140 characters) and the dashboard carries
+both:
+
+- `evidence[].link` — the original Google redirect, never rewritten, so the
+  provenance of a citation stays intact and dedupe keys stay stable
+- `evidence[].canonical_link` — the resolved publisher URL, or `null` when
+  resolution was not attempted or did not succeed
+
+Consumers should prefer `canonical_link` and fall back to `link`. This matters
+beyond tidiness for anything with a length budget: a Bluesky post is capped at
+300 graphemes and counts the whole URL against it, so an unresolved redirect
+cannot fit in a post at all.
+
+Resolution uses an undocumented Google endpoint and is expected to break
+eventually. Every failure degrades to the original link and never fails the
+run; failures are reported in the run's `fetch_errors`. Results are cached
+by article id in `data/link_resolution_cache.json` and never expire.
+
 ## GitHub -> GitLab Bluesky Trigger
 
 The daily GitHub Action (`.github/workflows/daily-update.yml`) now triggers
