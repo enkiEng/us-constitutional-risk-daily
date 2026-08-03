@@ -94,6 +94,16 @@
     }
   },
   "election_administration_capture": {
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0pMUHB4Z1Z0SF82c0V0NDVuemRoUEM3ZVNKeWUxdXppTzV1U0pHWlNjN3R3T1BqNUdTTjB1akUzZnR2ajFIZDlOLWg3WGp1M3lTbm45N0cza0RVZlZSMzZIYWxkU2N2RUJwQWhsbnlxR0tkWjVBek9WOGtGanFCN3ZmRkptbEZXSi1uTDVvNDBwalBENzVqNGhzTTlxdw?oc=5": {
+      "actor": "Georgia State Election Board",
+      "confidence": 0.15,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The headline and summary are vague and non-specific. Without substantive detail about what 'tests limits' means or what action was taken, this cannot be reliably assessed as evidence of election administration capture or partisan control. The item provides no confirmation that an actual event of constitutional significance occurred\u2014it may refer to routine testing, procedural exercises, or forward-looking concerns rather than a verifiable action that moved election administration toward partisan control. Conservative analysis requires concrete evidence of a real occurrence, not a generic headline.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbF84WFJQUHdLSU9fNFJrR2FoN2NBYUdDOGZQNDYxNnhIMGlBTUZlSGxpeGVaRlNRVWo4RlBpN3M3TGkzakFpZVdSeVFOak1HM1V3bXNQU0JpdUxoVDFpYnFiZDU2QlBTa0tDeENNZ0RKQ3hzaUJna2dremlLOFNhQm1MTUoyUXVvMkVpbDJMSmppTXRtdnVRNmQ3UW1kbmJGSDVnWnJ2b202TTEyVUU0NnU1Rng5QV9TUnBMX1FhVEhwU1Y0UXc?oc=5": {
       "actor": "North Carolina State Senate",
       "confidence": 0.78,
@@ -280,6 +290,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/73678082/1/anderson-v-city-of-philadelphia/",
       "rationale": "This is a routine civil complaint filing in federal court. The docket summary provides no substantive information about the complaint's allegations, the defendant officials' roles, or any retaliatory action against watchdog functions. The names of defendants (City officials, Mayor Cherelle Parker) do not suggest IG retaliation without further details. A filed complaint is a legal action, not evidence that the complained-of event occurred; the court document does not confirm any retaliatory conduct against inspectors general or anti-corruption monitoring. This is a procedural filing with insufficient content to assess the underlying claim.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73709688/2/united-states-v-yaroch/": {
+      "actor": "USA",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73709688/2/united-states-v-yaroch/",
+      "rationale": "This is a routine criminal docket entry for a complaint and affidavit filed by the USA in a district court case against Patrick Steven Yaroch. It is a normal prosecutorial filing in a federal criminal matter and contains no evidence of retaliatory action against watchdog functions, inspector general offices, or anti-corruption monitoring. The document is a standard legal procedural filing with no connection to the IG Retaliation signal.",
       "severity": 0
     }
   },
@@ -494,6 +514,16 @@
     }
   },
   "military_domestic_political_use": {
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYVZFUjVEQUpEWTk5eFg5ck9XQjhWejZOMHNkOHJFZ091bDRKc1dJSXRXc29QdDd4SFRBQ0ZCd1dkV0dEdzR3RmxwaTk2bVFFcGthWGhFVUxjWFhZWElyY1paRmUyNUI3ZGFhME5WTC1vTlY4STBQUWt0YjZPTEtFRmJqSVNRdVV5NHRJ?oc=5": {
+      "actor": "Cato Institute",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an opinion or analytical piece from the Cato Institute posing a speculative question about NORTHCOM CONPLAN 3900 and potential Insurrection Act invocation. The headline is phrased as a question, indicating analysis or concern rather than reporting of an actual occurrence. No verifiable evidence is presented that the military has been used or threatened for use in domestic political conflict, nor that any constitutional breach has taken place. This is commentary on contingency planning, not evidence of real action.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/73667461/1/electronic-privacy-information-center-v-mullin/": {
       "actor": "Electronic Privacy Information Center et al. v. Mullin et al.",
       "confidence": 0.95,
@@ -506,6 +536,16 @@
     }
   },
   "opposition_ballot_exclusion": {
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQWxIU2w4aWpEbmNXS1c1V29DaEJ6d2l4WEVEZHdPRF9GZTVKZ29GNTAtVmVwb1JjSF9pMjFYb2VXa2hPNHJ4YVVBdzNFaXpDT3A2Qzk5TjEwUEpRVUNldENGaGJZU1F2aWFxZzlYLTJhN1pnNlQxN2RhQk50VmhtQ0xTM3VnUmQtVVEzV2VjWjFuRndBSzJXTFhnd0pxTjBGTjlpOXl0WEdJZGlkUXhXR2xWZzhMMlNmMGVVNmh2Z2o1eXNEY2locnIxZzdDSnNlcmwwWFVyRnRrLUdjSEHSAeQBQVVfeXFMTzFnUVhpQzhGUW5uT1FDQllnSjdiRUwwdzhTb29sX2FDbEZ5dVc0aG9tdzdFWHZRenNIQU1FUzJRbjFicnpPcDIxYzBYaS1YMWV6cDZhMTg1b1E0MktGaTBBSTdybkdZZEFsdGZXSGdhajh5SUY2allsdTVNRmlGZVc2X0lxZ3hDM1JhMkNJRDhoZ1FvdnU1RGtlTUFtRy1fdi1OTW5KRFE4S0dVQ1dUdjNtMkhfTzRpcnQwZHVta2dMVjZ1S1dPMmYxSWszVFdrT0Exd2k0dEYydmpYRzFPYlF2b2ND?oc=5": {
+      "actor": "Indian National Congress",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://thehindu.com",
+      "rationale": "This item concerns Indian domestic politics (Congress party suspension of an ex-MLA in Datia, which is a district in Madhya Pradesh, India). It is not a U.S. occurrence and therefore provides no evidence regarding opposition ballot exclusion in the United States. Additionally, an internal party disciplinary suspension, even if it occurred, does not constitute systematic removal of candidates from meaningful electoral participation at the ballot level.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5ZlVmZDBBOXVKUzAtQnM1U3VlUnNNZWhodjlrcFJUdngxZktUdnlRMGxVLVRjcjJXNFVNWk1tVDVfX1JpX3dxWFVSLTM4aWprWXFBeFJn?oc=5": {
       "actor": "Unknown entities approaching Action Alliance party",
       "confidence": 0.35,

@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-02 14:01:37 UTC
+- Generated: 2026-08-03 15:20:26 UTC
 - Methodology: **v2** (extraction: AI event extraction)
 - Score: **11 / 100** (Baseline Institutional Noise)
 - Previous day delta: **0.0**
-- Delta vs 7-day average: **+2.5**
+- Delta vs 7-day average: **+1.7**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,10 +15,10 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.15 | 0.82 |
+| Elections and Transfer of Power | 22 | 0.06 | 0.34 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 1.00 | 3.50 |
-| Executive Constraints and Emergency Powers | 13 | 0.20 | 0.65 |
+| Executive Constraints and Emergency Powers | 13 | 0.08 | 0.27 |
 | Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
 | Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
 | Security Sector Neutrality | 8 | 1.00 | 2.00 |
@@ -28,12 +28,12 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Opposition Ballot Exclusion | opposition_pluralism | 2.00 (Yellow) | ai | 2 | 2 |
+| Opposition Ballot Exclusion | opposition_pluralism | 2.00 (Yellow) | ai | 2 | 3 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 3 | 0 |
 | Security Sector Loyalty Tests | security_sector_neutrality | 2.00 (Yellow) | ai | 1 | 0 |
 | Legislative Oversight Obstruction | federalism_oversight | 2.00 (Yellow) | ai | 1 | 0 |
-| Legislative Bypass by Executive | executive_constraints | 0.60 (Green) | ai | 0 | 1 |
-| Election Administration Capture | elections_transfer | 0.60 (Green) | keyword | 0 | 0 |
+| Election Administration Capture | elections_transfer | 0.25 (Green) | ai | 0 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 0.25 (Green) | keyword | 0 | 0 |
 
 ## Evidence Samples
 
@@ -56,15 +56,15 @@
 - Assessment: An official motion to quash third-party subpoenas filed by the Executive Office of the President represents a verifiable action to obstruct legislative fact-finding. The filing of a motion to quash subpoenas is a concrete legal action aimed at preventing disclosure of information to Congress or its agents. This constitutes a real occurrence of obstruction of legislative oversight, though the motion itself is a procedural challenge rather than an outright defiance of a court order or systematic campaign. The severity is 2 (repeated or credible stress signal—a real but contained action) rather than 3, because this is a single motion through the normal judicial process, not an open defiance or structural campaign to prevent oversight.
 - [courtlistener.com] **[official record]** IN RE SUBPOENAS ON BORIS EPSHTEYN (2026-07-02) - https://www.courtlistener.com/docket/73690657/2/in-re-subpoenas-on-boris-epshteyn/
 
-### Legislative Bypass by Executive
-- [theunpopulist.net] Congress Must Rein In the Anti-Democratic Roberts Court Enabling Trump's Power Grabs - theunpopulist.net (2026-08-01) - https://news.google.com/rss/articles/CBMifkFVX3lxTE5Yd3Ztbi1PYUlrUVotZFU5YUJ4ckZMLVpGcmpzX1o5MTRTVlg1NVJyLVgyekN1MUl3dko3TWNPY1pSc2NLTEZHQmlrQmpzcmtHYTlxX3pfbEttQVEtZS0tN25pM2lrMFFvb2g4dE9XaWJySzNISm9oWGlGVXR6dw?oc=5
+### Election Administration Capture
+- [AJC.com] Georgia State Election Board tests limits ahead of midterms - AJC.com (2026-08-03) - https://news.google.com/rss/articles/CBMingFBVV95cUxNa0pMUHB4Z1Z0SF82c0V0NDVuemRoUEM3ZVNKeWUxdXppTzV1U0pHWlNjN3R3T1BqNUdTTjB1akUzZnR2ajFIZDlOLWg3WGp1M3lTbm45N0cza0RVZlZSMzZIYWxkU2N2RUJwQWhsbnlxR0tkWjVBek9WOGtGanFCN3ZmRkptbEZXSi1uTDVvNDBwalBENzVqNGhzTTlxdw?oc=5
 
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Primary-source lookups: 20 signals, 15 official documents (Federal Register, CourtListener)
+- Primary-source lookups: 20 signals, 16 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 5
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**

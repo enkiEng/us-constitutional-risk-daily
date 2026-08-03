@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 8.98,
+  "average_7d": 8.94,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,13 +10,13 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": 0.0,
-  "delta_vs_7d": 2.49,
+  "delta_vs_7d": 1.67,
   "domain_breakdown": [
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0625,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.825,
+      "points": 0.34375,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.19999999999999998,
+      "avg_severity": 0.08333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 0.6499999999999999,
+      "points": 0.2708333333333333,
       "weight": 13
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-02T14:01:37.668117+00:00",
+  "generated_at": "2026-08-03T15:20:26.034491+00:00",
   "methodology_version": 2,
   "previous_score": 11,
   "primary_sources": {
     "documents_confirmed": 5,
-    "documents_fetched": 15,
+    "documents_fetched": 16,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -87,8 +87,8 @@
   },
   "provisional": false,
   "score": 11,
-  "score_raw": 11.47,
-  "score_raw_pre_trip_wire": 11.47,
+  "score_raw": 10.61,
+  "score_raw_pre_trip_wire": 10.61,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -97,6 +97,7 @@
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
+          "canonical_link": "https://www.civilbeat.org/2026/08/city-clerk-votes-for-tommy-waters-wont-be-counted/",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGhPYVJraVZycDdTbGd4QklKZWM3SlowLWNsR0dKVXlvOXVkWkNMdkxFQmlnSkJ5dFZaWFJfRVY3eDdZNHpzUTdsekY3RUtPQWphcWd1em9Odi1idEx2bERGNEpLYmFXTTNmQ2Z1dFJpSkxnX0dZNEVYYXZaTmg5UXJsMnJVM1BMNnJUcw?oc=5",
           "published": "2026-08-02T01:46:42+00:00",
           "publisher": "Honolulu Civil Beat",
@@ -105,6 +106,7 @@
           "title": "City Clerk: Votes For Tommy Waters Won\u2019t Be Counted - Honolulu Civil Beat"
         },
         {
+          "canonical_link": "https://www.hawaiinewsnow.com/2026/08/01/tommy-waters-disqualified-honolulu-city-council-district-iv-race/",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa1IzNHFma0UwUkNWemxaSGw3UEpYNjI5a3gtNUc2NEQwc01NajFLNG1tdEE3dFRrTWRKbzRfbXYwU3RPemZ5aGRvNXl6Z1V0enZWc21uTjZCdE9ZdUl3cEVJSkx5NDlSNmdTa0dZZkg4dGx6RU9jOHJzOGxYTmF1Smozbk1Mem5oWFllSkNsS0ZFVzlvWUx5bVpic0pra3BTZ0NGSU11dXRoQdIBvgFBVV95cUxQOUhiMWRZSGJLUFFPZnJUWUg1SWdmRXpPSmtHTHB0NkMzT0RiRnNaYVhHTTlvdjBubWlkMXp4RG1Nc0Qtb1cwTFdyUERiQndISXNoUVJJN3YwQVloeUpQcmc3MEJXU0sydlBFRzFpcG8zX0NEbXVRTUNqdzUtOHZNOTFUdkRTYlRRMWRRcmNqZkczXzVPa0tmM2xjZ0xJa0l5REx5WnlOVS15cmoyNzRUdmMtMmpiOWlnTndkQTRn?oc=5",
           "published": "2026-08-01T20:58:00+00:00",
           "publisher": "Hawaii News Now",
@@ -114,7 +116,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 3,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
@@ -133,6 +135,7 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/08/03/2026-15665/reduction-in-force",
           "link": "https://www.federalregister.gov/documents/2026/08/03/2026-15665/reduction-in-force",
           "published": "2026-08-03T00:00:00+00:00",
           "publisher": "federalregister.gov",
@@ -141,6 +144,7 @@
           "title": "Reduction in Force"
         },
         {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/08/03/2026-15654/streamlining-probationary-and-trial-period-appeals",
           "link": "https://www.federalregister.gov/documents/2026/08/03/2026-15654/streamlining-probationary-and-trial-period-appeals",
           "published": "2026-08-03T00:00:00+00:00",
           "publisher": "federalregister.gov",
@@ -149,6 +153,7 @@
           "title": "Streamlining Probationary and Trial Period Appeals"
         },
         {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
           "link": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
           "published": "2026-08-03T00:00:00+00:00",
           "publisher": "federalregister.gov",
@@ -177,6 +182,7 @@
       "domain_id": "security_sector_neutrality",
       "evidence": [
         {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
           "link": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
           "published": "2026-08-03T00:00:00+00:00",
           "publisher": "federalregister.gov",
@@ -205,6 +211,7 @@
       "domain_id": "federalism_oversight",
       "evidence": [
         {
+          "canonical_link": "https://www.courtlistener.com/docket/73690657/2/in-re-subpoenas-on-boris-epshteyn/",
           "link": "https://www.courtlistener.com/docket/73690657/2/in-re-subpoenas-on-boris-epshteyn/",
           "published": "2026-07-02T00:00:00+00:00",
           "publisher": "courtlistener.com",
@@ -230,38 +237,20 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Yd3Ztbi1PYUlrUVotZFU5YUJ4ckZMLVpGcmpzX1o5MTRTVlg1NVJyLVgyekN1MUl3dko3TWNPY1pSc2NLTEZHQmlrQmpzcmtHYTlxX3pfbEttQVEtZS0tN25pM2lrMFFvb2g4dE9XaWJySzNISm9oWGlGVXR6dw?oc=5",
-          "published": "2026-08-01T14:03:31+00:00",
-          "publisher": "theunpopulist.net",
+          "canonical_link": "https://www.ajc.com/politics/2026/08/georgia-state-election-board-tests-limits-ahead-of-midterms/",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0pMUHB4Z1Z0SF82c0V0NDVuemRoUEM3ZVNKeWUxdXppTzV1U0pHWlNjN3R3T1BqNUdTTjB1akUzZnR2ajFIZDlOLWg3WGp1M3lTbm45N0cza0RVZlZSMzZIYWxkU2N2RUJwQWhsbnlxR0tkWjVBek9WOGtGanFCN3ZmRkptbEZXSi1uTDVvNDBwalBENzVqNGhzTTlxdw?oc=5",
+          "published": "2026-08-03T09:17:30+00:00",
+          "publisher": "AJC.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Congress Must Rein In the Anti-Democratic Roberts Court Enabling Trump's Power Grabs - theunpopulist.net"
+          "title": "Georgia State Election Board tests limits ahead of midterms - AJC.com"
         }
       ],
       "evidence_mode": "ai",
       "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -270,7 +259,26 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
