@@ -94,6 +94,26 @@
     }
   },
   "election_administration_capture": {
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Zc0NuUFg3T0xsb080WEJCWkFFYW5HYkVBdkJHQjdpS0tnX2xMczA2eS1nNS1iQkswajFSVFVIa2hwU2E0ZnhZVnhyX1haRTBCSU1rdVhDYko2MlpRSVpOblpEQnhyX29zUGhv?oc=5": {
+      "actor": "House Democratic member; Postmaster General",
+      "confidence": 0.8,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a Democratic House member's call for removal of the Postmaster General, alleging the USPS is being turned into an instrument of voter suppression. The item reports an accusation and a political demand for removal, not a verified action or confirmed case of election administration capture. The article reflects political rhetoric and a proposal, not evidence that election administration itself has been captured by partisan actors. USPS operations, while important to elections, are not election administration proper.",
+      "severity": 1
+    },
+    "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XY2hjNGZkSzRZcVJIUHN2RVhNOXpNcjF6Y0JaVWk2WHIyQWtrdVRsenpqQXlvcko2V3BxUVptY0UxT0xEbEZxUlBJRTBEYUZvSjVaNkdMVXVYaHJXMGtHQ0I5cTE4ZVhxWUxST3NB?oc=5": {
+      "actor": "Kansas state election administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a routine pre-election informational article about what to expect on a primary election day. It contains no information about partisan capture, politicization, or election administration being moved to partisan control. It is standard election logistics reporting.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0pMUHB4Z1Z0SF82c0V0NDVuemRoUEM3ZVNKeWUxdXppTzV1U0pHWlNjN3R3T1BqNUdTTjB1akUzZnR2ajFIZDlOLWg3WGp1M3lTbm45N0cza0RVZlZSMzZIYWxkU2N2RUJwQWhsbnlxR0tkWjVBek9WOGtGanFCN3ZmRkptbEZXSi1uTDVvNDBwalBENzVqNGhzTTlxdw?oc=5": {
       "actor": "Georgia State Election Board",
       "confidence": 0.15,
@@ -103,6 +123,16 @@
       "primary_source_url": "",
       "rationale": "The headline and summary are vague and non-specific. Without substantive detail about what 'tests limits' means or what action was taken, this cannot be reliably assessed as evidence of election administration capture or partisan control. The item provides no confirmation that an actual event of constitutional significance occurred\u2014it may refer to routine testing, procedural exercises, or forward-looking concerns rather than a verifiable action that moved election administration toward partisan control. Conservative analysis requires concrete evidence of a real occurrence, not a generic headline.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5": {
+      "actor": "Trump director of election security",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbF84WFJQUHdLSU9fNFJrR2FoN2NBYUdDOGZQNDYxNnhIMGlBTUZlSGxpeGVaRlNRVWo4RlBpN3M3TGkzakFpZVdSeVFOak1HM1V3bXNQU0JpdUxoVDFpYnFiZDU2QlBTa0tDeENNZ0RKQ3hzaUJna2dremlLOFNhQm1MTUoyUXVvMkVpbDJMSmppTXRtdnVRNmQ3UW1kbmJGSDVnWnJ2b202TTEyVUU0NnU1Rng5QV9TUnBMX1FhVEhwU1Y0UXc?oc=5": {
       "actor": "North Carolina State Senate",
@@ -220,6 +250,16 @@
       "rationale": "Item is a bare headline with no substantive content describing any actual event. Cannot assess whether any real occurrence of independent agency capture took place. Insufficient information to determine if this is reporting an actual event or merely a topic headline.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTGlaMDFzYXNBaGRfMFlrNkFvaDJnOEpiZnY5cy1DcklTSlNRVWtxUUhQNzhQVk9qMUw5OUtkOHdaR2FJYUdmak14QlMzeVVEN0J6SDdoUW1nMC1yN2tZU1F0ODRLZlBmZGpPNzVxTmNYRk1YX01hMFZROFl2OGR5Nmh0bDFsQ25NS1YyS0ZKUnY3VFZseDRhYjVVWUZKYXBXc1l4WW0yWUFkaDVOamc?oc=5": {
+      "actor": "Trump Administration; NCUA Board Members",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.creditunionttimes.com",
+      "rationale": "The headline describes a procedural dispute over an appeal schedule between the Trump Administration and former NCUA board members. A scheduling conflict in litigation does not constitute evidence of independent agency capture or weakening of regulatory safeguards. This is a routine administrative or judicial procedural matter, not evidence of structural interference with agency independence.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWXBIUWVrbm5UVnM2V2h2d0RLVE0wZVRFQzVZaUkzekVWSVVUVjBwLTB3MDc4eHpBM004Nnl4cDQtSWY0WjlPY0hUNGZ4RFF0U1l5TFo4YUVydkstMHVuLUtUMjNxVVQyWkpicGRGc203NmVxcE5ZSjVzZjZCQUlCR2pJbkRIR2RWNVJvLUFKYW5fb01kajVPc3lzbHJKTjJWLU9WQXRJaWpudmFqMGFJ?oc=5": {
       "actor": "Unknown",
       "confidence": 0.92,
@@ -238,6 +278,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Published in The Korea Times, a South Korean publication. This addresses non-U.S. events and concerns. The signal concerns U.S. constitutional risk; this is international coverage and therefore outside scope.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ3k2S0ptdlVhV283QUc1YmtNQ2wzQ09EVi12LTRnUUZBOWJEbVlMcHpPdUprdzVIOGVRaGxLYi0wS0oxdDhDdEdXS3BoU2RJYUlTRVlMcVFFdE9hTkJUdnZ6dkpKT3BZbVQ4S3pYTDZCS0FaQzR6MW5CYUF1WGJHbVNvbUZSQ0RsSzd1a2t1TUFiUzltQ3FwX01sbFN5RlhaeHVzUnEyb01UdS1VN09ESG5B?oc=5": {
+      "actor": "US Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.law.com",
+      "rationale": "This is a news headline posing a hypothetical question ('Could Congress Be Next?') about potential future congressional action. It reports on past Supreme Court decisions limiting agency authority, not on current weakening of regulatory independence safeguards or independent agency capture. The article discusses judicial review of agencies, not capture or removal of independence protections.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUNmUWRxOHh5c2p0QzBsVHZERWZncjVkSDkydWFmbDJDVGZyQy1OV0Z1UFMzUDVPdXNkM0VTczNvcm9YNjZqbEdLZUd3eFpRU1pXWVdoWHZVWEFmRHFON3o3bktOQXNjczR5RndqWXZsM3oxcVBWeXpsN1FKeWQyc2Z0REZoY0dTa3c2TWtQenVVaU0tTS1YY0k2cW54Zks0SEd3TWg5WmtreXlab3dYOGh6cEFSUGc?oc=5": {
@@ -292,6 +342,16 @@
       "rationale": "This is a routine civil complaint filing in federal court. The docket summary provides no substantive information about the complaint's allegations, the defendant officials' roles, or any retaliatory action against watchdog functions. The names of defendants (City officials, Mayor Cherelle Parker) do not suggest IG retaliation without further details. A filed complaint is a legal action, not evidence that the complained-of event occurred; the court document does not confirm any retaliatory conduct against inspectors general or anti-corruption monitoring. This is a procedural filing with insufficient content to assess the underlying claim.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/73709553/1/united-states-v-cilurso/": {
+      "actor": "Unknown",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73709553/1/united-states-v-cilurso/",
+      "rationale": "This is a routine criminal complaint docket entry. It documents a criminal prosecution, not retaliation against an Inspector General, watchdog agency, or anti-corruption monitoring function. The document is unrelated to the IG retaliation signal.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/73709688/2/united-states-v-yaroch/": {
       "actor": "USA",
       "confidence": 0.98,
@@ -300,6 +360,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/73709688/2/united-states-v-yaroch/",
       "rationale": "This is a routine criminal docket entry for a complaint and affidavit filed by the USA in a district court case against Patrick Steven Yaroch. It is a normal prosecutorial filing in a federal criminal matter and contains no evidence of retaliatory action against watchdog functions, inspector general offices, or anti-corruption monitoring. The document is a standard legal procedural filing with no connection to the IG Retaliation signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73710447/2/united-states-v-yaroch/": {
+      "actor": "Unknown",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73710447/2/united-states-v-yaroch/",
+      "rationale": "This is a routine criminal docket entry (affidavit in a complaint case). It documents a law enforcement action against an individual, not retaliation against an Inspector General or watchdog function. The item contains no evidence of retaliatory action against oversight or anti-corruption mechanisms.",
       "severity": 0
     }
   },
@@ -448,6 +518,16 @@
       "rationale": "This is a summary/explainer article about lawsuits and litigation procedures, not evidence of a specific executive bypass of legislative authority. The headline indicates it is educational content about 'how litigation works' rather than documentation of an actual governance action shifting from statute to unilateral executive action. No material signal of legislative bypass is present.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORlJpLXk0ejlhcDVqanlwQlVzNExQc1Z4MkxpNGM1R0J5b1BMNmRQTDZjVkJaZ3V3c0EzVjBrLUpPS3YyY3pvZWotc2NPT2RhWThDdXozcHg4QTI1V0pCMUtReWlVNi03LXRnT1NEc1NzOTlRd3BNQkl4ODlKS0M2dzJiYWhfYmZsYjlpN2ktRXpkTGlLbFk0QlZUOWNCN0dnQzMxNnVPemw?oc=5": {
+      "actor": "Cepeda, De la Espriella",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Colombian politics (a challenge to a Colombian official's legitimacy over US citizenship status). It is not a US domestic event and does not concern US constitutional governance or legislative bypass by US executive action.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdG4xQnZZOHF6UmZ0YUVJWnhLa1JaM1prZUxjS21KNVNhMllLakprUy1hbVRWRnFpeGpleGZqYzI1SU1iR0I1amR1cWpmNkVWWGVzVnQ3V2dLMms0czJGSTdSNUVZc2pBbXRvWGtLUzNlUFh5US0wQXlIMlVocXlJSUlfNmxZLU1qdjZLa2h2azdwUzJoNFN4dWJjaElNa2NhSVpUSV9DMzhoMDVFVk1sc0VoNW5PVHdtNGIxZ1BwZUI2eG9y?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.7,
@@ -457,6 +537,16 @@
       "primary_source_url": "The Maine Wire",
       "rationale": "Corroborating report of the same executive petition to revive mail-in voting restrictions. Describes the same administration action as item [0]. The framing of 'revive' suggests a prior order was blocked, which is consistent with item [2]. This is a real, documented attempt at executive action on electoral policy that bypasses legislative process.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxPR1RvSFd0R1d1Q2lkX1paNktJWHREUDBYQUh6aXcyMVI4LVJpX19jMWQ0MlVTdzdKbk1JbzFjaVp5Q252WEpOa1M2NmhTbWFLanc2VDV0VE5tSVhFVktFRENoTXk2a0stNWRiNTFnbmpGUm5LTmZjNHdXLVFrVHFVaTg4d0RhR1NGSFFKVmlzVEFRRjl3bDZKNUZkSkQ3M1BCN3FqRldLM2tLNU1NLW5oS0tROFVneFRvaEQwNThkT3JmRnhiVkNtR2RZaw?oc=5": {
+      "actor": "EFF, CDT, State AGs",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a warning or advocacy statement by civil liberties organizations and state attorneys general regarding FTC AI policy. It describes a concern about policy exposure to liability, not a verified instance of legislative bypass by executive action. The item reports a position or complaint, not an accomplished executive action shifting governance from statute to unilateral executive power.",
+      "severity": 0
     }
   },
   "legislative_oversight_obstruction": {
@@ -667,9 +757,29 @@
       "primary_source_url": "",
       "rationale": "This item is about Indian legal proceedings (Zero FIR, criminal defamation over PM slogans). Streamlinefeed.co.ke is a Kenyan source covering non-U.S. events. Not relevant to U.S. constitutional risk.",
       "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/04/2026-15773/agency-information-collection-activities-revision-guam-cnmi-visa-waiver-information-form-i-736": {
+      "actor": "Department of Homeland Security, U.S. Customs and Border Protection",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/04/2026-15773/agency-information-collection-activities-revision-guam-cnmi-visa-waiver-information-form-i-736",
+      "rationale": "This is a routine Federal Register notice regarding revision of a visa waiver information collection form (Form I-736). It is a standard administrative procedure for updating paperwork requirements under the Paperwork Reduction Act. The item contains no evidence of criminalization of political speech, surveillance expansion targeting lawful dissent, or any constitutional-stress event related to the signal. This is ordinary immigration administrative activity with no connection to the signal definition.",
+      "severity": 0
     }
   },
   "politicized_prosecution_opposition": {
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd3RrUlN5Q3lFdk5oeGpRQXVHWG85SDU0M2U3U0ZBY2ROVnY2c0ctREVQMWR6MlY3TnExNjkzQ1F4UDhlMngtR1BZZVNhWmkyZzFFRGpQNHJvNUEzZlpJdk9hSEt0T21fVnRlb2R6SjdzR2lYNHl0eXhubDFydGowLS10WHJzVTl1cFpTalFLWm43aDNfY01FeFJiZzJYRV9SYW8xMklfWEVYUkHSAbABQVVfeXFMTS1IbWszZ0FoTlF3WmFHX0sxMzFzUnNZcDItc2J2MkVxWXMxaUgwUnkydi1oTHNQc2ROWFN2UXpqTkREaTdmVXpOSkFqVC0yZXI1cTZiLTM2WUtHQVNkS2VfRll5RGRPVDRveThWNDhVTUs0TGVxdVNwODhoSlQ1UllOY2N3dk1rd3hBSEtSdjdWVXhyLWc4UUFEenFObVNMcmhlbmZVUDJ4SDBmQkhEbnE?oc=5": {
+      "actor": "Pam Bondi",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is a headline about a news segment in which Bondi is 'grilled' (questioned) regarding allegations about Epstein files and targeting of Trump's political opponents. The headline describes press coverage of questioning about alleged conduct, not evidence that politicized prosecution actually occurred. The item provides no factual details, no confirmed actions, no court documents, and no evidence of criminal enforcement being selectively deployed. It is a report of a news interview/grilling, which is commentary or allegation, not documentation of an accomplished prosecutorial act. Without specifics on what targeting occurred, what charges were brought, or what official action was taken, this cannot establish that the signal event (criminal enforcement used to selectively target opposition) actually happened. Severity remains at the baseline.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/67935987/1692/united-states-v-brown/": {
       "actor": "U.S. Government (prosecution)",
       "confidence": 0.95,
