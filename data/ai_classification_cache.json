@@ -94,6 +94,16 @@
     }
   },
   "election_administration_capture": {
+    "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZdDdMQW5GM21ra3hOcllwUm1uVlNOSUtrSmhya2JTMU13d2c5TF9SdGdPMVJ2ZUUtZXU2cThWSExYQldNSGtlZWF6bnJxSzlaU21Dc3VyZUhubmJ6dDFWTFRfcw?oc=5": {
+      "actor": "Trump, Republicans",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Opinion/analysis piece alleging planned actions is not evidence that an event occurred. Allegations of future plotting are hypothesis, not confirmation of actual capture or partisan control of election administration. No verifiable action documented.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Zc0NuUFg3T0xsb080WEJCWkFFYW5HYkVBdkJHQjdpS0tnX2xMczA2eS1nNS1iQkswajFSVFVIa2hwU2E0ZnhZVnhyX1haRTBCSU1rdVhDYko2MlpRSVpOblpEQnhyX29zUGhv?oc=5": {
       "actor": "House Democratic member; Postmaster General",
       "confidence": 0.8,
@@ -114,6 +124,16 @@
       "rationale": "This is a routine pre-election informational article about what to expect on a primary election day. It contains no information about partisan capture, politicization, or election administration being moved to partisan control. It is standard election logistics reporting.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVjY5ZXBYOGdvQ3NkLTVHUXFjdm5CbUprWTJwMHFtM3QwRGZ5ZXBsajhyM2t4VmhkeGlfYVZzQVVOTUcwTW5vWDRwNmtzZHc2ZUV1WWo2bUl3WmN5QnBDODlkbnVNRm5vcUpUSVExNFNGRld0a2pnYXV0Uk81NjF2RdIBhgFBVV95cUxNWjA2WHMwYnZreHZxZUVNQThGWEdSb3BnOEIxWXNuTV9qU0c4NW5pSE1TMGNTd3VOVmh3eVRqVjZva3Bxem83YWQ5c0JYS2MwQkhxbGl0dFBudlJ6dDFTX0IxdXB1bDdOZF8zSVA2REZjWDB4MERwX1p1WENXRnFUR0d4WWJVUQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Election results coverage is routine news reporting of a normal election administration process. No evidence of capture, partisanization, or deviation from neutral process.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0pMUHB4Z1Z0SF82c0V0NDVuemRoUEM3ZVNKeWUxdXppTzV1U0pHWlNjN3R3T1BqNUdTTjB1akUzZnR2ajFIZDlOLWg3WGp1M3lTbm45N0cza0RVZlZSMzZIYWxkU2N2RUJwQWhsbnlxR0tkWjVBek9WOGtGanFCN3ZmRkptbEZXSi1uTDVvNDBwalBENzVqNGhzTTlxdw?oc=5": {
       "actor": "Georgia State Election Board",
       "confidence": 0.15,
@@ -122,6 +142,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "The headline and summary are vague and non-specific. Without substantive detail about what 'tests limits' means or what action was taken, this cannot be reliably assessed as evidence of election administration capture or partisan control. The item provides no confirmation that an actual event of constitutional significance occurred\u2014it may refer to routine testing, procedural exercises, or forward-looking concerns rather than a verifiable action that moved election administration toward partisan control. Conservative analysis requires concrete evidence of a real occurrence, not a generic headline.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZzEyT1BrQ3ZmWG8xRmZGTkp2Z3NCUmxGbFQwYmt5dlUxVFZzbHNKX1dCUWctNXdRVV9nLVlSZ2pRUFRseXBCalFvV2FFcU1TMFZUa1IxbWpUb0x1bk04WUluQzZZNG16ZHZUY0xaeVJwanZsYjZYOFpmUlFUY2ZObFY5TE4xLUpFUFoxWGN2b1Izcjc5VXBwakdUVFFITENh?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Election guide providing voter information is standard election administration communication. No evidence of partisan control or capture of the administration process.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5": {
@@ -177,6 +207,16 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/07/31/2026-15658/continuation-of-the-national-emergency-with-respect-to-lebanon",
       "rationale": "This is a routine continuation of a foreign-affairs national emergency declaration concerning Lebanon. Foreign emergency declarations, while formally invoking emergency powers, are not evidence of domestic constitutional stress or bypass of ordinary legislative process for internal U.S. governance. Such declarations are a standard statutory procedure (50 U.S.C. \u00a7 1622) and do not constitute abuse of emergency authority in the domestic constitutional context the signal addresses.",
       "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/05/2026-16015/continuation-of-the-national-emergency-with-respect-to-the-advancement-by-countries-of-concern-in": {
+      "actor": "President of the United States",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": false,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/05/2026-16015/continuation-of-the-national-emergency-with-respect-to-the-advancement-by-countries-of-concern-in",
+      "rationale": "This is an official Federal Register document recording a presidential continuation of a declared national emergency. The continuation of an emergency declaration is a real action that invokes emergency authorities under the National Emergencies Act, allowing the executive to bypass ordinary legislative process for specified powers. However, this appears to be a routine renewal of an existing emergency rather than a new expansion, and concerns a foreign-relations matter (technology advancement by foreign countries of concern) rather than domestic constitutional processes. The action is lawful under statutory authority and represents contained use of delegated emergency power rather than structural constitutional failure or defiance of courts/legislature.",
+      "severity": 2
     }
   },
   "independent_agency_capture": {
@@ -208,6 +248,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item provides no substantive details about specific rulings, their content, or how they affect independent regulatory decision-making. The headline merely announces that Supreme Court rulings 'expand presidential power' but does not describe any actual weakening of independent agency safeguards. Without specific information about which rulings, what they entail, or whether they demonstrably compromised regulatory independence, this cannot be treated as evidence of independent agency capture. The summary is too generic and lacks the factual content needed to assess whether a real constitutional stress occurred.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcmNTT3RCeFNEMFFFV21Jem90S2NmcXd0RXc1SHlCSmR5dUwyaXFuVkNNaHhfSl9sUXMyWV9GRmF2ZzhBY0xOUDI2YzdULTJ6eEtXNXdKNFlIRkxPU1lSNkJOR193WlFwLXoxMmQyMFMxZm5sX3JaR0djWUFUX0o4OExFQQ?oc=5": {
+      "actor": "Supreme Court (hypothetical)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.jdsupra.com",
+      "rationale": "This item references a hypothetical Supreme Court case 'Trump v. Slaughter' with a future date (2026-08-04). No such case has actually been decided. The summary provides no substantive details about the holding or any real action taken. This appears to be either a speculative/predictive article or a placeholder title without confirmation of an actual event. Without evidence of a real Supreme Court opinion issued and its actual legal holding, this cannot be counted as evidence of agency capture or independent agency weakening. The item does not confirm that any constitutional-stress event has verifiably occurred.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmpXMjN1MVBQMHhfOUhTQjdCQXUwMXVxSmZaVFJ6anp1aXFLOU9UTi1VUkhpQnNNRGQ2UlBBMGNJTGc2OXB5Rm5Zd0luRC15dThQZ1NGWHNNMi1wbkQxN2ZVajdYWkJyUjBPa3Y5WnpVSHYtVnBNaWVSR2pKTUl6RE12MldjSUdhNTJsOA?oc=5": {
@@ -374,6 +424,16 @@
     }
   },
   "judge_intimidation_campaign": {
+    "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcGFESXFVWUl6cEdaLU9JOHd1YkU0U0pjMmlYNDJZa2F4NFZKcGJtVU1BcEJYd1pGRFhNeVNCMVhGQVQxZFV2RkxBenRuNHU0My1qM2lBYVYxcktSR1JLMVNZUUZ0RUh6SGIwTHhrUDhWd2JKWkhLRl9VTEdlaU9hVDk3Z19UMUNGN3B6clFuMFhpV080OXpOSEdEMlROM0Y5OFVBTEJkUmFUanpSYVhIWEFrb0JkRUNkVzdYeU92YkdhcXdGYXZMOVJLbWM1VDlrTnVrNy1hV0Q1WmhsaEJfYnM0T0xvUExtR1F4bzNqMFJsMG9HblBSYXN30gH_AUFVX3lxTE5ZNklaZGI4WlV2Q3hGMy1rWkVzTzRPamlnNGo4RnhfRFJxeVhZbk5lRFZ5SkhIR3RkWklLTjJ0VjloNWNJODNkZjhDVnJOLTlYZEtVLW1ZUEM2cHdqUHprc1Vlb1JDek5XVWQyeWxIRjNTZTgzMzRxZURyeFNRS0NFRHJ4dFRrOThuZ3hJMG12SkxlZ2pFRDRKMjR0MVozT1cyRFk4Smx1WVhVTEcyMVA2NU9QUFROMkdWYUQwMWEyb2JEejV4Q2l6Qml1bmdwNHVwRnM2dTFoRF9FeWJyVENJSkdqZVhLeTRCMnVraEk4bDhSWDY0MjlHellSUUd3bw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://timesofindia.indiatimes.com",
+      "rationale": "This item reports court rulings finding that an administration violated rights\u2014a normal function of judicial review. It does not describe any official campaign, pressure, or punishment directed at judges for their adverse rulings. The headline describes the outcome (courts ruling against an administration), not judge intimidation. No sustained pressure on judges, threats to remove judges, or punitive action targeting the judiciary for their decisions is alleged. This is standard adversarial litigation outcomes, not evidence of a judge-intimidation campaign.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYWphSmNHWGM4SzZ0M0wyX0Zfc1ZkN1JMdUd1VGk0R1lkekFSODhxeERSTkYxSHVRMlhoOXJIRTg1dktTVXRHLVlDM2ZPV2o2Unh3TDlNbi1KLXNESWd1LXN5bHdqSEcxeHFCUlltUFl2V0dmbVpNOEt3Y0dSZWVveENsZFRGakdqOFVtNDVqSnFJaDk0R3pLN0lYZXViaHIzQ0xBR2x6Y3NWSzZfOFMyZ1RodkFJTWVPV1VGWXBtdzJ3cFRodk53SlQ2SFIzQWdKU2ZrWWdicHc4OHpQ?oc=5": {
       "actor": "N/A",
       "confidence": 0.95,
@@ -623,9 +683,29 @@
       "primary_source_url": "https://www.courtlistener.com/docket/73667461/1/electronic-privacy-information-center-v-mullin/",
       "rationale": "This is a civil complaint filed in federal court concerning privacy issues, likely related to CBP/ICE data practices. The filing of a lawsuit is a legal action, not evidence of military use in domestic political conflict. The complaint itself does not allege or describe use or threatened use of military in partisan political disputes. No military involvement is indicated in the available summary. This is a routine civil litigation matter unrelated to the constitutional stress signal being evaluated.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73715297/1/alford-v-united-states/": {
+      "actor": "CAROL O'NEAL KICINSKI, JOSHUA YOUNGERMAN, WILLIAM COTTON, DEREK KINNISON, KATHERINE MORRISON, TUCKER ANDREW WESTON, GINA BISIGNANO, MATTHEW MARTIN, RUSSELL ALFORD, JOSHUA RYAN DALE, et al.",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73715297/1/alford-v-united-states/",
+      "rationale": "This is a civil complaint filed against the United States in District Court. The docket entry shows only that a complaint was filed with a jury demand and lists the filing fee receipt. No substantive facts about the complaint are provided in the summary, and the filing of a civil lawsuit\u2014even one against the federal government\u2014is a routine legal action, not evidence of military use in domestic political conflict. Without details showing military involvement or political conflict, this is a procedural court filing with no connection to the signal.",
+      "severity": 0
     }
   },
   "opposition_ballot_exclusion": {
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYUVLa21UT2RQc1RqOHktaWlrT0k3ZDNwaWlHY0FIVGQtc21sUTBPVXNGTnUyRkpmVkpGSGc1WlpGY0dCOFZrQjdkdE16QWxqQnRIcVM5alJ3RUNEVkxZbDVGMC10RXlfZHE2SFlzUlUyVWw3RkREVzNPZXRKckl5eE5CeWNOWTRUa05wanVaWXVRNDNfTFlTN0lUd0NWVUV2WWpfRVZ2NVRJSmpxX083Y2NsYXdNS3BzTUdqbzRUNWp0azZ1NDJRVWZuLWN5UjF2d2fSAd8BQVVfeXFMT01PTEUzbWJXR25aOXAwY2w5eV9xcUFFa3BMMWI0YUtDbkFDaTB2YmRoSTdpZHF3LXRVbWxUMmYzMElicS1hT0N0LWdJemlsWkpLYmNpRWJWN240TkJRMlAyM00wTXlWWWJrMmNndHU0U184Mk9SQzctN1hOUFFyYWd2aUtxNnhiRW5yaFpWSldXX0Nnbmtyb0VrdVB1azZCWFgwMTdwSGJVN3cxdnR2UjdyMjRUOVplaXdQV0NVVEo1a19NRWtDMk40a2lScnc2WWR5MFNIT3BYRzduVWt4RQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on Indian electoral politics (Congress vs. BJP in Madhya Pradesh), not U.S. constitutional events. It concerns a by-poll result in India, which is outside the scope of U.S. domestic constitutional-risk assessment. The signal concerns systematic removal of opposition candidates from meaningful U.S. participation; this item is neither U.S. domestic nor evidence of ballot exclusion.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQWxIU2w4aWpEbmNXS1c1V29DaEJ6d2l4WEVEZHdPRF9GZTVKZ29GNTAtVmVwb1JjSF9pMjFYb2VXa2hPNHJ4YVVBdzNFaXpDT3A2Qzk5TjEwUEpRVUNldENGaGJZU1F2aWFxZzlYLTJhN1pnNlQxN2RhQk50VmhtQ0xTM3VnUmQtVVEzV2VjWjFuRndBSzJXTFhnd0pxTjBGTjlpOXl0WEdJZGlkUXhXR2xWZzhMMlNmMGVVNmh2Z2o1eXNEY2locnIxZzdDSnNlcmwwWFVyRnRrLUdjSEHSAeQBQVVfeXFMTzFnUVhpQzhGUW5uT1FDQllnSjdiRUwwdzhTb29sX2FDbEZ5dVc0aG9tdzdFWHZRenNIQU1FUzJRbjFicnpPcDIxYzBYaS1YMWV6cDZhMTg1b1E0MktGaTBBSTdybkdZZEFsdGZXSGdhajh5SUY2allsdTVNRmlGZVc2X0lxZ3hDM1JhMkNJRDhoZ1FvdnU1RGtlTUFtRy1fdi1OTW5KRFE4S0dVQ1dUdjNtMkhfTzRpcnQwZHVta2dMVjZ1S1dPMmYxSWszVFdrT0Exd2k0dEYydmpYRzFPYlF2b2ND?oc=5": {
       "actor": "Indian National Congress",
       "confidence": 0.99,
@@ -799,6 +879,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/73676547/1/brackley-v-united-states/",
       "rationale": "This is a complaint filing against the U.S. Government in federal court. The docket entry shows a civil suit was filed, but the summary does not indicate the nature of the claims, whether they allege politicized prosecution, or whether any such prosecution actually occurred. Filing a complaint is a procedural action, not evidence that the alleged harm occurred. Without substantive details showing selective prosecution of opposition actors, this cannot be assessed as evidence of the signal. The title 'Brackley v. United States' and plaintiff names alone do not indicate politicized prosecution has taken place.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73715297/1/alford-v-united-states/": {
+      "actor": "CAROL O'NEAL KICINSKI, JOSHUA YOUNGERMAN, WILLIAM COTTON, DEREK KINNISON, KATHERINE MORRISON, TUCKER ANDREW WESTON, GINA BISIGNANO, MATTHEW MARTIN, RUSSELL ALFORD, JOSHUA RYAN DALE et al.",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73715297/1/alford-v-united-states/",
+      "rationale": "This is a filed civil complaint against the United States\u2014a lawsuit initiated by plaintiffs. The docket entry itself is merely a procedural notice of filing; it does not describe or establish that any actual instance of politicized prosecution has occurred. The complaint is a document initiating a legal claim, not evidence of a verifiable event. Without access to the complaint's allegations, no substantive judgment about selective prosecution can be made from the docket header alone. Filing a complaint is a request for relief, not proof of the alleged harm.",
+      "severity": 0
     }
   },
   "press_restrictions": {
@@ -900,6 +990,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item describes an incident in India (Assam Assembly), not the United States. The signal specifies state action raising costs or legal risk for independent reporting in the U.S. domestic context. A press restriction event in India, regardless of its severity, is not evidence of constitutional stress to the U.S. press system and falls outside the scope of this dashboard's mandate.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUTQ1WHlDVXhXWFZuNGt5bEhQRWdwRnNIVDRReGpPSm1ZcDFIMnBVVFpWT2h0aUhJM01oWUZDYUNsZFFocFFaV0pnSXRPZ3IzLW1xMmZvN0lEbjdNcERJTS03TWkwWDYzR2JjaXVkd3ZJY3FrRENrVEU3ZlFpN0dRZzNsTnRfNlJBN0t3NGdSZ2JxMi02QlJNenZqSVI0TEE4SmJoRV9YOXFZUXBjQjBuTk1LZGRSdW9SSzZqanR3NA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on alleged press restrictions in Pakistan, not the United States. The signal is defined as \"State action that raises costs or legal risk for independent reporting\" in a U.S. constitutional-risk context. Coverage of foreign press crackdowns, regardless of severity or credibility, does not constitute evidence of constitutional stress in the United States. Additionally, the item is dated 2026-08-05, which is a future date and therefore not a real occurrence.",
       "severity": 0
     }
   },

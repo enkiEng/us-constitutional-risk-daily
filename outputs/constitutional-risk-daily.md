@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-04 14:42:43 UTC
+- Generated: 2026-08-05 14:37:10 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **14 / 100** (Baseline Institutional Noise)
-- Previous day delta: **+3.0**
-- Delta vs 7-day average: **+3.9**
+- Score: **12 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-2.0**
+- Delta vs 7-day average: **+0.9**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,9 +15,9 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 1.00 | 5.50 |
+| Elections and Transfer of Power | 22 | 0.65 | 3.57 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
-| Opposition Rights and Political Pluralism | 14 | 0.65 | 2.27 |
+| Opposition Rights and Political Pluralism | 14 | 0.43 | 1.52 |
 | Executive Constraints and Emergency Powers | 13 | 0.00 | 0.00 |
 | Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
 | Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
@@ -28,17 +28,13 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Election Administration Capture | elections_transfer | 2.00 (Yellow) | ai | 1 | 4 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 3 | 0 |
 | Security Sector Loyalty Tests | security_sector_neutrality | 2.00 (Yellow) | ai | 1 | 0 |
 | Legislative Oversight Obstruction | federalism_oversight | 2.00 (Yellow) | ai | 1 | 0 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.65 (Watch) | ai | 0 | 1 |
+| Election Administration Capture | elections_transfer | 1.65 (Watch) | ai | 0 | 4 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.30 (Watch) | ai | 0 | 1 |
 
 ## Evidence Samples
-
-### Election Administration Capture
-- Assessment: This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred—a raid of an election office—allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.
-- [ABC News - Breaking News, Latest News and Videos] Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos (2026-08-03) - https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5
 
 ### Civil Service Purge / Schedule F
 - Assessment: OPM has issued a final rule modifying RIF regulations to prioritize performance over tenure and length of service. This is a real, published regulatory action that materially changes federal personnel protections by reducing seniority-based safeguards. While presented as merit-based efficiency, the shift from tenure-protective RIF procedures to performance-based retention creates a concrete mechanism for politicizing career civil service. This is a contained but credible stress signal—a structural change to established civil-service protections, not a mass purge event or emergency action.
@@ -54,17 +50,24 @@
 - Assessment: An official motion to quash third-party subpoenas filed by the Executive Office of the President represents a verifiable action to obstruct legislative fact-finding. The filing of a motion to quash subpoenas is a concrete legal action aimed at preventing disclosure of information to Congress or its agents. This constitutes a real occurrence of obstruction of legislative oversight, though the motion itself is a procedural challenge rather than an outright defiance of a court order or systematic campaign. The severity is 2 (repeated or credible stress signal—a real but contained action) rather than 3, because this is a single motion through the normal judicial process, not an open defiance or structural campaign to prevent oversight.
 - [courtlistener.com] **[official record]** IN RE SUBPOENAS ON BORIS EPSHTEYN (2026-07-02) - https://www.courtlistener.com/docket/73690657/2/in-re-subpoenas-on-boris-epshteyn/
 
+### Election Administration Capture
+- [pbs.org] Live Results: Kansas midterm primaries - pbs.org (2026-08-04) - https://news.google.com/rss/articles/CBMigAFBVV95cUxPVjY5ZXBYOGdvQ3NkLTVHUXFjdm5CbUprWTJwMHFtM3QwRGZ5ZXBsajhyM2t4VmhkeGlfYVZzQVVOTUcwTW5vWDRwNmtzZHc2ZUV1WWo2bUl3WmN5QnBDODlkbnVNRm5vcUpUSVExNFNGRld0a2pnYXV0Uk81NjF2RdIBhgFBVV95cUxNWjA2WHMwYnZreHZxZUVNQThGWEdSb3BnOEIxWXNuTV9qU0c4NW5pSE1TMGNTd3VOVmh3eVRqVjZva3Bxem83YWQ5c0JYS2MwQkhxbGl0dFBudlJ6dDFTX0IxdXB1bDdOZF8zSVA2REZjWDB4MERwX1p1WENXRnFUR0d4WWJVUQ?oc=5
+- [AJC.com] Georgia State Election Board tests limits ahead of midterms - AJC.com (2026-08-03) - https://news.google.com/rss/articles/CBMingFBVV95cUxNa0pMUHB4Z1Z0SF82c0V0NDVuemRoUEM3ZVNKeWUxdXppTzV1U0pHWlNjN3R3T1BqNUdTTjB1akUzZnR2ajFIZDlOLWg3WGp1M3lTbm45N0cza0RVZlZSMzZIYWxkU2N2RUJwQWhsbnlxR0tkWjVBek9WOGtGanFCN3ZmRkptbEZXSi1uTDVvNDBwalBENzVqNGhzTTlxdw?oc=5
+- [KCTV] ELECTION GUIDE: Here’s what you need to know for the August 4 primary in Missouri - KCTV (2026-08-04) - https://news.google.com/rss/articles/CBMioAFBVV95cUxOZzEyT1BrQ3ZmWG8xRmZGTkp2Z3NCUmxGbFQwYmt5dlUxVFZzbHNKX1dCUWctNXdRVV9nLVlSZ2pRUFRseXBCalFvV2FFcU1TMFZUa1IxbWpUb0x1bk04WUluQzZZNG16ZHZUY0xaeVJwanZsYjZYOFpmUlFUY2ZObFY5TE4xLUpFUFoxWGN2b1Izcjc5VXBwakdUVFFITENh?oc=5
+
 ### Opposition Ballot Exclusion
-- [The Hindu] Day before bypoll result, Congress suspends ex-Datia MLA Rajendra Bharti - The Hindu (2026-08-02) - https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQWxIU2w4aWpEbmNXS1c1V29DaEJ6d2l4WEVEZHdPRF9GZTVKZ29GNTAtVmVwb1JjSF9pMjFYb2VXa2hPNHJ4YVVBdzNFaXpDT3A2Qzk5TjEwUEpRVUNldENGaGJZU1F2aWFxZzlYLTJhN1pnNlQxN2RhQk50VmhtQ0xTM3VnUmQtVVEzV2VjWjFuRndBSzJXTFhnd0pxTjBGTjlpOXl0WEdJZGlkUXhXR2xWZzhMMlNmMGVVNmh2Z2o1eXNEY2locnIxZzdDSnNlcmwwWFVyRnRrLUdjSEHSAeQBQVVfeXFMTzFnUVhpQzhGUW5uT1FDQllnSjdiRUwwdzhTb29sX2FDbEZ5dVc0aG9tdzdFWHZRenNIQU1FUzJRbjFicnpPcDIxYzBYaS1YMWV6cDZhMTg1b1E0MktGaTBBSTdybkdZZEFsdGZXSGdhajh5SUY2allsdTVNRmlGZVc2X0lxZ3hDM1JhMkNJRDhoZ1FvdnU1RGtlTUFtRy1fdi1OTW5KRFE4S0dVQ1dUdjNtMkhfTzRpcnQwZHVta2dMVjZ1S1dPMmYxSWszVFdrT0Exd2k0dEYydmpYRzFPYlF2b2ND?oc=5
+- [The New Indian Express] Congress holds Datia as BJP suffers by-poll setback in Madhya Pradesh - The New Indian Express (2026-08-03) - https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYUVLa21UT2RQc1RqOHktaWlrT0k3ZDNwaWlHY0FIVGQtc21sUTBPVXNGTnUyRkpmVkpGSGc1WlpGY0dCOFZrQjdkdE16QWxqQnRIcVM5alJ3RUNEVkxZbDVGMC10RXlfZHE2SFlzUlUyVWw3RkREVzNPZXRKckl5eE5CeWNOWTRUa05wanVaWXVRNDNfTFlTN0lUd0NWVUV2WWpfRVZ2NVRJSmpxX083Y2NsYXdNS3BzTUdqbzRUNWp0azZ1NDJRVWZuLWN5UjF2d2fSAd8BQVVfeXFMT01PTEUzbWJXR25aOXAwY2w5eV9xcUFFa3BMMWI0YUtDbkFDaTB2YmRoSTdpZHF3LXRVbWxUMmYzMElicS1hT0N0LWdJemlsWkpLYmNpRWJWN240TkJRMlAyM00wTXlWWWJrMmNndHU0U184Mk9SQzctN1hOUFFyYWd2aUtxNnhiRW5yaFpWSldXX0Nnbmtyb0VrdVB1azZCWFgwMTdwSGJVN3cxdnR2UjdyMjRUOVplaXdQV0NVVEo1a19NRWtDMk40a2lScnc2WWR5MFNIT3BYRzduVWt4RQ?oc=5
 
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Primary-source lookups: 20 signals, 14 official documents (Federal Register, CourtListener)
+- Primary-source lookups: 20 signals, 17 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 5
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
+- Fetch errors:
+  - election_certification_interference: courtlistener: The read operation timed out
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.
