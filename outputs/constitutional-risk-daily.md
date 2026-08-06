@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-05 14:37:10 UTC
+- Generated: 2026-08-06 14:38:14 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **12 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-2.0**
-- Delta vs 7-day average: **+0.9**
+- Score: **13 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+1.0**
+- Delta vs 7-day average: **+1.6**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,26 +15,31 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.65 | 3.57 |
-| Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
-| Opposition Rights and Political Pluralism | 14 | 0.43 | 1.52 |
+| Elections and Transfer of Power | 22 | 0.33 | 1.79 |
+| Judicial Independence and Rule of Law | 15 | 1.00 | 3.75 |
+| Opposition Rights and Political Pluralism | 14 | 0.32 | 1.11 |
 | Executive Constraints and Emergency Powers | 13 | 0.00 | 0.00 |
 | Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
 | Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
 | Security Sector Neutrality | 8 | 1.00 | 2.00 |
-| Federalism and Legislative Oversight | 8 | 1.00 | 2.00 |
+| Federalism and Legislative Oversight | 8 | 0.82 | 1.65 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
+| Judge Intimidation Campaign | judiciary_rule_of_law | 2.00 (Yellow) | ai | 1 | 2 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 3 | 0 |
 | Security Sector Loyalty Tests | security_sector_neutrality | 2.00 (Yellow) | ai | 1 | 0 |
-| Legislative Oversight Obstruction | federalism_oversight | 2.00 (Yellow) | ai | 1 | 0 |
-| Election Administration Capture | elections_transfer | 1.65 (Watch) | ai | 0 | 4 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.30 (Watch) | ai | 0 | 1 |
+| Legislative Oversight Obstruction | federalism_oversight | 1.65 (Watch) | keyword | 0 | 0 |
+| Election Administration Capture | elections_transfer | 1.30 (Watch) | ai | 0 | 3 |
+| Opposition Ballot Exclusion | opposition_pluralism | 0.95 (Watch) | keyword | 0 | 0 |
 
 ## Evidence Samples
+
+### Judge Intimidation Campaign
+- Assessment: Article reports that a federal judge (John McConnell) received death threats following a ruling against Trump regarding a funding freeze case. Death threats constitute a form of intimidation directed at a judge for an adverse ruling. However, severity is 2 (repeated/credible but contained signal) rather than 3, as the threats appear to originate from unidentified private actors rather than from an official sustained campaign or official pressure. No evidence is presented that the threats constitute an organized or sustained official intimidation campaign, which would be required for severity 3+.
+- [The Sunday Guardian] Who is Judge John McConnell? Federal Judge Who Received Death Threats After Blocking Trump’s Funding Freeze Case — Daughter, Wife, Net Worth and Ruling Against Trump - The Sunday Guardian (2026-08-05) - https://news.google.com/rss/articles/CBMiqwJBVV95cUxObUlzeUZoTzVsRTVJb0gzTkVmTm5vcDBFVDBLdm43LTYtN1pUU01YY3dWeHRtZURIcFF0SHo4dHpOUFlEd3ZGLUEtTE56OHF1MENQUzdXd1l6R0E0c2Uzc1pjQnZRbWFPWG5zVjVza2dFMzY2azdDSjhTZG1jRjN6NXRUWGROM3FiR214cW41NlFWQmFaX0RzMXZfSC1CX0E3Q1ZQSDZsX0I0QXlXSi1NcnZRS2tZMk1VUXpYZjZ1VU1BalBMZjN3MWZtYlJhZ0duei1yVW9LN01vOXpXdEJBVDB4bzk2S3VSRG5vWi13QXUweWhDTHpPRC1KZDN3Q0p1cHpXWTZVa0k2NFNDRmNOb0hhSE1YdDlqaVFpcGZKTTJmWHlFRGRQTGhhb9IBsAJBVV95cUxOZWZRLS1ZZUZ1RGRvdmsyaXk2M3ZjS2FsUXNzRGRDbTJFeDViRlJya0dKV3dZekgxTFNxVHpLQVg2dEs5cGdMT1pjQUdSODIzbkhYZldSUXN4emVXSGpQblBlREFsWDZDMG54SFR3aU5uejBMdzBoSUV0b0ZQcThmYWFCdGtUMzN4SkZOQXVKMlBMV1RsMFJoTDNIZE4tYldTbkVyNV90MzBCT2kxYy1mZ1pDQWlQdkxhNzJpSVJvS19fNnd2bFFmOEROQW1fRUlBNXpPS2FsdVp5a1JkckpvX3NmZHktS09pT1VZalVKZnpXREUtYUkzUXcyaElUclB1UDF5ckdHNUpGQXJoMEpLTTZkUWtIWmNlTG9DU0g3VEpmUlIxQWxnT01RdERVT3lj?oc=5
 
 ### Civil Service Purge / Schedule F
 - Assessment: OPM has issued a final rule modifying RIF regulations to prioritize performance over tenure and length of service. This is a real, published regulatory action that materially changes federal personnel protections by reducing seniority-based safeguards. While presented as merit-based efficiency, the shift from tenure-protective RIF procedures to performance-based retention creates a concrete mechanism for politicizing career civil service. This is a contained but credible stress signal—a structural change to established civil-service protections, not a mass purge event or emergency action.
@@ -47,16 +52,11 @@
 - [federalregister.gov] **[official record]** Suitability Action Appeals (2026-08-03) - https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals
 
 ### Legislative Oversight Obstruction
-- Assessment: An official motion to quash third-party subpoenas filed by the Executive Office of the President represents a verifiable action to obstruct legislative fact-finding. The filing of a motion to quash subpoenas is a concrete legal action aimed at preventing disclosure of information to Congress or its agents. This constitutes a real occurrence of obstruction of legislative oversight, though the motion itself is a procedural challenge rather than an outright defiance of a court order or systematic campaign. The severity is 2 (repeated or credible stress signal—a real but contained action) rather than 3, because this is a single motion through the normal judicial process, not an open defiance or structural campaign to prevent oversight.
-- [courtlistener.com] **[official record]** IN RE SUBPOENAS ON BORIS EPSHTEYN (2026-07-02) - https://www.courtlistener.com/docket/73690657/2/in-re-subpoenas-on-boris-epshteyn/
-
+- No fresh evidence links in the current lookback window.
 ### Election Administration Capture
-- [pbs.org] Live Results: Kansas midterm primaries - pbs.org (2026-08-04) - https://news.google.com/rss/articles/CBMigAFBVV95cUxPVjY5ZXBYOGdvQ3NkLTVHUXFjdm5CbUprWTJwMHFtM3QwRGZ5ZXBsajhyM2t4VmhkeGlfYVZzQVVOTUcwTW5vWDRwNmtzZHc2ZUV1WWo2bUl3WmN5QnBDODlkbnVNRm5vcUpUSVExNFNGRld0a2pnYXV0Uk81NjF2RdIBhgFBVV95cUxNWjA2WHMwYnZreHZxZUVNQThGWEdSb3BnOEIxWXNuTV9qU0c4NW5pSE1TMGNTd3VOVmh3eVRqVjZva3Bxem83YWQ5c0JYS2MwQkhxbGl0dFBudlJ6dDFTX0IxdXB1bDdOZF8zSVA2REZjWDB4MERwX1p1WENXRnFUR0d4WWJVUQ?oc=5
-- [AJC.com] Georgia State Election Board tests limits ahead of midterms - AJC.com (2026-08-03) - https://news.google.com/rss/articles/CBMingFBVV95cUxNa0pMUHB4Z1Z0SF82c0V0NDVuemRoUEM3ZVNKeWUxdXppTzV1U0pHWlNjN3R3T1BqNUdTTjB1akUzZnR2ajFIZDlOLWg3WGp1M3lTbm45N0cza0RVZlZSMzZIYWxkU2N2RUJwQWhsbnlxR0tkWjVBek9WOGtGanFCN3ZmRkptbEZXSi1uTDVvNDBwalBENzVqNGhzTTlxdw?oc=5
-- [KCTV] ELECTION GUIDE: Here’s what you need to know for the August 4 primary in Missouri - KCTV (2026-08-04) - https://news.google.com/rss/articles/CBMioAFBVV95cUxOZzEyT1BrQ3ZmWG8xRmZGTkp2Z3NCUmxGbFQwYmt5dlUxVFZzbHNKX1dCUWctNXdRVV9nLVlSZ2pRUFRseXBCalFvV2FFcU1TMFZUa1IxbWpUb0x1bk04WUluQzZZNG16ZHZUY0xaeVJwanZsYjZYOFpmUlFUY2ZObFY5TE4xLUpFUFoxWGN2b1Izcjc5VXBwakdUVFFITENh?oc=5
-
-### Opposition Ballot Exclusion
-- [The New Indian Express] Congress holds Datia as BJP suffers by-poll setback in Madhya Pradesh - The New Indian Express (2026-08-03) - https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYUVLa21UT2RQc1RqOHktaWlrT0k3ZDNwaWlHY0FIVGQtc21sUTBPVXNGTnUyRkpmVkpGSGc1WlpGY0dCOFZrQjdkdE16QWxqQnRIcVM5alJ3RUNEVkxZbDVGMC10RXlfZHE2SFlzUlUyVWw3RkREVzNPZXRKckl5eE5CeWNOWTRUa05wanVaWXVRNDNfTFlTN0lUd0NWVUV2WWpfRVZ2NVRJSmpxX083Y2NsYXdNS3BzTUdqbzRUNWp0azZ1NDJRVWZuLWN5UjF2d2fSAd8BQVVfeXFMT01PTEUzbWJXR25aOXAwY2w5eV9xcUFFa3BMMWI0YUtDbkFDaTB2YmRoSTdpZHF3LXRVbWxUMmYzMElicS1hT0N0LWdJemlsWkpLYmNpRWJWN240TkJRMlAyM00wTXlWWWJrMmNndHU0U184Mk9SQzctN1hOUFFyYWd2aUtxNnhiRW5yaFpWSldXX0Nnbmtyb0VrdVB1azZCWFgwMTdwSGJVN3cxdnR2UjdyMjRUOVplaXdQV0NVVEo1a19NRWtDMk40a2lScnc2WWR5MFNIT3BYRzduVWt4RQ?oc=5
+- [carolinajournal.com] Stein criticizes appointment, election law changes - carolinajournal.com (2026-08-04) - https://news.google.com/rss/articles/CBMihwFBVV95cUxPVkdQdFV2dUZUbkhLd2U4eEtWdm1KYmFETWJQNW9iMFBBWDI4dmJMb2pFNG93UWJJV3l6U3JrdGhwZC1iLWduVjdFcVY3eW55UFdwMnBTVkNDdFlZRmNpaWp1QzZqcHZUcV92c0Y2NmZjUEo2dFZfVlVteE5BVXN4bDExb3EzWXM?oc=5
+- [PBS] Live Results: Kansas midterm primaries - PBS (2026-08-04) - https://news.google.com/rss/articles/CBMigAFBVV95cUxPVjY5ZXBYOGdvQ3NkLTVHUXFjdm5CbUprWTJwMHFtM3QwRGZ5ZXBsajhyM2t4VmhkeGlfYVZzQVVOTUcwTW5vWDRwNmtzZHc2ZUV1WWo2bUl3WmN5QnBDODlkbnVNRm5vcUpUSVExNFNGRld0a2pnYXV0Uk81NjF2RdIBhgFBVV95cUxNWjA2WHMwYnZreHZxZUVNQThGWEdSb3BnOEIxWXNuTV9qU0c4NW5pSE1TMGNTd3VOVmh3eVRqVjZva3Bxem83YWQ5c0JYS2MwQkhxbGl0dFBudlJ6dDFTX0IxdXB1bDdOZF8zSVA2REZjWDB4MERwX1p1WENXRnFUR0d4WWJVUQ?oc=5
+- [Zeteo | Substack] Here Are 19 - Yes, 19! - Ways Trump and Republicans Are Plotting to Rig and Steal the Midterm Elections - Zeteo | Substack (2026-08-04) - https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZdDdMQW5GM21ra3hOcllwUm1uVlNOSUtrSmhya2JTMU13d2c5TF9SdGdPMVJ2ZUUtZXU2cThWSExYQldNSGtlZWF6bnJxSzlaU21Dc3VyZUhubmJ6dDFWTFRfcw?oc=5
 
 ## Data Quality
 
@@ -64,10 +64,8 @@
 - Query feeds successful: 22
 - Query feeds failed: 0
 - Primary-source lookups: 20 signals, 17 official documents (Federal Register, CourtListener)
-- Primary-source confirmations: 5
+- Primary-source confirmations: 4
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
-- Fetch errors:
-  - election_certification_interference: courtlistener: The read operation timed out
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.
