@@ -1,22 +1,22 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.22,
+  "average_7d": 12.38,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": 1.57,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": 2.43,
   "domain_breakdown": [
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.2375,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.7875,
+      "points": 1.30625,
       "weight": 22
     },
     {
@@ -27,17 +27,17 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.19999999999999998,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1083333333333334,
+      "points": 0.7,
       "weight": 14
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 1.0,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 0.0,
+      "points": 3.25,
       "weight": 13
     },
     {
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.65,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 1.65,
+      "points": 1.3,
       "weight": 8
     }
   ],
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-06T14:38:14.238805+00:00",
+  "generated_at": "2026-08-07T13:42:13.115071+00:00",
   "methodology_version": 2,
-  "previous_score": 12,
+  "previous_score": 13,
   "primary_sources": {
     "documents_confirmed": 4,
-    "documents_fetched": 17,
+    "documents_fetched": 19,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,9 +86,9 @@
     "signals_queried": 20
   },
   "provisional": false,
-  "score": 13,
-  "score_raw": 12.8,
-  "score_raw_pre_trip_wire": 12.8,
+  "score": 15,
+  "score_raw": 14.81,
+  "score_raw_pre_trip_wire": 14.81,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -115,6 +115,35 @@
       "primary_documents": 0,
       "primary_source_url": "https://www.the-sunday-guardian.com/",
       "rationale": "Article reports that a federal judge (John McConnell) received death threats following a ruling against Trump regarding a funding freeze case. Death threats constitute a form of intimidation directed at a judge for an adverse ruling. However, severity is 2 (repeated/credible but contained signal) rather than 3, as the threats appear to originate from unidentified private actors rather than from an official sustained campaign or official pressure. No evidence is presented that the threats constitute an organized or sustained official intimidation campaign, which would be required for severity 3+.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://www.reuters.com/world/trump-sign-orders-birthright-citizenship-axios-reports-2026-08-06/",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQlBIVEJ3RmxwWHB3RElBYnBYVGdvRjZUUjYzbmJ6UW5wU0E3SlQtV1g3Uk5zQzFlelZMUWo5UExUelBUMnZQY0pibWx1OHBLN1FtTDBJY1Q3WUFXMmNScndrNUtleC1ucVEtdDdMUy1oR2RTeVpaN09heGUtLUk0UFNfT25Lb0swemZNVjQtbHRoLWh3anVQOTF2WGU?oc=5",
+          "published": "2026-08-06T19:50:00+00:00",
+          "publisher": "Reuters",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump signs orders to limit US birthright citizenship, despite Supreme Court ruling - Reuters"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://www.reuters.com",
+      "rationale": "A sitting president has signed executive orders attempting to limit birthright citizenship in direct tension with Supreme Court constitutional interpretation (14th Amendment). This constitutes a real executive action attempting to override or circumvent established constitutional doctrine through unilateral action rather than statutory process. However, severity is 2 rather than 3 because: (1) the action's enforceability is immediately contestable in courts, (2) it has not yet resulted in a confirmed structural breakdown of constitutional authority, and (3) judicial review processes remain available. This is a serious but not yet confirmed constitutional-governance stress.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
@@ -211,7 +240,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -219,37 +248,9 @@
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://www.carolinajournal.com/stein-criticizes-gop-power-shift-election-bills/",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVkdQdFV2dUZUbkhLd2U4eEtWdm1KYmFETWJQNW9iMFBBWDI4dmJMb2pFNG93UWJJV3l6U3JrdGhwZC1iLWduVjdFcVY3eW55UFdwMnBTVkNDdFlZRmNpaWp1QzZqcHZUcV92c0Y2NmZjUEo2dFZfVlVteE5BVXN4bDExb3EzWXM?oc=5",
-          "published": "2026-08-04T22:58:01+00:00",
-          "publisher": "carolinajournal.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Stein criticizes appointment, election law changes - carolinajournal.com"
-        },
-        {
-          "canonical_link": "https://www.pbs.org/newshour/politics/live-results-kansas-midterm-primaries",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVjY5ZXBYOGdvQ3NkLTVHUXFjdm5CbUprWTJwMHFtM3QwRGZ5ZXBsajhyM2t4VmhkeGlfYVZzQVVOTUcwTW5vWDRwNmtzZHc2ZUV1WWo2bUl3WmN5QnBDODlkbnVNRm5vcUpUSVExNFNGRld0a2pnYXV0Uk81NjF2RdIBhgFBVV95cUxNWjA2WHMwYnZreHZxZUVNQThGWEdSb3BnOEIxWXNuTV9qU0c4NW5pSE1TMGNTd3VOVmh3eVRqVjZva3Bxem83YWQ5c0JYS2MwQkhxbGl0dFBudlJ6dDFTX0IxdXB1bDdOZF8zSVA2REZjWDB4MERwX1p1WENXRnFUR0d4WWJVUQ?oc=5",
-          "published": "2026-08-04T19:38:14+00:00",
-          "publisher": "PBS",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Live Results: Kansas midterm primaries - PBS"
-        },
-        {
-          "canonical_link": "https://zeteo.com/p/19-ways-trump-and-republicans-are",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZdDdMQW5GM21ra3hOcllwUm1uVlNOSUtrSmhya2JTMU13d2c5TF9SdGdPMVJ2ZUUtZXU2cThWSExYQldNSGtlZWF6bnJxSzlaU21Dc3VyZUhubmJ6dDFWTFRfcw?oc=5",
-          "published": "2026-08-04T23:45:28+00:00",
-          "publisher": "Zeteo | Substack",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Here Are 19 - Yes, 19! - Ways Trump and Republicans Are Plotting to Rig and Steal the Midterm Elections - Zeteo | Substack"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 3,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -258,7 +259,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -277,8 +278,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],

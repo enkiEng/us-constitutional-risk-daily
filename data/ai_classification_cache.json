@@ -195,6 +195,18 @@
       "severity": 2
     }
   },
+  "election_certification_interference": {
+    "https://www.courtlistener.com/docket/73726674/1/britannica-capital-management-limited-v-topwater-stonefly-fund-llc/": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73726674/1/britannica-capital-management-limited-v-topwater-stonefly-fund-llc/",
+      "rationale": "This is a commercial civil litigation docket entry (Britannica Capital Management Limited v. Topwater Stonefly Fund LLC) involving financial disputes between private entities and individuals. It has no connection whatsoever to election certification, election interference, or constitutional stress signals. The case concerns alleged financial misconduct and contractual disputes, not governmental action regarding election processes or certification.",
+      "severity": 0
+    }
+  },
   "election_delay_or_cancellation": {
     "https://news.google.com/rss/articles/CBMihAFBVV95cUxONHlpVjNHWVA4dWtoY3ZsMUpFZ28tSjgxck9GTHVFaTEyTVBPbXAyY2diNjcxTF81b19nMFFpOTdJclRUejR0cUpxVHhjeE1HUlFXMHhkVTVfNUNOM1VsdEVpWjZ0UnpfenY5Z2NZQWNSdTlHYlZfSno0ckhsX2dVRTBPS2M?oc=5": {
       "actor": "Fiji government",
@@ -208,6 +220,16 @@
     }
   },
   "emergency_powers_expansion": {
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUlQN3lOZGtTT0JXMXg1eWVHa1RhSFpaMlI5VnJlSTNidWJpTGNycEhUYnUza1dxaWU4NFd5aUkxTDgyLV93b0NJbGE4Q0FMZDVQalVOY29FSlNwNTdLcDRfVzVKS1R6UWtzSlQtVU9zMi1GUkJFUkhqZ1pIVzFqckNPbHlna3pudXBjcXlxN0JwcmlSWDhqR0I2ZGplenhLT1U5QUItUUgwM1RXLTkwUw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is about a hypothetical or speculative future scenario (dated 2026-08-06, a future date from the present). It describes a Supreme Court ruling and subsequent customs refunds, which would be normal judicial and executive action within constitutional bounds, not an emergency power bypass. The source is a Kenyan domain (streamlinefeed.co.ke), suggesting it may be non-U.S. or unreliable. There is no evidence this event has actually occurred. Even if true, a court striking down tariffs and requiring refunds represents the judiciary checking executive power, not emergency expansion. This does not match the signal of emergency authorities used to bypass ordinary legislative process.",
+      "severity": 0
+    },
     "https://www.federalregister.gov/documents/2026/07/29/2026-15389/continuation-of-the-national-emergency-with-respect-to-brazil": {
       "actor": "President of the United States",
       "confidence": 0.95,
@@ -328,6 +350,16 @@
       "matches_signal": false,
       "primary_source_url": "Reuters",
       "rationale": "Item is a bare headline with no substantive content describing any actual event. Cannot assess whether any real occurrence of independent agency capture took place. Insufficient information to determine if this is reporting an actual event or merely a topic headline.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxQazBuSV9SNkItQW1TYnQ4UlRTaTlWdW84MzB2eTFSV0YxbmZlUHc0YmtTcE1NTWphUVZBb0dqWVdZMkFaYzFLeEtKOE1qUndfdERtVmtRMmV1blZXMXhJSmI4d2VONXNsNFJWcTJfZE84WU5KZE1melhNMVl0V0hEVEFxTWpzTGJydzVfWUoxdjhlQ25KUUZ1TUl5QW9wb1JKVXByNUZPVQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item provides only a headline and summary with no substantive content, detail, or source. It appears to be either a placeholder, a corrupted entry, or an incomplete news reference. Without any actual reporting, quotes, dates, facts, or links to verify what action (if any) was taken, whether the Court issued a ruling, or what legal safeguards were affected, no verifiable event can be assessed. The dramatic framing ('Quietly Killed') is speculative language that cannot substitute for documented evidence of a real occurrence. No credible evidence of an independent agency capture event is present.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTGlaMDFzYXNBaGRfMFlrNkFvaDJnOEpiZnY5cy1DcklTSlNRVWtxUUhQNzhQVk9qMUw5OUtkOHdaR2FJYUdmak14QlMzeVVEN0J6SDdoUW1nMC1yN2tZU1F0ODRLZlBmZGpPNzVxTmNYRk1YX01hMFZROFl2OGR5Nmh0bDFsQ25NS1YyS0ZKUnY3VFZseDRhYjVVWUZKYXBXc1l4WW0yWUFkaDVOamc?oc=5": {
@@ -460,6 +492,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/73710447/2/united-states-v-yaroch/",
       "rationale": "This is a routine criminal docket entry (affidavit in a complaint case). It documents a law enforcement action against an individual, not retaliation against an Inspector General or watchdog function. The item contains no evidence of retaliatory action against oversight or anti-corruption mechanisms.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73732850/1/doe-v-school-board-of-duval-county-florida/": {
+      "actor": "Jane Doe (plaintiff)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73732850/1/doe-v-school-board-of-duval-county-florida/",
+      "rationale": "This is a routine civil complaint filing in a school board dispute. The docket entry shows a standard procedural filing (complaint with jury demand) in a district court case. There is no indication of retaliation against an Inspector General, watchdog function, anti-corruption monitoring, or any oversight body. This appears to be a private litigation matter unrelated to the Inspector General Retaliation signal. The filing itself is a normal exercise of the civil judicial process, not evidence of constitutional stress or retaliatory action against oversight mechanisms.",
       "severity": 0
     }
   },
@@ -647,6 +689,16 @@
       "primary_source_url": "",
       "rationale": "This is a summary/explainer article about lawsuits and litigation procedures, not evidence of a specific executive bypass of legislative authority. The headline indicates it is educational content about 'how litigation works' rather than documentation of an actual governance action shifting from statute to unilateral executive action. No material signal of legislative bypass is present.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQlBIVEJ3RmxwWHB3RElBYnBYVGdvRjZUUjYzbmJ6UW5wU0E3SlQtV1g3Uk5zQzFlelZMUWo5UExUelBUMnZQY0pibWx1OHBLN1FtTDBJY1Q3WUFXMmNScndrNUtleC1ucVEtdDdMUy1oR2RTeVpaN09heGUtLUk0UFNfT25Lb0swemZNVjQtbHRoLWh3anVQOTF2WGU?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.reuters.com",
+      "rationale": "A sitting president has signed executive orders attempting to limit birthright citizenship in direct tension with Supreme Court constitutional interpretation (14th Amendment). This constitutes a real executive action attempting to override or circumvent established constitutional doctrine through unilateral action rather than statutory process. However, severity is 2 rather than 3 because: (1) the action's enforceability is immediately contestable in courts, (2) it has not yet resulted in a confirmed structural breakdown of constitutional authority, and (3) judicial review processes remain available. This is a serious but not yet confirmed constitutional-governance stress.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORlJpLXk0ejlhcDVqanlwQlVzNExQc1Z4MkxpNGM1R0J5b1BMNmRQTDZjVkJaZ3V3c0EzVjBrLUpPS3YyY3pvZWotc2NPT2RhWThDdXozcHg4QTI1V0pCMUtReWlVNi03LXRnT1NEc1NzOTlRd3BNQkl4ODlKS0M2dzJiYWhfYmZsYjlpN2ktRXpkTGlLbFk0QlZUOWNCN0dnQzMxNnVPemw?oc=5": {
       "actor": "Cepeda, De la Espriella",
@@ -982,6 +1034,16 @@
       "rationale": "Item concerns Jos\u00e9 Rub\u00e9n Zamora in Latin America (Guatemala), not the United States. Outside scope of US constitutional-risk assessment.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUlFzYnRIWGtKdnlxRldnSGEzckM4dXVxRV9WV1M5RTBXV0FGcDJ2c1BaVjdjTW5vRXpYaXE4aFRFZ1V2am9Db3lQS1h1Z0dick11cDlrZ1p5b3A5VWJtQWFoR0dCa0Q2VC0tZDRlNjNUT3RxZWNJTkZLUlVYaDIyYWo5NzhnZDZZeUt3SnAwZnhQRUpwMVEwXy1CUFhwTnFYekdTOFVkdlVuUHc3ZDBzU3hXQWpZREMyZFVwWjNCbHN0ay1COTctckJ5RjlrUXNfRkpKTVgySWlUVEpPcWZtS1hQLWLSAeoBQVVfeXFMUDFhRXhENFZ6ZFoxTi1kc1Q1Y3JCTU5vNGhVRjhlNnc3V09EUVhMTWRrQ1BKb3BuTVJpTXpPZXNaeG1lNnZpeXRmajhVM29aOFpFSFZqSVg2cjhGZUE5M2pqQzVSc2lYX0x4Y2RMNThHZk9EZ3hGVUI2d2pTeDFOVHdWN2tOUVIwOU5FRzBIcDVCU0pUNXBGYjJLVFJqNGhQYl9iRkhXMWV1cGwzVWZJVVdzWWc3aDkzQ2Vrek5vTkpVTmNWX0hlYnFQVlNka2JCNG4xamUxYnJJdmxkczc3YVJCYTlHQ0w3cGFB?oc=5": {
+      "actor": "Pakistan government",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This event occurred in Pakistan, not the United States. The signal applies only to U.S. constitutional stress. Pakistan's media restrictions, even if confirmed and serious, do not constitute evidence of U.S. constitutional risk.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxRE1tX2p3OHRCOFRqV3pBdEZkMUl1em80MzBWSHFYdWpKMzU2Ynl6Q3o2VjJIaU9rWFlEUkJqZEdaODJ5Wk5RVk4tMXhYa1RSZTJWaVNTanpHd1RT?oc=5": {
       "actor": "N/A",
       "confidence": 0.95,
@@ -1010,6 +1072,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This event concerns Kolkata (India), not the United States. The signal requires U.S. domestic press restrictions or retaliation. Even if journalist attacks or restrictions occurred in India, this falls outside the scope of U.S. constitutional-risk monitoring.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPR0JndF9TVXZFSGlldTZTLTFFcmFHT1UyX2FMVzdFVElKQlZzX0o1UktyTmEtNkk5TW9ieXlEQ3d2Rmx2OF9IQmx4Uk1Pdy1tbWJ5WC13cDM5TmJrUW5LeF9nOWpBbDdDSlZSOUxKZW5BTG1XdDZOZ2dMbWJvSjIxYlBCUU9GdXVZNDZJWHZjbkhhcl9zX3VvdzFHcEZQS1hPdHpTUDBtZUNxOXNGMVRlOFcxSTJzbUNhUlVlcjMxR21IWlp3dG5Kc29lWUNPN253dlN3MU1QNG5pWmU1cHhQZzhaNG9iR2NBUUgtZFZXMmp5MWsxVjNyaFVSaXA4V0hxYnlMeU5oX0zSAY4CQVVfeXFMT1lpU1NaNFhUbzNRNHNuMEtxaXdPVGtxR0JlZTlEYXZLVFhYOHdMeF9kRE5ZRDY5YVJqNlp5YVFzVEhGQ09jd2JjaW9jMEFyZi16OWhXemhvY3JQUmdlM1pSZ2pQNGlFU1BWbU4zWktZRUZ3QjBKbnRVZFZVRk5OSUNfdWp1Sy12bUtwSmJhVkwta001LUZONWE1bFJKeWczUnVnejUyYk9ORWcydUhyeW1OUTdiU3RLdlZEY243bDZFUVo1Z1pqWkJqLVNzMVFKQWNqVHpWRXBJTVg4czJPYm41dWdSNmZtSHJ2RnNyVlRfT3dGcjMzQmlNU3RCNzQ4eVZsNms5eC1Xb2c0SXdB?oc=5": {
+      "actor": "",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a generic world news headline with no substantive content provided. It does not describe a specific U.S. event and therefore cannot serve as evidence of U.S. constitutional stress.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMmdMQjMtZ19rT2dKRUZGNUIyX3FIMWZYdWc5cVVMcUNJQlBUZjFZdmR3cjVDR1hIclR3UmJWZnRzNHJ6R25TNzg0RTRoczlHVGhlLTlkVUM0NEZmNHZsOXduOURkalFOMnVTSDhsLUNCWVduWGZvcXlwZ1ZQeHFpMGpJcGVZT2FQLXhzeS1B?oc=5": {
@@ -1092,6 +1164,16 @@
       "rationale": "This item describes an incident in India (Assam Assembly), not the United States. The signal specifies state action raising costs or legal risk for independent reporting in the U.S. domestic context. A press restriction event in India, regardless of its severity, is not evidence of constitutional stress to the U.S. press system and falls outside the scope of this dashboard's mandate.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdU5kLXVHMFgyTzVva0FfQjgxOU1idEREOUVxN3laeUh2MzVqOXMyZlBNU1dEQV9xczlTWXVETUtFY0daSGUtZjRhQ2c2T3pLQnlITE5kMlNIZWpMRE9zc0s1N0RoeExJMkt3Mk03d0s5YnJiN29iN2ZHTExBZzA5azBENnhnZGZsX2NCamN2WWlMUmZpZmdIRkpUbHQwdnBtQ0t3QzFxTQ?oc=5": {
+      "actor": "Pakistan government",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This event occurred in Pakistan, not the United States. The signal applies only to U.S. constitutional stress. Non-U.S. press restrictions, regardless of severity, are not evidence of U.S. constitutional risk.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUnJCVThpNjJQWVBSTml2S2NiTTk4RnBucTZFYmJWRTRHTE5CakpUbVo5c05VaTNrLUVXdXdfX1RwSkswMG5xVFljZXVXb2hoV05vTnEwU3JDcDdDVDZqaWdBNGdXdFFPWkNfdkt6TEcyYzBPMy1pUkNMdHNRSDNwYUNTcXF4NnNhNkd6eWxuY0F5VnNVUG1lZDBkcnVUVVVkRTU3dU4tanZQLVpJTnVyUVc4TURpQnBCSFVETg?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -1120,6 +1202,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item reports on alleged press restrictions in Pakistan, not the United States. The signal is defined as \"State action that raises costs or legal risk for independent reporting\" in a U.S. constitutional-risk context. Coverage of foreign press crackdowns, regardless of severity or credibility, does not constitute evidence of constitutional stress in the United States. Additionally, the item is dated 2026-08-05, which is a future date and therefore not a real occurrence.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcDI0YWQ3WElneXRlQUhJajB3WXFWMnd4bHNfS1hXZmRIaGM4YTJzMHFYMzhEZVlLUWVrSWt1U2lPeUZHOTZGcE5KbHdvTGZNY18wYmsxYi1faC12NjVWbjZGcEJIUUZpbE5KeGF5dm5HcmkwV1hZTDNPdGtOUnM1OW1ZTWoxR1QzYUJvb3g3VF9ZZnRReFc1SXdFNHdFQ3dWV2hfNzFibHIzQ3hRZTQ0Y1RhR0o4V29UU0VDbEJid9IB1AFBVV95cUxOU1lrVWQ0MnBOSlNmX1RtTlpaOWZuNHJFZ1pGSloyTTFtZHBXOTZkT01lbzg5U3dycWhYMXVmeHNHdUlGWW9VQkRodThyVk5mR2pqSGZQSFo3RUgtLVBON2U2MHlwbDBLSExLTkIzSUN6TjZTdlVQNzVHa3lReTh6NnY4Y1M0NWJQbWRyTzhSYlBOM09pTno1T2RrNF82aDc2QlNNdHBqblNkR0RsXzZPenVkNWlXSEJaTUxDT19oclBTQVVxRWNIQ19mZ1ItZTlPM25RTw?oc=5": {
+      "actor": "Nepal government/officials",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This event occurred in Nepal, not the United States. The signal applies only to U.S. constitutional stress. Non-U.S. press restrictions or online harassment campaigns are not evidence of U.S. constitutional risk.",
       "severity": 0
     }
   },
