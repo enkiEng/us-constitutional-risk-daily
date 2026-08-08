@@ -42,6 +42,16 @@
     }
   },
   "court_order_noncompliance": {
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.nytimes.com",
+      "rationale": "This is a headline indicating that litigation has been filed against the Trump Administration. The existence of lawsuits (750+) is not evidence of court-order noncompliance; it merely documents that legal challenges have been initiated. No specific court order or instance of noncompliance is described in the summary. This is a general tracking item, not evidence that any actual noncompliance with a court order occurred.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/67935987/505/united-states-v-bock/": {
       "actor": "Aimee Marie Bock and USCIS (parties)",
       "confidence": 0.98,
@@ -100,6 +110,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/73717059/1/hc-choc-choc-v-warden-california-city-detention-center/",
       "rationale": "This is a docket entry showing that a litigant (Jose Choc Choc) filed a Motion to Enforce a Court's Order against a state detention facility. The filing of such a motion is a normal legal remedy available to parties who believe a court order has not been complied with\u2014it does not itself constitute evidence that noncompliance occurred or that an executive/administrative actor has openly defied a court order. The document is truncated and does not provide the substance of what order was allegedly violated or whether the defendant actually refused compliance. A motion requesting enforcement is a procedural request, not evidence of an accomplished act of noncompliance by government officials. Without confirmation that the warden or state official actually refused to comply (rather than merely being sued for alleged noncompliance), this registers as routine litigation, not a constitutional stress signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73721798/3/tayupanta-llumitasig-v-warden-elizabeth-contract-detention-facility/": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73721798/3/tayupanta-llumitasig-v-warden-elizabeth-contract-detention-facility/",
+      "rationale": "This is a routine habeas corpus petition docket entry in a district court case. It documents the filing and initial processing of a legal petition, not any instance of court-order noncompliance. The text order excerpt shows standard judicial procedural review. No evidence of executive or administrative refusal to comply with a court order is present.",
       "severity": 0
     }
   },
@@ -262,6 +282,36 @@
     }
   },
   "independent_agency_capture": {
+    "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdkZXT2w5X25hbEt0emxsR1d3RHpuVm5JUzBBUzQ4cjZhZUQzdmt3M0hZVl9BQ1JjVHlIYVdUcUxKNTZ0aGtPQzdSMm1kN0taMGhQRExCVzdQa1l2U0lVcnAwcnRQa0tiYkpYM2g4VU94NEs4ZXBhMzdPUkl0aTlJZEVIN1lHLWxGTHctcHdiX0VMWWpENGRrTW5QQmx2cFkwZTZiRENTZ0UzX29GbnBKVjdBb2JtUWxIWEZGSXVzdXdpdG9iSm1GSENRLVdheWE2aTFF?oc=5": {
+      "actor": "Trump/White House",
+      "confidence": 0.6,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.facebook.com",
+      "rationale": "Facebook post reports White House 'considering' firing Cook. This is a secondary social-media report of administrative consideration. While the content mirrors item 0, the source is social media (lower credibility tier) and the action described ('considering') remains preliminary rather than accomplished.",
+      "severity": 1
+    },
+    "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sNWNBdGpGaUZmV0hxdkQyZ2VncUd5dG1zandfMEM5RERMVEJmZDJCTzlmVEFwaVRBVGtnM0p3UElZVW50eEFyUHZab2thVnZuZzVNdnJZc1N1LU1Nd19ZOF93SHc?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.6,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.eciks.org",
+      "rationale": "eciks.org reports Trump renews effort to fire Cook. Similar to other renewal/reinitiation reports. This is a real action but at severity 1: a single repeated attempt to remove an independent official, not yet constituting structural capture or successful coercion.",
+      "severity": 1
+    },
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTE1seTlqc01vSVFuZlZUTDBLNlVuanlRNGlzUlFZdk93dzdjcjNlcVo5OXBMdGFNWWQ1NlMzSzVVTTJaRVRuSE1DVmVSNS1Ed0YzVnFIaE03amlTN0lFaHNvSEpzZE12ZHZ3ZEo4?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.68,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.housingiber.com",
+      "rationale": "HousingWire reports Trump 'revives bid' to fire Cook. A bid or attempt is an action undertaken but not yet successful. The term 'revives' confirms repeated effort. Evidence of real executive action but not yet constituting removal or structural capture.",
+      "severity": 1
+    },
     "https://news.google.com/rss/articles/CBMib0FVX3lxTE5aa2dDMmtKQkE5bUpyXzFYbk9EMWJISDktWTRlNllxU2JrNURZZTMxTmgtaFNDdDl1VV92VkwtYjhoc19tU28wSVN1ZmxfRUdyS2hna3hEZm9wa2dhX09VLThXOTN6T2lWcUg4ZUg1QQ?oc=5": {
       "actor": "Unknown",
       "confidence": 0.9,
@@ -291,6 +341,16 @@
       "primary_source_url": "",
       "rationale": "This item provides no substantive details about specific rulings, their content, or how they affect independent regulatory decision-making. The headline merely announces that Supreme Court rulings 'expand presidential power' but does not describe any actual weakening of independent agency safeguards. Without specific information about which rulings, what they entail, or whether they demonstrably compromised regulatory independence, this cannot be treated as evidence of independent agency capture. The summary is too generic and lacks the factual content needed to assess whether a real constitutional stress occurred.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RV25IbEdVQnByV09Qandic2lsc1F2Y2MwcGN6ZUdldXJNb3pQTEVFRzFrWUNUb2Y4dERXSmtLY2ZaNUkzR21VTmJjV25Jc21ic0dmTVlqVzdoU3BpYWxabjJIaFM5QTc5UXpEc280dEhxY0FiRWc?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.69,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://finance.biggo.com",
+      "rationale": "finance.biggo.com reports Trump 'Renews Bid' to oust Cook following Supreme Court ruling. The explicit context of a prior court ruling makes clear this is renewed pressure despite judicial intervention. Severity 2: confirmed credible action, repeated, targeting independent regulator.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrampubjdZSTVpdTZkZ3lZZVdyaFdjXy0tY05EVnUzTjRVWVdHdjRHSDVVdTh6SnpORUQyd2dQQjN6RG1xTm9MbW1HdGgwWmxtN0ZqaXJoMkZkSEN1MXZYSW9PVWcxWHM2S3FzT2t4dW16MjZDVktGNEsyQQ?oc=5": {
       "actor": "U.S. Senate",
@@ -322,6 +382,36 @@
       "rationale": "This is an opinion piece analyzing the Supreme Court. The title suggests critical analysis/opinion about judicial independence, but provides no evidence of an actual event weakening independent regulatory decision-making. Opinion and analysis do not constitute evidence of event occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRHdtWkRwY3lvWjlCQU8zcjRXNGM1RmRiTEM3RW9pWTFqZHdXMHk4d0hGdUxfVWRHQVNWMTdRMjVfTjVaVFh6U1lwT2w2WGFMM3RGR1o1QXI1ZFVZMVVWMkhZZlZhVHJEYWdNNTVnZnc1czYyQTY0NWc1MWVTdS1XSzNwXzd4dEkxNzI1TUZZTGo?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.71,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.yahoo.com",
+      "rationale": "Yahoo reports Trump 'Restarts Bid' to fire Cook after SCOTUS ruling. A restart following judicial rebuke indicates sustained executive pressure despite legal obstacle. This is credible evidence of recurrent attempts to overcome judicial constraints on removal. Severity 2: repeated and credible stress signal.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbm9wY21QbFV0clM5UmVudEZseDduX2FBSXVkaGZ5dk1IT21xc0pfdTlnNExtR3ZmeHItNUNmYmJzckFVNEVPbVJvTXFtTk1uSGJRMGZwV1d1QlVDdENKZ0pFYzZHajFRdS1aUUxVWkx4bDNibmtiSkxvOHpfUzF2Y3Vpc3VrX00xTklfNmpja2d6TkVyWjVV?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.62,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.realestate.com",
+      "rationale": "RealEstateNews reports Trump 'renews threat' to oust Cook. A threat is a stated intent/action, but falls short of implementation. 'Renew' confirms repetition. This is real communication/threat but remains at the lower severity end (preliminary pressure).",
+      "severity": 1
+    },
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxONHNqeU1MMGlzZUVFZkc5bkhnUE1MZHhKY19UMHVEVlI2WlV3R3VUa1ZucUxqZ2NJUm04Uks0cndDeFRsOWVtdVJKRmNWaEVnX0pxQXgyLW9oSnU1OVREQW5aMkg1MlNqV3JnXzdqd0VVQVFySmVEem5NSWZvMnoyUXhvZWM3MEVxMVhXWTAxcG5tMW5fTFQtVlFB?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.scotusblog.com",
+      "rationale": "Trump informing Cook that he is 'considering' her removal is an actual communication/statement, confirming an intent or consideration. However, 'considering' is not yet an accomplished action\u2014it is a preliminary step. This is a real occurrence but at the weakest end of agency-capture signal: a president signaling intent to remove an independent regulator.",
+      "severity": 1
+    },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT3AzUGFvU21YeEpHQzNtYUlDN1JPblhVUkRlRlp5QjYtbjg5TldJMU9CLW9kaFFlODdVNVZmM0tLVmQ3bEVUdndnWWQ1OWJWazduQWZaVmtFXzRNa3RsdTFVSUJQWWZnQjNwcnhXTGRPOGMyUTRubmF4TG1LTEVya09RUS1NMi1zRkdUM3B2SThmWk43RG90NUNwNnbSAaIBQVVfeXFMTUpWYmxHOGg1cUpvTndTM2VncnQwa3Z5b3VWb2ZldXI1bFJDZDhnYXhTemNmNUxjai1aUFl5Z01JNkh2MnBRN3VGaFFIRHZqbWlzYkxMMFU1RGloYktpeU5IMENtTUIzWnVvNEdOUWVFcDY0Z3N0MlB0YUhrV1ZGYnlSUmh4b3dadDlIbGlESGtsV21yVFhTS0xwSDNsa3l0X3pB?oc=5": {
       "actor": "N/A",
       "confidence": 0.95,
@@ -342,6 +432,16 @@
       "rationale": "Item 1 is from a UAE-based publication (Gulf Today) and addresses global AI regulation in general terms. It is not a U.S. domestic event. The article appears to discuss the need for credible regulation rather than evidence of regulatory capture or weakening of independent agency safeguards. This is opinion/advocacy content rather than reporting a concrete occurrence of constitutional or regulatory stress in the U.S.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxPT2hrRGl5dkZYWFlYYnQwUTFRQS1PeVY2R19zTGNnUG1fSk9DMlFOOF9fZTJSdzMydVRBcGVPUHJ3NkJWWngxSHZoa3piaENiYkx5OTR1VFQtN0ZxR0thOTZIWDY2eTJnOVRJRDFoSWpCazFCTG1PM2FldHg3T0VvOEJaazhSWV95ZjZ1WjA4dkNkaW9ja3FGZGNVa3dRaS1NR0E?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.63,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.newsmax.com",
+      "rationale": "Newsmax reports Trump 'Renews Push' to fire Cook. This is a real action/statement, confirming repeated executive pressure on an independent regulator. However, 'push' and 'renew' remain at the lower end: they indicate effort but not accomplished removal or structural capture. Severity 1.",
+      "severity": 1
+    },
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxNa2NQR19oTDVmZzhTZTVvRjdlaWpON3ZxdE1jamlneGVkTHRTREo3eWVIMEhvc0pkUFhRM3Nvc2FPMFNnUGIxdFFKVXlfeHdTVHRHX3h4cldYanVfU3J6NUJPUzRxN1JCdy1YOWxwNzd2bjdCMFBIWnprQTdWanc0RTBYZUI3bXRpVnhoYWJmUjJMd2pSZ0NIaXdUSEJMUVJwWlVz?oc=5": {
       "actor": "Unknown",
       "confidence": 0.95,
@@ -360,6 +460,26 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item provides only a headline and summary with no substantive content, detail, or source. It appears to be either a placeholder, a corrupted entry, or an incomplete news reference. Without any actual reporting, quotes, dates, facts, or links to verify what action (if any) was taken, whether the Court issued a ruling, or what legal safeguards were affected, no verifiable event can be assessed. The dramatic framing ('Quietly Killed') is speculative language that cannot substitute for documented evidence of a real occurrence. No credible evidence of an independent agency capture event is present.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWQ4clBPeTM1bXp3WjFMSGg2NndqZlZEdm4yUEN3WTZOTGdiNnhFU052d3FVT0x1VHVrQ2hUTEFud1NYblNFZFhqb1YySWRKaE9lQnRVNGl2X1l5aVEwM0REM08wdGZRNXUxbDFGOU1DQzg3THdlSHhaaGhVQ0NEYmpzenIxRFM3TGM4YVNkZy1MdXh2ellGQUJ1bl9tcUVuZVo3Skx3d0pjZ9IBsgFBVV95cUxNaVZOeGFhRzdZRTJad2daWkJnUFRYZEpEWnpxZDNLMXFDaHA0c2Q0MW1pN3Zjc2JPV1JWREpNYWpTeWh2NG9pS1dlX0hONm44elZkWjVPZnpDUEVNb1VhSm9LcU0xMWhjdFp6TXhhVTg1cUtWd1hEMnFjbWhhUGFhQ2N1V1o2VFB5MTVzQkt6ZlNQOV8zVHhlaXhZNzFIS2hMVTYtTmVWTjgwQ080ZWZoaEpB?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.7,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.nbcboston.com",
+      "rationale": "NBC Boston reports Trump administration 'moves ahead with efforts' to fire Cook. 'Moves ahead' indicates active pursuit of removal, not mere consideration. This is a concrete action in response to (or despite) prior judicial intervention. Severity 2: credible report of sustained executive pressure on independent regulator.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOHAyNDYxR2V4c0pxVFV2cFRSYm16MXdwdWpBUDhMb3J5b1VEbzBYWjUzOWlDTDFkNVE3OWMxTFF6Q3AxQmNGZllqTUlOOXZJMXRUd01BV3FRUXBjTHVRLVpTTk5QbTdsYjRPemFUNnpPc0FacnMteTh3dUcxaHdwNmVHdnkzRTdKU2VxQTV4Qy1IVWlyWnItS2c2Y24wd2RmWU9WN3JFbFFBS3Nka2c?oc=5": {
+      "actor": "White House",
+      "confidence": 0.8,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": true,
+      "primary_source_url": "https://www.ibtimes.com",
+      "rationale": "International Business Times, Singapore Edition is a non-U.S. source reporting on U.S. events. Per instructions, non-U.S. events or reporting from international outlets covering U.S. news as foreign coverage are not U.S. domestic signal. Mark as non-domestic and event_occurred=false.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTGlaMDFzYXNBaGRfMFlrNkFvaDJnOEpiZnY5cy1DcklTSlNRVWtxUUhQNzhQVk9qMUw5OUtkOHdaR2FJYUdmak14QlMzeVVEN0J6SDdoUW1nMC1yN2tZU1F0ODRLZlBmZGpPNzVxTmNYRk1YX01hMFZROFl2OGR5Nmh0bDFsQ25NS1YyS0ZKUnY3VFZseDRhYjVVWUZKYXBXc1l4WW0yWUFkaDVOamc?oc=5": {
@@ -402,6 +522,16 @@
       "rationale": "This is a news headline posing a hypothetical question ('Could Congress Be Next?') about potential future congressional action. It reports on past Supreme Court decisions limiting agency authority, not on current weakening of regulatory independence safeguards or independent agency capture. The article discusses judicial review of agencies, not capture or removal of independence protections.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdWN6RTZCU0VESWdHblRkMjYyb0JBajhIcnRTekxrYW1JNEJ0dWlhUkRCQ1JoczJiRjV6WUZVYTlQS2pfMjRxVndYV1JITk1ya2IxVFJlR2tWNU40MTNxTVBFVUVKUlpVclB6UDBpYUNYQ0E5RXpxRmZOOVlzRXBLeE9CTUFVMmlDTjNoYW13S05zZVBURmVNZkMzR0tJbEMxTTd1TGdtTjRCVkV2R0M5UnRhVk9FbDg?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.85,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.law.com",
+      "rationale": "This is legal commentary and analysis ('Uncertainty Looms'). It is opinion/analysis about what the Supreme Court ruling means, not a report of an accomplished action weakening safeguards. Not evidence of an event occurring.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYUNmUWRxOHh5c2p0QzBsVHZERWZncjVkSDkydWFmbDJDVGZyQy1OV0Z1UFMzUDVPdXNkM0VTczNvcm9YNjZqbEdLZUd3eFpRU1pXWVdoWHZVWEFmRHFON3o3bktOQXNjczR5RndqWXZsM3oxcVBWeXpsN1FKeWQyc2Z0REZoY0dTa3c2TWtQenVVaU0tTS1YY0k2cW54Zks0SEd3TWg5WmtreXlab3dYOGh6cEFSUGc?oc=5": {
       "actor": "N/A",
       "confidence": 0.8,
@@ -411,6 +541,16 @@
       "primary_source_url": "",
       "rationale": "Title suggests discussion of NRC independence loss. However, the summary provides only a title with no factual content describing what actually occurred. Without verifiable reporting of a specific action that weakened independent safeguards, this cannot be confirmed as evidence of event occurrence. This may be analysis or opinion rather than factual reporting.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMHV6QkY1anVqMi1FVnVua1ZldlVkbHJROERfUFItOF8tOG9KT3cxOEJadlJ5emhRZHRHaGtPWlNOUXZ0Rm5uLTdpNjlTR3k2TFFhQkw1c0UyTVNtd2FfVE9laXRNZHhkRk55NkVJTEZfeUdBSk5RT0drcTZpSFZBZU9ZZlRwcnFRdUlVTURIQVRobHlVeDVoLUtWeGUzTlNPSzlEcTRuRDRKSmVyeFlGRGRQa0RTLTZ2?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.washingtonpost.com",
+      "rationale": "Washington Post reports Trump 'renews effort' to fire Cook after a Supreme Court ruling blocked an earlier attempt. This indicates a sustained, recurring action following judicial rebuke. A president actively pursuing removal of an independent agency official after a court order against a prior removal attempt is concrete evidence of pressure on agency independence. Severity 2: repeated and credible stress signal.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNzZwZHkzQ1dtT3Vici1KUy0xUS1NOHoyRFRsNXpGZnpZeUNabGZsekpCbDJheG5tcXctVDRIVHhjak9iMFlVSDl6ZkRJazJIZHU0THpzMGU5SEppS045NXl1Tno1ZWczMWtUcEhTaFhiWFFXNDdfX29OOEFhQkVCblRyeWx6V2FuUmtJWUNDRUM3cWJCc2Q3YTBHNE5YU2dfOFR3b3RZTUlNeFpVbzM2d3BRZGhMcFBN?oc=5": {
       "actor": "N/A",
@@ -434,6 +574,26 @@
     }
   },
   "inspector_general_retaliation": {
+    "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcVNLWW1JSDlhWjhpTWI5YTM4UnBWdTlGX2F0ampzcTNMNVd4b2REajhyZDBCQjd1Uy1lemFDOGQ0ODFteEhNd08zeklqcWtFWW82bm1CZHhjWm1LMmVwbUU1S2ZveVhKWUYzWkNfV0ZnU2ZjY2dudjBsVC1fUXBJc1ZmYnhyZmc5TnpNUDJQNEp1VXdNNFE2bWJZN0lGUldLQUpaNGlrODZqWUVtRWtfVTd1S1pua1VZZE5wdUtyaC1YZDRXOTdZYmhQY0M3TE9MNW94ZnlUQ3l5QQ?oc=5": {
+      "actor": "Trump administration (Interior Department)",
+      "confidence": 0.65,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://centerforwesternpriorities.org",
+      "rationale": "The headline alleges (1) record destruction and (2) installation of a Project 2025 author in the Interior IG office. These are serious allegations that, if verified, would match the retaliation signal. However, the summary contains only an allegation ('allegedly shreds records') with no confirmation of actual occurrence, no official record, and no independent verification. The Center for Western Priorities is a policy advocacy organization, not an official record. This is a weak, unconfirmed signal\u2014an allegation requiring substantiation before elevation to higher severity. Treated conservatively as allegation, not verified event.",
+      "severity": 1
+    },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc3VmdGpDZkNJczRJWmxHNTZYbVRBVEVGVUJEMGlVbDZsckxEcV9GUlZPd2hndXpSRWpZcXJDejJfT2hnby1Bb1dOZjFCTFFibTFxQ0k5Zk5NRmtCVkdBNUJxYThSRmVDLXVEcTJweWFvNmpTYjBqQVpRSUplQ0ZLYW4wZkxMUldXTjU1blQyTjEtRVJrS1JGYncwVjlObk1oUUN2cDgzcDJ4TjRNWXBIYUNsLVNCeXFFSW5JMzdNdW00YzRfV1E?oc=5": {
+      "actor": "U.S. Senate",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://govexec.com",
+      "rationale": "Confirmation of oversight and federal workforce nominees by the Senate is a routine constitutional process. No summary details are provided, but the headline describes normal confirmations, not retaliation against watchdog functions. Confirmations themselves are not evidence of IG retaliation unless the summary indicated nominees were positioned to undermine oversight\u2014which is not stated here.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/73667914/1/longoria-v-of-america/": {
       "actor": "Unknown (filed complaint)",
       "confidence": 0.95,
@@ -503,6 +663,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/73732850/1/doe-v-school-board-of-duval-county-florida/",
       "rationale": "This is a routine civil complaint filing in a school board dispute. The docket entry shows a standard procedural filing (complaint with jury demand) in a district court case. There is no indication of retaliation against an Inspector General, watchdog function, anti-corruption monitoring, or any oversight body. This appears to be a private litigation matter unrelated to the Inspector General Retaliation signal. The filing itself is a normal exercise of the civil judicial process, not evidence of constitutional stress or retaliatory action against oversight mechanisms.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73734036/1/rosenzweig-v-blanche/": {
+      "actor": "Unknown (case caption unclear)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73734036/1/rosenzweig-v-blanche/",
+      "rationale": "This is a routine civil case filing (docket entry) with no information in the summary indicating the case concerns retaliation against an Inspector General, watchdog function, or anti-corruption monitoring. The filing itself is procedurally normal and provides no evidence of a constitutional-stress event. Without substantive details about the complaint's allegations, this cannot be treated as evidence of IG retaliation.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -544,6 +714,16 @@
       "matches_signal": false,
       "primary_source_url": "Punch Newspapers",
       "rationale": "This headline announces an ABA condemnation but provides no substantive detail about what specific events triggered the condemnation, what country is involved, or whether any actual intimidation campaign occurred. Without the full article, this is only a headline indicating concern or criticism, not verifiable evidence of a sustained intimidation campaign.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item is a general news tracker about litigation against the Trump Administration. It reports on the existence and number of lawsuits filed against an executive branch, which is a normal constitutional process, not evidence of judge intimidation. Judge intimidation would require sustained official pressure to punish judges for adverse rulings. The mere fact of being sued frequently does not constitute intimidation of judges, nor does it indicate official pressure to punish jurists for their decisions. This is routine administrative/legal activity, not a constitutional-stress signal.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikAFBVV95cUxObWtLaE0wMzk4YkJCaXU5emxHOC02OWJUc1dld3c5OTJyMVd2QW9USm9TeHA4eGkwMmI4Zks2NHZrSEFaRS1nNlBOczF2WjVPWHdZeVd2VGhjcC1zcUo1c3VwTFhZeTFEVW9jUlV6ckZtOWVwMXloeHNHT2tlLTlSWWhxVGF1OUZWUWh2TVphb18?oc=5": {
@@ -630,6 +810,16 @@
       "rationale": "The Trump administration filed a request with the Supreme Court seeking approval for an executive order restricting mail-in voting for midterm elections. This represents an attempt to implement major electoral restrictions through executive action rather than legislation, which is a credible signal of legislative bypass. However, the action is a petition request (not yet approved or implemented), and it was apparently blocked by an appeals court per item [2], limiting its current severity. This is a real, confirmed action by an official entity attempting executive overreach on electoral matters.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE5jRkcwaDRyOHNMMnJ4SjB0aC1qb052VGd0elNoVHJOb0ZxQWxiU1VUMXlDbFNMaFJJQjJCUXNPRUJNWlV6RW5EaHI1Ql9EWXdxWFFXemNQWWxmXzg3SkRmdmVUbU1WV2Zsa1BFOVhpZ21aSjgwbGdJ?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.9,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.balleralert.com",
+      "rationale": "Celebrity/entertainment news outlet reporting the same ballroom court ruling. A court has blocked the action, so there is no successful bypass. Severity 0.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4LWl3TVJpcHM2amZ2N3h0OC1VTXJTNTQyLWZrRXMtNXZLZWgwM09qV19aZVI5YnFlb0ppOFF5dEs4WDZjUm5Lc3NhSUdDelVLcFdDVF9SLWFiOF9kcmtScUd0amNxLWNlNWtpZW9najBJX0loTkE?oc=5": {
       "actor": "unknown",
       "confidence": 0.9,
@@ -638,6 +828,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.tippinsights.com",
       "rationale": "This item is described as an analytical article about the presidency and perpetual war. It appears to be opinion/analysis or historical retrospective commentary rather than reporting on a specific verifiable event. No concrete action or bypass is identified. Does not constitute evidence of an actual legislative bypass event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BRG5nODhZM05YWjNXdnM1ZHlHMkR2N1FqNkM0aW9HeEYzNnhaZVJaWEF0ZkhSUHNtZUlvb1R3bFZnb0I5OFhBMFVfRnhvRmdRM2pFejhhSE5VNUxSeTE4NXhTQUdMdVhGT3VaZmRvN2NYb2pIOGFvdEdtM3A?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.joycevance.com",
+      "rationale": "An opinion/analysis podcast episode about what birthright citizenship orders do. This is commentary and analysis, not independent evidence of a new action or event. The underlying action (from item 0) is already captured; this adds no new verifiable occurrence. Severity 0.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Yd3Ztbi1PYUlrUVotZFU5YUJ4ckZMLVpGcmpzX1o5MTRTVlg1NVJyLVgyekN1MUl3dko3TWNPY1pSc2NLTEZHQmlrQmpzcmtHYTlxX3pfbEttQVEtZS0tN25pM2lrMFFvb2g4dE9XaWJySzNISm9oWGlGVXR6dw?oc=5": {
@@ -700,6 +900,16 @@
       "rationale": "A sitting president has signed executive orders attempting to limit birthright citizenship in direct tension with Supreme Court constitutional interpretation (14th Amendment). This constitutes a real executive action attempting to override or circumvent established constitutional doctrine through unilateral action rather than statutory process. However, severity is 2 rather than 3 because: (1) the action's enforceability is immediately contestable in courts, (2) it has not yet resulted in a confirmed structural breakdown of constitutional authority, and (3) judicial review processes remain available. This is a serious but not yet confirmed constitutional-governance stress.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWs0M1ZPbWlUUS00eEI5bGpxdDI5MTl6bDNvODZJdHpTdEdvazZpSVhnbHNOTGFqTjZQTk84Y0tqTGtDUi1ueW1LWGFMTEJCZlMyWHdYdXVmNUV0STdJcVNtbXRYbVNDZVhBNzdfQTgtdnVXUktLQUpVcEtUMmZsUHJpWXNzZExfcEV3VE9Fcy1kUTNPSXNjQnFTdHNIUUpnOVJNZXRHNA?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.legalserviceindia.com",
+      "rationale": "Supreme Court has limited presidential tariff power under IEEPA, confirming that this power remains subject to statutory and constitutional constraints. The case demonstrates that courts are checking executive action, not enabling legislative bypass. However, the summary suggests Trump had attempted tariff action unilaterally; to the extent he proceeded via executive action in tariff matters, this reflects an attempt at bypass, but the Court's limitation of that power means the bypass was not successful. Severity 2: a real attempt to act unilaterally, but checked by court review.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORlJpLXk0ejlhcDVqanlwQlVzNExQc1Z4MkxpNGM1R0J5b1BMNmRQTDZjVkJaZ3V3c0EzVjBrLUpPS3YyY3pvZWotc2NPT2RhWThDdXozcHg4QTI1V0pCMUtReWlVNi03LXRnT1NEc1NzOTlRd3BNQkl4ODlKS0M2dzJiYWhfYmZsYjlpN2ktRXpkTGlLbFk0QlZUOWNCN0dnQzMxNnVPemw?oc=5": {
       "actor": "Cepeda, De la Espriella",
       "confidence": 0.98,
@@ -710,6 +920,36 @@
       "rationale": "This item concerns Colombian politics (a challenge to a Colombian official's legitimacy over US citizenship status). It is not a US domestic event and does not concern US constitutional governance or legislative bypass by US executive action.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUDU1bzJpbzAwRmYzNW1yczd2WUwtaEZuTnEzajFPNnV6eTcxcEpfZEVrY0ozM05SQ2IwS0FlU05ZQUFMRkpJSkVSWTI3MWduZ3N1ek1CTm91Mmc0RkJ6YTJKcjNEbWV2TmU4eHNSSU5nZ0RzUDN5NEFrdlhxUHJPXzQ3SFJKVjU4aFpCdThLVHBtQkM3YUxmWU01UGVxQTBkOW5TSVRDc3U?oc=5": {
+      "actor": "Cepeda, De la Espriella",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.columbiaone.com",
+      "rationale": "Colombian domestic political dispute over citizenship of a Colombian official. Not a U.S. domestic constitutional event. Severity 0.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNHlzQXJNWU1JajhHNUdSNjM0VlpTVzNvcmE3LUFOVm5YNVpESGVyZmFfUTJ2ZjNLc21wSDNBemdHN3FIaktkckZvald5T1JCbm5GQ2J6cHkyNVVkaFJBSXJzUEFOYzdxQk1sNjgxWmhreVBXandVZWwxZjNXNW96bkJybXBzalZmZGwwRTI2VUJ3cHdyWmljLWtXUGZhbllUNmJTYjk4TjJhbUIzcHhXeEhnTzBybWlyankwMHpZTUQ2eDQ?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.88,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.breakingnews.ie",
+      "rationale": "International news outlet reporting the same ballroom ruling as item 1. A court has blocked Trump's attempt; this is not evidence of successful legislative bypass, but rather of judicial enforcement of the requirement for congressional approval. Severity 0.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaHFBOWlIRWtkVmY4Q052bTNtQmF4X3BHZEVqbTBYN2lPeFctS0x5NkR2dnAyNHZNQ0cwNWZQT2VPbmJXcHMzQWdFUFppYlplbEdaOUg4WkZscEMxTGZJc3N5R2E1dFJQN0EyTDFwUk9jQWVRSWVFeFNkd2ZPX05RRFpZUjFFNHBacjdJal9TQWpNbHBiZ0pmUnFrUVoxUmliQVRSWXJwX1RtN0w3NVMtb1FTbDNUOFJXUW0tZVZMWFI3aHhM0gHKAUFVX3lxTE5BLTZROWJBdkx0RTV4UVlwN29yNFV1ZFVOUkxnU3RWLWZJbUF3NkRXTzA3WnBmakxURjhfZzdtclFTWVdkUUJRWldyWnBONXJDekhJR0dKeDBnWFRtX2lHTy10Z3VnOWJQZlFSLUVTaHU3b0d3T0xOTnNFVzRnNklEaXlYZUpIQnVfa0R2Tl9KMXEwSURJVkIxMWZWWWtoeXl3SFc2a3RHU3ZVOUVRS2p1dHhTNVhGWEdRU3EyX3FjSXY0aEJoOTM4TXc?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.pbs.org",
+      "rationale": "An appeals court has ruled against Trump's attempt to build a White House ballroom without congressional approval. This is evidence of a *court blocking* executive action, not of successful legislative bypass. The court upheld the statutory/constitutional requirement for congressional approval, confirming the separation of powers. Not a signal match; severity 0.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdG4xQnZZOHF6UmZ0YUVJWnhLa1JaM1prZUxjS21KNVNhMllLakprUy1hbVRWRnFpeGpleGZqYzI1SU1iR0I1amR1cWpmNkVWWGVzVnQ3V2dLMms0czJGSTdSNUVZc2pBbXRvWGtLUzNlUFh5US0wQXlIMlVocXlJSUlfNmxZLU1qdjZLa2h2azdwUzJoNFN4dWJjaElNa2NhSVpUSV9DMzhoMDVFVk1sc0VoNW5PVHdtNGIxZ1BwZUI2eG9y?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.7,
@@ -718,6 +958,16 @@
       "matches_signal": true,
       "primary_source_url": "The Maine Wire",
       "rationale": "Corroborating report of the same executive petition to revive mail-in voting restrictions. Describes the same administration action as item [0]. The framing of 'revive' suggests a prior order was blocked, which is consistent with item [2]. This is a real, documented attempt at executive action on electoral policy that bypasses legislative process.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLXZrc0s4bkJMdjBJZVhlQk8yT05BVEZiWkYtYXlKV09Db29hTW55M0R2SnJfTEloODE5c0RYUWFnQURBRU5iNVRRMjMzNnFqZExQanhWbkFXcXRfNGZKNUdCdS1UemVPQmxLb1ZFV3lzRFJQbll1dmN4NVpBdDNoQ0toUjVkaTFlbGp4MGRuWm96NWR0TF9sYVNWU3E5dzNnMzdrRXI2NG9aalgxVnBzQjR3UzVWbDFPZDRLczU2eWFsUHN0anBF?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.scotusblog.com",
+      "rationale": "Trump has signed a birthright citizenship order, which attempts to modify citizenship law unilaterally via executive action rather than through statutory amendment. This is a real action (not hypothetical) that shifts a governance matter from legislative to executive domain. However, the action is under legal challenge and its enforceability remains uncertain, preventing severity 3+ assignment. Severity 2 reflects a real but contested executive action in a material policy domain.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxPR1RvSFd0R1d1Q2lkX1paNktJWHREUDBYQUh6aXcyMVI4LVJpX19jMWQ0MlVTdzdKbk1JbzFjaVp5Q252WEpOa1M2NmhTbWFLanc2VDV0VE5tSVhFVktFRENoTXk2a0stNWRiNTFnbmpGUm5LTmZjNHdXLVFrVHFVaTg4d0RhR1NGSFFKVmlzVEFRRjl3bDZKNUZkSkQ3M1BCN3FqRldLM2tLNU1NLW5oS0tROFVneFRvaEQwNThkT3JmRnhiVkNtR2RZaw?oc=5": {
@@ -796,6 +1046,16 @@
       "rationale": "This is an opinion or analytical piece from the Cato Institute posing a speculative question about NORTHCOM CONPLAN 3900 and potential Insurrection Act invocation. The headline is phrased as a question, indicating analysis or concern rather than reporting of an actual occurrence. No verifiable evidence is presented that the military has been used or threatened for use in domestic political conflict, nor that any constitutional breach has taken place. This is commentary on contingency planning, not evidence of real action.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTzh0eFJSUFhVdmpTSGMwS1ZuMndVMVVmVkdoeXVfLWZUZVFEQkY2Q21YWTU4T2FzLWU3R0FCU0dGdjdWcXRjdUJJNzczN0JXN1ZfNU1CajZIVEtrRDdyeFVjc3BWUTZ2Nm9xeWhXeTFncW5pc0VmMzFCSnd3ZXYzcVlzY2l0T1Z5bDRyUlQ3NW82RTZlOWlBZVQyN2tIbVJ4UHNWSnRYa19sYWVCMlhfNWFRajlrc1AwcWFxa21IX1dLTnFnU3c?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.npr.org/",
+      "rationale": "This item concerns Colombia's new president and domestic political/security matters in Colombia, not the United States. It is geographically outside the scope of a U.S. constitutional-risk dashboard. No domestic U.S. military involvement in political conflict is described or implied. Severity 0 for non-U.S. event.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/73667461/1/electronic-privacy-information-center-v-mullin/": {
       "actor": "Electronic Privacy Information Center et al. v. Mullin et al.",
       "confidence": 0.95,
@@ -814,6 +1074,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/73715297/1/alford-v-united-states/",
       "rationale": "This is a civil complaint filed against the United States in District Court. The docket entry shows only that a complaint was filed with a jury demand and lists the filing fee receipt. No substantive facts about the complaint are provided in the summary, and the filing of a civil lawsuit\u2014even one against the federal government\u2014is a routine legal action, not evidence of military use in domestic political conflict. Without details showing military involvement or political conflict, this is a procedural court filing with no connection to the signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73736577/1/amyot-v-united-states/": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73736577/1/amyot-v-united-states/",
+      "rationale": "This is a filed complaint in federal district court. The docket entry shows a civil lawsuit was initiated, but the summary provided does not describe any military use or threat in a domestic political conflict. Without substantive information about the complaint's allegations, and given that a complaint filing is a routine legal action rather than evidence of an actual constitutional event (which would require the complained-of conduct itself to have occurred), this rates as severity 0. The filing of a lawsuit is not itself evidence of the signal event.",
       "severity": 0
     },
     "https://www.federalregister.gov/documents/2026/08/06/2026-16125/establishing-the-presidents-military-spouse-commission": {
@@ -1021,6 +1291,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/73715297/1/alford-v-united-states/",
       "rationale": "This is a filed civil complaint against the United States\u2014a lawsuit initiated by plaintiffs. The docket entry itself is merely a procedural notice of filing; it does not describe or establish that any actual instance of politicized prosecution has occurred. The complaint is a document initiating a legal claim, not evidence of a verifiable event. Without access to the complaint's allegations, no substantive judgment about selective prosecution can be made from the docket header alone. Filing a complaint is a request for relief, not proof of the alleged harm.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73736577/1/amyot-v-united-states/": {
+      "actor": "Unknown plaintiffs (AMYOT v. United States)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73736577/1/amyot-v-united-states/",
+      "rationale": "This is a filed complaint (a legal motion/request) in federal court, not a completed action demonstrating politicized prosecution. A complaint alleging misconduct is not evidence that the misconduct occurred or was prosecuted. The docket entry shows only that a case was filed; it does not confirm any actual prosecutorial action targeting opposition figures, nor does it establish that selective enforcement of criminal law against opposition actors has taken place. Filing a civil complaint against the United States is a routine judicial procedure and does not constitute evidence of the constitutional stress signal (criminal enforcement selectively targeting opposition). Severity remains 0 because no verified action of politicized criminal prosecution is demonstrated.",
+      "severity": 0
     }
   },
   "press_restrictions": {
@@ -1042,6 +1322,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This event occurred in Pakistan, not the United States. The signal applies only to U.S. constitutional stress. Pakistan's media restrictions, even if confirmed and serious, do not constitute evidence of U.S. constitutional risk.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05SmE1aHBIc0U3SXJDOUJ0ZlpySDFjLVdBZnpsX3JMcUFZZkthVjFmMUtMSVhFQmRXRUpjNGp1eTdKQWRHZWdmS9IBTkFVX3lxTE5HSWUyLURnT2gzSDdWc0I5Zmh2dndqd3M5WVF1SGlqZnVMeXNpazZ3THFGQnlHVHMwRVFrSENYN0NERy1fcEk0LVQ4d0lJQQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns foreign press restrictions (not US domestic). The headline refers to watchdogs calling for removal of curbs, which is advocacy/opinion, not evidence of state action raising costs or legal risk for independent reporting in the United States. No US constitutional event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxRE1tX2p3OHRCOFRqV3pBdEZkMUl1em80MzBWSHFYdWpKMzU2Ynl6Q3o2VjJIaU9rWFlEUkJqZEdaODJ5Wk5RVk4tMXhYa1RSZTJWaVNTanpHd1RT?oc=5": {
@@ -1172,6 +1462,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This event occurred in Pakistan, not the United States. The signal applies only to U.S. constitutional stress. Non-U.S. press restrictions, regardless of severity, are not evidence of U.S. constitutional risk.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb3hNZkRXMUVBWGZ1UVVkS3hWa0FaYmpxSnh3Y0ZyWEdwWTNfWnJpZ0tpSFl1TnJrMUx2NlBEWE5iNG1iNHRXTXdJRFB1Mm9ySDJvSHlhQWZOSkdKel93Q2x5NG9icmZ2TFgzaUZ2a2VsNldmTXJpNi1KWGFoT3BuZGJveXh0d29WTk5OYVp0MndfM2FwXzc5VXdTNkREdTJwMG1US1VaUDRzR2VWZGhwdzVyc205Y1E?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports press freedom violations in Pakistan, not the United States. It concerns foreign state action and is geographically outside the scope of US constitutional-risk monitoring. No US domestic event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUnJCVThpNjJQWVBSTml2S2NiTTk4RnBucTZFYmJWRTRHTE5CakpUbVo5c05VaTNrLUVXdXdfX1RwSkswMG5xVFljZXVXb2hoV05vTnEwU3JDcDdDVDZqaWdBNGdXdFFPWkNfdkt6TEcyYzBPMy1pUkNMdHNRSDNwYUNTcXF4NnNhNkd6eWxuY0F5VnNVUG1lZDBkcnVUVVVkRTU3dU4tanZQLVpJTnVyUVc4TURpQnBCSFVETg?oc=5": {
