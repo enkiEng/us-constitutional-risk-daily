@@ -174,6 +174,26 @@
       "rationale": "The item provides only a headline fragment indicating criticism of an appointment and election law changes by someone named Stein. No substantive details are provided about what changes occurred, whether any election administration was actually moved to partisan control, or whether any verifiable action (as opposed to criticism or opinion) took place. Without content details, this cannot be distinguished from commentary, proposal discussion, or opinion. Criticism of policies is not evidence of election administration capture occurring.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLWRSZzhHbmM1MEs0UVg0R1QwaE5BT2szbG5aeUxwVVpSbFdlRS12T0FudTdUamFreG52OWZ6Wk9lSjRvTXJxSU4yWEpiU0VIX0ZYNXRUVk1lZDZFLVdzV3Uzc1lINXpRNi1kV1pmcjdJbzlYemU4X1FWUGVod0k2QnJkWmN2WTho?oc=5": {
+      "actor": "California",
+      "confidence": 0.93,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an explainer about a California ballot proposition concerning recall election procedures. An informational piece about a proposed procedural rule does not constitute evidence that election administration has been moved from neutral process to partisan control. The item describes a policy question, not a verifiable action or capture event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWGwzZm9lQkJRcXI1VXRjOGthTjgxYnlrSnZ6Y2RPUnR2d2I4MWJtWjR2M3d0THE5SmxjZ1VKOVZnN3pWQ29vVVRWSkhDUDZQWmhqXzZZRERTcjJrLVBESDRDblR0bU5YZEtDTmtGVXlmcGtvb2ctbGQySUVsdkNEYzhUbFdyR2Rxa1MzRjRKMW82QQ?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This headline reports Trump criticism of a Federal Reserve governor. The Federal Reserve is not an election administration body. While the item mentions a Supreme Court ruling, the substance describes political criticism/attack, not election administration capture or partisan control of electoral processes. This does not evidence the signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0pMUHB4Z1Z0SF82c0V0NDVuemRoUEM3ZVNKeWUxdXppTzV1U0pHWlNjN3R3T1BqNUdTTjB1akUzZnR2ajFIZDlOLWg3WGp1M3lTbm45N0cza0RVZlZSMzZIYWxkU2N2RUJwQWhsbnlxR0tkWjVBek9WOGtGanFCN3ZmRkptbEZXSi1uTDVvNDBwalBENzVqNGhzTTlxdw?oc=5": {
       "actor": "Georgia State Election Board",
       "confidence": 0.15,
@@ -292,6 +312,26 @@
       "rationale": "Facebook post reports White House 'considering' firing Cook. This is a secondary social-media report of administrative consideration. While the content mirrors item 0, the source is social media (lower credibility tier) and the action described ('considering') remains preliminary rather than accomplished.",
       "severity": 1
     },
+    "https://news.google.com/rss/articles/CBMiR0FVX3lxTE54MnBIWUg3Z2JFSS1OaURVQ1dOX3pRRnluaTlvd2tKWWp3cGEzaHJadUo5YUNPNk5xNGJxUU9EcVgxMk9qVGlV?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://abcnepal.tv",
+      "rationale": "Substantially similar to items 3, 8, and 11: a real renewed effort to remove a Federal Reserve Governor. This represents an action to weaken regulatory independence. Severity 2 reflects that legal safeguards have already blocked a prior attempt; the renewal is a real action but not yet a structural failure of those safeguards.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zRDFUM1pHYU0xXzh0NjhObDB3MFc0dnZXcmRCRURfNzBQdTA2eGtSeXFKNEUwSVZhcTMwcmxLMWVRVjRfN2g0b1hSc1Ewc2RIZ2lTN3l3VHdmeWI0OFNlMA?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://eciks.org",
+      "rationale": "A renewed attempt to remove a Federal Reserve Governor after a court blocked the first effort represents an action to weaken independence of a regulatory agency. However, the summary indicates a court has already blocked a prior attempt, suggesting legal safeguards are functioning. The renewal itself is a real action (not hypothetical), but severity remains 2 (contained, repeated stress) rather than 3 because the court has already intervened and there is no indication the removal succeeded or that the court order was defied.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sNWNBdGpGaUZmV0hxdkQyZ2VncUd5dG1zandfMEM5RERMVEJmZDJCTzlmVEFwaVRBVGtnM0p3UElZVW50eEFyUHZab2thVnZuZzVNdnJZc1N1LU1Nd19ZOF93SHc?oc=5": {
       "actor": "Trump",
       "confidence": 0.6,
@@ -382,6 +422,16 @@
       "rationale": "This is an opinion piece analyzing the Supreme Court. The title suggests critical analysis/opinion about judicial independence, but provides no evidence of an actual event weakening independent regulatory decision-making. Opinion and analysis do not constitute evidence of event occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZ1JrNW4zbVlJcjV2T0dWVTJvNFRGV1ZCMGlHRi1YV2RYZE1CcUlMNjJta2tpaHB3VjBGRHpJMFl1d3p6cUxwWFlSYmh4anZBMkowYTBqVGNtMFVOY2c1bDMyVmZ2T3ZfV1Nwc3luNHVEVS0wYU42OER2bVJBT21CX1VuVGNtN09UUXFrLQ?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.63,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.lavenderhotel.com",
+      "rationale": "Another report of the renewed attempt to remove a Fed Governor. Confirms that a real action is occurring. Severity 2 because the action itself constitutes a stress on agency independence, but legal checks have already functioned and there is no evidence of successful removal or defiance of court orders.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRHdtWkRwY3lvWjlCQU8zcjRXNGM1RmRiTEM3RW9pWTFqZHdXMHk4d0hGdUxfVWRHQVNWMTdRMjVfTjVaVFh6U1lwT2w2WGFMM3RGR1o1QXI1ZFVZMVVWMkhZZlZhVHJEYWdNNTVnZnc1czYyQTY0NWc1MWVTdS1XSzNwXzd4dEkxNzI1TUZZTGo?oc=5": {
       "actor": "Trump",
       "confidence": 0.71,
@@ -390,6 +440,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.yahoo.com",
       "rationale": "Yahoo reports Trump 'Restarts Bid' to fire Cook after SCOTUS ruling. A restart following judicial rebuke indicates sustained executive pressure despite legal obstacle. This is credible evidence of recurrent attempts to overcome judicial constraints on removal. Severity 2: repeated and credible stress signal.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWGwzZm9lQkJRcXI1VXRjOGthTjgxYnlrSnZ6Y2RPUnR2d2I4MWJtWjR2M3d0THE5SmxjZ1VKOVZnN3pWQ29vVVRWSkhDUDZQWmhqXzZZRERTcjJrLVBESDRDblR0bU5YZEtDTmtGVXlmcGtvb2ctbGQySUVsdkNEYzhUbFdyR2Rxa1MzRjRKMW82QQ?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.67,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.newrepublic.com",
+      "rationale": "Report of a renewed attack on a Fed Governor despite a Supreme Court ruling indicates both action and prior judicial check. The fact that the effort continues after judicial intervention is noteworthy; however, the severity remains 2 (real, repeated stress) rather than 3 because there is no indication of open defiance of the court ruling itself, and the outcome remains unclear.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbm9wY21QbFV0clM5UmVudEZseDduX2FBSXVkaGZ5dk1IT21xc0pfdTlnNExtR3ZmeHItNUNmYmJzckFVNEVPbVJvTXFtTk1uSGJRMGZwV1d1QlVDdENKZ0pFYzZHajFRdS1aUUxVWkx4bDNibmtiSkxvOHpfUzF2Y3Vpc3VrX00xTklfNmpja2d6TkVyWjVV?oc=5": {
@@ -461,6 +521,16 @@
       "primary_source_url": "",
       "rationale": "This item provides only a headline and summary with no substantive content, detail, or source. It appears to be either a placeholder, a corrupted entry, or an incomplete news reference. Without any actual reporting, quotes, dates, facts, or links to verify what action (if any) was taken, whether the Court issued a ruling, or what legal safeguards were affected, no verifiable event can be assessed. The dramatic framing ('Quietly Killed') is speculative language that cannot substitute for documented evidence of a real occurrence. No credible evidence of an independent agency capture event is present.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWk1GNEUwb0JMdmhPZ2NxbzZ6WDdfU055LTBNOEhaMVNKbktpY1V4X3Z1d05EQmlDVDhDLWQ1MEVxaE1YR0ZjRzNFcDhoNHlBcGpqaXNhMnJaSXE4NDVaN3lWQkZabDhpYTdkRFBNZDRIaDhkeEJ2RXlibFFkOU5yWUhldERBZ25rR1NST2pGNGhoMWZMQzJwVlNFa0VQOXJJNnZpNW5TQ09QQQ?oc=5": {
+      "actor": "White House/Trump administration",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.gulfcoastnewsandweather.com",
+      "rationale": "Similar to item 3: a renewed attempt to remove a Federal Reserve Governor after a prior court block. This is a real action by the executive to override or circumvent judicial protection of agency independence. Severity 2 because the action itself occurred, but legal safeguards (court intervention) have already been demonstrated and there is no evidence of defiance or success.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWQ4clBPeTM1bXp3WjFMSGg2NndqZlZEdm4yUEN3WTZOTGdiNnhFU052d3FVT0x1VHVrQ2hUTEFud1NYblNFZFhqb1YySWRKaE9lQnRVNGl2X1l5aVEwM0REM08wdGZRNXUxbDFGOU1DQzg3THdlSHhaaGhVQ0NEYmpzenIxRFM3TGM4YVNkZy1MdXh2ellGQUJ1bl9tcUVuZVo3Skx3d0pjZ9IBsgFBVV95cUxNaVZOeGFhRzdZRTJad2daWkJnUFRYZEpEWnpxZDNLMXFDaHA0c2Q0MW1pN3Zjc2JPV1JWREpNYWpTeWh2NG9pS1dlX0hONm44elZkWjVPZnpDUEVNb1VhSm9LcU0xMWhjdFp6TXhhVTg1cUtWd1hEMnFjbWhhUGFhQ2N1V1o2VFB5MTVzQkt6ZlNQOV8zVHhlaXhZNzFIS2hMVTYtTmVWTjgwQ080ZWZoaEpB?oc=5": {
       "actor": "Trump administration",
@@ -800,6 +870,26 @@
     }
   },
   "legislative_bypass_executive": {
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLXdWUk8tdTNaRTdwRXJHQld6R1B6YlBtZTFvX3l4aWVKUWs3Q3lSNi1CS2tEZkZUd1FObnZfRktQV1RnOHRPSG5aUVg5dThVaU5ZZWdud3Q1RmtkZjRsdHk4YkxsWWRTSlA5SGs3cnhoRDJMRHpmNkExUmtGelkwYUZmVllOUS1JOU92cVByV2NoQzNHNTBPaVh6dzhuUVpRenZDZDhtNE5ra0RWcW9NZlRnby1IT05QLUZpZS1qeUN5YlBkNjdIRVFVODRaMDVHS2M5VlN5d9IB3AFBVV95cUxOSTNVdDF0WEV1WnhMSXlLRHRzUnZhSW5HU1FRU21vNHdzUElPOFhzVzV2a2lTbm96eThWVXY3eUJmYTk0bWlCNEQ4ZlFhTElBT0k2ZzhFNmRUUUFGVzl0T1FfazNhcks4X2UzX0ZNYUItNW94TEVBNTY4TFBLaEJTRGZNRVdMcXV3R3pRMXd4LXh1dTJvU3RWVlNhdldPQi1iUjhpUVduRGFPZmNsUHh3RGFva2pRanhoTlN2emtMRmtFT1BYRFZ0Y3pmeTJmamlVRGlsSE90eWFtOXp0?oc=5": {
+      "actor": "US Appeals Court",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.freepressjournal.in",
+      "rationale": "A court blocking an executive project and requiring congressional approval is judicial enforcement of the legislative process, not executive bypass of it. The court is preventing, not facilitating, unilateral executive action. This is normal constitutional constraint on the executive, not evidence of legislative bypass.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZHZZUGxGRU5jU3labUt2UUJPS3FMczdSRGRfSmU5YkR3aXVYcVRkVFNvYTVOYUFHMFA4VUhqMU41dUtCN0RaNmtta1hUcjk3TV9VVWluM1BjZEhWUVdPVGRIRU1FbWplTjU0M1pFOXQtNTNiTndFRGk4cnc1NlF5NWdVaFg1WDVXX1RpUkVfNFE4Z2VXT1g4ZWRUdGlrQ0liekVPS0tQcHF4UGlsbUIwNl9OVFFPaGxSZXUtR0dqaE5fUFBfNC12OFI2MDVaaFZ3c0RNUVBLUQ?oc=5": {
+      "actor": "Appeals Court",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://winnipeg.citynews.ca",
+      "rationale": "The court's ruling that Trump must obtain congressional approval before proceeding is a judicial enforcement of statutory or constitutional requirements, not evidence of legislative bypass. The executive action is being blocked pending congressional authorization, which demonstrates the opposite of bypass\u2014it demonstrates the courts enforcing legislative authority.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOHZfeWItUWw5Rk5BM0ZGQ3o3dWhzSHNzQUEyTFRVVmNRNFhVQWlPM1JobkZhNFZXTnVHNjVVaU5helZhSjJLR0MxMWJfUWNnRHV4ZGt6SEhMbklyNmJPNGI2QkR1NFl6b3pkRXFhb3NDQ0xPcUZYVWFYWGJyaU1LOWlXLXNtaDNLN0pBMF9wejRsSnc5b2gzeGYyTElsdHFrTUEyTEJpM1daQ2ZsdjktdndlVl9rb2h3SUdMc3RGQ2pwY2NOWlRhdUNrdHBxYUcySnJoNHZpSDJVenVz?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.72,
@@ -809,6 +899,16 @@
       "primary_source_url": "facebook.com",
       "rationale": "The Trump administration filed a request with the Supreme Court seeking approval for an executive order restricting mail-in voting for midterm elections. This represents an attempt to implement major electoral restrictions through executive action rather than legislation, which is a credible signal of legislative bypass. However, the action is a petition request (not yet approved or implemented), and it was apparently blocked by an appeals court per item [2], limiting its current severity. This is a real, confirmed action by an official entity attempting executive overreach on electoral matters.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sc0NtT3lLSEl6NlhDR3hPcDhaRzhCYWVRallDcWl4aS1IYkNJZ2xIeWVvLWR5dHpncVJrVmswODRoNDZNR3l2NVBYWkM3aGhZSmlCWUZ0dXJwZw?oc=5": {
+      "actor": "US Appeals Court",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.bbc.com",
+      "rationale": "An appeals court halting a project and requiring congressional approval is a judicial check on executive action, not a bypass of legislation. The court is enforcing the requirement that Congress approve the project, which is the opposite of legislative bypass. This represents normal constitutional checks and balances, not an executive circumvention of statute.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMid0FVX3lxTE5jRkcwaDRyOHNMMnJ4SjB0aC1qb052VGd0elNoVHJOb0ZxQWxiU1VUMXlDbFNMaFJJQjJCUXNPRUJNWlV6RW5EaHI1Ql9EWXdxWFFXemNQWWxmXzg3SkRmdmVUbU1WV2Zsa1BFOVhpZ21aSjgwbGdJ?oc=5": {
       "actor": "Trump",
@@ -1322,6 +1422,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This event occurred in Pakistan, not the United States. The signal applies only to U.S. constitutional stress. Pakistan's media restrictions, even if confirmed and serious, do not constitute evidence of U.S. constitutional risk.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOY0tMS25MTVdmR1BEQWRHV3ktTU5FT1lmUk9wLXR2QWgyZUsxOTV4Sk9Rc3J3U3dTNXUzMzNzaExaY2x4RU9acTdkNTllblBlNGFmOWdvZmhNRkZuSkdpYVBhdURrWU5XSlVPN0RCUEtvdzBueDBHUnBzc3ZLZ1JQdDBhTXZvbExLWDBVSjdBb1d6YkxEZklyZ3lIVkRQSWdFeXpIQ0pKUWRmMzM3dElhYWRLMExnR3o2MV9YVUNzaUh2ZjJ3Y0x0dFNWYUtUOVpBX0dOdnFOSnJDMl83TV9FV25pMVhnQ0ZzZzRYOVhrdmpqSENNeVHSAfsBQVVfeXFMUFRuWWxYdUFmZ1Rra0tHeVhSWVVIaXUzRy03R0NqOW1IU3JraTZ3TXFyOVVuV3NUSGw0bVZ1SnljeUNURUFqY2ZubEdWdGxROXY0dHhEdkZCM1R0LUZUcmRzbmZ1Y1U5VjhDdU1lWHJDMTVlc05DY1lUNUZxaHdnVlhiV1Y4bnVaRnVENnMwcVR2REdLSUJxb0dhM2FqRW5wZWtxa2R3aXhmdW5xNXVTOWVvTUplcG9BcjdMTTd6S2Frc1VKY1F0QVM4dEtRUUR0T0U0bWk0NmdYS2hGdVktZndiaEczaFZ3NzJsaHJhcFEyN1A4RTRXN0xaZ0k?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Pakistan's press guidelines and PoJK (Pakistan-occupied Kashmir), not the United States. The signal is specifically for U.S. constitutional-risk assessment. Non-U.S. events fall outside the scope of this dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05SmE1aHBIc0U3SXJDOUJ0ZlpySDFjLVdBZnpsX3JMcUFZZkthVjFmMUtMSVhFQmRXRUpjNGp1eTdKQWRHZWdmS9IBTkFVX3lxTE5HSWUyLURnT2gzSDdWc0I5Zmh2dndqd3M5WVF1SGlqZnVMeXNpazZ3THFGQnlHVHMwRVFrSENYN0NERy1fcEk0LVQ4d0lJQQ?oc=5": {

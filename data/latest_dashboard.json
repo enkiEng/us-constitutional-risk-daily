@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.66,
+  "average_7d": 12.62,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,27 +10,27 @@
   "confidence": "High",
   "data_available": true,
   "delta_previous_day": -2.0,
-  "delta_vs_7d": 0.42,
+  "delta_vs_7d": -1.47,
   "domain_breakdown": [
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0625,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.825,
+      "points": 0.34375,
       "weight": 22
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.4374999999999996,
+      "points": 1.625,
       "weight": 15
     },
     {
-      "avg_severity": 0.08333333333333333,
+      "avg_severity": 0.0,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.29166666666666663,
+      "points": 0.0,
       "weight": 14
     },
     {
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.475,
+      "avg_severity": 0.3,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.95,
+      "points": 0.6,
       "weight": 8
     }
   ],
@@ -73,9 +73,9 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-08T13:15:05.784918+00:00",
+  "generated_at": "2026-08-09T13:19:38.778171+00:00",
   "methodology_version": 2,
-  "previous_score": 15,
+  "previous_score": 13,
   "primary_sources": {
     "documents_confirmed": 4,
     "documents_fetched": 19,
@@ -86,13 +86,13 @@
     "signals_queried": 20
   },
   "provisional": false,
-  "score": 13,
-  "score_raw": 13.09,
-  "score_raw_pre_trip_wire": 13.09,
+  "score": 11,
+  "score_raw": 11.15,
+  "score_raw_pre_trip_wire": 11.15,
   "successful_queries": 22,
   "top_signals": [
     {
-      "confirmed_hits": 10,
+      "confirmed_hits": 15,
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
@@ -106,6 +106,15 @@
           "title": "Trump renews effort to fire Fed governor Lisa Cook after Supreme Court ruling - The Washington Post"
         },
         {
+          "canonical_link": "https://eciks.org/19752-trump-lisa-cook-fed-removal",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zRDFUM1pHYU0xXzh0NjhObDB3MFc0dnZXcmRCRURfNzBQdTA2eGtSeXFKNEUwSVZhcTMwcmxLMWVRVjRfN2g0b1hSc1Ewc2RIZ2lTN3l3VHdmeWI0OFNlMA?oc=5",
+          "published": "2026-08-08T18:54:49+00:00",
+          "publisher": "eciks.org",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump renews effort to remove Fed Governor Lisa Cook after court blocked first - eciks.org"
+        },
+        {
           "canonical_link": "https://www.nbcboston.com/news/national-international/trump-administration-efforts-fire-lisa-cook/3994192/",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWQ4clBPeTM1bXp3WjFMSGg2NndqZlZEdm4yUEN3WTZOTGdiNnhFU052d3FVT0x1VHVrQ2hUTEFud1NYblNFZFhqb1YySWRKaE9lQnRVNGl2X1l5aVEwM0REM08wdGZRNXUxbDFGOU1DQzg3THdlSHhaaGhVQ0NEYmpzenIxRFM3TGM4YVNkZy1MdXh2ellGQUJ1bl9tcUVuZVo3Skx3d0pjZ9IBsgFBVV95cUxNaVZOeGFhRzdZRTJad2daWkJnUFRYZEpEWnpxZDNLMXFDaHA0c2Q0MW1pN3Zjc2JPV1JWREpNYWpTeWh2NG9pS1dlX0hONm44elZkWjVPZnpDUEVNb1VhSm9LcU0xMWhjdFp6TXhhVTg1cUtWd1hEMnFjbWhhUGFhQ2N1V1o2VFB5MTVzQkt6ZlNQOV8zVHhlaXhZNzFIS2hMVTYtTmVWTjgwQ080ZWZoaEpB?oc=5",
           "published": "2026-08-07T20:35:48+00:00",
@@ -113,19 +122,10 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Trump administration moves ahead with efforts to fire Federal Reserve governor Lisa Cook - NBC Boston"
-        },
-        {
-          "canonical_link": "https://www.yahoo.com/news/politics/articles/trump-restarts-bid-fire-fed-200702621.html",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRHdtWkRwY3lvWjlCQU8zcjRXNGM1RmRiTEM3RW9pWTFqZHdXMHk4d0hGdUxfVWRHQVNWMTdRMjVfTjVaVFh6U1lwT2w2WGFMM3RGR1o1QXI1ZFVZMVVWMkhZZlZhVHJEYWdNNTVnZnc1czYyQTY0NWc1MWVTdS1XSzNwXzd4dEkxNzI1TUZZTGo?oc=5",
-          "published": "2026-08-07T20:07:02+00:00",
-          "publisher": "Yahoo",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump Restarts Bid To Fire Fed Gov. Lisa Cook After SCOTUS Ruling - Yahoo"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 14,
+      "hits": 17,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
@@ -136,10 +136,10 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 10
+      "unique_publishers": 14
     },
     {
-      "confirmed_hits": 3,
+      "confirmed_hits": 2,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
@@ -153,26 +153,17 @@
           "title": "Trump signs new birthright citizenship order, ballroom dispute likely headed to Supreme Court - SCOTUSblog"
         },
         {
-          "canonical_link": "https://www.reuters.com/world/trump-sign-orders-birthright-citizenship-axios-reports-2026-08-06/",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQlBIVEJ3RmxwWHB3RElBYnBYVGdvRjZUUjYzbmJ6UW5wU0E3SlQtV1g3Uk5zQzFlelZMUWo5UExUelBUMnZQY0pibWx1OHBLN1FtTDBJY1Q3WUFXMmNScndrNUtleC1ucVEtdDdMUy1oR2RTeVpaN09heGUtLUk0UFNfT25Lb0swemZNVjQtbHRoLWh3anVQOTF2WGU?oc=5",
-          "published": "2026-08-06T19:50:00+00:00",
-          "publisher": "Reuters",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump signs orders to limit US birthright citizenship, despite Supreme Court ruling - Reuters"
-        },
-        {
           "canonical_link": "https://www.legalserviceindia.com/Legal-Articles/learning-resources-v-trump-supreme-court-ieepa-tariffs/",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWs0M1ZPbWlUUS00eEI5bGpxdDI5MTl6bDNvODZJdHpTdEdvazZpSVhnbHNOTGFqTjZQTk84Y0tqTGtDUi1ueW1LWGFMTEJCZlMyWHdYdXVmNUV0STdJcVNtbXRYbVNDZVhBNzdfQTgtdnVXUktLQUpVcEtUMmZsUHJpWXNzZExfcEV3VE9Fcy1kUTNPSXNjQnFTdHNIUUpnOVJNZXRHNA?oc=5",
           "published": "2026-08-08T06:50:11+00:00",
-          "publisher": "Legal Service India",
+          "publisher": "legalserviceindia.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Learning Resources v. Trump: Supreme Court Limits Presidential Tariff Power Under IEEPA - Legal Service India"
+          "title": "Learning Resources v. Trump: Supreme Court Limits Presidential Tariff Power Under IEEPA - legalserviceindia.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 8,
+      "hits": 10,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -183,7 +174,7 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 3
+      "unique_publishers": 2
     },
     {
       "confirmed_hits": 3,
@@ -265,19 +256,9 @@
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "canonical_link": "https://www.nytimes.com/interactive/2026/us/trump-administration-lawsuits.html",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5",
-          "published": "2026-08-06T20:00:14+00:00",
-          "publisher": "The New York Times",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "The Trump Administration Has Been Sued More Than 750 Times. Track These Cases. - The New York Times"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
@@ -286,7 +267,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -305,25 +286,6 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
       "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
@@ -331,12 +293,31 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "canonical_link": "https://newrepublic.com/post/214112/donald-trump-federal-reserve-lisa-cook-supreme-court",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWGwzZm9lQkJRcXI1VXRjOGthTjgxYnlrSnZ6Y2RPUnR2d2I4MWJtWjR2M3d0THE5SmxjZ1VKOVZnN3pWQ29vVVRWSkhDUDZQWmhqXzZZRERTcjJrLVBESDRDblR0bU5YZEtDTmtGVXlmcGtvb2ctbGQySUVsdkNEYzhUbFdyR2Rxa1MzRjRKMW82QQ?oc=5",
+          "published": "2026-08-07T20:51:31+00:00",
+          "publisher": "The New Republic",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump Launches New Attack on Fed Governor Despite Supreme Court Ruling - The New Republic"
+        },
+        {
+          "canonical_link": "https://www.parriva.com/2026-california-proposition-5-explained-recall-elections/",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLWRSZzhHbmM1MEs0UVg0R1QwaE5BT2szbG5aeUxwVVpSbFdlRS12T0FudTdUamFreG52OWZ6Wk9lSjRvTXJxSU4yWEpiU0VIX0ZYNXRUVk1lZDZFLVdzV3Uzc1lINXpRNi1kV1pmcjdJbzlYemU4X1FWUGVod0k2QnJkWmN2WTho?oc=5",
+          "published": "2026-08-09T02:54:18+00:00",
+          "publisher": "Parriva",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "2026 California Proposition 5 Explained: What Would Change About Recall Elections? - Parriva"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
