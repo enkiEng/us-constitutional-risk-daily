@@ -1,29 +1,29 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.62,
+  "average_7d": 12.37,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -2.0,
-  "delta_vs_7d": -1.47,
+  "delta_vs_7d": -3.49,
   "domain_breakdown": [
     {
-      "avg_severity": 0.0625,
+      "avg_severity": 0.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.34375,
+      "points": 0.0,
       "weight": 22
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.31666666666666665,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.625,
+      "points": 1.1875,
       "weight": 15
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 2.1125,
       "weight": 13
     },
     {
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.3,
+      "avg_severity": 0.125,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.6,
+      "points": 0.25,
       "weight": 8
     }
   ],
@@ -73,9 +73,9 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-09T13:19:38.778171+00:00",
+  "generated_at": "2026-08-10T13:48:19.236174+00:00",
   "methodology_version": 2,
-  "previous_score": 13,
+  "previous_score": 11,
   "primary_sources": {
     "documents_confirmed": 4,
     "documents_fetched": 19,
@@ -86,25 +86,16 @@
     "signals_queried": 20
   },
   "provisional": false,
-  "score": 11,
-  "score_raw": 11.15,
-  "score_raw_pre_trip_wire": 11.15,
+  "score": 9,
+  "score_raw": 8.88,
+  "score_raw_pre_trip_wire": 8.88,
   "successful_queries": 22,
   "top_signals": [
     {
-      "confirmed_hits": 15,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
-        {
-          "canonical_link": "https://www.washingtonpost.com/business/2026/08/07/white-house-revives-bid-remove-fed-lisa-cook-over-mortgage-claims/",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMHV6QkY1anVqMi1FVnVua1ZldlVkbHJROERfUFItOF8tOG9KT3cxOEJadlJ5emhRZHRHaGtPWlNOUXZ0Rm5uLTdpNjlTR3k2TFFhQkw1c0UyTVNtd2FfVE9laXRNZHhkRk55NkVJTEZfeUdBSk5RT0drcTZpSFZBZU9ZZlRwcnFRdUlVTURIQVRobHlVeDVoLUtWeGUzTlNPSzlEcTRuRDRKSmVyeFlGRGRQa0RTLTZ2?oc=5",
-          "published": "2026-08-08T02:25:36+00:00",
-          "publisher": "The Washington Post",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump renews effort to fire Fed governor Lisa Cook after Supreme Court ruling - The Washington Post"
-        },
         {
           "canonical_link": "https://eciks.org/19752-trump-lisa-cook-fed-removal",
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zRDFUM1pHYU0xXzh0NjhObDB3MFc0dnZXcmRCRURfNzBQdTA2eGtSeXFKNEUwSVZhcTMwcmxLMWVRVjRfN2g0b1hSc1Ewc2RIZ2lTN3l3VHdmeWI0OFNlMA?oc=5",
@@ -113,68 +104,21 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Trump renews effort to remove Fed Governor Lisa Cook after court blocked first - eciks.org"
-        },
-        {
-          "canonical_link": "https://www.nbcboston.com/news/national-international/trump-administration-efforts-fire-lisa-cook/3994192/",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWQ4clBPeTM1bXp3WjFMSGg2NndqZlZEdm4yUEN3WTZOTGdiNnhFU052d3FVT0x1VHVrQ2hUTEFud1NYblNFZFhqb1YySWRKaE9lQnRVNGl2X1l5aVEwM0REM08wdGZRNXUxbDFGOU1DQzg3THdlSHhaaGhVQ0NEYmpzenIxRFM3TGM4YVNkZy1MdXh2ellGQUJ1bl9tcUVuZVo3Skx3d0pjZ9IBsgFBVV95cUxNaVZOeGFhRzdZRTJad2daWkJnUFRYZEpEWnpxZDNLMXFDaHA0c2Q0MW1pN3Zjc2JPV1JWREpNYWpTeWh2NG9pS1dlX0hONm44elZkWjVPZnpDUEVNb1VhSm9LcU0xMWhjdFp6TXhhVTg1cUtWd1hEMnFjbWhhUGFhQ2N1V1o2VFB5MTVzQkt6ZlNQOV8zVHhlaXhZNzFIS2hMVTYtTmVWTjgwQ080ZWZoaEpB?oc=5",
-          "published": "2026-08-07T20:35:48+00:00",
-          "publisher": "NBC Boston",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump administration moves ahead with efforts to fire Federal Reserve governor Lisa Cook - NBC Boston"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 17,
+      "hits": 3,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.washingtonpost.com",
-      "rationale": "Washington Post reports Trump 'renews effort' to fire Cook after a Supreme Court ruling blocked an earlier attempt. This indicates a sustained, recurring action following judicial rebuke. A president actively pursuing removal of an independent agency official after a court order against a prior removal attempt is concrete evidence of pressure on agency independence. Severity 2: repeated and credible stress signal.",
+      "primary_source_url": "https://eciks.org",
+      "rationale": "A renewed attempt to remove a Federal Reserve Governor after a court blocked the first effort represents an action to weaken independence of a regulatory agency. However, the summary indicates a court has already blocked a prior attempt, suggesting legal safeguards are functioning. The renewal itself is a real action (not hypothetical), but severity remains 2 (contained, repeated stress) rather than 3 because the court has already intervened and there is no indication the removal succeeded or that the court order was defied.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 14
-    },
-    {
-      "confirmed_hits": 2,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.scotusblog.com/2026/08/trump-signs-new-birthright-citizenship-order-ballroom-dispute-likely-headed-to-supreme-court/",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLXZrc0s4bkJMdjBJZVhlQk8yT05BVEZiWkYtYXlKV09Db29hTW55M0R2SnJfTEloODE5c0RYUWFnQURBRU5iNVRRMjMzNnFqZExQanhWbkFXcXRfNGZKNUdCdS1UemVPQmxLb1ZFV3lzRFJQbll1dmN4NVpBdDNoQ0toUjVkaTFlbGp4MGRuWm96NWR0TF9sYVNWU3E5dzNnMzdrRXI2NG9aalgxVnBzQjR3UzVWbDFPZDRLczU2eWFsUHN0anBF?oc=5",
-          "published": "2026-08-07T19:34:46+00:00",
-          "publisher": "SCOTUSblog",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump signs new birthright citizenship order, ballroom dispute likely headed to Supreme Court - SCOTUSblog"
-        },
-        {
-          "canonical_link": "https://www.legalserviceindia.com/Legal-Articles/learning-resources-v-trump-supreme-court-ieepa-tariffs/",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWs0M1ZPbWlUUS00eEI5bGpxdDI5MTl6bDNvODZJdHpTdEdvazZpSVhnbHNOTGFqTjZQTk84Y0tqTGtDUi1ueW1LWGFMTEJCZlMyWHdYdXVmNUV0STdJcVNtbXRYbVNDZVhBNzdfQTgtdnVXUktLQUpVcEtUMmZsUHJpWXNzZExfcEV3VE9Fcy1kUTNPSXNjQnFTdHNIUUpnOVJNZXRHNA?oc=5",
-          "published": "2026-08-08T06:50:11+00:00",
-          "publisher": "legalserviceindia.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Learning Resources v. Trump: Supreme Court Limits Presidential Tariff Power Under IEEPA - legalserviceindia.com"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 10,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://www.scotusblog.com",
-      "rationale": "Trump has signed a birthright citizenship order, which attempts to modify citizenship law unilaterally via executive action rather than through statutory amendment. This is a real action (not hypothetical) that shifts a governance matter from legislative to executive domain. However, the action is under legal challenge and its enforceability remains uncertain, preventing severity 3+ assignment. Severity 2 reflects a real but contested executive action in a material policy domain.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 3,
@@ -255,10 +199,67 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://www.newsbreak.com/easy-everyday-recipes-380399510/4819691046158-7-limits-on-trump-s-presidential-power-that-even-the-white-house-cannot-ignore",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN05aTXhjTzVhQXd6ZFM0TzF1WTZTRm5UUS0yalhmZFJsNGNJcjJOV29hVjV5UmdxalEtS2RWblN4ZEhfSFRUa3FlTU93ZzdrVDgxVFNHdTBMeUlncVI1eW9pbVIxTjg5MUQwdmdfZjRPeGNjSVREZ2JFVl9ydUpNa2ZEY3ZHeWZvcUtsaFZaY2d3dWc1aXRwcWdzTVc0SmRudThsZ3duYkp0aHNVc1U4YW5nNHpzMm0zVy02WFQ3dzRhSWszOEhleWRhY3NWbEdfbzNvUUxNWDFOTmRwdWcxZmVzbWM?oc=5",
+          "published": "2026-08-09T23:04:38+00:00",
+          "publisher": "NewsBreak: Local News & Alerts",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "7 Limits on Trump\u2019s Presidential Power That Even the White House Cannot Ignore - NewsBreak: Local News & Alerts"
+        },
+        {
+          "canonical_link": "https://www.freepressjournal.in/world/us-appeals-court-blocks-trumps-400-million-white-house-ballroom-project-pending-congressional-approval",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLXdWUk8tdTNaRTdwRXJHQld6R1B6YlBtZTFvX3l4aWVKUWs3Q3lSNi1CS2tEZkZUd1FObnZfRktQV1RnOHRPSG5aUVg5dThVaU5ZZWdud3Q1RmtkZjRsdHk4YkxsWWRTSlA5SGs3cnhoRDJMRHpmNkExUmtGelkwYUZmVllOUS1JOU92cVByV2NoQzNHNTBPaVh6dzhuUVpRenZDZDhtNE5ra0RWcW9NZlRnby1IT05QLUZpZS1qeUN5YlBkNjdIRVFVODRaMDVHS2M5VlN5d9IB3AFBVV95cUxOSTNVdDF0WEV1WnhMSXlLRHRzUnZhSW5HU1FRU21vNHdzUElPOFhzVzV2a2lTbm96eThWVXY3eUJmYTk0bWlCNEQ4ZlFhTElBT0k2ZzhFNmRUUUFGVzl0T1FfazNhcks4X2UzX0ZNYUItNW94TEVBNTY4TFBLaEJTRGZNRVdMcXV3R3pRMXd4LXh1dTJvU3RWVlNhdldPQi1iUjhpUVduRGFPZmNsUHh3RGFva2pRanhoTlN2emtMRmtFT1BYRFZ0Y3pmeTJmamlVRGlsSE90eWFtOXp0?oc=5",
+          "published": "2026-08-08T15:38:32+00:00",
+          "publisher": "Free Press Journal",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "US Appeals Court Blocks Trump\u2019s $400 Million White House Ballroom Project Pending Congressional Approval - Free Press Journal"
+        },
+        {
+          "canonical_link": "https://english.dainikjagranmpcg.com/international/trump-picks-presidential-immunity-lawyer-will-scharf-as-new-white-house/article-25549",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQnBybVdockMtMnNXeWxMODVpYm1LcFZmenBqNFRyeXJpdjJERUZ5bXdLSGM3Qmo1RHVqMjNRVkdSWHh1RXJDd1dvLWdaZHVDeWJ0T0lqV2k3cmI2N0M1UjBkdFM2YnlYVWN3SElLTTNDQks0eDM5aE1zTzE0REJjLWZISGxBUXBLcWNSemduTHFOUk14dHllQWc4cnpGTlhnX0dfaFFnOXB0NnZDVVB2b0dGRlpkQjlKenItTU9LUDFvd3FINFZldzBqdGdLbW9QcVE?oc=5",
+          "published": "2026-08-10T12:08:05+00:00",
+          "publisher": "Dainik Jagran MP CG",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump Names Will Scharf as New White House Counsel - Dainik Jagran MP CG"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 3,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
+      "evidence": [
+        {
+          "canonical_link": "https://english.elpais.com/usa/2026-08-10/trump-tightens-his-grip-on-the-us-justice-system.html",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTFVpS09oOWo1bWNXQXhkdEZQVUdqak02RjVvaEZSN2lJa1cwWGJJTFp6eEZuZm5NTlROd255VE1XLTF0TVJKOEFsNGFoZTBKZU4wOGwwejNCVndZc1c4MDFNS0pKM0FiOGJ4Sm1QQnJibHFLQnR0MUxSOVVEX091RzhXdVhxdm92eXJLZ0k4Q2pXLXI2bV9VRlN2MNIBrwFBVV95cUxQdkJ3Z3g2cHdKTlBadVZzUFg1TEZGVnctbnpfdWxmOVZNLWdJbFhyZkdXRS1PdFVlZG5tempRbXgyRTZ5SWpVa1lxMGthcTVlajZscWVaY3ljckNNZE1MMHlZWE91VnNEN2lDQ2dFQUJhZHlCdDNkQzFWR1lQM3hOWVMxNGtmZmhHaTREQnlKYkl1ZkxQTUpPdFp5dW53cGlKeXhNa1RweE5Eb0lxSWNz?oc=5",
+          "published": "2026-08-10T08:13:46+00:00",
+          "publisher": "EL PA\u00cdS English",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump tightens his grip on the US justice system - EL PA\u00cdS English"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
@@ -267,7 +268,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -280,44 +281,6 @@
       "hits": 0,
       "id": "legislative_oversight_obstruction",
       "name": "Legislative Oversight Obstruction",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://newrepublic.com/post/214112/donald-trump-federal-reserve-lisa-cook-supreme-court",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWGwzZm9lQkJRcXI1VXRjOGthTjgxYnlrSnZ6Y2RPUnR2d2I4MWJtWjR2M3d0THE5SmxjZ1VKOVZnN3pWQ29vVVRWSkhDUDZQWmhqXzZZRERTcjJrLVBESDRDblR0bU5YZEtDTmtGVXlmcGtvb2ctbGQySUVsdkNEYzhUbFdyR2Rxa1MzRjRKMW82QQ?oc=5",
-          "published": "2026-08-07T20:51:31+00:00",
-          "publisher": "The New Republic",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump Launches New Attack on Fed Governor Despite Supreme Court Ruling - The New Republic"
-        },
-        {
-          "canonical_link": "https://www.parriva.com/2026-california-proposition-5-explained-recall-elections/",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLWRSZzhHbmM1MEs0UVg0R1QwaE5BT2szbG5aeUxwVVpSbFdlRS12T0FudTdUamFreG52OWZ6Wk9lSjRvTXJxSU4yWEpiU0VIX0ZYNXRUVk1lZDZFLVdzV3Uzc1lINXpRNi1kV1pmcjdJbzlYemU4X1FWUGVod0k2QnJkWmN2WTho?oc=5",
-          "published": "2026-08-09T02:54:18+00:00",
-          "publisher": "Parriva",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "2026 California Proposition 5 Explained: What Would Change About Recall Elections? - Parriva"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
