@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-10 13:48:19 UTC
+- Generated: 2026-08-11 13:46:36 UTC
 - Methodology: **v2** (extraction: AI event extraction)
 - Score: **9 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-2.0**
-- Delta vs 7-day average: **-3.5**
+- Previous day delta: **0.0**
+- Delta vs 7-day average: **-3.0**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -16,56 +16,51 @@
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
 | Elections and Transfer of Power | 22 | 0.00 | 0.00 |
-| Judicial Independence and Rule of Law | 15 | 0.32 | 1.19 |
+| Judicial Independence and Rule of Law | 15 | 0.20 | 0.75 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 0.65 | 2.11 |
-| Civil Service and Agency Independence | 10 | 1.33 | 3.33 |
+| Executive Constraints and Emergency Powers | 13 | 0.43 | 1.41 |
+| Civil Service and Agency Independence | 10 | 1.88 | 4.71 |
 | Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
-| Security Sector Neutrality | 8 | 1.00 | 2.00 |
-| Federalism and Legislative Oversight | 8 | 0.12 | 0.25 |
+| Security Sector Neutrality | 8 | 0.82 | 1.65 |
+| Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 3 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 3 | 0 |
-| Security Sector Loyalty Tests | security_sector_neutrality | 2.00 (Yellow) | ai | 1 | 0 |
-| Legislative Bypass by Executive | executive_constraints | 1.65 (Watch) | ai | 0 | 3 |
-| Judge Intimidation Campaign | judiciary_rule_of_law | 0.95 (Watch) | ai | 0 | 1 |
-| Legislative Oversight Obstruction | federalism_oversight | 0.25 (Green) | keyword | 0 | 0 |
+| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 5 |
+| Inspector General Retaliation | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 1 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 1.65 (Watch) | ai | 0 | 1 |
+| Security Sector Loyalty Tests | security_sector_neutrality | 1.65 (Watch) | keyword | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 1.30 (Watch) | ai | 0 | 2 |
+| Judge Intimidation Campaign | judiciary_rule_of_law | 0.60 (Green) | ai | 0 | 2 |
 
 ## Evidence Samples
 
 ### Independent Agency Capture
-- Assessment: A renewed attempt to remove a Federal Reserve Governor after a court blocked the first effort represents an action to weaken independence of a regulatory agency. However, the summary indicates a court has already blocked a prior attempt, suggesting legal safeguards are functioning. The renewal itself is a real action (not hypothetical), but severity remains 2 (contained, repeated stress) rather than 3 because the court has already intervened and there is no indication the removal succeeded or that the court order was defied.
-- [eciks.org] Trump renews effort to remove Fed Governor Lisa Cook after court blocked first - eciks.org (2026-08-08) - https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zRDFUM1pHYU0xXzh0NjhObDB3MFc0dnZXcmRCRURfNzBQdTA2eGtSeXFKNEUwSVZhcTMwcmxLMWVRVjRfN2g0b1hSc1Ewc2RIZ2lTN3l3VHdmeWI0OFNlMA?oc=5
+- Assessment: The item documents a real occurrence: a sitting president is publicly pressing an independent agency (Federal Reserve) on policy decisions, and there is stated tension over Fed independence. This represents a credible but not yet structural stress signal. Public pressure on the Fed is not new, and the Cleveland Fed President is asserting independent judgment, suggesting the agency has not been captured. However, the ongoing pattern of political pressure on an independent agency's decision-making does constitute a repeated stress signal matching the independent agency capture concern. Severity is 2 (repeated/credible stress signal) rather than higher because the Fed retains formal independence and is publicly resisting the pressure, and this has not yet manifested as a structural weakening of safeguards.
+- [富途牛牛] Cleveland Fed President says multiple rate hikes may be needed to curb inflation, as Trump continues pressing for rate cuts, fueling debate over the Federal Reserve's independence - 富途牛牛 (2026-08-11) - https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOEpwWk1PbDJEV0tvcEhsQUEwR1dIRGhsZDN2OG5PRldFdWRzQXhiUXFzaDN4RFVkaEZwMHlyRUpEV1VrSnhiQmtES3JjaDBPLW1WZE1ZclRsdnh2T3JUaS1YT3o1MnhkYkNxcE4tREx6S3VLOEpjQkRoMkczb1ZKUV9OSXA4TEV4NURvczZXT3NpUVdIY2U1OFhsRTlhMWMxRDdiRDk0QmppTFV5bXhMMXZBMVdaanhfQmtneUtOckppS2g5UnZaZTZ0Tlg0Q085b2Jscg?oc=5
+
+### Inspector General Retaliation
+- Assessment: A nomination of a Project 2025 author to an Interior Department inspector general position represents a credible signal of potential IG retaliation/compromise. Project 2025 is associated with aggressive executive agenda goals; placing such an author in a watchdog role raises legitimate concerns about inspector general independence and function. However, this is a nomination, not yet confirmation or demonstrated retaliatory action. The signal is real and repeated concerns about IG politicization have been documented, but the actual retaliation/compromise of IG function has not yet been verified as accomplished. This represents a contained, credible stress signal worthy of monitoring but not yet a serious structural threat.
+- [eciks.org] Trump nominates Project 2025 author Dennis Kirk as Interior watchdog - eciks.org (2026-08-10) - https://news.google.com/rss/articles/CBMib0FVX3lxTE45Z0FPdUUtY3VXYTVvdV9PUmF1OTkzZWRYbC1uWEw4X0xMMTAtM2lhRWtVaEZTbF9BRmgtTGdXTTBkTWIwRXZ2dlFxR05DNlk0UWlVWmJMV2ZyN1BlS245MF9nS05ZUHZJQlF0cGNhdw?oc=5
 
 ### Civil Service Purge / Schedule F
-- Assessment: OPM has issued a final rule modifying RIF regulations to prioritize performance over tenure and length of service. This is a real, published regulatory action that materially changes federal personnel protections by reducing seniority-based safeguards. While presented as merit-based efficiency, the shift from tenure-protective RIF procedures to performance-based retention creates a concrete mechanism for politicizing career civil service. This is a contained but credible stress signal—a structural change to established civil-service protections, not a mass purge event or emergency action.
-- [federalregister.gov] **[official record]** Reduction in Force (2026-08-03) - https://www.federalregister.gov/documents/2026/08/03/2026-15665/reduction-in-force
-- [federalregister.gov] **[official record]** Streamlining Probationary and Trial Period Appeals (2026-08-03) - https://www.federalregister.gov/documents/2026/08/03/2026-15654/streamlining-probationary-and-trial-period-appeals
-- [federalregister.gov] **[official record]** Suitability Action Appeals (2026-08-03) - https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals
+- [Just Security] Reinvention Blueprint No. 2: Democracy Works When Government Works - Just Security (2026-08-11) - https://news.google.com/rss/articles/CBMilAFBVV95cUxOckM4ZDdZeFgwLV9NanZHeUJpUUVSTFR6UjU2ckVYbDhsMEhsRlI4aEVJelJBSjlsR1p2N0RTN3gwa2JNeWtXNlFWY1pvWXdhVVIwZDVrY3l1U2lUT0hhcWs2Z1lQdFpjY2J2UV9VYnJjZGdYRmhsbFlRbjVPeTlYLVFIMjNUN2VROWhWeUlvMjZ2UkEz?oc=5
 
 ### Security Sector Loyalty Tests
-- Assessment: This is a final OPM regulation that removes the Merit Systems Protection Board (MSPB)—an independent adjudicative body—from appeals of suitability actions and consolidates that authority within OPM itself. Suitability determinations affect federal employment eligibility and can be used to screen personnel. Removing independent oversight of such determinations and concentrating appeals authority within the executive personnel office constitutes a material shift in internal review mechanisms that could enable partisan loyalty filters in federal personnel decisions. This is a confirmed structural change to a coercive-state institution's internal accountability, though it remains procedural rather than involving overt purges or open defiance of courts. Severity 2: real, confirmed, official action affecting institutional independence in personnel matters.
-- [federalregister.gov] **[official record]** Suitability Action Appeals (2026-08-03) - https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals
-
+- No fresh evidence links in the current lookback window.
 ### Legislative Bypass by Executive
-- [NewsBreak: Local News & Alerts] 7 Limits on Trump’s Presidential Power That Even the White House Cannot Ignore - NewsBreak: Local News & Alerts (2026-08-09) - https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN05aTXhjTzVhQXd6ZFM0TzF1WTZTRm5UUS0yalhmZFJsNGNJcjJOV29hVjV5UmdxalEtS2RWblN4ZEhfSFRUa3FlTU93ZzdrVDgxVFNHdTBMeUlncVI1eW9pbVIxTjg5MUQwdmdfZjRPeGNjSVREZ2JFVl9ydUpNa2ZEY3ZHeWZvcUtsaFZaY2d3dWc1aXRwcWdzTVc0SmRudThsZ3duYkp0aHNVc1U4YW5nNHpzMm0zVy02WFQ3dzRhSWszOEhleWRhY3NWbEdfbzNvUUxNWDFOTmRwdWcxZmVzbWM?oc=5
-- [Free Press Journal] US Appeals Court Blocks Trump’s $400 Million White House Ballroom Project Pending Congressional Approval - Free Press Journal (2026-08-08) - https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLXdWUk8tdTNaRTdwRXJHQld6R1B6YlBtZTFvX3l4aWVKUWs3Q3lSNi1CS2tEZkZUd1FObnZfRktQV1RnOHRPSG5aUVg5dThVaU5ZZWdud3Q1RmtkZjRsdHk4YkxsWWRTSlA5SGs3cnhoRDJMRHpmNkExUmtGelkwYUZmVllOUS1JOU92cVByV2NoQzNHNTBPaVh6dzhuUVpRenZDZDhtNE5ra0RWcW9NZlRnby1IT05QLUZpZS1qeUN5YlBkNjdIRVFVODRaMDVHS2M5VlN5d9IB3AFBVV95cUxOSTNVdDF0WEV1WnhMSXlLRHRzUnZhSW5HU1FRU21vNHdzUElPOFhzVzV2a2lTbm96eThWVXY3eUJmYTk0bWlCNEQ4ZlFhTElBT0k2ZzhFNmRUUUFGVzl0T1FfazNhcks4X2UzX0ZNYUItNW94TEVBNTY4TFBLaEJTRGZNRVdMcXV3R3pRMXd4LXh1dTJvU3RWVlNhdldPQi1iUjhpUVduRGFPZmNsUHh3RGFva2pRanhoTlN2emtMRmtFT1BYRFZ0Y3pmeTJmamlVRGlsSE90eWFtOXp0?oc=5
-- [Dainik Jagran MP CG] Trump Names Will Scharf as New White House Counsel - Dainik Jagran MP CG (2026-08-10) - https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQnBybVdockMtMnNXeWxMODVpYm1LcFZmenBqNFRyeXJpdjJERUZ5bXdLSGM3Qmo1RHVqMjNRVkdSWHh1RXJDd1dvLWdaZHVDeWJ0T0lqV2k3cmI2N0M1UjBkdFM2YnlYVWN3SElLTTNDQks0eDM5aE1zTzE0REJjLWZISGxBUXBLcWNSemduTHFOUk14dHllQWc4cnpGTlhnX0dfaFFnOXB0NnZDVVB2b0dGRlpkQjlKenItTU9LUDFvd3FINFZldzBqdGdLbW9QcVE?oc=5
-
-### Judge Intimidation Campaign
-- [EL PAÍS English] Trump tightens his grip on the US justice system - EL PAÍS English (2026-08-10) - https://news.google.com/rss/articles/CBMimwFBVV95cUxOTFVpS09oOWo1bWNXQXhkdEZQVUdqak02RjVvaEZSN2lJa1cwWGJJTFp6eEZuZm5NTlROd255VE1XLTF0TVJKOEFsNGFoZTBKZU4wOGwwejNCVndZc1c4MDFNS0pKM0FiOGJ4Sm1QQnJibHFLQnR0MUxSOVVEX091RzhXdVhxdm92eXJLZ0k4Q2pXLXI2bV9VRlN2MNIBrwFBVV95cUxQdkJ3Z3g2cHdKTlBadVZzUFg1TEZGVnctbnpfdWxmOVZNLWdJbFhyZkdXRS1PdFVlZG5tempRbXgyRTZ5SWpVa1lxMGthcTVlajZscWVaY3ljckNNZE1MMHlZWE91VnNEN2lDQ2dFQUJhZHlCdDNkQzFWR1lQM3hOWVMxNGtmZmhHaTREQnlKYkl1ZkxQTUpPdFp5dW53cGlKeXhNa1RweE5Eb0lxSWNz?oc=5
+- [Jacobin] Socialists Need to Develop a Constitutional Politics - Jacobin (2026-08-10) - https://news.google.com/rss/articles/CBMie0FVX3lxTFBGVjVPbm9EMEdwZC02YjVsOW9pdk1YSDMzTC0yd2RMeHFFM0w1cWNYOW8yTVY0TmJlTjdyQzc5MG40SjIyTUxHYjQyUFFGYkFHbFd2a3NSQ2hfM0gwTmREYXM3d0hLUXBJY0tZUU9yTUhySlNWTEx3OWphNA?oc=5
+- [Dainik Jagran MP CG] Trump Picks Presidential-Immunity Lawyer Will Scharf as New White House Counsel - Dainik Jagran MP CG (2026-08-10) - https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQnBybVdockMtMnNXeWxMODVpYm1LcFZmenBqNFRyeXJpdjJERUZ5bXdLSGM3Qmo1RHVqMjNRVkdSWHh1RXJDd1dvLWdaZHVDeWJ0T0lqV2k3cmI2N0M1UjBkdFM2YnlYVWN3SElLTTNDQks0eDM5aE1zTzE0REJjLWZISGxBUXBLcWNSemduTHFOUk14dHllQWc4cnpGTlhnX0dfaFFnOXB0NnZDVVB2b0dGRlpkQjlKenItTU9LUDFvd3FINFZldzBqdGdLbW9QcVE?oc=5
 
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Primary-source lookups: 20 signals, 19 official documents (Federal Register, CourtListener)
-- Primary-source confirmations: 4
+- Primary-source lookups: 20 signals, 11 official documents (Federal Register, CourtListener)
+- Primary-source confirmations: 0
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
 

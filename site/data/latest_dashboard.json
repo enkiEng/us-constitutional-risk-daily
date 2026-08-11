@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 12.37,
+  "average_7d": 11.55,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,8 +9,8 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -2.0,
-  "delta_vs_7d": -3.49,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": -3.03,
   "domain_breakdown": [
     {
       "avg_severity": 0.0,
@@ -20,10 +20,10 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.19999999999999998,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.1875,
+      "points": 0.7499999999999999,
       "weight": 15
     },
     {
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.1125,
+      "points": 1.4083333333333334,
       "weight": 13
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.8833333333333335,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 3.333333333333333,
+      "points": 4.708333333333334,
       "weight": 10
     },
     {
@@ -55,17 +55,17 @@
       "weight": 10
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.825,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 2.0,
+      "points": 1.65,
       "weight": 8
     },
     {
-      "avg_severity": 0.125,
+      "avg_severity": 0.0,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.25,
+      "points": 0.0,
       "weight": 8
     }
   ],
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-10T13:48:19.236174+00:00",
+  "generated_at": "2026-08-11T13:46:36.482145+00:00",
   "methodology_version": 2,
-  "previous_score": 11,
+  "previous_score": 9,
   "primary_sources": {
-    "documents_confirmed": 4,
-    "documents_fetched": 19,
+    "documents_confirmed": 0,
+    "documents_fetched": 11,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -87,8 +87,8 @@
   },
   "provisional": false,
   "score": 9,
-  "score_raw": 8.88,
-  "score_raw_pre_trip_wire": 8.88,
+  "score_raw": 8.52,
+  "score_raw_pre_trip_wire": 8.52,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -97,103 +97,104 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "canonical_link": "https://eciks.org/19752-trump-lisa-cook-fed-removal",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zRDFUM1pHYU0xXzh0NjhObDB3MFc0dnZXcmRCRURfNzBQdTA2eGtSeXFKNEUwSVZhcTMwcmxLMWVRVjRfN2g0b1hSc1Ewc2RIZ2lTN3l3VHdmeWI0OFNlMA?oc=5",
-          "published": "2026-08-08T18:54:49+00:00",
-          "publisher": "eciks.org",
+          "canonical_link": "https://news.futunn.com/en/post/77446227/cleveland-fed-president-says-multiple-rate-hikes-may-be-needed?futusource\\u003dnews_newspage_recommend",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOEpwWk1PbDJEV0tvcEhsQUEwR1dIRGhsZDN2OG5PRldFdWRzQXhiUXFzaDN4RFVkaEZwMHlyRUpEV1VrSnhiQmtES3JjaDBPLW1WZE1ZclRsdnh2T3JUaS1YT3o1MnhkYkNxcE4tREx6S3VLOEpjQkRoMkczb1ZKUV9OSXA4TEV4NURvczZXT3NpUVdIY2U1OFhsRTlhMWMxRDdiRDk0QmppTFV5bXhMMXZBMVdaanhfQmtneUtOckppS2g5UnZaZTZ0Tlg0Q085b2Jscg?oc=5",
+          "published": "2026-08-11T00:42:21+00:00",
+          "publisher": "\u5bcc\u9014\u725b\u725b",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump renews effort to remove Fed Governor Lisa Cook after court blocked first - eciks.org"
+          "title": "Cleveland Fed President says multiple rate hikes may be needed to curb inflation, as Trump continues pressing for rate cuts, fueling debate over the Federal Reserve's independence - \u5bcc\u9014\u725b\u725b"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 5,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://eciks.org",
-      "rationale": "A renewed attempt to remove a Federal Reserve Governor after a court blocked the first effort represents an action to weaken independence of a regulatory agency. However, the summary indicates a court has already blocked a prior attempt, suggesting legal safeguards are functioning. The renewal itself is a real action (not hypothetical), but severity remains 2 (contained, repeated stress) rather than 3 because the court has already intervened and there is no indication the removal succeeded or that the court order was defied.",
+      "primary_source_url": null,
+      "rationale": "The item documents a real occurrence: a sitting president is publicly pressing an independent agency (Federal Reserve) on policy decisions, and there is stated tension over Fed independence. This represents a credible but not yet structural stress signal. Public pressure on the Fed is not new, and the Cleveland Fed President is asserting independent judgment, suggesting the agency has not been captured. However, the ongoing pattern of political pressure on an independent agency's decision-making does constitute a repeated stress signal matching the independent agency capture concern. Severity is 2 (repeated/credible stress signal) rather than higher because the Fed retains formal independence and is publicly resisting the pressure, and this has not yet manifested as a structural weakening of safeguards.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
       "unique_publishers": 1
     },
     {
-      "confirmed_hits": 3,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/08/03/2026-15665/reduction-in-force",
-          "link": "https://www.federalregister.gov/documents/2026/08/03/2026-15665/reduction-in-force",
-          "published": "2026-08-03T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Reduction in Force"
-        },
-        {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/08/03/2026-15654/streamlining-probationary-and-trial-period-appeals",
-          "link": "https://www.federalregister.gov/documents/2026/08/03/2026-15654/streamlining-probationary-and-trial-period-appeals",
-          "published": "2026-08-03T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Streamlining Probationary and Trial Period Appeals"
-        },
-        {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
-          "link": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
-          "published": "2026-08-03T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Suitability Action Appeals"
+          "canonical_link": "https://eciks.org/20209-dennis-kirk-interior-inspector-general",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45Z0FPdUUtY3VXYTVvdV9PUmF1OTkzZWRYbC1uWEw4X0xMMTAtM2lhRWtVaEZTbF9BRmgtTGdXTTBkTWIwRXZ2dlFxR05DNlk0UWlVWmJMV2ZyN1BlS245MF9nS05ZUHZJQlF0cGNhdw?oc=5",
+          "published": "2026-08-10T21:26:38+00:00",
+          "publisher": "eciks.org",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump nominates Project 2025 author Dennis Kirk as Interior watchdog - eciks.org"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 0,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
+      "hits": 1,
+      "id": "inspector_general_retaliation",
+      "name": "Inspector General Retaliation",
       "override_note": null,
-      "primary_confirmed": 3,
-      "primary_documents": 3,
-      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/03/2026-15665/reduction-in-force",
-      "rationale": "OPM has issued a final rule modifying RIF regulations to prioritize performance over tenure and length of service. This is a real, published regulatory action that materially changes federal personnel protections by reducing seniority-based safeguards. While presented as merit-based efficiency, the shift from tenure-protective RIF procedures to performance-based retention creates a concrete mechanism for politicizing career civil service. This is a contained but credible stress signal\u2014a structural change to established civil-service protections, not a mass purge event or emergency action.",
+      "primary_confirmed": 0,
+      "primary_documents": 2,
+      "primary_source_url": "https://eciks.org",
+      "rationale": "A nomination of a Project 2025 author to an Interior Department inspector general position represents a credible signal of potential IG retaliation/compromise. Project 2025 is associated with aggressive executive agenda goals; placing such an author in a watchdog role raises legitimate concerns about inspector general independence and function. However, this is a nomination, not yet confirmation or demonstrated retaliatory action. The signal is real and repeated concerns about IG politicization have been documented, but the actual retaliation/compromise of IG function has not yet been verified as accomplished. This represents a contained, credible stress signal worthy of monitoring but not yet a serious structural threat.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 0
+      "unique_publishers": 1
     },
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "security_sector_neutrality",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
-          "link": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
-          "published": "2026-08-03T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Suitability Action Appeals"
+          "canonical_link": "https://www.justsecurity.org/149049/reinvention-blueprint-no-2-democracy-government-works/",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOckM4ZDdZeFgwLV9NanZHeUJpUUVSTFR6UjU2ckVYbDhsMEhsRlI4aEVJelJBSjlsR1p2N0RTN3gwa2JNeWtXNlFWY1pvWXdhVVIwZDVrY3l1U2lUT0hhcWs2Z1lQdFpjY2J2UV9VYnJjZGdYRmhsbFlRbjVPeTlYLVFIMjNUN2VROWhWeUlvMjZ2UkEz?oc=5",
+          "published": "2026-08-11T11:36:26+00:00",
+          "publisher": "Just Security",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Reinvention Blueprint No. 2: Democracy Works When Government Works - Just Security"
         }
       ],
       "evidence_mode": "ai",
+      "hits": 1,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "security_sector_neutrality",
+      "evidence": [],
+      "evidence_mode": "keyword",
       "hits": 0,
       "id": "security_loyalty_tests",
       "name": "Security Sector Loyalty Tests",
       "override_note": null,
-      "primary_confirmed": 1,
-      "primary_documents": 1,
-      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
-      "rationale": "This is a final OPM regulation that removes the Merit Systems Protection Board (MSPB)\u2014an independent adjudicative body\u2014from appeals of suitability actions and consolidates that authority within OPM itself. Suitability determinations affect federal employment eligibility and can be used to screen personnel. Removing independent oversight of such determinations and concentrating appeals authority within the executive personnel office constitutes a material shift in internal review mechanisms that could enable partisan loyalty filters in federal personnel decisions. This is a confirmed structural change to a coercive-state institution's internal accountability, though it remains procedural rather than involving overt purges or open defiance of courts. Severity 2: real, confirmed, official action affecting institutional independence in personnel matters.",
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
@@ -202,22 +203,13 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://www.newsbreak.com/easy-everyday-recipes-380399510/4819691046158-7-limits-on-trump-s-presidential-power-that-even-the-white-house-cannot-ignore",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN05aTXhjTzVhQXd6ZFM0TzF1WTZTRm5UUS0yalhmZFJsNGNJcjJOV29hVjV5UmdxalEtS2RWblN4ZEhfSFRUa3FlTU93ZzdrVDgxVFNHdTBMeUlncVI1eW9pbVIxTjg5MUQwdmdfZjRPeGNjSVREZ2JFVl9ydUpNa2ZEY3ZHeWZvcUtsaFZaY2d3dWc1aXRwcWdzTVc0SmRudThsZ3duYkp0aHNVc1U4YW5nNHpzMm0zVy02WFQ3dzRhSWszOEhleWRhY3NWbEdfbzNvUUxNWDFOTmRwdWcxZmVzbWM?oc=5",
-          "published": "2026-08-09T23:04:38+00:00",
-          "publisher": "NewsBreak: Local News & Alerts",
+          "canonical_link": "https://jacobin.com/2026/08/dsa-constitution-congress-presidency-reform",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGVjVPbm9EMEdwZC02YjVsOW9pdk1YSDMzTC0yd2RMeHFFM0w1cWNYOW8yTVY0TmJlTjdyQzc5MG40SjIyTUxHYjQyUFFGYkFHbFd2a3NSQ2hfM0gwTmREYXM3d0hLUXBJY0tZUU9yTUhySlNWTEx3OWphNA?oc=5",
+          "published": "2026-08-10T19:29:05+00:00",
+          "publisher": "Jacobin",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "7 Limits on Trump\u2019s Presidential Power That Even the White House Cannot Ignore - NewsBreak: Local News & Alerts"
-        },
-        {
-          "canonical_link": "https://www.freepressjournal.in/world/us-appeals-court-blocks-trumps-400-million-white-house-ballroom-project-pending-congressional-approval",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLXdWUk8tdTNaRTdwRXJHQld6R1B6YlBtZTFvX3l4aWVKUWs3Q3lSNi1CS2tEZkZUd1FObnZfRktQV1RnOHRPSG5aUVg5dThVaU5ZZWdud3Q1RmtkZjRsdHk4YkxsWWRTSlA5SGs3cnhoRDJMRHpmNkExUmtGelkwYUZmVllOUS1JOU92cVByV2NoQzNHNTBPaVh6dzhuUVpRenZDZDhtNE5ra0RWcW9NZlRnby1IT05QLUZpZS1qeUN5YlBkNjdIRVFVODRaMDVHS2M5VlN5d9IB3AFBVV95cUxOSTNVdDF0WEV1WnhMSXlLRHRzUnZhSW5HU1FRU21vNHdzUElPOFhzVzV2a2lTbm96eThWVXY3eUJmYTk0bWlCNEQ4ZlFhTElBT0k2ZzhFNmRUUUFGVzl0T1FfazNhcks4X2UzX0ZNYUItNW94TEVBNTY4TFBLaEJTRGZNRVdMcXV3R3pRMXd4LXh1dTJvU3RWVlNhdldPQi1iUjhpUVduRGFPZmNsUHh3RGFva2pRanhoTlN2emtMRmtFT1BYRFZ0Y3pmeTJmamlVRGlsSE90eWFtOXp0?oc=5",
-          "published": "2026-08-08T15:38:32+00:00",
-          "publisher": "Free Press Journal",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "US Appeals Court Blocks Trump\u2019s $400 Million White House Ballroom Project Pending Congressional Approval - Free Press Journal"
+          "title": "Socialists Need to Develop a Constitutional Politics - Jacobin"
         },
         {
           "canonical_link": "https://english.dainikjagranmpcg.com/international/trump-picks-presidential-immunity-lawyer-will-scharf-as-new-white-house/article-25549",
@@ -226,11 +218,11 @@
           "publisher": "Dainik Jagran MP CG",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump Names Will Scharf as New White House Counsel - Dainik Jagran MP CG"
+          "title": "Trump Picks Presidential-Immunity Lawyer Will Scharf as New White House Counsel - Dainik Jagran MP CG"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 2,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -239,7 +231,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -256,10 +248,19 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Trump tightens his grip on the US justice system - EL PA\u00cdS English"
+        },
+        {
+          "canonical_link": "https://www.facebook.com/rapplerdotcom/posts/catch-the-bisaya-rundown-of-the-highlights-of-the-sara-duterte-impeachment-trial/1598226072339455/",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUi1Wa3h6S3VOek5BSXVHY0kwTzlUeElJUk11UE90UzNjVmtfTk9mb1FFSmxXUXFYMC1SaU54Y3g3emZlMzY2bHFnY1FMcEJKOU5ZNmFyS2UxdGVOeGp1Rm0tUlJuRlhjSXJlX2pDM1RkSkVqNGpraU1saG9jbjlSOWtDT21YQmo4dlVZaUdieEE3Z3ZXOVN0T0swbGJ1Y2NwMFdzQmU2MGVJSXpJdkVZUHRnYkhEZUhDUUl2N1hrOER4QWR2RzBPb3lDOERGU20tM1dydVRPRTVHU2s?oc=5",
+          "published": "2026-08-10T11:52:06+00:00",
+          "publisher": "facebook.com",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Catch the Bisaya rundown of the highlights of the Sara Duterte impeachment trial days from July 29 to August 5 - facebook.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 2,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
@@ -268,26 +269,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     }

@@ -1,5 +1,15 @@
 {
   "civil_service_purge_schedule_f": {
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxOckM4ZDdZeFgwLV9NanZHeUJpUUVSTFR6UjU2ckVYbDhsMEhsRlI4aEVJelJBSjlsR1p2N0RTN3gwa2JNeWtXNlFWY1pvWXdhVVIwZDVrY3l1U2lUT0hhcWs2Z1lQdFpjY2J2UV9VYnJjZGdYRmhsbFlRbjVPeTlYLVFIMjNUN2VROWhWeUlvMjZ2UkEz?oc=5": {
+      "actor": "Just Security",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is an opinion/analysis piece from Just Security offering a framework or thesis about governance and democracy. The title and summary contain no reporting of an actual civil service purge, Schedule F reclassification event, or any concrete politicization action. It appears to be editorial content or policy analysis rather than documentation of a real occurrence. Without specific evidence that a Schedule F reclassification or at-will reclassification of career civil servants actually took place, this does not constitute evidence of the signal event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiugFBVV95cUxORTUzTHRfS0tWSmlZdE9rbUFXN0xuc013b2V2ZHZvbDVRQVVoanFjU3BvTG5zQkpIcGpaR3VFWnMtSldmbUl6RVB5S2FpXzBTZ3pXSG1LQjlXX3lpcWJfdEFaaEhLLVhoY2ZnNVAybHJ3TzFGWDNLbmlkOHhvSFN4U2ZrSjl4N2VabEx4LTR4WWt4Yk1HZzNpSm00NWhrUnZwV1hZVXl2a0Zsa3ZhS3dfTWtPTXc2c2lQdXc?oc=5": {
       "actor": "MSPB",
       "confidence": 0.92,
@@ -124,6 +134,16 @@
     }
   },
   "election_administration_capture": {
+    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hVGhDZVlubUViVVUyNmR6OFpWUDVmY05ROEtuLWJnMVRKdk9xeWdsdVBsZjVJRmpQTmhUV190ZTdkTlkyLVNSbnlLcDJxVFFNT1pKS1hCWGg?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item is a National Memo opinion/analysis piece with an alarmist headline using predictive framing ('preparing to hijack'). The summary provides no specific, verifiable facts about actual election administration capture or partisan control that has occurred. It appears to be opinion-based analysis or prediction about future risks rather than documentation of a real, completed action. Without access to the full article content confirming concrete instances of election administration being moved to partisan control, this constitutes analysis/commentary rather than evidence of an actual constitutional event. Headlines and predictive framings do not establish that an event has already occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZdDdMQW5GM21ra3hOcllwUm1uVlNOSUtrSmhya2JTMU13d2c5TF9SdGdPMVJ2ZUUtZXU2cThWSExYQldNSGtlZWF6bnJxSzlaU21Dc3VyZUhubmJ6dDFWTFRfcw?oc=5": {
       "actor": "Trump, Republicans",
       "confidence": 0.95,
@@ -312,6 +332,16 @@
       "rationale": "Facebook post reports White House 'considering' firing Cook. This is a secondary social-media report of administrative consideration. While the content mirrors item 0, the source is social media (lower credibility tier) and the action described ('considering') remains preliminary rather than accomplished.",
       "severity": 1
     },
+    "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOEpwWk1PbDJEV0tvcEhsQUEwR1dIRGhsZDN2OG5PRldFdWRzQXhiUXFzaDN4RFVkaEZwMHlyRUpEV1VrSnhiQmtES3JjaDBPLW1WZE1ZclRsdnh2T3JUaS1YT3o1MnhkYkNxcE4tREx6S3VLOEpjQkRoMkczb1ZKUV9OSXA4TEV4NURvczZXT3NpUVdIY2U1OFhsRTlhMWMxRDdiRDk0QmppTFV5bXhMMXZBMVdaanhfQmtneUtOckppS2g5UnZaZTZ0Tlg0Q085b2Jscg?oc=5": {
+      "actor": "Trump administration, Cleveland Federal Reserve President",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "The item documents a real occurrence: a sitting president is publicly pressing an independent agency (Federal Reserve) on policy decisions, and there is stated tension over Fed independence. This represents a credible but not yet structural stress signal. Public pressure on the Fed is not new, and the Cleveland Fed President is asserting independent judgment, suggesting the agency has not been captured. However, the ongoing pattern of political pressure on an independent agency's decision-making does constitute a repeated stress signal matching the independent agency capture concern. Severity is 2 (repeated/credible stress signal) rather than higher because the Fed retains formal independence and is publicly resisting the pressure, and this has not yet manifested as a structural weakening of safeguards.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiR0FVX3lxTE54MnBIWUg3Z2JFSS1OaURVQ1dOX3pRRnluaTlvd2tKWWp3cGEzaHJadUo5YUNPNk5xNGJxUU9EcVgxMk9qVGlV?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.65,
@@ -492,6 +522,16 @@
       "rationale": "Trump informing Cook that he is 'considering' her removal is an actual communication/statement, confirming an intent or consideration. However, 'considering' is not yet an accomplished action\u2014it is a preliminary step. This is a real occurrence but at the weakest end of agency-capture signal: a president signaling intent to remove an independent regulator.",
       "severity": 1
     },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX2diOVFiQnhSZ1Zwb2ViTTlzMkd1TGp3WG5ZaFhKLTBVV2ZtMVVjRlo2dktqbmNPbExycEU2TTZZX2NKTWw0OUZJLU8zR2ZYc2NmSmlEZGpacldKeTV4dXBUQUdlcEtZOFlxSUdHTkQ4bGlYbnJsVGpWLWJNcUJQTEhsMEdNS1FIMkZtS0E0cnJ5TEZDRkZmSHZaNUQ?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.85,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is opinion/analysis framing ('is exploiting') rather than reporting a verifiable constitutional-stress event tied to independent agency capture. The headline and summary make claims of wrongdoing but do not specify concrete actions that weakened regulatory independence safeguards. Without detail on what specific 'new powers' are being exploited and how they affect independent agency decision-making, this is editorial assertion, not evidence of the signal event. Abuse of executive power and agency capture are different concerns, and this item does not establish either with concrete fact.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT3AzUGFvU21YeEpHQzNtYUlDN1JPblhVUkRlRlp5QjYtbjg5TldJMU9CLW9kaFFlODdVNVZmM0tLVmQ3bEVUdndnWWQ1OWJWazduQWZaVmtFXzRNa3RsdTFVSUJQWWZnQjNwcnhXTGRPOGMyUTRubmF4TG1LTEVya09RUS1NMi1zRkdUM3B2SThmWk43RG90NUNwNnbSAaIBQVVfeXFMTUpWYmxHOGg1cUpvTndTM2VncnQwa3Z5b3VWb2ZldXI1bFJDZDhnYXhTemNmNUxjai1aUFl5Z01JNkh2MnBRN3VGaFFIRHZqbWlzYkxMMFU1RGloYktpeU5IMENtTUIzWnVvNEdOUWVFcDY0Z3N0MlB0YUhrV1ZGYnlSUmh4b3dadDlIbGlESGtsV21yVFhTS0xwSDNsa3l0X3pB?oc=5": {
       "actor": "N/A",
       "confidence": 0.95,
@@ -561,6 +601,16 @@
       "primary_source_url": "https://www.nbcboston.com",
       "rationale": "NBC Boston reports Trump administration 'moves ahead with efforts' to fire Cook. 'Moves ahead' indicates active pursuit of removal, not mere consideration. This is a concrete action in response to (or despite) prior judicial intervention. Severity 2: credible report of sustained executive pressure on independent regulator.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcEQyR3VNaDk5ZXMxd2cxMkJscVFCY1FMVWd0c2VoQ2hUUmI3cGxua0J0XzRVN0ttU2MwQ2ctb3M5RXJXV2RxbEh1d2Q5Y194SzBMbXUwMWxKazdXZl9rT0UxVTVUblUyQ2Vpb0swZngyQzFnZkF5ZFJONHF4cThZYV8xWGlIb01vSGdBb0k3ZDVKWnE5aFUtSFZtOU5PSlhhMTBDRjRpd2Y4eDhX0gGyAUFVX3lxTE1GZmFiZTFRbXFmckF2d3VJd1pIakpuZkFMZUpDS0d0ZWdiY09sNzB3MUUyUkNvTlFGTU95WGJ1dld6STFMVkZVaGwxcWd4bU05QTV5YWFVS21pbDA1WTNhUk9BellCYU1udmROXzZxZ0JyYXJzRkJhck9kdkduN0w1Smp5MGRVcWNxcXVJR3NhbVdzVFBjSk4ySTc1LUN3eXd5VVdKU21jc3pwYzl1cDdweHc?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a routine legal summary/digest of Supreme Court decisions. It contains no evidence of agency capture, weakening of independent regulatory decision-making, or any constitutional stress event. It is descriptive coverage of judicial decisions, not evidence of structural change to independent regulatory safeguards.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOHAyNDYxR2V4c0pxVFV2cFRSYm16MXdwdWpBUDhMb3J5b1VEbzBYWjUzOWlDTDFkNVE3OWMxTFF6Q3AxQmNGZllqTUlOOXZJMXRUd01BV3FRUXBjTHVRLVpTTk5QbTdsYjRPemFUNnpPc0FacnMteTh3dUcxaHdwNmVHdnkzRTdKU2VxQTV4Qy1IVWlyWnItS2c2Y24wd2RmWU9WN3JFbFFBS3Nka2c?oc=5": {
       "actor": "White House",
@@ -674,6 +724,16 @@
       "rationale": "The headline alleges (1) record destruction and (2) installation of a Project 2025 author in the Interior IG office. These are serious allegations that, if verified, would match the retaliation signal. However, the summary contains only an allegation ('allegedly shreds records') with no confirmation of actual occurrence, no official record, and no independent verification. The Center for Western Priorities is a policy advocacy organization, not an official record. This is a weak, unconfirmed signal\u2014an allegation requiring substantiation before elevation to higher severity. Treated conservatively as allegation, not verified event.",
       "severity": 1
     },
+    "https://news.google.com/rss/articles/CBMib0FVX3lxTE45Z0FPdUUtY3VXYTVvdV9PUmF1OTkzZWRYbC1uWEw4X0xMMTAtM2lhRWtVaEZTbF9BRmgtTGdXTTBkTWIwRXZ2dlFxR05DNlk0UWlVWmJMV2ZyN1BlS245MF9nS05ZUHZJQlF0cGNhdw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.68,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://eciks.org",
+      "rationale": "A nomination of a Project 2025 author to an Interior Department inspector general position represents a credible signal of potential IG retaliation/compromise. Project 2025 is associated with aggressive executive agenda goals; placing such an author in a watchdog role raises legitimate concerns about inspector general independence and function. However, this is a nomination, not yet confirmation or demonstrated retaliatory action. The signal is real and repeated concerns about IG politicization have been documented, but the actual retaliation/compromise of IG function has not yet been verified as accomplished. This represents a contained, credible stress signal worthy of monitoring but not yet a serious structural threat.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc3VmdGpDZkNJczRJWmxHNTZYbVRBVEVGVUJEMGlVbDZsckxEcV9GUlZPd2hndXpSRWpZcXJDejJfT2hnby1Bb1dOZjFCTFFibTFxQ0k5Zk5NRmtCVkdBNUJxYThSRmVDLXVEcTJweWFvNmpTYjBqQVpRSUplQ0ZLYW4wZkxMUldXTjU1blQyTjEtRVJrS1JGYncwVjlObk1oUUN2cDgzcDJ4TjRNWXBIYUNsLVNCeXFFSW5JMzdNdW00YzRfV1E?oc=5": {
       "actor": "U.S. Senate",
       "confidence": 0.9,
@@ -774,6 +834,16 @@
       "matches_signal": false,
       "primary_source_url": "https://timesofindia.indiatimes.com",
       "rationale": "This item reports court rulings finding that an administration violated rights\u2014a normal function of judicial review. It does not describe any official campaign, pressure, or punishment directed at judges for their adverse rulings. The headline describes the outcome (courts ruling against an administration), not judge intimidation. No sustained pressure on judges, threats to remove judges, or punitive action targeting the judiciary for their decisions is alleged. This is standard adversarial litigation outcomes, not evidence of a judge-intimidation campaign.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUi1Wa3h6S3VOek5BSXVHY0kwTzlUeElJUk11UE90UzNjVmtfTk9mb1FFSmxXUXFYMC1SaU54Y3g3emZlMzY2bHFnY1FMcEJKOU5ZNmFyS2UxdGVOeGp1Rm0tUlJuRlhjSXJlX2pDM1RkSkVqNGpraU1saG9jbjlSOWtDT21YQmo4dlVZaUdieEE3Z3ZXOVN0T0swbGJ1Y2NwMFdzQmU2MGVJSXpJdkVZUHRnYkhEZUhDUUl2N1hrOER4QWR2RzBPb3lDOERGU20tM1dydVRPRTVHU2s?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "facebook.com",
+      "rationale": "This item concerns Sara Duterte's impeachment trial in the Philippines (indicated by Bisaya language reference and Filipino political context). It is not a U.S. domestic event and therefore falls outside the scope of this constitutional-risk dashboard, which monitors U.S. constitutional stress. Additionally, an impeachment trial is a formal legal proceeding, not evidence of judge intimidation. No material signal for U.S. judge intimidation.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYWphSmNHWGM4SzZ0M0wyX0Zfc1ZkN1JMdUd1VGk0R1lkekFSODhxeERSTkYxSHVRMlhoOXJIRTg1dktTVXRHLVlDM2ZPV2o2Unh3TDlNbi1KLXNESWd1LXN5bHdqSEcxeHFCUlltUFl2V0dmbVpNOEt3Y0dSZWVveENsZFRGakdqOFVtNDVqSnFJaDk0R3pLN0lYZXViaHIzQ0xBR2x6Y3NWSzZfOFMyZ1RodkFJTWVPV1VGWXBtdzJ3cFRodk53SlQ2SFIzQWdKU2ZrWWdicHc4OHpQ?oc=5": {
@@ -978,6 +1048,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.tippinsights.com",
       "rationale": "This item is described as an analytical article about the presidency and perpetual war. It appears to be opinion/analysis or historical retrospective commentary rather than reporting on a specific verifiable event. No concrete action or bypass is identified. Does not constitute evidence of an actual legislative bypass event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGVjVPbm9EMEdwZC02YjVsOW9pdk1YSDMzTC0yd2RMeHFFM0w1cWNYOW8yTVY0TmJlTjdyQzc5MG40SjIyTUxHYjQyUFFGYkFHbFd2a3NSQ2hfM0gwTmREYXM3d0hLUXBJY0tZUU9yTUhySlNWTEx3OWphNA?oc=5": {
+      "actor": "Jacobin (publication)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://jacobin.com",
+      "rationale": "This is opinion/analysis content from Jacobin magazine with a title suggesting a normative argument about what socialists should do regarding constitutional politics. The summary provides no description of any actual governance action, legislative bypass, or executive overreach. It is a prescriptive article about constitutional theory, not evidence of an actual constitutional-stress event or executive action that shifted governance from statute to unilateral executive action. No real occurrence is described.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BRG5nODhZM05YWjNXdnM1ZHlHMkR2N1FqNkM0aW9HeEYzNnhaZVJaWEF0ZkhSUHNtZUlvb1R3bFZnb0I5OFhBMFVfRnhvRmdRM2pFejhhSE5VNUxSeTE4NXhTQUdMdVhGT3VaZmRvN2NYb2pIOGFvdEdtM3A?oc=5": {
@@ -1248,6 +1328,16 @@
     }
   },
   "opposition_ballot_exclusion": {
+    "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQzRmQnJTaU1zRU5mY19BNTlDemctUzhSU2dyaWg1Wm1vNFo3RGNibXpWN0hKOFVRZzNWWnZ6Q0JpWXBDcE5UQjVqQ3VkQVZDeTVHSTM3aTlTN1VSTTd5UjZSSjg3R1ZRVlo5UE84MzlQY25QRVg0dWNBN0NqVmZnU1ZydWkxMGhydkY2aFVic2lwVThNTWJ4LTBFdDViN21zYWNlLTl1UUQxa1J1SFlEelh1bkl0TGFBTmEweHIzZ1FXcTN2dTJreWUtWlh1OUxodGRoUkxTLVBiTndRamxBSWh5akFtMnNjOHlYS3dsSjFPMG5ZQWRla21B?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item discusses a state law interpretation and a hypothetical election scenario. No evidence that opposition candidates have been systematically excluded from meaningful participation. The headline uses conditional language ('could throw...into disarray') indicating speculation, not a verified exclusion event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYUVLa21UT2RQc1RqOHktaWlrT0k3ZDNwaWlHY0FIVGQtc21sUTBPVXNGTnUyRkpmVkpGSGc1WlpGY0dCOFZrQjdkdE16QWxqQnRIcVM5alJ3RUNEVkxZbDVGMC10RXlfZHE2SFlzUlUyVWw3RkREVzNPZXRKckl5eE5CeWNOWTRUa05wanVaWXVRNDNfTFlTN0lUd0NWVUV2WWpfRVZ2NVRJSmpxX083Y2NsYXdNS3BzTUdqbzRUNWp0azZ1NDJRVWZuLWN5UjF2d2fSAd8BQVVfeXFMT01PTEUzbWJXR25aOXAwY2w5eV9xcUFFa3BMMWI0YUtDbkFDaTB2YmRoSTdpZHF3LXRVbWxUMmYzMElicS1hT0N0LWdJemlsWkpLYmNpRWJWN240TkJRMlAyM00wTXlWWWJrMmNndHU0U184Mk9SQzctN1hOUFFyYWd2aUtxNnhiRW5yaFpWSldXX0Nnbmtyb0VrdVB1azZCWFgwMTdwSGJVN3cxdnR2UjdyMjRUOVplaXdQV0NVVEo1a19NRWtDMk40a2lScnc2WWR5MFNIT3BYRzduVWt4RQ?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -1266,6 +1356,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is an opinion/analysis piece about a Libertarian Party ballot strategy characterized as a 'Hail Mary' and likely failure. The headline and summary frame it as commentary on a political maneuver rather than documentation of an actual exclusion of opposition candidates from ballots. No evidence of systematic removal of opposition candidates from meaningful participation. No verifiable constitutional stress event described.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPLUV5dVlYWmdYRHMtU1IzUDN5MlRfWkNMTHYyNFFPUE5US1ZhSE5RV18yeVF1WGdja1cwZ21RQ0dYQmJrRjZnNTl0VEZmeGxSUnJnS296dGtnQnp2VnFWcFU3OTBFc2lSZ3BDclJibWdIYXJkN21UN0lqZDNCUmhrd0o3LW1lMnpiRTdNZ0lTY1E0SWl2NF9EWHM1TGVxb2JLcjNNb1YtOGNYVXBOUGpRdzdtUEdXR0ZFVHM0bHduN0JIbEZXMXdtR25xeXpnd1cyZFhMQVEzSUdqSVdMQlE?oc=5": {
+      "actor": "Russian Election Officials",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Event concerns Russia and the Russian Supreme Court, not the United States. Signal applies only to U.S. constitutional risk. Non-U.S. events are out of scope regardless of their severity.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQWxIU2w4aWpEbmNXS1c1V29DaEJ6d2l4WEVEZHdPRF9GZTVKZ29GNTAtVmVwb1JjSF9pMjFYb2VXa2hPNHJ4YVVBdzNFaXpDT3A2Qzk5TjEwUEpRVUNldENGaGJZU1F2aWFxZzlYLTJhN1pnNlQxN2RhQk50VmhtQ0xTM3VnUmQtVVEzV2VjWjFuRndBSzJXTFhnd0pxTjBGTjlpOXl0WEdJZGlkUXhXR2xWZzhMMlNmMGVVNmh2Z2o1eXNEY2locnIxZzdDSnNlcmwwWFVyRnRrLUdjSEHSAeQBQVVfeXFMTzFnUVhpQzhGUW5uT1FDQllnSjdiRUwwdzhTb29sX2FDbEZ5dVc0aG9tdzdFWHZRenNIQU1FUzJRbjFicnpPcDIxYzBYaS1YMWV6cDZhMTg1b1E0MktGaTBBSTdybkdZZEFsdGZXSGdhajh5SUY2allsdTVNRmlGZVc2X0lxZ3hDM1JhMkNJRDhoZ1FvdnU1RGtlTUFtRy1fdi1OTW5KRFE4S0dVQ1dUdjNtMkhfTzRpcnQwZHVta2dMVjZ1S1dPMmYxSWszVFdrT0Exd2k0dEYydmpYRzFPYlF2b2ND?oc=5": {
@@ -1288,6 +1388,16 @@
       "rationale": "An Instagram post from an Action Alliance Spokesman claims that people approached the party with settlement offers to remove them from a deregistration suit. This is a claim of alleged coercion or pressure to withdraw from legal action contesting deregistration/ballot access. However, the reference to '#2027Politics' and the party names (ADC, AAC, APC) suggest this may refer to a non-U.S. context (possibly Pakistan or another country with similar political naming conventions). Without clear U.S. domestic confirmation and relying on a low-credibility social-media-only source with unverified claims, this merits lower confidence and severity as potential evidence of U.S. ballot exclusion. The claim itself\u2014if true\u2014would evidence pressure/coercion but is not independently verified.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE02ZU1DeWdGTVFhWWxvMDYtSEVfY2tnb2NxWnp4blpDUm9TLXA5WDJGTmNsTktMX29QWXRHb2RoX0d3dkkweEhyQ2ZTaHhiandUSG5zRUI0Tk5saEc2bUs4WlJybWdhZ2Ruel9WRXZScmdCaC1hZlpj?oc=5": {
+      "actor": "Russian election officials",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Event concerns Russia and Russian elections, not the United States. Signal applies only to U.S. constitutional risk. Non-U.S. events are out of scope regardless of their severity.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Bcmdua3dCcEU2cUJJS1JHSTl1S1kwSW1hVktkVm0zdnYwWkU4Y0Z3emo4WC16TkVjelNHNHRCU0JCUEx6WmN5VlMwcXZiaFJYV3VPdnFFam5tazR6YXJsTVNpdkRCYnRNdE9BUUNhanpVcWhkWWt0YW8ycGZYZw?oc=5": {
       "actor": "PDP (Nigeria)",
       "confidence": 0.99,
@@ -1307,6 +1417,16 @@
       "primary_source_url": "https://www.honolulucivil.beat",
       "rationale": "A City Clerk announced that votes cast for a specific candidate (Tommy Waters) will not be counted, indicating removal of a candidate from meaningful ballot participation. This is a real administrative action, though localized to a single race and candidate. The severity is 2 rather than higher because it appears to be a single isolated case of disqualification (likely based on eligibility grounds) rather than a systematic campaign to remove multiple opposition candidates or a structural failure. The action is contained to one local race.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ2U1YUJhLW5iR19FVnZTQzdkcExEZmFCSFVkQmZrZEFMU1JwcGNCUm5VMUlLX3hHT1BESTF3M053VFU4VnRrQm9UUGptOWJJMmswSTRVaU1aajFyYmo0UHozYi1kSks3S19SdUhzRnpLdUFLUVIwV0NFTURhZGpSeFotMnNEV0wwOFlDclRWVFIzbks3TmJvOVAxSzdQalRDbUJDNW93?oc=5": {
+      "actor": "Russian Supreme Court",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Event concerns Russia, not the United States. Signal applies only to U.S. constitutional risk. Non-U.S. events are out of scope regardless of their severity.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa1IzNHFma0UwUkNWemxaSGw3UEpYNjI5a3gtNUc2NEQwc01NajFLNG1tdEE3dFRrTWRKbzRfbXYwU3RPemZ5aGRvNXl6Z1V0enZWc21uTjZCdE9ZdUl3cEVJSkx5NDlSNmdTa0dZZkg4dGx6RU9jOHJzOGxYTmF1Smozbk1Mem5oWFllSkNsS0ZFVzlvWUx5bVpic0pra3BTZ0NGSU11dXRoQdIBvgFBVV95cUxQOUhiMWRZSGJLUFFPZnJUWUg1SWdmRXpPSmtHTHB0NkMzT0RiRnNaYVhHTTlvdjBubWlkMXp4RG1Nc0Qtb1cwTFdyUERiQndISXNoUVJJN3YwQVloeUpQcmc3MEJXU0sydlBFRzFpcG8zX0NEbXVRTUNqdzUtOHZNOTFUdkRTYlRRMWRRcmNqZkczXzVPa0tmM2xjZ0xJa0l5REx5WnlOVS15cmoyNzRUdmMtMmpiOWlnTndkQTRn?oc=5": {
       "actor": "Honolulu election authorities",
