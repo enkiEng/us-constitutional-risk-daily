@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.55,
+  "average_7d": 11.02,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,8 +9,8 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -3.03,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -3.13,
   "domain_breakdown": [
     {
       "avg_severity": 0.0,
@@ -20,10 +20,10 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.19999999999999998,
+      "avg_severity": 0.08333333333333333,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.7499999999999999,
+      "points": 0.3125,
       "weight": 15
     },
     {
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.31666666666666665,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.4083333333333334,
+      "points": 1.0291666666666666,
       "weight": 13
     },
     {
-      "avg_severity": 1.8833333333333335,
+      "avg_severity": 2.1,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 4.708333333333334,
+      "points": 5.25,
       "weight": 10
     },
     {
@@ -55,10 +55,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.65,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 1.65,
+      "points": 1.3,
       "weight": 8
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-11T13:46:36.482145+00:00",
+  "generated_at": "2026-08-12T13:52:00.068393+00:00",
   "methodology_version": 2,
   "previous_score": 9,
   "primary_sources": {
     "documents_confirmed": 0,
-    "documents_fetched": 11,
+    "documents_fetched": 9,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,16 +86,25 @@
     "signals_queried": 20
   },
   "provisional": false,
-  "score": 9,
-  "score_raw": 8.52,
-  "score_raw_pre_trip_wire": 8.52,
+  "score": 8,
+  "score_raw": 7.89,
+  "score_raw_pre_trip_wire": 7.89,
   "successful_queries": 22,
   "top_signals": [
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 2,
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
+        {
+          "canonical_link": "https://blavity.com/trump-still-trying-to-fire-federal-reserve-boards-lisa-cook-despite-supreme-court-order",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkNZVnh3eHRIWTJmclJNaXMtWHBZV2czR09oLVFxeVlXdDdaSkZ4TXRZS2EyLUhiOEhaaG14YVY5Ti0zYzNWS3hPNzkzbV9jT2kzVUlmcHFYZG9PT1VPM3EzZzV4cmprNGxfS3Q4NllxTVdyaVJiaEFDUGg2LWZlUDdOTjYtZ2ZfbGE0WkdsMXdYZTM1U3VOYzE3SGNUcFo3S1RWRXdFWHpDc00?oc=5",
+          "published": "2026-08-11T14:08:24+00:00",
+          "publisher": "Blavity News",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump Still Trying To Fire Federal Reserve Board\u2019s Lisa Cook Despite Supreme Court Order - Blavity News"
+        },
         {
           "canonical_link": "https://news.futunn.com/en/post/77446227/cleveland-fed-president-says-multiple-rate-hikes-may-be-needed?futusource\\u003dnews_newspage_recommend",
           "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOEpwWk1PbDJEV0tvcEhsQUEwR1dIRGhsZDN2OG5PRldFdWRzQXhiUXFzaDN4RFVkaEZwMHlyRUpEV1VrSnhiQmtES3JjaDBPLW1WZE1ZclRsdnh2T3JUaS1YT3o1MnhkYkNxcE4tREx6S3VLOEpjQkRoMkczb1ZKUV9OSXA4TEV4NURvczZXT3NpUVdIY2U1OFhsRTlhMWMxRDdiRDk0QmppTFV5bXhMMXZBMVdaanhfQmtneUtOckppS2g5UnZaZTZ0Tlg0Q085b2Jscg?oc=5",
@@ -107,18 +116,18 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 5,
+      "hits": 8,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
       "primary_source_url": null,
-      "rationale": "The item documents a real occurrence: a sitting president is publicly pressing an independent agency (Federal Reserve) on policy decisions, and there is stated tension over Fed independence. This represents a credible but not yet structural stress signal. Public pressure on the Fed is not new, and the Cleveland Fed President is asserting independent judgment, suggesting the agency has not been captured. However, the ongoing pattern of political pressure on an independent agency's decision-making does constitute a repeated stress signal matching the independent agency capture concern. Severity is 2 (repeated/credible stress signal) rather than higher because the Fed retains formal independence and is publicly resisting the pressure, and this has not yet manifested as a structural weakening of safeguards.",
+      "rationale": "This item reports that Trump is 'still trying to fire' Federal Reserve Board member Lisa Cook 'despite Supreme Court order.' If accurate, this describes an explicit, ongoing attempt to remove an independent agency official in defiance of a Supreme Court directive\u2014a clear and serious action that weakens legal safeguards for independent regulatory decision-making and constitutes an official action contra judicial authority.",
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
+      "severity": 3.0,
+      "severity_label": "Orange",
+      "unique_publishers": 2
     },
     {
       "confirmed_hits": 1,
@@ -141,7 +150,7 @@
       "name": "Inspector General Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 2,
+      "primary_documents": 4,
       "primary_source_url": "https://eciks.org",
       "rationale": "A nomination of a Project 2025 author to an Interior Department inspector general position represents a credible signal of potential IG retaliation/compromise. Project 2025 is associated with aggressive executive agenda goals; placing such an author in a watchdog role raises legitimate concerns about inspector general independence and function. However, this is a nomination, not yet confirmation or demonstrated retaliatory action. The signal is real and repeated concerns about IG politicization have been documented, but the actual retaliation/compromise of IG function has not yet been verified as accomplished. This represents a contained, credible stress signal worthy of monitoring but not yet a serious structural threat.",
       "severe_hits": 0,
@@ -174,7 +183,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -193,7 +202,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -203,26 +212,35 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://jacobin.com/2026/08/dsa-constitution-congress-presidency-reform",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGVjVPbm9EMEdwZC02YjVsOW9pdk1YSDMzTC0yd2RMeHFFM0w1cWNYOW8yTVY0TmJlTjdyQzc5MG40SjIyTUxHYjQyUFFGYkFHbFd2a3NSQ2hfM0gwTmREYXM3d0hLUXBJY0tZUU9yTUhySlNWTEx3OWphNA?oc=5",
-          "published": "2026-08-10T19:29:05+00:00",
-          "publisher": "Jacobin",
+          "canonical_link": "https://hornreview.org/2026/08/12/between-sovereignty-and-territorial-reality-united-states-relations-with-somaliland-puntland-and-jubaland/",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPc0pCU19FS0lBRjBGeDJSbnF1QU14UjJ0T0Z5WUY0V3FFZjBXelZWbFhES2g0RHhmZHJmamdmM3JlQ3NuWXV1djVidWNaVUJyakJtS1pHcTd1dERjdGthZFB5azJMa1QwdzJscW1mU1I0Y1pwYUQxd0xNUzVURW1fc05iTFlIU09vWlM4YmgzLW14ZllVSTR5Ylg0RFVmV3Nmel8zVGtMcS04SHgzalYxUEo3ZV9jMUt0OWlvMlFtVW1ieEd6NTZuaTFfZUVFRVlMV2lHSVpFMA?oc=5",
+          "published": "2026-08-12T09:22:48+00:00",
+          "publisher": "horn review",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Socialists Need to Develop a Constitutional Politics - Jacobin"
+          "title": "Between Sovereignty and Territorial Reality: United States Relations with Somaliland, Puntland, and Jubaland - horn review"
         },
         {
-          "canonical_link": "https://english.dainikjagranmpcg.com/international/trump-picks-presidential-immunity-lawyer-will-scharf-as-new-white-house/article-25549",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQnBybVdockMtMnNXeWxMODVpYm1LcFZmenBqNFRyeXJpdjJERUZ5bXdLSGM3Qmo1RHVqMjNRVkdSWHh1RXJDd1dvLWdaZHVDeWJ0T0lqV2k3cmI2N0M1UjBkdFM2YnlYVWN3SElLTTNDQks0eDM5aE1zTzE0REJjLWZISGxBUXBLcWNSemduTHFOUk14dHllQWc4cnpGTlhnX0dfaFFnOXB0NnZDVVB2b0dGRlpkQjlKenItTU9LUDFvd3FINFZldzBqdGdLbW9QcVE?oc=5",
-          "published": "2026-08-10T12:08:05+00:00",
-          "publisher": "Dainik Jagran MP CG",
+          "canonical_link": "https://www.yahoo.com/news/politics/articles/judge-indira-talwani-blocks-trump-123354050.html",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbWdqLUVsTXVtSmtpV2hKOGVPNnd1bWdUMU5yYWgtWDlidHZyRnRrTUk5eEJiWExDSDVwcXV2ck1NSHp5RXZ0Zk52TkFkUmZ0ZC1IdWNSUWEwUTY0RHRJQTRyZHVKTFhfUTJCcHNtSDY4RDhwajluLTdmZ1czLTVFZVFhRTdnbzlydWwtX3lPLW9FeGZ0aW05TQ?oc=5",
+          "published": "2026-08-12T12:33:54+00:00",
+          "publisher": "Yahoo",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump Picks Presidential-Immunity Lawyer Will Scharf as New White House Counsel - Dainik Jagran MP CG"
+          "title": "Judge Indira Talwani Blocks Trump\u2019s USPS Ballot Plan as Election Officials Face a Race Against Time - Yahoo"
+        },
+        {
+          "canonical_link": "https://www.jdjournal.com/2026/08/11/usps-mail-voting-restrictions-blocked/",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY2p5Z0JsWEJHdi1YT1dVcGprbWpaRVlVd2hLN2pVMERISU5TZndJQkJaRHZEaXc0Vk91TVV6a1ZCc2VPai05SFNmMjdyWWU0ZUpVamxTOXF2dl95R0U2MlpScVcyZmZMbFhDRng1N2pDYU5tTHRzXzhiU3dLWnFEQg?oc=5",
+          "published": "2026-08-11T18:16:00+00:00",
+          "publisher": "jdjournal.com",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Judge Delivers Powerful Win for Mail Voting - jdjournal.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 3,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -231,7 +249,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -239,28 +257,9 @@
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "canonical_link": "https://english.elpais.com/usa/2026-08-10/trump-tightens-his-grip-on-the-us-justice-system.html",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTFVpS09oOWo1bWNXQXhkdEZQVUdqak02RjVvaEZSN2lJa1cwWGJJTFp6eEZuZm5NTlROd255VE1XLTF0TVJKOEFsNGFoZTBKZU4wOGwwejNCVndZc1c4MDFNS0pKM0FiOGJ4Sm1QQnJibHFLQnR0MUxSOVVEX091RzhXdVhxdm92eXJLZ0k4Q2pXLXI2bV9VRlN2MNIBrwFBVV95cUxQdkJ3Z3g2cHdKTlBadVZzUFg1TEZGVnctbnpfdWxmOVZNLWdJbFhyZkdXRS1PdFVlZG5tempRbXgyRTZ5SWpVa1lxMGthcTVlajZscWVaY3ljckNNZE1MMHlZWE91VnNEN2lDQ2dFQUJhZHlCdDNkQzFWR1lQM3hOWVMxNGtmZmhHaTREQnlKYkl1ZkxQTUpPdFp5dW53cGlKeXhNa1RweE5Eb0lxSWNz?oc=5",
-          "published": "2026-08-10T08:13:46+00:00",
-          "publisher": "EL PA\u00cdS English",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump tightens his grip on the US justice system - EL PA\u00cdS English"
-        },
-        {
-          "canonical_link": "https://www.facebook.com/rapplerdotcom/posts/catch-the-bisaya-rundown-of-the-highlights-of-the-sara-duterte-impeachment-trial/1598226072339455/",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUi1Wa3h6S3VOek5BSXVHY0kwTzlUeElJUk11UE90UzNjVmtfTk9mb1FFSmxXUXFYMC1SaU54Y3g3emZlMzY2bHFnY1FMcEJKOU5ZNmFyS2UxdGVOeGp1Rm0tUlJuRlhjSXJlX2pDM1RkSkVqNGpraU1saG9jbjlSOWtDT21YQmo4dlVZaUdieEE3Z3ZXOVN0T0swbGJ1Y2NwMFdzQmU2MGVJSXpJdkVZUHRnYkhEZUhDUUl2N1hrOER4QWR2RzBPb3lDOERGU20tM1dydVRPRTVHU2s?oc=5",
-          "published": "2026-08-10T11:52:06+00:00",
-          "publisher": "facebook.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Catch the Bisaya rundown of the highlights of the Sara Duterte impeachment trial days from July 29 to August 5 - facebook.com"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "judge_intimidation_campaign",
       "name": "Judge Intimidation Campaign",
       "override_note": null,
@@ -269,7 +268,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
