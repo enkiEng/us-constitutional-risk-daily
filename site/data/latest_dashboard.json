@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 11.02,
+  "average_7d": 10.13,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,7 +10,7 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -1.0,
-  "delta_vs_7d": -3.13,
+  "delta_vs_7d": -3.53,
   "domain_breakdown": [
     {
       "avg_severity": 0.0,
@@ -20,10 +20,10 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.08333333333333333,
+      "avg_severity": 0.0,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.3125,
+      "points": 0.0,
       "weight": 15
     },
     {
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.19999999999999998,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.0291666666666666,
+      "points": 0.6499999999999999,
       "weight": 13
     },
     {
-      "avg_severity": 2.1,
+      "avg_severity": 2.0,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 5.25,
+      "points": 5.0,
       "weight": 10
     },
     {
@@ -55,10 +55,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.475,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 1.3,
+      "points": 0.95,
       "weight": 8
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-12T13:52:00.068393+00:00",
+  "generated_at": "2026-08-13T13:51:41.302326+00:00",
   "methodology_version": 2,
-  "previous_score": 9,
+  "previous_score": 8,
   "primary_sources": {
     "documents_confirmed": 0,
-    "documents_fetched": 9,
+    "documents_fetched": 8,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,13 +86,13 @@
     "signals_queried": 20
   },
   "provisional": false,
-  "score": 8,
-  "score_raw": 7.89,
-  "score_raw_pre_trip_wire": 7.89,
+  "score": 7,
+  "score_raw": 6.6,
+  "score_raw_pre_trip_wire": 6.6,
   "successful_queries": 22,
   "top_signals": [
     {
-      "confirmed_hits": 2,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
@@ -104,58 +104,20 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Trump Still Trying To Fire Federal Reserve Board\u2019s Lisa Cook Despite Supreme Court Order - Blavity News"
-        },
-        {
-          "canonical_link": "https://news.futunn.com/en/post/77446227/cleveland-fed-president-says-multiple-rate-hikes-may-be-needed?futusource\\u003dnews_newspage_recommend",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOEpwWk1PbDJEV0tvcEhsQUEwR1dIRGhsZDN2OG5PRldFdWRzQXhiUXFzaDN4RFVkaEZwMHlyRUpEV1VrSnhiQmtES3JjaDBPLW1WZE1ZclRsdnh2T3JUaS1YT3o1MnhkYkNxcE4tREx6S3VLOEpjQkRoMkczb1ZKUV9OSXA4TEV4NURvczZXT3NpUVdIY2U1OFhsRTlhMWMxRDdiRDk0QmppTFV5bXhMMXZBMVdaanhfQmtneUtOckppS2g5UnZaZTZ0Tlg0Q085b2Jscg?oc=5",
-          "published": "2026-08-11T00:42:21+00:00",
-          "publisher": "\u5bcc\u9014\u725b\u725b",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Cleveland Fed President says multiple rate hikes may be needed to curb inflation, as Trump continues pressing for rate cuts, fueling debate over the Federal Reserve's independence - \u5bcc\u9014\u725b\u725b"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 8,
+      "hits": 2,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 0,
+      "primary_documents": 1,
       "primary_source_url": null,
       "rationale": "This item reports that Trump is 'still trying to fire' Federal Reserve Board member Lisa Cook 'despite Supreme Court order.' If accurate, this describes an explicit, ongoing attempt to remove an independent agency official in defiance of a Supreme Court directive\u2014a clear and serious action that weakens legal safeguards for independent regulatory decision-making and constitutes an official action contra judicial authority.",
       "severe_hits": 0,
       "severity": 3.0,
       "severity_label": "Orange",
-      "unique_publishers": 2
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "canonical_link": "https://eciks.org/20209-dennis-kirk-interior-inspector-general",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45Z0FPdUUtY3VXYTVvdV9PUmF1OTkzZWRYbC1uWEw4X0xMMTAtM2lhRWtVaEZTbF9BRmgtTGdXTTBkTWIwRXZ2dlFxR05DNlk0UWlVWmJMV2ZyN1BlS245MF9nS05ZUHZJQlF0cGNhdw?oc=5",
-          "published": "2026-08-10T21:26:38+00:00",
-          "publisher": "eciks.org",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump nominates Project 2025 author Dennis Kirk as Interior watchdog - eciks.org"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "inspector_general_retaliation",
-      "name": "Inspector General Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 4,
-      "primary_source_url": "https://eciks.org",
-      "rationale": "A nomination of a Project 2025 author to an Interior Department inspector general position represents a credible signal of potential IG retaliation/compromise. Project 2025 is associated with aggressive executive agenda goals; placing such an author in a watchdog role raises legitimate concerns about inspector general independence and function. However, this is a nomination, not yet confirmation or demonstrated retaliatory action. The signal is real and repeated concerns about IG politicization have been documented, but the actual retaliation/compromise of IG function has not yet been verified as accomplished. This represents a contained, credible stress signal worthy of monitoring but not yet a serious structural threat.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
       "unique_publishers": 1
     },
     {
@@ -164,17 +126,54 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "canonical_link": "https://www.justsecurity.org/149049/reinvention-blueprint-no-2-democracy-government-works/",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOckM4ZDdZeFgwLV9NanZHeUJpUUVSTFR6UjU2ckVYbDhsMEhsRlI4aEVJelJBSjlsR1p2N0RTN3gwa2JNeWtXNlFWY1pvWXdhVVIwZDVrY3l1U2lUT0hhcWs2Z1lQdFpjY2J2UV9VYnJjZGdYRmhsbFlRbjVPeTlYLVFIMjNUN2VROWhWeUlvMjZ2UkEz?oc=5",
-          "published": "2026-08-11T11:36:26+00:00",
-          "publisher": "Just Security",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Reinvention Blueprint No. 2: Democracy Works When Government Works - Just Security"
+          "canonical_link": "https://www.courtlistener.com/docket/74220062/1/mccann-alisha-v-united-states/",
+          "link": "https://www.courtlistener.com/docket/74220062/1/mccann-alisha-v-united-states/",
+          "published": "2026-08-11T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "McCann, Alisha v. United States"
+        },
+        {
+          "canonical_link": "https://www.courtlistener.com/docket/73734036/1/rosenzweig-v-blanche/",
+          "link": "https://www.courtlistener.com/docket/73734036/1/rosenzweig-v-blanche/",
+          "published": "2026-08-07T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "Rosenzweig v. Blanche"
+        },
+        {
+          "canonical_link": "https://www.courtlistener.com/docket/73732850/1/doe-v-school-board-of-duval-county-florida/",
+          "link": "https://www.courtlistener.com/docket/73732850/1/doe-v-school-board-of-duval-county-florida/",
+          "published": "2026-08-06T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "Doe v. School Board of Duval County, Florida"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 0,
+      "id": "inspector_general_retaliation",
+      "name": "Inspector General Retaliation",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 3,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "civil_service_purge_schedule_f",
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
@@ -183,7 +182,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -202,7 +201,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -212,35 +211,35 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://hornreview.org/2026/08/12/between-sovereignty-and-territorial-reality-united-states-relations-with-somaliland-puntland-and-jubaland/",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPc0pCU19FS0lBRjBGeDJSbnF1QU14UjJ0T0Z5WUY0V3FFZjBXelZWbFhES2g0RHhmZHJmamdmM3JlQ3NuWXV1djVidWNaVUJyakJtS1pHcTd1dERjdGthZFB5azJMa1QwdzJscW1mU1I0Y1pwYUQxd0xNUzVURW1fc05iTFlIU09vWlM4YmgzLW14ZllVSTR5Ylg0RFVmV3Nmel8zVGtMcS04SHgzalYxUEo3ZV9jMUt0OWlvMlFtVW1ieEd6NTZuaTFfZUVFRVlMV2lHSVpFMA?oc=5",
-          "published": "2026-08-12T09:22:48+00:00",
-          "publisher": "horn review",
+          "canonical_link": "https://constitutioncenter.org/blog/trump-mail-voting-executive-order-on-supreme-courts-radar",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZTJlM0RhYnhuM09zUjVFWGFYUUM5bUNfWHZNek5wcWphb1dGMVlXenMyVTVES0hOdUtXcWRWQnREWlVjUURMZ21VVFY5a195Y1NpUGRETXc2dTlJNjRESmJubENkS2l1RWo0QU5IaGRhdm01bm9tSWRzb1RCUU9MV1dUWUJvSXhJSjZKQUhBSE5KLVJSMVFwNNIBngFBVV95cUxNb25qdkt0bkU2ZlFaUXdIRUNqNXFXVk9GVWVsN1dfbHJUS3h3T2JNYkJZd0VsdGlQRzVlT21WY3VBZ0hnMFR0VUw0ZjFKZTlWLWxlRGktVklJNXJWUERBZHM2MjF1VWNyM1pYclVKeVpHN1NDcXFEQ19tOG5zV1A1azNhT1BOU1lnaWFSRlZjekE4WTZFNGE5dFR1eDVOUQ?oc=5",
+          "published": "2026-08-12T20:11:26+00:00",
+          "publisher": "constitutioncenter.org",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Between Sovereignty and Territorial Reality: United States Relations with Somaliland, Puntland, and Jubaland - horn review"
+          "title": "Trump mail voting executive order on Supreme Court\u2019s radar - constitutioncenter.org"
         },
         {
-          "canonical_link": "https://www.yahoo.com/news/politics/articles/judge-indira-talwani-blocks-trump-123354050.html",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbWdqLUVsTXVtSmtpV2hKOGVPNnd1bWdUMU5yYWgtWDlidHZyRnRrTUk5eEJiWExDSDVwcXV2ck1NSHp5RXZ0Zk52TkFkUmZ0ZC1IdWNSUWEwUTY0RHRJQTRyZHVKTFhfUTJCcHNtSDY4RDhwajluLTdmZ1czLTVFZVFhRTdnbzlydWwtX3lPLW9FeGZ0aW05TQ?oc=5",
-          "published": "2026-08-12T12:33:54+00:00",
-          "publisher": "Yahoo",
+          "canonical_link": "https://thenationaldesk.com/news/fact-check-team/fact-check-team-executive-orders-explained-how-much-power-does-a-president-really-have-white-house-authority-archives-congress",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPSTdpVVNpRDNXZXl0c0dib0lwakx4NHpJZUdvRnFQWGpSRVA1WTZLdmM4MTZfT3BtN1NGSjhUUFNjT21HLUhZOVhiam5iYlFRWWdvbGdaeHliUzB4UXpaek45WC1CS0h6SWlBWUxPNGdobkNZQ2R2MlBkVl83cnI5cEloRmc1RDFCWFhvNGlmNXlBWHo0UHRPNnVJYWdaRTMzek5VT1BCcmlCWVAyM0ZqaHl6S2ZlNFljdXptekRmSmFqVHp1dTFkNEhDak5RX1FvQUE1ZUQwVnJMeUVsNnVSN01SUWt4eWItS2pRY25KLV8zX2tIdGp4S1BMd29xaDVfMDhZX1Rn?oc=5",
+          "published": "2026-08-13T01:31:43+00:00",
+          "publisher": "National Desk",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Judge Indira Talwani Blocks Trump\u2019s USPS Ballot Plan as Election Officials Face a Race Against Time - Yahoo"
+          "title": "Fact Check Team: Executive orders explained. How much power does a president really have? - National Desk"
         },
         {
-          "canonical_link": "https://www.jdjournal.com/2026/08/11/usps-mail-voting-restrictions-blocked/",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOY2p5Z0JsWEJHdi1YT1dVcGprbWpaRVlVd2hLN2pVMERISU5TZndJQkJaRHZEaXc0Vk91TVV6a1ZCc2VPai05SFNmMjdyWWU0ZUpVamxTOXF2dl95R0U2MlpScVcyZmZMbFhDRng1N2pDYU5tTHRzXzhiU3dLWnFEQg?oc=5",
-          "published": "2026-08-11T18:16:00+00:00",
-          "publisher": "jdjournal.com",
+          "canonical_link": "https://www.americanprogress.org/article/the-trump-administration-is-interfering-in-the-2026-midterm-elections-to-entrench-the-imperial-presidency/",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSDM1dkxielZMa3RLOXJ3R3VUeHJ3b1NLdkVHamU4TVJWR185YW9ZX1pKRks0U05jRlVjcFlhQWZOdkp6Vl8tZ2JlZnI3SGI5TlV0NFFEbU9MZGtvNmdBTmtGYjZPSU9jUzRaSmlKMjhSS2VIc0lYT2Njcl9Nd3ZSZzZWSXBFS0pGdXhQV2ZVNEJqZ0JPd2gtUXhudC1Ib2ladUxaaE53S3JydEQyMzhkSDhLTmg0dVZzOXY1MUI3bmladVlRZDhMTDhiMFE3dmxEUWdkRld1Y19KTTl2NlVGUg?oc=5",
+          "published": "2026-08-12T13:03:35+00:00",
+          "publisher": "Center for American Progress",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Judge Delivers Powerful Win for Mail Voting - jdjournal.com"
+          "title": "The Trump Administration Is Interfering in the 2026 Midterm Elections To Entrench the Imperial Presidency - Center for American Progress"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 8,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -249,26 +248,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "judge_intimidation_campaign",
-      "name": "Judge Intimidation Campaign",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     }

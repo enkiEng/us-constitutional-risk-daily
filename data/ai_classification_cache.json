@@ -62,6 +62,16 @@
       "rationale": "This is a headline indicating that litigation has been filed against the Trump Administration. The existence of lawsuits (750+) is not evidence of court-order noncompliance; it merely documents that legal challenges have been initiated. No specific court order or instance of noncompliance is described in the summary. This is a general tracking item, not evidence that any actual noncompliance with a court order occurred.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUmhhaGZqWUJDQWhyd29OcmNEcDRiMFNST29IcVM2ZXN1UXoxV2VUY3ZoNms4Y1pHOHhNSHJGSjRFWTVDdDhMZDhndExMTUlqNzNmQk9PMUJkc3lTV3ZiMGtQaUZqRTAyMXE4NGxnVkg3QkNQdld6cE5QVW1GSUpJOVhBVVlSeWduaUF2azZiVTJqbmF3U01vcNIBngFBVV95cUxPcFFwbTRJeUZ1MlpIUjlDTFJLb2EzQl9fT1p1ajMwZWh3MnA3ZEJ1S0tWZzNNaVVwQ3VQa2sxSTJYUFJfZmJUVVhkLXRfSDJhRzFyU0ptbWc5cXp3NE5FQU53V2VkMmVfdXNvSV9STEdCcGxJS0ZDaFpudXZGVUdMYkZqR3AwMDdCQWNobEhxTjI3N3JGak84cEI5UDlVQQ?oc=5": {
+      "actor": "Air Peace unions (Nigeria)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns allegations of court-order noncompliance in Nigeria, not the United States. The signal specifically targets U.S. constitutional risk. Non-U.S. events are not evidence of U.S. constitutional stress.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/67935987/505/united-states-v-bock/": {
       "actor": "Aimee Marie Bock and USCIS (parties)",
       "confidence": 0.98,
@@ -130,6 +140,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/73721798/3/tayupanta-llumitasig-v-warden-elizabeth-contract-detention-facility/",
       "rationale": "This is a routine habeas corpus petition docket entry in a district court case. It documents the filing and initial processing of a legal petition, not any instance of court-order noncompliance. The text order excerpt shows standard judicial procedural review. No evidence of executive or administrative refusal to comply with a court order is present.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/73738559/5/garcia-castro-v-larose/": {
+      "actor": "District Court, S.D. California",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/73738559/5/garcia-castro-v-larose/",
+      "rationale": "This is a routine procedural order consolidating two cases and setting briefing deadlines. It is a court issuing an order, not evidence of executive or administrative noncompliance with a court order. No refusal to comply with any court directive is described or evidenced.",
       "severity": 0
     }
   },
@@ -288,6 +308,16 @@
     }
   },
   "election_delay_or_cancellation": {
+    "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSDM1dkxielZMa3RLOXJ3R3VUeHJ3b1NLdkVHamU4TVJWR185YW9ZX1pKRks0U05jRlVjcFlhQWZOdkp6Vl8tZ2JlZnI3SGI5TlV0NFFEbU9MZGtvNmdBTmtGYjZPSU9jUzRaSmlKMjhSS2VIc0lYT2Njcl9Nd3ZSZzZWSXBFS0pGdXhQV2ZVNEJqZ0JPd2gtUXhudC1Ib2ladUxaaE53S3JydEQyMzhkSDhLTmg0dVZzOXY1MUI3bmladVlRZDhMTDhiMFE3dmxEUWdkRld1Y19KTTl2NlVGUg?oc=5": {
+      "actor": "Center for American Progress",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.americanprogress.org",
+      "rationale": "This is an opinion/analysis headline from a think tank, not a report of a verifiable event. The framing ('Is Interfering') presents a political argument about alleged interference, not confirmation that an election delay or cancellation occurred or that timelines were altered outside constitutional pathways. Without specific, documented actions (e.g., an official order to postpone voting, a court ruling preventing elections, or a statutory change enacted), this is analysis or allegation, not evidence of the signal event. Severity remains 0.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMihAFBVV95cUxONHlpVjNHWVA4dWtoY3ZsMUpFZ28tSjgxck9GTHVFaTEyTVBPbXAyY2diNjcxTF81b19nMFFpOTdJclRUejR0cUpxVHhjeE1HUlFXMHhkVTVfNUNOM1VsdEVpWjZ0UnpfenY5Z2NZQWNSdTlHYlZfSno0ckhsX2dVRTBPS2M?oc=5": {
       "actor": "Fiji government",
       "confidence": 0.99,
@@ -308,6 +338,16 @@
       "matches_signal": false,
       "primary_source_url": "t.co",
       "rationale": "This item reports that a political figure 'leaves open the possibility' of using emergency powers\u2014a hypothetical or speculative statement about what someone might do, not a confirmed action or actual use of emergency authorities to bypass legislative process. Possibility, intention, or threat to use powers is not the same as actually using them to circumvent ordinary processes. No emergency powers were verifiably invoked or deployed according to this summary.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBY0NzNjRsRWxaUVpCeHJoN1dncDlqQ2hKLTVhWHBVekQ0emVwZEt1dk05LUItOWpNckZydnJDeEVHTWU0YWNIZzlkemlid2p3U0w2RGI5ZFJXNFIyNHlOdXhyVjc0TVNNQzNaSXpLVQ?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "The headline uses the word \"considers,\" which indicates a hypothetical or prospective action, not a confirmed occurrence. No emergency has been declared or invoked. This is speculative reporting about what someone might do, not evidence that emergency powers were actually expanded or used to bypass legislative process. The source domain (sekbernews.id) is not a recognized U.S. news outlet and lacks credibility. Without independent verification or official documentation of an actual emergency declaration or emergency power invocation, this cannot be classified as real evidence of the signal event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUlQN3lOZGtTT0JXMXg1eWVHa1RhSFpaMlI5VnJlSTNidWJpTGNycEhUYnUza1dxaWU4NFd5aUkxTDgyLV93b0NJbGE4Q0FMZDVQalVOY29FSlNwNTdLcDRfVzVKS1R6UWtzSlQtVU9zMi1GUkJFUkhqZ1pIVzFqckNPbHlna3pudXBjcXlxN0JwcmlSWDhqR0I2ZGplenhLT1U5QUItUUgwM1RXLTkwUw?oc=5": {
@@ -791,6 +831,16 @@
       "primary_source_url": "",
       "rationale": "Item 0 is a headline question or opinion piece about the fate of independent adjudication and civil service. The title uses interrogative phrasing ('The Fate of...?'), which signals this is likely speculative analysis, commentary, or a think-piece rather than reporting a concrete event that occurred. Without access to the full article text, the headline alone provides insufficient evidence of an actual occurrence of regulatory capture or weakening of legal safeguards. This appears to be discussion or concern about potential risks rather than documentation of a verifiable action.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/": {
+      "actor": "FDIC",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/",
+      "rationale": "This is a routine administrative/regulatory appeal in which a bank-affiliated party challenges FDIC action. The case caption alone does not indicate any weakening of independent regulatory safeguards, defiance of court orders, or structural constitutional failure. It is a normal adversarial proceeding before the courts, which is precisely the mechanism by which independent agency decisions are reviewed and checked. No evidence of agency capture, removal of legal safeguards, or constitutional stress is present in the limited information provided.",
+      "severity": 0
     }
   },
   "inspector_general_retaliation": {
@@ -1130,6 +1180,26 @@
       "rationale": "The Trump administration filed a request with the Supreme Court seeking approval for an executive order restricting mail-in voting for midterm elections. This represents an attempt to implement major electoral restrictions through executive action rather than legislation, which is a credible signal of legislative bypass. However, the action is a petition request (not yet approved or implemented), and it was apparently blocked by an appeals court per item [2], limiting its current severity. This is a real, confirmed action by an official entity attempting executive overreach on electoral matters.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYmhYbzV6MVF5aTN4X0N2eG9SLVRFLWgxYUNPZ3czV1RuVDZrbFRsem5XaEozeUhfeXlvSUYyUlFoR3hnOGtDczh0WUs4UHpHR3ZQVHZtLWpSbXV3MUtMZWZKOVNubktRMHUzM0dlUU1jS0hRd3JObGlkRXVwS2ZVd0Z3MmJfRUZSbGdLN2hZc0MybDJJMTEycUFGX3VzRkVQclNGbm1PNnFhd2VuZ3ZWbzY0WDlSVkp4bWJEckJfUEVFcUwzMzFwbjZtSHMtS0J4V2F6NHIyeC0yd3UxS0E?oc=5": {
+      "actor": "",
+      "confidence": 0.02,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://wciv.com",
+      "rationale": "This article reports on crime statistics trends. It is unrelated to executive power, legislative bypass, or constitutional governance and does not match the signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSDM1dkxielZMa3RLOXJ3R3VUeHJ3b1NLdkVHamU4TVJWR185YW9ZX1pKRks0U05jRlVjcFlhQWZOdkp6Vl8tZ2JlZnI3SGI5TlV0NFFEbU9MZGtvNmdBTmtGYjZPSU9jUzRaSmlKMjhSS2VIc0lYT2Njcl9Nd3ZSZzZWSXBFS0pGdXhQV2ZVNEJqZ0JPd2gtUXhudC1Ib2ladUxaaE53S3JydEQyMzhkSDhLTmg0dVZzOXY1MUI3bmladVlRZDhMTDhiMFE3dmxEUWdkRld1Y19KTTl2NlVGUg?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.25,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://americanprogress.org",
+      "rationale": "This is an opinion or advocacy piece from a partisan policy organization alleging that the Trump Administration is interfering in elections and entrenching executive power. The framing as 'interfering' and 'entrench[ing]' the presidency suggests criticism of executive overreach, but the item itself is advocacy rather than reporting of a verifiable, concrete action. No specific legislative bypass or executive order is detailed; this is accusation and interpretation, not evidence of an event.",
+      "severity": 1
+    },
     "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN05aTXhjTzVhQXd6ZFM0TzF1WTZTRm5UUS0yalhmZFJsNGNJcjJOV29hVjV5UmdxalEtS2RWblN4ZEhfSFRUa3FlTU93ZzdrVDgxVFNHdTBMeUlncVI1eW9pbVIxTjg5MUQwdmdfZjRPeGNjSVREZ2JFVl9ydUpNa2ZEY3ZHeWZvcUtsaFZaY2d3dWc1aXRwcWdzTVc0SmRudThsZ3duYkp0aHNVc1U4YW5nNHpzMm0zVy02WFQ3dzRhSWszOEhleWRhY3NWbEdfbzNvUUxNWDFOTmRwdWcxZmVzbWM?oc=5": {
       "actor": "Unknown/Opinion writer",
       "confidence": 0.95,
@@ -1138,6 +1208,16 @@
       "matches_signal": false,
       "primary_source_url": "https://newsbreak.com",
       "rationale": "This is an opinion or analysis piece about legal limits on presidential power. It does not describe or verify that an actual legislative bypass or unilateral executive action occurred. It is prospective/theoretical commentary, not evidence of a real event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi5gJBVV95cUxPNVlrZmkyTUlOcERsb2xIcG9UaFF0NnprVjNFcE9HNWRVNllJek95elhkcTA4dnpZbGwwcnNtV19pbzlwOUhTWVJKcFdCVnczS0NNUGplMkxKYXROOExJUHE4WmJkV1VuX1g3d1B0T016elpvVzZSY25RWjMxaUk0MG1SdmtuVWVlMjJBSFlVdXNNOG1iNFRlajlsYnYwLW5xZ0NyaC1TVmoxSzdJY0tUOXlLeW0wdXJPUDdaOUdqeG1LenFfcE4tWjVzZVlvZ283emZZbm9pZ1dfTWhBNmRjaTdkdHVMdVZtUlJMVjBhRm8tWkp3RWJpV1REVkFNWEZkMTloZUlaLXUwTk9sY2J2cDR1ZE1pcEpUTWhoOGhJZ1V3NUJXT2NaMGpxUGhGaGhmV2EtNGtfNGFMOEROVWRUUU9VbmYtTFdreVo3ZmZlOS13b3REcTBjb3UtbzhDX21fUUVXcTJ3?oc=5": {
+      "actor": "",
+      "confidence": 0.02,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://wztv.com",
+      "rationale": "This article reports on cost-of-living data by city. It is unrelated to executive power, legislative bypass, or constitutional governance and does not match the signal.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sc0NtT3lLSEl6NlhDR3hPcDhaRzhCYWVRallDcWl4aS1IYkNJZ2xIeWVvLWR5dHpncVJrVmswODRoNDZNR3l2NVBYWkM3aGhZSmlCWUZ0dXJwZw?oc=5": {
@@ -1210,6 +1290,16 @@
       "rationale": "This is a headline stating a judge delivered a 'win for mail voting.' Without detailed context, this appears to be a judicial decision protecting or affirming voting procedures, likely against an executive or state action that sought to restrict them. This is consistent with courts checking executive/legislative power, not with legislative bypass by executive. Does not match the signal of executive unilateral action circumventing statute.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMihgJBVV95cUxPSTdpVVNpRDNXZXl0c0dib0lwakx4NHpJZUdvRnFQWGpSRVA1WTZLdmM4MTZfT3BtN1NGSjhUUFNjT21HLUhZOVhiam5iYlFRWWdvbGdaeHliUzB4UXpaek45WC1CS0h6SWlBWUxPNGdobkNZQ2R2MlBkVl83cnI5cEloRmc1RDFCWFhvNGlmNXlBWHo0UHRPNnVJYWdaRTMzek5VT1BCcmlCWVAyM0ZqaHl6S2ZlNFljdXptekRmSmFqVHp1dTFkNEhDak5RX1FvQUE1ZUQwVnJMeUVsNnVSN01SUWt4eWItS2pRY25KLV8zX2tIdGp4S1BMd29xaDVfMDhZX1Rn?oc=5": {
+      "actor": "National Desk",
+      "confidence": 0.05,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://nationaldeskdotcom",
+      "rationale": "This is an explanatory or educational piece about how executive orders work and the scope of presidential power generally. It is analysis and background, not reporting on a specific executive action that bypassed the legislative process or constitutes unconstitutional governance.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY0dCdjNjRkJsUGdDazg1YS1HOTZtNVBrQmlzT2NIYmNXVGN1cWNtOE9GSGlrRklxUFM0UDFCWjJDQXRxV2diM3BlNmdRVnQ0UEZjeERRSnZ4MDVjdUQ4U3docjhxNXNVNjNMZFUzVldVbG5NTm1qb1JkNjlZN084UVhKSF92eGlEeU9WM2tR?oc=5": {
       "actor": "Appeals Court",
       "confidence": 0.75,
@@ -1240,6 +1330,16 @@
       "rationale": "This is an opinion/commentary piece from Daily Kos with only a headline fragment provided. The title 'He is Such a Peach' appears to be editorial commentary or satire rather than reporting of an actual event. No verifiable constitutional action, executive bypass of legislation, or governance shift is described or evidenced. The item lacks substantive content describing any real occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdERaT2ZSSVdRN2JfOFAwY2tMWENhb2FtUDhmYVBoS3hPT1dBX0p6NEE2RURmX3FqOE9EVDh6QnRNTlhaWm8tMUdGMWkyWElLQUlmeUJXNFRWRUJBbWphYlh5LTFIdlBmZVhfbVlaQ0RtMEY2TnkxblZPQWJ6bjVBXzNtWEp5enpHTWQ3aUs0bU1KUlU?oc=5": {
+      "actor": "Asiedu Nketia",
+      "confidence": 0.01,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://myjoyonline.com",
+      "rationale": "This item concerns Ghana's political system and governance, not the United States. It is geographically outside the scope of U.S. constitutional risk assessment.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0tpYVgxWnRFc2tjdXc3d0Jqd0tZRGRrclI3dGl6UXRRemZGR2JvZXlST1lYOE55ekpJcTg1Z3cyOUF6VGlabjNfWVktc2JfTi1OVDNiQ1hia3h3NE40UmlCZmV1YjZkeV9fY1VWNXM3eVdJb0NacXJrWFdkemUyX09CelMyMjZJQVI2Q3lScWdKQlM3SFM4?oc=5": {
       "actor": "AFGE (American Federation of Government Employees)",
       "confidence": 0.95,
@@ -1248,6 +1348,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a summary/explainer article about lawsuits and litigation procedures, not evidence of a specific executive bypass of legislative authority. The headline indicates it is educational content about 'how litigation works' rather than documentation of an actual governance action shifting from statute to unilateral executive action. No material signal of legislative bypass is present.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZTJlM0RhYnhuM09zUjVFWGFYUUM5bUNfWHZNek5wcWphb1dGMVlXenMyVTVES0hOdUtXcWRWQnREWlVjUURMZ21VVFY5a195Y1NpUGRETXc2dTlJNjRESmJubENkS2l1RWo0QU5IaGRhdm01bm9tSWRzb1RCUU9MV1dUWUJvSXhJSjZKQUhBSE5KLVJSMVFwNNIBngFBVV95cUxNb25qdkt0bkU2ZlFaUXdIRUNqNXFXVk9GVWVsN1dfbHJUS3h3T2JNYkJZd0VsdGlQRzVlT21WY3VBZ0hnMFR0VUw0ZjFKZTlWLWxlRGktVklJNXJWUERBZHM2MjF1VWNyM1pYclVKeVpHN1NDcXFEQ19tOG5zV1A1azNhT1BOU1lnaWFSRlZjekE4WTZFNGE5dFR1eDVOUQ?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.15,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://constitutioncenter.org",
+      "rationale": "This item reports that an executive order is 'on Supreme Court's radar,' indicating the order exists and litigation may be pending. However, without detail on whether the order has actually been issued, what it contains, or whether it represents a genuine legislative bypass versus a lawful exercise of executive authority, this is insufficient to confirm the signal occurred. The headline alone does not establish that a governance action has shifted from statute to unilateral executive action in violation of constitutional norms.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbWdqLUVsTXVtSmtpV2hKOGVPNnd1bWdUMU5yYWgtWDlidHZyRnRrTUk5eEJiWExDSDVwcXV2ck1NSHp5RXZ0Zk52TkFkUmZ0ZC1IdWNSUWEwUTY0RHRJQTRyZHVKTFhfUTJCcHNtSDY4RDhwajluLTdmZ1czLTVFZVFhRTdnbzlydWwtX3lPLW9FeGZ0aW05TQ?oc=5": {
@@ -1352,6 +1462,16 @@
     }
   },
   "legislative_oversight_obstruction": {
+    "https://news.google.com/rss/articles/CBMifEFVX3lxTE42Y0NJUkxyX1huekZETHRleEI5Q2s0UzlVMUVhbzJubWp2M25XdEJWTEU5ZFJnUjVfYk15MkFaMTRBWnR3TXhpYjVIbURYQzk2ZnhINzZhTGFyZkU5Qk5GZ1loZGJFbmFPSGRhWWZEc01TZVBtdWVBRUtUaks?oc=5": {
+      "actor": "Watchdog Group (unspecified)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports a watchdog group's call for an appeals court to revisit a conviction. It describes a request or advocacy position, not a verification of legislative oversight obstruction. No systematic barriers to fact-finding or executive accountability are described. The item does not constitute evidence of the signal (legislative oversight obstruction). A watchdog group petitioning a court is routine democratic participation and legal process, not obstruction of legislative oversight. No specific action by government to obstruct Congress or impede accountability is detailed.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/73690657/2/in-re-subpoenas-on-boris-epshteyn/": {
       "actor": "Executive Office of the President",
       "confidence": 0.75,
@@ -1588,6 +1708,16 @@
       "rationale": "Event concerns Russia, not the United States. Signal applies only to U.S. constitutional risk. Non-U.S. events are out of scope regardless of their severity.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxPelFVandRY3RuenFlUm1ZZ2VtdjNnUGFNNjBaVjE0SVphSy13Q2ZyUHlLWWw2cHNSbUxRX2dBdC10TmZaMXZQdXdFaU5ZMURNZ2htWWU5SXdiOWo0dVlKSW9vbFpjbndad2l3dlU5TjhyWkEwQTlzbE9Eem9iM3NwTF9uVzRxbnZSQm8xLU9pS3FGWkZTanZoOGtMYjRMeXc1dlJJQ1Vn0gGmAUFVX3lxTE96UVVqd1FjdG56cWVSbVlnZW12M2dQYU02MFpWMTRJWmFLLXdDZnJQeUtZbDZwc1JtTFFfZ0F0LXROZloxdlB1d0VpTlkxRE1naG1ZZTlJd2I5ajR1WUpJb29sWmNud1p3aXd2VTlOOHJaQTBBOXNsT0R6b2Izc3BMX25XNHFudlJCbzEtT2lLcUZaRlNqdmg4a0xiNEx5dzV2UklDVWc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Bangladesh (Dhaka Tribune, Dhaka jurisdiction), not the United States. The signal applies to U.S. constitutional stress. Non-U.S. events are out of scope regardless of thematic relevance.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQa1IzNHFma0UwUkNWemxaSGw3UEpYNjI5a3gtNUc2NEQwc01NajFLNG1tdEE3dFRrTWRKbzRfbXYwU3RPemZ5aGRvNXl6Z1V0enZWc21uTjZCdE9ZdUl3cEVJSkx5NDlSNmdTa0dZZkg4dGx6RU9jOHJzOGxYTmF1Smozbk1Mem5oWFllSkNsS0ZFVzlvWUx5bVpic0pra3BTZ0NGSU11dXRoQdIBvgFBVV95cUxQOUhiMWRZSGJLUFFPZnJUWUg1SWdmRXpPSmtHTHB0NkMzT0RiRnNaYVhHTTlvdjBubWlkMXp4RG1Nc0Qtb1cwTFdyUERiQndISXNoUVJJN3YwQVloeUpQcmc3MEJXU0sydlBFRzFpcG8zX0NEbXVRTUNqdzUtOHZNOTFUdkRTYlRRMWRRcmNqZkczXzVPa0tmM2xjZ0xJa0l5REx5WnlOVS15cmoyNzRUdmMtMmpiOWlnTndkQTRn?oc=5": {
       "actor": "Honolulu election authorities",
       "confidence": 0.75,
@@ -1680,6 +1810,16 @@
       "rationale": "This item concerns Italy and Italian PM Meloni's security policies. Not a U.S. domestic event. Signal applies only to United States constitutional risk.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxNT2pQd2RMdWJxbjI3ZlZrSnF1b2twMXFOSFNoZTJBTW80NWN2OEhQOUMxMVdOenF6aDdDenAyeUk5WkF4UUpxSGdwaU5HdFJPUnlEd3VEdE8wMWVfNXNyQjNQcHlrT2xFaXZWWFg4OGh6b0FmY2x1RHZJMVdYV0hoQlN1QXZkNURDOTI1dzQ4MU1nMDBlcEtvbHdfaV9oODJBMmxsanV0NHhPcmVIMjNyMEItbVFlaUE?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "streamlinefeed.co.ke",
+      "rationale": "This item concerns a parliamentary matter in India involving BJP MP Ravi Shankar Prasad and a Home Minister letter. It is not a U.S. domestic event and therefore does not constitute evidence of the signal (Political Speech Criminalization or Surveillance in the United States). The signal explicitly applies to constitutional stress in the United States only.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWjY2YzFqZUlheVlZOGdWSzg0VEZUWHk0OVVNNzRxczkyN1BYVTVMOG05SEQ3VG0zcW9kbTVIRDZmYWtyY01LQzhlYWVqNjVaNlljN2pHSmF4RnpmdERUSzN0YnZvOEZXRTZ6cFc1UE1BTm5IdXZscndHbVgwRjhqRmd0b0dQNzdkSzJGNnJkaENaLWU5RklOOS1QWDJ6X0kxZlpYYW5lRWZDc3pXQlo0b2JJQTBSNEdhVUs0Z250bXM?oc=5": {
       "actor": "N/A",
       "confidence": 0.95,
@@ -1702,6 +1842,16 @@
     }
   },
   "politicized_prosecution_opposition": {
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN1NxWU9CMUV1QXZqSndhaFZueTRDT3lxUEFBOEl5SzlTUGtncHU3N1VzOFd5LU1Ocl85eWZxSEVZb1U2WlgwS3hpUlNfTWRpNWZmb21kU0RLSl9kaTB1UlVPTmZzc2w4bjlNVl9yTGQzTlZHSmpoR2NaS3h0Mi1WbTIwYzZNQnc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is from a South Korean news source (\uc870\uc120\uc77c\ubcf4) discussing a South Korean political figure (Roh Moo-hyun). It is not a U.S. domestic event and therefore cannot constitute evidence of politicized prosecution of opposition actors within the United States constitutional system.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd3RrUlN5Q3lFdk5oeGpRQXVHWG85SDU0M2U3U0ZBY2ROVnY2c0ctREVQMWR6MlY3TnExNjkzQ1F4UDhlMngtR1BZZVNhWmkyZzFFRGpQNHJvNUEzZlpJdk9hSEt0T21fVnRlb2R6SjdzR2lYNHl0eXhubDFydGowLS10WHJzVTl1cFpTalFLWm43aDNfY01FeFJiZzJYRV9SYW8xMklfWEVYUkHSAbABQVVfeXFMTS1IbWszZ0FoTlF3WmFHX0sxMzFzUnNZcDItc2J2MkVxWXMxaUgwUnkydi1oTHNQc2ROWFN2UXpqTkREaTdmVXpOSkFqVC0yZXI1cTZiLTM2WUtHQVNkS2VfRll5RGRPVDRveThWNDhVTUs0TGVxdVNwODhoSlQ1UllOY2N3dk1rd3hBSEtSdjdWVXhyLWc4UUFEenFObVNMcmhlbmZVUDJ4SDBmQkhEbnE?oc=5": {
       "actor": "Pam Bondi",
       "confidence": 0.95,
@@ -1982,6 +2132,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.ianslive.in",
       "rationale": "This item reports on press guidelines in Pakistan, not the United States. The signal targets constitutional stress specific to U.S. domestic conditions. Foreign press restrictions, regardless of severity, are outside the scope of a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVFUxZDVISnpHMnZHT0s0NFk5WERVM2Mwd3NybGV0WkZjQkxabmRINEZCWVhyUE5EMVF0ZDRtRzVYSjVmR0hrcU9wUjdsX0VzWW9lTENCeHRLTllBNk1ycXJ3bnhOd3pIcFl4b25MOE5GU0FhMmU3WUhCS1RnZnFheWRYS1ZVMkhScHFzWHNrWUxxYVRKVDVza2I5RnVBa1pDYlA5X29hUXQ0R2lRSzBVOTd6WUMyZ0sySkVSR0t3bEE1Ym9XLXA5Tg?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item appears to be from a Bangladeshi news source (New Age BD) and discusses press freedom in that country, not the United States. It is also an opinion/editorial piece about press responsibility and reform, not a specific documented instance of state action restricting press or retaliating against journalists. It does not describe a verifiable constitutional stress event in the U.S.",
       "severity": 0
     }
   },
