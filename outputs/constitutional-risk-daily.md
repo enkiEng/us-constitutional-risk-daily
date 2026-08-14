@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-13 13:51:41 UTC
+- Generated: 2026-08-14 13:47:24 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **7 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **-3.5**
+- Score: **9 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+2.0**
+- Delta vs 7-day average: **-0.5**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -18,49 +18,52 @@
 | Elections and Transfer of Power | 22 | 0.00 | 0.00 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 0.20 | 0.65 |
-| Civil Service and Agency Independence | 10 | 2.00 | 5.00 |
+| Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
+| Civil Service and Agency Independence | 10 | 1.98 | 4.96 |
 | Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
-| Security Sector Neutrality | 8 | 0.47 | 0.95 |
+| Security Sector Neutrality | 8 | 0.30 | 0.60 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Independent Agency Capture | civil_service_integrity | 3.00 (Orange) | ai | 1 | 2 |
-| Inspector General Retaliation | civil_service_integrity | 1.65 (Watch) | ai | 0 | 0 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 0.95 (Watch) | keyword | 0 | 0 |
-| Security Sector Loyalty Tests | security_sector_neutrality | 0.95 (Watch) | keyword | 0 | 0 |
-| Legislative Bypass by Executive | executive_constraints | 0.60 (Green) | ai | 0 | 8 |
+| Independent Agency Capture | civil_service_integrity | 2.65 (Yellow) | ai | 0 | 0 |
+| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | ai | 1 | 1 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 0 |
+| Inspector General Retaliation | civil_service_integrity | 1.30 (Watch) | ai | 0 | 0 |
+| Security Sector Loyalty Tests | security_sector_neutrality | 0.60 (Green) | ai | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 0.25 (Green) | ai | 0 | 2 |
 
 ## Evidence Samples
 
 ### Independent Agency Capture
-- Assessment: This item reports that Trump is 'still trying to fire' Federal Reserve Board member Lisa Cook 'despite Supreme Court order.' If accurate, this describes an explicit, ongoing attempt to remove an independent agency official in defiance of a Supreme Court directive—a clear and serious action that weakens legal safeguards for independent regulatory decision-making and constitutes an official action contra judicial authority.
-- [Blavity News] Trump Still Trying To Fire Federal Reserve Board’s Lisa Cook Despite Supreme Court Order - Blavity News (2026-08-11) - https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkNZVnh3eHRIWTJmclJNaXMtWHBZV2czR09oLVFxeVlXdDdaSkZ4TXRZS2EyLUhiOEhaaG14YVY5Ti0zYzNWS3hPNzkzbV9jT2kzVUlmcHFYZG9PT1VPM3EzZzV4cmprNGxfS3Q4NllxTVdyaVJiaEFDUGg2LWZlUDdOTjYtZ2ZfbGE0WkdsMXdYZTM1U3VOYzE3SGNUcFo3S1RWRXdFWHpDc00?oc=5
+- [courtlistener.com] **[official record]** Michael Washington v. City of Cincinnati (2026-08-13) - https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/
+- [courtlistener.com] **[official record]** Frank William Bonan, II v. FDIC (2026-08-12) - https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/
 
-### Inspector General Retaliation
-- [courtlistener.com] **[official record]** McCann, Alisha v. United States (2026-08-11) - https://www.courtlistener.com/docket/74220062/1/mccann-alisha-v-united-states/
-- [courtlistener.com] **[official record]** Rosenzweig v. Blanche (2026-08-07) - https://www.courtlistener.com/docket/73734036/1/rosenzweig-v-blanche/
-- [courtlistener.com] **[official record]** Doe v. School Board of Duval County, Florida (2026-08-06) - https://www.courtlistener.com/docket/73732850/1/doe-v-school-board-of-duval-county-florida/
+### Emergency Powers Expansion
+- Assessment: This is an official Federal Register document recording a presidential continuation of a declared national emergency. The act of continuing an emergency declaration is a real, verifiable action that invokes emergency powers. However, continuation of an existing emergency (rather than a new declaration) and routine exercise of established emergency authorities for a narrowly-tailored domain (export controls) represents a credible but contained stress signal rather than a serious structural breach. The executive is operating within formal statutory frameworks (likely the National Emergencies Act), and there is no indication of bypass of legislative process beyond what the existing emergency framework permits. Severity 2 reflects that this is a real use of emergency authority but not a novel or sweeping expansion.
+- [federalregister.gov] **[official record]** Continuation of the National Emergency With Respect to Export Control Regulations (2026-08-14) - https://www.federalregister.gov/documents/2026/08/14/2026-16748/continuation-of-the-national-emergency-with-respect-to-export-control-regulations
 
 ### Civil Service Purge / Schedule F
-- No fresh evidence links in the current lookback window.
+- Assessment: This is an official Federal Register document recording a direct final rule issued by OPM to amend Civil Service Rules pursuant to Executive Order 14410 regarding 'Schedule Policy/Career in the Excepted Service.' The rule has been issued (not merely proposed), representing a real administrative action. The language about moving positions to the excepted service aligns with Schedule F concerns (reclassifying career positions to at-will status). However, the summary characterizes the changes as updating 'obsolete and outdated provisions' that 'do not substantively affect agency operations,' suggesting limited scope. This is a real, verifiable action matching the signal, but the characterization of impact and scope as non-substantive constrains severity to 2 (repeated or credible stress signal, real but contained action) rather than higher.
+- [federalregister.gov] **[official record]** Updates and Amendments to the Civil Service Rules (2026-08-14) - https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules
+
+### Inspector General Retaliation
+- [courtlistener.com] **[official record]** v. United States Department of Homeland Security (2026-08-13) - https://www.courtlistener.com/docket/74645299/3/17/v-united-states-department-of-homeland-security/
+- [courtlistener.com] **[official record]** State of Illinois v. United States Department of Transportation (2026-08-13) - https://www.courtlistener.com/docket/74643629/1/3/state-of-illinois-v-united-states-department-of-transportation/
+- [courtlistener.com] **[official record]** Jenkins v. NEOGOV (2026-08-12) - https://www.courtlistener.com/docket/74644547/1/jenkins-v-neogov/
+
 ### Security Sector Loyalty Tests
-- No fresh evidence links in the current lookback window.
-### Legislative Bypass by Executive
-- [constitutioncenter.org] Trump mail voting executive order on Supreme Court’s radar - constitutioncenter.org (2026-08-12) - https://news.google.com/rss/articles/CBMimAFBVV95cUxNZTJlM0RhYnhuM09zUjVFWGFYUUM5bUNfWHZNek5wcWphb1dGMVlXenMyVTVES0hOdUtXcWRWQnREWlVjUURMZ21VVFY5a195Y1NpUGRETXc2dTlJNjRESmJubENkS2l1RWo0QU5IaGRhdm01bm9tSWRzb1RCUU9MV1dUWUJvSXhJSjZKQUhBSE5KLVJSMVFwNNIBngFBVV95cUxNb25qdkt0bkU2ZlFaUXdIRUNqNXFXVk9GVWVsN1dfbHJUS3h3T2JNYkJZd0VsdGlQRzVlT21WY3VBZ0hnMFR0VUw0ZjFKZTlWLWxlRGktVklJNXJWUERBZHM2MjF1VWNyM1pYclVKeVpHN1NDcXFEQ19tOG5zV1A1azNhT1BOU1lnaWFSRlZjekE4WTZFNGE5dFR1eDVOUQ?oc=5
-- [National Desk] Fact Check Team: Executive orders explained. How much power does a president really have? - National Desk (2026-08-13) - https://news.google.com/rss/articles/CBMihgJBVV95cUxPSTdpVVNpRDNXZXl0c0dib0lwakx4NHpJZUdvRnFQWGpSRVA1WTZLdmM4MTZfT3BtN1NGSjhUUFNjT21HLUhZOVhiam5iYlFRWWdvbGdaeHliUzB4UXpaek45WC1CS0h6SWlBWUxPNGdobkNZQ2R2MlBkVl83cnI5cEloRmc1RDFCWFhvNGlmNXlBWHo0UHRPNnVJYWdaRTMzek5VT1BCcmlCWVAyM0ZqaHl6S2ZlNFljdXptekRmSmFqVHp1dTFkNEhDak5RX1FvQUE1ZUQwVnJMeUVsNnVSN01SUWt4eWItS2pRY25KLV8zX2tIdGp4S1BMd29xaDVfMDhZX1Rn?oc=5
-- [Center for American Progress] The Trump Administration Is Interfering in the 2026 Midterm Elections To Entrench the Imperial Presidency - Center for American Progress (2026-08-12) - https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSDM1dkxielZMa3RLOXJ3R3VUeHJ3b1NLdkVHamU4TVJWR185YW9ZX1pKRks0U05jRlVjcFlhQWZOdkp6Vl8tZ2JlZnI3SGI5TlV0NFFEbU9MZGtvNmdBTmtGYjZPSU9jUzRaSmlKMjhSS2VIc0lYT2Njcl9Nd3ZSZzZWSXBFS0pGdXhQV2ZVNEJqZ0JPd2gtUXhudC1Ib2ladUxaaE53S3JydEQyMzhkSDhLTmg0dVZzOXY1MUI3bmladVlRZDhMTDhiMFE3dmxEUWdkRld1Y19KTTl2NlVGUg?oc=5
+- [federalregister.gov] **[official record]** Updates and Amendments to the Civil Service Rules (2026-08-14) - https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules
 
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Primary-source lookups: 20 signals, 8 official documents (Federal Register, CourtListener)
-- Primary-source confirmations: 0
+- Primary-source lookups: 20 signals, 16 official documents (Federal Register, CourtListener)
+- Primary-source confirmations: 2
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
 

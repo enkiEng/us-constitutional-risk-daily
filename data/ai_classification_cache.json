@@ -1,4 +1,86 @@
 {
+  "alternate_elector_scheme": {
+    "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNczZCSjhkV2NkOHppdVhmem9QNC00SjhnMVFUcWlBS2hhOTkzNXBQdWF3eHk2Nk43bGZvbkxhQzE4eHFBZy1LcU9lSmVzNFg4UzliMW9LVEN6U3ZUT0FRT0dEQXlXdWxQWUNDQ1hXa3VSa1hkcEszSGRLMDltSGJIY0Z3d1YwYTUxOHdoUEpVX1d6NVRId0VpUk1tam5QZS1Eb0ljMzhaTVdDd3d4UG90cjZvclRaU1pBOWR6MXU1aEo0ZXVteXl5VHVGN3ZSQU5T?oc=5": {
+      "actor": "Nevada governor; Nevada legislature (implicitly)",
+      "confidence": 0.88,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.techtimes.com",
+      "rationale": "This appears to be commentary or analysis regarding Nevada forgery statutes and the governor's actions regarding legislation. It does not describe an actual alternate elector scheme, substitution of slates, or electoral fraud occurring. The item addresses legal frameworks and policy, not the occurrence of the signal event itself.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQU2phWVRxZ2VRUW5JMlpQT0ItRjRyNDhHMUNVc2lyR3FVcERCQlR5eUJpbzlDYlEwWEwxRlFES1JocVY0amtJX0hlX1FtWUhHb2k2NEp6cUdRbTByYXJVWXV3QlM1VlAxS0p2ZDNSbHp3eXBCUzRibG9pSVI2RjJjbDZ5a3VnWktsZGMtZFlld25wOUk4OXRkejBVZjZYWFZBRnR1T3VxZGNDanJQSTZ1NS1kNEtmcDVJR0dXNUotLXdMc3ZZMWdtUlJaTGExQ0hPUGc?oc=5": {
+      "actor": "Nevada state court; Nevada attorney general",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.rgj.com",
+      "rationale": "A Nevada court dismissed the fake electors case; the attorney general announced intent to appeal. This is a prosecutorial and judicial action, not evidence of an alternate elector scheme's execution or of actual substitution of unauthorized slates for lawful election results. Appellate proceedings are post-hoc legal responses, not the scheme activity itself.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNTZMdlRjak5Jd2xYMG8zdkZ2eUxmNlRfNTJhSEpaX2ViOWlfb1ZncTdZSUptcFFxN053cU0xeXZsYUFiU21iNElKR29HaVBGTmRVQXlXLTVSdU9kNFk1Z0dvZmVnMldKTHhmSHFXOGx3WEZGbGxqSW9MdUlNU21yeXl2UjlxTm9oVHNVSDFSQnZhbk5meGxveEtB?oc=5": {
+      "actor": "Nevada state court",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://apnews.com",
+      "rationale": "AP reports a judge dropped a case against electors accused of forging a certificate in 2020. The dismissal is a post-hoc legal proceeding, not evidence that the alleged forgery scheme actually took place or constituted an attempt to substitute an unauthorized slate for lawful results. Judicial dismissal of charges is not evidence of the underlying event itself.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeGc2TzZyV2ducVduMkZXX2puMnpqRWxIbFhWaWM4ZXFJc0xLblg0X1l0dV9wYnFOYlk1cXdnczREWUZyM1dZaHlqUFo0OVBBWVFra1JzazJaY1RocjFOUXI4MzJ3eFNVRnpMa1JYTi1ZV1g4b2NGQklIbGVGb202dWJqVVo4Q2ZrNjc0NHpKQVVhTmRwU0pXR1ZtclE?oc=5": {
+      "actor": "Nevada state court",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://thepostmillennial.com",
+      "rationale": "A judge dismissed a case against 2020 GOP alternate electors. Dismissal of a prosecution is a post-hoc judicial action, not evidence of the underlying scheme's execution or of actual substitution of unauthorized electoral slates for lawful 2020 outcomes. The signal targets the scheme activity itself, not judicial rulings on charges related to alleged participants.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxPYUprMUpudGFlcjFOSEtLSl9xOHlha3M0V1g0UmUxdVJZNC1rZW1INXNxenZHTzBuRnhQSjNUQ2xNQWRGU3hWUTdVS2JmbFRvNUlLc3hkTm1FclhMZUZmQlQ5RjczQlhCcXFwMFE3YXZCaTBwMVljYkMtZ3g2VmQwMWFVazJ1NVVSMXFDSFpKSEJuc3cxdVdfcjdwMlItQdIBowFBVV95cUxNZVY1MXpMQ3hWU1RxYUZaaURQdDh0cVVPUS1ZMHVCWWJzeGxDcnI4SFNoNVBiZkVIakRSZHAzTFZseVNrSExmNzBRZDdsWEltZ1VRWUVLclUxSm1mRVBUSmF5d1JMRmZTOWJhR2RsNHpHd1I0d3BqQ210M1NKaEE1RkhLTmt2bG9rWFhyMWxrc21sakpQTkM5MGZtalE4bXRjSTVZ?oc=5": {
+      "actor": "Nevada state court",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://thehill.com",
+      "rationale": "A judge dropped the Nevada fake electors case stemming from 2020. This is a court's decision to dismiss a prosecution, not evidence of the underlying scheme's execution or of an actual attempt to substitute unauthorized electoral slates for lawful outcomes. The signal concerns the scheme activity itself, not judicial dismissals of charges against alleged participants.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYUFVeWRMRkl0VVFHTXVEYWVORlA5Nkp0Y0ZpWTlVZk9weFJhZkJ3NXFQWXVFX1Q1TVlacGFBZ1pMaWI1NmhIMXJxX2VXam5ScUNvNlRsQk1DRVA5di1NM0xubkJ6cW8tRkhnYnJoSG5ScVBsS2VwY2xkQU5PNVE1RWlSd2d5amVOOEtxU0gwbW9CUmJqdkpRdkFIbU5vaXFSMFFWSA?oc=5": {
+      "actor": "Nevada state court",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://streamlinefeed.co.ke",
+      "rationale": "A Nevada judge dismissed the 2020 fake electors case against GOP officials. This is a judicial dismissal of charges, not evidence of the alternate elector scheme itself having been executed or having substituted unauthorized slates for lawful results. The dismissal is a legal proceeding after the alleged events of 2020.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT2RVQy1GRE1LMEY2YkhIMjRuX0xUZ1drQlFUNVNzTUdEVGlMZjBXWVNKRlV0TFVXaThRLUJ3ME5yc3N5MWdiVjZlVUJUanRJOVFPbEk0STctbUY0WGlmMWFRTTNOTjlUVHJvVFpzTzRYMXVhQV9TWW02YmNGUC1ZSWxzTVhIVkRocXhvd2hQV2VkdDFqMEUybWt3NUJDQnZFX1dtVU45UmJ5MmwtZms0N0lsbmgxMFVP?oc=5": {
+      "actor": "Nevada state court",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.politico.com",
+      "rationale": "A state judge dismissed charges against individuals accused of acting as fake electors in 2020. This is a judicial dismissal of a prosecution case, not evidence of an alternate elector scheme actually being executed or substituted for lawful outcomes. The dismissal is a legal action taken after the fact against alleged scheme participants, not the occurrence of the scheme itself. The signal targets attempts to substitute unauthorized slates for lawful results; a judge dropping charges does not evidence that such substitution occurred or was attempted during the election.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdERWdmNsaGJZMGlFNzVKUEJZd3M3UFFMQjlSLWY0ZExHc3BjRjdZb3dWNWxkMlhEdDFYd3lSdWZZOWUtaXFIYmZWeVIzM1lUbkhuZFlzTE00Ql9FR0JQYm55ZkV4MzB6Q1RvN0pOQWlMU2dzWlc4eGRkN0YtR2M1YXR5TWxpVVo5bG9MSFFBbE1JVERTdkhqS1pyRldfczlEV1FrekFPWk9POWpMQ2FJeHhLdy13UHU3QVZz?oc=5": {
+      "actor": "Clark County court",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://thenevadaindependent.com",
+      "rationale": "A Clark County judge dismissed the case against alleged fake electors for a second time. This is a procedural legal action (dismissal of charges), not evidence that an alternate elector scheme occurred or was executed. The dismissal does not establish that an actual substitution of unauthorized electors for lawful ones took place.",
+      "severity": 0
+    }
+  },
   "civil_service_purge_schedule_f": {
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxOckM4ZDdZeFgwLV9NanZHeUJpUUVSTFR6UjU2ckVYbDhsMEhsRlI4aEVJelJBSjlsR1p2N0RTN3gwa2JNeWtXNlFWY1pvWXdhVVIwZDVrY3l1U2lUT0hhcWs2Z1lQdFpjY2J2UV9VYnJjZGdYRmhsbFlRbjVPeTlYLVFIMjNUN2VROWhWeUlvMjZ2UkEz?oc=5": {
       "actor": "Just Security",
@@ -49,6 +131,26 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/03/2026-15665/reduction-in-force",
       "rationale": "OPM has issued a final rule modifying RIF regulations to prioritize performance over tenure and length of service. This is a real, published regulatory action that materially changes federal personnel protections by reducing seniority-based safeguards. While presented as merit-based efficiency, the shift from tenure-protective RIF procedures to performance-based retention creates a concrete mechanism for politicizing career civil service. This is a contained but credible stress signal\u2014a structural change to established civil-service protections, not a mass purge event or emergency action.",
       "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/08/14/2026-16569/foreign-currency-gain-or-loss-of-controlled-foreign-corporations": {
+      "actor": "Internal Revenue Service",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16569/foreign-currency-gain-or-loss-of-controlled-foreign-corporations",
+      "rationale": "This Federal Register item concerns proposed tax regulations on foreign currency gain or loss for controlled foreign corporations. It is entirely unrelated to civil service rules, bureaucratic politicization, or Schedule F. The document's presence in the search results reflects only coincidental keyword matching against the search term 'civil service' or related language, not substantive relevance to the signal. No event relevant to the signal occurred in this item.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules": {
+      "actor": "Office of Personnel Management (OPM)",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules",
+      "rationale": "This is an official Federal Register document recording a direct final rule issued by OPM to amend Civil Service Rules pursuant to Executive Order 14410 regarding 'Schedule Policy/Career in the Excepted Service.' The rule has been issued (not merely proposed), representing a real administrative action. The language about moving positions to the excepted service aligns with Schedule F concerns (reclassifying career positions to at-will status). However, the summary characterizes the changes as updating 'obsolete and outdated provisions' that 'do not substantively affect agency operations,' suggesting limited scope. This is a real, verifiable action matching the signal, but the characterization of impact and scope as non-substantive constrains severity to 2 (repeated or credible stress signal, real but contained action) rather than higher.",
+      "severity": 2
     }
   },
   "court_order_noncompliance": {
@@ -70,6 +172,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns allegations of court-order noncompliance in Nigeria, not the United States. The signal specifically targets U.S. constitutional risk. Non-U.S. events are not evidence of U.S. constitutional stress.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMWJQWW40eDA2R2V2UmloUExRX2UwdUdoZHBaZVg0MTdGSG9wYk8zb3AwMTNRLUtTMVpfNGhUbkZ2eVpIckV2b1pCZVRQUVNYeF9KRE1TSlpwbDFYWm9VY280Z1FvTk1VNWhsV19Yc0Ftb0RhV1FEM0ZmN3VtQUxoQlRFdGFPRndqdFg4VFdxNjl5dDFXc0RpYVB2Q0lZeDY1RXFpM3dtdEZkNFE?oc=5": {
+      "actor": "Air Peace (Nigerian airline) / Nigerian unions",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns a Nigerian airline and unions, not a U.S. executive or administrative entity. The location is Nigeria, not the United States. The signal requires evidence of U.S. court order noncompliance by U.S. government or administrative bodies. A labor dispute between a private company and unions in Nigeria does not constitute evidence of the specified constitutional-stress signal in the United States.",
       "severity": 0
     },
     "https://www.courtlistener.com/docket/67935987/505/united-states-v-bock/": {
@@ -296,6 +408,16 @@
     }
   },
   "election_certification_interference": {
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeXBwUzJKNEh3VTlnYmpSQ05MbndBU2M5dW84cFlvdzZ4NERiT01GeEd4dTNWMHpkYmVua1pYZVVIdkJVZ2J5dWhURVN2WHB0eDRON2l5bjNTcXJuUlpJZndnSW1fdFB2cnhZWHRKTTdwaXU4Rm1WOEFNRVdaRUp6QQ?oc=5": {
+      "actor": "Unknown/Administrative",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a research article title from the Public Policy Institute of California examining mail ballot rejection rates. It is analytical/explanatory content about election administration procedures, not evidence of an attempt to block, delay, or override lawful election certification. Mail ballot rejection due to lateness is a routine administrative matter, not an act of certification interference. The item is a policy analysis headline with no indication of any intentional interference with certification processes.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/73726674/1/britannica-capital-management-limited-v-topwater-stonefly-fund-llc/": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -388,6 +510,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/05/2026-16015/continuation-of-the-national-emergency-with-respect-to-the-advancement-by-countries-of-concern-in",
       "rationale": "This is an official Federal Register document recording a presidential continuation of a declared national emergency. The continuation of an emergency declaration is a real action that invokes emergency authorities under the National Emergencies Act, allowing the executive to bypass ordinary legislative process for specified powers. However, this appears to be a routine renewal of an existing emergency rather than a new expansion, and concerns a foreign-relations matter (technology advancement by foreign countries of concern) rather than domestic constitutional processes. The action is lawful under statutory authority and represents contained use of delegated emergency power rather than structural constitutional failure or defiance of courts/legislature.",
+      "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/08/14/2026-16748/continuation-of-the-national-emergency-with-respect-to-export-control-regulations": {
+      "actor": "Executive Office of the President",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16748/continuation-of-the-national-emergency-with-respect-to-export-control-regulations",
+      "rationale": "This is an official Federal Register document recording a presidential continuation of a declared national emergency. The act of continuing an emergency declaration is a real, verifiable action that invokes emergency powers. However, continuation of an existing emergency (rather than a new declaration) and routine exercise of established emergency authorities for a narrowly-tailored domain (export controls) represents a credible but contained stress signal rather than a serious structural breach. The executive is operating within formal statutory frameworks (likely the National Emergencies Act), and there is no indication of bypass of legislative process beyond what the existing emergency framework permits. Severity 2 reflects that this is a real use of emergency authority but not a novel or sweeping expansion.",
       "severity": 2
     }
   },
@@ -841,6 +973,16 @@
       "primary_source_url": "https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/",
       "rationale": "This is a routine administrative/regulatory appeal in which a bank-affiliated party challenges FDIC action. The case caption alone does not indicate any weakening of independent regulatory safeguards, defiance of court orders, or structural constitutional failure. It is a normal adversarial proceeding before the courts, which is precisely the mechanism by which independent agency decisions are reviewed and checked. No evidence of agency capture, removal of legal safeguards, or constitutional stress is present in the limited information provided.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/": {
+      "actor": "Sixth Circuit Court of Appeals",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/",
+      "rationale": "This is a routine civil appellate opinion (a private plaintiff suing a municipality). The title and docket number provide no indication of any matter related to independent agency capture, regulatory safeguards, or weakening of regulatory independence. It appears to be a standard tort or civil rights case. Judicial review of agency decisions or actions affecting agency independence is not evident from the available text. This is a routine court proceeding with no connection to the signal.",
+      "severity": 0
     }
   },
   "inspector_general_retaliation": {
@@ -972,6 +1114,36 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74220062/1/mccann-alisha-v-united-st",
       "rationale": "This is a filed complaint docket entry with minimal information. The case caption and document abstracts do not disclose any facts about retaliatory action against inspector generals or watchdog functions. Without substantive case details, this cannot be determined to be evidence of IG retaliation. A complaint filing is a procedural event, not confirmation that the alleged conduct occurred.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74643629/1/3/state-of-illinois-v-united-states-department-of-transportation/": {
+      "actor": "Multiple state attorneys general and DOT",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74643629/1/3/state-of-illinois-v-united-states-department-of-transportation/",
+      "rationale": "This is a complaint for declaratory and injunctive relief filed by multiple states against the Department of Transportation. Without access to the full complaint text, the case appears to be a standard administrative law challenge. Nothing in the docket entry indicates retaliation against an Inspector General, watchdog function, or anti-corruption monitoring effort.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74644547/1/jenkins-v-neogov/": {
+      "actor": "NEOGOV and South Carolina state agencies",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74644547/1/jenkins-v-neogov/",
+      "rationale": "This is a private employment complaint (Jenkins v. NEOGOV) involving state agencies and a vendor, appearing to be an employment-related dispute. It does not involve an Inspector General, retaliation against watchdog functions, or anti-corruption monitoring. The parties named (state agencies, human resources vendor) are unrelated to watchdog or IG retaliation.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74645299/3/17/v-united-states-department-of-homeland-security/": {
+      "actor": "Multiple state attorneys general and DHS",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74645299/3/17/v-united-states-department-of-homeland-security/",
+      "rationale": "This is a motion to quash an administrative subpoena filed by multiple states against DHS. It represents a legal challenge to a subpoena, not evidence of retaliatory action against watchdog or anti-corruption monitoring functions. A motion to quash is a routine procedural filing and does not indicate retaliation against an Inspector General or watchdog entity.",
       "severity": 0
     }
   },
@@ -1839,6 +2011,16 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/04/2026-15773/agency-information-collection-activities-revision-guam-cnmi-visa-waiver-information-form-i-736",
       "rationale": "This is a routine Federal Register notice regarding revision of a visa waiver information collection form (Form I-736). It is a standard administrative procedure for updating paperwork requirements under the Paperwork Reduction Act. The item contains no evidence of criminalization of political speech, surveillance expansion targeting lawful dissent, or any constitutional-stress event related to the signal. This is ordinary immigration administrative activity with no connection to the signal definition.",
       "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/14/2026-16603/introduction-to-the-unified-agenda-of-federal-regulatory-and-deregulatory-actions-2026": {
+      "actor": "Regulatory Information Service Center",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16603/introduction-to-the-unified-agenda-of-federal-regulatory-and-deregulatory-actions-2026",
+      "rationale": "This is a routine Federal Register notice announcing the 2026 Unified Agenda of Federal Regulatory and Deregulatory Actions. It is a standard administrative publication describing regulatory planning mechanisms under existing executive orders (12866 and 13563). The document contains no mention of criminal tools, surveillance expansion, or restrictions on lawful dissent. This is ordinary regulatory procedure with no connection to the signal of political speech criminalization or surveillance.",
+      "severity": 0
     }
   },
   "politicized_prosecution_opposition": {
@@ -1900,6 +2082,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/73736577/1/amyot-v-united-states/",
       "rationale": "This is a filed complaint (a legal motion/request) in federal court, not a completed action demonstrating politicized prosecution. A complaint alleging misconduct is not evidence that the misconduct occurred or was prosecuted. The docket entry shows only that a case was filed; it does not confirm any actual prosecutorial action targeting opposition figures, nor does it establish that selective enforcement of criminal law against opposition actors has taken place. Filing a civil complaint against the United States is a routine judicial procedure and does not constitute evidence of the constitutional stress signal (criminal enforcement selectively targeting opposition). Severity remains 0 because no verified action of politicized criminal prosecution is demonstrated.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74644693/1/smith-v-natan/": {
+      "actor": "Not applicable",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74644693/1/smith-v-natan/",
+      "rationale": "This is a routine civil complaint filed in federal district court involving a private plaintiff (Peter Smith) against multiple defendants including individuals and a county agency. The case involves a family services matter and shows no evidence of selective criminal prosecution of political opposition actors. It is a standard civil docket entry with no connection to the signal of politicized prosecution. The filing itself is a normal legal proceeding, not evidence of constitutional stress related to opposition targeting.",
       "severity": 0
     }
   },
@@ -1994,6 +2186,16 @@
       "rationale": "Item concerns Bangladesh media policy development, not a U.S. event. Outside scope of U.S. constitutional-risk dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTzM1SjJVYldMNTEyQWZnelROZy1Iemw2WnNueUY2VDlNcnAtVW1pZHpGLURsUHU4b01NSEJTZE1FcVNNTVRBZV8xd1E4VHJMVUgtRkg4dGx1blFYNTFXb2czaV9VMnhGZHpXdTB5R2NzZmktQ1RzU3lWaklETXJtNS1kanZveVFpNy1iWmNnU0hvdw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item concerns Pakistan, not the United States. Out of scope for U.S. constitutional-risk monitoring.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmF4d3k2UWRPOWoyVTl3Y2lrMV9MTWxfUjlNOXA3NjB0Z3d2MUo4NVk1cGlBcjhMOXBaQWE1WmNFbVZlM0g1RlpkOXFNT2t0b3h3dV8tWXVVWHpscVB5bWJxT0U3ZVFwb2pORjBWb0JQUzc1cGNJRFBvV1dhOEMybHdFREVGLUdOWHVYOHRiWExxUQ?oc=5": {
       "actor": "Iran and Pakistan media groups",
       "confidence": 0.99,
@@ -2012,6 +2214,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item covers an SCO (Shanghai Cooperation Organization) media summit on AI and regional cooperation. Not a U.S. event; no evidence of U.S. press restrictions.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxPendEOUhnSHpCcldRQTRMRzF1Yl92MHB2c1ZyRmE5akV3UkF0THB2TERHTDdjOEx3TmxhblcyZzFHbzc5RktjcjlBRkpVdFNaUmN1MHZnMUlHakZ2UzFlSEVYaC1RYTJYbVNJMndOY2VKa1RfRENGRDJZZjJ3bXNLazhvWTV4RHdWSEZ5VFpxNU5kWXlu?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item concerns Pakistan, not the United States. The signal monitors U.S. constitutional risk. Non-U.S. events are out of scope.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRDJ5cXBEQWdfaG80RTJhRHNHQUJhYlRNa3Z2emc2SlJsSll6WHFFWUlva3VzX2hybnJVS0k4ZktCaFFPOXREWTRsRWU5UzRzSkNwbmdLdjNVbXFYVUM2NlZzV0Rkd0ZNVmtPU1piRjBVSExTUE5RbzdEV3BoYnhNamhicHhEUGhvR3JHTVgzTXpoam9VcUE?oc=5": {
@@ -2044,6 +2256,16 @@
       "rationale": "This event concerns the Philippines, not the United States. The signal specifically requires U.S. domestic constitutional risk. Even if the event occurred, it is geographically outside the scope of U.S. constitutional monitoring.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS2VldjRWSVRWWTFNUkt6YW1KYW0tUVA1UFNlOXFUUW04X1JYa25Ma083bHpQMUE2SWQ1aE4yZVZTSkNWN3duencyVVhQQUlHN3BOMjhCZlRkTU5qcFdHRDZ4aHM1eG9QSW1NWEhQZHRxWnZkTl9LTzRMd3FrUXVicHRhTDdLSEpUTW5zNlpfVU9UTXF1MWRPMEFIR1d0N0U?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item concerns Afghanistan (Taliban) and a journalist in Kabul, not the United States. Out of scope.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTnFSRG9xeGJ1cjRTUlJGNDlHaWF2Q0xDRUZuY3NqX2JpUU40Z1c5WU1GRUFKTHI2TWdET0hUampPNHF4UEcweUlWc21TSV9NSzBEdjlRTzRxdEZyZ0FJTmdqd0tidHJweWgtdXV4YUI0SF85TkVSX1JNanlndk5mYVhPMnBmUGIwUmZOcGFzSDlmR19xRWEySGswV1haeG03SGVtWDhsd9IBTkFVX3lxTE41WDRMLUhiT3FMRVZHcmhFM0h4MHhTSmRLdkw2TUFUeF9teTNkLWk1V0hkdFFwa3JNcV9zTDNmd1VfbmNrY3BHUkNYOVFrZw?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -2072,6 +2294,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This event occurred in Pakistan, not the United States. The signal applies only to U.S. constitutional stress. Non-U.S. press restrictions, regardless of severity, are not evidence of U.S. constitutional risk.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaVJzWEQyc2ZiY2hGbmpBZVk1RzVuRXkwZ0FoNmc5S3h3cEphYllYT0ItMy1pQm1leWJNbXZlNFJhbGJ5SGM4Nzg5OEZxLXVwZmd3WTlKbWlMeGg0SEhOVEF5dFI2STZsVHJHb0pNQU1Nek96cDcxRng4aFhJNzdjQ0pTWlR5VTloSlA5QWIwelhTS0hmc2hTUXM5bmQ0SWZXRGVCRzBjeWpaM0NPZHc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item concerns Pakistan media suppression, not the United States. Out of scope.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb3hNZkRXMUVBWGZ1UVVkS3hWa0FaYmpxSnh3Y0ZyWEdwWTNfWnJpZ0tpSFl1TnJrMUx2NlBEWE5iNG1iNHRXTXdJRFB1Mm9ySDJvSHlhQWZOSkdKel93Q2x5NG9icmZ2TFgzaUZ2a2VsNldmTXJpNi1KWGFoT3BuZGJveXh0d29WTk5OYVp0MndfM2FwXzc5VXdTNkREdTJwMG1US1VaUDRzR2VWZGhwdzVyc205Y1E?oc=5": {
@@ -2155,6 +2387,16 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/03/2026-15650/suitability-action-appeals",
       "rationale": "This is a final OPM regulation that removes the Merit Systems Protection Board (MSPB)\u2014an independent adjudicative body\u2014from appeals of suitability actions and consolidates that authority within OPM itself. Suitability determinations affect federal employment eligibility and can be used to screen personnel. Removing independent oversight of such determinations and concentrating appeals authority within the executive personnel office constitutes a material shift in internal review mechanisms that could enable partisan loyalty filters in federal personnel decisions. This is a confirmed structural change to a coercive-state institution's internal accountability, though it remains procedural rather than involving overt purges or open defiance of courts. Severity 2: real, confirmed, official action affecting institutional independence in personnel matters.",
       "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules": {
+      "actor": "Office of Personnel Management",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules",
+      "rationale": "This is a routine rulemaking document updating civil service rules pursuant to a presidential executive order. The summary explicitly states these are 'obsolete and outdated provisions' that 'do not substantively affect agency operations.' Updating technical provisions of civil service procedures is normal administrative housekeeping and does not constitute evidence of partisan loyalty filters applied to coercive-state institutions. No specific action targeting security sector loyalty based on partisan criteria is described or evidenced here. The document is a procedural amendment, not a substantive institutional restructuring or loyalty test.",
+      "severity": 0
     }
   }
 }
