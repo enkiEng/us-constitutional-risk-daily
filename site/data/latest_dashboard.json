@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 9.28,
+  "average_7d": 9.32,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 2.0,
-  "delta_vs_7d": -0.47,
+  "delta_previous_day": 4.0,
+  "delta_vs_7d": 4.06,
   "domain_breakdown": [
     {
-      "avg_severity": 0.0,
+      "avg_severity": 1.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.0,
+      "points": 5.5,
       "weight": 22
     },
     {
@@ -41,10 +41,10 @@
       "weight": 13
     },
     {
-      "avg_severity": 1.9833333333333334,
+      "avg_severity": 1.75,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 4.958333333333334,
+      "points": 4.375,
       "weight": 10
     },
     {
@@ -55,10 +55,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.3,
+      "avg_severity": 0.125,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.6,
+      "points": 0.25,
       "weight": 8
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-14T13:47:24.157882+00:00",
+  "generated_at": "2026-08-15T13:01:47.786524+00:00",
   "methodology_version": 2,
-  "previous_score": 7,
+  "previous_score": 9,
   "primary_sources": {
     "documents_confirmed": 2,
-    "documents_fetched": 16,
+    "documents_fetched": 13,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,9 +86,9 @@
     "signals_queried": 20
   },
   "provisional": false,
-  "score": 9,
-  "score_raw": 8.81,
-  "score_raw_pre_trip_wire": 8.81,
+  "score": 13,
+  "score_raw": 13.38,
+  "score_raw_pre_trip_wire": 13.38,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -96,6 +96,15 @@
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
+        {
+          "canonical_link": "https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/",
+          "link": "https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/",
+          "published": "2026-08-14T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "Queerdoc, Pllc v. DOJ - United States Department of Justice"
+        },
         {
           "canonical_link": "https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/",
           "link": "https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/",
@@ -116,18 +125,65 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 0,
+      "hits": 1,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 2,
+      "primary_documents": 3,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 2.65,
+      "severity": 2.3,
       "severity_label": "Yellow",
       "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 3,
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "canonical_link": "https://californiaglobe.com/fr/nevada-judge-dismisses-fake-electors-case-a-second-time-faults-ag-fords-office-for-withholding-evidence/",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcTZ5ZHVwOFJycTJoMXd5VUhiaWJnTHJ5TUR4OEVjQmxPVkMxRDAzc1dNU1NIQnV1cGd6dzVRQXNfeDVkUy1qN0xhTjFTUUpFTlNnSGh1NmFEZGJfSjZWVUJZZjRmSjV4SFo5VElFZXQ2SVFIMFFWWFJSM1AyY2VXRXBhNTVhaWZILTdUN2FHRzFwQ3BVZGVZSFpmNlotcW5UOFBRdTNxclF3V0lXVkMtX1RoVVZNUS1qMHNLVml0bk9taXVKXzZ1ZVotZWlhamRW?oc=5",
+          "published": "2026-08-14T19:18:26+00:00",
+          "publisher": "California Globe",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Nevada Judge Dismisses \u2018Fake Electors\u2019 Case a Second Time, Faults AG Ford\u2019s Office for Withholding Evidence - California Globe"
+        },
+        {
+          "canonical_link": "https://vernonmatters.ca/2026/08/13/judge-drops-nevada-case-against-electors-accused-of-forging-certificate-in-2020-election-2/",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQazBBaFVINWMzNDYwczNSbloxeFZsNXhnc1BuVTl4RUxORFZXaXZ6UHFacVBmUlFZUDQxVWd4a25KcFlSWU8tbTNuMFlMeVJ3anNkemFid1ozQlpqTEkxbFkzMjUyR1VfVlVWMjJmV05oblp4N2x0TmN0Y0d0b3EwaFFTdzhEMlIxOHFVakhXTllwb25yT1JmOTFIM2NHTHhkMlByOUNkMUl5X1RIYWtiZ0RGUzJUQUl2Nk5xZ2RENjVOOXpjQXc?oc=5",
+          "published": "2026-08-14T00:01:20+00:00",
+          "publisher": "Vernon Matters",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Judge drops Nevada case against electors accused of forging certificate in 2020 election - Vernon Matters"
+        },
+        {
+          "canonical_link": "https://easternherald.com/2026/08/14/nevada-fake-electors-dismissed-holthus-mcdonald/",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdzNoejd0a2JTamRjcjZvUmdBS3AzQk1hRm5aM3RlenlZS2l6bG53NERxdG01ZXpRYkpjRUhHZkd2aVdkeFhpQmdyd0tsNVRWRk5RY3ZReERtZ3NoRGtfLWVpbUYwNkJTeU9BREpIaTNOd0kwck5FTXBISVVDU3dnZ21KRDBTclA0NDRsYTNB?oc=5",
+          "published": "2026-08-14T07:52:33+00:00",
+          "publisher": "The Eastern Herald",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Nevada Fake Electors Case Dismissed Again, Exposing Gap in State Law - The Eastern Herald"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 11,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": "This item reports that a Nevada judge dismissed a case against individuals accused of forging an electoral certificate in the 2020 election. The underlying conduct\u2014alternate electors accused of forging a certificate\u2014is direct evidence that alternate elector scheme activity did occur in Nevada in 2020. The case dismissal itself is a judicial ruling, but the summary indicates the judge faulted the AG's office for withholding evidence, suggesting prosecutorial failure rather than absence of the underlying alleged conduct. The signal concerns efforts to substitute unauthorized electoral slates; the accusation of forged certificates by alternate electors is a direct match. However, without confirmation that the forgery actually occurred (as opposed to being merely alleged and then dismissed), and given that this is historical (2020 election), the severity is conservatively set at 2\u2014a confirmed but past-tense occurrence of attempted unauthorized elector slate substitution, now subject to judicial dismissal.",
+      "severe_hits": 3,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 3
     },
     {
       "confirmed_hits": 1,
@@ -145,7 +201,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 0,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
@@ -199,7 +255,7 @@
           "publisher": "courtlistener.com",
           "source_name": "courtlistener",
           "source_tier": "primary",
-          "title": "v. United States Department of Homeland Security"
+          "title": "State of Illinois v. United States Department of Homeland Security"
         },
         {
           "canonical_link": "https://www.courtlistener.com/docket/74643629/1/3/state-of-illinois-v-united-states-department-of-transportation/",
@@ -226,11 +282,11 @@
       "name": "Inspector General Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 5,
+      "primary_documents": 4,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -256,44 +312,6 @@
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 1,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://constitutioncenter.org/blog/trump-mail-voting-executive-order-on-supreme-courts-radar",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZTJlM0RhYnhuM09zUjVFWGFYUUM5bUNfWHZNek5wcWphb1dGMVlXenMyVTVES0hOdUtXcWRWQnREWlVjUURMZ21VVFY5a195Y1NpUGRETXc2dTlJNjRESmJubENkS2l1RWo0QU5IaGRhdm01bm9tSWRzb1RCUU9MV1dUWUJvSXhJSjZKQUhBSE5KLVJSMVFwNNIBngFBVV95cUxNb25qdkt0bkU2ZlFaUXdIRUNqNXFXVk9GVWVsN1dfbHJUS3h3T2JNYkJZd0VsdGlQRzVlT21WY3VBZ0hnMFR0VUw0ZjFKZTlWLWxlRGktVklJNXJWUERBZHM2MjF1VWNyM1pYclVKeVpHN1NDcXFEQ19tOG5zV1A1azNhT1BOU1lnaWFSRlZjekE4WTZFNGE5dFR1eDVOUQ?oc=5",
-          "published": "2026-08-12T20:11:26+00:00",
-          "publisher": "The National Constitution Center",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump mail voting executive order on Supreme Court\u2019s radar - The National Constitution Center"
-        },
-        {
-          "canonical_link": "https://thenationaldesk.com/news/fact-check-team/fact-check-team-executive-orders-explained-how-much-power-does-a-president-really-have-white-house-authority-archives-congress",
-          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPSTdpVVNpRDNXZXl0c0dib0lwakx4NHpJZUdvRnFQWGpSRVA1WTZLdmM4MTZfT3BtN1NGSjhUUFNjT21HLUhZOVhiam5iYlFRWWdvbGdaeHliUzB4UXpaek45WC1CS0h6SWlBWUxPNGdobkNZQ2R2MlBkVl83cnI5cEloRmc1RDFCWFhvNGlmNXlBWHo0UHRPNnVJYWdaRTMzek5VT1BCcmlCWVAyM0ZqaHl6S2ZlNFljdXptekRmSmFqVHp1dTFkNEhDak5RX1FvQUE1ZUQwVnJMeUVsNnVSN01SUWt4eWItS2pRY25KLV8zX2tIdGp4S1BMd29xaDVfMDhZX1Rn?oc=5",
-          "published": "2026-08-13T01:31:43+00:00",
-          "publisher": "National Desk",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Fact Check Team: Executive orders explained. How much power does a president really have? - National Desk"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,

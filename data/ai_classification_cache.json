@@ -10,6 +10,16 @@
       "rationale": "This appears to be commentary or analysis regarding Nevada forgery statutes and the governor's actions regarding legislation. It does not describe an actual alternate elector scheme, substitution of slates, or electoral fraud occurring. The item addresses legal frameworks and policy, not the occurrence of the signal event itself.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcTZ5ZHVwOFJycTJoMXd5VUhiaWJnTHJ5TUR4OEVjQmxPVkMxRDAzc1dNU1NIQnV1cGd6dzVRQXNfeDVkUy1qN0xhTjFTUUpFTlNnSGh1NmFEZGJfSjZWVUJZZjRmSjV4SFo5VElFZXQ2SVFIMFFWWFJSM1AyY2VXRXBhNTVhaWZILTdUN2FHRzFwQ3BVZGVZSFpmNlotcW5UOFBRdTNxclF3V0lXVkMtX1RoVVZNUS1qMHNLVml0bk9taXVKXzZ1ZVotZWlhamRW?oc=5": {
+      "actor": "Nevada alternate electors (2020); AG Ford's office",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "This item reports that a Nevada judge dismissed a case against individuals accused of forging an electoral certificate in the 2020 election. The underlying conduct\u2014alternate electors accused of forging a certificate\u2014is direct evidence that alternate elector scheme activity did occur in Nevada in 2020. The case dismissal itself is a judicial ruling, but the summary indicates the judge faulted the AG's office for withholding evidence, suggesting prosecutorial failure rather than absence of the underlying alleged conduct. The signal concerns efforts to substitute unauthorized electoral slates; the accusation of forged certificates by alternate electors is a direct match. However, without confirmation that the forgery actually occurred (as opposed to being merely alleged and then dismissed), and given that this is historical (2020 election), the severity is conservatively set at 2\u2014a confirmed but past-tense occurrence of attempted unauthorized elector slate substitution, now subject to judicial dismissal.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQU2phWVRxZ2VRUW5JMlpQT0ItRjRyNDhHMUNVc2lyR3FVcERCQlR5eUJpbzlDYlEwWEwxRlFES1JocVY0amtJX0hlX1FtWUhHb2k2NEp6cUdRbTByYXJVWXV3QlM1VlAxS0p2ZDNSbHp3eXBCUzRibG9pSVI2RjJjbDZ5a3VnWktsZGMtZFlld25wOUk4OXRkejBVZjZYWFZBRnR1T3VxZGNDanJQSTZ1NS1kNEtmcDVJR0dXNUotLXdMc3ZZMWdtUlJaTGExQ0hPUGc?oc=5": {
       "actor": "Nevada state court; Nevada attorney general",
       "confidence": 0.92,
@@ -19,6 +29,36 @@
       "primary_source_url": "https://www.rgj.com",
       "rationale": "A Nevada court dismissed the fake electors case; the attorney general announced intent to appeal. This is a prosecutorial and judicial action, not evidence of an alternate elector scheme's execution or of actual substitution of unauthorized slates for lawful election results. Appellate proceedings are post-hoc legal responses, not the scheme activity itself.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQT0FYU3YzY3otMThLNEhZYURLZGoyOE9JcmViSXE4bEdDZ0hWNjR3NlVSZ1dyU2pBMTNBcHRydVBxZHBTcnhRdjNHQ1NnaXo3eHJ1UkZMdkNNMm4ydXJYRTlYdTVIMl9ma0VQa3RReUVlelZHa284c3hkU2VJWHFERm52UERTejJBdzU3aHpxUU9OSWh0VGJYLUJsQ0c4M0MzTmNLZC1TbnF5NklCdG5Na09fZlhDMnA5Z3VFZElHMWRTY2FkbGt5N2tQSVZuaW9pVkZhSHNtYk5sU1FyRXFzY2VmNFNQOWExYzN2VlF4LVc5Z0hYOTR3?oc=5": {
+      "actor": "Unknown judge",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Duplicate of item 1. A judge dismissing a case is not evidence that alternate elector scheme activity is occurring or has occurred. The dismissal is a procedural outcome, not confirmation of the underlying alleged conduct. Without substantive detail on the case's grounds or findings, this cannot serve as evidence of the signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMihgJBVV95cUxNR2czV09faU5UM0RIR2NsME9FTFRnUGFtaHgyU3FnaUpoaXlKZ1NSYnhJZTlwNmpMcUFYUjZTaEpZa2JpY2FkT0JRaGpjR1JjU2ZUVzJrWFhRdTFHT3lwT3hBQlAtblBvLUZ2Q2lPSUZWclcta3ktZWo2V0g0cEdpWFlYOXF6YXhEd2dzdXJYVVowdGVOb2o0MmthVkt0X0RpRkliV3JKRlZRVzJLTnJZMTc4ZGN1eFA2cXNyZWg5YTZXbnB6Qy1RU1h5bW9pdDZZWFdtb1ZCUS02YWJEVFVkaF92bW13MXVDcEtvRmw2cl9BQ0pwbm1ITk96bHJaaWZXMTdySE9B?oc=5": {
+      "actor": "Unknown judge",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a news headline reporting a judicial dismissal of a case from the 2020 election. The dismissal itself is not an occurrence of alternate elector scheme activity; it is a court action concluding or declining to adjudicate a case about past alleged activity. The signal concerns efforts to substitute unauthorized electoral slates. A dismissal of charges does not evidence that such substitution activity occurred or is occurring. Without details on the grounds for dismissal or the underlying facts, this cannot be counted as confirmation of the signal event. The item is a bare headline with no substantive summary.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdzNoejd0a2JTamRjcjZvUmdBS3AzQk1hRm5aM3RlenlZS2l6bG53NERxdG01ZXpRYkpjRUhHZkd2aVdkeFhpQmdyd0tsNVRWRk5RY3ZReERtZ3NoRGtfLWVpbUYwNkJTeU9BREpIaTNOd0kwck5FTXBISVVDU3dnZ21KRDBTclA0NDRsYTNB?oc=5": {
+      "actor": "Nevada fake electors (2020)",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "This item reports dismissal of a 'fake electors' case in Nevada related to the 2020 election. The term 'fake electors' and the reference to a gap in state law regulating such conduct indicates that alternate elector scheme activity did occur in Nevada. The dismissal and the headline's framing ('Fake Electors Case Dismissed Again, Exposing Gap in State Law') suggest the underlying conduct was established or credibly alleged, and the court action exposed legal shortcomings in addressing it. This is evidence of a real, contained, past-tense instance of unauthorized elector scheme activity. Severity 2 reflects confirmed occurrence of the signal event in a historical context, without evidence of ongoing or current activity.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNTZMdlRjak5Jd2xYMG8zdkZ2eUxmNlRfNTJhSEpaX2ViOWlfb1ZncTdZSUptcFFxN053cU0xeXZsYUFiU21iNElKR29HaVBGTmRVQXlXLTVSdU9kNFk1Z0dvZmVnMldKTHhmSHFXOGx3WEZGbGxqSW9MdUlNU21yeXl2UjlxTm9oVHNVSDFSQnZhbk5meGxveEtB?oc=5": {
       "actor": "Nevada state court",
@@ -79,6 +119,16 @@
       "primary_source_url": "https://thenevadaindependent.com",
       "rationale": "A Clark County judge dismissed the case against alleged fake electors for a second time. This is a procedural legal action (dismissal of charges), not evidence that an alternate elector scheme occurred or was executed. The dismissal does not establish that an actual substitution of unauthorized electors for lawful ones took place.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxQazBBaFVINWMzNDYwczNSbloxeFZsNXhnc1BuVTl4RUxORFZXaXZ6UHFacVBmUlFZUDQxVWd4a25KcFlSWU8tbTNuMFlMeVJ3anNkemFid1ozQlpqTEkxbFkzMjUyR1VfVlVWMjJmV05oblp4N2x0TmN0Y0d0b3EwaFFTdzhEMlIxOHFVakhXTllwb25yT1JmOTFIM2NHTHhkMlByOUNkMUl5X1RIYWtiZ0RGUzJUQUl2Nk5xZ2RENjVOOXpjQXc?oc=5": {
+      "actor": "Nevada electors (2020)",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "This item reports that a judge dropped a case against electors accused of forging a certificate in the 2020 election. The accusation of forgery of an electoral certificate by electors is direct evidence that alternate elector scheme activity (forging unauthorized electoral documents) occurred in Nevada in 2020. The case dismissal does not erase the fact that the alleged conduct took place. Without full adjudication confirming the forgery, the occurrence is based on credible accusation and court filings, warranting severity 2\u2014a confirmed but contained historical instance of alternate elector scheme activity.",
+      "severity": 2
     }
   },
   "civil_service_purge_schedule_f": {
@@ -314,6 +364,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Election results coverage is routine news reporting of a normal election administration process. No evidence of capture, partisanization, or deviation from neutral process.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZW5QVTgtWFhobXNwNVRZVlhJRFRrWm9UcnFHWnFldmM2VWJ2aEJYUnlkVlpIazV0bDBoWnpZRGFHZTBZbWlHVkcwTC0zZXBvV2lGMnFBMzhmeURPNlpYYVA2SDFzRU5CcXNQZW9vM3BidnZFVVFWd2Q3Vk9UazA3Yk9uaw?oc=5": {
+      "actor": "Trump administration (hypothetical)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://news.yahoo.com/",
+      "rationale": "This is a forward-looking analysis piece about state officials preparing for potential future actions. The headline describes preparation and anticipation ('Preparing For Trump To Test The Limits'), not a verifiable occurrence of election administration capture. No specific action of partisan control over election administration is described as having actually happened. This is opinion/analysis about possible future scenarios, not evidence of a real constitutional-stress event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVkdQdFV2dUZUbkhLd2U4eEtWdm1KYmFETWJQNW9iMFBBWDI4dmJMb2pFNG93UWJJV3l6U3JrdGhwZC1iLWduVjdFcVY3eW55UFdwMnBTVkNDdFlZRmNpaWp1QzZqcHZUcV92c0Y2NmZjUEo2dFZfVlVteE5BVXN4bDExb3EzWXM?oc=5": {
@@ -864,6 +924,16 @@
       "rationale": "This is a routine legal summary/digest of Supreme Court decisions. It contains no evidence of agency capture, weakening of independent regulatory decision-making, or any constitutional stress event. It is descriptive coverage of judicial decisions, not evidence of structural change to independent regulatory safeguards.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://abcnews.go.com/",
+      "rationale": "This headline references individuals being 'targeted' but provides no substantive summary of what actions were actually taken or whether they relate to independent agency capture. The headline alone is insufficient evidence of a real occurrence. Without details about specific regulatory interference, removal of officials, or weakening of agency independence safeguards, this cannot be assessed as material evidence. A list of names without context about actions undermining regulatory independence does not constitute evidence of the signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOHAyNDYxR2V4c0pxVFV2cFRSYm16MXdwdWpBUDhMb3J5b1VEbzBYWjUzOWlDTDFkNVE3OWMxTFF6Q3AxQmNGZllqTUlOOXZJMXRUd01BV3FRUXBjTHVRLVpTTk5QbTdsYjRPemFUNnpPc0FacnMteTh3dUcxaHdwNmVHdnkzRTdKU2VxQTV4Qy1IVWlyWnItS2c2Y24wd2RmWU9WN3JFbFFBS3Nka2c?oc=5": {
       "actor": "White House",
       "confidence": 0.8,
@@ -982,6 +1052,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/",
       "rationale": "This is a routine civil appellate opinion (a private plaintiff suing a municipality). The title and docket number provide no indication of any matter related to independent agency capture, regulatory safeguards, or weakening of regulatory independence. It appears to be a standard tort or civil rights case. Judicial review of agency decisions or actions affecting agency independence is not evident from the available text. This is a routine court proceeding with no connection to the signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/": {
+      "actor": "Ninth Circuit Court of Appeals",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/",
+      "rationale": "This is a routine court opinion docket entry. The summary provides no substantive information about the case holding or any action that would constitute independent agency capture. A lawsuit between a private party and DOJ, with standard appellate proceedings, is not evidence of weakened regulatory independence. Court cases are normal administrative process, not constitutional stress.",
       "severity": 0
     }
   },
@@ -1237,6 +1317,16 @@
       "primary_source_url": "https://www.the-sunday-guardian.com/",
       "rationale": "Article reports that a federal judge (John McConnell) received death threats following a ruling against Trump regarding a funding freeze case. Death threats constitute a form of intimidation directed at a judge for an adverse ruling. However, severity is 2 (repeated/credible but contained signal) rather than 3, as the threats appear to originate from unidentified private actors rather than from an official sustained campaign or official pressure. No evidence is presented that the threats constitute an organized or sustained official intimidation campaign, which would be required for severity 3+.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.15,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "This item describes a list of individuals 'targeted' by the Trump administration, with James Comey mentioned as an example. However, the summary provided contains no specific details about what 'targeted' means in this context, whether any action was actually taken, or whether judges or adverse rulings are involved. The signal concerns sustained official pressure to punish judges specifically for adverse rulings. Without evidence that: (1) judges were the targets, (2) the targeting was connected to adverse rulings, (3) there was sustained pressure or an actual punitive action (rather than mere designation or listing), this item does not constitute verified evidence of judge intimidation. The vague headline and minimal summary suggest this may be opinion, list-making, or coverage of allegations rather than confirmed action. Conservative assessment requires specificity and confirmation of actual punitive conduct.",
+      "severity": 0
     }
   },
   "jurisdiction_stripping_targeted": {
@@ -2044,6 +2134,16 @@
       "rationale": "This item is a headline about a news segment in which Bondi is 'grilled' (questioned) regarding allegations about Epstein files and targeting of Trump's political opponents. The headline describes press coverage of questioning about alleged conduct, not evidence that politicized prosecution actually occurred. The item provides no factual details, no confirmed actions, no court documents, and no evidence of criminal enforcement being selectively deployed. It is a report of a news interview/grilling, which is commentary or allegation, not documentation of an accomplished prosecutorial act. Without specifics on what targeting occurred, what charges were brought, or what official action was taken, this cannot establish that the signal event (criminal enforcement used to selectively target opposition) actually happened. Severity remains at the baseline.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "This item is a headline/summary only with no substantive content provided. It references a list of individuals 'targeted' but does not describe any actual prosecutorial action, criminal charges, convictions, or enforcement measure that has verifiably occurred. The term 'targeted' is vague and could refer to rhetoric, investigation, or mere naming rather than actual criminal enforcement. Without specific details of prosecutions, charges, or judicial actions taken, this cannot be assessed as evidence of politicized prosecution. The bare headline does not constitute a real occurrence of the signal event.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/67935987/1692/united-states-v-brown/": {
       "actor": "U.S. Government (prosecution)",
       "confidence": 0.95,
@@ -2204,6 +2304,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item describes a cooperation agreement between Iran and Pakistan media entities. Not a U.S. domestic event; not evidence of U.S. press restrictions or retaliation.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNjc2dG1rS2w3OUZ2YXIxNFZpLVpfWUxGNnpmOXo1OUg0ZUxNQnhYYjFKRGVEaEE4NFladWNrYVhSVkh3dkZEcnhCX3hDQnZZeEN5ZE5tMllHOEVvdFYtTkRVT1VsVVNVQ2d3WkFfYnVRaHhDSXZXR0t1MlYxMl9zbENRU1g2Ry1GRll1Mm1VRXFYa1k?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on press restrictions in Pakistan, not the United States. The signal specified is U.S. constitutional risk. Non-U.S. events, even if they match the signal pattern, are not evidence of U.S. constitutional stress and should be marked event_occurred=false and severity=0.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYkZXMFhnUTduVGlDNmdlOUc2ZzQwME03eFdPZWtrSk1PYjZ3ZjhLMXlaazVSeWNaZTI2NVVURTRFWjFZVHJLNUhBd3FENlJkMHBfdktPNlktbHVvVDZzMzhIR3ItN1FkMWdCUjJuZ2xqVW9UbmM1Ri1FLW4wQUowRXZBelN5RjJmekw4dV92RndnaWpi?oc=5": {

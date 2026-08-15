@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-14 13:47:24 UTC
+- Generated: 2026-08-15 13:01:47 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **9 / 100** (Baseline Institutional Noise)
-- Previous day delta: **+2.0**
-- Delta vs 7-day average: **-0.5**
+- Score: **13 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+4.0**
+- Delta vs 7-day average: **+4.1**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,31 +15,38 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.00 | 0.00 |
+| Elections and Transfer of Power | 22 | 1.00 | 5.50 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
 | Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
-| Civil Service and Agency Independence | 10 | 1.98 | 4.96 |
+| Civil Service and Agency Independence | 10 | 1.75 | 4.38 |
 | Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
-| Security Sector Neutrality | 8 | 0.30 | 0.60 |
+| Security Sector Neutrality | 8 | 0.12 | 0.25 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Independent Agency Capture | civil_service_integrity | 2.65 (Yellow) | ai | 0 | 0 |
-| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | ai | 1 | 1 |
+| Independent Agency Capture | civil_service_integrity | 2.30 (Yellow) | ai | 0 | 1 |
+| Alternate Elector Scheme Activity | elections_transfer | 2.00 (Yellow) | ai | 3 | 11 |
+| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | ai | 1 | 0 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 0 |
-| Inspector General Retaliation | civil_service_integrity | 1.30 (Watch) | ai | 0 | 0 |
-| Security Sector Loyalty Tests | security_sector_neutrality | 0.60 (Green) | ai | 0 | 0 |
-| Legislative Bypass by Executive | executive_constraints | 0.25 (Green) | ai | 0 | 2 |
+| Inspector General Retaliation | civil_service_integrity | 0.95 (Watch) | ai | 0 | 0 |
+| Security Sector Loyalty Tests | security_sector_neutrality | 0.25 (Green) | ai | 0 | 0 |
 
 ## Evidence Samples
 
 ### Independent Agency Capture
+- [courtlistener.com] **[official record]** Queerdoc, Pllc v. DOJ - United States Department of Justice (2026-08-14) - https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/
 - [courtlistener.com] **[official record]** Michael Washington v. City of Cincinnati (2026-08-13) - https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/
 - [courtlistener.com] **[official record]** Frank William Bonan, II v. FDIC (2026-08-12) - https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/
+
+### Alternate Elector Scheme Activity
+- Assessment: This item reports that a Nevada judge dismissed a case against individuals accused of forging an electoral certificate in the 2020 election. The underlying conduct—alternate electors accused of forging a certificate—is direct evidence that alternate elector scheme activity did occur in Nevada in 2020. The case dismissal itself is a judicial ruling, but the summary indicates the judge faulted the AG's office for withholding evidence, suggesting prosecutorial failure rather than absence of the underlying alleged conduct. The signal concerns efforts to substitute unauthorized electoral slates; the accusation of forged certificates by alternate electors is a direct match. However, without confirmation that the forgery actually occurred (as opposed to being merely alleged and then dismissed), and given that this is historical (2020 election), the severity is conservatively set at 2—a confirmed but past-tense occurrence of attempted unauthorized elector slate substitution, now subject to judicial dismissal.
+- [California Globe] Nevada Judge Dismisses ‘Fake Electors’ Case a Second Time, Faults AG Ford’s Office for Withholding Evidence - California Globe (2026-08-14) - https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcTZ5ZHVwOFJycTJoMXd5VUhiaWJnTHJ5TUR4OEVjQmxPVkMxRDAzc1dNU1NIQnV1cGd6dzVRQXNfeDVkUy1qN0xhTjFTUUpFTlNnSGh1NmFEZGJfSjZWVUJZZjRmSjV4SFo5VElFZXQ2SVFIMFFWWFJSM1AyY2VXRXBhNTVhaWZILTdUN2FHRzFwQ3BVZGVZSFpmNlotcW5UOFBRdTNxclF3V0lXVkMtX1RoVVZNUS1qMHNLVml0bk9taXVKXzZ1ZVotZWlhamRW?oc=5
+- [Vernon Matters] Judge drops Nevada case against electors accused of forging certificate in 2020 election - Vernon Matters (2026-08-14) - https://news.google.com/rss/articles/CBMixgFBVV95cUxQazBBaFVINWMzNDYwczNSbloxeFZsNXhnc1BuVTl4RUxORFZXaXZ6UHFacVBmUlFZUDQxVWd4a25KcFlSWU8tbTNuMFlMeVJ3anNkemFid1ozQlpqTEkxbFkzMjUyR1VfVlVWMjJmV05oblp4N2x0TmN0Y0d0b3EwaFFTdzhEMlIxOHFVakhXTllwb25yT1JmOTFIM2NHTHhkMlByOUNkMUl5X1RIYWtiZ0RGUzJUQUl2Nk5xZ2RENjVOOXpjQXc?oc=5
+- [The Eastern Herald] Nevada Fake Electors Case Dismissed Again, Exposing Gap in State Law - The Eastern Herald (2026-08-14) - https://news.google.com/rss/articles/CBMijgFBVV95cUxOdzNoejd0a2JTamRjcjZvUmdBS3AzQk1hRm5aM3RlenlZS2l6bG53NERxdG01ZXpRYkpjRUhHZkd2aVdkeFhpQmdyd0tsNVRWRk5RY3ZReERtZ3NoRGtfLWVpbUYwNkJTeU9BREpIaTNOd0kwck5FTXBISVVDU3dnZ21KRDBTclA0NDRsYTNB?oc=5
 
 ### Emergency Powers Expansion
 - Assessment: This is an official Federal Register document recording a presidential continuation of a declared national emergency. The act of continuing an emergency declaration is a real, verifiable action that invokes emergency powers. However, continuation of an existing emergency (rather than a new declaration) and routine exercise of established emergency authorities for a narrowly-tailored domain (export controls) represents a credible but contained stress signal rather than a serious structural breach. The executive is operating within formal statutory frameworks (likely the National Emergencies Act), and there is no indication of bypass of legislative process beyond what the existing emergency framework permits. Severity 2 reflects that this is a real use of emergency authority but not a novel or sweeping expansion.
@@ -50,19 +57,16 @@
 - [federalregister.gov] **[official record]** Updates and Amendments to the Civil Service Rules (2026-08-14) - https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules
 
 ### Inspector General Retaliation
-- [courtlistener.com] **[official record]** v. United States Department of Homeland Security (2026-08-13) - https://www.courtlistener.com/docket/74645299/3/17/v-united-states-department-of-homeland-security/
+- [courtlistener.com] **[official record]** State of Illinois v. United States Department of Homeland Security (2026-08-13) - https://www.courtlistener.com/docket/74645299/3/17/v-united-states-department-of-homeland-security/
 - [courtlistener.com] **[official record]** State of Illinois v. United States Department of Transportation (2026-08-13) - https://www.courtlistener.com/docket/74643629/1/3/state-of-illinois-v-united-states-department-of-transportation/
 - [courtlistener.com] **[official record]** Jenkins v. NEOGOV (2026-08-12) - https://www.courtlistener.com/docket/74644547/1/jenkins-v-neogov/
-
-### Security Sector Loyalty Tests
-- [federalregister.gov] **[official record]** Updates and Amendments to the Civil Service Rules (2026-08-14) - https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules
 
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Primary-source lookups: 20 signals, 16 official documents (Federal Register, CourtListener)
+- Primary-source lookups: 20 signals, 13 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 2
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
