@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 9.32,
+  "average_7d": 9.52,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,8 +9,8 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 4.0,
-  "delta_vs_7d": 4.06,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": 3.02,
   "domain_breakdown": [
     {
       "avg_severity": 1.0,
@@ -41,10 +41,10 @@
       "weight": 13
     },
     {
-      "avg_severity": 1.75,
+      "avg_severity": 1.5166666666666666,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 4.375,
+      "points": 3.7916666666666665,
       "weight": 10
     },
     {
@@ -55,10 +55,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.125,
+      "avg_severity": 0.0,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.25,
+      "points": 0.0,
       "weight": 8
     },
     {
@@ -73,9 +73,9 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-15T13:01:47.786524+00:00",
+  "generated_at": "2026-08-16T13:03:44.821917+00:00",
   "methodology_version": 2,
-  "previous_score": 9,
+  "previous_score": 13,
   "primary_sources": {
     "documents_confirmed": 2,
     "documents_fetched": 13,
@@ -87,59 +87,12 @@
   },
   "provisional": false,
   "score": 13,
-  "score_raw": 13.38,
-  "score_raw_pre_trip_wire": 13.38,
+  "score_raw": 12.54,
+  "score_raw_pre_trip_wire": 12.54,
   "successful_queries": 22,
   "top_signals": [
     {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "canonical_link": "https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/",
-          "link": "https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/",
-          "published": "2026-08-14T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
-          "source_tier": "primary",
-          "title": "Queerdoc, Pllc v. DOJ - United States Department of Justice"
-        },
-        {
-          "canonical_link": "https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/",
-          "link": "https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/",
-          "published": "2026-08-13T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
-          "source_tier": "primary",
-          "title": "Michael Washington v. City of Cincinnati"
-        },
-        {
-          "canonical_link": "https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/",
-          "link": "https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/",
-          "published": "2026-08-12T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
-          "source_tier": "primary",
-          "title": "Frank William Bonan, II v. FDIC"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 3,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 2.3,
-      "severity_label": "Yellow",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 3,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
@@ -151,28 +104,10 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Nevada Judge Dismisses \u2018Fake Electors\u2019 Case a Second Time, Faults AG Ford\u2019s Office for Withholding Evidence - California Globe"
-        },
-        {
-          "canonical_link": "https://vernonmatters.ca/2026/08/13/judge-drops-nevada-case-against-electors-accused-of-forging-certificate-in-2020-election-2/",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQazBBaFVINWMzNDYwczNSbloxeFZsNXhnc1BuVTl4RUxORFZXaXZ6UHFacVBmUlFZUDQxVWd4a25KcFlSWU8tbTNuMFlMeVJ3anNkemFid1ozQlpqTEkxbFkzMjUyR1VfVlVWMjJmV05oblp4N2x0TmN0Y0d0b3EwaFFTdzhEMlIxOHFVakhXTllwb25yT1JmOTFIM2NHTHhkMlByOUNkMUl5X1RIYWtiZ0RGUzJUQUl2Nk5xZ2RENjVOOXpjQXc?oc=5",
-          "published": "2026-08-14T00:01:20+00:00",
-          "publisher": "Vernon Matters",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Judge drops Nevada case against electors accused of forging certificate in 2020 election - Vernon Matters"
-        },
-        {
-          "canonical_link": "https://easternherald.com/2026/08/14/nevada-fake-electors-dismissed-holthus-mcdonald/",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdzNoejd0a2JTamRjcjZvUmdBS3AzQk1hRm5aM3RlenlZS2l6bG53NERxdG01ZXpRYkpjRUhHZkd2aVdkeFhpQmdyd0tsNVRWRk5RY3ZReERtZ3NoRGtfLWVpbUYwNkJTeU9BREpIaTNOd0kwck5FTXBISVVDU3dnZ21KRDBTclA0NDRsYTNB?oc=5",
-          "published": "2026-08-14T07:52:33+00:00",
-          "publisher": "The Eastern Herald",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Nevada Fake Electors Case Dismissed Again, Exposing Gap in State Law - The Eastern Herald"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 11,
+      "hits": 4,
       "id": "alternate_elector_scheme",
       "name": "Alternate Elector Scheme Activity",
       "override_note": null,
@@ -183,7 +118,7 @@
       "severe_hits": 3,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 3
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 1,
@@ -249,6 +184,53 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
+          "canonical_link": "https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/",
+          "link": "https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/",
+          "published": "2026-08-14T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "Queerdoc, Pllc v. DOJ - United States Department of Justice"
+        },
+        {
+          "canonical_link": "https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/",
+          "link": "https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/",
+          "published": "2026-08-13T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "Michael Washington v. City of Cincinnati"
+        },
+        {
+          "canonical_link": "https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/",
+          "link": "https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/",
+          "published": "2026-08-12T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "Frank William Bonan, II v. FDIC"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 0,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 3,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.95,
+      "severity_label": "Yellow",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
           "canonical_link": "https://www.courtlistener.com/docket/74645299/3/17/v-united-states-department-of-homeland-security/",
           "link": "https://www.courtlistener.com/docket/74645299/3/17/v-united-states-department-of-homeland-security/",
           "published": "2026-08-13T00:00:00+00:00",
@@ -286,36 +268,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "security_sector_neutrality",
-      "evidence": [
-        {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules",
-          "link": "https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules",
-          "published": "2026-08-14T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Updates and Amendments to the Civil Service Rules"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 0,
-      "id": "security_loyalty_tests",
-      "name": "Security Sector Loyalty Tests",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 1,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     }

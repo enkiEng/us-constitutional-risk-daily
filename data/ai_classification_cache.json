@@ -234,6 +234,16 @@
       "rationale": "This item concerns a Nigerian airline and unions, not a U.S. executive or administrative entity. The location is Nigeria, not the United States. The signal requires evidence of U.S. court order noncompliance by U.S. government or administrative bodies. A labor dispute between a private company and unions in Nigeria does not constitute evidence of the specified constitutional-stress signal in the United States.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdDhFcGtVc1c5dUtHZDhQTHZtRHIwVlRTR2NzemNKUGpRTWNxU0lNWW4zLUJCNWxYSXpHRWJLWlZQb0VOWDlsU1l4X1NlZ3ctb21OaTJRSnJ3TTNYU0lWN3dyN01nV0pjbndzanIzNDNBME01dzVUbjVpX2dhMlQ5cE9Uay1TNUpOSnlVejJxSE1vQ0RJdm9lMlViSmhzMF9SY2VMYTFuU1dNajJV?oc=5": {
+      "actor": "MCP (Malawi Congress Party)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This article concerns Malawi (evidenced by 'Nyasa Times', a Malawian news outlet, and reference to 'MEC', the Malawi Electoral Commission). The signal concerns U.S. constitutional stress. Non-U.S. events are explicitly excluded from consideration as evidence of U.S. constitutional-risk signals, regardless of their content or severity.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/67935987/505/united-states-v-bock/": {
       "actor": "Aimee Marie Bock and USCIS (parties)",
       "confidence": 0.98,
@@ -1266,6 +1276,16 @@
       "matches_signal": false,
       "primary_source_url": "TheNigeriaLawyer",
       "rationale": "This headline from a Nigerian legal news source presents an ABA warning about attacks and threats to judges, but lacks specific factual detail about actual incidents in the U.S., their scope, or organized pressure by officials. It reads as cautionary statement rather than documentation of a verified campaign.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uOUZjekNIbVE0dkdjODJEWF9sY2Y5RzFMTm5RN0hyWlQ3SGg0VmRTZzdNUnBGa3Nlck1OQ2dfaDBxTXBlUnF2LUhlem9zMFpDOGh2eEdUb2czTldGOHNTMHFBVGpmc2l3NHZRZXZqUFNKVWhqTWdoQ3E0MA?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://substack.com",
+      "rationale": "The item is a Substack article discussing civil tort weaponization as a general topic, not documenting a specific, verified instance of judge intimidation. The signal requires sustained official pressure to punish judges for adverse rulings. This appears to be opinion/analysis content about civil litigation tactics broadly, not evidence of an actual official intimidation campaign targeting judges. No specific judicial case, official action, or named perpetrator is identified. The content is generic commentary rather than reporting a real constitutional-stress event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOHlhbGQ1S3dHMGlsZ3FFQi1kbmM4bkFQSjBlcEhaSl9VY1Izbld5QmtxLVRvVzNQbmxlRE0tMFZfWE5sRGdUbzl5UW5CdXo3eWplYWMwdHFxRkdjQlpCX0REakJpcWNZNEtzQkRFWkNBOE5yZm5zOG5uY3UwbjJTa1NyTQ?oc=5": {
