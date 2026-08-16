@@ -121,6 +121,23 @@ jobs:
 
       - name: Trigger GitLab scheduler
         if: ${{ success() }}
+        # A notification that cannot be delivered must not fail the run that
+        # produced the thing being announced, and must not make failure() true:
+        # the failure-notification step below fires on failure() and posts
+        # DASHBOARD_STATUS=failed, so a rejected trigger would announce publicly
+        # that the dashboard run failed when it had in fact succeeded.
+        #
+        # On 2026-08-16 GitLab rejected both triggers with 422 "Identity
+        # verification is required in order to run CI jobs". The dashboard built,
+        # committed and deployed to Pages perfectly; the run was still marked
+        # failed, and only the second trigger hitting the same 422 stopped a
+        # false failure notice going out. The failure-status step below already
+        # treats a rejected trigger as a warning — this is the same judgement,
+        # applied to the step that was missing it.
+        #
+        # continue-on-error keeps the step visibly red so a broken trigger is
+        # still obvious, while the job and the run stay green.
+        continue-on-error: true
         env:
           GITLAB_TRIGGER_TOKEN: ${{ secrets.GITLAB_TRIGGER_TOKEN }}
           GITLAB_PROJECT_ID_OR_PATH: ${{ vars.GITLAB_PROJECT_ID_OR_PATH || 'enkieng/bluesky-scheduler' }}
