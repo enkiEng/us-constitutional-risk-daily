@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 9.52,
+  "average_7d": 9.68,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": 3.02,
+  "delta_previous_day": -3.0,
+  "delta_vs_7d": 0.35,
   "domain_breakdown": [
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.5,
+      "points": 3.5749999999999993,
       "weight": 22
     },
     {
@@ -41,10 +41,10 @@
       "weight": 13
     },
     {
-      "avg_severity": 1.5166666666666666,
+      "avg_severity": 1.2833333333333334,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 3.7916666666666665,
+      "points": 3.2083333333333335,
       "weight": 10
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-16T13:03:44.821917+00:00",
+  "generated_at": "2026-08-17T13:09:54.920590+00:00",
   "methodology_version": 2,
   "previous_score": 13,
   "primary_sources": {
     "documents_confirmed": 2,
-    "documents_fetched": 13,
+    "documents_fetched": 14,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,40 +86,11 @@
     "signals_queried": 20
   },
   "provisional": false,
-  "score": 13,
-  "score_raw": 12.54,
-  "score_raw_pre_trip_wire": 12.54,
+  "score": 10,
+  "score_raw": 10.03,
+  "score_raw_pre_trip_wire": 10.03,
   "successful_queries": 22,
   "top_signals": [
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://californiaglobe.com/fr/nevada-judge-dismisses-fake-electors-case-a-second-time-faults-ag-fords-office-for-withholding-evidence/",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcTZ5ZHVwOFJycTJoMXd5VUhiaWJnTHJ5TUR4OEVjQmxPVkMxRDAzc1dNU1NIQnV1cGd6dzVRQXNfeDVkUy1qN0xhTjFTUUpFTlNnSGh1NmFEZGJfSjZWVUJZZjRmSjV4SFo5VElFZXQ2SVFIMFFWWFJSM1AyY2VXRXBhNTVhaWZILTdUN2FHRzFwQ3BVZGVZSFpmNlotcW5UOFBRdTNxclF3V0lXVkMtX1RoVVZNUS1qMHNLVml0bk9taXVKXzZ1ZVotZWlhamRW?oc=5",
-          "published": "2026-08-14T19:18:26+00:00",
-          "publisher": "California Globe",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Nevada Judge Dismisses \u2018Fake Electors\u2019 Case a Second Time, Faults AG Ford\u2019s Office for Withholding Evidence - California Globe"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 4,
-      "id": "alternate_elector_scheme",
-      "name": "Alternate Elector Scheme Activity",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": "This item reports that a Nevada judge dismissed a case against individuals accused of forging an electoral certificate in the 2020 election. The underlying conduct\u2014alternate electors accused of forging a certificate\u2014is direct evidence that alternate elector scheme activity did occur in Nevada in 2020. The case dismissal itself is a judicial ruling, but the summary indicates the judge faulted the AG's office for withholding evidence, suggesting prosecutorial failure rather than absence of the underlying alleged conduct. The signal concerns efforts to substitute unauthorized electoral slates; the accusation of forged certificates by alternate electors is a direct match. However, without confirmation that the forgery actually occurred (as opposed to being merely alleged and then dismissed), and given that this is historical (2020 election), the severity is conservatively set at 2\u2014a confirmed but past-tense occurrence of attempted unauthorized elector slate substitution, now subject to judicial dismissal.",
-      "severe_hits": 3,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
@@ -181,6 +152,25 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "alternate_elector_scheme",
+      "name": "Alternate Elector Scheme Activity",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
@@ -212,7 +202,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 0,
+      "hits": 1,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
@@ -221,8 +211,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.95,
-      "severity_label": "Yellow",
+      "severity": 1.6,
+      "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
@@ -264,11 +254,11 @@
       "name": "Inspector General Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 4,
+      "primary_documents": 5,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }

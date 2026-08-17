@@ -744,6 +744,16 @@
       "rationale": "This is an opinion piece on a generic topic (GAO precedent and Fed independence). No specific verifiable event of agency capture, defiance, or weakening of safeguards is described. Opinion analysis does not constitute evidence of an actual constitutional-stress occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdVpwQzdfXzVNR09yTU9XNVVZV0pBbHAxY05FaEdXV1U4OWZzUWFpVWYwRkw4N3dZRkVobEdjLWVBUERReTlzWHFHMWlqbWxNOVkyekFGNl9YbV82eHZ2LXcybEpwMmhNbEl6ejVUcDZ2RjRHY21xSUxBeEFDbG1tSQ?oc=5": {
+      "actor": "Mackinac Center",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.mackinaccenter.org",
+      "rationale": "The item is an opinion/analysis piece from the Mackinac Center, a conservative think tank. The headline 'Supreme Court readjusts balance of power' is editorial framing, not reporting of a specific constitutional-stress event. No concrete action by the Court or any regulatory agency is described. The item lacks detail sufficient to assess whether any actual occurrence related to independent agency capture took place. This is opinion commentary about judicial philosophy or policy direction, not evidence of a real event weakening regulatory independence safeguards.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcmNTT3RCeFNEMFFFV21Jem90S2NmcXd0RXc1SHlCSmR5dUwyaXFuVkNNaHhfSl9sUXMyWV9GRmF2ZzhBY0xOUDI2YzdULTJ6eEtXNXdKNFlIRkxPU1lSNkJOR193WlFwLXoxMmQyMFMxZm5sX3JaR0djWUFUX0o4OExFQQ?oc=5": {
       "actor": "Supreme Court (hypothetical)",
       "confidence": 0.95,
@@ -1216,6 +1226,16 @@
       "rationale": "This is a complaint for declaratory and injunctive relief filed by multiple states against the Department of Transportation. Without access to the full complaint text, the case appears to be a standard administrative law challenge. Nothing in the docket entry indicates retaliation against an Inspector General, watchdog function, or anti-corruption monitoring effort.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74643938/1/united-states-v-florez/": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74643938/1/united-states-v-florez/",
+      "rationale": "This is a routine criminal complaint filing in federal district court. It documents a standard prosecutorial action (filing a complaint against a defendant named Erick Lindon Florez) and contains no evidence of retaliation against an Inspector General, watchdog function, or anti-corruption monitoring. A criminal complaint is ordinary judicial process, not a constitutional-stress event. Without additional context showing that this complaint was filed in retaliation for IG activity or as an attack on watchdog functions, it is irrelevant to the signal.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/74644547/1/jenkins-v-neogov/": {
       "actor": "NEOGOV and South Carolina state agencies",
       "confidence": 0.98,
@@ -1256,6 +1276,26 @@
       "matches_signal": false,
       "primary_source_url": "facebook.com",
       "rationale": "This item concerns Sara Duterte's impeachment trial in the Philippines (indicated by Bisaya language reference and Filipino political context). It is not a U.S. domestic event and therefore falls outside the scope of this constitutional-risk dashboard, which monitors U.S. constitutional stress. Additionally, an impeachment trial is a formal legal proceeding, not evidence of judge intimidation. No material signal for U.S. judge intimidation.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcGJ3WEtjWk5kOXlTYmRZNW02ODlwYXljT3ZoQk1jNTlUUjVfNEJZYldVVVBpR0I2ekdfT1p3T3VUVzZtYjV1WHN3bk92dHM2VVNvYkhfZlpITVhhUWRibFNmNWhuSUloWmE5aHU3QU9HajdXb3VYcFZJWDVVWW80cUMwbWZCVnMydWFqSEI3SmxscmFYblBHX0tBTXRkTkxQN05GcGZ2UVJCMzdWRVJwMEdyUnAyQ3RNVmdiVHZMLXNQdFVNRjRGVEF3OGFkaFhjOGtXT2Fidnd4ajA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns the Sara Duterte impeachment trial in the Philippines, not a U.S. domestic event. The signal addresses judge intimidation campaigns in the United States. This is geographically outside the U.S. constitutional system and therefore irrelevant to the dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV1FnUDczbERYcTlDWDNJVmpCWV9DZzdsN2NSNGFrQUNrMHZ4VnZQdTAxUnlGRkNMNmVKNnJNLVJycG9pNTk2TTZaX05UQnpMck1vNlBrVWM0dWNRekxmaUNUWGtwSUNLOWFuRi1od3dJay1nSURwNEFFWDhENEpDZzNkRm5PdTBBV0FkOE5DOHgtYl91UWpPbndhcVdZWHJiMkd4U2xFdUpiV2hHLUhmUG53NnhiZ2hnUnpFcjVoTER3eGRpclZJa1h3MVNpWVJvNWt3a3RFcWJOVnFw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a procedural statement by a defense lawyer during the Philippine impeachment trial of Sara Duterte regarding sub judice rules. This is not a U.S. domestic event and does not address judge intimidation in the American constitutional context. The geographic jurisdiction is the Philippines, making it out of scope for this U.S. constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYWphSmNHWGM4SzZ0M0wyX0Zfc1ZkN1JMdUd1VGk0R1lkekFSODhxeERSTkYxSHVRMlhoOXJIRTg1dktTVXRHLVlDM2ZPV2o2Unh3TDlNbi1KLXNESWd1LXN5bHdqSEcxeHFCUlltUFl2V0dmbVpNOEt3Y0dSZWVveENsZFRGakdqOFVtNDVqSnFJaDk0R3pLN0lYZXViaHIzQ0xBR2x6Y3NWSzZfOFMyZ1RodkFJTWVPV1VGWXBtdzJ3cFRodk53SlQ2SFIzQWdKU2ZrWWdicHc4OHpQ?oc=5": {
@@ -1980,6 +2020,16 @@
       "rationale": "A City Clerk announced that votes cast for a specific candidate (Tommy Waters) will not be counted, indicating removal of a candidate from meaningful ballot participation. This is a real administrative action, though localized to a single race and candidate. The severity is 2 rather than higher because it appears to be a single isolated case of disqualification (likely based on eligibility grounds) rather than a systematic campaign to remove multiple opposition candidates or a structural failure. The action is contained to one local race.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdF85Tm9nci1kVHlBekR2b1k1d3hnQjhwWTNLRzNDTDVzcWhrSllSOTJjV3ZqdG9kcDNUUGpzYlBURnhrSWdGQkRwSUpoSVVrTzZHZDE0Z3JzNXNXODFGdE5OZUxnRllNcS1mamRlVW4yaTFEakM1VzhkMzcyOWlXbmFIWUNhZ3NIR3dqNjdPYXhlbzdjWHc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Zimbabwe (ZimEye is a Zimbabwean news outlet) and discusses internal political dynamics involving Chiwenga, a Zimbabwean military/political figure. It is not about the United States and does not address opposition ballot exclusion or any U.S. constitutional stress. The signal is specific to U.S. domestic events.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ2U1YUJhLW5iR19FVnZTQzdkcExEZmFCSFVkQmZrZEFMU1JwcGNCUm5VMUlLX3hHT1BESTF3M053VFU4VnRrQm9UUGptOWJJMmswSTRVaU1aajFyYmo0UHozYi1kSks3S19SdUhzRnpLdUFLUVIwV0NFTURhZGpSeFotMnNEV0wwOFlDclRWVFIzbks3TmJvOVAxSzdQalRDbUJDNW93?oc=5": {
       "actor": "Russian Supreme Court",
       "confidence": 0.99,
@@ -2386,6 +2436,16 @@
       "rationale": "This event concerns the Philippines, not the United States. The signal specifically requires U.S. domestic constitutional risk. Even if the event occurred, it is geographically outside the scope of U.S. constitutional monitoring.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdklGRDZpM2hNdm96UWdpUDhWMGZobmpEM19hYVVDd29JSFVwc2lrcm15VzRrSHI4bmdiSi1fWHAxN2J4N2FNRzlVd1RhWjg1VWNtbG5QbjZsNEZtUmZ1YVI0VXBlM0gtWTB1Vy1VaUZmY0ItWV9aSk1SdlBEdVQ0bXpnX1ZkVzkzZEJOamJLeFlpMk43eG8wTDdadzRicjA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item is from Journalism Pakistan and covers global press freedom, not U.S. domestic events. The signal applies to U.S. constitutional stress; this is international coverage outside the scope of U.S. domestic constitutional risk monitoring.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxOS2VldjRWSVRWWTFNUkt6YW1KYW0tUVA1UFNlOXFUUW04X1JYa25Ma083bHpQMUE2SWQ1aE4yZVZTSkNWN3duencyVVhQQUlHN3BOMjhCZlRkTU5qcFdHRDZ4aHM1eG9QSW1NWEhQZHRxWnZkTl9LTzRMd3FrUXVicHRhTDdLSEpUTW5zNlpfVU9UTXF1MWRPMEFIR1d0N0U?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -2394,6 +2454,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This item concerns Afghanistan (Taliban) and a journalist in Kabul, not the United States. Out of scope.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZEZ0YnRTckJVdHNPazZ6Z1RZcVFhN1V5bFh2UEpZNVFTWGJYNGxqR2FXUEV4NlRYN1l5V3lFdC1ScEZLU25iSkJ1YU5hMDJfS2dIZDJRZVBEeE9qU2t3SjlqcWJhVkZDc3JrOU1jV1lvX0xRc0kzZ1dVdldXX21LTVBtX0FvSElkeGRndDBhVU05RVg3azB2aWJ3Zkp2QVk?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.97,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item is from a Kenya-based source (streamlinefeed.co.ke) and appears to be philosophical commentary on press freedom under threat globally, not reporting on a specific U.S. state action. No verifiable U.S. domestic event is documented.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTnFSRG9xeGJ1cjRTUlJGNDlHaWF2Q0xDRUZuY3NqX2JpUU40Z1c5WU1GRUFKTHI2TWdET0hUampPNHF4UEcweUlWc21TSV9NSzBEdjlRTzRxdEZyZ0FJTmdqd0tidHJweWgtdXV4YUI0SF85TkVSX1JNanlndk5mYVhPMnBmUGIwUmZOcGFzSDlmR19xRWEySGswV1haeG03SGVtWDhsd9IBTkFVX3lxTE41WDRMLUhiT3FMRVZHcmhFM0h4MHhTSmRLdkw2TUFUeF9teTNkLWk1V0hkdFFwa3JNcV9zTDNmd1VfbmNrY3BHUkNYOVFrZw?oc=5": {
