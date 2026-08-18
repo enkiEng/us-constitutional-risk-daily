@@ -60,6 +60,16 @@
       "rationale": "This item reports dismissal of a 'fake electors' case in Nevada related to the 2020 election. The term 'fake electors' and the reference to a gap in state law regulating such conduct indicates that alternate elector scheme activity did occur in Nevada. The dismissal and the headline's framing ('Fake Electors Case Dismissed Again, Exposing Gap in State Law') suggest the underlying conduct was established or credibly alleged, and the court action exposed legal shortcomings in addressing it. This is evidence of a real, contained, past-tense instance of unauthorized elector scheme activity. Severity 2 reflects confirmed occurrence of the signal event in a historical context, without evidence of ongoing or current activity.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWHJZdU1MZlVJanlHaTNlSmxZVXRfNzJDT1lTQ1ByMTJHM3RxWmJvNkRmUHBEdUd1dlhiWjh6SWZRMTNHaHNjVG1rRFZEMTdxN1JralZNLTVZSUpxUUVjUFpyODEzSjlZYVRiLXU1cnRLUC11S2ZwZnI4cGxQdHVxTjFWQkk1NzFmOW1UckRRX3c?oc=5": {
+      "actor": "Nevada court/prosecutors",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The headline describes a case dismissal, not an actual alternate elector scheme activity. A case being dismissed is a procedural outcome regarding a *past* alleged activity. The item does not provide evidence that an alternate elector substitution scheme actually occurred or was actively implemented. Dismissal of a case against alleged fake electors is a legal proceeding, not evidence of the constitutional stress event itself (i.e., actual functioning alternate electoral slates substituting for lawful outcomes). Without detail showing that an unauthorized electoral slate was actually substituted or functioned, this is legal process around an allegation, not the signal event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNTZMdlRjak5Jd2xYMG8zdkZ2eUxmNlRfNTJhSEpaX2ViOWlfb1ZncTdZSUptcFFxN053cU0xeXZsYUFiU21iNElKR29HaVBGTmRVQXlXLTVSdU9kNFk1Z0dvZmVnMldKTHhmSHFXOGx3WEZGbGxqSW9MdUlNU21yeXl2UjlxTm9oVHNVSDFSQnZhbk5meGxveEtB?oc=5": {
       "actor": "Nevada state court",
       "confidence": 0.92,
@@ -323,9 +333,29 @@
       "primary_source_url": "https://www.courtlistener.com/docket/73738559/5/garcia-castro-v-larose/",
       "rationale": "This is a routine procedural order consolidating two cases and setting briefing deadlines. It is a court issuing an order, not evidence of executive or administrative noncompliance with a court order. No refusal to comply with any court directive is described or evidenced.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74651459/4/sanon-v-nessinger/": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74651459/4/sanon-v-nessinger/",
+      "rationale": "This is a docket entry showing a motion filed by a private party (Davidson Sanon) to enforce a court order. It is a procedural request, not evidence that an executive or administrative official has refused to comply with a court order. The filing of an enforcement motion indicates the existence of an underlying order, but provides no information that it has been violated or that there is noncompliance. This is a routine litigation step, not a constitutional event.",
+      "severity": 0
     }
   },
   "election_administration_capture": {
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLUlPcWVRb1U4bzB2LXl4SldReFRZamxhaWdiZTN6Y21telh0X3VhQkRlbW1rTmlIeWRNdDF4WnBTVEh0bVJNci0zXzgyWU1TaHdSbGNGbFltYmY5WlRrYnpSNjhtUnlTN0hQMEhnajVuUkZoemI1Z0wxYmhNY1RkNEVaaGJhQkdmSEJzWjdjbU5PTGJoVnppb0xUODFaM1FWUWVwU3NqcUxUWVRfa2RMejhITkVoVHpKNkZnV1Awa0RSMnl4Mlo3NTB2OUF6MU0xbEVQNXRuM25hU04yQWc?oc=5": {
+      "actor": "North Carolina Governor Stein",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.newsbreak.com",
+      "rationale": "A governor vetoing a bill that would restrict early voting is an act that occurred, but it is orthogonal to the signal of election administration capture by partisan forces. A veto of a restrictive elections bill reflects a check against partisan election control rather than evidence of it. The item describes a legitimate constitutional process (executive veto) being exercised to block a measure that would constrain voting access. This is not evidence of movement toward partisan capture of neutral election administration; rather, it demonstrates the opposite\u2014a constitutional restraint against such capture.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hVGhDZVlubUViVVUyNmR6OFpWUDVmY05ROEtuLWJnMVRKdk9xeWdsdVBsZjVJRmpQTmhUV190ZTdkTlkyLVNSbnlLcDJxVFFNT1pKS1hCWGg?oc=5": {
       "actor": "Trump",
       "confidence": 0.95,
@@ -1268,6 +1298,16 @@
       "rationale": "This item reports court rulings finding that an administration violated rights\u2014a normal function of judicial review. It does not describe any official campaign, pressure, or punishment directed at judges for their adverse rulings. The headline describes the outcome (courts ruling against an administration), not judge intimidation. No sustained pressure on judges, threats to remove judges, or punitive action targeting the judiciary for their decisions is alleged. This is standard adversarial litigation outcomes, not evidence of a judge-intimidation campaign.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOXhwbFdNZHY3dENIamNKY1NkZjlkME5NUEUzelZacFFpdXJZaFZxVkhNT3VhU1lCNl84QzhDcWVFSUdISzl0ejREdzhWdFpDR0lQRXZGNXNRZ3ZVd1UxbEtkYTk2cnE2V1pyaTRFdzk0aGd2Njk0QUMxaGZfXzRqQkNXTnM3TzBPU3NsOFpHSlAxdk1RSmxtT2QzbXA1WXE2VmREamRBZVFqdFkwaUE3dzlXUWFSeVlWVkFpOEpFa3ljbXREOVZXYllCdmhPTFBUVl9ObzIxaw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "facebook.com",
+      "rationale": "This item describes events in the Philippines (references to 'VP On Trial,' Filipino names Gina Acosta, Amando Ligutan, and Francis Escudero, and Philippine impeachment procedures). It is not a U.S. domestic occurrence and therefore not relevant to the U.S. constitutional-risk signal regarding judge intimidation in the United States. Additionally, the item describes a routine impeachment court procedural ruling (declaring a witness hostile and permitting leading questions), which is a standard evidentiary matter in judicial proceedings, not an act of intimidation or pressure on judges for their rulings.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUi1Wa3h6S3VOek5BSXVHY0kwTzlUeElJUk11UE90UzNjVmtfTk9mb1FFSmxXUXFYMC1SaU54Y3g3emZlMzY2bHFnY1FMcEJKOU5ZNmFyS2UxdGVOeGp1Rm0tUlJuRlhjSXJlX2pDM1RkSkVqNGpraU1saG9jbjlSOWtDT21YQmo4dlVZaUdieEE3Z3ZXOVN0T0swbGJ1Y2NwMFdzQmU2MGVJSXpJdkVZUHRnYkhEZUhDUUl2N1hrOER4QWR2RzBPb3lDOERGU20tM1dydVRPRTVHU2s?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -1702,6 +1742,16 @@
       "rationale": "A sitting president has signed executive orders attempting to limit birthright citizenship in direct tension with Supreme Court constitutional interpretation (14th Amendment). This constitutes a real executive action attempting to override or circumvent established constitutional doctrine through unilateral action rather than statutory process. However, severity is 2 rather than 3 because: (1) the action's enforceability is immediately contestable in courts, (2) it has not yet resulted in a confirmed structural breakdown of constitutional authority, and (3) judicial review processes remain available. This is a serious but not yet confirmed constitutional-governance stress.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc1piQlpia19zUHdDZUIydHhKT0E5RUR1RVFfSHh2UW9qZVhacUJJZXZnVmpiY1M3U1hUZDlndlVwdkVWajhiMmZ6SVN0WWswNlc2ZVczYjRubGNvcW92WFBGQW9sb180Sm5xaDgtVlFGcFQ2Q1lUUUpSVzJ3YmVBYlNhZVdWTFBPZm1Xc3NuUDdGYnpzck5qZDZYbVo?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item provides only a headline-level claim from a partisan opinion blog (Daily Kos) with no substantive detail, source documentation, or verifiable account of what action occurred, by whom, when, or how it constitutes a legislative bypass by executive action. Without a concrete description of a specific executive action that circumvents statutory authority, this cannot be assessed as evidence of the signal. The summary is too vague to confirm whether any real event occurred at all.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWs0M1ZPbWlUUS00eEI5bGpxdDI5MTl6bDNvODZJdHpTdEdvazZpSVhnbHNOTGFqTjZQTk84Y0tqTGtDUi1ueW1LWGFMTEJCZlMyWHdYdXVmNUV0STdJcVNtbXRYbVNDZVhBNzdfQTgtdnVXUktLQUpVcEtUMmZsUHJpWXNzZExfcEV3VE9Fcy1kUTNPSXNjQnFTdHNIUUpnOVJNZXRHNA?oc=5": {
       "actor": "Trump",
       "confidence": 0.65,
@@ -1898,6 +1948,16 @@
       "rationale": "This is a filed complaint in federal district court. The docket entry shows a civil lawsuit was initiated, but the summary provided does not describe any military use or threat in a domestic political conflict. Without substantive information about the complaint's allegations, and given that a complaint filing is a routine legal action rather than evidence of an actual constitutional event (which would require the complained-of conduct itself to have occurred), this rates as severity 0. The filing of a lawsuit is not itself evidence of the signal event.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74657524/1/adams-v-united-states/": {
+      "actor": "Unknown (civil plaintiffs)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74657524/1/adams-v-united-states/",
+      "rationale": "This is a docket entry indicating the filing of a civil complaint in federal court. The document title and summary provide no information about the complaint's content, allegations, or relief sought. Filing a lawsuit is a routine legal action, not evidence of military use or threatened use in domestic partisan political disputes. Without substantive content showing the complaint alleges military action in a political conflict, this cannot be judged as matching the signal. The entry is purely procedural.",
+      "severity": 0
+    },
     "https://www.federalregister.gov/documents/2026/08/06/2026-16125/establishing-the-presidents-military-spouse-commission": {
       "actor": "Executive Office of the President",
       "confidence": 0.98,
@@ -2070,6 +2130,16 @@
       "rationale": "This article concerns Nigerian politics and legal proceedings regarding a Nigerian politician. The reference to a Supreme Court decision pertains to Nigeria's judicial system, not the U.S. This is not a U.S. domestic constitutional event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxNR2JzX2M5aU1PZHgxRzFQN19PZlZmRDlrZGNSYUtkaGN6eE9mVDJuZ3p3OEFrZ2NyYUprT0RQdVJYcVRDbmg0cURHM0RqNEFoWDRIMjVkbWROU01CckZNZm8zUjMzSW9xSmhCc3VhR3dETVltRDhOVWJ6Zm9xNU52WlpPT0xkYndkN1p2UVFqUl9jWjBmQmRjUTBjT245ZG1TMmRwLWdHcHp6bkV4dWpBeE4wMzktdHlWSGc?oc=5": {
+      "actor": "Russian Supreme Court",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Russia, not the United States. The signal pertains specifically to U.S. constitutional risk. Non-U.S. events are out of scope regardless of thematic similarity to the signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcmpTZGx4MkpaUW1Xb0FHX21iTS1rVk9PN1FDMlV5MzVNNlZOdmxKdGt5dFdwdnZfa195TzYyZERTdGRmaFgtdzIzUS1hT0NCZHdfTHlZSGNvR0tRTEFMWm5ielIwR1JNNjliSW5jZ2Y5WVdfZURCY1JBTkRoUjZzVHdMUEYzVnZpNF92Skk4aXhiNTFXTFRDcndlU2FfRUJ0UUZGSDdlMDUxc3QwUlNsQWI2akNGTGxyYmFHU3pEQXFRNFhHU2RF?oc=5": {
       "actor": "Iowa state authorities",
       "confidence": 0.75,
@@ -2079,6 +2149,16 @@
       "primary_source_url": "https://iowacapitaldispatch.com",
       "rationale": "A Libertarian gubernatorial candidate was removed from the ballot in Iowa and is planning to appeal. This is a confirmed real occurrence of ballot exclusion of an opposition candidate. The fact that an appeal is being filed confirms the removal happened. However, without evidence of systematic, statewide, or coordinated removal of multiple opposition candidates, and given that legal challenge mechanisms appear available, this represents an isolated or contained action rather than structural failure. Severity 2: real but not yet confirmed as part of a systematic campaign.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiygFBVV95cUxNV3hoWi1OWW9wWldITVVvY0k3ZjI1d1U4QWVZQ05nQV9UeDhqWmJkN1dJX0gtdXo0Mzl4RU16OVJDNlJFel9iY2paV0JwR3ZLa0VBemctTTR6WFRnRzZ3WHVYZlZhZ1ZVeE5RSHZabzBaMzUwV091amFWdENYQjhNM1ZUNlRDcEJXTEhIaXBDQ0xFTTlyZUpYT2JCSFEyWEM4VWFCZ1R3bkNzTnUyQWh1ZFdncHcxVjNJdll1V05jbXBmR0tXRU5lSGhR0gHKAUFVX3lxTE1XeGhaLU5Zb3BaV0hNVW9jSTdmMjV3VThBZVlDTmdBX1R4OGpaYmQ3V0lfSC11ejQzOXhFTXo5UkM2UkV6X2JjalpXQnBHdktrRUF6Zy1NNHpYVGdHNndYdVhmVmFnVlV4TlFIdlpvMFozNTBXT3VqYVZ0Q1hCOE0zVlQ2VENwQldMSEhpcENDTEVNOXJlSlhPYkJIUTJYQzhVYUJnVHduQ3NOdTJBaHVkV2dwdzFWM0l2WXVXTmNtcGZHS1dFTmVIaFE?oc=5": {
+      "actor": "Sara Duterte (Philippines)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Philippine electoral politics and Sara Duterte's 2028 prospects. It is not a U.S. event and therefore falls outside the scope of a U.S. constitutional-risk dashboard.",
+      "severity": 0
     }
   },
   "political_speech_surveillance": {
@@ -2263,6 +2343,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74644693/1/smith-v-natan/",
       "rationale": "This is a routine civil complaint filed in federal district court involving a private plaintiff (Peter Smith) against multiple defendants including individuals and a county agency. The case involves a family services matter and shows no evidence of selective criminal prosecution of political opposition actors. It is a standard civil docket entry with no connection to the signal of politicized prosecution. The filing itself is a normal legal proceeding, not evidence of constitutional stress related to opposition targeting.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74657524/1/1/adams-v-united-states/": {
+      "actor": "Federal District Court, D.C.",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74657524/1/1/adams-v-united-states/",
+      "rationale": "This is a filed civil complaint\u2014a procedural document indicating that plaintiffs have initiated litigation against the United States. The docket entry itself does not establish that any prosecution of opposition figures has occurred, nor does it describe criminal enforcement targeting opposition actors. A complaint is a claim or allegation, not evidence that the underlying event (politicized prosecution) has taken place. Without visibility into the complaint's allegations, relief sought, or any judicial determination, this document alone cannot confirm a constitutional stress event. The filing is routine civil court administration.",
+      "severity": 0
     }
   },
   "press_restrictions": {
@@ -2434,6 +2524,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This event concerns the Philippines, not the United States. The signal specifically requires U.S. domestic constitutional risk. Even if the event occurred, it is geographically outside the scope of U.S. constitutional monitoring.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZjhvZGdYXzR1dXV5dVVLaV9KakdhMy1tWjVEZTdMSU51VlBPN3g0cy1BSGJBakdzOE5xUFpqVl9PLUdCTUswNzAxczZobHBsTHNkZlprWkRTWkRUTkNfdWhsaXRWTVVuc2gyay12OUNDaThGNFY4eng0eEJvMUkzaU84Z3FuUEpUei1fVThJaFlvT19oS09SaTJNOTA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Pakistan (PECA is Pakistan's Prevention of Electronic Crimes Act; NCCIA relates to Pakistani legal frameworks). It is not a U.S. domestic event and therefore falls outside the scope of a U.S. constitutional-risk dashboard. The signal concerns state action against independent reporting within the United States.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdklGRDZpM2hNdm96UWdpUDhWMGZobmpEM19hYVVDd29JSFVwc2lrcm15VzRrSHI4bmdiSi1fWHAxN2J4N2FNRzlVd1RhWjg1VWNtbG5QbjZsNEZtUmZ1YVI0VXBlM0gtWTB1Vy1VaUZmY0ItWV9aSk1SdlBEdVQ0bXpnX1ZkVzkzZEJOamJLeFlpMk43eG8wTDdadzRicjA?oc=5": {

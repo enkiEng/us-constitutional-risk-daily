@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-17 13:09:54 UTC
+- Generated: 2026-08-18 13:12:04 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **10 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-3.0**
-- Delta vs 7-day average: **+0.4**
+- Score: **8 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-2.0**
+- Delta vs 7-day average: **-1.8**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,11 +15,11 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.65 | 3.57 |
+| Elections and Transfer of Power | 22 | 0.33 | 1.79 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
 | Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
-| Civil Service and Agency Independence | 10 | 1.28 | 3.21 |
+| Civil Service and Agency Independence | 10 | 1.08 | 2.71 |
 | Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
@@ -30,9 +30,8 @@
 |---|---|---:|---|---:|---:|
 | Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | ai | 1 | 0 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 0 |
-| Alternate Elector Scheme Activity | elections_transfer | 1.65 (Watch) | keyword | 0 | 0 |
-| Independent Agency Capture | civil_service_integrity | 1.60 (Watch) | ai | 0 | 1 |
-| Inspector General Retaliation | civil_service_integrity | 0.25 (Green) | ai | 0 | 0 |
+| Alternate Elector Scheme Activity | elections_transfer | 1.30 (Watch) | ai | 0 | 1 |
+| Independent Agency Capture | civil_service_integrity | 1.25 (Watch) | ai | 0 | 2 |
 
 ## Evidence Samples
 
@@ -45,23 +44,19 @@
 - [federalregister.gov] **[official record]** Updates and Amendments to the Civil Service Rules (2026-08-14) - https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules
 
 ### Alternate Elector Scheme Activity
-- No fresh evidence links in the current lookback window.
+- [ktnv.com] Nevada's 'fake electors' case is dismissed again. What comes next? - ktnv.com (2026-08-18) - https://news.google.com/rss/articles/CBMikAFBVV95cUxOWHJZdU1MZlVJanlHaTNlSmxZVXRfNzJDT1lTQ1ByMTJHM3RxWmJvNkRmUHBEdUd1dlhiWjh6SWZRMTNHaHNjVG1rRFZEMTdxN1JralZNLTVZSUpxUUVjUFpyODEzSjlZYVRiLXU1cnRLUC11S2ZwZnI4cGxQdHVxTjFWQkk1NzFmOW1UckRRX3c?oc=5
+
 ### Independent Agency Capture
 - [courtlistener.com] **[official record]** Queerdoc, Pllc v. DOJ - United States Department of Justice (2026-08-14) - https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/
 - [courtlistener.com] **[official record]** Michael Washington v. City of Cincinnati (2026-08-13) - https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/
 - [courtlistener.com] **[official record]** Frank William Bonan, II v. FDIC (2026-08-12) - https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/
-
-### Inspector General Retaliation
-- [courtlistener.com] **[official record]** State of Illinois v. United States Department of Homeland Security (2026-08-13) - https://www.courtlistener.com/docket/74645299/3/17/v-united-states-department-of-homeland-security/
-- [courtlistener.com] **[official record]** State of Illinois v. United States Department of Transportation (2026-08-13) - https://www.courtlistener.com/docket/74643629/1/3/state-of-illinois-v-united-states-department-of-transportation/
-- [courtlistener.com] **[official record]** Jenkins v. NEOGOV (2026-08-12) - https://www.courtlistener.com/docket/74644547/1/jenkins-v-neogov/
 
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Primary-source lookups: 20 signals, 14 official documents (Federal Register, CourtListener)
+- Primary-source lookups: 20 signals, 17 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 2
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
