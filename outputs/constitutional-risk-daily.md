@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-18 13:12:04 UTC
+- Generated: 2026-08-19 13:13:05 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **8 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-2.0**
-- Delta vs 7-day average: **-1.8**
+- Score: **7 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-1.0**
+- Delta vs 7-day average: **-2.4**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,11 +15,11 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.33 | 1.79 |
+| Elections and Transfer of Power | 22 | 0.24 | 1.31 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
 | Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
-| Civil Service and Agency Independence | 10 | 1.08 | 2.71 |
+| Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
 | Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
@@ -30,8 +30,8 @@
 |---|---|---:|---|---:|---:|
 | Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | ai | 1 | 0 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 0 |
-| Alternate Elector Scheme Activity | elections_transfer | 1.30 (Watch) | ai | 0 | 1 |
-| Independent Agency Capture | civil_service_integrity | 1.25 (Watch) | ai | 0 | 2 |
+| Alternate Elector Scheme Activity | elections_transfer | 0.95 (Watch) | ai | 0 | 1 |
+| Independent Agency Capture | civil_service_integrity | 0.90 (Watch) | ai | 0 | 5 |
 
 ## Evidence Samples
 
@@ -47,9 +47,9 @@
 - [ktnv.com] Nevada's 'fake electors' case is dismissed again. What comes next? - ktnv.com (2026-08-18) - https://news.google.com/rss/articles/CBMikAFBVV95cUxOWHJZdU1MZlVJanlHaTNlSmxZVXRfNzJDT1lTQ1ByMTJHM3RxWmJvNkRmUHBEdUd1dlhiWjh6SWZRMTNHaHNjVG1rRFZEMTdxN1JralZNLTVZSUpxUUVjUFpyODEzSjlZYVRiLXU1cnRLUC11S2ZwZnI4cGxQdHVxTjFWQkk1NzFmOW1UckRRX3c?oc=5
 
 ### Independent Agency Capture
+- [courtlistener.com] **[official record]** Centerline Logistics Corp. v. United States Department of Labor (2026-08-18) - https://www.courtlistener.com/opinion/10953371/centerline-logistics-corp-v-united-states-department-of-labor/
 - [courtlistener.com] **[official record]** Queerdoc, Pllc v. DOJ - United States Department of Justice (2026-08-14) - https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/
 - [courtlistener.com] **[official record]** Michael Washington v. City of Cincinnati (2026-08-13) - https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/
-- [courtlistener.com] **[official record]** Frank William Bonan, II v. FDIC (2026-08-12) - https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/
 
 ## Data Quality
 

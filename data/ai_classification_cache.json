@@ -734,6 +734,16 @@
       "rationale": "The metaphorical headline ('Plays Wizard of Oz') suggests opinion or analysis of Supreme Court action regarding the Federal Reserve. This appears to be editorial commentary rather than factual reporting of an event that weakens regulatory independence. Metaphorical language indicates non-factual framing.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jRFc2ZTZob0w3RUVUX3V3RHVFNklqLTR1QXpJRTJlejBzRzNrSWgzYkhsZDhmN0Y4RVA2RzhLRE9ocnZOQThid25qV0ZGYkFIaEl6dWI5cGRzX2o1WkpwRFNOd1hMcmpmSkd3RlNjdHZsbmFPYTkw?oc=5": {
+      "actor": "Executive branch (proposed/alleged)",
+      "confidence": 0.88,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://legis1.com",
+      "rationale": "This headline refers to fallout from 'expanded executive removal authority,' which suggests proposed or recent legal changes and their anticipated effects. Without a specific verifiable action (e.g., a confirmed rule change, an official removal, or a documented override of agency independence), this remains analysis of potential risks rather than evidence of an accomplished constitutional stress event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMidEFVX3lxTE5acmtlUm4ycFNVTVJJYU53MUtNMVJ0aW9vQndfSHlpNjJGbjJReTNtOFNUXzdYRFozZ1F6TU93OWN4ak0zMEZ3UDdHQnkxYnFCUEhyRDJxQXdVdWpYRXNvX2NjOVlvRjJMTDRNYl84Uy1HZXZD?oc=5": {
       "actor": "US Supreme Court",
       "confidence": 0.15,
@@ -854,6 +864,16 @@
       "rationale": "Report of a renewed attack on a Fed Governor despite a Supreme Court ruling indicates both action and prior judicial check. The fact that the effort continues after judicial intervention is noteworthy; however, the severity remains 2 (real, repeated stress) rather than 3 because there is no indication of open defiance of the court ruling itself, and the outcome remains unclear.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMlhoZGg4TFpxREpiLVl0dG5sNndCS3NlM0FzVVRkVXE5XzBBbEZBQWo3dU1Lb3hjVTFLUWtxWXBhQVFCV0VYeXQ3eDNBYWhQSTlEaGFfNS0tUGZiWkxScHBJcUVJektVQUljbkgzVDhsVnVoWEV1UU1vTkxHQkJwQjJNLVZBekcydms0a29QdkR6czQ?oc=5": {
+      "actor": "Trump administration (alleged/reported)",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.americanbanker.com",
+      "rationale": "This is press coverage of a reported or proposed action\u2014a look at legal theories that might be used to remove a Federal Reserve official. Reporting on what someone 'looks to channel' or might attempt is not evidence that an actual removal or capture has occurred. No verifiable action has taken place.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbm9wY21QbFV0clM5UmVudEZseDduX2FBSXVkaGZ5dk1IT21xc0pfdTlnNExtR3ZmeHItNUNmYmJzckFVNEVPbVJvTXFtTk1uSGJRMGZwV1d1QlVDdENKZ0pFYzZHajFRdS1aUUxVWkx4bDNibmtiSkxvOHpfUzF2Y3Vpc3VrX00xTklfNmpja2d6TkVyWjVV?oc=5": {
       "actor": "Trump",
       "confidence": 0.62,
@@ -922,6 +942,16 @@
       "matches_signal": false,
       "primary_source_url": "Reuters",
       "rationale": "Item is a bare headline with no substantive content describing any actual event. Cannot assess whether any real occurrence of independent agency capture took place. Insufficient information to determine if this is reporting an actual event or merely a topic headline.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUXVZVl9vTnhJVG84Sm0zVDA4eE1WZ0hhRzRjNkRRSV9RTXZ0enU1ZnBqX0lRbDlLdVgyN1R3amdxUVhIOUhSN3hTZHRrTlJrVDVpX0lTVVliVEdrQkNMR3AxVEk5UXRUbEZlUVlvY0djRlBtY0RGOWhuRk1aZ2hXa21vM1pFdm5xSEFXc3UwTlY5QVFFWmdmWmNpdjJtZTFqMm4zVw?oc=5": {
+      "actor": "Unknown (opinion/analysis)",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.theregulatory review.org",
+      "rationale": "This is opinion or analysis published by The Regulatory Review, not a report of an actual event. The title frames a concern about presidential supremacy but does not document a verifiable action that has occurred. Analytical pieces warning of risks or threats do not constitute evidence of real constitutional stress events.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxQazBuSV9SNkItQW1TYnQ4UlRTaTlWdW84MzB2eTFSV0YxbmZlUHc0YmtTcE1NTWphUVZBb0dqWVdZMkFaYzFLeEtKOE1qUndfdERtVmtRMmV1blZXMXhJSmI4d2VONXNsNFJWcTJfZE84WU5KZE1melhNMVl0V0hEVEFxTWpzTGJydzVfWUoxdjhlQ25KUUZ1TUl5QW9wb1JKVXByNUZPVQ?oc=5": {
@@ -1113,6 +1143,16 @@
       "primary_source_url": "https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/",
       "rationale": "This is a routine court opinion docket entry. The summary provides no substantive information about the case holding or any action that would constitute independent agency capture. A lawsuit between a private party and DOJ, with standard appellate proceedings, is not evidence of weakened regulatory independence. Court cases are normal administrative process, not constitutional stress.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/opinion/10953371/centerline-logistics-corp-v-united-states-department-of-labor/": {
+      "actor": "U.S. District Court for the District of Columbia",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/opinion/10953371/centerline-logistics-corp-v-united-states-department-of-labor/",
+      "rationale": "This is a routine civil litigation between a private party and the Department of Labor. While it involves regulatory matters, the court document itself does not indicate any action that weakens independent regulatory decision-making or legal safeguards. It is a normal legal proceeding, not evidence of agency capture or loss of regulatory independence.",
+      "severity": 0
     }
   },
   "inspector_general_retaliation": {
@@ -1285,6 +1325,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74645299/3/17/v-united-states-department-of-homeland-security/",
       "rationale": "This is a motion to quash an administrative subpoena filed by multiple states against DHS. It represents a legal challenge to a subpoena, not evidence of retaliatory action against watchdog or anti-corruption monitoring functions. A motion to quash is a routine procedural filing and does not indicate retaliation against an Inspector General or watchdog entity.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74667798/2/1/in-re-carter/": {
+      "actor": "Court of Appeals for the Federal Circuit",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74667798/2/1/in-re-carter/",
+      "rationale": "This is a routine docket entry for a petition for mandamus filed in the Federal Circuit. The document shows only that a petition was filed and served, with no information indicating retaliation against watchdog functions, Inspector General activities, or anti-corruption monitoring. Mandamus petitions are standard judicial remedies and do not themselves constitute evidence of retaliatory action against IG offices or watchdog functions. Without substantive details connecting this case to IG retaliation, this is a non-event for the signal.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -1438,6 +1488,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.creditunionimes.com",
       "rationale": "An ex-CEO filing a petition to the Supreme Court to decide constitutional questions about regulatory authority is a normal appellate process and legitimate use of court review, not an effort to strip courts of jurisdiction. The petitioner is seeking to bring a matter before a court, not remove court review. This is routine constitutional litigation and does not represent targeted jurisdiction stripping.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5EVF9ITms3SWZuWVhKa1owSXhhZjhNWGVBTk8yVkw2NDVpV2Y5dHBsT09hLWJNaUNDZWtR?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a hypothetical question posed as a headline, not a report of an actual occurrence. The phrasing 'Can District Judges...' indicates an inquiry about whether judges might take action, not evidence that they have done so. There is no description of an actual court order, ruling, or action that strips jurisdiction over constitutional disputes. The item appears to be opinion or analysis about potential judicial behavior, not verified evidence of jurisdiction stripping.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Yd3Ztbi1PYUlrUVotZFU5YUJ4ckZMLVpGcmpzX1o5MTRTVlg1NVJyLVgyekN1MUl3dko3TWNPY1pSc2NLTEZHQmlrQmpzcmtHYTlxX3pfbEttQVEtZS0tN25pM2lrMFFvb2g4dE9XaWJySzNISm9oWGlGVXR6dw?oc=5": {
@@ -2534,6 +2594,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Pakistan (PECA is Pakistan's Prevention of Electronic Crimes Act; NCCIA relates to Pakistani legal frameworks). It is not a U.S. domestic event and therefore falls outside the scope of a U.S. constitutional-risk dashboard. The signal concerns state action against independent reporting within the United States.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxNczhnZExMZXZ4MVJoaDRDY2VhQk9PX040Z3FzT1puWTdjcDc0eldrenNNeUFCcTJFVENCc1c0aG1qZWNfZ040RllPbTBJbVBmbUMyUjU1czc0bzk5SmZhd0hfb19ZRWFHSEo4Uno3Q3FtV2FNR3BsbERTclpOZmNwYk5XTlVXYUxFSGVzQ1lsTTZlLTBLSUJSeFI4MERldw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns journalist threat cases in Pakistan linked to PECA (Prevention of Electronic Crimes Act) and NCCIA. It is not a U.S. domestic event and therefore falls outside the scope of monitoring U.S. constitutional-risk signals. The signal focuses on state action raising costs or legal risk for independent reporting in the United States. Pakistan's domestic press restrictions, while potentially serious in their own context, do not constitute evidence of U.S. constitutional stress.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdklGRDZpM2hNdm96UWdpUDhWMGZobmpEM19hYVVDd29JSFVwc2lrcm15VzRrSHI4bmdiSi1fWHAxN2J4N2FNRzlVd1RhWjg1VWNtbG5QbjZsNEZtUmZ1YVI0VXBlM0gtWTB1Vy1VaUZmY0ItWV9aSk1SdlBEdVQ0bXpnX1ZkVzkzZEJOamJLeFlpMk43eG8wTDdadzRicjA?oc=5": {
