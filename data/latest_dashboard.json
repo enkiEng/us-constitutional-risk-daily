@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": -2.4,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": -2.88,
   "domain_breakdown": [
     {
-      "avg_severity": 0.2375,
+      "avg_severity": 0.15,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.30625,
+      "points": 0.825,
       "weight": 22
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-19T13:13:05.033601+00:00",
+  "generated_at": "2026-08-20T13:14:39.341453+00:00",
   "methodology_version": 2,
-  "previous_score": 8,
+  "previous_score": 7,
   "primary_sources": {
     "documents_confirmed": 2,
-    "documents_fetched": 17,
+    "documents_fetched": 18,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -87,8 +87,8 @@
   },
   "provisional": false,
   "score": 7,
-  "score_raw": 7.06,
-  "score_raw_pre_trip_wire": 7.06,
+  "score_raw": 6.58,
+  "score_raw_pre_trip_wire": 6.58,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -107,7 +107,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 0,
+      "hits": 1,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
@@ -153,19 +153,9 @@
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://www.ktnv.com/news/nevadas-fake-electors-case-is-dismissed-again-what-comes-next",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWHJZdU1MZlVJanlHaTNlSmxZVXRfNzJDT1lTQ1ByMTJHM3RxWmJvNkRmUHBEdUd1dlhiWjh6SWZRMTNHaHNjVG1rRFZEMTdxN1JralZNLTVZSUpxUUVjUFpyODEzSjlZYVRiLXU1cnRLUC11S2ZwZnI4cGxQdHVxTjFWQkk1NzFmOW1UckRRX3c?oc=5",
-          "published": "2026-08-18T01:22:25+00:00",
-          "publisher": "ktnv.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Nevada's 'fake electors' case is dismissed again. What comes next? - ktnv.com"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "alternate_elector_scheme",
       "name": "Alternate Elector Scheme Activity",
       "override_note": null,
@@ -174,8 +164,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -217,12 +207,12 @@
       "name": "Independent Agency Capture",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 4,
+      "primary_documents": 3,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.9,
-      "severity_label": "Watch",
+      "severity": 0.55,
+      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],

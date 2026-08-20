@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-19 13:13:05 UTC
+- Generated: 2026-08-20 13:14:39 UTC
 - Methodology: **v2** (extraction: AI event extraction)
 - Score: **7 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **-2.4**
+- Previous day delta: **0.0**
+- Delta vs 7-day average: **-2.9**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,7 +15,7 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.24 | 1.31 |
+| Elections and Transfer of Power | 22 | 0.15 | 0.82 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
 | Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
@@ -28,10 +28,10 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | ai | 1 | 0 |
+| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | ai | 1 | 1 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 0 |
-| Alternate Elector Scheme Activity | elections_transfer | 0.95 (Watch) | ai | 0 | 1 |
-| Independent Agency Capture | civil_service_integrity | 0.90 (Watch) | ai | 0 | 5 |
+| Alternate Elector Scheme Activity | elections_transfer | 0.60 (Green) | keyword | 0 | 0 |
+| Independent Agency Capture | civil_service_integrity | 0.55 (Green) | ai | 0 | 5 |
 
 ## Evidence Samples
 
@@ -44,8 +44,7 @@
 - [federalregister.gov] **[official record]** Updates and Amendments to the Civil Service Rules (2026-08-14) - https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules
 
 ### Alternate Elector Scheme Activity
-- [ktnv.com] Nevada's 'fake electors' case is dismissed again. What comes next? - ktnv.com (2026-08-18) - https://news.google.com/rss/articles/CBMikAFBVV95cUxOWHJZdU1MZlVJanlHaTNlSmxZVXRfNzJDT1lTQ1ByMTJHM3RxWmJvNkRmUHBEdUd1dlhiWjh6SWZRMTNHaHNjVG1rRFZEMTdxN1JralZNLTVZSUpxUUVjUFpyODEzSjlZYVRiLXU1cnRLUC11S2ZwZnI4cGxQdHVxTjFWQkk1NzFmOW1UckRRX3c?oc=5
-
+- No fresh evidence links in the current lookback window.
 ### Independent Agency Capture
 - [courtlistener.com] **[official record]** Centerline Logistics Corp. v. United States Department of Labor (2026-08-18) - https://www.courtlistener.com/opinion/10953371/centerline-logistics-corp-v-united-states-department-of-labor/
 - [courtlistener.com] **[official record]** Queerdoc, Pllc v. DOJ - United States Department of Justice (2026-08-14) - https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/
@@ -56,7 +55,7 @@
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Primary-source lookups: 20 signals, 17 official documents (Federal Register, CourtListener)
+- Primary-source lookups: 20 signals, 18 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 2
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**

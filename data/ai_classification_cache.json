@@ -334,6 +334,16 @@
       "rationale": "This is a routine procedural order consolidating two cases and setting briefing deadlines. It is a court issuing an order, not evidence of executive or administrative noncompliance with a court order. No refusal to comply with any court directive is described or evidenced.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74645299/23/state-of-illinois-v-united-states-department-of-homeland-security/": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74645299/23/state-of-illinois-v-united-states-department-of-homeland-security/",
+      "rationale": "This item is a docket entry indicating the filing of a motion or reply brief in an ongoing litigation between states and DHS. The description does not report any court order or any refusal to comply with a court order. It is a procedural filing\u2014a request or legal document submitted as part of litigation, not evidence of noncompliance with a judicial order. No executive or administrative refusal to comply with a court directive is described or evidenced here.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/74651459/4/sanon-v-nessinger/": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -396,6 +406,16 @@
       "rationale": "This is a routine pre-election informational article about what to expect on a primary election day. It contains no information about partisan capture, politicization, or election administration being moved to partisan control. It is standard election logistics reporting.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDamM1bW5IMkhYRnhweWF0M2E1dnVCZGx3OWdZUnN4dllvczlZODJkT0dlVkdOMVVzeThkQmNnYU1HQ0hXTm4zTnNYMjIxZ2h1X3pNeWtPMDFnOVVZSkJEUHlwalVXZFZ1UHpxaTU0MmhzUV8tYk1HeXJRSmpiLUU?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on Trump pushing the Supreme Court on mail-in voting policy after a legal loss. This is a litigation and advocacy action, not evidence of election administration being moved from neutral process to partisan control. Pushing a court on policy is normal political/legal activity. No material evidence that election administration itself has been captured or moved to partisan control.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVjY5ZXBYOGdvQ3NkLTVHUXFjdm5CbUprWTJwMHFtM3QwRGZ5ZXBsajhyM2t4VmhkeGlfYVZzQVVOTUcwTW5vWDRwNmtzZHc2ZUV1WWo2bUl3WmN5QnBDODlkbnVNRm5vcUpUSVExNFNGRld0a2pnYXV0Uk81NjF2RdIBhgFBVV95cUxNWjA2WHMwYnZreHZxZUVNQThGWEdSb3BnOEIxWXNuTV9qU0c4NW5pSE1TMGNTd3VOVmh3eVRqVjZva3Bxem83YWQ5c0JYS2MwQkhxbGl0dFBudlJ6dDFTX0IxdXB1bDdOZF8zSVA2REZjWDB4MERwX1p1WENXRnFUR0d4WWJVUQ?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -414,6 +434,16 @@
       "matches_signal": false,
       "primary_source_url": "https://news.yahoo.com/",
       "rationale": "This is a forward-looking analysis piece about state officials preparing for potential future actions. The headline describes preparation and anticipation ('Preparing For Trump To Test The Limits'), not a verifiable occurrence of election administration capture. No specific action of partisan control over election administration is described as having actually happened. This is opinion/analysis about possible future scenarios, not evidence of a real constitutional-stress event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVXpjVEdTVWg1MjI2endTSWc5VzVRTy00NTRsUjRNVGJWZDM3WlJmUVdRWFlNYjZ1c040WDhxTEc3RzBlUVlOcXF2Ny1yVlBLejB3WWM0NjZWQlptQWlpbmNYM2QxLUdaX3g4M2dieFlibWs3RVBPYnRDOFA2Zmp2b2xtbw?oc=5": {
+      "actor": "Slotkin",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on a congressional inquiry asking for confirmation that troops will not be sent to polling places. This is a precautionary or reassurance-seeking question, not evidence that election administration has actually been captured by partisan actors. It does not report any actual action taken to move election administration from neutral to partisan control. The query itself is a defensive/transparency-seeking measure, not a seizure of electoral authority.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVkdQdFV2dUZUbkhLd2U4eEtWdm1KYmFETWJQNW9iMFBBWDI4dmJMb2pFNG93UWJJV3l6U3JrdGhwZC1iLWduVjdFcVY3eW55UFdwMnBTVkNDdFlZRmNpaWp1QzZqcHZUcV92c0Y2NmZjUEo2dFZfVlVteE5BVXN4bDExb3EzWXM?oc=5": {
@@ -580,6 +610,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item is about a hypothetical or speculative future scenario (dated 2026-08-06, a future date from the present). It describes a Supreme Court ruling and subsequent customs refunds, which would be normal judicial and executive action within constitutional bounds, not an emergency power bypass. The source is a Kenyan domain (streamlinefeed.co.ke), suggesting it may be non-U.S. or unreliable. There is no evidence this event has actually occurred. Even if true, a court striking down tariffs and requiring refunds represents the judiciary checking executive power, not emergency expansion. This does not match the signal of emergency authorities used to bypass ordinary legislative process.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxON0NOU09EV2FmMEpub3ZQVDJiQmh4T05xZ2NLUTd6Qzc1M09lWDJZSi14SV9nRTBWckFuYk13azdoenVUYldtRXo5bnNhWUl6SjJtYVhMMFZIal9xaGZjTU9XYmhGZVJxVndrQVBJY2VUQ3o1M1MwMi14Rlp4eW1VQU5PeEEzRFFTXzU2TTByQk1HbWFUT0FqVHItM3FPN01aVS1XQ2k2QTAzVmNUZXRNOXJfMWYxQTFUMFRKak92NVRWcTh5U3c?oc=5": {
+      "actor": "Supreme Court of the United States",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a hypothetical future Supreme Court ruling (dated 2026) striking down tariffs. It is not a report of an actual event that has occurred. The date is in the future relative to the knowledge cutoff, and this appears to be speculative coverage rather than documentation of a real constitutional event. A court ruling on the constitutionality or legality of tariffs does not constitute emergency-powers expansion or bypass of the legislative process\u2014it is normal judicial review. The item does not report that emergency authorities were invoked to bypass ordinary legislative process.",
       "severity": 0
     },
     "https://www.federalregister.gov/documents/2026/07/29/2026-15389/continuation-of-the-national-emergency-with-respect-to-brazil": {
@@ -1316,6 +1356,16 @@
       "rationale": "This is a private employment complaint (Jenkins v. NEOGOV) involving state agencies and a vendor, appearing to be an employment-related dispute. It does not involve an Inspector General, retaliation against watchdog functions, or anti-corruption monitoring. The parties named (state agencies, human resources vendor) are unrelated to watchdog or IG retaliation.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74645299/23/state-of-illinois-v-united-states-department-of-homeland-security/": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74645299/23/state-of-illinois-v-united-states-department-of-homeland-security/",
+      "rationale": "This is a docket entry showing a miscellaneous civil case with multi-state participation and a reply brief filing. The entry does not describe any retaliatory action against an inspector general or watchdog function. It is a routine procedural filing in an ongoing litigation matter unrelated to IG retaliation.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/74645299/3/17/v-united-states-department-of-homeland-security/": {
       "actor": "Multiple state attorneys general and DHS",
       "confidence": 0.95,
@@ -1334,6 +1384,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74667798/2/1/in-re-carter/",
       "rationale": "This is a routine docket entry for a petition for mandamus filed in the Federal Circuit. The document shows only that a petition was filed and served, with no information indicating retaliation against watchdog functions, Inspector General activities, or anti-corruption monitoring. Mandamus petitions are standard judicial remedies and do not themselves constitute evidence of retaliatory action against IG offices or watchdog functions. Without substantive details connecting this case to IG retaliation, this is a non-event for the signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74667818/1/physicians-committee-for-responsible-medicine-v-department-of-health-and/": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74667818/1/physicians-committee-for-responsible-medicine-v-department-of-health-and/",
+      "rationale": "This is a filed complaint in a civil lawsuit. The docket entry shows initiation of litigation by a plaintiff organization against HHS and related agencies, not evidence of IG retaliation. Filing a lawsuit is not an IG retaliatory action; it is a routine legal proceeding. No retaliatory action against a watchdog or inspector general function is described or evidenced by this entry.",
       "severity": 0
     }
   },
@@ -1790,6 +1850,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This headline reports that a judge BLOCKED a Trump USPS ballot plan. A judicial block of an executive action is the opposite of legislative bypass\u2014it is the judiciary constraining executive power. This is evidence of constitutional checks working, not of bypass. The action was not accomplished; it was enjoined. Event_occurred=false because no executive bypass took place; rather, it was prevented.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeUhQd3N4aWlOeVNUZ3RtVjN2aHlBVnpucDBLSTlOSUFfQXRndi0tWmJkUFJJNkN6emgxVUlqZGNEOTFwTVlpT1NYRXVMVWFKRWFadmR2cEF0OF94QXVQS3F0dTdvNzFJOFBQOTFrclRMLXdRMlRFZ1V4RUx0QlBUMFc5aU1ZbzVDWUliRkhmaGRiU0RVcW5abA?oc=5": {
+      "actor": "Governor Walz (Minnesota)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item is a headline-only stub with no substantive content provided. The title references a state governor's reinstatement of a mining ban, which is a routine exercise of executive power within the governor's statutory or constitutional authority\u2014not a legislative bypass. Without full content, cannot assess whether any actual legislative-circumvention occurred, but a governor implementing or reinstating a ban within delegated executive powers is ordinary governance, not signal. No evidence of unconstitutional executive action or bypass of legislative authority is presented.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQlBIVEJ3RmxwWHB3RElBYnBYVGdvRjZUUjYzbmJ6UW5wU0E3SlQtV1g3Uk5zQzFlelZMUWo5UExUelBUMnZQY0pibWx1OHBLN1FtTDBJY1Q3WUFXMmNScndrNUtleC1ucVEtdDdMUy1oR2RTeVpaN09heGUtLUk0UFNfT25Lb0swemZNVjQtbHRoLWh3anVQOTF2WGU?oc=5": {
@@ -2766,6 +2836,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules",
       "rationale": "This is a routine rulemaking document updating civil service rules pursuant to a presidential executive order. The summary explicitly states these are 'obsolete and outdated provisions' that 'do not substantively affect agency operations.' Updating technical provisions of civil service procedures is normal administrative housekeeping and does not constitute evidence of partisan loyalty filters applied to coercive-state institutions. No specific action targeting security sector loyalty based on partisan criteria is described or evidenced here. The document is a procedural amendment, not a substantive institutional restructuring or loyalty test.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/20/2026-16981/application-for-relief-from-disabilities-imposed-by-federal-laws-with-respect-to-the-acquisition": {
+      "actor": "Department of Justice, ATF",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/20/2026-16981/application-for-relief-from-disabilities-imposed-by-federal-laws-with-respect-to-the-acquisition",
+      "rationale": "This is a routine Federal Register notice implementing administrative criteria for firearm disability relief determinations. It is a standard regulatory procedure with no connection to partisan loyalty tests, coercive-state institution politicization, or security sector filtering. The document addresses eligibility criteria for firearm relief, not institutional loyalty or constitutional stress related to the security sector.",
       "severity": 0
     }
   }
