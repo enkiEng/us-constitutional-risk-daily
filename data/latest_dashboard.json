@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 9.45,
+  "average_7d": 9.06,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -2.88,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -2.97,
   "domain_breakdown": [
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0625,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.825,
+      "points": 0.34375,
       "weight": 22
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-20T13:14:39.341453+00:00",
+  "generated_at": "2026-08-21T13:14:26.124158+00:00",
   "methodology_version": 2,
   "previous_score": 7,
   "primary_sources": {
     "documents_confirmed": 2,
-    "documents_fetched": 18,
+    "documents_fetched": 17,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,9 +86,9 @@
     "signals_queried": 20
   },
   "provisional": false,
-  "score": 7,
-  "score_raw": 6.58,
-  "score_raw_pre_trip_wire": 6.58,
+  "score": 6,
+  "score_raw": 6.09,
+  "score_raw_pre_trip_wire": 6.09,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -107,7 +107,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 2,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
@@ -164,7 +164,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -192,26 +192,26 @@
           "title": "Queerdoc, Pllc v. DOJ - United States Department of Justice"
         },
         {
-          "canonical_link": "https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/",
-          "link": "https://www.courtlistener.com/opinion/10947377/michael-washington-v-city-of-cincinnati/",
-          "published": "2026-08-13T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
-          "source_tier": "primary",
-          "title": "Michael Washington v. City of Cincinnati"
+          "canonical_link": "https://www.nybooks.com/articles/2026/08/20/close-calls-us-supreme-court-david-cole/",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmpXMjN1MVBQMHhfOUhTQjdCQXUwMXVxSmZaVFJ6anp1aXFLOU9UTi1VUkhpQnNNRGQ2UlBBMGNJTGc2OXB5Rm5Zd0luRC15dThQZ1NGWHNNMi1wbkQxN2ZVajdYWkJyUjBPa3Y5WnpVSHYtVnBNaWVSR2pKTUl6RE12MldjSUdhNTJsOA?oc=5",
+          "published": "2026-08-20T20:01:53+00:00",
+          "publisher": "The New York Review of Books",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Close Calls | David Cole - The New York Review of Books"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 5,
+      "hits": 2,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 3,
+      "primary_documents": 2,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.55,
+      "severity": 0.2,
       "severity_label": "Green",
       "unique_publishers": 0
     }

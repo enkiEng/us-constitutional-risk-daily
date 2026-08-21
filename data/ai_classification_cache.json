@@ -254,6 +254,16 @@
       "rationale": "This article concerns Malawi (evidenced by 'Nyasa Times', a Malawian news outlet, and reference to 'MEC', the Malawi Electoral Commission). The signal concerns U.S. constitutional stress. Non-U.S. events are explicitly excluded from consideration as evidence of U.S. constitutional-risk signals, regardless of their content or severity.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVk9GYjQ4Ql95X0hXYkFiclo2Vlp0QkxuQ2o5dEpQMGktbFdETVBxRXNtQUFlRHc5cGMtVmdmX09Bb1c2TnVwNEM0U01PWlVzdFpRcHJhVV9pVGlHSlpEUlJRRlNYSVZ0LVNaZEptYW5KeDIxMUZzSWFUZjhvWjRFXzMwT2FKY2lUbGFSVmxfTGJMX3pBNVFydTVOZWJMNU1ycTgwR3R3emJEWTJ5N28yZE0xMFFXdEk?oc=5": {
+      "actor": "Unidentified Kenyan developer",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns a court order in Kenya (Kitisuru is a neighborhood in Nairobi). The signal specifies constitutional stress within the United States. A Kenyan court's enforcement action against a developer is not evidence of U.S. court-order noncompliance and falls outside the geographic scope of a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/67935987/505/united-states-v-bock/": {
       "actor": "Aimee Marie Bock and USCIS (parties)",
       "confidence": 0.98,
@@ -352,6 +362,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74651459/4/sanon-v-nessinger/",
       "rationale": "This is a docket entry showing a motion filed by a private party (Davidson Sanon) to enforce a court order. It is a procedural request, not evidence that an executive or administrative official has refused to comply with a court order. The filing of an enforcement motion indicates the existence of an underlying order, but provides no information that it has been violated or that there is noncompliance. This is a routine litigation step, not a constitutional event.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74677527/1/harris-as-wrongful-death-beneficiary-of-the-estates-of-nasir-harper-and/": {
+      "actor": "United States of America o/b/o Bureau of Alcohol, Tobacco, Firearms, and Explosives (ATF)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74677527/1/harris-as-wrongful-death-beneficiary-of-the-estates-of-nasir-harper-and/",
+      "rationale": "This is a routine notice of removal filed by a federal agency (ATF) moving a case from state court to federal court. Case removal is a standard procedural action expressly authorized by federal statute (28 U.S.C. \u00a7 1442). The filing of a notice of removal does not constitute court-order noncompliance; it is a lawful exercise of removal jurisdiction. No court order was violated or defied.",
       "severity": 0
     }
   },
@@ -590,6 +610,16 @@
       "matches_signal": false,
       "primary_source_url": "t.co",
       "rationale": "This item reports that a political figure 'leaves open the possibility' of using emergency powers\u2014a hypothetical or speculative statement about what someone might do, not a confirmed action or actual use of emergency authorities to bypass legislative process. Possibility, intention, or threat to use powers is not the same as actually using them to circumvent ordinary processes. No emergency powers were verifiably invoked or deployed according to this summary.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15NEJiWWVVMHJmcXdUc1RRM2NLSTlmb3Iyc0s2M1VWZkpFRWRTcTA2WHhoRDRkMmdSa3NXS3FoNjJrNEg2d1hEZzJrYWpTdjV5U0NPemdBb9IBV0FVX3lxTE15NEJiWWVVMHJmcXdUc1RRM2NLSTlmb3Iyc0s2M1VWZkpFRWRTcTA2WHhoRDRkMmdSa3NXS3FoNjJrNEg2d1hEZzJrYWpTdjV5U0NPemdBbw?oc=5": {
+      "actor": "Colombian president",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://armenpress.am",
+      "rationale": "This item reports an emergency declaration by the Colombian president in Colombian departments. It is not a U.S. domestic event and therefore is not evidence of emergency powers expansion within the United States constitutional framework. The signal specifically targets U.S. constitutional-risk events.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBY0NzNjRsRWxaUVpCeHJoN1dncDlqQ2hKLTVhWHBVekQ0emVwZEt1dk05LUItOWpNckZydnJDeEVHTWU0YWNIZzlkemlid2p3U0w2RGI5ZFJXNFIyNHlOdXhyVjc0TVNNQzNaSXpLVQ?oc=5": {
@@ -1394,6 +1424,36 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74667818/1/physicians-committee-for-responsible-medicine-v-department-of-health-and/",
       "rationale": "This is a filed complaint in a civil lawsuit. The docket entry shows initiation of litigation by a plaintiff organization against HHS and related agencies, not evidence of IG retaliation. Filing a lawsuit is not an IG retaliatory action; it is a routine legal proceeding. No retaliatory action against a watchdog or inspector general function is described or evidenced by this entry.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74672785/1/immigration-equality-v-mullin/": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74672785/1/immigration-equality-v-mullin/",
+      "rationale": "This is a filed complaint in an immigration-related case. The docket entry shows a lawsuit has been initiated, but provides no information about Inspector General retaliation or watchdog-function interference. The case title and parties do not suggest IG retaliation. Filing a complaint is a routine civil action, not evidence of retaliation against watchdog functions.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74677889/2/united-states-v-mazonna-jones/": {
+      "actor": "Unknown",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74677889/2/united-states-v-mazonna-jones/",
+      "rationale": "This is a duplicate or related docket entry for the same plea agreement in United States v. Mazonna-Jones. It is a routine criminal proceeding with no bearing on Inspector General retaliation or anti-corruption monitoring. No evidence of the specified constitutional-risk signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74678074/2/united-states-v-mazonna-jones/": {
+      "actor": "Unknown",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74678074/2/united-states-v-mazonna-jones/",
+      "rationale": "This is a criminal plea agreement in an unrelated matter. The docket entry reflects routine criminal procedure with no connection to Inspector General retaliation or anti-corruption monitoring. A plea agreement in a criminal case does not constitute evidence of watchdog-function interference.",
       "severity": 0
     }
   },
@@ -2566,6 +2626,16 @@
       "rationale": "This is a generic world news headline with no substantive content provided. It does not describe a specific U.S. event and therefore cannot serve as evidence of U.S. constitutional stress.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM1NQS2ZPenNGTzJUdWQ4M2h4MzhjN1YyRWFRVHktNUdWTW55eUVMazlHNkFVWE5DQ2xVcTE1TF9wZjBKTTdRT0x6X0E3NHVXZVM4WlUzU2RBX25zVnRYcUxseHZnMm95SEMyWElYMnNsYlBsNlRqMnZxVTdWUDF2elFuRjBnblBMdVJR?oc=5": {
+      "actor": "Kazakhstan authorities",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on a sentencing in Kazakhstan, not the United States. The signal is specific to U.S. constitutional risk. Non-U.S. events are out of scope regardless of their subject matter.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMmdMQjMtZ19rT2dKRUZGNUIyX3FIMWZYdWc5cVVMcUNJQlBUZjFZdmR3cjVDR1hIclR3UmJWZnRzNHJ6R25TNzg0RTRoczlHVGhlLTlkVUM0NEZmNHZsOXduOURkalFOMnVTSDhsLUNCWVduWGZvcXlwZ1ZQeHFpMGpJcGVZT2FQLXhzeS1B?oc=5": {
       "actor": "Bangladesh government",
       "confidence": 0.99,
@@ -2624,6 +2694,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This item concerns Pakistan, not the United States. The signal monitors U.S. constitutional risk. Non-U.S. events are out of scope.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNVNyU2tDdzlMUGNXYXNJMzVUYnZSa1VhSWc5cjQ1azk1X08wU0RvY21hUjZNaFFyd2lxX2E3NXZOUDk3NDkwZjg5Qk1xanJuRHV1bkJkNVJYOTBpcW9BU0lUN3FSckN0cVpFbkxfZUhub0lwVkVmeTdpWUY5emNQZXpfaXk1MWhFay1Wb2d6Zm5BMlRsU2c?oc=5": {
+      "actor": "Pakistan authorities",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on arrests of journalists in Pakistan, not the United States. Although it relates to press freedom, it is a non-U.S. event and therefore not evidence of U.S. constitutional risk.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRDJ5cXBEQWdfaG80RTJhRHNHQUJhYlRNa3Z2emc2SlJsSll6WHFFWUlva3VzX2hybnJVS0k4ZktCaFFPOXREWTRsRWU5UzRzSkNwbmdLdjNVbXFYVUM2NlZzV0Rkd0ZNVmtPU1piRjBVSExTUE5RbzdEV3BoYnhNamhicHhEUGhvR3JHTVgzTXpoam9VcUE?oc=5": {
@@ -2814,6 +2894,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item appears to be from a Bangladeshi news source (New Age BD) and discusses press freedom in that country, not the United States. It is also an opinion/editorial piece about press responsibility and reform, not a specific documented instance of state action restricting press or retaliating against journalists. It does not describe a verifiable constitutional stress event in the U.S.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVVNubkhubDlaLXJ1WWtKaTFfdV9JTmdzRUhkb0dhekRfZTdyRnBfZWdfQ1ZnbHdyTUk5ck10UEZkVmFLOE5nWVh3VHFrZVBwa1lNTHJVejNUM2tPT2lxS0hkRWMzU2JUUy1kcWl1SVNYSjhSRW1GdmwwVG1KdVlrRWpGd25HMDB6VHBPb244Smd0ejZvZU9vcy01RzRva0VNQ21sWHpwNDItSkJXZWpNMlNubEpoNXR4ZDlpbVF2bGNEYmRwS0hnQWZjQdIBywFBVV95cUxNVVNubkhubDlaLXJ1WWtKaTFfdV9JTmdzRUhkb0dhekRfZTdyRnBfZWdfQ1ZnbHdyTUk5ck10UEZkVmFLOE5nWVh3VHFrZVBwa1lNTHJVejNUM2tPT2lxS0hkRWMzU2JUUy1kcWl1SVNYSjhSRW1GdmwwVG1KdVlrRWpGd25HMDB6VHBPb244Smd0ejZvZU9vcy01RzRva0VNQ21sWHpwNDItSkJXZWpNMlNubEpoNXR4ZDlpbVF2bGNEYmRwS0hnQWZjQQ?oc=5": {
+      "actor": "Kazakhstan authorities",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on press restrictions and journalist silencing in Kazakhstan, not the United States. Although the subject aligns with the signal definition, the event occurs outside U.S. jurisdiction and is therefore not evidence of U.S. constitutional stress.",
       "severity": 0
     }
   },
