@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-21 13:14:26 UTC
+- Generated: 2026-08-22 13:03:43 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **6 / 100** (Baseline Institutional Noise)
+- Score: **5 / 100** (Baseline Institutional Noise)
 - Previous day delta: **-1.0**
-- Delta vs 7-day average: **-3.0**
+- Delta vs 7-day average: **-2.7**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,11 +15,11 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.06 | 0.34 |
+| Elections and Transfer of Power | 22 | 0.00 | 0.00 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
-| Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
+| Executive Constraints and Emergency Powers | 13 | 0.65 | 2.11 |
+| Civil Service and Agency Independence | 10 | 1.22 | 3.04 |
 | Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
@@ -28,35 +28,28 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | ai | 1 | 2 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 0 |
-| Alternate Elector Scheme Activity | elections_transfer | 0.25 (Green) | keyword | 0 | 0 |
-| Independent Agency Capture | civil_service_integrity | 0.20 (Green) | ai | 0 | 2 |
+| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 3 |
+| Emergency Powers Expansion | executive_constraints | 1.65 (Watch) | ai | 0 | 1 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 1.65 (Watch) | keyword | 0 | 0 |
 
 ## Evidence Samples
 
+### Independent Agency Capture
+- Assessment: This is an official DOJ OLC opinion concluding that the Foreign Service Grievance Board's structure violates the Appointments Clause due to insufficient oversight of inferior officers. This represents a real legal finding that an independent agency's decision-making authority lacks adequate political accountability safeguards—a direct match to the signal. However, severity is capped at 2 because this is an OLC opinion (legal analysis) rather than a confirmed structural breakdown or defiance of court order. The opinion identifies a constitutional weakness but does not demonstrate that safeguards have already been dismantled or that the agency has begun operating in violation of the ruling.
+- [courtlistener.com] **[official record]** Constitutionality of the Foreign Service Grievance Board's Oversight Authority (2026-08-20) - https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-service-grievance-boards-oversight/
+
 ### Emergency Powers Expansion
-- Assessment: This is an official Federal Register document recording a presidential continuation of a declared national emergency. The act of continuing an emergency declaration is a real, verifiable action that invokes emergency powers. However, continuation of an existing emergency (rather than a new declaration) and routine exercise of established emergency authorities for a narrowly-tailored domain (export controls) represents a credible but contained stress signal rather than a serious structural breach. The executive is operating within formal statutory frameworks (likely the National Emergencies Act), and there is no indication of bypass of legislative process beyond what the existing emergency framework permits. Severity 2 reflects that this is a real use of emergency authority but not a novel or sweeping expansion.
-- [federalregister.gov] **[official record]** Continuation of the National Emergency With Respect to Export Control Regulations (2026-08-14) - https://www.federalregister.gov/documents/2026/08/14/2026-16748/continuation-of-the-national-emergency-with-respect-to-export-control-regulations
+- [Armenpress] Colombian president declares economic emergency in 15 departments - Armenpress (2026-08-20) - https://news.google.com/rss/articles/CBMiV0FVX3lxTE15NEJiWWVVMHJmcXdUc1RRM2NLSTlmb3Iyc0s2M1VWZkpFRWRTcTA2WHhoRDRkMmdSa3NXS3FoNjJrNEg2d1hEZzJrYWpTdjV5U0NPemdBb9IBV0FVX3lxTE15NEJiWWVVMHJmcXdUc1RRM2NLSTlmb3Iyc0s2M1VWZkpFRWRTcTA2WHhoRDRkMmdSa3NXS3FoNjJrNEg2d1hEZzJrYWpTdjV5U0NPemdBbw?oc=5
 
 ### Civil Service Purge / Schedule F
-- Assessment: This is an official Federal Register document recording a direct final rule issued by OPM to amend Civil Service Rules pursuant to Executive Order 14410 regarding 'Schedule Policy/Career in the Excepted Service.' The rule has been issued (not merely proposed), representing a real administrative action. The language about moving positions to the excepted service aligns with Schedule F concerns (reclassifying career positions to at-will status). However, the summary characterizes the changes as updating 'obsolete and outdated provisions' that 'do not substantively affect agency operations,' suggesting limited scope. This is a real, verifiable action matching the signal, but the characterization of impact and scope as non-substantive constrains severity to 2 (repeated or credible stress signal, real but contained action) rather than higher.
-- [federalregister.gov] **[official record]** Updates and Amendments to the Civil Service Rules (2026-08-14) - https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules
-
-### Alternate Elector Scheme Activity
 - No fresh evidence links in the current lookback window.
-### Independent Agency Capture
-- [courtlistener.com] **[official record]** Centerline Logistics Corp. v. United States Department of Labor (2026-08-18) - https://www.courtlistener.com/opinion/10953371/centerline-logistics-corp-v-united-states-department-of-labor/
-- [courtlistener.com] **[official record]** Queerdoc, Pllc v. DOJ - United States Department of Justice (2026-08-14) - https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/
-- [The New York Review of Books] Close Calls | David Cole - The New York Review of Books (2026-08-20) - https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmpXMjN1MVBQMHhfOUhTQjdCQXUwMXVxSmZaVFJ6anp1aXFLOU9UTi1VUkhpQnNNRGQ2UlBBMGNJTGc2OXB5Rm5Zd0luRC15dThQZ1NGWHNNMi1wbkQxN2ZVajdYWkJyUjBPa3Y5WnpVSHYtVnBNaWVSR2pKTUl6RE12MldjSUdhNTJsOA?oc=5
-
 ## Data Quality
 
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Primary-source lookups: 20 signals, 17 official documents (Federal Register, CourtListener)
-- Primary-source confirmations: 2
+- Primary-source lookups: 20 signals, 11 official documents (Federal Register, CourtListener)
+- Primary-source confirmations: 1
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
 

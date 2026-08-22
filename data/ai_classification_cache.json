@@ -804,6 +804,16 @@
       "rationale": "The metaphorical headline ('Plays Wizard of Oz') suggests opinion or analysis of Supreme Court action regarding the Federal Reserve. This appears to be editorial commentary rather than factual reporting of an event that weakens regulatory independence. Metaphorical language indicates non-factual framing.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMickFVX3lxTFAyMzVXVmh0ZmdpWFBXeThaTWVTbTJ0SFNLRktMeVRNQkNlNXJkby1UQ2VsTXVSVGVHYkE5Y0J6R0c1cEpoTWNYZWFnMjdoazNjaFZfN1NUMDc0LUF5WWpoNHdrNmNMT1loU19NRjI4cmp3dw?oc=5": {
+      "actor": "Cato Institute",
+      "confidence": 0.05,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The summary provided is merely a title/headline from the Cato Institute with no substantive content describing a specific event, action, or occurrence. It appears to be opinion or analysis rather than reporting a concrete incident of agency capture or legal safeguard weakening. Without the full text or details of what specific event or action is being discussed, this cannot be assessed as evidence of a real constitutional-risk occurrence. This is categorized as insufficient information and treated conservatively as not evidencing an actual event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jRFc2ZTZob0w3RUVUX3V3RHVFNklqLTR1QXpJRTJlejBzRzNrSWgzYkhsZDhmN0Y4RVA2RzhLRE9ocnZOQThid25qV0ZGYkFIaEl6dWI5cGRzX2o1WkpwRFNOd1hMcmpmSkd3RlNjdHZsbmFPYTkw?oc=5": {
       "actor": "Executive branch (proposed/alleged)",
       "confidence": 0.88,
@@ -1223,6 +1233,16 @@
       "primary_source_url": "https://www.courtlistener.com/opinion/10953371/centerline-logistics-corp-v-united-states-department-of-labor/",
       "rationale": "This is a routine civil litigation between a private party and the Department of Labor. While it involves regulatory matters, the court document itself does not indicate any action that weakens independent regulatory decision-making or legal safeguards. It is a normal legal proceeding, not evidence of agency capture or loss of regulatory independence.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-service-grievance-boards-oversight/": {
+      "actor": "Department of Justice Office of Legal Counsel",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-services-grievance-boards-oversight/",
+      "rationale": "This is an official DOJ OLC opinion concluding that the Foreign Service Grievance Board's structure violates the Appointments Clause due to insufficient oversight of inferior officers. This represents a real legal finding that an independent agency's decision-making authority lacks adequate political accountability safeguards\u2014a direct match to the signal. However, severity is capped at 2 because this is an OLC opinion (legal analysis) rather than a confirmed structural breakdown or defiance of court order. The opinion identifies a constitutional weakness but does not demonstrate that safeguards have already been dismantled or that the agency has begun operating in violation of the ruling.",
+      "severity": 2
     }
   },
   "inspector_general_retaliation": {
@@ -1620,6 +1640,16 @@
       "rationale": "This is a hypothetical question posed as a headline, not a report of an actual occurrence. The phrasing 'Can District Judges...' indicates an inquiry about whether judges might take action, not evidence that they have done so. There is no description of an actual court order, ruling, or action that strips jurisdiction over constitutional disputes. The item appears to be opinion or analysis about potential judicial behavior, not verified evidence of jurisdiction stripping.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOb3RXajNHNDJFZ1JqVjMwNkdUNVItMjJ2UzJ5cS1UMFd0Zzg2a2p3VktLMzNpYi1rRnBLTWNiSHV4WWl5NnpraC10Y0VGNWZjUGNRNUFodVltM0t1WExVd2FmLTljWjVrVF9lQWNxa1N1MWdxTHRnV0FxeWNpcHpnYzdGTGVBN0FBSXNFU0Z3RTFEamFESFlUd2hoemg2aVBUNFNoeU5jdFJXWUxEdERnMTVSM3hySHdHQ0tlT3VlYzhaU3AzcE1NWkZFT09NbWVhcVg2QTZ3VVNUdkNLOXo2elIxVUxvd2NtRFEtZzVVeWJLU3NPdHBVLXV4Y28?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.casemine.com",
+      "rationale": "This item is a generic legal research database entry about immigration adjudication (IJ = Immigration Judge, CAT = Convention Against Torture cases). It describes a jurisdictional question about appellate review standards in immigration proceedings\u2014a routine matter of statutory interpretation and administrative law. It does not report any actual effort to strip or remove court review over constitutional disputes, nor does it describe an action taken by any official or body to eliminate judicial oversight. This is either a case citation or legal research topic, not evidence of targeted jurisdiction stripping as a constitutional-stress event. The source is a legal database, not a government record or official action.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Yd3Ztbi1PYUlrUVotZFU5YUJ4ckZMLVpGcmpzX1o5MTRTVlg1NVJyLVgyekN1MUl3dko3TWNPY1pSc2NLTEZHQmlrQmpzcmtHYTlxX3pfbEttQVEtZS0tN25pM2lrMFFvb2g4dE9XaWJySzNISm9oWGlGVXR6dw?oc=5": {
       "actor": "Opinion author/theunpopulist.net",
       "confidence": 0.98,
@@ -1830,6 +1860,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a headline stating a judge delivered a 'win for mail voting.' Without detailed context, this appears to be a judicial decision protecting or affirming voting procedures, likely against an executive or state action that sought to restrict them. This is consistent with courts checking executive/legislative power, not with legislative bypass by executive. Does not match the signal of executive unilateral action circumventing statute.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a news article headline and summary about litigation against the Trump Administration. The article itself does not describe a specific executive action that bypasses statute or legislative authority. Being sued does not demonstrate that legislative bypass occurred; lawsuits are reactive legal challenges, not evidence of the underlying bypass event itself. Without content showing what specific executive actions allegedly constitute legislative bypass, and without confirmation that such bypass actually occurred (rather than being alleged in suits), this is insufficient evidence. The item is a reporting index/tracker, not documentation of a constitutional stress event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMihgJBVV95cUxPSTdpVVNpRDNXZXl0c0dib0lwakx4NHpJZUdvRnFQWGpSRVA1WTZLdmM4MTZfT3BtN1NGSjhUUFNjT21HLUhZOVhiam5iYlFRWWdvbGdaeHliUzB4UXpaek45WC1CS0h6SWlBWUxPNGdobkNZQ2R2MlBkVl83cnI5cEloRmc1RDFCWFhvNGlmNXlBWHo0UHRPNnVJYWdaRTMzek5VT1BCcmlCWVAyM0ZqaHl6S2ZlNFljdXptekRmSmFqVHp1dTFkNEhDak5RX1FvQUE1ZUQwVnJMeUVsNnVSN01SUWt4eWItS2pRY25KLV8zX2tIdGp4S1BMd29xaDVfMDhZX1Rn?oc=5": {
@@ -2208,6 +2248,16 @@
       "matches_signal": false,
       "primary_source_url": "https://thehindu.com",
       "rationale": "This item concerns Indian domestic politics (Congress party suspension of an ex-MLA in Datia, which is a district in Madhya Pradesh, India). It is not a U.S. occurrence and therefore provides no evidence regarding opposition ballot exclusion in the United States. Additionally, an internal party disciplinary suspension, even if it occurred, does not constitute systematic removal of candidates from meaningful electoral participation at the ballot level.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcmotcmpsMnVWajFmRnF2Vzg2WFlUeDFvVnVsQUdpYU11M1J4OWRpQ0JpV2Q3T0ZuR1NIM3NxbzZCZERzNzVjSUtGb3ZJNC1fQloyZm1HU2dRb3ctNU0wbkdyTDlnU09xOUpHYmNfWTNMdzNxZVNiVnZ4UWtTdXlaMmg4M05TLXZJaEZkV2pmR0Z3dmF0QXRabThXczNJY2RKRVdnVjVUYl9QMUUyWnFxdFVVNFRpQVUyT2FxMDNKalpFTzNteGZUN09YeXZ3NG9nejZTenAxSU9wSm9PV1doRWZtUQ?oc=5": {
+      "actor": "Virgin Islands Election Officials",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns the U.S. Virgin Islands, a non-state territory, not the United States proper. While it mentions a ballot disqualification, the item is dated 2026-08-22 (a future date), indicating this is either speculative, a hypothetical scenario, or a test case. Additionally, the summary alone does not confirm that an actual disqualification has occurred\u2014it only reports that officials asked a court to dismiss a suit defending a disqualification, which is a legal motion, not a confirmed action. The signal concerns systematic removal of opposition candidates from meaningful participation in U.S. elections. Without confirmation of actual disqualification in a U.S. domestic context and with a future date, this does not constitute verified evidence of the signal event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5ZlVmZDBBOXVKUzAtQnM1U3VlUnNNZWhodjlrcFJUdngxZktUdnlRMGxVLVRjcjJXNFVNWk1tVDVfX1JpX3dxWFVSLTM4aWprWXFBeFJn?oc=5": {
@@ -2646,6 +2696,16 @@
       "rationale": "Item concerns Bangladesh media policy development, not a U.S. event. Outside scope of U.S. constitutional-risk dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRHU3ckxpdzc4NFBpUlVXaWJEcWs5VTRDbGw1NVoybGR3QjNRb3lGbThvaXNGUmx6eFZLdFhSQWFmaU05YzV5ZUwydXVPYmFiN01rZXdTeTg3VGJGc3lQUnoxblpwUGU2aXBPU1RNR3BPQUd3QjVuZVdBWXJBU2d2RXRtMlV0ODRxcjlxVHFtelk?oc=5": {
+      "actor": "CPNE (Pakistan)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns press freedom monitoring in Pakistan, not the United States. It is outside the scope of U.S. constitutional-risk assessment.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTzM1SjJVYldMNTEyQWZnelROZy1Iemw2WnNueUY2VDlNcnAtVW1pZHpGLURsUHU4b01NSEJTZE1FcVNNTVRBZV8xd1E4VHJMVUgtRkg4dGx1blFYNTFXb2czaV9VMnhGZHpXdTB5R2NzZmktQ1RzU3lWaklETXJtNS1kanZveVFpNy1iWmNnU0hvdw?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -2736,6 +2796,26 @@
       "rationale": "This event concerns the Philippines, not the United States. The signal specifically requires U.S. domestic constitutional risk. Even if the event occurred, it is geographically outside the scope of U.S. constitutional monitoring.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdG9RMFNNd2p4ck0yTVpEenFTMVY5amR3S2lFS3JWSmxIZklTUGtVUGNCOFUtUnJSUlZSdGtIZkdxME5IaFBwOWNLU1huS2loREtiT2t4c2ZOcDlpdDZiTTR3SEgwbEp4TlN1UlMxLVJVSE1vUDkyMERkb3BreW14Q1gzRzlzT3BpNzNkdkpadGFtZnpPc3RmQg?oc=5": {
+      "actor": "AJK (Azad Jammu and Kashmir)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a journalist being placed on an anti-terror watchlist in Pakistan (AJK), not in the United States. It is not relevant to U.S. constitutional signals.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeXNFVXEzSGVfckMzc2U0bEFZa3FTRjJfYzktMXZxbk04bzVQb3c1Yzk2clNRRGdxYVREZGVDVk40SW1RcmJteFBaeS05bzdJUkJZRXlZSkVYZ2FGUWpwaXV5Nm82QXZuWmZlS2JGaGR4SU5scl9YbU5NU3dleVpOQnpIYVg0eVM1ZnlfTjBIRmVzMjRUeVJndw?oc=5": {
+      "actor": "Iran",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns an Iranian foreign media bill and Iranian press freedom issues, not U.S. domestic constitutional events. It is outside the signal's scope.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZjhvZGdYXzR1dXV5dVVLaV9KakdhMy1tWjVEZTdMSU51VlBPN3g0cy1BSGJBakdzOE5xUFpqVl9PLUdCTUswNzAxczZobHBsTHNkZlprWkRTWkRUTkNfdWhsaXRWTVVuc2gyay12OUNDaThGNFY4eng0eEJvMUkzaU84Z3FuUEpUei1fVThJaFlvT19oS09SaTJNOTA?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -2784,6 +2864,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item is from a Kenya-based source (streamlinefeed.co.ke) and appears to be philosophical commentary on press freedom under threat globally, not reporting on a specific U.S. state action. No verifiable U.S. domestic event is documented.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ3BkNEtDNVJESTc0THFaOTVES3RvSXV5MDk2UnVPSHBXNC1vejJwN0ViZzRiY2UyUHFITWNXS2xubUxZV1NiTTVLLVBDd1N4a3JmWU03Z2poWnJRc1lqRFliZGNEaHRLLVBCMFVGQnhVOF9tbm1pTDNtOXV0SW5lcE5RWlBXQ29MMUdxQzMwNWJKRDFoUGRrTU1jSjBnTHhLU1NBQw?oc=5": {
+      "actor": "Journalism Pakistan",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a global media brief from a Pakistani journalism organization. It is not U.S. domestic content and does not describe a U.S. constitutional event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTnFSRG9xeGJ1cjRTUlJGNDlHaWF2Q0xDRUZuY3NqX2JpUU40Z1c5WU1GRUFKTHI2TWdET0hUampPNHF4UEcweUlWc21TSV9NSzBEdjlRTzRxdEZyZ0FJTmdqd0tidHJweWgtdXV4YUI0SF85TkVSX1JNanlndk5mYVhPMnBmUGIwUmZOcGFzSDlmR19xRWEySGswV1haeG03SGVtWDhsd9IBTkFVX3lxTE41WDRMLUhiT3FMRVZHcmhFM0h4MHhTSmRLdkw2TUFUeF9teTNkLWk1V0hkdFFwa3JNcV9zTDNmd1VfbmNrY3BHUkNYOVFrZw?oc=5": {

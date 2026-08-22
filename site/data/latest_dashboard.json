@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 9.06,
+  "average_7d": 7.89,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,13 +10,13 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -1.0,
-  "delta_vs_7d": -2.97,
+  "delta_vs_7d": -2.73,
   "domain_breakdown": [
     {
-      "avg_severity": 0.0625,
+      "avg_severity": 0.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.34375,
+      "points": 0.0,
       "weight": 22
     },
     {
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 2.1125,
       "weight": 13
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 1.2166666666666666,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 2.5,
+      "points": 3.0416666666666665,
       "weight": 10
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-21T13:14:26.124158+00:00",
+  "generated_at": "2026-08-22T13:03:43.487144+00:00",
   "methodology_version": 2,
-  "previous_score": 7,
+  "previous_score": 6,
   "primary_sources": {
-    "documents_confirmed": 2,
-    "documents_fetched": 17,
+    "documents_confirmed": 1,
+    "documents_fetched": 11,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,64 +86,35 @@
     "signals_queried": 20
   },
   "provisional": false,
-  "score": 6,
-  "score_raw": 6.09,
-  "score_raw_pre_trip_wire": 6.09,
+  "score": 5,
+  "score_raw": 5.15,
+  "score_raw_pre_trip_wire": 5.15,
   "successful_queries": 22,
   "top_signals": [
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/08/14/2026-16748/continuation-of-the-national-emergency-with-respect-to-export-control-regulations",
-          "link": "https://www.federalregister.gov/documents/2026/08/14/2026-16748/continuation-of-the-national-emergency-with-respect-to-export-control-regulations",
-          "published": "2026-08-14T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Continuation of the National Emergency With Respect to Export Control Regulations"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "primary_confirmed": 1,
-      "primary_documents": 1,
-      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16748/continuation-of-the-national-emergency-with-respect-to-export-control-regulations",
-      "rationale": "This is an official Federal Register document recording a presidential continuation of a declared national emergency. The act of continuing an emergency declaration is a real, verifiable action that invokes emergency powers. However, continuation of an existing emergency (rather than a new declaration) and routine exercise of established emergency authorities for a narrowly-tailored domain (export controls) represents a credible but contained stress signal rather than a serious structural breach. The executive is operating within formal statutory frameworks (likely the National Emergencies Act), and there is no indication of bypass of legislative process beyond what the existing emergency framework permits. Severity 2 reflects that this is a real use of emergency authority but not a novel or sweeping expansion.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 0
-    },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules",
-          "link": "https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules",
-          "published": "2026-08-14T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
+          "canonical_link": "https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-service-grievance-boards-oversight/",
+          "link": "https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-service-grievance-boards-oversight/",
+          "published": "2026-08-20T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
           "source_tier": "primary",
-          "title": "Updates and Amendments to the Civil Service Rules"
+          "title": "Constitutionality of the Foreign Service Grievance Board's Oversight Authority"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 0,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
+      "hits": 3,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "primary_confirmed": 1,
       "primary_documents": 2,
-      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules",
-      "rationale": "This is an official Federal Register document recording a direct final rule issued by OPM to amend Civil Service Rules pursuant to Executive Order 14410 regarding 'Schedule Policy/Career in the Excepted Service.' The rule has been issued (not merely proposed), representing a real administrative action. The language about moving positions to the excepted service aligns with Schedule F concerns (reclassifying career positions to at-will status). However, the summary characterizes the changes as updating 'obsolete and outdated provisions' that 'do not substantively affect agency operations,' suggesting limited scope. This is a real, verifiable action matching the signal, but the characterization of impact and scope as non-substantive constrains severity to 2 (repeated or credible stress signal, real but contained action) rather than higher.",
+      "primary_source_url": "https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-services-grievance-boards-oversight/",
+      "rationale": "This is an official DOJ OLC opinion concluding that the Foreign Service Grievance Board's structure violates the Appointments Clause due to insufficient oversight of inferior officers. This represents a real legal finding that an independent agency's decision-making authority lacks adequate political accountability safeguards\u2014a direct match to the signal. However, severity is capped at 2 because this is an OLC opinion (legal analysis) rather than a confirmed structural breakdown or defiance of court order. The opinion identifies a constitutional weakness but does not demonstrate that safeguards have already been dismantled or that the agency has begun operating in violation of the ruling.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
@@ -152,67 +123,49 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "alternate_elector_scheme",
-      "name": "Alternate Elector Scheme Activity",
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://armenpress.am/en/article/1258515/amp",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15NEJiWWVVMHJmcXdUc1RRM2NLSTlmb3Iyc0s2M1VWZkpFRWRTcTA2WHhoRDRkMmdSa3NXS3FoNjJrNEg2d1hEZzJrYWpTdjV5U0NPemdBb9IBV0FVX3lxTE15NEJiWWVVMHJmcXdUc1RRM2NLSTlmb3Iyc0s2M1VWZkpFRWRTcTA2WHhoRDRkMmdSa3NXS3FoNjJrNEg2d1hEZzJrYWpTdjV5U0NPemdBbw?oc=5",
+          "published": "2026-08-20T15:02:00+00:00",
+          "publisher": "Armenpress",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Colombian president declares economic emergency in 15 departments - Armenpress"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "canonical_link": "https://www.courtlistener.com/opinion/10953371/centerline-logistics-corp-v-united-states-department-of-labor/",
-          "link": "https://www.courtlistener.com/opinion/10953371/centerline-logistics-corp-v-united-states-department-of-labor/",
-          "published": "2026-08-18T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
-          "source_tier": "primary",
-          "title": "Centerline Logistics Corp. v. United States Department of Labor"
-        },
-        {
-          "canonical_link": "https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/",
-          "link": "https://www.courtlistener.com/opinion/10948557/queerdoc-pllc-v-doj-united-states-department-of-justice/",
-          "published": "2026-08-14T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
-          "source_tier": "primary",
-          "title": "Queerdoc, Pllc v. DOJ - United States Department of Justice"
-        },
-        {
-          "canonical_link": "https://www.nybooks.com/articles/2026/08/20/close-calls-us-supreme-court-david-cole/",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWmpXMjN1MVBQMHhfOUhTQjdCQXUwMXVxSmZaVFJ6anp1aXFLOU9UTi1VUkhpQnNNRGQ2UlBBMGNJTGc2OXB5Rm5Zd0luRC15dThQZ1NGWHNNMi1wbkQxN2ZVajdYWkJyUjBPa3Y5WnpVSHYtVnBNaWVSR2pKTUl6RE12MldjSUdhNTJsOA?oc=5",
-          "published": "2026-08-20T20:01:53+00:00",
-          "publisher": "The New York Review of Books",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Close Calls | David Cole - The New York Review of Books"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 2,
+      "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.2,
-      "severity_label": "Green",
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 0
     }
   ],
