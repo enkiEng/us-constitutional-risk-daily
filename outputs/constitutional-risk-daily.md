@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-22 13:03:43 UTC
+- Generated: 2026-08-23 13:05:05 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **5 / 100** (Baseline Institutional Noise)
+- Score: **4 / 100** (Baseline Institutional Noise)
 - Previous day delta: **-1.0**
-- Delta vs 7-day average: **-2.7**
+- Delta vs 7-day average: **-2.5**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -18,8 +18,8 @@
 | Elections and Transfer of Power | 22 | 0.00 | 0.00 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 0.65 | 2.11 |
-| Civil Service and Agency Independence | 10 | 1.22 | 3.04 |
+| Executive Constraints and Emergency Powers | 13 | 0.43 | 1.41 |
+| Civil Service and Agency Independence | 10 | 1.10 | 2.75 |
 | Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
@@ -28,9 +28,9 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 3 |
-| Emergency Powers Expansion | executive_constraints | 1.65 (Watch) | ai | 0 | 1 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 1.65 (Watch) | keyword | 0 | 0 |
+| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 1 |
+| Emergency Powers Expansion | executive_constraints | 1.30 (Watch) | keyword | 0 | 0 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 1.30 (Watch) | keyword | 0 | 0 |
 
 ## Evidence Samples
 
@@ -39,8 +39,7 @@
 - [courtlistener.com] **[official record]** Constitutionality of the Foreign Service Grievance Board's Oversight Authority (2026-08-20) - https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-service-grievance-boards-oversight/
 
 ### Emergency Powers Expansion
-- [Armenpress] Colombian president declares economic emergency in 15 departments - Armenpress (2026-08-20) - https://news.google.com/rss/articles/CBMiV0FVX3lxTE15NEJiWWVVMHJmcXdUc1RRM2NLSTlmb3Iyc0s2M1VWZkpFRWRTcTA2WHhoRDRkMmdSa3NXS3FoNjJrNEg2d1hEZzJrYWpTdjV5U0NPemdBb9IBV0FVX3lxTE15NEJiWWVVMHJmcXdUc1RRM2NLSTlmb3Iyc0s2M1VWZkpFRWRTcTA2WHhoRDRkMmdSa3NXS3FoNjJrNEg2d1hEZzJrYWpTdjV5U0NPemdBbw?oc=5
-
+- No fresh evidence links in the current lookback window.
 ### Civil Service Purge / Schedule F
 - No fresh evidence links in the current lookback window.
 ## Data Quality

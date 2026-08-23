@@ -1,6 +1,6 @@
 {
   "attempted_queries": 22,
-  "average_7d": 7.89,
+  "average_7d": 6.69,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,7 +10,7 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -1.0,
-  "delta_vs_7d": -2.73,
+  "delta_vs_7d": -2.53,
   "domain_breakdown": [
     {
       "avg_severity": 0.0,
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.1125,
+      "points": 1.4083333333333334,
       "weight": 13
     },
     {
-      "avg_severity": 1.2166666666666666,
+      "avg_severity": 1.0999999999999999,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 3.0416666666666665,
+      "points": 2.7499999999999996,
       "weight": 10
     },
     {
@@ -73,9 +73,9 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-22T13:03:43.487144+00:00",
+  "generated_at": "2026-08-23T13:05:05.371282+00:00",
   "methodology_version": 2,
-  "previous_score": 6,
+  "previous_score": 5,
   "primary_sources": {
     "documents_confirmed": 1,
     "documents_fetched": 11,
@@ -86,9 +86,9 @@
     "signals_queried": 20
   },
   "provisional": false,
-  "score": 5,
-  "score_raw": 5.15,
-  "score_raw_pre_trip_wire": 5.15,
+  "score": 4,
+  "score_raw": 4.16,
+  "score_raw_pre_trip_wire": 4.16,
   "successful_queries": 22,
   "top_signals": [
     {
@@ -107,7 +107,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 1,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
@@ -124,19 +124,9 @@
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://armenpress.am/en/article/1258515/amp",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15NEJiWWVVMHJmcXdUc1RRM2NLSTlmb3Iyc0s2M1VWZkpFRWRTcTA2WHhoRDRkMmdSa3NXS3FoNjJrNEg2d1hEZzJrYWpTdjV5U0NPemdBb9IBV0FVX3lxTE15NEJiWWVVMHJmcXdUc1RRM2NLSTlmb3Iyc0s2M1VWZkpFRWRTcTA2WHhoRDRkMmdSa3NXS3FoNjJrNEg2d1hEZzJrYWpTdjV5U0NPemdBbw?oc=5",
-          "published": "2026-08-20T15:02:00+00:00",
-          "publisher": "Armenpress",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Colombian president declares economic emergency in 15 departments - Armenpress"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
@@ -145,7 +135,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -164,7 +154,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     }
