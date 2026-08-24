@@ -35,6 +35,32 @@ Design constraints, on purpose:
 
 The scoring semantics that turn these judgments into a severity live in the
 caller, not here; this module only produces the judgments.
+
+SELF-EXECUTING INSTRUMENTS
+--------------------------
+On 2026-08-24 this classifier scored a DOJ Office of Legal Counsel opinion at
+severity 2, reasoning that it "identifies a constitutional weakness but does not
+demonstrate that safeguards have already been dismantled". The opinion held that
+the Foreign Service Grievance Board's final decisionmaking authority violates the
+Appointments Clause, and an OLC opinion is the executive branch's controlling
+legal position from the day it issues. The Board's rulings became recommendations
+immediately. Nothing was pending.
+
+Two things in the prompt pushed that way. "Opinion" is overloaded — the
+instruction to discount opinion/analysis means op-eds, but a judicial or OLC
+opinion is an instrument, not commentary. And the enumeration of things that are
+not yet actions (a proposed rule, a filed motion, a routine notice) had no
+counterpart naming the documents that take effect on issuance.
+
+The rationale is not harmless once written. Downstream, project2029-commentary
+falls back to this rationale whenever it cannot fetch the article, and published
+a thread telling readers to watch for a change that had already happened. A
+rationale is read as a finding, so it has to be right about tense.
+
+The prompt now asks the question that actually separates the two cases: whose
+legal position does this document change, and when. If a protection is gone the
+moment it issues, the action has occurred, whether or not anyone has yet been
+harmed by it.
 """
 
 from __future__ import annotations
@@ -188,6 +214,30 @@ def _build_prompt(signal: dict[str, Any], entries: list[Any], indices: list[int]
         "motion, or a routine notice is a request or a proposal, not an "
         "accomplished action, and an unrelated document that merely happens to "
         "contain the search words is severity 0."
+    )
+    lines.append("")
+    lines.append(
+        "\"Opinion\" means two different things and only one of them is "
+        "commentary. The instruction above to discount opinion/analysis is "
+        "about op-eds, editorials and punditry. A JUDICIAL opinion or an "
+        "OFFICE OF LEGAL COUNSEL opinion is not analysis about the law; it is "
+        "an instrument that operates on the law, and an OLC opinion binds the "
+        "executive branch as the controlling legal position from the day it "
+        "issues. Do not discount one because it is called an opinion.\n\n"
+        "So the question for any official document is not what kind of "
+        "document it is, but WHOSE LEGAL POSITION IT CHANGES AND WHEN. Ask: "
+        "after this issued, can anyone do something they could not do before, "
+        "or lose a protection they had before, without any further step? If "
+        "yes, the action has taken place and it is scored as such, even if "
+        "nobody has exercised the new power yet. If it still needs a further "
+        "decision, a comment period, a vote or a court, it is a proposal.\n\n"
+        "A document that strips a body's authority is not a warning about a "
+        "future loss of that authority. It IS the loss. Reasoning of the form "
+        "\"identifies a weakness but does not demonstrate that safeguards have "
+        "already been dismantled\" is the specific error to avoid: an "
+        "instrument that removes a safeguard has dismantled it, and waiting "
+        "for a downstream victim before scoring it means the dashboard reports "
+        "structural changes only after they have been used."
     )
     lines.append("")
     lines.append("ITEMS:")
