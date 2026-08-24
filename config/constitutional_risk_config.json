@@ -616,6 +616,40 @@
       }
     },
     {
+      "id": "statistical_agency_integrity",
+      "domain_id": "civil_service_integrity",
+      "name": "Statistical Agency Integrity",
+      "description": "Political interference with the federal statistical agencies that produce official economic data \u2014 BLS, BEA and the Census Bureau. Covers removal or replacement of career statistical leadership, methodology or definition changes made outside normal notice, and suspended, delayed or withheld data releases.",
+      "query": "bureau of labor statistics census bureau economic data political interference statistics commissioner methodology",
+      "yellow_threshold": 3,
+      "severe_terms": [
+        "statistical agency head removed",
+        "economic data release suspended",
+        "statistics methodology changed without notice",
+        "census bureau political appointee data"
+      ],
+      "critical_terms": [
+        "official statistics manipulated",
+        "data release blocked by political appointee",
+        "unemployment figures altered"
+      ],
+      "primary_sources": {
+        "federal_register": {
+          "terms": [
+            "\"Statistical Policy Directive\"",
+            "\"Federal Statistical System\"",
+            "\"Bureau of Labor Statistics\"",
+            "\"Bureau of Economic Analysis\""
+          ],
+          "types": [
+            "PRESDOCU",
+            "RULE",
+            "NOTICE"
+          ]
+        }
+      }
+    },
+    {
       "id": "press_restrictions",
       "domain_id": "civil_liberties_information",
       "name": "Press Restrictions or Retaliation",
