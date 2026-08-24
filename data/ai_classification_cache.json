@@ -1446,6 +1446,16 @@
       "rationale": "This is a filed complaint in a civil lawsuit. The docket entry shows initiation of litigation by a plaintiff organization against HHS and related agencies, not evidence of IG retaliation. Filing a lawsuit is not an IG retaliatory action; it is a routine legal proceeding. No retaliatory action against a watchdog or inspector general function is described or evidenced by this entry.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74669315/1/rodriguez-v-city-of-new-york/": {
+      "actor": "Unknown",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74669315/1/rodriguez-v-city-of-new-york/",
+      "rationale": "This is a routine federal court docket entry documenting the filing of a civil complaint in an employment or civil rights matter. The entry contains only procedural information (case number, filing fee, incomplete disclosure statement). There is no indication that this complaint involves an Inspector General, watchdog function, anti-corruption monitoring, or any retaliatory action. This is a standard litigation filing with no connection to the signal.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/74672785/1/immigration-equality-v-mullin/": {
       "actor": "Unknown",
       "confidence": 0.95,
@@ -1546,6 +1556,16 @@
       "matches_signal": false,
       "primary_source_url": "TheNigeriaLawyer",
       "rationale": "This headline from a Nigerian legal news source presents an ABA warning about attacks and threats to judges, but lacks specific factual detail about actual incidents in the U.S., their scope, or organized pressure by officials. It reads as cautionary statement rather than documentation of a verified campaign.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4cnJtREdJc0RHSjVmM3VZSDBEeUZ3SU9mT0lfTThmTzh1TXJvX0MxMWZDVXprcnlCN19DMWFrR1BkV0tCVm0zWVFKQTlnQ1hkNHdJWnVBaw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item is from a South Korean news outlet (\ud5e4\ub7f4\ub4dc\uacbd\uc81c / Herald Economy) reporting on South Korean Democratic Party judicial reform. This is not a US domestic event and therefore does not constitute evidence of judge intimidation in the United States. The signal is defined for US constitutional risk.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uOUZjekNIbVE0dkdjODJEWF9sY2Y5RzFMTm5RN0hyWlQ3SGg0VmRTZzdNUnBGa3Nlck1OQ2dfaDBxTXBlUnF2LUhlem9zMFpDOGh2eEdUb2czTldGOHNTMHFBVGpmc2l3NHZRZXZqUFNKVWhqTWdoQ3E0MA?oc=5": {
@@ -2012,6 +2032,16 @@
       "rationale": "Colombian domestic political dispute over citizenship of a Colombian official. Not a U.S. domestic constitutional event. Severity 0.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcEliTkVJeDBJXy1EbV9kbVYxbUVwdFhSQkRnYWlGek9kYktsU3d5dkVwWjNxdjNJSklfTHV2M3YxYkFiTC15YVdxR0VobVJGUHFoRHRJVFFyTXhHWHc5T3IyU3pIbXdTeHRFVTUtYTlRdFdJNDNSbC1SVE1aWHNuR1N6bmRiRWx4ejl5d1VPTGpLWEhMZWhtSzhjZmMtWVlCRlJMTDd6UUtUV1VtYUE?oc=5": {
+      "actor": "Unknown/Not specified",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a Supreme Court striking down tariffs and a subsequent refund\u2014a normal constitutional process where the judicial branch reviews executive action and the executive complies. This represents the judiciary checking executive power, not a legislative bypass. No evidence of executive action circumventing statutes or the legislative process. The item is also vague (no credible source URL, dated 2026 which is in the future relative to typical knowledge cutoffs), lacks specifics, and does not demonstrate the signal (shift of governance from statute to unilateral executive action). A court ruling that nullifies an executive policy, followed by compliance, is routine constitutional operation, not constitutional stress.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNHlzQXJNWU1JajhHNUdSNjM0VlpTVzNvcmE3LUFOVm5YNVpESGVyZmFfUTJ2ZjNLc21wSDNBemdHN3FIaktkckZvald5T1JCbm5GQ2J6cHkyNVVkaFJBSXJzUEFOYzdxQk1sNjgxWmhreVBXandVZWwxZjNXNW96bkJybXBzalZmZGwwRTI2VUJ3cHdyWmljLWtXUGZhbllUNmJTYjk4TjJhbUIzcHhXeEhnTzBybWlyankwMHpZTUQ2eDQ?oc=5": {
       "actor": "Trump",
       "confidence": 0.88,
@@ -2096,6 +2126,16 @@
       "rationale": "This item concerns a Ukrainian court case (\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430 is a Ukrainian legal publication) involving a doctor's travel restriction and compensation award. It is not a U.S. domestic event and contains no reference to martial law, military governance, or constitutional stress in the United States. The signal explicitly targets U.S. constitutional risk.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQOUNfTldTZkxNeWdlNW40QXJSYTZyY012ZVJSSUZxWkVhU2J4d0F2X0lmTGI5VlVMZGNLLVhyVlpiYWktMzdxeUVxdGJRcXRQek95RXJSaUZOOGxQTXhQREZjY0thc3dRMFpZa3FfeXBqQ21YTDJJRmxVdUhHeldmeHhXZi1XVlQ0ejRQNk1abXh0YkR6Y0VhSnlNWVBVQ0k4b3FxUjJZWVdDa0J6c0p3OUIxOTl2RjM1UURMMjJncEFxdEg2d3B4cG96QmQyTThzblF0RjhXWUlQVjNzUmdTVWc0d2RhZWxDY05UbUMzLUJ4MURLWFJzZHg1WQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is from a Ukrainian-language source (\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430) reporting on Ukrainian government policy regarding pension debts and court rulings. It is not a U.S. domestic event and therefore outside scope for a U.S. constitutional-risk dashboard. Additionally, it contains no reference to martial law or military governance language.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR0R3bzVmNTZpLVNiSUNPNFRfakhKY2thLUo2c1NGZW9mTEl6aXEzZXR1c2h2XzlKbF8yNjROLVFFQnJzS2VJOUtudm1ib1ZkRDkyOFp4QU9kQUFBS3lENEVab0tfcDRpZDdfazVaQU0yS3B6Qi1xaEdJT3NLdUJleGYzT0NwRzlpbEpfR3JuNmlZelFIaWpwRXBYTFFmaFhfVk1yMHJ0b0ZuYURUSG1nNUV0TF8tMERBVWFBVXJJTFlfUVpBSDRMeWpSRzN0Q0toaDJFT3hGbXU?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -2124,6 +2164,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item is a Ukrainian legal publication (\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430 is a Ukrainian judicial gazette) concerning a ruling by the Ukrainian Supreme Court on condominium dispute jurisdiction. It is not a U.S. domestic event and contains no content related to martial law, military governance, or military management of political disputes. The signal explicitly targets U.S. constitutional risk; this is a non-U.S. civil procedure matter.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUzVPS2hqb0VXeDhPZnVJNEtUSUtaRDdFQll2NnRnMUhWYkJIQlhtSXQtRHg3b2NMcHg5RDJvSGRmWTF1YlV5ZWZYSllBb0h3QXJmSEQ2M0ZYOE9TSG4yM29ncVdyWTFNNGJVNDA0dWtTS21UN2had3g5N1oxVms4aEtPaE1id2EzcmVqS3Jwb2NYSmEyU0JKUjQ4ZTVLLTVjdW5naWVGS01jZ1NPQkxYUFdWekswUVNlRnZV0gG7AUFVX3lxTFBTNU9LaGpvRVd4OE9mdUk0S1RJS1pEN0VCWXY2dGcxSFZiQkhCWG1JdC1EeDdvY0xweDlEMm9IZGZZMXViVXllZlhKWUFvSHdBcmZIRDYzRlg4T1NIbjIzb2dxV3JZMU00YlU0MDR1a1NLbVQ3aFp3eDk3WjFWazhoS09oTWJ3YTNyZWpLcnBvY1hKYTJTQkpSNDhlNUstNWN1bmdpZUZLTWNnU09CTFhQV1Z6SzBRU2VGdlU?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a brief title/summary from a legal publications database regarding Anthropic litigation and government contractor compliance. It contains no mention of martial law, military governance, military management of political disputes, or any constitutional stress related to the signal. The item is not evidence of the signal.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVlNLNU1ONzlOME45SVZXTGtqd3NWbm1NbkRLTVZjYjVjS1ZsenFnZ3l5c2g0NUNIYWdQdU1SaG80UWdoenZLTHdXYnF1bWRqX09wNnp0RjFXbUtXMWhaNGZlMG93bUlyVWRKQTVndVNWU0xsWnJqcHBRX1prd1Y5Z2pYcDc1a3dLZGN0U1pVOFl2RUp6aHlFZjdLcGJSUGR2M1BVWmhFbGpIVVMzQWRhbjFZU3lEYllMd3BWMjVqczRTWnlPa194bzhDONIB2AFBVV95cUxOYkRraHZmdm1MWFVCTUpaNEVFYW8xQVRqVTNPb0NHLWdWZGVPV1FYTm1iUEw0ZnFyTFFLVEl3MkRWYlJPaEtDYnJJS21ORV9PMjkzT054a1hFV3VrekJYYUJKeGUxLThNb21VaXNkWFlidnFZLW9ib2tTNlFLd040NUE1cDNLUTdPVHRZbmJQWEpJS1ZwdWk3OG9SRklOS2RHT3hLQXVRQU8weGVlbGhZRHVCUnVTbjZBX2ZaZF9kX0pWV1ZxVUttallRcml1WWN4dFIxUThnbEc?oc=5": {
@@ -2338,6 +2388,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Zimbabwe (ZimEye is a Zimbabwean news outlet) and discusses internal political dynamics involving Chiwenga, a Zimbabwean military/political figure. It is not about the United States and does not address opposition ballot exclusion or any U.S. constitutional stress. The signal is specific to U.S. domestic events.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxNTUZlX2oyTThmanhnMkZZWUlCbmdzVmtKejE4WktlMWZvTHRUdkRlM2I4aVpsMS04WUZSbXBaRUQ2enlHekdoRjZNd3F3WkhMNk85aEsyVFMzTDVwTThWR3oyX3V6X0F0VE1VTEhJVlJPVjFYS0RVdVluR19Sb0c2TGtCSmxUX1NwdFAwU3BGX0tZVVJRcDM1a25rZTA4QQ?oc=5": {
+      "actor": "Finland/Russia",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Finland's response to Russian demands regarding election protests at a Russian embassy. It is not a U.S. domestic event and does not involve systematic removal of opposition candidates from U.S. ballot access. The event is geographically and substantively outside the scope of the signal, which targets opposition-ballot exclusion in the United States.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ2U1YUJhLW5iR19FVnZTQzdkcExEZmFCSFVkQmZrZEFMU1JwcGNCUm5VMUlLX3hHT1BESTF3M053VFU4VnRrQm9UUGptOWJJMmswSTRVaU1aajFyYmo0UHozYi1kSks3S19SdUhzRnpLdUFLUVIwV0NFTURhZGpSeFotMnNEV0wwOFlDclRWVFIzbks3TmJvOVAxSzdQalRDbUJDNW93?oc=5": {
@@ -2774,6 +2834,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This item concerns Pakistan, not the United States. The signal monitors U.S. constitutional risk. Non-U.S. events are out of scope.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd0JqZTdyRjVFTzZ6VU5yVnhpS2ZSMF9WRWNjWXNGbXpNRFlVMHhxSjJHM2FVaE5YN0s2OHVyTXpjYjFJYjBsOEJ1VU02Z2JGWDRpSFJ5SVpxbndoVmtlVEhDNjRuWVZ5SnI0MmJhaTA1aVd4TkN5VWJyYmJaSFFpdUl1S1NEZ0dEMmZvSGpJWVNKOHJXU3c?oc=5": {
+      "actor": "",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns press restrictions in Pakistan, not the United States. The signal monitors constitutional stress in the U.S. domestic context. Events outside U.S. jurisdiction are not relevant evidence of U.S. constitutional-risk conditions.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNVNyU2tDdzlMUGNXYXNJMzVUYnZSa1VhSWc5cjQ1azk1X08wU0RvY21hUjZNaFFyd2lxX2E3NXZOUDk3NDkwZjg5Qk1xanJuRHV1bkJkNVJYOTBpcW9BU0lUN3FSckN0cVpFbkxfZUhub0lwVkVmeTdpWUY5emNQZXpfaXk1MWhFay1Wb2d6Zm5BMlRsU2c?oc=5": {

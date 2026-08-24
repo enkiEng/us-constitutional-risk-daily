@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-23 13:05:05 UTC
+- Generated: 2026-08-24 13:16:51 UTC
 - Methodology: **v2** (extraction: AI event extraction)
 - Score: **4 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **-2.5**
+- Previous day delta: **0.0**
+- Delta vs 7-day average: **-2.2**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -18,8 +18,8 @@
 | Elections and Transfer of Power | 22 | 0.00 | 0.00 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 0.43 | 1.41 |
-| Civil Service and Agency Independence | 10 | 1.10 | 2.75 |
+| Executive Constraints and Emergency Powers | 13 | 0.32 | 1.03 |
+| Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
 | Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
@@ -28,9 +28,9 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 1 |
-| Emergency Powers Expansion | executive_constraints | 1.30 (Watch) | keyword | 0 | 0 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 1.30 (Watch) | keyword | 0 | 0 |
+| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 0 |
+| Emergency Powers Expansion | executive_constraints | 0.95 (Watch) | keyword | 0 | 0 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 0.95 (Watch) | keyword | 0 | 0 |
 
 ## Evidence Samples
 
@@ -47,7 +47,7 @@
 - Query feeds attempted: 22
 - Query feeds successful: 22
 - Query feeds failed: 0
-- Primary-source lookups: 20 signals, 11 official documents (Federal Register, CourtListener)
+- Primary-source lookups: 20 signals, 12 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 1
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
