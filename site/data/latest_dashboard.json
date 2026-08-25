@@ -1,6 +1,6 @@
 {
-  "attempted_queries": 22,
-  "average_7d": 5.76,
+  "attempted_queries": 23,
+  "average_7d": 6.01,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,8 +9,8 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -2.23,
+  "delta_previous_day": 6.0,
+  "delta_vs_7d": 3.49,
   "domain_breakdown": [
     {
       "avg_severity": 0.0,
@@ -20,10 +20,10 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 1.0,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.0,
+      "points": 3.75,
       "weight": 15
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 1.0,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.0291666666666666,
+      "points": 3.25,
       "weight": 13
     },
     {
@@ -73,24 +73,129 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-24T13:16:51.502280+00:00",
+  "generated_at": "2026-08-25T13:14:48.140822+00:00",
   "methodology_version": 2,
   "previous_score": 4,
   "primary_sources": {
-    "documents_confirmed": 1,
-    "documents_fetched": 12,
+    "documents_confirmed": 2,
+    "documents_fetched": 15,
     "providers": [
       "federal_register",
       "courtlistener"
     ],
-    "signals_queried": 20
+    "signals_queried": 21
   },
   "provisional": false,
-  "score": 4,
-  "score_raw": 3.53,
-  "score_raw_pre_trip_wire": 3.53,
-  "successful_queries": 22,
+  "score": 10,
+  "score_raw": 9.5,
+  "score_raw_pre_trip_wire": 9.5,
+  "successful_queries": 23,
   "top_signals": [
+    {
+      "confirmed_hits": 5,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://abcnews.com/US/usps-makes-new-rules-mail-ballots/story?id\\u003d135879673",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5",
+          "published": "2026-08-24T23:52:21+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Supreme Court allows Trump to implement parts of his mail-in voting executive order - ABC News - Breaking News, Latest News and Videos"
+        },
+        {
+          "canonical_link": "https://www.cbsnews.com/news/supreme-court-trump-mail-voting-order-usps-dhs/",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLVZTaUM5SDFJZUJEQTd6V2hOLWVNMlg5U1BkWFFWUGVQNmN1aWpMblE4TUhMSl9CeVNmSmZZX0VLRzJXYjd4ZDRYQkp4TWNVVkJSVXQwRlhkZFp1WnV0bkRkZGtNeXJieGVieEN0T3dEWW85WWNUQVVQVVFWbHJ1QzVn?oc=5",
+          "published": "2026-08-24T21:06:00+00:00",
+          "publisher": "CBS News",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Supreme Court allows Trump to implement key parts of order restricting mail voting ahead of midterms - CBS News"
+        },
+        {
+          "canonical_link": "https://www.cnn.com/2026/08/24/politics/trump-mail-ballot-supreme-court",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAzWEtRUjJjZXdLa2tLUkhXMDNvaHdqSVIyWjFmWENTVjktaDI2NkVmZEZaVjhyeW01S3RGZnFqcVVUWXYzMkxXRjZwWTZIYlFZN2hJNzFKdFlKdURIRFF1cERRZGVEU0Uxd2laVW1hd0RLbWNXNlM2NGs4RQ?oc=5",
+          "published": "2026-08-25T01:08:00+00:00",
+          "publisher": "CNN",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "What Trump\u2019s Supreme Court win means for mail ballots - CNN"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 5,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "Multiple credible sources report that the Supreme Court allowed Trump to implement parts of a mail-in voting executive order. This represents a shift of voting-rule authority from statutory/legislative control to unilateral executive action via EO. The Court's allowance (likely through stay or injunction ruling) enabled executive implementation without requiring legislative authorization. This is a real, confirmed action that transfers governance authority from statute to executive fiat, but is narrowly scoped to mail-voting procedures rather than a broader structural dismantling. Severity 2 reflects this as a real, credible stress signal of limited scope, not yet structural failure.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 5
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "canonical_link": "https://www.law360.com/tax-authority/federal/articles/2516633/5th-circ-says-irs-penalty-suit-is-beyond-court-review",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdGlPVE96STFsaTJwTXI1bVBKLTJCcUMxQ0R3eVBBR094M2Z0bVdoc21QZ3RVX2VvWmpBYk14QjBTQnJ3MkFqbXdKUzBsRXJ0NE9rWkphNW5tMVQyb0JyVjJhZmRZWjJTNUZHTlVfNzN2WGgwU3JKbWphdW9xUlpJdW44S0FPN1czdkdfbFFMdHQtWG9NZ3JaeG9MWXN5ODVJaVNLTXo2Y2Q5TGhFMTROWnJFbzFiUdIBaEFVX3lxTE5aUnpFdkFMWFFwYmVZWjc3dWJpUjZRZVoyZlotV1RzNHhCWTRXdGxrMDBMaHpCMkc4REFLaC1FOExtOVBBUHBhZks2bmN1YkpFb2J4OVVOSENseDhMSlJ1S0J4NE5RV19o?oc=5",
+          "published": "2026-08-24T22:29:00+00:00",
+          "publisher": "Law360",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "5th Circ. Says IRS Penalty Suit Is Beyond Court Review - Law360"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://www.law360.com",
+      "rationale": "The Fifth Circuit issued a ruling that removes or severely limits court review over a specific category of disputes (IRS penalty suits). This constitutes a targeted jurisdiction-stripping action\u2014a court has determined that certain constitutional disputes or statutory claims fall outside its reviewable jurisdiction. This is a real judicial action that has taken place (the ruling has issued), not a proposal or hypothetical. However, severity is 2 rather than 3 because this appears to be a single appellate ruling on a narrow category of cases, not a systematic campaign or structural defect. The ruling does strip review authority over this specific category, but without additional context suggesting this is part of a broader effort to eliminate constitutional safeguards, it remains a contained, albeit credible, stress signal.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/08/25/2026-17334/improving-performance-accountability-and-responsiveness-in-the-civil-service-and-recruitment-and",
+          "link": "https://www.federalregister.gov/documents/2026/08/25/2026-17334/improving-performance-accountability-and-responsiveness-in-the-civil-service-and-recruitment-and",
+          "published": "2026-08-25T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Improving Performance, Accountability and Responsiveness in the Civil Service, and Recruitment and Relocation Incentive Waivers; Correcting Amendments"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "primary_confirmed": 1,
+      "primary_documents": 1,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/25/2026-17334/improving-performance-accountability-and-responsiveness-in-the-civil-service-and-recruitment-and",
+      "rationale": "This is an official Federal Register document confirming that OPM has issued a final rule titled 'Improving Performance, Accountability and Responsiveness in the Civil Service' (published February 6, 2026, effective March 9, 2026). The August 25, 2026 entry is a technical correction to that rule. The original February rule directly addresses civil service structure and performance accountability, consistent with Schedule F concerns about reclassification of career positions. As an issued final rule effective before this correction, it represents a material structural change to civil service rules. The correction itself confirms the underlying rule exists and operates. Severity is 2 (repeated/credible stress signal, real but contained action) rather than higher because the document excerpt does not detail the specific reclassification powers granted, only that such a rule has been issued and corrected. The fact that a major civil service reform rule exists and is being administratively refined constitutes verifiable evidence of civil service policy change, though the full scope of at-will reclassification authority is not detailed in this excerpt.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 0
+    },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
@@ -135,27 +240,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],

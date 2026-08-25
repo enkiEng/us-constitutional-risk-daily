@@ -48,6 +48,23 @@
       "rationale": "A separate, final OPM regulation published 2026-08-03 narrows appeal rights specifically for probationary and trial-period federal employees, distinct from the already-pending RIF performance-based rule and the MSPB suitability-appeals rule. This is a confirmed, durable regulatory change targeting a specific class of employees' procedural protections, warranting its own ledger entry at a targeted-scope magnitude (2).",
       "confidence": 0.68,
       "proposed_on": "2026-08-04"
+    },
+    {
+      "action": "update",
+      "id": "federal_executive_intrusion_election_administration",
+      "domain_id": "elections_transfer",
+      "title": "Executive orders and DOJ campaign asserting federal control over state election administration (EO 14248, EO 14399, voter-roll demands, mail-in voting restrictions)",
+      "class": "executive_action",
+      "magnitude": 2,
+      "status": "active",
+      "established": "2025-03-25",
+      "evidence": [
+        "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLVZTaUM5SDFJZUJEQTd6V2hOLWVNMlg5U1BkWFFWUGVQNmN1aWpMblE4TUhMSl9CeVNmSmZZX0VLRzJXYjd4ZDRYQkp4TWNVVkJSVXQwRlhkZFp1WnV0bkRkZGtNeXJieGVieEN0T3dEWW85WWNUQVVQVVFWbHJ1QzVn?oc=5"
+      ],
+      "rationale": "The Supreme Court's order allowing implementation of key parts of Trump's mail-in voting executive order marks a confirmed, effective (not merely proposed) expansion of unilateral executive control over election administration, undoing the prior partial reversal reflected in this entry's status. Scope remains limited to mail-voting procedures rather than a full structural takeover, so magnitude is held at 2, but status is updated from partially_reversed to active since a court has now sanctioned continued executive implementation over congressional/statutory objection.",
+      "confidence": 0.65,
+      "proposed_on": "2026-08-25"
     }
   ]
 }

@@ -142,6 +142,16 @@
     }
   },
   "civil_service_purge_schedule_f": {
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FYklad1ZVTFo5Q05mZ2RSbElJb3JBTEliYzhubzV2WVNES05sbkxnUENJaXhET3M0QkN3Q0xZMmpiTnV3TGVObDhtR3dKNXlncE5oZDllbkl6VlpXaldjSGx5aTRvX0ltTW53WGo0aTNXaHFUTGc?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.85,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "unknown",
+      "rationale": "This is an opinion/commentary article from The Contrarian with no substantive summary provided. The title suggests punditry about spoils-system concerns, not a report of a verifiable event. Without the article body, no specific action can be attributed to it. Opinion/analysis articles characterizing or criticizing policy trends do not constitute evidence of an actual constitutional-stress event unless they report on a specific, verifiable action that has occurred. This appears to be editorial commentary rather than reporting of an accomplished action.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxOckM4ZDdZeFgwLV9NanZHeUJpUUVSTFR6UjU2ckVYbDhsMEhsRlI4aEVJelJBSjlsR1p2N0RTN3gwa2JNeWtXNlFWY1pvWXdhVVIwZDVrY3l1U2lUT0hhcWs2Z1lQdFpjY2J2UV9VYnJjZGdYRmhsbFlRbjVPeTlYLVFIMjNUN2VROWhWeUlvMjZ2UkEz?oc=5": {
       "actor": "Just Security",
       "confidence": 0.95,
@@ -210,6 +220,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16630/updates-and-amendments-to-the-civil-service-rules",
       "rationale": "This is an official Federal Register document recording a direct final rule issued by OPM to amend Civil Service Rules pursuant to Executive Order 14410 regarding 'Schedule Policy/Career in the Excepted Service.' The rule has been issued (not merely proposed), representing a real administrative action. The language about moving positions to the excepted service aligns with Schedule F concerns (reclassifying career positions to at-will status). However, the summary characterizes the changes as updating 'obsolete and outdated provisions' that 'do not substantively affect agency operations,' suggesting limited scope. This is a real, verifiable action matching the signal, but the characterization of impact and scope as non-substantive constrains severity to 2 (repeated or credible stress signal, real but contained action) rather than higher.",
+      "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/08/25/2026-17334/improving-performance-accountability-and-responsiveness-in-the-civil-service-and-recruitment-and": {
+      "actor": "Office of Personnel Management (OPM)",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/25/2026-17334/improving-performance-accountability-and-responsiveness-in-the-civil-service-and-recruitment-and",
+      "rationale": "This is an official Federal Register document confirming that OPM has issued a final rule titled 'Improving Performance, Accountability and Responsiveness in the Civil Service' (published February 6, 2026, effective March 9, 2026). The August 25, 2026 entry is a technical correction to that rule. The original February rule directly addresses civil service structure and performance accountability, consistent with Schedule F concerns about reclassification of career positions. As an issued final rule effective before this correction, it represents a material structural change to civil service rules. The correction itself confirms the underlying rule exists and operates. Severity is 2 (repeated/credible stress signal, real but contained action) rather than higher because the document excerpt does not detail the specific reclassification powers granted, only that such a rule has been issued and corrected. The fact that a major civil service reform rule exists and is being administratively refined constitutes verifiable evidence of civil service policy change, though the full scope of at-will reclassification authority is not detailed in this excerpt.",
       "severity": 2
     }
   },
@@ -545,6 +565,16 @@
       "primary_source_url": "https://abcnews.go.com",
       "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxON3RmTHlncFdNa2ZXTGl6WHkyY1E0Z1QzRTJxQnhhM1MzLU41b292VFZ2YlVIZS1fS2ZzcWdSTDJhU2o3NW9NdmM4cV9RY2IzY3pfbDR2ZWZPQU5XNGdPTl9xN0tJbi1sOVlVSEotOWZ1V0d2bzV4WFRCT0hRa1VkZFMzblpDSUk5Z1cydFpRcHJJLUtLTFJMWEJ5Y1BLUnNVaEh2d0ctRDBNakpXVy1rc1NJc3JIQzQtVkNjem40MA?oc=5": {
+      "actor": "State of Maryland (implied)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.wbff.com",
+      "rationale": "This item reports a state seeking a court ruling on a procedural ballot question in a county redistricting matter. This is a routine litigation about ballot access/procedure, not evidence of election administration being moved from neutral process to partisan control. The headline describes a legal action (seeking a ruling), not a structural change in how election administration operates or evidence that partisan actors have taken control of election processes. No specific action demonstrating capture of election administration has occurred; this is a standard dispute about ballot procedures.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbF84WFJQUHdLSU9fNFJrR2FoN2NBYUdDOGZQNDYxNnhIMGlBTUZlSGxpeGVaRlNRVWo4RlBpN3M3TGkzakFpZVdSeVFOak1HM1V3bXNQU0JpdUxoVDFpYnFiZDU2QlBTa0tDeENNZ0RKQ3hzaUJna2dremlLOFNhQm1MTUoyUXVvMkVpbDJMSmppTXRtdnVRNmQ3UW1kbmJGSDVnWnJ2b202TTEyVUU0NnU1Rng5QV9TUnBMX1FhVEhwU1Y0UXc?oc=5": {
       "actor": "North Carolina State Senate",
@@ -1508,6 +1538,16 @@
       "rationale": "This item describes events in the Philippines (references to 'VP On Trial,' Filipino names Gina Acosta, Amando Ligutan, and Francis Escudero, and Philippine impeachment procedures). It is not a U.S. domestic occurrence and therefore not relevant to the U.S. constitutional-risk signal regarding judge intimidation in the United States. Additionally, the item describes a routine impeachment court procedural ruling (declaring a witness hostile and permitting leading questions), which is a standard evidentiary matter in judicial proceedings, not an act of intimidation or pressure on judges for their rulings.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQmdlVU5XcDhBRVh5VlljSWFYbVQ3MDNHLWtEVEtYU29tTl9GN1BMUmZXd2gtZXlUVzYwbFlHRzVpOUFZNmR4cmVocHpxZTZiLVB4UDZnZWFBaHRwWjBBcVBKeFV2LTkyUHhkWjhOaUI2cThaUVdLSEszMy05TUx2Qm85YTF3NlBxMWZOSGZ1UE54QU12U0lmRXFJMWtJb19uUmdmUnk3S2V3WXNjUl92dEVaRnA1ZU9Sel9EMmlJb0VhN0RUdHRhanF5bXhyZ1hEaFdWRnhyRQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on DOJ (Philippine Department of Justice) statements regarding prosecution of the Philippine Vice President before a Philippine trial court. It is a non-U.S. event occurring in the Philippines. It does not evidence sustained official pressure to punish judges for adverse rulings in the United States, nor does it relate to the judge intimidation campaign signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUi1Wa3h6S3VOek5BSXVHY0kwTzlUeElJUk11UE90UzNjVmtfTk9mb1FFSmxXUXFYMC1SaU54Y3g3emZlMzY2bHFnY1FMcEJKOU5ZNmFyS2UxdGVOeGp1Rm0tUlJuRlhjSXJlX2pDM1RkSkVqNGpraU1saG9jbjlSOWtDT21YQmo4dlVZaUdieEE3Z3ZXOVN0T0swbGJ1Y2NwMFdzQmU2MGVJSXpJdkVZUHRnYkhEZUhDUUl2N1hrOER4QWR2RzBPb3lDOERGU20tM1dydVRPRTVHU2s?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -1536,6 +1576,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item describes a procedural statement by a defense lawyer during the Philippine impeachment trial of Sara Duterte regarding sub judice rules. This is not a U.S. domestic event and does not address judge intimidation in the American constitutional context. The geographic jurisdiction is the Philippines, making it out of scope for this U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMFlMY0hlbDVTRGRDcTNUTF9BQV9qMWxvdWZBdkQxUGJPMzNINUFvQTJZRF9XY29qNVdsc2lmSG45Y01JNWFCR1BLQ1JtZ0tiSnlJQWpPMWRXWlZHUWQ5YlZwejNuaVJlaXhQR2dXNXJpeXRDVGkyX2dNVmQ1OUZ3Y0JzX3p3SENaTTVHMHk4azdGWXllRmJXTlIxVE9NVjJqTVhLWE5WU0w3a2NYZDF6c3BZZE95bFdLZVpDX1l6UXBnUnZLYzczdDlBUXc3SW12SGQtWVEwdldCcGJX?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns an impeachment trial of the Philippine Vice President Sara Duterte in the Philippines, not a U.S. domestic event. The signal addresses judge intimidation campaigns in the United States. This is geographically outside the scope and does not evidence the signal.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYWphSmNHWGM4SzZ0M0wyX0Zfc1ZkN1JMdUd1VGk0R1lkekFSODhxeERSTkYxSHVRMlhoOXJIRTg1dktTVXRHLVlDM2ZPV2o2Unh3TDlNbi1KLXNESWd1LXN5bHdqSEcxeHFCUlltUFl2V0dmbVpNOEt3Y0dSZWVveENsZFRGakdqOFVtNDVqSnFJaDk0R3pLN0lYZXViaHIzQ0xBR2x6Y3NWSzZfOFMyZ1RodkFJTWVPV1VGWXBtdzJ3cFRodk53SlQ2SFIzQWdKU2ZrWWdicHc4OHpQ?oc=5": {
@@ -1710,6 +1760,16 @@
       "rationale": "This item concerns a routine appellate decision on equitable tolling doctrine in tax court procedure. It describes a court interpreting and applying existing law, not an effort to strip court jurisdiction or remove court review from constitutional disputes. The Eighth Circuit joining a consensus on tolling rules is normal judicial activity and does not constitute targeted jurisdiction stripping. No evidence of an attempt to remove court review over specific constitutional disputes.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdGlPVE96STFsaTJwTXI1bVBKLTJCcUMxQ0R3eVBBR094M2Z0bVdoc21QZ3RVX2VvWmpBYk14QjBTQnJ3MkFqbXdKUzBsRXJ0NE9rWkphNW5tMVQyb0JyVjJhZmRZWjJTNUZHTlVfNzN2WGgwU3JKbWphdW9xUlpJdW44S0FPN1czdkdfbFFMdHQtWG9NZ3JaeG9MWXN5ODVJaVNLTXo2Y2Q5TGhFMTROWnJFbzFiUdIBaEFVX3lxTE5aUnpFdkFMWFFwYmVZWjc3dWJpUjZRZVoyZlotV1RzNHhCWTRXdGxrMDBMaHpCMkc4REFLaC1FOExtOVBBUHBhZks2bmN1YkpFb2J4OVVOSENseDhMSlJ1S0J4NE5RV19o?oc=5": {
+      "actor": "U.S. Court of Appeals for the Fifth Circuit",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.law360.com",
+      "rationale": "The Fifth Circuit issued a ruling that removes or severely limits court review over a specific category of disputes (IRS penalty suits). This constitutes a targeted jurisdiction-stripping action\u2014a court has determined that certain constitutional disputes or statutory claims fall outside its reviewable jurisdiction. This is a real judicial action that has taken place (the ruling has issued), not a proposal or hypothetical. However, severity is 2 rather than 3 because this appears to be a single appellate ruling on a narrow category of cases, not a systematic campaign or structural defect. The ruling does strip review authority over this specific category, but without additional context suggesting this is part of a broader effort to eliminate constitutional safeguards, it remains a contained, albeit credible, stress signal.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQng5aVdpUzRPdldXeEVaRUpWVFZqdlJ3UHR1emozbDhwVjZZRUdfM3pwb2lLM0RrQmYxUjM3QVp6Qy16VDNJbExYZy1JUDNNNVQtV1dkLUdoUlZMWlNmRHI1RDdhS0ZpWEcwX29GdlZXS0c0VXZnWlBQNERkTmhqeDVIMUxOMXhSdlVtTHdqZEhqOU9rSTc2a1daRVBkalhXWkhtNkFULUhuN1o3RmdfUjNNal85eGNQRE1N?oc=5": {
       "actor": "Supreme Court",
       "confidence": 0.95,
@@ -1812,6 +1872,16 @@
       "rationale": "This article reports on cost-of-living data by city. It is unrelated to executive power, legislative bypass, or constitutional governance and does not match the signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMjhESEtOZjlxQkgwYTRDTmVBMk5Tc3BvTE1CcE9obzB5bmQtVm1vMDFMR2xwMFNscUlTaFFUTEMzVkRPQ2VuRURyZnM0YmNDS2FLQlRDdTFkMlZiUFBZcURoandMbzIwOU82OUxvdUZzajhteFBWWk9hQUM5cVZNdC1lamYzOVBqaUo0Ri03di1RWlZ0aDQ3eXFjNTBMMWlhT3FQTUhldWpVazRpTGszWkYyaEZacWNxTkhkTElscDFuNlR3bEphRXBvNDBkMmRLU3NQdVBBWHZLMGpSMDJoVkV4UldRbXMyUkHSAe8BQVVfeXFMTmdXMXVmM0tpZnp0eFZTbEpyclQ3Tm9JblRnd1BMdUxaUmU3b0tFVmt0a1gwTVF4WXo4YmlvU0VfNG9DemdVT0xDMTM4VkhSMWVyblFjcU8zUXVzMUtsZDNJa3Y3THMwTHB2QmlGQVpLQjA0YTVXanJXbGNUOWZ6ZGRpSXVuYk0waHpyUkhVYktpVDVEZE5VNHlCam1fdkYySF9PZnZCdkgxY2JldkxLaENOVHlmM05zaFdNZjB6bzcwQ3ZxdnVDbS12UVVFUEdJZGliaVU1a1N2Y0N2T05Wa3hQbVRTeWh5M2FZMmtUVFU?oc=5": {
+      "actor": "Executive (Trump administration)",
+      "confidence": 0.8,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://timesofindia.indiatimes.com",
+      "rationale": "Times of India reports the same underlying U.S. event (Supreme Court approval of Trump's mail-voting order). While the source is non-U.S., the event itself is U.S. domestic. The report confirms the real occurrence: executive implementation of voting restrictions via EO, cleared by the Court. Severity 2 is appropriate for a real, confirmed, credible but geographically/functionally limited action.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sc0NtT3lLSEl6NlhDR3hPcDhaRzhCYWVRallDcWl4aS1IYkNJZ2xIeWVvLWR5dHpncVJrVmswODRoNDZNR3l2NVBYWkM3aGhZSmlCWUZ0dXJwZw?oc=5": {
       "actor": "US Appeals Court",
       "confidence": 0.95,
@@ -1841,6 +1911,16 @@
       "primary_source_url": "https://www.tippinsights.com",
       "rationale": "This item is described as an analytical article about the presidency and perpetual war. It appears to be opinion/analysis or historical retrospective commentary rather than reporting on a specific verifiable event. No concrete action or bypass is identified. Does not constitute evidence of an actual legislative bypass event.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMie0FVX3lxTFAzWEtRUjJjZXdLa2tLUkhXMDNvaHdqSVIyWjFmWENTVjktaDI2NkVmZEZaVjhyeW01S3RGZnFqcVVUWXYzMkxXRjZwWTZIYlFZN2hJNzFKdFlKdURIRFF1cERRZGVEU0Uxd2laVW1hd0RLbWNXNlM2NGs4RQ?oc=5": {
+      "actor": "Executive (Trump administration)",
+      "confidence": 0.82,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://cnn.com",
+      "rationale": "CNN reporting confirms the Supreme Court decision permitting Trump's mail-ballot restrictions to be implemented. This is analytical coverage of a real underlying event (the Court's decision and the resulting executive authority shift). The event occurred; CNN is reporting its implications. Severity 2 reflects a real, credible, but narrowly scoped executive assertion of authority over voting procedures without new statutory delegation.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGVjVPbm9EMEdwZC02YjVsOW9pdk1YSDMzTC0yd2RMeHFFM0w1cWNYOW8yTVY0TmJlTjdyQzc5MG40SjIyTUxHYjQyUFFGYkFHbFd2a3NSQ2hfM0gwTmREYXM3d0hLUXBJY0tZUU9yTUhySlNWTEx3OWphNA?oc=5": {
       "actor": "Jacobin (publication)",
@@ -1881,6 +1961,26 @@
       "primary_source_url": "",
       "rationale": "This is a headline stating a judge delivered a 'win for mail voting.' Without detailed context, this appears to be a judicial decision protecting or affirming voting procedures, likely against an executive or state action that sought to restrict them. This is consistent with courts checking executive/legislative power, not with legislative bypass by executive. Does not match the signal of executive unilateral action circumventing statute.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5": {
+      "actor": "Executive (Trump administration)",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "Multiple credible sources report that the Supreme Court allowed Trump to implement parts of a mail-in voting executive order. This represents a shift of voting-rule authority from statutory/legislative control to unilateral executive action via EO. The Court's allowance (likely through stay or injunction ruling) enabled executive implementation without requiring legislative authorization. This is a real, confirmed action that transfers governance authority from statute to executive fiat, but is narrowly scoped to mail-voting procedures rather than a broader structural dismantling. Severity 2 reflects this as a real, credible stress signal of limited scope, not yet structural failure.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLVZTaUM5SDFJZUJEQTd6V2hOLWVNMlg5U1BkWFFWUGVQNmN1aWpMblE4TUhMSl9CeVNmSmZZX0VLRzJXYjd4ZDRYQkp4TWNVVkJSVXQwRlhkZFp1WnV0bkRkZGtNeXJieGVieEN0T3dEWW85WWNUQVVQVVFWbHJ1QzVn?oc=5": {
+      "actor": "Executive (Trump administration)",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://cbsnews.com",
+      "rationale": "CBS News corroborates that the Supreme Court allowed Trump to implement key parts of an order restricting mail voting before midterms. This confirms the same real event: unilateral executive action on voting procedures permitted to proceed without legislative authorization. Scope is narrow but definitive. Severity 2 is appropriate for a real, credible, confined action that represents executive override of statutory/legislative voting authority.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5": {
       "actor": "Trump Administration",
@@ -2042,6 +2142,16 @@
       "rationale": "This item describes a Supreme Court striking down tariffs and a subsequent refund\u2014a normal constitutional process where the judicial branch reviews executive action and the executive complies. This represents the judiciary checking executive power, not a legislative bypass. No evidence of executive action circumventing statutes or the legislative process. The item is also vague (no credible source URL, dated 2026 which is in the future relative to typical knowledge cutoffs), lacks specifics, and does not demonstrate the signal (shift of governance from statute to unilateral executive action). A court ruling that nullifies an executive policy, followed by compliance, is routine constitutional operation, not constitutional stress.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ2FaY2x4SEZiV3lnbVV2UTZkS1dscV9OcFlQSTBQYk0zWFJxckQ1OElnay1DbjNPNWlXY2htU0JMYk1JSTV5aVQ2VVhkWjFLS21FdkJTZVo2eHZ4enNxSWE0X2VKMF93MDd0bmZnUmlaZnVMeG56c3otOTdSVHhTSkN5T0tRV1BMeDlrajhoWVBVcFN1WlpHWE9wbWJyUzFZcHhWVjhsY0t0bnFKVmNLc1E4dzRyUE9UTW4xbnZKWWIzZw?oc=5": {
+      "actor": "Executive (Trump administration)",
+      "confidence": 0.83,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://newsmax.com",
+      "rationale": "Newsmax reports that the Supreme Court opened the door to Trump mail-ballot restrictions before midterms. This confirms the real event: Supreme Court's allowance of executive action on voting procedures, enabling implementation without fresh legislative authority. Severity 2 reflects a real, verified action that represents legislative bypass (voting rules shifted from statute to executive order), but is narrow in scope and not yet a structural failure.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNHlzQXJNWU1JajhHNUdSNjM0VlpTVzNvcmE3LUFOVm5YNVpESGVyZmFfUTJ2ZjNLc21wSDNBemdHN3FIaktkckZvald5T1JCbm5GQ2J6cHkyNVVkaFJBSXJzUEFOYzdxQk1sNjgxWmhreVBXandVZWwxZjNXNW96bkJybXBzalZmZGwwRTI2VUJ3cHdyWmljLWtXUGZhbllUNmJTYjk4TjJhbUIzcHhXeEhnTzBybWlyankwMHpZTUQ2eDQ?oc=5": {
       "actor": "Trump",
       "confidence": 0.88,
@@ -2156,6 +2266,16 @@
       "rationale": "This item concerns a routine constitutional question about weapons regulations and park bans\u2014a standard judicial review matter. It contains no rhetoric, policy, or action involving military governance, martial law, or military management of political disputes. The signal is not implicated.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports a Supreme Court decision allowing implementation of a mail-in voting executive order. While a real constitutional event (judicial authorization of executive action), this involves electoral administration policy, not military governance or martial law rhetoric. The signal specifically targets rhetoric or policy toward military management of political disputes. A mail-in voting rule, even if controversial, does not constitute evidence of martial law or military governance language. No military involvement is indicated.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiggJBVV95cUxPbVBGYzZwZk5fVHJSSV9QUUtJYlhGajF1SkxTQ3JWTTJIcUxNa1ZScThrS2xvRDFnQ2lnWklzZk0zVEI3bHdkY0gtYnNqUjZ2Y1N0RDhPVEJ6TG13ZEdENXY2NFgyclEyZnhkMVRuU09JSmd5T21pQmd2UG9NOUp6ZXE2LXRWQnBjMEJNLWthUmVyRDJnYnVfV1phRE4wZk1RN0dwZVo0LVdtRkdYV1hmTGRKRDZvN25xbE1jWW8tTU0tcDhHa2c3WU1rcDEzZ3lxcDRINUdvX1IxQm90MjZBQ2FFSndoTkllUE9JYlZWX0s2dnlaZXJWN2c0XzdyUTV1MFE?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -2164,6 +2284,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item is a Ukrainian legal publication (\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430 is a Ukrainian judicial gazette) concerning a ruling by the Ukrainian Supreme Court on condominium dispute jurisdiction. It is not a U.S. domestic event and contains no content related to martial law, military governance, or military management of political disputes. The signal explicitly targets U.S. constitutional risk; this is a non-U.S. civil procedure matter.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQm9rQ1hZSzluV1RNbi1wTG01eE5VMENhYTNwdzFpTlAzYzNQNV9MNXpKWlI5azNDVGJoQnpOYjZJU3hwLTN5ZDZRVl81aGZKZE8ya0RvXzVhTFdvZ09fc2MzSVNxWUY2VVBhT2w4VXB3a21GUmdYd3Vxckw4bHZhRnZ4UFBnNWd6cUpQWFNOc3U3U3lCN0E?oc=5": {
+      "actor": "USPS",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a straightforward informational article about postal rules governing mail-in ballots. It is explanatory coverage of administrative procedure, not an account of any constitutional-stress event. Contains no martial law rhetoric, military governance language, or military involvement in political disputes. Purely procedural and regulatory in nature.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUzVPS2hqb0VXeDhPZnVJNEtUSUtaRDdFQll2NnRnMUhWYkJIQlhtSXQtRHg3b2NMcHg5RDJvSGRmWTF1YlV5ZWZYSllBb0h3QXJmSEQ2M0ZYOE9TSG4yM29ncVdyWTFNNGJVNDA0dWtTS21UN2had3g5N1oxVms4aEtPaE1id2EzcmVqS3Jwb2NYSmEyU0JKUjQ4ZTVLLTVjdW5naWVGS01jZ1NPQkxYUFdWekswUVNlRnZV0gG7AUFVX3lxTFBTNU9LaGpvRVd4OE9mdUk0S1RJS1pEN0VCWXY2dGcxSFZiQkhCWG1JdC1EeDdvY0xweDlEMm9IZGZZMXViVXllZlhKWUFvSHdBcmZIRDYzRlg4T1NIbjIzb2dxV3JZMU00YlU0MDR1a1NLbVQ3aFp3eDk3WjFWazhoS09oTWJ3YTNyZWpLcnBvY1hKYTJTQkpSNDhlNUstNWN1bmdpZUZLTWNnU09CTFhQV1Z6SzBRU2VGdlU?oc=5": {
@@ -2308,6 +2438,16 @@
       "matches_signal": false,
       "primary_source_url": "https://thehindu.com",
       "rationale": "This item concerns Indian domestic politics (Congress party suspension of an ex-MLA in Datia, which is a district in Madhya Pradesh, India). It is not a U.S. occurrence and therefore provides no evidence regarding opposition ballot exclusion in the United States. Additionally, an internal party disciplinary suspension, even if it occurred, does not constitute systematic removal of candidates from meaningful electoral participation at the ballot level.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNc21lUFFWSnpkbGJJVUJWR2RsZHlvWnJYSmJRTWllNTNySmRCdlNRM0RKekthaXFGUjRTQk5ra1BDMk9XR21QOTVRdjhWNFY3UW9taE5qMnZnVzFOU1R6MC1FbVNIdlBMdkxRV3NIY1lSWjhNa2RPeDFrTjlfaldrdFNFYmFJWUJiOW4xQVM4NjgtRElucldPUVpwcjRjNDJuR0dkUzVTT2NWM2ZIeUFGUzVnNjZDMWNPQ0FGeHBZeHNrQ2ZiMkpXNjJlNWxBX0hzMXpjY1QyZUVYdG1QM0wwS3Rkdw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Zambia, not the United States. The signal is defined as a U.S. constitutional-risk indicator. Non-U.S. events, regardless of their severity or relevance to democratic norms globally, do not constitute evidence of U.S. constitutional stress. The item is out of scope.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcmotcmpsMnVWajFmRnF2Vzg2WFlUeDFvVnVsQUdpYU11M1J4OWRpQ0JpV2Q3T0ZuR1NIM3NxbzZCZERzNzVjSUtGb3ZJNC1fQloyZm1HU2dRb3ctNU0wbkdyTDlnU09xOUpHYmNfWTNMdzNxZVNiVnZ4UWtTdXlaMmg4M05TLXZJaEZkV2pmR0Z3dmF0QXRabThXczNJY2RKRVdnVjVUYl9QMUUyWnFxdFVVNFRpQVUyT2FxMDNKalpFTzNteGZUN09YeXZ3NG9nejZTenAxSU9wSm9PV1doRWZtUQ?oc=5": {
@@ -2756,6 +2896,16 @@
       "rationale": "This item reports on a sentencing in Kazakhstan, not the United States. The signal is specific to U.S. constitutional risk. Non-U.S. events are out of scope regardless of their subject matter.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX1NmVG5mMXZpbFJqZVVwOENxelJsTnpGZDBoaFpic0ROaEFkRUloeWx5bGE4d1U1Wnlnb0JxdlpfU2tVNV9rT1hRZUZrcEx6NWt5bFVSTnk3ZnU2TzRuTWY4UDNwQUdKRFYwaW1qQ0xBMEJpZmRuS19FUUljV0dwNnhGUVNPZW56S0lhWA?oc=5": {
+      "actor": "",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports an event in Pakistan (Ahmad Farhad, covered by Journalism Pakistan outlet). The signal concerns U.S. constitutional press restrictions or retaliation. This is a non-U.S. event and therefore not evidence of a U.S. constitutional-stress signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMmdMQjMtZ19rT2dKRUZGNUIyX3FIMWZYdWc5cVVMcUNJQlBUZjFZdmR3cjVDR1hIclR3UmJWZnRzNHJ6R25TNzg0RTRoczlHVGhlLTlkVUM0NEZmNHZsOXduOURkalFOMnVTSDhsLUNCWVduWGZvcXlwZ1ZQeHFpMGpJcGVZT2FQLXhzeS1B?oc=5": {
       "actor": "Bangladesh government",
       "confidence": 0.99,
@@ -3116,6 +3266,68 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/20/2026-16981/application-for-relief-from-disabilities-imposed-by-federal-laws-with-respect-to-the-acquisition",
       "rationale": "This is a routine Federal Register notice implementing administrative criteria for firearm disability relief determinations. It is a standard regulatory procedure with no connection to partisan loyalty tests, coercive-state institution politicization, or security sector filtering. The document addresses eligibility criteria for firearm relief, not institutional loyalty or constitutional stress related to the security sector.",
+      "severity": 0
+    }
+  },
+  "statistical_agency_integrity": {
+    "https://www.federalregister.gov/documents/2026/08/21/2026-17114/rescission-of-executive-order-11246-implementing-regulations": {
+      "actor": "President Trump, Department of Labor",
+      "confidence": 0.98,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/21/2026-17114/rescission-of-executive-order-11246-implementing-regulations",
+      "rationale": "A real regulatory action occurred: President Trump rescinded Executive Order 11246 via Executive Order 14173, and DOL published a final rule rescinding its implementing regulations. However, this action does not match the Signal definition. The signal concerns political interference with federal statistical agencies (BLS, BEA, Census Bureau) and their data production, methodology, and career leadership. This rescission involves federal contracting compliance regulations under the FCCP office, not statistical agency integrity. While significant as policy, it is not evidence of the specified constitutional-stress signal.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/21/2026-17146/inflation-adjustment-for-eoir-obbba-fees-fiscal-year-2027": {
+      "actor": "Department of Justice, Executive Office for Immigration Review",
+      "confidence": 0.98,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/21/2026-17146/inflation-adjustment-for-eoir-obbba-fees-fiscal-year-2027",
+      "rationale": "A real regulatory action occurred: DOJ published a final rule adjusting immigration-related fees for FY 2027 as required by statute. However, this does not match the Signal definition. The signal concerns political interference with federal statistical agencies (BLS, BEA, Census) and their economic data production. This action involves fee adjustments for immigration proceedings, not statistical data integrity or agency independence.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/21/2026-17164/agency-information-collection-activities-proposed-collection-comment-request": {
+      "actor": "Agency for Healthcare Research and Quality",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/21/2026-17164/agency-information-collection-activities-proposed-collection-comment-request",
+      "rationale": "This is a routine Paperwork Reduction Act notice announcing intention to seek OMB approval for reinstatement of a research reporting system collection. It is a procedural proposal for approval, not an accomplished action affecting statistical agency independence or data integrity. AHRQ is not a primary statistical agency under the signal.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/24/2026-17225/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-17f-1": {
+      "actor": "Securities and Exchange Commission",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/24/2026-17225/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-17f-1",
+      "rationale": "This is a routine Paperwork Reduction Act notice regarding information collection extension. The SEC is not a primary statistical agency under the signal, and this is a procedural collection notice unrelated to statistical data integrity, methodology changes, or leadership interference.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/25/2026-17325/60-day-notice-of-proposed-information-collection-generic-post-award-information-collection-for-hud": {
+      "actor": "Housing and Urban Development Department",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/25/2026-17325/60-day-notice-of-proposed-information-collection-generic-post-award-information-collection-for-hud",
+      "rationale": "This is a routine Paperwork Reduction Act notice for a 60-day public comment period on a proposed information collection. It is a procedural step in compliance review, not an action affecting statistical agency integrity, leadership removal, or data manipulation. HUD is not a primary statistical agency covered by this signal.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/25/2026-17331/agency-information-collection-activities-proposed-collection-comment-request-extension": {
+      "actor": "Federal Trade Commission",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/25/2026-17331/agency-information-collection-activities-proposed-collection-comment-request-extension",
+      "rationale": "This is a routine Paperwork Reduction Act notice requesting public comment on extending an information collection requirement. It is a procedural proposal, not an action that interferes with statistical agency independence or methodology. The FTC is not a primary statistical agency under the signal (BLS, BEA, Census), and this notice involves compliance paperwork, not data integrity or political interference with statistical leadership or output.",
       "severity": 0
     }
   }
