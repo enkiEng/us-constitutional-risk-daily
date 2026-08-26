@@ -65,6 +65,24 @@
       "rationale": "The Supreme Court's order allowing implementation of key parts of Trump's mail-in voting executive order marks a confirmed, effective (not merely proposed) expansion of unilateral executive control over election administration, undoing the prior partial reversal reflected in this entry's status. Scope remains limited to mail-voting procedures rather than a full structural takeover, so magnitude is held at 2, but status is updated from partially_reversed to active since a court has now sanctioned continued executive implementation over congressional/statutory objection.",
       "confidence": 0.65,
       "proposed_on": "2026-08-25"
+    },
+    {
+      "action": "add",
+      "id": "mail_in_voting_restriction_eo_enforced",
+      "domain_id": "elections_transfer",
+      "title": "Supreme Court allows enforcement of executive order restricting mail-in voting without statutory authorization",
+      "class": "executive_action",
+      "magnitude": 2,
+      "status": "active",
+      "established": "2026-08-26",
+      "evidence": [
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxQblFuM0lVVnk1ek05cENEdmp2YTdxclBnejRzM2J4RmgwNHp0Wm9KaFhWOTh5SVhncHZ0d19MQ1VLUWpmTk5KWHVoRnpjYlB1bVlJdkRORW8yaThCSm5Fc1o2MENqdnBxTkVESm9mOUdsVnU5LU83YzhJbjBXN0c3SlA3ZGdiZV8wS0EyaVppSWVLWmNnVHYwUkJoTnF5Q2FiWDREeHdVLVN0WVNpMjhmNkNkODZCSloxWl91WTZoUUp5YnFXWjhib0ZkbHc?oc=5",
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLVZTaUM5SDFJZUJEQTd6V2hOLWVNMlg5U1BkWFFWUGVQNmN1aWpMblE4TUhMSl9CeVNmSmZZX0VLRzJXYjd4ZDRYQkp4TWNVVkJSVXQwRlhkZFp1WnV0bkRkZGtNeXJieGVieEN0T3dEWW85WWNUQVVQVVFWbHJ1QzVn?oc=5",
+        "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5"
+      ],
+      "rationale": "The Supreme Court declined to block and thereby allowed enforcement of an executive order imposing restrictions on mail-in voting nationwide, an action taken without congressional authorization. This is a confirmed, durable structural change: the order can now take legal effect, shifting authority over a facet of election administration from statute/state control to unilateral executive action. Scope is limited to mail-in voting mechanics rather than full federal takeover of election administration, warranting a targeted-scope magnitude rather than a broader one.",
+      "confidence": 0.65,
+      "proposed_on": "2026-08-26"
     }
   ]
 }

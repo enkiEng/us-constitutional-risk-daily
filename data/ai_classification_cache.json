@@ -406,6 +406,16 @@
       "rationale": "A governor vetoing a bill that would restrict early voting is an act that occurred, but it is orthogonal to the signal of election administration capture by partisan forces. A veto of a restrictive elections bill reflects a check against partisan election control rather than evidence of it. The item describes a legitimate constitutional process (executive veto) being exercised to block a measure that would constrain voting access. This is not evidence of movement toward partisan capture of neutral election administration; rather, it demonstrates the opposite\u2014a constitutional restraint against such capture.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONndUS21ROTdMQVZhbWJwTVF0dTBjMFNtYjhvU01iM1JXbkZhS0pHdHd6V1Z6UWxhM1hIOEhmUmt4UnBSakl5aXRNTk93X192VlZsdXQwOFdvN1pMckdhY1VWbFRBOC1mRGtMWEpEUDl1V0FoZ05IU0FwcGhfS1RLeW9FWmtSdlJFR3p5cUY2ZzdEQk0tUmxJd0dvOGlvaktEUjBsZWtfejhKX1VIYlJBU19WWjlYWWtBQ3F6MC0wdGFuRkF1RmlCVTdCS09ma1ZwSFBOR1RWWHIzb2VCT1d3?oc=5": {
+      "actor": "Michigan Board of State Canvassers (Republican members)",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "A state canvassing board split along party lines, with Republican members voting to certify a ballot measure while Democratic members opposed, indicates partisan division in an election administration body responsible for ballot certification. This demonstrates partisanship in what should be a neutral administrative process, though it represents a contained instance of partisan voting on a specific measure rather than systematic structural capture. The severity is 2: credible, repeated stress signal of partisan behavior within election administration, but not yet a comprehensive loss of institutional neutrality.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hVGhDZVlubUViVVUyNmR6OFpWUDVmY05ROEtuLWJnMVRKdk9xeWdsdVBsZjVJRmpQTmhUV190ZTdkTlkyLVNSbnlLcDJxVFFNT1pKS1hCWGg?oc=5": {
       "actor": "Trump",
       "confidence": 0.95,
@@ -506,6 +516,16 @@
       "rationale": "This is an explainer about a California ballot proposition concerning recall election procedures. An informational piece about a proposed procedural rule does not constitute evidence that election administration has been moved from neutral process to partisan control. The item describes a policy question, not a verifiable action or capture event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMzFJT250clRaMjhLbC1EMjVwTTRxdDhIcE55cksyekdPWWtabERGMmFWNkx6bnRQMHpHckh2bWtIQmZxdFhPQmk5cEpiX3dsUmpobDd1bjZROHdrYk9PYzc0cGJvX0VMSmYzaHhwcUI5VUx6V2o0VTFWTDg4b1ZlSkpkTHBlMXFDQWZfUDJkS3o?oc=5": {
+      "actor": "Vermont election officials",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Vermont's removal of voters due to discovered registration errors is a routine administrative correction of voter rolls based on error discovery. This is standard election administration practice, not evidence of partisan capture. No indication that neutral process has shifted to partisan control.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWGwzZm9lQkJRcXI1VXRjOGthTjgxYnlrSnZ6Y2RPUnR2d2I4MWJtWjR2M3d0THE5SmxjZ1VKOVZnN3pWQ29vVVRWSkhDUDZQWmhqXzZZRERTcjJrLVBESDRDblR0bU5YZEtDTmtGVXlmcGtvb2ctbGQySUVsdkNEYzhUbFdyR2Rxa1MzRjRKMW82QQ?oc=5": {
       "actor": "Trump",
       "confidence": 0.95,
@@ -566,6 +586,16 @@
       "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM3k0aHYybzBPSl9xNmllM2xnSklmSGNtNTByaGlBb1dZTlZWMk5lSU5SNmZndDRRbVBlWmhiVmVpQTR3LTRqWUNzaGZhRkdSWVlGT2hpX1BKeTNYQzM4emRhcThNSzlCbk1BeUlIaXBmOEdSNHBWNjRBX01ucm56ck5SQTVkaUNBbmp0ejNaMGp1eW5lbjh5bmU4Q2E5akZMbjZ1NkxoNm05Qy1yaDhyZ1ZYdjBuZE15V2FFeA?oc=5": {
+      "actor": "State Democracy Research Initiative",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a research piece analyzing hypothetical legal constraints. It is policy analysis and academic commentary, not evidence of an actual event or capture occurring. The item describes potential legal frameworks, not a verifiable action affecting election administration.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxON3RmTHlncFdNa2ZXTGl6WHkyY1E0Z1QzRTJxQnhhM1MzLU41b292VFZ2YlVIZS1fS2ZzcWdSTDJhU2o3NW9NdmM4cV9RY2IzY3pfbDR2ZWZPQU5XNGdPTl9xN0tJbi1sOVlVSEotOWZ1V0d2bzV4WFRCT0hRa1VkZFMzblpDSUk5Z1cydFpRcHJJLUtLTFJMWEJ5Y1BLUnNVaEh2d0ctRDBNakpXVy1rc1NJc3JIQzQtVkNjem40MA?oc=5": {
       "actor": "State of Maryland (implied)",
       "confidence": 0.95,
@@ -585,6 +615,16 @@
       "primary_source_url": "https://www.wral.com",
       "rationale": "A state legislature voting to shorten early voting and expand voter purges represents a real action that moves election administration toward partisan control by restricting voter access and participation mechanisms. This is a credible, documented legislative action. However, without evidence that the measure represents systematic capture of the entire election administration apparatus or defiance of courts, and given that legislative changes to voting rules, while potentially contentious, remain within formal legal processes, this constitutes a real but contained signal rather than a systemic failure. Severity 2 reflects that this is a confirmed action with partisan electoral implications, but not yet a structural breakdown of election administration neutrality.",
       "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/08/26/2026-17238/ballot-mail-for-federal-elections": {
+      "actor": "United States Postal Service",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/26/2026-17238/ballot-mail-for-federal-elections",
+      "rationale": "This is a routine administrative rulemaking by USPS regarding mail-in ballot transmission standards. While related to election logistics, it represents standard postal operations within delegated authority, not partisan capture of election administration. No evidence that election administration has moved to partisan control.",
+      "severity": 0
     }
   },
   "election_certification_interference": {
@@ -1124,6 +1164,16 @@
       "rationale": "This headline references individuals being 'targeted' but provides no substantive summary of what actions were actually taken or whether they relate to independent agency capture. The headline alone is insufficient evidence of a real occurrence. Without details about specific regulatory interference, removal of officials, or weakening of agency independence safeguards, this cannot be assessed as material evidence. A list of names without context about actions undermining regulatory independence does not constitute evidence of the signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a news headline referring to individuals 'targeted by the Trump administration.' Without access to the full article text, the summary alone is insufficient to establish a concrete, verifiable action affecting agency independence or regulatory safeguards. The framing suggests either opinion/analysis or allegation rather than documentation of an accomplished change to legal authority. A list of names does not demonstrate that independent agency decision-making has been weakened or that legal safeguards have been dismantled. This requires further detail to assess as real evidence.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOHAyNDYxR2V4c0pxVFV2cFRSYm16MXdwdWpBUDhMb3J5b1VEbzBYWjUzOWlDTDFkNVE3OWMxTFF6Q3AxQmNGZllqTUlOOXZJMXRUd01BV3FRUXBjTHVRLVpTTk5QbTdsYjRPemFUNnpPc0FacnMteTh3dUcxaHdwNmVHdnkzRTdKU2VxQTV4Qy1IVWlyWnItS2c2Y24wd2RmWU9WN3JFbFFBS3Nka2c?oc=5": {
       "actor": "White House",
       "confidence": 0.8,
@@ -1273,6 +1323,16 @@
       "primary_source_url": "https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-services-grievance-boards-oversight/",
       "rationale": "This is an official DOJ OLC opinion concluding that the Foreign Service Grievance Board's structure violates the Appointments Clause due to insufficient oversight of inferior officers. This represents a real legal finding that an independent agency's decision-making authority lacks adequate political accountability safeguards\u2014a direct match to the signal. However, severity is capped at 2 because this is an OLC opinion (legal analysis) rather than a confirmed structural breakdown or defiance of court order. The opinion identifies a constitutional weakness but does not demonstrate that safeguards have already been dismantled or that the agency has begun operating in violation of the ruling.",
       "severity": 2
+    },
+    "https://www.courtlistener.com/opinion/10957585/dillingers-llc-a-wyoming-limited-liability-company-and-ryan-clement-an/": {
+      "actor": "Wyoming Supreme Court",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/opinion/10957585/dillingers-llc-a-wyoming-limited-liability-company-and-ryan-clement-an/",
+      "rationale": "This is a routine state-court commercial dispute between private LLC parties (Dillinger's LLC v. CR-GTD, LLC). The case involves no federal agency, no regulatory decision-making, no safeguards on independent agency action, and no constitutional risk. It is a private civil matter unrelated to the signal.",
+      "severity": 0
     }
   },
   "inspector_general_retaliation": {
@@ -1515,6 +1575,26 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74678074/2/united-states-v-mazonna-jones/",
       "rationale": "This is a criminal plea agreement in an unrelated matter. The docket entry reflects routine criminal procedure with no connection to Inspector General retaliation or anti-corruption monitoring. A plea agreement in a criminal case does not constitute evidence of watchdog-function interference.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74689175/1/fulmer-v-united-states-small-business-administration/": {
+      "actor": "Unknown complainant v. SBA",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74689175/1/fulmer-v-united-states-small-business-administration/",
+      "rationale": "This is a civil complaint against the Small Business Administration. The docket entry provides no substantive information beyond the caption and filing date. Without details on the complaint's claims, allegations, or nature, it is impossible to determine whether this involves retaliation against a watchdog function. The SBA itself is not an Inspector General or anti-corruption watchdog. The item provides insufficient information to establish that any retaliatory action against watchdog functions occurred.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74692363/1/baker-v-horizon-federal-credit-union/": {
+      "actor": "Private parties (Brittany Baker v. Horizon Federal Credit Union)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74692363/1/baker-v-horizon-federal-credit-union/",
+      "rationale": "This is a private employment/labor dispute filed in district court. The complaint references an OSHA complaint and timeline, suggesting a whistleblower or workplace retaliation case between a private employee and credit union. While the exhibit list mentions OSHA (a watchdog agency), the case itself is a civil complaint by a private party against a private entity, not a government action against an Inspector General or watchdog function. No evidence that governmental actors retaliated against or defunded an IG office, inspector general, or anti-corruption monitoring apparatus.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -1568,6 +1648,16 @@
       "rationale": "This item concerns the Sara Duterte impeachment trial in the Philippines, not a U.S. domestic event. The signal addresses judge intimidation campaigns in the United States. This is geographically outside the U.S. constitutional system and therefore irrelevant to the dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMnF1SHI2R0xHOTR2UE9tanJpZy0xNFB2UFFfRXpwWVBpRTMzNndqZXFhQ015UFNRYXN4N3RTMERkaDBGSkZSLUFiYXFfRGxmd3NJODh0N28zRmlfY192cTBHZllBcDBlRWVEZmZ0YjdUZlk0QWdWM3pURDgxMTBBQXFnY254c2ZZaHkzVXJvVW5WMUhLWjhST3BMckx2Y2VlVmdPWlpCcENsSDdnM0NTamF3a0UycUNHZU01V09mS1FFZTg5U0hmUWo1ejd2bURoRTdXMjBXTDdIZy1W?oc=5": {
+      "actor": "Philippine Senate",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes Day 18 of the Senate impeachment court proceedings against Philippine Vice President Sara Duterte, dated August 25, 2026. This is a Philippine domestic judicial/impeachment proceeding, not a United States event. It falls outside the scope of a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV1FnUDczbERYcTlDWDNJVmpCWV9DZzdsN2NSNGFrQUNrMHZ4VnZQdTAxUnlGRkNMNmVKNnJNLVJycG9pNTk2TTZaX05UQnpMck1vNlBrVWM0dWNRekxmaUNUWGtwSUNLOWFuRi1od3dJay1nSURwNEFFWDhENEpDZzNkRm5PdTBBV0FkOE5DOHgtYl91UWpPbndhcVdZWHJiMkd4U2xFdUpiV2hHLUhmUG53NnhiZ2hnUnpFcjVoTER3eGRpclZJa1h3MVNpWVJvNWt3a3RFcWJOVnFw?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -1576,6 +1666,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item describes a procedural statement by a defense lawyer during the Philippine impeachment trial of Sara Duterte regarding sub judice rules. This is not a U.S. domestic event and does not address judge intimidation in the American constitutional context. The geographic jurisdiction is the Philippines, making it out of scope for this U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYnNGclozQnNrcjItWkxqXzhTNGZYVHpPUm1mUnk0cW5RSHJfamZvVEg1R1VWaWNQVU1iRXhrQVdYV2ktZW5naUtJYlpaQXppN3VYV1I0bGg0aS1ZVzJvdmtZRGhmTFlrbFc0Vy1jVjUtN29YZ1FaUWxoMjMwaTljZ3BlRmkxTXdTak5nVDNIOTdiLUVOamZNR3VCaDF0XzJDeE44dW8wM0VpSVFkYlphS3hCaEpfR29uZEtya1AyMFFVaUZvc0t5dEV6N0RvaGZEQ1NLMW5rMzYxQVlH?oc=5": {
+      "actor": "Philippine Senate",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item discusses proceedings in the Philippine Senate impeachment court, with references to Senator-judges and statements regarding a case. This is a Philippine domestic event, not a United States constitutional event. The item is not relevant to the U.S. early-warning dashboard regardless of content.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMFlMY0hlbDVTRGRDcTNUTF9BQV9qMWxvdWZBdkQxUGJPMzNINUFvQTJZRF9XY29qNVdsc2lmSG45Y01JNWFCR1BLQ1JtZ0tiSnlJQWpPMWRXWlZHUWQ5YlZwejNuaVJlaXhQR2dXNXJpeXRDVGkyX2dNVmQ1OUZ3Y0JzX3p3SENaTTVHMHk4azdGWXllRmJXTlIxVE9NVjJqTVhLWE5WU0w3a2NYZDF6c3BZZE95bFdLZVpDX1l6UXBnUnZLYzczdDlBUXc3SW12SGQtWVEwdldCcGJX?oc=5": {
@@ -1596,6 +1696,16 @@
       "matches_signal": false,
       "primary_source_url": "facebook.com",
       "rationale": "This item describes an impeachment trial of Philippine Vice President Sara Duterte occurring in the Philippines in 2026. It is not a U.S. domestic event and contains no evidence of judge intimidation in the United States.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd3kyS3BkcGZNZ1BTWTBEMkdVR0x0UkhncFZieHZOck1QaElKcFh1UTJGU1lDTWJFZU04YXpBeEw0UlBqOGVPUEFsTXFSaG56VkZjejVGcW01YlI4amJmSXM0dHliWVhzcGVqUmc2aHE1MHhwckxoUU80QnI4MEJ6Mk15dEprd0U2Y3NjLVRvRlRoOW8yV3hKVVcwZTBmR0wzS2MtUGphX2JkX191eHh3WC1UX0JuUHNGV1hzb3ZJSFhwb1BvMWg4aFQyUWpSWTBXSGRITW54VnhnTE5UYks0?oc=5": {
+      "actor": "Philippine Senate",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes proceedings in the Philippines involving the impeachment trial of Vice President Sara Duterte. This is not a United States domestic event. The signal specifies U.S. constitutional-risk events. Non-U.S. proceedings are out of scope regardless of their content.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTHJXMnBSRU1iTXN4bkN2dVluR2xqanQ3X3AzWVBxb3E3VUpRNDV4WVdiclR1bnctUUJjS2l6RnpwTFhXZ0U0enA5YWp4NTRmUlNMa2tGZ1FMVEYwLV9SejhDYlEtQUZoVjZvcjBJUnFuN29rNzhGRk4wYVVVdWFFWE83RnZRTkhxb2NINnBUS1BCVWcxR1VYM1BqWmI1RWF0TnJod0RRTlltZ0VqcW5QaUJ5ZExublNEUEdBTUVzMDRFRTg5X0NDRDcyRUF3UUkwRHNZNmNZbTBLRDlQU1VxNmxYNHRmTkU?oc=5": {
@@ -1687,6 +1797,16 @@
       "primary_source_url": "https://abcnews.go.com",
       "rationale": "This item describes a list of individuals 'targeted' by the Trump administration, with James Comey mentioned as an example. However, the summary provided contains no specific details about what 'targeted' means in this context, whether any action was actually taken, or whether judges or adverse rulings are involved. The signal concerns sustained official pressure to punish judges specifically for adverse rulings. Without evidence that: (1) judges were the targets, (2) the targeting was connected to adverse rulings, (3) there was sustained pressure or an actual punitive action (rather than mere designation or listing), this item does not constitute verified evidence of judge intimidation. The vague headline and minimal summary suggest this may be opinion, list-making, or coverage of allegations rather than confirmed action. Conservative assessment requires specificity and confirmation of actual punitive conduct.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.85,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports a list of individuals targeted by the Trump administration, including James Comey. Without additional context specifying that these individuals are judges being targeted for adverse rulings, and without verification that this constitutes an official intimidation campaign against the judiciary, this does not meet the signal definition. The headline alone is insufficient to establish judge intimidation. This appears to be press coverage of political targeting, not verified evidence of judicial intimidation.",
+      "severity": 0
     }
   },
   "jurisdiction_stripping_targeted": {
@@ -1768,6 +1888,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.law360.com",
       "rationale": "The Fifth Circuit issued a ruling that removes or severely limits court review over a specific category of disputes (IRS penalty suits). This constitutes a targeted jurisdiction-stripping action\u2014a court has determined that certain constitutional disputes or statutory claims fall outside its reviewable jurisdiction. This is a real judicial action that has taken place (the ruling has issued), not a proposal or hypothetical. However, severity is 2 rather than 3 because this appears to be a single appellate ruling on a narrow category of cases, not a systematic campaign or structural defect. The ruling does strip review authority over this specific category, but without additional context suggesting this is part of a broader effort to eliminate constitutional safeguards, it remains a contained, albeit credible, stress signal.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd0tKT0FxQk5RajJCOEIzVENTb1l2RExUUDFTZTlvZ3lDSEE0LTYyRVoyTUUyTDh2ZEJkT2VQRXljT1pOV0dkQmEzMFZLdnFnalVRR3AyUXBFMGpFY0JaU09PTF8zeTgtWU1tUUhfZkwwbGJCUkV5d04yZmwyRV9RbWN3NGNxajV0ZXowM1FrTWtJTzJ1RURQQkNqOWlPa2cyaEVicUFOQ1BZUkVad1I5RGFyak4xblViNGfSAXNBVV95cUxNOEpjYzdTUmcybnc1dUI4RDdOT0xWNWVISm5sQXBmdXVRUmNCM2VpeGEwVTlSRFl5bFdMTkZoXzBSazlxeUh6U2t3a1hpOXJuZGdvc2ZqV3pfcmxqcEZIUFZGNVNoRmNaaW9hYXZhOFZnS1Fj?oc=5": {
+      "actor": "U.S. Court of Appeals for the Fifth Circuit",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.law360.com/articles",
+      "rationale": "A Fifth Circuit decision holding that IRS penalty suits are beyond court review constitutes a real judicial action that strips federal courts of jurisdiction over a specific class of constitutional/statutory disputes. This is a verifiable court ruling (not a proposal or hypothetical) that removes judicial review authority from a particular category of cases. However, this appears to be a single appellate ruling rather than a systemic campaign to strip jurisdiction, and the severity is calibrated as a contained, credible stress signal (severity 2) rather than a structural failure. The decision has immediate legal effect\u2014parties cannot now obtain court review of these penalties without a further appellate or legislative step\u2014making it a real occurrence, not a proposal.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQng5aVdpUzRPdldXeEVaRUpWVFZqdlJ3UHR1emozbDhwVjZZRUdfM3pwb2lLM0RrQmYxUjM3QVp6Qy16VDNJbExYZy1JUDNNNVQtV1dkLUdoUlZMWlNmRHI1RDdhS0ZpWEcwX29GdlZXS0c0VXZnWlBQNERkTmhqeDVIMUxOMXhSdlVtTHdqZEhqOU9rSTc2a1daRVBkalhXWkhtNkFULUhuN1o3RmdfUjNNal85eGNQRE1N?oc=5": {
@@ -1890,6 +2020,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.bbc.com",
       "rationale": "An appeals court halting a project and requiring congressional approval is a judicial check on executive action, not a bypass of legislation. The court is enforcing the requirement that Congress approve the project, which is the opposite of legislative bypass. This represents normal constitutional checks and balances, not an executive circumvention of statute.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMickFVX3lxTFByZW1WQ1puMUV1TVVtUFJ0cjdNejVQbjVrN25ybGpSZk51RTdSa2loTFQ1RnJBNy1sQURkR29FV2RQeGF0UXVMTzZrU2xPY1FnREs0RzFMZUotN1lJbzVJRTN6eElRVElwTTNMSF9zeWVJUQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "NCHStats",
+      "rationale": "This is news analysis reporting on ambiguity and uncertainty following court rulings, not evidence of an accomplished executive bypass. The headline indicates rules 'remain unclear,' which is commentary on the state of law after litigation, not documentation of an executive action shifting authority from legislature to executive branch. This is a secondary source reporting on confusion, not primary evidence of signal occurrence.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMid0FVX3lxTE5jRkcwaDRyOHNMMnJ4SjB0aC1qb052VGd0elNoVHJOb0ZxQWxiU1VUMXlDbFNMaFJJQjJCUXNPRUJNWlV6RW5EaHI1Ql9EWXdxWFFXemNQWWxmXzg3SkRmdmVUbU1WV2Zsa1BFOVhpZ21aSjgwbGdJ?oc=5": {
@@ -2040,6 +2180,16 @@
       "matches_signal": false,
       "primary_source_url": "https://myjoyonline.com",
       "rationale": "This item concerns Ghana's political system and governance, not the United States. It is geographically outside the scope of U.S. constitutional risk assessment.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZUtZOV8xRzhrZXhJU1pnNGpBY1dXVHF3TFEzdnlCY1Z0OF9wUVRpS1dXamVPVTVLOEJGMGNFaWNJUFRTeXM2N002VmdpaWUxaWxaUHc1bXZhc3ZIYWhMUjlyZXBMWGdaUGdZaEduUk5zY0t1RHY2dlFhU3FDejkwSjI2Nld2NklPWUpNM0hEeWVEMjVG?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.85,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "Lawfare",
+      "rationale": "This is an opinion/analysis piece (Lawfare is a legal commentary publication) analyzing potential implications of Trump v. Slaughter for FTC authority. It appears to be prospective analysis or legal reasoning about possible future changes to executive agency scope, not documentation that an actual executive bypass has occurred. Without seeing the article, a title about agency authority 'after' a court case suggests legal analysis rather than evidence of accomplished action.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb0tpYVgxWnRFc2tjdXc3d0Jqd0tZRGRrclI3dGl6UXRRemZGR2JvZXlST1lYOE55ekpJcTg1Z3cyOUF6VGlabjNfWVktc2JfTi1OVDNiQ1hia3h3NE40UmlCZmV1YjZkeV9fY1VWNXM3eVdJb0NacXJrWFdkemUyX09CelMyMjZJQVI2Q3lScWdKQlM3SFM4?oc=5": {
@@ -2201,6 +2351,16 @@
       "primary_source_url": "",
       "rationale": "This is a warning or advocacy statement by civil liberties organizations and state attorneys general regarding FTC AI policy. It describes a concern about policy exposure to liability, not a verified instance of legislative bypass by executive action. The item reports a position or complaint, not an accomplished executive action shifting governance from statute to unilateral executive power.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxQblFuM0lVVnk1ek05cENEdmp2YTdxclBnejRzM2J4RmgwNHp0Wm9KaFhWOTh5SVhncHZ0d19MQ1VLUWpmTk5KWHVoRnpjYlB1bVlJdkRORW8yaThCSm5Fc1o2MENqdnBxTkVESm9mOUdsVnU5LU83YzhJbjBXN0c3SlA3ZGdiZV8wS0EyaVppSWVLWmNnVHYwUkJoTnF5Q2FiWDREeHdVLVN0WVNpMjhmNkNkODZCSloxWl91WTZoUUp5YnFXWjhib0ZkbHc?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "SCOTUSblog",
+      "rationale": "Supreme Court has allowed the Trump administration to proceed with an executive order restricting mail-in voting without statutory authorization or legislative action. This represents a significant shift of electoral governance authority from statute to unilateral executive action, with direct constitutional implications for voting access. The Court's allowance means the order can take effect, constituting a real occurrence rather than a proposal. Severity 3 reflects confirmation of a serious action affecting fundamental constitutional rights (voting), though not yet a complete structural failure.",
+      "severity": 3
     }
   },
   "legislative_oversight_obstruction": {
@@ -2714,6 +2874,16 @@
     }
   },
   "politicized_prosecution_opposition": {
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMHM4WDhQWWgxU0h5ekZtbjdmMzZsSTM0UjFWTGR2WDB0Q0FWaDFEVFIySUN2U1N6Z3lUbzJxUUh6TXdoWWdYSHpuQmhDSG1HZ3Boa2pWQVdYdHNfbHI5OTlHcHRWRXROdzFDR19PVDZsc1NvSU9xcjRaYmt2Q1ZFMFVQWUQwZlltclByeGFsdG1hcl9SaWljWXFmSTRlcDNCYzM2aHlZQUJBdmxoVkx1WnQzcXc3Q2N0bUVLT2E1MGhZdTdiZ0txUTlZd05aUExTX1JmQUtB0gHbAUFVX3lxTE5GT1hRNXJ1bUFRVndrOVhQZ3pvZHlGVU9JanJORmg3am91Q2lTRmt2SFNuX0xIQmIwdkFiVjF3M201YURZVXl0UWJzd2pXRFBLT1ZqSlh4aHJlNXlkeTF3OUt3bkZBYmdBQjZYWHJDTzdIZlVBcERSYWhIbkdFVk1fUEg3M1IyYTFpRnVnMFFfSjJVQ09QcVk0YU1sM2pxUjl6MWVuSXppQjE1VVk4VlI3dzhFOTRrU1Y5YVpOQlhmUkZneWFPOHFoVFdwdi1EQlJWQm1vNFdNSHFFTQ?oc=5": {
+      "actor": "Jeanine Pirro",
+      "confidence": 0.7,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "Report describes a watchdog filing a bar complaint against Jeanine Pirro over her bid to indict 6 Democratic lawmakers. This represents verified evidence of an attempt to use criminal prosecution (indictment) selectively against opposition party members. The filing of the bar complaint is a real action in response to this conduct. This constitutes material evidence of politicized prosecution signal\u2014an effort to criminally target opposition lawmakers. Severity 2 reflects this is a credible, documented action but appears to be an individual actor's initiative rather than a systematic structural campaign (which would warrant severity 3+).",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN1NxWU9CMUV1QXZqSndhaFZueTRDT3lxUEFBOEl5SzlTUGtncHU3N1VzOFd5LU1Ocl85eWZxSEVZb1U2WlgwS3hpUlNfTWRpNWZmb21kU0RLSl9kaTB1UlVPTmZzc2w4bjlNVl9yTGQzTlZHSmpoR2NaS3h0Mi1WbTIwYzZNQnc?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -2743,6 +2913,16 @@
       "primary_source_url": "https://abcnews.go.com",
       "rationale": "This item is a headline/summary only with no substantive content provided. It references a list of individuals 'targeted' but does not describe any actual prosecutorial action, criminal charges, convictions, or enforcement measure that has verifiably occurred. The term 'targeted' is vague and could refer to rhetoric, investigation, or mere naming rather than actual criminal enforcement. Without specific details of prosecutions, charges, or judicial actions taken, this cannot be assessed as evidence of politicized prosecution. The bare headline does not constitute a real occurrence of the signal event.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "News report identifies that individuals including James Comey have been targeted by the Trump administration. This describes a real occurrence of selective enforcement targeting opposition/prior administration officials. However, without access to the full article details and specific charges/actions taken, severity is conservatively set at 2 (a credible stress signal of real action) rather than higher. The targeting of opposition figures by criminal enforcement represents material evidence of politicized prosecution signal, though the specific scope and legal basis require verification.",
+      "severity": 2
     },
     "https://www.courtlistener.com/docket/67935987/1692/united-states-v-brown/": {
       "actor": "U.S. Government (prosecution)",
@@ -2904,6 +3084,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item reports an event in Pakistan (Ahmad Farhad, covered by Journalism Pakistan outlet). The signal concerns U.S. constitutional press restrictions or retaliation. This is a non-U.S. event and therefore not evidence of a U.S. constitutional-stress signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWFV6a0ZBd2VwTDdXLV9VZTNlUm80aVgwRjliWnRsYk5icjBkYnlzTWhrZm9hUC11ekxodFdXTzhlNzEwOFBhRnJrNlJGY1hhblN1NHpzWXlsSS1sd1FlRGdJVHJtdFo5MGhkbXRlQjA3elozLW1ISU9xRlY3MHYzeGtqNkxrRTEyNVVZLWdB?oc=5": {
+      "actor": "Bangladesh tribunal",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports an event in Bangladesh, not the United States. The signal concerns U.S. constitutional risks and state action affecting independent reporting in America. Events in other countries, regardless of their severity, are out of scope for a U.S. constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMmdMQjMtZ19rT2dKRUZGNUIyX3FIMWZYdWc5cVVMcUNJQlBUZjFZdmR3cjVDR1hIclR3UmJWZnRzNHJ6R25TNzg0RTRoczlHVGhlLTlkVUM0NEZmNHZsOXduOURkalFOMnVTSDhsLUNCWVduWGZvcXlwZ1ZQeHFpMGpJcGVZT2FQLXhzeS1B?oc=5": {
@@ -3269,7 +3459,29 @@
       "severity": 0
     }
   },
+  "state_election_preemption": {
+    "https://www.federalregister.gov/documents/2026/08/26/2026-17238/ballot-mail-for-federal-elections": {
+      "actor": "United States Postal Service",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/26/2026-17238/ballot-mail-for-federal-elections",
+      "rationale": "This is a routine Postal Service amendment to mailing standards for ballot transmission. The USPS has longstanding delegated authority over mail handling, including mail-in ballots, under postal regulations. A rule modifying mailing standards\u2014even for ballots\u2014is an exercise of that delegated authority, not a federal preemption of state election administration. States retain authority over ballot eligibility, voter rolls, and election conduct; the USPS operates as a mail carrier under federal postal law. No state election power is being stripped or overridden by a postal rate or handling rule. This is administrative routine, not a constitutional-stress signal.",
+      "severity": 0
+    }
+  },
   "statistical_agency_integrity": {
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcmF4YjFieG1xY3M2aFZiSkNGcXJENVhGTmZVNkJCdXlfdzdPeEVmd1laYmFCLTRUNXJBMGJUTDF4SE9kMVUxd094Tjg1SUpkb3pUcGk0NlFCbjN2ZzZWTUZPOVcxYkUzWExGUGgyTUFzQ3FzODV6RTIwc2sxc3BtamNNUmotdlJDQkJzMFVpUnVLamNTMlctWXdVa1gzZDQ0ZDUzUjBZd1hWOWZxeXQtOUtPSUxrUU1Uc1RaZWsyQdIBvwFBVV95cUxQcmF4YjFieG1xY3M2aFZiSkNGcXJENVhGTmZVNkJCdXlfdzdPeEVmd1laYmFCLTRUNXJBMGJUTDF4SE9kMVUxd094Tjg1SUpkb3pUcGk0NlFCbjN2ZzZWTUZPOVcxYkUzWExGUGgyTUFzQ3FzODV6RTIwc2sxc3BtamNNUmotdlJDQkJzMFVpUnVLamNTMlctWXdVa1gzZDQ0ZDUzUjBZd1hWOWZxeXQtOUtPSUxrUU1Uc1RaZWsyQQ?oc=5": {
+      "actor": "India Census Authority",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This article concerns India's 2027 Census and trust deficits in India's statistical system. The signal monitors U.S. federal statistical agencies (BLS, BEA, Census Bureau). Events in other nations do not constitute evidence of constitutional stress in the United States.",
+      "severity": 0
+    },
     "https://www.federalregister.gov/documents/2026/08/21/2026-17114/rescission-of-executive-order-11246-implementing-regulations": {
       "actor": "President Trump, Department of Labor",
       "confidence": 0.98,
@@ -3328,6 +3540,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/25/2026-17331/agency-information-collection-activities-proposed-collection-comment-request-extension",
       "rationale": "This is a routine Paperwork Reduction Act notice requesting public comment on extending an information collection requirement. It is a procedural proposal, not an action that interferes with statistical agency independence or methodology. The FTC is not a primary statistical agency under the signal (BLS, BEA, Census), and this notice involves compliance paperwork, not data integrity or political interference with statistical leadership or output.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/26/2026-17390/automated-commercial-environment-ace-electronic-export-manifest-for-rail-cargo": {
+      "actor": "U.S. Customs and Border Protection",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/26/2026-17390/automated-commercial-environment-ace-electronic-export-manifest-for-rail-cargo",
+      "rationale": "This is a routine Federal Register rule by CBP revising export manifest regulations for rail cargo. It is a standard regulatory action authorized by the Trade Act of 2002. There is no evidence of political interference with statistical agencies (BLS, BEA, Census Bureau), removal of career leadership, unauthorized methodology changes, or suspended/delayed data releases. This involves trade logistics, not federal statistical integrity.",
       "severity": 0
     }
   }
