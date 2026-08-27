@@ -1,6 +1,6 @@
 {
   "attempted_queries": 23,
-  "average_7d": 8.11,
+  "average_7d": 10.47,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,49 +9,49 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 12.0,
-  "delta_vs_7d": 13.64,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": 12.66,
   "domain_breakdown": [
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.5,
+      "points": 3.5749999999999993,
       "weight": 22
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 3.75,
+      "points": 2.4374999999999996,
       "weight": 15
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 1.2166666666666666,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 3.5,
+      "points": 4.258333333333333,
       "weight": 14
     },
     {
-      "avg_severity": 2.0,
+      "avg_severity": 1.65,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 6.5,
+      "points": 5.3625,
       "weight": 13
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 2.0,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 2.5,
+      "points": 5.0,
       "weight": 10
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 1.0,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 0.0,
+      "points": 2.5,
       "weight": 10
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-26T13:26:05.588883+00:00",
+  "generated_at": "2026-08-27T22:24:48.440520+00:00",
   "methodology_version": 2,
-  "previous_score": 10,
+  "previous_score": 22,
   "primary_sources": {
     "documents_confirmed": 2,
-    "documents_fetched": 18,
+    "documents_fetched": 22,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,149 +86,149 @@
     "signals_queried": 21
   },
   "provisional": false,
-  "score": 22,
-  "score_raw": 21.75,
-  "score_raw_pre_trip_wire": 21.75,
+  "score": 23,
+  "score_raw": 23.13,
+  "score_raw_pre_trip_wire": 23.13,
   "successful_queries": 23,
   "top_signals": [
     {
-      "confirmed_hits": 5,
+      "confirmed_hits": 2,
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "canonical_link": "https://www.lexology.com/pro/content/political-arms-of-the-president-how-scotus-stripping-us-federal-agencies-independence",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdGVkbnlXUFkwZ0xiRjdmbEJPcmtKQVlmQnh5SDg0STZjMkZjZGNnMmg1R19zaFFFTFpOUHZ5MVdzUUNTVGl6SnJkTXFRVURUV0o3WW9HSlY0eHpEU0IwVTkyWDJ6Y3dQcEIzWXBobWtDREQtWmktTzAyeGotV3NTRG5NQ2FOa1lmZXNoS3d1TjNKVWhfS2N5Zm5yeHZWVVZvNV9HYk9TY09XTGN1ekpJWGwxLTdod19hdzZyam9GVQ?oc=5",
+          "published": "2026-08-26T15:12:13+00:00",
+          "publisher": "Lexology",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "\u201cPolitical arms of the president\u201d: how SCOTUS is stripping US federal agencies\u2019 independence - Lexology"
+        },
+        {
+          "canonical_link": "https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-service-grievance-boards-oversight/",
+          "link": "https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-service-grievance-boards-oversight/",
+          "published": "2026-08-20T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "Constitutionality of the Foreign Service Grievance Board's Oversight Authority"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 4,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "primary_confirmed": 1,
+      "primary_documents": 2,
+      "primary_source_url": "https://lexology.com",
+      "rationale": "A Supreme Court ruling described as stripping federal agencies' independence and recharacterizing them as 'political arms of the president' constitutes a significant change to the legal status of independent agency safeguards. This appears to be a major judicial decision that materially weakens the structural independence of regulatory bodies. The framing indicates SCOTUS has altered doctrine concerning agency autonomy, which is a serious constitutional-stress event affecting the signal of independent agency capture. This is a confirmed high-severity judicial action altering agency independence protections.",
+      "severe_hits": 0,
+      "severity": 3.0,
+      "severity_label": "Orange",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://www.scotusblog.com/2026/08/supreme-court-allows-trump-administration-to-move-forward-with-order-imposing-restrictions-on-ma/",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQblFuM0lVVnk1ek05cENEdmp2YTdxclBnejRzM2J4RmgwNHp0Wm9KaFhWOTh5SVhncHZ0d19MQ1VLUWpmTk5KWHVoRnpjYlB1bVlJdkRORW8yaThCSm5Fc1o2MENqdnBxTkVESm9mOUdsVnU5LU83YzhJbjBXN0c3SlA3ZGdiZV8wS0EyaVppSWVLWmNnVHYwUkJoTnF5Q2FiWDREeHdVLVN0WVNpMjhmNkNkODZCSloxWl91WTZoUUp5YnFXWjhib0ZkbHc?oc=5",
-          "published": "2026-08-24T23:11:00+00:00",
-          "publisher": "SCOTUSblog",
+          "canonical_link": "https://colombiaone.com/2026/08/27/de-la-espriella-farc-peace-accord/",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5TdnZHQ0NZUENnbG1FM2dWcnlxM3d2Z0theElBYmRlQ29taU15cEJUak11eFRuSnhhMGNHLUxHbV95WDJSZzhqak1TRi10TW94eHNTeUQyNG1remRNTmpYMFMxV1RUc1NaMGJyOGJ6Q0JjcFZvWnIycw?oc=5",
+          "published": "2026-08-27T20:45:00+00:00",
+          "publisher": "ColombiaOne.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Supreme Court allows Trump administration to move forward with order imposing restrictions on mail-in voting - SCOTUSblog"
+          "title": "How Far Can De la Espriella Really Go in Dismantling Total Peace and the FARC Peace Accord? - ColombiaOne.com"
         },
         {
-          "canonical_link": "https://www.cbsnews.com/news/supreme-court-trump-mail-voting-order-usps-dhs/",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQLVZTaUM5SDFJZUJEQTd6V2hOLWVNMlg5U1BkWFFWUGVQNmN1aWpMblE4TUhMSl9CeVNmSmZZX0VLRzJXYjd4ZDRYQkp4TWNVVkJSVXQwRlhkZFp1WnV0bkRkZGtNeXJieGVieEN0T3dEWW85WWNUQVVQVVFWbHJ1QzVn?oc=5",
-          "published": "2026-08-24T21:06:00+00:00",
-          "publisher": "CBS News",
+          "canonical_link": "https://nchstats.com/mail-in-voting-rules-for-the-2026-midterms/",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFByZW1WQ1puMUV1TVVtUFJ0cjdNejVQbjVrN25ybGpSZk51RTdSa2loTFQ1RnJBNy1sQURkR29FV2RQeGF0UXVMTzZrU2xPY1FnREs0RzFMZUotN1lJbzVJRTN6eElRVElwTTNMSF9zeWVJUQ?oc=5",
+          "published": "2026-08-26T09:14:01+00:00",
+          "publisher": "NCHStats",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Supreme Court allows Trump to implement key parts of order restricting mail voting ahead of midterms - CBS News"
+          "title": "Mail-In Voting Rules for the 2026 Midterms Remain Unclear After Two Major Court Rulings - NCHStats"
         },
         {
-          "canonical_link": "https://abcnews.com/US/usps-makes-new-rules-mail-ballots/story?id\\u003d135879673",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5",
-          "published": "2026-08-24T23:52:21+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://news.meaww.com/trump-scores-mail-ballot-win-putting-americas-voting-rules-on-the-line",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTl9TYlNEMFhoNk9sLWNDdGxReEhhNDdmUkZSMzMxX2FHeUNKRzJPX1AzdkRLX3ZpS3R0REZGZ1NsQ0VWXzVraWh2TkJZWlcyRG1UNEVxSUVrOWlVYlVvTlZPMFp6MUZQYkZlQ1luQnFBVVdPV3RUSmpjclVGOWRsV3hwQ0xOcFRxUDZJalhzUlEwVDFxaHpraw?oc=5",
+          "published": "2026-08-26T19:21:48+00:00",
+          "publisher": "news.meaww.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Supreme Court allows Trump to implement parts of his mail-in voting executive order - ABC News - Breaking News, Latest News and Videos"
+          "title": "Trump scores mail-ballot win, putting America's voting rules on the line - news.meaww.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 7,
+      "hits": 3,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "SCOTUSblog",
-      "rationale": "Supreme Court has allowed the Trump administration to proceed with an executive order restricting mail-in voting without statutory authorization or legislative action. This represents a significant shift of electoral governance authority from statute to unilateral executive action, with direct constitutional implications for voting access. The Court's allowance means the order can take effect, constituting a real occurrence rather than a proposal. Severity 3 reflects confirmation of a serious action affecting fundamental constitutional rights (voting), though not yet a complete structural failure.",
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 3.0,
-      "severity_label": "Orange",
-      "unique_publishers": 5
+      "severity": 2.65,
+      "severity_label": "Yellow",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.facebook.com/detroitfreepress/posts/the-board-of-state-canvassers-republican-members-voted-to-send-the-americans-for/1531914018980745/",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONndUS21ROTdMQVZhbWJwTVF0dTBjMFNtYjhvU01iM1JXbkZhS0pHdHd6V1Z6UWxhM1hIOEhmUmt4UnBSakl5aXRNTk93X192VlZsdXQwOFdvN1pMckdhY1VWbFRBOC1mRGtMWEpEUDl1V0FoZ05IU0FwcGhfS1RLeW9FWmtSdlJFR3p5cUY2ZzdEQk0tUmxJd0dvOGlvaktEUjBsZWtfejhKX1VIYlJBU19WWjlYWWtBQ3F6MC0wdGFuRkF1RmlCVTdCS09ma1ZwSFBOR1RWWHIzb2VCT1d3?oc=5",
-          "published": "2026-08-25T15:07:24+00:00",
-          "publisher": "facebook.com",
+          "canonical_link": "https://cedarnews.net/newstasks/951712/stars-stripes-journalists-sue-pentagon-alleged-retaliatory/",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMm80bVZFSi1TbkQ3UVlHczA3WTJmVHZWZTBabEYzcmJSWjA3SWptUl9FSmpHUmQydldEYmlQZ0x1Sl9MV0JKYmFVeFlCcW5sUGFQYjVFWjFpNWxIV29rcFd0amFfVWJCSlNuSFVwTGUtTk5hMGVlb0I3eVI4UWNHc0dxelFRS2lIMlFUZHRkVkdhWTFPdDRLd2xGUWFWQ1U?oc=5",
+          "published": "2026-08-27T21:01:44+00:00",
+          "publisher": "cedarnews.net",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "The Board of State Canvassers' Republican members voted to send the \"Americans for Citizen Voting\" measure to the Nov. 4 ballot while the Democrats voted against certification. \ud83d\udcf7 Photo by Ken Wiedemann, Getty Images - facebook.com"
+          "title": "Stars and Stripes Journalists Sue Pentagon Over Alleged Retaliatory Firings - cedarnews.net"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 4,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "hits": 3,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 1,
-      "primary_source_url": null,
-      "rationale": "A state canvassing board split along party lines, with Republican members voting to certify a ballot measure while Democratic members opposed, indicates partisan division in an election administration body responsible for ballot certification. This demonstrates partisanship in what should be a neutral administrative process, though it represents a contained instance of partisan voting on a specific measure rather than systematic structural capture. The severity is 2: credible, repeated stress signal of partisan behavior within election administration, but not yet a comprehensive loss of institutional neutrality.",
+      "primary_documents": 0,
+      "primary_source_url": "https://cedarnews.net/stars-and-stripes-journalists-sue-pentagon-over-alleged-retaliatory-firings/",
+      "rationale": "Stars and Stripes journalists filed a lawsuit alleging retaliatory firings by the Pentagon, which is a credible, confirmed action alleging state retaliation against journalists. This is a real, documented stress signal\u2014journalists have taken legal action claiming employment retaliation for their reporting work. While the allegations require adjudication and this is not yet a court-confirmed finding of wrongdoing, the lawsuit itself represents a verifiable state action (alleged retaliatory employment decisions) that raises legal risk and costs for independent reporting. This is a contained, serious signal (severity 2) rather than a structural constitutional failure.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
       "unique_publishers": 1
     },
     {
-      "confirmed_hits": 2,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id\\u003d124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk?oc=5",
-          "published": "2026-08-26T00:03:27+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://www.desmoinesregister.com/story/news/politics/elections/2026/08/27/libertarian-party-lawsuit-iowa-governor-congress-candidates-nominees/91481453007/",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNTd6T0NGWjh6TVNJNUlLaGJoeTJTN0VFWjFneDdPV0RSaUkzMTFVOUpTd0xidmx5ZHVQRFhkemN3RUZla2lfbk5DaHVEbDB0N3lUMGRBNVZJeUxJak95cmQ1US1OeDI3b0Rfd09vUTVJdGJvQndLdWxwY1BMOXZzdWZhZ0hla1R2UWxaa051OFNMUE1nMW1talhKdTl4UC1DYWw1WGZ5b0VLRE5DdmJzekg1NjgzZmZoWDliaTJCWUYxbldJd1doOS1vS3JzclR6ekN3alZZSldCaDl0T2k4Y3BKaUQ3YXRycGpRYw?oc=5",
+          "published": "2026-08-27T22:18:00+00:00",
+          "publisher": "The Des Moines Register",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
-        },
-        {
-          "canonical_link": "https://ktla.com/news/politics/ap-politics/ap-watchdog-files-bar-complaint-against-jeanine-pirro-over-bid-to-indict-6-democratic-lawmakers/",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMHM4WDhQWWgxU0h5ekZtbjdmMzZsSTM0UjFWTGR2WDB0Q0FWaDFEVFIySUN2U1N6Z3lUbzJxUUh6TXdoWWdYSHpuQmhDSG1HZ3Boa2pWQVdYdHNfbHI5OTlHcHRWRXROdzFDR19PVDZsc1NvSU9xcjRaYmt2Q1ZFMFVQWUQwZlltclByeGFsdG1hcl9SaWljWXFmSTRlcDNCYzM2aHlZQUJBdmxoVkx1WnQzcXc3Q2N0bUVLT2E1MGhZdTdiZ0txUTlZd05aUExTX1JmQUtB0gHbAUFVX3lxTE5GT1hRNXJ1bUFRVndrOVhQZ3pvZHlGVU9JanJORmg3am91Q2lTRmt2SFNuX0xIQmIwdkFiVjF3M201YURZVXl0UWJzd2pXRFBLT1ZqSlh4aHJlNXlkeTF3OUt3bkZBYmdBQjZYWHJDTzdIZlVBcERSYWhIbkdFVk1fUEg3M1IyYTFpRnVnMFFfSjJVQ09QcVk0YU1sM2pxUjl6MWVuSXppQjE1VVk4VlI3dzhFOTRrU1Y5YVpOQlhmUkZneWFPOHFoVFdwdi1EQlJWQm1vNFdNSHFFTQ?oc=5",
-          "published": "2026-08-25T16:41:34+00:00",
-          "publisher": "KTLA",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Watchdog files bar complaint against Jeanine Pirro over bid to indict 6 Democratic lawmakers - KTLA"
+          "title": "Judge says Iowa Libertarians can't replace governor, Congress nominees - The Des Moines Register"
         }
       ],
       "evidence_mode": "ai",
       "hits": 2,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": "News report identifies that individuals including James Comey have been targeted by the Trump administration. This describes a real occurrence of selective enforcement targeting opposition/prior administration officials. However, without access to the full article details and specific charges/actions taken, severity is conservatively set at 2 (a credible stress signal of real action) rather than higher. The targeting of opposition figures by criminal enforcement represents material evidence of politicized prosecution signal, though the specific scope and legal basis require verification.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "canonical_link": "https://www.law360.com/real-estate-authority/other/articles/2516633/5th-circ-says-irs-penalty-suit-beyond-court-review",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd0tKT0FxQk5RajJCOEIzVENTb1l2RExUUDFTZTlvZ3lDSEE0LTYyRVoyTUUyTDh2ZEJkT2VQRXljT1pOV0dkQmEzMFZLdnFnalVRR3AyUXBFMGpFY0JaU09PTF8zeTgtWU1tUUhfZkwwbGJCUkV5d04yZmwyRV9RbWN3NGNxajV0ZXowM1FrTWtJTzJ1RURQQkNqOWlPa2cyaEVicUFOQ1BZUkVad1I5RGFyak4xblViNGfSAXNBVV95cUxNOEpjYzdTUmcybnc1dUI4RDdOT0xWNWVISm5sQXBmdXVRUmNCM2VpeGEwVTlSRFl5bFdMTkZoXzBSazlxeUh6U2t3a1hpOXJuZGdvc2ZqV3pfcmxqcEZIUFZGNVNoRmNaaW9hYXZhOFZnS1Fj?oc=5",
-          "published": "2026-08-24T22:29:00+00:00",
-          "publisher": "Law360",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "5th Circ. Says IRS Penalty Suit Beyond Court Review - Law360"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://www.law360.com/articles",
-      "rationale": "A Fifth Circuit decision holding that IRS penalty suits are beyond court review constitutes a real judicial action that strips federal courts of jurisdiction over a specific class of constitutional/statutory disputes. This is a verifiable court ruling (not a proposal or hypothetical) that removes judicial review authority from a particular category of cases. However, this appears to be a single appellate ruling rather than a systemic campaign to strip jurisdiction, and the severity is calibrated as a contained, credible stress signal (severity 2) rather than a structural failure. The decision has immediate legal effect\u2014parties cannot now obtain court review of these penalties without a further appellate or legislative step\u2014making it a real occurrence, not a proposal.",
+      "primary_documents": 1,
+      "primary_source_url": "https://www.desmoinesregister.com",
+      "rationale": "A court ruling preventing the Iowa Libertarian Party from replacing candidates on the ballot for governor and Congress nominees is a real, judicially-ordered exclusion of opposition candidates from the ballot. This represents a credible, confirmed action (a court order) that removes opposition candidates from meaningful ballot participation. The action is narrow in scope (one party, one state, specific offices) and is subject to appeal, limiting severity to 2 rather than 3+. However, it is verifiable evidence that systematic removal has occurred through judicial order.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
@@ -250,7 +250,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 0,
       "id": "civil_service_purge_schedule_f",
       "name": "Civil Service Purge / Schedule F",
       "override_note": null,
@@ -264,51 +264,98 @@
       "unique_publishers": 0
     },
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-service-grievance-boards-oversight/",
-          "link": "https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-service-grievance-boards-oversight/",
-          "published": "2026-08-20T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
+          "canonical_link": "https://www.federalregister.gov/documents/2026/08/26/2026-17238/ballot-mail-for-federal-elections",
+          "link": "https://www.federalregister.gov/documents/2026/08/26/2026-17238/ballot-mail-for-federal-elections",
+          "published": "2026-08-26T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
           "source_tier": "primary",
-          "title": "Constitutionality of the Foreign Service Grievance Board's Oversight Authority"
+          "title": "Ballot Mail for Federal Elections"
+        },
+        {
+          "canonical_link": "https://newhampshirebulletin.com/2026/08/27/amid-multiple-court-battles-a-guide-to-the-status-of-mail-in-voting/",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOUNtam5jVnVBNVZwT01JNHRGbjJ0QUJudG1rYVlKSnVMNmFlRXhsR0ZuNWJibXhpcW04aHVDM0VXaWFqSk9xVTVETFpPM1FsYy1FdmlyVzVpWWxuN2RNak1RdDdkX3JWcUNPVFZuaGMyMGQtaE1FR01Uc0lLV3R0VDBHOTVOVzFqRVNCSE9DV2RiWXhyWXJEWHZmeW5FeWo0Vm5VbDJwMVVNTmJCMGlobTR3?oc=5",
+          "published": "2026-08-27T09:05:22+00:00",
+          "publisher": "New Hampshire Bulletin",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Amid multiple court battles, a guide to the status of mail-in voting - New Hampshire Bulletin"
+        },
+        {
+          "canonical_link": "https://statedemocracy.law.wisc.edu/our-work/how-state-laws-may-constrain-law-enforcement-seizures-of-election-materials",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM3k0aHYybzBPSl9xNmllM2xnSklmSGNtNTByaGlBb1dZTlZWMk5lSU5SNmZndDRRbVBlWmhiVmVpQTR3LTRqWUNzaGZhRkdSWVlGT2hpX1BKeTNYQzM4emRhcThNSzlCbk1BeUlIaXBmOEdSNHBWNjRBX01ucm56ck5SQTVkaUNBbmp0ejNaMGp1eW5lbjh5bmU4Q2E5akZMbjZ1NkxoNm05Qy1yaDhyZ1ZYdjBuZE15V2FFeA?oc=5",
+          "published": "2026-08-25T22:27:25+00:00",
+          "publisher": "State Democracy Research Initiative",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "How State Laws May Constrain Law Enforcement Seizures of Election Materials - State Democracy Research Initiative"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "hits": 4,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
-      "primary_confirmed": 1,
-      "primary_documents": 2,
-      "primary_source_url": "https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-services-grievance-boards-oversight/",
-      "rationale": "This is an official DOJ OLC opinion concluding that the Foreign Service Grievance Board's structure violates the Appointments Clause due to insufficient oversight of inferior officers. This represents a real legal finding that an independent agency's decision-making authority lacks adequate political accountability safeguards\u2014a direct match to the signal. However, severity is capped at 2 because this is an OLC opinion (legal analysis) rather than a confirmed structural breakdown or defiance of court order. The opinion identifies a constitutional weakness but does not demonstrate that safeguards have already been dismantled or that the agency has begun operating in violation of the ruling.",
+      "primary_confirmed": 0,
+      "primary_documents": 1,
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id\\u003d124968309",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-08-26T04:12:02+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "politicized_prosecution_opposition",
+      "name": "Politicized Prosecution of Opposition",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "jurisdiction_stripping_targeted",
+      "name": "Targeted Jurisdiction Stripping",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 0
     }
   ],

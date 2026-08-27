@@ -254,6 +254,16 @@
       "rationale": "This item concerns allegations of court-order noncompliance in Nigeria, not the United States. The signal specifically targets U.S. constitutional risk. Non-U.S. events are not evidence of U.S. constitutional stress.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbEtxYjNMQndxc1F6cThqYWFLd0NKcFZqb2Z5bGQtay03aDNCSktwT1RfT3lkdlI2c2pSRVktdGMxMVhoMUNaODVLTG1WTUJoMjVVMmlGSXZNNjZ5Um04bzQwaFAwSW4yMl9QSDJnZ2xodFlxck5RVWVTLU9FRnlLSTJJVTZVQUxxRUtvQzVqVVQ3ZnBUcERrR29uWncweTNIQWF1bEwtekN4QQ?oc=5": {
+      "actor": "Brown Arawo; Asuk Royal Family",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns an allegation involving the Asuk Royal Family and Brown Arawo regarding a court order. The context and jurisdiction appear to be non-U.S. (Asuk is not a recognized U.S. jurisdiction). The signal concerns U.S. constitutional stress only. Not a U.S. domestic event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMWJQWW40eDA2R2V2UmloUExRX2UwdUdoZHBaZVg0MTdGSG9wYk8zb3AwMTNRLUtTMVpfNGhUbkZ2eVpIckV2b1pCZVRQUVNYeF9KRE1TSlpwbDFYWm9VY280Z1FvTk1VNWhsV19Yc0Ftb0RhV1FEM0ZmN3VtQUxoQlRFdGFPRndqdFg4VFdxNjl5dDFXc0RpYVB2Q0lZeDY1RXFpM3dtdEZkNFE?oc=5": {
       "actor": "Air Peace (Nigerian airline) / Nigerian unions",
       "confidence": 0.98,
@@ -282,6 +292,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns a court order in Kenya (Kitisuru is a neighborhood in Nairobi). The signal specifies constitutional stress within the United States. A Kenyan court's enforcement action against a developer is not evidence of U.S. court-order noncompliance and falls outside the geographic scope of a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQXFlaHcwTnVfR1BZVnppVXlmVmhsUXB4bmstazk3VEM4emVuRDg3R1hSa2VWdV9QQU9HSkRlNDJZUHliM201NGF4SXJhX1NVMnNaMzVvU2Y3QWJmVGlrZWFMQlprcmI3a0ZtbmpyTXlSSG5YU1Fyam9SQ056RV9fYXJ4ejRyV2h4UGIxRElqeGotUzdvZWRNUVd0elozRzZTUlVCdG1qRGw0UXZfaFUxdG1Sd0htZnZKQjVNU004MkNSTk84SWZqdzlyYzU?oc=5": {
+      "actor": "Unknown judge (alleged)",
+      "confidence": 0.96,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a headline from a partisan news source making claims about a judge allegedly trying to defy a Supreme Court decision. The item contains no verifiable facts, no court docket reference, no specific ruling cited, and no evidence that any actual defiance occurred or was attempted. It reads as opinion/allegation rather than reporting of a confirmed event. The headline itself is speculative (tries to defy). No credible evidence of actual court order noncompliance.",
       "severity": 0
     },
     "https://www.courtlistener.com/docket/67935987/505/united-states-v-bock/": {
@@ -393,6 +413,26 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74677527/1/harris-as-wrongful-death-beneficiary-of-the-estates-of-nasir-harper-and/",
       "rationale": "This is a routine notice of removal filed by a federal agency (ATF) moving a case from state court to federal court. Case removal is a standard procedural action expressly authorized by federal statute (28 U.S.C. \u00a7 1442). The filing of a notice of removal does not constitute court-order noncompliance; it is a lawful exercise of removal jurisdiction. No court order was violated or defied.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74695350/3/1/susan-onda-adversary-proceeding/": {
+      "actor": "U.S. Bankruptcy Court, D. New Jersey",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74695350/3/1/susan-onda-adversary-proceeding/",
+      "rationale": "This is a routine bankruptcy court docket entry showing issuance of summons and scheduling of pre-trial proceedings. It reflects normal court administration with parties given time to answer and a hearing scheduled. There is no evidence of any party refusing or failing to comply with a court order.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74702861/3/gondola-williams-v-warden-dilley-immigration-processing-center/": {
+      "actor": "District Court, W.D. Texas",
+      "confidence": 0.97,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74702861/3/gondola-williams-v-warden-dilley-immigration-processing-center/",
+      "rationale": "This is a court order denying a motion for temporary restraining order and preliminary injunction. The court's denial of relief does not constitute evidence of executive noncompliance with a court order. The court is functioning normally by issuing a reasoned text order. No defiance of judicial authority is present.",
+      "severity": 0
     }
   },
   "election_administration_capture": {
@@ -454,6 +494,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a routine pre-election informational article about what to expect on a primary election day. It contains no information about partisan capture, politicization, or election administration being moved to partisan control. It is standard election logistics reporting.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiX1FrUHgtUksxT3VwUmgtN2REUkJoajNQSUtGU0FwRFlNWS1XNkw0UlZQZzlYNGhPWFNCRnhCWjdHT2xLUXhYb2h5bi13ZV9OYTlHRFVxam5sNjFWRDh1M3NuLWUzdDVaUTRrQmtxMmhNM3M?oc=5": {
+      "actor": "Trump administration, state election officials",
+      "confidence": 0.86,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://msnow.com",
+      "rationale": "Article reports state officials' warning about a data-gathering initiative and its potential risks. Officials expressing concern or disagreement with a federal program does not constitute election administration capture. The piece describes a proposal or ongoing program and official resistance to it, not evidence that election administration has moved into partisan control. No takeover of the election process is demonstrated.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDamM1bW5IMkhYRnhweWF0M2E1dnVCZGx3OWdZUnN4dllvczlZODJkT0dlVkdOMVVzeThkQmNnYU1HQ0hXTm4zTnNYMjIxZ2h1X3pNeWtPMDFnOVVZSkJEUHlwalVXZFZ1UHpxaTU0MmhzUV8tYk1HeXJRSmpiLUU?oc=5": {
@@ -586,6 +636,16 @@
       "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOUNtam5jVnVBNVZwT01JNHRGbjJ0QUJudG1rYVlKSnVMNmFlRXhsR0ZuNWJibXhpcW04aHVDM0VXaWFqSk9xVTVETFpPM1FsYy1FdmlyVzVpWWxuN2RNak1RdDdkX3JWcUNPVFZuaGMyMGQtaE1FR01Uc0lLV3R0VDBHOTVOVzFqRVNCSE9DV2RiWXhyWXJEWHZmeW5FeWo0Vm5VbDJwMVVNTmJCMGlobTR3?oc=5": {
+      "actor": "New Hampshire courts and election administration",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.nhbulletin.com",
+      "rationale": "Article describes court battles over mail-in voting policy status. Mail-in voting litigation is a routine exercise of judicial review and does not constitute partisan capture of election administration. Courts adjudicating voting rules represent constitutional checks, not evidence of capture. No partisan takeover of the election process is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM3k0aHYybzBPSl9xNmllM2xnSklmSGNtNTByaGlBb1dZTlZWMk5lSU5SNmZndDRRbVBlWmhiVmVpQTR3LTRqWUNzaGZhRkdSWVlGT2hpX1BKeTNYQzM4emRhcThNSzlCbk1BeUlIaXBmOEdSNHBWNjRBX01ucm56ck5SQTVkaUNBbmp0ejNaMGp1eW5lbjh5bmU4Q2E5akZMbjZ1NkxoNm05Qy1yaDhyZ1ZYdjBuZE15V2FFeA?oc=5": {
       "actor": "State Democracy Research Initiative",
       "confidence": 0.95,
@@ -594,6 +654,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a research piece analyzing hypothetical legal constraints. It is policy analysis and academic commentary, not evidence of an actual event or capture occurring. The item describes potential legal frameworks, not a verifiable action affecting election administration.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRmNDaTNySHZzUlFDV0ZFTEU0cHA4RmdtZU4xQVQ0V2tZVnNJcWRCdHc0d1ZIZEZTVGExM1I2bC1aSDJpWFpFZ1g0R0NYUjNnZ04tak9DUVV3c1o4cjhrdUFoZVlIYllKQm9zNXNiUWlxU0VnR2NmVXg2RHRDU0ZNTzlmWk5RY0Zsd2NOWnVOVVdscTZaU0hQRE80TmJCSDROaTJTVFFwZi01Q0RmZlI5WTA1eDM5c184YkYxNnhn?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.88,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.inquirer.com",
+      "rationale": "Headline uses opinion language ('gave Trump another weapon to suppress the vote'). The article title is analysis/commentary attributing motive and effect, not a factual report of an actual election administration capture event. Without the article text, the summary alone describes a court decision characterized as harmful, not evidence of partisan control over election administration itself. A Supreme Court ruling is not by itself evidence of capture unless it demonstrably transfers election authority to a partisan actor.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxON3RmTHlncFdNa2ZXTGl6WHkyY1E0Z1QzRTJxQnhhM1MzLU41b292VFZ2YlVIZS1fS2ZzcWdSTDJhU2o3NW9NdmM4cV9RY2IzY3pfbDR2ZWZPQU5XNGdPTl9xN0tJbi1sOVlVSEotOWZ1V0d2bzV4WFRCT0hRa1VkZFMzblpDSUk5Z1cydFpRcHJJLUtLTFJMWEJ5Y1BLUnNVaEh2d0ctRDBNakpXVy1rc1NJc3JIQzQtVkNjem40MA?oc=5": {
@@ -710,6 +780,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item is about a hypothetical or speculative future scenario (dated 2026-08-06, a future date from the present). It describes a Supreme Court ruling and subsequent customs refunds, which would be normal judicial and executive action within constitutional bounds, not an emergency power bypass. The source is a Kenyan domain (streamlinefeed.co.ke), suggesting it may be non-U.S. or unreliable. There is no evidence this event has actually occurred. Even if true, a court striking down tariffs and requiring refunds represents the judiciary checking executive power, not emergency expansion. This does not match the signal of emergency authorities used to bypass ordinary legislative process.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxNS25EMXNXZUExMUlqeE9lbEdvRXYtOEFFQ1BXT3IyMWRWbVVlY2ZIRDUzZzVKZjRtWEZoWnp3MkRRNldFUVh3blFRQ3d5bHduaGlfS29yNnVmN3JSRnFvMmtLdGI4RVFOcnZ2ZVBydWtONC1ORl9mT3RabnZDZDN6RkwyU3ZpYmFsUm82M2NwOGVybDFRQUgyb0lzajQ1bWhGSl9OQjNOX0l2YjVtN1VvZVVNd1Nydw?oc=5": {
+      "actor": "Eurasia Review",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an opinion/editorial piece (labeled OpEd) discussing hypothetical constitutional risks in speculative or historical terms. It does not report that any actual emergency power has been invoked, any legislative process has been bypassed, or any specific constitutional-stress event has occurred. Opinion pieces warning about future risks or analyzing vulnerabilities do not constitute evidence that an emergency-powers expansion has actually taken place.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxON0NOU09EV2FmMEpub3ZQVDJiQmh4T05xZ2NLUTd6Qzc1M09lWDJZSi14SV9nRTBWckFuYk13azdoenVUYldtRXo5bnNhWUl6SjJtYVhMMFZIal9xaGZjTU9XYmhGZVJxVndrQVBJY2VUQ3o1M1MwMi14Rlp4eW1VQU5PeEEzRFFTXzU2TTByQk1HbWFUT0FqVHItM3FPN01aVS1XQ2k2QTAzVmNUZXRNOXJfMWYxQTFUMFRKak92NVRWcTh5U3c?oc=5": {
@@ -1004,6 +1084,16 @@
       "rationale": "Yahoo reports Trump 'Restarts Bid' to fire Cook after SCOTUS ruling. A restart following judicial rebuke indicates sustained executive pressure despite legal obstacle. This is credible evidence of recurrent attempts to overcome judicial constraints on removal. Severity 2: repeated and credible stress signal.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2tSZF9fc1BDcThrUGZoSGJnMXhqN1FpaXFoZnVHeDVjcmQ5R285UE1rNzRCeUhudlhvZHowdnFOWG1HZjVkb2dOMl9NemV4MmdYdlhKc1RLdEVva0twSFlYNDY1eXNfQkNlZy1qTzZuSWV1NlVYdTFESDg3a0RpR2Z1Ny1CN2R3MUx5YW90Y0FDUQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Headline reference to a Fed Governor's lawyer and Trump's home claims is too vague to assess. Without access to the full article content, the substance is unclear. The headline alone does not demonstrate that independent agency safeguards have been weakened or that capture has occurred. This appears to be peripheral litigation or commentary rather than evidence of structural erosion of regulatory independence.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWGwzZm9lQkJRcXI1VXRjOGthTjgxYnlrSnZ6Y2RPUnR2d2I4MWJtWjR2M3d0THE5SmxjZ1VKOVZnN3pWQ29vVVRWSkhDUDZQWmhqXzZZRERTcjJrLVBESDRDblR0bU5YZEtDTmtGVXlmcGtvb2ctbGQySUVsdkNEYzhUbFdyR2Rxa1MzRjRKMW82QQ?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.67,
@@ -1264,6 +1354,16 @@
       "rationale": "Title suggests discussion of preserving non-Article III tribunals' capacity. Without access to full content, the summary indicates this is likely academic or policy discussion rather than evidence of an actual weakening of independent agency safeguards. No verifiable event is described.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRk90OWxIWFVoVkt6UmN2aXNWUUl6bEpoU1hwdko5RkJKQ3VnNEVxSkZ1MGEtTnJKYjlxV2FuVlpENld5S3BUcENzcXlYMWIteEZpdXFxVDlRTFg0cmh3S2FsaTg2MjRaLU05UFBhYml4bzhCTEtWcmZwMmlwZHltMXVidzFZZG5zbHlJMzRFVkltb0FLZjNQekUzazVnbEhNajlPQXlzMGJRSkM1SFQtNThNS3RsZWdw?oc=5": {
+      "actor": "Lawyer for Fed Governor Cook",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "A lawyer's statement that there are no grounds for dismissal is argument or defense in an ongoing dispute, not evidence that independent agency safeguards have been dismantled. This is litigation over an individual's employment or position, not a structural change to regulatory independence or agency capture. The statement is ephemeral advocacy, not an accomplished action that weakens independent decision-making.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMivAFBVV95cUxORGRPQWVFZXBvQmVHMHB0Z2I0XzF4RUdqZDl5Z1F1cndiQXRfQ1RrU0R1RDU1SUFyX2RCc05YX3k3YnZaa1dFc3ZVY1I2YkdzQTJZNm9hY0xJY1Y2N3YxcTQxSi02UzcwVk9UTUlKNlpCN2JxaXQzaUlrZkU4c1Etam8xUzYwb0g0dk1CTnhYWFhUNlZsS1BJN3RBNjdtdTFTRVF0R3p2TFdldWJETW9WYnFPRGxoYXRxV05sSg?oc=5": {
       "actor": "unknown",
       "confidence": 0.85,
@@ -1273,6 +1373,16 @@
       "primary_source_url": "",
       "rationale": "Item 0 is a headline question or opinion piece about the fate of independent adjudication and civil service. The title uses interrogative phrasing ('The Fate of...?'), which signals this is likely speculative analysis, commentary, or a think-piece rather than reporting a concrete event that occurred. Without access to the full article text, the headline alone provides insufficient evidence of an actual occurrence of regulatory capture or weakening of legal safeguards. This appears to be discussion or concern about potential risks rather than documentation of a verifiable action.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdGVkbnlXUFkwZ0xiRjdmbEJPcmtKQVlmQnh5SDg0STZjMkZjZGNnMmg1R19zaFFFTFpOUHZ5MVdzUUNTVGl6SnJkTXFRVURUV0o3WW9HSlY0eHpEU0IwVTkyWDJ6Y3dQcEIzWXBobWtDREQtWmktTzAyeGotV3NTRG5NQ2FOa1lmZXNoS3d1TjNKVWhfS2N5Zm5yeHZWVVZvNV9HYk9TY09XTGN1ekpJWGwxLTdod19hdzZyam9GVQ?oc=5": {
+      "actor": "U.S. Supreme Court",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://lexology.com",
+      "rationale": "A Supreme Court ruling described as stripping federal agencies' independence and recharacterizing them as 'political arms of the president' constitutes a significant change to the legal status of independent agency safeguards. This appears to be a major judicial decision that materially weakens the structural independence of regulatory bodies. The framing indicates SCOTUS has altered doctrine concerning agency autonomy, which is a serious constitutional-stress event affecting the signal of independent agency capture. This is a confirmed high-severity judicial action altering agency independence protections.",
+      "severity": 3
     },
     "https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/": {
       "actor": "FDIC",
@@ -1595,6 +1705,46 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74692363/1/baker-v-horizon-federal-credit-union/",
       "rationale": "This is a private employment/labor dispute filed in district court. The complaint references an OSHA complaint and timeline, suggesting a whistleblower or workplace retaliation case between a private employee and credit union. While the exhibit list mentions OSHA (a watchdog agency), the case itself is a civil complaint by a private party against a private entity, not a government action against an Inspector General or watchdog function. No evidence that governmental actors retaliated against or defunded an IG office, inspector general, or anti-corruption monitoring apparatus.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74698526/5/4/bourgault-v-hochul/": {
+      "actor": "Plaintiffs and Governor Hochul",
+      "confidence": 0.97,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74698526/5/4/bourgault-v-hochul/",
+      "rationale": "This is an emergency motion for preliminary injunction filed by multiple individuals against Governor Hochul. The docket summary does not indicate the underlying claims or whether they involve watchdog retaliation. Without substantive detail, this cannot be scored as evidence of IG retaliation.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74701505/4/2/state-of-california-v-united-states-postal-service/": {
+      "actor": "State plaintiffs and USPS",
+      "confidence": 0.96,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74701505/4/2/state-of-california-v-united-states-postal-service/",
+      "rationale": "This is an emergency motion for preliminary injunction and related relief filed by multiple states against USPS. Without the substantive details of the underlying complaint or motion, there is no evidence this concerns retaliation against inspector general offices or anti-corruption watchdog functions.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74708199/1/5/state-of-new-york-v-us-department-of-health-and-human-services/": {
+      "actor": "State plaintiffs and HHS",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74708199/1/5/state-of-new-york-v-us-department-of-health-and-human-services/",
+      "rationale": "This is a multi-state complaint filed against HHS, a routine administrative or policy dispute. The docket summary provides insufficient detail to determine the complaint's substance, and there is no indication it involves retaliation against inspectors general, watchdog entities, or anti-corruption monitoring functions.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74709698/2/1/united-states-v-lara/": {
+      "actor": "USA (prosecutors)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74709698/2/1/united-states-v-lara/",
+      "rationale": "This is a routine criminal motion for excludable delay in a deferred prosecution agreement. It is a standard prosecutorial procedural filing, not evidence of retaliation against watchdog functions or anti-corruption monitoring. No IG or inspector general authority is implicated.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -1658,6 +1808,16 @@
       "rationale": "This item describes Day 18 of the Senate impeachment court proceedings against Philippine Vice President Sara Duterte, dated August 25, 2026. This is a Philippine domestic judicial/impeachment proceeding, not a United States event. It falls outside the scope of a U.S. constitutional-risk dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRjNEUnlPclZqNXFBZGphOTJscklneU9zdHBDaVNFb3I5bjZ0c1hkUUNOT0pjdnNONld2b3g3OWlZRmx3NS1uZ2o3UzBsMnJnNXRuVE9NVmlwcER6Smp4WTV1Q092NU41c0pCZ3RicHVpb0hOUHQwT3NIRjd4VFJmdWQ3SGxDTDZ6WkVNRC16RWQwSlJWR3FBNUhZaDhGSldVWkNIUkJaQVNXSG1MRmxuOVNpdjhEbXo3NGx2R2tQQ1BsTXJMX2NVUlFZUkRnN2NVaDVDbDRjRkV5Y0NF?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns impeachment proceedings against the Vice President of the Philippines. It is a non-U.S. event and therefore outside the scope of this dashboard, which monitors U.S. constitutional risks. The presence of dates in 2026 does not change the jurisdictional exclusion.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNV1FnUDczbERYcTlDWDNJVmpCWV9DZzdsN2NSNGFrQUNrMHZ4VnZQdTAxUnlGRkNMNmVKNnJNLVJycG9pNTk2TTZaX05UQnpMck1vNlBrVWM0dWNRekxmaUNUWGtwSUNLOWFuRi1od3dJay1nSURwNEFFWDhENEpDZzNkRm5PdTBBV0FkOE5DOHgtYl91UWpPbndhcVdZWHJiMkd4U2xFdUpiV2hHLUhmUG53NnhiZ2hnUnpFcjVoTER3eGRpclZJa1h3MVNpWVJvNWt3a3RFcWJOVnFw?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -1698,6 +1858,16 @@
       "rationale": "This item describes an impeachment trial of Philippine Vice President Sara Duterte occurring in the Philippines in 2026. It is not a U.S. domestic event and contains no evidence of judge intimidation in the United States.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPc21oTzY4WkFXZmlaZEdPb21FTlBhblBHYU84ekc4ME9OaV8xOW1McFRxLTJYWlFVYjl3OEt6V0ZqOE9VQU9Jc3lIbndSQnBpU1dXNzkwZWkzVzBfcG9ZLTRLS2IwdVlnNUdCU1hsUXRUdWJ6bTBpb3ZaUEVaRXd3YmREMnhsWlpFc0xEQ0F1eTFSYk1yUzYtOE13eDFFRV8wa2dGN1ZocmFDVUZwczdTSFV5UWRCa2hiaXNiVHdyanc5UlZwUlBWeUZwOWpFMHk2RzQ1NDZhd2tiUU1Iamc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on Philippine Senate impeachment proceedings against Vice President Sara Duterte, including procedural rules about lawyer conduct. It is a non-U.S. event and therefore out of scope. Even if it involved enforcement of rules on public speech about judicial proceedings, it would still be a foreign constitutional matter, not evidence of U.S. judge intimidation.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd3kyS3BkcGZNZ1BTWTBEMkdVR0x0UkhncFZieHZOck1QaElKcFh1UTJGU1lDTWJFZU04YXpBeEw0UlBqOGVPUEFsTXFSaG56VkZjejVGcW01YlI4amJmSXM0dHliWVhzcGVqUmc2aHE1MHhwckxoUU80QnI4MEJ6Mk15dEprd0U2Y3NjLVRvRlRoOW8yV3hKVVcwZTBmR0wzS2MtUGphX2JkX191eHh3WC1UX0JuUHNGV1hzb3ZJSFhwb1BvMWg4aFQyUWpSWTBXSGRITW54VnhnTE5UYks0?oc=5": {
       "actor": "Philippine Senate",
       "confidence": 0.95,
@@ -1706,6 +1876,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item describes proceedings in the Philippines involving the impeachment trial of Vice President Sara Duterte. This is not a United States domestic event. The signal specifies U.S. constitutional-risk events. Non-U.S. proceedings are out of scope regardless of their content.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZUhTY2xsYW84QUJlTFg1RnZWbkQ5bTgxTEVCa09XWEc5Tzhqc3VsTk1JdHU5YVNyOVZSdW1nQWVTNjZmY0RNUFJXZzhMS1ViNi15UXNlT0RYQmRGTTN0X0hzZzlkTTBPdi1TZHVNQ1ExS1dJXzNQMGRhYmJuQTk5SlVEZ2VjSklFZnZPcU1kMk1lcHdPanlMb0g5Rm5sT2VCU0cwNEs1MGNWQzhLLWl3Tk9STEpvS19uNEN3cUhGaVBMN3E3UXpOMlN4RDhpR1VSYTByMk5GZFhJYmVuak5hbDZB?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a civil-society movement by an attorney to defend courts against intimidation. It is not evidence of an actual judge-intimidation campaign occurring; rather, it describes a defensive response to concerns. Moreover, the source is a business publication summarizing a movement, not documentation of official pressure on judges. This is background or opinion context, not evidence of a verifiable intimidation event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTHJXMnBSRU1iTXN4bkN2dVluR2xqanQ3X3AzWVBxb3E3VUpRNDV4WVdiclR1bnctUUJjS2l6RnpwTFhXZ0U0enA5YWp4NTRmUlNMa2tGZ1FMVEYwLV9SejhDYlEtQUZoVjZvcjBJUnFuN29rNzhGRk4wYVVVdWFFWE83RnZRTkhxb2NINnBUS1BCVWcxR1VYM1BqWmI1RWF0TnJod0RRTlltZ0VqcW5QaUJ5ZExublNEUEdBTUVzMDRFRTg5X0NDRDcyRUF3UUkwRHNZNmNZbTBLRDlQU1VxNmxYNHRmTkU?oc=5": {
@@ -2072,6 +2252,16 @@
       "rationale": "This is opinion/analysis content from Jacobin magazine with a title suggesting a normative argument about what socialists should do regarding constitutional politics. The summary provides no description of any actual governance action, legislative bypass, or executive overreach. It is a prescriptive article about constitutional theory, not evidence of an actual constitutional-stress event or executive action that shifted governance from statute to unilateral executive action. No real occurrence is described.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE5TdnZHQ0NZUENnbG1FM2dWcnlxM3d2Z0theElBYmRlQ29taU15cEJUak11eFRuSnhhMGNHLUxHbV95WDJSZzhqak1TRi10TW94eHNTeUQyNG1remRNTmpYMFMxV1RUc1NaMGJyOGJ6Q0JjcFZvWnIycw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Colombia and its internal peace process, not the United States. Regardless of content, it is out of scope for a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BRG5nODhZM05YWjNXdnM1ZHlHMkR2N1FqNkM0aW9HeEYzNnhaZVJaWEF0ZkhSUHNtZUlvb1R3bFZnb0I5OFhBMFVfRnhvRmdRM2pFejhhSE5VNUxSeTE4NXhTQUdMdVhGT3VaZmRvN2NYb2pIOGFvdEdtM3A?oc=5": {
       "actor": "Trump",
       "confidence": 0.9,
@@ -2200,6 +2390,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a summary/explainer article about lawsuits and litigation procedures, not evidence of a specific executive bypass of legislative authority. The headline indicates it is educational content about 'how litigation works' rather than documentation of an actual governance action shifting from statute to unilateral executive action. No material signal of legislative bypass is present.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTl9TYlNEMFhoNk9sLWNDdGxReEhhNDdmUkZSMzMxX2FHeUNKRzJPX1AzdkRLX3ZpS3R0REZGZ1NsQ0VWXzVraWh2TkJZWlcyRG1UNEVxSUVrOWlVYlVvTlZPMFp6MUZQYkZlQ1luQnFBVVdPV3RUSmpjclVGOWRsV3hwQ0xOcFRxUDZJalhzUlEwVDFxaHpraw?oc=5": {
+      "actor": "",
+      "confidence": 0.75,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The headline describes a legal victory ('Trump scores mail-ballot win') and references implications for voting rules ('putting America's voting rules on the line'), but the summary alone does not confirm that an executive action has unilaterally shifted governance from statute to executive power. A court decision or election-related ruling is not inherently evidence of legislative bypass. Without the article text, this appears to be coverage of a legal outcome, not confirmation of a verified executive bypass of statutory authority. Scoring as no material signal.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZTJlM0RhYnhuM09zUjVFWGFYUUM5bUNfWHZNek5wcWphb1dGMVlXenMyVTVES0hOdUtXcWRWQnREWlVjUURMZ21VVFY5a195Y1NpUGRETXc2dTlJNjRESmJubENkS2l1RWo0QU5IaGRhdm01bm9tSWRzb1RCUU9MV1dUWUJvSXhJSjZKQUhBSE5KLVJSMVFwNNIBngFBVV95cUxNb25qdkt0bkU2ZlFaUXdIRUNqNXFXVk9GVWVsN1dfbHJUS3h3T2JNYkJZd0VsdGlQRzVlT21WY3VBZ0hnMFR0VUw0ZjFKZTlWLWxlRGktVklJNXJWUERBZHM2MjF1VWNyM1pYclVKeVpHN1NDcXFEQ19tOG5zV1A1azNhT1BOU1lnaWFSRlZjekE4WTZFNGE5dFR1eDVOUQ?oc=5": {
@@ -2478,6 +2678,16 @@
     }
   },
   "military_domestic_political_use": {
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcWtkMG8tSDZmY1BqeFRYNTg2RkNabFMtRV8zTTlBdmVFb0ttMXlieVNHd2MySW9oNVFEaWt6Ml9CTW1VbXpNWmhFc0RlSWNDQ3hlVmJ2Vk44NjZHNHg3Q2dlXzBoYk5hLWtIYWw5UXUtaTlBdWVGWGlXTjFYMlQwcA?oc=5": {
+      "actor": "Veteran Lawmakers",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "btlonline.org",
+      "rationale": "This is opinion/commentary\u2014lawmakers expressing concern about a characterization ('Rolling Coup') rather than evidence that military has been used or threatened in domestic partisan political conflict. The headline reflects alarm and interpretation, not a verifiable occurrence of military deployment, orders, or credible threats directed at a political dispute. Without specific factual detail about actual military action or explicit threats, this is analytical/rhetorical content, not evidence of the signal event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYVZFUjVEQUpEWTk5eFg5ck9XQjhWejZOMHNkOHJFZ091bDRKc1dJSXRXc29QdDd4SFRBQ0ZCd1dkV0dEdzR3RmxwaTk2bVFFcGthWGhFVUxjWFhZWElyY1paRmUyNUI3ZGFhME5WTC1vTlY4STBQUWt0YjZPTEtFRmJqSVNRdVV5NHRJ?oc=5": {
       "actor": "Cato Institute",
       "confidence": 0.95,
@@ -2620,6 +2830,16 @@
       "rationale": "This item concerns the U.S. Virgin Islands, a non-state territory, not the United States proper. While it mentions a ballot disqualification, the item is dated 2026-08-22 (a future date), indicating this is either speculative, a hypothetical scenario, or a test case. Additionally, the summary alone does not confirm that an actual disqualification has occurred\u2014it only reports that officials asked a court to dismiss a suit defending a disqualification, which is a legal motion, not a confirmed action. The signal concerns systematic removal of opposition candidates from meaningful participation in U.S. elections. Without confirmation of actual disqualification in a U.S. domestic context and with a future date, this does not constitute verified evidence of the signal event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNTd6T0NGWjh6TVNJNUlLaGJoeTJTN0VFWjFneDdPV0RSaUkzMTFVOUpTd0xidmx5ZHVQRFhkemN3RUZla2lfbk5DaHVEbDB0N3lUMGRBNVZJeUxJak95cmQ1US1OeDI3b0Rfd09vUTVJdGJvQndLdWxwY1BMOXZzdWZhZ0hla1R2UWxaa051OFNMUE1nMW1talhKdTl4UC1DYWw1WGZ5b0VLRE5DdmJzekg1NjgzZmZoWDliaTJCWUYxbldJd1doOS1vS3JzclR6ekN3alZZSldCaDl0T2k4Y3BKaUQ3YXRycGpRYw?oc=5": {
+      "actor": "Iowa District Court Judge",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.desmoinesregister.com",
+      "rationale": "A court ruling preventing the Iowa Libertarian Party from replacing candidates on the ballot for governor and Congress nominees is a real, judicially-ordered exclusion of opposition candidates from the ballot. This represents a credible, confirmed action (a court order) that removes opposition candidates from meaningful ballot participation. The action is narrow in scope (one party, one state, specific offices) and is subject to appeal, limiting severity to 2 rather than 3+. However, it is verifiable evidence that systematic removal has occurred through judicial order.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5ZlVmZDBBOXVKUzAtQnM1U3VlUnNNZWhodjlrcFJUdngxZktUdnlRMGxVLVRjcjJXNFVNWk1tVDVfX1JpX3dxWFVSLTM4aWprWXFBeFJn?oc=5": {
       "actor": "Unknown entities approaching Action Alliance party",
       "confidence": 0.35,
@@ -2740,6 +2960,16 @@
       "rationale": "This article concerns Nigerian politics and legal proceedings regarding a Nigerian politician. The reference to a Supreme Court decision pertains to Nigeria's judicial system, not the U.S. This is not a U.S. domestic constitutional event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRGZBSFh0c1FOdExsZmdqM1ZVeTVVWFZudjVkTURIR2M5eFBWeWM0UDJ3d2RwZWdkcmpLZXVpdkJfdTF3ZGU1X2FBT1lVNjc3c05NTHBBS3YybE1sN1J4LTZtVE9NS0FZNzdTclE4QVpLOXRFelBHOWJpMVFTQ3JCY1FJN2VqUk92OXIyTE5XUWEwbmF1bG5LV3BJdUpzWTYzMmlXZm9CWTlxUWNFbnc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.theculturecustodian.com",
+      "rationale": "This article concerns Tanzania, not the United States. The signal is restricted to U.S. constitutional-risk assessment. Non-U.S. events are not probative of domestic opposition ballot exclusion.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiugFBVV95cUxNR2JzX2M5aU1PZHgxRzFQN19PZlZmRDlrZGNSYUtkaGN6eE9mVDJuZ3p3OEFrZ2NyYUprT0RQdVJYcVRDbmg0cURHM0RqNEFoWDRIMjVkbWROU01CckZNZm8zUjMzSW9xSmhCc3VhR3dETVltRDhOVWJ6Zm9xNU52WlpPT0xkYndkN1p2UVFqUl9jWjBmQmRjUTBjT245ZG1TMmRwLWdHcHp6bkV4dWpBeE4wMzktdHlWSGc?oc=5": {
       "actor": "Russian Supreme Court",
       "confidence": 0.99,
@@ -2768,6 +2998,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Philippine electoral politics and Sara Duterte's 2028 prospects. It is not a U.S. event and therefore falls outside the scope of a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74701505/4/15/state-of-california-v-united-states-postal-service/": {
+      "actor": "Commonwealth of Massachusetts, Commonwealth of Virginia, District of Columbia, and other state entities",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74701505/4/15/state-of-california-v-united-states-postal-service/",
+      "rationale": "This is a filed motion for emergency relief against the USPS, not evidence of ballot exclusion. The document title references postal service operations, not removal of opposition candidates from ballots. Without access to the full affidavit content, the summary does not establish any claim of systematic opposition candidate exclusion. This appears to be litigation over postal operations, which is not probative of the Opposition Ballot Exclusion signal.",
       "severity": 0
     }
   },
@@ -3056,6 +3296,16 @@
       "rationale": "This event concerns Kolkata (India), not the United States. The signal requires U.S. domestic press restrictions or retaliation. Even if journalist attacks or restrictions occurred in India, this falls outside the scope of U.S. constitutional-risk monitoring.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMmN2X1ZFRmVIU2d0VUsza3VsbEctSXprZ0NiODVrQTg3UmxHV2FFaS0yMDNxRk16YmJQTDVpLUlJd1FxejJwbFdZWmxCYW1QUnJxUV85bHEzNU1hUkRpblRnZktEUy1NWmR2ZDJfUm1IQ0lITkk5NTJiN3FEYU5nS2ZxOVBrYWPSAYwBQVVfeXFMTUNsZGhFeGp5YmJFZTRCZzhWbHdrZFhTVjZVVjA3dW1iUmxrY3poX04zQ2xUOFJqS1FHUTJmY0F2bkJDeEU4Nk5aNndHMXh0bXE2UVM4NWR1QzhFRlNtR3g4N1d4eGVwc2JaeGtCaERzVXpGWlFsMzgtSTcySmd5R2lUajVnX0QxZjJQSjY?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Iran's media crackdown, not a U.S. domestic constitutional event. Outside the scope of a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPR0JndF9TVXZFSGlldTZTLTFFcmFHT1UyX2FMVzdFVElKQlZzX0o1UktyTmEtNkk5TW9ieXlEQ3d2Rmx2OF9IQmx4Uk1Pdy1tbWJ5WC13cDM5TmJrUW5LeF9nOWpBbDdDSlZSOUxKZW5BTG1XdDZOZ2dMbWJvSjIxYlBCUU9GdXVZNDZJWHZjbkhhcl9zX3VvdzFHcEZQS1hPdHpTUDBtZUNxOXNGMVRlOFcxSTJzbUNhUlVlcjMxR21IWlp3dG5Kc29lWUNPN253dlN3MU1QNG5pWmU1cHhQZzhaNG9iR2NBUUgtZFZXMmp5MWsxVjNyaFVSaXA4V0hxYnlMeU5oX0zSAY4CQVVfeXFMT1lpU1NaNFhUbzNRNHNuMEtxaXdPVGtxR0JlZTlEYXZLVFhYOHdMeF9kRE5ZRDY5YVJqNlp5YVFzVEhGQ09jd2JjaW9jMEFyZi16OWhXemhvY3JQUmdlM1pSZ2pQNGlFU1BWbU4zWktZRUZ3QjBKbnRVZFZVRk5OSUNfdWp1Sy12bUtwSmJhVkwta001LUZONWE1bFJKeWczUnVnejUyYk9ORWcydUhyeW1OUTdiU3RLdlZEY243bDZFUVo1Z1pqWkJqLVNzMVFKQWNqVHpWRXBJTVg4czJPYm41dWdSNmZtSHJ2RnNyVlRfT3dGcjMzQmlNU3RCNzQ4eVZsNms5eC1Xb2c0SXdB?oc=5": {
       "actor": "",
       "confidence": 0.95,
@@ -3286,6 +3536,16 @@
       "rationale": "This item concerns Afghanistan (Taliban) and a journalist in Kabul, not the United States. Out of scope.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMm80bVZFSi1TbkQ3UVlHczA3WTJmVHZWZTBabEYzcmJSWjA3SWptUl9FSmpHUmQydldEYmlQZ0x1Sl9MV0JKYmFVeFlCcW5sUGFQYjVFWjFpNWxIV29rcFd0amFfVWJCSlNuSFVwTGUtTk5hMGVlb0I3eVI4UWNHc0dxelFRS2lIMlFUZHRkVkdhWTFPdDRLd2xGUWFWQ1U?oc=5": {
+      "actor": "U.S. Department of Defense / Pentagon",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://cedarnews.net/stars-and-stripes-journalists-sue-pentagon-over-alleged-retaliatory-firings/",
+      "rationale": "Stars and Stripes journalists filed a lawsuit alleging retaliatory firings by the Pentagon, which is a credible, confirmed action alleging state retaliation against journalists. This is a real, documented stress signal\u2014journalists have taken legal action claiming employment retaliation for their reporting work. While the allegations require adjudication and this is not yet a court-confirmed finding of wrongdoing, the lawsuit itself represents a verifiable state action (alleged retaliatory employment decisions) that raises legal risk and costs for independent reporting. This is a contained, serious signal (severity 2) rather than a structural constitutional failure.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZEZ0YnRTckJVdHNPazZ6Z1RZcVFhN1V5bFh2UEpZNVFTWGJYNGxqR2FXUEV4NlRYN1l5V3lFdC1ScEZLU25iSkJ1YU5hMDJfS2dIZDJRZVBEeE9qU2t3SjlqcWJhVkZDc3JrOU1jV1lvX0xRc0kzZ1dVdldXX21LTVBtX0FvSElkeGRndDBhVU05RVg3azB2aWJ3Zkp2QVk?oc=5": {
       "actor": "N/A",
       "confidence": 0.97,
@@ -3364,6 +3624,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item concerns Pakistan media restrictions, not the United States. Outside scope of US constitutional-risk assessment.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxObFljczJHVFYtWUdzUXM2YllKX1hYdkZFZ3BkLWVlRlB6Q2dNaW96QW92TUwwUFRjT25JZEd5RlVVR0tKMlpTMXVMaFBlOEswMDYzVkotUFlGR3hYU0lDbmJvNzFpWlFVOHVqbk5xUUVONTB4akcyTlBuLWRBbldPaVg2QnpOUEJYYVRoWkpFeUJDSE03TzFRa1A2MVJjTGNvMkMwT3ZDbkptdGpFMENIYUpDSUdCUnc0enV6bA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Afghanistan's civic freedom restrictions under Taliban rule, not a U.S. domestic constitutional event. Outside the scope of a U.S. constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNjhzTlVPZzRpMVg3bklNdkdqZmEydUtDTVJpdzRyU3E2UmFYNkhIOVVlY3JKZU1oQzZ2RUljLTVDM2g2ZnJ4QWhoSlloR1pzS1NpdExCa3pteUFzc3VlQW12YnlBeE1WcFlEdEpEMTRBR1VESFhiVDhMSkYzNGVFM0VlT0lYeC1xQWlrSGdYc0FiYU5Kb0JaUnhRWUl3R19MUEZWNkF4NGlnUDlESVl0dXlZd0FGQnpqbHYwakxPQQ?oc=5": {
@@ -3472,6 +3742,16 @@
     }
   },
   "statistical_agency_integrity": {
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaDlZOWt5cE84ZjlhX2VwQ0h6TUdqelhwMm51X3N0b2dBZXdkR1R5ODJ2SlRxWGtxaEJVX1ZWbWZwNXlBTGsxSU1Pem1hRVFpVnlObU92ZVRIbzlKOUpUS3ZFVnhsZkNpbHQ3NllaUU1MU3Jkc2MtWEFVQ0RPcWRCU3o4MHVQR29qYk1uZllBOV9aM1IwdE84TEdBQzRXVnFobE5sWnhnUnVGOGJTaWhHTVFtUklHRGcz0gG_AUFVX3lxTFByYXhiMWJ4bXFjczZoVmJKQ0ZxckQ1WEZOZlU2QkJ1eV93N094RWZ3WVpiYUItNFQ1ckEwYlRMMXhIT2QxVTF3T3hOODVJSmRvelRwaTQ2UUJuM3ZnNlZNRk85VzFiRTNYTEZQaDJNQXNDcXM4NXpFMjBzazFzcG1qY01Sai12UkNCQnMwVWlSdUtqY1MyVy1Zd1VrWDNkNDRkNTNSMFl3WFY5ZnF5dC05S09JTGtRTVRzVFplazJB?oc=5": {
+      "actor": "India's statistical authorities",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.frontline.in/",
+      "rationale": "This article concerns India's 2027 Census and trust deficits in India's statistical system. The signal targets U.S. statistical agencies (BLS, BEA, Census Bureau). This is coverage of a non-U.S. event and is therefore out of scope for a U.S. constitutional-risk dashboard. No U.S. domestic event has occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcmF4YjFieG1xY3M2aFZiSkNGcXJENVhGTmZVNkJCdXlfdzdPeEVmd1laYmFCLTRUNXJBMGJUTDF4SE9kMVUxd094Tjg1SUpkb3pUcGk0NlFCbjN2ZzZWTUZPOVcxYkUzWExGUGgyTUFzQ3FzODV6RTIwc2sxc3BtamNNUmotdlJDQkJzMFVpUnVLamNTMlctWXdVa1gzZDQ0ZDUzUjBZd1hWOWZxeXQtOUtPSUxrUU1Uc1RaZWsyQdIBvwFBVV95cUxQcmF4YjFieG1xY3M2aFZiSkNGcXJENVhGTmZVNkJCdXlfdzdPeEVmd1laYmFCLTRUNXJBMGJUTDF4SE9kMVUxd094Tjg1SUpkb3pUcGk0NlFCbjN2ZzZWTUZPOVcxYkUzWExGUGgyTUFzQ3FzODV6RTIwc2sxc3BtamNNUmotdlJDQkJzMFVpUnVLamNTMlctWXdVa1gzZDQ0ZDUzUjBZd1hWOWZxeXQtOUtPSUxrUU1Uc1RaZWsyQQ?oc=5": {
       "actor": "India Census Authority",
       "confidence": 0.99,
@@ -3550,6 +3830,36 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/26/2026-17390/automated-commercial-environment-ace-electronic-export-manifest-for-rail-cargo",
       "rationale": "This is a routine Federal Register rule by CBP revising export manifest regulations for rail cargo. It is a standard regulatory action authorized by the Trade Act of 2002. There is no evidence of political interference with statistical agencies (BLS, BEA, Census Bureau), removal of career leadership, unauthorized methodology changes, or suspended/delayed data releases. This involves trade logistics, not federal statistical integrity.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/27/2026-17515/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for": {
+      "actor": "National Highway Traffic Safety Administration",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/27/2026-17515/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+      "rationale": "This is a routine Federal Register notice of submission of an information collection request (human-machine interface designs) to OMB for review under the Paperwork Reduction Act. NHTSA is not a statistical agency. This is normal administrative procedure for survey or data-collection instruments, not evidence of political interference with BLS, BEA, or Census Bureau statistical integrity or leadership. No constitutional-stress event has occurred.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/27/2026-17518/agency-information-collection-activities-comment-request": {
+      "actor": "Social Security Administration",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/27/2026-17518/agency-information-collection-activities-comment-request",
+      "rationale": "This is a routine Federal Register notice announcing a comment period for an information collection request. It is a standard procedural notice, not evidence of political interference with statistical agencies' integrity, methodology changes outside normal process, or data suppression. SSA is not within the scope of the signal (BLS, BEA, Census Bureau). No event has occurred.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/27/2026-17519/agency-information-collection-activities-proposed-request": {
+      "actor": "Social Security Administration",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/27/2026-17519/agency-information-collection-activities-proposed-request",
+      "rationale": "This is a routine Federal Register notice of a proposed information collection request under the Paperwork Reduction Act. It is a procedural proposal seeking public comment, not evidence of political interference with statistical agency methodology, leadership removal, or data withholding. SSA is not a statistical agency under the signal definition (BLS, BEA, Census Bureau). No constitutional-stress event has occurred.",
       "severity": 0
     }
   }
