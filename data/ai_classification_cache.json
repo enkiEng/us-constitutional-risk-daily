@@ -792,6 +792,16 @@
       "rationale": "This is an opinion/editorial piece (labeled OpEd) discussing hypothetical constitutional risks in speculative or historical terms. It does not report that any actual emergency power has been invoked, any legislative process has been bypassed, or any specific constitutional-stress event has occurred. Opinion pieces warning about future risks or analyzing vulnerabilities do not constitute evidence that an emergency-powers expansion has actually taken place.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxONk0yeTdPOVBucm43d0Zobk00Vk9QbVdRNnprSGU2OHc3dm5QbTZ5WlhRZGs5aXRtU1hBSjZVSEVwRjNsSjJ3bGNKYlVPeTFrTDBrSkhWZFdyeGZwbzJScHVma0NPZnVPcHRma0VVTkJ4MVFaY0x4R2pjMElERjl5TjBVRV90Tkh3Z0VCTHR4MGR6YzJTRW94d2tyRzJRVWVXSUNYeFVlUWxBSzI1UHpfWUpZYUkzUQ?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://fff.org",
+      "rationale": "This is an opinion/editorial headline from the Future of Freedom Foundation (fff.org). The summary provided contains only a title posing a hypothetical question about whether the Constitution will survive, not a report of an actual emergency-powers action. No specific event, official order, or documented use of emergency authorities to bypass legislative process is described. This is analysis and speculation about potential constitutional risks, not evidence that an emergency-powers expansion actually occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxON0NOU09EV2FmMEpub3ZQVDJiQmh4T05xZ2NLUTd6Qzc1M09lWDJZSi14SV9nRTBWckFuYk13azdoenVUYldtRXo5bnNhWUl6SjJtYVhMMFZIal9xaGZjTU9XYmhGZVJxVndrQVBJY2VUQ3o1M1MwMi14Rlp4eW1VQU5PeEEzRFFTXzU2TTByQk1HbWFUT0FqVHItM3FPN01aVS1XQ2k2QTAzVmNUZXRNOXJfMWYxQTFUMFRKak92NVRWcTh5U3c?oc=5": {
       "actor": "Supreme Court of the United States",
       "confidence": 0.98,
@@ -1778,6 +1788,16 @@
       "rationale": "This item reports on DOJ (Philippine Department of Justice) statements regarding prosecution of the Philippine Vice President before a Philippine trial court. It is a non-U.S. event occurring in the Philippines. It does not evidence sustained official pressure to punish judges for adverse rulings in the United States, nor does it relate to the judge intimidation campaign signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaUQ3SU54dVpRamFqd3R3SlByWHpUdUxqbGFja25qSUY3N2hodm9pTHExbkplZ2E5Yzk1YTk0aTdhdzJ5M1RzdUUxa21mMU5Qdk91djF2bnd5MVhwRHcxSlE2Q2xET2RkTm4yTlNjaEk3LXhRdk5qVHVRY1BSRzRGM2JFOFhWa2xpenJ6djdZVVc2cm1ZQURONTJ3bnFPT2otSDdnRVVBWXhjU3Y0REZpZnBhdDI3RXNuTllOUVBzd2dZTGVlck5YZUJjSW9NRXdBajg4a1VTaw?oc=5": {
+      "actor": "Philippine Senate",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Vice President Sara Duterte's impeachment trial in the Philippines\u2014a non-U.S. event. The signal addresses judicial intimidation campaigns in the United States. The item does not describe any U.S. constitutional event and therefore cannot be evidence of U.S. judge intimidation. Marked as non-U.S. domestic and not a real occurrence for the purposes of this U.S.-focused dashboard.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUi1Wa3h6S3VOek5BSXVHY0kwTzlUeElJUk11UE90UzNjVmtfTk9mb1FFSmxXUXFYMC1SaU54Y3g3emZlMzY2bHFnY1FMcEJKOU5ZNmFyS2UxdGVOeGp1Rm0tUlJuRlhjSXJlX2pDM1RkSkVqNGpraU1saG9jbjlSOWtDT21YQmo4dlVZaUdieEE3Z3ZXOVN0T0swbGJ1Y2NwMFdzQmU2MGVJSXpJdkVZUHRnYkhEZUhDUUl2N1hrOER4QWR2RzBPb3lDOERGU20tM1dydVRPRTVHU2s?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -2542,6 +2562,16 @@
       "rationale": "Trump has signed a birthright citizenship order, which attempts to modify citizenship law unilaterally via executive action rather than through statutory amendment. This is a real action (not hypothetical) that shifts a governance matter from legislative to executive domain. However, the action is under legal challenge and its enforceability remains uncertain, preventing severity 3+ assignment. Severity 2 reflects a real but contested executive action in a material policy domain.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiygFBVV95cUxPT1M3a2diZTN2TEQ2dVNuTWJJbUs2aFMzNkhrc3RmclBUT3Q2bnlrSnlWSTNTX3lHMlNOU3BhZkFYMDE3VUNiUW03QmRDSF9EWkxNX0tfZ01qekhoYXFFSFdNLTNhR0ZxUnVNS0hKYnlieFJiVVlLMkc2c3JpQXdZMGY0SmlXbnJpSE0xUXpkME5TSUhpODRxV1VFdWRLR20zcWFiQ3dlbjFIUFNwZW0xTnpmMlRzS015V0ZpZG5Fdml2MUNKY1lyVjFB?oc=5": {
+      "actor": "Executive (Trump administration)",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "Item reports that a Trump executive order on birthright citizenship has been challenged in court and a judge has questioned its constitutionality, but the order remains in effect pending judicial resolution. This represents a real action: the executive has unilaterally altered birthright citizenship policy via order rather than legislation. However, the order is under active judicial review and has not been definitively upheld or struck down. The action is real and represents a shift of governance from statute to executive action, but the outcome remains contested. Severity is 2 because this is a confirmed action that has occurred and is in effect, though constitutionality is being litigated and the ultimate legal status is unsettled.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxPR1RvSFd0R1d1Q2lkX1paNktJWHREUDBYQUh6aXcyMVI4LVJpX19jMWQ0MlVTdzdKbk1JbzFjaVp5Q252WEpOa1M2NmhTbWFLanc2VDV0VE5tSVhFVktFRENoTXk2a0stNWRiNTFnbmpGUm5LTmZjNHdXLVFrVHFVaTg4d0RhR1NGSFFKVmlzVEFRRjl3bDZKNUZkSkQ3M1BCN3FqRldLM2tLNU1NLW5oS0tROFVneFRvaEQwNThkT3JmRnhiVkNtR2RZaw?oc=5": {
       "actor": "EFF, CDT, State AGs",
       "confidence": 0.95,
@@ -2654,6 +2684,26 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a straightforward informational article about postal rules governing mail-in ballots. It is explanatory coverage of administrative procedure, not an account of any constitutional-stress event. Contains no martial law rhetoric, military governance language, or military involvement in political disputes. Purely procedural and regulatory in nature.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSHpYalY2U2lSMjA3Snk1S3V2cmtSSkFyQ2lxcFZFUnZvY1JaaE9QZlZuX3lYcGlaclBiOWRwQXg1XzdNQ0NqcW51dVZwTzlWUnZmYUItUWlZRjFUTmNTeC1lbzJjYmE4U0M0dVp0SWcyWmVKLW95UHY0d2tFQU5fT0ZObERkQnVVbno0Vm1lNkhzcDFaX0Ntbw?oc=5": {
+      "actor": "South Korean Special Counsel",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns South Korean domestic law enforcement (prosecution of a former South Korean prime minister). It is not a U.S. event and therefore provides no evidence of U.S. constitutional stress, martial law, or military governance language. The signal is specific to U.S. constitutional risk.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZlQ5LV9fWUtiVUJpWG9SQkJMYk1WNmlHZUVnMzBsSzlkcG1hSDNZQURBZDVGSloxN0NBMXRrXzRmUHU2OHRvbzFFLUpxN1I2dzBSUm1QSURCWE9FRGdmY3pJNVFqdzRac29Gc0dITDdBcEJEX1UyUnpsY0ZXaVZlY3kzcDZ3MmVMVzg4QVZoaFRaSE04N2hVX0g4elNqa3MxYzBz?oc=5": {
+      "actor": "Federal Judge",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "A judge blocking a Postal Service rule through normal judicial review is routine constitutional process, not evidence of military governance or martial law language. This reflects the judiciary performing its standard oversight function. No military involvement, no governance shift, and no language invoking military or emergency powers is present.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUzVPS2hqb0VXeDhPZnVJNEtUSUtaRDdFQll2NnRnMUhWYkJIQlhtSXQtRHg3b2NMcHg5RDJvSGRmWTF1YlV5ZWZYSllBb0h3QXJmSEQ2M0ZYOE9TSG4yM29ncVdyWTFNNGJVNDA0dWtTS21UN2had3g5N1oxVms4aEtPaE1id2EzcmVqS3Jwb2NYSmEyU0JKUjQ4ZTVLLTVjdW5naWVGS01jZ1NPQkxYUFdWekswUVNlRnZV0gG7AUFVX3lxTFBTNU9LaGpvRVd4OE9mdUk0S1RJS1pEN0VCWXY2dGcxSFZiQkhCWG1JdC1EeDdvY0xweDlEMm9IZGZZMXViVXllZlhKWUFvSHdBcmZIRDYzRlg4T1NIbjIzb2dxV3JZMU00YlU0MDR1a1NLbVQ3aFp3eDk3WjFWazhoS09oTWJ3YTNyZWpLcnBvY1hKYTJTQkpSNDhlNUstNWN1bmdpZUZLTWNnU09CTFhQV1Z6SzBRU2VGdlU?oc=5": {
@@ -2808,6 +2858,16 @@
       "matches_signal": false,
       "primary_source_url": "https://thehindu.com",
       "rationale": "This item concerns Indian domestic politics (Congress party suspension of an ex-MLA in Datia, which is a district in Madhya Pradesh, India). It is not a U.S. occurrence and therefore provides no evidence regarding opposition ballot exclusion in the United States. Additionally, an internal party disciplinary suspension, even if it occurred, does not constitute systematic removal of candidates from meaningful electoral participation at the ballot level.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNc2luMmxfZEdOdnY4ZURuTS1aeS1DRXZ4TnJncWd6eGtqY0pkLUt5cVNJQTRVci1NWlFuT19mR1BYcG9BS1M3Y01ILTRpdkh4ajh5WG8wSGVDV2o2MkprLVJRV2lkQWl1bzBPcVRPWVB6cFB5ZUNyY0lSbGFsbEg3ZzJCcWNSMEVFRDlMYXBlLTI3d3gyQnFvMjlVVkZmZ2JEaEFSdC1zYmg2Y3N1NmZ5U1pLTkRpMHJIVnNKLXRfNDVwLWx6Rmw1Y09uY3ZvS3JGZjNybGhBNllpNHk1TzhN?oc=5": {
+      "actor": "Commission on Elections (Comelec)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.suns-facebook.com",
+      "rationale": "This item describes a Philippine election (Bangsamoro Parliamentary Elections on September 14) and a warning by the Philippine Commission on Elections about campaign rule compliance. It is not a U.S. domestic occurrence and therefore not evidence of opposition ballot exclusion in the United States. The signal applies only to U.S. constitutional-risk monitoring. Additionally, a pre-election warning about campaign compliance does not constitute systematic removal of opposition candidates.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNc21lUFFWSnpkbGJJVUJWR2RsZHlvWnJYSmJRTWllNTNySmRCdlNRM0RKekthaXFGUjRTQk5ra1BDMk9XR21QOTVRdjhWNFY3UW9taE5qMnZnVzFOU1R6MC1FbVNIdlBMdkxRV3NIY1lSWjhNa2RPeDFrTjlfaldrdFNFYmFJWUJiOW4xQVM4NjgtRElucldPUVpwcjRjNDJuR0dkUzVTT2NWM2ZIeUFGUzVnNjZDMWNPQ0FGeHBZeHNrQ2ZiMkpXNjJlNWxBX0hzMXpjY1QyZUVYdG1QM0wwS3Rkdw?oc=5": {
@@ -3236,6 +3296,16 @@
       "rationale": "Item concerns Jos\u00e9 Rub\u00e9n Zamora in Latin America (Guatemala), not the United States. Outside scope of US constitutional-risk assessment.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOU1dVeTdhblMyTTNVNExDbFRFQjlneGRCTG5DNlhSOU5xSUlSRGNDcTB1NUM5UFFwRHNXVnNqZ2xxekZTQ21EVFlnUVpkMEZKdGFNblJ1WHdELXhoQnpMb3JqLTNkQXBTbzVoeGcybUtVeUhweWV0REhUNUJKZFQwTV9nWGxrel9LcmdhM01LZTJpRFgzTFlLMGxWb2xjcTdyZTMxM1Q1ZXNDQnBwVS1hUkRNYjVkMXhHcmlSbGdpNjVHN1VkLXp4UGR5WF9oZ21NbjRYUDlGVHZENHpvQmUw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a Press Freedom Month celebration in Panabo City, Philippines. It is a commemorative event in a foreign jurisdiction, not a U.S. domestic occurrence. The event is celebratory and does not describe state action restricting press or raising reporting costs in the United States.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUlFzYnRIWGtKdnlxRldnSGEzckM4dXVxRV9WV1M5RTBXV0FGcDJ2c1BaVjdjTW5vRXpYaXE4aFRFZ1V2am9Db3lQS1h1Z0dick11cDlrZ1p5b3A5VWJtQWFoR0dCa0Q2VC0tZDRlNjNUT3RxZWNJTkZLUlVYaDIyYWo5NzhnZDZZeUt3SnAwZnhQRUpwMVEwXy1CUFhwTnFYekdTOFVkdlVuUHc3ZDBzU3hXQWpZREMyZFVwWjNCbHN0ay1COTctckJ5RjlrUXNfRkpKTVgySWlUVEpPcWZtS1hQLWLSAeoBQVVfeXFMUDFhRXhENFZ6ZFoxTi1kc1Q1Y3JCTU5vNGhVRjhlNnc3V09EUVhMTWRrQ1BKb3BuTVJpTXpPZXNaeG1lNnZpeXRmajhVM29aOFpFSFZqSVg2cjhGZUE5M2pqQzVSc2lYX0x4Y2RMNThHZk9EZ3hGVUI2d2pTeDFOVHdWN2tOUVIwOU5FRzBIcDVCU0pUNXBGYjJLVFJqNGhQYl9iRkhXMWV1cGwzVWZJVVdzWWc3aDkzQ2Vrek5vTkpVTmNWX0hlYnFQVlNka2JCNG4xamUxYnJJdmxkczc3YVJCYTlHQ0w3cGFB?oc=5": {
       "actor": "Pakistan government",
       "confidence": 0.99,
@@ -3274,6 +3344,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "Item is a generic watchlist title with no substantive content provided. Cannot determine if any specific event occurred. Additionally, Civicus Monitor is a global organization tracking civic space worldwide; a July 2026 watchlist would likely cover international events, not U.S. domestic press restrictions.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPdC1ISmttRE1feE9pNTFtZlZRNXBmcm1UVVdRcExkRTNVNGROVDIyR0lOc0F6VHZSY1NwSTE3cVBRd1FYUjQ0OGxVUnRpcDVMYlVlRmRoZWs1MzhKQWFXTTYwUC1fQTg2NFRPdXRkVEJSX2ZBdnBCVG1iNVRCY2p2d3VIb1dkYkMxM0RSZERaaHZRc1RJM3oxNFpNQjZkM21LcW1NYjR4dmxQNUNCYmV1YmV4R2dmak5vUnRnUll6b3VFaEQ5MGdibW14VDd5c2VUbTV0aEh6bUFEcnJJaUxuRUFLT0J5akhIS2txZHJiX09KcE9VSHVDakpGa2szMGM?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes conditions in Indonesia, not the United States. The dashboard is designed to monitor U.S. constitutional risk. Non-U.S. events are out of scope regardless of severity.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wSjNybGVHRUhBdUt0RVBia2VyVzNDYXYzS2FaRE9LSWlFcXhtam9meXBvSzluNERYaWJMQW1VQ1lwR3A1MGZZMWNMdVNJUzlydzBtR3hKeWttM2Z2dkEtcW1YZ282MDE3RVB3UkVpMjQ3STlJb1NqdTFfdw?oc=5": {
@@ -3554,6 +3634,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item is from a Kenya-based source (streamlinefeed.co.ke) and appears to be philosophical commentary on press freedom under threat globally, not reporting on a specific U.S. state action. No verifiable U.S. domestic event is documented.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxONFZlaGQxbjhHYU1ZS3gwQmRNZEJNYzE4aXdCZjdwamdyU2hDQzdyQjhzOFl5U280RU9XeUw2UVpMNGVOMjhZbElWZmI1YXpiV0ZFTzM4YURCTGc3NDR6MUtIUlhtRDRlcGFmR3Npd21XdmZiOWVkRFh0d1NPX2VYTmxwTHV6dG4zeldXaTVPazUtcm9KUjA1eWE0Yk5NM1pkSEpjZQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is a media brief from Pakistan. It covers non-U.S. activity and provides no specific content summary. It is geographically outside the U.S. domestic scope and therefore not relevant to this signal.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ3BkNEtDNVJESTc0THFaOTVES3RvSXV5MDk2UnVPSHBXNC1vejJwN0ViZzRiY2UyUHFITWNXS2xubUxZV1NiTTVLLVBDd1N4a3JmWU03Z2poWnJRc1lqRFliZGNEaHRLLVBCMFVGQnhVOF9tbm1pTDNtOXV0SW5lcE5RWlBXQ29MMUdxQzMwNWJKRDFoUGRrTU1jSjBnTHhLU1NBQw?oc=5": {
@@ -3860,6 +3950,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/27/2026-17519/agency-information-collection-activities-proposed-request",
       "rationale": "This is a routine Federal Register notice of a proposed information collection request under the Paperwork Reduction Act. It is a procedural proposal seeking public comment, not evidence of political interference with statistical agency methodology, leadership removal, or data withholding. SSA is not a statistical agency under the signal definition (BLS, BEA, Census Bureau). No constitutional-stress event has occurred.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/08/28/2026-17583/airworthiness-directives-various-helicopters": {
+      "actor": "Federal Aviation Administration",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/28/2026-17583/airworthiness-directives-various-helicopters",
+      "rationale": "This is a routine FAA airworthiness directive concerning helicopter safety standards. It is an ordinary regulatory action within the FAA's delegated authority and bears no relationship to political interference with statistical agencies (BLS, BEA, Census Bureau) or their data production, leadership, or methodology. The signal requires evidence of interference with federal statistical agencies specifically, not with aviation safety regulation.",
       "severity": 0
     }
   }

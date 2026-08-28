@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-27 22:24:48 UTC
+- Generated: 2026-08-28 22:27:02 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **23 / 100** (Elevated Strain)
-- Previous day delta: **+1.0**
-- Delta vs 7-day average: **+12.7**
+- Score: **18 / 100** (Elevated Strain)
+- Previous day delta: **-5.0**
+- Delta vs 7-day average: **+5.5**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -15,12 +15,12 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.65 | 3.57 |
-| Judicial Independence and Rule of Law | 15 | 0.65 | 2.44 |
-| Opposition Rights and Political Pluralism | 14 | 1.22 | 4.26 |
-| Executive Constraints and Emergency Powers | 13 | 1.65 | 5.36 |
-| Civil Service and Agency Independence | 10 | 2.00 | 5.00 |
-| Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
+| Elections and Transfer of Power | 22 | 0.33 | 1.79 |
+| Judicial Independence and Rule of Law | 15 | 0.43 | 1.62 |
+| Opposition Rights and Political Pluralism | 14 | 1.10 | 3.85 |
+| Executive Constraints and Emergency Powers | 13 | 1.30 | 4.22 |
+| Civil Service and Agency Independence | 10 | 1.65 | 4.12 |
+| Civil Liberties and Information Environment | 10 | 0.82 | 2.06 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -28,30 +28,24 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Independent Agency Capture | civil_service_integrity | 3.00 (Orange) | ai | 2 | 4 |
-| Legislative Bypass by Executive | executive_constraints | 2.65 (Yellow) | ai | 0 | 3 |
-| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | ai | 1 | 3 |
+| Independent Agency Capture | civil_service_integrity | 2.65 (Yellow) | ai | 0 | 2 |
+| Legislative Bypass by Executive | executive_constraints | 2.30 (Yellow) | ai | 1 | 4 |
 | Opposition Ballot Exclusion | opposition_pluralism | 2.00 (Yellow) | ai | 1 | 2 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 0 |
-| Election Administration Capture | elections_transfer | 1.65 (Watch) | ai | 0 | 4 |
-| Politicized Prosecution of Opposition | opposition_pluralism | 1.65 (Watch) | ai | 0 | 1 |
-| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 1.65 (Watch) | keyword | 0 | 0 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.65 (Watch) | ai | 0 | 4 |
+| Election Administration Capture | elections_transfer | 1.30 (Watch) | ai | 0 | 1 |
+| Politicized Prosecution of Opposition | opposition_pluralism | 1.30 (Watch) | keyword | 0 | 0 |
+| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 1.30 (Watch) | keyword | 0 | 0 |
 
 ## Evidence Samples
 
 ### Independent Agency Capture
-- Assessment: A Supreme Court ruling described as stripping federal agencies' independence and recharacterizing them as 'political arms of the president' constitutes a significant change to the legal status of independent agency safeguards. This appears to be a major judicial decision that materially weakens the structural independence of regulatory bodies. The framing indicates SCOTUS has altered doctrine concerning agency autonomy, which is a serious constitutional-stress event affecting the signal of independent agency capture. This is a confirmed high-severity judicial action altering agency independence protections.
-- [Lexology] “Political arms of the president”: how SCOTUS is stripping US federal agencies’ independence - Lexology (2026-08-26) - https://news.google.com/rss/articles/CBMivwFBVV95cUxNdGVkbnlXUFkwZ0xiRjdmbEJPcmtKQVlmQnh5SDg0STZjMkZjZGNnMmg1R19zaFFFTFpOUHZ5MVdzUUNTVGl6SnJkTXFRVURUV0o3WW9HSlY0eHpEU0IwVTkyWDJ6Y3dQcEIzWXBobWtDREQtWmktTzAyeGotV3NTRG5NQ2FOa1lmZXNoS3d1TjNKVWhfS2N5Zm5yeHZWVVZvNV9HYk9TY09XTGN1ekpJWGwxLTdod19hdzZyam9GVQ?oc=5
-- [courtlistener.com] **[official record]** Constitutionality of the Foreign Service Grievance Board's Oversight Authority (2026-08-20) - https://www.courtlistener.com/opinion/10954524/constitutionality-of-the-foreign-service-grievance-boards-oversight/
+- [Briefs Finance] Fed Governor's Attorney Points to Trump's Home Claims in Removal Battle - Briefs Finance (2026-08-27) - https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2tSZF9fc1BDcThrUGZoSGJnMXhqN1FpaXFoZnVHeDVjcmQ5R285UE1rNzRCeUhudlhvZHowdnFOWG1HZjVkb2dOMl9NemV4MmdYdlhKc1RLdEVva0twSFlYNDY1eXNfQkNlZy1qTzZuSWV1NlVYdTFESDg3a0RpR2Z1Ny1CN2R3MUx5YW90Y0FDUQ?oc=5
+- [Newsmax] Lawyer for Fed's Cook Says There Are No Grounds for Dismissal - Newsmax (2026-08-26) - https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRk90OWxIWFVoVkt6UmN2aXNWUUl6bEpoU1hwdko5RkJKQ3VnNEVxSkZ1MGEtTnJKYjlxV2FuVlpENld5S3BUcENzcXlYMWIteEZpdXFxVDlRTFg0cmh3S2FsaTg2MjRaLU05UFBhYml4bzhCTEtWcmZwMmlwZHltMXVidzFZZG5zbHlJMzRFVkltb0FLZjNQekUzazVnbEhNajlPQXlzMGJRSkM1SFQtNThNS3RsZWdw?oc=5
 
 ### Legislative Bypass by Executive
-- [ColombiaOne.com] How Far Can De la Espriella Really Go in Dismantling Total Peace and the FARC Peace Accord? - ColombiaOne.com (2026-08-27) - https://news.google.com/rss/articles/CBMieEFVX3lxTE5TdnZHQ0NZUENnbG1FM2dWcnlxM3d2Z0theElBYmRlQ29taU15cEJUak11eFRuSnhhMGNHLUxHbV95WDJSZzhqak1TRi10TW94eHNTeUQyNG1remRNTmpYMFMxV1RUc1NaMGJyOGJ6Q0JjcFZvWnIycw?oc=5
-- [NCHStats] Mail-In Voting Rules for the 2026 Midterms Remain Unclear After Two Major Court Rulings - NCHStats (2026-08-26) - https://news.google.com/rss/articles/CBMickFVX3lxTFByZW1WQ1puMUV1TVVtUFJ0cjdNejVQbjVrN25ybGpSZk51RTdSa2loTFQ1RnJBNy1sQURkR29FV2RQeGF0UXVMTzZrU2xPY1FnREs0RzFMZUotN1lJbzVJRTN6eElRVElwTTNMSF9zeWVJUQ?oc=5
-- [news.meaww.com] Trump scores mail-ballot win, putting America's voting rules on the line - news.meaww.com (2026-08-26) - https://news.google.com/rss/articles/CBMimAFBVV95cUxNTl9TYlNEMFhoNk9sLWNDdGxReEhhNDdmUkZSMzMxX2FHeUNKRzJPX1AzdkRLX3ZpS3R0REZGZ1NsQ0VWXzVraWh2TkJZWlcyRG1UNEVxSUVrOWlVYlVvTlZPMFp6MUZQYkZlQ1luQnFBVVdPV3RUSmpjclVGOWRsV3hwQ0xOcFRxUDZJalhzUlEwVDFxaHpraw?oc=5
-
-### Press Restrictions or Retaliation
-- Assessment: Stars and Stripes journalists filed a lawsuit alleging retaliatory firings by the Pentagon, which is a credible, confirmed action alleging state retaliation against journalists. This is a real, documented stress signal—journalists have taken legal action claiming employment retaliation for their reporting work. While the allegations require adjudication and this is not yet a court-confirmed finding of wrongdoing, the lawsuit itself represents a verifiable state action (alleged retaliatory employment decisions) that raises legal risk and costs for independent reporting. This is a contained, serious signal (severity 2) rather than a structural constitutional failure.
-- [cedarnews.net] Stars and Stripes Journalists Sue Pentagon Over Alleged Retaliatory Firings - cedarnews.net (2026-08-27) - https://news.google.com/rss/articles/CBMinwFBVV95cUxQMm80bVZFSi1TbkQ3UVlHczA3WTJmVHZWZTBabEYzcmJSWjA3SWptUl9FSmpHUmQydldEYmlQZ0x1Sl9MV0JKYmFVeFlCcW5sUGFQYjVFWjFpNWxIV29rcFd0amFfVWJCSlNuSFVwTGUtTk5hMGVlb0I3eVI4UWNHc0dxelFRS2lIMlFUZHRkVkdhWTFPdDRLd2xGUWFWQ1U?oc=5
+- Assessment: Item reports that a Trump executive order on birthright citizenship has been challenged in court and a judge has questioned its constitutionality, but the order remains in effect pending judicial resolution. This represents a real action: the executive has unilaterally altered birthright citizenship policy via order rather than legislation. However, the order is under active judicial review and has not been definitively upheld or struck down. The action is real and represents a shift of governance from statute to executive action, but the outcome remains contested. Severity is 2 because this is a confirmed action that has occurred and is in effect, though constitutionality is being litigated and the ultimate legal status is unsettled.
+- [Law Commentary] Trump’s New Birthright Citizenship Order Stays in Place as Judge Questions Constitutionality - Law Commentary (2026-08-28) - https://news.google.com/rss/articles/CBMiygFBVV95cUxPT1M3a2diZTN2TEQ2dVNuTWJJbUs2aFMzNkhrc3RmclBUT3Q2bnlrSnlWSTNTX3lHMlNOU3BhZkFYMDE3VUNiUW03QmRDSF9EWkxNX0tfZ01qekhoYXFFSFdNLTNhR0ZxUnVNS0hKYnlieFJiVVlLMkc2c3JpQXdZMGY0SmlXbnJpSE0xUXpkME5TSUhpODRxV1VFdWRLR20zcWFiQ3dlbjFIUFNwZW0xTnpmMlRzS015V0ZpZG5Fdml2MUNKY1lyVjFB?oc=5
 
 ### Opposition Ballot Exclusion
 - Assessment: A court ruling preventing the Iowa Libertarian Party from replacing candidates on the ballot for governor and Congress nominees is a real, judicially-ordered exclusion of opposition candidates from the ballot. This represents a credible, confirmed action (a court order) that removes opposition candidates from meaningful ballot participation. The action is narrow in scope (one party, one state, specific offices) and is subject to appeal, limiting severity to 2 rather than 3+. However, it is verifiable evidence that systematic removal has occurred through judicial order.
@@ -61,14 +55,21 @@
 - Assessment: This is an official Federal Register document confirming that OPM has issued a final rule titled 'Improving Performance, Accountability and Responsiveness in the Civil Service' (published February 6, 2026, effective March 9, 2026). The August 25, 2026 entry is a technical correction to that rule. The original February rule directly addresses civil service structure and performance accountability, consistent with Schedule F concerns about reclassification of career positions. As an issued final rule effective before this correction, it represents a material structural change to civil service rules. The correction itself confirms the underlying rule exists and operates. Severity is 2 (repeated/credible stress signal, real but contained action) rather than higher because the document excerpt does not detail the specific reclassification powers granted, only that such a rule has been issued and corrected. The fact that a major civil service reform rule exists and is being administratively refined constitutes verifiable evidence of civil service policy change, though the full scope of at-will reclassification authority is not detailed in this excerpt.
 - [federalregister.gov] **[official record]** Improving Performance, Accountability and Responsiveness in the Civil Service, and Recruitment and Relocation Incentive Waivers; Correcting Amendments (2026-08-25) - https://www.federalregister.gov/documents/2026/08/25/2026-17334/improving-performance-accountability-and-responsiveness-in-the-civil-service-and-recruitment-and
 
+### Press Restrictions or Retaliation
+- [Civicus Monitor] Indonesia: Authorities target and vilify activists, block film screenings, crackdown on protests while impunity for violations continues - Civicus Monitor (2026-08-28) - https://news.google.com/rss/articles/CBMi_wFBVV95cUxPdC1ISmttRE1feE9pNTFtZlZRNXBmcm1UVVdRcExkRTNVNGROVDIyR0lOc0F6VHZSY1NwSTE3cVBRd1FYUjQ0OGxVUnRpcDVMYlVlRmRoZWs1MzhKQWFXTTYwUC1fQTg2NFRPdXRkVEJSX2ZBdnBCVG1iNVRCY2p2d3VIb1dkYkMxM0RSZERaaHZRc1RJM3oxNFpNQjZkM21LcW1NYjR4dmxQNUNCYmV1YmV4R2dmak5vUnRnUll6b3VFaEQ5MGdibW14VDd5c2VUbTV0aEh6bUFEcnJJaUxuRUFLT0J5akhIS2txZHJiX09KcE9VSHVDakpGa2szMGM?oc=5
+- [Committee to Protect Journalists] The cost of truth: Inside Iran’s mounting media crackdown - Committee to Protect Journalists (2026-08-27) - https://news.google.com/rss/articles/CBMihwFBVV95cUxNMmN2X1ZFRmVIU2d0VUsza3VsbEctSXprZ0NiODVrQTg3UmxHV2FFaS0yMDNxRk16YmJQTDVpLUlJd1FxejJwbFdZWmxCYW1QUnJxUV85bHEzNU1hUkRpblRnZktEUy1NWmR2ZDJfUm1IQ0lITkk5NTJiN3FEYU5nS2ZxOVBrYWPSAYwBQVVfeXFMTUNsZGhFeGp5YmJFZTRCZzhWbHdrZFhTVjZVVjA3dW1iUmxrY3poX04zQ2xUOFJqS1FHUTJmY0F2bkJDeEU4Nk5aNndHMXh0bXE2UVM4NWR1QzhFRlNtR3g4N1d4eGVwc2JaeGtCaERzVXpGWlFsMzgtSTcySmd5R2lUajVnX0QxZjJQSjY?oc=5
+- [Journalism Pakistan] The JournalismPakistan Global Media Brief | Edition 35 | August 28, 2026 - Journalism Pakistan (2026-08-28) - https://news.google.com/rss/articles/CBMipAFBVV95cUxONFZlaGQxbjhHYU1ZS3gwQmRNZEJNYzE4aXdCZjdwamdyU2hDQzdyQjhzOFl5U280RU9XeUw2UVpMNGVOMjhZbElWZmI1YXpiV0ZFTzM4YURCTGc3NDR6MUtIUlhtRDRlcGFmR3Npd21XdmZiOWVkRFh0d1NPX2VYTmxwTHV6dG4zeldXaTVPazUtcm9KUjA1eWE0Yk5NM1pkSEpjZQ?oc=5
+
 ## Data Quality
 
 - Query feeds attempted: 23
 - Query feeds successful: 23
 - Query feeds failed: 0
-- Primary-source lookups: 21 signals, 22 official documents (Federal Register, CourtListener)
-- Primary-source confirmations: 2
+- Primary-source lookups: 21 signals, 18 official documents (Federal Register, CourtListener)
+- Primary-source confirmations: 1
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
+- Fetch errors:
+  - independent_agency_capture: courtlistener: The read operation timed out
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.
