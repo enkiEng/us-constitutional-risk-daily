@@ -506,6 +506,16 @@
       "rationale": "Article reports state officials' warning about a data-gathering initiative and its potential risks. Officials expressing concern or disagreement with a federal program does not constitute election administration capture. The piece describes a proposal or ongoing program and official resistance to it, not evidence that election administration has moved into partisan control. No takeover of the election process is demonstrated.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qUElUTkhZVWhrNGhRamdUZUhuMThFVTd5VkpuVGo4S0JFNTJ2Z280LWhsMm52WldwaE1LVUtLSXNlN09VbWhXN1J0bmRRVEtUVFFCZWJhbGFvcVo3dXlLVVg1dkprT19fRVk4NjRZd2I?oc=5": {
+      "actor": "New Hampshire election authorities",
+      "confidence": 0.93,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://valleynews.com/",
+      "rationale": "This is a prospective guide about potential rule changes to mail-in ballots. The phrasing 'might change' indicates a proposal or possibility, not a confirmed action or capture of election administration. Rule changes themselves, when properly adopted through official channels, are not inherently evidence of capture unless they demonstrate a shift from neutral to partisan control. A guide about possible changes does not establish that such capture has occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDamM1bW5IMkhYRnhweWF0M2E1dnVCZGx3OWdZUnN4dllvczlZODJkT0dlVkdOMVVzeThkQmNnYU1HQ0hXTm4zTnNYMjIxZ2h1X3pNeWtPMDFnOVVZSkJEUHlwalVXZFZ1UHpxaTU0MmhzUV8tYk1HeXJRSmpiLUU?oc=5": {
       "actor": "Trump",
       "confidence": 0.95,
@@ -686,6 +696,16 @@
       "rationale": "A state legislature voting to shorten early voting and expand voter purges represents a real action that moves election administration toward partisan control by restricting voter access and participation mechanisms. This is a credible, documented legislative action. However, without evidence that the measure represents systematic capture of the entire election administration apparatus or defiance of courts, and given that legislative changes to voting rules, while potentially contentious, remain within formal legal processes, this constitutes a real but contained signal rather than a systemic failure. Severity 2 reflects that this is a confirmed action with partisan electoral implications, but not yet a structural breakdown of election administration neutrality.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTzF0eEl3Zk9OYjJDeFVUam1jRk5ZeUxoRUhwa1J1V3ExcUtSa2N2b2VQTGZaSDFzeE12MDdWUVlyOE1NZkRVakZWY1J6Tjk4ekdFVml1U09NOThTQmVIRTNlZ2FEdlIwY2RuYXNTalVMTGFxaHU3S0lfNkd5VlJoOTdVZ2gzWF9YYUxEcXAxTFZvNl9Sc0ZralA2MTF2RVBnN3hGNmlCMFhKdTl0UmNoaWFMT3dWRTZRZUFaWl9WemFmVHlxdGhiWko1dGpuamM?oc=5": {
+      "actor": "Community Impact / Austin ISD",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://communityimpact.com/",
+      "rationale": "This is a routine candidate Q&A for a local school board election. It is standard electoral coverage with no evidence of partisan capture of election administration, bias in ballot procedures, or any structural move toward partisan control of the election process. A question-and-answer forum for candidates is a normal part of civic participation and does not constitute election administration capture.",
+      "severity": 0
+    },
     "https://www.federalregister.gov/documents/2026/08/26/2026-17238/ballot-mail-for-federal-elections": {
       "actor": "United States Postal Service",
       "confidence": 0.95,
@@ -850,6 +870,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/14/2026-16748/continuation-of-the-national-emergency-with-respect-to-export-control-regulations",
       "rationale": "This is an official Federal Register document recording a presidential continuation of a declared national emergency. The act of continuing an emergency declaration is a real, verifiable action that invokes emergency powers. However, continuation of an existing emergency (rather than a new declaration) and routine exercise of established emergency authorities for a narrowly-tailored domain (export controls) represents a credible but contained stress signal rather than a serious structural breach. The executive is operating within formal statutory frameworks (likely the National Emergencies Act), and there is no indication of bypass of legislative process beyond what the existing emergency framework permits. Severity 2 reflects that this is a real use of emergency authority but not a novel or sweeping expansion.",
+      "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/08/31/2026-17843/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system": {
+      "actor": "President of the United States",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/08/31/2026-17843/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system",
+      "rationale": "A presidential emergency declaration, published in the Federal Register, is a verifiable use of statutory emergency authority to invoke powers that bypass ordinary legislative process. The National Emergencies Act (50 U.S.C. \u00a7 1601 et seq.) permits the President to declare a national emergency and activate specified statutory powers without a new legislative act. This document itself constitutes the exercise of emergency authority. However, the severity is 2 rather than higher because: (1) emergency declaration authority is congressionally authorized and contemplated by law; (2) without the full text of the declaration and its specific invocations, the scope of actual powers being deployed cannot be verified; (3) this represents a legitimate if stress-laden tool rather than an unconstitutional usurpation. The mere invocation of emergency power for critical infrastructure (bulk-power system security) is a real constitutional stress signal\u2014bypassing the ordinary appropriations and regulatory process\u2014but not yet evidence of structural failure or clear defiance of law.",
       "severity": 2
     }
   },
@@ -1475,6 +1505,16 @@
       "primary_source_url": "https://eciks.org",
       "rationale": "A nomination of a Project 2025 author to an Interior Department inspector general position represents a credible signal of potential IG retaliation/compromise. Project 2025 is associated with aggressive executive agenda goals; placing such an author in a watchdog role raises legitimate concerns about inspector general independence and function. However, this is a nomination, not yet confirmation or demonstrated retaliatory action. The signal is real and repeated concerns about IG politicization have been documented, but the actual retaliation/compromise of IG function has not yet been verified as accomplished. This represents a contained, credible stress signal worthy of monitoring but not yet a serious structural threat.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS2wyTUxLdXE2eW13ZnQ5ejNRTmsxVTd3a2tPNDE2YVFyMGludV9ZQklmZXJCYVVpcGZQODBlWGdmdjRRcWhnYk1jejZTMmFBNEYta003bFlna2VIRnQ2RkhNZ0hYYXd0c2ZON3lIQmNJNDZTNGloOS1vb2tDLTlFZ1Q4cllJVFFpLVo0NXp4TDBWaVFqcWNSTktoVGRvaU9P?oc=5": {
+      "actor": "Brennan Center for Justice",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.brennancenter.org",
+      "rationale": "This is a title/heading only with no substantive content provided. It appears to be advocacy analysis or a policy proposal document from the Brennan Center for Justice, a think tank. The title suggests discussion of restoring independence to watchdog functions, but no actual retaliatory action against inspectors general or watchdog functions is described or evidenced. Without substantive details about what occurred, this cannot be scored as evidence of an actual event. It is consistent with opinion/analysis material urging reform, not a description of a real retaliatory action that took place.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc3VmdGpDZkNJczRJWmxHNTZYbVRBVEVGVUJEMGlVbDZsckxEcV9GUlZPd2hndXpSRWpZcXJDejJfT2hnby1Bb1dOZjFCTFFibTFxQ0k5Zk5NRmtCVkdBNUJxYThSRmVDLXVEcTJweWFvNmpTYjBqQVpRSUplQ0ZLYW4wZkxMUldXTjU1blQyTjEtRVJrS1JGYncwVjlObk1oUUN2cDgzcDJ4TjRNWXBIYUNsLVNCeXFFSW5JMzdNdW00YzRfV1E?oc=5": {
       "actor": "U.S. Senate",
@@ -2510,6 +2550,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item describes a Supreme Court striking down tariffs and a subsequent refund\u2014a normal constitutional process where the judicial branch reviews executive action and the executive complies. This represents the judiciary checking executive power, not a legislative bypass. No evidence of executive action circumventing statutes or the legislative process. The item is also vague (no credible source URL, dated 2026 which is in the future relative to typical knowledge cutoffs), lacks specifics, and does not demonstrate the signal (shift of governance from statute to unilateral executive action). A court ruling that nullifies an executive policy, followed by compliance, is routine constitutional operation, not constitutional stress.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeHlQNEI4eGpqcGVZODFDV2ozNnI3ekEyOHFOYjczd1FLYUF2U1FqbF9HUjROY0c4T3RKRzdkQ0kwY2JRaVpsRU85S1JGalpXMlZUd2t0SkZ6eFkwZkJ0LWVFTTdHWUFLbGZDYWp0Wm5COTZHeHRNMEVfN0FaUlBfSjh6b2lsMWE1MEVld0NmUk9zMHhma0tSV2lvSjhsb0c5SG1fdTFXc3hsTVdQWDV3S01YQllMWDdS?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.newsmax.com",
+      "rationale": "This is a news headline reporting that Trump is appealing a court block on a mail voting order. The existence of a court block itself indicates judicial constraint on executive action, not executive bypass of legislature. The appeal is a normal legal process within the judiciary. No evidence of legislative authority being shifted to unilateral executive action that has taken effect. The court system is functioning as a check. This is coverage of a litigation dispute, not evidence of successful legislative bypass.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ2FaY2x4SEZiV3lnbVV2UTZkS1dscV9OcFlQSTBQYk0zWFJxckQ1OElnay1DbjNPNWlXY2htU0JMYk1JSTV5aVQ2VVhkWjFLS21FdkJTZVo2eHZ4enNxSWE0X2VKMF93MDd0bmZnUmlaZnVMeG56c3otOTdSVHhTSkN5T0tRV1BMeDlrajhoWVBVcFN1WlpHWE9wbWJyUzFZcHhWVjhsY0t0bnFKVmNLc1E4dzRyUE9UTW4xbnZKWWIzZw?oc=5": {
