@@ -139,6 +139,16 @@
       "primary_source_url": "",
       "rationale": "This item reports that a judge dropped a case against electors accused of forging a certificate in the 2020 election. The accusation of forgery of an electoral certificate by electors is direct evidence that alternate elector scheme activity (forging unauthorized electoral documents) occurred in Nevada in 2020. The case dismissal does not erase the fact that the alleged conduct took place. Without full adjudication confirming the forgery, the occurrence is based on credible accusation and court filings, warranting severity 2\u2014a confirmed but contained historical instance of alternate elector scheme activity.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdmRZZGREcFRIT29ScjY2SDR4VmZhQUc4aXJuSjVvMDNMdXpKUEp6TVpaWUlIZE1BbkhpaXJ2RlVUUy1lbHgzbEMwZjA5Q3pqTDdUU3BobG1vamdKdV9nRXJtcHBIdW56Z2pUZy1JV0lObjBNZ0RRcUZ4MU9iWmVGblk3bDBIYTJuZzRyWDFyM0FkcklKNmxkejZBM0U2ckRfSWpYZ2Z5eVZIMFpPdWt1Zm5uN2tMOENNcE1UM1RHd2FQbE15X3Mw?oc=5": {
+      "actor": "Telangana state government (India)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns a government portal in Telangana, India, and relates to document upload functionality for administrative procedures. It is not a U.S. domestic event and contains no connection whatsoever to alternate elector schemes, electoral fraud, or any constitutional-risk signal relevant to U.S. elections or governance. The item is geographically outside the scope of analysis and substantively unrelated to the signal.",
+      "severity": 0
     }
   },
   "civil_service_purge_schedule_f": {
@@ -292,6 +302,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns a court order in Kenya (Kitisuru is a neighborhood in Nairobi). The signal specifies constitutional stress within the United States. A Kenyan court's enforcement action against a developer is not evidence of U.S. court-order noncompliance and falls outside the geographic scope of a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRFZHOVBYenhJaVp3SlhBbXFCT254dXJZMVFzX3M2a1FPSGZrNGFqVFZfamtnaVBHLTdma3BMMUNxSWUwbV93NTZuV1hUdVpZR05OMWd1eERQM1JMZ0VyUml2X1hDa3kxV0tlczBMTnBDNm10MHFZdGxkNEpDcWdUT1V4UVpMblQ4N2RoZDg2dWh6cjRDdUxKTndfQmtMOS1JREMwUXh1SHdCTExPM1FwUWZIVHdKR19oeFdwMw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns alleged court-order noncompliance in Nigeria (Anambra state commissioners, petition to Nigerian President Tinubu regarding traditional ruler selection). It is not a U.S. domestic event and therefore does not constitute evidence of constitutional stress within the United States. The signal dashboard tracks U.S. constitutional-risk events only.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQXFlaHcwTnVfR1BZVnppVXlmVmhsUXB4bmstazk3VEM4emVuRDg3R1hSa2VWdV9QQU9HSkRlNDJZUHliM201NGF4SXJhX1NVMnNaMzVvU2Y3QWJmVGlrZWFMQlprcmI3a0ZtbmpyTXlSSG5YU1Fyam9SQ056RV9fYXJ4ejRyV2h4UGIxRElqeGotUzdvZWRNUVd0elozRzZTUlVCdG1qRGw0UXZfaFUxdG1Sd0htZnZKQjVNU004MkNSTk84SWZqdzlyYzU?oc=5": {
@@ -3536,6 +3556,16 @@
       "rationale": "This item reports on press restrictions in Pakistan, not the United States. The signal specified is U.S. constitutional risk. Non-U.S. events, even if they match the signal pattern, are not evidence of U.S. constitutional stress and should be marked event_occurred=false and severity=0.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRlNCSVQyb2dacU92dmhuRFRKY3RrYUctY1FVRFd5amQyQ1NOQS01U09FQ0pPMTBfeVlzbHBReGtfaUdtc0NlVzc2TGRQSXlpX0M2OTUwdEl3QjZxYzhtUGhJWk9DT0JBS0RpLXlDdVcwaTBSbFpjUFJoaVVFRWpuRHNhZ1hrWUQ4SXhBOUF4UmNJYzVT?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item is reporting on press freedom conditions in Pakistan, not the United States. The signal is defined as 'State action that raises costs or legal risk for independent reporting' in a U.S. constitutional context. A report on press conditions in another country, even if it describes real events in that country, provides no evidence of the specified signal occurring in the United States. Therefore, event_occurred is false and severity is 0.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYkZXMFhnUTduVGlDNmdlOUc2ZzQwME03eFdPZWtrSk1PYjZ3ZjhLMXlaazVSeWNaZTI2NVVURTRFWjFZVHJLNUhBd3FENlJkMHBfdktPNlktbHVvVDZzMzhIR3ItN1FkMWdCUjJuZ2xqVW9UbmM1Ri1FLW4wQUowRXZBelN5RjJmekw4dV92RndnaWpi?oc=5": {
       "actor": "SCO",
       "confidence": 0.99,
@@ -3870,6 +3900,16 @@
     }
   },
   "state_election_preemption": {
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWUxnY2dkNHNyUlNqUlp2bnRZTTJzNXFPOW5HY0x0ejdnaTZ6NTlnQ1J0UTBaQ1NLV2tlM2tFSzdNczA0VnBOZk0yM0c1OUMtazRNS21hR2p1Zm1pVzctZW9SeXNFeTRmNVFqMU56YmhkcUR3NDF2YWsxZ2M2eUVKZ0cyY0xYMXA4YjQtenhoaHZSM1dtTFpVZDF2MWxVNU9UYXgyYk42b3FLNjFxV2ZlMGNDZ0RCVFUzSFhFclRoUm5DbFlDdHhB?oc=5": {
+      "actor": "Minnesota Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a state court ruling on a recount petition\u2014a normal exercise of state judicial authority over state election procedures. A court rejecting a recount request based on procedural grounds (wrong legal remedy) is routine state-level election administration, not federal preemption of state authority. There is no evidence here of extraordinary federal override of state powers. The item is a report of ordinary judicial review of an election-related claim, which does not constitute the signal event.",
+      "severity": 0
+    },
     "https://www.federalregister.gov/documents/2026/08/26/2026-17238/ballot-mail-for-federal-elections": {
       "actor": "United States Postal Service",
       "confidence": 0.98,

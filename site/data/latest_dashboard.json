@@ -1,57 +1,57 @@
 {
   "attempted_queries": 23,
-  "average_7d": 13.56,
+  "average_7d": 14.65,
   "band": {
-    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
-    "label": "Elevated Strain",
-    "max": 29,
-    "min": 15
+    "description": "Normal democratic conflict and routine legal contestation.",
+    "label": "Baseline Institutional Noise",
+    "max": 14,
+    "min": 0
   },
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -3.0,
-  "delta_vs_7d": 1.59,
+  "delta_vs_7d": -2.86,
   "domain_breakdown": [
     {
-      "avg_severity": 0.2375,
+      "avg_severity": 0.15,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.30625,
+      "points": 0.825,
       "weight": 22
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.19999999999999998,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.1875,
+      "points": 0.7499999999999999,
       "weight": 15
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.75,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 3.5,
+      "points": 2.625,
       "weight": 14
     },
     {
-      "avg_severity": 1.3166666666666667,
+      "avg_severity": 1.2,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.279166666666667,
+      "points": 3.9,
       "weight": 13
     },
     {
-      "avg_severity": 1.2999999999999998,
+      "avg_severity": 1.0,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 3.2499999999999996,
+      "points": 2.5,
       "weight": 10
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.475,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.625,
+      "points": 1.1875,
       "weight": 10
     },
     {
@@ -73,9 +73,9 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-29T16:46:38.148641+00:00",
+  "generated_at": "2026-08-30T16:45:48.068010+00:00",
   "methodology_version": 2,
-  "previous_score": 18,
+  "previous_score": 15,
   "primary_sources": {
     "documents_confirmed": 2,
     "documents_fetched": 20,
@@ -86,78 +86,11 @@
     "signals_queried": 21
   },
   "provisional": false,
-  "score": 15,
-  "score_raw": 15.15,
-  "score_raw_pre_trip_wire": 15.15,
+  "score": 12,
+  "score_raw": 11.79,
+  "score_raw_pre_trip_wire": 11.79,
   "successful_queries": 23,
   "top_signals": [
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "canonical_link": "https://www.courtlistener.com/opinion/10957585/dillingers-llc-a-wyoming-limited-liability-company-and-ryan-clement-an/",
-          "link": "https://www.courtlistener.com/opinion/10957585/dillingers-llc-a-wyoming-limited-liability-company-and-ryan-clement-an/",
-          "published": "2026-08-25T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
-          "source_tier": "primary",
-          "title": "Dillinger's LLC, a Wyoming Limited Liability Company and Ryan Clement, an Individual v. CR-GTD, LLC, a Wyoming Limited Liability Company and EFTI, LLC, a Wyoming Limited Liability Company"
-        },
-        {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id\\u003d124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-08-29T08:06:54+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 1,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 2.3,
-      "severity_label": "Yellow",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "canonical_link": "https://www.desmoinesregister.com/story/news/politics/elections/2026/08/27/libertarian-party-lawsuit-iowa-governor-congress-candidates-nominees/91481453007/",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNTd6T0NGWjh6TVNJNUlLaGJoeTJTN0VFWjFneDdPV0RSaUkzMTFVOUpTd0xidmx5ZHVQRFhkemN3RUZla2lfbk5DaHVEbDB0N3lUMGRBNVZJeUxJak95cmQ1US1OeDI3b0Rfd09vUTVJdGJvQndLdWxwY1BMOXZzdWZhZ0hla1R2UWxaa051OFNMUE1nMW1talhKdTl4UC1DYWw1WGZ5b0VLRE5DdmJzekg1NjgzZmZoWDliaTJCWUYxbldJd1doOS1vS3JzclR6ekN3alZZSldCaDl0T2k4Y3BKaUQ3YXRycGpRYw?oc=5",
-          "published": "2026-08-27T22:18:00+00:00",
-          "publisher": "The Des Moines Register",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Judge says Iowa Libertarians can't replace governor, Congress nominees - The Des Moines Register"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 1,
-      "primary_source_url": "https://www.desmoinesregister.com",
-      "rationale": "A court ruling preventing the Iowa Libertarian Party from replacing candidates on the ballot for governor and Congress nominees is a real, judicially-ordered exclusion of opposition candidates from the ballot. This represents a credible, confirmed action (a court order) that removes opposition candidates from meaningful ballot participation. The action is narrow in scope (one party, one state, specific offices) and is subject to appeal, limiting severity to 2 rather than 3+. However, it is verifiable evidence that systematic removal has occurred through judicial order.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
@@ -174,7 +107,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 0,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
@@ -219,17 +152,75 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "canonical_link": "https://colombiaone.com/2026/08/27/de-la-espriella-farc-peace-accord/",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5TdnZHQ0NZUENnbG1FM2dWcnlxM3d2Z0theElBYmRlQ29taU15cEJUak11eFRuSnhhMGNHLUxHbV95WDJSZzhqak1TRi10TW94eHNTeUQyNG1remRNTmpYMFMxV1RUc1NaMGJyOGJ6Q0JjcFZvWnIycw?oc=5",
-          "published": "2026-08-27T20:45:00+00:00",
-          "publisher": "ColombiaOne.com",
+          "canonical_link": "https://www.courtlistener.com/opinion/10957585/dillingers-llc-a-wyoming-limited-liability-company-and-ryan-clement-an/",
+          "link": "https://www.courtlistener.com/opinion/10957585/dillingers-llc-a-wyoming-limited-liability-company-and-ryan-clement-an/",
+          "published": "2026-08-25T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "Dillinger's LLC, a Wyoming Limited Liability Company and Ryan Clement, an Individual v. CR-GTD, LLC, a Wyoming Limited Liability Company and EFTI, LLC, a Wyoming Limited Liability Company"
+        },
+        {
+          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id\\u003d124968309",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-08-29T08:06:54+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "How Far Can De la Espriella Really Go in Dismantling Total Peace and the FARC Peace Accord? - ColombiaOne.com"
-        },
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 1,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.95,
+      "severity_label": "Yellow",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "canonical_link": "https://www.courtlistener.com/docket/74701505/4/15/state-of-california-v-united-states-postal-service/",
+          "link": "https://www.courtlistener.com/docket/74701505/4/15/state-of-california-v-united-states-postal-service/",
+          "published": "2026-08-26T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "State of California v. United States Postal Service"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 0,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 1,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
         {
           "canonical_link": "https://www.newsmax.com/us/trump-appeals-new-court-block-on-mail-voting-order-as-midterms-near/2026/08/28/id/1267687/",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeHlQNEI4eGpqcGVZODFDV2ozNnI3ekEyOHFOYjczd1FLYUF2U1FqbF9HUjROY0c4T3RKRzdkQ0kwY2JRaVpsRU85S1JGalpXMlZUd2t0SkZ6eFkwZkJ0LWVFTTdHWUFLbGZDYWp0Wm5COTZHeHRNMEVfN0FaUlBfSjh6b2lsMWE1MEVld0NmUk9zMHhma0tSV2lvSjhsb0c5SG1fdTFXc3hsTVdQWDV3S01YQllMWDdS?oc=5",
@@ -241,7 +232,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 1,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -250,8 +241,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.95,
-      "severity_label": "Yellow",
+      "severity": 1.6,
+      "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
@@ -260,6 +251,15 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
+          "canonical_link": "https://www.journalismpakistan.com/press-freedom-erodes-as-threats-multiply-across-borders",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRlNCSVQyb2dacU92dmhuRFRKY3RrYUctY1FVRFd5amQyQ1NOQS01U09FQ0pPMTBfeVlzbHBReGtfaUdtc0NlVzc2TGRQSXlpX0M2OTUwdEl3QjZxYzhtUGhJWk9DT0JBS0RpLXlDdVcwaTBSbFpjUFJoaVVFRWpuRHNhZ1hrWUQ4SXhBOUF4UmNJYzVT?oc=5",
+          "published": "2026-08-30T16:02:37+00:00",
+          "publisher": "Journalism Pakistan",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Press freedom erodes as threats multiply across borders - Journalism Pakistan"
+        },
+        {
           "canonical_link": "https://monitor.civicus.org/explore/indonesia-authorities-target-and-vilify-activists-block-film-screenings-crackdown-on-protests-while-impunity-for-violations-continues/",
           "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPdC1ISmttRE1feE9pNTFtZlZRNXBmcm1UVVdRcExkRTNVNGROVDIyR0lOc0F6VHZSY1NwSTE3cVBRd1FYUjQ0OGxVUnRpcDVMYlVlRmRoZWs1MzhKQWFXTTYwUC1fQTg2NFRPdXRkVEJSX2ZBdnBCVG1iNVRCY2p2d3VIb1dkYkMxM0RSZERaaHZRc1RJM3oxNFpNQjZkM21LcW1NYjR4dmxQNUNCYmV1YmV4R2dmak5vUnRnUll6b3VFaEQ5MGdibW14VDd5c2VUbTV0aEh6bUFEcnJJaUxuRUFLT0J5akhIS2txZHJiX09KcE9VSHVDakpGa2szMGM?oc=5",
           "published": "2026-08-28T21:36:11+00:00",
@@ -267,28 +267,10 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Indonesia: Authorities target and vilify activists, block film screenings, crackdown on protests while impunity for violations continues - Civicus Monitor"
-        },
-        {
-          "canonical_link": "https://www.facebook.com/sunstardavaonews/posts/truth-in-the-digital-age-strengthening-media-integrity-in-panabo-the-city-govern/1547198460781697/",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOU1dVeTdhblMyTTNVNExDbFRFQjlneGRCTG5DNlhSOU5xSUlSRGNDcTB1NUM5UFFwRHNXVnNqZ2xxekZTQ21EVFlnUVpkMEZKdGFNblJ1WHdELXhoQnpMb3JqLTNkQXBTbzVoeGcybUtVeUhweWV0REhUNUJKZFQwTV9nWGxrel9LcmdhM01LZTJpRFgzTFlLMGxWb2xjcTdyZTMxM1Q1ZXNDQnBwVS1hUkRNYjVkMXhHcmlSbGdpNjVHN1VkLXp4UGR5WF9oZ21NbjRYUDlGVHZENHpvQmUw?oc=5",
-          "published": "2026-08-27T23:27:05+00:00",
-          "publisher": "facebook.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "TRUTH IN THE DIGITAL AGE: STRENGTHENING MEDIA INTEGRITY IN PANABO The City Government of Panabo officially kicked off its Press Freedom Month 2026 celebration on August 26, 2026 at the Freedom Gym in Barangay New Pandan, Panabo City, - facebook.com"
-        },
-        {
-          "canonical_link": "https://www.journalismpakistan.com/the-journalismpakistan-global-media-brief-edition-35-august-28-2026",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONFZlaGQxbjhHYU1ZS3gwQmRNZEJNYzE4aXdCZjdwamdyU2hDQzdyQjhzOFl5U280RU9XeUw2UVpMNGVOMjhZbElWZmI1YXpiV0ZFTzM4YURCTGc3NDR6MUtIUlhtRDRlcGFmR3Npd21XdmZiOWVkRFh0d1NPX2VYTmxwTHV6dG4zeldXaTVPazUtcm9KUjA1eWE0Yk5NM1pkSEpjZQ?oc=5",
-          "published": "2026-08-28T09:13:55+00:00",
-          "publisher": "Journalism Pakistan",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "The JournalismPakistan Global Media Brief | Edition 35 | August 28, 2026 - Journalism Pakistan"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 2,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
@@ -297,7 +279,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -323,19 +305,10 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Q&A: Meet the candidates for Austin ISD At-Large Position 9 ahead of Nov. 3 election - Community Impact"
-        },
-        {
-          "canonical_link": "https://vnews.com/2026/08/28/trump-mail-ballot-restrictions-nh/",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qUElUTkhZVWhrNGhRamdUZUhuMThFVTd5VkpuVGo4S0JFNTJ2Z280LWhsMm52WldwaE1LVUtLSXNlN09VbWhXN1J0bmRRVEtUVFFCZWJhbGFvcVo3dXlLVVg1dkprT19fRVk4NjRZd2I?oc=5",
-          "published": "2026-08-28T13:33:07+00:00",
-          "publisher": "Valley News",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "New NH guide: How mail-in ballot rules might change - Valley News"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 1,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -344,8 +317,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -373,8 +346,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -392,8 +365,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],
