@@ -446,6 +446,32 @@
       ]
     },
     {
+      "id": "judicial_review_foreclosure",
+      "domain_id": "judiciary_rule_of_law",
+      "name": "Judicial Review Foreclosure",
+      "description": "Courts closing the door on review of government action on threshold grounds \u2014 standing, justiciability, or emergency-docket stays that leave a legality finding unaddressed with no plaintiff able to test it. The check falls from inside: nothing is repealed, but nobody may ask.",
+      "query": "supreme court standing challenge government \"cannot sue\" OR \"lacks standing\" OR justiciability",
+      "yellow_threshold": 2,
+      "severe_terms": [
+        "lacks standing to challenge",
+        "no one has standing",
+        "forecloses review",
+        "shadow docket stay",
+        "emergency docket stay"
+      ],
+      "critical_terms": [
+        "forecloses judicial review",
+        "unreviewable",
+        "no plaintiff can ever establish standing"
+      ],
+      "primary_sources": {
+        "courtlistener": {
+          "query": "\"lacks standing\" OR \"want of standing\" OR \"not justiciable\"",
+          "search_type": "r"
+        }
+      }
+    },
+    {
       "id": "emergency_powers_expansion",
       "domain_id": "executive_constraints",
       "name": "Emergency Powers Expansion",
