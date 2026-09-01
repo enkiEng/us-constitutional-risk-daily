@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-08-31 19:09:15 UTC
+- Generated: 2026-09-01 16:44:13 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **9 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-3.0**
-- Delta vs 7-day average: **-6.2**
+- Score: **11 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+2.0**
+- Delta vs 7-day average: **-4.9**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,12 +15,12 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.06 | 0.34 |
-| Judicial Independence and Rule of Law | 15 | 0.08 | 0.31 |
-| Opposition Rights and Political Pluralism | 14 | 0.52 | 1.81 |
-| Executive Constraints and Emergency Powers | 13 | 1.08 | 3.52 |
+| Elections and Transfer of Power | 22 | 0.00 | 0.00 |
+| Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
+| Opposition Rights and Political Pluralism | 14 | 0.32 | 1.11 |
+| Executive Constraints and Emergency Powers | 13 | 1.33 | 4.33 |
 | Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
-| Civil Liberties and Information Environment | 10 | 0.30 | 0.75 |
+| Civil Liberties and Information Environment | 10 | 1.12 | 2.81 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -28,17 +28,23 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
+| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | ai | 1 | 3 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 2.00 (Yellow) | ai | 1 | 1 |
 | Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | ai | 1 | 1 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 0 |
-| Independent Agency Capture | civil_service_integrity | 1.60 (Watch) | ai | 0 | 3 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.30 (Watch) | ai | 0 | 1 |
-| Legislative Bypass by Executive | executive_constraints | 1.25 (Watch) | ai | 0 | 2 |
-| Press Restrictions or Retaliation | civil_liberties_information | 0.60 (Green) | ai | 0 | 1 |
-| Politicized Prosecution of Opposition | opposition_pluralism | 0.25 (Green) | ai | 0 | 1 |
-| Election Administration Capture | elections_transfer | 0.25 (Green) | ai | 0 | 0 |
-| Targeted Jurisdiction Stripping | judiciary_rule_of_law | 0.25 (Green) | keyword | 0 | 0 |
+| Independent Agency Capture | civil_service_integrity | 1.25 (Watch) | ai | 0 | 4 |
+| Opposition Ballot Exclusion | opposition_pluralism | 0.95 (Watch) | ai | 0 | 3 |
+| Press Restrictions or Retaliation | civil_liberties_information | 0.25 (Green) | keyword | 0 | 0 |
 
 ## Evidence Samples
+
+### Legislative Bypass by Executive
+- Assessment: This item references Trump issuing a mail-ballot order and subsequent Supreme Court litigation. This indicates an executive order on voting administration (mail ballots) bypassing legislative process, with the order being challenged before the Supreme Court. This constitutes a plausible instance of major governance action shifted to unilateral executive authority regarding electoral administration. However, severity is capped at 2 because: (1) the item is from a secondary source summarizing the dispute rather than the order itself, (2) the outcome is still in litigation with no confirmation the action succeeded or persists, and (3) a single order challenged in court is a stressed signal but not yet a confirmed structural failure.
+- [Legal Service India] Who Controls American Elections? Trump’s Mail-Ballot Order and Supreme Court Battle - Legal Service India (2026-09-01) - https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTnpHVXFEc1UybGFBWmlueUFsZTlVMU9oeGlMR0dvQ1pCbndKNHN4d21iR1V0Wm9wUEpDZXFuWW9SZkszNFFIWUFUcE55ZmJ6VDl6c1VJWnZibjNWWUdlSGdpdkR6dlRJQ2EwZVFGelp2eXZPUVc3cm0xZlgySWlHNDJsZGxxd2FhNDYycmlLS3U4Mk0wQmpZZDhwekFUSkJQWGdxM0hFQWZONFNNOEVneFdSdjU3dUFLc184?oc=5
+
+### Political Speech Criminalization or Surveillance
+- Assessment: Unicorn Riot reports DHS deployed facial recognition software against individuals identified as 'Minnesota 15,' apparently protest participants or activists. This represents a verified use of surveillance technology by a federal agency against individuals apparently identified by their participation in lawful protest or political activity. The report title explicitly connects the surveillance tool to a specific group, suggesting targeting based on political association or dissent. This is a credible, real occurrence of surveillance expansion targeting political actors, though the scope appears limited to a specific incident rather than a systematic policy change. No indication that this was illegal or that DHS has been enjoined; the action has been taken and represents actual surveillance of dissidents.
+- [Unicorn Riot] DHS Facial Recognition Software Used Against Minnesota 15 - Unicorn Riot (2026-09-01) - https://news.google.com/rss/articles/CBMikwFBVV95cUxNX3dmU0lMaDJNaUxyT3FyUmhjSWQzWVBNbFZLNDlXak1IZHREQno1QzZibDZoakhRUHg3TzNfaFJLTUgtNVNWOWVEMnFzRzZnZGRsSkpjd2E4S0h5ZVA3ZEVFM1RQUV9NTWkwTmxZQkdkXzZTUlFFblNlc25NTjFmNDZ0X2lpOHY3czdQeURPUUwyZWs?oc=5
 
 ### Emergency Powers Expansion
 - Assessment: A presidential emergency declaration, published in the Federal Register, is a verifiable use of statutory emergency authority to invoke powers that bypass ordinary legislative process. The National Emergencies Act (50 U.S.C. § 1601 et seq.) permits the President to declare a national emergency and activate specified statutory powers without a new legislative act. This document itself constitutes the exercise of emergency authority. However, the severity is 2 rather than higher because: (1) emergency declaration authority is congressionally authorized and contemplated by law; (2) without the full text of the declaration and its specific invocations, the scope of actual powers being deployed cannot be verified; (3) this represents a legitimate if stress-laden tool rather than an unconstitutional usurpation. The mere invocation of emergency power for critical infrastructure (bulk-power system security) is a real constitutional stress signal—bypassing the ordinary appropriations and regulatory process—but not yet evidence of structural failure or clear defiance of law.
@@ -50,16 +56,8 @@
 
 ### Independent Agency Capture
 - [courtlistener.com] **[official record]** Dillinger's LLC, a Wyoming Limited Liability Company and Ryan Clement, an Individual v. CR-GTD, LLC, a Wyoming Limited Liability Company and EFTI, LLC, a Wyoming Limited Liability Company (2026-08-25) - https://www.courtlistener.com/opinion/10957585/dillingers-llc-a-wyoming-limited-liability-company-and-ryan-clement-an/
-- [Law.com] Washington Litigation Group Adds SCOTUS Lawyer To Ranks - Law.com (2026-08-31) - https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ2NsVzV1ektjUHVYV0laUzBiMzRTWlV4MGhNQzdaR19tZ3c4Umd1NHlYVmJtanlDR0FHbVpSR1A2UGQ2c0Z4YkY4VjZGQy1iQmNJb2pFN3hVMmVwLWFXU1lpSkEtYkZjU2c1c2JfYWYyYWlPUXAxSExrZjh0aVRub3o1YmJ4UjhncVJGaEVMNHRYLXJPVDhHeGdSNTdDUW00b3RzTk1mTDZMZw?oc=5
-- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-08-31) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
-
-### Opposition Ballot Exclusion
-- [courtlistener.com] **[official record]** State of California v. United States Postal Service (2026-08-26) - https://www.courtlistener.com/docket/74701505/4/15/state-of-california-v-united-states-postal-service/
-- [news24.com] ANC axes over 350 councillor candidates in 11th-hour vetting purge - news24.com (2026-08-30) - https://news.google.com/rss/articles/CBMisgFBVV95cUxORjF4MFBKd1BxMU1WSXYtOG1UdVpDOFk1M1BPbnluamNlVWdPVTZmak1DZHNfVGZSa2lBZDBNU0J0clBHa2hhb0NFV29FTFA5T3lIb05FWXM0czNsVXlNM045azVkREdFdEp1ajZJY0V4azZMOWpfc3AyZVE3cjhXMWdraVFBS2dYNDN4UGlMcmY1REhIcy1RbEVtOXlDX0ZXODBhUXBqVzJ4cXkwRzA3QVBR?oc=5
-
-### Legislative Bypass by Executive
-- [jonathanturley.org] The Long Shadow of Judge Indira Talwani - jonathanturley.org (2026-08-31) - https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDlacmhXM2FSSmVjcEtvcUl0VWJFVWlDbmdPNl9hb3lkRnJlUko2THpreExZV2NzYVZ5RVA0RGh3LVdUMDRsRzVfd1I1V3BHS1R6RkdEbUE0X2JGWndILXJQUHNTWWFWclZvcmpST1l5UEtkcG5HWE5KSFpqMHljQzRGVFPSAYoBQVVfeXFMTmJJNW84VWY4V2VSajJqUXpsTEszX0dNVFNWMFp4dzRLMUhLUnN3NlkzcDJ2OFJhdWJDc2NPRlZwMW5LYlJJbEZMenJrQmFObXg1dmR0MEJWN3BmRHhjTUN4eXVkakFrODhqRXJzYzJsQUZQTGtkX3l3WEl3QWdNWThmM0RiNDZ3a213?oc=5
-- [Marksmen Daily] Can an AI company say no to the State? - Marksmen Daily (2026-08-31) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLUdmUzgzZU53cnVOZU9mcUhMeFlaTXAyUnNnbDdqR0szSXNJQ0FGd25nd0FxVUsxcmcwSlpPS1prcERJTnRTWTRLSl9oTkFnUV9VallaekQxY085cHBXTHFlR2h2dFJ5R2J5cXduQzBMd2ZjMzI2R3dZdDNjNkRVcUk0M0VtNzZW0gGIAUFVX3lxTE4tR2ZTODNlTndydU5lT2ZxSEx4WVpNcDJSc2dsN2pHSzNJc0lDQUZ3bmd3QXFVSzFyZzBKWk9LWmtwRElOdFNZNEtKX2hOQWdRX1VqWVp6RDFjTzlwcFdMcWVHaHZ0UnlHYnlxd25DMEx3ZmMzMjZHd1l0M2M2RFVxSTQzRW03NlY?oc=5
+- [www.iconnectblog.com] The Unitary Executive Theory after Slaughter: A Comparative Hispanic Perspective - www.iconnectblog.com (2026-09-01) - https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1RiVThoUVhsWXdDR1luSWZOWExYWENJYjdHWWR0THpDVEFKanFadFJoUEVmTXpJYmR1N2dyN1VwSEtEZFhWTno2OVMzVGdNaXBIOFdEZi1zeFdKZkN0YW9nMHZGVjFJMjNmZkk0Z3llNDRfWHpDckdtbXY1QW9BR1huUGZCU25HM2pheVU5NlpLanpnbEtTRzJTN1Z1UEhQM0lOdWdGMnRNSzJmUEE?oc=5
+- [Liberal Currents] Guardrails for Democracy: How Congress Can Reinforce Privacy Rights and Independent Oversight - Liberal Currents (2026-08-31) - https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3BMQkZHczFDcVJUaFU5N0FNWExneXJKYXpJV3VsTkxuejlBczc4dnFKUWhMcGRYVS13eWJ1dldzUUVGQUhuMFZoZnF2cGM4Z0xnYzRGUm1vR2ZTQjlyeUpyQW9ObTRkbzdqRnpaY3RTemZvMjJLS0VROXdYdnZyZ0VVVzNuRlJGRDJmTHFyOHhlbFA5UV9Ca3hwd2MtTVN1WkhGYzVzUDA2MjQ1bUVHRVJxVE9KZGFoX1BPU2RHMFhXYjg?oc=5
 
 ## Data Quality
 

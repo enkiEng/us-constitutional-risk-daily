@@ -1,6 +1,6 @@
 {
   "attempted_queries": 23,
-  "average_7d": 15.46,
+  "average_7d": 15.64,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,35 +9,35 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -3.0,
-  "delta_vs_7d": -6.23,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": -4.89,
   "domain_breakdown": [
     {
-      "avg_severity": 0.0625,
+      "avg_severity": 0.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.34375,
+      "points": 0.0,
       "weight": 22
     },
     {
-      "avg_severity": 0.08333333333333333,
+      "avg_severity": 0.0,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.3125,
+      "points": 0.0,
       "weight": 15
     },
     {
-      "avg_severity": 0.5166666666666667,
+      "avg_severity": 0.31666666666666665,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.8083333333333336,
+      "points": 1.1083333333333334,
       "weight": 14
     },
     {
-      "avg_severity": 1.0833333333333333,
+      "avg_severity": 1.3333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.520833333333333,
+      "points": 4.333333333333333,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.3,
+      "avg_severity": 1.125,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 0.75,
+      "points": 2.8125,
       "weight": 10
     },
     {
@@ -73,9 +73,9 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-08-31T19:09:15.456111+00:00",
+  "generated_at": "2026-09-01T16:44:13.144577+00:00",
   "methodology_version": 2,
-  "previous_score": 12,
+  "previous_score": 9,
   "primary_sources": {
     "documents_confirmed": 2,
     "documents_fetched": 20,
@@ -86,11 +86,69 @@
     "signals_queried": 21
   },
   "provisional": false,
-  "score": 9,
-  "score_raw": 9.24,
-  "score_raw_pre_trip_wire": 9.24,
+  "score": 11,
+  "score_raw": 10.75,
+  "score_raw_pre_trip_wire": 10.75,
   "successful_queries": 23,
   "top_signals": [
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://www.legalserviceindia.com/Legal-Articles/who-controls-american-elections-trump-mail-ballot-order-supreme-court/",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTnpHVXFEc1UybGFBWmlueUFsZTlVMU9oeGlMR0dvQ1pCbndKNHN4d21iR1V0Wm9wUEpDZXFuWW9SZkszNFFIWUFUcE55ZmJ6VDl6c1VJWnZibjNWWUdlSGdpdkR6dlRJQ2EwZVFGelp2eXZPUVc3cm0xZlgySWlHNDJsZGxxd2FhNDYycmlLS3U4Mk0wQmpZZDhwekFUSkJQWGdxM0hFQWZONFNNOEVneFdSdjU3dUFLc184?oc=5",
+          "published": "2026-09-01T05:13:56+00:00",
+          "publisher": "Legal Service India",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Who Controls American Elections? Trump\u2019s Mail-Ballot Order and Supreme Court Battle - Legal Service India"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 3,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://www.legalserviceindia.com",
+      "rationale": "This item references Trump issuing a mail-ballot order and subsequent Supreme Court litigation. This indicates an executive order on voting administration (mail ballots) bypassing legislative process, with the order being challenged before the Supreme Court. This constitutes a plausible instance of major governance action shifted to unilateral executive authority regarding electoral administration. However, severity is capped at 2 because: (1) the item is from a secondary source summarizing the dispute rather than the order itself, (2) the outcome is still in litigation with no confirmation the action succeeded or persists, and (3) a single order challenged in court is a stressed signal but not yet a confirmed structural failure.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "canonical_link": "https://unicornriot.ninja/2026/dhs-facial-recognition-software-used-against-minnesota-15/",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNX3dmU0lMaDJNaUxyT3FyUmhjSWQzWVBNbFZLNDlXak1IZHREQno1QzZibDZoakhRUHg3TzNfaFJLTUgtNVNWOWVEMnFzRzZnZGRsSkpjd2E4S0h5ZVA3ZEVFM1RQUV9NTWkwTmxZQkdkXzZTUlFFblNlc25NTjFmNDZ0X2lpOHY3czdQeURPUUwyZWs?oc=5",
+          "published": "2026-09-01T01:29:40+00:00",
+          "publisher": "Unicorn Riot",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "DHS Facial Recognition Software Used Against Minnesota 15 - Unicorn Riot"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "political_speech_surveillance",
+      "name": "Political Speech Criminalization or Surveillance",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://unicornriot.ninja/",
+      "rationale": "Unicorn Riot reports DHS deployed facial recognition software against individuals identified as 'Minnesota 15,' apparently protest participants or activists. This represents a verified use of surveillance technology by a federal agency against individuals apparently identified by their participation in lawful protest or political activity. The report title explicitly connects the surveillance tool to a specific group, suggesting targeting based on political association or dissent. This is a credible, real occurrence of surveillance expansion targeting political actors, though the scope appears limited to a specific incident rather than a systematic policy change. No indication that this was illegal or that DHS has been enjoined; the action has been taken and represents actual surveillance of dissidents.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
@@ -164,26 +222,26 @@
           "title": "Dillinger's LLC, a Wyoming Limited Liability Company and Ryan Clement, an Individual v. CR-GTD, LLC, a Wyoming Limited Liability Company and EFTI, LLC, a Wyoming Limited Liability Company"
         },
         {
-          "canonical_link": "https://www.law.com/nationallawjournal/2026/08/31/washington-litigation-group-adds-scotus-lawyer-to-ranks/",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ2NsVzV1ektjUHVYV0laUzBiMzRTWlV4MGhNQzdaR19tZ3c4Umd1NHlYVmJtanlDR0FHbVpSR1A2UGQ2c0Z4YkY4VjZGQy1iQmNJb2pFN3hVMmVwLWFXU1lpSkEtYkZjU2c1c2JfYWYyYWlPUXAxSExrZjh0aVRub3o1YmJ4UjhncVJGaEVMNHRYLXJPVDhHeGdSNTdDUW00b3RzTk1mTDZMZw?oc=5",
-          "published": "2026-08-31T16:00:00+00:00",
-          "publisher": "Law.com",
+          "canonical_link": "https://www.iconnectblog.com/the-unitary-executive-theory-after-slaughter-a-comparative-hispanic-perspective/",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1RiVThoUVhsWXdDR1luSWZOWExYWENJYjdHWWR0THpDVEFKanFadFJoUEVmTXpJYmR1N2dyN1VwSEtEZFhWTno2OVMzVGdNaXBIOFdEZi1zeFdKZkN0YW9nMHZGVjFJMjNmZkk0Z3llNDRfWHpDckdtbXY1QW9BR1huUGZCU25HM2pheVU5NlpLanpnbEtTRzJTN1Z1UEhQM0lOdWdGMnRNSzJmUEE?oc=5",
+          "published": "2026-09-01T06:06:14+00:00",
+          "publisher": "www.iconnectblog.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Washington Litigation Group Adds SCOTUS Lawyer To Ranks - Law.com"
+          "title": "The Unitary Executive Theory after Slaughter: A Comparative Hispanic Perspective - www.iconnectblog.com"
         },
         {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id\\u003d124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-08-31T00:57:20+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://www.liberalcurrents.com/guardrails-for-democracy-how-congress-can-reinforce-privacy-rights-and-independent-oversight/",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3BMQkZHczFDcVJUaFU5N0FNWExneXJKYXpJV3VsTkxuejlBczc4dnFKUWhMcGRYVS13eWJ1dldzUUVGQUhuMFZoZnF2cGM4Z0xnYzRGUm1vR2ZTQjlyeUpyQW9ObTRkbzdqRnpaY3RTemZvMjJLS0VROXdYdnZyZ0VVVzNuRlJGRDJmTHFyOHhlbFA5UV9Ca3hwd2MtTVN1WkhGYzVzUDA2MjQ1bUVHRVJxVE9KZGFoX1BPU2RHMFhXYjg?oc=5",
+          "published": "2026-08-31T00:06:37+00:00",
+          "publisher": "Liberal Currents",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+          "title": "Guardrails for Democracy: How Congress Can Reinforce Privacy Rights and Independent Oversight - Liberal Currents"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 4,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
@@ -192,7 +250,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.6,
+      "severity": 1.25,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -211,17 +269,26 @@
           "title": "State of California v. United States Postal Service"
         },
         {
-          "canonical_link": "https://www.news24.com/politics/anc-axes-over-350-councillor-candidates-in-11th-hour-vetting-purge-20260830-0897",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORjF4MFBKd1BxMU1WSXYtOG1UdVpDOFk1M1BPbnluamNlVWdPVTZmak1DZHNfVGZSa2lBZDBNU0J0clBHa2hhb0NFV29FTFA5T3lIb05FWXM0czNsVXlNM045azVkREdFdEp1ajZJY0V4azZMOWpfc3AyZVE3cjhXMWdraVFBS2dYNDN4UGlMcmY1REhIcy1RbEVtOXlDX0ZXODBhUXBqVzJ4cXkwRzA3QVBR?oc=5",
-          "published": "2026-08-30T15:03:29+00:00",
-          "publisher": "news24.com",
+          "canonical_link": "https://www.the-downballot.com/p/morning-digest-wild-deadline-maneuvers",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Cc0JUanRZMENVbDRFV2pCZURnY0VGMEhVZnJtVDVWeUNlM2NnRHJITjVicHlJNHRmTkNxa1BPRG9fR3BPS2F3MC13eEwzWXh0SE9kVGhrUktQYWVwcHcyYnFTbWtOSUZhYnp4NEFXTm1qTVE3eEc5cTItYw?oc=5",
+          "published": "2026-09-01T12:01:32+00:00",
+          "publisher": "The Downballot",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "ANC axes over 350 councillor candidates in 11th-hour vetting purge - news24.com"
+          "title": "Morning Digest: Wild deadline maneuvers cause major upheaval in Alaska's marquee races - The Downballot"
+        },
+        {
+          "canonical_link": "https://www.whas11.com/article/news/local/indiana/republican-candidate-for-clark-county-council-removed-from-ballot-for-his-felony-record-john-benningfield/417-76698687-f4a5-4b6a-9ef3-18661524bafd",
+          "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNQzNOaVV1RlZkTF9OWWRoZ0hXWlpnQjhjdUoxR2ppV0pTZndNUXB6dWNOckxJUTlLaHN1a010YUhKU2g3Sno5aWVIRUpnZmdkbTVCRWdXZU1kQjBmR1JjaVNnZE9qbEZxaElTdXZJckg3YzI0bEVudVJ2OHA5ZG9hZmtENE96dmItR3AzQkw5Q2dvQVQ3d1Z5TDc0amxMM1A1WnRSMUl3ekhMYndPRlRuZFpDWHg5bXBGTGhzZ2w1a3F4bWE4UjE3NFRCblB2elRpZk00UFRKYjB6d2tyZXFPZXRKb2NkMy1PbkpvWFlOYnMycnplXzQtcVQyMm4ycjhOU3NFN3B4dzJhSVN4TXQ1aV8xdW1KT0YycnAyS1BqWnBIdw?oc=5",
+          "published": "2026-09-01T03:41:00+00:00",
+          "publisher": "WHAS11",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Republican candidate for Clark County Council removed from ballot for his felony record - WHAS11"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 3,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
@@ -229,46 +296,8 @@
       "primary_documents": 1,
       "primary_source_url": null,
       "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://jonathanturley.org/2026/08/31/the-long-shadow-of-judge-indira-talwani/",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdDlacmhXM2FSSmVjcEtvcUl0VWJFVWlDbmdPNl9hb3lkRnJlUko2THpreExZV2NzYVZ5RVA0RGh3LVdUMDRsRzVfd1I1V3BHS1R6RkdEbUE0X2JGWndILXJQUHNTWWFWclZvcmpST1l5UEtkcG5HWE5KSFpqMHljQzRGVFPSAYoBQVVfeXFMTmJJNW84VWY4V2VSajJqUXpsTEszX0dNVFNWMFp4dzRLMUhLUnN3NlkzcDJ2OFJhdWJDc2NPRlZwMW5LYlJJbEZMenJrQmFObXg1dmR0MEJWN3BmRHhjTUN4eXVkakFrODhqRXJzYzJsQUZQTGtkX3l3WEl3QWdNWThmM0RiNDZ3a213?oc=5",
-          "published": "2026-08-31T10:00:41+00:00",
-          "publisher": "jonathanturley.org",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "The Long Shadow of Judge Indira Talwani - jonathanturley.org"
-        },
-        {
-          "canonical_link": "https://marksmendaily.com/technology/can-an-ai-company-say-no-to-the-state/?amp\\u003d1",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLUdmUzgzZU53cnVOZU9mcUhMeFlaTXAyUnNnbDdqR0szSXNJQ0FGd25nd0FxVUsxcmcwSlpPS1prcERJTnRTWTRLSl9oTkFnUV9VallaekQxY085cHBXTHFlR2h2dFJ5R2J5cXduQzBMd2ZjMzI2R3dZdDNjNkRVcUk0M0VtNzZW0gGIAUFVX3lxTE4tR2ZTODNlTndydU5lT2ZxSEx4WVpNcDJSc2dsN2pHSzNJc0lDQUZ3bmd3QXFVSzFyZzBKWk9LWmtwRElOdFNZNEtKX2hOQWdRX1VqWVp6RDFjTzlwcFdMcWVHaHZ0UnlHYnlxd25DMEx3ZmMzMjZHd1l0M2M2RFVxSTQzRW03NlY?oc=5",
-          "published": "2026-08-31T07:00:39+00:00",
-          "publisher": "Marksmen Daily",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Can an AI company say no to the State? - Marksmen Daily"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.25,
+      "severe_hits": 1,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -276,98 +305,11 @@
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://www.journalismpakistan.com/press-freedom-erodes-as-threats-multiply-across-borders/",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZEJsSzBBeTk2U21KV2NOUnJGUktJeS1lTUp3NURLTzNOUU05YjFraWlma0c4SFdEWHJwdUYwM090QzVMV0dpZE9LWEVIYVN0RndjckFQbllxbWdTb0JFRUJUOXlIeTRFOW9xSUU5VHFIZnhKRmFkVWd3TWlaRWZlLUZxMDYxNDNpekgzX2d3cnJaLVJHTUE?oc=5",
-          "published": "2026-08-30T21:30:48+00:00",
-          "publisher": "Journalism Pakistan",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Press freedom erodes as threats multiply across borders - Journalism Pakistan"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id\\u003d124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-08-31T00:57:20+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "politicized_prosecution_opposition",
-      "name": "Politicized Prosecution of Opposition",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/08/26/2026-17238/ballot-mail-for-federal-elections",
-          "link": "https://www.federalregister.gov/documents/2026/08/26/2026-17238/ballot-mail-for-federal-elections",
-          "published": "2026-08-26T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Ballot Mail for Federal Elections"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 0,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 1,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
       "evidence": [],
       "evidence_mode": "keyword",
       "hits": 0,
-      "id": "jurisdiction_stripping_targeted",
-      "name": "Targeted Jurisdiction Stripping",
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
