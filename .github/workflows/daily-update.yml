@@ -142,7 +142,7 @@ jobs:
           GITLAB_TRIGGER_TOKEN: ${{ secrets.GITLAB_TRIGGER_TOKEN }}
           GITLAB_PROJECT_ID_OR_PATH: ${{ vars.GITLAB_PROJECT_ID_OR_PATH || 'enkieng/bluesky-scheduler' }}
           GITLAB_TRIGGER_REF: ${{ vars.GITLAB_TRIGGER_REF || 'main' }}
-          DASHBOARD_PUBLIC_URL: ${{ vars.DASHBOARD_PUBLIC_URL || 'https://progressive-mandate.org/US-constitutional-risk-daily/' }}
+          DASHBOARD_PUBLIC_URL: ${{ vars.DASHBOARD_PUBLIC_URL || 'https://rules-not-rulers.org/US-constitutional-risk-daily/' }}
           DASHBOARD_TAGS: ${{ vars.DASHBOARD_TAGS }}
         run: |
           set -euo pipefail
@@ -187,7 +187,7 @@ jobs:
           GITLAB_TRIGGER_TOKEN: ${{ secrets.GITLAB_TRIGGER_TOKEN }}
           GITLAB_PROJECT_ID_OR_PATH: ${{ vars.GITLAB_PROJECT_ID_OR_PATH || 'enkieng/bluesky-scheduler' }}
           GITLAB_TRIGGER_REF: ${{ vars.GITLAB_TRIGGER_REF || 'main' }}
-          DASHBOARD_PUBLIC_URL: ${{ vars.DASHBOARD_PUBLIC_URL || 'https://progressive-mandate.org/US-constitutional-risk-daily/' }}
+          DASHBOARD_PUBLIC_URL: ${{ vars.DASHBOARD_PUBLIC_URL || 'https://rules-not-rulers.org/US-constitutional-risk-daily/' }}
           DASHBOARD_TAGS: ${{ vars.DASHBOARD_TAGS }}
         run: |
           set -euo pipefail

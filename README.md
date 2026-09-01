@@ -90,7 +90,7 @@ Optional GitHub repository variables:
   Set this to a numeric GitLab project ID (recommended) or full path.
 - `GITLAB_TRIGGER_REF`: defaults to `main`.
 - `DASHBOARD_PUBLIC_URL`: defaults to
-  `https://progressive-mandate.org/US-constitutional-risk-daily/`.
+  `https://rules-not-rulers.org/US-constitutional-risk-daily/`.
 - `DASHBOARD_TAGS`: optional hashtag string passed through to Bluesky post
   formatting (example: `#ConstitutionalRisk #DemocracyWatch #USPolitics`).
 

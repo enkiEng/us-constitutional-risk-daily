@@ -761,7 +761,7 @@ def render_html(
       <a href="https://github.com/enkieng/us-constitutional-risk-daily/blob/main/docs/cumulative-erosion-subindex-proposal.md" target="_blank" rel="noopener noreferrer">CEI methodology proposal</a>.</p>
       <p>Raw artifacts: <a href="./data/latest_dashboard.json">latest_dashboard.json</a> | <a href="./data/constitutional_risk_history.csv">constitutional_risk_history.csv</a> (v2 series)
       | <a href="./data/cumulative_erosion_history.csv">cumulative_erosion_history.csv</a> | <a href="./data/erosion_ledger.json">erosion_ledger.json</a></p>
-      <p>More analysis: <a href="https://progressive-mandate.org" target="_blank" rel="noopener noreferrer">Progressive Mandate</a></p>
+      <p>More analysis: <a href="https://rules-not-rulers.org" target="_blank" rel="noopener noreferrer">The Rational Foundation Plan</a></p>
     </footer>
   </main>
 
