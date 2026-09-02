@@ -244,6 +244,16 @@
     }
   },
   "court_order_noncompliance": {
+    "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YRlIzd2xXdXRFMC1zTE5VV2JsWXlvNl8yNW92TndrY0hPRndzUHNjZUJVTDE3b3MyTUdOSjNHOUdPVERMMVNIaFZPT2J4dTRPR2czT1o4TzJoMl9mRGxqUnhhS1pDbHNnc3ZRTF9wanh4R2Vi?oc=5": {
+      "actor": "USPS (alleged)",
+      "confidence": 0.05,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://allrisenews.substack.com",
+      "rationale": "The item is a Substack post reporting an allegation by an unnamed whistleblower that USPS is defying court orders. This is a claim about a potential violation, not verified evidence of actual court-order noncompliance. No specific court order is cited, no USPS official response is documented, and the source is a news outlet reporting third-hand allegations rather than primary evidence (a court docket entry, USPS directive, or official confirmation). Whistleblower allegations, even if credible in spirit, are not themselves proof that the alleged defiance has occurred or that a court order exists and is being violated. Without specifics on which court order, which mail-in voting requirement, and what form the alleged defiance takes, this remains an unverified claim. Conservative analysis treats such reports as insufficient to confirm event occurrence.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc1cyTkxZUThGOUZLcjJOb3l0T1YyTDZURFBjNVNscEI5TDlUOF9FVmRLMDdEYkZpMEtIRTl2b2NfOGVqRUlvVHBlaHJyTUVYWDhqUi10aEM3U3RpazVzamtMcHpWUkY5cTNYQjlpRmpTZTAyY2d5Rl9WVHlfbHR0NUVxT1c?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -940,6 +950,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/31/2026-17843/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system",
       "rationale": "A presidential emergency declaration, published in the Federal Register, is a verifiable use of statutory emergency authority to invoke powers that bypass ordinary legislative process. The National Emergencies Act (50 U.S.C. \u00a7 1601 et seq.) permits the President to declare a national emergency and activate specified statutory powers without a new legislative act. This document itself constitutes the exercise of emergency authority. However, the severity is 2 rather than higher because: (1) emergency declaration authority is congressionally authorized and contemplated by law; (2) without the full text of the declaration and its specific invocations, the scope of actual powers being deployed cannot be verified; (3) this represents a legitimate if stress-laden tool rather than an unconstitutional usurpation. The mere invocation of emergency power for critical infrastructure (bulk-power system security) is a real constitutional stress signal\u2014bypassing the ordinary appropriations and regulatory process\u2014but not yet evidence of structural failure or clear defiance of law.",
+      "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/09/02/2026-18046/continuation-of-the-national-emergency-with-respect-to-foreign-interference-in-or-undermining-public": {
+      "actor": "Executive Office of the President",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/02/2026-18046/continuation-of-the-national-emergency-with-respect-to-foreign-interference-in-or-undermining-public",
+      "rationale": "A continuation of a declared national emergency is an official action that invokes emergency authorities to maintain existing powers beyond the ordinary legislative process. The continuation document itself is the legal instrument that extends emergency authorities. However, this represents maintenance of an existing emergency declaration (originally issued in 2017), not a new expansion. The severity is 2 rather than higher because: (1) the underlying emergency was declared through ordinary constitutional channels and has been subject to congressional oversight mechanisms (National Emergencies Act requires periodic review); (2) continuation is routine procedural practice rather than novel expansion; (3) no evidence from the summary indicates the scope of emergency powers has been broadened or that ordinary legislative constraints have been newly bypassed. The action is real and matches the signal, but reflects existing rather than expanded emergency authorities.",
       "severity": 2
     }
   },
@@ -1896,6 +1916,16 @@
       "rationale": "This is a routine criminal motion for excludable delay in a deferred prosecution agreement. It is a standard prosecutorial procedural filing, not evidence of retaliation against watchdog functions or anti-corruption monitoring. No IG or inspector general authority is implicated.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74711301/15/1/slavin-v-parnell/": {
+      "actor": "District Court, D.C.",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74711301/15/1/slavin-v-parnell/",
+      "rationale": "This is a docket entry showing a responsive motion filing in an ongoing civil litigation (Slavin v. Parnell). The entry documents that defendants including Peter Hegseth and the Department of Defense filed a response to a motion for temporary restraining order and preliminary injunction. A litigation response is a routine procedural act, not evidence of retaliation against a watchdog function or anti-corruption monitoring. The case caption and parties do not indicate this involves an Inspector General or watchdog body. Without substantive information about the underlying claims or any demonstrated retaliation against watchdog authority, this is a neutral court filing. No constitutional stress signal is evident.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/74723765/1/v-sherman/": {
       "actor": "City of Riviera Beach",
       "confidence": 0.99,
@@ -2166,6 +2196,78 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item reports a list of individuals targeted by the Trump administration, including James Comey. Without additional context specifying that these individuals are judges being targeted for adverse rulings, and without verification that this constitutes an official intimidation campaign against the judiciary, this does not meet the signal definition. The headline alone is insufficient to establish judge intimidation. This appears to be press coverage of political targeting, not verified evidence of judicial intimidation.",
+      "severity": 0
+    }
+  },
+  "judicial_review_foreclosure": {
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pWHNJQUhFUUJSN3Z6TS1qN0xrek1QdnlGdHVfZkgxMVFXUndrMTlKNzhtS3ZhcThNUHpfcG5Ea09WMzdtQjkyd0doTTdfQXVtS1hhVHRnWHpxMTBEUWY2MGhueVo5bFNKbG5qbjFJa2J2ekk?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "A dissent by Chief Justice Roberts in a ballroom construction case does not evidence judicial review foreclosure. Even a dissent is part of the Court's full engagement with a case, not a refusal to hear or review. No threshold bar, no justiciability dismissal, no foreclosure of legality testing.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZDlGSUQ4RjJtNnNpLXZQa2s0bnhabGswTWxiY2dCNGVNTEMyMHo1SlN4R1lIQkdZY3VBZURlVEV5ajB0aUVDNnRHU1J2d1NTOUJzLUZid0d0UW1lNEtET3FsZE95TkRMWm5ZbUFRQzBKZllub2tDX3dBQ3ZXcXJWdw?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Same as prior items. A merits-based ruling on ballroom construction is not evidence of judicial review foreclosure via standing, justiciability, or threshold stays.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYi1yTWxGS2QzdmJGOHg3Z0pjdzFaRmtDYjJwaFp2U1AwVHBYSmtlekZnTEFyUy15cU1tTGFzV1ZIVU9PWktxdlFZaGt0elFJMVE0UmVKaExGVl9kMjdoRVBnRDg5V3pwU041TzN6SnhuOW80WWl1bWZZMi1vSXF2NUM1SQ?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Same as prior items. A Supreme Court approval of ballroom construction is a merits decision, not an instance of courts closing the door on review via threshold grounds. No signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeWxlbzQ2VWR1UE5TQkxwRmVvSXNhcUgtUEJrYmYtd0pnMXRaVTFHaFBtbTh0aTRxSDF2Smhtc2wtVjdtOFp2Ym1LcXhKNFo3WVlWU0hNT0lxTUJjcXFfZDVtUnVPeUlfTjdyVUMtWUExUE4zRnBsSm1YeEw1UVcwY25vOTlXYmkyVExFc0JjUzY?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Same as prior items. No threshold dismissal or foreclosure of review documented. Routine construction ruling unrelated to the signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcTZpR09ScTV2dmY3dXF6RVQzcW9YUW5aT2dpaXpCdjROMVlzZnRwVktSeVp3OElwcmJXQmNsaFl2OGYxZEJNN0sydlhuT3NNV3Z3RjVRcDdFVG84d3pVbjRJT3RHTW9GaFdMb2pNbXZ3d0plckxLMllqcUxGblpyWGJkMW5JTFg4SkZvUGktWEU?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "A Supreme Court decision permitting ballroom construction is a routine application of judicial review to a property/permitting matter, not evidence of judicial review foreclosure (courts closing the door on review of government action on threshold grounds like standing or justiciability). This is the opposite: courts accepting and deciding a case on the merits. No threshold dismissal, no foreclosure of review, no blockage of legality testing.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxORHV2bE41bWVCVmI4M3ZseE1SOVluQ2hmZ0FESm50MXFWcHhwQkQ3bDJBT1ZvZTlNdUczX2JCZUYxRG5KZFc4cEpjX0l0R3hiVFluVkhmT3VLcjBqdmQ1UGYyTGR3VGNMeFNTbUh5TGhjdVkwRWRnRDJ6UDFrdTNYSDA4SHVDWXI1WWZfelBVbXppT00?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Same as [0]. A ruling allowing construction to proceed is ordinary judicial disposition, not a refusal to review government action on justiciability or standing grounds. Does not evidence threshold-based foreclosure of judicial review.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQVB5V3ZEd0RPZEVMa25aSVQwQmpWRXNJUndpWEU1dmpyenFXS1BJeHd6a0dXTHJCUVBINGF0N0JlYmNFMHJ2ZEp5dW0tckk4QllyT3FBZ3h3NTc4MHc3YURuRjc0dTdCSExHVGlrd0lzU2RmMXlMTW9ISkFKWXZLME5OUkxyWklMQ1M2VmdDYTdDSWhrUmxCY0Y0SHB1OE1qeFFKNEhmXzc?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Same as [0] and [1]. Construction permitting decision does not relate to closure of judicial review on threshold grounds. No signal present.",
       "severity": 0
     }
   },
@@ -3026,6 +3128,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74657524/1/adams-v-united-states/",
       "rationale": "This is a docket entry indicating the filing of a civil complaint in federal court. The document title and summary provide no information about the complaint's content, allegations, or relief sought. Filing a lawsuit is a routine legal action, not evidence of military use or threatened use in domestic partisan political disputes. Without substantive content showing the complaint alleges military action in a political conflict, this cannot be judged as matching the signal. The entry is purely procedural.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74722364/17/noble-supply-logistics-llc/": {
+      "actor": "Noble Supply & Logistics, LLC",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74722364/17/noble-supply-logistics-llc/",
+      "rationale": "This is a routine bankruptcy court filing\u2014a list of creditors document filed in a standard commercial insolvency proceeding. It contains no reference to military use, political conflict, domestic partisan dispute, or any constitutional stress event. The document is an ordinary administrative artifact of bankruptcy administration and is wholly unrelated to the signal (domestic military use in political conflict).",
       "severity": 0
     },
     "https://www.federalregister.gov/documents/2026/08/06/2026-16125/establishing-the-presidents-military-spouse-commission": {
@@ -3994,6 +4106,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This item concerns Pakistan media suppression, not the United States. Out of scope.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQkZJNWNGWUU1WDNvWXIxbXhNTlpsWkxETmFhNWJnQUF2NEdPeThUc1dzeldBSzdEVEpUTFZKa25vZGVzRk1FQ0ZoYWp2bUZycy05RDljWHk5M19EM0ZRM0ZSWDNPMFY5cXZXMHo0Qkx4Sk81VGxxeDNaWC1oak5IUmRiQVA1SUs5WjJkOGQxZHdYOEE0R0J4ZXRIcFJpUnl1MmtXY0hjUXFGZGxlVUJOc1N3?oc=5": {
+      "actor": "",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports an event in Kenya (People Daily is a Kenyan news outlet, and the Standard is Kenya's largest newspaper). The signal concerns U.S. constitutional risk. Non-U.S. events do not constitute evidence of U.S. constitutional stress regardless of thematic similarity to press restrictions or retaliation.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb3hNZkRXMUVBWGZ1UVVkS3hWa0FaYmpxSnh3Y0ZyWEdwWTNfWnJpZ0tpSFl1TnJrMUx2NlBEWE5iNG1iNHRXTXdJRFB1Mm9ySDJvSHlhQWZOSkdKel93Q2x5NG9icmZ2TFgzaUZ2a2VsNldmTXJpNi1KWGFoT3BuZGJveXh0d29WTk5OYVp0MndfM2FwXzc5VXdTNkREdTJwMG1US1VaUDRzR2VWZGhwdzVyc205Y1E?oc=5": {
