@@ -241,6 +241,16 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/08/25/2026-17334/improving-performance-accountability-and-responsiveness-in-the-civil-service-and-recruitment-and",
       "rationale": "This is an official Federal Register document confirming that OPM has issued a final rule titled 'Improving Performance, Accountability and Responsiveness in the Civil Service' (published February 6, 2026, effective March 9, 2026). The August 25, 2026 entry is a technical correction to that rule. The original February rule directly addresses civil service structure and performance accountability, consistent with Schedule F concerns about reclassification of career positions. As an issued final rule effective before this correction, it represents a material structural change to civil service rules. The correction itself confirms the underlying rule exists and operates. Severity is 2 (repeated/credible stress signal, real but contained action) rather than higher because the document excerpt does not detail the specific reclassification powers granted, only that such a rule has been issued and corrected. The fact that a major civil service reform rule exists and is being administratively refined constitutes verifiable evidence of civil service policy change, though the full scope of at-will reclassification authority is not detailed in this excerpt.",
       "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct": {
+      "actor": "Merit Systems Protection Board",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct",
+      "rationale": "An official final rule by the MSPB, effective upon publication in the Federal Register, eliminates a longstanding procedural safeguard (the Douglas factors test) that previously constrained agency penalty selection in misconduct cases. This change immediately alters the legal landscape: agencies can now dismiss employees for misconduct without MSPB review of penalty proportionality under the prior multi-factor framework. The removal of this safeguard is itself an accomplished action, not a proposal. However, the severity is limited to 2 because the action is narrow in scope (affects one adjudicatory procedure), targeted at a specific category of decisions, and does not yet constitute a wholesale structural failure or a purge in progress. No mass dismissals have occurred under this rule; the change creates a new permissive legal condition for politicized removals but does not demonstrate that such a campaign has been launched.",
+      "severity": 2
     }
   },
   "court_order_noncompliance": {
@@ -482,6 +492,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74702861/3/gondola-williams-v-warden-dilley-immigration-processing-center/",
       "rationale": "This is a court order denying a motion for temporary restraining order and preliminary injunction. The court's denial of relief does not constitute evidence of executive noncompliance with a court order. The court is functioning normally by issuing a reasoned text order. No defiance of judicial authority is present.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74719656/00108501176/league-of-women-voters-of-massachusetts-v-trump/": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74719656/00108501176/league-of-women-voters-of-massachusetts-v-trump/",
+      "rationale": "The item is a routine docket entry documenting a supplemental record filing and an electronic order in an ongoing First Circuit case. It does not describe or evidence any executive or administrative refusal to comply with a court order. The entry itself is a standard procedural notation with no substance regarding noncompliance. No court order has been defied, no refusal to comply is described, and no conflict between the executive branch and judicial authority is evidenced. This is a procedural administrative act unrelated to the signal.",
       "severity": 0
     },
     "https://www.courtlistener.com/docket/74725475/1/ayoubi-v-united-states-citizenship-and-immigration-services/": {
@@ -786,6 +806,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a research article title from the Public Policy Institute of California examining mail ballot rejection rates. It is analytical/explanatory content about election administration procedures, not evidence of an attempt to block, delay, or override lawful election certification. Mail ballot rejection due to lateness is a routine administrative matter, not an act of certification interference. The item is a policy analysis headline with no indication of any intentional interference with certification processes.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWGo5UTdiaHlXZG9JVEduU1ZSc3lKbGx3QTNmNGpDT0I0Wl83c1R2UnVjTUhReEd6Tm9oSUJCTXlQOElacmZqVWlOUUdZOVluTDA1ck9pc2ZyYVdrb1Z6X2hhVGhCVXB5S0VxaVdCY0JNT09ZSVFDOXRQUHAtWmR4OGdyRF94TTc1MEN3ejlMUFBZMmZvR0syOVd1Tkg5V29HVU9IQ0xfUVNqWkczN2h6dkVWeDBjZG5hV1c3MXo5Ri10anM?oc=5": {
+      "actor": "U.S. Postal Service / Washington State election officials",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports a logistical condition (postal delays affecting ballot delivery) and its consequence (uncounted late ballots), not an attempt to block, delay, or override election certification. Postal service delays are operational failures, not deliberate interference with certification procedures. The item describes a problem with vote counting timelines, not with the certification process itself\u2014which is a distinct legal act performed by designated officials. No evidence is presented of anyone attempting to prevent or override an official certification decision. This is a mail/logistics issue, not election certification interference.",
       "severity": 0
     },
     "https://www.courtlistener.com/docket/73726674/1/britannica-capital-management-limited-v-topwater-stonefly-fund-llc/": {
@@ -2200,6 +2230,16 @@
     }
   },
   "judicial_review_foreclosure": {
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSXZTeHFtYmpRY3FwZW5sdVI0MEZSVkIwTXBGa3QwQ3p1WDhfS1JvdjloRzdsVHg3RHhIQ2R0blhjQjllNnRsQklHN09fMWpJRzdITUpRTXlYM3RSUGR6bk1QMzUxcU1wRDBtLXdiRTk5STlBQTcyRUdmTC04VzYyanBPTXVOaF93TjFqR2pkLVYwMWRfOUZhUEladzZ3LV9aS0VuZWxRRm1JTXQwQmlnVWpqd0s0WkFQRVRFZGpneUJ6XzlacDluTTJGeTVpYjJfU253Njk5UHZ1UW9q?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.thedailyonline.com",
+      "rationale": "This is an extremely sparse report of a routine merits decision on a construction matter (ballroom construction). There is no indication of a threshold dismissal, standing denial, justiciability bar, or foreclosure of review. A court ruling on the merits of a property dispute is the opposite of judicial review foreclosure\u2014it is the court exercising review. The item provides no basis to believe the signal's event (courts closing the door on review on jurisdictional grounds) has occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pWHNJQUhFUUJSN3Z6TS1qN0xrek1QdnlGdHVfZkgxMVFXUndrMTlKNzhtS3ZhcThNUHpfcG5Ea09WMzdtQjkyd0doTTdfQXVtS1hhVHRnWHpxMTBEUWY2MGhueVo5bFNKbG5qbjFJa2J2ekk?oc=5": {
       "actor": "Supreme Court",
       "confidence": 0.95,
@@ -2228,6 +2268,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Same as prior items. A Supreme Court approval of ballroom construction is a merits decision, not an instance of courts closing the door on review via threshold grounds. No signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcmlKYXppeGpUUG5LX2RqTVZLWWxaMEFxNFprLWRNcktHbWN2bFdNREJiZlliSjFnSGR5OGQ0RW9LNjZ6cGZ3b3VmSTdqSDVESlhmTi03TmdoNmZqMmxZVkx0QVVsZ19xdWo2R2xucC10RUlPeTMwVGQ3cTdULVNKSGdaRG9UbmNSNXFwTw?oc=5": {
+      "actor": "Brookings Institution",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.brookings.edu",
+      "rationale": "This is a speculative analysis/opinion piece about a hypothetical future legal dispute over NATO withdrawal. It envisions potential litigation but does not describe any actual court action, any actual closure of judicial review, or any real constitutional event that has occurred. The item is forward-looking punditry about what fights *might* happen, not evidence that judicial review has actually been foreclosed or that any threshold dismissal has occurred.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeWxlbzQ2VWR1UE5TQkxwRmVvSXNhcUgtUEJrYmYtd0pnMXRaVTFHaFBtbTh0aTRxSDF2Smhtc2wtVjdtOFp2Ym1LcXhKNFo3WVlWU0hNT0lxTUJjcXFfZDVtUnVPeUlfTjdyVUMtWUExUE4zRnBsSm1YeEw1UVcwY25vOTlXYmkyVExFc0JjUzY?oc=5": {
@@ -2814,6 +2864,16 @@
       "rationale": "This is legal commentary on an alleged renaming proposal for Lake Ontario. Without confirmation that an executive order was actually issued and implemented to rename the lake without legislative action, this appears to be either hypothetical analysis or reaction to a proposal. The item is labeled as legal commentary from Justia, not a report of an accomplished executive action. No evidence that a major governance action has actually shifted to unilateral executive authority.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOQWxINGlBRldZWEZuM2tmNHFiVEhvcUloOGZoRklyV19OSFZ2elpCV0ZGWFV6QzZzekpfbjlDWW5qaC1pN0JVeW5TT0dodXVfMm1qV0ZUVEZjSEN5V3lyaEwzdTIxRGhzeTdYczMzbWtCMm1MdVYzYW8yLUJjOW5uaGZ1MXZoRFVEY19acWF4RGpGVDJUcF9jeGgxTjMxZXJUWHNRNHlnRlRkTXZwTXNQMFZhSlQ2QmpqZmI1QmNhdTlsNVZIazRTbnlwbVZ5YjREeUxQVW9qeWxraGo4R212QmZGQ1JlQV8zTmZMUHFnRk8yZXRQdXZhY3c2dnVYZVBNd3Z3Y2NnVmZwNDhPam9fWEhaeHBONWY5NTNkUEZST3VOa1pHS2I0c2xEVQ?oc=5": {
+      "actor": "Center for American Progress",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is opinion/analysis content from a policy advocacy organization discussing what legal authority the President does NOT have. It analyzes hypothetical claims and legal constraints. There is no evidence that any executive action has actually been taken, no national emergency has actually been declared, and no elections have actually been nationalized. This is legal commentary about proposed or claimed actions, not documentation of an accomplished executive bypass of legislative authority. The item explicitly states the President has 'no legal authority' to do the thing being analyzed\u2014this is a denial of an unexecuted proposal, not evidence of a real occurrence.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcEliTkVJeDBJXy1EbV9kbVYxbUVwdFhSQkRnYWlGek9kYktsU3d5dkVwWjNxdjNJSklfTHV2M3YxYkFiTC15YVdxR0VobVJGUHFoRHRJVFFyTXhHWHc5T3IyU3pIbXdTeHRFVTUtYTlRdFdJNDNSbC1SVE1aWHNuR1N6bmRiRWx4ejl5d1VPTGpLWEhMZWhtSzhjZmMtWVlCRlJMTDd6UUtUV1VtYUE?oc=5": {
       "actor": "Unknown/Not specified",
       "confidence": 0.95,
@@ -2926,6 +2986,26 @@
     }
   },
   "legislative_oversight_obstruction": {
+    "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPT2xLdDFaTmJnc3Rob1Yya0V3M2RXZFRBamhySWpxc1dvUFhJRG1peC1MWlhNMU01amQwREhWaEtncW5DY2tmQXk2TlgxWHlLbkVVdVFCYUQ4NXVnZFE5b0FvUW02YTk0VF82N1M2T2RCRnhCQ2ZvRmd3ZXVHVlBJdldxdGFjTnZxSUpTVG4xeEtTd3cxRXU2SDJvUzNzMzZUUTFVSHBreTA1T0hyUFJPWlB3aTR1dGlwbU1qTWZGRmtvRUpKMnppVjV4QmphQ0V2SkdOOWxCckVvQQ?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://newscord.com",
+      "rationale": "Meta-reporting comparing coverage of the same underlying event across 11 outlets. The event itself (Black's lawsuit and non-compliance with subpoena) is confirmed and real, representing obstruction of legislative oversight.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJelNWVXItVlBqeEdhbVVDLUN2Q2hJZjd4MHhrdmpHaDJ1Sjd6ZjZsQXpuVnNjZkJ4ejFZWTNiaGZqZUJ1bUc4UXpZQW0zZjZrR3lFN01XTWxub3ZYSU9oSXFBclF1UEtfMVJqdW50UTFtVms?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://readers.id",
+      "rationale": "Same event reported: suit filed to block House Oversight Panel subpoenas. Constitutes real obstruction of legislative fact-finding through legal challenge and non-compliance.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMifEFVX3lxTE42Y0NJUkxyX1huekZETHRleEI5Q2s0UzlVMUVhbzJubWp2M25XdEJWTEU5ZFJnUjVfYk15MkFaMTRBWnR3TXhpYjVIbURYQzk2ZnhINzZhTGFyZkU5Qk5GZ1loZGJFbmFPSGRhWWZEc01TZVBtdWVBRUtUaks?oc=5": {
       "actor": "Watchdog Group (unspecified)",
       "confidence": 0.95,
@@ -2935,6 +3015,46 @@
       "primary_source_url": "",
       "rationale": "This item reports a watchdog group's call for an appeals court to revisit a conviction. It describes a request or advocacy position, not a verification of legislative oversight obstruction. No systematic barriers to fact-finding or executive accountability are described. The item does not constitute evidence of the signal (legislative oversight obstruction). A watchdog group petitioning a court is routine democratic participation and legal process, not obstruction of legislative oversight. No specific action by government to obstruct Congress or impede accountability is detailed.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM05CU2VxRFo4bTRkMHFOT0t3TERtT3FtV1o2dkV6TTdUV1ZxeElyNEdTNUhLUWlzLWVIYzVZM0dLeEpiOUdsanRHaGxubGV4UDl2eTI4bWVicFpjMElmbGNPS3pLZFVXZE9UOWI2N0VlSTA1SnJNbmxYcEcxZFVpRTRB?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://fortune.com",
+      "rationale": "Same underlying event as item 0: confirmed report of a subpoena recipient suing to block congressional investigation. The characterization of the suit as challenging 'fishing' is the plaintiff's legal theory, not a denial of the event. Real obstruction of legislative fact-finding has occurred through litigation.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxQY3RBSVE3QXZhUXVRUFo1MkE5NExqZDYzYTBFX0lNbGtBR0syQ1JMaDlvaWJuamsyZE1rTlpfcnpKUkEzbUhGMFBQYlFDdjhPMnA4NzhnZTBzTy05d2pHSERyZkJ3bUlUMURXYlhGMTA0Z0poQkFXQ1BRQWp3aTRiMGRNOUpZZXRCamc?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://qz.com",
+      "rationale": "Confirmed report of the same event: ignoring of subpoena and filing of suit against House Oversight Committee. Direct obstruction of legislative fact-finding through non-compliance and litigation.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWExPUzNIXzk1d0g5b19QakJCbk1BNXVHYzR4dDI4bmItLUZPTmwzMnNub0tSbWI4MkRDeHZkS01qLU4xcG41U1VQRldZZVhVSlZlYlpRZFdROE5CTmFMaElIdG5rVjdWSjdqMV9iQWRSazBtUzlTUHphUWxhTjNQTDF3Uk5tSndRT2hramRNTTNfX1l4VnR5Njg5TDdlcUhfS3lDaXNLb3RjengtQklB?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.independent.co.uk",
+      "rationale": "Confirmed report of Leon Black filing suit to block congressional subpoenas related to Epstein investigation. Real obstruction of legislative fact-finding through litigation and non-compliance.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOE9iTUtZQW5ZTDY1c0djTXhWcVJvVDFPVU9LSEthYUpqblBzX0ZTaTMzRXc2LUpCUmczWklKLWItcHpYT3MwNksxVG5vR1Q0TFNRMkUxU3E0SmprbDdiMmRCbzUxMmNiRW9TeHhsTUZmc0pLZlZNN1FLdTNsbTB3OEI1TWNsX2xVWTRNNUZ6R29XcUlwa214djExNHFjeVlyaW9weGRsaWhuOTktQV9xQUtsckpGOFJ3cXVqODVn?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.washingtonpost.com",
+      "rationale": "A private citizen has ignored a congressional subpoena and filed suit to block legislative fact-finding. This is a specific, credible, real occurrence of an individual obstructing legislative oversight through litigation and non-compliance. However, this is an individual defiance rather than a systematic governmental barrier to oversight, and the legislative process retains enforcement mechanisms (contempt, etc.). Severity 2 reflects a real but localized obstruction action, not a systemic failure of the oversight apparatus itself.",
+      "severity": 2
     },
     "https://www.courtlistener.com/docket/73690657/2/in-re-subpoenas-on-boris-epshteyn/": {
       "actor": "Executive Office of the President",
@@ -4108,6 +4228,16 @@
       "rationale": "This item concerns Pakistan media suppression, not the United States. Out of scope.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOUtiaUQweHAyY1Z5UlpUY3k5VS03MzlTbGVmRndBZ1cwVkxHVFdfdnZlQlJ6Mkc0SzNzY1R4QXZuSG8tV1FCSm1JN0lEX2poVHRsNnZrVEZqN3hRR1NvUnhVcmRsV0p6dGZsQ1BTZ2k5TjhacGUtSTFubnoyX2FIR0VoSDlEcGlXTWhkbHd4Zy1ESU5hVEhuUHl2ZmdpVVhuYlVQWGdkYndpY0RzOU44UA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports an event in Togo (West Africa) involving French journalists, not a U.S. domestic occurrence. The signal specified is Press Restrictions or Retaliation by state action in the United States. This event is non-U.S. and therefore outside the scope of the constitutional-risk dashboard, which monitors U.S. domestic constitutional stress.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQkZJNWNGWUU1WDNvWXIxbXhNTlpsWkxETmFhNWJnQUF2NEdPeThUc1dzeldBSzdEVEpUTFZKa25vZGVzRk1FQ0ZoYWp2bUZycy05RDljWHk5M19EM0ZRM0ZSWDNPMFY5cXZXMHo0Qkx4Sk81VGxxeDNaWC1oak5IUmRiQVA1SUs5WjJkOGQxZHdYOEE0R0J4ZXRIcFJpUnl1MmtXY0hjUXFGZGxlVUJOc1N3?oc=5": {
       "actor": "",
       "confidence": 0.99,
@@ -4444,6 +4574,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/01/2026-17891/fair-market-rents-for-the-housing-choice-voucher-program-moderate-rehabilitation-single-room",
       "rationale": "This is a routine statutory notice of FY 2027 Fair Market Rent calculations and procedures, a mandatory annual publication under the Housing Opportunity Through Modernization Act of 2016. The notice describes standard methodology and procedural options for PHAs. There is no evidence of political interference, removal of leadership, unauthorized methodology changes, or withheld data. This is normal statistical agency operation.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/03/2026-18040/cause-of-airline-delay-and-cancellation-categories-under-section-511b-of-the-faa-reauthorization-act": {
+      "actor": "U.S. Department of Transportation",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/03/2026-18040/cause-of-airline-delay-and-cancellation-categories-under-section-511b-of-the-faa-reauthorization-act",
+      "rationale": "This is a routine rule-making by the Transportation Department implementing a congressionally mandated statutory requirement from the FAA Reauthorization Act of 2024. The rule concerns airline reporting categories for flight delays and cancellations\u2014a procedural and narrowly technical matter with no connection to the integrity of federal statistical agencies (BLS, BEA, Census Bureau), their leadership, data methodologies, or data releases. There is no evidence of political interference with statistical agency operations, removal of career leadership, unauthorized methodology changes to economic data, or withheld/delayed official statistics. This is administrative implementation of law, not a statistical-agency integrity event.",
       "severity": 0
     }
   }

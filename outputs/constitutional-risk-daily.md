@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-09-02 16:40:09 UTC
+- Generated: 2026-09-03 16:31:32 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **9 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-2.0**
-- Delta vs 7-day average: **-5.1**
+- Score: **10 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+1.0**
+- Delta vs 7-day average: **-1.6**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -17,29 +17,32 @@
 |---|---:|---:|---:|
 | Elections and Transfer of Power | 22 | 0.00 | 0.00 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
-| Opposition Rights and Political Pluralism | 14 | 0.20 | 0.70 |
-| Executive Constraints and Emergency Powers | 13 | 1.33 | 4.33 |
-| Civil Service and Agency Independence | 10 | 0.65 | 1.62 |
-| Civil Liberties and Information Environment | 10 | 0.82 | 2.06 |
+| Opposition Rights and Political Pluralism | 14 | 0.08 | 0.29 |
+| Executive Constraints and Emergency Powers | 13 | 1.22 | 3.95 |
+| Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
+| Civil Liberties and Information Environment | 10 | 0.65 | 1.62 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
-| Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
+| Federalism and Legislative Oversight | 8 | 1.00 | 2.00 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | ai | 1 | 1 |
+| Legislative Oversight Obstruction | federalism_oversight | 2.00 (Yellow) | ai | 6 | 6 |
 | Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | ai | 2 | 0 |
-| Civil Service Purge / Schedule F | civil_service_integrity | 1.65 (Watch) | keyword | 0 | 0 |
-| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.65 (Watch) | keyword | 0 | 0 |
-| Independent Agency Capture | civil_service_integrity | 0.90 (Watch) | ai | 0 | 2 |
-| Opposition Ballot Exclusion | opposition_pluralism | 0.60 (Green) | ai | 0 | 1 |
+| Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 1.65 (Watch) | ai | 0 | 1 |
+| Political Speech Criminalization or Surveillance | civil_liberties_information | 1.30 (Watch) | keyword | 0 | 0 |
+| Independent Agency Capture | civil_service_integrity | 0.55 (Green) | keyword | 0 | 0 |
+| Opposition Ballot Exclusion | opposition_pluralism | 0.25 (Green) | keyword | 0 | 0 |
 
 ## Evidence Samples
 
-### Legislative Bypass by Executive
-- Assessment: This item references Trump issuing a mail-ballot order and subsequent Supreme Court litigation. This indicates an executive order on voting administration (mail ballots) bypassing legislative process, with the order being challenged before the Supreme Court. This constitutes a plausible instance of major governance action shifted to unilateral executive authority regarding electoral administration. However, severity is capped at 2 because: (1) the item is from a secondary source summarizing the dispute rather than the order itself, (2) the outcome is still in litigation with no confirmation the action succeeded or persists, and (3) a single order challenged in court is a stressed signal but not yet a confirmed structural failure.
-- [Legal Service India] Who Controls American Elections? Trump’s Mail-Ballot Order and Supreme Court Battle - Legal Service India (2026-09-01) - https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTnpHVXFEc1UybGFBWmlueUFsZTlVMU9oeGlMR0dvQ1pCbndKNHN4d21iR1V0Wm9wUEpDZXFuWW9SZkszNFFIWUFUcE55ZmJ6VDl6c1VJWnZibjNWWUdlSGdpdkR6dlRJQ2EwZVFGelp2eXZPUVc3cm0xZlgySWlHNDJsZGxxd2FhNDYycmlLS3U4Mk0wQmpZZDhwekFUSkJQWGdxM0hFQWZONFNNOEVneFdSdjU3dUFLc184?oc=5
+### Legislative Oversight Obstruction
+- Assessment: A private citizen has ignored a congressional subpoena and filed suit to block legislative fact-finding. This is a specific, credible, real occurrence of an individual obstructing legislative oversight through litigation and non-compliance. However, this is an individual defiance rather than a systematic governmental barrier to oversight, and the legislative process retains enforcement mechanisms (contempt, etc.). Severity 2 reflects a real but localized obstruction action, not a systemic failure of the oversight apparatus itself.
+- [The Washington Post] Billionaire Leon Black ignores Epstein investigation subpoena, sues congressional committee - The Washington Post (2026-09-03) - https://news.google.com/rss/articles/CBMivgFBVV95cUxPOE9iTUtZQW5ZTDY1c0djTXhWcVJvVDFPVU9LSEthYUpqblBzX0ZTaTMzRXc2LUpCUmczWklKLWItcHpYT3MwNksxVG5vR1Q0TFNRMkUxU3E0SmprbDdiMmRCbzUxMmNiRW9TeHhsTUZmc0pLZlZNN1FLdTNsbTB3OEI1TWNsX2xVWTRNNUZ6R29XcUlwa214djExNHFjeVlyaW9weGRsaWhuOTktQV9xQUtsckpGOFJ3cXVqODVn?oc=5
+- [Fortune] Billionaire Leon Black is suing Congress for ‘fishing’ into his alleged ties to Epstein - Fortune (2026-09-03) - https://news.google.com/rss/articles/CBMiggFBVV95cUxNM05CU2VxRFo4bTRkMHFOT0t3TERtT3FtV1o2dkV6TTdUV1ZxeElyNEdTNUhLUWlzLWVIYzVZM0dLeEpiOUdsanRHaGxubGV4UDl2eTI4bWVicFpjMElmbGNPS3pLZFVXZE9UOWI2N0VlSTA1SnJNbmxYcEcxZFVpRTRB?oc=5
+- [qz.com] Leon Black sues House Oversight Committee, skips Epstein deposition - qz.com (2026-09-03) - https://news.google.com/rss/articles/CBMiigFBVV95cUxQY3RBSVE3QXZhUXVRUFo1MkE5NExqZDYzYTBFX0lNbGtBR0syQ1JMaDlvaWJuamsyZE1rTlpfcnpKUkEzbUhGMFBQYlFDdjhPMnA4NzhnZTBzTy05d2pHSERyZkJ3bUlUMURXYlhGMTA0Z0poQkFXQ1BRQWp3aTRiMGRNOUpZZXRCamc?oc=5
 
 ### Emergency Powers Expansion
 - Assessment: A continuation of a declared national emergency is an official action that invokes emergency authorities to maintain existing powers beyond the ordinary legislative process. The continuation document itself is the legal instrument that extends emergency authorities. However, this represents maintenance of an existing emergency declaration (originally issued in 2017), not a new expansion. The severity is 2 rather than higher because: (1) the underlying emergency was declared through ordinary constitutional channels and has been subject to congressional oversight mechanisms (National Emergencies Act requires periodic review); (2) continuation is routine procedural practice rather than novel expansion; (3) no evidence from the summary indicates the scope of emergency powers has been broadened or that ordinary legislative constraints have been newly bypassed. The action is real and matches the signal, but reflects existing rather than expanded emergency authorities.
@@ -47,21 +50,25 @@
 - [federalregister.gov] **[official record]** Declaring a National Emergency To Secure the United States Bulk-Power System (2026-08-31) - https://www.federalregister.gov/documents/2026/08/31/2026-17843/declaring-a-national-emergency-to-secure-the-united-states-bulk-power-system
 
 ### Civil Service Purge / Schedule F
-- No fresh evidence links in the current lookback window.
+- Assessment: An official final rule by the MSPB, effective upon publication in the Federal Register, eliminates a longstanding procedural safeguard (the Douglas factors test) that previously constrained agency penalty selection in misconduct cases. This change immediately alters the legal landscape: agencies can now dismiss employees for misconduct without MSPB review of penalty proportionality under the prior multi-factor framework. The removal of this safeguard is itself an accomplished action, not a proposal. However, the severity is limited to 2 because the action is narrow in scope (affects one adjudicatory procedure), targeted at a specific category of decisions, and does not yet constitute a wholesale structural failure or a purge in progress. No mass dismissals have occurred under this rule; the change creates a new permissive legal condition for politicized removals but does not demonstrate that such a campaign has been launched.
+- [federalregister.gov] **[official record]** Determining the Appropriate Penalty for Federal Employees Charged With Misconduct (2026-09-03) - https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct
+
+### Legislative Bypass by Executive
+- [Center for American Progress] Despite President Trump’s Claims of Foreign Election Interference, He Has No Legal Authority To Declare a National Emergency and Unilaterally Nationalize Elections - Center for American Progress (2026-09-02) - https://news.google.com/rss/articles/CBMiqwJBVV95cUxOQWxINGlBRldZWEZuM2tmNHFiVEhvcUloOGZoRklyV19OSFZ2elpCV0ZGWFV6QzZzekpfbjlDWW5qaC1pN0JVeW5TT0dodXVfMm1qV0ZUVEZjSEN5V3lyaEwzdTIxRGhzeTdYczMzbWtCMm1MdVYzYW8yLUJjOW5uaGZ1MXZoRFVEY19acWF4RGpGVDJUcF9jeGgxTjMxZXJUWHNRNHlnRlRkTXZwTXNQMFZhSlQ2QmpqZmI1QmNhdTlsNVZIazRTbnlwbVZ5YjREeUxQVW9qeWxraGo4R212QmZGQ1JlQV8zTmZMUHFnRk8yZXRQdXZhY3c2dnVYZVBNd3Z3Y2NnVmZwNDhPam9fWEhaeHBONWY5NTNkUEZST3VOa1pHS2I0c2xEVQ?oc=5
+
 ### Political Speech Criminalization or Surveillance
 - No fresh evidence links in the current lookback window.
-### Independent Agency Capture
-- [www.iconnectblog.com] The Unitary Executive Theory after Slaughter: A Comparative Hispanic Perspective - www.iconnectblog.com (2026-09-01) - https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1RiVThoUVhsWXdDR1luSWZOWExYWENJYjdHWWR0THpDVEFKanFadFJoUEVmTXpJYmR1N2dyN1VwSEtEZFhWTno2OVMzVGdNaXBIOFdEZi1zeFdKZkN0YW9nMHZGVjFJMjNmZkk0Z3llNDRfWHpDckdtbXY1QW9BR1huUGZCU25HM2pheVU5NlpLanpnbEtTRzJTN1Z1UEhQM0lOdWdGMnRNSzJmUEE?oc=5
-- [abcnews.com] Here's a list of the individuals, including James Comey, targeted by the Trump administration - abcnews.com (2026-09-01) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
-
 ## Data Quality
 
 - Query feeds attempted: 24
 - Query feeds successful: 24
 - Query feeds failed: 0
-- Primary-source lookups: 22 signals, 18 official documents (Federal Register, CourtListener)
-- Primary-source confirmations: 2
+- Primary-source lookups: 22 signals, 12 official documents (Federal Register, CourtListener)
+- Primary-source confirmations: 3
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
+- Fetch errors:
+  - independent_agency_capture: courtlistener: The read operation timed out
+  - inspector_general_retaliation: courtlistener: The read operation timed out
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.

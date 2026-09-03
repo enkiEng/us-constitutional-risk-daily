@@ -1,6 +1,6 @@
 {
   "attempted_queries": 24,
-  "average_7d": 13.78,
+  "average_7d": 11.96,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,8 +9,8 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -2.0,
-  "delta_vs_7d": -5.06,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": -1.58,
   "domain_breakdown": [
     {
       "avg_severity": 0.0,
@@ -27,31 +27,31 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.19999999999999998,
+      "avg_severity": 0.08333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.7,
+      "points": 0.29166666666666663,
       "weight": 14
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.2166666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.333333333333333,
+      "points": 3.954166666666666,
       "weight": 13
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 1.0,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.6249999999999998,
+      "points": 2.5,
       "weight": 10
     },
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.65,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.0625,
+      "points": 1.625,
       "weight": 10
     },
     {
@@ -62,23 +62,26 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 1.0,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.0,
+      "points": 2.0,
       "weight": 8
     }
   ],
   "extraction_mode": "ai",
   "failed_queries": 0,
-  "fetch_errors": [],
+  "fetch_errors": [
+    "independent_agency_capture: courtlistener: The read operation timed out",
+    "inspector_general_retaliation: courtlistener: The read operation timed out"
+  ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-02T16:40:09.236876+00:00",
+  "generated_at": "2026-09-03T16:31:32.978098+00:00",
   "methodology_version": 2,
-  "previous_score": 11,
+  "previous_score": 9,
   "primary_sources": {
-    "documents_confirmed": 2,
-    "documents_fetched": 18,
+    "documents_confirmed": 3,
+    "documents_fetched": 12,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,39 +89,57 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 9,
-  "score_raw": 8.72,
-  "score_raw_pre_trip_wire": 8.72,
+  "score": 10,
+  "score_raw": 10.37,
+  "score_raw_pre_trip_wire": 10.37,
   "successful_queries": 24,
   "top_signals": [
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 6,
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "federalism_oversight",
       "evidence": [
         {
-          "canonical_link": "https://www.legalserviceindia.com/Legal-Articles/who-controls-american-elections-trump-mail-ballot-order-supreme-court/",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTnpHVXFEc1UybGFBWmlueUFsZTlVMU9oeGlMR0dvQ1pCbndKNHN4d21iR1V0Wm9wUEpDZXFuWW9SZkszNFFIWUFUcE55ZmJ6VDl6c1VJWnZibjNWWUdlSGdpdkR6dlRJQ2EwZVFGelp2eXZPUVc3cm0xZlgySWlHNDJsZGxxd2FhNDYycmlLS3U4Mk0wQmpZZDhwekFUSkJQWGdxM0hFQWZONFNNOEVneFdSdjU3dUFLc184?oc=5",
-          "published": "2026-09-01T05:13:56+00:00",
-          "publisher": "Legal Service India",
+          "canonical_link": "https://www.washingtonpost.com/politics/2026/09/03/epstein-client-leon-black-sues-oversight-committee-over-investigation/",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOE9iTUtZQW5ZTDY1c0djTXhWcVJvVDFPVU9LSEthYUpqblBzX0ZTaTMzRXc2LUpCUmczWklKLWItcHpYT3MwNksxVG5vR1Q0TFNRMkUxU3E0SmprbDdiMmRCbzUxMmNiRW9TeHhsTUZmc0pLZlZNN1FLdTNsbTB3OEI1TWNsX2xVWTRNNUZ6R29XcUlwa214djExNHFjeVlyaW9weGRsaWhuOTktQV9xQUtsckpGOFJ3cXVqODVn?oc=5",
+          "published": "2026-09-03T16:32:20+00:00",
+          "publisher": "The Washington Post",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Who Controls American Elections? Trump\u2019s Mail-Ballot Order and Supreme Court Battle - Legal Service India"
+          "title": "Billionaire Leon Black ignores Epstein investigation subpoena, sues congressional committee - The Washington Post"
+        },
+        {
+          "canonical_link": "https://fortune.com/2026/09/03/billionaire-leon-black-epstein-investigation/",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM05CU2VxRFo4bTRkMHFOT0t3TERtT3FtV1o2dkV6TTdUV1ZxeElyNEdTNUhLUWlzLWVIYzVZM0dLeEpiOUdsanRHaGxubGV4UDl2eTI4bWVicFpjMElmbGNPS3pLZFVXZE9UOWI2N0VlSTA1SnJNbmxYcEcxZFVpRTRB?oc=5",
+          "published": "2026-09-03T14:25:00+00:00",
+          "publisher": "Fortune",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Billionaire Leon Black is suing Congress for \u2018fishing\u2019 into his alleged ties to Epstein - Fortune"
+        },
+        {
+          "canonical_link": "https://qz.com/leon-black-sues-house-oversight-epstein-subpoenas-deposition-090326",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQY3RBSVE3QXZhUXVRUFo1MkE5NExqZDYzYTBFX0lNbGtBR0syQ1JMaDlvaWJuamsyZE1rTlpfcnpKUkEzbUhGMFBQYlFDdjhPMnA4NzhnZTBzTy05d2pHSERyZkJ3bUlUMURXYlhGMTA0Z0poQkFXQ1BRQWp3aTRiMGRNOUpZZXRCamc?oc=5",
+          "published": "2026-09-03T13:54:09+00:00",
+          "publisher": "qz.com",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Leon Black sues House Oversight Committee, skips Epstein deposition - qz.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "hits": 6,
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.legalserviceindia.com",
-      "rationale": "This item references Trump issuing a mail-ballot order and subsequent Supreme Court litigation. This indicates an executive order on voting administration (mail ballots) bypassing legislative process, with the order being challenged before the Supreme Court. This constitutes a plausible instance of major governance action shifted to unilateral executive authority regarding electoral administration. However, severity is capped at 2 because: (1) the item is from a secondary source summarizing the dispute rather than the order itself, (2) the outcome is still in litigation with no confirmation the action succeeded or persists, and (3) a single order challenged in court is a stressed signal but not yet a confirmed structural failure.",
+      "primary_source_url": "https://www.washingtonpost.com",
+      "rationale": "A private citizen has ignored a congressional subpoena and filed suit to block legislative fact-finding. This is a specific, credible, real occurrence of an individual obstructing legislative oversight through litigation and non-compliance. However, this is an individual defiance rather than a systematic governmental barrier to oversight, and the legislative process retains enforcement mechanisms (contempt, etc.). Severity 2 reflects a real but localized obstruction action, not a systemic failure of the oversight apparatus itself.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 1
+      "unique_publishers": 6
     },
     {
       "confirmed_hits": 2,
@@ -159,14 +180,53 @@
       "unique_publishers": 0
     },
     {
-      "confirmed_hits": 0,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "evidence_mode": "keyword",
+      "evidence": [
+        {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct",
+          "link": "https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct",
+          "published": "2026-09-03T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Determining the Appropriate Penalty for Federal Employees Charged With Misconduct"
+        }
+      ],
+      "evidence_mode": "ai",
       "hits": 0,
       "id": "civil_service_purge_schedule_f",
       "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "primary_confirmed": 1,
+      "primary_documents": 1,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct",
+      "rationale": "An official final rule by the MSPB, effective upon publication in the Federal Register, eliminates a longstanding procedural safeguard (the Douglas factors test) that previously constrained agency penalty selection in misconduct cases. This change immediately alters the legal landscape: agencies can now dismiss employees for misconduct without MSPB review of penalty proportionality under the prior multi-factor framework. The removal of this safeguard is itself an accomplished action, not a proposal. However, the severity is limited to 2 because the action is narrow in scope (affects one adjudicatory procedure), targeted at a specific category of decisions, and does not yet constitute a wholesale structural failure or a purge in progress. No mass dismissals have occurred under this rule; the change creates a new permissive legal condition for politicized removals but does not demonstrate that such a campaign has been launched.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://www.americanprogress.org/article/despite-president-trumps-claims-of-foreign-election-interference-he-has-no-legal-authority-to-declare-a-national-emergency-and-unilaterally-nationalize-elections/",
+          "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOQWxINGlBRldZWEZuM2tmNHFiVEhvcUloOGZoRklyV19OSFZ2elpCV0ZGWFV6QzZzekpfbjlDWW5qaC1pN0JVeW5TT0dodXVfMm1qV0ZUVEZjSEN5V3lyaEwzdTIxRGhzeTdYczMzbWtCMm1MdVYzYW8yLUJjOW5uaGZ1MXZoRFVEY19acWF4RGpGVDJUcF9jeGgxTjMxZXJUWHNRNHlnRlRkTXZwTXNQMFZhSlQ2QmpqZmI1QmNhdTlsNVZIazRTbnlwbVZ5YjREeUxQVW9qeWxraGo4R212QmZGQ1JlQV8zTmZMUHFnRk8yZXRQdXZhY3c2dnVYZVBNd3Z3Y2NnVmZwNDhPam9fWEhaeHBONWY5NTNkUEZST3VOa1pHS2I0c2xEVQ?oc=5",
+          "published": "2026-09-02T16:32:27+00:00",
+          "publisher": "Center for American Progress",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Despite President Trump\u2019s Claims of Foreign Election Interference, He Has No Legal Authority To Declare a National Emergency and Unilaterally Nationalize Elections - Center for American Progress"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
@@ -192,7 +252,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -200,28 +260,9 @@
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "canonical_link": "https://www.iconnectblog.com/the-unitary-executive-theory-after-slaughter-a-comparative-hispanic-perspective/",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd1RiVThoUVhsWXdDR1luSWZOWExYWENJYjdHWWR0THpDVEFKanFadFJoUEVmTXpJYmR1N2dyN1VwSEtEZFhWTno2OVMzVGdNaXBIOFdEZi1zeFdKZkN0YW9nMHZGVjFJMjNmZkk0Z3llNDRfWHpDckdtbXY1QW9BR1huUGZCU25HM2pheVU5NlpLanpnbEtTRzJTN1Z1UEhQM0lOdWdGMnRNSzJmUEE?oc=5",
-          "published": "2026-09-01T06:06:14+00:00",
-          "publisher": "www.iconnectblog.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "The Unitary Executive Theory after Slaughter: A Comparative Hispanic Perspective - www.iconnectblog.com"
-        },
-        {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id\\u003d124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-09-01T04:31:01+00:00",
-          "publisher": "abcnews.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - abcnews.com"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "independent_agency_capture",
       "name": "Independent Agency Capture",
       "override_note": null,
@@ -230,45 +271,26 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.9,
-      "severity_label": "Watch",
+      "severity": 0.55,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "canonical_link": "https://www.courtlistener.com/docket/74701505/4/15/state-of-california-v-united-states-postal-service/",
-          "link": "https://www.courtlistener.com/docket/74701505/4/15/state-of-california-v-united-states-postal-service/",
-          "published": "2026-08-26T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
-          "source_tier": "primary",
-          "title": "State of California v. United States Postal Service"
-        },
-        {
-          "canonical_link": "https://www.the-downballot.com/p/morning-digest-wild-deadline-maneuvers",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Cc0JUanRZMENVbDRFV2pCZURnY0VGMEhVZnJtVDVWeUNlM2NnRHJITjVicHlJNHRmTkNxa1BPRG9fR3BPS2F3MC13eEwzWXh0SE9kVGhrUktQYWVwcHcyYnFTbWtOSUZhYnp4NEFXTm1qTVE3eEc5cTItYw?oc=5",
-          "published": "2026-09-01T12:01:32+00:00",
-          "publisher": "The Downballot",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Morning Digest: Wild deadline maneuvers cause major upheaval in Alaska's marquee races - The Downballot"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 1,
+      "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
