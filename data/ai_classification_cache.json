@@ -251,6 +251,16 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/03/2026-18061/determining-the-appropriate-penalty-for-federal-employees-charged-with-misconduct",
       "rationale": "An official final rule by the MSPB, effective upon publication in the Federal Register, eliminates a longstanding procedural safeguard (the Douglas factors test) that previously constrained agency penalty selection in misconduct cases. This change immediately alters the legal landscape: agencies can now dismiss employees for misconduct without MSPB review of penalty proportionality under the prior multi-factor framework. The removal of this safeguard is itself an accomplished action, not a proposal. However, the severity is limited to 2 because the action is narrow in scope (affects one adjudicatory procedure), targeted at a specific category of decisions, and does not yet constitute a wholesale structural failure or a purge in progress. No mass dismissals have occurred under this rule; the change creates a new permissive legal condition for politicized removals but does not demonstrate that such a campaign has been launched.",
       "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/09/04/2026-18164/driving-efficiency-in-farm-loan-delivery": {
+      "actor": "Agriculture Department, Farm Service Agency",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/04/2026-18164/driving-efficiency-in-farm-loan-delivery",
+      "rationale": "This is a routine rulemaking by the Farm Service Agency to streamline the farm loan application process through expedited underwriting using financial benchmarks and historical data. It concerns procedural efficiency in loan delivery, not politicization of career civil service or reclassification of personnel under Schedule F or similar mechanisms. It does not implicate removal of civil service protections, at-will reclassification of career employees, or politicization of the bureaucracy. This is ordinary administrative housekeeping unrelated to the signal.",
+      "severity": 0
     }
   },
   "court_order_noncompliance": {
@@ -526,6 +536,16 @@
       "rationale": "A governor vetoing a bill that would restrict early voting is an act that occurred, but it is orthogonal to the signal of election administration capture by partisan forces. A veto of a restrictive elections bill reflects a check against partisan election control rather than evidence of it. The item describes a legitimate constitutional process (executive veto) being exercised to block a measure that would constrain voting access. This is not evidence of movement toward partisan capture of neutral election administration; rather, it demonstrates the opposite\u2014a constitutional restraint against such capture.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNnE2YS1wZTRXRkpRWFV1WEw3c0pkekQyaC15NTAzT1kxT1lDczRlRmswTWZ5TkdiZWx0OS1GTFNJT2x2c3ZFcER1bWNTY1h0ajg1SW5YV0Y0ZU1pT3RaQkVTX2FaZEdpV291ZnlvaWVfQV80X2ZLVF9vTXdsWTY5d0cwb0VaQU02cjY1U0h4QlZYUEpXSnFaX2N2OTFrZTRrRDNHRlAyM3hEemZ5b3R5U1lLaHRMcExObmc3bkJuRzZLdzJNUGJOdzBUeHB4ZlZJMzk1b0U1LWZvTW10cEE?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a speculative/opinion piece asking 'could this lead to corruption?' about prediction markets on election outcomes. It poses a hypothetical concern about potential corruption risk, not evidence of an actual capture of election administration by partisan actors. Prediction markets betting on election results are a separate activity from election administration itself. No verifiable action moving election administration from neutral process to partisan control is described or evidenced.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONndUS21ROTdMQVZhbWJwTVF0dTBjMFNtYjhvU01iM1JXbkZhS0pHdHd6V1Z6UWxhM1hIOEhmUmt4UnBSakl5aXRNTk93X192VlZsdXQwOFdvN1pMckdhY1VWbFRBOC1mRGtMWEpEUDl1V0FoZ05IU0FwcGhfS1RLeW9FWmtSdlJFR3p5cUY2ZzdEQk0tUmxJd0dvOGlvaktEUjBsZWtfejhKX1VIYlJBU19WWjlYWWtBQ3F6MC0wdGFuRkF1RmlCVTdCS09ma1ZwSFBOR1RWWHIzb2VCT1d3?oc=5": {
       "actor": "Michigan Board of State Canvassers (Republican members)",
       "confidence": 0.78,
@@ -555,6 +575,16 @@
       "primary_source_url": "",
       "rationale": "Opinion/analysis piece alleging planned actions is not evidence that an event occurred. Allegations of future plotting are hypothesis, not confirmation of actual capture or partisan control of election administration. No verifiable action documented.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBzQUpqd2pfTk1vNEVudWJjU00xVF9hcTc2NndCTjVlc1hqYkk2UmR2ZmNnZGJjakVLVWYwVjM2SXNwck8yVE1xalVwSlRGaXZrNU9UQXZxV2k4ZlVCOUFVX0ZNWQ?oc=5": {
+      "actor": "Trump Administration / U.S. Postal Service",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.nytimes.com",
+      "rationale": "A U.S. Postal Service system for 'ballot-screening' (selectively screening or handling ballots) represents a direct and serious capture of the ballot delivery and handling process by executive-branch actors under administration control. The USPS is a federal agency; a system that screens ballots before they reach election officials removes a crucial neutral checkpoint and shifts ballot handling authority toward partisan executive control. This is not a proposal or concern\u2014it is an active construction of a new system that alters ballot administration. This constitutes a confirmed, serious action moving election administration from neutral process to partisan control. Severity 3 reflects the structural seriousness: ballot handling moved into an executive screening apparatus.",
+      "severity": 3
     },
     "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Zc0NuUFg3T0xsb080WEJCWkFFYW5HYkVBdkJHQjdpS0tnX2xMczA2eS1nNS1iQkswajFSVFVIa2hwU2E0ZnhZVnhyX1haRTBCSU1rdVhDYko2MlpRSVpOblpEQnhyX29zUGhv?oc=5": {
       "actor": "House Democratic member; Postmaster General",
@@ -1965,6 +1995,26 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74723765/1/v-sherman/",
       "rationale": "This is a routine civil complaint filed in federal district court. The docket entry documents a standard lawsuit initiation with filing fees and case assignment. There is no evidence of retaliation against any watchdog function, Inspector General, or anti-corruption monitoring body. The complaint title and parties do not suggest any connection to Inspector General retaliation or obstruction of oversight. This is a normal court filing and does not constitute evidence that an IG retaliation event occurred.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74737781/1/board-of-trustees-sports-arena-employees-local-no-137-retirement-plan-v/": {
+      "actor": "Pension benefit trusts (plaintiffs)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74737781/1/board-of-trustees-sports-arena-employees-local-no-137-retirement-plan-v/",
+      "rationale": "This is a routine civil complaint filed by pension benefit trusts against the Pension Benefit Guaranty Corporation. The docket entry reflects a standard lawsuit concerning pension benefits and guaranty functions. There is no evidence of retaliation against an Inspector General, watchdog, or anti-corruption monitoring body. This is ordinary civil litigation in a pension dispute context.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74739260/1/casares-v-south-carolina-department-of-corrections/": {
+      "actor": "Laura M Casares (plaintiff)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74739260/1/casares-v-south-carolina-department-of-corrections/",
+      "rationale": "This is a routine civil complaint filed against a state corrections department. The docket entry reflects the filing of a standard lawsuit, not a retaliatory action against an Inspector General, watchdog function, or anti-corruption monitoring body. The complaint does not allege or evidence retaliation against oversight mechanisms. This is ordinary civil litigation.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -2128,6 +2178,16 @@
       "rationale": "This item describes a civil-society movement by an attorney to defend courts against intimidation. It is not evidence of an actual judge-intimidation campaign occurring; rather, it describes a defensive response to concerns. Moreover, the source is a business publication summarizing a movement, not documentation of official pressure on judges. This is background or opinion context, not evidence of a verifiable intimidation event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOckJwN1VnUjc3X2R6SW5zTG82UTgyZi1FSnBWSWl4UkpYaFJYX0c4MTdVR0FHY0lRSHJtZ2ZnRXZ5QnVhdVVxVW5GOVR6eklVY0ROQUFUMDdXOE9lMGUtZUwwNXd5TUhXTGtiLTZwSWFSYTJLX2h4VE14ZzVoc3BOclNvRzRhclZkSldWd1lIaG1XeFFaX2NBa1k3S014T1dkajNRclVGRnZYRmxTa29IVnY2WDhZUGRfTmxkYVpNMzVEYnk0ZHBLeXhNMEp5U0J6c09aVDZTSFAtd0s5cDJ6WVZUOA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns events in the Philippines (Malaca\u00f1ang, Quezon City court, Vice President Sara Duterte), not the United States. The signal pertains to judge intimidation campaigns within the U.S. constitutional framework. This is non-U.S. and therefore outside the scope of assessment for this signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTHJXMnBSRU1iTXN4bkN2dVluR2xqanQ3X3AzWVBxb3E3VUpRNDV4WVdiclR1bnctUUJjS2l6RnpwTFhXZ0U0enA5YWp4NTRmUlNMa2tGZ1FMVEYwLV9SejhDYlEtQUZoVjZvcjBJUnFuN29rNzhGRk4wYVVVdWFFWE83RnZRTkhxb2NINnBUS1BCVWcxR1VYM1BqWmI1RWF0TnJod0RRTlltZ0VqcW5QaUJ5ZExublNEUEdBTUVzMDRFRTg5X0NDRDcyRUF3UUkwRHNZNmNZbTBLRDlQU1VxNmxYNHRmTkU?oc=5": {
       "actor": "N/A",
       "confidence": 0.75,
@@ -2238,6 +2298,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.thedailyonline.com",
       "rationale": "This is an extremely sparse report of a routine merits decision on a construction matter (ballroom construction). There is no indication of a threshold dismissal, standing denial, justiciability bar, or foreclosure of review. A court ruling on the merits of a property dispute is the opposite of judicial review foreclosure\u2014it is the court exercising review. The item provides no basis to believe the signal's event (courts closing the door on review on jurisdictional grounds) has occurred.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMibEFVX3lxTE9laDMzbWo2LUloWjNYbUxBblA4R0Vremp0SXd5b0V4Y0Z0YU9mMHV0OUlNY2NHS1ZFRkpUQlA4Wjk2NWpNWjNfVjVCXzNfbWdDVDBBb3pGNUFLRklnNDBJd3hHVUhSTF9rZ3dTYg?oc=5": {
+      "actor": "amNewYork (opinion author)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://amnewyork.com",
+      "rationale": "This is an op-ed (editorial commentary), not a report of an actual court action or legal judgment. Op-eds are commentary about the law or court decisions, not instruments that change legal positions or close avenues of judicial review. Without access to the full text, it appears to be criticism of a Supreme Court decision on an unrelated matter (a ballroom decision), not evidence of courts foreclosing review on threshold grounds such as standing or justiciability. Commentary expressing disagreement with or embarrassment about a judicial ruling does not constitute evidence that judicial review was actually foreclosed or that a threshold barrier to review was erected.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pWHNJQUhFUUJSN3Z6TS1qN0xrek1QdnlGdHVfZkgxMVFXUndrMTlKNzhtS3ZhcThNUHpfcG5Ea09WMzdtQjkyd0doTTdfQXVtS1hhVHRnWHpxMTBEUWY2MGhueVo5bFNKbG5qbjFJa2J2ekk?oc=5": {
@@ -2996,6 +3066,26 @@
       "rationale": "Meta-reporting comparing coverage of the same underlying event across 11 outlets. The event itself (Black's lawsuit and non-compliance with subpoena) is confirmed and real, representing obstruction of legislative oversight.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQeU0ybGlpYUZzcnFSS2hDYWQ3ODI4Qld0MHJncklLSXV1NHBTdUZsbDN3dm5EMjdKLWk1UC1kU0xJNk1KQmRDM0JGTzlaUEhWR1V4MEdTUWVkT0FaYllScDk5LVBMVDBuY1ZOY05IcWg5NENLSm9mLTBNQy1ZRDhXaVM4Q2RYU3RJS1VvYjl5RDZJODA3R2s3eWpsSlFfdXhWZzVySkNVa01rNVRocVZ2U0xVaWhveV9Kd1pwVE9wcldZRlVVb0Y0NzFRV3pvNnpKQWRHdTg5NXZCdw?oc=5": {
+      "actor": "Leon Black (private citizen); quoted House Oversight Rep. responding",
+      "confidence": 0.74,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://msnow.com",
+      "rationale": "House Oversight Representative states Black should be held in contempt, confirming the defiance occurred and that the legislature is aware and responding. This is evidence the obstruction event occurred; the rep's statement is the legislature's reaction to a real obstruction. Severity 2: confirmed but isolated.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WaHN3YTVnd2s3ZkpLNlJXVHp1QmcyeVFnNFgtb1I3bjdiRWxsQ25RakpTekJVa1ZPN0dEVjFqQlFIQkx2OFVkVWZsSzQ1U2xEYVBXN1c4ZGQ4cmZO?oc=5": {
+      "actor": "Leon Black (private citizen); House Oversight Rep. (quoted)",
+      "confidence": 0.7,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://youtube.com",
+      "rationale": "Video summary captures the same incident: Black defying the subpoena, with a House rep calling for contempt. Real event, legislative response documented. Isolated defiance, not systematic. Severity 2.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJelNWVXItVlBqeEdhbVVDLUN2Q2hJZjd4MHhrdmpHaDJ1Sjd6ZjZsQXpuVnNjZkJ4ejFZWTNiaGZqZUJ1bUc4UXpZQW0zZjZrR3lFN01XTWxub3ZYSU9oSXFBclF1UEtfMVJqdW50UTFtVms?oc=5": {
       "actor": "Leon Black (private citizen)",
       "confidence": 0.85,
@@ -3026,6 +3116,26 @@
       "rationale": "Same underlying event as item 0: confirmed report of a subpoena recipient suing to block congressional investigation. The characterization of the suit as challenging 'fishing' is the plaintiff's legal theory, not a denial of the event. Real obstruction of legislative fact-finding has occurred through litigation.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNTVOUHZYM2FFOWVUeGhtb2hCRWcya1VSY3JhWS1Wd3NXdFRtNnU3SDB5OEVvRmJWTlhPNHJ2QjdYMHFTZ1hsdnNaVGV1cUhFLXFQd0lZWmJlZkFNME82QndwMWxNWEl5aTlHY1pLSVFWLUxfQVNNQ2Q1a1BwTVNtakZfMGRidw?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://npr.org",
+      "rationale": "NPR confirms the same event: Leon Black defying a House subpoena in an Epstein inquiry and filing suit against the House panel. Real occurrence, credible source. Same rationale as item 0: isolated defiance by a private citizen, not systematic legislative obstruction by governmental actors. Severity 2.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU0xSX1hXc1JMVUExRmlfQW1STDVwcnJZX0k2ck1LaHFmU2hweFB6T2p4UDFJVDhfbklXWm9odk1mNTRBZHJ2bGlici1Dd3g1ZmxQekcteGt1TzNWNGRtdXhPUkowbnlJMmN0ZzFweUt2YWdPVzZJb0o3ZUhZYl9ocU16eWUwUDQ?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://ibtimes.co.uk",
+      "rationale": "International Business Times reports Black defied the subpoena, citing NDAs as his basis, and sued the House committee. Real event confirmed. Isolated defiance by one private party over a specific discovery request, not systematic obstruction of legislative oversight authority. Severity 2.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiigFBVV95cUxQY3RBSVE3QXZhUXVRUFo1MkE5NExqZDYzYTBFX0lNbGtBR0syQ1JMaDlvaWJuamsyZE1rTlpfcnpKUkEzbUhGMFBQYlFDdjhPMnA4NzhnZTBzTy05d2pHSERyZkJ3bUlUMURXYlhGMTA0Z0poQkFXQ1BRQWp3aTRiMGRNOUpZZXRCamc?oc=5": {
       "actor": "Leon Black (private citizen)",
       "confidence": 0.85,
@@ -3036,6 +3146,36 @@
       "rationale": "Confirmed report of the same event: ignoring of subpoena and filing of suit against House Oversight Committee. Direct obstruction of legislative fact-finding through non-compliance and litigation.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZTFRalhJUW51OVo1UU1SdGdmVzVTTWNEQl9LdXlyaEN4TzBaSG9TLVprMkRPaWxoZ01zMFZzZUNYbzN6b1BTUWxYUHgwUHQtV3drWlFTc0hITWkxTk13cjVFeVh5bmpjdGJYUDdRd2FGN0tzWDhNcjNDM0tETU1zcmhWaXoxSzNmZnVhWXBGTXI3X3BH?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "lawcommentary.com",
+      "rationale": "A private citizen has defied a House subpoena and filed suit against the House Oversight Panel. This is a credible, confirmed defiance of legislative fact-finding authority. However, this is an isolated action by one individual against a specific congressional committee, not a systematic obstruction by governmental actors or a structural pattern. The signal concerns 'systematic barriers' to legislative accountability; a single lawsuit by a private party challenging a subpoena is a real stress (the subpoena is being contested), but does not rise to systematic or structural obstruction. The legislature retains enforcement mechanisms (contempt proceedings). Severity 2: a real, confirmed stress signal but contained and not yet systematic.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxPamF4bUM2WnVjWHBFZHM1Qk5JNWRGMjJUOUFjb0FqaFhDVFhzNUU4VUFuel9IYVU2ckRCbDZTZjNJNXA4TkNNTXNFWlNoVldqVWZWNl9BNTVkWURqUmRab09uZkZEQ3NiOVhHRWVxTVFLYUtLTXNtVFliNkxxb29wVGNETnFTQV9EWWJvUHpJOC1PdGJpOFk40gGcAUFVX3lxTE5hT3o3NFZ0YjdEbW1UWnNPc19YbDhNYURRNzZjWE5DX3RjRE9RRF83QkZaUGZ3b2JDZWNyYVNtMnRfbmlQb1lxcG9peEx6MlV2cnJnb2c3QXFVNThYRDJGNGtLaDByRnFiY1ZIWXVZOVNvTU9lb0d1Q09NcDdSc3JxY0pfZDBXbEVna0w4SkZVZ0RuREtVV0xwOENERg?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://cnbc.com",
+      "rationale": "CNBC confirms Leon Black sued House Oversight and did not appear for scheduled subpoena compliance (Thursday). Real, confirmed event. Isolated defiance by a private citizen in a specific probe, not systematic governmental obstruction. Severity 2.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMimAJBVV95cUxOVXpNRTdSVTZTN19PbkdWZXJ4eEp3aFdhamZ1d2dMQlhFV2NjaE1UeUZEVGpVclFhNFBOSE9WRFZLNE0tQ0E1UHBsVmdqWDhnajlub2p4bVpMaER3V01ZamZ6S19PdkdTak1RMXdlRGxYWGxYRUpscnd1bk9hcmFNcGkxbDBaaXpSUzQxbkxJTm1ueVZ4bnpQYi13NjYtcmFLOXZZbG5HXy1BdWU5bUt6S29Gd3BnV1VBZ0RKamFjb1dVaE00eTBHUUxSZHZfdVhWd2d1ZlZ0d09FdFFHazhPYUhZWEZwNGI4c0J2Ukg2QjdINFRrUGxCY0hUaDNQMjd5bFZfZEtEQnZrb0xpSWhicFEtS1pKSnVw?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://bozemandailychronicle.com",
+      "rationale": "Confirms Black skipped deposition and sued the committee. Real event. Same context: isolated private-citizen defiance of a specific subpoena, credible legislative obstruction signal but not systematic. Severity 2.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWExPUzNIXzk1d0g5b19QakJCbk1BNXVHYzR4dDI4bmItLUZPTmwzMnNub0tSbWI4MkRDeHZkS01qLU4xcG41U1VQRldZZVhVSlZlYlpRZFdROE5CTmFMaElIdG5rVjdWSjdqMV9iQWRSazBtUzlTUHphUWxhTjNQTDF3Uk5tSndRT2hramRNTTNfX1l4VnR5Njg5TDdlcUhfS3lDaXNLb3RjengtQklB?oc=5": {
       "actor": "Leon Black (private citizen)",
       "confidence": 0.85,
@@ -3044,6 +3184,26 @@
       "matches_signal": true,
       "primary_source_url": "https://www.independent.co.uk",
       "rationale": "Confirmed report of Leon Black filing suit to block congressional subpoenas related to Epstein investigation. Real obstruction of legislative fact-finding through litigation and non-compliance.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcjZqX1dFZUVHYmFWbk5TWWVQRlpuT0d5X0s5Q1c0ajdjV1FxZ2M2SXlQSFlSM0tRZFd0QWE2WGpFQVFMQWpoQm8wQV9qN0hVWDZYWFQxaDJsOUc0Q2xnUnB2YlRMNUpJcEc4UVN6TXMtbWp6cXpic3FpTzh2eVh1cVMtaER6YVhydjc1NHVoNHZ0VGVWT2QyTUJ1Vllrdk1pNmlNeXpTYV9Xek5TTjFuV1pB0gG3AUFVX3lxTE0wdHp5Q1ZRMVd3VkNmUnRjSzZYY1h1MVNjRG5ueGVVR3BTRE1NY1VvNnFHLTNoVDNYLUJyajFtYkRlOTVIRXJRbVlCWHhlbHVqWFM4eWJHYlJpVFpxeXhNTFk5Y05tWFVCQV9aTGpBb3RtTEYyVWZKSTU0bm9PS1ZUVTI5Rkwtc1ZkSHNUay14Z3lzZFFPdkpyTmg3MEt1NVBjQWZlWXVKSllvbW5JeWVfUXh5c3Bacw?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.73,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://aljazeera.com",
+      "rationale": "Al Jazeera covers the same event. Leon Black sued a congressional panel over an Epstein subpoena. Same assessment: real occurrence, isolated defiance by a private citizen, credible signal of legislative obstruction stress but not systematic. Severity 2.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNi1vVl9hZjhHV0l3b1dOaFBaQk5xVjFLdkhmOEhFZGk3OUltQ2owdjlxZXk2VF9QcVlXWFV4RTdFMVRud1d3X29Cd2VuTnRLQXpEdXQzMDV2bTBMd0YyY2ZzVTF4Qk9TWnVjMzBUSjdLQllrXzY0cEtNVXNxNEhLLW1uNzl0RnlHQ3ZMNEhKRy1ISXpHWE9WcTFnMjQtcnhzNGV5UW9vcWd1QVlFc3laM24xYw?oc=5": {
+      "actor": "Leon Black (private citizen)",
+      "confidence": 0.73,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://inkl.com",
+      "rationale": "Confirms Leon Black defied an Epstein probe subpoena and sued House Oversight. Real occurrence, credible source. Isolated private-citizen obstruction, not systematic governmental interference with legislative fact-finding. Severity 2.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOE9iTUtZQW5ZTDY1c0djTXhWcVJvVDFPVU9LSEthYUpqblBzX0ZTaTMzRXc2LUpCUmczWklKLWItcHpYT3MwNksxVG5vR1Q0TFNRMkUxU3E0SmprbDdiMmRCbzUxMmNiRW9TeHhsTUZmc0pLZlZNN1FLdTNsbTB3OEI1TWNsX2xVWTRNNUZ6R29XcUlwa214djExNHFjeVlyaW9weGRsaWhuOTktQV9xQUtsckpGOFJ3cXVqODVn?oc=5": {
@@ -4434,6 +4594,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This article concerns India's 2027 Census and trust deficits in India's statistical system. The signal monitors U.S. federal statistical agencies (BLS, BEA, Census Bureau). Events in other nations do not constitute evidence of constitutional stress in the United States.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxORHlScEdPdUJhYW56MTRjMGhMX1VSd1VjbUpiTWh0UVhUUV81X0kyMDhpM2J0SGUwTDFGbUQ5MHF1TElpeWRIaWJDTWtrVFgzRS1zWkRvOUxQZ2dmY1l2a3BvamhEZS1YdG41T3k5dmRqV2w0ai01QkNQaU1rMlJXajh6QkdRY1ZKOGFCSnN3OXJ6TjhUamlYRUYwbVZGYm1Fa3dFcG1IT1ZNMFJuRmZhbDFfQzRCdVQ3aHJtRm01RWU4LVVkVHc?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item provided is a bare headline/title with no substantive content ('The quiet storm threatening Washington data - Politico' and 'summary: The quiet storm threatening Washington data Politico'). Without article text, quotes, named actions, or concrete details, this cannot be assessed as evidence of a real occurrence. It is a headline only, which may refer to a hypothetical concern, opinion piece, or analysis rather than a verified event affecting statistical agency integrity. A headline alone\u2014without facts about what actually happened\u2014does not constitute evidence that political interference with BLS, BEA, or Census Bureau occurred.",
       "severity": 0
     },
     "https://www.federalregister.gov/documents/2026/08/21/2026-17114/rescission-of-executive-order-11246-implementing-regulations": {
