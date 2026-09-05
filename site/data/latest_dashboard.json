@@ -1,22 +1,22 @@
 {
   "attempted_queries": 24,
-  "average_7d": 12.43,
+  "average_7d": 12.94,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
     "max": 29,
     "min": 15
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 11.0,
-  "delta_vs_7d": 8.59,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": 5.72,
   "domain_breakdown": [
     {
-      "avg_severity": 2.0,
+      "avg_severity": 1.65,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 11.0,
+      "points": 9.075,
       "weight": 22
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.475,
+      "avg_severity": 0.3,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.1875,
+      "points": 0.75,
       "weight": 10
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-04T16:27:24.857237+00:00",
+  "generated_at": "2026-09-05T15:19:28.054810+00:00",
   "methodology_version": 2,
-  "previous_score": 10,
+  "previous_score": 21,
   "primary_sources": {
     "documents_confirmed": 3,
-    "documents_fetched": 15,
+    "documents_fetched": 13,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,24 +86,33 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 21,
-  "score_raw": 21.02,
-  "score_raw_pre_trip_wire": 21.02,
+  "score": 19,
+  "score_raw": 18.66,
+  "score_raw_pre_trip_wire": 18.66,
   "successful_queries": 24,
   "top_signals": [
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://www.nytimes.com/live/2026/09/02/us/trump-news",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBzQUpqd2pfTk1vNEVudWJjU00xVF9hcTc2NndCTjVlc1hqYkk2UmR2ZmNnZGJjakVLVWYwVjM2SXNwck8yVE1xalVwSlRGaXZrNU9UQXZxV2k4ZlVCOUFVX0ZNWQ?oc=5",
-          "published": "2026-09-03T02:55:08+00:00",
-          "publisher": "The New York Times",
+          "canonical_link": "https://phl17.com/spotlight-pa/pa-election-results-shapiros-speeches-and-state-laws-are-all-prediction-market-bets-could-this-lead-to-corruption/",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQNnE2YS1wZTRXRkpRWFV1WEw3c0pkekQyaC15NTAzT1kxT1lDczRlRmswTWZ5TkdiZWx0OS1GTFNJT2x2c3ZFcER1bWNTY1h0ajg1SW5YV0Y0ZU1pT3RaQkVTX2FaZEdpV291ZnlvaWVfQV80X2ZLVF9vTXdsWTY5d0cwb0VaQU02cjY1U0h4QlZYUEpXSnFaX2N2OTFrZTRrRDNHRlAyM3hEemZ5b3R5U1lLaHRMcExObmc3bkJuRzZLdzJNUGJOdzBUeHB4ZlZJMzk1b0U1LWZvTW10cEE?oc=5",
+          "published": "2026-09-03T22:27:15+00:00",
+          "publisher": "phl17.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump Administration Updates: U.S. Postal Service Rapidly Builds Ballot-Screening System - The New York Times"
+          "title": "Pa. election results, Shapiro\u2019s speeches, and state laws are all prediction market bets. Could this lead to corruption? - phl17.com"
+        },
+        {
+          "canonical_link": "https://newrepublic.com/feeds/168326/breaking-news",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xSkpzYkpQeC1iNDJjbDNpdlRfYTh0SjFBdjVabWNwSElpWEdkMWpGVGVZQ1BiRXBHaHI5NXFYR0tRdTRYRFRNRVVWZkRQelRXTDZ6NUo3QXl2UW04UkV3?oc=5",
+          "published": "2026-09-04T14:57:59+00:00",
+          "publisher": "The New Republic",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Breaking News - The New Republic"
         }
       ],
       "evidence_mode": "ai",
@@ -113,15 +122,15 @@
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.nytimes.com",
-      "rationale": "A U.S. Postal Service system for 'ballot-screening' (selectively screening or handling ballots) represents a direct and serious capture of the ballot delivery and handling process by executive-branch actors under administration control. The USPS is a federal agency; a system that screens ballots before they reach election officials removes a crucial neutral checkpoint and shifts ballot handling authority toward partisan executive control. This is not a proposal or concern\u2014it is an active construction of a new system that alters ballot administration. This constitutes a confirmed, serious action moving election administration from neutral process to partisan control. Severity 3 reflects the structural seriousness: ballot handling moved into an executive screening apparatus.",
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 3.0,
-      "severity_label": "Orange",
-      "unique_publishers": 1
+      "severity": 2.65,
+      "severity_label": "Yellow",
+      "unique_publishers": 0
     },
     {
-      "confirmed_hits": 15,
+      "confirmed_hits": 7,
       "critical_hits": 0,
       "domain_id": "federalism_oversight",
       "evidence": [
@@ -129,10 +138,10 @@
           "canonical_link": "https://www.lawcommentary.com/articles/leon-black-epstein-subpoena-house-oversight-lawsuit",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZTFRalhJUW51OVo1UU1SdGdmVzVTTWNEQl9LdXlyaEN4TzBaSG9TLVprMkRPaWxoZ01zMFZzZUNYbzN6b1BTUWxYUHgwUHQtV3drWlFTc0hITWkxTk13cjVFeVh5bmpjdGJYUDdRd2FGN0tzWDhNcjNDM0tETU1zcmhWaXoxSzNmZnVhWXBGTXI3X3BH?oc=5",
           "published": "2026-09-04T02:52:40+00:00",
-          "publisher": "lawcommentary.com",
+          "publisher": "Law Commentary",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Billionaire Leon Black Defies Epstein Subpoena, Sues House Oversight Panel - lawcommentary.com"
+          "title": "Billionaire Leon Black Defies Epstein Subpoena, Sues House Oversight Panel - Law Commentary"
         },
         {
           "canonical_link": "https://www.washingtonpost.com/politics/2026/09/03/epstein-client-leon-black-sues-oversight-committee-over-investigation/",
@@ -144,17 +153,17 @@
           "title": "Billionaire Leon Black ignores Epstein investigation subpoena, sues congressional committee - The Washington Post"
         },
         {
-          "canonical_link": "https://www.npr.org/2026/09/03/nx-s1-5955643/leon-black-jeffrey-epstein-lawsuit",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNTVOUHZYM2FFOWVUeGhtb2hCRWcya1VSY3JhWS1Wd3NXdFRtNnU3SDB5OEVvRmJWTlhPNHJ2QjdYMHFTZ1hsdnNaVGV1cUhFLXFQd0lZWmJlZkFNME82QndwMWxNWEl5aTlHY1pLSVFWLUxfQVNNQ2Q1a1BwTVNtakZfMGRidw?oc=5",
-          "published": "2026-09-03T22:19:02+00:00",
-          "publisher": "NPR",
+          "canonical_link": "https://www.aljazeera.com/news/2026/9/3/billionaire-leon-black-sues-us-congressional-panel-over-epstein-subpoena",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcjZqX1dFZUVHYmFWbk5TWWVQRlpuT0d5X0s5Q1c0ajdjV1FxZ2M2SXlQSFlSM0tRZFd0QWE2WGpFQVFMQWpoQm8wQV9qN0hVWDZYWFQxaDJsOUc0Q2xnUnB2YlRMNUpJcEc4UVN6TXMtbWp6cXpic3FpTzh2eVh1cVMtaER6YVhydjc1NHVoNHZ0VGVWT2QyTUJ1Vllrdk1pNmlNeXpTYV9Xek5TTjFuV1pB0gG3AUFVX3lxTE0wdHp5Q1ZRMVd3VkNmUnRjSzZYY1h1MVNjRG5ueGVVR3BTRE1NY1VvNnFHLTNoVDNYLUJyajFtYkRlOTVIRXJRbVlCWHhlbHVqWFM4eWJHYlJpVFpxeXhNTFk5Y05tWFVCQV9aTGpBb3RtTEYyVWZKSTU0bm9PS1ZUVTI5Rkwtc1ZkSHNUay14Z3lzZFFPdkpyTmg3MEt1NVBjQWZlWXVKSllvbW5JeWVfUXh5c3Bacw?oc=5",
+          "published": "2026-09-03T15:59:39+00:00",
+          "publisher": "Al Jazeera",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Leon Black defies subpoena to testify in Epstein inquiry and sues House panel - NPR"
+          "title": "Billionaire Leon Black sues US congressional panel over Epstein subpoena - Al Jazeera"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 15,
+      "hits": 8,
       "id": "legislative_oversight_obstruction",
       "name": "Legislative Oversight Obstruction",
       "override_note": null,
@@ -165,34 +174,25 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 15
+      "unique_publishers": 7
     },
     {
-      "confirmed_hits": 2,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
           "canonical_link": "https://abcnews.com/US/usps-makes-new-rules-mail-ballots/story?id\\u003d135879673",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5",
-          "published": "2026-09-03T23:10:06+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-09-05T10:08:57+00:00",
+          "publisher": "abcnews.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Supreme Court allows Trump to implement parts of his mail-in voting executive order - ABC News - Breaking News, Latest News and Videos"
-        },
-        {
-          "canonical_link": "https://www.legalserviceindia.com/Legal-Articles/who-controls-american-elections-trump-mail-ballot-order-supreme-court/",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTnpHVXFEc1UybGFBWmlueUFsZTlVMU9oeGlMR0dvQ1pCbndKNHN4d21iR1V0Wm9wUEpDZXFuWW9SZkszNFFIWUFUcE55ZmJ6VDl6c1VJWnZibjNWWUdlSGdpdkR6dlRJQ2EwZVFGelp2eXZPUVc3cm0xZlgySWlHNDJsZGxxd2FhNDYycmlLS3U4Mk0wQmpZZDhwekFUSkJQWGdxM0hFQWZONFNNOEVneFdSdjU3dUFLc184?oc=5",
-          "published": "2026-09-02T21:52:39+00:00",
-          "publisher": "Legal Service India",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Who Controls American Elections? Trump\u2019s Mail-Ballot Order and Supreme Court Battle - Legal Service India"
+          "title": "Supreme Court allows Trump to implement parts of his mail-in voting executive order - abcnews.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 2,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -203,7 +203,7 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 2,
@@ -276,9 +276,19 @@
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
+      "evidence": [
+        {
+          "canonical_link": "https://njtoday.news/2026/09/05/us-sanctions-italian-tech-collective-in-politically-motivated-crackdown-on-dissent-2/",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdG55Q3BmTmVYYmt1UzZraS0tTXpFZlF3Nm1OWlF4dUQ5RmtoOFljbDhCN1lsR0tpWWdYRV94OHVBWHBFa1BvY1RuV05NMHBseGFLR3lyX0VGTzdnMTBBX0RmRlpmTHN4bjBEZjQyTlpmNUtweVVLNG1RNTBsS1dRemY5YlRCS2tYNHRjdUNGX1VsZ2xiNUtDZzhtSkFkUXZ5bzZMdlItSEhuUmVzTzJVaXpRa0NHRWt6?oc=5",
+          "published": "2026-09-05T06:40:41+00:00",
+          "publisher": "njtoday.news",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "US sanctions Italian tech collective, in politically motivated crackdown on dissent - njtoday.news"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
       "id": "political_speech_surveillance",
       "name": "Political Speech Criminalization or Surveillance",
       "override_note": null,
@@ -287,26 +297,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.2,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     }
