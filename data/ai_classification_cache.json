@@ -606,6 +606,16 @@
       "rationale": "A U.S. Postal Service system for 'ballot-screening' (selectively screening or handling ballots) represents a direct and serious capture of the ballot delivery and handling process by executive-branch actors under administration control. The USPS is a federal agency; a system that screens ballots before they reach election officials removes a crucial neutral checkpoint and shifts ballot handling authority toward partisan executive control. This is not a proposal or concern\u2014it is an active construction of a new system that alters ballot administration. This constitutes a confirmed, serious action moving election administration from neutral process to partisan control. Severity 3 reflects the structural seriousness: ballot handling moved into an executive screening apparatus.",
       "severity": 3
     },
+    "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyY0d3dDhTMU9aVG1Gemt6TGV0NGVrWkNBSDZROVFjSUkzLTZiTTJicTdEUzZMMzFlRnFnLWRmbEtrOXdvdmkxSHhpeW1yLWRCTUh6bDlsTFZpMVhCMXZGVQ?oc=5": {
+      "actor": "Trinamool Congress",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is about the Trinamool Congress, a political party in India (West Bengal). It is not a U.S. domestic event and therefore does not constitute evidence of election administration capture in the United States. The signal explicitly targets U.S. constitutional risk.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Zc0NuUFg3T0xsb080WEJCWkFFYW5HYkVBdkJHQjdpS0tnX2xMczA2eS1nNS1iQkswajFSVFVIa2hwU2E0ZnhZVnhyX1haRTBCSU1rdVhDYko2MlpRSVpOblpEQnhyX29zUGhv?oc=5": {
       "actor": "House Democratic member; Postmaster General",
       "confidence": 0.8,
@@ -2419,6 +2429,16 @@
       "primary_source_url": "",
       "rationale": "Same as [0] and [1]. Construction permitting decision does not relate to closure of judicial review on threshold grounds. No signal present.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74725295/3/soledad-rodriguez-v-warden-north-florida-detention-facility-baker/": {
+      "actor": "Judge Wendy W. Berger, U.S. District Court, M.D. Florida",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74725295/3/soledad-rodriguez-v-warden-north-florida-detention-facility-baker/",
+      "rationale": "This is a routine dismissal without prejudice in a habeas or civil rights case against a detention facility warden. A dismissal without prejudice is a standard judicial motion practice that permits refiling and does not foreclose judicial review on the merits. The document does not indicate dismissal on threshold grounds (standing, justiciability, or emergency-docket stays that bypass merits review), nor does it indicate that judicial review itself has been foreclosed. Without evidence that the court denied review on justiciability grounds or used an emergency procedure to avoid addressing legality, this is a standard case disposition, not evidence of judicial-review foreclosure as defined by the signal.",
+      "severity": 0
     }
   },
   "jurisdiction_stripping_targeted": {
@@ -3276,6 +3296,26 @@
       "rationale": "A private citizen has ignored a congressional subpoena and filed suit to block legislative fact-finding. This is a specific, credible, real occurrence of an individual obstructing legislative oversight through litigation and non-compliance. However, this is an individual defiance rather than a systematic governmental barrier to oversight, and the legislative process retains enforcement mechanisms (contempt, etc.). Severity 2 reflects a real but localized obstruction action, not a systemic failure of the oversight apparatus itself.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUVdhdGJiV1JTV0F5cjFoYkVodkNxQ2cxUURkQi00UTNlUzdhQ3c1eTlQQmpZY1J6eFZKV0JSU2UtdHI2dGlPNnNTNnR5a3pQcHBENWVEREl3VVk5VkthbmsxZWNfSk41UjNBTFRFeWlvNzJWSnZwZERhMndkMGRhUW5UZG9QZ2drRVBoU2h1cWxGWmhEd0FPTnkxeWM3UmpCZWUzUVZoVkJSRldWWTNxYk5FSGNxS0FneVczYXh1MzNMZDg?oc=5": {
+      "actor": "Leon Black (private individual)",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.thewellnews.com",
+      "rationale": "Leon Black's documented skip of a House deposition and filed lawsuit challenging congressional subpoenas constitute a real, credible action that creates an obstruction to legislative fact-finding. This is a verified occurrence of resistance to congressional oversight authority. However, severity remains at 2 rather than 3 because: (1) the obstruction is from a private individual rather than a government official systematically blocking accountability; (2) this is an isolated incident of one person's non-compliance, not a systematic campaign or structural barrier; (3) the subpoena power itself remains intact and enforceable through contempt and other mechanisms. The action demonstrates friction in the oversight process but not the systematic, institutionalized obstruction that would warrant higher severity.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUTVlbzN0em5rdTFiOFc5Q0hneDVJQUY3dDBnWE1Jc3R4d2NMYjVmM0QwUl9vdHBxQ1VFbGU0X0lPeWI2ckVBNWtzeWlMamMtVVlzS3NMWlluaUxhVEs2YXZHZTZEMzFPcm03RE9uS3Zfa2NjdWstRVhwMVNLd0xXWmNybDgxaUZNTDRLQVNDMzVUMDhOMWdrUmd5ODJ4b0xSd3BVODVSbGVDWV9lZl9qenpNWXdjYmlYQl9IU1c0THJRc3NTeTd3M9IByAFBVV95cUxOUTVlbzN0em5rdTFiOFc5Q0hneDVJQUY3dDBnWE1Jc3R4d2NMYjVmM0QwUl9vdHBxQ1VFbGU0X0lPeWI2ckVBNWtzeWlMamMtVVlzS3NMWlluaUxhVEs2YXZHZTZEMzFPcm03RE9uS3Zfa2NjdWstRVhwMVNLd0xXWmNybDgxaUZNTDRLQVNDMzVUMDhOMWdrUmd5ODJ4b0xSd3BVODVSbGVDWV9lZl9qenpNWXdjYmlYQl9IU1c0THJRc3NTeTd3Mw?oc=5": {
+      "actor": "Leon Black (private individual)",
+      "confidence": 0.71,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.uinterview.com",
+      "rationale": "Leon Black's filing of a lawsuit to block congressional subpoenas is a documented legal action that constitutes real resistance to legislative oversight. This represents an actual event, not a hypothetical or proposal. However, severity is 2 rather than 3 because: (1) a legal challenge to subpoena validity is within normal judicial process, not a categorical defiance of legislative authority; (2) the action originates from a private party rather than a government official or systematic institutional obstruction; (3) courts retain authority to adjudicate the matter, meaning the legislative power itself is not yet structurally dismantled. This is isolated obstruction, not systematic barrier-building.",
+      "severity": 2
+    },
     "https://www.courtlistener.com/docket/73690657/2/in-re-subpoenas-on-boris-epshteyn/": {
       "actor": "Executive Office of the President",
       "confidence": 0.75,
@@ -3690,6 +3730,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Zimbabwe (ZimEye is a Zimbabwean news outlet) and discusses internal political dynamics involving Chiwenga, a Zimbabwean military/political figure. It is not about the United States and does not address opposition ballot exclusion or any U.S. constitutional stress. The signal is specific to U.S. domestic events.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNHRBWE02MGd2WkUtaTRuc2dkS0hkQjllaGMzY3JmNEFFUlpBNDdQMkpsWkZtRHExQlRIMmN2Q09GdDdUWFY3QzJJeXdEaUgwVTZ4VHRsNFd4Zzl3bGFHM2RWUWpBaG56WWIzZEc5b0I2MnpHM000NlBoZGxNYUNBdnlHV1dPN01yMkxJREZxa2dxZ196M2fSAZYBQVVfeXFMUE1ZZ1VhaWlXcHo2bnJhQnNNYkhzRHN4ZWdqTG1qTUJIMHFQRmFveWdwaGxCT2JoMHZlcHB5S1ZNZzdid2VZa1VoMFZxVHBjX3A2ejhUT2pDMTZHbVVXdDJ1X0gxb1FPd2pEQWhRZnd2NlB1dVZ5TExPRng3RVZYWUYxSnJtYjNKWjhLVEtMOHNLb3NyTUpR?oc=5": {
+      "actor": "Russian government",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Russia's Yabloko party and elections in Russia, not the United States. The signal specifies systematic removal of opposition candidates from meaningful participation in the U.S. context. This is a non-U.S. event and therefore irrelevant to the constitutional-risk dashboard for the United States.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxNTUZlX2oyTThmanhnMkZZWUlCbmdzVmtKejE4WktlMWZvTHRUdkRlM2I4aVpsMS04WUZSbXBaRUQ2enlHekdoRjZNd3F3WkhMNk85aEsyVFMzTDVwTThWR3oyX3V6X0F0VE1VTEhJVlJPVjFYS0RVdVluR19Sb0c2TGtCSmxUX1NwdFAwU3BGX0tZVVJRcDM1a25rZTA4QQ?oc=5": {
@@ -4506,6 +4556,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item reports press freedom violations in Pakistan, not the United States. It concerns foreign state action and is geographically outside the scope of US constitutional-risk monitoring. No US domestic event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdG5tOHZtSElWcHQ2c0oxMmVMajlsYUtJMmpuRlBYcWJZVGlOY0dGaTNuOGU5Tm1Mb1JDZW1HT1dydW8zWjctNDZUS2ZtQ0Y5OHJLSHlPRlZKSmtHVEJvS3gxN0RyZlVRdEFMTVJQNy11OXhxaG85NjNCcjFHR2FHN1haREpYN2NaR2x0RVlsZEt2N0EzUEVPQWktVFdNVGh3QWhId21KVG9VOGtYU1FTejBZU2RxbWs?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Indian domestic politics (Congress MP Gaurav Gogoi, PM Modi, Assam Apex Bank scandal). It is geographically outside the United States and therefore not evidence of any constitutional-stress event in U.S. jurisdictions. The signal concerns press restrictions or retaliation in the U.S. context. This item is irrelevant to the dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUnJCVThpNjJQWVBSTml2S2NiTTk4RnBucTZFYmJWRTRHTE5CakpUbVo5c05VaTNrLUVXdXdfX1RwSkswMG5xVFljZXVXb2hoV05vTnEwU3JDcDdDVDZqaWdBNGdXdFFPWkNfdkt6TEcyYzBPMy1pUkNMdHNRSDNwYUNTcXF4NnNhNkd6eWxuY0F5VnNVUG1lZDBkcnVUVVVkRTU3dU4tanZQLVpJTnVyUVc4TURpQnBCSFVETg?oc=5": {
