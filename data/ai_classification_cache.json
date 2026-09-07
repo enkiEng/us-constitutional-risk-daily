@@ -2055,6 +2055,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74739260/1/casares-v-south-carolina-department-of-corrections/",
       "rationale": "This is a routine civil complaint filed against a state corrections department. The docket entry reflects the filing of a standard lawsuit, not a retaliatory action against an Inspector General, watchdog function, or anti-corruption monitoring body. The complaint does not allege or evidence retaliation against oversight mechanisms. This is ordinary civil litigation.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74748450/1/united-states-v-ganiyu/": {
+      "actor": "N.D. Texas District Court",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74748450/1/united-states-v-ganiyu/",
+      "rationale": "This is a routine sealed criminal complaint docket entry. A sealed complaint is a standard procedural mechanism in criminal cases to protect defendants' rights before arrest and to preserve investigative integrity. The sealing itself is not retaliatory action against watchdog functions or anti-corruption monitoring; it is a protective measure in ordinary criminal procedure. There is no evidence that this case involves retaliation against an Inspector General, oversight body, or anti-corruption monitor. The item contains no connection to the signal.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -2438,6 +2448,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74725295/3/soledad-rodriguez-v-warden-north-florida-detention-facility-baker/",
       "rationale": "This is a routine dismissal without prejudice in a habeas or civil rights case against a detention facility warden. A dismissal without prejudice is a standard judicial motion practice that permits refiling and does not foreclose judicial review on the merits. The document does not indicate dismissal on threshold grounds (standing, justiciability, or emergency-docket stays that bypass merits review), nor does it indicate that judicial review itself has been foreclosed. Without evidence that the court denied review on justiciability grounds or used an emergency procedure to avoid addressing legality, this is a standard case disposition, not evidence of judicial-review foreclosure as defined by the signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74747999/1/4/west-fm-517-ltd-v-city-of-league-city/": {
+      "actor": "City of League City",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74747999/1/4/west-fm-517-ltd-v-city-of-league-city/",
+      "rationale": "This item is a routine notice of removal filing in a standard civil case (removal from state to federal court under diversity or federal-question jurisdiction). A notice of removal is a procedural request to move jurisdiction, not an instance of courts foreclosing judicial review on threshold grounds such as standing, justiciability, or emergency stays. The filing itself does not evidence any denial or foreclosure of review; it is a normal exercise of removal jurisdiction available under 28 U.S.C. \u00a7 1441. No court has denied review, dismissed on threshold grounds, or issued a stay preventing legality challenge. This is ordinary civil-litigation process, not a constitutional stress event.",
       "severity": 0
     }
   },
@@ -3012,6 +3032,36 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item describes a Supreme Court striking down tariffs and a subsequent refund\u2014a normal constitutional process where the judicial branch reviews executive action and the executive complies. This represents the judiciary checking executive power, not a legislative bypass. No evidence of executive action circumventing statutes or the legislative process. The item is also vague (no credible source URL, dated 2026 which is in the future relative to typical knowledge cutoffs), lacks specifics, and does not demonstrate the signal (shift of governance from statute to unilateral executive action). A court ruling that nullifies an executive policy, followed by compliance, is routine constitutional operation, not constitutional stress.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSVlabHBtcVNXbmt5c0JkYVRJbjBKMnktalY3RHNQSVV3V1R4Q0FIbXRCV3BNNlFLTzlPazQ1Rm56TFBkVlV3UXVkZDlRTklzZC1KajFFUTRlb1A5dXNOdEFuNjB2c29SOW16SGRLazFwd2Z1Sm4wT0tWTXc2X3FzcDdFdUlpdklJM0VYeXlPZHU1YmJvVDRKN2ZmU3NuWXJUNXNqNXVfRnJzQXRFSUFqWWF3TQ?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.93,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.heraldo.us/",
+      "rationale": "Urging the Supreme Court to limit mail-in voting is litigation advocacy and persuasion directed at the judicial branch, not a unilateral executive action that bypasses the legislature. This is an appeal to judicial power to interpret law, not an executive seizure of legislative functions or a statutory bypass. No governance action has shifted from statute to executive decree.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWm5ORTlLX0V1T0gtYi1yRVZ6REhtbDU2WDFtODNjN1VjdWNkNVJfR1dMNjdkVHg4ME5KNnh1MV96SlA5Q0o0bURlNndvNk8tX2p0NkU2R0pabjR5U1dyS1hxS0o5eE92d1pFcmtKQTV2T3dJVkJyVEE4Y2w2Q1JtdDM2cVRybnQxQlpONmtZYmd3Q3FxX3RCSG91UGwyNWViZlUzMGcwdlpmeDAtN1VOSm10R1k?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.scotusblog.com/",
+      "rationale": "A Supreme Court appeal is a routine judicial action, not a legislative bypass or unilateral executive action. Appeals are part of normal constitutional process. No shift of governance power from statute to executive unilateral action is demonstrated. The event (filing an appeal) occurred but does not match the signal of executive bypass of legislative authority.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZXVzeFRRZWw4WEJheHY5U1laX1lUc2Y2TEQ4dExDT2c2eWF0QmRIcWk3Sk54VzhySE5qVE9iZk42TUJ5M0dpRDl5TEpjQTEyMzNFdjZnRnFNSTl2QVl3R2ZwWTNrUGpvbERnX20tcXgtWFpiZmM5ZjVKWWZ3NnVNUS12LW9Bd0tXQXd0aDZ6QmUyRUY1NGdpX3QxbGpSSXpLa0RmUVZDbHA4UlY2ZzJnaVdGeWvSAbQBQVVfeXFMT2V1c3hUUWVsOFhCYXh2OVNZWl9ZVHNmNkxEOHRMQ09nNnlhdEJkSHFpN0pOeFc4ckhOalRPYmZONk1CeTNHaUQ5eUxKY0ExMjMzRXY2Z0ZxTUk5dkFZd0dmcFkza1Bqb2xEZ19tLXF4LVhaYmZjOWY1SllmdzZ1TVEtdi1vQXdLV0F3dGg2ekJlMkVGNTRnaV90MWxqUkl6S2tEZlFWQ2xwOFJWNmcyZ2lXRnlr?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.94,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.realclearpolitics.com/",
+      "rationale": "This headline is an opinion/editorial headline from an opinion platform, not a report of an actual event. It expresses a viewpoint about election integrity discourse rather than documenting a real occurrence of legislative bypass or executive overreach. No verifiable action is described.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeHlQNEI4eGpqcGVZODFDV2ozNnI3ekEyOHFOYjczd1FLYUF2U1FqbF9HUjROY0c4T3RKRzdkQ0kwY2JRaVpsRU85S1JGalpXMlZUd2t0SkZ6eFkwZkJ0LWVFTTdHWUFLbGZDYWp0Wm5COTZHeHRNMEVfN0FaUlBfSjh6b2lsMWE1MEVld0NmUk9zMHhma0tSV2lvSjhsb0c5SG1fdTFXc3hsTVdQWDV3S01YQllMWDdS?oc=5": {
@@ -4288,6 +4338,16 @@
       "rationale": "Item describes a cooperation agreement between Iran and Pakistan media entities. Not a U.S. domestic event; not evidence of U.S. press restrictions or retaliation.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxQazlGaG9oVGZRZ2ltRGc5TnE0UHFma3Zza3dNcjY1dE85MG9YMG1sLVRNLWdFSGUxNTZ2RG5kbDVxeFRjN1RCWHpLNzY1RnhMOE93LUlqWURkRzNoMmNQaE9WRzdDX1pFNjE1aUk5c0ZhUWNOU1pvR1R5RlQ0dWZGeTBrcUJtenBRR0h6ZElNR3lRUQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This article concerns Myanmar, not the United States. The signal is defined as state action raising costs or legal risk for independent reporting within the U.S. constitutional system. Coverage of press censorship in a foreign country, regardless of its severity, is not evidence of a U.S. constitutional-stress event. The item is geographically out of scope and therefore irrelevant to this dashboard.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNjc2dG1rS2w3OUZ2YXIxNFZpLVpfWUxGNnpmOXo1OUg0ZUxNQnhYYjFKRGVEaEE4NFladWNrYVhSVkh3dkZEcnhCX3hDQnZZeEN5ZE5tMllHOEVvdFYtTkRVT1VsVVNVQ2d3WkFfYnVRaHhDSXZXR0t1MlYxMl9zbENRU1g2Ry1GRll1Mm1VRXFYa1k?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -4716,6 +4776,16 @@
     }
   },
   "statistical_agency_integrity": {
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNTdmVkplMXJoNUc3NzVmbno2ZDZGSDhmVnVFcnM4bkl3bnRvdGZGVjYyTHh3R2p5OVZvdWVtVWJad3NXUE5WU1NVUHVvaGo5QXRibTlycm9vZkpsaVpFekFQS2t3UWluSHhkTzRzTzZzNTZSenFfa3dyaXhIR2JTM01ybjljcVlHUHprRVc5WG90bEc2YXFZV2d4X1VoZG5hWVVvMkRsb2hFNF9xbDVOdEpOWUVMZnc?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "debuglies.com",
+      "rationale": "The item provided contains only a headline/title with no substantive content, source material, or verifiable reporting. 'debuglies.com' is not an authoritative news source and appears to be a blog or commentary site. No specific incident, official action, leadership change, methodology alteration, data delay, or interference with BLS, BEA, or Census Bureau is described or evidenced. The title uses vague language ('encroachment,' 'vulnerabilities') that suggests opinion or speculation rather than reporting of a real occurrence. Without actual reporting, dates, named officials, or documented actions, this cannot constitute evidence of an event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaDlZOWt5cE84ZjlhX2VwQ0h6TUdqelhwMm51X3N0b2dBZXdkR1R5ODJ2SlRxWGtxaEJVX1ZWbWZwNXlBTGsxSU1Pem1hRVFpVnlObU92ZVRIbzlKOUpUS3ZFVnhsZkNpbHQ3NllaUU1MU3Jkc2MtWEFVQ0RPcWRCU3o4MHVQR29qYk1uZllBOV9aM1IwdE84TEdBQzRXVnFobE5sWnhnUnVGOGJTaWhHTVFtUklHRGcz0gG_AUFVX3lxTFByYXhiMWJ4bXFjczZoVmJKQ0ZxckQ1WEZOZlU2QkJ1eV93N094RWZ3WVpiYUItNFQ1ckEwYlRMMXhIT2QxVTF3T3hOODVJSmRvelRwaTQ2UUJuM3ZnNlZNRk85VzFiRTNYTEZQaDJNQXNDcXM4NXpFMjBzazFzcG1qY01Sai12UkNCQnMwVWlSdUtqY1MyVy1Zd1VrWDNkNDRkNTNSMFl3WFY5ZnF5dC05S09JTGtRTVRzVFplazJB?oc=5": {
       "actor": "India's statistical authorities",
       "confidence": 0.99,
