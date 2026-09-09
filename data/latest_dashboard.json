@@ -1,6 +1,6 @@
 {
   "attempted_queries": 24,
-  "average_7d": 14.15,
+  "average_7d": 14.41,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -2.0,
-  "delta_vs_7d": -3.1,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": -3.86,
   "domain_breakdown": [
     {
-      "avg_severity": 0.6000000000000001,
+      "avg_severity": 0.3125,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.3000000000000007,
+      "points": 1.71875,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 1.3333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 4.333333333333333,
       "weight": 13
     },
     {
@@ -73,9 +73,9 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-08T16:42:53.320406+00:00",
+  "generated_at": "2026-09-09T16:44:28.273530+00:00",
   "methodology_version": 2,
-  "previous_score": 13,
+  "previous_score": 11,
   "primary_sources": {
     "documents_confirmed": 2,
     "documents_fetched": 10,
@@ -87,10 +87,48 @@
   },
   "provisional": false,
   "score": 11,
-  "score_raw": 11.05,
-  "score_raw_pre_trip_wire": 11.05,
+  "score_raw": 10.55,
+  "score_raw_pre_trip_wire": 10.55,
   "successful_queries": 24,
   "top_signals": [
+    {
+      "confirmed_hits": 2,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://www.inkl.com/news/trumps-mail-order-ballot-order-is-an-assault-on-federalism-and-separation-of-powers",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb3Zwd1VuVFR3aXN3Y3kwS2hBa0phNnJzMmh4a3FmaFhsR1RQd09sYzh4M0JVLWxrUG5UeExJNWdPejYzdURmZEM4aGtpakVxLWdZY2lRYWtwMFNTOGxYcFRRcldZcmJlTzREYmFIQnNSaVo5c2lCZXpnN1A3MWU2YVd3MGhOTkFXbDRQNEc3OGEzdlZzMGUzLXo0Z2FaTG42ekRKS3kxeVVkaEdqWHc?oc=5",
+          "published": "2026-09-08T22:06:04+00:00",
+          "publisher": "inkl",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump's Mail-Order Ballot Order is an Assault on Federalism and Separation of Powers - inkl"
+        },
+        {
+          "canonical_link": "https://radaronline.com/p/trump-accused-of-unconstitutional-election-power-grab-supreme-court-block-mail-ballot/",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbDZtN1pOTmZRQnJOb1k5dzVXQnViSGZwZ1FEUXFpdWFVQThfbzlEcmwyeDRPUkJjamRCRWhzdVV3bXQ0S2dxNjdpbldUZm0yb1VkNmIwYVB1TWtlSk05WFRwbERMbXZmWWpiTzVJd3ZhSlJwWEZyNVZUX3FndjNtTFBGcmFGd0Z2RDBOazNJUTc4VmJmU3ZWYWJwMzRlT2V1a3k5MEVBNGJLV1pKV3NRNFZB?oc=5",
+          "published": "2026-09-08T23:56:14+00:00",
+          "publisher": "RadarOnline",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "EXCLUSIVE: Trump Accused of 'Unconstitutional' Election Power Grab as Members of Congress Beg Supreme Court to Block New Mail-Ballot Crackdown - RadarOnline"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 5,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": "A mail-order ballot order has been issued by the executive branch. This is a real action that appears to operate in a domain normally governed by statute (election administration, which is primarily a legislative domain under the Elections Clause). The item identifies an executive action that constrains a voting method without clear statutory authority. This is a credible stress signal of legislative bypass, though confined to this specific order and without indication of defiance of a court order or systematic removal of safeguards. Severity 2 reflects a real, confirmed action that is contained and not yet at the level of structural constitutional failure.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
+    },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
@@ -136,7 +174,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 0,
+      "hits": 1,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
@@ -191,10 +229,28 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "2026's elections could test how heavy trading on prediction markets affects races and results - Newsday"
+        },
+        {
+          "canonical_link": "https://www.dailykos.com/blogs/main/",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAya2puRGpPa0cwbmtmQk5FWElERklFbWJhSXVSWkdxMW00MjVTNVdZMXAyS0VlVVRsVmRIeUxnUHBhUlEzX0xGSFA0Rk0?oc=5",
+          "published": "2026-09-09T13:00:00+00:00",
+          "publisher": "Daily Kos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Old Home Page - Daily Kos"
+        },
+        {
+          "canonical_link": "https://www.britannica.com/topic/Trinamool-Congress",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyY0d3dDhTMU9aVG1Gemt6TGV0NGVrWkNBSDZROVFjSUkzLTZiTTJicTdEUzZMMzFlRnFnLWRmbEtrOXdvdmkxSHhpeW1yLWRCTUh6bDlsTFZpMVhCMXZGVQ?oc=5",
+          "published": "2026-09-08T05:00:00+00:00",
+          "publisher": "Britannica",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trinamool Congress - Britannica"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 3,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -203,54 +259,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.6,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.scotusblog.com/2026/09/trump-administration-again-appeals-mail-in-ballot-dispute-to-the-supreme-court/",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWm5ORTlLX0V1T0gtYi1yRVZ6REhtbDU2WDFtODNjN1VjdWNkNVJfR1dMNjdkVHg4ME5KNnh1MV96SlA5Q0o0bURlNndvNk8tX2p0NkU2R0pabjR5U1dyS1hxS0o5eE92d1pFcmtKQTV2T3dJVkJyVEE4Y2w2Q1JtdDM2cVRybnQxQlpONmtZYmd3Q3FxX3RCSG91UGwyNWViZlUzMGcwdlpmeDAtN1VOSm10R1k?oc=5",
-          "published": "2026-09-06T17:39:33+00:00",
-          "publisher": "SCOTUSblog",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump administration again appeals mail-in ballot dispute to the Supreme Court - SCOTUSblog"
-        },
-        {
-          "canonical_link": "https://www.britannica.com/biography/Donald-Trump",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zTlNFQlJBYmZmZE9MbUdKWElnLXE0c2pWcVFIenNYSjQwbURvQm5kUmRFQVM1NVlCT24zZktQZHliMEV4ZnZ1QzM0VEpZWS1pWWxON0ZUa3N0RUpmemc?oc=5",
-          "published": "2026-09-07T05:00:00+00:00",
-          "publisher": "Britannica",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Donald Trump | Birthday, Age, Education, Biography, Impeachments, & Military Parade - Britannica"
-        },
-        {
-          "canonical_link": "https://colombiaone.com/2026/09/07/trump-proposes-renaming-new-mexico-new-america/",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVWhwWGkzSWZzMzhPOGhZWG03WEI0WjZ1cDNRcnBfOGlrbU9vN2ZGdm5rbFlhM21hejBtRnlNTWNYOGRxNUllLUJ1T0N0WE8xZEF4N0NlN09zZGlNYks4b3piajNZQThva3RMdi1HTlFJZHVVeWlPeWEwQzlmVmU0ZDhNN2VIdFZHSFE?oc=5",
-          "published": "2026-09-07T22:33:00+00:00",
-          "publisher": "ColombiaOne.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump Proposes Renaming New Mexico as New America, Reviving Debate Over Presidential Limits - ColombiaOne.com"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 6,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.95,
+      "severity": 1.25,
       "severity_label": "Watch",
       "unique_publishers": 0
     }

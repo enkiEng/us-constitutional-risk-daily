@@ -566,6 +566,16 @@
       "rationale": "A state canvassing board split along party lines, with Republican members voting to certify a ballot measure while Democratic members opposed, indicates partisan division in an election administration body responsible for ballot certification. This demonstrates partisanship in what should be a neutral administrative process, though it represents a contained instance of partisan voting on a specific measure rather than systematic structural capture. The severity is 2: credible, repeated stress signal of partisan behavior within election administration, but not yet a comprehensive loss of institutional neutrality.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAya2puRGpPa0cwbmtmQk5FWElERklFbWJhSXVSWkdxMW00MjVTNVdZMXAyS0VlVVRsVmRIeUxnUHBhUlEzX0xGSFA0Rk0?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item is a generic reference to an old Daily Kos home page with no substantive content describing any election administration event, policy change, or action. No claim about partisan control, election administration, or constitutional stress is present or discernible. This is not a news item; it is a broken or placeholder link. Does not constitute evidence of any real occurrence.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hVGhDZVlubUViVVUyNmR6OFpWUDVmY05ROEtuLWJnMVRKdk9xeWdsdVBsZjVJRmpQTmhUV190ZTdkTlkyLVNSbnlLcDJxVFFNT1pKS1hCWGg?oc=5": {
       "actor": "Trump",
       "confidence": 0.95,
@@ -1002,6 +1012,16 @@
       "rationale": "This is an opinion/editorial piece (bylined opinion by John Whitehead) speculating about constitutional risk in hypothetical terms ('will the Constitution?'). The title frames it as analysis/commentary about future risk, not as evidence that emergency powers have actually been used to bypass legislative process. No specific action, official document, or verifiable event is described. This is punditry about potential constitutional concerns, not evidence of an accomplished constitutional-stress event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxORnNKaDlIRXB5c0NZb1llaXRENU1HMGdlZjhkcVhubzVvTFhvT2hpU2ZiZzFRRFVkeEsxMVlCckJXeVdmamVld2VTQlRmQTVhZ3RkdXBnZXdFOEZ6bFN6Y3oyS21xcG50VTVyNjFWLXhSeTVBM0I0MTRpQm5NQVRZTGtrbGVaTG15WlY0LWVxWlo3clZsbjNES3BZWTlvLUFrZWZkTlJFZG9wcUdCRWdreHFJOXJRNWlwb04yTE93?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This is an opinion/analysis piece (explicitly marked 'OpEd') reflecting on historical developments over 25 years post-9/11. It is commentary and retrospective analysis, not evidence of a current emergency-powers expansion action. The item describes past conditions and policies rather than documenting a specific new exercise of emergency authority to bypass the legislative process. Historical retrospectives do not constitute evidence of a present constitutional-stress event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxON0NOU09EV2FmMEpub3ZQVDJiQmh4T05xZ2NLUTd6Qzc1M09lWDJZSi14SV9nRTBWckFuYk13azdoenVUYldtRXo5bnNhWUl6SjJtYVhMMFZIal9xaGZjTU9XYmhGZVJxVndrQVBJY2VUQ3o1M1MwMi14Rlp4eW1VQU5PeEEzRFFTXzU2TTByQk1HbWFUT0FqVHItM3FPN01aVS1XQ2k2QTAzVmNUZXRNOXJfMWYxQTFUMFRKak92NVRWcTh5U3c?oc=5": {
       "actor": "Supreme Court of the United States",
       "confidence": 0.98,
@@ -1353,6 +1373,16 @@
       "primary_source_url": "https://www.realestate.com",
       "rationale": "RealEstateNews reports Trump 'renews threat' to oust Cook. A threat is a stated intent/action, but falls short of implementation. 'Renew' confirms repetition. This is real communication/threat but remains at the lower severity end (preliminary pressure).",
       "severity": 1
+    },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaFlzbzh4QVE0bjFPOEVFLS1IY2t3bGRsU3FWNzMzTl9OSkEzTHVIQ3pwTi1NQmNtc3hFbjY4WFV4eXI3YnMxYW94VFFVWFF1OUlBaVFfb0FuNHNUUTdDVHkzRmRWZnloYTRLSkJCeGE3ZHFBcFQ5aTNRS1llbHExTlJ2bDgwZTU1S0dQdnVRcG9lOHkwNDg4Yg?oc=5": {
+      "actor": "Former FTC commissioner",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.americanbanker.com/",
+      "rationale": "This item describes a personnel move (a former FTC commissioner joining NYU). It does not describe any action that weakens legal safeguards for independent regulatory decision-making, nor does it describe any actual event affecting the FTC's independence, authority, or structure. A former official's career change is not evidence of agency capture or erosion of independence safeguards. The reference to a 'Supreme Court battle' is context about the individual but does not indicate that independent regulatory safeguards have been dismantled.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMimgFBVV95cUxONHNqeU1MMGlzZUVFZkc5bkhnUE1MZHhKY19UMHVEVlI2WlV3R3VUa1ZucUxqZ2NJUm04Uks0cndDeFRsOWVtdVJKRmNWaEVnX0pxQXgyLW9oSnU1OVREQW5aMkg1MlNqV3JnXzdqd0VVQVFySmVEem5NSWZvMnoyUXhvZWM3MEVxMVhXWTAxcG5tMW5fTFQtVlFB?oc=5": {
       "actor": "President Trump",
@@ -3014,6 +3044,16 @@
       "rationale": "A sitting president has signed executive orders attempting to limit birthright citizenship in direct tension with Supreme Court constitutional interpretation (14th Amendment). This constitutes a real executive action attempting to override or circumvent established constitutional doctrine through unilateral action rather than statutory process. However, severity is 2 rather than 3 because: (1) the action's enforceability is immediately contestable in courts, (2) it has not yet resulted in a confirmed structural breakdown of constitutional authority, and (3) judicial review processes remain available. This is a serious but not yet confirmed constitutional-governance stress.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMUx1cnByeGZDeDljMUtxdXMyV1N1WFNPUllYSjRfSzVVSEhDZUcxbnJvNHBsTW5vWXRrSjBlUnJSMENFTGltbS1oWkkzWC11bTl3ZUtyWkRqandQRTB5Tk9TMW1mSWV3VTZhNFNva1RZNnhIM3RRRk1TZ2ZJZk9qVl85QjRqcTZDZGl0cmFOejdqSzh5WS15YmZqYUY?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an opinion/analysis piece from Slate proposing political strategies. It contains no verifiable evidence of a specific executive action that bypassed legislation. It is commentary about alleged harms, not documentation of an accomplished legislative bypass. No specific unilateral executive action is identified with factual detail.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc1piQlpia19zUHdDZUIydHhKT0E5RUR1RVFfSHh2UW9qZVhacUJJZXZnVmpiY1M3U1hUZDlndlVwdkVWajhiMmZ6SVN0WWswNlc2ZVczYjRubGNvcW92WFBGQW9sb180Sm5xaDgtVlFGcFQ2Q1lUUUpSVzJ3YmVBYlNhZVdWTFBPZm1Xc3NuUDdGYnpzck5qZDZYbVo?oc=5": {
       "actor": "Unknown",
       "confidence": 0.92,
@@ -3074,6 +3114,16 @@
       "rationale": "This is opinion/analysis content from a policy advocacy organization discussing what legal authority the President does NOT have. It analyzes hypothetical claims and legal constraints. There is no evidence that any executive action has actually been taken, no national emergency has actually been declared, and no elections have actually been nationalized. This is legal commentary about proposed or claimed actions, not documentation of an accomplished executive bypass of legislative authority. The item explicitly states the President has 'no legal authority' to do the thing being analyzed\u2014this is a denial of an unexecuted proposal, not evidence of a real occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb3Zwd1VuVFR3aXN3Y3kwS2hBa0phNnJzMmh4a3FmaFhsR1RQd09sYzh4M0JVLWxrUG5UeExJNWdPejYzdURmZEM4aGtpakVxLWdZY2lRYWtwMFNTOGxYcFRRcldZcmJlTzREYmFIQnNSaVo5c2lCZXpnN1A3MWU2YVd3MGhOTkFXbDRQNEc3OGEzdlZzMGUzLXo0Z2FaTG42ekRKS3kxeVVkaEdqWHc?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "A mail-order ballot order has been issued by the executive branch. This is a real action that appears to operate in a domain normally governed by statute (election administration, which is primarily a legislative domain under the Elections Clause). The item identifies an executive action that constrains a voting method without clear statutory authority. This is a credible stress signal of legislative bypass, though confined to this specific order and without indication of defiance of a court order or systematic removal of safeguards. Severity 2 reflects a real, confirmed action that is contained and not yet at the level of structural constitutional failure.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcEliTkVJeDBJXy1EbV9kbVYxbUVwdFhSQkRnYWlGek9kYktsU3d5dkVwWjNxdjNJSklfTHV2M3YxYkFiTC15YVdxR0VobVJGUHFoRHRJVFFyTXhHWHc5T3IyU3pIbXdTeHRFVTUtYTlRdFdJNDNSbC1SVE1aWHNuR1N6bmRiRWx4ejl5d1VPTGpLWEhMZWhtSzhjZmMtWVlCRlJMTDd6UUtUV1VtYUE?oc=5": {
       "actor": "Unknown/Not specified",
       "confidence": 0.95,
@@ -3083,6 +3133,16 @@
       "primary_source_url": "",
       "rationale": "This item describes a Supreme Court striking down tariffs and a subsequent refund\u2014a normal constitutional process where the judicial branch reviews executive action and the executive complies. This represents the judiciary checking executive power, not a legislative bypass. No evidence of executive action circumventing statutes or the legislative process. The item is also vague (no credible source URL, dated 2026 which is in the future relative to typical knowledge cutoffs), lacks specifics, and does not demonstrate the signal (shift of governance from statute to unilateral executive action). A court ruling that nullifies an executive policy, followed by compliance, is routine constitutional operation, not constitutional stress.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbDZtN1pOTmZRQnJOb1k5dzVXQnViSGZwZ1FEUXFpdWFVQThfbzlEcmwyeDRPUkJjamRCRWhzdVV3bXQ0S2dxNjdpbldUZm0yb1VkNmIwYVB1TWtlSk05WFRwbERMbXZmWWpiTzVJd3ZhSlJwWEZyNVZUX3FndjNtTFBGcmFGd0Z2RDBOazNJUTc4VmJmU3ZWYWJwMzRlT2V1a3k5MEVBNGJLV1pKV3NRNFZB?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "This confirms the same mail-order ballot crackdown order, now characterized as an executive action on election rules (federalism and separation-of-powers concerns suggest unilateral executive authority over a legislative domain). Congressional members are seeking Supreme Court intervention, indicating the order has already been issued and is in effect. This is a real, verifiable executive action in the electoral domain. However, the item is press coverage of the action and the petition for relief, not the action itself or an official legal determination that the action violated the Constitution. The action exists; the constitutional question is pending. Severity 2 for a real, confirmed, but not yet adjudicated executive action in a legislative domain.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSVlabHBtcVNXbmt5c0JkYVRJbjBKMnktalY3RHNQSVV3V1R4Q0FIbXRCV3BNNlFLTzlPazQ1Rm56TFBkVlV3UXVkZDlRTklzZC1KajFFUTRlb1A5dXNOdEFuNjB2c29SOW16SGRLazFwd2Z1Sm4wT0tWTXc2X3FzcDdFdUlpdklJM0VYeXlPZHU1YmJvVDRKN2ZmU3NuWXJUNXNqNXVfRnJzQXRFSUFqWWF3TQ?oc=5": {
       "actor": "Trump",
@@ -3518,6 +3578,16 @@
       "rationale": "A judge blocking a Postal Service rule through normal judicial review is routine constitutional process, not evidence of military governance or martial law language. This reflects the judiciary performing its standard oversight function. No military involvement, no governance shift, and no language invoking military or emergency powers is present.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaDRMb1JkQVNuTHp6U1drNm5sXzQxdUdSQmpPUlRCSjBEMmhsWVFLNTBmMkZ6a1ZGSnVHdlNUNVp4M0k1ZFNEc0J0cm11RExtQWNfdGphWVlNYk4zZlpIX2toUHZNeDVLREFnNXd3U21qWm1MWVl1WDlEZHZ6eUVQc3Q1R0REUjRoa1B5cWVjOXQ1ZE1fcGVFVHlqdlhLazBrTXAxYkpB?oc=5": {
+      "actor": "judges and officials",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.npr.org",
+      "rationale": "The article discusses judges and officials 'prepping for' or preparing contingency plans for ballot seizures. Preparation, contingency planning, and discussion of hypothetical scenarios do not constitute an actual occurrence of martial law, military governance, or the actual seizure of ballots. The signal concerns rhetoric or policy toward military management of political disputes. Preparedness discussions, without evidence of actual implementation, official policy changes, or orders to seize ballots, do not meet the threshold for event_occurred=true. This is analysis and contingency thinking, not a verifiable action that has taken place.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUzVPS2hqb0VXeDhPZnVJNEtUSUtaRDdFQll2NnRnMUhWYkJIQlhtSXQtRHg3b2NMcHg5RDJvSGRmWTF1YlV5ZWZYSllBb0h3QXJmSEQ2M0ZYOE9TSG4yM29ncVdyWTFNNGJVNDA0dWtTS21UN2had3g5N1oxVms4aEtPaE1id2EzcmVqS3Jwb2NYSmEyU0JKUjQ4ZTVLLTVjdW5naWVGS01jZ1NPQkxYUFdWekswUVNlRnZV0gG7AUFVX3lxTFBTNU9LaGpvRVd4OE9mdUk0S1RJS1pEN0VCWXY2dGcxSFZiQkhCWG1JdC1EeDdvY0xweDlEMm9IZGZZMXViVXllZlhKWUFvSHdBcmZIRDYzRlg4T1NIbjIzb2dxV3JZMU00YlU0MDR1a1NLbVQ3aFp3eDk3WjFWazhoS09oTWJ3YTNyZWpLcnBvY1hKYTJTQkpSNDhlNUstNWN1bmdpZUZLTWNnU09CTFhQV1Z6SzBRU2VGdlU?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -3850,6 +3920,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Finland's response to Russian demands regarding election protests at a Russian embassy. It is not a U.S. domestic event and does not involve systematic removal of opposition candidates from U.S. ballot access. The event is geographically and substantively outside the scope of the signal, which targets opposition-ballot exclusion in the United States.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ1VwYzV5MTZaV1hGR002RG41TzVTWUlfaHV6eVEzem91X2dVbTFNRUtZOFk5dFpaTWhWZi1lekFycEo4MTh5QWRYcEVrV0hVempTQjE2WTNVdVNKSGJDdURpZVBlZTdCb3Y4X2p4b0ZKNkF1eEJKUEloMXA4aU1aTkpqbGZrM2hvdXZxWUpNUHdpYml5c3d5ZFo4M292V2Rz?oc=5": {
+      "actor": "",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes an event in Russia (\u0413\u043e\u0432\u043e\u0440\u0438\u0442 \u041d\u0435\u041c\u043e\u0441\u043a\u0432\u0430 is a Russian independent media outlet; Yabloko is a Russian political party; the subject involves Russian electoral processes). The signal is defined for United States constitutional risk. Non-U.S. events, even if they superficially match the signal description, are not evidence of U.S. constitutional stress. The dashboard is U.S.-specific.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiogJBVV95cUxNQzNOaVV1RlZkTF9OWWRoZ0hXWlpnQjhjdUoxR2ppV0pTZndNUXB6dWNOckxJUTlLaHN1a010YUhKU2g3Sno5aWVIRUpnZmdkbTVCRWdXZU1kQjBmR1JjaVNnZE9qbEZxaElTdXZJckg3YzI0bEVudVJ2OHA5ZG9hZmtENE96dmItR3AzQkw5Q2dvQVQ3d1Z5TDc0amxMM1A1WnRSMUl3ekhMYndPRlRuZFpDWHg5bXBGTGhzZ2w1a3F4bWE4UjE3NFRCblB2elRpZk00UFRKYjB6d2tyZXFPZXRKb2NkMy1PbkpvWFlOYnMycnplXzQtcVQyMm4ycjhOU3NFN3B4dzJhSVN4TXQ1aV8xdW1KT0YycnAyS1BqWnBIdw?oc=5": {
@@ -4844,6 +4924,16 @@
     }
   },
   "state_election_preemption": {
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTk0xc2ZQSmQ2eVB2OXZia2gyd1JKTHNYQVhraFVSRlJHcnRoR3BsRzBaU0kyZUQydUpsaEt4RUhSR3hnWGFLUHNsTXhtYzZTUUJra2dBVGQwTGNfZGRYSUlrbWl6NTBQWjhCWlpfQXcxU0d1UXBxaENpZ1Z6dkpIQl9MN2ZVb19KZ3dxRVF0bmYxYlZkaTN5cGpwcmFoanRlXzE5bkdCZndoQ0E?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item appears to be commentary on the feasibility of implementing a USPS ballot-mailing rule within a specific election cycle. It does not describe an actual federal override of state election authority. The summary indicates only a logistical assessment or opinion about timing constraints, not a verifiable action in which federal authorities have preempted state election administration powers. Without the full text, it cannot be confirmed that any real preemption event occurred\u2014this reads as either analysis, discussion of proposed rules, or hypothetical implementation challenges, none of which constitute evidence of the signal event. No actual exercise of federal preemption is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWUxnY2dkNHNyUlNqUlp2bnRZTTJzNXFPOW5HY0x0ejdnaTZ6NTlnQ1J0UTBaQ1NLV2tlM2tFSzdNczA0VnBOZk0yM0c1OUMtazRNS21hR2p1Zm1pVzctZW9SeXNFeTRmNVFqMU56YmhkcUR3NDF2YWsxZ2M2eUVKZ0cyY0xYMXA4YjQtenhoaHZSM1dtTFpVZDF2MWxVNU9UYXgyYk42b3FLNjFxV2ZlMGNDZ0RCVFUzSFhFclRoUm5DbFlDdHhB?oc=5": {
       "actor": "Minnesota Supreme Court",
       "confidence": 0.95,
@@ -5064,6 +5154,36 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/03/2026-18040/cause-of-airline-delay-and-cancellation-categories-under-section-511b-of-the-faa-reauthorization-act",
       "rationale": "This is a routine rule-making by the Transportation Department implementing a congressionally mandated statutory requirement from the FAA Reauthorization Act of 2024. The rule concerns airline reporting categories for flight delays and cancellations\u2014a procedural and narrowly technical matter with no connection to the integrity of federal statistical agencies (BLS, BEA, Census Bureau), their leadership, data methodologies, or data releases. There is no evidence of political interference with statistical agency operations, removal of career leadership, unauthorized methodology changes to economic data, or withheld/delayed official statistics. This is administrative implementation of law, not a statistical-agency integrity event.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/09/2026-18303/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for": {
+      "actor": "National Telecommunications and Information Administration",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/09/2026-18303/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "rationale": "This is a routine OMB paperwork submission notice for the NTIA Internet Use Survey. It is a standard Paperwork Reduction Act filing inviting public comment on survey continuation. It does not indicate political interference, leadership removal, methodology tampering outside normal process, or data suppression affecting BLS, BEA, or Census Bureau. Routine survey reauthorization is ordinary administrative procedure, not evidence of statistical agency integrity compromise.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/09/2026-18304/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for": {
+      "actor": "Census Bureau",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/09/2026-18304/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "rationale": "This is a routine OMB paperwork submission notice for the Business Trends and Outlook Survey. It is a standard procedural filing under the Paperwork Reduction Act requiring public comment. It does not indicate removal of leadership, methodology changes outside normal process, data suspension, or any interference with statistical integrity. Routine notice and comment for survey reauthorization is normal administrative function, not evidence of political interference.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/09/2026-18345/registration-of-lawful-permanent-residence-for-children-born-to-foreign-government-employees-in-the": {
+      "actor": "Department of Homeland Security",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/09/2026-18345/registration-of-lawful-permanent-residence-for-children-born-to-foreign-government-employees-in-the",
+      "rationale": "This is an immigration/naturalization policy rule change by DHS concerning eligibility for permanent residence. It does not involve BLS, BEA, or Census Bureau statistical agencies, nor does it concern removal of statistical leadership, interference with data methodology, or suspension of economic data releases. This is unrelated to the signal definition of interference with federal statistical agencies.",
       "severity": 0
     }
   }
