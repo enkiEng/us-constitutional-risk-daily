@@ -1,22 +1,22 @@
 {
   "attempted_queries": 24,
-  "average_7d": 14.41,
+  "average_7d": 14.26,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "Medium",
-  "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -3.86,
+  "confidence": "Low",
+  "data_available": false,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": -4.92,
   "domain_breakdown": [
     {
-      "avg_severity": 0.3125,
+      "avg_severity": 0.225,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.71875,
+      "points": 1.2375,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.2166666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.333333333333333,
+      "points": 3.954166666666666,
       "weight": 13
     },
     {
@@ -62,126 +62,84 @@
       "weight": 8
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.825,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 2.0,
+      "points": 1.65,
       "weight": 8
     }
   ],
   "extraction_mode": "ai",
-  "failed_queries": 0,
-  "fetch_errors": [],
+  "failed_queries": 24,
+  "fetch_errors": [
+    "election_certification_interference: HTTP Error 503: Service Unavailable",
+    "election_administration_capture: HTTP Error 503: Service Unavailable",
+    "election_delay_or_cancellation: HTTP Error 503: Service Unavailable",
+    "alternate_elector_scheme: HTTP Error 503: Service Unavailable",
+    "politicized_prosecution_opposition: HTTP Error 503: Service Unavailable",
+    "opposition_ballot_exclusion: HTTP Error 503: Service Unavailable",
+    "retaliation_architecture: HTTP Error 503: Service Unavailable",
+    "judge_intimidation_campaign: HTTP Error 503: Service Unavailable",
+    "court_order_noncompliance: HTTP Error 503: Service Unavailable",
+    "jurisdiction_stripping_targeted: HTTP Error 503: Service Unavailable",
+    "judicial_review_foreclosure: HTTP Error 503: Service Unavailable",
+    "emergency_powers_expansion: HTTP Error 503: Service Unavailable",
+    "legislative_bypass_executive: HTTP Error 503: Service Unavailable",
+    "martial_law_or_military_language: HTTP Error 503: Service Unavailable",
+    "civil_service_purge_schedule_f: HTTP Error 503: Service Unavailable",
+    "independent_agency_capture: HTTP Error 503: Service Unavailable",
+    "inspector_general_retaliation: HTTP Error 503: Service Unavailable",
+    "statistical_agency_integrity: HTTP Error 503: Service Unavailable",
+    "press_restrictions: HTTP Error 503: Service Unavailable",
+    "political_speech_surveillance: HTTP Error 503: Service Unavailable",
+    "military_domestic_political_use: HTTP Error 503: Service Unavailable",
+    "security_loyalty_tests: HTTP Error 503: Service Unavailable",
+    "state_election_preemption: HTTP Error 503: Service Unavailable",
+    "legislative_oversight_obstruction: HTTP Error 503: Service Unavailable"
+  ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-09T16:44:28.273530+00:00",
+  "generated_at": "2026-09-10T16:30:19.021584+00:00",
   "methodology_version": 2,
   "previous_score": 11,
   "primary_sources": {
     "documents_confirmed": 2,
-    "documents_fetched": 10,
+    "documents_fetched": 12,
     "providers": [
       "federal_register",
       "courtlistener"
     ],
     "signals_queried": 22
   },
-  "provisional": false,
-  "score": 11,
-  "score_raw": 10.55,
-  "score_raw_pre_trip_wire": 10.55,
-  "successful_queries": 24,
+  "provisional": true,
+  "score": 9,
+  "score_raw": 9.34,
+  "score_raw_pre_trip_wire": 9.34,
+  "successful_queries": 0,
   "top_signals": [
     {
-      "confirmed_hits": 2,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.inkl.com/news/trumps-mail-order-ballot-order-is-an-assault-on-federalism-and-separation-of-powers",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb3Zwd1VuVFR3aXN3Y3kwS2hBa0phNnJzMmh4a3FmaFhsR1RQd09sYzh4M0JVLWxrUG5UeExJNWdPejYzdURmZEM4aGtpakVxLWdZY2lRYWtwMFNTOGxYcFRRcldZcmJlTzREYmFIQnNSaVo5c2lCZXpnN1A3MWU2YVd3MGhOTkFXbDRQNEc3OGEzdlZzMGUzLXo0Z2FaTG42ekRKS3kxeVVkaEdqWHc?oc=5",
-          "published": "2026-09-08T22:06:04+00:00",
-          "publisher": "inkl",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump's Mail-Order Ballot Order is an Assault on Federalism and Separation of Powers - inkl"
-        },
-        {
-          "canonical_link": "https://radaronline.com/p/trump-accused-of-unconstitutional-election-power-grab-supreme-court-block-mail-ballot/",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbDZtN1pOTmZRQnJOb1k5dzVXQnViSGZwZ1FEUXFpdWFVQThfbzlEcmwyeDRPUkJjamRCRWhzdVV3bXQ0S2dxNjdpbldUZm0yb1VkNmIwYVB1TWtlSk05WFRwbERMbXZmWWpiTzVJd3ZhSlJwWEZyNVZUX3FndjNtTFBGcmFGd0Z2RDBOazNJUTc4VmJmU3ZWYWJwMzRlT2V1a3k5MEVBNGJLV1pKV3NRNFZB?oc=5",
-          "published": "2026-09-08T23:56:14+00:00",
-          "publisher": "RadarOnline",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "EXCLUSIVE: Trump Accused of 'Unconstitutional' Election Power Grab as Members of Congress Beg Supreme Court to Block New Mail-Ballot Crackdown - RadarOnline"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 5,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": "A mail-order ballot order has been issued by the executive branch. This is a real action that appears to operate in a domain normally governed by statute (election administration, which is primarily a legislative domain under the Elections Clause). The item identifies an executive action that constrains a voting method without clear statutory authority. This is a credible stress signal of legislative bypass, though confined to this specific order and without indication of defiance of a court order or systematic removal of safeguards. Severity 2 reflects a real, confirmed action that is contained and not yet at the level of structural constitutional failure.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [
-        {
-          "canonical_link": "https://www.thewellnews.com/congress/billionaire-leon-black-skips-epstein-deposition-and-sues-house-committee-over-subpoenas/",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUVdhdGJiV1JTV0F5cjFoYkVodkNxQ2cxUURkQi00UTNlUzdhQ3c1eTlQQmpZY1J6eFZKV0JSU2UtdHI2dGlPNnNTNnR5a3pQcHBENWVEREl3VVk5VkthbmsxZWNfSk41UjNBTFRFeWlvNzJWSnZwZERhMndkMGRhUW5UZG9QZ2drRVBoU2h1cWxGWmhEd0FPTnkxeWM3UmpCZWUzUVZoVkJSRldWWTNxYk5FSGNxS0FneVczYXh1MzNMZDg?oc=5",
-          "published": "2026-09-08T05:03:22+00:00",
-          "publisher": "The Well News",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Billionaire Leon Black Skips Epstein Deposition and Sues House Committee Over Subpoenas - The Well News"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://www.thewellnews.com",
-      "rationale": "Leon Black's documented skip of a House deposition and filed lawsuit challenging congressional subpoenas constitute a real, credible action that creates an obstruction to legislative fact-finding. This is a verified occurrence of resistance to congressional oversight authority. However, severity remains at 2 rather than 3 because: (1) the obstruction is from a private individual rather than a government official systematically blocking accountability; (2) this is an isolated incident of one person's non-compliance, not a systematic campaign or structural barrier; (3) the subpoena power itself remains intact and enforceable through contempt and other mechanisms. The action demonstrates friction in the oversight process but not the systematic, institutionalized obstruction that would warrant higher severity.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
-    {
       "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/09/02/2026-18046/continuation-of-the-national-emergency-with-respect-to-foreign-interference-in-or-undermining-public",
-          "link": "https://www.federalregister.gov/documents/2026/09/02/2026-18046/continuation-of-the-national-emergency-with-respect-to-foreign-interference-in-or-undermining-public",
-          "published": "2026-09-02T00:00:00+00:00",
+          "canonical_link": "https://www.federalregister.gov/documents/2026/09/10/2026-18589/continuation-of-the-national-emergency-with-respect-to-certain-terrorist-attacks",
+          "link": "https://www.federalregister.gov/documents/2026/09/10/2026-18589/continuation-of-the-national-emergency-with-respect-to-certain-terrorist-attacks",
+          "published": "2026-09-10T00:00:00+00:00",
           "publisher": "federalregister.gov",
           "source_name": "federal_register",
           "source_tier": "primary",
-          "title": "Continuation of the National Emergency With Respect to Foreign Interference in or Undermining Public Confidence in United States Elections"
+          "title": "Continuation of the National Emergency With Respect to Certain Terrorist Attacks"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 0,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
       "primary_confirmed": 1,
       "primary_documents": 1,
-      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/02/2026-18046/continuation-of-the-national-emergency-with-respect-to-foreign-interference-in-or-undermining-public",
-      "rationale": "A continuation of a declared national emergency is an official action that invokes emergency authorities to maintain existing powers beyond the ordinary legislative process. The continuation document itself is the legal instrument that extends emergency authorities. However, this represents maintenance of an existing emergency declaration (originally issued in 2017), not a new expansion. The severity is 2 rather than higher because: (1) the underlying emergency was declared through ordinary constitutional channels and has been subject to congressional oversight mechanisms (National Emergencies Act requires periodic review); (2) continuation is routine procedural practice rather than novel expansion; (3) no evidence from the summary indicates the scope of emergency powers has been broadened or that ordinary legislative constraints have been newly bypassed. The action is real and matches the signal, but reflects existing rather than expanded emergency authorities.",
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/10/2026-18589/continuation-of-the-national-emergency-with-respect-to-certain-terrorist-attacks",
+      "rationale": "A presidential continuation of a national emergency declaration is a real, documented action that invokes emergency authorities to maintain powers that bypass ordinary legislative process. This is an official Federal Register record of an executive action. However, this represents a routine renewal of a long-standing emergency declaration (post-9/11 terrorist emergency), not a novel expansion or structural breach. The National Emergencies Act (50 U.S.C. \u00a7 1601 et seq.) permits such continuations and requires congressional notification. While emergency powers do bypass ordinary process, this is within the statutory framework and constitutes a contained, recurring action rather than a new seizure of authority or defiance of legislative/judicial check. Severity is 2: a credible, real stress signal (emergency authority maintained) that is repetitive and authorized by statute, but not a serious novel violation or structural failure.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
@@ -219,38 +177,48 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "federalism_oversight",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
       "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://www.newsday.com/news/nation/prediction-markets-elections-gambling-trump-states-r64441",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNUp5aUkxSm1HS3VPSUNBU3pPTDZMV1hDNFJiY3d5blR5Ny0zYldrM3kxX1VDR2J4M0FvRUdCdnZDMUJCVENEcHN5RkdBM0doQ3JXMl85YTgwdHB3TW1ndjhSYXZDeGhFVFBPWm9GVWxjYkZiTThxajFOaS10SWlCTTlVMkprcmVHLTUyZTdnVzJ0elJRUXNLSg?oc=5",
-          "published": "2026-09-08T11:04:04+00:00",
-          "publisher": "Newsday",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "2026's elections could test how heavy trading on prediction markets affects races and results - Newsday"
-        },
-        {
-          "canonical_link": "https://www.dailykos.com/blogs/main/",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAya2puRGpPa0cwbmtmQk5FWElERklFbWJhSXVSWkdxMW00MjVTNVdZMXAyS0VlVVRsVmRIeUxnUHBhUlEzX0xGSFA0Rk0?oc=5",
-          "published": "2026-09-09T13:00:00+00:00",
-          "publisher": "Daily Kos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Old Home Page - Daily Kos"
-        },
-        {
-          "canonical_link": "https://www.britannica.com/topic/Trinamool-Congress",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyY0d3dDhTMU9aVG1Gemt6TGV0NGVrWkNBSDZROVFjSUkzLTZiTTJicTdEUzZMMzFlRnFnLWRmbEtrOXdvdmkxSHhpeW1yLWRCTUh6bDlsTFZpMVhCMXZGVQ?oc=5",
-          "published": "2026-09-08T05:00:00+00:00",
-          "publisher": "Britannica",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trinamool Congress - Britannica"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 3,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -259,7 +227,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.25,
+      "severity": 0.9,
       "severity_label": "Watch",
       "unique_publishers": 0
     }

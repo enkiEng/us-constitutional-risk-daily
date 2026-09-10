@@ -1091,6 +1091,16 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/02/2026-18046/continuation-of-the-national-emergency-with-respect-to-foreign-interference-in-or-undermining-public",
       "rationale": "A continuation of a declared national emergency is an official action that invokes emergency authorities to maintain existing powers beyond the ordinary legislative process. The continuation document itself is the legal instrument that extends emergency authorities. However, this represents maintenance of an existing emergency declaration (originally issued in 2017), not a new expansion. The severity is 2 rather than higher because: (1) the underlying emergency was declared through ordinary constitutional channels and has been subject to congressional oversight mechanisms (National Emergencies Act requires periodic review); (2) continuation is routine procedural practice rather than novel expansion; (3) no evidence from the summary indicates the scope of emergency powers has been broadened or that ordinary legislative constraints have been newly bypassed. The action is real and matches the signal, but reflects existing rather than expanded emergency authorities.",
       "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/09/10/2026-18589/continuation-of-the-national-emergency-with-respect-to-certain-terrorist-attacks": {
+      "actor": "Executive Office of the President",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/10/2026-18589/continuation-of-the-national-emergency-with-respect-to-certain-terrorist-attacks",
+      "rationale": "A presidential continuation of a national emergency declaration is a real, documented action that invokes emergency authorities to maintain powers that bypass ordinary legislative process. This is an official Federal Register record of an executive action. However, this represents a routine renewal of a long-standing emergency declaration (post-9/11 terrorist emergency), not a novel expansion or structural breach. The National Emergencies Act (50 U.S.C. \u00a7 1601 et seq.) permits such continuations and requires congressional notification. While emergency powers do bypass ordinary process, this is within the statutory framework and constitutes a contained, recurring action rather than a new seizure of authority or defiance of legislative/judicial check. Severity is 2: a credible, real stress signal (emergency authority maintained) that is repetitive and authorized by statute, but not a serious novel violation or structural failure.",
+      "severity": 2
     }
   },
   "independent_agency_capture": {
@@ -2104,6 +2114,46 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74748450/1/united-states-v-ganiyu/",
       "rationale": "This is a routine sealed criminal complaint docket entry. A sealed complaint is a standard procedural mechanism in criminal cases to protect defendants' rights before arrest and to preserve investigative integrity. The sealing itself is not retaliatory action against watchdog functions or anti-corruption monitoring; it is a protective measure in ordinary criminal procedure. There is no evidence that this case involves retaliation against an Inspector General, oversight body, or anti-corruption monitor. The item contains no connection to the signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74766474/1/1/united-states-v-538-hamblin-ave-w-battle-creek-mi-49037/": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74766474/1/1/united-states-v-538-hamblin-ave-w-battle-creek-mi-49037/",
+      "rationale": "Another search warrant application continuation in the same property forfeiture matter. Routine law-enforcement procedure with no bearing on inspector general retaliation, watchdog suppression, or anti-corruption monitoring interference.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74766584/1/1/united-states-v-538-hamblin-ave-w-battle-creek-mi-49037/": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74766584/1/1/united-states-v-538-hamblin-ave-w-battle-creek-mi-49037/",
+      "rationale": "A search warrant application continuation is a routine law-enforcement document in standard criminal procedure. There is no indication of retaliation against inspectors general, watchdog agencies, or anti-corruption monitoring. No connection to the signaled constitutional stress.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74768231/1/united-states-v-hopkins/": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74768231/1/united-states-v-hopkins/",
+      "rationale": "A criminal complaint filed in ordinary course is a routine judicial proceeding. This is a standard federal criminal matter (U.S. v. Hopkins) with no indication of retaliation against watchdog functions, anti-corruption monitoring, inspectors general, or any oversight mechanism. No constitutional-stress signal present.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74771151/1/united-states-v-matthews/": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74771151/1/united-states-v-matthews/",
+      "rationale": "An indictment in a standard federal criminal case (U.S. v. Matthews) represents ordinary criminal prosecution. There is no evidence of retaliation against oversight bodies, inspectors general, or anti-corruption functions. No constitutional-stress signal is present.",
       "severity": 0
     }
   },
