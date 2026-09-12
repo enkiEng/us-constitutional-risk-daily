@@ -534,6 +534,16 @@
       "rationale": "This is a complaint filing in a civil rights matter against USCIS officials. A complaint is an allegation or legal claim, not evidence that a court order has been issued or that it has gone uncomplied with. The docket entry shows only the initial complaint; there is no court order on the record here, and no noncompliance. This is a proposed action (filing a lawsuit), not a court-noncompliance event.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74769513/1/guzman-v-us-department-of-homeland-security/": {
+      "actor": "District Court, D. Maryland",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74769513/1/guzman-v-us-department-of-homeland-security/",
+      "rationale": "This is a filed complaint initiating litigation against DHS. A complaint is a pleading that requests relief; it is not evidence that a court order has been issued, much less that it has been violated. The document marks the beginning of a case, not an instance of noncompliance with an order. No order exists yet, and no refusal to comply has occurred.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/74774939/2/equal-employment-opportunity-commission-v-psychological-dimensions/": {
       "actor": "District Court, D. Colorado",
       "confidence": 0.99,
@@ -2620,6 +2630,16 @@
       "rationale": "This item is a routine notice of removal filing in a standard civil case (removal from state to federal court under diversity or federal-question jurisdiction). A notice of removal is a procedural request to move jurisdiction, not an instance of courts foreclosing judicial review on threshold grounds such as standing, justiciability, or emergency stays. The filing itself does not evidence any denial or foreclosure of review; it is a normal exercise of removal jurisdiction available under 28 U.S.C. \u00a7 1441. No court has denied review, dismissed on threshold grounds, or issued a stay preventing legality challenge. This is ordinary civil-litigation process, not a constitutional stress event.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74762684/5/red-wine-blue-v-frank-larose/": {
+      "actor": "U.S. Court of Appeals for the Sixth Circuit",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.courtlistener.com/docket/74762684/5/red-wine-blue-v-frank-larose/",
+      "rationale": "An emergency motion to stay an injunction pending appeal is a threshold procedural action that, if granted, would foreclose judicial review of the underlying merits by suspending the injunction without addressing legality. The filing of such a motion by government defendants (LaRose and Norman) and its docketing by the court represents a real procedural event seeking to remove active judicial oversight of government action. This is credible evidence of judicial-review foreclosure via emergency-docket mechanism\u2014a contained stress signal of moderate severity. However, the record shows only that the motion was filed and entered, not whether it was granted; a granted stay would elevate severity. As filed, this constitutes a confirmed action that manifests the signal's mechanism (threshold grounds used to bypass merits review), though the outcome remains pending.",
+      "severity": 2
+    },
     "https://www.courtlistener.com/docket/74774751/1/holem-v-us-department-of-veterans-affairs/": {
       "actor": "District Court, M.D. Florida",
       "confidence": 0.95,
@@ -3194,6 +3214,16 @@
       "rationale": "The item provides only a headline-level claim from a partisan opinion blog (Daily Kos) with no substantive detail, source documentation, or verifiable account of what action occurred, by whom, when, or how it constitutes a legislative bypass by executive action. Without a concrete description of a specific executive action that circumvents statutory authority, this cannot be assessed as evidence of the signal. The summary is too vague to confirm whether any real event occurred at all.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxNakVYTWxBb0hHNF9JUTFaMUtxdVRYMTNYRW1GYUdaNEhJenhBaWJWLXU5WTh2VEwxS2V0c1FaZTZONUY4RUwxQkJjZEdTdkFESFkteFVseTVUdkZnZnF6TDRaS2JaZjZNcFZMYlFObDN1V0NlaDVFVGtaUnp1MTVNYWZHeW1VSFlXT0I5NjllMUpiWmFac0Iwd2RPQktodw?oc=5": {
+      "actor": "President Trump / Executive Branch",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://lawcommentary.com",
+      "rationale": "An appeals court has blocked executive rules on mail ballots, confirming that an executive order on this subject was issued. This represents a real attempt to shift election administration (normally a statutory/state matter) to unilateral executive action. The court block indicates the action occurred and was challenged, confirming the bypass attempt. Severity 2 because the action was issued but was judicially blocked, preventing implementation\u2014a contained stress signal rather than successful structural override.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWs0M1ZPbWlUUS00eEI5bGpxdDI5MTl6bDNvODZJdHpTdEdvazZpSVhnbHNOTGFqTjZQTk84Y0tqTGtDUi1ueW1LWGFMTEJCZlMyWHdYdXVmNUV0STdJcVNtbXRYbVNDZVhBNzdfQTgtdnVXUktLQUpVcEtUMmZsUHJpWXNzZExfcEV3VE9Fcy1kUTNPSXNjQnFTdHNIUUpnOVJNZXRHNA?oc=5": {
       "actor": "Trump",
       "confidence": 0.65,
@@ -3404,6 +3434,16 @@
       "rationale": "Item reports that a Trump executive order on birthright citizenship has been challenged in court and a judge has questioned its constitutionality, but the order remains in effect pending judicial resolution. This represents a real action: the executive has unilaterally altered birthright citizenship policy via order rather than legislation. However, the order is under active judicial review and has not been definitively upheld or struck down. The action is real and represents a shift of governance from statute to executive action, but the outcome remains contested. Severity is 2 because this is a confirmed action that has occurred and is in effect, though constitutionality is being litigated and the ultimate legal status is unsettled.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbkE5Q3NKTFN0MVNGQ1R3NlhPdFVPOTJwaFRzRVJDZEEtR2gwcGgtYWdLdC1vT0xYMS1PVkpuaW13d0NwU0FoMUpYWmNpREIyZW5UdmNlX2J5aDU1a3BwaF94aF80S3ZldlBKdnhqQk4zckZwbjZLY0Mzc0RpVFhyRUVYWkpaOHQ5dnFEVllDallDU0FxSVdWZndpMFNLOUVjUEF1Y2NaYkZ4TDlRT2JtZHFDZThyd2h5MUhWb3ZJeDdmX195ZHllaHRn?oc=5": {
+      "actor": "President Trump / Executive Branch",
+      "confidence": 0.71,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://inkl.com",
+      "rationale": "A district court injunction against Trump's executive order on mail-in voting was refused a stay by the First Circuit, confirming the executive order was issued as a real action. This corroborates that the executive attempted to unilaterally regulate mail-in voting, a governance action normally lodged in statute and state authority. The injunction's survival indicates judicial pushback prevented implementation. Severity 2: the bypass attempt is real and confirmed, but judicial intervention prevented it from taking effect structurally.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxPR1RvSFd0R1d1Q2lkX1paNktJWHREUDBYQUh6aXcyMVI4LVJpX19jMWQ0MlVTdzdKbk1JbzFjaVp5Q252WEpOa1M2NmhTbWFLanc2VDV0VE5tSVhFVktFRENoTXk2a0stNWRiNTFnbmpGUm5LTmZjNHdXLVFrVHFVaTg4d0RhR1NGSFFKVmlzVEFRRjl3bDZKNUZkSkQ3M1BCN3FqRldLM2tLNU1NLW5oS0tROFVneFRvaEQwNThkT3JmRnhiVkNtR2RZaw?oc=5": {
       "actor": "EFF, CDT, State AGs",
       "confidence": 0.95,
@@ -3595,6 +3635,16 @@
       "primary_source_url": "https://www.washingtonpost.com",
       "rationale": "A private citizen has ignored a congressional subpoena and filed suit to block legislative fact-finding. This is a specific, credible, real occurrence of an individual obstructing legislative oversight through litigation and non-compliance. However, this is an individual defiance rather than a systematic governmental barrier to oversight, and the legislative process retains enforcement mechanisms (contempt, etc.). Severity 2 reflects a real but localized obstruction action, not a systemic failure of the oversight apparatus itself.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxPY1NzUFV6b1lBV2c1dzRLcjFJazdGdzY3djZtQ3RpaDVLVzJKMTdkQmdZSGhXX1ZNczBDa3ZDTEFiNkI2aU1GODNtOUc5TXd2SHNyV2lQUm9WLTd0TzcySnQ4ZHBxWDVuaXRyZnNyT0pnT2ZxOVdSTWtNTzEwRDQ5ZDFBcmpSNkhjZExfcDVRZEdROVh1bFA5cG10dDAyWmowQW5HVTRXcXAxdllYdkExRnR5OFBwTWEyZFRJVWpR?oc=5": {
+      "actor": "Leon Black",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item reports a MOTION or MOVE to hold someone in contempt, not an accomplished action of obstruction that has successfully blocked legislative fact-finding. A subpoena defiance and a contempt motion are serious matters, but they describe a dispute over compliance, not a systematic barrier to legislative oversight that has taken effect. The House Oversight Committee has initiated enforcement action (the motion), which is the proper remedy for subpoena non-compliance; this shows oversight mechanisms functioning, not being obstructed. No evidence that legislative fact-finding has been systematically blocked or that the executive branch has erected barriers to accountability. A single defiance by a private citizen (not a government official) subject to contemplated contempt proceedings is not evidence of legislative oversight obstruction as a structural problem.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUVdhdGJiV1JTV0F5cjFoYkVodkNxQ2cxUURkQi00UTNlUzdhQ3c1eTlQQmpZY1J6eFZKV0JSU2UtdHI2dGlPNnNTNnR5a3pQcHBENWVEREl3VVk5VkthbmsxZWNfSk41UjNBTFRFeWlvNzJWSnZwZERhMndkMGRhUW5UZG9QZ2drRVBoU2h1cWxGWmhEd0FPTnkxeWM3UmpCZWUzUVZoVkJSRldWWTNxYk5FSGNxS0FneVczYXh1MzNMZDg?oc=5": {
       "actor": "Leon Black (private individual)",
@@ -3848,6 +3898,26 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74722364/17/noble-supply-logistics-llc/",
       "rationale": "This is a routine bankruptcy court filing\u2014a list of creditors document filed in a standard commercial insolvency proceeding. It contains no reference to military use, political conflict, domestic partisan dispute, or any constitutional stress event. The document is an ordinary administrative artifact of bankruptcy administration and is wholly unrelated to the signal (domestic military use in political conflict).",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74769513/5/2/guzman-v-us-department-of-homeland-security/": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74769513/5/2/guzman-v-us-department-of-homeland-security/",
+      "rationale": "This is a motion for preliminary injunction and stay of agency action filed against DHS in a civil immigration/administrative-law dispute. It is a procedural filing in a routine administrative-law case, not evidence of military use in domestic partisan conflict. No military involvement, no political conflict, no constitutional stress under the specified signal. Severity 0: irrelevant to signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74779985/1/estate-of-kenneth-g-vonronn-v-islamic-republic-of-iran/": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74779985/1/estate-of-kenneth-g-vonronn-v-islamic-republic-of-iran/",
+      "rationale": "This is a civil complaint against a foreign sovereign (Islamic Republic of Iran) in federal court. It concerns tort liability for alleged injuries, not domestic military use in political conflict. The case involves no U.S. military, no partisan political dispute, and no constitutional stress related to the specified signal. Severity 0: irrelevant to signal.",
       "severity": 0
     },
     "https://www.federalregister.gov/documents/2026/08/06/2026-16125/establishing-the-presidents-military-spouse-commission": {
@@ -4948,6 +5018,16 @@
       "rationale": "This item is a global media brief from Pakistan, not a U.S. domestic event. The signal concerns press restrictions or retaliation by state action in the United States. A publication about journalism in Pakistan is geographically outside the U.S. jurisdiction and contains no evidence of U.S. constitutional stress related to press freedom.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcmxsSTJUTDBlbjVYMWpSZGxEdGtNZzFINTNZVm1WRFlzNjJLcy1CNWZydUF6dHduRzI2NTQ0cVN3NDZDUE1BZzUtNmNSbXY5ZjI0cHJNTHhfdWpwSnhLT0l5NjRnaS00M3lOTmx2eGkzOHFwcWZlek84dkE5a1p5MFR1VDVPSHhGaEtVdXNRSWcyc01telhfSmdJbXZiMGdWMEtyTWJyamhQUQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is a media brief from Journalism Pakistan dated September 2026, covering global media issues. It is not a U.S. domestic event and contains no evidence of press restrictions or retaliation affecting independent reporting in the United States. The item is geographically and substantively outside the scope of constitutional-risk monitoring for U.S. domestic signals.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaVJzWEQyc2ZiY2hGbmpBZVk1RzVuRXkwZ0FoNmc5S3h3cEphYllYT0ItMy1pQm1leWJNbXZlNFJhbGJ5SGM4Nzg5OEZxLXVwZmd3WTlKbWlMeGg0SEhOVEF5dFI2STZsVHJHb0pNQU1Nek96cDcxRng4aFhJNzdjQ0pTWlR5VTloSlA5QWIwelhTS0hmc2hTUXM5bmQ0SWZXRGVCRzBjeWpaM0NPZHc?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -5404,6 +5484,26 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/11/2026-18622/agency-information-collection-activities-proposed-collection-ecomments-requested-revision-and",
       "rationale": "This is a routine Federal Register notice for an OMB information collection request under the Paperwork Reduction Act. It concerns a form (EOIR-59) used for certification and release of records\u2014a standard administrative procedure. There is no evidence of political interference, removal of leadership, methodology changes outside normal process, or data withholding. This is a procedural proposal subject to comment and OMB review, not an accomplished action affecting statistical agency independence or integrity. It does not target BLS, BEA, or Census Bureau, and does not demonstrate any constitutional stress to the signal.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/14/2026-18635/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule": {
+      "actor": "Securities and Exchange Commission",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/14/2026-18635/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule",
+      "rationale": "This is a routine SEC notice for OMB review of information collection activities under the Paperwork Reduction Act, concerning rules 17Ab2-1 and Form CA-1. Like item 0, this is a standard administrative procedure unrelated to the statistical agencies that produce official economic data (BLS, BEA, Census Bureau). No evidence of political interference with statistical leadership, methodology changes outside normal process, or withheld/delayed/suspended data releases. Does not match the signal.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/14/2026-18636/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-19a-1": {
+      "actor": "Securities and Exchange Commission",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/14/2026-18636/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-19a-1",
+      "rationale": "This is a routine SEC notice regarding information collection activities and paperwork review under the Paperwork Reduction Act. It concerns SEC rule-making procedures, not BLS, BEA, or Census Bureau statistical integrity. The document is a procedural notice requesting public comment on proposed collection extensions\u2014a standard administrative process, not evidence of political interference with federal statistical agencies or their leadership, methodology, or data release practices. Does not match the signal.",
       "severity": 0
     }
   }
