@@ -1,6 +1,6 @@
 {
   "attempted_queries": 24,
-  "average_7d": 12.5,
+  "average_7d": 12.54,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,8 +9,8 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 3.0,
-  "delta_vs_7d": 2.84,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": 3.64,
   "domain_breakdown": [
     {
       "avg_severity": 1.0,
@@ -41,10 +41,10 @@
       "weight": 13
     },
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.2375,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.8125,
+      "points": 0.59375,
       "weight": 10
     },
     {
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.475,
+      "avg_severity": 1.0,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.95,
+      "points": 2.0,
       "weight": 8
     }
   ],
@@ -73,9 +73,9 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-12T15:36:30.502951+00:00",
+  "generated_at": "2026-09-13T16:25:39.524645+00:00",
   "methodology_version": 2,
-  "previous_score": 12,
+  "previous_score": 15,
   "primary_sources": {
     "documents_confirmed": 2,
     "documents_fetched": 16,
@@ -86,13 +86,13 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 15,
-  "score_raw": 15.35,
-  "score_raw_pre_trip_wire": 15.35,
+  "score": 16,
+  "score_raw": 16.18,
+  "score_raw_pre_trip_wire": 16.18,
   "successful_queries": 24,
   "top_signals": [
     {
-      "confirmed_hits": 2,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
@@ -104,15 +104,6 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "A MAGA activist flooded Georgia with voter challenges. Now he works for the State Election Board. - Mother Jones"
-        },
-        {
-          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id\\u003d129998821",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
-          "published": "2026-09-11T04:21:22+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
@@ -127,10 +118,10 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
-      "confirmed_hits": 2,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
@@ -138,23 +129,14 @@
           "canonical_link": "https://www.lawcommentary.com/articles/appeals-court-blocks-trump-mail-ballot-rules-supreme-court",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNakVYTWxBb0hHNF9JUTFaMUtxdVRYMTNYRW1GYUdaNEhJenhBaWJWLXU5WTh2VEwxS2V0c1FaZTZONUY4RUwxQkJjZEdTdkFESFkteFVseTVUdkZnZnF6TDRaS2JaZjZNcFZMYlFObDN1V0NlaDVFVGtaUnp1MTVNYWZHeW1VSFlXT0I5NjllMUpiWmFac0Iwd2RPQktodw?oc=5",
           "published": "2026-09-12T01:39:34+00:00",
-          "publisher": "lawcommentary.com",
+          "publisher": "Law Commentary",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Appeals Court Blocks Trump Mail-Ballot Rules as Supreme Court Weighs Presidential Power Over Elections - lawcommentary.com"
-        },
-        {
-          "canonical_link": "https://www.inkl.com/news/first-circuit-refuses-to-stay-district-court-injunction-against-trumps-executive-order-on-mail-in-voting",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbkE5Q3NKTFN0MVNGQ1R3NlhPdFVPOTJwaFRzRVJDZEEtR2gwcGgtYWdLdC1vT0xYMS1PVkpuaW13d0NwU0FoMUpYWmNpREIyZW5UdmNlX2J5aDU1a3BwaF94aF80S3ZldlBKdnhqQk4zckZwbjZLY0Mzc0RpVFhyRUVYWkpaOHQ5dnFEVllDallDU0FxSVdWZndpMFNLOUVjUEF1Y2NaYkZ4TDlRT2JtZHFDZThyd2h5MUhWb3ZJeDdmX195ZHllaHRn?oc=5",
-          "published": "2026-09-10T21:10:58+00:00",
-          "publisher": "inkl",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "First Circuit Refuses to Stay District Court Injunction Against Trump's Executive Order on Mail-In Voting - inkl"
+          "title": "Appeals Court Blocks Trump Mail-Ballot Rules as Supreme Court Weighs Presidential Power Over Elections - Law Commentary"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 2,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -165,7 +147,36 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "federalism_oversight",
+      "evidence": [
+        {
+          "canonical_link": "https://goldrushcam.com/sierrasuntimes/index.php/news/local-news/81562-ranking-member-garcia-after-house-oversight-committee-moves-to-hold-leon-black-billionaire-and-client-of-jeffrey-epstein-in-contempt-of-congress-says-black-has-now-defied-two-congressional-subpoenas-and-refused-to-cooperate-with-our-investigation",
+          "link": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxOYUhsTzlfLUxQYXFjZDczd3N0RmVOQ213NG9JQWhqUlVCb1RYcnV4aUM1UnBYR0loS2g1TlMybk5LQ3BwTEhhalpjNjlUMVR2VjZDRFB5cTZxZWpSOFZUMGpGWFVEOEFaU01mZDF0TUJNaE91bnJiMUNncmNmVDhsV1RUb0pHMEVqaFhFdHM1dkMyS0pKbkhiNmFpS0FHeXdVOEJSQW1aZXVWN1ZJbVFkejg3c2wxRkVMNXRBbnVBRW5KN1Nial80eERqWGFYdE00cW5CcGZBZUNrNWFfLVpoT1dLOXZQSDdaZ2FoSTN6N1FRcmZVYlBkUS1uLURtd3hLX0xKSnFuSFF3QTdKaDAtdks0azR6VV9jNXoxN1NLNDRiZFJYZmNGa1JVU0dCejFjSjJzclFkUThYdDdBTi1EbXgtYWI2SnM3Qmt0MGdveWpwUG1ScEM4dUlhTktwNXRabXFqNk1TSE5vR0xyWlNQZzJMb3JrZG5td3ZwaVJuS2tBaDR6aWV3UmEzODRxbkIySUNfaTMxUzNoak1ac2pXdjRmNDRObndRU3ktQ1NpVWJhWHJaNHJxb0djRDVDV3dMNDJZ?oc=5",
+          "published": "2026-09-12T12:01:10+00:00",
+          "publisher": "Sierra Sun Times",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Ranking Member Garcia After House Oversight Committee Moves to Hold Leon Black, Billionaire and Client of Jeffrey Epstein in Contempt of Congress, Says, \u201cBlack Has Now Defied Two Congressional Subpoenas And Refused To Cooperate With Our Investi - Sierra Sun Times"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": "A private citizen's defiance of congressional subpoenas represents a real obstruction of legislative fact-finding, which is material evidence of the signal. However, this is an isolated case of individual non-compliance rather than a systematic barrier erected by government officials or a structural attack on oversight authority. The House Oversight Committee's response (moving to hold in contempt) demonstrates that the legislative oversight mechanism itself remains functional. This is a contained enforcement challenge, not a systemic obstruction of Congress's ability to investigate. Severity 2 reflects a credible, confirmed stress signal\u2014actual defiance occurred\u2014but lacks the systematic or official character that would elevate it to severity 3 (which would require, for example, an executive branch official openly defying a subpoena, or an official campaign to obstruct oversight mechanisms themselves).",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 1,
@@ -234,35 +245,6 @@
       "hits": 0,
       "id": "civil_service_purge_schedule_f",
       "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [
-        {
-          "canonical_link": "https://justthenews.com/government/congress/house-oversight-mark-resolution-holding-leon-black-contempt-defying-subpoenas",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPY1NzUFV6b1lBV2c1dzRLcjFJazdGdzY3djZtQ3RpaDVLVzJKMTdkQmdZSGhXX1ZNczBDa3ZDTEFiNkI2aU1GODNtOUc5TXd2SHNyV2lQUm9WLTd0TzcySnQ4ZHBxWDVuaXRyZnNyT0pnT2ZxOVdSTWtNTzEwRDQ5ZDFBcmpSNkhjZExfcDVRZEdROVh1bFA5cG10dDAyWmowQW5HVTRXcXAxdllYdkExRnR5OFBwTWEyZFRJVWpR?oc=5",
-          "published": "2026-09-12T00:09:52+00:00",
-          "publisher": "Just The News",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "House Oversight moves to hold Epstein associate Leon Black in contempt for defying subpoenas - Just The News"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
