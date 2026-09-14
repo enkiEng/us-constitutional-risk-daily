@@ -1,6 +1,6 @@
 {
   "attempted_queries": 24,
-  "average_7d": 12.54,
+  "average_7d": 12.81,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,8 +9,8 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": 3.64,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": 2.41,
   "domain_breakdown": [
     {
       "avg_severity": 1.0,
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.2166666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.333333333333333,
+      "points": 3.954166666666666,
       "weight": 13
     },
     {
-      "avg_severity": 0.2375,
+      "avg_severity": 0.15,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.59375,
+      "points": 0.375,
       "weight": 10
     },
     {
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.825,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 2.0,
+      "points": 1.65,
       "weight": 8
     }
   ],
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-13T16:25:39.524645+00:00",
+  "generated_at": "2026-09-14T18:05:47.151638+00:00",
   "methodology_version": 2,
-  "previous_score": 15,
+  "previous_score": 16,
   "primary_sources": {
     "documents_confirmed": 2,
-    "documents_fetched": 16,
+    "documents_fetched": 17,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,9 +86,9 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 16,
-  "score_raw": 16.18,
-  "score_raw_pre_trip_wire": 16.18,
+  "score": 15,
+  "score_raw": 15.23,
+  "score_raw_pre_trip_wire": 15.23,
   "successful_queries": 24,
   "top_signals": [
     {
@@ -99,7 +99,7 @@
         {
           "canonical_link": "https://www.motherjones.com/politics/2026/09/maga-activist-jason-frazier-flooded-georgia-with-voter-challenges-now-he-works-for-the-state-election-board/",
           "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY3B6V1ZMWWpwWUZMNmo5NkN5bzZOQ3plRGE2d1lxcUNKbktiTGVmWDRjc3p0dkMzQkJMNmtFR3ZySGxBX3VodEZEanh5OEh1WVlXSjlLU2VzSUhKVGIxSU41VzFhZktyaDdXcjBWUmFZcDVUdXc3MlJtTWZmcWFMSUhtb0RPTWs5NTVyTm9UN1VZZDh1cF9US2RmMG1lbjk0WDRPaW43d2d6UVFobmRmaHVBNmxDcmFvUU5aTDYyaVpaOVloZHoxdDFhMlJKZVl6SDd1Q2N0SGtqRUM2Z0xjVzVBeFF5aF91?oc=5",
-          "published": "2026-09-12T13:27:46+00:00",
+          "published": "2026-09-14T11:53:23+00:00",
           "publisher": "Mother Jones",
           "source_name": "google_news",
           "source_tier": "news",
@@ -107,7 +107,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 4,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -115,64 +115,6 @@
       "primary_documents": 0,
       "primary_source_url": "https://www.motherjones.com",
       "rationale": "This item reports a real, verifiable action: a specific individual with a documented record of partisan voter-challenge activity has been hired into an election administration position (Georgia State Election Board). This is a concrete instance of partisan personnel placement in election administration, matching the signal of election administration moving toward partisan control. The placement is confirmed and has occurred, but it is a single personnel decision rather than a structural, systemic capture or an official policy dismantling neutral process. Severity 2 reflects that this is a real, credible stress signal (personnel capture) but not yet a high-severity structural breach.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.lawcommentary.com/articles/appeals-court-blocks-trump-mail-ballot-rules-supreme-court",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNakVYTWxBb0hHNF9JUTFaMUtxdVRYMTNYRW1GYUdaNEhJenhBaWJWLXU5WTh2VEwxS2V0c1FaZTZONUY4RUwxQkJjZEdTdkFESFkteFVseTVUdkZnZnF6TDRaS2JaZjZNcFZMYlFObDN1V0NlaDVFVGtaUnp1MTVNYWZHeW1VSFlXT0I5NjllMUpiWmFac0Iwd2RPQktodw?oc=5",
-          "published": "2026-09-12T01:39:34+00:00",
-          "publisher": "Law Commentary",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Appeals Court Blocks Trump Mail-Ballot Rules as Supreme Court Weighs Presidential Power Over Elections - Law Commentary"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://lawcommentary.com",
-      "rationale": "An appeals court has blocked executive rules on mail ballots, confirming that an executive order on this subject was issued. This represents a real attempt to shift election administration (normally a statutory/state matter) to unilateral executive action. The court block indicates the action occurred and was challenged, confirming the bypass attempt. Severity 2 because the action was issued but was judicially blocked, preventing implementation\u2014a contained stress signal rather than successful structural override.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [
-        {
-          "canonical_link": "https://goldrushcam.com/sierrasuntimes/index.php/news/local-news/81562-ranking-member-garcia-after-house-oversight-committee-moves-to-hold-leon-black-billionaire-and-client-of-jeffrey-epstein-in-contempt-of-congress-says-black-has-now-defied-two-congressional-subpoenas-and-refused-to-cooperate-with-our-investigation",
-          "link": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxOYUhsTzlfLUxQYXFjZDczd3N0RmVOQ213NG9JQWhqUlVCb1RYcnV4aUM1UnBYR0loS2g1TlMybk5LQ3BwTEhhalpjNjlUMVR2VjZDRFB5cTZxZWpSOFZUMGpGWFVEOEFaU01mZDF0TUJNaE91bnJiMUNncmNmVDhsV1RUb0pHMEVqaFhFdHM1dkMyS0pKbkhiNmFpS0FHeXdVOEJSQW1aZXVWN1ZJbVFkejg3c2wxRkVMNXRBbnVBRW5KN1Nial80eERqWGFYdE00cW5CcGZBZUNrNWFfLVpoT1dLOXZQSDdaZ2FoSTN6N1FRcmZVYlBkUS1uLURtd3hLX0xKSnFuSFF3QTdKaDAtdks0azR6VV9jNXoxN1NLNDRiZFJYZmNGa1JVU0dCejFjSjJzclFkUThYdDdBTi1EbXgtYWI2SnM3Qmt0MGdveWpwUG1ScEM4dUlhTktwNXRabXFqNk1TSE5vR0xyWlNQZzJMb3JrZG5td3ZwaVJuS2tBaDR6aWV3UmEzODRxbkIySUNfaTMxUzNoak1ac2pXdjRmNDRObndRU3ktQ1NpVWJhWHJaNHJxb0djRDVDV3dMNDJZ?oc=5",
-          "published": "2026-09-12T12:01:10+00:00",
-          "publisher": "Sierra Sun Times",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Ranking Member Garcia After House Oversight Committee Moves to Hold Leon Black, Billionaire and Client of Jeffrey Epstein in Contempt of Congress, Says, \u201cBlack Has Now Defied Two Congressional Subpoenas And Refused To Cooperate With Our Investi - Sierra Sun Times"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": "A private citizen's defiance of congressional subpoenas represents a real obstruction of legislative fact-finding, which is material evidence of the signal. However, this is an isolated case of individual non-compliance rather than a systematic barrier erected by government officials or a structural attack on oversight authority. The House Oversight Committee's response (moving to hold in contempt) demonstrates that the legislative oversight mechanism itself remains functional. This is a contained enforcement challenge, not a systemic obstruction of Congress's ability to investigate. Severity 2 reflects a credible, confirmed stress signal\u2014actual defiance occurred\u2014but lacks the systematic or official character that would elevate it to severity 3 (which would require, for example, an executive branch official openly defying a subpoena, or an official campaign to obstruct oversight mechanisms themselves).",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
@@ -239,6 +181,54 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
+      "domain_id": "federalism_oversight",
+      "evidence": [
+        {
+          "canonical_link": "https://legis1.com/news/leon-black-contempt-committee-will-weigh-over",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hVWM1dWUzamJ0c3BKODRvbERrWmQyRjVaZWg1Wk1wVkdpbW9jUHUzbUgxSlFIYmZqVy1QRHJQQjZENjdGSElJR29YWFNjWDRZcGg2dmlGMUtYcVhkX2ZvQjNWUk5RSjYyYmVIeG5qeWlLb01uaml6OQ?oc=5",
+          "published": "2026-09-14T14:17:12+00:00",
+          "publisher": "Legis1",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "House Panel Moves Toward Contempt Vote on Leon Black Over Epstein Ties - Legis1"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [],
       "evidence_mode": "keyword",
@@ -251,8 +241,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],

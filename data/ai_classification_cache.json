@@ -544,6 +544,16 @@
       "rationale": "This is a filed complaint initiating litigation against DHS. A complaint is a pleading that requests relief; it is not evidence that a court order has been issued, much less that it has been violated. The document marks the beginning of a case, not an instance of noncompliance with an order. No order exists yet, and no refusal to comply has occurred.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74769513/5/43/guzman-v-us-department-of-homeland-security/": {
+      "actor": "Unknown",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74769513/5/43/guzman-v-us-department-of-homeland-security/",
+      "rationale": "This item describes a motion for preliminary injunction and complaint filed against DHS\u2014a lawsuit seeking relief, not evidence that an executive or administrative entity has refused to comply with a court order. A motion and complaint represent the initiation of litigation, not noncompliance with an existing court order. No court order has been issued yet, and no refusal to comply has occurred. This is a procedural filing in an ongoing dispute, not an instance of court-order noncompliance.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/74774939/2/equal-employment-opportunity-commission-v-psychological-dimensions/": {
       "actor": "District Court, D. Colorado",
       "confidence": 0.99,
@@ -704,6 +714,16 @@
       "matches_signal": false,
       "primary_source_url": "https://valleynews.com/",
       "rationale": "This is a prospective guide about potential rule changes to mail-in ballots. The phrasing 'might change' indicates a proposal or possibility, not a confirmed action or capture of election administration. Rule changes themselves, when properly adopted through official channels, are not inherently evidence of capture unless they demonstrate a shift from neutral to partisan control. A guide about possible changes does not establish that such capture has occurred.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiekFVX3lxTE4wY2VFamlqSU5uS1BnY1JIRzNYRUJaZWZzSEg2V3VvWGRRbmVBWUlid2hGS0tyZC1LeDlwN2VUblRadXNrRGZkVkl6cHdQTHFoTFFBb09qSGg2WE5fU1JJM25MQ2xnWjBkYUpkc1FUNjJ1aEtMYm5idEFn?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is a headline/opinion piece from a commentary publication (Balls and Strikes). The summary provides no substantive detail about any specific action taken regarding election administration. It appears to be analysis or opinion about Trump's conduct relative to a Chief Justice Roberts statement, but contains no factual claim about an actual event that occurred, no description of what Trump allegedly did, and no evidence of election administration being moved to partisan control. Without specific facts about a concrete action, this cannot be scored as real evidence of the signal event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDamM1bW5IMkhYRnhweWF0M2E1dnVCZGx3OWdZUnN4dllvczlZODJkT0dlVkdOMVVzeThkQmNnYU1HQ0hXTm4zTnNYMjIxZ2h1X3pNeWtPMDFnOVVZSkJEUHlwalVXZFZ1UHpxaTU0MmhzUV8tYk1HeXJRSmpiLUU?oc=5": {
@@ -2225,6 +2245,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74771151/1/united-states-v-matthews/",
       "rationale": "An indictment in a standard federal criminal case (U.S. v. Matthews) represents ordinary criminal prosecution. There is no evidence of retaliation against oversight bodies, inspectors general, or anti-corruption functions. No constitutional-stress signal is present.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74784724/1/1/united-states-v-sockwell/": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74784724/1/1/united-states-v-sockwell/",
+      "rationale": "This is a sealed criminal complaint in a standard federal prosecution (United States v. Sockwell, D.D.C.). The docket entry describes routine judicial process\u2014filing a complaint and supporting affidavit, with document replacements. There is no evidence here of retaliatory action against an Inspector General, watchdog function, or anti-corruption monitoring. The sealed nature prevents assessment of underlying facts, but the format and docket activity are consistent with ordinary criminal procedure, not with IG retaliation or constitutional stress. This does not match the signal.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -2348,6 +2378,16 @@
       "rationale": "This item discusses proceedings in the Philippine Senate impeachment court, with references to Senator-judges and statements regarding a case. This is a Philippine domestic event, not a United States constitutional event. The item is not relevant to the U.S. early-warning dashboard regardless of content.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNc1VkUkM3ekI3MzRwTmVVQ050WTBwZzYzRGVRQ0pmaUExZVpVb1Z5dklsMVpqYkRlVHJlQVhZNm9JRzNaYU40TFVXTTBzRHFlalplblVmUXFwZWxnNnIzY0Y0eVg3Wm9pTXl0UDhPSnZybEF5dTREdVpkc3QwTHRXS0RMNjUwWDk0SEJzSWVsWmRDMndWcGt3UGJWYjNYV2Q5bFdwbWpIazVHZ1dsSTYyLVJyUXltUzVJVVk4S1BCYVdNRkt3YUQzOFUxa3ItbHowWDhCSWpjaTREUU1Y?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "facebook.com",
+      "rationale": "This item concerns an impeachment trial of Vice President Sara Duterte in the Philippines in September 2026. The signal addresses judge intimidation campaigns in the United States. This event is not U.S. domestic and is therefore outside the scope of this dashboard. Even if the Philippines were within scope, an impeachment trial is a legitimate constitutional process, not evidence of a judge intimidation campaign.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMFlMY0hlbDVTRGRDcTNUTF9BQV9qMWxvdWZBdkQxUGJPMzNINUFvQTJZRF9XY29qNVdsc2lmSG45Y01JNWFCR1BLQ1JtZ0tiSnlJQWpPMWRXWlZHUWQ5YlZwejNuaVJlaXhQR2dXNXJpeXRDVGkyX2dNVmQ1OUZ3Y0JzX3p3SENaTTVHMHk4azdGWXllRmJXTlIxVE9NVjJqTVhLWE5WU0w3a2NYZDF6c3BZZE95bFdLZVpDX1l6UXBnUnZLYzczdDlBUXc3SW12SGQtWVEwdldCcGJX?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -2386,6 +2426,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item reports on Philippine Senate impeachment proceedings against Vice President Sara Duterte, including procedural rules about lawyer conduct. It is a non-U.S. event and therefore out of scope. Even if it involved enforcement of rules on public speech about judicial proceedings, it would still be a foreign constitutional matter, not evidence of U.S. judge intimidation.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQV1NCY3Zza2ZnTkI2bEF4enpJbWpyaGFZdWZMUTVONlc0NElJME5vVTJnaEk2aXU1Y21UUE9hSlM3ekFxMkNUaWMwWXhJRktRRU0wX1VPa1RWZ2hiVklKYlE1UXhOby1sLTZmNUJtX0J1T2t3anp5YjB6Nkc1Zjlxa0VUZkVtME9FbVZQWkh1aTVkQW1hOUJlWEVhaUU2SmFidGRxeGZZNF9iN0VhWEthak1rS04zZHBDSUZ0UHRwSnVVS3hHdzlNODNWTlp6N2ZrQXpiSlgtQWhQQU9EREE?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "facebook.com",
+      "rationale": "This item concerns the 24th day of Vice President Sara Duterte's impeachment trial in the Philippines (September 2026), specifically discussion of Article 2 charges. The signal addresses judge intimidation campaigns in the United States. This event is not U.S. domestic and falls outside the scope of the dashboard. An impeachment proceeding is a legitimate constitutional mechanism, not evidence of judicial intimidation.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOd3kyS3BkcGZNZ1BTWTBEMkdVR0x0UkhncFZieHZOck1QaElKcFh1UTJGU1lDTWJFZU04YXpBeEw0UlBqOGVPUEFsTXFSaG56VkZjejVGcW01YlI4amJmSXM0dHliWVhzcGVqUmc2aHE1MHhwckxoUU80QnI4MEJ6Mk15dEprd0U2Y3NjLVRvRlRoOW8yV3hKVVcwZTBmR0wzS2MtUGphX2JkX191eHh3WC1UX0JuUHNGV1hzb3ZJSFhwb1BvMWg4aFQyUWpSWTBXSGRITW54VnhnTE5UYks0?oc=5": {
@@ -3546,6 +3596,16 @@
       "rationale": "Same event reported: suit filed to block House Oversight Panel subpoenas. Constitutes real obstruction of legislative fact-finding through legal challenge and non-compliance.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hVWM1dWUzamJ0c3BKODRvbERrWmQyRjVaZWg1Wk1wVkdpbW9jUHUzbUgxSlFIYmZqVy1QRHJQQjZENjdGSElJR29YWFNjWDRZcGg2dmlGMUtYcVhkX2ZvQjNWUk5RSjYyYmVIeG5qeWlLb01uaml6OQ?oc=5": {
+      "actor": "House Panel",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item describes a panel 'moving toward' a contempt vote, which is a procedural step toward potential enforcement action, not a completed action that obstructs legislative oversight. A contempt vote is a legislative tool used to enforce oversight and compel testimony or document production\u2014it is an exercise of legislative fact-finding power, not an obstruction of it. The item does not indicate that the House has actually voted, that a contempt finding has been issued, that an executive official has defied a subpoena, or that any barrier to legislative fact-finding has been erected. Contemplating or moving toward a contempt action is the normal operation of legislative oversight, not evidence of systematic barriers to it. No constitutional-stress signal is present.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMifEFVX3lxTE42Y0NJUkxyX1huekZETHRleEI5Q2s0UzlVMUVhbzJubWp2M25XdEJWTEU5ZFJnUjVfYk15MkFaMTRBWnR3TXhpYjVIbURYQzk2ZnhINzZhTGFyZkU5Qk5GZ1loZGJFbmFPSGRhWWZEc01TZVBtdWVBRUtUaks?oc=5": {
       "actor": "Watchdog Group (unspecified)",
       "confidence": 0.95,
@@ -3748,6 +3808,26 @@
       "rationale": "This item reports a Ukrainian court proceeding regarding a soldier missing in the Bakhmut conflict (Ukraine-Russia war). It is not a U.S. domestic event and contains no language or content related to martial law, military governance, or military management of political disputes in the United States. The article concerns a civil/family law matter in a foreign country during an active military conflict.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNR1VPeGZqM2tRUVI3OFdSWVFtSkNwMHVVcTlvMXA2d04tbTlFbTJ5VTNWRDlPcGFZY1VhT0Fza05WODdpN3MybC1HUE8wYW9SWDBIUXpyTWdoWk9WSVBlYWpnWFJiYzJwTEIxa2lBNC1tNHdydVQ2VmFfRHdHbEUwcHh1eGxrQWJ3eVBzN01yU3o5eTJHMXc3QVYwZjNuV0FoRHI0dVVLUWR1ejQ2UHE2cmM5aV9BRnRjNndlQ010TVpFaDRnYnNhZXNzM1YyNjBZQWVqR3lubDdicHk2bmc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is from the same Ukrainian legal publication and concerns police, military commissariat, and conscription procedures in Ukraine. It is a non-U.S. event involving military administrative processes in a different nation's system, not evidence of U.S. constitutional stress regarding martial law or military governance.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTWwxYmM4VmEtUUIxZ19NVm9DT3Qwdll3ZEVybExKM1E2YzA0VHRWVDEzZ2JMZWl5TC1WTW9veEFsdVp1a2paTlRYWjNPblRlNE5WVGZpQ0ROVE1TcGlmU3JYM3FUU2FRSGhMSzJMQ3VsNTJCZFl1ZXpzWGJncV9LbGpaRnVzcUlXamZlNVExaVpZSkVCTEMwUndFUFRUbHJrSGpDSVUwaFd1d3JDa0FIQnFIZG1OS1I2X2JybC1IOUZGUEd1c1FXZEtaaDY1TXA2Sl9kTEFQVXNkVVItWmRr?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is from a Ukrainian legal publication (\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430, Ukrainian spelling) reporting on a Supreme Court decision defining Cabinet powers regarding pension enforcement. It is a non-U.S. event and contains no signal of martial law or military governance language relevant to the United States.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNllUbFpNYU9IUkZ6U25mZmROaEZZUGxXR0pRSXhHYjF1QXh1RHFqSlFiV184Q3FEZ3ozTDlIZEQ4T2I2c0pHWlNwTXcyQTlmXzFSZzZfYTM3TnZNVzFEMEpQbVVuVGFaM1ExWk9jRFRmQWVNVWVYX205SDBBc01xQUpzU3BFUnFTcklHeVE1Nm56cUJPNDgyeUt1d0JwOHZ4ZFY1eHhaRF95bUl0SzVhNjVrNXdsbm9qZjVhZHdzcFBJMEQ3RDYxUEJqbFZQSFYtLUNYTzVxd2V0Y3FjN3V3R2FHd2c4MS1QMUE?oc=5": {
       "actor": "U.S. court",
       "confidence": 0.95,
@@ -3756,6 +3836,16 @@
       "matches_signal": false,
       "primary_source_url": "\u0441\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
       "rationale": "This item concerns a routine constitutional question about weapons regulations and park bans\u2014a standard judicial review matter. It contains no rhetoric, policy, or action involving military governance, martial law, or military management of political disputes. The signal is not implicated.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJem01NnZsSVNBcTBmeTYxOGxMY2hfeXpkOXdhMnFKUzA3TGpJTXJGaHRhWG1CaTB0ZndUczBNUl9ZeGwtYVAyekdhQTd6aWIwS1g4?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is from a Korean news outlet (\ub9e4\uc77c\uacbd\uc81c) and reports on a confirmation hearing in what appears to be a non-U.S. jurisdiction. It is not a U.S. domestic event and therefore not relevant to a U.S. constitutional-risk dashboard. No evidence of military governance or martial law language is indicated.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5": {
@@ -5017,6 +5107,16 @@
       "primary_source_url": "https://cedarnews.net/stars-and-stripes-journalists-sue-pentagon-over-alleged-retaliatory-firings/",
       "rationale": "Stars and Stripes journalists filed a lawsuit alleging retaliatory firings by the Pentagon, which is a credible, confirmed action alleging state retaliation against journalists. This is a real, documented stress signal\u2014journalists have taken legal action claiming employment retaliation for their reporting work. While the allegations require adjudication and this is not yet a court-confirmed finding of wrongdoing, the lawsuit itself represents a verifiable state action (alleged retaliatory employment decisions) that raises legal risk and costs for independent reporting. This is a contained, serious signal (severity 2) rather than a structural constitutional failure.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUUVzVjVvZ09zNy1TRi1rcy0xcXBqMzFzdnQzRFZDZ1RTbURacV96RGNfcEVXMHhJUnVQMmY3UkJ6R1ljU1lzZVVkUDVsenNBT1h6b0EwTVJuZGNZZExfRk1tUzR5SVI1ZldWSGNrenJ2Q3BGSzVVc25xQzd6aDFBcXJrLUxfdFAzUkZ3T3Q0cV9Ga0ZKY3dnYy1XeUZuMVU?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Bangladesh, not the United States. The signal requires evidence of U.S. press restrictions or retaliation. Additionally, the headline describes a positive democratic development, not a threat to press freedom. Not relevant to the U.S. constitutional-risk dashboard.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZEZ0YnRTckJVdHNPazZ6Z1RZcVFhN1V5bFh2UEpZNVFTWGJYNGxqR2FXUEV4NlRYN1l5V3lFdC1ScEZLU25iSkJ1YU5hMDJfS2dIZDJRZVBEeE9qU2t3SjlqcWJhVkZDc3JrOU1jV1lvX0xRc0kzZ1dVdldXX21LTVBtX0FvSElkeGRndDBhVU05RVg3azB2aWJ3Zkp2QVk?oc=5": {
       "actor": "N/A",
