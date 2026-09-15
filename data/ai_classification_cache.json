@@ -110,6 +110,16 @@
       "rationale": "A Nevada judge dismissed the 2020 fake electors case against GOP officials. This is a judicial dismissal of charges, not evidence of the alternate elector scheme itself having been executed or having substituted unauthorized slates for lawful results. The dismissal is a legal proceeding after the alleged events of 2020.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUUJsTEZGaTJXcmlyaU9TS3ZUSVJmV0tMLWZTenVpUnJvSFVvblh0WXhuemhZbjF1MUJhdU96ZDhMa1ptd2l1VkpKQUxIeFFrWml4X19Jd1JaaldsUnAzWmlCLVVSOU1EQTdIZjBDU3RGVW5tQlE2YktXWXRYX0NCdE9mbFF0LWpqMFBCcFBMTzJReVdaYVBvNjNhTXBFZC0xR3NKMmF2Sjk?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This is opinion/editorial content characterizing a political figure as a threat. It contains no evidence of an actual alternate elector scheme, unauthorized electoral slate substitution, or any verifiable action occurring. The item is commentary and analysis, not a report of a real constitutional event or official action. No specific alternate elector activity is described or substantiated.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT2RVQy1GRE1LMEY2YkhIMjRuX0xUZ1drQlFUNVNzTUdEVGlMZjBXWVNKRlV0TFVXaThRLUJ3ME5yc3N5MWdiVjZlVUJUanRJOVFPbEk0STctbUY0WGlmMWFRTTNOTjlUVHJvVFpzTzRYMXVhQV9TWW02YmNGUC1ZSWxzTVhIVkRocXhvd2hQV2VkdDFqMEUybWt3NUJDQnZFX1dtVU45UmJ5MmwtZms0N0lsbmgxMFVP?oc=5": {
       "actor": "Nevada state court",
       "confidence": 0.92,
@@ -260,6 +270,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/04/2026-18164/driving-efficiency-in-farm-loan-delivery",
       "rationale": "This is a routine rulemaking by the Farm Service Agency to streamline the farm loan application process through expedited underwriting using financial benchmarks and historical data. It concerns procedural efficiency in loan delivery, not politicization of career civil service or reclassification of personnel under Schedule F or similar mechanisms. It does not implicate removal of civil service protections, at-will reclassification of career employees, or politicization of the bureaucracy. This is ordinary administrative housekeeping unrelated to the signal.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/15/2026-18828/shared-certificates-and-pooled-hiring-actions": {
+      "actor": "Office of Personnel Management",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/15/2026-18828/shared-certificates-and-pooled-hiring-actions",
+      "rationale": "This item describes a procedural rule concerning competitive hiring certificates and pooled hiring actions\u2014mechanisms for sharing qualified candidate rosters across agencies. The summary indicates OPM is modifying HOW certificates may be shared among appointing authorities to improve hiring efficiency. This is a routine administrative adjustment to hiring procedures and does not constitute evidence of at-will reclassification of career civil servants, removal of merit-system protections, or politicization of the bureaucracy. The signal 'Civil Service Purge / Schedule F' refers to converting career positions into at-will roles or purging career officials for political reasons. A rule streamlining certificate-sharing does not accomplish or evidence that transformation. The document appears to be incomplete in the provided text, preventing full analysis, but the described subject matter\u2014competitive hiring procedures\u2014is categorically distinct from Schedule F-type reclassification. No structural removal of civil-service protections is demonstrated.",
       "severity": 0
     }
   },
@@ -563,6 +583,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74774939/2/equal-employment-opportunity-commission-v-psychological-dimensions/",
       "rationale": "This is an administrative notice of a procedural violation (incorrect signature format in an ECF filing) by a private attorney in a civil employment case. It is not an executive or administrative body's refusal to comply with a court order. The notice is a routine procedural warning to counsel about ECF formatting rules, not evidence of noncompliance with a substantive judicial order. No court order has been disobeyed; no executive or administrative refusal has occurred.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74784512/15/air-baltic-corporation-as/": {
+      "actor": "Air Baltic Corporation AS",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74784512/15/air-baltic-corporation-as/",
+      "rationale": "This is a routine bankruptcy court filing\u2014a notice of commencement and first-day hearing agenda in Chapter 11. It is a standard procedural document in a commercial insolvency matter. It contains no evidence whatsoever of executive or administrative refusal to comply with a court order. The document is part of normal court administration, not evidence of noncompliance with any judicial directive. Severity is 0 because this is not a real occurrence of the signal.",
+      "severity": 0
     }
   },
   "election_administration_capture": {
@@ -804,6 +834,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Vermont's removal of voters due to discovered registration errors is a routine administrative correction of voter rolls based on error discovery. This is standard election administration practice, not evidence of partisan capture. No indication that neutral process has shifted to partisan control.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSTZDRzZ3V3V1djVGeHVjSXV0NVhPaVFtV21lbm53bTFadGhSbjAxVUlRV2RzMktEbUlheU1oX3htbjNxcUFzS0k0RUpEVGRGTjZPS2s5ZDRhaHJDTzFuODRMVUlMTUgycDNhN2JRdnloVFZoS1RVZVFlZnFJX2R5UUNaX3hMUTA0QnltVTkwSVk?oc=5": {
+      "actor": "Supreme Court / Trump Administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a press headline and framing ('election takeover') rather than a verified account of a specific action. The summary contains only the headline and no substantive reporting. A Supreme Court decision on mail ballots is a judicial ruling, not evidence of election administration capture (which involves partisan control of the administration machinery itself). The phrase 'His Election Takeover Continues' is editorial characterization. Without access to the article body, details of any alleged partisan capture of election administration cannot be verified. The headline alone does not constitute evidence of a real structural change in election administration governance.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWGwzZm9lQkJRcXI1VXRjOGthTjgxYnlrSnZ6Y2RPUnR2d2I4MWJtWjR2M3d0THE5SmxjZ1VKOVZnN3pWQ29vVVRWSkhDUDZQWmhqXzZZRERTcjJrLVBESDRDblR0bU5YZEtDTmtGVXlmcGtvb2ctbGQySUVsdkNEYzhUbFdyR2Rxa1MzRjRKMW82QQ?oc=5": {
@@ -2670,6 +2710,16 @@
       "rationale": "Same as [0]. A ruling allowing construction to proceed is ordinary judicial disposition, not a refusal to review government action on justiciability or standing grounds. Does not evidence threshold-based foreclosure of judicial review.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaS1XWUhibm1qTGtZcVBrN0VzWFlLYk1nRVFFSlFLX1FtMnZRWTIyTW02M1oxbUpORHJYWjgtRndhOVl2QU1qY2dOQUg0QThVd0lfSEZYc1ZGeHQ0VXJYT01lY1ppZGVRazkzMFh6TzF1aVEtY2lzNTQ3aEJUTUw0R19GTkZFYm5DSHZGRDJwYkFyb0VsVGJYRmc1TnFmWTlrM2dOMk5B?oc=5": {
+      "actor": "Nebraska Supreme Court",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.bloomberglaw.com",
+      "rationale": "A state supreme court has declined to revive a legal challenge to cannabis laws on threshold grounds (likely standing or justiciability). This represents a real court action foreclosing judicial review without addressing the merits of the underlying legality claim. The action is confirmed and credible (Bloomberg Law coverage of an actual court decision), but isolated to a single state court and a single case. It is not part of a broader pattern or campaign, and does not involve federal constitutional authority or systemic removal of review capacity. It meets the signal definition\u2014courts closing the door on review on threshold grounds\u2014but remains a contained incident rather than a high-severity structural failure. Severity 2 reflects a repeated or credible stress signal of a real but contained action.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQVB5V3ZEd0RPZEVMa25aSVQwQmpWRXNJUndpWEU1dmpyenFXS1BJeHd6a0dXTHJCUVBINGF0N0JlYmNFMHJ2ZEp5dW0tckk4QllyT3FBZ3h3NTc4MHc3YURuRjc0dTdCSExHVGlrd0lzU2RmMXlMTW9ISkFKWXZLME5OUkxyWklMQ1M2VmdDYTdDSWhrUmxCY0Y0SHB1OE1qeFFKNEhmXzc?oc=5": {
       "actor": "Supreme Court",
       "confidence": 0.95,
@@ -2882,6 +2932,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a foreign policy analysis article about U.S. relations with regions in the Horn of Africa (Somalia). It does not concern legislative bypass by executive action or any domestic U.S. constitutional governance issue. Not relevant to the signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQWlUTjUyNmVULUlzM3Buc0FMaHNZOFNsQ2ptb1RhRlZoMjJOUmRnRUI4bUNKWHU4SEZFZUtWZmpBTUxyMllTTUM0S3ZwX0IyM0xxelk3VjM4ei1TdlN4ZFpNS21INExCb19oVWppRFZjRWpjWDhfZGN2TGl0ZzFVb0JSd2E2dEtXY0M0Yld0TmRFYXgtM08zUkhFUXg0MklLSlVOLVcwMk40WGplcUZnYXEtR3E2WXQteUZwLV9RUjc4aDJUbVNpcElETVAtblFJT1lYeVVVSG9BQQ?oc=5": {
+      "actor": "Trump administration / Postal Service / Supreme Court",
+      "confidence": 0.94,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "theconversation.com",
+      "rationale": "Analysis explaining why the Supreme Court blocked executive action on mail voting. This is explanatory commentary (The Conversation is an academic outlet) about a court's successful constraint on executive power. The blocking demonstrates judicial review functioned\u2014the opposite of legislative bypass. No evidence of executive action circumventing statutory authority occurred; rather, the executive was restrained from doing so.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOHZfeWItUWw5Rk5BM0ZGQ3o3dWhzSHNzQUEyTFRVVmNRNFhVQWlPM1JobkZhNFZXTnVHNjVVaU5helZhSjJLR0MxMWJfUWNnRHV4ZGt6SEhMbklyNmJPNGI2QkR1NFl6b3pkRXFhb3NDQ0xPcUZYVWFYWGJyaU1LOWlXLXNtaDNLN0pBMF9wejRsSnc5b2gzeGYyTElsdHFrTUEyTEJpM1daQ2ZsdjktdndlVl9rb2h3SUdMc3RGQ2pwY2NOWlRhdUNrdHBxYUcySnJoNHZpSDJVenVz?oc=5": {
@@ -3354,6 +3414,16 @@
       "rationale": "This is opinion/analysis content from a policy advocacy organization discussing what legal authority the President does NOT have. It analyzes hypothetical claims and legal constraints. There is no evidence that any executive action has actually been taken, no national emergency has actually been declared, and no elections have actually been nationalized. This is legal commentary about proposed or claimed actions, not documentation of an accomplished executive bypass of legislative authority. The item explicitly states the President has 'no legal authority' to do the thing being analyzed\u2014this is a denial of an unexecuted proposal, not evidence of a real occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOUJhSXdYZzh2Z2tPQ01ub2xfek9PYy0zbUdMY2psTjJZOHdhS1NEWjlVUHJLZi05SDkxY1dOcnYwdkNnZVl0QmdxbVZWSFc2dG5SUFZYb3BCaWVtWFJzc3hMY0l3a3FjVFdRUGxwRXFwZjBtMUtJazhqN0FjNjZtWUZNRm1YVXIwUm5YWWM3MHY3enNtM083SHpLUTA4c1FzZFV1QmFkNjBaSkxv0gGyAUFVX3lxTFBUbHBEN2NRZlBfU3piNGJaXzBqbDh0YzRhSXZVcWJOWURwT1lZc3BiYU9GbmRIMHpBOGU1cXVucXN6VjdQRmdTSVRoaDE3bGVlQUJoSXV6T0tvTHlmdVVPUU9wM2NfektwWFJYUTdUVWRreUtHSGpJVFUxV21BZW93NnNfbDhhdmp5YktSVFhwRExQSHBlTXBMTVkzWkc0dFZoc3VIdi1ydlF3STFnYk05S3c?oc=5": {
+      "actor": "Trump administration / Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "PBS.org",
+      "rationale": "The Supreme Court's rejection of executive restrictions on mail ballots is a successful judicial check on executive overreach, not evidence of executive bypass of legislative authority. The court enforced constitutional limits on executive power. This demonstrates normal constitutional operation, not constitutional stress or governance shift from statute to unilateral action. The executive's attempt was blocked.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb3Zwd1VuVFR3aXN3Y3kwS2hBa0phNnJzMmh4a3FmaFhsR1RQd09sYzh4M0JVLWxrUG5UeExJNWdPejYzdURmZEM4aGtpakVxLWdZY2lRYWtwMFNTOGxYcFRRcldZcmJlTzREYmFIQnNSaVo5c2lCZXpnN1A3MWU2YVd3MGhOTkFXbDRQNEc3OGEzdlZzMGUzLXo0Z2FaTG42ekRKS3kxeVVkaEdqWHc?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.75,
@@ -3534,6 +3604,16 @@
       "rationale": "This is a warning or advocacy statement by civil liberties organizations and state attorneys general regarding FTC AI policy. It describes a concern about policy exposure to liability, not a verified instance of legislative bypass by executive action. The item reports a position or complaint, not an accomplished executive action shifting governance from statute to unilateral executive power.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZGkxWnlweHZWWTl2MGFSNTRFaXdwWU5xQVZVR3dWWFEtNko0SEtkQ092cGtPYnI3M01uT3BucTh4LVFvY3ppYzNvZGU0Q0VLZHk1Tk52SUlWdzZNbHRqcnZnU1ZNNlE1VkVyazNfbjczc0ZBWGVHZWFUU0NObG8wSk9TbVdfcTZJTjRoSktLRWRrZUJpTWY5MXdFdjN1MkRBRVNiZms5X2docFNucDd0QmcxeGllelZEVDdpaG50dm5vZnRTQ21maEVoTWc?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "SCOTUSblog.com",
+      "rationale": "A court denial of an executive request is evidence that the court functioned as a check on executive power, not that executive bypass occurred. The Supreme Court rejected the administration's attempt to unilaterally implement voting restrictions, which demonstrates the judicial branch successfully constrained executive action. This is the opposite of legislative bypass\u2014it shows the system working as designed. No signal of constitutional stress is present.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMizAFBVV95cUxQblFuM0lVVnk1ek05cENEdmp2YTdxclBnejRzM2J4RmgwNHp0Wm9KaFhWOTh5SVhncHZ0d19MQ1VLUWpmTk5KWHVoRnpjYlB1bVlJdkRORW8yaThCSm5Fc1o2MENqdnBxTkVESm9mOUdsVnU5LU83YzhJbjBXN0c3SlA3ZGdiZV8wS0EyaVppSWVLWmNnVHYwUkJoTnF5Q2FiWDREeHdVLVN0WVNpMjhmNkNkODZCSloxWl91WTZoUUp5YnFXWjhib0ZkbHc?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.78,
@@ -3685,6 +3765,16 @@
       "primary_source_url": "https://bozemandailychronicle.com",
       "rationale": "Confirms Black skipped deposition and sued the committee. Real event. Same context: isolated private-citizen defiance of a specific subpoena, credible legislative obstruction signal but not systematic. Severity 2.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxOaEdlUTRGX05IRnlXSDR3ejE2RjRfYmxFRURHQ185QmRSY1Ztb0VfU2FqS0Npc0lHTDlBcXpwQl9HSkZXS0lfdVhTZlcyWFBua0Z4UE5obUFPUm1rcXlyWDhSYUtYUXNjQThnelpobW1yWjJxTi1iblgzMlAxam5SaGJOU0t3QTZDUXJlUFo1eGRlWjVFdG5hMURadzNwZ9IBowFBVV95cUxPeFotMDM4MmRiSDdpeXZlN2JwQ1pTS21qYUJiUlZES2c5UUYwYzcyUXI4QUFyaVFzU0lTOVVQOVM5NUp4WnEzQlNXV29qYWhzb09uUjB0YWhyMHFyel81Q0I2Y0hlYmJ1azJVbTNMR0lOZ3M3YUwxUEFEbll2czk5dnVCcEl2UW5aNkk2OTRxcndXYmloS3FyVTFNaHk5Ni1mOXdn?oc=5": {
+      "actor": "Oversight Committee",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item reports a plan or intent ('plans to charge') rather than an accomplished action. No charges have been filed, voted on, or formally issued. Contempt charges represent a future threatened action conditional on further steps (formal charge filing, vote, legal proceedings), not a completed action that currently obstructs legislative fact-finding. The signal concerns systematic barriers to oversight and executive accountability; a single planned contempt charge against a private individual does not constitute legislative obstruction or removal of legislative power. Without evidence that the charges were actually filed, pursued, or that they resulted in actual obstruction of the Committee's fact-finding authority, this is a proposal or threat rather than a realized constitutional stress event.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWExPUzNIXzk1d0g5b19QakJCbk1BNXVHYzR4dDI4bmItLUZPTmwzMnNub0tSbWI4MkRDeHZkS01qLU4xcG41U1VQRldZZVhVSlZlYlpRZFdROE5CTmFMaElIdG5rVjdWSjdqMV9iQWRSazBtUzlTUHphUWxhTjNQTDF3Uk5tSndRT2hramRNTTNfX1l4VnR5Njg5TDdlcUhfS3lDaXNLb3RjengtQklB?oc=5": {
       "actor": "Leon Black (private citizen)",
@@ -5048,6 +5138,16 @@
       "rationale": "This item concerns an Iranian foreign media bill and Iranian press freedom issues, not U.S. domestic constitutional events. It is outside the signal's scope.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUEx2dHNwNFl5dUpqLUc2UXNhSWZFRzRGb1Vzb29TdzZfQ3ZFQ1J4X1lyaEFHcDlMUlFtX1NyeUoxaWN6NGlBak1iQ2doTGlKRzBlRm1GY28wdzZYWkZCekhRTmZ0M3FOV3N4bzNSRkJtR1dqWEQ3aVh2eHVvUlNzYy1ha2RhazZRNDVfQS1RcnViZ0ptVWpaSVdB?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This article concerns Indian political parties (BJP and Congress) and press freedom in India, not the United States. The signal requires evidence of state action restricting press in the U.S. domestic context. Non-U.S. events are out of scope.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeHdvR00yTUFOeGtUaHVMUW8wNGthNWJRX2RCRTlTQWZxbGtCMWRoUEFDSE9mLU0wa0tLcWdZc01nRkFzVmg4RFBCd0prYmZIWjBjVndDVnRVdzdKR3MyMXEyN2dXbmZIMlV0ZDdqbGtFZEFDWk16d1AteUlTRWlLSlBKUTNEaDRLejZhQjVZUUw4NkVycVNkSHZn?oc=5": {
       "actor": "N/A",
       "confidence": 0.95,
@@ -5096,6 +5196,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This item concerns Afghanistan (Taliban) and a journalist in Kabul, not the United States. Out of scope.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxPckFhQUpYTW1VWmkwc0IzaVNoLWVYNXJRTU9OX1pwckppQ3IzQXFrQUJSamhnby1HWHpnYjIxcXRJQ3hyNC02VUVLUmhZbHV0WTJwSElILTJiZHp5ZEUzWTBrVlVzM0Q2R2RsaUtydmMyOWJhYjVaR1hqTm14YVBwVVVDVXFqTWlzcG5QU0tTWWVUV2dlT3UtWUNxMWtIYkk?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This article reports a police raid on a Nigerian radio station, a press-restriction incident in Nigeria, not the United States. The signal targets U.S. constitutional-risk events. Events in other countries, regardless of their severity abroad, are not evidence of U.S. domestic constitutional stress.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMm80bVZFSi1TbkQ3UVlHczA3WTJmVHZWZTBabEYzcmJSWjA3SWptUl9FSmpHUmQydldEYmlQZ0x1Sl9MV0JKYmFVeFlCcW5sUGFQYjVFWjFpNWxIV29rcFd0amFfVWJCSlNuSFVwTGUtTk5hMGVlb0I3eVI4UWNHc0dxelFRS2lIMlFUZHRkVkdhWTFPdDRLd2xGUWFWQ1U?oc=5": {
@@ -5674,6 +5784,56 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/14/2026-18636/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-19a-1",
       "rationale": "This is a routine SEC notice regarding information collection activities and paperwork review under the Paperwork Reduction Act. It concerns SEC rule-making procedures, not BLS, BEA, or Census Bureau statistical integrity. The document is a procedural notice requesting public comment on proposed collection extensions\u2014a standard administrative process, not evidence of political interference with federal statistical agencies or their leadership, methodology, or data release practices. Does not match the signal.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/15/2026-18817/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-12d1-4": {
+      "actor": "SEC",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/15/2026-18817/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-12d1-4",
+      "rationale": "Routine SEC notice of proposed information collection extension under Paperwork Reduction Act. This standard administrative procedure is unrelated to statistical agency integrity or political interference with BLS, BEA, or Census Bureau operations.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/15/2026-18853/civil-penalty-inflation-adjustments": {
+      "actor": "FTC",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/15/2026-18853/civil-penalty-inflation-adjustments",
+      "rationale": "Routine FTC notice of civil penalty inflation adjustments under OMB guidance. This is standard administrative action unrelated to statistical agency integrity or interference with BLS, BEA, or Census data production.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/15/2026-18857/privacy-act-of-1974-system-of-records": {
+      "actor": "Veterans Affairs",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/15/2026-18857/privacy-act-of-1974-system-of-records",
+      "rationale": "Routine Privacy Act notice from VA regarding modification to a safety incident tracking system. This administrative housekeeping is unrelated to BLS, BEA, Census Bureau, or interference with official economic statistical production.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/15/2026-18867/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for": {
+      "actor": "NHTSA",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/15/2026-18867/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+      "rationale": "Routine Paperwork Reduction Act notice from NHTSA submitting an information collection request for OMB review. This is standard procedural compliance unrelated to statistical agency integrity or political interference with economic data production.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/15/2026-18927/airworthiness-directives-md-helicopters-llc-helicopters": {
+      "actor": "FAA",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/15/2026-18927/airworthiness-directives-md-helicopters-llc-helicopters",
+      "rationale": "Routine FAA airworthiness directive superseding an earlier directive. This is a standard aviation safety regulatory function unrelated to political interference with statistical agencies or their data integrity.",
       "severity": 0
     }
   }
