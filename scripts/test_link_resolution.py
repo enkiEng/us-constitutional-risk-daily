@@ -18,6 +18,10 @@ around the network call, which is where a change in this repo can break things:
 3. The cache is honoured, so a second run spends no requests.
 4. The per-run budget is enforced, so a day with unusually many signals cannot
    turn into an unbounded number of requests against that endpoint.
+5. The wire-format decode is complete. The result is a JSON string nested in
+   a JSON string with Google's HTML-safe escaping on top, so ``=`` arrives as
+   ``\\\\u003d``; a single decode pass shipped ``id\\u003d…`` in ABC News
+   links for weeks without anything failing.
 
 The live endpoint itself is exercised by running the pipeline; the run report
 counts resolved/failed links, which is the signal that it has changed.
@@ -174,6 +178,32 @@ def test_disabled_is_a_no_op() -> list[str]:
     return failures
 
 
+def test_wire_format_is_fully_decoded() -> list[str]:
+    failures = []
+    # Exactly what _RESULT_RE captures from a live batchexecute response for an
+    # ABC News link (2026-09-11): backslashes doubled by the outer JSON string,
+    # and "=" HTML-escaped by Google's serialiser inside the inner one.
+    wire = "https://abcnews.com/US/story?id\\\\u003d129998821\\\\u0026page\\\\u003d2"
+    got = resolve_links._decode_result(wire)
+    want = "https://abcnews.com/US/story?id=129998821&page=2"
+    if got != want:
+        failures.append(f"double-escaped result decoded to {got!r}, wanted {want!r}")
+    # A clean URL passes through untouched, and so does one already decoded once.
+    for clean in (want, "https://example.org/a/b?c=d"):
+        if resolve_links._decode_result(clean) != clean:
+            failures.append(f"clean URL was altered: {clean!r}")
+    once = "https://abcnews.com/US/story?id\\u003d129998821"
+    if resolve_links._decode_result(once) != "https://abcnews.com/US/story?id=129998821":
+        failures.append("singly-escaped result was not decoded")
+    # JSON's optional solidus escape must not survive or spin the loop.
+    if resolve_links._decode_result("https:\\\\/\\\\/example.org\\\\/x") != "https://example.org/x":
+        failures.append("escaped solidus was not decoded")
+    # Non-ASCII that reached the wire literally must not turn into mojibake.
+    if resolve_links._decode_result("https://example.org/caf\u00e9?x\\\\u003d1") != "https://example.org/caf\u00e9?x=1":
+        failures.append("non-ASCII path was mangled by the decode")
+    return failures
+
+
 def main() -> int:
     failures = (
         test_article_id_discrimination()
@@ -182,6 +212,7 @@ def main() -> int:
         + test_cache_is_honoured()
         + test_budget_is_enforced()
         + test_disabled_is_a_no_op()
+        + test_wire_format_is_fully_decoded()
     )
     for failure in failures:
         print(f"FAIL: {failure}")

@@ -124,6 +124,32 @@ def _payload(art_id: str, timestamp: str, signature: str) -> bytes:
     return urllib.parse.urlencode({"f.req": outer}).encode()
 
 
+def _decode_result(raw: str) -> str:
+    """The URL as Google actually means it, from the escaped wire form.
+
+    The result string sits inside a JSON string inside another JSON string,
+    so its escapes arrive doubled — and Google's serialiser HTML-escapes
+    ``=``, ``&``, ``<`` and ``>`` as ``\\u003d`` and friends on top of that.
+    One ``unicode_escape`` pass therefore leaves ``id\\u003d123`` in the URL,
+    which is what shipped in every ABC News link until 2026-09-16: the
+    publisher happened to tolerate the malformed query string, so the card
+    rendered and nothing looked wrong. Decode until no escape remains, with
+    a bound so a pathological string cannot loop.
+
+    ``latin-1`` with ``backslashreplace`` rather than ``utf-8`` because
+    ``unicode_escape`` reads bytes as latin-1: a non-ASCII character that
+    survived to here would otherwise come back as mojibake.
+    """
+    url = raw
+    for _ in range(4):
+        if "\\" not in url:
+            break
+        # JSON's optional "\/" is not a Python escape; any depth of it means "/".
+        url = re.sub(r"\\+/", "/", url)
+        url = url.encode("latin-1", "backslashreplace").decode("unicode_escape")
+    return url
+
+
 def resolve_one(link: str, *, timeout: int, user_agent: str) -> str | None:
     """Canonical publisher URL for one Google News link, or None.
 
@@ -144,7 +170,7 @@ def resolve_one(link: str, *, timeout: int, user_agent: str) -> str | None:
         match = _RESULT_RE.search(raw)
         if not match:
             return None
-        url = match.group(1).encode().decode("unicode_escape")
+        url = _decode_result(match.group(1))
         return url if url.startswith("http") else None
     except Exception:  # noqa: BLE001 - see module docstring: never break the run
         return None
