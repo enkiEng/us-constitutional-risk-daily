@@ -584,6 +584,16 @@
       "rationale": "This is an administrative notice of a procedural violation (incorrect signature format in an ECF filing) by a private attorney in a civil employment case. It is not an executive or administrative body's refusal to comply with a court order. The notice is a routine procedural warning to counsel about ECF formatting rules, not evidence of noncompliance with a substantive judicial order. No court order has been disobeyed; no executive or administrative refusal has occurred.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74780310/00805610922/congressman-robert-onder-v-state-of-missouri/": {
+      "actor": "People Not Politicians, Richard Von Glahn",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74780310/00805610922/congressman-robert-onder-v-state-of-missouri/",
+      "rationale": "This document is an Addendum filed by appellants in an ongoing appellate case, a routine procedural filing. The document title and docket entry provide no information suggesting any party has defied or refused to comply with a court order. This is standard appellate procedure within the judicial system. No evidence of court order noncompliance is present in this procedural filing.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/74784512/15/air-baltic-corporation-as/": {
       "actor": "Air Baltic Corporation AS",
       "confidence": 0.99,
@@ -592,6 +602,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74784512/15/air-baltic-corporation-as/",
       "rationale": "This is a routine bankruptcy court filing\u2014a notice of commencement and first-day hearing agenda in Chapter 11. It is a standard procedural document in a commercial insolvency matter. It contains no evidence whatsoever of executive or administrative refusal to comply with a court order. The document is part of normal court administration, not evidence of noncompliance with any judicial directive. Severity is 0 because this is not a real occurrence of the signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74793181/1/catholic-legal-immigration-network-inc-v-rubio/": {
+      "actor": "Marco Rubio, United States Department of State",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74793181/1/catholic-legal-immigration-network-inc-v-rubio/",
+      "rationale": "This document is a Notice of Civil Appeal filed by defendants in an ongoing case. The filing of an appeal is a routine procedural step within the normal judicial process, not evidence of noncompliance with a court order. An appeal contests a lower court's decision but does not constitute refusal to comply with a court order. The document shows participation in the court system, not defiance of it. No evidence here that an executive or administrative actor has refused to comply with any court order.",
       "severity": 0
     }
   },
@@ -854,6 +874,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This headline reports Trump criticism of a Federal Reserve governor. The Federal Reserve is not an election administration body. While the item mentions a Supreme Court ruling, the substance describes political criticism/attack, not election administration capture or partisan control of electoral processes. This does not evidence the signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEhiSnVmN1Joci0xaWdzOXl0NExSZUgtSzdTbDhjdW1nbjE4RDQyVEROZVpsaWFCNVNnaURlMU9wZC1sV3RIc3BnZ1FDY3Y4eWN1NHhBZnZ1akNPR0xwQkowUVF0UDdrYzVBajllZ0h5bHppOWNyTWpQanpfbEVKOFdudXJNWDRab1FXdlJqRnVqT3c?oc=5": {
+      "actor": "Todd Blanche",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns a wedding-related comment by Trump Jr. and a response by Todd Blanche, who is a private attorney. The content does not describe any action that moves election administration from neutral process to partisan control, nor does it describe any capture of election administration machinery or authority. The item appears to be gossip or social coverage unrelated to election administration. No verifiable constitutional-stress event related to the signal has occurred.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNUp5aUkxSm1HS3VPSUNBU3pPTDZMV1hDNFJiY3d5blR5Ny0zYldrM3kxX1VDR2J4M0FvRUdCdnZDMUJCVENEcHN5RkdBM0doQ3JXMl85YTgwdHB3TW1ndjhSYXZDeGhFVFBPWm9GVWxjYkZiTThxajFOaS10SWlCTTlVMkprcmVHLTUyZTdnVzJ0elJRUXNLSg?oc=5": {
@@ -1230,6 +1260,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/10/2026-18589/continuation-of-the-national-emergency-with-respect-to-certain-terrorist-attacks",
       "rationale": "A presidential continuation of a national emergency declaration is a real, documented action that invokes emergency authorities to maintain powers that bypass ordinary legislative process. This is an official Federal Register record of an executive action. However, this represents a routine renewal of a long-standing emergency declaration (post-9/11 terrorist emergency), not a novel expansion or structural breach. The National Emergencies Act (50 U.S.C. \u00a7 1601 et seq.) permits such continuations and requires congressional notification. While emergency powers do bypass ordinary process, this is within the statutory framework and constitutes a contained, recurring action rather than a new seizure of authority or defiance of legislative/judicial check. Severity is 2: a credible, real stress signal (emergency authority maintained) that is repetitive and authorized by statute, but not a serious novel violation or structural failure.",
+      "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/09/16/2026-19053/continuation-of-the-national-emergency-with-respect-to-persons-who-commit-threaten-to-commit-or": {
+      "actor": "Executive Office of the President",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/16/2026-19053/continuation-of-the-national-emergency-with-respect-to-persons-who-commit-threaten-to-commit-or",
+      "rationale": "This is an official record of continuation of a pre-existing national emergency declaration. The continuation itself is a routine renewal mechanism established under the National Emergencies Act (50 U.S.C. \u00a7 1601 et seq.), whereby the President may extend a declared emergency for successive one-year periods without new legislative authorization. While this document confirms the use of emergency authorities to maintain expanded executive powers outside ordinary legislative process\u2014and therefore matches the signal\u2014the action is procedurally lawful, statutorily authorized, and represents the normal operation of the emergency declaration system rather than an expansion or abuse of emergency powers. The severity is 2 (a real but contained and legally-authorized stress signal) because emergency declarations do represent a bypass of ordinary process, but this particular continuation is a standard recurring action, not a novel expansion or defiance of law.",
       "severity": 2
     }
   },
@@ -2295,6 +2335,36 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74784724/1/1/united-states-v-sockwell/",
       "rationale": "This is a sealed criminal complaint in a standard federal prosecution (United States v. Sockwell, D.D.C.). The docket entry describes routine judicial process\u2014filing a complaint and supporting affidavit, with document replacements. There is no evidence here of retaliatory action against an Inspector General, watchdog function, or anti-corruption monitoring. The sealed nature prevents assessment of underlying facts, but the format and docket activity are consistent with ordinary criminal procedure, not with IG retaliation or constitutional stress. This does not match the signal.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74791491/1/united-states-v-morales/": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74791491/1/united-states-v-morales/",
+      "rationale": "This is a signed criminal complaint in a routine federal prosecution (D. Nebraska, case 4:26-mj-03131). It is a standard judicial instrument in normal criminal procedure, not evidence of retaliation against inspectors general or watchdog entities. The document's content is not described as relating to IG retaliation or anti-corruption monitoring.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74791504/1/united-states-v-morales/": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74791504/1/united-states-v-morales/",
+      "rationale": "This is a routine criminal complaint docket entry in a standard federal prosecution. It contains no information about retaliation against inspectors general, watchdog functions, or anti-corruption monitoring. It is a normal law-enforcement proceeding unrelated to the Inspector General Retaliation signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74795288/1/1/united-states-v-akinfe/": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74795288/1/1/united-states-v-akinfe/",
+      "rationale": "This is a routine criminal complaint in a standard federal prosecution (D. Maryland, case 8:26-mj-02431). It is a normal law-enforcement proceeding with no discernible connection to retaliation against inspectors general, watchdog functions, or anti-corruption monitoring operations.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -2568,6 +2638,16 @@
       "rationale": "Item is an opinion piece with a vague, non-specific title. No verifiable information about judge intimidation, pressure campaign, or adverse ruling punishment is provided. This appears to be commentary, not reporting of a specific event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEhiSnVmN1Joci0xaWdzOXl0NExSZUgtSzdTbDhjdW1nbjE4RDQyVEROZVpsaWFCNVNnaURlMU9wZC1sV3RIc3BnZ1FDY3Y4eWN1NHhBZnZ1akNPR0xwQkowUVF0UDdrYzVBajllZ0h5bHppOWNyTWpQanpfbEVKOFdudXJNWDRab1FXdlJqRnVqT3c?oc=5": {
+      "actor": "Todd Blanche/Trump organization",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns a wedding attendance and a casual comment by a lawyer. It does not describe any official pressure on judges, punishment of judges for rulings, intimidation campaigns, or judicial removal efforts. The headline and summary reference personal social events and a dismissive comment, neither of which constitute judge intimidation or sustained official pressure targeting the judiciary. There is no verifiable evidence that any constitutional-stress event related to judicial independence or judge intimidation occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTFVpS09oOWo1bWNXQXhkdEZQVUdqak02RjVvaEZSN2lJa1cwWGJJTFp6eEZuZm5NTlROd255VE1XLTF0TVJKOEFsNGFoZTBKZU4wOGwwejNCVndZc1c4MDFNS0pKM0FiOGJ4Sm1QQnJibHFLQnR0MUxSOVVEX091RzhXdVhxdm92eXJLZ0k4Q2pXLXI2bV9VRlN2MNIBrwFBVV95cUxQdkJ3Z3g2cHdKTlBadVZzUFg1TEZGVnctbnpfdWxmOVZNLWdJbFhyZkdXRS1PdFVlZG5tempRbXgyRTZ5SWpVa1lxMGthcTVlajZscWVaY3ljckNNZE1MMHlZWE91VnNEN2lDQ2dFQUJhZHlCdDNkQzFWR1lQM3hOWVMxNGtmZmhHaTREQnlKYkl1ZkxQTUpPdFp5dW53cGlKeXhNa1RweE5Eb0lxSWNz?oc=5": {
       "actor": "Trump",
       "confidence": 0.15,
@@ -2719,6 +2799,16 @@
       "primary_source_url": "https://www.bloomberglaw.com",
       "rationale": "A state supreme court has declined to revive a legal challenge to cannabis laws on threshold grounds (likely standing or justiciability). This represents a real court action foreclosing judicial review without addressing the merits of the underlying legality claim. The action is confirmed and credible (Bloomberg Law coverage of an actual court decision), but isolated to a single state court and a single case. It is not part of a broader pattern or campaign, and does not involve federal constitutional authority or systemic removal of review capacity. It meets the signal definition\u2014courts closing the door on review on threshold grounds\u2014but remains a contained incident rather than a high-severity structural failure. Severity 2 reflects a repeated or credible stress signal of a real but contained action.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ29JV29Ia3ZWZUNVODV2Tzc4TUN6cC0wOHpXMEc5ak5oWDVzSF9VUzBvS00ySnBEdEhSV3JCWDlNNkszVUdFekhEVmxNS2FDUkYydEpjQnVOejFhdmJfVmEwQjA3MFhqM0J3clRWbzhLNWRmTUhRQTV0RHg3TDBWT0RuZU9kYVVwYlBVRnZrdnoxTEs1S3loR0xVVGhXWmJfcERudFFhMA?oc=5": {
+      "actor": "Parents/Plaintiffs",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://tampafp.com",
+      "rationale": "The item reports that parents are taking a case to the Supreme Court regarding Washington shelter laws. This describes the filing of a legal challenge\u2014a request for judicial review\u2014not a foreclosure of such review. The event described is the opposite of the signal: plaintiffs are actively seeking access to courts, not being shut out by threshold procedural barriers. There is no evidence here that courts have closed the door on review via standing, justiciability, or stay orders. This is a routine appeal, not a restriction on the ability to bring suit.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQVB5V3ZEd0RPZEVMa25aSVQwQmpWRXNJUndpWEU1dmpyenFXS1BJeHd6a0dXTHJCUVBINGF0N0JlYmNFMHJ2ZEp5dW0tckk4QllyT3FBZ3h3NTc4MHc3YURuRjc0dTdCSExHVGlrd0lzU2RmMXlMTW9ISkFKWXZLME5OUkxyWklMQ1M2VmdDYTdDSWhrUmxCY0Y0SHB1OE1qeFFKNEhmXzc?oc=5": {
       "actor": "Supreme Court",
@@ -2890,6 +2980,16 @@
       "matches_signal": false,
       "primary_source_url": "RFD-TV",
       "rationale": "This item describes a Supreme Court ruling that EXPANDS judicial review (giving farmers more time to challenge FSA actions), which is the opposite of jurisdiction stripping. The signal concerns efforts to REMOVE court review over constitutional disputes; this ruling grants MORE time for legal challenges. While a real U.S. occurrence, it does not match the targeted jurisdiction stripping signal and reflects normal judicial function, not constitutional stress.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeldzb1dOQ2gwRU1ZREQyU3MyR0ZDOWF4RmNSMFEwd1RXcmE0UXVMLXNHUHZJLWFwVEloeVhwRWJkYlp4OHZYWmdqbFJYYmNXT1FWWUVFY0xGa1R6TFB2dTZScmJkY2dhblFJX08xUlNZVGowQmlWVEFGbXlwUC00TDRPQU96U3djVVluZTkzXzRsLWs4RzZxYUxoSXUtT0NLZXA5bzBXczdTVGxidG94M3pjbFZMbUw3TXBvZA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Canadian federal-provincial constitutional disputes involving Chrystia Carney and references to the Supreme Court of Canada. It is not a U.S. domestic event and therefore falls outside the scope of a U.S. constitutional-risk dashboard. The signal targets efforts to strip court review over specific U.S. constitutional disputes. No U.S. constitutional event is documented here.",
       "severity": 0
     }
   },
@@ -3656,6 +3756,16 @@
       "rationale": "A private citizen (Leon Black) suing a House committee chairman over subpoenas is a civil litigation dispute, not evidence of legislative oversight obstruction. This is a normal, available legal remedy\u2014precisely the kind of check that operates when a private party believes a subpoena is improper. The existence of this lawsuit demonstrates functioning judicial oversight of legislative power, not obstruction of it. No systematic barrier to fact-finding or executive accountability is present; rather, a defendant is using courts to challenge investigative authority. This is a routine adversarial process, not a signal of constitutional stress in legislative oversight.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5uekVGY3ZqalNlMVFnNm15VXA4OHplc1FKQXVtazY5Sm5qYnBsQ29nSkFRa0dfVWI0WmE5X1IxdWx4aXZaSU9Peg?oc=5": {
+      "actor": "Leon Black; Epstein survivors; House Oversight",
+      "confidence": 0.7,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.ibtimes.co.uk",
+      "rationale": "Survivors applaud Leon Black contempt vote; report urges House to pursue related actors (Dershowitz, Blanche). Confirms the real event of Black's subpoena defiance and House action, and documents broader calls for legislative accountability. Severity 2: the underlying event (Black's obstruction) is real and credible, but remains a single case, not systematic obstruction.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WaHN3YTVnd2s3ZkpLNlJXVHp1QmcyeVFnNFgtb1I3bjdiRWxsQ25RakpTekJVa1ZPN0dEVjFqQlFIQkx2OFVkVWZsSzQ1U2xEYVBXN1c4ZGQ4cmZO?oc=5": {
       "actor": "Leon Black (private citizen); House Oversight Rep. (quoted)",
       "confidence": 0.7,
@@ -3664,6 +3774,16 @@
       "matches_signal": true,
       "primary_source_url": "https://youtube.com",
       "rationale": "Video summary captures the same incident: Black defying the subpoena, with a House rep calling for contempt. Real event, legislative response documented. Isolated defiance, not systematic. Severity 2.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GcHhEYU82REx3c1FhRVpJMGM2Sk1CQm0zTmJCZEY0RXQtQldjN2hxcmp0a18ycTZXU2ptM25iT1l2TzlxbFFhMFpLV1dxUkZTb0Q0TlAwMHNqSHZCQ25wMW5n0gF0QVVfeXFMTWNhT2pCOVpENUEtS1ZvY0xPQnAzdW8tbGhualZsYUxSekhLSFlaTGpLcEJyeGdmaDdXcjdUUlZBbWptbHBfTVB6THgzTDZuWU9obGJOOUsxNFdWcXYzZ2EtN21Jd0N0YmdzM0ctUVpuT0pDSWg?oc=5": {
+      "actor": "Leon Black; House panel",
+      "confidence": 0.71,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.rawstory.com",
+      "rationale": "House panel unanimously votes to hold billionaire in contempt over Epstein probe subpoena defiance. Real legislative action documenting obstruction, but isolated to one individual's case. Severity 2: credible, confirmed stress signal (single contained instance).",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJelNWVXItVlBqeEdhbVVDLUN2Q2hJZjd4MHhrdmpHaDJ1Sjd6ZjZsQXpuVnNjZkJ4ejFZWTNiaGZqZUJ1bUc4UXpZQW0zZjZrR3lFN01XTWxub3ZYSU9oSXFBclF1UEtfMVJqdW50UTFtVms?oc=5": {
@@ -3736,6 +3856,16 @@
       "rationale": "Confirmed report of the same event: ignoring of subpoena and filing of suit against House Oversight Committee. Direct obstruction of legislative fact-finding through non-compliance and litigation.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMijwJBVV95cUxPM0NYcHZ5X19kTGNicGRWX3g2QWdPTG44dDlFT2hjZGpvRE9rYkg5dlVydkFPREJ2ZTVodm1UTURYMnB5LVgxVUtvN1l6Q0ZXanN3VFBtTHVFdnlRNkdabU10bzU4NUVLdTRlS0xMLTEtUGkxNTEtUTBtQm53cEhsY1BxNkl5aElEZXJsWGhXd3dNRXFSZHNFQWRoUlJDNFBBU01RX3I5SEJJVVFjSlF5aDdsUkpLMHJUZGtPZ3BPbFR0V3BGMUoyd2xSNzZTZ3pFSVdUMVZBQVQ0WlhFMFUxTTNHUHFZakxiTHlJNEUtNklMUlZyUFhmVkg4ems0czZ6ZnhTbHFjX01yTVVMYi1J0gGPAkFVX3lxTE8zQ1hwdnlfX2RMY2JwZFZfeDZBZ09Mbjh0OUVPaGNkam9ET2tiSDl2VXJ2QU9EQnZlNWh2bVRNRFgycHktWDFVS283WXpDRldqc3dUUG1MdUV2eVE2R1ptTXRvNTg1RUt1NGVLTEwtMS1QaTE1MS1RMG1CbndwSGxjUHE2SXloSURlcmxYaFd3d01FcVJkc0VBZGhSUkM0UEFTTVFfcjlIQklVUWNKUXloN2xSSkswclRka09ncE9sVHRXcEYxSjJ3bFI3NlNnekVJV1QxVkFBVDRaWEUwVTFNM0dQcVlqTGJMeUk0RS02SUxSVnJQWGZWSDh6azRzNnpmeFNscWNfTXJNVUxiLUk?oc=5": {
+      "actor": "Leon Black; House panel",
+      "confidence": 0.71,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://economictimes.com",
+      "rationale": "House panel votes unanimously to hold Leon Black in contempt for refusing to answer Epstein probe subpoena. Confirms the same real event: an individual's obstruction of legislative fact-finding. Severity 2: confirmed action, but isolated to one actor and one probe.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZTFRalhJUW51OVo1UU1SdGdmVzVTTWNEQl9LdXlyaEN4TzBaSG9TLVprMkRPaWxoZ01zMFZzZUNYbzN6b1BTUWxYUHgwUHQtV3drWlFTc0hITWkxTk13cjVFeVh5bmpjdGJYUDdRd2FGN0tzWDhNcjNDM0tETU1zcmhWaXoxSzNmZnVhWXBGTXI3X3BH?oc=5": {
       "actor": "Leon Black (private citizen)",
       "confidence": 0.75,
@@ -3744,6 +3874,16 @@
       "matches_signal": true,
       "primary_source_url": "lawcommentary.com",
       "rationale": "A private citizen has defied a House subpoena and filed suit against the House Oversight Panel. This is a credible, confirmed defiance of legislative fact-finding authority. However, this is an isolated action by one individual against a specific congressional committee, not a systematic obstruction by governmental actors or a structural pattern. The signal concerns 'systematic barriers' to legislative accountability; a single lawsuit by a private party challenging a subpoena is a real stress (the subpoena is being contested), but does not rise to systematic or structural obstruction. The legislature retains enforcement mechanisms (contempt proceedings). Severity 2: a real, confirmed stress signal but contained and not yet systematic.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa3FkSEowUGFjRUJtYmw5N05wT0lRemFoLV9GMGRCM0NsZ0hfdnB6aVRNdWdqQ0FNTHloN2hpMWZId0JVQ1NFWVZmUlg1aFlCazk5Q2NJWGFuSnZrSUREZWRKZXhkeUV5MHNTNHhoRUNGS0ZyT1JqSVNleG13ZTdIX1hJdzdRd3FJZ0lvNVNYNVRaZlBCcXfSAZsBQVVfeXFMTVhXWjdQYU8tMnZKVDlDcGlfZFo3OVdkVnhJZkRVam5kT0MxRUc1Q3BGTEczOU5KSHFOa0VEOThWeFNjYkJLTUlRR2VkUld5a0trQy1LZXFHZnBJT0lha0tZUnUzckZ3bG5MMk1aVmg4UUU3akdpTmRSQWV2LXY1STBUS1JqLUgyNjlvbE5RQjNCU2lmR2lJa09UcWc?oc=5": {
+      "actor": "Leon Black (private individual defying congressional subpoena)",
+      "confidence": 0.7,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://newsnationnow.com",
+      "rationale": "Survivors reporting on Black's contempt conviction for refusing to comply with a House Oversight subpoena in the Epstein probe. This is a real occurrence of executive/private defiance of legislative fact-finding authority, but it is isolated to a single individual resisting a single subpoena, not systematic obstruction of legislative oversight itself. Severity 2: a confirmed, credible stress signal (real but contained action by one actor).",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMilwFBVV95cUxPamF4bUM2WnVjWHBFZHM1Qk5JNWRGMjJUOUFjb0FqaFhDVFhzNUU4VUFuel9IYVU2ckRCbDZTZjNJNXA4TkNNTXNFWlNoVldqVWZWNl9BNTVkWURqUmRab09uZkZEQ3NiOVhHRWVxTVFLYUtLTXNtVFliNkxxb29wVGNETnFTQV9EWWJvUHpJOC1PdGJpOFk40gGcAUFVX3lxTE5hT3o3NFZ0YjdEbW1UWnNPc19YbDhNYURRNzZjWE5DX3RjRE9RRF83QkZaUGZ3b2JDZWNyYVNtMnRfbmlQb1lxcG9peEx6MlV2cnJnb2c3QXFVNThYRDJGNGtLaDByRnFiY1ZIWXVZOVNvTU9lb0d1Q09NcDdSc3JxY0pfZDBXbEVna0w4SkZVZ0RuREtVV0xwOENERg?oc=5": {
@@ -3766,6 +3906,16 @@
       "rationale": "Confirms Black skipped deposition and sued the committee. Real event. Same context: isolated private-citizen defiance of a specific subpoena, credible legislative obstruction signal but not systematic. Severity 2.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWGg2SDM3bWdwMGt3TjlqZ3RfSmpwQ21tczBfSHdYNHFmeTktY3RUOWFXRUhobEJXeUFicG55cGFiQWJxbE5tS01BZ0xUNnNlSGN4Z1lqSWhKLU5xdWlYcW5EX2tZOW5QQzYxUWF2bWpIa3pyc1BmWldObGJSWTBYTFpZcFBKUUhJR295cXZYaHpWc1NwZjI4TmZ3?oc=5": {
+      "actor": "Leon Black; House Panel",
+      "confidence": 0.7,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.newser.com",
+      "rationale": "House Panel recommends contempt charge against Leon Black for subpoena non-compliance in Epstein investigation. Real occurrence of resistance to legislative oversight, but a single case of individual defiance rather than systematic obstruction. Severity 2: repeated credible signal of the same contained event.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxOaEdlUTRGX05IRnlXSDR3ejE2RjRfYmxFRURHQ185QmRSY1Ztb0VfU2FqS0Npc0lHTDlBcXpwQl9HSkZXS0lfdVhTZlcyWFBua0Z4UE5obUFPUm1rcXlyWDhSYUtYUXNjQThnelpobW1yWjJxTi1iblgzMlAxam5SaGJOU0t3QTZDUXJlUFo1eGRlWjVFdG5hMURadzNwZ9IBowFBVV95cUxPeFotMDM4MmRiSDdpeXZlN2JwQ1pTS21qYUJiUlZES2c5UUYwYzcyUXI4QUFyaVFzU0lTOVVQOVM5NUp4WnEzQlNXV29qYWhzb09uUjB0YWhyMHFyel81Q0I2Y0hlYmJ1azJVbTNMR0lOZ3M3YUwxUEFEbll2czk5dnVCcEl2UW5aNkk2OTRxcndXYmloS3FyVTFNaHk5Ni1mOXdn?oc=5": {
       "actor": "Oversight Committee",
       "confidence": 0.95,
@@ -3776,6 +3926,16 @@
       "rationale": "The item reports a plan or intent ('plans to charge') rather than an accomplished action. No charges have been filed, voted on, or formally issued. Contempt charges represent a future threatened action conditional on further steps (formal charge filing, vote, legal proceedings), not a completed action that currently obstructs legislative fact-finding. The signal concerns systematic barriers to oversight and executive accountability; a single planned contempt charge against a private individual does not constitute legislative obstruction or removal of legislative power. Without evidence that the charges were actually filed, pursued, or that they resulted in actual obstruction of the Committee's fact-finding authority, this is a proposal or threat rather than a realized constitutional stress event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbHBFcE14eGdKMjVoTXlkX2lpTlp2Q0xCdTVLZEM1Z012S1F5dld0a3ZDYXcyWDZ3QldEY1FSRV8tUHpFeGVlRkxoOTdGNGh5M3FNVEgySTZkd2d4YXZHM29YZ3JIa0FfX3FYYmxBU3Mtb3dCdWFxTVlraTVmaUh1ckZFTUlqeVRjZzBMUVpXTTNUYWJBNUZ2SzMyaV8yX2_SAaQBQVVfeXFMTXA2SHNwZjA0WGF4NlB3M2VOay1xWUpCX2NreDg3a3lGbnNITXJIenpQd0VsN0dTcWhTZWMxTnZid2lGRmZLTnFHeUdoa294Sngyb0tjanNaVjhRYktnTHFvTkV2dHNpejk2bGNMVXdoTWVTSk1MVHVJYWhMVGtGRkdlWUo1N0pFTnB1R1c1M054NVZmVzM2SmNlTGRrdzNoQW9Ldlk?oc=5": {
+      "actor": "Leon Black; House Oversight Committee",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.cnbc.com",
+      "rationale": "House Oversight Committee formally recommends holding Leon Black in contempt over his refusal to comply with Epstein-related subpoenas. This is a real legislative action documenting obstruction of a specific oversight probe, but it is a single case of an individual's non-compliance, not evidence of systematic barriers to legislative fact-finding. Severity 2: confirmed action, isolated instance.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWExPUzNIXzk1d0g5b19QakJCbk1BNXVHYzR4dDI4bmItLUZPTmwzMnNub0tSbWI4MkRDeHZkS01qLU4xcG41U1VQRldZZVhVSlZlYlpRZFdROE5CTmFMaElIdG5rVjdWSjdqMV9iQWRSazBtUzlTUHphUWxhTjNQTDF3Uk5tSndRT2hramRNTTNfX1l4VnR5Njg5TDdlcUhfS3lDaXNLb3RjengtQklB?oc=5": {
       "actor": "Leon Black (private citizen)",
       "confidence": 0.85,
@@ -3784,6 +3944,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.independent.co.uk",
       "rationale": "Confirmed report of Leon Black filing suit to block congressional subpoenas related to Epstein investigation. Real obstruction of legislative fact-finding through litigation and non-compliance.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxQN1VsTkhzNDY4OEpmMklZWlZ5RTRsd0MxN0FwSWprVVNDRXRSbkRZUVdzNTdfeFdxT0pkQ3ZPQlV1SEoxbFlHTHFHdDZITVNUX0VnY01ZaFlJYTc4SGY0X3pneXF2Tm9HOG5yVFhCdUQtRW5EUG1pcjJTUG9FQVRoYldRNTVEeURWM3Y3dWJLOFJNZnlaRDl4VV9pM0tIZHhKVHdXdFEzMW1kb2VoN0dV?oc=5": {
+      "actor": "Leon Black; House Oversight Committee",
+      "confidence": 0.71,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.meidasnews.com",
+      "rationale": "House Oversight unanimously votes to hold Leon Black in contempt for subpoena non-compliance. Confirms the same real event of resistance to legislative oversight. Severity 2: repeated, credible report of a single contained action.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcjZqX1dFZUVHYmFWbk5TWWVQRlpuT0d5X0s5Q1c0ajdjV1FxZ2M2SXlQSFlSM0tRZFd0QWE2WGpFQVFMQWpoQm8wQV9qN0hVWDZYWFQxaDJsOUc0Q2xnUnB2YlRMNUpJcEc4UVN6TXMtbWp6cXpic3FpTzh2eVh1cVMtaER6YVhydjc1NHVoNHZ0VGVWT2QyTUJ1Vllrdk1pNmlNeXpTYV9Xek5TTjFuV1pB0gG3AUFVX3lxTE0wdHp5Q1ZRMVd3VkNmUnRjSzZYY1h1MVNjRG5ueGVVR3BTRE1NY1VvNnFHLTNoVDNYLUJyajFtYkRlOTVIRXJRbVlCWHhlbHVqWFM4eWJHYlJpVFpxeXhNTFk5Y05tWFVCQV9aTGpBb3RtTEYyVWZKSTU0bm9PS1ZUVTI5Rkwtc1ZkSHNUay14Z3lzZFFPdkpyTmg3MEt1NVBjQWZlWXVKSllvbW5JeWVfUXh5c3Bacw?oc=5": {
@@ -3804,6 +3974,26 @@
       "matches_signal": true,
       "primary_source_url": "https://inkl.com",
       "rationale": "Confirms Leon Black defied an Epstein probe subpoena and sued House Oversight. Real occurrence, credible source. Isolated private-citizen obstruction, not systematic governmental interference with legislative fact-finding. Severity 2.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNll6V1ZQWUlOM2s2NFRtUG5kRC1QZW1lcEtwTi1yeVFDRkdtVUNXcWJOVmp2cWVrOWp1RzVVRzQ1N3Jndk00Q2JLQzBYODBzT3g2VHJVbTRfUG5Md0dfVXE3Z2h2U0hnSnphLXk5bmxCVU1mX3pFbU1ZdGJqTS1lVGVQby1FajNMUDViTVplcTNucVBFMUwyTkxmdnRjZFB3Z1c3emdSZktMMmpSYU1uWXBScFZrOGc?oc=5": {
+      "actor": "Leon Black; House panel",
+      "confidence": 0.7,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.newswav.com",
+      "rationale": "House panel recommends contempt charge against Leon Black for Epstein probe subpoena defiance. Additional report of the same real occurrence: a private individual resisting congressional subpoena authority. Severity 2: credible, confirmed stress signal (isolated instance).",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSWVDLWd1eWh4WUR5c2xhVEJjZGlwcHB5R1lZY3JSeS1KRlh5d2RvbnZXOHlhazN0TDhqMU1HUy1uZ2Zyd3NUMXZDazNkMXhoU3VqQVJ3d3NTdnJacFdUYUExOGRwSnkwejJrYkcxd2lRMDJCR1dQRUpSMWRwX0ZyU3N0T0dWaDg5T0xDQl8yVjlRelNfcUlCMlVRb1Y0cThXMGJVcUxTWGJnZDdCOVkxVmhDR2FNSXRq?oc=5": {
+      "actor": "Leon Black; House Oversight",
+      "confidence": 0.71,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.justthenews.com",
+      "rationale": "House Oversight votes to hold Leon Black in contempt for defying subpoenas in Epstein investigation. Confirms the same real event: an individual's non-compliance with legislative fact-finding authority. Severity 2: repeated, credible signal of a single contained action.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOE9iTUtZQW5ZTDY1c0djTXhWcVJvVDFPVU9LSEthYUpqblBzX0ZTaTMzRXc2LUpCUmczWklKLWItcHpYT3MwNksxVG5vR1Q0TFNRMkUxU3E0SmprbDdiMmRCbzUxMmNiRW9TeHhsTUZmc0pLZlZNN1FLdTNsbTB3OEI1TWNsX2xVWTRNNUZ6R29XcUlwa214djExNHFjeVlyaW9weGRsaWhuOTktQV9xQUtsckpGOFJ3cXVqODVn?oc=5": {
@@ -5158,6 +5348,16 @@
       "rationale": "This is a global media review. The summary does not specify the United States as a subject; the item appears to cover international events. Without evidence of U.S. domestic press restrictions or retaliation, this does not trigger the signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa3RVak52R0dSQVYtWDlLUkhPSWY5QnhIaDhoTFZEbk1yb3Zxb090aW9CUl9NYUlCTGVRSjhxSUNZanVFa1RROUNBR01LRHVfUklDTDNRQjJBdWJNMnB0MUNFWXE5WFk1M05zR0REalI2Sk8tSDRtck1vNFN4bEVIR0hvZ1Bkc3FWakVmSXZkY2JLemU3R25qLTJKeWo?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns alleged restrictions on press freedom in China, not the United States. The signal specified is U.S. constitutional risk. Non-U.S. events, regardless of their severity in their own context, are out of scope for a U.S. constitutional-risk dashboard. No U.S. domestic press restriction or retaliation event is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZjhvZGdYXzR1dXV5dVVLaV9KakdhMy1tWjVEZTdMSU51VlBPN3g0cy1BSGJBakdzOE5xUFpqVl9PLUdCTUswNzAxczZobHBsTHNkZlprWkRTWkRUTkNfdWhsaXRWTVVuc2gyay12OUNDaThGNFY4eng0eEJvMUkzaU84Z3FuUEpUei1fVThJaFlvT19oS09SaTJNOTA?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -5835,6 +6035,16 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/15/2026-18927/airworthiness-directives-md-helicopters-llc-helicopters",
       "rationale": "Routine FAA airworthiness directive superseding an earlier directive. This is a standard aviation safety regulatory function unrelated to political interference with statistical agencies or their data integrity.",
       "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability": {
+      "actor": "Department of Labor, Employment and Training Administration",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability",
+      "rationale": "This is an OFFICIAL RECORD\u2014a final rule issued by DOL that materially changes data availability protocols for confidential unemployment compensation information. The rule mandates disclosure of previously confidential UC data to Federal officials for oversight and audits. This is a real, accomplished action (a final rule) that alters the scope and handling of statistical/administrative data outside normal notice procedures, which constitutes a credible stress signal on statistical agency integrity. However, the framing as 'oversight and audits' by DOL's own OIG suggests internal administrative coordination rather than external political manipulation of methodology, definitions, or suppression. The action is real and confirmed, but contained in scope and justified as administrative oversight rather than politicized interference with the independence or objectivity of statistical production. Severity 2 reflects a confirmed, material change to data protocols that warrants monitoring, but without evidence of removal of statistical leadership, improper methodology changes, or withheld releases.",
+      "severity": 2
     }
   }
 }
