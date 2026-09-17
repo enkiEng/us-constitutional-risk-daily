@@ -776,6 +776,16 @@
       "rationale": "This item is a headline/opinion piece from a commentary publication (Balls and Strikes). The summary provides no substantive detail about any specific action taken regarding election administration. It appears to be analysis or opinion about Trump's conduct relative to a Chief Justice Roberts statement, but contains no factual claim about an actual event that occurred, no description of what Trump allegedly did, and no evidence of election administration being moved to partisan control. Without specific facts about a concrete action, this cannot be scored as real evidence of the signal event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5UmE0cVNRTjZVVkxuYXM1MmZGaXM2RGF0WV9qR3BnczVTSTVnWVZoVHBONUk4b1I1N1lFZ09XUkNacUprOURLVzg4Z0NaV21MNzItdWpTdG5BUS01dElidEl1T3dqb0tsQkxHNHkzbmsyaDFCSHE1R21UbXlmbkE?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a news headline about Trump's opposition to mail-in ballots. Opposition to a voting method, even by a political figure, is policy disagreement and rhetoric, not evidence that election administration has moved from neutral process to partisan control. The headline does not describe: removal of neutral election officials, installation of partisan operatives in election offices, capture of state or local canvassing boards, stripping of election officials' independence, or dismantling of procedural safeguards. A rhetorical campaign against a ballot method is opinion/advocacy, not structural capture of election administration.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDamM1bW5IMkhYRnhweWF0M2E1dnVCZGx3OWdZUnN4dllvczlZODJkT0dlVkdOMVVzeThkQmNnYU1HQ0hXTm4zTnNYMjIxZ2h1X3pNeWtPMDFnOVVZSkJEUHlwalVXZFZ1UHpxaTU0MmhzUV8tYk1HeXJRSmpiLUU?oc=5": {
       "actor": "Trump",
       "confidence": 0.95,
@@ -945,6 +955,16 @@
       "primary_source_url": "https://abcnews.go.com",
       "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is a news headline about targeting of individuals (Comey et al.) by the Trump administration. This concerns personnel/political vendetta, not election administration capture. The headline does not describe any action affecting election processes, voter registration, ballot access, canvassing procedures, certification, or partisan control of electoral machinery. It is unrelated to the signal.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOUNtam5jVnVBNVZwT01JNHRGbjJ0QUJudG1rYVlKSnVMNmFlRXhsR0ZuNWJibXhpcW04aHVDM0VXaWFqSk9xVTVETFpPM1FsYy1FdmlyVzVpWWxuN2RNak1RdDdkX3JWcUNPVFZuaGMyMGQtaE1FR01Uc0lLV3R0VDBHOTVOVzFqRVNCSE9DV2RiWXhyWXJEWHZmeW5FeWo0Vm5VbDJwMVVNTmJCMGlobTR3?oc=5": {
       "actor": "New Hampshire courts and election administration",
@@ -2365,6 +2385,26 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74795288/1/1/united-states-v-akinfe/",
       "rationale": "This is a routine criminal complaint in a standard federal prosecution (D. Maryland, case 8:26-mj-02431). It is a normal law-enforcement proceeding with no discernible connection to retaliation against inspectors general, watchdog functions, or anti-corruption monitoring operations.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74796826/1/coleman-v-united-states-america/": {
+      "actor": "Tristian Coleman, Jacqueline Gibson",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74796826/1/coleman-v-united-states-america/",
+      "rationale": "This is a routine FTCA complaint filing. A private tort claim against the United States does not constitute retaliatory action against watchdog functions or anti-corruption monitoring. The filing itself provides no evidence that any IG or inspector-general office faced retaliation; it is a standard civil lawsuit. Without additional context showing that this complaint relates to IG retaliation, it does not match the signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74804961/1/united-states-v-search-warrant/": {
+      "actor": "United States (DOJ/Law Enforcement)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74804961/1/united-states-v-search-warrant/",
+      "rationale": "This is a routine search warrant issued for brokerage accounts. The issuance of a warrant is a standard law-enforcement action that does not constitute retaliation against watchdog functions or inspector-general offices. There is no indication from the docket entry that this warrant was issued in retaliation for IG activity, oversight, or anti-corruption work. This is ordinary judicial process, not evidence of IG retaliation.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -2476,6 +2516,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item describes a procedural statement by a defense lawyer during the Philippine impeachment trial of Sara Duterte regarding sub judice rules. This is not a U.S. domestic event and does not address judge intimidation in the American constitutional context. The geographic jurisdiction is the Philippines, making it out of scope for this U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNWFQ3ajZLN21Ud3d4dklrMjFJRmdTS3JITGE0NEFna05xVVdlaExtQUt1OUQ1SlF4NXd6aGxsZXlhYlJReFhLSHNJaUdpWlhsVUc4aEdiczRhdnJrMVBkalJ6MUtQa05YVDRoSXN5cUZJZWJLdWdGaENXYWlJdWJ0TkZFNUxlSlpFS1I0Sm5uUFB4ckRYekpLV0doTkJrWE1FR0ZqVWpicVAtaU5sLUYxaUpUd3VCT2VhWno4MEJrazRJTjNCdzVJSmZOUWE5bjlHd2hnYVYtTTFqVVdt?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "facebook.com",
+      "rationale": "This item reports on an impeachment trial of the Philippine Vice President Sara Duterte in the Philippine Senate. It is not a U.S. domestic event and therefore falls outside the scope of this signal, which concerns judge intimidation campaigns in the United States. The item contains no evidence of pressure on U.S. judges for adverse rulings.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYnNGclozQnNrcjItWkxqXzhTNGZYVHpPUm1mUnk0cW5RSHJfamZvVEg1R1VWaWNQVU1iRXhrQVdYV2ktZW5naUtJYlpaQXppN3VYV1I0bGg0aS1ZVzJvdmtZRGhmTFlrbFc0Vy1jVjUtN29YZ1FaUWxoMjMwaTljZ3BlRmkxTXdTak5nVDNIOTdiLUVOamZNR3VCaDF0XzJDeE44dW8wM0VpSVFkYlphS3hCaEpfR29uZEtya1AyMFFVaUZvc0t5dEV6N0RvaGZEQ1NLMW5rMzYxQVlH?oc=5": {
@@ -3002,6 +3052,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.dainikintelligence.com",
       "rationale": "This is a routine personnel announcement (appointment of a White House Counsel). Personnel staffing decisions are standard executive functions and do not constitute a legislative bypass or shift of statutory authority to unilateral action. No governance action is shifted from statute to executive override.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbDVyQzF6ZVlHNFRzUkgydV9fT1FmU1VkUG9XNmdCaW1ieGlUT283UzRHTmhHQnhIYjkzMm1wZzhyNlAwMi0wTTlvMlhZN21Ic2xqQldNTTZjb3JST2lLX0RDclZqdjQxM0ZNY0p2ZHkzNEp4b2FqRG52WU10VTlSTmIyVW1KeC1pUmRXMUJNM0cza1VkZVVWWDNsbS1ua1FUb25hLV90NjYtY3VReVRRU1N3T0UyX0NCc212VGtfeXpzbmU2eFJaLVZxcG0zbS1CWEE?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is a historical retrospective or future scenario headline. The date is 2026-09-16, which is in the future relative to the knowledge cutoff. The headline describes a Supreme Court action that would have blocked (past tense in narrative, but prospective in reality) a restriction\u2014i.e., the Court prevented an executive action from taking effect. This is the opposite of the legislative bypass signal: it is judicial review enforcing limits on executive power, not executive action bypassing law or legislature. The item appears to be either speculative, a historical account, or satire. Even if real, it would evidence judicial constraint on the executive, not executive bypass of constraints. No material signal to the target event (legislative bypass by executive) is present. Severity 0: no real occurrence of the signal.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNLXdWUk8tdTNaRTdwRXJHQld6R1B6YlBtZTFvX3l4aWVKUWs3Q3lSNi1CS2tEZkZUd1FObnZfRktQV1RnOHRPSG5aUVg5dThVaU5ZZWdud3Q1RmtkZjRsdHk4YkxsWWRTSlA5SGs3cnhoRDJMRHpmNkExUmtGelkwYUZmVllOUS1JOU92cVByV2NoQzNHNTBPaVh6dzhuUVpRenZDZDhtNE5ra0RWcW9NZlRnby1IT05QLUZpZS1qeUN5YlBkNjdIRVFVODRaMDVHS2M5VlN5d9IB3AFBVV95cUxOSTNVdDF0WEV1WnhMSXlLRHRzUnZhSW5HU1FRU21vNHdzUElPOFhzVzV2a2lTbm96eThWVXY3eUJmYTk0bWlCNEQ4ZlFhTElBT0k2ZzhFNmRUUUFGVzl0T1FfazNhcks4X2UzX0ZNYUItNW94TEVBNTY4TFBLaEJTRGZNRVdMcXV3R3pRMXd4LXh1dTJvU3RWVlNhdldPQi1iUjhpUVduRGFPZmNsUHh3RGFva2pRanhoTlN2emtMRmtFT1BYRFZ0Y3pmeTJmamlVRGlsSE90eWFtOXp0?oc=5": {
@@ -3846,6 +3906,16 @@
       "rationale": "International Business Times reports Black defied the subpoena, citing NDAs as his basis, and sued the House committee. Real event confirmed. Isolated defiance by one private party over a specific discovery request, not systematic obstruction of legislative oversight authority. Severity 2.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeURlS2E5ck1FbnFodmpxd0o1YkIydlhmcXdpSnJZQlIxdk5DQkFFSXJDVUZhdGVaRTg0bDJGVHg0dXJhcnlPcUdCeUtCZnNOaUY3NC1hSHloaXVlbWVoaDc5QVhmeUVOSE9kVmVEUE9qZm5qVGt0dDlZdVQ1aGlKaU11aFZRNFhl?oc=5": {
+      "actor": "US House of Representatives",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.france24.com",
+      "rationale": "US House contempt vote against Epstein associate. This is the legislature successfully executing its investigative and enforcement powers, not experiencing obstruction of its fact-finding mission.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiigFBVV95cUxQY3RBSVE3QXZhUXVRUFo1MkE5NExqZDYzYTBFX0lNbGtBR0syQ1JMaDlvaWJuamsyZE1rTlpfcnpKUkEzbUhGMFBQYlFDdjhPMnA4NzhnZTBzTy05d2pHSERyZkJ3bUlUMURXYlhGMTA0Z0poQkFXQ1BRQWp3aTRiMGRNOUpZZXRCamc?oc=5": {
       "actor": "Leon Black (private citizen)",
       "confidence": 0.85,
@@ -3856,6 +3926,16 @@
       "rationale": "Confirmed report of the same event: ignoring of subpoena and filing of suit against House Oversight Committee. Direct obstruction of legislative fact-finding through non-compliance and litigation.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQWNkNnZvOVliakNZd1phTDZmbTRwc243MWpaUW9TbDBKUVhiQU9xQmY2N0JsSXY0c1Zwa3Z2el84Q0V0dmo0LWZncTNsRGRldlhyajdfWXFfLWlreTl6c3RFc2JKOVVGUmxQM2dpeGkyR01fb1RMUHpqLTZDNHo4aUt2TW5rZUJia2wxMHVR?oc=5": {
+      "actor": "House of Representatives",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.newsmax.com",
+      "rationale": "Leon Black held in contempt of Congress over Epstein probe. This is the legislature exercising its own accountability mechanisms successfully. No systematic barrier to legislative fact-finding is demonstrated.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMijwJBVV95cUxPM0NYcHZ5X19kTGNicGRWX3g2QWdPTG44dDlFT2hjZGpvRE9rYkg5dlVydkFPREJ2ZTVodm1UTURYMnB5LVgxVUtvN1l6Q0ZXanN3VFBtTHVFdnlRNkdabU10bzU4NUVLdTRlS0xMLTEtUGkxNTEtUTBtQm53cEhsY1BxNkl5aElEZXJsWGhXd3dNRXFSZHNFQWRoUlJDNFBBU01RX3I5SEJJVVFjSlF5aDdsUkpLMHJUZGtPZ3BPbFR0V3BGMUoyd2xSNzZTZ3pFSVdUMVZBQVQ0WlhFMFUxTTNHUHFZakxiTHlJNEUtNklMUlZyUFhmVkg4ems0czZ6ZnhTbHFjX01yTVVMYi1J0gGPAkFVX3lxTE8zQ1hwdnlfX2RMY2JwZFZfeDZBZ09Mbjh0OUVPaGNkam9ET2tiSDl2VXJ2QU9EQnZlNWh2bVRNRFgycHktWDFVS283WXpDRldqc3dUUG1MdUV2eVE2R1ptTXRvNTg1RUt1NGVLTEwtMS1QaTE1MS1RMG1CbndwSGxjUHE2SXloSURlcmxYaFd3d01FcVJkc0VBZGhSUkM0UEFTTVFfcjlIQklVUWNKUXloN2xSSkswclRka09ncE9sVHRXcEYxSjJ3bFI3NlNnekVJV1QxVkFBVDRaWEUwVTFNM0dQcVlqTGJMeUk0RS02SUxSVnJQWGZWSDh6azRzNnpmeFNscWNfTXJNVUxiLUk?oc=5": {
       "actor": "Leon Black; House panel",
       "confidence": 0.71,
@@ -3865,6 +3945,26 @@
       "primary_source_url": "https://economictimes.com",
       "rationale": "House panel votes unanimously to hold Leon Black in contempt for refusing to answer Epstein probe subpoena. Confirms the same real event: an individual's obstruction of legislative fact-finding. Severity 2: confirmed action, but isolated to one actor and one probe.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeG5jNU9aTlB4MG8zc3BydFl1bVB0TDJZZ1VxQndyaE5XVU5HSHB5M3V6Qk5xSzVsWUF4Q3ZZcUw3dV9RYnRZLVAyaE9xcUJLbzEwaWNyaUVJaHBTd3dHRHNoaVo3T1haOWg3WEw3T2NpQ1NnU2VONGtuMjAxY2NGWU5kRVM2MTJ5TGRJNXNscDBKUdIBlwFBVV95cUxNRE1OZnpHaE5RTzBhanF3UzA3YkFCMnI2QjVWUUkwbDgtR2pkVl9ENXNfQnFCb21XVlVXR3YwZmg4alMzM0p3dFpoWDYzVDN3MERUN3drZkJCcW5oU194WGtadGkyS2RzV2Q4QVpSV0NqRlRZMWsxeTBWR0QySThUQm5yWF9nZ2RiMmtxeUtvbHpEQm4xQlhJ?oc=5": {
+      "actor": "House of Representatives",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.cnbc.com",
+      "rationale": "House contempt vote against Leon Black for Epstein subpoena defiance. This reflects the House exercising oversight authority over a witness, not systematic obstruction of legislative fact-finding. The signal would apply if the executive or another party were blocking House investigations; here the House is successfully conducting one.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa0hLSGs2bVFFWUtLc0RWZjI4ZVMydXhGVjlna3ZabV8xYmtSNWozX19oZ0FpX283bEFlaThjUmFTLWFxM2hDLWE0MzBVRFlCODl5dS1SSjdWVmJ2aDJ0RTJLeG1KY01Sb2FtcjhyekJiWmpIeTJwSk5wMTJEamhqTC1iTk1ndE0xT3ZrUlBqMXNjZlU?oc=5": {
+      "actor": "House Committee/House of Representatives",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.npr.org",
+      "rationale": "Committee investigating Epstein holds Leon Black in contempt. This is legislative oversight functioning normally. No obstruction of legislative fact-finding is demonstrated.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZTFRalhJUW51OVo1UU1SdGdmVzVTTWNEQl9LdXlyaEN4TzBaSG9TLVprMkRPaWxoZ01zMFZzZUNYbzN6b1BTUWxYUHgwUHQtV3drWlFTc0hITWkxTk13cjVFeVh5bmpjdGJYUDdRd2FGN0tzWDhNcjNDM0tETU1zcmhWaXoxSzNmZnVhWXBGTXI3X3BH?oc=5": {
       "actor": "Leon Black (private citizen)",
@@ -3916,6 +4016,16 @@
       "rationale": "House Panel recommends contempt charge against Leon Black for subpoena non-compliance in Epstein investigation. Real occurrence of resistance to legislative oversight, but a single case of individual defiance rather than systematic obstruction. Severity 2: repeated credible signal of the same contained event.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYkg1aVRfbmhra2NPS3UwdWFxbzVaQ18tQndYdW5FcDA3T3c0TENXcFUxLUNxN041cW0yMnRJSFl5dzYxRmwxWHl0aWNSRXJxSExQeFFiY01EemNYQ3MyRUlSYlhJZklRNnFPX2tNSjJxTjBNRl9lM1pvczc5NXlaZEg2M1ppdGFfMUY2UjBGakpScExQemhtNHBldw?oc=5": {
+      "actor": "House of Representatives",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://straightarrow.com",
+      "rationale": "House contempt holding against Leon Black with referral to DOJ. This is normal legislative process for enforcing compliance with congressional subpoenas. The House's fact-finding authority is being exercised, not obstructed.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxOaEdlUTRGX05IRnlXSDR3ejE2RjRfYmxFRURHQ185QmRSY1Ztb0VfU2FqS0Npc0lHTDlBcXpwQl9HSkZXS0lfdVhTZlcyWFBua0Z4UE5obUFPUm1rcXlyWDhSYUtYUXNjQThnelpobW1yWjJxTi1iblgzMlAxam5SaGJOU0t3QTZDUXJlUFo1eGRlWjVFdG5hMURadzNwZ9IBowFBVV95cUxPeFotMDM4MmRiSDdpeXZlN2JwQ1pTS21qYUJiUlZES2c5UUYwYzcyUXI4QUFyaVFzU0lTOVVQOVM5NUp4WnEzQlNXV29qYWhzb09uUjB0YWhyMHFyel81Q0I2Y0hlYmJ1azJVbTNMR0lOZ3M3YUwxUEFEbll2czk5dnVCcEl2UW5aNkk2OTRxcndXYmloS3FyVTFNaHk5Ni1mOXdn?oc=5": {
       "actor": "Oversight Committee",
       "confidence": 0.95,
@@ -3935,6 +4045,26 @@
       "primary_source_url": "https://www.cnbc.com",
       "rationale": "House Oversight Committee formally recommends holding Leon Black in contempt over his refusal to comply with Epstein-related subpoenas. This is a real legislative action documenting obstruction of a specific oversight probe, but it is a single case of an individual's non-compliance, not evidence of systematic barriers to legislative fact-finding. Severity 2: confirmed action, isolated instance.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0ZMMml5QU1rUG1ZVTI2dEZMNGFhWDVxd2I5NXNEQ2I1Sk85NWhVN0s4RDJRWDBvQzE3N21lQ1FlMEsycnFXdmRWeHk4N3h2VnViSkp5cC1BdlpSSF9sT2pfRGlra3JlczJzMDRtanlPa2xzandDRFRJQjEyak40Y0dYUXpGVklCWEhJTWNEX09tYm5mVllDNWJNc3RCRnZKUm1Taw?oc=5": {
+      "actor": "House of Representatives",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://nypost.com",
+      "rationale": "House contempt vote against ex-Epstein associate for subpoena defiance. This represents the House successfully asserting its investigative authority and enforcing compliance, not suffering obstruction of its fact-finding mission.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxPa3NWdHhCM1NlaExmWTZkbTB2dGR5eXhDSkN4Qi1fSGwyYjNsTTd5WTRuN050ZDdJVEI2TDhqSGxuamFDWmhXS2M0b2dFbjFCeGhNdHFDZElOSFAwbmloR2h2ZEMxa2pUTU9yUDhlTWhCUGF5djVlR1VxbXBaWEliUnY5Z3dhLThNakg3NTdtVUdfWUFUV1RyOFdMeHdVUW56dW0tZ1R3NA?oc=5": {
+      "actor": "House of Representatives",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://msnow.com",
+      "rationale": "House contempt vote for defying Epstein-related subpoenas. Standard congressional enforcement of its own investigative authority. Not a signal of obstruction of oversight.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWExPUzNIXzk1d0g5b19QakJCbk1BNXVHYzR4dDI4bmItLUZPTmwzMnNub0tSbWI4MkRDeHZkS01qLU4xcG41U1VQRldZZVhVSlZlYlpRZFdROE5CTmFMaElIdG5rVjdWSjdqMV9iQWRSazBtUzlTUHphUWxhTjNQTDF3Uk5tSndRT2hramRNTTNfX1l4VnR5Njg5TDdlcUhfS3lDaXNLb3RjengtQklB?oc=5": {
       "actor": "Leon Black (private citizen)",
@@ -3965,6 +4095,16 @@
       "primary_source_url": "https://aljazeera.com",
       "rationale": "Al Jazeera covers the same event. Leon Black sued a congressional panel over an Epstein subpoena. Same assessment: real occurrence, isolated defiance by a private citizen, credible signal of legislative obstruction stress but not systematic. Severity 2.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT3ktRG5ZUGdnMnRxRnJuQXZHckZESHhfVVNiR3RycVlxYXM0S0FDemh6ZHFqRXJQTHNtWmhvay12bEgzWVoxbFc5Zklsa3RrWjlqMjZXWFNTMExDeHcwWlc4VGtKYUNZZEVUdDlvS2pCQk5mY0IwWGV3Rm1lamFpYTJsdmJtZ09jWGNOTkxDMVE0N1VpSnpSSGhIMWpJa1NUQjVQMnAxVmNGWGxIVWFaNnNn?oc=5": {
+      "actor": "House of Representatives",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.nbcnews.com",
+      "rationale": "House contempt vote against an Epstein associate for subpoena defiance. Legitimate exercise of legislative contempt authority, not obstruction of oversight.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNi1vVl9hZjhHV0l3b1dOaFBaQk5xVjFLdkhmOEhFZGk3OUltQ2owdjlxZXk2VF9QcVlXWFV4RTdFMVRud1d3X29Cd2VuTnRLQXpEdXQzMDV2bTBMd0YyY2ZzVTF4Qk9TWnVjMzBUSjdLQllrXzY0cEtNVXNxNEhLLW1uNzl0RnlHQ3ZMNEhKRy1ISXpHWE9WcTFnMjQtcnhzNGV5UW9vcWd1QVlFc3laM24xYw?oc=5": {
       "actor": "Leon Black (private citizen)",
@@ -4016,6 +4156,16 @@
       "rationale": "The item reports a MOTION or MOVE to hold someone in contempt, not an accomplished action of obstruction that has successfully blocked legislative fact-finding. A subpoena defiance and a contempt motion are serious matters, but they describe a dispute over compliance, not a systematic barrier to legislative oversight that has taken effect. The House Oversight Committee has initiated enforcement action (the motion), which is the proper remedy for subpoena non-compliance; this shows oversight mechanisms functioning, not being obstructed. No evidence that legislative fact-finding has been systematically blocked or that the executive branch has erected barriers to accountability. A single defiance by a private citizen (not a government official) subject to contemplated contempt proceedings is not evidence of legislative oversight obstruction as a structural problem.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM3ktTnZxU1I4T0g2UFJKWWJBSUZVdjVnUlRQUWJoMzVpUUhGck5qcnpndjN4M2ZYSzFvU0VoNzFIeXVfbVRuUHhOcl9BSEJ5RGdWeVE3ZmNZa01yYXVtNm53WHhTN3hGakEyWFVGQ1I1Yl9NaERrZkFwYm9sRVd5SS1mZTdBQVNydFhrWXFfZVQzb3pHNjdQNGhOMGNiOUhqNDYtdGVDLVM2SmV5Mmc1b2ZaUlJSMHJYQ013cXlEY0RVdw?oc=5": {
+      "actor": "House of Representatives",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.washingtonpost.com",
+      "rationale": "The House voted to hold Leon Black in contempt of Congress for defying a subpoena in an Epstein investigation. While this is a real legislative action, it represents the exercise of legitimate congressional oversight authority (contempt of Congress for subpoena defiance) rather than obstruction of legislative fact-finding. The signal concerns systematic barriers TO legislative oversight; this is the legislature successfully asserting its own investigative power. No obstruction of oversight occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUVdhdGJiV1JTV0F5cjFoYkVodkNxQ2cxUURkQi00UTNlUzdhQ3c1eTlQQmpZY1J6eFZKV0JSU2UtdHI2dGlPNnNTNnR5a3pQcHBENWVEREl3VVk5VkthbmsxZWNfSk41UjNBTFRFeWlvNzJWSnZwZERhMndkMGRhUW5UZG9QZ2drRVBoU2h1cWxGWmhEd0FPTnkxeWM3UmpCZWUzUVZoVkJSRldWWTNxYk5FSGNxS0FneVczYXh1MzNMZDg?oc=5": {
       "actor": "Leon Black (private individual)",
       "confidence": 0.72,
@@ -4036,6 +4186,26 @@
       "rationale": "A private citizen's defiance of congressional subpoenas represents a real obstruction of legislative fact-finding, which is material evidence of the signal. However, this is an isolated case of individual non-compliance rather than a systematic barrier erected by government officials or a structural attack on oversight authority. The House Oversight Committee's response (moving to hold in contempt) demonstrates that the legislative oversight mechanism itself remains functional. This is a contained enforcement challenge, not a systemic obstruction of Congress's ability to investigate. Severity 2 reflects a credible, confirmed stress signal\u2014actual defiance occurred\u2014but lacks the systematic or official character that would elevate it to severity 3 (which would require, for example, an executive branch official openly defying a subpoena, or an official campaign to obstruct oversight mechanisms themselves).",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQUxPU0FIWHlFb05Fdjc3WVlESWhDdGFmajhzX2k3eGJMTWVqSFR2QXZPTm1mQ0NsOGRFQTJORmV0Q004TUkxQlhsODhkc2h1NExyaTVoYzlIdGF2YVJ4UnRYczlfVUJENTRrSDNvOTNQT3BMN0RMUXd1Z2JmdFRDd1dBY1JnMm55Q1BJWW55S1VMc1VwU2xXVWZ3OUhFSTlqN0lCZmdqaVRsLXdfbFY1ZFJxMmdRT0RLamNxeTViZlYyYXRt0gHYAUFVX3lxTE1icktZeTRWN0FUZUtHUFpLVE5Nd0ZjNnhoZmR3ODNYRzVBSG93VXRBZGhCNXdGMTA3aHE3OEd1MnIwNktwd0docTRfTU95QnM1VzlOS3Zad1VhNXVNZm1ZNWNEUXFzOFBlc2pJNE15OWh6ZWpFdktablhNSklkd2Q3U0FUZlVZOXhHaGNvUTQwU19mVFZMN2haV1gtbi12MzduVWh5Y2FlSjBvWWwtOF82eEltcWtab2RkT29rZFFLSGpPWS10djRlWE5BbnIzb3oyUkY5R0xtTw?oc=5": {
+      "actor": "House of Representatives",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.955wsb.com",
+      "rationale": "House contempt vote against Leon Black in Epstein probe. Legitimate congressional oversight and enforcement action. No obstruction of legislative oversight is present.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX3FWSDNQemVPN3hPUV96b0FESlo4TEZlYjloNEtaa29NcGRZdGx0cjY1UnNjd21lSE54ZTVxR3B3U1N3MDJTaFd2Y2loOGhua0tWOWxFMG51dWhtYm5MZjhacjZ1bGlMWmQ3X1BuaVJKclBwTXluanlxZnhCNkdJV29XeWVqY3dfUW5oeWJISGQyaF9DeW12NW9mdGg2RFU5S1hvVTk3cjIzbkhaMkVkTDUyeG42VXVtNFV0SWd5X1FOdGty?oc=5": {
+      "actor": "House of Representatives",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.mynorthwest.com",
+      "rationale": "House contempt action against Leon Black over Epstein investigation. Legislative accountability mechanism operating as designed. No obstruction of oversight evident.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUTVlbzN0em5rdTFiOFc5Q0hneDVJQUY3dDBnWE1Jc3R4d2NMYjVmM0QwUl9vdHBxQ1VFbGU0X0lPeWI2ckVBNWtzeWlMamMtVVlzS3NMWlluaUxhVEs2YXZHZTZEMzFPcm03RE9uS3Zfa2NjdWstRVhwMVNLd0xXWmNybDgxaUZNTDRLQVNDMzVUMDhOMWdrUmd5ODJ4b0xSd3BVODVSbGVDWV9lZl9qenpNWXdjYmlYQl9IU1c0THJRc3NTeTd3M9IByAFBVV95cUxOUTVlbzN0em5rdTFiOFc5Q0hneDVJQUY3dDBnWE1Jc3R4d2NMYjVmM0QwUl9vdHBxQ1VFbGU0X0lPeWI2ckVBNWtzeWlMamMtVVlzS3NMWlluaUxhVEs2YXZHZTZEMzFPcm03RE9uS3Zfa2NjdWstRVhwMVNLd0xXWmNybDgxaUZNTDRLQVNDMzVUMDhOMWdrUmd5ODJ4b0xSd3BVODVSbGVDWV9lZl9qenpNWXdjYmlYQl9IU1c0THJRc3NTeTd3Mw?oc=5": {
       "actor": "Leon Black (private individual)",
       "confidence": 0.71,
@@ -4045,6 +4215,16 @@
       "primary_source_url": "https://www.uinterview.com",
       "rationale": "Leon Black's filing of a lawsuit to block congressional subpoenas is a documented legal action that constitutes real resistance to legislative oversight. This represents an actual event, not a hypothetical or proposal. However, severity is 2 rather than 3 because: (1) a legal challenge to subpoena validity is within normal judicial process, not a categorical defiance of legislative authority; (2) the action originates from a private party rather than a government official or systematic institutional obstruction; (3) courts retain authority to adjudicate the matter, meaning the legislative power itself is not yet structurally dismantled. This is isolated obstruction, not systematic barrier-building.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMkRzU2hzQnRhMGw3R0ZTdXROMVlRaTA5cld0blZGTlJjUmFFcThPckN5N25wZGUwekt4M1ZzRDdsWVhxWFB2TlFQTkZ4V1hSaXJBZU9LVlhXUko1RVRRRlEtY3R5SnhxZFc3cGY0MVN6T3M1b3JRc0NHUVVTVVRaWnVnMmlOOXM0YXYwNklOVTdhNnBqVmxkbk14V3RSQUt4cW9PT01OVVhtVWVCTzBKOGpqVlFxaGpBd1VVVXV1S19SZmptNldleXhCTdIB0AFBVV95cUxONWNVbk1fdVBKSWc3ZzRUYkRoZ3Bybm1jMUNnYl85QS1UQmxqWW85UngzTlo3RU04M0doZHZPd0xibXZ0V2NjbUZLZnJwWTFFVnVVRWFsVUZHajNmUVhmQTRHOHVqTFBpR2p6dzZvNWl4cHN1eXhqSnNIRFZzYlZNeVNNWTlENGdzMms2RW5rMld5U2x1UWNUcGJlQ0NEOWFMblB4WEdtWkJyZDZuQmxNcTVuMm1BX2toMG15S1NQUUV2ejZuZHRKYUVYTWctM0w1?oc=5": {
+      "actor": "House of Representatives",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.pbs.org",
+      "rationale": "House vote to hold Leon Black in contempt for defying Epstein investigation subpoena. This is legitimate legislative action enforcing its own subpoena power, not obstruction of legislative oversight. The legislature succeeded in its accountability function.",
+      "severity": 0
     },
     "https://www.courtlistener.com/docket/73690657/2/in-re-subpoenas-on-boris-epshteyn/": {
       "actor": "Executive Office of the President",
@@ -4148,6 +4328,16 @@
       "rationale": "This item is a Ukrainian legal publication (\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430 is a Ukrainian judicial gazette) concerning a ruling by the Ukrainian Supreme Court on condominium dispute jurisdiction. It is not a U.S. domestic event and contains no content related to martial law, military governance, or military management of political disputes. The signal explicitly targets U.S. constitutional risk; this is a non-U.S. civil procedure matter.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUS0zRDJGVGpNSXAzNFRMano2VzRGQVhFNWN0R3lNeUpxNHBobWhpZzZRR191SmVRc0FZazU2Yi1vd1ZFc3pKdmRDSEVjUTNweXQ3YWxUQk1qS0k1NndlOEEtU3N2eldGWlg4TGdiVm03aHRCSHk4Q3EzNFhJTllfOXlPTkF0bTJK?oc=5": {
+      "actor": "Colonel Yu (South Korea)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "This item reports on a South Korean court decision regarding martial law suspension. While it directly matches the signal's thematic content (martial law), it is not a U.S. domestic event. The signal dashboard is tracking U.S. constitutional risk; events in South Korea, even when they involve martial law rhetoric or military governance, are out of scope for this U.S.-focused early-warning system.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQm9rQ1hZSzluV1RNbi1wTG01eE5VMENhYTNwdzFpTlAzYzNQNV9MNXpKWlI5azNDVGJoQnpOYjZJU3hwLTN5ZDZRVl81aGZKZE8ya0RvXzVhTFdvZ09fc2MzSVNxWUY2VVBhT2w4VXB3a21GUmdYd3Vxckw4bHZhRnZ4UFBnNWd6cUpQWFNOc3U3U3lCN0E?oc=5": {
       "actor": "USPS",
       "confidence": 0.98,
@@ -4186,6 +4376,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.npr.org",
       "rationale": "The article discusses judges and officials 'prepping for' or preparing contingency plans for ballot seizures. Preparation, contingency planning, and discussion of hypothetical scenarios do not constitute an actual occurrence of martial law, military governance, or the actual seizure of ballots. The signal concerns rhetoric or policy toward military management of political disputes. Preparedness discussions, without evidence of actual implementation, official policy changes, or orders to seize ballots, do not meet the threshold for event_occurred=true. This is analysis and contingency thinking, not a verifiable action that has taken place.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc3hyWlE4SHJWdW9kdkJLREpNaHhZME1jY3V4dWcxRzctRDJyLVFFU3BKcGJTREZDSHl5UUVub0RTVV9nS2FWSVdiMm1najJXdkxuQUNSMDFPOFo5VzFzdmo0SlJXMGdMdGVKMGdlcVpOQ1BFaVNwUDhHRjBtT1dWUGYyWWV5Q19OR1VSSzZtNng4bnF5MTlabFNhNnFyb3V6bFlwZmhGR3M?oc=5": {
+      "actor": "Missouri Republicans",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "A judicial filing requesting that a court revive a gerrymandered map and block a referendum is a routine legal request and political action within the normal electoral system. It does not constitute military governance, martial law rhetoric, or military management of political disputes. The signal specifically targets military or martial-law related actions; standard redistricting litigation and ballot access disputes fall entirely outside that signal's scope.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUzVPS2hqb0VXeDhPZnVJNEtUSUtaRDdFQll2NnRnMUhWYkJIQlhtSXQtRHg3b2NMcHg5RDJvSGRmWTF1YlV5ZWZYSllBb0h3QXJmSEQ2M0ZYOE9TSG4yM29ncVdyWTFNNGJVNDA0dWtTS21UN2had3g5N1oxVms4aEtPaE1id2EzcmVqS3Jwb2NYSmEyU0JKUjQ4ZTVLLTVjdW5naWVGS01jZ1NPQkxYUFdWekswUVNlRnZV0gG7AUFVX3lxTFBTNU9LaGpvRVd4OE9mdUk0S1RJS1pEN0VCWXY2dGcxSFZiQkhCWG1JdC1EeDdvY0xweDlEMm9IZGZZMXViVXllZlhKWUFvSHdBcmZIRDYzRlg4T1NIbjIzb2dxV3JZMU00YlU0MDR1a1NLbVQ3aFp3eDk3WjFWazhoS09oTWJ3YTNyZWpLcnBvY1hKYTJTQkpSNDhlNUstNWN1bmdpZUZLTWNnU09CTFhQV1Z6SzBRU2VGdlU?oc=5": {
@@ -4362,6 +4562,16 @@
       "rationale": "This item reports on Indian electoral politics (Congress vs. BJP in Madhya Pradesh), not U.S. constitutional events. It concerns a by-poll result in India, which is outside the scope of U.S. domestic constitutional-risk assessment. The signal concerns systematic removal of opposition candidates from meaningful U.S. participation; this item is neither U.S. domestic nor evidence of ballot exclusion.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV3ZURm13RjljeXZXYkNYaXpzR0JMNGlDMUk0X1BKQUwwWmJJLThqaFV4RzJieElTQ2trRWY0QXlJRGRIOXVTVkd3ZTQyNk96OGNiMjRkemFoNXpqRi03SHZORk1JNDlvbkc2Nlh5eUlDVGdiblFMUDZmTmNHc1ZUNUNySHRMeUpGc3UzQXhpYUJ4MWlpR3owTk5sSGVLT1hpWFcyZzVMNkxYeWtGOHlpRE05c0Z2MVVCcTNSMHJlR01KM3NobXVaaFAxY053UGFERTFB?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "themoscowtimes.com",
+      "rationale": "This article concerns Russia and a business transaction involving Putin's reported partner. It is not a U.S. event and does not relate to the Opposition Ballot Exclusion signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV1R4T2JPdV9XZms5OHJhMTN1S2wxNHNCVkZaMUlDY09JaGNoZ1o3eV9lR3dnbExIQnFDaVU4Nk5ycDRkWXVVTFdVUWhOcGtGQnBmN0FnamxhQnFELUtXRm04cXFZeUd6cVVrNThEYkd3Nl8tY1g0a1ZIdnlEWXZxWndYX2N2S3h2Q2Q1cGtvdHc2cVBfX2Q2V3pkZEE3MXJlRHBLa01qNTV1X21fb01KY2NDdVBkcUhIUnMwQlZQVUFTNGpfT2psZWg0S1BhdUJMMXlqaWRza1A?oc=5": {
       "actor": "",
       "confidence": 0.95,
@@ -4490,6 +4700,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a news digest headline about Alaska races. Without specifics in the provided text, 'wild deadline maneuvers' is too vague to confirm a systematic removal of opposition candidates. The item provides only a headline and no factual content showing ballot exclusion of candidates based on opposition status. This appears to be routine election administration or procedural matters, not opposition exclusion.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Gc05PQXE0VS1UaFplYUhiRlAzdzdka2dod1EyZkZZdXNGdzN2SkwxSlZ4a0NnWUVTaW5qMUYxbV9rZUIxSkI2RC1aRkZXazFEM1AySFV3MjhXSmYyRnJQbkM2cjNOUGhIR0R4QkI5NmRRTFp4VVFrOA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "SuaraGarut.ID",
+      "rationale": "This article concerns Russia's parliamentary election and Putin's framing of it. It is not a U.S. domestic event and is outside the scope of this dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuWXRqTkZtaVpzV3V1WFFZNjBBWG03TUxDM045ODR3aG0yZ25RbjFyS0ZTTGNYYXhxN28wQllsNWk5RF8xdWE1S0tyNVF0MGRFYVlRbUpRN1ZCWFo5bGFIRXAtTGlBLU5QM1lBU0VYMTZienQtd0Y0alp2Rnh5YkU?oc=5": {
@@ -4632,6 +4852,26 @@
       "rationale": "This article concerns Nigerian politics and legal proceedings regarding a Nigerian politician. The reference to a Supreme Court decision pertains to Nigeria's judicial system, not the U.S. This is not a U.S. domestic constitutional event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeHRrY0dzVWRjNUdKeXdCRkMyS1BYQS1nbDhhZ1B0VUtfclA1RkFaM1hSZHpXMUFNdDBaWUpvbmFkTDdEVjFoTHUzU2stOHlzbi1KX3ZwVl9rWHl4bDZRbU9QM0ppNUZRMFF6MzVMQnBZWlVEUjFRRmhPT1liMDBKRFRiSld3OHIzYXJJNDFkRVUzUWhmQ21CWnRWWHJzODFoZnpXQzV4WUU5OW9j?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "themoscowtimes.com",
+      "rationale": "This article concerns Russian elections and electoral choice in Russia, not the United States. The signal is defined for monitoring U.S. constitutional stress.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaUhMdWtBSzBQSE1tcUpsUzVXdzBreE9PdGRnTzFfX1NhZ0dWQm55NVRYcWxBOWVkdERzQkFNRVY4LWNZc3lVWU9heVdHYWVoSEg4RWhwQ3dlLThJbkl3dUtNakRvV3ZLbG5qX1RlNHRoUVZGcHpGQU5QUE1mT1ZkcWk5Zm9Od3hSenN5NFhUV0RBOWZtV0tFSFlXUkpYV2xvdFZ4YmVISHlBNmNDOVE?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "UA.NEWS",
+      "rationale": "This article concerns Russia and a Russian candidate (Yabloko party). It is not a U.S. domestic event. The signal applies to the United States only.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRGZBSFh0c1FOdExsZmdqM1ZVeTVVWFZudjVkTURIR2M5eFBWeWM0UDJ3d2RwZWdkcmpLZXVpdkJfdTF3ZGU1X2FBT1lVNjc3c05NTHBBS3YybE1sN1J4LTZtVE9NS0FZNzdTclE4QVpLOXRFelBHOWJpMVFTQ3JCY1FJN2VqUk92OXIyTE5XUWEwbmF1bG5LV3BJdUpzWTYzMmlXZm9CWTlxUWNFbnc?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -4672,6 +4912,16 @@
       "rationale": "This item concerns a disqualification dispute involving MLAs in Odisha (India), not U.S. domestic politics. The matter is before an Indian high court. It does not provide evidence of U.S. constitutional stress.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPZERZRzZjYTV4VEx1bXlZdjdaZkhwMmc5MFBObVZ0Wmc0bm8wWHNOQU5nOFB4WElHcFRESmlZb0FzNXJNdUJQeGtyYU1XM2w3c2JwU3BSVTBRRXVWbnNYV3d5OWpEckJPNkZTdV9nTHdYUEJiS3BieEJMUFdlVWRDTmZRalJFb2FNRWRINUJUOFpneTE3TFNZTDl6U3IzMmtZN1BFU0x0ZlVuRXY4MGY0NXZNbUZUaHhoSTNNYlQ2VXA1QW9zSmxBUE1lTmxuT0psWWZhYS03d1J4Ym9yYW1wUjVHcHMxTG5kd1llQjlYVWV2Y2tNeEpYcTJlNUJnYVpEUGNjckM1dk5OVTRLMkFKa1Y2QXJHeXdfOGJVMVhjYmlUczZkLVc0QnQyd3hHVXQ5dURublRpWFXSAb4CQVVfeXFMUHFQZmxtTWFNd1E4Ry1RUFI3NC1RUTZhcVY5MnBQQmEyczdyTEliMTlpVFFLRjJVcjJNMG5hanRVRUdFYTZYN0U2dmxSam9kMjdXQ0x6UUdhNUtkbzN4NzY5cS1Qc0U4VHpIb0RqM1VMZnRZVFlJOFpzWWNaLUZFN0M4cEpBNjJYNmd1SzJWa3I2T0ZlRnlVcUhac3FXOE1SSHN6QWFaQlE4RmFDVUo2T25nQjRpWVdQcE1JeVJpWF96MnE3WEV0aTN4a3VaQkRvTFhRaGFhd0JFUTZmYXplVERzdWRCSVVIanZpWjVncno3TkhzQlpLUzJIY0NZNmZUaFJkbWpWQ0lrc2c1VmZaRWhhQU9mYUlWamQwZHAwX0tLbHhBVEtKdDBZaEtJVUNHUHlXX0xZRWNDV2ZzczVB?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "Meduza",
+      "rationale": "This article concerns Russia's parliamentary election and opposition exclusion in Russia, not the United States. The signal is for U.S. constitutional monitoring.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiugFBVV95cUxNR2JzX2M5aU1PZHgxRzFQN19PZlZmRDlrZGNSYUtkaGN6eE9mVDJuZ3p3OEFrZ2NyYUprT0RQdVJYcVRDbmg0cURHM0RqNEFoWDRIMjVkbWROU01CckZNZm8zUjMzSW9xSmhCc3VhR3dETVltRDhOVWJ6Zm9xNU52WlpPT0xkYndkN1p2UVFqUl9jWjBmQmRjUTBjT245ZG1TMmRwLWdHcHp6bkV4dWpBeE4wMzktdHlWSGc?oc=5": {
       "actor": "Russian Supreme Court",
       "confidence": 0.99,
@@ -4680,6 +4930,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Russia, not the United States. The signal pertains specifically to U.S. constitutional risk. Non-U.S. events are out of scope regardless of thematic similarity to the signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVEJiYUhWZkFTdUNaVUZyamZVTHdiZjRPQkxKeXo1blVDOUFRREYyWWZHbnVrei1VTmYwdzJiN3p0UEFXN1pITzhJMlBXcl9rdHFjbXAtUHpkNDhlb2prWFVJbG94dlcyMTY5X3l3QmtZTnBNZHN2VVUxLU9NSlRiOGZWNnFCREhodGN4eDBjNVR6QkJFYUZYSmRpNjFEYWg4VlpTVU1OLTkzNllBVjN3eXVWYkpFa1dzVmxzUw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "themoscowtimes.com",
+      "rationale": "This article concerns Russia, not the United States. The signal is defined for monitoring U.S. constitutional risk. Non-U.S. events are out of scope regardless of thematic similarity.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSWVJOWpzQVR6UE52enNQX1c2VldLMjdIRnVpZG5qQnpuRTFHWlB5OERHUTg0X0l2dGhLRjVxN29LSGFST2VPM3E2NF9IRjV5MDd6QXhEeTExbXZzNjU2d2x1U2RtSncxMXZLbFBWV1p0WGRURW9MMnBCQ0dYSU80X0xnNDdERnBES05PYWxQUEVMVFhBaGRBd0JGR2RFNjBCaUtCNGVyTzAtMWFnb3BqbTJ5djNJT3dtOWRzWkFn?oc=5": {
@@ -5298,6 +5558,16 @@
       "rationale": "Item concerns a Filipino photojournalist in what appears to be a protest context outside the United States. Not U.S. domestic event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV0l3YXpOT0ZIN1djTHcteklMbWgxOHNfM0E5UDE4TTdNenVKajg5VTRiX3FlS0pJcG1RVmhIWGIwNllzUWhDNTNEMFd2WEFPNWpXVU5OeGtFSEoxUU9pTGZSSl9uaXZ4R0xIeWVXUXk4eDN1SUt2Y29fLURWbGQ1dXV1a1hNdC1GM1FLcWplampQQ3laVGln?oc=5": {
+      "actor": "BOL News (Pakistan)",
+      "confidence": 0.9,
+      "event_occurred": true,
+      "is_us_domestic": false,
+      "matches_signal": true,
+      "primary_source_url": "https://journalismpakistan.com",
+      "rationale": "Journalism Pakistan reports that BOL News (a Pakistani broadcaster) fired Absa Komal after a protest speech. This is a real press-retaliation event, but it occurred in Pakistan, not the United States. Item is marked non-U.S. domestic and therefore falls outside the scope of the U.S. constitutional-risk dashboard.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcjFYSHhKM2U4SV80SGVISEM3OFc3VEpTdDFtaEtGcE15cm4wRlk1d1M5TW1XV3FCcEJVWjNmNk11cDZ1SDV1bzlzMGhPeTU1YW05dVRFODUxeEJoTW1mNTc4Z2V6OGd3eG91YTFBa3p2djFQdGV6V3Vadnl5WThNcGZRRThnQTZnekpDV1FENTNnTWFrbXFqeA?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -5508,6 +5778,16 @@
       "rationale": "This item is a media brief from Journalism Pakistan dated September 2026, covering global media issues. It is not a U.S. domestic event and contains no evidence of press restrictions or retaliation affecting independent reporting in the United States. The item is geographically and substantively outside the scope of constitutional-risk monitoring for U.S. domestic signals.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.7,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaVJzWEQyc2ZiY2hGbmpBZVk1RzVuRXkwZ0FoNmc5S3h3cEphYllYT0ItMy1pQm1leWJNbXZlNFJhbGJ5SGM4Nzg5OEZxLXVwZmd3WTlKbWlMeGg0SEhOVEF5dFI2STZsVHJHb0pNQU1Nek96cDcxRng4aFhJNzdjQ0pTWlR5VTloSlA5QWIwelhTS0hmc2hTUXM5bmQ0SWZXRGVCRzBjeWpaM0NPZHc?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -5547,6 +5827,16 @@
       "primary_source_url": "",
       "rationale": "This item reports press freedom violations in Pakistan, not the United States. It concerns foreign state action and is geographically outside the scope of US constitutional-risk monitoring. No US domestic event.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSmRpaVl2OW5QVDhsLU5tQktHVy1WZERTRjQyUmtnV0NmYzZidC1RNF91WDV6NHh4YzZWWThOcHFNR2NVVHZpUzkyMm0xTTZTZHd2WDRRazhGcUNxTnhCLWZtWDR5X0oyM09CV1lJTUVKRmhtclo5Smh2b1dTUlNyLXlXd25oZzhEdkZFWDM5Q3NHZ0M3TVlITHpOWWtOa0I1ejcwbHE0d3JQaHhIb0lTRkhtdF9HZUU?oc=5": {
+      "actor": "Chinese state (implied)",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": false,
+      "matches_signal": true,
+      "primary_source_url": "https://www.frontlinedefenders.org",
+      "rationale": "Front Line Defenders reports on Sophia Huang Xueqin facing arbitrary restrictions. While this is a real press-freedom signal, it concerns China (Huang Xueqin is a Chinese citizen/journalist), not the United States. Item is marked non-U.S. domestic and therefore excluded from the U.S. constitutional-risk dashboard per the signal's mandate.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdG5tOHZtSElWcHQ2c0oxMmVMajlsYUtJMmpuRlBYcWJZVGlOY0dGaTNuOGU5Tm1Mb1JDZW1HT1dydW8zWjctNDZUS2ZtQ0Y5OHJLSHlPRlZKSmtHVEJvS3gxN0RyZlVRdEFMTVJQNy11OXhxaG85NjNCcjFHR2FHN1haREpYN2NaR2x0RVlsZEt2N0EzUEVPQWktVFdNVGh3QWhId21KVG9VOGtYU1FTejBZU2RxbWs?oc=5": {
       "actor": "N/A",
@@ -6045,6 +6335,26 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability",
       "rationale": "This is an OFFICIAL RECORD\u2014a final rule issued by DOL that materially changes data availability protocols for confidential unemployment compensation information. The rule mandates disclosure of previously confidential UC data to Federal officials for oversight and audits. This is a real, accomplished action (a final rule) that alters the scope and handling of statistical/administrative data outside normal notice procedures, which constitutes a credible stress signal on statistical agency integrity. However, the framing as 'oversight and audits' by DOL's own OIG suggests internal administrative coordination rather than external political manipulation of methodology, definitions, or suppression. The action is real and confirmed, but contained in scope and justified as administrative oversight rather than politicized interference with the independence or objectivity of statistical production. Severity 2 reflects a confirmed, material change to data protocols that warrants monitoring, but without evidence of removal of statistical leadership, improper methodology changes, or withheld releases.",
       "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/09/17/2026-19033/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule": {
+      "actor": "Securities and Exchange Commission",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/17/2026-19033/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule",
+      "rationale": "This is a routine SEC notice of an information collection submission for OMB review. Like item 0, this is standard administrative procedure under the Paperwork Reduction Act and contains no evidence of interference with statistical agencies (BLS, BEA, Census Bureau), leadership removal, methodology manipulation, or data suppression. The SEC is not a statistical agency within the signal's scope.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/17/2026-19087/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for": {
+      "actor": "Census Bureau",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/17/2026-19087/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "rationale": "This is a routine notice of paperwork collection submission for OMB review under the Paperwork Reduction Act. It is a standard administrative procedure inviting public comment on information collection requirements. It contains no evidence of political interference, removal of leadership, unauthorized methodology changes, suspended or withheld data releases, or any other indicator of statistical agency integrity stress. This is normal government process, not a constitutional-risk signal.",
+      "severity": 0
     }
   }
 }

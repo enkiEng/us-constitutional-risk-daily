@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-09-16 17:06:31 UTC
+- Generated: 2026-09-17 17:06:56 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **14 / 100** (Baseline Institutional Noise)
-- Previous day delta: **0.0**
-- Delta vs 7-day average: **+0.0**
+- Score: **13 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-1.0**
+- Delta vs 7-day average: **-1.0**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,12 +15,12 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.65 | 3.57 |
-| Judicial Independence and Rule of Law | 15 | 0.65 | 2.44 |
+| Elections and Transfer of Power | 22 | 0.33 | 1.79 |
+| Judicial Independence and Rule of Law | 15 | 0.33 | 1.22 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
 | Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
 | Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
-| Civil Liberties and Information Environment | 10 | 0.00 | 0.00 |
+| Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 1.00 | 2.00 |
 
@@ -28,20 +28,25 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Legislative Oversight Obstruction | federalism_oversight | 2.00 (Yellow) | ai | 9 | 10 |
+| Legislative Oversight Obstruction | federalism_oversight | 2.00 (Yellow) | ai | 3 | 16 |
+| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | ai | 1 | 3 |
 | Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | ai | 2 | 0 |
 | Statistical Agency Integrity | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 0 |
-| Election Administration Capture | elections_transfer | 1.65 (Watch) | ai | 0 | 2 |
-| Judicial Review Foreclosure | judiciary_rule_of_law | 1.65 (Watch) | ai | 0 | 1 |
-| Legislative Bypass by Executive | executive_constraints | 0.95 (Watch) | ai | 0 | 3 |
+| Election Administration Capture | elections_transfer | 1.30 (Watch) | ai | 0 | 2 |
+| Judicial Review Foreclosure | judiciary_rule_of_law | 1.30 (Watch) | ai | 0 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 0.60 (Green) | ai | 0 | 1 |
 
 ## Evidence Samples
 
 ### Legislative Oversight Obstruction
-- Assessment: Survivors reporting on Black's contempt conviction for refusing to comply with a House Oversight subpoena in the Epstein probe. This is a real occurrence of executive/private defiance of legislative fact-finding authority, but it is isolated to a single individual resisting a single subpoena, not systematic obstruction of legislative oversight itself. Severity 2: a confirmed, credible stress signal (real but contained action by one actor).
-- [newsnationnow.com] Epstein survivors push prosecution of Leon Black after contempt conviction - newsnationnow.com (2026-09-16) - https://news.google.com/rss/articles/CBMilgFBVV95cUxQa3FkSEowUGFjRUJtYmw5N05wT0lRemFoLV9GMGRCM0NsZ0hfdnB6aVRNdWdqQ0FNTHloN2hpMWZId0JVQ1NFWVZmUlg1aFlCazk5Q2NJWGFuSnZrSUREZWRKZXhkeUV5MHNTNHhoRUNGS0ZyT1JqSVNleG13ZTdIX1hJdzdRd3FJZ0lvNVNYNVRaZlBCcXfSAZsBQVVfeXFMTVhXWjdQYU8tMnZKVDlDcGlfZFo3OVdkVnhJZkRVam5kT0MxRUc1Q3BGTEczOU5KSHFOa0VEOThWeFNjYkJLTUlRR2VkUld5a0trQy1LZXFHZnBJT0lha0tZUnUzckZ3bG5MMk1aVmg4UUU3akdpTmRSQWV2LXY1STBUS1JqLUgyNjlvbE5RQjNCU2lmR2lJa09UcWc?oc=5
-- [CNBC] House Oversight recommends holding Leon Black in contempt over Epstein subpoena standoff - CNBC (2026-09-15) - https://news.google.com/rss/articles/CBMinwFBVV95cUxNbHBFcE14eGdKMjVoTXlkX2lpTlp2Q0xCdTVLZEM1Z012S1F5dld0a3ZDYXcyWDZ3QldEY1FSRV8tUHpFeGVlRkxoOTdGNGh5M3FNVEgySTZkd2d4YXZHM29YZ3JIa0FfX3FYYmxBU3Mtb3dCdWFxTVlraTVmaUh1ckZFTUlqeVRjZzBMUVpXTTNUYWJBNUZ2SzMyaV8yX2_SAaQBQVVfeXFMTXA2SHNwZjA0WGF4NlB3M2VOay1xWUpCX2NreDg3a3lGbnNITXJIenpQd0VsN0dTcWhTZWMxTnZid2lGRmZLTnFHeUdoa294Sngyb0tjanNaVjhRYktnTHFvTkV2dHNpejk2bGNMVXdoTWVTSk1MVHVJYWhMVGtGRkdlWUo1N0pFTnB1R1c1M054NVZmVzM2SmNlTGRrdzNoQW9Ldlk?oc=5
-- [newser.com] House Panel Recommends Contempt Charge for Leon Black - newser.com (2026-09-16) - https://news.google.com/rss/articles/CBMimgFBVV95cUxNWGg2SDM3bWdwMGt3TjlqZ3RfSmpwQ21tczBfSHdYNHFmeTktY3RUOWFXRUhobEJXeUFicG55cGFiQWJxbE5tS01BZ0xUNnNlSGN4Z1lqSWhKLU5xdWlYcW5EX2tZOW5QQzYxUWF2bWpIa3pyc1BmWldObGJSWTBYTFpZcFBKUUhJR295cXZYaHpWc1NwZjI4TmZ3?oc=5
+- Assessment: House Oversight unanimously votes to hold Leon Black in contempt for subpoena non-compliance. Confirms the same real event of resistance to legislative oversight. Severity 2: repeated, credible report of a single contained action.
+- [meidasnews.com] House Oversight Unanimously Votes to Hold Epstein Associate Leon Black in Contempt - meidasnews.com (2026-09-15) - https://news.google.com/rss/articles/CBMirwFBVV95cUxQN1VsTkhzNDY4OEpmMklZWlZ5RTRsd0MxN0FwSWprVVNDRXRSbkRZUVdzNTdfeFdxT0pkQ3ZPQlV1SEoxbFlHTHFHdDZITVNUX0VnY01ZaFlJYTc4SGY0X3pneXF2Tm9HOG5yVFhCdUQtRW5EUG1pcjJTUG9FQVRoYldRNTVEeURWM3Y3dWJLOFJNZnlaRDl4VV9pM0tIZHhKVHdXdFEzMW1kb2VoN0dV?oc=5
+- [rawstory.com] House panel unanimously votes to hold billionaire in contempt over Epstein - rawstory.com (2026-09-15) - https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GcHhEYU82REx3c1FhRVpJMGM2Sk1CQm0zTmJCZEY0RXQtQldjN2hxcmp0a18ycTZXU2ptM25iT1l2TzlxbFFhMFpLV1dxUkZTb0Q0TlAwMHNqSHZCQ25wMW5n0gF0QVVfeXFMTWNhT2pCOVpENUEtS1ZvY0xPQnAzdW8tbGhualZsYUxSekhLSFlaTGpLcEJyeGdmaDdXcjdUUlZBbWptbHBfTVB6THgzTDZuWU9obGJOOUsxNFdWcXYzZ2EtN21Jd0N0YmdzM0ctUVpuT0pDSWg?oc=5
+- [Just The News] House Oversight votes to hold Leon Black in contempt of Congress for defying subpoenas - Just The News (2026-09-15) - https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSWVDLWd1eWh4WUR5c2xhVEJjZGlwcHB5R1lZY3JSeS1KRlh5d2RvbnZXOHlhazN0TDhqMU1HUy1uZ2Zyd3NUMXZDazNkMXhoU3VqQVJ3d3NTdnJacFdUYUExOGRwSnkwejJrYkcxd2lRMDJCR1dQRUpSMWRwX0ZyU3N0T0dWaDg5T0xDQl8yVjlRelNfcUlCMlVRb1Y0cThXMGJVcUxTWGJnZDdCOVkxVmhDR2FNSXRq?oc=5
+
+### Press Restrictions or Retaliation
+- Assessment: ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.
+- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-09-17) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
 
 ### Emergency Powers Expansion
 - Assessment: This is an official record of continuation of a pre-existing national emergency declaration. The continuation itself is a routine renewal mechanism established under the National Emergencies Act (50 U.S.C. § 1601 et seq.), whereby the President may extend a declared emergency for successive one-year periods without new legislative authorization. While this document confirms the use of emergency authorities to maintain expanded executive powers outside ordinary legislative process—and therefore matches the signal—the action is procedurally lawful, statutorily authorized, and represents the normal operation of the emergency declaration system rather than an expansion or abuse of emergency powers. The severity is 2 (a real but contained and legally-authorized stress signal) because emergency declarations do represent a bypass of ordinary process, but this particular continuation is a standard recurring action, not a novel expansion or defiance of law.
@@ -53,23 +58,17 @@
 - [federalregister.gov] **[official record]** Federal-State Unemployment Compensation (UC) Program; Data Availability (2026-09-16) - https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability
 
 ### Election Administration Capture
-- [The New Republic] “Investigating What?”: Todd Blanche Brushes Off Trump Jr.’s Wedding - The New Republic (2026-09-15) - https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEhiSnVmN1Joci0xaWdzOXl0NExSZUgtSzdTbDhjdW1nbjE4RDQyVEROZVpsaWFCNVNnaURlMU9wZC1sV3RIc3BnZ1FDY3Y4eWN1NHhBZnZ1akNPR0xwQkowUVF0UDdrYzVBajllZ0h5bHppOWNyTWpQanpfbEVKOFdudXJNWDRab1FXdlJqRnVqT3c?oc=5
-- [easternherald.com] Supreme Court Deals Trump Major Blow on Mail Ballots, But His Election Takeover Continues - easternherald.com (2026-09-15) - https://news.google.com/rss/articles/CBMikAFBVV95cUxPSTZDRzZ3V3V1djVGeHVjSXV0NVhPaVFtV21lbm53bTFadGhSbjAxVUlRV2RzMktEbUlheU1oX3htbjNxcUFzS0k0RUpEVGRGTjZPS2s5ZDRhaHJDTzFuODRMVUlMTUgycDNhN2JRdnloVFZoS1RVZVFlZnFJX2R5UUNaX3hMUTA0QnltVTkwSVk?oc=5
-
-### Judicial Review Foreclosure
-- [courtlistener.com] **[official record]** Holem v. U.S. Department of Veterans Affairs (2026-09-10) - https://www.courtlistener.com/docket/74774751/1/holem-v-us-department-of-veterans-affairs/
-- [tampafp.com] Shut Out By The State? Parents Take Washington Shelter Laws To The Supreme Court - tampafp.com (2026-09-16) - https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ29JV29Ia3ZWZUNVODV2Tzc4TUN6cC0wOHpXMEc5ak5oWDVzSF9VUzBvS00ySnBEdEhSV3JCWDlNNkszVUdFekhEVmxNS2FDUkYydEpjQnVOejFhdmJfVmEwQjA3MFhqM0J3clRWbzhLNWRmTUhRQTV0RHg3TDBWT0RuZU9kYVVwYlBVRnZrdnoxTEs1S3loR0xVVGhXWmJfcERudFFhMA?oc=5
+- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-09-17) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
+- [WBUR] Trump's war on mail-in ballots - WBUR (2026-09-16) - https://news.google.com/rss/articles/CBMif0FVX3lxTFA5UmE0cVNRTjZVVkxuYXM1MmZGaXM2RGF0WV9qR3BnczVTSTVnWVZoVHBONUk4b1I1N1lFZ09XUkNacUprOURLVzg4Z0NaV21MNzItdWpTdG5BUS01dElidEl1T3dqb0tsQkxHNHkzbmsyaDFCSHE1R21UbXlmbkE?oc=5
 
 ## Data Quality
 
 - Query feeds attempted: 24
 - Query feeds successful: 24
 - Query feeds failed: 0
-- Primary-source lookups: 22 signals, 23 official documents (Federal Register, CourtListener)
+- Primary-source lookups: 22 signals, 19 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 3
 - Evidence extraction: AI event extraction
-- Confidence: **Medium**
-- Fetch errors:
-  - independent_agency_capture: courtlistener: The read operation timed out
+- Confidence: **High**
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.
