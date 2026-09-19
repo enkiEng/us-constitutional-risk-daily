@@ -623,6 +623,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74793181/1/catholic-legal-immigration-network-inc-v-rubio/",
       "rationale": "This document is a Notice of Civil Appeal filed by defendants in an ongoing case. The filing of an appeal is a routine procedural step within the normal judicial process, not evidence of noncompliance with a court order. An appeal contests a lower court's decision but does not constitute refusal to comply with a court order. The document shows participation in the court system, not defiance of it. No evidence here that an executive or administrative actor has refused to comply with any court order.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74793181/4/2/catholic-legal-immigration-network-inc-v-rubio/": {
+      "actor": "Marco Rubio / U.S. Department of State",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74793181/4/2/catholic-legal-immigration-network-inc-v-rubio/",
+      "rationale": "This docket entry documents the filing of a Notice of Civil Appeal in a pending case. It is a procedural milestone in appellate litigation\u2014a request for review of a lower court decision\u2014not evidence of a court order or evidence of noncompliance with one. The entry does not reveal whether any court order has been issued, whether the defendant has been ordered to do or refrain from doing anything, or whether the defendant has refused to comply with any such order. A notice of appeal is a standard legal procedure and does not constitute executive or administrative refusal to comply with a court order. Until there is evidence of an actual court order and subsequent refusal to obey it, this cannot support the signal.",
+      "severity": 0
     }
   },
   "election_administration_capture": {
@@ -4488,6 +4498,16 @@
       "rationale": "A judicial filing requesting that a court revive a gerrymandered map and block a referendum is a routine legal request and political action within the normal electoral system. It does not constitute military governance, martial law rhetoric, or military management of political disputes. The signal specifically targets military or martial-law related actions; standard redistricting litigation and ballot access disputes fall entirely outside that signal's scope.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVU43VXY5Z1JWeEw2UUIzWG82X0YtcnBWT0VMOXB0aDl0SWFhWmxTQVg5eVowakJ1ZXE3VlAtYzEzTnVhREoyR3RyT2VYMEtQN3JuQjc1N3dRUFpWaGgxVk83YmRrVmtDTG9KeXVMTm1sb3V1c2poR1IyRThYZmN4bmFJbjhMNEdsVXVsSmlCOTRGM05wSWc5b1dJX0dCRzdYQzNONkd2SHc1SlhCT2fSAbMBQVVfeXFMTXFKV3R6MHF6SEsybkVKZE5RR2F0M2xnMFE0aFhVbHJGb2RUcE10SUducThpdFBSbGJUY3FxQkJUYnFhbzJ4Um9kZW1MQTFmQ0ExSXhXckJodHl2Vk1EblQ1Sk9rRFoyanZ0MjhicGo4ZlVSUkZmOFlWN2RNUjdXVlc4RVgzMmN2M1FQUVdZYm53VnhOdGlwX2JScDB3SWJhNUdqNlBROF9Pby1XZTduZEFQTlk?oc=5": {
+      "actor": "Appeals court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a pending judicial proceeding\u2014an appeals court considering a congressional map. No official action has been taken that constitutes martial law, military governance, or military management of political disputes. The item involves a political dispute over congressional redistricting, which is a normal constitutional process subject to judicial review. There is no evidence of military involvement, military rhetoric directed at governance, or any breach of civilian control. This is routine electoral litigation, not a constitutional stress event related to the signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUzVPS2hqb0VXeDhPZnVJNEtUSUtaRDdFQll2NnRnMUhWYkJIQlhtSXQtRHg3b2NMcHg5RDJvSGRmWTF1YlV5ZWZYSllBb0h3QXJmSEQ2M0ZYOE9TSG4yM29ncVdyWTFNNGJVNDA0dWtTS21UN2had3g5N1oxVms4aEtPaE1id2EzcmVqS3Jwb2NYSmEyU0JKUjQ4ZTVLLTVjdW5naWVGS01jZ1NPQkxYUFdWekswUVNlRnZV0gG7AUFVX3lxTFBTNU9LaGpvRVd4OE9mdUk0S1RJS1pEN0VCWXY2dGcxSFZiQkhCWG1JdC1EeDdvY0xweDlEMm9IZGZZMXViVXllZlhKWUFvSHdBcmZIRDYzRlg4T1NIbjIzb2dxV3JZMU00YlU0MDR1a1NLbVQ3aFp3eDk3WjFWazhoS09oTWJ3YTNyZWpLcnBvY1hKYTJTQkpSNDhlNUstNWN1bmdpZUZLTWNnU09CTFhQV1Z6SzBRU2VGdlU?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -4910,6 +4930,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item describes an event in Russia (\u0413\u043e\u0432\u043e\u0440\u0438\u0442 \u041d\u0435\u041c\u043e\u0441\u043a\u0432\u0430 is a Russian independent media outlet; Yabloko is a Russian political party; the subject involves Russian electoral processes). The signal is defined for United States constitutional risk. Non-U.S. events, even if they superficially match the signal description, are not evidence of U.S. constitutional stress. The dashboard is U.S.-specific.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZkdSOVp5LWdaZjRJWDZCVFBQM1RqeVpUZTJsRm1kdF9XMC0tUXQzdXBOMEgyOHRvRHoza0ZYc2tEZXVSbHAwY1J6ZWY0dXljNFBGV3JaQUxVeDFUTjBwZTRxWDVCbjBkUS1uMVYxWUx3REFHVjhmc0JyVW9GS1hyUkRyZ0gzS211cGdRdk9vcFpsTUZGQTFOVm85RkFXWVk4aFE?oc=5": {
+      "actor": "Judge (JCPS school board election context)",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.yahoo.com",
+      "rationale": "A single judicial disqualification of a school board candidate does not constitute systematic removal of opposition candidates from meaningful participation. School board races are local electoral contests, and judicial review of candidate qualifications is a normal, legally-authorized safeguard against unqualified candidates. The signal targets systematic political exclusion of opposition to executive or legislative power; a routine eligibility determination in a hyper-local race does not meet the threshold for constitutional-stress signal matching. Without evidence of a pattern, official policy, or subversion of qualification standards, this is an isolated application of existing law.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiogJBVV95cUxNQzNOaVV1RlZkTF9OWWRoZ0hXWlpnQjhjdUoxR2ppV0pTZndNUXB6dWNOckxJUTlLaHN1a010YUhKU2g3Sno5aWVIRUpnZmdkbTVCRWdXZU1kQjBmR1JjaVNnZE9qbEZxaElTdXZJckg3YzI0bEVudVJ2OHA5ZG9hZmtENE96dmItR3AzQkw5Q2dvQVQ3d1Z5TDc0amxMM1A1WnRSMUl3ekhMYndPRlRuZFpDWHg5bXBGTGhzZ2w1a3F4bWE4UjE3NFRCblB2elRpZk00UFRKYjB6d2tyZXFPZXRKb2NkMy1PbkpvWFlOYnMycnplXzQtcVQyMm4ycjhOU3NFN3B4dzJhSVN4TXQ1aV8xdW1KT0YycnAyS1BqWnBIdw?oc=5": {
@@ -5878,6 +5908,16 @@
       "rationale": "This event occurred in Pakistan, not the United States. The signal applies only to U.S. constitutional stress. Non-U.S. press restrictions, regardless of severity, are not evidence of U.S. constitutional risk.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdXU0RkpkMGJFelNFUDQ0dmlHaDA4Y2hjcXY2WFY5dC1xbzdXME5LUEVMcjFhaDlXbVlRTDQzWGs5dTdGQWtjSS0zdVhoMTZxa1hwY3NUNTNOZXBOYkVaNDB3ek11NERucWozcFNLck8xanN0MWRmRDB1WTd3SlJVNHVDWDVOcHVNNFVadGJ4NzVqSURmb0NzWUdJdU4zLTV5eDNYU3FQVjk?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://journalismpakistan.com",
+      "rationale": "This item is a media brief from Pakistan and references global media issues, not U.S. domestic events. It does not concern U.S. constitutional risk or state action against U.S. press. Not evidence of the signal occurring in the United States.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbmVYUkdWcGh6ZlhBOUQ5U1Vlak1pMVpPY0ZNc3dOZnh6WHZOckl1aHZEQ3ZCZUp6OUdTak0wSUxvT1VTTlRQcGN2VVNWeXdmNE45Y0REYzFRbVhMLXRwQWxhQ0I1QlV2b0h3RVotbGlNT282Nk5kaW45eXNFZU5zTE5lRnMzZnpGWENiZXJXYlR4YmVyRTJMYVJEUFk0bktPd0JDeFVqNnM?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -5937,6 +5977,16 @@
       "primary_source_url": "",
       "rationale": "This item reports an event in Kenya (People Daily is a Kenyan news outlet, and the Standard is Kenya's largest newspaper). The signal concerns U.S. constitutional risk. Non-U.S. events do not constitute evidence of U.S. constitutional stress regardless of thematic similarity to press restrictions or retaliation.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYVVTNmxRQjNWTEw5ZGh0NzVyOTZaR1gxaGZULUpJcXZkRUZaMng1aE1kTEdjWVAtNkRoalZzZ3ZkbGRid0VqdUlPX1JYenFNdWlrRkVJaHh0Wng2R01VOHFtN0o0S3VmNTlNYnBIM2tubGFaUFBPdGYtTW83QlJja2VaeGNkaWRHZnNFTnpZMVE0RVo2VGhSbkpXeFlQU0s0cUxqVlQ1RXJyZW1ENjdLMEZR0gG3AUFVX3lxTE1UMVpULTRGUVZrbjBuX0lWSVg1VTFFSmNrNVdHOUFtVTVXUDQtZXhxdjlrRUpCZWhucFFDT3lWOFFpcXVlYUMyb1JwcHJ2RzlTTldUaGxOZThUQUo0Q01DQ2U4SUpxM0xRZkV1TEhLN2dxQmVYUkhWSDJZNGFBUDN5ZEN0UUZ1MHllT3RRcThjaGt4QzFyQld1VGxla20wMzVXMHk0ZjZWQjhPWDlRT2NNN3pTVENUQQ?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.pbs.org",
+      "rationale": "Trump publicly stated he is banning specific news outlets (CNN, MSNBC, Politico) from White House access. This is a credible report of state action that raises costs/access restrictions for independent reporting organizations. The statement appears to be a confirmed utterance by a U.S. official regarding press access to government facilities. This constitutes a real but contained action\u2014a restriction on press corps access rather than criminal prosecution or systemic dismantling. Severity 2 reflects this is a confirmed action with material impact on press freedom, but not yet a structural constitutional failure.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb3hNZkRXMUVBWGZ1UVVkS3hWa0FaYmpxSnh3Y0ZyWEdwWTNfWnJpZ0tpSFl1TnJrMUx2NlBEWE5iNG1iNHRXTXdJRFB1Mm9ySDJvSHlhQWZOSkdKel93Q2x5NG9icmZ2TFgzaUZ2a2VsNldmTXJpNi1KWGFoT3BuZGJveXh0d29WTk5OYVp0MndfM2FwXzc5VXdTNkREdTJwMG1US1VaUDRzR2VWZGhwdzVyc205Y1E?oc=5": {
       "actor": "N/A",

@@ -1,29 +1,29 @@
 {
   "attempted_queries": 24,
-  "average_7d": 14.64,
+  "average_7d": 14.97,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": -0.2,
+  "delta_previous_day": 4.0,
+  "delta_vs_7d": 2.65,
   "domain_breakdown": [
     {
-      "avg_severity": 0.2375,
+      "avg_severity": 1.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.30625,
+      "points": 5.5,
       "weight": 22
     },
     {
-      "avg_severity": 0.2375,
+      "avg_severity": 0.15,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.890625,
+      "points": 0.5625,
       "weight": 15
     },
     {
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 2.0,
+      "avg_severity": 1.65,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 4.0,
+      "points": 3.3,
       "weight": 8
     }
   ],
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-18T16:31:34.379198+00:00",
+  "generated_at": "2026-09-19T15:56:29.283447+00:00",
   "methodology_version": 2,
-  "previous_score": 13,
+  "previous_score": 14,
   "primary_sources": {
     "documents_confirmed": 2,
-    "documents_fetched": 18,
+    "documents_fetched": 16,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,39 +86,29 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 14,
-  "score_raw": 14.45,
-  "score_raw_pre_trip_wire": 14.45,
+  "score": 18,
+  "score_raw": 17.61,
+  "score_raw_pre_trip_wire": 17.61,
   "successful_queries": 24,
   "top_signals": [
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "federalism_oversight",
-      "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/Politics/doj-house-oversights-subpoena-longer-obligates-bondi-testimony/story?id=131841587",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORTJiZlVKWkpFTkRRTnUtaVl2MkptSGRSZ1ROV1pyV3dLNFdyRGV6RDRybUJXMzgySjJkYUhsbGdHNGw1Mmw4VExNY1JaMENkSWtFeE5qM3pOUk9seW42eHhCYTQ0ZUcxLTM5TXdTQVdwOHVsVlFmUUpTQ0J0TGEwYVFLaHN5d3pHTGlVaTBhc1BHdFZvdzN5MzVrenZ3VldUcnhmSXZKRTlDWEUtQ1Q00gG0AUFVX3lxTE5ad3ZZQm5USXplejJSZkdVTnNHcUJ2U3ZLTlhnUTR1RTU5WVFjYVRoM181UW9sV1RJdnMtUWNiVXJ6WjQ2T3dyZ1FmaWxmWnh6cHdMTmFSaWgtZzVjNHlhN05BR09IX2p0Mk9FTEVVYU5yTFVkbFdNU3hpanhGaFpXU2ZZeEdKRzZscGRVVnJ5SlM4UHF5c0lBQ2FkN1pvdkd0UjBIN3JkN0ZIUjdNeDN1bVE0Yg?oc=5",
-          "published": "2026-09-16T22:58:42+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "DOJ says House Oversight's subpoena 'no longer obligates' Bondi testimony in Epstein matter - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 12,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "legislative_oversight_obstruction",
       "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "DOJ assertion that a House-issued subpoena no longer obligates testimony constitutes a direct obstruction of legislative fact-finding. The DOJ has taken an affirmative position that removes the binding effect of a lawful legislative subpoena without a court order or statutory authority. This is a confirmed high-severity action blocking executive accountability to Congress in an ongoing investigation. The systematic claim (that the subpoena 'no longer obligates') represents an official position that strips the House Oversight Committee of its core fact-finding power in this matter.",
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 3.0,
-      "severity_label": "Orange",
-      "unique_publishers": 1
+      "severity": 2.65,
+      "severity_label": "Yellow",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 1,
@@ -126,24 +116,53 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-09-17T12:23:39+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://www.pbs.org/newshour/politics/watch-trump-says-he-is-banning-cnn-msnow-and-politico-from-the-white-house",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYVVTNmxRQjNWTEw5ZGh0NzVyOTZaR1gxaGZULUpJcXZkRUZaMng1aE1kTEdjWVAtNkRoalZzZ3ZkbGRid0VqdUlPX1JYenFNdWlrRkVJaHh0Wng2R01VOHFtN0o0S3VmNTlNYnBIM2tubGFaUFBPdGYtTW83QlJja2VaeGNkaWRHZnNFTnpZMVE0RVo2VGhSbkpXeFlQU0s0cUxqVlQ1RXJyZW1ENjdLMEZR0gG3AUFVX3lxTE1UMVpULTRGUVZrbjBuX0lWSVg1VTFFSmNrNVdHOUFtVTVXUDQtZXhxdjlrRUpCZWhucFFDT3lWOFFpcXVlYUMyb1JwcHJ2RzlTTldUaGxOZThUQUo0Q01DQ2U4SUpxM0xRZkV1TEhLN2dxQmVYUkhWSDJZNGFBUDN5ZEN0UUZ1MHllT3RRcThjaGt4QzFyQld1VGxla20wMzVXMHk0ZjZWQjhPWDlRT2NNN3pTVENUQQ?oc=5",
+          "published": "2026-09-18T20:47:52+00:00",
+          "publisher": "PBS",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+          "title": "WATCH: Trump says he is banning CNN, MSNOW and Politico from the White House - PBS"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 2,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
+      "primary_source_url": "https://www.pbs.org",
+      "rationale": "Trump publicly stated he is banning specific news outlets (CNN, MSNBC, Politico) from White House access. This is a credible report of state action that raises costs/access restrictions for independent reporting organizations. The statement appears to be a confirmed utterance by a U.S. official regarding press access to government facilities. This constitutes a real but contained action\u2014a restriction on press corps access rather than criminal prosecution or systemic dismantling. Severity 2 reflects this is a confirmed action with material impact on press freedom, but not yet a structural constitutional failure.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
+          "published": "2026-09-17T22:48:02+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
       "primary_source_url": "https://abcnews.go.com",
-      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
+      "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
@@ -210,49 +229,10 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-09-17T12:23:39+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
       "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "canonical_link": "https://www.kff.org/womens-health-policy/litigation-involving-reproductive-health-and-rights-in-the-federal-courts/",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN1ZXUHUxWTM0blNrR0hPZVJHdWhJbFJHUk9wWk5qclVhNGV6bmoxYUpkemNOT1lNS2xLdndsR095UGYyazVZT21FVHJFaHVFS2ptS1dTQUxCcFlhRlBYMlEzRWdGV2NpSEp0NVF3TTVEcldXMjJ6N29Fdkh2YWYwQ1pYSmlzRklYRG1CQXEwWkVONHl2NS1hR1llRndLVzZnMWcyeVVfYndUUDRhMVgzWkVFUzNGQQ?oc=5",
-          "published": "2026-09-16T19:16:00+00:00",
-          "publisher": "KFF",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Litigation Involving Reproductive Health and Rights in the Federal Courts - KFF"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "judicial_review_foreclosure",
       "name": "Judicial Review Foreclosure",
       "override_note": null,
@@ -261,45 +241,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.kff.org/womens-health-policy/litigation-involving-reproductive-health-and-rights-in-the-federal-courts/",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNN1ZXUHUxWTM0blNrR0hPZVJHdWhJbFJHUk9wWk5qclVhNGV6bmoxYUpkemNOT1lNS2xLdndsR095UGYyazVZT21FVHJFaHVFS2ptS1dTQUxCcFlhRlBYMlEzRWdGV2NpSEp0NVF3TTVEcldXMjJ6N29Fdkh2YWYwQ1pYSmlzRklYRG1CQXEwWkVONHl2NS1hR1llRndLVzZnMWcyeVVfYndUUDRhMVgzWkVFUzNGQQ?oc=5",
-          "published": "2026-09-16T19:16:00+00:00",
-          "publisher": "KFF",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Litigation Involving Reproductive Health and Rights in the Federal Courts - KFF"
-        },
-        {
-          "canonical_link": "https://rockymountainvoice.com/2026/09/18/trumps-election-orders-arent-a-constitutional-crisis-yet-5-things-that-would-trigger-one/",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNY1haSklSVG5VWU82MmJHVWdyeXNKOG02cnVvbEdidndpWmRzb3F2ZUliUWhCNDBfZTZSTTY1UnBfWDNNV195akxTUnctU2dqeFEzVERYWTZrZDVtZHhQTENiTU9TMFpCb0JwM1RxZTZxWnljTXFnQWQzR0d6REpiREtaYWRSNGZMWlZRZnRCSFpra1Q5a0swZmFEMmZKRndXT0F3NEpQeEVzM3RHMG8yVHFGVEhKVkJIc2lzZHp4aTBpYm1Cci1PbGJDSQ?oc=5",
-          "published": "2026-09-18T13:56:00+00:00",
-          "publisher": "Rocky Mountain Voice",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump\u2019s election orders aren\u2019t a constitutional crisis yet \u2014 5 things that would trigger one - Rocky Mountain Voice"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     }
