@@ -633,6 +633,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74793181/4/2/catholic-legal-immigration-network-inc-v-rubio/",
       "rationale": "This docket entry documents the filing of a Notice of Civil Appeal in a pending case. It is a procedural milestone in appellate litigation\u2014a request for review of a lower court decision\u2014not evidence of a court order or evidence of noncompliance with one. The entry does not reveal whether any court order has been issued, whether the defendant has been ordered to do or refrain from doing anything, or whether the defendant has refused to comply with any such order. A notice of appeal is a standard legal procedure and does not constitute executive or administrative refusal to comply with a court order. Until there is evidence of an actual court order and subsequent refusal to obey it, this cannot support the signal.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74810738/8/rascol-v-field-office-director-of-enforcement-and-removal-operations/": {
+      "actor": "Immigration and Customs Enforcement",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74810738/8/rascol-v-field-office-director-of-enforcement-and-removal-operations/",
+      "rationale": "This is a motion filed by a plaintiff seeking court intervention (a motion to enforce a judgment and for a stay of removal). The filing itself is a request for judicial relief, not evidence that an executive body has refused to comply with a court order. The motion alleges potential noncompliance or imminent harm, but filing a motion is the mechanism by which a court addresses such concerns\u2014it does not itself demonstrate that noncompliance has occurred or been ordered. Without evidence in the docket that a prior order was issued and then openly defied by ICE, this document represents a pending legal dispute rather than verified court-order noncompliance.",
+      "severity": 0
     }
   },
   "election_administration_capture": {
@@ -1642,6 +1652,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Labeled as 'Guest editorial' - this is opinion writing, not reporting of a verifiable event. The title frames Fed independence as 'unfinished business,' suggesting prospective concern rather than documentation of actual capture or weakening of safeguards.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ24zVThCSDRlOTJsT2ZvN09CUkZQMUxBb3hGb1g5THp1YnJWX3Q5N25BV1ZST3ZiVkg4bHhTa3dLZUlXeGlaMjBKU1VSdW4wUV81SjFVSktSS3lQcGs3TVhPTUVpVDZwblJ1MWlQVWNaZHpOZ1VBeVQ1UjByR3lEb3lOd0gxVmVQM3BwTkhKdnRiVC02NFZ5OTNUZVU?oc=5": {
+      "actor": "Opinion columnist/analyst",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://theregreview.org",
+      "rationale": "This is an opinion/editorial piece arguing for a policy change to agency adjudication systems. The article title and description indicate commentary and analysis ('It May Be Time...') rather than reporting on an actual occurrence or official action that has already dismantled safeguards. No verifiable event has occurred\u2014no authority has been stripped, no safeguard removed, and no legal position has changed. This is a proposal or argument for future reform, not evidence of independent agency capture or weakening of regulatory decision-making safeguards that has already taken place.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxNV0lBYVR0bFNvTjBFSGxiQ2dWMjJpN2ZOY0RxQ1dNLXRrTUh5X0oyVmNJOE05V2ZfTlU3MFhmd1QwWVdHSHhtUHRfUkZFdVYxT2U4VGZoSC1QVlhqMko4R2R4c2JZRWJjUi1ya3pRVVRsbGxrT0RoZDJScWRNbEt0a3JycjJBaW80RndSZHAzNUdvQUpFa0RQLXpFNVN1UQ?oc=5": {
@@ -2787,6 +2807,16 @@
       "primary_source_url": "",
       "rationale": "This item reports a list of individuals targeted by the Trump administration, including James Comey. Without additional context specifying that these individuals are judges being targeted for adverse rulings, and without verification that this constitutes an official intimidation campaign against the judiciary, this does not meet the signal definition. The headline alone is insufficient to establish judge intimidation. This appears to be press coverage of political targeting, not verified evidence of judicial intimidation.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxOci1Oa1M2VmlScHkyMmdFX21Mb2tOSktJbHFwaXRLbzNvMDJrZ0NoNmpxVzROZVFEU3FwVXZwOGJVUVo3MGJHcWRyOGVwQlFydVNZM2xVUmVQN19JMTRQZVhRTVZMTGo4Xy1lZHpRb1FMMDkwMlpFZFdOb0tTaDl1STRaOWp4VkFYcjlFUVFselpfT3RONHM4OXRyaVZHYkdxSmZ5TnY3ZS1LYXd4bXBTSnFfTXAyeFA4WHc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item concerns South Korean judicial politics and a Korean Chief Justice. It is not a U.S. domestic event and therefore does not constitute evidence of judicial intimidation in the United States. The signal is specific to U.S. constitutional stress.",
+      "severity": 0
     }
   },
   "judicial_review_foreclosure": {
@@ -2878,6 +2908,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Same as [0]. A ruling allowing construction to proceed is ordinary judicial disposition, not a refusal to review government action on justiciability or standing grounds. Does not evidence threshold-based foreclosure of judicial review.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXZ4MjBUaWFWSEppaTBoLW5IaXN0LXRkWTZSQUtlNkpScGZVM05MVHBmWVAwcnQyZmdnS0dzZlJ2dExuS2dhRzhjWlVVdmkxd3FST3p6aXIyX1NXNGVSeWp1Q3ZXdU45SnpiWmduVWl4TUF3QmxOaEprVGxCdVR1RmFuS21wdGZVRk5UY3FWMlExSEl5VXNxWg?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This article concerns Gambia, a West African nation. The signal tracks judicial-review foreclosure in the United States. The item is non-U.S. and therefore irrelevant to this dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaS1XWUhibm1qTGtZcVBrN0VzWFlLYk1nRVFFSlFLX1FtMnZRWTIyTW02M1oxbUpORHJYWjgtRndhOVl2QU1qY2dOQUg0QThVd0lfSEZYc1ZGeHQ0VXJYT01lY1ppZGVRazkzMFh6TzF1aVEtY2lzNTQ3aEJUTUw0R19GTkZFYm5DSHZGRDJwYkFyb0VsVGJYRmc1TnFmWTlrM2dOMk5B?oc=5": {
@@ -4468,6 +4508,16 @@
       "rationale": "This item reports on a South Korean court decision regarding martial law suspension. While it directly matches the signal's thematic content (martial law), it is not a U.S. domestic event. The signal dashboard is tracking U.S. constitutional risk; events in South Korea, even when they involve martial law rhetoric or military governance, are out of scope for this U.S.-focused early-warning system.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUi1ZVzNpb0hRcjNBUXg4aGNWVUtsM2Y3eDg4RXRadmQ4WXhmT1lNdmRCelVKendqRkxjUzRZYUNMcWpMZHdNMHhUSG1QdGo1R1g4Nzd2Ny12QXotRjFDbk1xamxqODJZUG1OVDFEdkF6bXZpWEZkaHpDZlVjd2dZN1lLR2tZd1RrVHZoNmN6VFcwQQ?oc=5": {
+      "actor": "APGA (Nigeria)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://thewhistler.ng",
+      "rationale": "This item concerns a Nigerian court case regarding local government elections in Imo State, Nigeria. It is not a U.S. domestic event and contains no evidence of martial law, military governance, or military management of political disputes in the United States. The signal is designed to detect constitutional stress within U.S. institutions; a Nigerian electoral dispute is outside the scope entirely.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQm9rQ1hZSzluV1RNbi1wTG01eE5VMENhYTNwdzFpTlAzYzNQNV9MNXpKWlI5azNDVGJoQnpOYjZJU3hwLTN5ZDZRVl81aGZKZE8ya0RvXzVhTFdvZ09fc2MzSVNxWUY2VVBhT2w4VXB3a21GUmdYd3Vxckw4bHZhRnZ4UFBnNWd6cUpQWFNOc3U3U3lCN0E?oc=5": {
       "actor": "USPS",
       "confidence": 0.98,
@@ -4588,6 +4638,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is an opinion or analytical piece from the Cato Institute posing a speculative question about NORTHCOM CONPLAN 3900 and potential Insurrection Act invocation. The headline is phrased as a question, indicating analysis or concern rather than reporting of an actual occurrence. No verifiable evidence is presented that the military has been used or threatened for use in domestic political conflict, nor that any constitutional breach has taken place. This is commentary on contingency planning, not evidence of real action.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxQanp6dkhXck96MklTbEpXU0k0TzUySVlROFVER1AxN3hTZ1pBVl9vaDNvckNxbW1iNFhYbEFGV25UcVZYSy1BMXp4b1JMY3VVdk52OV9WUm9yUHZubVlHZnRkb2JWZHhGbFJtTTluZTRXaXhwVHEtTXdvLUJ6UkRGaHpnV05ocW1mVFE1Z0F3bERUb2hOazhMQTJQSzJNdw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item concerns a military strike by Ukraine on Russia and references Russian electoral narratives. It is not a domestic United States event and contains no evidence of military involvement in U.S. domestic political conflict. The signal requires evidence of military use or threatened use in U.S. partisan disputes. This is foreign military action outside the scope of the constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTzh0eFJSUFhVdmpTSGMwS1ZuMndVMVVmVkdoeXVfLWZUZVFEQkY2Q21YWTU4T2FzLWU3R0FCU0dGdjdWcXRjdUJJNzczN0JXN1ZfNU1CajZIVEtrRDdyeFVjc3BWUTZ2Nm9xeWhXeTFncW5pc0VmMzFCSnd3ZXYzcVlzY2l0T1Z5bDRyUlQ3NW82RTZlOWlBZVQyN2tIbVJ4UHNWSnRYa19sYWVCMlhfNWFRajlrc1AwcWFxa21IX1dLTnFnU3c?oc=5": {
@@ -4972,6 +5032,16 @@
       "rationale": "A single judicial disqualification of a school board candidate does not constitute systematic removal of opposition candidates from meaningful participation. School board races are local electoral contests, and judicial review of candidate qualifications is a normal, legally-authorized safeguard against unqualified candidates. The signal targets systematic political exclusion of opposition to executive or legislative power; a routine eligibility determination in a hyper-local race does not meet the threshold for constitutional-stress signal matching. Without evidence of a pattern, official policy, or subversion of qualification standards, this is an isolated application of existing law.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN1BBYjdXVFg2YlM3dEhYUzMzUU1uM2hIM296S205Z3JFNnpJa05TeE4tN1JzYnBKT0FSU2VDcnU0TDBXc1pPWkNhdFVsdUpGNzgxRS1fNGp4dDU0ZTktWGo4M3FNVWQ2VnFDd1U5c3hhSU9EdXZGYmJzcWtSQUVZejYtazNSSENMNG1zQWRScWQ4c0VmY0NMd1lBMjNRcnllMWc?oc=5": {
+      "actor": "Russian government",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Russian State Duma elections and United Russia's control amid managed elections. It is not a U.S. domestic event. The signal is specific to constitutional stress in the United States, not electoral management in other countries.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiogJBVV95cUxNQzNOaVV1RlZkTF9OWWRoZ0hXWlpnQjhjdUoxR2ppV0pTZndNUXB6dWNOckxJUTlLaHN1a010YUhKU2g3Sno5aWVIRUpnZmdkbTVCRWdXZU1kQjBmR1JjaVNnZE9qbEZxaElTdXZJckg3YzI0bEVudVJ2OHA5ZG9hZmtENE96dmItR3AzQkw5Q2dvQVQ3d1Z5TDc0amxMM1A1WnRSMUl3ekhMYndPRlRuZFpDWHg5bXBGTGhzZ2w1a3F4bWE4UjE3NFRCblB2elRpZk00UFRKYjB6d2tyZXFPZXRKb2NkMy1PbkpvWFlOYnMycnplXzQtcVQyMm4ycjhOU3NFN3B4dzJhSVN4TXQ1aV8xdW1KT0YycnAyS1BqWnBIdw?oc=5": {
       "actor": "Clark County election officials (Kentucky)",
       "confidence": 0.9,
@@ -5141,6 +5211,16 @@
       "primary_source_url": "https://iowacapitaldispatch.com",
       "rationale": "A Libertarian gubernatorial candidate was removed from the ballot in Iowa and is planning to appeal. This is a confirmed real occurrence of ballot exclusion of an opposition candidate. The fact that an appeal is being filed confirms the removal happened. However, without evidence of systematic, statewide, or coordinated removal of multiple opposition candidates, and given that legal challenge mechanisms appear available, this represents an isolated or contained action rather than structural failure. Severity 2: real but not yet confirmed as part of a systematic campaign.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeEFrczE4TmVpUldTNFIxeHhxUllyWFQ1dGR4aXVnOFhqQTZ4XzBUd2lyYXAwSlBGdDd5bGc4SlRSbEs2TEl2ZmtFTFZtdzlRN3lUam9YSmduSExGb2RwTHBpblYyMU5ucEhTbHNaOHFXcHJHZElZd0YzcFBiMm5MX0JNWkF5YTRqUjJrTHlwYWlVUkFaVlpEMVh5TkRsczRZSFhhVGZ4UE9XNTB5dzRYRzJaRnJIemdORHR5VkNSS0ZuaXZQUGtNc9IByAFBVV95cUxNeEFrczE4TmVpUldTNFIxeHhxUllyWFQ1dGR4aXVnOFhqQTZ4XzBUd2lyYXAwSlBGdDd5bGc4SlRSbEs2TEl2ZmtFTFZtdzlRN3lUam9YSmduSExGb2RwTHBpblYyMU5ucEhTbHNaOHFXcHJHZElZd0YzcFBiMm5MX0JNWkF5YTRqUjJrTHlwYWlVUkFaVlpEMVh5TkRsczRZSFhhVGZ4UE9XNTB5dzRYRzJaRnJIemdORHR5VkNSS0ZuaXZQUGtNcw?oc=5": {
+      "actor": "Russian government",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Russian elections and alleged ballot management by the Kremlin. It is not a U.S. domestic event and therefore falls outside the scope of a U.S. constitutional-risk dashboard. The signal addresses systematic removal of opposition candidates from meaningful participation in the United States.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiygFBVV95cUxNV3hoWi1OWW9wWldITVVvY0k3ZjI1d1U4QWVZQ05nQV9UeDhqWmJkN1dJX0gtdXo0Mzl4RU16OVJDNlJFel9iY2paV0JwR3ZLa0VBemctTTR6WFRnRzZ3WHVYZlZhZ1ZVeE5RSHZabzBaMzUwV091amFWdENYQjhNM1ZUNlRDcEJXTEhIaXBDQ0xFTTlyZUpYT2JCSFEyWEM4VWFCZ1R3bkNzTnUyQWh1ZFdncHcxVjNJdll1V05jbXBmR0tXRU5lSGhR0gHKAUFVX3lxTE1XeGhaLU5Zb3BaV0hNVW9jSTdmMjV3VThBZVlDTmdBX1R4OGpaYmQ3V0lfSC11ejQzOXhFTXo5UkM2UkV6X2JjalpXQnBHdktrRUF6Zy1NNHpYVGdHNndYdVhmVmFnVlV4TlFIdlpvMFozNTBXT3VqYVZ0Q1hCOE0zVlQ2VENwQldMSEhpcENDTEVNOXJlSlhPYkJIUTJYQzhVYUJnVHduQ3NOdTJBaHVkV2dwdzFWM0l2WXVXTmNtcGZHS1dFTmVIaFE?oc=5": {
       "actor": "Sara Duterte (Philippines)",
@@ -5618,6 +5698,16 @@
       "rationale": "This item concerns press freedom monitoring in Pakistan, not the United States. The signal requires evidence of state action restricting or retaliating against independent reporting within the U.S. domestic context. A news item about a non-U.S. country's press freedom monitoring does not constitute evidence of constitutional stress in the United States.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxOclZuN0dzNzZtcDlxbzFFNy03VlhFbV94SEwxSUxkSnBVR0pLOWRTblBDOW9acWFWLVAwNENQeE1EbVhxSUVFUHlUbVUwN0xLMDIzWDZOYW1xSG0yUFowWC1oajBCdERBV2NXWWlDbUJNdGltZXFWVTZQbzdHWHFqSHc1S0o0M183M3hLNzI0ZW9ldw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Source is Journalism Pakistan, reporting on press freedom in Pakistan, not the United States. Item is geographically non-U.S. and therefore not evidence of constitutional stress in the U.S. domestic system.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTzM1SjJVYldMNTEyQWZnelROZy1Iemw2WnNueUY2VDlNcnAtVW1pZHpGLURsUHU4b01NSEJTZE1FcVNNTVRBZV8xd1E4VHJMVUgtRkg4dGx1blFYNTFXb2czaV9VMnhGZHpXdTB5R2NzZmktQ1RzU3lWaklETXJtNS1kanZveVFpNy1iWmNnU0hvdw?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -6038,6 +6128,16 @@
       "rationale": "Trump publicly stated he is banning specific news outlets (CNN, MSNBC, Politico) from White House access. This is a credible report of state action that raises costs/access restrictions for independent reporting organizations. The statement appears to be a confirmed utterance by a U.S. official regarding press access to government facilities. This constitutes a real but contained action\u2014a restriction on press corps access rather than criminal prosecution or systemic dismantling. Severity 2 reflects this is a confirmed action with material impact on press freedom, but not yet a structural constitutional failure.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR1NvZWExbjhRbWJzRmNOWVpMRlVNRlZyZ2FnVFFRajg3MFBwdUJ0ZGJ1TmlYQkd3ZllBdzZTR1hmX3VQVmlSRjJhOTNGMkZSYlNHeVY0bjRCX1YwTXZJR19Bc1d3aDcyM3dxVmFvNlpyTGI5bHI4bTREM2thNlpxOUREOG5BT0RXYjBoTXNZVzF0WjlxbkNKc0NfQXkybDNaZHVjTXF5Sjl1LS01QzlBUDJDd0NJUQ?oc=5": {
+      "actor": "U.S. immigration enforcement",
+      "confidence": 0.7,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "An investigation finds journalists were detained and deported during a U.S. immigration crackdown. This is a confirmed action raising legal risk for journalists (deportation is severe jeopardy), though the framing as part of an immigration enforcement action rather than a targeted press-suppression campaign suggests it may be incidental rather than deliberate state retaliation. Nonetheless, the material effect\u2014detention and removal of journalists\u2014matches the signal and is a repeated/credible stress event. Severity 2 because it appears operationally real but not yet part of an openly acknowledged orchestrated campaign against press.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb3hNZkRXMUVBWGZ1UVVkS3hWa0FaYmpxSnh3Y0ZyWEdwWTNfWnJpZ0tpSFl1TnJrMUx2NlBEWE5iNG1iNHRXTXdJRFB1Mm9ySDJvSHlhQWZOSkdKel93Q2x5NG9icmZ2TFgzaUZ2a2VsNldmTXJpNi1KWGFoT3BuZGJveXh0d29WTk5OYVp0MndfM2FwXzc5VXdTNkREdTJwMG1US1VaUDRzR2VWZGhwdzVyc205Y1E?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -6147,6 +6247,16 @@
       "primary_source_url": "",
       "rationale": "This item reports on press restrictions and journalist silencing in Kazakhstan, not the United States. Although the subject aligns with the signal definition, the event occurs outside U.S. jurisdiction and is therefore not evidence of U.S. constitutional stress.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWE9LdFRLOVA4aWFzVXdJSnNUUGJUb0xWLVJvZnFlVk9JS0NRcU1EQ2Z3ZHV6MDBZQS16eUNrSFAyWGtKQzdDdE1tMXFIZE05MVRpaXd2Sk5SczJNX2pYMk9KTlNoaVFlMk9HQlloLTdST3RfNVcwVW9jVGRmTllTZWFYZzV1d3Y1N1EySTVMNlNSWUJnM1lnTnJ4MUhqMHg1YkVFRGVlUmtDM3kyRFo3c09Ud1JNRlRkNVBSWDRaN0QzRC1xN285Nkl4dkZvd9IB0wFBVV95cUxQYkZuNWJWN2oxbmplczdoMERUbVNxTEVVRG9Wak16SUtTd2VOUG9ydjFGSnRURF9ORDNhTXZjSjhhVWlJZ3lqa0hfc1psWHFMZW9WTnRsV3ZMSVdLTFpCWUR6b1RsZGxERkN2MWhwNXRaVlctZmhiYnlpMlA4bGxkR1NIXzFmVWIteGRhU0tEcVhDMDl4U0tlQmw3c1dTeV81dldTZE1QRG45QlVJVnlhWnBPSE5OOWNheVdGU25GNEFvMkR0NUt0SnVMeTFKRkZZcUo4?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "Multiple credible U.S. news organizations (MS NOW, CNN, Politico) report denial of White House press access following a Trump ban. This is a repeated, confirmed action by a state actor that raises costs/access for independent reporting. However, severity remains 2 rather than 3 because this appears to be localized access denial rather than a structural campaign with legal jeopardy or defiance of court orders. The action is real and material but contained to credential/venue restrictions.",
+      "severity": 2
     }
   },
   "retaliation_architecture": {

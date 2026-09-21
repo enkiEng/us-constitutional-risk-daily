@@ -1,6 +1,6 @@
 {
   "attempted_queries": 24,
-  "average_7d": 15.02,
+  "average_7d": 15.09,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -10,7 +10,7 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -1.0,
-  "delta_vs_7d": 1.56,
+  "delta_vs_7d": 0.61,
   "domain_breakdown": [
     {
       "avg_severity": 1.0,
@@ -20,10 +20,10 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.0625,
+      "avg_severity": 0.0,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.234375,
+      "points": 0.0,
       "weight": 15
     },
     {
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 1.2999999999999998,
+      "avg_severity": 0.975,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 2.5999999999999996,
+      "points": 1.95,
       "weight": 8
     }
   ],
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-20T12:36:20.391251+00:00",
+  "generated_at": "2026-09-21T12:38:30.061358+00:00",
   "methodology_version": 2,
-  "previous_score": 18,
+  "previous_score": 17,
   "primary_sources": {
     "documents_confirmed": 2,
-    "documents_fetched": 16,
+    "documents_fetched": 17,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,52 +86,33 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 17,
-  "score_raw": 16.58,
-  "score_raw_pre_trip_wire": 16.58,
+  "score": 16,
+  "score_raw": 15.7,
+  "score_raw_pre_trip_wire": 15.7,
   "successful_queries": 24,
   "top_signals": [
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 2.3,
-      "severity_label": "Yellow",
-      "unique_publishers": 0
-    },
     {
       "confirmed_hits": 2,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://spectrumlocalnews.com/mo/st-louis/politics/2026/09/19/ms-now--cnn-and-politico-say-their-journalists-were-denied-access-to-white-house-after-trump-ban",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUl9CYlE3ZmlsUFVrdTc0TFRnYzVlXzVmZlJuZzB1UXZ6Z3RHX3FnazNhZmJERnBBVHVQYlpwbzNQbkxFOTloQy1YRmFLOEhvRURBVTFkazFPV0xQcE9vRVpUdzBsMnFSOFYweGx1TElCdy1TcU56bk5Xc0pQWFhCRWRrc0diQlFTYzFCRnV6ejhiNW9NNFJJNWZLNTFhTk5rbzJ1clRkdm1kU2hRckh6R0hNNjBodldHNzN1ZjZXMFRmMEtJSERNSWdWQ25UaDRYOTRxMm0zelhyamMyREJQZU12OThucVM1UXprY0gwcw?oc=5",
-          "published": "2026-09-19T21:55:00+00:00",
-          "publisher": "spectrumlocalnews.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "MS NOW, CNN and Politico say their jour\u00adnalists were denied access to White House after Trump ban - spectrumlocalnews.com"
-        },
-        {
-          "canonical_link": "https://www.pbs.org/newshour/politics/watch-trump-says-he-is-banning-cnn-msnow-and-politico-from-the-white-house",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYVVTNmxRQjNWTEw5ZGh0NzVyOTZaR1gxaGZULUpJcXZkRUZaMng1aE1kTEdjWVAtNkRoalZzZ3ZkbGRid0VqdUlPX1JYenFNdWlrRkVJaHh0Wng2R01VOHFtN0o0S3VmNTlNYnBIM2tubGFaUFBPdGYtTW83QlJja2VaeGNkaWRHZnNFTnpZMVE0RVo2VGhSbkpXeFlQU0s0cUxqVlQ1RXJyZW1ENjdLMEZR0gG3AUFVX3lxTE1UMVpULTRGUVZrbjBuX0lWSVg1VTFFSmNrNVdHOUFtVTVXUDQtZXhxdjlrRUpCZWhucFFDT3lWOFFpcXVlYUMyb1JwcHJ2RzlTTldUaGxOZThUQUo0Q01DQ2U4SUpxM0xRZkV1TEhLN2dxQmVYUkhWSDJZNGFBUDN5ZEN0UUZ1MHllT3RRcThjaGt4QzFyQld1VGxla20wMzVXMHk0ZjZWQjhPWDlRT2NNN3pTVENUQQ?oc=5",
-          "published": "2026-09-18T20:47:52+00:00",
+          "canonical_link": "https://www.pbs.org/newshour/politics/ms-now-cnn-and-politico-say-their-journalists-were-denied-access-to-white-house-after-trump-ban",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWE9LdFRLOVA4aWFzVXdJSnNUUGJUb0xWLVJvZnFlVk9JS0NRcU1EQ2Z3ZHV6MDBZQS16eUNrSFAyWGtKQzdDdE1tMXFIZE05MVRpaXd2Sk5SczJNX2pYMk9KTlNoaVFlMk9HQlloLTdST3RfNVcwVW9jVGRmTllTZWFYZzV1d3Y1N1EySTVMNlNSWUJnM1lnTnJ4MUhqMHg1YkVFRGVlUmtDM3kyRFo3c09Ud1JNRlRkNVBSWDRaN0QzRC1xN285Nkl4dkZvd9IB0wFBVV95cUxQYkZuNWJWN2oxbmplczdoMERUbVNxTEVVRG9Wak16SUtTd2VOUG9ydjFGSnRURF9ORDNhTXZjSjhhVWlJZ3lqa0hfc1psWHFMZW9WTnRsV3ZMSVdLTFpCWUR6b1RsZGxERkN2MWhwNXRaVlctZmhiYnlpMlA4bGxkR1NIXzFmVWIteGRhU0tEcVhDMDl4U0tlQmw3c1dTeV81dldTZE1QRG45QlVJVnlhWnBPSE5OOWNheVdGU25GNEFvMkR0NUt0SnVMeTFKRkZZcUo4?oc=5",
+          "published": "2026-09-19T16:26:02+00:00",
           "publisher": "PBS",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "WATCH: Trump says he is banning CNN, MSNOW and Politico from the White House - PBS"
+          "title": "MS NOW, CNN and Politico say their journalists were denied access to White House after Trump ban - PBS"
+        },
+        {
+          "canonical_link": "https://streamlinefeed.co.ke/news/journalists-detained-and-deported-in-us-immigration-crackdown-investigation-finds",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR1NvZWExbjhRbWJzRmNOWVpMRlVNRlZyZ2FnVFFRajg3MFBwdUJ0ZGJ1TmlYQkd3ZllBdzZTR1hmX3VQVmlSRjJhOTNGMkZSYlNHeVY0bjRCX1YwTXZJR19Bc1d3aDcyM3dxVmFvNlpyTGI5bHI4bTREM2thNlpxOUREOG5BT0RXYjBoTXNZVzF0WjlxbkNKc0NfQXkybDNaZHVjTXF5Sjl1LS01QzlBUDJDd0NJUQ?oc=5",
+          "published": "2026-09-21T07:05:25+00:00",
+          "publisher": "streamlinefeed.co.ke",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Journalists detained and deported in US immigration crackdown, investigation finds - streamlinefeed.co.ke"
         }
       ],
       "evidence_mode": "ai",
@@ -141,26 +122,35 @@
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://spectrumlocalnews.com",
-      "rationale": "Multiple credible news organizations (MSNBC, CNN, Politico) report that their journalists were denied White House access following an executive action or directive. This constitutes a real, verifiable state action raising costs and legal/practical barriers to independent reporting by restricting press access to official spaces. The action is confirmed and contemporaneous rather than hypothetical. Severity is 2 (repeated, credible stress signal, real but contained action) rather than 3 because this is denial of access/credential rather than a broader campaign of legal jeopardy, prosecution, or systematic removal of press freedoms, and appears focused on specific outlets rather than a structural dismantling of press independence.",
-      "severe_hits": 0,
+      "primary_source_url": null,
+      "rationale": "Multiple credible U.S. news organizations (MS NOW, CNN, Politico) report denial of White House press access following a Trump ban. This is a repeated, confirmed action by a state actor that raises costs/access for independent reporting. However, severity remains 2 rather than 3 because this appears to be localized access denial rather than a structural campaign with legal jeopardy or defiance of court orders. The action is real and material but contained to credential/venue restrictions.",
+      "severe_hits": 1,
       "severity": 2.0,
       "severity_label": "Yellow",
       "unique_publishers": 2
     },
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 2,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
           "canonical_link": "https://www.motherjones.com/politics/2026/09/maga-activist-jason-frazier-flooded-georgia-with-voter-challenges-now-he-works-for-the-state-election-board/",
           "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY3B6V1ZMWWpwWUZMNmo5NkN5bzZOQ3plRGE2d1lxcUNKbktiTGVmWDRjc3p0dkMzQkJMNmtFR3ZySGxBX3VodEZEanh5OEh1WVlXSjlLU2VzSUhKVGIxSU41VzFhZktyaDdXcjBWUmFZcDVUdXc3MlJtTWZmcWFMSUhtb0RPTWs5NTVyTm9UN1VZZDh1cF9US2RmMG1lbjk0WDRPaW43d2d6UVFobmRmaHVBNmxDcmFvUU5aTDYyaVpaOVloZHoxdDFhMlJKZVl6SDd1Q2N0SGtqRUM2Z0xjVzVBeFF5aF91?oc=5",
-          "published": "2026-09-20T03:38:33+00:00",
+          "published": "2026-09-21T05:24:01+00:00",
           "publisher": "Mother Jones",
           "source_name": "google_news",
           "source_tier": "news",
           "title": "A MAGA activist flooded Georgia with voter challenges. Now he works for the State Election Board. - Mother Jones"
+        },
+        {
+          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
+          "published": "2026-09-20T09:00:29+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
@@ -175,7 +165,7 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 1
+      "unique_publishers": 2
     },
     {
       "confirmed_hits": 1,
@@ -238,20 +228,20 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "federalism_oversight",
       "evidence": [],
       "evidence_mode": "keyword",
       "hits": 0,
-      "id": "judicial_review_foreclosure",
-      "name": "Judicial Review Foreclosure",
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
+      "severity": 1.95,
+      "severity_label": "Yellow",
       "unique_publishers": 0
     }
   ],
