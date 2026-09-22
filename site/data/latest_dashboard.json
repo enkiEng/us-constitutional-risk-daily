@@ -1,6 +1,6 @@
 {
   "attempted_queries": 24,
-  "average_7d": 15.09,
+  "average_7d": 15.24,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -10,7 +10,7 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -1.0,
-  "delta_vs_7d": 0.61,
+  "delta_vs_7d": 0.11,
   "domain_breakdown": [
     {
       "avg_severity": 1.0,
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.975,
+      "avg_severity": 0.8,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 1.95,
+      "points": 1.6,
       "weight": 8
     }
   ],
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-21T12:38:30.061358+00:00",
+  "generated_at": "2026-09-22T12:39:49.754507+00:00",
   "methodology_version": 2,
-  "previous_score": 17,
+  "previous_score": 16,
   "primary_sources": {
     "documents_confirmed": 2,
-    "documents_fetched": 17,
+    "documents_fetched": 19,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,29 +86,38 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 16,
-  "score_raw": 15.7,
-  "score_raw_pre_trip_wire": 15.7,
+  "score": 15,
+  "score_raw": 15.35,
+  "score_raw_pre_trip_wire": 15.35,
   "successful_queries": 24,
   "top_signals": [
     {
-      "confirmed_hits": 2,
+      "confirmed_hits": 3,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.pbs.org/newshour/politics/ms-now-cnn-and-politico-say-their-journalists-were-denied-access-to-white-house-after-trump-ban",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWE9LdFRLOVA4aWFzVXdJSnNUUGJUb0xWLVJvZnFlVk9JS0NRcU1EQ2Z3ZHV6MDBZQS16eUNrSFAyWGtKQzdDdE1tMXFIZE05MVRpaXd2Sk5SczJNX2pYMk9KTlNoaVFlMk9HQlloLTdST3RfNVcwVW9jVGRmTllTZWFYZzV1d3Y1N1EySTVMNlNSWUJnM1lnTnJ4MUhqMHg1YkVFRGVlUmtDM3kyRFo3c09Ud1JNRlRkNVBSWDRaN0QzRC1xN285Nkl4dkZvd9IB0wFBVV95cUxQYkZuNWJWN2oxbmplczdoMERUbVNxTEVVRG9Wak16SUtTd2VOUG9ydjFGSnRURF9ORDNhTXZjSjhhVWlJZ3lqa0hfc1psWHFMZW9WTnRsV3ZMSVdLTFpCWUR6b1RsZGxERkN2MWhwNXRaVlctZmhiYnlpMlA4bGxkR1NIXzFmVWIteGRhU0tEcVhDMDl4U0tlQmw3c1dTeV81dldTZE1QRG45QlVJVnlhWnBPSE5OOWNheVdGU25GNEFvMkR0NUt0SnVMeTFKRkZZcUo4?oc=5",
-          "published": "2026-09-19T16:26:02+00:00",
+          "canonical_link": "https://www.pbs.org/newshour/politics/cnn-ms-now-politico-say-theyve-notified-trump-theyre-suing-over-denied-white-house-access",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYkQ1R2dDWDBzR2Y0dkhTSkVNUkJOenVsQTNNR0puWklZZzBwVTgtVnlaUHE2cjRUT3FEc2trSUs5dk43ZFJvREdyaXRzLWRSaTlXNDltalYxc004ZC1oRDJVdzk4VEl4UF9vTWxScnhhdFpGazRSTDM0dXJYWVVfbVdKazZ3bEV0VDdPdDBHbm91SGtaeWxaLWFXN1Vib1Q2MDBqaUVWWFdDd0RNMENpLVpnUUQ5YjVDVXN1bTlqemM5MV8wcGc?oc=5",
+          "published": "2026-09-21T11:39:54+00:00",
           "publisher": "PBS",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "MS NOW, CNN and Politico say their journalists were denied access to White House after Trump ban - PBS"
+          "title": "CNN, MS NOW, Politico sue over Trump denying White House access - PBS"
+        },
+        {
+          "canonical_link": "https://www.whitehouse.gov/releases/2026/09/white-house-access-is-a-privilege-not-a-right/",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaGRBVWRLbk5HdHk2ZnB3bUVaZG40VzRZbGEzNDRQcGJucWtOZ1ljWW9RMm9uN0NQQTVLN1JHdTA2dnRucG9oYVhmN3ZoQmZ5X2FWdXZVbTlvMmozckNnS1A2Ujh1bkQ4NTE4ZzRoaVBCWS1DanUzRFhfRmM0bkJrMmxKbTMzbGdZX3VmZDFmcnJHNWJQ?oc=5",
+          "published": "2026-09-21T18:01:52+00:00",
+          "publisher": "The White House (.gov)",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "White House Access Is a Privilege \u2014 Not a Right - The White House (.gov)"
         },
         {
           "canonical_link": "https://streamlinefeed.co.ke/news/journalists-detained-and-deported-in-us-immigration-crackdown-investigation-finds",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR1NvZWExbjhRbWJzRmNOWVpMRlVNRlZyZ2FnVFFRajg3MFBwdUJ0ZGJ1TmlYQkd3ZllBdzZTR1hmX3VQVmlSRjJhOTNGMkZSYlNHeVY0bjRCX1YwTXZJR19Bc1d3aDcyM3dxVmFvNlpyTGI5bHI4bTREM2thNlpxOUREOG5BT0RXYjBoTXNZVzF0WjlxbkNKc0NfQXkybDNaZHVjTXF5Sjl1LS01QzlBUDJDd0NJUQ?oc=5",
-          "published": "2026-09-21T07:05:25+00:00",
+          "published": "2026-09-21T07:04:56+00:00",
           "publisher": "streamlinefeed.co.ke",
           "source_name": "google_news",
           "source_tier": "news",
@@ -116,45 +125,36 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 5,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": "Multiple credible U.S. news organizations (MS NOW, CNN, Politico) report denial of White House press access following a Trump ban. This is a repeated, confirmed action by a state actor that raises costs/access for independent reporting. However, severity remains 2 rather than 3 because this appears to be localized access denial rather than a structural campaign with legal jeopardy or defiance of court orders. The action is real and material but contained to credential/venue restrictions.",
+      "primary_source_url": "https://www.pbs.org",
+      "rationale": "Lawsuit by major news organizations (CNN, MSNBC, Politico) alleging denial of White House access is credible evidence that state action restricting press access has occurred. This is a real, documented action that raises legal and logistical costs for independent reporting, though it remains contested in court. The action itself\u2014denial of access\u2014has taken place; the lawsuit confirms the factual occurrence of the restriction regardless of litigation outcome.",
       "severe_hits": 1,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 3
     },
     {
-      "confirmed_hits": 2,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
           "canonical_link": "https://www.motherjones.com/politics/2026/09/maga-activist-jason-frazier-flooded-georgia-with-voter-challenges-now-he-works-for-the-state-election-board/",
           "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY3B6V1ZMWWpwWUZMNmo5NkN5bzZOQ3plRGE2d1lxcUNKbktiTGVmWDRjc3p0dkMzQkJMNmtFR3ZySGxBX3VodEZEanh5OEh1WVlXSjlLU2VzSUhKVGIxSU41VzFhZktyaDdXcjBWUmFZcDVUdXc3MlJtTWZmcWFMSUhtb0RPTWs5NTVyTm9UN1VZZDh1cF9US2RmMG1lbjk0WDRPaW43d2d6UVFobmRmaHVBNmxDcmFvUU5aTDYyaVpaOVloZHoxdDFhMlJKZVl6SDd1Q2N0SGtqRUM2Z0xjVzVBeFF5aF91?oc=5",
-          "published": "2026-09-21T05:24:01+00:00",
+          "published": "2026-09-21T18:49:54+00:00",
           "publisher": "Mother Jones",
           "source_name": "google_news",
           "source_tier": "news",
           "title": "A MAGA activist flooded Georgia with voter challenges. Now he works for the State Election Board. - Mother Jones"
-        },
-        {
-          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
-          "published": "2026-09-20T09:00:29+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 3,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -165,7 +165,7 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 1,
@@ -240,8 +240,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.95,
-      "severity_label": "Yellow",
+      "severity": 1.6,
+      "severity_label": "Watch",
       "unique_publishers": 0
     }
   ],

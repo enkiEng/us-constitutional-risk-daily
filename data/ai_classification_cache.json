@@ -634,6 +634,16 @@
       "rationale": "This docket entry documents the filing of a Notice of Civil Appeal in a pending case. It is a procedural milestone in appellate litigation\u2014a request for review of a lower court decision\u2014not evidence of a court order or evidence of noncompliance with one. The entry does not reveal whether any court order has been issued, whether the defendant has been ordered to do or refrain from doing anything, or whether the defendant has refused to comply with any such order. A notice of appeal is a standard legal procedure and does not constitute executive or administrative refusal to comply with a court order. Until there is evidence of an actual court order and subsequent refusal to obey it, this cannot support the signal.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74800363/01208888608/joyce-beatty-v-donald-trump/": {
+      "actor": "Court of Appeals for the D.C. Circuit",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74800363/01208888608/joyce-beatty-v-donald-trump/",
+      "rationale": "This is a Notice of Appeal in a civil litigation matter (Beatty v. Trump). A notice of appeal is a procedural filing indicating that one party is requesting appellate review of a lower court decision. This is not evidence of executive or administrative refusal to comply with a court order. No court order has been defied; this is simply an appeal of a district court decision. The filing of an appeal does not constitute court order noncompliance. Without access to the underlying district court decision and any orders issued, and without evidence that a party has refused to comply with a court directive, this cannot be scored as signal evidence.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/74810738/8/rascol-v-field-office-director-of-enforcement-and-removal-operations/": {
       "actor": "Immigration and Customs Enforcement",
       "confidence": 0.95,
@@ -916,6 +926,16 @@
       "rationale": "This headline reports Trump criticism of a Federal Reserve governor. The Federal Reserve is not an election administration body. While the item mentions a Supreme Court ruling, the substance describes political criticism/attack, not election administration capture or partisan control of electoral processes. This does not evidence the signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ2ZjblhUQkQ2eDI0ajUzSUNTS2hxYVFpODc3cG9hZ3NKSmlPZlkzWkFscjhBZkp3d0xVQVFLOWJSWWIzYWtoQ1hCQUYwWkZRNkQ2TFF0VXFKcjZOSVgtRjBqa01iWTFZRDVsOWZKVnBULUp4akpLQ1o3aGpyT3pGSUFsOWpIRWJSNDFsZUdZa2pwdFk?oc=5": {
+      "actor": "FBI",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item describes FBI visiting a county in response to voter fraud claims. This is investigative activity in response to allegations, not evidence of election administration being moved to partisan control. An FBI investigation does not constitute capture of election administration by partisan actors. The headline characterization ('smelled wrong') is journalistic framing, not a confirmation of malfeasance. No verifiable action moving election administration from neutral to partisan control is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEhiSnVmN1Joci0xaWdzOXl0NExSZUgtSzdTbDhjdW1nbjE4RDQyVEROZVpsaWFCNVNnaURlMU9wZC1sV3RIc3BnZ1FDY3Y4eWN1NHhBZnZ1akNPR0xwQkowUVF0UDdrYzVBajllZ0h5bHppOWNyTWpQanpfbEVKOFdudXJNWDRab1FXdlJqRnVqT3c?oc=5": {
       "actor": "Todd Blanche",
       "confidence": 0.95,
@@ -935,6 +955,16 @@
       "primary_source_url": "N/A",
       "rationale": "This item is a speculative/hypothetical analysis about how prediction markets might affect future elections in 2026. It does not describe an actual occurrence of election administration being moved from neutral process to partisan control. The article discusses a potential future test case, not a realized event of administrative capture. No specific action by election officials, partisan actors, or legal instruments that would alter election administration authority has occurred.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOWtWczRZOWJPWktDc2hlTnJBeUJqT0dsSXdKbDJWVF9kdGxITXlnLXQ5N0tVdUVxRmUtVmdsTlhfVmktd1YyS1RHbXFjMFA2TGY5OTRVV0F6UmtNbXdLX3JqT05veGwtbThwZ2lrSFZDTDZvRS01NzByeHBTcUVYLVpja09nRUROdzY3eDZSOFp4RElTakpvc3c4NHI?oc=5": {
+      "actor": "SC Election Commission",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item reports an alleged violation of open meetings law by the SC Election Commission. While this represents a procedural failure in election administration, a violation of open meetings procedures does not constitute movement of election administration toward partisan control. Open meetings violations are administrative/procedural failures affecting transparency, not evidence of capture by partisan actors. The allegation is from ACLU and appears credible as a real occurrence, but does not match the specific signal of partisan capture of election administration. Severity remains low because the violation itself, even if confirmed, addresses process transparency rather than partisan takeover.",
+      "severity": 1
     },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0pMUHB4Z1Z0SF82c0V0NDVuemRoUEM3ZVNKeWUxdXppTzV1U0pHWlNjN3R3T1BqNUdTTjB1akUzZnR2ajFIZDlOLWg3WGp1M3lTbm45N0cza0RVZlZSMzZIYWxkU2N2RUJwQWhsbnlxR0tkWjVBek9WOGtGanFCN3ZmRkptbEZXSi1uTDVvNDBwalBENzVqNGhzTTlxdw?oc=5": {
       "actor": "Georgia State Election Board",
@@ -1494,6 +1524,16 @@
       "rationale": "This item reports a legislative deadline for the Senate to consider the Crypto Clarity Act before recess. It describes a routine procedural situation (a bill pending floor action within a time constraint), not evidence of independent agency capture or weakening of regulatory safeguards. The item is a news summary about a legislative scheduling matter. No regulatory agency has been weakened, captured, or prevented from exercising independent decision-making. Legislative action on crypto regulation, even if passed, does not itself constitute capture of an independent agency. This is standard legislative news unrelated to the signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vRkxrWjQ0Yl9TaDFMRS1lVFZiX3ZaNjFucldVQWplUDdydUhueFNYM05idnFSMm40aWM3cURGTTVFQndxV2c1OTlIWVdnNHRfU1FVa2REOW1NVm1hYXdVZE8tbGhqVFRNcldPYi1yNTRCREt0dzEyS0RzcnFRUQ?oc=5": {
+      "actor": "City Journal",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.city-journal.org",
+      "rationale": "This is clearly opinion/commentary titled as an editorial argument ('Don't Judge the Supreme Court by Its Polls'). It addresses public perception and polling of the Supreme Court, not evidence of weakened independent agency safeguards or regulatory capture. No concrete action, structural change, or verifiable event affecting agency independence is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSkg1Mmt0SFpaVTJYZnZiR296Ni1ZU2NxcjkwOEpPSWV5Ny1qZzZFSUhicDVQM05GZXJEY0FLeVByU0R4MnlhWmV3ai1YcVlRZTc1SUZIcHNlVDExMGFwVFlKV2NGb0ZaS3ZNQjBKbVV0OEY5UnBNTXlIZ2RKZHo3MQ?oc=5": {
       "actor": "WSJ (opinion)",
       "confidence": 0.95,
@@ -1672,6 +1712,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item 1 is from a UAE-based publication (Gulf Today) and addresses global AI regulation in general terms. It is not a U.S. domestic event. The article appears to discuss the need for credible regulation rather than evidence of regulatory capture or weakening of independent agency safeguards. This is opinion/advocacy content rather than reporting a concrete occurrence of constitutional or regulatory stress in the U.S.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNN1BtTEk1dXpoVDNkaG1wNURDeUkxeE9SQzhybjVOSjJLX25FTHdmamk3VU5BX3A5MmYtQ3RZdUUxM2N5TFl1UTNYaGdJMFhoYzZQRTZqaW00c1dpWVE4RG1mUHV1YVpYOENFOUlaQ2lpS0d0anNUUEJFVUsxcExIVWxqQW1mYnZrSlZFT2dqSVAwTU5xRVFPUnZLTDB3RDQ?oc=5": {
+      "actor": "The Regulatory Review",
+      "confidence": 0.75,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.theregulatoryreview.org",
+      "rationale": "The item title and summary indicate this is opinion/analysis on nuclear regulatory policy and presidential power. Without the full text, this appears to be editorial commentary or scholarly analysis rather than evidence of an actual change to independent agency safeguards. No concrete action, official record, or verifiable event of agency capture is documented in the summary provided.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxPT2hrRGl5dkZYWFlYYnQwUTFRQS1PeVY2R19zTGNnUG1fSk9DMlFOOF9fZTJSdzMydVRBcGVPUHJ3NkJWWngxSHZoa3piaENiYkx5OTR1VFQtN0ZxR0thOTZIWDY2eTJnOVRJRDFoSWpCazFCTG1PM2FldHg3T0VvOEJaazhSWV95ZjZ1WjA4dkNkaW9ja3FGZGNVa3dRaS1NR0E?oc=5": {
@@ -2455,6 +2505,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74804961/1/united-states-v-search-warrant/",
       "rationale": "This is a routine search warrant issued for brokerage accounts. The issuance of a warrant is a standard law-enforcement action that does not constitute retaliation against watchdog functions or inspector-general offices. There is no indication from the docket entry that this warrant was issued in retaliation for IG activity, oversight, or anti-corruption work. This is ordinary judicial process, not evidence of IG retaliation.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74824706/1/freedom-economy-business-association-v-united-states-department-of-the/": {
+      "actor": "Freedom Economy Business Association",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74824706/1/freedom-economy-business-association-v-united-states-department-of-the/",
+      "rationale": "This is a filed civil complaint seeking declaratory and injunctive relief against Treasury Department officials and the CDFI Fund. A complaint is a legal pleading initiating a lawsuit\u2014a proposal for relief, not an accomplished action. The filing itself does not constitute retaliation against watchdog functions or anti-corruption monitoring. No evidence is presented that an Inspector General has been retaliated against, that watchdog authority has been stripped, or that anti-corruption monitoring has been obstructed. This is a routine litigation filing by a private business association against an executive agency, which does not evidence the signal event.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -2920,6 +2980,16 @@
       "rationale": "This article concerns Gambia, a West African nation. The signal tracks judicial-review foreclosure in the United States. The item is non-U.S. and therefore irrelevant to this dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxOODVNNmxGTjRSeWFaemwxY05WcmYzak9DR3F0WjhNNVNVQVh1U0FRMGM2VTB3V0o4c0FUeW1RYXJwS21ETUkxUWt2STZSeHdaeHlGc1dQWW9XRlRTb2F3SlhlMDE2OWRBUU5IdjBtX0psNVh1bmlmNTZZR3ZKQWNKRzJ3a0NFSm5Ib0M2Sk1SUjlGZkM4SE4yOHpRRdIBVkFVX3lxTE5TejM1VWlyX09wT3JtN0xuVHpoMk1nNnI2YnhDNFU3ejlUYVNnZi11RTBZWXBray1uT0dyTjl3dFg1dmpra1hGVnNWM3B0cENlQnhJMEJn?oc=5": {
+      "actor": "Minnesota Attorney General",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a summary-only item indicating that the Minnesota AG has asserted that X (formerly Twitter) lacks standing to challenge a state deepfake law. The item does not provide details about whether a court has ruled on the standing question, whether the claim was rejected on threshold grounds, or whether review has been foreclosed. A single allegation by a government attorney that a party lacks standing is not evidence that a court has actually closed the door to judicial review; that would require an actual judicial decision. Without the court's ruling, this cannot be assessed as evidence of judicial review foreclosure.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaS1XWUhibm1qTGtZcVBrN0VzWFlLYk1nRVFFSlFLX1FtMnZRWTIyTW02M1oxbUpORHJYWjgtRndhOVl2QU1qY2dOQUg0QThVd0lfSEZYc1ZGeHQ0VXJYT01lY1ppZGVRazkzMFh6TzF1aVEtY2lzNTQ3aEJUTUw0R19GTkZFYm5DSHZGRDJwYkFyb0VsVGJYRmc1TnFmWTlrM2dOMk5B?oc=5": {
       "actor": "Nebraska Supreme Court",
       "confidence": 0.72,
@@ -2998,6 +3068,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74774751/1/holem-v-us-department-of-veterans-affairs/",
       "rationale": "This is a docket entry recording the filing of a complaint for declaratory and injunctive relief. It is a plaintiff's initial pleading requesting judicial review, not evidence that courts have closed the door on review or foreclosed judicial oversight on threshold grounds. Filing a complaint is the opposite of judicial review foreclosure\u2014it is an attempt to invoke judicial review. No ruling on standing, justiciability, or a threshold dismissal has occurred; this entry merely documents that the case has been filed. The signal requires evidence that courts are denying or preventing review on procedural grounds, not that review has been initiated.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74800363/01208888608/joyce-beatty-v-donald-trump/": {
+      "actor": "Court of Appeals for the D.C. Circuit",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74800363/01208888608/joyce-beatty-v-donald-trump/",
+      "rationale": "This is a notice of appeal filing\u2014a procedural document indicating that a party seeks review of a lower court decision. The filing itself does not show that a court has foreclosed judicial review on threshold grounds. An appeal notice is the initiation of review, not its closure. Without the actual appellate decision or ruling, there is no evidence that standing, justiciability, or other threshold defenses have been used to close the courthouse door. This is a pending appellate action, not a completed act of judicial review foreclosure.",
       "severity": 0
     }
   },
@@ -3794,6 +3874,16 @@
       "rationale": "A court blocking a state's map is judicial review operating as designed\u2014the opposite of legislative bypass by executive action. The signal tracks unilateral executive action displacing statutes; this is a court enforcing constitutional or statutory limits on state action. No executive bypass occurred.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdWk3LXgzYXpaSDhMb1c1cG05TFVBS2J5VEJHRjJwWjd6aHdEX0dNanBuNlV4cTBpMTk4OVRZbkp1dzg0MjRCb2xjM2tWTlUtODdfT3BHQ1Bla3FWbkFvN2JDelNTU0N4SVVqU3NlOEZZVW9tTkZDNFFYZ1dXVE1EYlFrT1l4eU9FY3l6MmpTbW1QSHZVdVFIMXExR185QW0yS19ZU20xdjV1aWJMcUZRa0RpNXNrUWZoekZ1R0V2VmU?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://primetimer.com",
+      "rationale": "This item describes a dispute over media access and network boycott responses to a White House decision. While a White House ban on a news outlet's pool access is a real executive action, this does not constitute 'legislative bypass'\u2014the signal's specific concern. The signal targets major governance actions shifted from statute to unilateral executive action (e.g., imposing regulations, suspending enforcement, or making policy without statutory authority). Media credentialing and pool access decisions, though potentially concerning for press freedom, are not instances where the executive is circumventing or bypassing legislative authority to accomplish a governance function that normally requires statute. The item is coverage of a media/access dispute, not evidence of statutory bypass.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ2FaY2x4SEZiV3lnbVV2UTZkS1dscV9OcFlQSTBQYk0zWFJxckQ1OElnay1DbjNPNWlXY2htU0JMYk1JSTV5aVQ2VVhkWjFLS21FdkJTZVo2eHZ4enNxSWE0X2VKMF93MDd0bmZnUmlaZnVMeG56c3otOTdSVHhTSkN5T0tRV1BMeDlrajhoWVBVcFN1WlpHWE9wbWJyUzFZcHhWVjhsY0t0bnFKVmNLc1E4dzRyUE9UTW4xbnZKWWIzZw?oc=5": {
       "actor": "Executive (Trump administration)",
       "confidence": 0.83,
@@ -4578,6 +4668,26 @@
       "rationale": "This item describes a pending judicial proceeding\u2014an appeals court considering a congressional map. No official action has been taken that constitutes martial law, military governance, or military management of political disputes. The item involves a political dispute over congressional redistricting, which is a normal constitutional process subject to judicial review. There is no evidence of military involvement, military rhetoric directed at governance, or any breach of civilian control. This is routine electoral litigation, not a constitutional stress event related to the signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR0xTNWxzamxubHpHUXBOSTR5VDh5d3FWWmt5SkJCcXhwM181M1JidEVMV2FYZjhiNlR3aHZZWi00cVBkaDF6UXdDX2ZYVThfS3A4WFNPakVNdUgzYjlITGd6Q2VVODdOTVlZaUZrbkM4V0pndms4MTc0R3NRbjNLNno5S1hfWWRUWlNvX2paa1o0OEtCdDYxMEFydjlSMmg3dHJodUtWMXc1NzRjX3NTbUV3?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns the Indus Waters Treaty (a Pakistan-India water-sharing agreement) and enforcement mechanisms in that context. It is not a U.S. domestic event and does not concern martial law or military governance in the United States. The article is analysis of treaty enforcement, not evidence of U.S. constitutional stress.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVklOVWNWQ0VwZG5NM1h5WEc1b0dIRFg0NVdzVHpXb2FVZGFXMnpYWHh6UUY1VExac1dzaE04eW5GZlBsaGI5V1VtQzRzTlRuUDlPS212SjFpT0dXelUwak5ZQjYtOHRtbGJWRE1zblBZRkV3blRMb0FIWC1mVkNVSHRFcGFUUWxlNjVDckpQbFBWclJDaV82bkp3d3dtSEcxUXhZOTRhZjRPd05IOVZmUXdDZmM?oc=5": {
+      "actor": "Somalia Electoral Commission",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on electoral administration in Somalia (Galmudug region), not the United States. The signal concerns martial law or military governance language in a U.S. constitutional context. This is a non-U.S. event and irrelevant to the dashboard.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUzVPS2hqb0VXeDhPZnVJNEtUSUtaRDdFQll2NnRnMUhWYkJIQlhtSXQtRHg3b2NMcHg5RDJvSGRmWTF1YlV5ZWZYSllBb0h3QXJmSEQ2M0ZYOE9TSG4yM29ncVdyWTFNNGJVNDA0dWtTS21UN2had3g5N1oxVms4aEtPaE1id2EzcmVqS3Jwb2NYSmEyU0JKUjQ4ZTVLLTVjdW5naWVGS01jZ1NPQkxYUFdWekswUVNlRnZV0gG7AUFVX3lxTFBTNU9LaGpvRVd4OE9mdUk0S1RJS1pEN0VCWXY2dGcxSFZiQkhCWG1JdC1EeDdvY0xweDlEMm9IZGZZMXViVXllZlhKWUFvSHdBcmZIRDYzRlg4T1NIbjIzb2dxV3JZMU00YlU0MDR1a1NLbVQ3aFp3eDk3WjFWazhoS09oTWJ3YTNyZWpLcnBvY1hKYTJTQkpSNDhlNUstNWN1bmdpZUZLTWNnU09CTFhQV1Z6SzBRU2VGdlU?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -4891,6 +5001,16 @@
       "primary_source_url": "https://instagram.com",
       "rationale": "An Instagram post from an Action Alliance Spokesman claims that people approached the party with settlement offers to remove them from a deregistration suit. This is a claim of alleged coercion or pressure to withdraw from legal action contesting deregistration/ballot access. However, the reference to '#2027Politics' and the party names (ADC, AAC, APC) suggest this may refer to a non-U.S. context (possibly Pakistan or another country with similar political naming conventions). Without clear U.S. domestic confirmation and relying on a low-credibility social-media-only source with unverified claims, this merits lower confidence and severity as potential evidence of U.S. ballot exclusion. The claim itself\u2014if true\u2014would evidence pressure/coercion but is not independently verified.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXTWxUTUFGWkhKZnZkdmI3Ry13MFZkaHZ1d0NPQmVZaTFZenpxSjN3SmNwclBDOVkyN1AzS09mZjdjdXZZdVJtcDBPeWkwSFIzUW1wTGxzaFMzNk96bUNtMENiWkozTjBXcHc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.britannica.com",
+      "rationale": "This item is a biographical encyclopedia entry about Bassirou Diomaye Faye, a Senegalese political figure. It is not U.S. domestic content, contains no evidence of opposition ballot exclusion in the United States, and is not relevant to the constitutional-risk signal being evaluated. The item is a reference biography, not a report of any political action affecting U.S. elections or ballot access.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMid0FVX3lxTE02ZU1DeWdGTVFhWWxvMDYtSEVfY2tnb2NxWnp4blpDUm9TLXA5WDJGTmNsTktMX29QWXRHb2RoX0d3dkkweEhyQ2ZTaHhiandUSG5zRUI0Tk5saEc2bUs4WlJybWdhZ2Ruel9WRXZScmdCaC1hZlpj?oc=5": {
       "actor": "Russian election officials",
@@ -5254,6 +5374,16 @@
     }
   },
   "political_speech_surveillance": {
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTVU3MUQ2c2xHbjhEVTl5MWppeU12OUk3eUZSQm5yVXMwNFh3MTc3RWtOM2JlNldBYURiTHIzTDgxUDVFRDlyMER2dGpwR1pRT2swQ2FXdUEtOFZ1MUFYTW4ybks2SlJacEVFQzBTTmd2cnNPTk4wZV8xVENYV2J0UEdEdkw2aUttX1JwTkdFcENGcmIxczlwNzhXUmJxRjljdVdhODdnUURUcEE0LUF1VGFJekRlMmRxc2xDUlFOYkRaYnNSRjZaelFxY3JEb2p1bWZ2WGpR?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "streamlinefeed.co.ke",
+      "rationale": "This item is from a Kenyan news domain (streamlinefeed.co.ke), not a U.S. source. The premise\u2014an assassination of Charlie Kirk one year prior to September 2026\u2014does not correspond to any verifiable real event. The item appears to be either fabricated, satirical, or a test case. No credible U.S. news outlet has reported such an event. Without verification of the underlying factual claim (that an assassination occurred), the headline about a subsequent crackdown cannot be treated as evidence of a real constitutional stress event in the United States. This is dismissed as a non-occurrence.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS0kxLXdEUjhIRmw5TzBlUmQ1ZXQ4NHNDWUVSdjc2NS1pS1JMZHkyREcxN3hVdXNQNTRFNWIwS0QwUEdGQjJ5OEY3c2dmNVVnb29KYTdzamVMMlZONS1qSGVPSjZyVlc2cjZGaDBJeUdYa3Rsd0FzVm84RTlORXB6YlpJRUF5N04yb2hsVw?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -5738,6 +5868,16 @@
       "rationale": "This article concerns Myanmar, not the United States. The signal is defined as state action raising costs or legal risk for independent reporting within the U.S. constitutional system. Coverage of press censorship in a foreign country, regardless of its severity, is not evidence of a U.S. constitutional-stress event. The item is geographically out of scope and therefore irrelevant to this dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc0FWUzhmMVZTZms3SnlUZUhYVVBiREF5MzI0VjBQdUxyMVl6ZEJGaXlMdC00UVNKNE5SWjRNemI5ck1jUEdnRi1JZFFTQkV3c3JPWWM4ejZWLWpuS3YwbkRHblM0Qlp6dVlzMEwzaW9RODltSC1RWHM0bXpIdk5QRnJVVlB4YkRCZmlaczliRzhrcVE?oc=5": {
+      "actor": "Pakistan authorities",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://journalismpakistan.com",
+      "rationale": "This item concerns press freedom conditions in Pakistan, not the United States. It is geographically outside the scope of the signal, which targets U.S. constitutional stress. Non-U.S. events, regardless of severity, are not evidence of U.S. domestic constitutional risk.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNjc2dG1rS2w3OUZ2YXIxNFZpLVpfWUxGNnpmOXo1OUg0ZUxNQnhYYjFKRGVEaEE4NFladWNrYVhSVkh3dkZEcnhCX3hDQnZZeEN5ZE5tMllHOEVvdFYtTkRVT1VsVVNVQ2d3WkFfYnVRaHhDSXZXR0t1MlYxMl9zbENRU1g2Ry1GRll1Mm1VRXFYa1k?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -5767,6 +5907,16 @@
       "primary_source_url": "N/A",
       "rationale": "This item is reporting on press freedom conditions in Pakistan, not the United States. The signal is defined as 'State action that raises costs or legal risk for independent reporting' in a U.S. constitutional context. A report on press conditions in another country, even if it describes real events in that country, provides no evidence of the specified signal occurring in the United States. Therefore, event_occurred is false and severity is 0.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaGRBVWRLbk5HdHk2ZnB3bUVaZG40VzRZbGEzNDRQcGJucWtOZ1ljWW9RMm9uN0NQQTVLN1JHdTA2dnRucG9oYVhmN3ZoQmZ5X2FWdXZVbTlvMmozckNnS1A2Ujh1bkQ4NTE4ZzRoaVBCWS1DanUzRFhfRmM0bkJrMmxKbTMzbGdZX3VmZDFmcnJHNWJQ?oc=5": {
+      "actor": "White House / Trump administration",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.whitehouse.gov",
+      "rationale": "This is an official White House statement articulating the legal position that White House access is a privilege and not a right. As an official government statement, it reflects a position taken by the administration that can change the practical rights of press members seeking access. The statement itself constitutes state action communicating a legal stance that alters the ground rules for press access, even if no further enforcement mechanism is detailed in this item alone.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYkZXMFhnUTduVGlDNmdlOUc2ZzQwME03eFdPZWtrSk1PYjZ3ZjhLMXlaazVSeWNaZTI2NVVURTRFWjFZVHJLNUhBd3FENlJkMHBfdktPNlktbHVvVDZzMzhIR3ItN1FkMWdCUjJuZ2xqVW9UbmM1Ri1FLW4wQUowRXZBelN5RjJmekw4dV92RndnaWpi?oc=5": {
       "actor": "SCO",
@@ -6168,6 +6318,16 @@
       "rationale": "This item concerns Indian domestic politics (Congress MP Gaurav Gogoi, PM Modi, Assam Apex Bank scandal). It is geographically outside the United States and therefore not evidence of any constitutional-stress event in U.S. jurisdictions. The signal concerns press restrictions or retaliation in the U.S. context. This item is irrelevant to the dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVTVsUkk2aUNIX19lSUQ2eVI2WFlOSV9HWHNIamNnWXppOXpwVkxiQUkxT0ZyVVIyTU5vaEJXVG50M0J2TkNnRTNsTWlyRnRNVEVNVFVqNVhMS3pLdXBnNVpkYlpLU1g3M2xjUjdsN0hSak9DM1BiRU1DUkktY1RXdURjZVpaemdsODBwV1lyakZ1bjhwa0V3X25NeUJOSFVOSWNabjlscnhmd01SMy1FY2ZPa09NX0xk?oc=5": {
+      "actor": "Trump administration / Canadian regulatory context",
+      "confidence": 0.85,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.netnewsledger.com",
+      "rationale": "This item is Canadian analysis of U.S. press restrictions\u2014a non-U.S. source analyzing U.S. events. While it may reference U.S. events, the item's primary focus is on Canada's press-freedom test and regulatory context. The signal is U.S. domestic constitutional risk; coverage of U.S. actions by a Canadian outlet does not itself constitute U.S. domestic state action. Treating it as evidence of U.S. constitutional stress would duplicate evidence from U.S. sources.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUnJCVThpNjJQWVBSTml2S2NiTTk4RnBucTZFYmJWRTRHTE5CakpUbVo5c05VaTNrLUVXdXdfX1RwSkswMG5xVFljZXVXb2hoV05vTnEwU3JDcDdDVDZqaWdBNGdXdFFPWkNfdkt6TEcyYzBPMy1pUkNMdHNRSDNwYUNTcXF4NnNhNkd6eWxuY0F5VnNVUG1lZDBkcnVUVVVkRTU3dU4tanZQLVpJTnVyUVc4TURpQnBCSFVETg?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -6227,6 +6387,16 @@
       "primary_source_url": "https://www.ianslive.in",
       "rationale": "This item reports on press guidelines in Pakistan, not the United States. The signal targets constitutional stress specific to U.S. domestic conditions. Foreign press restrictions, regardless of severity, are outside the scope of a U.S. constitutional-risk dashboard.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYkQ1R2dDWDBzR2Y0dkhTSkVNUkJOenVsQTNNR0puWklZZzBwVTgtVnlaUHE2cjRUT3FEc2trSUs5dk43ZFJvREdyaXRzLWRSaTlXNDltalYxc004ZC1oRDJVdzk4VEl4UF9vTWxScnhhdFpGazRSTDM0dXJYWVVfbVdKazZ3bEV0VDdPdDBHbm91SGtaeWxaLWFXN1Vib1Q2MDBqaUVWWFdDd0RNMENpLVpnUUQ5YjVDVXN1bTlqemM5MV8wcGc?oc=5": {
+      "actor": "Trump administration (White House)",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.pbs.org",
+      "rationale": "Lawsuit by major news organizations (CNN, MSNBC, Politico) alleging denial of White House access is credible evidence that state action restricting press access has occurred. This is a real, documented action that raises legal and logistical costs for independent reporting, though it remains contested in court. The action itself\u2014denial of access\u2014has taken place; the lawsuit confirms the factual occurrence of the restriction regardless of litigation outcome.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVFUxZDVISnpHMnZHT0s0NFk5WERVM2Mwd3NybGV0WkZjQkxabmRINEZCWVhyUE5EMVF0ZDRtRzVYSjVmR0hrcU9wUjdsX0VzWW9lTENCeHRLTllBNk1ycXJ3bnhOd3pIcFl4b25MOE5GU0FhMmU3WUhCS1RnZnFheWRYS1ZVMkhScHFzWHNrWUxxYVRKVDVza2I5RnVBa1pDYlA5X29hUXQ0R2lRSzBVOTd6WUMyZ0sySkVSR0t3bEE1Ym9XLXA5Tg?oc=5": {
       "actor": "Unknown",
@@ -6704,6 +6874,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/18/2026-19207/homeland-security-acquisition-regulation-make-personal-protective-equipment-in-america-act",
       "rationale": "This is a final rule implementing statutory procurement requirements for PPE manufacturing under the Make Personal Protective Equipment in America Act. It is a routine regulatory action implementing existing legislative authority, not an instance of political interference with statistical agencies (BLS, BEA, Census Bureau). The document does not involve removal of statistical leadership, methodology changes outside normal notice, or suspension/delay of data releases. It falls entirely outside the scope of the Statistical Agency Integrity signal.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/22/2026-19301/proposed-data-sharing-activity": {
+      "actor": "Commerce Department, Census Bureau, Bureau of Economic Analysis",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/22/2026-19301/proposed-data-sharing-activity",
+      "rationale": "This is a routine Federal Register notice proposing a data-sharing arrangement between two statistical agencies (Census Bureau and BEA) under statutory authority (CIPSEA). The notice is a procedural proposal requiring public comment and is part of standard interagency coordination within normal governance frameworks. It does not constitute political interference, removal of leadership, unauthorized methodology changes, suspended data releases, or any action that undermines statistical agency integrity. Data sharing between statistical agencies, conducted transparently and through established legal channels, is routine administrative practice, not a constitutional stress signal.",
       "severity": 0
     }
   }
