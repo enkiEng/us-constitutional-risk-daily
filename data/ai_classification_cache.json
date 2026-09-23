@@ -653,9 +653,29 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74810738/8/rascol-v-field-office-director-of-enforcement-and-removal-operations/",
       "rationale": "This is a motion filed by a plaintiff seeking court intervention (a motion to enforce a judgment and for a stay of removal). The filing itself is a request for judicial relief, not evidence that an executive body has refused to comply with a court order. The motion alleges potential noncompliance or imminent harm, but filing a motion is the mechanism by which a court addresses such concerns\u2014it does not itself demonstrate that noncompliance has occurred or been ordered. Without evidence in the docket that a prior order was issued and then openly defied by ICE, this document represents a pending legal dispute rather than verified court-order noncompliance.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74834505/1/united-states-v-gatsby/": {
+      "actor": "Court (D. Arizona)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74834505/1/united-states-v-gatsby/",
+      "rationale": "This is a routine docket entry for a miscellaneous case involving a motion to enforce an IRS summons. It documents a court filing, not an instance of executive or administrative noncompliance with a court order. The case opening and motion filing are procedural steps within normal judicial process. There is no evidence here that any executive or administrative actor has refused or failed to comply with a court order. This is a legal proceeding in progress, not a signal of court-order defiance.",
+      "severity": 0
     }
   },
   "election_administration_capture": {
+    "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRFRIZjBMYnRPa0tmMWxjZjNONDFSaUlPMTRaOGNtWDFrXzdEYUMyb1pHS3J6WWRkX2tYaS1qS0s0cFNKR1Z5M0RZbUkwTXRJc1pfNGxPaWFELThBUEhGRW9fQVRBY0hZcmxkN0JFWk9URUdaQzktR181TzNCV2xfUHNnblVidExIMXhrdXRuR0JFbUdvVGxsQ2o4eVZ3OWVYb0llN0RCVlVpVFRZd2lWbFpoeEljbHdtdk5jVW1SdWN4Y25kVktWbkUwWUxGNFMw0gHQAUFVX3lxTE1EVEhmMExidE9rS2YxbGNmM040MVJpSU8xNFo4Y21YMWtfN0RhQzJvWkdLcnpZZGRfa1hpLWpLSzRwU0pHVnkzRFltSTBNdElzWl80bE9pYUQtOEFQSEZFb19BVEFjSFlybGQ3QkVaT1RFR1pDOS1HXzVPM0JXbF9Qc2duVWJ0TEgxeGt1dG5HQkVtR29UbGxDajh5Vnc5ZVhvSWU3REJWVWlUVFl3aVZsWmh4SWNsd212TmNVbVJ1Y3hjbmRWS1ZuRTBZTEY0UzA?oc=5": {
+      "actor": "California Elections Chief (alleged); FBI",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://patch.com",
+      "rationale": "An FBI visit following an election official's allegation of ballot stuffing is a real occurrence and represents investigative action. However, an allegation of criminal misconduct by an individual official does not itself constitute evidence that election administration was systematically moved from neutral to partisan control. This is a discrete complaint and investigation, not structural capture of the election system. The signal requires evidence of partisan control of the machinery itself, not individual allegations of malfeasance.",
+      "severity": 1
+    },
     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLUlPcWVRb1U4bzB2LXl4SldReFRZamxhaWdiZTN6Y21telh0X3VhQkRlbW1rTmlIeWRNdDF4WnBTVEh0bVJNci0zXzgyWU1TaHdSbGNGbFltYmY5WlRrYnpSNjhtUnlTN0hQMEhnajVuUkZoemI1Z0wxYmhNY1RkNEVaaGJhQkdmSEJzWjdjbU5PTGJoVnppb0xUODFaM1FWUWVwU3NqcUxUWVRfa2RMejhITkVoVHpKNkZnV1Awa0RSMnl4Mlo3NTB2OUF6MU0xbEVQNXRuM25hU04yQWc?oc=5": {
       "actor": "North Carolina Governor Stein",
       "confidence": 0.95,
@@ -836,6 +856,16 @@
       "rationale": "This item reports on Trump pushing the Supreme Court on mail-in voting policy after a legal loss. This is a litigation and advocacy action, not evidence of election administration being moved from neutral process to partisan control. Pushing a court on policy is normal political/legal activity. No material evidence that election administration itself has been captured or moved to partisan control.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMifEFVX3lxTE9KTHV4OEFfWjhKanViMEhlRWpnZko5bUFPNEkwRjZ1ZTRxdnByV0lZSndlbmlXY0JNQktfM05fSGh3OHRuZmx2bGVVbGZiSVFndy1rNjA1ai1KRXlFcjlOYi1wOF9MemxJbXlhTmZNSU1ZYzF6YkpkZVc3bTM?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.theatlantic.com",
+      "rationale": "The title suggests opinion/analysis about alleged influences on Trump. Without the full article text, this appears to be commentary or speculation about who advises the President, not evidence of an actual capture of election administration machinery or a verifiable action that moved it from neutral to partisan control. Titles about who is 'in someone's ear' are typically analytical rather than reporting a concrete administrative action.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVjY5ZXBYOGdvQ3NkLTVHUXFjdm5CbUprWTJwMHFtM3QwRGZ5ZXBsajhyM2t4VmhkeGlfYVZzQVVOTUcwTW5vWDRwNmtzZHc2ZUV1WWo2bUl3WmN5QnBDODlkbnVNRm5vcUpUSVExNFNGRld0a2pnYXV0Uk81NjF2RdIBhgFBVV95cUxNWjA2WHMwYnZreHZxZUVNQThGWEdSb3BnOEIxWXNuTV9qU0c4NW5pSE1TMGNTd3VOVmh3eVRqVjZva3Bxem83YWQ5c0JYS2MwQkhxbGl0dFBudlJ6dDFTX0IxdXB1bDdOZF8zSVA2REZjWDB4MERwX1p1WENXRnFUR0d4WWJVUQ?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -845,6 +875,16 @@
       "primary_source_url": "",
       "rationale": "Election results coverage is routine news reporting of a normal election administration process. No evidence of capture, partisanization, or deviation from neutral process.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ3FkcjZCLUVxSGwyd1ZsdGhVR2tFRFZYUXVfTHdxSnFVdnU0LWcyYTlQSHhQdHFJbWhRRVRCNWxScWFvZXFRbHBJMHBPOUdfdDN1NmQxQ281QW44RldJczRySjNfQm5rMUFCQnBLTVRwZUlnVWNIZE9fS292YS1FTA?oc=5": {
+      "actor": "ACLU (plaintiff); South Carolina Election Commission",
+      "confidence": 0.88,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.aol.com",
+      "rationale": "A lawsuit alleging FOIA violations and questioning an executive's removal is a real legal action. However, the filing of a civil suit for records violations does not constitute evidence that election administration has been captured and moved to partisan control. This is a dispute over transparency and personnel procedure, not evidence of systematic partisan takeover of election administration functions.",
+      "severity": 1
     },
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZW5QVTgtWFhobXNwNVRZVlhJRFRrWm9UcnFHWnFldmM2VWJ2aEJYUnlkVlpIazV0bDBoWnpZRGFHZTBZbWlHVkcwTC0zZXBvV2lGMnFBMzhmeURPNlpYYVA2SDFzRU5CcXNQZW9vM3BidnZFVVFWd2Q3Vk9UazA3Yk9uaw?oc=5": {
       "actor": "Trump administration (hypothetical)",
@@ -1220,6 +1260,16 @@
       "matches_signal": true,
       "primary_source_url": "",
       "rationale": "The headline uses the word \"considers,\" which indicates a hypothetical or prospective action, not a confirmed occurrence. No emergency has been declared or invoked. This is speculative reporting about what someone might do, not evidence that emergency powers were actually expanded or used to bypass legislative process. The source domain (sekbernews.id) is not a recognized U.S. news outlet and lacks credibility. Without independent verification or official documentation of an actual emergency declaration or emergency power invocation, this cannot be classified as real evidence of the signal event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTV9yWkhhejBaMXdnQm9BY3RxSmI5WWJuS1FyUjlXVHgwVmtNRzY5Znd1OGRrMHBtZHlYQk5heFYtcFAtS2tuYnBqalRQOF8tc2hIWFFQWnB0S3g1ODBKbkJoYTBNY1lfSURzVW5ZQ0lfSk52a1liTVJjdnEwVlZlYURaMkx5cFhDOENTOGF6QWd0UU5ranpCVzZYbw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an opinion/editorial piece (explicitly tagged 'OpEd') analyzing or critiquing a potential trend toward overclassification of national security threats. It does not describe a verifiable emergency power actually invoked or expanded, nor does it document a specific action taken by the executive or legislature to bypass ordinary legislative process. It is commentary about a concern or pattern, not evidence that an emergency authority was actually deployed to circumvent normal procedures.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMisAFBVV95cUxObUlQN3lOZGtTT0JXMXg1eWVHa1RhSFpaMlI5VnJlSTNidWJpTGNycEhUYnUza1dxaWU4NFd5aUkxTDgyLV93b0NJbGE4Q0FMZDVQalVOY29FSlNwNTdLcDRfVzVKS1R6UWtzSlQtVU9zMi1GUkJFUkhqZ1pIVzFqckNPbHlna3pudXBjcXlxN0JwcmlSWDhqR0I2ZGplenhLT1U5QUItUUgwM1RXLTkwUw?oc=5": {
@@ -2515,6 +2565,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74824706/1/freedom-economy-business-association-v-united-states-department-of-the/",
       "rationale": "This is a filed civil complaint seeking declaratory and injunctive relief against Treasury Department officials and the CDFI Fund. A complaint is a legal pleading initiating a lawsuit\u2014a proposal for relief, not an accomplished action. The filing itself does not constitute retaliation against watchdog functions or anti-corruption monitoring. No evidence is presented that an Inspector General has been retaliated against, that watchdog authority has been stripped, or that anti-corruption monitoring has been obstructed. This is a routine litigation filing by a private business association against an executive agency, which does not evidence the signal event.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74824973/1/holmes-v-state-of-nebraska/": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74824973/1/holmes-v-state-of-nebraska/",
+      "rationale": "This is a filed civil complaint in a district court case. The summary is truncated and does not describe any retaliatory action against an Inspector General, watchdog function, or anti-corruption monitoring mechanism. It names various state and local officials and entities as defendants but provides no substantive information about the nature of the claim. Without evidence that the complaint alleges IG retaliation, and without any indication that such retaliation has been accomplished rather than merely alleged, this does not constitute evidence of the signal. A filed complaint is a legal action asserting claims, not evidence that those claims describe an actual constitutional-stress event.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -2766,6 +2826,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item provides only a headline stub ('Breaking News - The New Republic') with no substantive content describing any actual event. There is no detail about judge intimidation, official pressure, or any verifiable action. This appears to be a metadata artifact or incomplete news reference rather than a reportable incident. Cannot assess whether any real occurrence took place without actual content.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SaEE5U2lnMl9rSFczZWVoVS1qdFNrQ3ljSC1RQnAxNVNGUnk3Nm1WMHYzNHZuNWpSZHh4dDlVWEN2YUk4Nm51N2VGSDhYNjE4RGtYQ09HU3V1U1p0?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item is from The Himalayan Times and concerns Nepal's institutions, not the United States. It is not relevant to a U.S. constitutional-risk dashboard. The signal concerns judge intimidation campaigns in the U.S.; this is a non-U.S. event and therefore excluded from analysis.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uOUZjekNIbVE0dkdjODJEWF9sY2Y5RzFMTm5RN0hyWlQ3SGg0VmRTZzdNUnBGa3Nlck1OQ2dfaDBxTXBlUnF2LUhlem9zMFpDOGh2eEdUb2czTldGOHNTMHFBVGpmc2l3NHZRZXZqUFNKVWhqTWdoQ3E0MA?oc=5": {
@@ -3794,6 +3864,16 @@
       "rationale": "This confirms the same mail-order ballot crackdown order, now characterized as an executive action on election rules (federalism and separation-of-powers concerns suggest unilateral executive authority over a legislative domain). Congressional members are seeking Supreme Court intervention, indicating the order has already been issued and is in effect. This is a real, verifiable executive action in the electoral domain. However, the item is press coverage of the action and the petition for relief, not the action itself or an official legal determination that the action violated the Constitution. The action exists; the constitutional question is pending. Severity 2 for a real, confirmed, but not yet adjudicated executive action in a legislative domain.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbThYYWVQQlNWSDJJa2tnbVo4aHlpZzJfWDZtdjJaeHJCaDN6aFh5WldvTmU2cmh0d014NzgzMkRvOG1HN0R5dkN5LUtYZTZ0TjFZVVRDQUd1dGpWUG5lNG1Yano5UnU1cG9ZMGhUamNFVWJyT1JsZl80T3FHR1pjS1MxQWc1aFd0UV9iT0FobW9KZndJSTJmYWpjME1KQVJpREhQSEhzQ3h4bmhlUzdTand3?oc=5": {
+      "actor": "Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.scotusblog.com",
+      "rationale": "This item reports the Supreme Court's refusal to become partisan\u2014a statement about the Court maintaining institutional neutrality, not about the Court being bypassed or executive power shifting from statute to unilateral action. The headline affirms judicial independence and institutional integrity rather than documenting a legislative bypass by executive action. No real evidence that major governance actions have shifted from statute to unilateral executive action.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSVlabHBtcVNXbmt5c0JkYVRJbjBKMnktalY3RHNQSVV3V1R4Q0FIbXRCV3BNNlFLTzlPazQ1Rm56TFBkVlV3UXVkZDlRTklzZC1KajFFUTRlb1A5dXNOdEFuNjB2c29SOW16SGRLazFwd2Z1Sm4wT0tWTXc2X3FzcDdFdUlpdklJM0VYeXlPZHU1YmJvVDRKN2ZmU3NuWXJUNXNqNXVfRnJzQXRFSUFqWWF3TQ?oc=5": {
       "actor": "Trump",
       "confidence": 0.93,
@@ -4095,6 +4175,16 @@
       "primary_source_url": "",
       "rationale": "This item reports a watchdog group's call for an appeals court to revisit a conviction. It describes a request or advocacy position, not a verification of legislative oversight obstruction. No systematic barriers to fact-finding or executive accountability are described. The item does not constitute evidence of the signal (legislative oversight obstruction). A watchdog group petitioning a court is routine democratic participation and legal process, not obstruction of legislative oversight. No specific action by government to obstruct Congress or impede accountability is detailed.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMifEFVX3lxTE95M2VhUng0Rjg2QXlDMkI0ZVVBRWozaW9xcm5lemJhRGpwazA3dzFIMmZxRHRVZTZMS2RiRHNvTWVSYjU1bkZPemY3TzF2RFMyY2Ywa0xJeGlEUmJYbk9DcndBUkxseTBVUUZHdkczLXB6MXQxNEJFXzdoRzc?oc=5": {
+      "actor": "U.S. House of Representatives",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "A House vote to hold a witness in contempt for failure to comply with subpoenas represents a real exercise of legislative fact-finding authority and a response to obstruction of legislative oversight. This is a confirmed action (a House vote occurred) that demonstrates the legislature asserting its power to compel testimony and sanction non-compliance. However, severity is 2 rather than higher because: (1) this is a single enforcement action against one individual, not a systematic barrier to legislative oversight; (2) contempt votes are a normal, routine tool of legislative authority, not evidence of obstruction of that authority itself; (3) there is no indication here that the legislature's fact-finding power has been systematically impaired or that executive officials are defying legislative processes. The signal 'Legislative Oversight Obstruction' typically flags when oversight capacity itself is being blocked or removed. A contempt vote is the legislature exercising oversight, not being obstructed from it. This scores as a real but contained stress signal rather than evidence of systematic barriers to legislative accountability.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM05CU2VxRFo4bTRkMHFOT0t3TERtT3FtV1o2dkV6TTdUV1ZxeElyNEdTNUhLUWlzLWVIYzVZM0dLeEpiOUdsanRHaGxubGV4UDl2eTI4bWVicFpjMElmbGNPS3pLZFVXZE9UOWI2N0VlSTA1SnJNbmxYcEcxZFVpRTRB?oc=5": {
       "actor": "Leon Black (private citizen)",
@@ -4850,6 +4940,16 @@
       "rationale": "This is a civil complaint filed against DHS by civil rights and labor organizations. The summary does not indicate any use or threatened use of military in domestic partisan political disputes. It is a routine lawsuit docket entry\u2014a proposal/filing, not an accomplished action involving military deployment or coercion. The signal requires evidence of military involvement in partisan conflict; a complaint against DHS does not demonstrate such involvement.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74815064/10/2/california-nurses-association-v-mullin/": {
+      "actor": "California Nurses Association, City and County of San Francisco, County of Santa Clara, National Nurses United, Voto Latino Foundation",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74815064/10/2/california-nurses-association-v-mullin/",
+      "rationale": "This is a pending motion in a civil case (California Nurses Association v. Mullin). The docket entry records procedural filings\u2014a motion for preliminary injunction and a motion for discovery\u2014with a hearing scheduled for October 2026. No determination has been made; no action has been taken by a court or official. This is a request before the courts, not an accomplished event. The case caption and parties suggest this may involve healthcare or immigration policy, but nothing in the summary indicates military involvement in political conflict. This is a routine civil litigation proceeding and contains no evidence of the domestic military use signal.",
+      "severity": 0
+    },
     "https://www.federalregister.gov/documents/2026/08/06/2026-16125/establishing-the-presidents-military-spouse-commission": {
       "actor": "Executive Office of the President",
       "confidence": 0.98,
@@ -4962,6 +5062,16 @@
       "rationale": "A court ruling preventing the Iowa Libertarian Party from replacing candidates on the ballot for governor and Congress nominees is a real, judicially-ordered exclusion of opposition candidates from the ballot. This represents a credible, confirmed action (a court order) that removes opposition candidates from meaningful ballot participation. The action is narrow in scope (one party, one state, specific offices) and is subject to appeal, limiting severity to 2 rather than 3+. However, it is verifiable evidence that systematic removal has occurred through judicial order.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSTRqc1p6UFlnd2ZGeHBfZXN4N285WHM1ektia2xwUGotTkI1N08zWGR2bjhXNm5rSXpaS0RwRkVoVEl1TXVJZm1hOGtSWTI2ZGVPajBlQVR5ZU9JSmw3QWpIQkNtTVk3aWdlWTY4OHJlRm1YalhvRlNUdWRYeUVnbVJLOXFBWU9QbnA2QmZlWUVsWlRhTkFROG0tdk11dHJEemNaTE8wLTUzeGdRakxpMHBGdnVxYWFWdHo4LTRDblJrSDZIS0luaDNoNl9GeEo5VjNYX0pDdlVtenNUeE9UYXlQSjI4cUZJOUxObkl0cW4?oc=5": {
+      "actor": "Israeli Central Elections Committee",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes an action by Israel's Central Elections Committee regarding Israeli elections and Israeli political parties. It is not a U.S. domestic event and therefore does not constitute evidence of the Opposition Ballot Exclusion signal occurring in the United States.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOb1NfbHdGdzlsaEVEY2ZYeDU0SGprT2dkQnpVb3ptUFFjWi1NLVlWTzJwYzlzMlRFZ3hnQUdYMU10WkR5Y2syZDNkWU8yc1J1STdMWGphaUJNNnZiTFZMeU1uSlFwaTY5ZjF6X0VYMUtoVGVXQ1g0RWN3NWtEclRWVFhCOC1EZVNhZnBCR0JjYjFTQV9GU0dWeUZPT2VTZWlVZlpEUFJ4aUdzeWlzV2llRV9WVXhabnVmYktGcWRwQ3JNU21zSEYxaEo0cHFKZU1LRTlZSlVnLU5qdWJlQnlmc3g5MUtzWHFjbTRuOUtCa2tFUdIB8gFBVV95cUxOb1NfbHdGdzlsaEVEY2ZYeDU0SGprT2dkQnpVb3ptUFFjWi1NLVlWTzJwYzlzMlRFZ3hnQUdYMU10WkR5Y2syZDNkWU8yc1J1STdMWGphaUJNNnZiTFZMeU1uSlFwaTY5ZjF6X0VYMUtoVGVXQ1g0RWN3NWtEclRWVFhCOC1EZVNhZnBCR0JjYjFTQV9GU0dWeUZPT2VTZWlVZlpEUFJ4aUdzeWlzV2llRV9WVXhabnVmYktGcWRwQ3JNU21zSEYxaEo0cHFKZU1LRTlZSlVnLU5qdWJlQnlmc3g5MUtzWHFjbTRuOUtCa2tFUQ?oc=5": {
       "actor": "Russian courts and electoral officials",
       "confidence": 0.99,
@@ -4992,6 +5102,16 @@
       "rationale": "This item reports on Russian electoral exclusions, not U.S. events. The signal is defined for U.S. constitutional-risk assessment. Events occurring in Russia, regardless of their similarity to the signal pattern, fall outside the scope of a U.S. domestic constitutional-stress dashboard. Mark as non-U.S. and therefore not evidence of the signal in the United States.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DZ3diNEd6M1FQR21XQWk4WkNSMFZNbnNNTkV0NkpObFBQNWwyWkcyak1DZEJCZzBYRFZfeHRZWjRjT1pVRGJWZW0waUFXT1lpSW9ZUk9n?oc=5": {
+      "actor": "Israeli Election Panel",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes an action by Israel's election panel regarding an Arab party candidate in Israeli elections. It is not a U.S. domestic event and therefore does not constitute evidence of the Opposition Ballot Exclusion signal occurring in the United States.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB5ZlVmZDBBOXVKUzAtQnM1U3VlUnNNZWhodjlrcFJUdngxZktUdnlRMGxVLVRjcjJXNFVNWk1tVDVfX1JpX3dxWFVSLTM4aWprWXFBeFJn?oc=5": {
       "actor": "Unknown entities approaching Action Alliance party",
       "confidence": 0.35,
@@ -5001,6 +5121,16 @@
       "primary_source_url": "https://instagram.com",
       "rationale": "An Instagram post from an Action Alliance Spokesman claims that people approached the party with settlement offers to remove them from a deregistration suit. This is a claim of alleged coercion or pressure to withdraw from legal action contesting deregistration/ballot access. However, the reference to '#2027Politics' and the party names (ADC, AAC, APC) suggest this may refer to a non-U.S. context (possibly Pakistan or another country with similar political naming conventions). Without clear U.S. domestic confirmation and relying on a low-credibility social-media-only source with unverified claims, this merits lower confidence and severity as potential evidence of U.S. ballot exclusion. The claim itself\u2014if true\u2014would evidence pressure/coercion but is not independently verified.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rREFBYjNTdF9DaFhsRmVfWnp4cnd0UWxqZjdicmxzb25BZHZVbnZMYkN6NlFUbktFMHdqQ2NQZmxrUTV2aF9CbHFTaHBLMDNEN2dMUUpaZFZwcmYydFp2d0V4c3FRdG01?oc=5": {
+      "actor": "Israeli Election Panel",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes an action by an Israeli election panel regarding the Knesset race and Israeli political candidates. It is not a U.S. domestic event and therefore does not constitute evidence of the Opposition Ballot Exclusion signal occurring in the United States.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXTWxUTUFGWkhKZnZkdmI3Ry13MFZkaHZ1d0NPQmVZaTFZenpxSjN3SmNwclBDOVkyN1AzS09mZjdjdXZZdVJtcDBPeWkwSFIzUW1wTGxzaFMzNk96bUNtMENiWkozTjBXcHc?oc=5": {
       "actor": "N/A",
@@ -5636,6 +5766,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item concerns Jos\u00e9 Rub\u00e9n Zamora in Latin America (Guatemala), not the United States. Outside scope of US constitutional-risk assessment.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRG1mU19GazcydTI3WFk5c1lUTkY0c2d3YjA1bW04Z1FHNmZrRHRKN29nRlRCTU95RzZPdWZ3WW9YMEJrdndDZTcxNkVPd3FyaDNlVkdaVXJtMGkwYXIzMUtyU0p4WW9zT0J1NVZxUXRVa3FSVm11Tko1c1hiV1ZBQVlmVmFMcWRVWDhtQVhsRjY2VVpVUUtoM0dwYnJsa0laTTRMSTJlWHBBa2V4ZFhhTVZvRi04emk0NlVWMVByYlphNUQ0Y1NhTVNZWXotbHlHX2hjWXZPTDFVeDg?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item references a hypothetical or future scenario ('banned by Trump,' 'in solidarity with media banned') rather than confirming an actual, verifiable action that has occurred. The headline uses conditional framing ('revolt in solidarity') which suggests a response to a proposed or threatened action, not a confirmed press restriction or retaliation that has already taken place. Without a credible primary source URL and without confirmation that specific media outlets have actually been legally banned or subject to state retaliation, this qualifies as speculation or opinion about potential future press restrictions rather than evidence of a real constitutional stress event. The item does not establish that state action raising costs or legal risk for independent reporting has actually occurred.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOU1dVeTdhblMyTTNVNExDbFRFQjlneGRCTG5DNlhSOU5xSUlSRGNDcTB1NUM5UFFwRHNXVnNqZ2xxekZTQ21EVFlnUVpkMEZKdGFNblJ1WHdELXhoQnpMb3JqLTNkQXBTbzVoeGcybUtVeUhweWV0REhUNUJKZFQwTV9nWGxrel9LcmdhM01LZTJpRFgzTFlLMGxWb2xjcTdyZTMxM1Q1ZXNDQnBwVS1hUkRNYjVkMXhHcmlSbGdpNjVHN1VkLXp4UGR5WF9oZ21NbjRYUDlGVHZENHpvQmUw?oc=5": {
@@ -6884,6 +7024,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/22/2026-19301/proposed-data-sharing-activity",
       "rationale": "This is a routine Federal Register notice proposing a data-sharing arrangement between two statistical agencies (Census Bureau and BEA) under statutory authority (CIPSEA). The notice is a procedural proposal requiring public comment and is part of standard interagency coordination within normal governance frameworks. It does not constitute political interference, removal of leadership, unauthorized methodology changes, suspended data releases, or any action that undermines statistical agency integrity. Data sharing between statistical agencies, conducted transparently and through established legal channels, is routine administrative practice, not a constitutional stress signal.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/09/23/2026-19493/patient-protection-and-affordable-care-act-temporary-moratoria-on-certain-agent-and-broker": {
+      "actor": "Department of Health and Human Services",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/23/2026-19493/patient-protection-and-affordable-act-temporary-moratoria-on-certain-agent-and-broker",
+      "rationale": "This is a routine interim final rule from HHS regarding insurance exchange registration procedures. It concerns regulatory authority over broker and agent participation\u2014a standard health administration matter. It does not involve interference with statistical agencies (BLS, BEA, Census Bureau), removal or replacement of statistical leadership, methodology changes to official economic data, or suspended/delayed/withheld economic data releases. The signal explicitly targets political interference with federal statistical agencies producing official economic data. This document falls entirely outside that scope.",
       "severity": 0
     }
   }

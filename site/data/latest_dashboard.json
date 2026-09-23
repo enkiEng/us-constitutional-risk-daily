@@ -1,6 +1,6 @@
 {
   "attempted_queries": 24,
-  "average_7d": 15.24,
+  "average_7d": 15.53,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,8 +9,8 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": 0.11,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": 0.22,
   "domain_breakdown": [
     {
       "avg_severity": 1.0,
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.8,
+      "avg_severity": 1.0,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 1.6,
+      "points": 2.0,
       "weight": 8
     }
   ],
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-22T12:39:49.754507+00:00",
+  "generated_at": "2026-09-23T12:40:51.031856+00:00",
   "methodology_version": 2,
-  "previous_score": 16,
+  "previous_score": 15,
   "primary_sources": {
     "documents_confirmed": 2,
-    "documents_fetched": 19,
+    "documents_fetched": 17,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,58 +86,11 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 15,
-  "score_raw": 15.35,
-  "score_raw_pre_trip_wire": 15.35,
+  "score": 16,
+  "score_raw": 15.75,
+  "score_raw_pre_trip_wire": 15.75,
   "successful_queries": 24,
   "top_signals": [
-    {
-      "confirmed_hits": 3,
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://www.pbs.org/newshour/politics/cnn-ms-now-politico-say-theyve-notified-trump-theyre-suing-over-denied-white-house-access",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYkQ1R2dDWDBzR2Y0dkhTSkVNUkJOenVsQTNNR0puWklZZzBwVTgtVnlaUHE2cjRUT3FEc2trSUs5dk43ZFJvREdyaXRzLWRSaTlXNDltalYxc004ZC1oRDJVdzk4VEl4UF9vTWxScnhhdFpGazRSTDM0dXJYWVVfbVdKazZ3bEV0VDdPdDBHbm91SGtaeWxaLWFXN1Vib1Q2MDBqaUVWWFdDd0RNMENpLVpnUUQ5YjVDVXN1bTlqemM5MV8wcGc?oc=5",
-          "published": "2026-09-21T11:39:54+00:00",
-          "publisher": "PBS",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "CNN, MS NOW, Politico sue over Trump denying White House access - PBS"
-        },
-        {
-          "canonical_link": "https://www.whitehouse.gov/releases/2026/09/white-house-access-is-a-privilege-not-a-right/",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaGRBVWRLbk5HdHk2ZnB3bUVaZG40VzRZbGEzNDRQcGJucWtOZ1ljWW9RMm9uN0NQQTVLN1JHdTA2dnRucG9oYVhmN3ZoQmZ5X2FWdXZVbTlvMmozckNnS1A2Ujh1bkQ4NTE4ZzRoaVBCWS1DanUzRFhfRmM0bkJrMmxKbTMzbGdZX3VmZDFmcnJHNWJQ?oc=5",
-          "published": "2026-09-21T18:01:52+00:00",
-          "publisher": "The White House (.gov)",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "White House Access Is a Privilege \u2014 Not a Right - The White House (.gov)"
-        },
-        {
-          "canonical_link": "https://streamlinefeed.co.ke/news/journalists-detained-and-deported-in-us-immigration-crackdown-investigation-finds",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR1NvZWExbjhRbWJzRmNOWVpMRlVNRlZyZ2FnVFFRajg3MFBwdUJ0ZGJ1TmlYQkd3ZllBdzZTR1hmX3VQVmlSRjJhOTNGMkZSYlNHeVY0bjRCX1YwTXZJR19Bc1d3aDcyM3dxVmFvNlpyTGI5bHI4bTREM2thNlpxOUREOG5BT0RXYjBoTXNZVzF0WjlxbkNKc0NfQXkybDNaZHVjTXF5Sjl1LS01QzlBUDJDd0NJUQ?oc=5",
-          "published": "2026-09-21T07:04:56+00:00",
-          "publisher": "streamlinefeed.co.ke",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Journalists detained and deported in US immigration crackdown, investigation finds - streamlinefeed.co.ke"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 5,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://www.pbs.org",
-      "rationale": "Lawsuit by major news organizations (CNN, MSNBC, Politico) alleging denial of White House access is credible evidence that state action restricting press access has occurred. This is a real, documented action that raises legal and logistical costs for independent reporting, though it remains contested in court. The action itself\u2014denial of access\u2014has taken place; the lawsuit confirms the factual occurrence of the restriction regardless of litigation outcome.",
-      "severe_hits": 1,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 3
-    },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
@@ -146,7 +99,7 @@
         {
           "canonical_link": "https://www.motherjones.com/politics/2026/09/maga-activist-jason-frazier-flooded-georgia-with-voter-challenges-now-he-works-for-the-state-election-board/",
           "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY3B6V1ZMWWpwWUZMNmo5NkN5bzZOQ3plRGE2d1lxcUNKbktiTGVmWDRjc3p0dkMzQkJMNmtFR3ZySGxBX3VodEZEanh5OEh1WVlXSjlLU2VzSUhKVGIxSU41VzFhZktyaDdXcjBWUmFZcDVUdXc3MlJtTWZmcWFMSUhtb0RPTWs5NTVyTm9UN1VZZDh1cF9US2RmMG1lbjk0WDRPaW43d2d6UVFobmRmaHVBNmxDcmFvUU5aTDYyaVpaOVloZHoxdDFhMlJKZVl6SDd1Q2N0SGtqRUM2Z0xjVzVBeFF5aF91?oc=5",
-          "published": "2026-09-21T18:49:54+00:00",
+          "published": "2026-09-22T23:54:53+00:00",
           "publisher": "Mother Jones",
           "source_name": "google_news",
           "source_tier": "news",
@@ -154,7 +107,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 6,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -162,6 +115,64 @@
       "primary_documents": 0,
       "primary_source_url": "https://www.motherjones.com",
       "rationale": "This item reports a real, verifiable action: a specific individual with a documented record of partisan voter-challenge activity has been hired into an election administration position (Georgia State Election Board). This is a concrete instance of partisan personnel placement in election administration, matching the signal of election administration moving toward partisan control. The placement is confirmed and has occurred, but it is a single personnel decision rather than a structural, systemic capture or an official policy dismantling neutral process. Severity 2 reflects that this is a real, credible stress signal (personnel capture) but not yet a high-severity structural breach.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "canonical_link": "https://www.whitehouse.gov/releases/2026/09/white-house-access-is-a-privilege-not-a-right/",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaGRBVWRLbk5HdHk2ZnB3bUVaZG40VzRZbGEzNDRQcGJucWtOZ1ljWW9RMm9uN0NQQTVLN1JHdTA2dnRucG9oYVhmN3ZoQmZ5X2FWdXZVbTlvMmozckNnS1A2Ujh1bkQ4NTE4ZzRoaVBCWS1DanUzRFhfRmM0bkJrMmxKbTMzbGdZX3VmZDFmcnJHNWJQ?oc=5",
+          "published": "2026-09-21T18:01:52+00:00",
+          "publisher": "The White House (.gov)",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "White House Access Is a Privilege \u2014 Not a Right - The White House (.gov)"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 3,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://www.whitehouse.gov",
+      "rationale": "This is an official White House statement articulating the legal position that White House access is a privilege and not a right. As an official government statement, it reflects a position taken by the administration that can change the practical rights of press members seeking access. The statement itself constitutes state action communicating a legal stance that alters the ground rules for press access, even if no further enforcement mechanism is detailed in this item alone.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "federalism_oversight",
+      "evidence": [
+        {
+          "canonical_link": "https://legis1.com/news/leon-black-contempt-congress-house-votes-to-hold",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95M2VhUng0Rjg2QXlDMkI0ZVVBRWozaW9xcm5lemJhRGpwazA3dzFIMmZxRHRVZTZMS2RiRHNvTWVSYjU1bkZPemY3TzF2RFMyY2Ywa0xJeGlEUmJYbk9DcndBUkxseTBVUUZHdkczLXB6MXQxNEJFXzdoRzc?oc=5",
+          "published": "2026-09-22T16:42:12+00:00",
+          "publisher": "Legis1",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "House Votes to Hold Leon Black in Contempt Over Epstein Subpoenas - Legis1"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": "A House vote to hold a witness in contempt for failure to comply with subpoenas represents a real exercise of legislative fact-finding authority and a response to obstruction of legislative oversight. This is a confirmed action (a House vote occurred) that demonstrates the legislature asserting its power to compel testimony and sanction non-compliance. However, severity is 2 rather than higher because: (1) this is a single enforcement action against one individual, not a systematic barrier to legislative oversight; (2) contempt votes are a normal, routine tool of legislative authority, not evidence of obstruction of that authority itself; (3) there is no indication here that the legislature's fact-finding power has been systematically impaired or that executive officials are defying legislative processes. The signal 'Legislative Oversight Obstruction' typically flags when oversight capacity itself is being blocked or removed. A contempt vote is the legislature exercising oversight, not being obstructed from it. This scores as a real but contained stress signal rather than evidence of systematic barriers to legislative accountability.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
@@ -183,7 +194,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 0,
+      "hits": 1,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
@@ -223,25 +234,6 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.6,
-      "severity_label": "Watch",
       "unique_publishers": 0
     }
   ],
