@@ -1,16 +1,16 @@
 {
   "attempted_queries": 24,
-  "average_7d": 15.53,
+  "average_7d": 16.16,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
     "max": 29,
     "min": 15
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": 0.22,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": 1.52,
   "domain_breakdown": [
     {
       "avg_severity": 1.0,
@@ -27,17 +27,17 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 1.0,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.0,
+      "points": 3.5,
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 2.1125,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.825,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.5,
+      "points": 2.0625,
       "weight": 10
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-23T12:40:51.031856+00:00",
+  "generated_at": "2026-09-24T12:41:35.889204+00:00",
   "methodology_version": 2,
-  "previous_score": 15,
+  "previous_score": 16,
   "primary_sources": {
-    "documents_confirmed": 2,
-    "documents_fetched": 17,
+    "documents_confirmed": 1,
+    "documents_fetched": 16,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,11 +86,40 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 16,
-  "score_raw": 15.75,
-  "score_raw_pre_trip_wire": 15.75,
+  "score": 18,
+  "score_raw": 17.68,
+  "score_raw_pre_trip_wire": 17.68,
   "successful_queries": 24,
   "top_signals": [
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "canonical_link": "https://www.news24.com/politics/anc-takes-iec-list-battle-for-181-excluded-candidates-to-concourt-20260923-0568",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOXzhFZG82WWRDaEJJWWRxNTlnMXZDTWFwYjZrWWlXOVdaMEczd2VpZW5Td1BIMmxWOXR5TWJ6TkZieWhCS1BzbkZCWU1yaG0wczB5ZlQyTHVoQ2NlRE9oTGFkbk9fVGR5aTYzLTNXcWZQYWpGSnRyOTh1bUZWalVtMmZqTDVGaTlZOXZVOXVKb09fMkh2QzJtQkozN2lSU0c3ZnpGbWNQdnl4MTZDOVpKVQ?oc=5",
+          "published": "2026-09-23T12:17:20+00:00",
+          "publisher": "news24.com",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "ANC takes IEC list battle for 181 excluded candidates to ConCourt - news24.com"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 12,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://www.news24.com",
+      "rationale": "Item reports the ANC challenging the IEC's exclusion of 181 candidates from its list in South African elections, now being taken to South Africa's Constitutional Court. While this involves ballot exclusion, the IEC and Constitutional Court referenced are South African institutions, not U.S. institutions. The event is in South Africa, not the United States.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
@@ -99,7 +128,7 @@
         {
           "canonical_link": "https://www.motherjones.com/politics/2026/09/maga-activist-jason-frazier-flooded-georgia-with-voter-challenges-now-he-works-for-the-state-election-board/",
           "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY3B6V1ZMWWpwWUZMNmo5NkN5bzZOQ3plRGE2d1lxcUNKbktiTGVmWDRjc3p0dkMzQkJMNmtFR3ZySGxBX3VodEZEanh5OEh1WVlXSjlLU2VzSUhKVGIxSU41VzFhZktyaDdXcjBWUmFZcDVUdXc3MlJtTWZmcWFMSUhtb0RPTWs5NTVyTm9UN1VZZDh1cF9US2RmMG1lbjk0WDRPaW43d2d6UVFobmRmaHVBNmxDcmFvUU5aTDYyaVpaOVloZHoxdDFhMlJKZVl6SDd1Q2N0SGtqRUM2Z0xjVzVBeFF5aF91?oc=5",
-          "published": "2026-09-22T23:54:53+00:00",
+          "published": "2026-09-23T10:49:39+00:00",
           "publisher": "Mother Jones",
           "source_name": "google_news",
           "source_tier": "news",
@@ -107,7 +136,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 6,
+      "hits": 4,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -121,29 +150,38 @@
       "unique_publishers": 1
     },
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 2,
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "canonical_link": "https://www.whitehouse.gov/releases/2026/09/white-house-access-is-a-privilege-not-a-right/",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaGRBVWRLbk5HdHk2ZnB3bUVaZG40VzRZbGEzNDRQcGJucWtOZ1ljWW9RMm9uN0NQQTVLN1JHdTA2dnRucG9oYVhmN3ZoQmZ5X2FWdXZVbTlvMmozckNnS1A2Ujh1bkQ4NTE4ZzRoaVBCWS1DanUzRFhfRmM0bkJrMmxKbTMzbGdZX3VmZDFmcnJHNWJQ?oc=5",
-          "published": "2026-09-21T18:01:52+00:00",
-          "publisher": "The White House (.gov)",
+          "canonical_link": "https://www.federalregister.gov/documents/2026/09/24/2026-19600/civil-monetary-penalty-amounts-for-2026",
+          "link": "https://www.federalregister.gov/documents/2026/09/24/2026-19600/civil-monetary-penalty-amounts-for-2026",
+          "published": "2026-09-24T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Civil Monetary Penalty Amounts for 2026"
+        },
+        {
+          "canonical_link": "https://radio.wpsu.org/2026-09-24/warren-demands-trump-officials-explain-removing-a-ban-on-interference-in-census-data",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUGFJaGdCdDQ3NGFqTWprYk04aVhTdXJGZXhUMVZ1Tm5yQWtWUkloQzJFNjhnR0lBd3pNQ1BiVTF0OERvOGpudHMzWEFpU3k0MS1UbWFtTGpCeWdFQWFUX1l3VldaajJJVHFsdnF4OHduRHZQN1BGODBiang3Z0pNZjJLa3g4ZmhWcDdUYTRuY0hLT05yeTlUNVRTa2RCLVZTVjNfR1h5MFVGZkJmNUhTNS0yejBSbi1YcWc?oc=5",
+          "published": "2026-09-24T09:00:00+00:00",
+          "publisher": "WPSU",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "White House Access Is a Privilege \u2014 Not a Right - The White House (.gov)"
+          "title": "Warren demands Trump officials explain removing a ban on interference in census data - WPSU"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "hits": 1,
+      "id": "statistical_agency_integrity",
+      "name": "Statistical Agency Integrity",
       "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://www.whitehouse.gov",
-      "rationale": "This is an official White House statement articulating the legal position that White House access is a privilege and not a right. As an official government statement, it reflects a position taken by the administration that can change the practical rights of press members seeking access. The statement itself constitutes state action communicating a legal stance that alters the ground rules for press access, even if no further enforcement mechanism is detailed in this item alone.",
+      "primary_confirmed": 1,
+      "primary_documents": 6,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19600/civil-monetary-penalty-amounts-for-2026",
+      "rationale": "This is an official Federal Register notice confirming that the HUD has not made inflation adjustments to civil monetary penalties for 2026, as required by statute. This represents a departure from mandatory procedure, though the practical impact on BLS/BEA/Census integrity is unclear. The act itself (non-compliance with inflation adjustment requirement) has occurred, but severity is moderate because the connection to statistical agency integrity is indirect and the item does not demonstrate interference with core economic data production.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
@@ -179,61 +217,60 @@
       "unique_publishers": 1
     },
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/09/16/2026-19053/continuation-of-the-national-emergency-with-respect-to-persons-who-commit-threaten-to-commit-or",
-          "link": "https://www.federalregister.gov/documents/2026/09/16/2026-19053/continuation-of-the-national-emergency-with-respect-to-persons-who-commit-threaten-to-commit-or",
-          "published": "2026-09-16T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Continuation of the National Emergency With Respect to Persons Who Commit, Threaten To Commit, or Support Terrorism"
+          "canonical_link": "https://augustafreepress.com/news/john-whitehead-when-everything-becomes-a-national-security-threat/",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeC1aVGdSdklWcGV1S0paaHZpTV9aV19lQVJCLWxQeEdydGJLQnVRUkVZV3l6NS14emFQLXBUMFB2X190YWE4U1lydlU3c01SeHhIMjkwX0g5cnA0ZVlMQmNnUkdqVmdQVlg2UDM4ZEIwZnFiRzhBeXB1bEd2dW4wT05KZ2xodTl5VGJuVnVYU256eUlPQ3RGejZYUFQ5SGxFcmc?oc=5",
+          "published": "2026-09-23T23:25:36+00:00",
+          "publisher": "Augusta Free Press",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "John Whitehead | When everything becomes a national security threat - Augusta Free Press"
+        },
+        {
+          "canonical_link": "https://thenewamerican.com/opinion/when-everything-becomes-a-national-security-threat/",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOV1BxUlZZenBqLWZkZnZTSDYtOHVCOHhZY2NhQThjeFpqX0lVbkQtaDFDd05uOUN1VDI0TWp2dHlyU3FDOGR0eGVUQW4tZlZjN1FHd0h1T1lEQkhnVDdyYVZ5SlJOWW81enhLUFcwNDVaeUVVczNsanRrR1FRZnk4OXVWWnNLUTBkUkVtTlhkbw?oc=5",
+          "published": "2026-09-23T15:00:16+00:00",
+          "publisher": "thenewamerican.com",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "When Everything Becomes a National Security Threat - thenewamerican.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 2,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
-      "primary_confirmed": 1,
-      "primary_documents": 1,
-      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/16/2026-19053/continuation-of-the-national-emergency-with-respect-to-persons-who-commit-threaten-to-commit-or",
-      "rationale": "This is an official record of continuation of a pre-existing national emergency declaration. The continuation itself is a routine renewal mechanism established under the National Emergencies Act (50 U.S.C. \u00a7 1601 et seq.), whereby the President may extend a declared emergency for successive one-year periods without new legislative authorization. While this document confirms the use of emergency authorities to maintain expanded executive powers outside ordinary legislative process\u2014and therefore matches the signal\u2014the action is procedurally lawful, statutorily authorized, and represents the normal operation of the emergency declaration system rather than an expansion or abuse of emergency powers. The severity is 2 (a real but contained and legally-authorized stress signal) because emergency declarations do represent a bypass of ordinary process, but this particular continuation is a standard recurring action, not a novel expansion or defiance of law.",
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability",
-          "link": "https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability",
-          "published": "2026-09-16T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Federal-State Unemployment Compensation (UC) Program; Data Availability"
-        }
-      ],
-      "evidence_mode": "ai",
+      "domain_id": "civil_liberties_information",
+      "evidence": [],
+      "evidence_mode": "keyword",
       "hits": 0,
-      "id": "statistical_agency_integrity",
-      "name": "Statistical Agency Integrity",
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
-      "primary_confirmed": 1,
-      "primary_documents": 6,
-      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/16/2026-18978/federal-state-unemployment-compensation-uc-program-data-availability",
-      "rationale": "This is an OFFICIAL RECORD\u2014a final rule issued by DOL that materially changes data availability protocols for confidential unemployment compensation information. The rule mandates disclosure of previously confidential UC data to Federal officials for oversight and audits. This is a real, accomplished action (a final rule) that alters the scope and handling of statistical/administrative data outside normal notice procedures, which constitutes a credible stress signal on statistical agency integrity. However, the framing as 'oversight and audits' by DOL's own OIG suggests internal administrative coordination rather than external political manipulation of methodology, definitions, or suppression. The action is real and confirmed, but contained in scope and justified as administrative oversight rather than politicized interference with the independence or objectivity of statistical production. Severity 2 reflects a confirmed, material change to data protocols that warrants monitoring, but without evidence of removal of statistical leadership, improper methodology changes, or withheld releases.",
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 0
     }
   ],
