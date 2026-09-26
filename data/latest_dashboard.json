@@ -1,22 +1,22 @@
 {
   "attempted_queries": 24,
-  "average_7d": 16.54,
+  "average_7d": 16.05,
   "band": {
-    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
-    "label": "Elevated Strain",
-    "max": 29,
-    "min": 15
+    "description": "Normal democratic conflict and routine legal contestation.",
+    "label": "Baseline Institutional Noise",
+    "max": 14,
+    "min": 0
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": 0.58,
+  "delta_previous_day": -3.0,
+  "delta_vs_7d": -1.87,
   "domain_breakdown": [
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.5,
+      "points": 3.5749999999999993,
       "weight": 22
     },
     {
@@ -27,31 +27,31 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.2749999999999995,
+      "points": 1.5166666666666666,
       "weight": 14
     },
     {
-      "avg_severity": 1.0999999999999999,
+      "avg_severity": 1.5333333333333332,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.5749999999999997,
+      "points": 4.9833333333333325,
       "weight": 13
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 2.5,
+      "points": 1.6249999999999998,
       "weight": 10
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.475,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.625,
+      "points": 1.1875,
       "weight": 10
     },
     {
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.825,
+      "avg_severity": 0.65,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 1.65,
+      "points": 1.3,
       "weight": 8
     }
   ],
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-25T12:41:11.518416+00:00",
+  "generated_at": "2026-09-26T12:37:16.911399+00:00",
   "methodology_version": 2,
-  "previous_score": 18,
+  "previous_score": 17,
   "primary_sources": {
-    "documents_confirmed": 1,
-    "documents_fetched": 17,
+    "documents_confirmed": 0,
+    "documents_fetched": 12,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,97 +86,162 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 17,
-  "score_raw": 17.12,
-  "score_raw_pre_trip_wire": 17.12,
+  "score": 14,
+  "score_raw": 14.19,
+  "score_raw_pre_trip_wire": 14.19,
   "successful_queries": 24,
   "top_signals": [
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://www.motherjones.com/politics/2026/09/maga-activist-jason-frazier-flooded-georgia-with-voter-challenges-now-he-works-for-the-state-election-board/",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY3B6V1ZMWWpwWUZMNmo5NkN5bzZOQ3plRGE2d1lxcUNKbktiTGVmWDRjc3p0dkMzQkJMNmtFR3ZySGxBX3VodEZEanh5OEh1WVlXSjlLU2VzSUhKVGIxSU41VzFhZktyaDdXcjBWUmFZcDVUdXc3MlJtTWZmcWFMSUhtb0RPTWs5NTVyTm9UN1VZZDh1cF9US2RmMG1lbjk0WDRPaW43d2d6UVFobmRmaHVBNmxDcmFvUU5aTDYyaVpaOVloZHoxdDFhMlJKZVl6SDd1Q2N0SGtqRUM2Z0xjVzVBeFF5aF91?oc=5",
-          "published": "2026-09-24T16:34:32+00:00",
-          "publisher": "Mother Jones",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "A MAGA activist flooded Georgia with voter challenges. Now he works for the State Election Board. - Mother Jones"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 5,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://www.motherjones.com",
-      "rationale": "This item reports a real, verifiable action: a specific individual with a documented record of partisan voter-challenge activity has been hired into an election administration position (Georgia State Election Board). This is a concrete instance of partisan personnel placement in election administration, matching the signal of election administration moving toward partisan control. The placement is confirmed and has occurred, but it is a single personnel decision rather than a structural, systemic capture or an official policy dismantling neutral process. Severity 2 reflects that this is a real, credible stress signal (personnel capture) but not yet a high-severity structural breach.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/09/24/2026-19600/civil-monetary-penalty-amounts-for-2026",
-          "link": "https://www.federalregister.gov/documents/2026/09/24/2026-19600/civil-monetary-penalty-amounts-for-2026",
-          "published": "2026-09-24T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Civil Monetary Penalty Amounts for 2026"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 3,
-      "id": "statistical_agency_integrity",
-      "name": "Statistical Agency Integrity",
-      "override_note": null,
-      "primary_confirmed": 1,
-      "primary_documents": 6,
-      "primary_source_url": "https://www.federalregister.gov/documents/2026/09/24/2026-19600/civil-monetary-penalty-amounts-for-2026",
-      "rationale": "This is an official Federal Register notice confirming that the HUD has not made inflation adjustments to civil monetary penalties for 2026, as required by statute. This represents a departure from mandatory procedure, though the practical impact on BLS/BEA/Census integrity is unclear. The act itself (non-compliance with inflation adjustment requirement) has occurred, but severity is moderate because the connection to statistical agency integrity is indirect and the item does not demonstrate interference with core economic data production.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 0
-    },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://www.buckeyefirearms.org/new-trump-executive-orders-expand-hunting-fishing-across-america",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNlhGWFpuMDJNd0I5YkZES081cXVtVW15T3E2Ymxva2ZOOGdTQmhwXzlXT1ZEQWR6ZzA3THF4aXVRUlFoN2VkM0I2b3RlbjBzaGJQbXZaV0NEQW9Mc3BzaUJmQ0NKQ0s5cFUtdUoxNXdhZzVkTF9JNmNQdEF2Y0FSVXBIcTdrLTJ4NVlPME5KUi1CanNRVFBseTFQTFU?oc=5",
-          "published": "2026-09-25T12:17:50+00:00",
-          "publisher": "Buckeye Firearms Association",
+          "canonical_link": "https://abc7.com/post/california-supreme-court-orders-riverside-county-sheriff-chad-bianco-return-650000-seized-ballots/19866667/",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRGdZaTFSWjZGazROWnJFUjYxVVpaTnFaSW9nRzRybVZaMmU5VzZRSFppajFCeG5QMWJSZHhjWXdHbkpjUzU2ZUVZY2FlUkpuWXBjTkI5RGx5dUlKc0s0MDI4RGxEcjZrbUdUTHNjSWN1bzRHSHBlVGwwaEVyZkhfa0N2NVVVNVREWFhPMzhwOE9xZUZtN2k1U1VBWTNBVzk3M2ZHRHBOMmpqak1tcXdvYVpxSkNtVFBSRDVNWjVzYVdhOURFUkE2RtIBzgFBVV95cUxNVzdZZ2Mya2tfZVByMnlLaWFLQjl2d0tkckkwdGFlLW9oQ3ZZQXllYzN6V1NwbFFYcms4TjZyb2ZUd2FsOF9FT3lHal9nVGtiUWRUSDk3RUV0aTc3UXhiaUNXUXNtd1hlQm1MT0J3WmlMWXc0LW8xaTBKejNtMGJMSmNFWnVXUVk3QlJqWXY4ZjJJaU5LcGFPc2JseHhXZXZpTW9ia3ZEdnVid1RBRFB1ZFJWYktzcnNWQ0JXWENxWWFyR0dCcUF5NUtpamV0dw?oc=5",
+          "published": "2026-09-24T18:22:57+00:00",
+          "publisher": "ABC7 Los Angeles",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "New Trump executive orders expand hunting, fishing across America - Buckeye Firearms Association"
+          "title": "California Supreme Court orders Riverside County Sheriff Chad Bianco to return 650,000 seized ballots - ABC7 Los Angeles"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 5,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://abc7.com",
+      "rationale": "A county sheriff seized a large quantity of ballots, which constitutes an attempt to interfere with election administration through law-enforcement action. Although a court ordered return of the ballots (indicating judicial checks are functioning), the underlying seizure event\u2014a military/law-enforcement actor taking unilateral control of electoral materials\u2014is a real occurrence that matches the signal of military or law-enforcement management of a political dispute. The fact that a court intervened prevents escalation to severity 3+, but the seizure itself is a credible stress signal (severity 2) of attempted law-enforcement takeover of electoral processes. This represents a contained but serious action by a law-enforcement official overstepping democratic norms.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "canonical_link": "https://www.texastribune.org/2026/09/25/texas-public-education-school-takeovers-a-f-tribfest-2026/",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaTE3SEV2WUxkUDlLcTRYZjhqWHNET1BVTUh3VFVUcGtzRkdsSi1lSmRNRklmUXRZMXByZGlMQ1B6V2FIamdtaUtXM0ZfMVN3S0s2aVVfSVowTGluQ1M1b255bW1sLU5wZjlObFhLY0dlem9mbVloTHJScFZZdkgtWWtxNXdZNmMzQy1HaVJhZzBYUzVjcGdOZjVQSTc5RmM?oc=5",
+          "published": "2026-09-26T00:28:05+00:00",
+          "publisher": "The Texas Tribune",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Texas Democrat who championed A-F trigger law says he\u2019s trying to fix schools - The Texas Tribune"
+        },
+        {
+          "canonical_link": "https://rollcall.com/2026/09/24/schumer-jeffries-sue-to-block-federal-agents-at-polls-in-november/",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOGN4MFVZRldkWjExRlJJSVg0ekpyaTRodG9udXVzVzhCQVhSZU1zTDJvOTNyMnNLUXBhRG1WR0tOUWdJUC05cEJ4SFdNMWI5am41VUFaSmRGX1E4TERGWGhneWtNcHJWSHdjamFjRG52SDgxYlRrZ3A5aS1xVm9ldHRvN0M5MzF0OW45Z01rWFdYUEw5RkFFRXRHX3p5NkU?oc=5",
+          "published": "2026-09-24T20:36:29+00:00",
+          "publisher": "Roll Call",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Schumer, Jeffries sue to block federal agents at polls in November - Roll Call"
+        },
+        {
+          "canonical_link": "https://indianexpress.com/article/explained/election-commission-india-cec-election-commissioners-dissent-10894190/lite/",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTUZTVHRsaFpaSC1RUE81VTI2TlBQRHJBbWJ5WjMxTDFzdU5ZN3A3TnR5Mnl1TE9Oa1l3SnVrNUM3bDJ4X1dIMHV3cnpwWkFyVU9nSzlxbHRmMkt4RnBGQ0M1VzZNRUxMMzZ1U0lJNUloV1cwUUgwOWRnMkE3ZXZHVzRuTDBSc1piQl9MMDYyOFVKblE0anZVQWNZbUl4OGpIeWpjU3dCbVNpWEZnbDFzd3hOWncyUndmNUdJ0gG7AUFVX3lxTFBNRlNUdGxoWlpILVFQTzVVMjZOUFBEckFtYnlaMzFMMXN1Tlk3cDdOdHkyeXVMT05rWXdKdWs1QzdsMnhfV0gwdXdyenBaQXJVT2dLOXFsdGYyS3hGcEZDQzVXNk1FTEwzNnVTSUk1SWhXVzBRSDA5ZGcyQTdldkdXNG5MMFJzWmJCX0wwNjI4VUpuUTRqdlVBY1ltSXg4akh5amNTd0JtU2lYRmdsMXN3eE5adzJSd2Y1R0k?oc=5",
+          "published": "2026-09-26T01:00:16+00:00",
+          "publisher": "The Indian Express",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Rupture in Election Commission: How dissent has played out in the poll panel in the past - The Indian Express"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 6,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/09/28/2026-19787/agency-information-collection-activities-proposed-collection-comment-request-extension-investment",
+          "link": "https://www.federalregister.gov/documents/2026/09/28/2026-19787/agency-information-collection-activities-proposed-collection-comment-request-extension-investment",
+          "published": "2026-09-28T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Agency Information Collection Activities; Proposed Collection; Comment Request; Extension: Investment Company Act Form N-17f-1, Certificate of Accounting of Securities and Similar Investments of a Management Investment Company in the Custody of Members of National Securities Exchanges"
+        },
+        {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/09/28/2026-19758/airworthiness-directives-airbus-helicopters",
+          "link": "https://www.federalregister.gov/documents/2026/09/28/2026-19758/airworthiness-directives-airbus-helicopters",
+          "published": "2026-09-28T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Airworthiness Directives; Airbus Helicopters"
+        },
+        {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/09/28/2026-19750/agency-information-collection-activities-extension-of-collection-comment-request-generic-clearance",
+          "link": "https://www.federalregister.gov/documents/2026/09/28/2026-19750/agency-information-collection-activities-extension-of-collection-comment-request-generic-clearance",
+          "published": "2026-09-28T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Agency Information Collection Activities; Extension of Collection; Comment Request; Generic Clearance for the Collection of Qualitative Feedback on Agency Service Delivery"
         }
       ],
       "evidence_mode": "ai",
       "hits": 2,
+      "id": "statistical_agency_integrity",
+      "name": "Statistical Agency Integrity",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 6,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://thecolgatemaroonnews.com/71375/news/american-constitutionalism-panel/",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdlk1NkZMYjZWSG1XcW1NSUVHWGYwOS12MnNmZkszVW5QUDJZNlRMa3JiS2pMMGlyUFZnY3dUYmhVMXdzZjAtMTNoY3BwbEJIYmU3ZXk2Unltdkp0czBtRFFIVlduNl8zZzN4amQzLWhiQXp6c0hpYU9renRrNTE4b0l6VQ?oc=5",
+          "published": "2026-09-24T13:06:04+00:00",
+          "publisher": "The Colgate Maroon-News",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Constitution Day Debate 2026: Reconsidering the Unitary Executive - The Colgate Maroon-News"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
       "primary_source_url": null,
-      "rationale": "The item reports that Trump executive orders have been issued expanding hunting and fishing across America. This represents executive action taken unilaterally rather than through legislation. However, expansion of hunting/fishing regulations, while a legitimate exercise of executive power in certain domains (e.g., public lands management under existing statutes), does not constitute a major governance bypass of legislative authority. The action appears to operate within delegated executive authority rather than circumventing statute. This is a contained application of existing executive power, not a structural constitutional violation. Severity is modest because the scope (hunting/fishing) is narrow and the underlying authority is typically delegated to the executive branch.",
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
@@ -193,26 +258,26 @@
           "title": "Arab parties denounce ban from Israel\u2019s October election - Al Jazeera"
         },
         {
-          "canonical_link": "https://goodauthority.org/news/russias-2026-duma-elections-left-voters-few-alternatives/",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM3I0cWZKYVZQRDEzYzE2MnlJUk5ONEVjVXVsYTJ4Sl9sdnNLSC1YdUJkMFlsSWh0ZmpELWtxM2ZLbnlJdWNQMDFRVmYtSkRCUWpKdmJIUE1xTk0taUxxNHBSZy1wWnpBekN2WVAtdlBYMkZETkJwZ0pqRFRwa3VyT2Npdk1oRmhPQ0NUREFuLUJiQQ?oc=5",
-          "published": "2026-09-23T22:33:17+00:00",
-          "publisher": "Good Authority",
+          "canonical_link": "https://www.jta.org/2026/09/24/israel/israels-election-committee-disqualifies-arab-parties-but-not-far-right-jewish-ones",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTm9neDVhZW5TY3VmeHBwZFNMa1dScXNLUjhMdHFES3dzQ3FIMWdKWUM5Z2NhRHItVVphRHNXa1pVQUJBREppNlp3MHg5c3ROTGE5OWVnRWs4UEJ2Wi1zX0duUmhKZXdKT3pfRDNpTmFxd1lLOFJCQ0R3Q2x2ME0zcUN6bkhhRVJpcWl2amM5SHhSMnRFRFl0b0J3WWxqRlBUeUg2emRpVF9YUklzZU5KTmRYZEE4STlMRk80VA?oc=5",
+          "published": "2026-09-24T17:52:38+00:00",
+          "publisher": "Jewish Telegraphic Agency",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Russia\u2019s 2026 Duma elections left voters few alternatives - Good Authority"
+          "title": "Israel\u2019s election committee disqualifies Arab parties but not far-right Jewish ones - Jewish Telegraphic Agency"
         },
         {
-          "canonical_link": "https://www.jpost.com/israel-election-2026/article-909590",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2Q0c2VEZjTnR3V3FDdDBrak5CdTVOUFVhQmdOMkU4YURxSzBZMXBhSi1kV19DWEhUaFJyT3haUjltNW1ydTRRWkptemZLUFB0SmtreUM1TDFOZlphV2RDaTNSVXNsSHhD?oc=5",
-          "published": "2026-09-24T19:56:19+00:00",
-          "publisher": "The Jerusalem Post",
+          "canonical_link": "https://www.news24.com/southafrica/news/dirty-tricks-actionsa-accuses-da-of-removing-election-posters-in-cape-town-20260925-1097",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdkpicFZoVFF3ZkF0VTVkYlJpWmtjU19WVm9JS2NyQmhfbldfZ2dESFlpQW54MkE3aFZXOHpqZjJZNHI4SXZ1UURkVjI2SlZlSlJ0TXNLdWQ2Xy1pWjVJTGNtck9FNi1rcm9IU0tUeV8zT2JSY2RiUTVLM0RCd0lyOTVaR0tyOWNkRGFaNmRGQk1sNkI3bHpGbnZvb3FqcXZFVm1oN1ltMmw1bDhON0xjMmhrX0U4cHlFdWtOa1k2SGFJS01id2R3?oc=5",
+          "published": "2026-09-25T18:19:23+00:00",
+          "publisher": "news24.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Israel Central Elections Committee clears Otzma Yehudit for October vote - The Jerusalem Post"
+          "title": "\u2018Dirty tricks\u2019: ActionSA accuses DA of removing election posters in Cape Town - news24.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 12,
+      "hits": 5,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
@@ -221,7 +286,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -240,7 +305,54 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "canonical_link": "https://peopledaily.digital/insights/world-news-day-how-kenyas-media-freedom-is-under-pressure-as-journalists-face-growing-restrictions",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZHZ1M043THNiYno3c1MwTWdkUVptb2tOVlo4QTNMSWFYT0kxaU5qM2hab0VzSVdjT3R4cG50ZFVlZ2xDRVE1eTNoOGwxdmJtQzhaMEdhVndMa3AwMXNXbG9hbDh5MTcxMzlRVmhaRzhHb29EREJIU2phaUx0NDE5NHhLeVRVUks1b1hEUTJ0SXBYd2tJb3I1YlBiNWp3S1FRRzdxZVdlbjhJdVRuT3cwR0VWRk82R3FMeE5SeUV3clhWWTUzMzg3eHYxeU9BdVg4?oc=5",
+          "published": "2026-09-25T15:56:15+00:00",
+          "publisher": "People Daily",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "World News Day: How Kenya\u2019s media freedom is under pressure as journalists face growing restrictions - People Daily"
+        },
+        {
+          "canonical_link": "https://www.journalismpakistan.com/the-journalismpakistan-global-media-brief-edition-39-september-25-2026",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRFV2MHlNOVN3d0QxNXVDYTZkUTVzOFdnSkFfRFVuOWtmajRfR0VQTjJOWTVUc3pWU0hZTFMzMnotMURnR3dUNHZHUEpGZVZOTFJteGVIYzBFVjNkQnlIX0FteE9QWVJGN1ZISGQ5clotd1Z0RFViZGhuYWpQRXBVN0RVRng3bVV3NG1jSFptZWZLZk0wYzBTMlhrSmctUDhZMjQ5OEdxVlg?oc=5",
+          "published": "2026-09-25T15:27:48+00:00",
+          "publisher": "Journalism Pakistan",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "The JournalismPakistan Global Media Brief | Edition 39 | September 25, 2026 - Journalism Pakistan"
+        },
+        {
+          "canonical_link": "https://tripurachronicle.in/world-news/restrictions-on-foreign-media-to-further-reduce-pakistans-already-low-global-ranking/",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU0tTMW9mZFkydW90cWtlb0FfeVptYWt1RHA0bmdUMHpnRlhpbGxjZkVJT2EzTjROVXFiWS1uTS1sMGllbHZnaTBtUlNLNVEyazg5TEwtbkFySTduQk53d2xjc2FWbUtLZ2Racm0yWkxoSXNlNkxvN0pzZG12VEU4NU04Mlg4eGR2bGpVVUlaaTdhX0tqcXV4ZVBOcUJJemc2bEozNnFpT3p5aFVOR3llN2VFVUlfVG5YcDg2R2EtYUVoQQ?oc=5",
+          "published": "2026-09-24T14:48:53+00:00",
+          "publisher": "Tripura Chronicle",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Restrictions on foreign media to further reduce Pakistan\u2019s already low global ranking - Tripura Chronicle"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 3,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -250,22 +362,22 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://www.counterpunch.org/2026/09/24/when-everything-becomes-a-national-security-threat/",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNczdHYlZBTk1iQm5hcElFMzQtRC1IT0RSajVJN3lFZ2dtck1IQkduYTB5RE1IS3JqeUJidjR2UmNzUEkxQTJNOEptYmVxMzBYUC03REY3UG9xQVgwd2Y2eXJncVdjY3pQVjBKcEpYaDR3bVpGR21BdVlTdzdqSTI0THNxOGJwNGNpd2d5N2FDX3U4ODhicFE?oc=5",
-          "published": "2026-09-24T05:20:37+00:00",
-          "publisher": "CounterPunch.org",
+          "canonical_link": "https://www.fff.org/explore-freedom/article/when-everything-becomes-a-national-security-threat/",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV3VOSXF6UTFlUmYxdF9td1JfeS00ZEE3b0RGZnJyVEVPN0RBcS0wOUx5VllEdXpqcDFMZTZJSlprNENIa016eTN1NlhkaWZ0cGtfcHJ4ZF9na3RpZUtNdHJiU3J3WXA1TTBfcXBfdkhPM3lsRllhc0c3S1ZBNF9iaGRmSElWMGJTR1E4d1FrNW43T2lSU1VhbV9Odw?oc=5",
+          "published": "2026-09-25T16:54:50+00:00",
+          "publisher": "fff.org",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "When Everything Becomes a National Security Threat - CounterPunch.org"
+          "title": "When Everything Becomes a National Security Threat - fff.org"
         },
         {
-          "canonical_link": "https://augustafreepress.com/news/john-whitehead-when-everything-becomes-a-national-security-threat/",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeC1aVGdSdklWcGV1S0paaHZpTV9aV19lQVJCLWxQeEdydGJLQnVRUkVZV3l6NS14emFQLXBUMFB2X190YWE4U1lydlU3c01SeHhIMjkwX0g5cnA0ZVlMQmNnUkdqVmdQVlg2UDM4ZEIwZnFiRzhBeXB1bEd2dW4wT05KZ2xodTl5VGJuVnVYU256eUlPQ3RGejZYUFQ5SGxFcmc?oc=5",
-          "published": "2026-09-23T23:25:36+00:00",
-          "publisher": "Augusta Free Press",
+          "canonical_link": "https://tippinsights.com/when-everything-becomes-a-national-security-threat/",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTWdfRnFoeDF1Nk9CV29WWWwwSVlmSG1mVHNUbkdTUUJ2eDNocVF0dldkejRVMUZ6blVEVVFja1cyY0swRW9rY3R2NHFRYXl2Q0EwbjROaDNFLVk1ZWtRVW1yd0g2UE0wa2ppNDNJbm94REdfYzgtNldpZm1QbTViT2J3?oc=5",
+          "published": "2026-09-26T12:18:35+00:00",
+          "publisher": "tippinsights",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "John Whitehead | When everything becomes a national security threat - Augusta Free Press"
+          "title": "When Everything Becomes A National Security Threat - tippinsights"
         }
       ],
       "evidence_mode": "ai",
@@ -278,36 +390,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://tripurachronicle.in/world-news/restrictions-on-foreign-media-to-further-reduce-pakistans-already-low-global-ranking/",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU0tTMW9mZFkydW90cWtlb0FfeVptYWt1RHA0bmdUMHpnRlhpbGxjZkVJT2EzTjROVXFiWS1uTS1sMGllbHZnaTBtUlNLNVEyazg5TEwtbkFySTduQk53d2xjc2FWbUtLZ2Racm0yWkxoSXNlNkxvN0pzZG12VEU4NU04Mlg4eGR2bGpVVUlaaTdhX0tqcXV4ZVBOcUJJemc2bEozNnFpT3p5aFVOR3llN2VFVUlfVG5YcDg2R2EtYUVoQQ?oc=5",
-          "published": "2026-09-24T14:48:53+00:00",
-          "publisher": "Tripura Chronicle",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Restrictions on foreign media to further reduce Pakistan\u2019s already low global ranking - Tripura Chronicle"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     }

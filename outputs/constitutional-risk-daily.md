@@ -1,13 +1,13 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-09-25 12:41:11 UTC
+- Generated: 2026-09-26 12:37:16 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **17 / 100** (Elevated Strain)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **+0.6**
+- Score: **14 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-3.0**
+- Delta vs 7-day average: **-1.9**
 
 ## Interpretation
-- Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
+- Band meaning: Normal democratic conflict and routine legal contestation.
 - Signal scale: 0=green, 1=watch, 2=yellow, 3=orange, 4=red.
 - Formula: domain severity = max(mean signal severity, max signal severity - 1); domain points = domain weight * (domain severity / 4); total score = sum of domain points, then raised to any active trip-wire floor.
 
@@ -15,55 +15,59 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 1.00 | 5.50 |
+| Elections and Transfer of Power | 22 | 0.65 | 3.57 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
-| Opposition Rights and Political Pluralism | 14 | 0.65 | 2.27 |
-| Executive Constraints and Emergency Powers | 13 | 1.10 | 3.57 |
-| Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
-| Civil Liberties and Information Environment | 10 | 0.65 | 1.62 |
+| Opposition Rights and Political Pluralism | 14 | 0.43 | 1.52 |
+| Executive Constraints and Emergency Powers | 13 | 1.53 | 4.98 |
+| Civil Service and Agency Independence | 10 | 0.65 | 1.62 |
+| Civil Liberties and Information Environment | 10 | 0.47 | 1.19 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
-| Federalism and Legislative Oversight | 8 | 0.82 | 1.65 |
+| Federalism and Legislative Oversight | 8 | 0.65 | 1.30 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Election Administration Capture | elections_transfer | 2.00 (Yellow) | ai | 1 | 5 |
-| Statistical Agency Integrity | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 3 |
-| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | ai | 1 | 2 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.65 (Watch) | ai | 0 | 12 |
-| Legislative Oversight Obstruction | federalism_oversight | 1.65 (Watch) | keyword | 0 | 0 |
-| Emergency Powers Expansion | executive_constraints | 1.30 (Watch) | ai | 0 | 2 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.30 (Watch) | ai | 0 | 1 |
+| Martial Law or Military Governance Language | executive_constraints | 2.00 (Yellow) | ai | 1 | 5 |
+| Election Administration Capture | elections_transfer | 1.65 (Watch) | ai | 0 | 6 |
+| Statistical Agency Integrity | civil_service_integrity | 1.65 (Watch) | ai | 0 | 2 |
+| Legislative Bypass by Executive | executive_constraints | 1.65 (Watch) | ai | 0 | 1 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.30 (Watch) | ai | 0 | 5 |
+| Legislative Oversight Obstruction | federalism_oversight | 1.30 (Watch) | keyword | 0 | 0 |
+| Press Restrictions or Retaliation | civil_liberties_information | 0.95 (Watch) | ai | 0 | 3 |
+| Emergency Powers Expansion | executive_constraints | 0.95 (Watch) | ai | 0 | 2 |
 
 ## Evidence Samples
 
+### Martial Law or Military Governance Language
+- Assessment: A county sheriff seized a large quantity of ballots, which constitutes an attempt to interfere with election administration through law-enforcement action. Although a court ordered return of the ballots (indicating judicial checks are functioning), the underlying seizure event—a military/law-enforcement actor taking unilateral control of electoral materials—is a real occurrence that matches the signal of military or law-enforcement management of a political dispute. The fact that a court intervened prevents escalation to severity 3+, but the seizure itself is a credible stress signal (severity 2) of attempted law-enforcement takeover of electoral processes. This represents a contained but serious action by a law-enforcement official overstepping democratic norms.
+- [ABC7 Los Angeles] California Supreme Court orders Riverside County Sheriff Chad Bianco to return 650,000 seized ballots - ABC7 Los Angeles (2026-09-24) - https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRGdZaTFSWjZGazROWnJFUjYxVVpaTnFaSW9nRzRybVZaMmU5VzZRSFppajFCeG5QMWJSZHhjWXdHbkpjUzU2ZUVZY2FlUkpuWXBjTkI5RGx5dUlKc0s0MDI4RGxEcjZrbUdUTHNjSWN1bzRHSHBlVGwwaEVyZkhfa0N2NVVVNVREWFhPMzhwOE9xZUZtN2k1U1VBWTNBVzk3M2ZHRHBOMmpqak1tcXdvYVpxSkNtVFBSRDVNWjVzYVdhOURFUkE2RtIBzgFBVV95cUxNVzdZZ2Mya2tfZVByMnlLaWFLQjl2d0tkckkwdGFlLW9oQ3ZZQXllYzN6V1NwbFFYcms4TjZyb2ZUd2FsOF9FT3lHal9nVGtiUWRUSDk3RUV0aTc3UXhiaUNXUXNtd1hlQm1MT0J3WmlMWXc0LW8xaTBKejNtMGJMSmNFWnVXUVk3QlJqWXY4ZjJJaU5LcGFPc2JseHhXZXZpTW9ia3ZEdnVid1RBRFB1ZFJWYktzcnNWQ0JXWENxWWFyR0dCcUF5NUtpamV0dw?oc=5
+
 ### Election Administration Capture
-- Assessment: This item reports a real, verifiable action: a specific individual with a documented record of partisan voter-challenge activity has been hired into an election administration position (Georgia State Election Board). This is a concrete instance of partisan personnel placement in election administration, matching the signal of election administration moving toward partisan control. The placement is confirmed and has occurred, but it is a single personnel decision rather than a structural, systemic capture or an official policy dismantling neutral process. Severity 2 reflects that this is a real, credible stress signal (personnel capture) but not yet a high-severity structural breach.
-- [Mother Jones] A MAGA activist flooded Georgia with voter challenges. Now he works for the State Election Board. - Mother Jones (2026-09-24) - https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY3B6V1ZMWWpwWUZMNmo5NkN5bzZOQ3plRGE2d1lxcUNKbktiTGVmWDRjc3p0dkMzQkJMNmtFR3ZySGxBX3VodEZEanh5OEh1WVlXSjlLU2VzSUhKVGIxSU41VzFhZktyaDdXcjBWUmFZcDVUdXc3MlJtTWZmcWFMSUhtb0RPTWs5NTVyTm9UN1VZZDh1cF9US2RmMG1lbjk0WDRPaW43d2d6UVFobmRmaHVBNmxDcmFvUU5aTDYyaVpaOVloZHoxdDFhMlJKZVl6SDd1Q2N0SGtqRUM2Z0xjVzVBeFF5aF91?oc=5
+- [The Texas Tribune] Texas Democrat who championed A-F trigger law says he’s trying to fix schools - The Texas Tribune (2026-09-26) - https://news.google.com/rss/articles/CBMinwFBVV95cUxQaTE3SEV2WUxkUDlLcTRYZjhqWHNET1BVTUh3VFVUcGtzRkdsSi1lSmRNRklmUXRZMXByZGlMQ1B6V2FIamdtaUtXM0ZfMVN3S0s2aVVfSVowTGluQ1M1b255bW1sLU5wZjlObFhLY0dlem9mbVloTHJScFZZdkgtWWtxNXdZNmMzQy1HaVJhZzBYUzVjcGdOZjVQSTc5RmM?oc=5
+- [Roll Call] Schumer, Jeffries sue to block federal agents at polls in November - Roll Call (2026-09-24) - https://news.google.com/rss/articles/CBMinwFBVV95cUxPOGN4MFVZRldkWjExRlJJSVg0ekpyaTRodG9udXVzVzhCQVhSZU1zTDJvOTNyMnNLUXBhRG1WR0tOUWdJUC05cEJ4SFdNMWI5am41VUFaSmRGX1E4TERGWGhneWtNcHJWSHdjamFjRG52SDgxYlRrZ3A5aS1xVm9ldHRvN0M5MzF0OW45Z01rWFdYUEw5RkFFRXRHX3p5NkU?oc=5
+- [The Indian Express] Rupture in Election Commission: How dissent has played out in the poll panel in the past - The Indian Express (2026-09-26) - https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTUZTVHRsaFpaSC1RUE81VTI2TlBQRHJBbWJ5WjMxTDFzdU5ZN3A3TnR5Mnl1TE9Oa1l3SnVrNUM3bDJ4X1dIMHV3cnpwWkFyVU9nSzlxbHRmMkt4RnBGQ0M1VzZNRUxMMzZ1U0lJNUloV1cwUUgwOWRnMkE3ZXZHVzRuTDBSc1piQl9MMDYyOFVKblE0anZVQWNZbUl4OGpIeWpjU3dCbVNpWEZnbDFzd3hOWncyUndmNUdJ0gG7AUFVX3lxTFBNRlNUdGxoWlpILVFQTzVVMjZOUFBEckFtYnlaMzFMMXN1Tlk3cDdOdHkyeXVMT05rWXdKdWs1QzdsMnhfV0gwdXdyenBaQXJVT2dLOXFsdGYyS3hGcEZDQzVXNk1FTEwzNnVTSUk1SWhXVzBRSDA5ZGcyQTdldkdXNG5MMFJzWmJCX0wwNjI4VUpuUTRqdlVBY1ltSXg4akh5amNTd0JtU2lYRmdsMXN3eE5adzJSd2Y1R0k?oc=5
 
 ### Statistical Agency Integrity
-- Assessment: This is an official Federal Register notice confirming that the HUD has not made inflation adjustments to civil monetary penalties for 2026, as required by statute. This represents a departure from mandatory procedure, though the practical impact on BLS/BEA/Census integrity is unclear. The act itself (non-compliance with inflation adjustment requirement) has occurred, but severity is moderate because the connection to statistical agency integrity is indirect and the item does not demonstrate interference with core economic data production.
-- [federalregister.gov] **[official record]** Civil Monetary Penalty Amounts for 2026 (2026-09-24) - https://www.federalregister.gov/documents/2026/09/24/2026-19600/civil-monetary-penalty-amounts-for-2026
+- [federalregister.gov] **[official record]** Agency Information Collection Activities; Proposed Collection; Comment Request; Extension: Investment Company Act Form N-17f-1, Certificate of Accounting of Securities and Similar Investments of a Management Investment Company in the Custody of Members of National Securities Exchanges (2026-09-28) - https://www.federalregister.gov/documents/2026/09/28/2026-19787/agency-information-collection-activities-proposed-collection-comment-request-extension-investment
+- [federalregister.gov] **[official record]** Airworthiness Directives; Airbus Helicopters (2026-09-28) - https://www.federalregister.gov/documents/2026/09/28/2026-19758/airworthiness-directives-airbus-helicopters
+- [federalregister.gov] **[official record]** Agency Information Collection Activities; Extension of Collection; Comment Request; Generic Clearance for the Collection of Qualitative Feedback on Agency Service Delivery (2026-09-28) - https://www.federalregister.gov/documents/2026/09/28/2026-19750/agency-information-collection-activities-extension-of-collection-comment-request-generic-clearance
 
 ### Legislative Bypass by Executive
-- Assessment: The item reports that Trump executive orders have been issued expanding hunting and fishing across America. This represents executive action taken unilaterally rather than through legislation. However, expansion of hunting/fishing regulations, while a legitimate exercise of executive power in certain domains (e.g., public lands management under existing statutes), does not constitute a major governance bypass of legislative authority. The action appears to operate within delegated executive authority rather than circumventing statute. This is a contained application of existing executive power, not a structural constitutional violation. Severity is modest because the scope (hunting/fishing) is narrow and the underlying authority is typically delegated to the executive branch.
-- [Buckeye Firearms Association] New Trump executive orders expand hunting, fishing across America - Buckeye Firearms Association (2026-09-25) - https://news.google.com/rss/articles/CBMinAFBVV95cUxPNlhGWFpuMDJNd0I5YkZES081cXVtVW15T3E2Ymxva2ZOOGdTQmhwXzlXT1ZEQWR6ZzA3THF4aXVRUlFoN2VkM0I2b3RlbjBzaGJQbXZaV0NEQW9Mc3BzaUJmQ0NKQ0s5cFUtdUoxNXdhZzVkTF9JNmNQdEF2Y0FSVXBIcTdrLTJ4NVlPME5KUi1CanNRVFBseTFQTFU?oc=5
+- [The Colgate Maroon-News] Constitution Day Debate 2026: Reconsidering the Unitary Executive - The Colgate Maroon-News (2026-09-24) - https://news.google.com/rss/articles/CBMigwFBVV95cUxOdlk1NkZMYjZWSG1XcW1NSUVHWGYwOS12MnNmZkszVW5QUDJZNlRMa3JiS2pMMGlyUFZnY3dUYmhVMXdzZjAtMTNoY3BwbEJIYmU3ZXk2Unltdkp0czBtRFFIVlduNl8zZzN4amQzLWhiQXp6c0hpYU9renRrNTE4b0l6VQ?oc=5
 
 ### Opposition Ballot Exclusion
 - [Al Jazeera] Arab parties denounce ban from Israel’s October election - Al Jazeera (2026-09-24) - https://news.google.com/rss/articles/CBMipgFBVV95cUxPdnVQQkNrZk1PUDlwOEZaWElnTVNHUUotMEZRelpQVjhOQ0tnakl1SnVnNzhrM0ktajdtQU51b19KdzN1Tl9LVGFzcUREUjN2VTJzbHFrY0pXbF9pMm1Uc2NZOF9iTVBJMTRQOTFVX0NaS2FwTVU0amJxUDJTWVhGOEtNODNLbmZJSVpEWlhXekJkeDZaaDVRd283aDNSdk4zZWJBbEpR0gGrAUFVX3lxTE5ad1p6czlmemFOLUtMT05XZnpvTldZN2JVam03N3R3Ynpxa1V4UExtNmlldktiUzZzQWVnUjcxLVlFcFdpTWVNWExaTlJIeDdKdndsczM4M1A2LVZYeVc5dW5yWXBSaVpBVnY0YmQtNVBVdXVRUy1jbEVvRldIY3FLbGp2N01HYTdGZGtCUzlDMkRDUVRpV1Ryem4wWERwUV9tUHlZRTBwWjctMA?oc=5
-- [Good Authority] Russia’s 2026 Duma elections left voters few alternatives - Good Authority (2026-09-23) - https://news.google.com/rss/articles/CBMikgFBVV95cUxQM3I0cWZKYVZQRDEzYzE2MnlJUk5ONEVjVXVsYTJ4Sl9sdnNLSC1YdUJkMFlsSWh0ZmpELWtxM2ZLbnlJdWNQMDFRVmYtSkRCUWpKdmJIUE1xTk0taUxxNHBSZy1wWnpBekN2WVAtdlBYMkZETkJwZ0pqRFRwa3VyT2Npdk1oRmhPQ0NUREFuLUJiQQ?oc=5
-- [The Jerusalem Post] Israel Central Elections Committee clears Otzma Yehudit for October vote - The Jerusalem Post (2026-09-24) - https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2Q0c2VEZjTnR3V3FDdDBrak5CdTVOUFVhQmdOMkU4YURxSzBZMXBhSi1kV19DWEhUaFJyT3haUjltNW1ydTRRWkptemZLUFB0SmtreUM1TDFOZlphV2RDaTNSVXNsSHhD?oc=5
+- [Jewish Telegraphic Agency] Israel’s election committee disqualifies Arab parties but not far-right Jewish ones - Jewish Telegraphic Agency (2026-09-24) - https://news.google.com/rss/articles/CBMivAFBVV95cUxPTm9neDVhZW5TY3VmeHBwZFNMa1dScXNLUjhMdHFES3dzQ3FIMWdKWUM5Z2NhRHItVVphRHNXa1pVQUJBREppNlp3MHg5c3ROTGE5OWVnRWs4UEJ2Wi1zX0duUmhKZXdKT3pfRDNpTmFxd1lLOFJCQ0R3Q2x2ME0zcUN6bkhhRVJpcWl2amM5SHhSMnRFRFl0b0J3WWxqRlBUeUg2emRpVF9YUklzZU5KTmRYZEE4STlMRk80VA?oc=5
+- [news24.com] ‘Dirty tricks’: ActionSA accuses DA of removing election posters in Cape Town - news24.com (2026-09-25) - https://news.google.com/rss/articles/CBMixwFBVV95cUxPdkpicFZoVFF3ZkF0VTVkYlJpWmtjU19WVm9JS2NyQmhfbldfZ2dESFlpQW54MkE3aFZXOHpqZjJZNHI4SXZ1UURkVjI2SlZlSlJ0TXNLdWQ2Xy1pWjVJTGNtck9FNi1rcm9IU0tUeV8zT2JSY2RiUTVLM0RCd0lyOTVaR0tyOWNkRGFaNmRGQk1sNkI3bHpGbnZvb3FqcXZFVm1oN1ltMmw1bDhON0xjMmhrX0U4cHlFdWtOa1k2SGFJS01id2R3?oc=5
 
-### Legislative Oversight Obstruction
-- No fresh evidence links in the current lookback window.
 ## Data Quality
 
 - Query feeds attempted: 24
 - Query feeds successful: 24
 - Query feeds failed: 0
-- Primary-source lookups: 22 signals, 17 official documents (Federal Register, CourtListener)
-- Primary-source confirmations: 1
+- Primary-source lookups: 22 signals, 12 official documents (Federal Register, CourtListener)
+- Primary-source confirmations: 0
 - Evidence extraction: AI event extraction
 - Confidence: **High**
 
