@@ -736,6 +736,16 @@
       "rationale": "Item is a generic reference to an old Daily Kos home page with no substantive content describing any election administration event, policy change, or action. No claim about partisan control, election administration, or constitutional stress is present or discernible. This is not a news item; it is a broken or placeholder link. Does not constitute evidence of any real occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xbTZfVUxGSkREWEpuaFFIcXIyaHhqM1FGRkllWk1fTmJOWTd0RjVNUzFEcGJ0QjlaR1hYVXg5V2hIQWY3YllJNXI0N0gtUQ?oc=5": {
+      "actor": "Susan Collins",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://newrepublic.com",
+      "rationale": "This is opinion/commentary coverage of a political figure's defense or statement. It does not describe an actual change in election administration process, structure, or control. It is editorial analysis of a public figure's legal or political position, not evidence that election administration itself has been captured or moved to partisan control.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yRXlLSDdBX0kwekNjS3dKOHRfQi1WN1VWQ2hoMEJYOFlDaXJzRi1WQVl4b1d1Sk53YTlBdU5tNFlWZ3ZySEEwMlo2bVV3MUNQ0gFjQVVfeXFMTzNhYlBLX2N5UDlfN3I2TW9IV2Q5SFJpdF9ET0ZDRGZycndfYVk3LXpXaUJMcS00bDlVNDV3OFJ2Q2I5MHFoblZjRzlsQVFMS2dVTmNFUkh2dVRKU2xtcFgwbGJF?oc=5": {
       "actor": "MAGA activist; Georgia State Election Board",
       "confidence": 0.86,
@@ -1034,6 +1044,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This item is a speculative/hypothetical analysis about how prediction markets might affect future elections in 2026. It does not describe an actual occurrence of election administration being moved from neutral process to partisan control. The article discusses a potential future test case, not a realized event of administrative capture. No specific action by election officials, partisan actors, or legal instruments that would alter election administration authority has occurred.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUnNpSklTRzltc1VkZEdDMDl4RkgxWlFPX1hXZVBuQUhucjl6MS1WWFNnUUFFQmNQNTZtaDdqNUlXbDY1SnBFcGpfdFRKT3g5dm9xbFlwX1M2U0lSV2lYTmNvMGwxcTlkLTFWOER4eFV5cnpueTJsazEyYkc3SlByRHJtTjRMX3cybEZqNDB3Z0xXM2pSMHVIR3p3?oc=5": {
+      "actor": "ECI (Election Commission of India)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://heraldgoa.in",
+      "rationale": "This item is about India (Goa), not the United States. The signal applies only to U.S. domestic election administration. The article describes a routine administrative correction (re-enrolling voters left out of a roll), not evidence of partisan capture or politicization of election processes.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOWtWczRZOWJPWktDc2hlTnJBeUJqT0dsSXdKbDJWVF9kdGxITXlnLXQ5N0tVdUVxRmUtVmdsTlhfVmktd1YyS1RHbXFjMFA2TGY5OTRVV0F6UmtNbXdLX3JqT05veGwtbThwZ2lrSFZDTDZvRS01NzByeHBTcUVYLVpja09nRUROdzY3eDZSOFp4RElTakpvc3c4NHI?oc=5": {
@@ -2724,6 +2744,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74845527/1/united-states-v-reiber/",
       "rationale": "This is a routine federal criminal case docket entry (Rule 5 magistrate proceedings with standard motions to seal, detention orders, and arrest warrants). The document concerns criminal prosecution of an individual defendant, not retaliatory action against an Inspector General, watchdog function, or anti-corruption monitoring body. There is no evidence in the summary that any inspector general, inspector general's office, or watchdog function has been subject to retaliation. This is standard criminal procedure unrelated to the signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74856426/1/krell-v-us-department-of-homeland-security/": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74856426/1/krell-v-us-department-of-homeland-security/",
+      "rationale": "A complaint filed in federal district court is a request for judicial relief, not evidence that an unlawful event has occurred or that retaliation against watchdog functions has taken place. The filing itself is the initiation of a legal action, not the occurrence of the alleged harm. Without access to the complaint's contents, the case caption alone does not establish that Inspector General retaliation actually occurred. A complaint is a proposal for the court to find wrongdoing; it is not itself evidence that the wrongdoing has been established or that watchdog functions have been materially impaired.",
       "severity": 0
     }
   },
@@ -5392,6 +5422,16 @@
       "rationale": "This item reports on Russian electoral exclusions, not U.S. events. The signal is defined for U.S. constitutional-risk assessment. Events occurring in Russia, regardless of their similarity to the signal pattern, fall outside the scope of a U.S. domestic constitutional-stress dashboard. Mark as non-U.S. and therefore not evidence of the signal in the United States.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HdUdlVWlnbnlnbG5xaGNaSWtKdG53c2FVWlc4bVZLNHN1S3c2RzJUUThfSnJORHdhanNPSnFCcG1kWktwTDd1VDB2RV9nendGeGlpT1I0MA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is non-U.S. (Jerusalem Post coverage of Israeli politics). The signal concerns opposition ballot exclusion in the United States. A foreign election matter, even if it involved candidate disqualification, would not constitute evidence of the signal occurring in the U.S. domestic context.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DZ3diNEd6M1FQR21XQWk4WkNSMFZNbnNNTkV0NkpObFBQNWwyWkcyak1DZEJCZzBYRFZfeHRZWjRjT1pVRGJWZW0waUFXT1lpSW9ZUk9n?oc=5": {
       "actor": "Israeli Election Panel",
       "confidence": 0.99,
@@ -6946,6 +6986,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.netnewsledger.com",
       "rationale": "This item is Canadian analysis of U.S. press restrictions\u2014a non-U.S. source analyzing U.S. events. While it may reference U.S. events, the item's primary focus is on Canada's press-freedom test and regulatory context. The signal is U.S. domestic constitutional risk; coverage of U.S. actions by a Canadian outlet does not itself constitute U.S. domestic state action. Treating it as evidence of U.S. constitutional stress would duplicate evidence from U.S. sources.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQczJ6aTNzSmJrcjk0QThielNLODNBb3U4Umx5dThaV1pCTnVGQzBzX2Q0THgxZDBBNXRuWXBJMWxpaWd4SEQ0a1NqWUExX2JmcUt5c2I4aFRaV19OUVo3WjdyOHRMUnREaTRKUDBPdVdBQllXOVdnbjVBNHlaRlZxT2RPYWJobEhITkN3b1RaYmJKZ1lFOFN1MHVHZTA3UkpCXzdhZHhSdU1aa1VWVFZIT256S1ptcFZz?oc=5": {
+      "actor": "Israel (non-U.S.)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on journalist deaths in Gaza, a non-U.S. context. The signal 'Press Restrictions or Retaliation' targets state action by the United States that raises costs or legal risk for independent reporting within the U.S. constitutional system. Deaths of foreign journalists in an armed conflict abroad, while serious as a human-rights matter, do not constitute evidence of U.S. constitutional stress regarding press freedom or state retaliation against U.S. independent reporting. Not relevant to the U.S. domestic dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUnJCVThpNjJQWVBSTml2S2NiTTk4RnBucTZFYmJWRTRHTE5CakpUbVo5c05VaTNrLUVXdXdfX1RwSkswMG5xVFljZXVXb2hoV05vTnEwU3JDcDdDVDZqaWdBNGdXdFFPWkNfdkt6TEcyYzBPMy1pUkNMdHNRSDNwYUNTcXF4NnNhNkd6eWxuY0F5VnNVUG1lZDBkcnVUVVVkRTU3dU4tanZQLVpJTnVyUVc4TURpQnBCSFVETg?oc=5": {
