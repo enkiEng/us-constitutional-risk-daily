@@ -733,6 +733,26 @@
       }
     },
     {
+      "id": "public_funds_political_promotion",
+      "domain_id": "civil_liberties_information",
+      "name": "Public Funds for Political Promotion",
+      "description": "Appropriated public money spent on communications that promote the officeholder or the governing party rather than inform the public \u2014 campaign-style advertising carrying a government disclaimer, agency ad buys timed to an electoral calendar, or a spend whose funding source is never identified. Since the 1950s every appropriations act has barred federal funds for 'publicity or propaganda purposes', and GAO reads that to cover communications that are purely partisan or designed to aid a party or candidate. Ordinary agency public-information campaigns are NOT this signal; the tell is personal or partisan promotion, or an appropriation nobody will name.",
+      "query": "taxpayer-funded government ad \"paid for by\" administration propaganda United States",
+      "yellow_threshold": 3,
+      "severe_terms": [
+        "taxpayer-funded ad",
+        "government-funded ad",
+        "paid for by the u.s. government",
+        "publicity or propaganda",
+        "campaign ad paid with public funds"
+      ],
+      "critical_terms": [
+        "appropriated funds used for campaign advertising",
+        "agencies directed to fund political advertising",
+        "funding source concealed"
+      ]
+    },
+    {
       "id": "military_domestic_political_use",
       "domain_id": "security_sector_neutrality",
       "name": "Domestic Military Use in Political Conflict",
