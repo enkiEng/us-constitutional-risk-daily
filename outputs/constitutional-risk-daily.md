@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-09-27 12:39:15 UTC
+- Generated: 2026-09-28 12:46:31 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **9 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-5.0**
-- Delta vs 7-day average: **-5.8**
+- Score: **6 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-3.0**
+- Delta vs 7-day average: **-7.4**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,36 +15,37 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.33 | 1.79 |
+| Elections and Transfer of Power | 22 | 0.24 | 1.31 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
-| Opposition Rights and Political Pluralism | 14 | 0.32 | 1.11 |
-| Executive Constraints and Emergency Powers | 13 | 1.18 | 3.85 |
-| Civil Service and Agency Independence | 10 | 0.33 | 0.81 |
-| Civil Liberties and Information Environment | 10 | 0.30 | 0.75 |
+| Opposition Rights and Political Pluralism | 14 | 0.20 | 0.70 |
+| Executive Constraints and Emergency Powers | 13 | 0.83 | 2.71 |
+| Civil Service and Agency Independence | 10 | 0.24 | 0.59 |
+| Civil Liberties and Information Environment | 10 | 0.12 | 0.31 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
-| Federalism and Legislative Oversight | 8 | 0.47 | 0.95 |
+| Federalism and Legislative Oversight | 8 | 0.30 | 0.60 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Martial Law or Military Governance Language | executive_constraints | 1.65 (Watch) | keyword | 0 | 0 |
-| Election Administration Capture | elections_transfer | 1.30 (Watch) | ai | 0 | 6 |
-| Legislative Bypass by Executive | executive_constraints | 1.30 (Watch) | keyword | 0 | 0 |
-| Statistical Agency Integrity | civil_service_integrity | 1.30 (Watch) | ai | 0 | 0 |
-| Opposition Ballot Exclusion | opposition_pluralism | 0.95 (Watch) | ai | 0 | 3 |
-| Legislative Oversight Obstruction | federalism_oversight | 0.95 (Watch) | keyword | 0 | 0 |
-| Press Restrictions or Retaliation | civil_liberties_information | 0.60 (Green) | ai | 0 | 3 |
-| Emergency Powers Expansion | executive_constraints | 0.60 (Green) | ai | 0 | 2 |
+| Martial Law or Military Governance Language | executive_constraints | 1.30 (Watch) | ai | 0 | 3 |
+| Election Administration Capture | elections_transfer | 0.95 (Watch) | ai | 0 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 0.95 (Watch) | keyword | 0 | 0 |
+| Statistical Agency Integrity | civil_service_integrity | 0.95 (Watch) | ai | 0 | 0 |
+| Opposition Ballot Exclusion | opposition_pluralism | 0.60 (Green) | ai | 0 | 3 |
+| Legislative Oversight Obstruction | federalism_oversight | 0.60 (Green) | keyword | 0 | 0 |
+| Press Restrictions or Retaliation | civil_liberties_information | 0.25 (Green) | ai | 0 | 2 |
+| Emergency Powers Expansion | executive_constraints | 0.25 (Green) | ai | 0 | 1 |
 
 ## Evidence Samples
 
 ### Martial Law or Military Governance Language
-- No fresh evidence links in the current lookback window.
+- [10News.com] California Supreme Court orders Riverside County sheriff to return 650,000 seized ballots - 10News.com (2026-09-27) - https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRll5ZncxNGd1MHFFelZUUFdmVzQtR245WDZ2Y2hpMjJwOXpDRjF0dEctcGtMU1o4eE4xbXE1Z1phWTNZQ0NibXA1ODlfczEwTFRiTk5EOVhuNWlUb0ktd3VOS3dKMjR2LU5zaHpJSF9ZSXpIWl9NSjRHb2xCVW9wQ21BTmtvWEh0dTRJYm12TmR4emtVeWhVNi02Umk3QTBtN3NraXV1cUhrMFdTUV8tcTZ4cnpSOFo3?oc=5
+- [Arise News] Ubani: Supreme Court Has Finally Laid To Rest Issue Of Party Autonomy - Arise News (2026-09-28) - https://news.google.com/rss/articles/CBMilAFBVV95cUxOaGRFdE9zVlhqS3FITFVvczgyZ0xTaGVVakF0X0RtUzZPUFQ0aE5ITlJROXBKSXluSGpmeGxNR3I2ZjJvOExDOWFLM25NeEdkS3hmU0FfaGlZcVdZYWdPNXBPWGhfUHZiSi0tUGxHano0dzk1YzZuekwxT2dVM0ZDNGZ1dFNXSVhYVzNiakFjYmdaZ1pr?oc=5
+- [Судово-юридична газета] Two vacant seats in the High Council of Justice under the advocacy quota and four years without a Congress: the court will check whether the National Bar Association lawfully postponed its holding - Судово-юридична газета (2026-09-27) - https://news.google.com/rss/articles/CBMiggJBVV95cUxOaTJIM3BraEIwT3FRazYyU2lHVS04bEplOHItLXJlbHpzX1RlM19vZ182NXpQZXcwUENtcmdzUGtxSGxMMHpVbVVQMlRxd2FkejlqdklrbFRfUFhpVjVTVjhyOVNnZThfd3FjaEt6cUlHak5ZcmRMZlRSRnBiU1Z1QmN2X0lpZGktMll1anJZamJGdmk2cVlBeGp4aUo3R3c3c1hoNTU3TUhfZjZLT1ZsQnpZTWF4cWd3Sk9oQnVwcWh5ZVdWUUhhckNCcDBQXzMweG5JYXBmbVhqWklkRDg5ajctVjdpa2lhU3BlM0hzWDZLOXkxRVJzSUEtTUdpYVFnN2c?oc=5
+
 ### Election Administration Capture
-- [The Texas Tribune] Texas Democrat who championed A-F trigger law says he’s trying to fix schools - The Texas Tribune (2026-09-26) - https://news.google.com/rss/articles/CBMinwFBVV95cUxQaTE3SEV2WUxkUDlLcTRYZjhqWHNET1BVTUh3VFVUcGtzRkdsSi1lSmRNRklmUXRZMXByZGlMQ1B6V2FIamdtaUtXM0ZfMVN3S0s2aVVfSVowTGluQ1M1b255bW1sLU5wZjlObFhLY0dlem9mbVloTHJScFZZdkgtWWtxNXdZNmMzQy1HaVJhZzBYUzVjcGdOZjVQSTc5RmM?oc=5
-- [abcnews.com] 'Going to be practical': Sen. Markwayne Mullin speaks out after being named Noem's replacement at DHS - abcnews.com (2026-09-25) - https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGFPSVpoVFZTUlFjaDZRakItV05kaVlGVlluM1pMRGRvTkpaS2RFNlY2ZElwbFFOUEwtQVhSTzVVZlRmSmVBb1JFZDBaaVRqR05kNnZydDNBcFVOak5ENzZvRmdaOFdLTk9sUk9Kc3hSdnB4a3VEcGl6NDJ0M2RNTG9mMjFSUkd0MlNUYnl2QTNjeDI3aWt1UHM3WVBXaGhTOVY0VXBR0gGrAUFVX3lxTE1JN1FWZ1RwMHQ4aEpyckdLR2RxTnhucVUwZ21uVWZscnBKU3MxZFBQX3RaTXlBZE45YnBXLUo0OW4tSWRWdDRRVnFtTHhxbVdzMTJuLTNYQXdQUlB2M0hobldMT05hN2xscnlXLXVjT2VaX2I5WXlzWWdiY0lWNHIzZ0dDMnBDTFN5bUx1bXpQRkduNzdjcF9nS2ZqbTZZMm5YQmRaOTlPVjdNYw?oc=5
-- [The New Republic] Susan Collins’s Flimsy Corruption Defense Collapses - The New Republic (2026-09-25) - https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xbTZfVUxGSkREWEpuaFFIcXIyaHhqM1FGRkllWk1fTmJOWTd0RjVNUzFEcGJ0QjlaR1hYVXg5V2hIQWY3YllJNXI0N0gtUQ?oc=5
+- [heraldgoa.in] ECI to re-enroll 81 Goa voters left out of electoral roll - heraldgoa.in (2026-09-27) - https://news.google.com/rss/articles/CBMimgFBVV95cUxOUnNpSklTRzltc1VkZEdDMDl4RkgxWlFPX1hXZVBuQUhucjl6MS1WWFNnUUFFQmNQNTZtaDdqNUlXbDY1SnBFcGpfdFRKT3g5dm9xbFlwX1M2U0lSV2lYTmNvMGwxcTlkLTFWOER4eFV5cnpueTJsazEyYkc3SlByRHJtTjRMX3cybEZqNDB3Z0xXM2pSMHVIR3p3?oc=5
 
 ### Legislative Bypass by Executive
 - No fresh evidence links in the current lookback window.
@@ -54,9 +55,9 @@
 - [federalregister.gov] **[official record]** Agency Information Collection Activities; Extension of Collection; Comment Request; Generic Clearance for the Collection of Qualitative Feedback on Agency Service Delivery (2026-09-28) - https://www.federalregister.gov/documents/2026/09/28/2026-19750/agency-information-collection-activities-extension-of-collection-comment-request-generic-clearance
 
 ### Opposition Ballot Exclusion
+- [Fair Observer] Putin Wins Supermajority in 2026 Election - Fair Observer (2026-09-27) - https://news.google.com/rss/articles/CBMiigFBVV95cUxQb2hEdkJPUnE2c1ZpQlRnM0cwRE9IaFVKRXdtNkR2bEpxaVVEeUVyQVlKbHlqRXVkRzlnZm81MnFfSkRRMWRFS19sVFBkQ3hJcm9RdUpnT3JWck96QTRjVXlWb3JfRXFFUEtZOW1FRDlQWWF4RGtfeWF5WXdWYmZ2NGl5VjJzV0NkeWc?oc=5
 - [The Jerusalem Post] Disqualifying Ra'am from Israeli elections: It’s good for Zionism, bad for democracy - opinion - The Jerusalem Post (2026-09-27) - https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HdUdlVWlnbnlnbG5xaGNaSWtKdG53c2FVWlc4bVZLNHN1S3c2RzJUUThfSnJORHdhanNPSnFCcG1kWktwTDd1VDB2RV9nendGeGlpT1I0MA?oc=5
-- [news24.com] ‘Dirty tricks’: ActionSA accuses DA of removing election posters in Cape Town - news24.com (2026-09-25) - https://news.google.com/rss/articles/CBMixwFBVV95cUxPdkpicFZoVFF3ZkF0VTVkYlJpWmtjU19WVm9JS2NyQmhfbldfZ2dESFlpQW54MkE3aFZXOHpqZjJZNHI4SXZ1UURkVjI2SlZlSlJ0TXNLdWQ2Xy1pWjVJTGNtck9FNi1rcm9IU0tUeV8zT2JSY2RiUTVLM0RCd0lyOTVaR0tyOWNkRGFaNmRGQk1sNkI3bHpGbnZvb3FqcXZFVm1oN1ltMmw1bDhON0xjMmhrX0U4cHlFdWtOa1k2SGFJS01id2R3?oc=5
-- [Daily Trust] 2027: Chinda, Pantami, ex-IGP Adamu’s fate hangs in the balance - Daily Trust (2026-09-26) - https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRnZzQy0xT3JzdVJCN29PdVhPSG5FQnV6Nk1wNUFNRVBCV0d3akNXY18yOHZGdFJYWGcwbWE0VVNsdXBKNEhwcXoyWlhCd0pKWTFMZ0VTV0J2Ylp3X0ZsWXltOXJLOU1mQnRqS1FyY3BkZnd4blBhYlpnZmUxWFVHWVFrNGpZc0hHRkZN?oc=5
+- [Legit News] Electoral Act: Supreme Court Ruling Unsettles PDP, Opposition Candidates Ahead of 2027 Election - Legit News (2026-09-28) - https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRU5YRHFFbGVKWVFYYlB0TWhCb2JmUlBybDYzbWJ4WUh6UExwakhaX1dwbVJQOUFUTF9rMWNrY09HZjE4cmN2N1NBWVdrUVhKYi10c3dmdlYtSTAxTEd1U1ZLVVJwa1Y0Y0JTNkllU29BQm5GUFdwRjJVRWFYaDVHbEVQMW5QOWZKRC11OWY2bkVKNnZ6Y2dHVy02Sy1LNjJ4TFlKV2ttNmVPTXU2NW0yQnREMTRWM19VZ3Rsb2pRNTg?oc=5
 
 ## Data Quality
 
@@ -67,7 +68,5 @@
 - Primary-source confirmations: 0
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
-- Fetch errors:
-  - election_delay_or_cancellation: courtlistener: The read operation timed out
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.

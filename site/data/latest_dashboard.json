@@ -1,6 +1,6 @@
 {
   "attempted_queries": 24,
-  "average_7d": 15.01,
+  "average_7d": 13.65,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -5.0,
-  "delta_vs_7d": -5.75,
+  "delta_previous_day": -3.0,
+  "delta_vs_7d": -7.43,
   "domain_breakdown": [
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.2375,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.7875,
+      "points": 1.30625,
       "weight": 22
     },
     {
@@ -27,31 +27,31 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.19999999999999998,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1083333333333334,
+      "points": 0.7,
       "weight": 14
     },
     {
-      "avg_severity": 1.1833333333333333,
+      "avg_severity": 0.8333333333333334,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.845833333333333,
+      "points": 2.7083333333333335,
       "weight": 13
     },
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.2375,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.8125,
+      "points": 0.59375,
       "weight": 10
     },
     {
-      "avg_severity": 0.3,
+      "avg_severity": 0.125,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 0.75,
+      "points": 0.3125,
       "weight": 10
     },
     {
@@ -62,22 +62,20 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.475,
+      "avg_severity": 0.3,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.95,
+      "points": 0.6,
       "weight": 8
     }
   ],
   "extraction_mode": "ai",
   "failed_queries": 0,
-  "fetch_errors": [
-    "election_delay_or_cancellation: courtlistener: The read operation timed out"
-  ],
+  "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-27T12:39:15.840270+00:00",
+  "generated_at": "2026-09-28T12:46:31.144597+00:00",
   "methodology_version": 2,
-  "previous_score": 14,
+  "previous_score": 9,
   "primary_sources": {
     "documents_confirmed": 0,
     "documents_fetched": 13,
@@ -88,18 +86,46 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 9,
-  "score_raw": 9.25,
-  "score_raw_pre_trip_wire": 9.25,
+  "score": 6,
+  "score_raw": 6.22,
+  "score_raw_pre_trip_wire": 6.22,
   "successful_queries": 24,
   "top_signals": [
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
+      "evidence": [
+        {
+          "canonical_link": "https://www.10news.com/news/california-supreme-court-orders-riverside-county-sheriff-to-return-650-000-seized-ballots",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRll5ZncxNGd1MHFFelZUUFdmVzQtR245WDZ2Y2hpMjJwOXpDRjF0dEctcGtMU1o4eE4xbXE1Z1phWTNZQ0NibXA1ODlfczEwTFRiTk5EOVhuNWlUb0ktd3VOS3dKMjR2LU5zaHpJSF9ZSXpIWl9NSjRHb2xCVW9wQ21BTmtvWEh0dTRJYm12TmR4emtVeWhVNi02Umk3QTBtN3NraXV1cUhrMFdTUV8tcTZ4cnpSOFo3?oc=5",
+          "published": "2026-09-27T17:39:06+00:00",
+          "publisher": "10News.com",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "California Supreme Court orders Riverside County sheriff to return 650,000 seized ballots - 10News.com"
+        },
+        {
+          "canonical_link": "https://www.arise.tv/ubani-supreme-court-has-finally-laid-to-rest-issue-of-party-autonomy/",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaGRFdE9zVlhqS3FITFVvczgyZ0xTaGVVakF0X0RtUzZPUFQ0aE5ITlJROXBKSXluSGpmeGxNR3I2ZjJvOExDOWFLM25NeEdkS3hmU0FfaGlZcVdZYWdPNXBPWGhfUHZiSi0tUGxHano0dzk1YzZuekwxT2dVM0ZDNGZ1dFNXSVhYVzNiakFjYmdaZ1pr?oc=5",
+          "published": "2026-09-28T10:38:25+00:00",
+          "publisher": "Arise News",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Ubani: Supreme Court Has Finally Laid To Rest Issue Of Party Autonomy - Arise News"
+        },
+        {
+          "canonical_link": "https://sud.ua/en/news/publication/373112-dva-vakantni-mistsia-u-vrp-za-kvotoiu-advokatury-ta-chotyry-roky-bez-zizdu-sud-pereviryt-chy-zakonno-rau-vidklala-ioho-provedennia",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOaTJIM3BraEIwT3FRazYyU2lHVS04bEplOHItLXJlbHpzX1RlM19vZ182NXpQZXcwUENtcmdzUGtxSGxMMHpVbVVQMlRxd2FkejlqdklrbFRfUFhpVjVTVjhyOVNnZThfd3FjaEt6cUlHak5ZcmRMZlRSRnBiU1Z1QmN2X0lpZGktMll1anJZamJGdmk2cVlBeGp4aUo3R3c3c1hoNTU3TUhfZjZLT1ZsQnpZTWF4cWd3Sk9oQnVwcWh5ZVdWUUhhckNCcDBQXzMweG5JYXBmbVhqWklkRDg5ajctVjdpa2lhU3BlM0hzWDZLOXkxRVJzSUEtTUdpYVFnN2c?oc=5",
+          "published": "2026-09-27T17:00:00+00:00",
+          "publisher": "\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Two vacant seats in the High Council of Justice under the advocacy quota and four years without a Congress: the court will check whether the National Bar Association lawfully postponed its holding - \u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 3,
       "id": "martial_law_or_military_language",
       "name": "Martial Law or Military Governance Language",
       "override_note": null,
@@ -108,7 +134,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -118,35 +144,17 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://www.texastribune.org/2026/09/25/texas-public-education-school-takeovers-a-f-tribfest-2026/",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaTE3SEV2WUxkUDlLcTRYZjhqWHNET1BVTUh3VFVUcGtzRkdsSi1lSmRNRklmUXRZMXByZGlMQ1B6V2FIamdtaUtXM0ZfMVN3S0s2aVVfSVowTGluQ1M1b255bW1sLU5wZjlObFhLY0dlem9mbVloTHJScFZZdkgtWWtxNXdZNmMzQy1HaVJhZzBYUzVjcGdOZjVQSTc5RmM?oc=5",
-          "published": "2026-09-26T00:28:05+00:00",
-          "publisher": "The Texas Tribune",
+          "canonical_link": "https://www.heraldgoa.in/goa/eci-to-re-enroll-81-goa-voters-left-out-of-electoral-roll/490158/",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUnNpSklTRzltc1VkZEdDMDl4RkgxWlFPX1hXZVBuQUhucjl6MS1WWFNnUUFFQmNQNTZtaDdqNUlXbDY1SnBFcGpfdFRKT3g5dm9xbFlwX1M2U0lSV2lYTmNvMGwxcTlkLTFWOER4eFV5cnpueTJsazEyYkc3SlByRHJtTjRMX3cybEZqNDB3Z0xXM2pSMHVIR3p3?oc=5",
+          "published": "2026-09-27T05:47:43+00:00",
+          "publisher": "heraldgoa.in",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Texas Democrat who championed A-F trigger law says he\u2019s trying to fix schools - The Texas Tribune"
-        },
-        {
-          "canonical_link": "https://abcnews.com/Politics/practical-sen-markwayne-mullin-speaks-after-named-noems/story?id=130799720",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGFPSVpoVFZTUlFjaDZRakItV05kaVlGVlluM1pMRGRvTkpaS2RFNlY2ZElwbFFOUEwtQVhSTzVVZlRmSmVBb1JFZDBaaVRqR05kNnZydDNBcFVOak5ENzZvRmdaOFdLTk9sUk9Kc3hSdnB4a3VEcGl6NDJ0M2RNTG9mMjFSUkd0MlNUYnl2QTNjeDI3aWt1UHM3WVBXaGhTOVY0VXBR0gGrAUFVX3lxTE1JN1FWZ1RwMHQ4aEpyckdLR2RxTnhucVUwZ21uVWZscnBKU3MxZFBQX3RaTXlBZE45YnBXLUo0OW4tSWRWdDRRVnFtTHhxbVdzMTJuLTNYQXdQUlB2M0hobldMT05hN2xscnlXLXVjT2VaX2I5WXlzWWdiY0lWNHIzZ0dDMnBDTFN5bUx1bXpQRkduNzdjcF9nS2ZqbTZZMm5YQmRaOTlPVjdNYw?oc=5",
-          "published": "2026-09-25T17:09:55+00:00",
-          "publisher": "abcnews.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "'Going to be practical': Sen. Markwayne Mullin speaks out after being named Noem's replacement at DHS - abcnews.com"
-        },
-        {
-          "canonical_link": "https://newrepublic.com/breaking-news",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xbTZfVUxGSkREWEpuaFFIcXIyaHhqM1FGRkllWk1fTmJOWTd0RjVNUzFEcGJ0QjlaR1hYVXg5V2hIQWY3YllJNXI0N0gtUQ?oc=5",
-          "published": "2026-09-25T20:18:20+00:00",
-          "publisher": "The New Republic",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Susan Collins\u2019s Flimsy Corruption Defense Collapses - The New Republic"
+          "title": "ECI to re-enroll 81 Goa voters left out of electoral roll - heraldgoa.in"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 6,
+      "hits": 1,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -155,7 +163,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -174,7 +182,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -221,7 +229,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -230,6 +238,15 @@
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
+        {
+          "canonical_link": "https://www.fairobserver.com/fofeatures/putin-wins-supermajority-in-2026-election/",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb2hEdkJPUnE2c1ZpQlRnM0cwRE9IaFVKRXdtNkR2bEpxaVVEeUVyQVlKbHlqRXVkRzlnZm81MnFfSkRRMWRFS19sVFBkQ3hJcm9RdUpnT3JWck96QTRjVXlWb3JfRXFFUEtZOW1FRDlQWWF4RGtfeWF5WXdWYmZ2NGl5VjJzV0NkeWc?oc=5",
+          "published": "2026-09-27T09:43:00+00:00",
+          "publisher": "Fair Observer",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Putin Wins Supermajority in 2026 Election - Fair Observer"
+        },
         {
           "canonical_link": "https://www.jpost.com/opinion/article-909811",
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HdUdlVWlnbnlnbG5xaGNaSWtKdG53c2FVWlc4bVZLNHN1S3c2RzJUUThfSnJORHdhanNPSnFCcG1kWktwTDd1VDB2RV9nendGeGlpT1I0MA?oc=5",
@@ -240,22 +257,13 @@
           "title": "Disqualifying Ra'am from Israeli elections: It\u2019s good for Zionism, bad for democracy - opinion - The Jerusalem Post"
         },
         {
-          "canonical_link": "https://www.news24.com/southafrica/news/dirty-tricks-actionsa-accuses-da-of-removing-election-posters-in-cape-town-20260925-1097",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdkpicFZoVFF3ZkF0VTVkYlJpWmtjU19WVm9JS2NyQmhfbldfZ2dESFlpQW54MkE3aFZXOHpqZjJZNHI4SXZ1UURkVjI2SlZlSlJ0TXNLdWQ2Xy1pWjVJTGNtck9FNi1rcm9IU0tUeV8zT2JSY2RiUTVLM0RCd0lyOTVaR0tyOWNkRGFaNmRGQk1sNkI3bHpGbnZvb3FqcXZFVm1oN1ltMmw1bDhON0xjMmhrX0U4cHlFdWtOa1k2SGFJS01id2R3?oc=5",
-          "published": "2026-09-25T18:19:23+00:00",
-          "publisher": "news24.com",
+          "canonical_link": "https://www.legit.ng/politics/1733202-electoral-act-supreme-court-ruling-unsettles-pdp-opposition-candidates-2027-election/",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRU5YRHFFbGVKWVFYYlB0TWhCb2JmUlBybDYzbWJ4WUh6UExwakhaX1dwbVJQOUFUTF9rMWNrY09HZjE4cmN2N1NBWVdrUVhKYi10c3dmdlYtSTAxTEd1U1ZLVVJwa1Y0Y0JTNkllU29BQm5GUFdwRjJVRWFYaDVHbEVQMW5QOWZKRC11OWY2bkVKNnZ6Y2dHVy02Sy1LNjJ4TFlKV2ttNmVPTXU2NW0yQnREMTRWM19VZ3Rsb2pRNTg?oc=5",
+          "published": "2026-09-28T10:13:35+00:00",
+          "publisher": "Legit News",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "\u2018Dirty tricks\u2019: ActionSA accuses DA of removing election posters in Cape Town - news24.com"
-        },
-        {
-          "canonical_link": "https://dailytrust.com/2027-chinda-pantami-ex-igp-adamus-fate-hangs-in-the-balance/",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRnZzQy0xT3JzdVJCN29PdVhPSG5FQnV6Nk1wNUFNRVBCV0d3akNXY18yOHZGdFJYWGcwbWE0VVNsdXBKNEhwcXoyWlhCd0pKWTFMZ0VTV0J2Ylp3X0ZsWXltOXJLOU1mQnRqS1FyY3BkZnd4blBhYlpnZmUxWFVHWVFrNGpZc0hHRkZN?oc=5",
-          "published": "2026-09-26T03:21:20+00:00",
-          "publisher": "Daily Trust",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "2027: Chinda, Pantami, ex-IGP Adamu\u2019s fate hangs in the balance - Daily Trust"
+          "title": "Electoral Act: Supreme Court Ruling Unsettles PDP, Opposition Candidates Ahead of 2027 Election - Legit News"
         }
       ],
       "evidence_mode": "ai",
@@ -268,8 +276,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -287,8 +295,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -306,26 +314,17 @@
           "title": "262 Palestinian journalists killed by Israel since Gaza war: Media office - Anadolu Ajans\u0131"
         },
         {
-          "canonical_link": "https://peopledaily.digital/insights/world-news-day-how-kenyas-media-freedom-is-under-pressure-as-journalists-face-growing-restrictions",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZHZ1M043THNiYno3c1MwTWdkUVptb2tOVlo4QTNMSWFYT0kxaU5qM2hab0VzSVdjT3R4cG50ZFVlZ2xDRVE1eTNoOGwxdmJtQzhaMEdhVndMa3AwMXNXbG9hbDh5MTcxMzlRVmhaRzhHb29EREJIU2phaUx0NDE5NHhLeVRVUks1b1hEUTJ0SXBYd2tJb3I1YlBiNWp3S1FRRzdxZVdlbjhJdVRuT3cwR0VWRk82R3FMeE5SeUV3clhWWTUzMzg3eHYxeU9BdVg4?oc=5",
-          "published": "2026-09-25T15:56:15+00:00",
-          "publisher": "People Daily",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "World News Day: How Kenya\u2019s media freedom is under pressure as journalists face growing restrictions - People Daily"
-        },
-        {
-          "canonical_link": "https://www.journalismpakistan.com/the-journalismpakistan-global-media-brief-edition-39-september-25-2026",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRFV2MHlNOVN3d0QxNXVDYTZkUTVzOFdnSkFfRFVuOWtmajRfR0VQTjJOWTVUc3pWU0hZTFMzMnotMURnR3dUNHZHUEpGZVZOTFJteGVIYzBFVjNkQnlIX0FteE9QWVJGN1ZISGQ5clotd1Z0RFViZGhuYWpQRXBVN0RVRng3bVV3NG1jSFptZWZLZk0wYzBTMlhrSmctUDhZMjQ5OEdxVlg?oc=5",
-          "published": "2026-09-25T15:27:48+00:00",
+          "canonical_link": "https://www.journalismpakistan.com/press-freedom-tested-by-arrests-attacks-and-legal-pressure",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUHN5TXBnQVhjeFM2UE9FdW0zTTF6Zi0yYWQzZmw1NVdTRDhGMXVXaDRkYmVWc1pNcmZqbGtzU0dyLUFnMDdJZjhCdHNqalFjUkhUTWNUdXhsODJ4R3NhUDhPUGticEh2dlRXRHBiUmhHdjZkRHNaaVBqNmxLVUh1el9MckVWM0kxQ293R2FNNDlET3EwcUZqSA?oc=5",
+          "published": "2026-09-27T14:51:25+00:00",
           "publisher": "Journalism Pakistan",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "The JournalismPakistan Global Media Brief | Edition 39 | September 25, 2026 - Journalism Pakistan"
+          "title": "Press freedom tested by arrests, attacks and legal pressure - Journalism Pakistan"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 2,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
@@ -334,7 +333,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -344,26 +343,17 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://www.fff.org/explore-freedom/article/when-everything-becomes-a-national-security-threat/",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV3VOSXF6UTFlUmYxdF9td1JfeS00ZEE3b0RGZnJyVEVPN0RBcS0wOUx5VllEdXpqcDFMZTZJSlprNENIa016eTN1NlhkaWZ0cGtfcHJ4ZF9na3RpZUtNdHJiU3J3WXA1TTBfcXBfdkhPM3lsRllhc0c3S1ZBNF9iaGRmSElWMGJTR1E4d1FrNW43T2lSU1VhbV9Odw?oc=5",
-          "published": "2026-09-25T16:54:50+00:00",
-          "publisher": "fff.org",
+          "canonical_link": "https://usaherald.com/trump-allies-urge-martial-law-to-intervene-in-midterms/",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcFFwYzZYU2k4dWFicURKSl9jRkRPMXp4RkJfc1JmNjNMQUJqMzBVWW10Y0JQcVlyeTdial9ZQk5MbEIzd0ZlOWdxWUVReWJCRGU5Um1TeE9Mc2J6S0k5TWRxSVU3a3dHdEN2aDExRjFaLUNSTUthRVowM3BuV1RIZU1hdw?oc=5",
+          "published": "2026-09-28T01:13:44+00:00",
+          "publisher": "usaherald.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "When Everything Becomes a National Security Threat - fff.org"
-        },
-        {
-          "canonical_link": "https://tippinsights.com/when-everything-becomes-a-national-security-threat/",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTWdfRnFoeDF1Nk9CV29WWWwwSVlmSG1mVHNUbkdTUUJ2eDNocVF0dldkejRVMUZ6blVEVVFja1cyY0swRW9rY3R2NHFRYXl2Q0EwbjROaDNFLVk1ZWtRVW1yd0g2UE0wa2ppNDNJbm94REdfYzgtNldpZm1QbTViT2J3?oc=5",
-          "published": "2026-09-26T12:17:49+00:00",
-          "publisher": "tippinsights",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "When Everything Becomes A National Security Threat - tippinsights"
+          "title": "Trump Allies Urge Martial Law to Intervene in Midterms - usaherald.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 1,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
@@ -372,7 +362,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
