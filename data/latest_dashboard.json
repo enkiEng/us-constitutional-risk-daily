@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 12.53,
+  "average_7d": 11.44,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,13 +10,13 @@
   "confidence": "High",
   "data_available": true,
   "delta_previous_day": 1.0,
-  "delta_vs_7d": -5.04,
+  "delta_vs_7d": -3.32,
   "domain_breakdown": [
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.25,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.825,
+      "points": 1.375,
       "weight": 22
     },
     {
@@ -27,10 +27,10 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.08333333333333333,
+      "avg_severity": 0.0,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.29166666666666663,
+      "points": 0.0,
       "weight": 14
     },
     {
@@ -41,17 +41,17 @@
       "weight": 13
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0625,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.375,
+      "points": 0.15625,
       "weight": 10
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 1.3333333333333333,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.5,
+      "points": 3.333333333333333,
       "weight": 10
     },
     {
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.125,
+      "avg_severity": 0.0,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.25,
+      "points": 0.0,
       "weight": 8
     }
   ],
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-09-29T12:45:21.971730+00:00",
+  "generated_at": "2026-09-30T12:48:01.553622+00:00",
   "methodology_version": 2,
-  "previous_score": 6,
+  "previous_score": 7,
   "primary_sources": {
     "documents_confirmed": 0,
-    "documents_fetched": 12,
+    "documents_fetched": 13,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,57 +86,57 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 7,
-  "score_raw": 7.49,
-  "score_raw_pre_trip_wire": 7.49,
+  "score": 8,
+  "score_raw": 8.11,
+  "score_raw_pre_trip_wire": 8.11,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 12,
+      "confirmed_hits": 18,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.nytimes.com/2026/09/27/us/politics/trump-ad-government-campaign.html",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOXlqZWszQVhSYThHc0xrc1FNTGh4dmh6ZkllWmNWdUVkdk9xZjdRTDg3cnFyckQyYnpLMEh4NjVKMGlhN3pxZUpKQWNuRF9Cd1A3ZzRPUlJtQ3ptREZGWjNWblczSE8xVHQyU09Edm0tYUptYW9JSTVjWnVWOTdicDlCUEZrV2M?oc=5",
-          "published": "2026-09-27T19:30:11+00:00",
-          "publisher": "The New York Times",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump\u2019s 2024 \u2018Final Battle\u2019 Ad Returns, Funded by Public Money - The New York Times"
-        },
-        {
-          "canonical_link": "https://www.nbcnews.com/politics/trump-administration/white-house-releases-new-taxpayer-funded-ad-describing-final-battle-rcna600171",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVHQxTkktREdFVVhkVHppbzBoaUlPcWJwVGN2eENtNEtzLUlIM3FzM1l4SE8zM2R0elR4bWoxVzVtSDRrcDNnTGpuOHA2eHpyVUplRUFvZTMzLVkyeUxRdVFJZDlMMFRVVG5HN1lDdWpWWnFVTHNXam54YU5ONUFEb1d3UGxoQ19Yc21KMFhEMVlGUlZEbVN4WnoxVHlINjhtVzZVa2VHUXBHY1hTWFNjWFl3VTl6RkFWZGxNbHpOYlo1eFRYLUp2Rmd6MGo?oc=5",
-          "published": "2026-09-28T13:48:00+00:00",
+          "canonical_link": "https://www.nbcnews.com/politics/trump-administration/trump-tv-ads-customs-border-protection-money-rcna600527",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLUdXSVlRTkJ5U2IwRUhEakgwTi13NWsyUFJOcExGVF9aMFZfXzdKVUNIZEI4NlZ3WjhaNzNoVExTVTdkQ3N4bWdqRTR3c1pmTXdBaTZqeXY5c2U4LUdqNzdGX3JtMDhqbllKMFdCSFQ1ZlVTLUJrVmIzMkEwLUI3X1FfcVEwRGgwd0VkU1RUSlhpeExpSk54SjhwLUJVOVlhY0R3UUJ6ZE84ME8wLVE?oc=5",
+          "published": "2026-09-30T12:12:00+00:00",
           "publisher": "NBC News",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "White House releases new taxpayer-funded ad describing \u2018final battle\u2019 - NBC News"
+          "title": "Pro-Trump TV ads paid for with Customs and Border Protection money, official says - NBC News"
         },
         {
-          "canonical_link": "https://www.poynter.org/fact-checking/2026/are-trump-taxpayer-funded-ads-legal/",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR2Z1RUZRNXVKMXJ5T2IxbzJoWjV6NFc4S2JIRW5na0pYQmpmWmJvYkRYelhjRWdta1VwbjEwUG5MOEl0dkF1N2dscTM3eURMNWtsQkZYVVlvODNmYmZEczRHZUw0bVA2cXlISXZfMFZ6MDVlaXRPaXd4cHhzMmw4Y1ZoT24zQQ?oc=5",
-          "published": "2026-09-29T10:35:56+00:00",
-          "publisher": "Poynter",
+          "canonical_link": "https://www.pbs.org/newshour/politics/homeland-security-spending-20m-in-taxpayer-funds-for-pro-trump-ads",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDlpTmFNd1IwREdDeVNFcnVFSThEZ2xOazdOakxwdUVqczByekptNFFmeDRCelhmejhDRnF3TGZ5c3ZqWDNkSDA2TUZIZmsxUkJZTEY2OTV4Ukd5ZHVpMkNRVHY5aWhVcm13WkJZanFXZTg0cFEzZGp1V2M1SHdmbmhfZmJVUUVPdEgzUUdleVdJcFhTb0h0SkZRQ2NrREY1bXBFdGJNRdIBrAFBVV95cUxOU2hjZ3JITUlGaDB4TXZLSUVWNnp4TWdmdHp1emdFcC1YRTA1dGdxR2NCNHJKQlYyZ0RjZ1BrNWFjWFJrM1FSUGdrQmsyc3RsVUhNemI0OTZVeUIyd0s3dXFkQWIyRHRxUFpwWk9MTURrTExkN0kzNU04SFV4UUs3cGdJVFZSSGZlN0VNVDFwYUhvS0xOZUZQSF8zNTMza3VHcFdvTUZUWHdxZTR2?oc=5",
+          "published": "2026-09-29T19:04:25+00:00",
+          "publisher": "PBS",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump\u2019s taxpayer-funded ads look like campaign spots. Are they legal? - Poynter"
+          "title": "Homeland Security spending $20M in taxpayer funds for pro-Trump ads - PBS"
+        },
+        {
+          "canonical_link": "https://www.cbsnews.com/minnesota/news/taxpayer-funded-pro-trump-ads-is-it-legal/",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcVoyaTFseWtaZDhHOF9rbEh0UUhhRkE4LU5MeDN4Vkh6cjh6R1h0V01XaUQ2YzVoak1DOUFXVXFjUlR3MjBOR0pOQzZOZWx0Y0k5b2dhZGtXSzNNQzFnWVpsS3J4ZzBnSFA2QzlVek1jVzJmeTJ0UUpLV2xsZ2VDb2dUeC1mQzRE?oc=5",
+          "published": "2026-09-30T03:34:26+00:00",
+          "publisher": "cbsnews.com",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Can the government use taxpayer money for political commercials? New pro-Trump TV ads raise questions - cbsnews.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 39,
+      "hits": 35,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.nytimes.com",
-      "rationale": "Multiple credible news sources (NYT, NBC, CNN, Reuters, Fortune, etc.) confirm that the White House released taxpayer-funded advertisements featuring Trump's messaging describing a 'final battle.' The ads are described as government-funded and characterized as campaign-style messaging. This represents a real occurrence of public funds being spent on communications that promote the officeholder. However, severity is capped at 2 because: (1) this is a repeated but still-recent action under active scrutiny, not yet adjudicated as definitively violating the statutory prohibition; (2) no official document (court ruling, GAO decision, OLC opinion) has yet issued an instrument that changes legal positions; (3) the event is confirmed but the appropriation source and legal standing remain contested/unclear in the press reporting. If GAO or a court were to issue a binding determination, severity would rise.",
-      "severe_hits": 10,
+      "primary_source_url": "https://www.nbcnews.com",
+      "rationale": "News report from NBC citing an official statement that pro-Trump TV ads were paid for with CBP money. This is a credible report of an actual spending action (not a proposal or hypothetical). The ads are election-adjacent ('pro-Trump') and funded by an appropriated agency account, matching the signal definition. However, without access to the full text of the ads or a government audit confirming prohibited partisan/campaign content (versus borderline public-information framing), severity is held at 2\u2014a repeated, credible stress signal of a real but as-yet-unconfirmed violation.",
+      "severe_hits": 9,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 12
+      "unique_publishers": 17
     },
     {
       "confirmed_hits": 1,
@@ -154,12 +154,12 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 6,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 0,
+      "primary_documents": 1,
       "primary_source_url": "https://www.thewellnews.com/",
       "rationale": "Trump is seeking to cancel $810M in congressionally approved domestic programs. This represents an attempt to bypass legislative appropriations through executive action. However, a 'seek' or proposal to cancel is not yet an accomplished action that shifts governance from statute to unilateral executive action\u2014it requires either successful execution or an official directive that removes the funds without further congressional action. The framing as a seek/proposal places this at the boundary between proposal and action. Without confirmation of actual execution or an official impoundment/rescission order, this is a credible but not yet fully materialized stress signal. Scored conservatively as severity 2 (repeated or credible stress signal of a real but contained action) rather than 3, pending evidence of actual implementation.",
       "severe_hits": 0,
@@ -168,71 +168,81 @@
       "unique_publishers": 1
     },
     {
-      "confirmed_hits": 0,
+      "confirmed_hits": 2,
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.10news.com/news/california-supreme-court-orders-riverside-county-sheriff-to-return-650-000-seized-ballots",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRll5ZncxNGd1MHFFelZUUFdmVzQtR245WDZ2Y2hpMjJwOXpDRjF0dEctcGtMU1o4eE4xbXE1Z1phWTNZQ0NibXA1ODlfczEwTFRiTk5EOVhuNWlUb0ktd3VOS3dKMjR2LU5zaHpJSF9ZSXpIWl9NSjRHb2xCVW9wQ21BTmtvWEh0dTRJYm12TmR4emtVeWhVNi02Umk3QTBtN3NraXV1cUhrMFdTUV8tcTZ4cnpSOFo3?oc=5",
-          "published": "2026-09-27T17:39:06+00:00",
-          "publisher": "10News.com",
+          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-09-30T05:18:23+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "California Supreme Court orders Riverside County sheriff to return 650,000 seized ballots - 10News.com"
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
         },
         {
-          "canonical_link": "https://sud.ua/en/news/publication/373112-dva-vakantni-mistsia-u-vrp-za-kvotoiu-advokatury-ta-chotyry-roky-bez-zizdu-sud-pereviryt-chy-zakonno-rau-vidklala-ioho-provedennia",
-          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOaTJIM3BraEIwT3FRazYyU2lHVS04bEplOHItLXJlbHpzX1RlM19vZ182NXpQZXcwUENtcmdzUGtxSGxMMHpVbVVQMlRxd2FkejlqdklrbFRfUFhpVjVTVjhyOVNnZThfd3FjaEt6cUlHak5ZcmRMZlRSRnBiU1Z1QmN2X0lpZGktMll1anJZamJGdmk2cVlBeGp4aUo3R3c3c1hoNTU3TUhfZjZLT1ZsQnpZTWF4cWd3Sk9oQnVwcWh5ZVdWUUhhckNCcDBQXzMweG5JYXBmbVhqWklkRDg5ajctVjdpa2lhU3BlM0hzWDZLOXkxRVJzSUEtTUdpYVFnN2c?oc=5",
-          "published": "2026-09-27T17:00:00+00:00",
-          "publisher": "sud.ua",
+          "canonical_link": "https://www.outlookindia.com/international/why-trumps-white-house-media-ban-has-become-a-first-amendment-fight",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeUZYRFA1aUJGZnNiSDZMbkZ3WWNtOHlVaG5EVnQ5LVZFVnFRd2JtY3d3UlVFV1AwZFNtbFVvN2k2eU9MYUJzZVRlVXBiSzVZbTlhUHBJcWpoSnozNWN2b2dGSHFGRjgxRlFGV0oyTnBGcmFpMXFTbzNiN1IzSTdLcV9mdl85ZE0xdnJMb0ViRDhDeUY2c251Z1ZUbTIwMjhGVnZ2aUlsUzlpUnJGLUxF0gG8AUFVX3lxTE5GVjlZemhRbWhmUi1DMnloUnhtQnljSHJZYUdkb3JFYlFYM1p6QXNXY3l1MVlVcFJxVXBsWWxrV2lQZ1NDMTVuMGdUTHM1YkJNbW5GWDJSMWlzN3VwdnRlUFpwTDZrZExCaVhuUjJsX2xIZW41U2RzRzNnMC1DY3ROTUREdUthRGJ6ZXg5VW9VYjFrMHE4d2F4bXlnek93OHBfU1UzaF80Y3puVEtCWEpKTXpndTRQQnFENUxh?oc=5",
+          "published": "2026-09-29T07:09:23+00:00",
+          "publisher": "Outlook India",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Two vacant seats in the High Council of Justice under the advocacy quota and four years without a Congress: the court will check whether the National Bar Association lawfully postponed its holding - sud.ua"
-        },
-        {
-          "canonical_link": "https://www.indiatoday.in/india/video/delhi-women-safety-in-spotlight-as-supreme-court-flags-law-enforcement-failures-ytvd-3004964-2026-09-28",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRzhNTkdxYk9QQU9ZQmJ1UWdHaTBSRFRlY2hnVEprenJvenNMbl9KSmNydV95LWRYTjBlR2RLQUNzdVpDWFd4TVE2djZvcEtrMklzSWpjVElkVTNvb2xHVEt4Y0VwSzhjMWxPWXdPT2djM1JHdFhaZk9XUkc1QmNCcm9wZVBoT1RqRmFsSmo0dlMyU0djdjQxZkdqb2FoZnVUNmxxZXdQZUFtMlRDeTd2cnQzWHVCaWFObFlUUEhNQmgxbm5TQkJtWXM3WG5JMWlaU0Q0UW5tZljSAd4BQVVfeXFMTTU4V0dkZWh4QWtWTGZZWHY4OGdyUjg0NVdvNVhMbGF0LVRiV0RmUkpna3BrbVhfNC1JamdxdlI5LUU1NlpQeC1RXzhHbWFCSHV3TjlBbjhPRVJIUDEwSFNJVVhGc3NCVGxzOXVKZWlEem9BdG5tb2VGWkxCeThrZjF4SmxiaGFhWnBuU2Z5c2x0RzNEdWFqQjdGWUcyb3Z2VlZxZU53UDkxOVhhQjBFaHFXMUJ1MXBWWVB4VnlxMGlPSi1kUExDNG5Eb0pPTHRSUnZodEhiVGoyZjBPUXhR?oc=5",
-          "published": "2026-09-28T12:47:55+00:00",
-          "publisher": "India Today",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Delhi Women Safety in Spotlight as Supreme Court Flags Law Enforcement Failures - India Today - India Today"
+          "title": "Why Trump\u2019s White House Media Ban Has Become A First Amendment Fight - Outlook India"
         }
       ],
       "evidence_mode": "ai",
       "hits": 3,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
     },
     {
-      "confirmed_hits": 0,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://streamlinefeed.co.ke/news/hegseth-cyber-agencies-election-defense-2026-midterms",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa3o4eFJIWW1lY3NvdTJNenk5OVRaLWM1aEJlZDFGdGszYjZmQ2NpcncxUy1kXzktX050cUlHSm95VC1qaE1KQlctUE5NZ0JHSzZENXRSTEJOSnVFRjNvTGRsVThzQmFSdVBPUzd2azZMMHd0M1BHMjRsQl9YeDluV2V6SHUwMWpxQmlHRVRMMjY?oc=5",
-          "published": "2026-09-29T09:04:32+00:00",
-          "publisher": "streamlinefeed.co.ke",
+          "canonical_link": "https://www.citizen-times.com/story/news/2026/09/30/some-nc-county-election-officials-promoted-conspiracies-about-2020-outcome-jan-6/92003134007/",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOR3V1XzVWLWtERDNOMlRjTm5NR0UtbHl1d1BPeF92Mnl5TDRydzh5LTVBYVlnUUt3S1NyYXFKZWRNYXdNTDVIMkZQWkFJQzgyaHRUbU93clAtTldBQzlzS3lQeGpDaUN5NjVLbHI0ZjRDekxreW9rallTNm9HY3pSRXdJSlZvUUUyZEQxOXZZVGhzeVlCOWJ6ajZiS2FXRWY4VUN2THhPa1hkLTQtSWw1amZjZ2dQQTJzdDJOaFVoQXhjazY5MkVXemVEeW5tdWFDM0lFV0ZjanVyRFRBbVE?oc=5",
+          "published": "2026-09-30T09:04:00+00:00",
+          "publisher": "The Asheville Citizen Times",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Hegseth Orders Cyber Agencies to Defend Midterms - streamlinefeed.co.ke"
+          "title": "Some NC county election officials promoted conspiracies about 2020 outcome, Jan. 6 - The Asheville Citizen Times"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 4,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "unknown",
+      "rationale": "The item reports that some North Carolina county election officials promoted conspiracy theories about the 2020 election outcome and January 6. This is a real occurrence\u2014officials in administrative positions making partisan statements and promoting false narratives about elections. However, this is isolated conduct by unnamed officials at the county level and does not demonstrate systematic partisan capture of election administration authority or removal of neutral process safeguards. The severity is 1 (isolated or weak signal) rather than higher because: (1) it describes individual speech/promotion of conspiracy theories rather than structural changes to election administration authority; (2) it is geographically limited (some NC counties); (3) there is no indication these officials used their positions to alter election procedures or outcomes; (4) it does not show they have captured the administration in a way that prevents neutral process from functioning.",
+      "severe_hits": 0,
+      "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "martial_law_or_military_language",
+      "name": "Martial Law or Military Governance Language",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
@@ -249,31 +259,31 @@
       "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/09/29/2026-19898/notice-of-adjustment-of-disaster-grant-amounts",
-          "link": "https://www.federalregister.gov/documents/2026/09/29/2026-19898/notice-of-adjustment-of-disaster-grant-amounts",
-          "published": "2026-09-29T00:00:00+00:00",
+          "canonical_link": "https://www.federalregister.gov/documents/2026/09/30/2026-20051/agency-information-collection-activities-notice-and-request-for-comment-generic-clearance-for-the",
+          "link": "https://www.federalregister.gov/documents/2026/09/30/2026-20051/agency-information-collection-activities-notice-and-request-for-comment-generic-clearance-for-the",
+          "published": "2026-09-30T00:00:00+00:00",
           "publisher": "federalregister.gov",
           "source_name": "federal_register",
           "source_tier": "primary",
-          "title": "Notice of Adjustment of Disaster Grant Amounts"
+          "title": "Agency Information Collection Activities; Notice and Request for Comment; Generic Clearance for the Collection of Qualitative Feedback on Agency Service Delivery"
         },
         {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/09/29/2026-19859/notice-of-adjustment-of-minimum-project-worksheet-amount",
-          "link": "https://www.federalregister.gov/documents/2026/09/29/2026-19859/notice-of-adjustment-of-minimum-project-worksheet-amount",
-          "published": "2026-09-29T00:00:00+00:00",
+          "canonical_link": "https://www.federalregister.gov/documents/2026/09/30/2026-20016/us-citizenship-and-immigration-services-employment-based-immigrant-visa-fifth-preference-eb-5-fee",
+          "link": "https://www.federalregister.gov/documents/2026/09/30/2026-20016/us-citizenship-and-immigration-services-employment-based-immigrant-visa-fifth-preference-eb-5-fee",
+          "published": "2026-09-30T00:00:00+00:00",
           "publisher": "federalregister.gov",
           "source_name": "federal_register",
           "source_tier": "primary",
-          "title": "Notice of Adjustment of Minimum Project Worksheet Amount"
+          "title": "U.S. Citizenship and Immigration Services Employment-Based Immigrant Visa, Fifth Preference (EB-5) Fee Rule"
         },
         {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/09/29/2026-19858/notice-of-adjustment-of-countywide-per-capita-impact-indicator",
-          "link": "https://www.federalregister.gov/documents/2026/09/29/2026-19858/notice-of-adjustment-of-countywide-per-capita-impact-indicator",
-          "published": "2026-09-29T00:00:00+00:00",
+          "canonical_link": "https://www.federalregister.gov/documents/2026/09/30/2026-19962/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+          "link": "https://www.federalregister.gov/documents/2026/09/30/2026-19962/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+          "published": "2026-09-30T00:00:00+00:00",
           "publisher": "federalregister.gov",
           "source_name": "federal_register",
           "source_tier": "primary",
-          "title": "Notice of Adjustment of Countywide Per Capita Impact Indicator"
+          "title": "Agency Information Collection Activities; Submission to the Office of Management and Budget for Review and Approval; Request for Comment; Consolidated Labeling Requirements for Motor Vehicles (Except the VIN)"
         }
       ],
       "evidence_mode": "ai",
@@ -283,72 +293,6 @@
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 6,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
-      "evidence": [
-        {
-          "canonical_link": "https://alaskabeacon.com/2026/09/28/judge-considers-whether-to-overrule-alaskas-lieutenant-governor-on-candidates-eligibility/",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcTc3R3RWVmljSlJXTUhIdnVpX3pxSU11RXhsZmV4QW5sdlhGc05YVEJ1bGlUdnVfTmZEQkhXRHB2VjdDLUV1RkQxMk00VVJ2NEtreWxMNEtZY2RKc01rV3U3cFFkVFhuU3pLbU5vaE5HV1BfcU5yeWtIbWNDdzFhNzFwTm5hQ1N5ZEV4bHhZdVVBTC0xWlJkT2hLTjdWbGpwRERTekdkdzJxcHhnaHM5SGJBbkdxNk84Nlo2RWltdFpQd1Z4?oc=5",
-          "published": "2026-09-29T00:01:45+00:00",
-          "publisher": "Alaska Beacon",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Judge considers whether to overrule Alaska\u2019s lieutenant governor on candidate\u2019s eligibility - Alaska Beacon"
-        },
-        {
-          "canonical_link": "https://www.legit.ng/politics/1733211-is-rivers-apc-candidate-chinda-disqualified-top-lawyer-weighs-supreme-court-verdict/",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZjRUVFZUbXVDN09JQlJIOGxCRkhnZGlSMm9LOHlDZWR1YnlvVDJIN3JYMTUzcFBNWmw2QTNKc2J4b3dYcHpBMjlweUxwTVpvRUFTclVHLU5YaEM3UjFrampiQlF4dF9VUG43V2VNSTF1WHBhOHM2T3RlbnpYTFFabFVrcUY3dWRxMHB3dGREbnQ0RWJzcko5Vld2d2ZOZElUTmxQUW9KcjUyV3hWamYwZGt6NXZlWHg5WlczUFg1bw?oc=5",
-          "published": "2026-09-28T22:45:35+00:00",
-          "publisher": "Legit News",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "2027 Rivers race: Analyst explains what Supreme Court ruling means for Chinda - Legit News"
-        },
-        {
-          "canonical_link": "https://www.legit.ng/politics/1733202-electoral-act-supreme-court-ruling-unsettles-pdp-opposition-candidates-2027-election/",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRU5YRHFFbGVKWVFYYlB0TWhCb2JmUlBybDYzbWJ4WUh6UExwakhaX1dwbVJQOUFUTF9rMWNrY09HZjE4cmN2N1NBWVdrUVhKYi10c3dmdlYtSTAxTEd1U1ZLVVJwa1Y0Y0JTNkllU29BQm5GUFdwRjJVRWFYaDVHbEVQMW5QOWZKRC11OWY2bkVKNnZ6Y2dHVy02Sy1LNjJ4TFlKV2ttNmVPTXU2NW0yQnREMTRWM19VZ3Rsb2pRNTg?oc=5",
-          "published": "2026-09-28T10:13:35+00:00",
-          "publisher": "Legit News",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Electoral Act: Supreme Court Ruling Unsettles PDP, Opposition Candidates Ahead of 2027 Election - Legit News"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 3,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
