@@ -1664,6 +1664,16 @@
       "rationale": "Item provides only a title and author without substantive content about an alleged event. Cannot assess whether any verifiable constitutional-stress event occurred. Insufficient information to determine if this is opinion, analysis, historical retrospective, or discussion of a real occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jX3NYcTVnS19vU1QyLTduOEdXS2hXS1B4TnZuRVZsWVhXUWczdFVkcXc5cHRxV1d0NF9nTWt0aTB1cVo2OEpZaVJVMHd4Z0xQYlhKZXd3eHBpYjQ?oc=5": {
+      "actor": "Better Markets",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.bettermarkets.com/",
+      "rationale": "This is an opinion/analysis piece (commentary/editorializing) from Better Markets characterizing the Supreme Court's regulatory jurisprudence and predicting future impacts on consumers. It does not report a specific event in which independent agency safeguards were weakened, nor does it present an official instrument that stripped authority from any agency. It is forward-looking speculation and critique of judicial philosophy, not evidence of a constitutional-stress occurrence. No verifiable action affecting independent regulatory decision-making is documented here.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zRDFUM1pHYU0xXzh0NjhObDB3MFc0dnZXcmRCRURfNzBQdTA2eGtSeXFKNEUwSVZhcTMwcmxLMWVRVjRfN2g0b1hSc1Ewc2RIZ2lTN3l3VHdmeWI0OFNlMA?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.65,
@@ -2824,6 +2834,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74845527/1/united-states-v-reiber/",
       "rationale": "This is a routine federal criminal case docket entry (Rule 5 magistrate proceedings with standard motions to seal, detention orders, and arrest warrants). The document concerns criminal prosecution of an individual defendant, not retaliatory action against an Inspector General, watchdog function, or anti-corruption monitoring body. There is no evidence in the summary that any inspector general, inspector general's office, or watchdog function has been subject to retaliation. This is standard criminal procedure unrelated to the signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74852876/1/1/francu-one-llc-v-national-medical-billing-services-llc/": {
+      "actor": "Francu One LLC, Global Anesthesia Services LLC",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74852876/1/1/francu-one-llc-v-national-medical-billing-services-llc/",
+      "rationale": "This is a routine private civil complaint in a contractual billing dispute between two private entities. It involves no government action, no inspector general, no watchdog functions, no anti-corruption monitoring, and no retaliation. It is a standard commercial litigation matter unrelated to the constitutional-stress signal being monitored.",
       "severity": 0
     },
     "https://www.courtlistener.com/docket/74856426/1/krell-v-us-department-of-homeland-security/": {
@@ -7520,6 +7540,46 @@
       "rationale": "NewsCord reports Public Citizen urging FCC and FTC to stop Trump taxpayer-funded ads, framed as 'propaganda.' This confirms the ads exist and are being characterized as unlawful propaganda by watchdog groups. The event (spending) is real; severity 2 because the underlying spending is established but formal legal findings are not yet present.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOU2YtNTN0NC1UNnZTRzhBdk5JNDBXMk40cDVhQXhNeHlzdkpmbEF4QlhUeUIyQU5uWFQxWTVNdTJuT0tuQV95c0FSOXdiWEhQcTVfRzc4bUdvOFZqeXQ3M0tHVWFpLV9QS2NTUXVtVUFrckY5N3dqWW1hV193T2N1d1JzOGFKVVplSWJDZkhQekVXS3lSOU8wZXlDYjRRLWNnbXdvV21zNW95eVdDY0RscDRMVzg3ellOdVF4cFU5N0x6OXgxTVZpRV9YUUFqckttR0RWVk1PNElfdUZTRW5mMTRWejE5N3ppR2c?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.82,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.newscord.com",
+      "rationale": "Reports that the Trump Administration moved DHS funds into CBP for $20M pro-Trump TV ads. Directly confirms both the appropriation (DHS) and the use (partisan ads). This is a specific, credible report of the signal event: public funds channeled into partisan promotion.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOVUZYbTBOaUhlWVdIQUpSckNYekJyWWxXbEZxM3BpaGZGVmNrNFc0MGxQRng1MHFDT010NEFTMWdjVEMzV201cWRQNDQ0dGNhOGV2S3l6OElwMWMxMGtzR2dpOWk0VEJZY1lDYnZud1lOV01xUVh0UUpBQkN5aG1iNnIybV9WZ1ZyWDhrT2Fzbm5Fc1B5RFZUTDhWLV9adVBJaEhrcTVHeERSU2NWYnVQbE9TRks2c3NXLVNISVpjcnhxNFhtdVlPUFZ4MHduYWpZa2R0aW9DampCbGRZcTNWdlRwWG5XcEx5U3c?oc=5": {
+      "actor": "Trump Administration; Cynthia Lummis (Senate)",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.newscord.com",
+      "rationale": "Reports that a Senate resolution criticizing taxpayer-funded Trump ads was blocked. This corroborates that taxpayer-funded Trump ads exist and are controversial enough to prompt Senate action. The blocking itself is a political act but confirms the underlying fact of the ad spending.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPVEY5UDR3Q0FmTkNJNDRFVV9wbXNSbTZfNnVwbC1zcDB2ZVN1MnVzUWpaRVZxdlVOT3NaQkhFekd1ZGlUOXZjRFdVT1lRTGFrd3VTUm1wMWFXeV9xcVBMMFZJbFVqTlhfd2VfUUJaTmRmbXpGWDhDOUdBSnZVT1ZRRTJWYnZLX1JtQzBRNXJScDVQcW9rT3FaZzVYODhaaFFVb0VYT1pMUzZuOFBTSnpyeTkyMFVXVXBwS3ZiaU1LM0x6cFN2TEp6N0dUU1M0anZkVkJjUnlVTi03c2VGZXhGUTBhZW5lV0FpMFFSUHRLVGg0dXdF?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.82,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.idahostatejournal.com",
+      "rationale": "Reports that Trump TV ads were paid for with $20M in Homeland Security funds, identified by Democrats/investigators. Confirms appropriated public money is being spent on ads promoting the sitting president. Matches the signal definition directly: agency ad buys (CBP/DHS) funding communications promoting the officeholder. Credible reporting of a real occurrence, though no enforcement or court action has yet addressed it.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9vTV9DZzNhTVd2TE82b1V4dzdCVGlzbVY4UkR2QWc0dkdabkpuRVo3azNfeHlLOGg1dzRzWnpqb211dUtub05sTHhpcjlKVU5M?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.81,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.cbc.ca",
+      "rationale": "Reports that pro-Trump ads paid for with public money are airing on U.S. TV. Confirms the event: appropriated funds used for partisan promotion. CBC is reporting on U.S. events from external vantage point; the event itself is U.S. domestic.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mRndTSWo5cTFCMG9nOEZ2NTJ6NFdla0kyWWFtcjliZUFhbHd6VXJtcUdLb1R0VTRGUWRJWHF4cDdwaWRwb1JLVXg1Ukp0bzZxOFdNVWJR?oc=5": {
       "actor": "Trump Administration / White House",
       "confidence": 0.85,
@@ -7528,6 +7588,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.ynetnews.com",
       "rationale": "Ynetnews reports Trump's taxpayer-funded ads raise legal questions before midterms. The legal concern is analysis, but the factual event\u2014release of the ads and their taxpayer funding\u2014is confirmed.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ET2ItTGc1VWw3cUVpQTNQSW5oZS1mal9GWmttMVQ2WWt0QUh4d2FuVzB6MEtzQ3Z5LXRiRTNRMEtnNlZ6ZjcyRVR6b3pzZUcyWjd4Z1VqYkRUVFJnU2Mxd1lfUl9MY0NQbkRNLTJ4WdIBd0FVX3lxTE1wdGNMWFZQUEJUU21oS24wc0wybFZ6QktWbjVaVHdQUTNuNEtqcDZxTkFvQmtpTHlBa0hWeGxuRVBJd2Y4VHlqMlNhVlFId3FCNG8teFU2QkRJOUZXbGlLcTZ2NHdQSTFpRkpwUldtdTlZNzFpelpz?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.8,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.thenation.com",
+      "rationale": "The Nation reports Trump is using taxpayer money for illegal election propaganda. Confirms the factual event: public funds are funding Trump promotional ads. While the legal characterization is made by the outlet (not an official ruling), the underlying fact\u2014appropriated money spent on partisan ads\u2014is established across multiple sources and matches the signal.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TazN5aE5nRzFPdktFQ2M1TFVHdzBqMV80Wkp4RjVaNE1oYmo3Y2J1WF9sWi1tTHB2cVBITE5mdVQ0WWdXX1k0cGx2eGY4bmV5TFBGaDdtQTYxNlVSbWlIZThlUmdkRF9fc3pkRW5JSEx2bFlPUm90VFp3?oc=5": {
@@ -7600,6 +7670,16 @@
       "rationale": "Multiple credible news sources (NYT, NBC, CNN, Reuters, Fortune, etc.) confirm that the White House released taxpayer-funded advertisements featuring Trump's messaging describing a 'final battle.' The ads are described as government-funded and characterized as campaign-style messaging. This represents a real occurrence of public funds being spent on communications that promote the officeholder. However, severity is capped at 2 because: (1) this is a repeated but still-recent action under active scrutiny, not yet adjudicated as definitively violating the statutory prohibition; (2) no official document (court ruling, GAO decision, OLC opinion) has yet issued an instrument that changes legal positions; (3) the event is confirmed but the appropriation source and legal standing remain contested/unclear in the press reporting. If GAO or a court were to issue a binding determination, severity would rise.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUkJEZEdidTRUQ3ZFZTc0STJxR1BQWVJVeVduQ2dqQzdSdHJFYUs4TERsUm9OSWFqUmtObTdVSy1UbnlIbld1OWJBN1E4VWszS1VCd1ZxY2tMSmVYX25QaDBpTWxXcGhpT0dlMGV1ZHlfRi1KZWx6NnZGWHVzc0IzM1FmRDU5S2vSAY8BQVVfeXFMT1NiVkdtXzV2amg4QU02MDJEbUFvR1RJUE9LWGZBaXlXcWplNHhtSFNLS2xXaFZsUUJmYjVHZV91YUlNTjdtcWdnQ01JOXJLcW4tZ1k5OUNCWFZPWV8yY3gxQ3VTUmtheUNUT01VUTZoVV9Yb182M1BCcjZleXBOWUhmVUNwaEwySkNIVHRHc3c?oc=5": {
+      "actor": "The Nation",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "A headline framing itself as opinion/commentary ('PSA' is sarcasm, 'continues to commit crimes' is assertion not evidence in this item). This is punditry rather than reporting of a verified event. No factual details about the ad spending are provided in the summary.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcVoyaTFseWtaZDhHOF9rbEh0UUhhRkE4LU5MeDN4Vkh6cjh6R1h0V01XaUQ2YzVoak1DOUFXVXFjUlR3MjBOR0pOQzZOZWx0Y0k5b2dhZGtXSzNNQzFnWVpsS3J4ZzBnSFA2QzlVek1jVzJmeTJ0UUpLV2xsZ2VDb2dUeC1mQzRE?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.71,
@@ -7620,6 +7700,16 @@
       "rationale": "WPTZ reports experts saying Trump's TV ads are not a public service, confirming the ads exist and are government-paid. The headline and experts' view that they are not genuine public information (as opposed to campaign promotion) aligns with the signal. Event occurred; severity 2 (credible reporting but expert opinion rather than official finding).",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxPckZPYUYwdW5OQWtvYVQyWlpqOG9iU0wzVmNDQ3llMHpzNFVkeGNVV3RVdFJoT0Mwa3IwZ2dBSERHQkVVNDlSX3h0TnY4dWpCRm00LTJ4MTB5cE9lR1FIVjZqVklIWW9VUG53dF9jd2lZZ1Uxc0dmRnpWdl85aFp3Umg0ZE5mNVdkdWtvNzVyRHFmUWU1?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.81,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.thedailybeast.com",
+      "rationale": "The Daily Beast reports the source of taxpayer money for Trump propaganda ads has been revealed. Confirms the factual event: taxpayer-funded Trump ads exist and their funding source has been identified. Matches the signal definition.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb3ZiMWRmRnN0aGRnR3pkTXo2ZXA3VkZqRlpRUi0xQTA1cWo3WmRrWXBhaGZjSkI5YnVJc2lBRlZqUjRyTVJWaDRzOU02Y2MxR19fMDh2bGh6Z2V2NENwc2x4Mm1BSkZ3NDgtOFZrbGlhNXdJZ19qMm05dUZfX0NLREhMRkNudTdwdFlNZ1lzR0tWSWNzaDRWag?oc=5": {
       "actor": "Trump Administration / White House",
       "confidence": 0.85,
@@ -7628,6 +7718,26 @@
       "matches_signal": true,
       "primary_source_url": "https://www.timesfreepress.com",
       "rationale": "Chattanooga Times Free Press national opinion column discusses Trump's ad blitz as paid by taxpayers. The column itself is opinion/analysis, but the underlying fact\u2014the ads exist and are taxpayer-funded\u2014is the event being reported, which is confirmed.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQnFGamNQWVl2eURhd1VuN2ttYTBkcS1oeFNZeEJMRE5PT1ZreWlpaXNjUEg1RmpMYVFiTFJ6OWpxSjhNMnRfc2UtejNmWWVBa3FsYi1RVzFtMXYwS1drT2VyNFZNUFROOUp6d0lTczl4U0ZZTF81c0Nic3hVdDFmVFdLUGdyZTlyNFR1dDlXaTFCVFkwVXItSlhR?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.84,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.cnn.com",
+      "rationale": "CNN reports Trump ads have cost taxpayers at least $2.5M with funding traced to Customs and Border Protection (an agency appropriation). Confirms a specific appropriation has been redirected to partisan advertising. Real event, identified funding source, matches the signal.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMkVPMkt5RGJjRmN1eFdZSXM2cjJmSkx4ay01M2Fsb2pPWkRwc05YZUlkTWhfVTA4dl9SLXlTQTJMbEF0NXFUekVXczZybm81cXcyZTZqNFR4Tlg2WUZvXy0zLVpHM0Y4T1pQWE93Y19FcHU1YXlmR2tpNlRQLUQ0RkNMYXFxOFdWMEM3YUhqU1BrRU5WVWZ2UkNob0lUVXM?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.83,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.express-news.com",
+      "rationale": "Reports Trump ad blitz paid for by taxpayer money. Directly confirms the event: public appropriations funding communications promoting the sitting officeholder. Matches signal definition of public funds spent on partisan promotion.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxQam9yM2puMVRxRmlrbzN1TWx5S2pVRmpvV0d4RFVkbUdUV205NVRoUFQ2NktWS2hkS195MHU1Y3JuTDk5X3RSRlJYZXNoM0pWNVM2Y0ZXa3JrQlR2QkNWRWFTQy1iWjJSa05VZTU3em9tUXBfSkJ3T011WEpranVlT1k1VFZoMTNsc1ozYmt4Q0o4RmpKUzNfTzVJLUdPWnM?oc=5": {
@@ -7659,6 +7769,16 @@
       "primary_source_url": "https://www.inkl.com",
       "rationale": "inkl reports Trump campaign ads paid with public money and characterizes them as violating federal law 'critics say.' The event (spending) is confirmed; severity 2 due to credible reporting but the legal violation remains alleged/contested rather than officially or judicially determined.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVHZqM3pKOTlVNkRxOUtvZVEwYVlYLWtEdHBhc2YwaHA1aEM5WGZDcVdodHRXV3R0clNZaW1fSnpWU0Z5ZHpWNUgzdmlzQTlpekNHbjVORlI1Q0lRbTZsc3c4SnFMSm5kQzhtTTBWUkRLOVFJRHVqUHRXYVBMMHVhZ2FIRkc5Ykp5djdRV0kwTGZqR0ZuRUdZcG9pRkI4dTFTOHc?oc=5": {
+      "actor": "WRAL",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "A fact-check headline asking whether ads are propaganda or PSAs is framing analysis/opinion, not reporting that an actual event occurred. The outlet is explicitly questioning legality rather than confirming it.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTko1SWMwRlo3T2thSmI3TWxJXzJWME5FOHFjczVPdzVER3VsaUZMNUM5MUpGRE03a0NiZkNVWkVXSEdta2V5M2ZWZ3NRRzVaMGFGd1pFR0praXJSYjZheDhzcVowa1Rnanl6MEdKMjdzX0JiN0x6X2lvTFZqN016cFNYSW8xUE52SlBCcEZfM2JnUlhJTkNvd3ZjVXNmR3NNUm1wOA?oc=5": {
       "actor": "Trump Administration / White House",
@@ -7710,6 +7830,16 @@
       "rationale": "The Korea Times is a South Korean news outlet. Although it reports the U.S. event accurately, its origin outside the U.S. and its summary date (2026-09-30) suggest it is a reprint or downstream report of U.S. news rather than an original investigation. The U.S. domestic event is confirmed, but this source is not independent verification; mark is_us_domestic=false to reflect the source, severity 0 to avoid double-counting.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcHFIcF80WE44NHVFaTBkVjFYUURra0Fvai1kY2o4NDFHVjlRZ0w0Q3ZKTWpZSEl2TGYwZjdWUXBTTVFEUUNhNEE2SXZUY2xHWFpkdVFJSVp5LTJTMXA2R2IzLXJfTkxXWnlNRHVmSzQxSzk5Rm5xSEZXbE8tdTZWT3lwdnpqMjU2clJKNzFuR3BCMzloSmZRdFJJNTI5TEM5UHZXMUs3SHh5SFdTRXQ5TzNGWUNyZlFuQ01taEtZS2J3Z9IBygFBVV95cUxPdGN2dEN2R3VmRkdkRThsRWVERVhuMV9KdC1UMzkzYUlxblZobVUyb1Q5SVVVUi1GNGdFaXBnVVd5dUo2Z01neV9qMVBGSEZRX1pxRXdGbXhLUkkyNzVGeUZfY25JZVliSTMzMUlscmN6SDBwQkFsWGY5ZWlFN3B3UlhiRDBlWXBUV3FFQnc0OV95Y0FjdHRXLTF2THRFcVB4dEJvdVdiQTlkMVpDN2JmYXk1NnpIMTgxVmxTeXp0OVJSWWxSZjZ1U2R3?oc=5": {
+      "actor": "Trump Administration / White House",
+      "confidence": 0.83,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.nbcwashington.com",
+      "rationale": "NBC reports that the White House is using taxpayer money to run ads promoting Trump. Asks whether it is legal (indicating doubt). Confirms the factual event: public funds are being spent on partisan promotional ads. This is a real occurrence matching the signal.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdldtRjU5d2d6OXFFQ09WUWlmNzNNQk9IdDV2bndEdGdkX2huallpOFVTQkhFRXBpQlhlTTU0NDRBa0laODdXVEl3eGt0ODVDNUJKTXhiSFBZZDZvNVNTU0laSUtES0c2VE14S3Z2cFRUVE1uX0pOSzBHMHVsWVE0REJpNW9QUi13Tk1qZTNLYXF5WXBQNW1VR2oza29jTmdHQ01mXzlwVnhqR0c5R21qaXYyM2UxdFc0dlZJdDlsUWRJQQ?oc=5": {
       "actor": "Trump Administration / White House",
       "confidence": 0.85,
@@ -7748,6 +7878,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.nbcnews.com",
       "rationale": "NBC News reports the White House released a taxpayer-funded ad with Trump's message. This is consistent with item 0; same event, corroborating source. Confirms the factual occurrence of government-funded campaign-style messaging.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxQajc3NEpJSlFJNktnWXhQaGozc2FNVUlVUENlSWNzekhwREo5aGJ6UTZ4ZUd1Z3RyZ01uVnctNmtCOE9mSUpPXzZJc2hXV0pPUUItOXlCSmFYRE12ZGZFa1JKR3c0YTJjNTdGSHBNb2VIS3FoX0JLYWsyaV9ULVdoSjlJbW1vc0NFUE1xUW5nZXBrZ3lpbFRmYkc4QnhGdnU1NVoyVXdsc0tjb2hSZVpUMXBybFUxNE9scE41RmRCbTcwZ0l6OGpPTDVJLWU?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.8,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.citizensforethics.org",
+      "rationale": "CREW, a watchdog organization, alleges that taxpayer-funded Trump ads paid for by DHS/CBP funds ($20M identified in other sources) violate federal law against partisan publicity. Multiple corroborating reports confirm ads are running and funded from identified appropriations. This represents a credible, repeated allegation of misappropriation of public funds for partisan promotion\u2014a violation of the 1950s bar on propaganda spending. However, no official enforcement action, admission, or court determination has yet occurred.",
       "severity": 2
     }
   },
@@ -8496,6 +8636,66 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-20051/agency-information-collection-activities-notice-and-request-for-comment-generic-clearance-for-the",
       "rationale": "This is a routine notice requesting public comment on renewal of an information collection clearance under the Paperwork Reduction Act. It is a standard administrative procedure with no evidence of political interference with statistical agency leadership, methodology changes outside normal process, or withheld data releases. This is a proposal/notice, not an accomplished action affecting statistical integrity.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/01/2026-20148/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-18f-3": {
+      "actor": "SEC",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20148/agency-information-collection-activities-proposed-collection-comment-request-extension-rule-18f-3",
+      "rationale": "SEC information collection notice unrelated to BLS, BEA, or Census Bureau. Does not involve statistical agency integrity, leadership, or data releases.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/01/2026-20153/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for": {
+      "actor": "Census Bureau",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20153/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "rationale": "Routine Paperwork Reduction Act notice requesting public comment on the Quarterly Services Survey information collection. This is standard procedural compliance with established statutory process, not political interference with the Census Bureau's independence, leadership, or data integrity.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/01/2026-20155/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for": {
+      "actor": "Census Bureau",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20155/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "rationale": "This is a routine Paperwork Reduction Act notice requesting comment on information collection for the Longitudinal Employer-Household Dynamics program. This is standard administrative procedure for survey methodology review under established statutory process, not political interference with agency integrity or leadership.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/01/2026-20185/certain-dhs-immigration-related-fees-required-by-hr-1-fiscal-year-2027-adjustments-for-inflation": {
+      "actor": "DHS/CBP",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20185/certain-dhs-immigration-related-fees-required-by-hr-1-fiscal-year-2027-adjustments-for-inflation",
+      "rationale": "Routine statutory inflation adjustment to immigration-related fees. Not related to statistical agency integrity, data production, leadership, methodology, or data release practices.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/01/2026-20186/certain-dhs-immigration-related-fees-required-by-hr-1-fiscal-year-2027-adjustments-for-inflation": {
+      "actor": "DHS/ICE",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20186/certain-dhs-immigration-related-fees-required-by-hr-1-fiscal-year-2027-adjustments-for-inflation",
+      "rationale": "Routine statutory inflation adjustment to immigration enforcement fees. This is administrative implementation of existing law, not interference with statistical agencies or their data production, methodology, or leadership.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/01/2026-20187/fiscal-year-2027-inflation-adjustment-to-hr-1-immigration-fees": {
+      "actor": "USCIS/DHS",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20187/fiscal-year-2027-inflation-adjustment-to-hr-1-immigration-fees",
+      "rationale": "This is a routine statutory inflation adjustment to immigration fees mandated by law. It is a standard administrative action implementing existing statute, not an interference with statistical agency operations or integrity. Does not involve BLS, BEA, or Census Bureau statistical production.",
       "severity": 0
     }
   }

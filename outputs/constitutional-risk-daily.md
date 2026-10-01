@@ -1,9 +1,9 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-09-30 12:48:01 UTC
+- Generated: 2026-10-01 12:44:38 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **8 / 100** (Baseline Institutional Noise)
-- Previous day delta: **+1.0**
+- Score: **7 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-1.0**
 - Delta vs 7-day average: **-3.3**
 
 ## Interpretation
@@ -18,9 +18,9 @@
 | Elections and Transfer of Power | 22 | 0.25 | 1.38 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
-| Civil Service and Agency Independence | 10 | 0.06 | 0.16 |
-| Civil Liberties and Information Environment | 10 | 1.33 | 3.33 |
+| Executive Constraints and Emergency Powers | 13 | 0.65 | 2.11 |
+| Civil Service and Agency Independence | 10 | 0.00 | 0.00 |
+| Civil Liberties and Information Environment | 10 | 1.22 | 3.04 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -28,29 +28,27 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Public Funds for Political Promotion | civil_liberties_information | 2.00 (Yellow) | ai | 18 | 35 |
-| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | ai | 1 | 6 |
-| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | ai | 2 | 3 |
-| Election Administration Capture | elections_transfer | 1.00 (Watch) | ai | 1 | 4 |
-| Martial Law or Military Governance Language | executive_constraints | 0.60 (Green) | keyword | 0 | 0 |
-| Statistical Agency Integrity | civil_service_integrity | 0.25 (Green) | ai | 0 | 0 |
+| Public Funds for Political Promotion | civil_liberties_information | 2.00 (Yellow) | ai | 17 | 34 |
+| Legislative Bypass by Executive | executive_constraints | 1.65 (Watch) | ai | 0 | 2 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.65 (Watch) | ai | 0 | 1 |
+| Election Administration Capture | elections_transfer | 1.00 (Watch) | ai | 1 | 3 |
+| Martial Law or Military Governance Language | executive_constraints | 0.25 (Green) | keyword | 0 | 0 |
 
 ## Evidence Samples
 
 ### Public Funds for Political Promotion
-- Assessment: News report from NBC citing an official statement that pro-Trump TV ads were paid for with CBP money. This is a credible report of an actual spending action (not a proposal or hypothetical). The ads are election-adjacent ('pro-Trump') and funded by an appropriated agency account, matching the signal definition. However, without access to the full text of the ads or a government audit confirming prohibited partisan/campaign content (versus borderline public-information framing), severity is held at 2—a repeated, credible stress signal of a real but as-yet-unconfirmed violation.
-- [NBC News] Pro-Trump TV ads paid for with Customs and Border Protection money, official says - NBC News (2026-09-30) - https://news.google.com/rss/articles/CBMirgFBVV95cUxPLUdXSVlRTkJ5U2IwRUhEakgwTi13NWsyUFJOcExGVF9aMFZfXzdKVUNIZEI4NlZ3WjhaNzNoVExTVTdkQ3N4bWdqRTR3c1pmTXdBaTZqeXY5c2U4LUdqNzdGX3JtMDhqbllKMFdCSFQ1ZlVTLUJrVmIzMkEwLUI3X1FfcVEwRGgwd0VkU1RUSlhpeExpSk54SjhwLUJVOVlhY0R3UUJ6ZE84ME8wLVE?oc=5
+- Assessment: CREW, a watchdog organization, alleges that taxpayer-funded Trump ads paid for by DHS/CBP funds ($20M identified in other sources) violate federal law against partisan publicity. Multiple corroborating reports confirm ads are running and funded from identified appropriations. This represents a credible, repeated allegation of misappropriation of public funds for partisan promotion—a violation of the 1950s bar on propaganda spending. However, no official enforcement action, admission, or court determination has yet occurred.
+- [Citizens for Responsibility and Ethics in Washington] Trump’s taxpayer-funded propaganda ads violate multiple federal laws - Citizens for Responsibility and Ethics in Washington (2026-09-30) - https://news.google.com/rss/articles/CBMizAFBVV95cUxQajc3NEpJSlFJNktnWXhQaGozc2FNVUlVUENlSWNzekhwREo5aGJ6UTZ4ZUd1Z3RyZ01uVnctNmtCOE9mSUpPXzZJc2hXV0pPUUItOXlCSmFYRE12ZGZFa1JKR3c0YTJjNTdGSHBNb2VIS3FoX0JLYWsyaV9ULVdoSjlJbW1vc0NFUE1xUW5nZXBrZ3lpbFRmYkc4QnhGdnU1NVoyVXdsc0tjb2hSZVpUMXBybFUxNE9scE41RmRCbTcwZ0l6OGpPTDVJLWU?oc=5
 - [PBS] Homeland Security spending $20M in taxpayer funds for pro-Trump ads - PBS (2026-09-29) - https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDlpTmFNd1IwREdDeVNFcnVFSThEZ2xOazdOakxwdUVqczByekptNFFmeDRCelhmejhDRnF3TGZ5c3ZqWDNkSDA2TUZIZmsxUkJZTEY2OTV4Ukd5ZHVpMkNRVHY5aWhVcm13WkJZanFXZTg0cFEzZGp1V2M1SHdmbmhfZmJVUUVPdEgzUUdleVdJcFhTb0h0SkZRQ2NrREY1bXBFdGJNRdIBrAFBVV95cUxOU2hjZ3JITUlGaDB4TXZLSUVWNnp4TWdmdHp1emdFcC1YRTA1dGdxR2NCNHJKQlYyZ0RjZ1BrNWFjWFJrM1FSUGdrQmsyc3RsVUhNemI0OTZVeUIyd0s3dXFkQWIyRHRxUFpwWk9MTURrTExkN0kzNU04SFV4UUs3cGdJVFZSSGZlN0VNVDFwYUhvS0xOZUZQSF8zNTMza3VHcFdvTUZUWHdxZTR2?oc=5
-- [cbsnews.com] Can the government use taxpayer money for political commercials? New pro-Trump TV ads raise questions - cbsnews.com (2026-09-30) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcVoyaTFseWtaZDhHOF9rbEh0UUhhRkE4LU5MeDN4Vkh6cjh6R1h0V01XaUQ2YzVoak1DOUFXVXFjUlR3MjBOR0pOQzZOZWx0Y0k5b2dhZGtXSzNNQzFnWVpsS3J4ZzBnSFA2QzlVek1jVzJmeTJ0UUpLV2xsZ2VDb2dUeC1mQzRE?oc=5
+- [CBC] Why pro-Trump ads — paid for with public money — are airing on U.S. TV - CBC (2026-09-30) - https://news.google.com/rss/articles/CBMiekFVX3lxTE5TazN5aE5nRzFPdktFQ2M1TFVHdzBqMV80Wkp4RjVaNE1oYmo3Y2J1WF9sWi1tTHB2cVBITE5mdVQ0WWdXX1k0cGx2eGY4bmV5TFBGaDdtQTYxNlVSbWlIZThlUmdkRF9fc3pkRW5JSEx2bFlPUm90VFp3?oc=5
 
 ### Legislative Bypass by Executive
-- Assessment: Trump is seeking to cancel $810M in congressionally approved domestic programs. This represents an attempt to bypass legislative appropriations through executive action. However, a 'seek' or proposal to cancel is not yet an accomplished action that shifts governance from statute to unilateral executive action—it requires either successful execution or an official directive that removes the funds without further congressional action. The framing as a seek/proposal places this at the boundary between proposal and action. Without confirmation of actual execution or an official impoundment/rescission order, this is a credible but not yet fully materialized stress signal. Scored conservatively as severity 2 (repeated or credible stress signal of a real but contained action) rather than 3, pending evidence of actual implementation.
-- [The Well News] Trump Seeks to Cancel $810M Congress Approved for Domestic Programs - The Well News (2026-09-28) - https://news.google.com/rss/articles/CBMirwFBVV95cUxON0JQSmZZaGJrWmlEaGdENUhhRnJoSEVSVDJBSTVRMHR5ZTZGa3otVXk0NXJhZlFlTmg4ZjdXUTNRWjdJQVRXOU52dXMxMkNRN3ZJeUdldWZleG5YVFhQcU5aS0dpdW9QN2p1S2YwaU5EbmdBaGFYWDFKM2U3S3BGd29hQXl4dmlQV2ZaUFZyclM0cE5DQWVFYUw5dkxXemJINnl4TUZ0YXNQdzZrMERB?oc=5
+- [federalregister.gov] **[official record]** Rescissions Proposals Pursuant to the Congressional Budget and Impoundment Control Act of 1974 (2026-09-30) - https://www.federalregister.gov/documents/2026/09/30/2026-19965/rescissions-proposals-pursuant-to-the-congressional-budget-and-impoundment-control-act-of-1974
+- [National Affairs] The Unfinished Work of Federal Permitting Reform - National Affairs (2026-10-01) - https://news.google.com/rss/articles/CBMimAFBVV95cUxOa0o4OXVkQkxHdXJ6VkxqLUNNTVhfQ0JFT3lYSDFLc2YycTlRUFV3VWp3TFhMMTgwSGZQaTdlU2RMNFBVZlV2Q05odjlFN3QwU0ZHVFh5QXE0OEJKRWh0dnR4ZGxFVk5KblVTWXI2UzJrRWlSeF9DWXAxX3lRNDRPMVBHdVlsdVZuemZZSjcyWGF0dUV1YnB3Xw?oc=5
+- [Pakistan Observer] Trump’s America: Democracy under pressure? - Pakistan Observer (2026-09-30) - https://news.google.com/rss/articles/CBMickFVX3lxTE5EMF9aSzd6WDZOSlduSnVVdlZjaVpKeTNFaFpTMmJUaTh0MUUwVm1WVlRfUUo0ZTJZSXZKZmhIWlBLcDZmSE5pMFBKTzVRLVBwaXpNZ1pwOGM1dDNlSXlvNURCVVZVbVdUN0I4Z09sY2pFUQ?oc=5
 
 ### Press Restrictions or Retaliation
-- Assessment: ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.
-- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-09-30) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
-- [Outlook India] Why Trump’s White House Media Ban Has Become A First Amendment Fight - Outlook India (2026-09-29) - https://news.google.com/rss/articles/CBMirwFBVV95cUxOeUZYRFA1aUJGZnNiSDZMbkZ3WWNtOHlVaG5EVnQ5LVZFVnFRd2JtY3d3UlVFV1AwZFNtbFVvN2k2eU9MYUJzZVRlVXBiSzVZbTlhUHBJcWpoSnozNWN2b2dGSHFGRjgxRlFGV0oyTnBGcmFpMXFTbzNiN1IzSTdLcV9mdl85ZE0xdnJMb0ViRDhDeUY2c251Z1ZUbTIwMjhGVnZ2aUlsUzlpUnJGLUxF0gG8AUFVX3lxTE5GVjlZemhRbWhmUi1DMnloUnhtQnljSHJZYUdkb3JFYlFYM1p6QXNXY3l1MVlVcFJxVXBsWWxrV2lQZ1NDMTVuMGdUTHM1YkJNbW5GWDJSMWlzN3VwdnRlUFpwTDZrZExCaVhuUjJsX2xIZW41U2RzRzNnMC1DY3ROTUREdUthRGJ6ZXg5VW9VYjFrMHE4d2F4bXlnek93OHBfU1UzaF80Y3puVEtCWEpKTXpndTRQQnFENUxh?oc=5
+- [Borkena] A Question of Conscience, Human Rights and Ethiopia’s Future - Borkena (2026-09-30) - https://news.google.com/rss/articles/CBMihgFBVV95cUxNTEpFMmdlbnFJdTB0aU83bkd4djhDd0F3bU5sRWxmeTVmR0diYzFjbVFKVzlTbHR1SE1XQW84TWV5ck9PSGNaVmg3UGRXRVlaUFVRQS1LVzQ4VmVIRFE4V2pnbjQ4WUkyMjdoTk5Pc2c0Q2N1N2R6S3pIc1kzR3d1blgwRlhhUQ?oc=5
 
 ### Election Administration Capture
 - Assessment: The item reports that some North Carolina county election officials promoted conspiracy theories about the 2020 election outcome and January 6. This is a real occurrence—officials in administrative positions making partisan statements and promoting false narratives about elections. However, this is isolated conduct by unnamed officials at the county level and does not demonstrate systematic partisan capture of election administration authority or removal of neutral process safeguards. The severity is 1 (isolated or weak signal) rather than higher because: (1) it describes individual speech/promotion of conspiracy theories rather than structural changes to election administration authority; (2) it is geographically limited (some NC counties); (3) there is no indication these officials used their positions to alter election procedures or outcomes; (4) it does not show they have captured the administration in a way that prevents neutral process from functioning.
@@ -63,7 +61,7 @@
 - Query feeds attempted: 25
 - Query feeds successful: 25
 - Query feeds failed: 0
-- Primary-source lookups: 22 signals, 13 official documents (Federal Register, CourtListener)
+- Primary-source lookups: 22 signals, 12 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 0
 - Evidence extraction: AI event extraction
 - Confidence: **High**
