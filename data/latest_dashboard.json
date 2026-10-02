@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 9.84,
+  "average_7d": 9.0,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": -3.32,
+  "delta_previous_day": 4.0,
+  "delta_vs_7d": 2.24,
   "domain_breakdown": [
     {
-      "avg_severity": 0.25,
+      "avg_severity": 1.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.375,
+      "points": 5.5,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.1125,
+      "points": 1.4083333333333334,
       "weight": 13
     },
     {
@@ -48,17 +48,17 @@
       "weight": 10
     },
     {
-      "avg_severity": 1.2166666666666666,
+      "avg_severity": 1.3333333333333333,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.0416666666666665,
+      "points": 3.333333333333333,
       "weight": 10
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 0.5,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.0,
+      "points": 1.0,
       "weight": 8
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-01T12:44:38.814347+00:00",
+  "generated_at": "2026-10-02T12:43:48.273855+00:00",
   "methodology_version": 2,
-  "previous_score": 8,
+  "previous_score": 7,
   "primary_sources": {
-    "documents_confirmed": 0,
-    "documents_fetched": 12,
+    "documents_confirmed": 1,
+    "documents_fetched": 17,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,57 +86,115 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 7,
-  "score_raw": 6.53,
-  "score_raw_pre_trip_wire": 6.53,
+  "score": 11,
+  "score_raw": 11.24,
+  "score_raw_pre_trip_wire": 11.24,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 17,
+      "confirmed_hits": 16,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.citizensforethics.org/legal-action/legal-complaints/trumps-taxpayer-funded-propaganda-ads-violate-multiple-federal-laws/",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQajc3NEpJSlFJNktnWXhQaGozc2FNVUlVUENlSWNzekhwREo5aGJ6UTZ4ZUd1Z3RyZ01uVnctNmtCOE9mSUpPXzZJc2hXV0pPUUItOXlCSmFYRE12ZGZFa1JKR3c0YTJjNTdGSHBNb2VIS3FoX0JLYWsyaV9ULVdoSjlJbW1vc0NFUE1xUW5nZXBrZ3lpbFRmYkc4QnhGdnU1NVoyVXdsc0tjb2hSZVpUMXBybFUxNE9scE41RmRCbTcwZ0l6OGpPTDVJLWU?oc=5",
-          "published": "2026-09-30T19:08:11+00:00",
-          "publisher": "Citizens for Responsibility and Ethics in Washington",
+          "canonical_link": "https://abcnews.com/Politics/trump-defends-spending-millions-taxpayer-funded-promotional-ads/story?id=136922737",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTTZ6c1ZheWdCTTN1d1hKaGR2U2xxb1hZSV9HWDFueUNpU1U3NlBBcW84V0ZENVBfMy0tV2syam5MTlJFMmdvMFZ3N0c5bEZUdXhCWGxCRGd2Uk9fOGFiRW5tU2k2cEp2X2dKdkpZTUN5V1VNdDUtQUMwekJJbnRSS2lpVC13emZ4eU1uaEdtN1N6RWJvRHZ4V3hMN01TWWtOQWZaT2pqRnhib0JmekozZNIBtgFBVV95cUxQZUZWR1E1ZDdHMkR3Y2gxV213QWVTMjBRbUNxNzVWMkd3ak01TDB1X213VTl3RXNMM3lHdU1PaFp2cHphWF85V1NCMUtlbVZuRy1EX2JWY0N1M09QcVQ5ZVl2eFRaTHhXSEJtYjJVX1Bheld5ekRyaFZVZmtKNFNTUzBIZU1CSGZCVTZ0Z21mU0xmRVRJMS0zNUJpTVBreS0tUUNsUm5hbEsxcUo5U0w4QS1TeTFSZw?oc=5",
+          "published": "2026-10-01T20:51:44+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump\u2019s taxpayer-funded propaganda ads violate multiple federal laws - Citizens for Responsibility and Ethics in Washington"
+          "title": "Trump defends spending millions on taxpayer-funded promotional ads: 'For the country' - ABC News - Breaking News, Latest News and Videos"
         },
         {
-          "canonical_link": "https://www.pbs.org/newshour/politics/homeland-security-spending-20m-in-taxpayer-funds-for-pro-trump-ads",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDlpTmFNd1IwREdDeVNFcnVFSThEZ2xOazdOakxwdUVqczByekptNFFmeDRCelhmejhDRnF3TGZ5c3ZqWDNkSDA2TUZIZmsxUkJZTEY2OTV4Ukd5ZHVpMkNRVHY5aWhVcm13WkJZanFXZTg0cFEzZGp1V2M1SHdmbmhfZmJVUUVPdEgzUUdleVdJcFhTb0h0SkZRQ2NrREY1bXBFdGJNRdIBrAFBVV95cUxOU2hjZ3JITUlGaDB4TXZLSUVWNnp4TWdmdHp1emdFcC1YRTA1dGdxR2NCNHJKQlYyZ0RjZ1BrNWFjWFJrM1FSUGdrQmsyc3RsVUhNemI0OTZVeUIyd0s3dXFkQWIyRHRxUFpwWk9MTURrTExkN0kzNU04SFV4UUs3cGdJVFZSSGZlN0VNVDFwYUhvS0xOZUZQSF8zNTMza3VHcFdvTUZUWHdxZTR2?oc=5",
-          "published": "2026-09-29T19:04:25+00:00",
-          "publisher": "PBS",
+          "canonical_link": "https://www.thefiscaltimes.com/2026/10/01/Dems-Call-Probe-Federally-Funded-Pro-Trump-Ads-and-Penalties-Airing-Them",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX0x0S3ZPejJTS0RmOG1hd1lpcmFPUHI3SXUtTTZiLTZKWGNYUzI1Q2hyZThsUlRSSWNsb0Jtb3A3cHNzekNhVGp0X2pHRnpFSWVpRGl6V1FLVVZHS2dhcXRzMDhJekJ4N0hyT244SWhSbUZGR1hXZVlrRkNPcnlhblJCY3daUHVoWHhrX245RnJzaXV2N3JUR1BFM2oySG44azAxZEFBTzV1Rlc5NFVyc2JrbFY?oc=5",
+          "published": "2026-10-01T23:48:12+00:00",
+          "publisher": "The Fiscal Times",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Homeland Security spending $20M in taxpayer funds for pro-Trump ads - PBS"
+          "title": "Dems Call for Probe Into Federally Funded Pro-Trump Ads \u2014 and Penalties for Airing Them - The Fiscal Times"
         },
         {
-          "canonical_link": "https://www.cbc.ca/news/world/trump-tv-ads-election-midterms-9.7362513",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TazN5aE5nRzFPdktFQ2M1TFVHdzBqMV80Wkp4RjVaNE1oYmo3Y2J1WF9sWi1tTHB2cVBITE5mdVQ0WWdXX1k0cGx2eGY4bmV5TFBGaDdtQTYxNlVSbWlIZThlUmdkRF9fc3pkRW5JSEx2bFlPUm90VFp3?oc=5",
-          "published": "2026-09-30T20:15:21+00:00",
-          "publisher": "CBC",
+          "canonical_link": "https://www.commoncause.org/articles/what-republicans-are-saying-about-trumps-taxpayer-funded-propaganda/",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMTVmV1N6Y2dyX0Z5TWtzdkphOVdIanA5eXpxNXVTOG9LWGFHelN2NEt5ZUMwUWZxNDdfZUh3UUFVWF9jNmdISzdINFRBMFNFZWw4b2VQa0xROG1RSGZlcno1dWd3RzhNWUllNzBXdVlPSjFBY3Q1M1E4Y3k1eHJYcVd1Tzc4b09mNTlHOHlRM3JXNlprcFJtRE5LZUhvVWdlQ2V4OFZ5OWU?oc=5",
+          "published": "2026-10-01T14:07:31+00:00",
+          "publisher": "Common Cause",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Why pro-Trump ads \u2014 paid for with public money \u2014 are airing on U.S. TV - CBC"
+          "title": "What Republicans Are Saying About Trump\u2019s Taxpayer Funded Propaganda - Common Cause"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 34,
+      "hits": 18,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.citizensforethics.org",
-      "rationale": "CREW, a watchdog organization, alleges that taxpayer-funded Trump ads paid for by DHS/CBP funds ($20M identified in other sources) violate federal law against partisan publicity. Multiple corroborating reports confirm ads are running and funded from identified appropriations. This represents a credible, repeated allegation of misappropriation of public funds for partisan promotion\u2014a violation of the 1950s bar on propaganda spending. However, no official enforcement action, admission, or court determination has yet occurred.",
-      "severe_hits": 3,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "ABC News reports Trump defending spending millions on taxpayer-funded promotional ads. The headline indicates an actual occurrence of taxpayer-funded promotional spending, not a hypothetical. Trump's defense of the action confirms the event happened. However, without detailed documentation of the specific appropriation source, amount, or official justification, this is a credible but partially sourced report rather than a confirmed official record. Severity 2: repeated/credible stress signal, a real but contained action.",
+      "severe_hits": 2,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 14
+      "unique_publishers": 15
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
+          "published": "2026-10-01T21:05:47+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 4,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-10-02T04:35:18+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 3,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 0,
@@ -160,19 +218,10 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "The Unfinished Work of Federal Permitting Reform - National Affairs"
-        },
-        {
-          "canonical_link": "https://pakobserver.net/trumps-america-democracy-under-pressure/",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5EMF9aSzd6WDZOSlduSnVVdlZjaVpKeTNFaFpTMmJUaTh0MUUwVm1WVlRfUUo0ZTJZSXZKZmhIWlBLcDZmSE5pMFBKTzVRLVBwaXpNZ1pwOGM1dDNlSXlvNURCVVZVbVdUN0I4Z09sY2pFUQ?oc=5",
-          "published": "2026-09-30T02:15:48+00:00",
-          "publisher": "Pakistan Observer",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump\u2019s America: Democracy under pressure? - Pakistan Observer"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 1,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -181,85 +230,37 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://borkena.com/a-question-of-conscience-human-rights-and-ethiopias-future/",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTEpFMmdlbnFJdTB0aU83bkd4djhDd0F3bU5sRWxmeTVmR0diYzFjbVFKVzlTbHR1SE1XQW84TWV5ck9PSGNaVmg3UGRXRVlaUFVRQS1LVzQ4VmVIRFE4V2pnbjQ4WUkyMjdoTk5Pc2c0Q2N1N2R6S3pIc1kzR3d1blgwRlhhUQ?oc=5",
-          "published": "2026-09-30T05:06:46+00:00",
-          "publisher": "Borkena",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "A Question of Conscience, Human Rights and Ethiopia\u2019s Future - Borkena"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "security_sector_neutrality",
       "evidence": [
         {
-          "canonical_link": "https://www.citizen-times.com/story/news/2026/09/30/some-nc-county-election-officials-promoted-conspiracies-about-2020-outcome-jan-6/92003134007/",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOR3V1XzVWLWtERDNOMlRjTm5NR0UtbHl1d1BPeF92Mnl5TDRydzh5LTVBYVlnUUt3S1NyYXFKZWRNYXdNTDVIMkZQWkFJQzgyaHRUbU93clAtTldBQzlzS3lQeGpDaUN5NjVLbHI0ZjRDekxreW9rallTNm9HY3pSRXdJSlZvUUUyZEQxOXZZVGhzeVlCOWJ6ajZiS2FXRWY4VUN2THhPa1hkLTQtSWw1amZjZ2dQQTJzdDJOaFVoQXhjazY5MkVXemVEeW5tdWFDM0lFV0ZjanVyRFRBbVE?oc=5",
-          "published": "2026-09-30T09:04:00+00:00",
-          "publisher": "The Asheville Citizen Times",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Some NC county election officials promoted conspiracies about 2020 outcome, Jan. 6 - The Asheville Citizen Times"
+          "canonical_link": "https://www.courtlistener.com/docket/74901903/1/ganger-v-ross/",
+          "link": "https://www.courtlistener.com/docket/74901903/1/ganger-v-ross/",
+          "published": "2026-10-01T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "Ganger v. Ross"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "hits": 1,
+      "id": "military_domestic_political_use",
+      "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "unknown",
-      "rationale": "The item reports that some North Carolina county election officials promoted conspiracy theories about the 2020 election outcome and January 6. This is a real occurrence\u2014officials in administrative positions making partisan statements and promoting false narratives about elections. However, this is isolated conduct by unnamed officials at the county level and does not demonstrate systematic partisan capture of election administration authority or removal of neutral process safeguards. The severity is 1 (isolated or weak signal) rather than higher because: (1) it describes individual speech/promotion of conspiracy theories rather than structural changes to election administration authority; (2) it is geographically limited (some NC counties); (3) there is no indication these officials used their positions to alter election procedures or outcomes; (4) it does not show they have captured the administration in a way that prevents neutral process from functioning.",
+      "primary_confirmed": 1,
+      "primary_documents": 3,
+      "primary_source_url": "https://www.courtlistener.com/docket/74901903/1/ganger-v-ross/",
+      "rationale": "A civil complaint has been filed in federal court (D. Minnesota) naming multiple current and former federal officials. The complaint itself is an official record indicating that plaintiffs have asserted claims regarding potentially unlawful conduct by these defendants. However, without access to the complaint's substantive allegations, the severity cannot be determined beyond acknowledging that a legal action has been initiated. The filing is a real procedural event, but severity is limited to 1 because a complaint represents an allegation, not a proven occurrence, and the specific nature of the alleged conduct cannot be assessed from the docket summary alone.",
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 1
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "martial_law_or_military_language",
-      "name": "Martial Law or Military Governance Language",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],

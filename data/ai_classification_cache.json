@@ -291,6 +291,16 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/18/2026-19222/employment-in-the-excepted-service",
       "rationale": "This is a proposed rule, not a final rule or implemented action. The document explicitly states 'proposes to amend' its regulations. A proposal still requires notice-and-comment rulemaking, public input, and final approval before it becomes binding legal action. No change to civil service classification authority has occurred yet. The summary does not indicate this item addresses Schedule F or at-will reclassification of career civil servants. General modernization of excepted-service procedures and conforming amendments do not constitute a politicization event or dismantling of career protections without further action and clarity of scope.",
       "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/02/2026-20247/enhanced-transparency-and-public-accountability-of-the-supervisory-stress-test-models-and-scenarios": {
+      "actor": "Federal Reserve Board of Governors",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/02/2026-20247/enhanced-transparency-and-public-accountability-of-the-supervisory-stress-test-models-and-scenarios",
+      "rationale": "This Federal Register notice describes amendments to banking regulations and supervisory stress testing frameworks by the Federal Reserve. It concerns financial prudential standards, capital planning, and transparency of regulatory models\u2014matters of administrative banking policy. It contains no material bearing on civil service reclassification, Schedule F, at-will employment conversion of career civil servants, or politicization of the career bureaucracy. The document addresses regulatory transparency and capital requirements, not personnel classification or appointment authority. No constitutional-stress signal is present.",
+      "severity": 0
     }
   },
   "court_order_noncompliance": {
@@ -683,6 +693,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74834505/1/united-states-v-gatsby/",
       "rationale": "This is a routine docket entry for a miscellaneous case involving a motion to enforce an IRS summons. It documents a court filing, not an instance of executive or administrative noncompliance with a court order. The case opening and motion filing are procedural steps within normal judicial process. There is no evidence here that any executive or administrative actor has refused or failed to comply with a court order. This is a legal proceeding in progress, not a signal of court-order defiance.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74863653/1/toth/": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74863653/1/toth/",
+      "rationale": "This is a routine civil complaint filing (Toth v. NYCDOE, E.D.N.Y. 1:26-cv-06025) containing only procedural docket information\u2014a complaint with incomplete disclosure statement, filing fee receipt, and attachments. There is no evidence of court order noncompliance. A complaint is the initiation of a case, not the outcome of one, and the summary contains no indication of any judicial order, any executive or administrative response to an order, or any refusal to comply with court direction. This is a standard litigation filing with no relevance to the signal.",
+      "severity": 0
     }
   },
   "election_administration_capture": {
@@ -754,6 +774,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item reports India domestic political dispute involving opposition and BJP over Election Commission dissent report. Non-U.S. event; irrelevant to U.S. constitutional signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMURybUFMLWUtZUZXSFQ3djU5QUllS3dLeWU1RUxWSlFKOGxGdjdDbTRYbDAwUS1rbFVRTE1JemFYLWt3d3RDNWNqQzZsX2hzdUJDZ1ZrRnVZaW10cENLb2pwa0thWmtPT1o0S0VyeXBSdGgzRnZSLVlVbExmVWllNWpkNjNINk54Vl80WDR0Sm8yYnVIOHVoWmhOQ2Q3ZUxsS3ZVbWNXbEhBVUxHV2pMU28xR3hDNy1XRy1obzlBX1VhSnpuMmpZOHJZSG1jN1haVjhVdG10OURza1dhTzVoR0VDWFJmb2VOdWtETXBqM2VsUlN00gH0AUFVX3lxTE4xRHJtQUwtZS1lRldIVDd2NTlBSWVLd0t5ZTVFTFZKUUo4bEZ2N0NtNFhsMDBRLWtsVVFMTUl6YVgta3d3dEM1Y2pDNmxfaHN1QkNnVmtGdVlpbXRwQ0tvanBrS2Faa09PWjRLRXJ5cFJ0aDNGdlItWVVsTGZVaWU1amQ2M0g2TnhWXzRYNHRKbzJidUg4dWhaaE5DZDdlTGxLdlVtY1dsSEFVTEdXakxTbzFHeEM3LVdHLWhvOUFfVWFKem4yalk4cllIbWM3WFpWOFV0bXQ5RHNrV2FPNWhHRUNYUmZvZU51a0RNcGozZWxSU3Q?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns electoral disputes in India (references to Shivakumar and Vijayendra, Karnataka political figures). It is not a U.S. domestic occurrence and therefore falls outside the scope of signals about U.S. constitutional stress. Not relevant to U.S. election administration.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAya2puRGpPa0cwbmtmQk5FWElERklFbWJhSXVSWkdxMW00MjVTNVdZMXAyS0VlVVRsVmRIeUxnUHBhUlEzX0xGSFA0Rk0?oc=5": {
@@ -1005,6 +1035,16 @@
       "primary_source_url": "",
       "rationale": "This is an explainer about a California ballot proposition concerning recall election procedures. An informational piece about a proposed procedural rule does not constitute evidence that election administration has been moved from neutral process to partisan control. The item describes a policy question, not a verifiable action or capture event.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNDU4dlREWDZuaVRvNnU5SktLR1ZUTExrZ1JxdGUyV2lmVkRoNTlRVWhaaTVLblp4QWlRVUM3R2tuWS1jX2NacmVPNFp5eXpOODlha0FTWkU5T1VMamtyN1Z0bTNYVmJQcTYzWVFsV0lWRmkxckVGd1dpRzQ3eE95VW1hSEh3TDdINVE?oc=5": {
+      "actor": "Election officials in North Carolina",
+      "confidence": 0.45,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "qnotescarolinas.com",
+      "rationale": "News report documents that actual election officials promoted conspiracy theories about 2020 and Jan. 6, demonstrating partisan positioning by neutral-process actors. However, this is a single report from a low-tier source with no corroboration provided, and promotion of conspiracy theories, while concerning for impartiality, does not yet constitute structural capture of election administration itself (no documented changes to procedures, appointment authority, or election outcomes). Scored as weak but real signal.",
+      "severity": 1
     },
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ0xIc1ZxUXhqOEFkU0k4SXVZVTNLT3VpaUNmZW1WUkZIRktHLWxUaU9MR0Q5VXBPQzlBUWxsczhBS05VYTY3aHJMUjRxMzV3WnlLSGdGZWViWjN6Z2NZSUtQLWZmNkNGeVlNOER6RGJyeEtIeGhVSGljQTluck9fNVExTFZOWnBXSVBkNklB?oc=5": {
       "actor": "unknown",
@@ -1621,6 +1661,16 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/16/2026-19053/continuation-of-the-national-emergency-with-respect-to-persons-who-commit-threaten-to-commit-or",
       "rationale": "This is an official record of continuation of a pre-existing national emergency declaration. The continuation itself is a routine renewal mechanism established under the National Emergencies Act (50 U.S.C. \u00a7 1601 et seq.), whereby the President may extend a declared emergency for successive one-year periods without new legislative authorization. While this document confirms the use of emergency authorities to maintain expanded executive powers outside ordinary legislative process\u2014and therefore matches the signal\u2014the action is procedurally lawful, statutorily authorized, and represents the normal operation of the emergency declaration system rather than an expansion or abuse of emergency powers. The severity is 2 (a real but contained and legally-authorized stress signal) because emergency declarations do represent a bypass of ordinary process, but this particular continuation is a standard recurring action, not a novel expansion or defiance of law.",
       "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/10/02/2026-20322/continuation-of-the-national-emergency-with-respect-to-the-situation-in-and-in-relation-to-syria": {
+      "actor": "Executive Office of the President",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/02/2026-20322/continuation-of-the-national-emergency-with-respect-to-the-situation-in-and-in-relation-to-syria",
+      "rationale": "This is a continuation of an existing foreign-affairs emergency declaration regarding Syria. A routine renewal of a pre-existing emergency status does not constitute expansion of emergency powers into new domestic domains or bypass of legislative process in a structural way. The continuation of a declared national emergency, while legally significant, is a standard executive function authorized by the National Emergencies Act and does not indicate that emergency authorities have been newly deployed to circumvent ordinary legislative process within U.S. domestic governance. The signal targets systematic domestic constitutional stress through emergency power expansion, not routine renewal of foreign-policy emergencies.",
+      "severity": 0
     }
   },
   "independent_agency_capture": {
@@ -2264,6 +2314,16 @@
       "rationale": "This is an opinion/advocacy piece proposing reforms to strengthen oversight and privacy rights. It discusses hypothetical future legislative action ('How Congress Can') rather than reporting an accomplished action. No safeguard has been weakened, no agency authority has been stripped, and no capture has occurred. This is analysis and advocacy for strengthening guardrails, not evidence that independent agency safeguards have been dismantled.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZFMzcDF5NlNtRjFkelhtdEd0OTNkS1NVTDdoTHExemRMUDFiUUZXZC1rU2s2a1pNNFFETFFVcTAzRVpIUXI5cmlVSE1OR2N1Q0liUkVENmp4LVVFVDIxOUp6aGhqVVVCeUJERVdrVWdUUnJPYlRZTWdwQWNUTHJuQTZoZm1vdHpNdmNJY2JpR1dTZzRsSXVHY1ZpTFhaNHdUaGx3TnhKV3d4X1NvYnhYWUo2Uk94SWt0RzFVblp2VVFjaDgzeGZj?oc=5": {
+      "actor": "Federal Reserve IG, Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is a headline only with no substantive content provided. It appears to describe a Supreme Court decision PROTECTING an independent official (Powell) FROM removal\u2014the opposite of the signal (independent agency capture). Without the article text, source verification, or confirmation that this is a real event rather than hypothetical or satirical, and given that the headline suggests safeguards are being upheld rather than weakened, this does not constitute credible evidence of weakening legal safeguards for independent regulatory decision-making. The signal requires evidence of capture or erosion of independence; a court blocking forced removal indicates the opposite.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/opinion/10945915/frank-william-bonan-ii-v-fdic/": {
       "actor": "FDIC",
       "confidence": 0.95,
@@ -2855,6 +2915,26 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74856426/1/krell-v-us-department-of-homeland-security/",
       "rationale": "A complaint filed in federal district court is a request for judicial relief, not evidence that an unlawful event has occurred or that retaliation against watchdog functions has taken place. The filing itself is the initiation of a legal action, not the occurrence of the alleged harm. Without access to the complaint's contents, the case caption alone does not establish that Inspector General retaliation actually occurred. A complaint is a proposal for the court to find wrongdoing; it is not itself evidence that the wrongdoing has been established or that watchdog functions have been materially impaired.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74901903/1/ganger-v-ross/": {
+      "actor": "",
+      "confidence": 0.93,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74901903/1/ganger-v-ross/",
+      "rationale": "This is a civil complaint filing (Ganger v. Ross et al.) in federal court. While it names several federal officials as defendants, the docket summary provides no information about the complaint's substantive allegations. A complaint filing alone, without evidence of its content relating to IG retaliation or watchdog obstruction, does not constitute confirmation of such an event. The mere filing of a lawsuit is not itself an occurrence of the alleged wrong; it is a legal claim about a past or ongoing action. No verifiable evidence presented that this involves retaliation against Inspector General functions.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74904418/1/goe-individually-and-as-parent-and-next-friend-of-grace-goe-v-united/": {
+      "actor": "",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74904418/1/goe-individually-and-as-parent-and-next-friend-of-grace-goe-v-united/",
+      "rationale": "This is a routine civil complaint filing (Goe v. HHS) in federal court. The docket entry reflects a case initiation, not an action of retaliation against an Inspector General or watchdog function. No evidence that this case involves IG retaliation, anti-corruption monitoring obstruction, or any related constitutional stress. This is a standard civil filing unrelated to the signal.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -3348,6 +3428,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "A Supreme Court decision permitting ballroom construction is a routine application of judicial review to a property/permitting matter, not evidence of judicial review foreclosure (courts closing the door on review of government action on threshold grounds like standing or justiciability). This is the opposite: courts accepting and deciding a case on the merits. No threshold dismissal, no foreclosure of review, no blockage of legality testing.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNUtaaWx6Y3drLUhUcHZMdnlMSG5rQnJfLWJfejBqVDd5Tld5Y2VOeDdqQnBIWFhCY1I0Vy1uYzI5SjVGS0NUQ3g3WWk4cXJzRnNNRmppbWVIb2xvQ3pzcGFXMWpDeGkzUVhyOFV6ZzR4dEw1T2FxYUJ6dXlGd3ZMUGxhOVFjZXBYYW9RT2d4c0M?oc=5": {
+      "actor": "Convention of States",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://conventionofstates.com",
+      "rationale": "This item is a generic headline/summary about a Convention of States advocacy piece on federalism. It contains no description of any actual judicial review foreclosure, threshold-ground dismissal, standing denial, stay, or court action that would prevent plaintiffs from testing government legality. It is promotional or editorial content about federalism advocacy, not evidence of courts closing doors on judicial review. No specific case, ruling, or procedural action is identified. The item does not describe a verifiable event but rather a political advocacy position.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxORHV2bE41bWVCVmI4M3ZseE1SOVluQ2hmZ0FESm50MXFWcHhwQkQ3bDJBT1ZvZTlNdUczX2JCZUYxRG5KZFc4cEpjX0l0R3hiVFluVkhmT3VLcjBqdmQ1UGYyTGR3VGNMeFNTbUh5TGhjdVkwRWRnRDJ6UDFrdTNYSDA4SHVDWXI1WWZfelBVbXppT00?oc=5": {
@@ -5340,6 +5430,16 @@
     }
   },
   "military_domestic_political_use": {
+    "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOM0xGT0dlYkdZVFNMemg5ZXRESWFLMlh1NVBGNnhJUThyWWE0N0JmTURmVnR3WGd3TFBoRjdabG5nWFJUcmt1MzM0c3k5WWl6dlhHX2RXSV9uZElhOUhneEFOV29PamFrcHBBZ0dldW1XREJMZnFMRi1ESUVERF9KYUhmZzNmWFFPVVJlQ0pkX05sUVUycHFNMmJrcDUxaGxzeTE2ZU5pM2lfVDRQYkZ4MlJ6TXpJRG1ULVFZd0JWT3oxUEVZOHZLc0t3dXZFQkY2LWMwQnljOHNaRHBDc1dWWDcyc0EwLWwybC02X9IB8gFBVV95cUxPLXNWZUlCanltZkpIMHlhT29UVUJXU1ZCQnpObTZXeXh4WTBpZkg3T1BBd1R2Zzk5UEgzRWVQcFNyVlZVVUc5MXhiampqM1ZmNXRPRkk4dlV5UVB4QnpYdFpFODlOcWRUSzBkRU03YWl0LW9ReXJWSkpxZmxsdWJlN2lNdjlsbnVMUVowR0JZVnRtRjAxalFJcnVQd05rYUFqMUtEQm9WczB1TVd2aDFHc0dwdGtzVVNZSE5mTWpWdUlsNWxvaExTZ3hXRzYteGpQTGtIblBsNFMtVGJEdTZsNmZpT1I5T0RhbWQyR0taXzQ0dw?oc=5": {
+      "actor": "Donald Trump",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "This is a report of a statement or hypothetical proposal attributed to Trump regarding potential military deployment to polling booths. The framing 'I could use it' indicates speculation or contingent discussion, not a verified order or actual deployment. This is opinion/commentary coverage of a hypothetical or proposed action, not evidence that military deployment to polling places has actually occurred. No summons, no directive, no action taken. Severity 0.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMie0FVX3lxTE52OU5ud2JQaHNrUDlGNnFENkF3MTBPWlRKY3NfbElmRU9OSzhfQlJZbnVmOU54WEh4V00yMHZFT3MzLV81dEczSlhteVplT3lJVF9JZWhpeGl1TGpkMDZzRVRFYmxzVnVVSllpS1Brb0RNdVpNRENhOTFKbw?oc=5": {
       "actor": "Voters/public opinion",
       "confidence": 0.99,
@@ -5530,6 +5630,26 @@
       "rationale": "This is a routine civil complaint filed in federal district court (case 3:26-cv-00337). The title 'Adams v. City of Whittier, Alaska' does not indicate military involvement in partisan political conflict. The item provides no substantive description of the complaint's allegations, and routine civil litigation is not evidence of military use in domestic political conflict. Without access to the full complaint content and no indication in the summary that it involves military action or political conflict, this cannot be scored as anything other than irrelevant to the signal.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74862903/3/sebastien-v-islamic-republic-of-iran/": {
+      "actor": "Islamic Republic of Iran",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74862903/3/sebastien-v-islamic-republic-of-iran/",
+      "rationale": "This is a complaint against a foreign state (Iran), not a domestic military use in political conflict. It does not match the signal, which concerns domestic partisan military involvement. Not a U.S. domestic constitutional stress event.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74901903/1/ganger-v-ross/": {
+      "actor": "Gregory Bovino, John Doe Federal Agent 1-10, Thomas D. Homan, Corey R. Lewandowski, Todd Lyons, Stephen Miller, Kristi Noem, Jonathan Ross",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.courtlistener.com/docket/74901903/1/ganger-v-ross/",
+      "rationale": "A civil complaint has been filed in federal court (D. Minnesota) naming multiple current and former federal officials. The complaint itself is an official record indicating that plaintiffs have asserted claims regarding potentially unlawful conduct by these defendants. However, without access to the complaint's substantive allegations, the severity cannot be determined beyond acknowledging that a legal action has been initiated. The filing is a real procedural event, but severity is limited to 1 because a complaint represents an allegation, not a proven occurrence, and the specific nature of the alleged conduct cannot be assessed from the docket summary alone.",
+      "severity": 1
+    },
     "https://www.federalregister.gov/documents/2026/08/06/2026-16125/establishing-the-presidents-military-spouse-commission": {
       "actor": "Executive Office of the President",
       "confidence": 0.98,
@@ -5630,6 +5750,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns the U.S. Virgin Islands, a non-state territory, not the United States proper. While it mentions a ballot disqualification, the item is dated 2026-08-22 (a future date), indicating this is either speculative, a hypothetical scenario, or a test case. Additionally, the summary alone does not confirm that an actual disqualification has occurred\u2014it only reports that officials asked a court to dismiss a suit defending a disqualification, which is a legal motion, not a confirmed action. The signal concerns systematic removal of opposition candidates from meaningful participation in U.S. elections. Without confirmation of actual disqualification in a U.S. domestic context and with a future date, this does not constitute verified evidence of the signal event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZXZRNGJERzVWaV9TSHFzb1UySGVWVEFrNGtMc2lnMXZFMWVmTHc1c0FnbmM2Z1laVEl3UDJmZy1sb1J3VTRDX09HNVRwZWlqcW9yVnBMRU0xbmdYa1RITnVhbHYzMjN1ZGYxS2tobnQybVNvSEh6WXZodk5xdk8xLW9SbUpmd3FaVHhJNXh3NTdqOEVPaXpNUndDSnd4SElmODNsbjVwV3JCdkh2Zmk4X094WTR0cVF3NlFYSldKNWhGQW9PcDhhQ3hpRlJHd3FpWVppRk9DYTEydUN5X0NYWDhHZTRoVHdqOGNF?oc=5": {
+      "actor": "Brazilian authorities",
+      "confidence": 0.99,
+      "event_occurred": true,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This event involves Brazil and a Brazilian political candidate. It is not a US domestic constitutional matter and falls outside the scope of a US constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNTd6T0NGWjh6TVNJNUlLaGJoeTJTN0VFWjFneDdPV0RSaUkzMTFVOUpTd0xidmx5ZHVQRFhkemN3RUZla2lfbk5DaHVEbDB0N3lUMGRBNVZJeUxJak95cmQ1US1OeDI3b0Rfd09vUTVJdGJvQndLdWxwY1BMOXZzdWZhZ0hla1R2UWxaa051OFNMUE1nMW1talhKdTl4UC1DYWw1WGZ5b0VLRE5DdmJzekg1NjgzZmZoWDliaTJCWUYxbldJd1doOS1vS3JzclR6ekN3alZZSldCaDl0T2k4Y3BKaUQ3YXRycGpRYw?oc=5": {
@@ -5770,6 +5900,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a news digest headline about Alaska races. Without specifics in the provided text, 'wild deadline maneuvers' is too vague to confirm a systematic removal of opposition candidates. The item provides only a headline and no factual content showing ballot exclusion of candidates based on opposition status. This appears to be routine election administration or procedural matters, not opposition exclusion.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMie0FVX3lxTE1mZFA4VEdTSHJ1MjVlTEd3dDJrUWpaUG5TcS1RYS0talp4bk1CSDg2N1ZqbEQyTHNJUHVnSEtQYUFqWExoVk5zZEtRQldXQ3Q3YkF0TlI4a0xOQjJ1MzRCZXZQN1lqODhXQ1hfTmNkYXZYNGhzME5QbENncw?oc=5": {
+      "actor": "Israeli Supreme Court",
+      "confidence": 0.99,
+      "event_occurred": true,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This event occurred in Israel involving an Israeli court and Israeli election law. It is not a US domestic constitutional matter and is out of scope.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMie0FVX3lxTFBtUzk1OFc1NnR6M0xIdVFxUmpuNG1QN05OUWlMOG9ESEtzY0ItN3ZHZ2VMalJVN2JPLUg0SHhOMFFCVlBBOXNvX3ZvYmY0eVlwQ1BsdEl1MG9HeFA2RTkwN1BNc0QtZ0Z5X0lTTWV4a015ekNvSnYtRWY2RQ?oc=5": {
@@ -5962,6 +6102,16 @@
       "rationale": "A single judicial disqualification of a school board candidate does not constitute systematic removal of opposition candidates from meaningful participation. School board races are local electoral contests, and judicial review of candidate qualifications is a normal, legally-authorized safeguard against unqualified candidates. The signal targets systematic political exclusion of opposition to executive or legislative power; a routine eligibility determination in a hyper-local race does not meet the threshold for constitutional-stress signal matching. Without evidence of a pattern, official policy, or subversion of qualification standards, this is an isolated application of existing law.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMjRoNk5vajB0b1M5VTZEZkRlVmFZU1hQZDlQR1FlU1BOc0cwUWxJa3p6bE1LZjZFSnU0cURNSUVBNS1QS0RuTlZmZkY1TjRvUVN5OExSOWp6RVJMdTN6THJGSnhneVQ4eVg3dGdKcmhZWW9xNWt1QWxOMWhjaTg2UjhOZ1RrMFA1TG4ycXZPa1JWNlRaUkxkY1pGdkhNSm1CS0HSAacBQVVfeXFMUDF1NlpFYU9iODVMVVlIWlBZNnRSc1B2ZUh5bGpOVUNaLXRKczlnMGVYSDRKLWhJR21NbFpJQV9RNkZ3c1dSbm03RjM2Z1hObTNNQmptNlJrNXVUNjEwWTRvOGVJbzZMTzhGLWgxdHVoeTFjTVdic29ZS1Q2OVZlYnRySmFsUGFmMnV5cXJzUW5qYVQtMlVoeThGekd5T2FxUEJ3ZU9EeFk?oc=5": {
+      "actor": "Israeli authorities",
+      "confidence": 0.99,
+      "event_occurred": true,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This event occurred in Israel, not the United States. The signal is specific to US domestic constitutional risk. Non-US events are out of scope regardless of their nature.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxPN1BBYjdXVFg2YlM3dEhYUzMzUU1uM2hIM296S205Z3JFNnpJa05TeE4tN1JzYnBKT0FSU2VDcnU0TDBXc1pPWkNhdFVsdUpGNzgxRS1fNGp4dDU0ZTktWGo4M3FNVWQ2VnFDd1U5c3hhSU9EdXZGYmJzcWtSQUVZejYtazNSSENMNG1zQWRScWQ4c0VmY0NMd1lBMjNRcnllMWc?oc=5": {
       "actor": "Russian government",
       "confidence": 0.99,
@@ -6060,6 +6210,26 @@
       "matches_signal": false,
       "primary_source_url": "themoscowtimes.com",
       "rationale": "This article concerns Russian elections and electoral choice in Russia, not the United States. The signal is defined for monitoring U.S. constitutional stress.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYmJlZnlCYjNVVVluSXBXWEI1ajF6NzlNNnJ1dzJQYWxhV0UxU0ZVdmZQZmYtN1RtbGVjOUFwY1BtRWRScVVmeng5RXg1aVV4YkdTR0Nkek9xWlBvV3FvSWJJeWJGak5FVGQ1Qm5lRE4tWVF3ZVJ3dEtKQ0Y0VS1xbVdXdnV1NWVoekdlSE9SaFFKRVJfUHowYWJpWFBfdzVBek5lRzdxanhBZEVwTEHSAbMBQVVfeXFMTmRnUExoU0VJNHhiUEU2MEUwSDRBVnFNMS1LeDZhNno1c1RvX1A0NjlRSlprTDVVeDhtYWd2WEp3Vk1FYVlaaDJSS3FPTE9mUDlRaUR0YXp2cVVjd25CdDUwQzB2cG1Na3E3U1drQ3FwbW1HOWw0YnJybFdXQm5fZFotUVNJUUNTTU1IV09WR1pZRlFqV2dUT2taTUloR081amMxbHFVcTI0XzcyaEptX09RUDQ?oc=5": {
+      "actor": "Israeli Supreme Court",
+      "confidence": 0.99,
+      "event_occurred": true,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This event occurred in Israel, not the United States. It concerns Israeli election law and an Israeli court. Not relevant to a US constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZzBsRXFzMld0Y19vb3U2eC1DYkdqeDVHNV9KSGpZVFhvRjNBUGp6RmxXTXBSbGNJSWk0b1RzN2xxTEpqYjRVUGdjT2t5YkxMUUl1SmRPT3lPTmxhWHVqcXM4Q1RNZHZxVldway1aX2ticEFzaGNSc3o5a1RWdzBtb2s2VngyVEM2WkFIUDZHTHhpQUVwTFhUaTlucU0tUWs4MFFyczF1WkhBeWxyOGc?oc=5": {
+      "actor": "Israeli political actor",
+      "confidence": 0.99,
+      "event_occurred": true,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This event occurred in Israel, not the United States. It concerns an Israeli Knesset election. Not relevant to US domestic constitutional risk monitoring.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaUhMdWtBSzBQSE1tcUpsUzVXdzBreE9PdGRnTzFfX1NhZ0dWQm55NVRYcWxBOWVkdERzQkFNRVY4LWNZc3lVWU9heVdHYWVoSEg4RWhwQ3dlLThJbkl3dUtNakRvV3ZLbG5qX1RlNHRoUVZGcHpGQU5QUE1mT1ZkcWk5Zm9Od3hSenN5NFhUV0RBOWZtV0tFSFlXUkpYV2xvdFZ4YmVISHlBNmNDOVE?oc=5": {
@@ -6252,6 +6422,16 @@
       "rationale": "This article concerns Russian elections and the Kremlin's control of candidacy. It is not U.S. domestic. The signal is specific to U.S. constitutional stress. Foreign election dynamics, even if they involve opposition exclusion, do not constitute evidence of the signal's occurrence in the United States.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcE9SOVJKdWItQ3Jad01VVm43MEtOU3RMU21aYXlNN25qOF9zODU5UEp5OWNhOVQ5WVpRTXlILXNZcTM2bEMtb05qSkIxd25DZDhPOWYzQ28zNXU1NUJiVWJYWExnTjNHaVE2OHFscFdkSHhMcW5RT0NaYVFZT1NfamIzUDRzWVptekR5SVBGUnllbVZkQXFPQzhtRkNZWHpvb3U3SE1SQ0dDYmtyMHpFd2piMzVJbXYwb2pOUjBtbnBVdHNI0gHSAUFVX3lxTE55ZWZzaW1Pal9uQWpvSE8yQkJMM1E2RVg5aXNoczVwdzFHZndEVWJLd25oMVBmSjd1ajRLZktvY09Jbl8tc3dkZkNKdXl4ZG5ZR1Fzc0JTLUhUWWpSZnpwQ1IyVEpUYnY0OXVkR0lRRS1BQkJ2VWl4cGFRd0RXazJPamJ3SGZOcTNtMGloQ0pOQjR1bHVQV0tzYXVGVERqOVh2UTNxNl84RzNvakcwLVBHajV1aC1xT1U4Vmw4UVNPYnZXV0doUXJsRmNEanphYlBiZw?oc=5": {
+      "actor": "Israeli Supreme Court",
+      "confidence": 0.99,
+      "event_occurred": true,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This event occurred in Israel, not the United States. It involves an Israeli political figure and Israeli election law. Out of scope for US constitutional risk assessment.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcTc3R3RWVmljSlJXTUhIdnVpX3pxSU11RXhsZmV4QW5sdlhGc05YVEJ1bGlUdnVfTmZEQkhXRHB2VjdDLUV1RkQxMk00VVJ2NEtreWxMNEtZY2RKc01rV3U3cFFkVFhuU3pLbU5vaE5HV1BfcU5yeWtIbWNDdzFhNzFwTm5hQ1N5ZEV4bHhZdVVBTC0xWlJkT2hLTjdWbGpwRERTekdkdzJxcHhnaHM5SGJBbkdxNk84Nlo2RWltdFpQd1Z4?oc=5": {
       "actor": "Alaska state judge",
       "confidence": 0.95,
@@ -6422,6 +6602,16 @@
       "matches_signal": false,
       "primary_source_url": "streamlinefeed.co.ke",
       "rationale": "This item reports on law enforcement action in Goa, India, not the United States. The signal is specifically about constitutional stress in the U.S. domestic context. While the item may describe surveillance or interrogation of protesters, it is geographically outside the scope of a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdWhlSC1JazVhUUNVMlpvX2ZwZ3Q0R3h0NW1jUVB2X2lGZlFHNFJwaHhsQms0cTJxb1FuaEl5NUJpVnM3ckdDZXhZaFhrTjRyR0FkVk9tQzk5NXQwQ3J6TXVSWnpvVkhqdXJuRTlOaHo3MmZlaVdGel9pN0JkNVdKTzV5VVF4TVl1OW42a2R6SjhwRFBTQUVxQ3N3ZGQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item references a non-U.S. jurisdiction (indicated by '\u0418\u0424\u0417 \u0420\u0410\u041d', a Russian research institution, and the mention of a British barrister, suggesting UK context). The signal is for U.S. constitutional-risk events. Additionally, the item summary is incomplete/corrupted and provides insufficient content for evaluation. Non-U.S. events fall outside the scope of this U.S. domestic constitutional-stress dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMW53bzd5VDBJYy1jak13TEw2R2NjUXBpR2M5TGM1OEdLTXdWWWhBWTZPRFB5UnpSa0llM1N0Y0NIcjJGcmxDNEQ0WEFRaThJUWN6RmM4U25GTktaRmNULWpzZGh1WERFMW5NNXpNOF9UN2x3ZmgyV3lmWWh4QldmWHgwcXdMcjlMTlZ5eUxTeUdDTGtldExNOW9kbDFFM3lNZkNRWUNzUW5WSDA?oc=5": {
@@ -6988,6 +7178,16 @@
       "rationale": "This item concerns Pakistan, not the United States. The signal monitors U.S. constitutional risk. Non-U.S. events are out of scope.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVjZqYTAyVlZuNkM3VUF0dGc4WklnQjB1bWROSm5TU24zd0RFdER3TUFQVGZHVkV1RElyTHRON1lFTlFIUThlWDg5Q1YyRmo3dktEeVlYdjRwZU9Ba2owZzRJcVp2cVpBc20zRVMxT0RreVlEdERYa3NoSXJGaEEwX18wRnNHclJWa01PRUozdkV6WVRFV3c?oc=5": {
+      "actor": "Kais Saied (Tunisia)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://nawaat.org",
+      "rationale": "Nawaat.org is a Tunisian digital media outlet. The item explicitly concerns Tunisia (reference to Kais Saied, who is Tunisia's president) and media conditions under his administration. This is reporting on press restrictions in Tunisia, not the United States. It does not constitute evidence of a U.S. constitutional signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZEJsSzBBeTk2U21KV2NOUnJGUktJeS1lTUp3NURLTzNOUU05YjFraWlma0c4SFdEWHJwdUYwM090QzVMV0dpZE9LWEVIYVN0RndjckFQbllxbWdTb0JFRUJUOXlIeTRFOW9xSUU5VHFIZnhKRmFkVWd3TWlaRWZlLUZxMDYxNDNpekgzX2d3cnJaLVJHTUE?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -7368,6 +7568,16 @@
       "rationale": "An investigation finds journalists were detained and deported during a U.S. immigration crackdown. This is a confirmed action raising legal risk for journalists (deportation is severe jeopardy), though the framing as part of an immigration enforcement action rather than a targeted press-suppression campaign suggests it may be incidental rather than deliberate state retaliation. Nonetheless, the material effect\u2014detention and removal of journalists\u2014matches the signal and is a repeated/credible stress event. Severity 2 because it appears operationally real but not yet part of an openly acknowledged orchestrated campaign against press.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYXdYT0hyRFJLRGRLVVJZMkpPeWk5SmllUjJHdHFGT0pFV2d0enpjX2dGeTNiTXljQzlmMWxJOFZhLVFoa2YyZnBlUHF6SUtydTVIeXdNSTI2SVZUOUwtRFUwcm9aMTJSOWpzSV9ZbE9sMHpDbEw1b19RX0dqVjdKdDJnX1BfbWloYzFyUGxyeXhrVG5RWWczV2J5SVFra0EtOVpqS0xZZlVCeDFqNzVDdTVybnRXZw?oc=5": {
+      "actor": "Civicus Monitor",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.civicusmonitor.org",
+      "rationale": "Civicus Monitor is an international civil society monitoring organization that tracks conditions worldwide. This item's source and title do not indicate it concerns the United States. Without a U.S.-specific venue, jurisdiction, or context, this cannot be evidence of a U.S. constitutional signal. No specific event is described, and the item appears to be a general summary rather than reporting a particular U.S. press-restriction event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb3hNZkRXMUVBWGZ1UVVkS3hWa0FaYmpxSnh3Y0ZyWEdwWTNfWnJpZ0tpSFl1TnJrMUx2NlBEWE5iNG1iNHRXTXdJRFB1Mm9ySDJvSHlhQWZOSkdKel93Q2x5NG9icmZ2TFgzaUZ2a2VsNldmTXJpNi1KWGFoT3BuZGJveXh0d29WTk5OYVp0MndfM2FwXzc5VXdTNkREdTJwMG1US1VaUDRzR2VWZGhwdzVyc205Y1E?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -7600,6 +7810,16 @@
       "rationale": "The Nation reports Trump is using taxpayer money for illegal election propaganda. Confirms the factual event: public funds are funding Trump promotional ads. While the legal characterization is made by the outlet (not an official ruling), the underlying fact\u2014appropriated money spent on partisan ads\u2014is established across multiple sources and matches the signal.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMickFVX3lxTE5yRDBNcUJUS1JSSFp2Vl9KTGdMRmNZbjN0UEJ2cFpRT0lvZ1k0d0ZpZU5sU3JwcTBMUm5DTll6NWZ5bHdBODdaNUNqNTljQUhVcURiM19DcWJyWGltc0J5YUJFUW5kcnI1TjZidDV3ZXNXZw?oc=5": {
+      "actor": "GOP Senator; Trump administration",
+      "confidence": 0.63,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.suaragarut.id",
+      "rationale": "SuaraGarut.ID reports a GOP Senator blocking criticism of taxpayer-funded Trump ads. The headline presupposes the ads exist and confirms a senator's action to prevent criticism of them. This indicates a real event and a political response to it. Severity 2: confirmed real action with documented political response.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TazN5aE5nRzFPdktFQ2M1TFVHdzBqMV80Wkp4RjVaNE1oYmo3Y2J1WF9sWi1tTHB2cVBITE5mdVQ0WWdXX1k0cGx2eGY4bmV5TFBGaDdtQTYxNlVSbWlIZThlUmdkRF9fc3pkRW5JSEx2bFlPUm90VFp3?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.68,
@@ -7608,6 +7828,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.cbc.ca",
       "rationale": "CBC (Canadian broadcaster reporting on US) confirms Trump administration using taxpayer funds for 'election-style ads.' Independent international confirmation of the spending. Event occurred; severity 2 (credible international news source reporting the fact, but still lacking an official U.S. legal determination).",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTE4yaTJTdTdlWFJ6MW5YQkFWczdKSmNibDB1Smc4RGd6X3dtY2R3dkUzdVNwOHpreVh2dFVPUXQzYTJlZVlaRC1tdGt4RzNQSFREMUhJWlhPZU0yVDdIN3paWHlZSThEWHhNRU5XLUsyVVpnQ0d0b2xFOGZRMG5BZ9IBgwFBVV95cUxObThsbnktOGxGcEJTdzBtU0xlam5COUdsQk0ySWtsSTVBMEYtSUp1NGVDaFVEM2ZYUGVkV2xSdk4wanZ0TWFuRUN4SWYxXzdfcUxlbk9GWERGUEE1N1NvUEtrbkNKSFI0M2liRmhQcGZQblFMejdaTW5iWW5CMnE1eXA4OA?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.7,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://thehill.com",
+      "rationale": "The Hill reports House Democrats calling for GAO investigation of government-funded Trump ads. The call for investigation by a formal body presupposes actual government-funded ads exist. This is a credible report of a real event and a formal government response to it. Severity 2: credible stress signal of confirmed real action.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVDBoU1IzQVJnc01nY1A0bGlMVWktSU5GaWdlUnQ2aWFpTWFSOXhUMTE3bW9pVjNaTEQ1a18wd3FQU1VvLXdoNkFXN1VXcVhIZnpvaFMtSEl2dkRqbXJ4S1ROTHZobHRyV0dPNEU1bm5ObGxldGc3ZUpMblcyai1ZTGlfaw?oc=5": {
@@ -7700,6 +7930,26 @@
       "rationale": "WPTZ reports experts saying Trump's TV ads are not a public service, confirming the ads exist and are government-paid. The headline and experts' view that they are not genuine public information (as opposed to campaign promotion) aligns with the signal. Event occurred; severity 2 (credible reporting but expert opinion rather than official finding).",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVkF6M05iclRjRmhBRTFlbkg4N1U3dm03UFctbDJUWDlNNXozcW5mTjBQMnVBeF93czFHcENjaTViLWJPSldBV3cxMHY3RHVtdC1GWGZMdkIwQ01WZGtzQ0E1LWZrQzFDc0Q0RGdnYzBOclhKN1BSWHVKS3Roekk4azlTRThPS19iRE5EdUh5OA?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.6,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.meidasnews.com",
+      "rationale": "MeidasNews reports Trump airing Iran war propaganda paid for by US tax dollars. While the source is partisan, the core claim\u2014that ads promoting Trump policy exist and are taxpayer-funded\u2014is a factual allegation. The specific reference to Iran war propaganda is opinion framing, but the underlying event is confirmed across multiple sources. Severity 2: credible stress signal despite partisan source.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb0o5T21zM2ZqbFlzdXFTLVAwVTFIVjVZNllBU19lNlNhYnVIYnVqZnAxb3B1VlZLNC04TzJQVXZBMV9ZdWdKT1lHRXBQVVcyQXppSWhCTzFJWVJXc20yWUpXTVlsRlQ3YkpVVUxmVk9mTEhaN1dSUWtpR2dZNFotQTBzcDZaZ2NHc3VlUXNnQ0E?oc=5": {
+      "actor": "Trump administration; Lawmakers",
+      "confidence": 0.68,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.aol.ca",
+      "rationale": "AOL.ca reports lawmakers calling for action on 'plainly illegal' taxpayer-funded ads to promote Trump. The call by lawmakers for action on 'plainly illegal' ads confirms the ads exist and are a matter of formal concern. The characterization as illegal is legal opinion, but the fact of the ads is confirmed. Severity 2: credible, confirmed real action with official response.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxPckZPYUYwdW5OQWtvYVQyWlpqOG9iU0wzVmNDQ3llMHpzNFVkeGNVV3RVdFJoT0Mwa3IwZ2dBSERHQkVVNDlSX3h0TnY4dWpCRm00LTJ4MTB5cE9lR1FIVjZqVklIWW9VUG53dF9jd2lZZ1Uxc0dmRnpWdl85aFp3Umg0ZE5mNVdkdWtvNzVyRHFmUWU1?oc=5": {
       "actor": "Trump Administration",
       "confidence": 0.81,
@@ -7730,6 +7980,16 @@
       "rationale": "CNN reports Trump ads have cost taxpayers at least $2.5M with funding traced to Customs and Border Protection (an agency appropriation). Confirms a specific appropriation has been redirected to partisan advertising. Real event, identified funding source, matches the signal.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxObWVYM1VYMFlZNlg4MGw1WWJfQUlaWmtWZUtRN1RXYmVlZk82Y1pqam9EYWt0dFdaN0RSdnIzSUVpUjhsS1p4WUNvbkQwTm1PZjc5R296NXdieE8wbEFtOURjRVN2ODRDU2VzVFh6ZWR0SmVQWDQtV3FSdTlhQm1RejVGRjJaRVdfeDhFTk41bUszUDhlVnpfS0dmWVc?oc=5": {
+      "actor": "GOP Senator; Trump administration",
+      "confidence": 0.66,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.dailycaller.com",
+      "rationale": "Daily Caller reports a GOP Senator blocking a resolution denouncing Trump's taxpayer-funded ads. The headline confirms taxpayer-funded ads exist and a senator acted to prevent formal criticism of them. This is a documented real event with a specific political response. Severity 2: confirmed real occurrence with documented response.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMkVPMkt5RGJjRmN1eFdZSXM2cjJmSkx4ay01M2Fsb2pPWkRwc05YZUlkTWhfVTA4dl9SLXlTQTJMbEF0NXFUekVXczZybm81cXcyZTZqNFR4Tlg2WUZvXy0zLVpHM0Y4T1pQWE93Y19FcHU1YXlmR2tpNlRQLUQ0RkNMYXFxOFdWMEM3YUhqU1BrRU5WVWZ2UkNob0lUVXM?oc=5": {
       "actor": "Trump Administration",
       "confidence": 0.83,
@@ -7749,6 +8009,16 @@
       "primary_source_url": "https://www.thefiscaltimes.com",
       "rationale": "The Fiscal Times reports the Trump Administration ran more taxpayer-funded Trump ads. Confirms the repeated real occurrence of public-fund spending on promotional messaging.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdV9uYlJVRC1JNklBVy14dU96V3E3V3VYWTZuS213ZmpqdDJMU1pFTmVPWW5EOE5ESFhGZ18yQ2NVS0FqWm1OdkRzUWc4cWhObW1tVHNzVG81ZjBOcEJNQm9FSXBFNmFpZkRZb0MtaU5nbEdtUjFHemtsVjd2M2xOQmE2dW51MGI4VWNoeTlvXy1UZHhWeGpDLVJxdGhxZnVz?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.55,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.midlanddailynews.com",
+      "rationale": "Midland Daily News OPINION column discusses Trump's ad blitz paid by taxpayers. While labeled opinion, the underlying factual premise\u2014that taxpayer-funded ads exist\u2014is stated as fact within the column. However, as a local opinion piece rather than news reporting, this is a weaker evidentiary source. The event itself is corroborated by other items. Severity 1: isolated or weak-credibility single mention (opinion-section source).",
+      "severity": 1
     },
     "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMUc3b0lNZUduTXYyWnNpUC1TaGh5VE1rMjJVMVRUeXY3QVdvazBRVmUtSFl0dmJrLVZsTVYxV1BYYkRSVkRib2pRSkZUN0lQSU5RVV91OC02X0xIMXJwTThoMDRhUHY0UVRIcWZVcW8wTW9SYXRJLVJ3VVlrU1lqQWlkQW5hTHNfWDlJMHNmcGt5amd5UzZ5UnZYQ2pKT0Nn?oc=5": {
       "actor": "White House / experts",
@@ -7790,6 +8060,16 @@
       "rationale": "Spectrum News reports the White House released a 3rd taxpayer-funded ad for Trump. Confirms the repeated, real occurrence of public-fund expenditure on partisan/promotional messaging.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMGpnTUdfcGcyT0RmUVBNek9zcjRlN1VCcmVRTlVHRzBmOHpxSUY4TXJVajJ4b0FqNE9jckdwOS1LT0I2aHBfdGdVcmotMkVfc09YNVpzVVUxTmhoVXlhNHVwZmFSTlFlb2NSLVFNSml1b3VNa3lKcVpHeDRaN1k1YzZteDNhZWpKS2tnaXR3RlFScTFfOERCbzBSOERhcWxxRGdqbWh3?oc=5": {
+      "actor": "Trump administration; Republicans",
+      "confidence": 0.69,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.inkl.com",
+      "rationale": "inkl reports Trump breaking silence on taxpayer-funded 'campaign ads' and even Republicans balking at them. Trump's defense of the ads and Republican pushback both confirm the ads are real, not hypothetical. The reported skepticism from Republican colleagues further confirms the event's reality. Severity 2: credible, repeated stress signal.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDlpTmFNd1IwREdDeVNFcnVFSThEZ2xOazdOakxwdUVqczByekptNFFmeDRCelhmejhDRnF3TGZ5c3ZqWDNkSDA2TUZIZmsxUkJZTEY2OTV4Ukd5ZHVpMkNRVHY5aWhVcm13WkJZanFXZTg0cFEzZGp1V2M1SHdmbmhfZmJVUUVPdEgzUUdleVdJcFhTb0h0SkZRQ2NrREY1bXBFdGJNRdIBrAFBVV95cUxOU2hjZ3JITUlGaDB4TXZLSUVWNnp4TWdmdHp1emdFcC1YRTA1dGdxR2NCNHJKQlYyZ0RjZ1BrNWFjWFJrM1FSUGdrQmsyc3RsVUhNemI0OTZVeUIyd0s3dXFkQWIyRHRxUFpwWk9MTURrTExkN0kzNU04SFV4UUs3cGdJVFZSSGZlN0VNVDFwYUhvS0xOZUZQSF8zNTMza3VHcFdvTUZUWHdxZTR2?oc=5": {
       "actor": "Trump administration / Department of Homeland Security",
       "confidence": 0.7,
@@ -7800,6 +8080,16 @@
       "rationale": "PBS reports DHS spending $20M in taxpayer funds for pro-Trump ads. This is a quantified, agency-attributed spend with explicit partisan framing ('pro-Trump'). The magnitude and directness of the claim constitute credible evidence of the event. Severity 2 reflects that this is confirmed reporting but lacks independent documentary proof (e.g., GAO finding, agency memo, or court determination) that the ads violate the anti-propaganda statute; the signal is strong but the violation remains alleged rather than judicially confirmed.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMTVmV1N6Y2dyX0Z5TWtzdkphOVdIanA5eXpxNXVTOG9LWGFHelN2NEt5ZUMwUWZxNDdfZUh3UUFVWF9jNmdISzdINFRBMFNFZWw4b2VQa0xROG1RSGZlcno1dWd3RzhNWUllNzBXdVlPSjFBY3Q1M1E4Y3k1eHJYcVd1Tzc4b09mNTlHOHlRM3JXNlprcFJtRE5LZUhvVWdlQ2V4OFZ5OWU?oc=5": {
+      "actor": "Trump administration; Republicans",
+      "confidence": 0.68,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.commoncause.org",
+      "rationale": "Common Cause reports on what Republicans are saying about Trump's taxpayer-funded propaganda. The existence of Republican statements responding to the ads confirms the ads are a real occurrence, not hypothetical. The framing as 'propaganda' is opinion, but the underlying event\u2014spending of taxpayer funds on Trump-promotional material\u2014is confirmed by the existence of the response. Severity 2: credible stress signal.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLUdXSVlRTkJ5U2IwRUhEakgwTi13NWsyUFJOcExGVF9aMFZfXzdKVUNIZEI4NlZ3WjhaNzNoVExTVTdkQ3N4bWdqRTR3c1pmTXdBaTZqeXY5c2U4LUdqNzdGX3JtMDhqbllKMFdCSFQ1ZlVTLUJrVmIzMkEwLUI3X1FfcVEwRGgwd0VkU1RUSlhpeExpSk54SjhwLUJVOVlhY0R3UUJ6ZE84ME8wLVE?oc=5": {
       "actor": "Trump administration / Customs and Border Protection",
       "confidence": 0.72,
@@ -7808,6 +8098,26 @@
       "matches_signal": true,
       "primary_source_url": "https://www.nbcnews.com",
       "rationale": "News report from NBC citing an official statement that pro-Trump TV ads were paid for with CBP money. This is a credible report of an actual spending action (not a proposal or hypothetical). The ads are election-adjacent ('pro-Trump') and funded by an appropriated agency account, matching the signal definition. However, without access to the full text of the ads or a government audit confirming prohibited partisan/campaign content (versus borderline public-information framing), severity is held at 2\u2014a repeated, credible stress signal of a real but as-yet-unconfirmed violation.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTTZ6c1ZheWdCTTN1d1hKaGR2U2xxb1hZSV9HWDFueUNpU1U3NlBBcW84V0ZENVBfMy0tV2syam5MTlJFMmdvMFZ3N0c5bEZUdXhCWGxCRGd2Uk9fOGFiRW5tU2k2cEp2X2dKdkpZTUN5V1VNdDUtQUMwekJJbnRSS2lpVC13emZ4eU1uaEdtN1N6RWJvRHZ4V3hMN01TWWtOQWZaT2pqRnhib0JmekozZNIBtgFBVV95cUxQZUZWR1E1ZDdHMkR3Y2gxV213QWVTMjBRbUNxNzVWMkd3ak01TDB1X213VTl3RXNMM3lHdU1PaFp2cHphWF85V1NCMUtlbVZuRy1EX2JWY0N1M09QcVQ5ZVl2eFRaTHhXSEJtYjJVX1Bheld5ekRyaFZVZmtKNFNTUzBIZU1CSGZCVTZ0Z21mU0xmRVRJMS0zNUJpTVBreS0tUUNsUm5hbEsxcUo5U0w4QS1TeTFSZw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "ABC News reports Trump defending spending millions on taxpayer-funded promotional ads. The headline indicates an actual occurrence of taxpayer-funded promotional spending, not a hypothetical. Trump's defense of the action confirms the event happened. However, without detailed documentation of the specific appropriation source, amount, or official justification, this is a credible but partially sourced report rather than a confirmed official record. Severity 2: repeated/credible stress signal, a real but contained action.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX0x0S3ZPejJTS0RmOG1hd1lpcmFPUHI3SXUtTTZiLTZKWGNYUzI1Q2hyZThsUlRSSWNsb0Jtb3A3cHNzekNhVGp0X2pHRnpFSWVpRGl6V1FLVVZHS2dhcXRzMDhJekJ4N0hyT244SWhSbUZGR1hXZVlrRkNPcnlhblJCY3daUHVoWHhrX245RnJzaXV2N3JUR1BFM2oySG44azAxZEFBTzV1Rlc5NFVyc2JrbFY?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.thefiscaltimes.com",
+      "rationale": "The Fiscal Times reports Democrats calling for a probe into federally funded pro-Trump ads. The framing presupposes that such ads exist and are federally funded. This is a credible secondary source reporting on the occurrence of the ads. The call for investigation confirms Democratic recognition of an actual event, not a hypothetical. Severity 2: credible stress signal of a real action.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSUdHMWFBZGlGbmEydkhtMXFtV25XZlp6a0pUb00xclI2bi03cDczMGE2bXdQSks1Rm9jamZ1dUNibEpxdXE0Q2ZFd3RLTWxySWZaTmxqZlZ4SGkxei0xOENuVG9Wdy03THNMVmZaeXBNUjd1NkphNWtXbl95VHBkZE9yQ2MyXzhFeVk4dVphai14QmlDeGtCVHZ0R29LUkVtRV92YXRKcmxQYlNsWG8yRVdNU29IR0U3ZnpZ?oc=5": {
@@ -7868,6 +8178,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.bergenrecord.com",
       "rationale": "Bergen Record: Trump using DHS funds to pay for TV ads before midterms. Direct statement of the event with agency attribution and electoral-calendar timing. Credible reporting; severity 2 for the same reason as prior items\u2014real spending documented but lacking a formal legal determination of violation.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTd4REFCUUs2eVNPUVNNXy1ld0N4NVVwZ3NTemRESWpPekdHMTQ2eUl3NGY0Y0w4dl9TM1RQRUxlc3I5SUtwQUpUaFR6U3VCZFhKRlIxbHlyeFhrbDFsN2tpRTNDU2pQc05zdGFUMm5PUGlqT1lXdEwwdWl2ZU9ybkNwSzZpYWVPSEZhRjRVNElydE1UMFZSY2lKUWVNaTVSV1dkUVZpaWpweXRWQmVmQWNrSVcyVlZFaGNvMTlLaFJYb2dGam9zMWJ3?oc=5": {
+      "actor": "FCC chair; Trump administration",
+      "confidence": 0.71,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.freemalaysiatoday.com",
+      "rationale": "Free Malaysia Today reports the US FCC chair saying government ads featuring Trump do not raise concerns. This confirms government ads featuring Trump exist (otherwise the FCC chair would have no need to comment). The FCC chair's statement presupposes the ads are real. The official response to the ads, even a dismissal, confirms the event occurred. Severity 2: credible, confirmed occurrence with official response.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVHQxTkktREdFVVhkVHppbzBoaUlPcWJwVGN2eENtNEtzLUlIM3FzM1l4SE8zM2R0elR4bWoxVzVtSDRrcDNnTGpuOHA2eHpyVUplRUFvZTMzLVkyeUxRdVFJZDlMMFRVVG5HN1lDdWpWWnFVTHNXam54YU5ONUFEb1d3UGxoQ19Yc21KMFhEMVlGUlZEbVN4WnoxVHlINjhtVzZVa2VHUXBHY1hTWFNjWFl3VTl6RkFWZGxNbHpOYlo1eFRYLUp2Rmd6MGo?oc=5": {
@@ -8696,6 +9016,36 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/10/01/2026-20187/fiscal-year-2027-inflation-adjustment-to-hr-1-immigration-fees",
       "rationale": "This is a routine statutory inflation adjustment to immigration fees mandated by law. It is a standard administrative action implementing existing statute, not an interference with statistical agency operations or integrity. Does not involve BLS, BEA, or Census Bureau statistical production.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/02/2026-20247/enhanced-transparency-and-public-accountability-of-the-supervisory-stress-test-models-and-scenarios": {
+      "actor": "Federal Reserve System, Board of Governors",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/02/2026-20247/enhanced-transparency-and-public-accountability-of-the-supervisory-stress-test-models-and-scenarios",
+      "rationale": "This is a final rule enhancing transparency and public accountability of Federal Reserve stress-testing models. Enhanced transparency and accountability are the opposite of political interference. The action strengthens disclosure and methodological openness. Does not match signal for statistical agency integrity compromise; no evidence of removal of career staff, improper changes to official statistics, or withheld releases.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/02/2026-20249/notice-of-data-sharing-activity": {
+      "actor": "Census Bureau and Bureau of Economic Analysis",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/02/2026-20249/notice-of-data-sharing-activity",
+      "rationale": "This is a notice of routine data-sharing activity between two statistical agencies (Census Bureau and BEA) within the Department of Commerce, conducted to improve efficiency and accuracy. Data-sharing agreements for statistical purposes are normal operations, not political interference. The notice describes a standard administrative coordination, not removal of leadership, improper methodology changes outside normal procedures, or withheld/delayed releases. Does not match the signal definition.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model": {
+      "actor": "Centers for Medicare & Medicaid Services",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/02/2026-20281/global-benchmark-for-efficient-drug-pricing-globe-model",
+      "rationale": "This is a final rule implementing a Medicare payment model under existing statutory authority (section 1115A). It concerns drug pricing methodology, not political interference with statistical agencies (BLS, BEA, Census Bureau). No evidence of removal of career leadership, improper methodology changes to official statistics, or withheld data releases from statistical agencies. Does not match the signal.",
       "severity": 0
     }
   }
