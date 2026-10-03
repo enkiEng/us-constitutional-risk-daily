@@ -1,22 +1,22 @@
 {
   "attempted_queries": 25,
-  "average_7d": 9.0,
+  "average_7d": 8.21,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 4.0,
-  "delta_vs_7d": 2.24,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": 0.43,
   "domain_breakdown": [
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.5,
+      "points": 3.5749999999999993,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.31666666666666665,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.4083333333333334,
+      "points": 1.0291666666666666,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.2166666666666666,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.333333333333333,
+      "points": 3.0416666666666665,
       "weight": 10
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-02T12:43:48.273855+00:00",
+  "generated_at": "2026-10-03T14:02:39.665489+00:00",
   "methodology_version": 2,
-  "previous_score": 7,
+  "previous_score": 11,
   "primary_sources": {
     "documents_confirmed": 1,
-    "documents_fetched": 17,
+    "documents_fetched": 14,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,16 +86,34 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 11,
-  "score_raw": 11.24,
-  "score_raw_pre_trip_wire": 11.24,
+  "score": 9,
+  "score_raw": 8.65,
+  "score_raw_pre_trip_wire": 8.65,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 16,
+      "confirmed_hits": 11,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
+        {
+          "canonical_link": "https://www.nytimes.com/2026/10/02/us/politics/trump-ads.html",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiejVxNFZGSTRKNlpwaTFSOUppTm9SOWJXVHJXblVVbkNTTklEQkZxLVQ0YlRDQUVHMWdsNkduUlcxWGpycmg3SFJLWDZQWDY2RDlld1AzN0NrOEVvVDNNOGxURFAzSFVTMFRCU1pR?oc=5",
+          "published": "2026-10-02T21:28:51+00:00",
+          "publisher": "The New York Times",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump Directed Use of Taxpayer Money for Ads Praising His Presidency - The New York Times"
+        },
+        {
+          "canonical_link": "https://www.cnn.com/2026/10/02/politics/trump-taxpayer-funded-ads",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IRWxQX0Jpa0U2X01ScDg5YlBLM0J1NGhDOE1lZjJqcTNaMnpIRmhQTllETThRNjNXV01KOTlFQXh0MzYweFpXSXRSbDBldndSM3pQRG90QXZGT3E3RG41MXBrSkFscnl2Tm5sdmQtUUk0c00?oc=5",
+          "published": "2026-10-02T19:13:33+00:00",
+          "publisher": "CNN",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "\u2018God made Trump\u2019 ad and at least 12 others are part of controversial taxpayer-funded ad campaign - CNN"
+        },
         {
           "canonical_link": "https://abcnews.com/Politics/trump-defends-spending-millions-taxpayer-funded-promotional-ads/story?id=136922737",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTTZ6c1ZheWdCTTN1d1hKaGR2U2xxb1hZSV9HWDFueUNpU1U3NlBBcW84V0ZENVBfMy0tV2syam5MTlJFMmdvMFZ3N0c5bEZUdXhCWGxCRGd2Uk9fOGFiRW5tU2k2cEp2X2dKdkpZTUN5V1VNdDUtQUMwekJJbnRSS2lpVC13emZ4eU1uaEdtN1N6RWJvRHZ4V3hMN01TWWtOQWZaT2pqRnhib0JmekozZNIBtgFBVV95cUxQZUZWR1E1ZDdHMkR3Y2gxV213QWVTMjBRbUNxNzVWMkd3ak01TDB1X213VTl3RXNMM3lHdU1PaFp2cHphWF85V1NCMUtlbVZuRy1EX2JWY0N1M09QcVQ5ZVl2eFRaTHhXSEJtYjJVX1Bheld5ekRyaFZVZmtKNFNTUzBIZU1CSGZCVTZ0Z21mU0xmRVRJMS0zNUJpTVBreS0tUUNsUm5hbEsxcUo5U0w4QS1TeTFSZw?oc=5",
@@ -104,133 +122,77 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Trump defends spending millions on taxpayer-funded promotional ads: 'For the country' - ABC News - Breaking News, Latest News and Videos"
-        },
-        {
-          "canonical_link": "https://www.thefiscaltimes.com/2026/10/01/Dems-Call-Probe-Federally-Funded-Pro-Trump-Ads-and-Penalties-Airing-Them",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX0x0S3ZPejJTS0RmOG1hd1lpcmFPUHI3SXUtTTZiLTZKWGNYUzI1Q2hyZThsUlRSSWNsb0Jtb3A3cHNzekNhVGp0X2pHRnpFSWVpRGl6V1FLVVZHS2dhcXRzMDhJekJ4N0hyT244SWhSbUZGR1hXZVlrRkNPcnlhblJCY3daUHVoWHhrX245RnJzaXV2N3JUR1BFM2oySG44azAxZEFBTzV1Rlc5NFVyc2JrbFY?oc=5",
-          "published": "2026-10-01T23:48:12+00:00",
-          "publisher": "The Fiscal Times",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Dems Call for Probe Into Federally Funded Pro-Trump Ads \u2014 and Penalties for Airing Them - The Fiscal Times"
-        },
-        {
-          "canonical_link": "https://www.commoncause.org/articles/what-republicans-are-saying-about-trumps-taxpayer-funded-propaganda/",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMTVmV1N6Y2dyX0Z5TWtzdkphOVdIanA5eXpxNXVTOG9LWGFHelN2NEt5ZUMwUWZxNDdfZUh3UUFVWF9jNmdISzdINFRBMFNFZWw4b2VQa0xROG1RSGZlcno1dWd3RzhNWUllNzBXdVlPSjFBY3Q1M1E4Y3k1eHJYcVd1Tzc4b09mNTlHOHlRM3JXNlprcFJtRE5LZUhvVWdlQ2V4OFZ5OWU?oc=5",
-          "published": "2026-10-01T14:07:31+00:00",
-          "publisher": "Common Cause",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "What Republicans Are Saying About Trump\u2019s Taxpayer Funded Propaganda - Common Cause"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 18,
+      "hits": 11,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "ABC News reports Trump defending spending millions on taxpayer-funded promotional ads. The headline indicates an actual occurrence of taxpayer-funded promotional spending, not a hypothetical. Trump's defense of the action confirms the event happened. However, without detailed documentation of the specific appropriation source, amount, or official justification, this is a credible but partially sourced report rather than a confirmed official record. Severity 2: repeated/credible stress signal, a real but contained action.",
+      "primary_source_url": "https://www.nytimes.com",
+      "rationale": "News report of directive to use taxpayer money for ads praising the Trump presidency. This is a credible report of an alleged action that matches the signal (appropriated public funds spent on communications promoting an officeholder). However, without official confirmation or documentary evidence of the specific directive, this is a press report of an alleged action rather than verified official record. The repeated nature across multiple outlets (items 0-6, 9) elevates this from isolated mention to credible stress signal, but without access to the actual expenditure records or directive document, severity is held at 2.",
       "severe_hits": 2,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 15
+      "unique_publishers": 10
     },
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
-          "published": "2026-10-01T21:05:47+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://m.economictimes.com/news/politics-and-nation/shivakumar-and-vijayendra-clash-over-allegations-of-voter-deletion-in-karnataka/amp_articleshow/134635439.cms",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMURybUFMLWUtZUZXSFQ3djU5QUllS3dLeWU1RUxWSlFKOGxGdjdDbTRYbDAwUS1rbFVRTE1JemFYLWt3d3RDNWNqQzZsX2hzdUJDZ1ZrRnVZaW10cENLb2pwa0thWmtPT1o0S0VyeXBSdGgzRnZSLVlVbExmVWllNWpkNjNINk54Vl80WDR0Sm8yYnVIOHVoWmhOQ2Q3ZUxsS3ZVbWNXbEhBVUxHV2pMU28xR3hDNy1XRy1obzlBX1VhSnpuMmpZOHJZSG1jN1haVjhVdG10OURza1dhTzVoR0VDWFJmb2VOdWtETXBqM2VsUlN00gH0AUFVX3lxTE4xRHJtQUwtZS1lRldIVDd2NTlBSWVLd0t5ZTVFTFZKUUo4bEZ2N0NtNFhsMDBRLWtsVVFMTUl6YVgta3d3dEM1Y2pDNmxfaHN1QkNnVmtGdVlpbXRwQ0tvanBrS2Faa09PWjRLRXJ5cFJ0aDNGdlItWVVsTGZVaWU1amQ2M0g2TnhWXzRYNHRKbzJidUg4dWhaaE5DZDdlTGxLdlVtY1dsSEFVTEdXakxTbzFHeEM3LVdHLWhvOUFfVWFKem4yalk4cllIbWM3WFpWOFV0bXQ5RHNrV2FPNWhHRUNYUmZvZU51a0RNcGozZWxSU3Q?oc=5",
+          "published": "2026-10-02T09:14:00+00:00",
+          "publisher": "The Economic Times",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
+          "title": "Shivakumar, Vijayendra trade charges over 'deletion of voters' from electoral rolls - The Economic Times"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 4,
+      "hits": 1,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-10-02T04:35:18+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://monitor.civicus.org/explore/csos-activists-lawyers-opposition-critics-media-houses-face-severe-retaliation/",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYXdYT0hyRFJLRGRLVVJZMkpPeWk5SmllUjJHdHFGT0pFV2d0enpjX2dGeTNiTXljQzlmMWxJOFZhLVFoa2YyZnBlUHF6SUtydTVIeXdNSTI2SVZUOUwtRFUwcm9aMTJSOWpzSV9ZbE9sMHpDbEw1b19RX0dqVjdKdDJnX1BfbWloYzFyUGxyeXhrVG5RWWczV2J5SVFra0EtOVpqS0xZZlVCeDFqNzVDdTVybnRXZw?oc=5",
+          "published": "2026-10-01T23:23:37+00:00",
+          "publisher": "Civicus Monitor",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+          "title": "CSOs, activists, lawyers, opposition, critics & media houses face severe retaliation - Civicus Monitor"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 1,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/09/30/2026-19965/rescissions-proposals-pursuant-to-the-congressional-budget-and-impoundment-control-act-of-1974",
-          "link": "https://www.federalregister.gov/documents/2026/09/30/2026-19965/rescissions-proposals-pursuant-to-the-congressional-budget-and-impoundment-control-act-of-1974",
-          "published": "2026-09-30T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Rescissions Proposals Pursuant to the Congressional Budget and Impoundment Control Act of 1974"
-        },
-        {
-          "canonical_link": "https://www.nationalaffairs.com/publications/detail/unfinished-work-federal-permitting-reform",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa0o4OXVkQkxHdXJ6VkxqLUNNTVhfQ0JFT3lYSDFLc2YycTlRUFV3VWp3TFhMMTgwSGZQaTdlU2RMNFBVZlV2Q05odjlFN3QwU0ZHVFh5QXE0OEJKRWh0dnR4ZGxFVk5KblVTWXI2UzJrRWlSeF9DWXAxX3lRNDRPMVBHdVlsdVZuemZZSjcyWGF0dUV1YnB3Xw?oc=5",
-          "published": "2026-10-01T07:25:11+00:00",
-          "publisher": "National Affairs",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "The Unfinished Work of Federal Permitting Reform - National Affairs"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 1,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.65,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -255,11 +217,40 @@
       "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
       "primary_confirmed": 1,
-      "primary_documents": 3,
+      "primary_documents": 2,
       "primary_source_url": "https://www.courtlistener.com/docket/74901903/1/ganger-v-ross/",
       "rationale": "A civil complaint has been filed in federal court (D. Minnesota) naming multiple current and former federal officials. The complaint itself is an official record indicating that plaintiffs have asserted claims regarding potentially unlawful conduct by these defendants. However, without access to the complaint's substantive allegations, the severity cannot be determined beyond acknowledging that a legal action has been initiated. The filing is a real procedural event, but severity is limited to 1 because a complaint represents an allegation, not a proven occurrence, and the specific nature of the alleged conduct cannot be assessed from the docket summary alone.",
       "severe_hits": 0,
       "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/09/30/2026-19965/rescissions-proposals-pursuant-to-the-congressional-budget-and-impoundment-control-act-of-1974",
+          "link": "https://www.federalregister.gov/documents/2026/09/30/2026-19965/rescissions-proposals-pursuant-to-the-congressional-budget-and-impoundment-control-act-of-1974",
+          "published": "2026-09-30T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Rescissions Proposals Pursuant to the Congressional Budget and Impoundment Control Act of 1974"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 0,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 1,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     }
