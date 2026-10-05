@@ -1994,6 +1994,16 @@
       "rationale": "This is press coverage of a reported or proposed action\u2014a look at legal theories that might be used to remove a Federal Reserve official. Reporting on what someone 'looks to channel' or might attempt is not evidence that an actual removal or capture has occurred. No verifiable action has taken place.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSDRhMEZLRHBjVlhKTm9wRjM4eENUVm1hZDZrNU9FTVZNa3NHNWRLT01UYUlVaTRrb3BpWmo5ZWNWOXA4STlVOUR5b0laRV9LZTVmTXBWRGdYTE9PVlMyeWRkZXZsazFkekY4VEJnOVNBLUlTaEJQZXhhT09oWE0zTTRyTUZ1YTZzVGozSzJ4cndSRTZoWVE?oc=5": {
+      "actor": "theregreview.org",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://theregreview.org",
+      "rationale": "This is a brief summary-only item from an opinion/analysis publication (The Regulatory Review). The headline and minimal content provided do not constitute evidence of a verifiable action that weakened regulatory independence. The title appears to be editorial analysis or commentary about the state of agency adjudication, not a report of a specific, implemented change to legal safeguards. No official record, regulatory action, executive order, or judicial decision is presented. Without access to the full article content or a specific documented action, this cannot be classified as evidence that an independent agency capture event has actually occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbm9wY21QbFV0clM5UmVudEZseDduX2FBSXVkaGZ5dk1IT21xc0pfdTlnNExtR3ZmeHItNUNmYmJzckFVNEVPbVJvTXFtTk1uSGJRMGZwV1d1QlVDdENKZ0pFYzZHajFRdS1aUUxVWkx4bDNibmtiSkxvOHpfUzF2Y3Vpc3VrX00xTklfNmpja2d6TkVyWjVV?oc=5": {
       "actor": "Trump",
       "confidence": 0.62,
@@ -3216,6 +3226,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This item is from The Himalayan Times and concerns Nepal's institutions, not the United States. It is not relevant to a U.S. constitutional-risk dashboard. The signal concerns judge intimidation campaigns in the U.S.; this is a non-U.S. event and therefore excluded from analysis.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3RFlJM2dLXy1JQnpHU1YxRnFOTnNDcUpLVm81SmYwZ2V1SFBhM0RGWFBpMGFDWm5fblJKTzlzVXRhOU1iX2V1dVFzTFlYZ3BJNGFNMDRid29VeVZOUHNEcEZfNEtQV3E0ZEloSW5qVEh2Uk81bWc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns a foreign policy threat regarding Cuba, reported by a Pakistan-based outlet. It is not a U.S. domestic constitutional matter and does not relate to judge intimidation, judicial pressure, or any domestic constitutional-risk signal. The item is geographically and substantively outside the scope of the signal definition.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PVEFJakRTY01mS3dINTFFSTVQQ0lkRTBySFExTXo2T2VNWXE0alcxQVZybDl2aFRRRlhRY2tBMEZRbVlHLVRIVmhvUVQyZjZxb3JDeThvdF9OQ2hFbC0xU0JqLXhGUnp0RGEtMy1iS3JXZk5YN2JDY0pMUQ?oc=5": {
@@ -7920,6 +7940,16 @@
       "rationale": "Reports that Trump TV ads were paid for with $20M in Homeland Security funds, identified by Democrats/investigators. Confirms appropriated public money is being spent on ads promoting the sitting president. Matches the signal definition directly: agency ad buys (CBP/DHS) funding communications promoting the officeholder. Credible reporting of a real occurrence, though no enforcement or court action has yet addressed it.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiO0FVX3lxTFA1Ynl3REdjX3FObTBVWnpFUnFvdUdxTE93S0xpenhXdkJnODNJMjZTT0x0VFpENDR2UlQ0?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.76,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://t.co",
+      "rationale": "This source reports an investigation-level analysis asserting that Trump is 'defying Congress' Power of the Purse' through misuse of taxpayer funds for ads. The claim is framed as established fact requiring investigation into 'his misuse,' implying a real occurrence rather than a hypothetical. Coupled with items 3, 4, and 6, this indicates widespread reporting of an actual campaign. However, the source is a Twitter/X link (journalism/summary format) rather than an official audit, GAO report, or court document definitively establishing the misappropriation and its legal violation. The evidence is credible but not documentary-level.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9vTV9DZzNhTVd2TE82b1V4dzdCVGlzbVY4UkR2QWc0dkdabkpuRVo3azNfeHlLOGg1dzRzWnpqb211dUtub05sTHhpcjlKVU5M?oc=5": {
       "actor": "Trump Administration",
       "confidence": 0.81,
@@ -7939,6 +7969,16 @@
       "primary_source_url": "https://www.ynetnews.com",
       "rationale": "Ynetnews reports Trump's taxpayer-funded ads raise legal questions before midterms. The legal concern is analysis, but the factual event\u2014release of the ads and their taxpayer funding\u2014is confirmed.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IQ2RIQ05XRGhxQmkxc0tIQTJwc1Z0RFlTM0U1Q1A1UjNKSnF2Z2Q0T2xHU3g3UlRoS0JfUjZwaEdYeW80Qkl4SG5tTHhleVkwbGJtd3dEZ1FCSllrcU43ZVFhbFNPRjF2eGc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.97,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is analysis/commentary by Sharon McMahon examining presidential power overreach in general terms ('testing the limits'). Without specific facts about actual appropriations or ad campaigns detailed in the title, this is punditry about risk rather than evidence that a specific misappropriation event occurred. The headline does not identify a concrete occurrence.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ET2ItTGc1VWw3cUVpQTNQSW5oZS1mal9GWmttMVQ2WWt0QUh4d2FuVzB6MEtzQ3Z5LXRiRTNRMEtnNlZ6ZjcyRVR6b3pzZUcyWjd4Z1VqYkRUVFJnU2Mxd1lfUl9MY0NQbkRNLTJ4WdIBd0FVX3lxTE1wdGNMWFZQUEJUU21oS24wc0wybFZ6QktWbjVaVHdQUTNuNEtqcDZxTkFvQmtpTHlBa0hWeGxuRVBJd2Y4VHlqMlNhVlFId3FCNG8teFU2QkRJOUZXbGlLcTZ2NHdQSTFpRkpwUldtdTlZNzFpelpz?oc=5": {
       "actor": "Trump Administration",
@@ -7990,6 +8030,16 @@
       "rationale": "CBC (Canadian broadcaster reporting on US) confirms Trump administration using taxpayer funds for 'election-style ads.' Independent international confirmation of the spending. Event occurred; severity 2 (credible international news source reporting the fact, but still lacking an official U.S. legal determination).",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sNUhyZnFJbUUyajQ0bFJPcVM3enc2THdIazFBRS1TMzluaXlTZE5EUDg0R0p3b3pyRmROOFc2MjFMbDU3dGQ0S1E0ZkJYd2RZbDNDQmtESV83N3VDSTl6MU9TZEJVdVRaNU1ndzZ4UzNYc3h4WE1PaTdsdjk?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is clearly labeled as an opinion/editorial column in The New York Times. It expresses the author's viewpoint about Trump rather than reporting a specific factual occurrence of public funds being spent on partisan promotion. Opinion pieces do not constitute evidence of an event occurring.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Qb3VaSUtYMmV1Wl8zVEQ3dEVpa0lHaTRVWGlTZ0M4eTlaVzRPbjFCMExfS3lwbEozOFhlN2lldFZaZWlpeG5LM2tUSkI4YzFoSVlodXFHM1ZUUFEyM01fdmE5cEtGd0RCQWlUdVNkbkJKNXY3V29vREM0VmV4d9IBgwFBVV95cUxPX0ZvQVJjdXh1eDdzVzdjTVVCMjZRSXE0cXM4SkVnZTdkN2VQeVJDMXBNSXhTUllWZG4tSTRuQTQxNUw2b082S0tnRThncFpIaHNXOVd6Y3B5ZzhObktNWE5OVGREMWZocVJsaDduNWdOQTJoZmlxbUNOMi1BOGF6ZzZ0UQ?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.65,
@@ -8018,6 +8068,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.fortune.com",
       "rationale": "Fortune reports that legal experts say the ads violate 'publicity and propaganda' laws. The expert opinion is analysis, but the underlying fact\u2014that ads were released and are taxpayer-funded\u2014is confirmed. This is a real occurrence matching the signal definition. Severity remains 2 pending a binding legal determination.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbDA4QjNWZ3NObjRSaWpwSGM0MlI0eUROLTFEdGwzNnpxcGpVZDBYZ0NWWDBTaUdtTXhibXFaWlQ1U0paUk1oWVNuNHZwdThBZUVOdzU3MFVtWUgxMkgxWEdsdmxVRTMxVDJpOUUxaFJ4aWpQRHNTbjhHaGNva1p2LTk0cw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.aol.com",
+      "rationale": "This report indicates that an ad aired during a major sports broadcast (FOX NFL Sunday) that is characterized as Trump propaganda and allegedly funded by taxpayers. The specificity (13 ads, $20M campaign, taxpayer-funding, named individual Natalie Harp at center) across multiple corroborating sources (items 4, 6) suggests a real campaign occurred rather than a hypothetical or rumor. However, the sources are press coverage rather than official agency records documenting the appropriation and authorization. The evidence is credible but not yet at the documentary level that would warrant severity 3+.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTVBacDNSTEsxemZPY1NtZ2FoREZBZXpMV0c4RU9PVTZmSmtpRWtvQmlSRXZGbEZfYmNYQWtOSGYzMzZjbGMtd1pucFRJeS1zWW4zaW50alFBLWF4YnAxZm9RUFJKRHQ0ajBKYUZ5aEw2YmpXOGpIV1VEVGZNRjlmc1MtZ2s?oc=5": {
@@ -8170,6 +8230,16 @@
       "rationale": "CNN reports Trump ads have cost taxpayers at least $2.5M with funding traced to Customs and Border Protection (an agency appropriation). Confirms a specific appropriation has been redirected to partisan advertising. Real event, identified funding source, matches the signal.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ0Z5QXFPSExrX2tqNUU5eUlUOGF4dzZqVzlZclp5aXhNeU9yU0lsV1Rqcm9jTG53UU56NXd3UWx5a3JrX2NYSUU5UGxzVWIzSWthR01wMTNIa2kwRXB5VzFWNWpFcW84d3RzZVJXWU5QSUxqZVMxWUNLLXpBTGNqcWxUanNWUk9SM19Md2YtdjdzMXpKektsTElJV1A?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.79,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://news.meaww.com",
+      "rationale": "This source identifies Natalie Harp as being 'at the center of Trump's $20M ad controversy,' corroborating the pattern described in items 3-4. The term 'controversy' and the focus on her role suggest media investigation into an actual campaign. Combined with items 3-4, there is sufficient cross-source corroboration that a real campaign of partisan ads using claimed taxpayer funding occurred. However, primary source documentation of the appropriation is absent, preventing a severity 3 rating.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxObWVYM1VYMFlZNlg4MGw1WWJfQUlaWmtWZUtRN1RXYmVlZk82Y1pqam9EYWt0dFdaN0RSdnIzSUVpUjhsS1p4WUNvbkQwTm1PZjc5R296NXdieE8wbEFtOURjRVN2ODRDU2VzVFh6ZWR0SmVQWDQtV3FSdTlhQm1RejVGRjJaRVdfeDhFTk41bUszUDhlVnpfS0dmWVc?oc=5": {
       "actor": "GOP Senator; Trump administration",
       "confidence": 0.66,
@@ -8179,6 +8249,16 @@
       "primary_source_url": "https://www.dailycaller.com",
       "rationale": "Daily Caller reports a GOP Senator blocking a resolution denouncing Trump's taxpayer-funded ads. The headline confirms taxpayer-funded ads exist and a senator acted to prevent formal criticism of them. This is a documented real event with a specific political response. Severity 2: confirmed real occurrence with documented response.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRDJmMmpVX1JuTWZWMlRuM3BVMXhSSVV2R1FCaEE2RUZaZ3kwUVJhOGVsSlBSUUlDU1VHdURlVWR5V2p0VlJQVHJFSUtjREZYYlQ2Qnk1aW90MlBUSkJQb0NDcjJic1R5ellzWDAyOFV5ZGlJRHNoWkpfMDRHZTZzSmp3RHNWS3dmVENWdE80VS03dWlvN2swVldMUG4?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The headline references a meltdown over propaganda ads but provides no specific documentation that public funds were actually appropriated and spent on partisan promotion. This appears to be commentary on alleged behavior rather than confirmation of misappropriation. No appropriation details, funding source, or agency authorization is cited.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMkVPMkt5RGJjRmN1eFdZSXM2cjJmSkx4ay01M2Fsb2pPWkRwc05YZUlkTWhfVTA4dl9SLXlTQTJMbEF0NXFUekVXczZybm81cXcyZTZqNFR4Tlg2WUZvXy0zLVpHM0Y4T1pQWE93Y19FcHU1YXlmR2tpNlRQLUQ0RkNMYXFxOFdWMEM3YUhqU1BrRU5WVWZ2UkNob0lUVXM?oc=5": {
       "actor": "Trump Administration",
@@ -8438,6 +8518,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.bergenrecord.com",
       "rationale": "Bergen Record: Trump using DHS funds to pay for TV ads before midterms. Direct statement of the event with agency attribution and electoral-calendar timing. Credible reporting; severity 2 for the same reason as prior items\u2014real spending documented but lacking a formal legal determination of violation.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQODJRdnNEUDM5aWZiM1JLYzBpUElnUk9DUXA2NUFtdUNtNkNpQk1LSExjRXZDc3FCWnMwU3JlUGlibGNiRFRUVHVlOWJGQ0dBeVZuRjRmQVQxLXhXZEx0a1FFNUwtTTlPQTM2NU9uOVNQN3hxRmlCSE04YThvM0RyS1pOa3E5US00SERjMWZZLXpWSWxhU3NnVG14WTZ1YnNoZk41VWZsSFlvdjVLWWNRaXlRc3JwRDJYLTFoRktuZ2FZYkg5c0U1Zk45Sl9UbzlaN0ZYQU1iOEVMODN3RVU4c1gzaXBBSkkxTTFZSm5fMVNDTDdWLXJ5SUVTRWVtZk95bVFwSWtfUzZlRVlEWFBVRVAxRzc3MnVXSVJqQW1tWmFWNEN1bTk1Q0UtbGVkWUJ2U0FLcjkwYmZ5TElBUnNnNXJLdFB4eVB00gHIAkFVX3lxTFA4MlF2c0RQMzlpZmIzUktjMGlQSWdST0NRcDY1QW11Q202Q2lCTUtITGNFdkNzcUJaczBTcmVQaWJsY2JEVFRUdWU5YkZDR0F5Vm5GNGZBVDEteFdkTHRrUUU1TC1NOU9BMzY1T245U1A3eHFGaUJITThhOG8zRHJLWk5rcTlRLTRIRGMxZlktelZJbGFTc2dUbXhZNnVic2hmTjVVZmxIWW92NUtZY1FpeVFzcnBEMlgtMWhGS25nYVliSDlzRTVmTjlKX1RvOVo3RlhBTWI4RUw4M3dFVThzWDNpcEFKSTFNMVlKbl8xU0NMN1YtcnlJRVNFZW1mT3ltUXBJa19TNmVFWURYUFVFUDFHNzcydVdJUmpBbW1aYVY0Q3VtOTVDRS1sZWRZQnZTQUtyOTBiZnlMSUFSc2c1ckt0UHh5UHQ?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.8,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://economictimes.indiatimes.com",
+      "rationale": "This source explicitly documents a pattern: 13 taxpayer-funded ads and a $20 million campaign with the tagline 'God Made Trump, the Country He Loves.' The specificity of the number of ads, dollar amount, and content strongly suggests an actual campaign of partisan promotion using public funds. The terminology directly invokes the signal definition. However, this is press reporting rather than an official document naming the appropriation source or authorizing agency, limiting confidence that we have the full picture of the legal authorization and appropriation mechanics.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTd4REFCUUs2eVNPUVNNXy1ld0N4NVVwZ3NTemRESWpPekdHMTQ2eUl3NGY0Y0w4dl9TM1RQRUxlc3I5SUtwQUpUaFR6U3VCZFhKRlIxbHlyeFhrbDFsN2tpRTNDU2pQc05zdGFUMm5PUGlqT1lXdEwwdWl2ZU9ybkNwSzZpYWVPSEZhRjRVNElydE1UMFZSY2lKUWVNaTVSV1dkUVZpaWpweXRWQmVmQWNrSVcyVlZFaGNvMTlLaFJYb2dGam9zMWJ3?oc=5": {
