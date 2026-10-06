@@ -1,22 +1,22 @@
 {
   "attempted_queries": 25,
-  "average_7d": 9.17,
+  "average_7d": 9.41,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 2.0,
-  "delta_vs_7d": 3.08,
+  "delta_previous_day": -3.0,
+  "delta_vs_7d": -0.22,
   "domain_breakdown": [
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.5,
+      "points": 3.5749999999999993,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 2.1125,
       "weight": 13
     },
     {
@@ -71,16 +71,14 @@
   ],
   "extraction_mode": "ai",
   "failed_queries": 0,
-  "fetch_errors": [
-    "independent_agency_capture: courtlistener: The read operation timed out"
-  ],
+  "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-05T12:46:30.761861+00:00",
+  "generated_at": "2026-10-06T12:43:20.667142+00:00",
   "methodology_version": 2,
-  "previous_score": 10,
+  "previous_score": 12,
   "primary_sources": {
     "documents_confirmed": 1,
-    "documents_fetched": 14,
+    "documents_fetched": 16,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -88,71 +86,127 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 12,
-  "score_raw": 12.25,
-  "score_raw_pre_trip_wire": 12.25,
+  "score": 9,
+  "score_raw": 9.19,
+  "score_raw_pre_trip_wire": 9.19,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 4,
+      "confirmed_hits": 11,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.aol.com/articles/nfl-fans-furious-trump-propaganda-205643000.html",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbDA4QjNWZ3NObjRSaWpwSGM0MlI0eUROLTFEdGwzNnpxcGpVZDBYZ0NWWDBTaUdtTXhibXFaWlQ1U0paUk1oWVNuNHZwdThBZUVOdzU3MFVtWUgxMkgxWEdsdmxVRTMxVDJpOUUxaFJ4aWpQRHNTbjhHaGNva1p2LTk0cw?oc=5",
-          "published": "2026-10-04T20:56:43+00:00",
-          "publisher": "AOL.com",
+          "canonical_link": "https://www.theguardian.com/us-news/2026/oct/05/trump-super-pac-ads",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xcjJuOU12TDVrVFJfeGlxR3lhLXp5RmQyb0ViejZzc3Y5b1BtMlVKUndZMFdmeVhFLVRhNUhYNlpKaVlLbExzbnZ2V0tJN25lLXNTb1laT0thbllVLXB4bXptSV9rQzFROFR5YThlQ1hxa3JLTGc?oc=5",
+          "published": "2026-10-06T01:04:00+00:00",
+          "publisher": "The Guardian",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "NFL fans furious as Trump 'propaganda' ad funded by taxpayers airs during FOX NFL Sunday - AOL.com"
+          "title": "Trump says Super Pac will pay for taxpayer-funded ads that sparked outcry - The Guardian"
         },
         {
-          "canonical_link": "https://m.economictimes.com/news/international/global-trends/us-news-god-made-trump-the-country-he-loves-13-taxpayer-funded-ads-and-20-million-campaign-revealed-as-trumps-unusual-ad-blitz-expands/amp_articleshow/134661642.cms",
-          "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQODJRdnNEUDM5aWZiM1JLYzBpUElnUk9DUXA2NUFtdUNtNkNpQk1LSExjRXZDc3FCWnMwU3JlUGlibGNiRFRUVHVlOWJGQ0dBeVZuRjRmQVQxLXhXZEx0a1FFNUwtTTlPQTM2NU9uOVNQN3hxRmlCSE04YThvM0RyS1pOa3E5US00SERjMWZZLXpWSWxhU3NnVG14WTZ1YnNoZk41VWZsSFlvdjVLWWNRaXlRc3JwRDJYLTFoRktuZ2FZYkg5c0U1Zk45Sl9UbzlaN0ZYQU1iOEVMODN3RVU4c1gzaXBBSkkxTTFZSm5fMVNDTDdWLXJ5SUVTRWVtZk95bVFwSWtfUzZlRVlEWFBVRVAxRzc3MnVXSVJqQW1tWmFWNEN1bTk1Q0UtbGVkWUJ2U0FLcjkwYmZ5TElBUnNnNXJLdFB4eVB00gHIAkFVX3lxTFA4MlF2c0RQMzlpZmIzUktjMGlQSWdST0NRcDY1QW11Q202Q2lCTUtITGNFdkNzcUJaczBTcmVQaWJsY2JEVFRUdWU5YkZDR0F5Vm5GNGZBVDEteFdkTHRrUUU1TC1NOU9BMzY1T245U1A3eHFGaUJITThhOG8zRHJLWk5rcTlRLTRIRGMxZlktelZJbGFTc2dUbXhZNnVic2hmTjVVZmxIWW92NUtZY1FpeVFzcnBEMlgtMWhGS25nYVliSDlzRTVmTjlKX1RvOVo3RlhBTWI4RUw4M3dFVThzWDNpcEFKSTFNMVlKbl8xU0NMN1YtcnlJRVNFZW1mT3ltUXBJa19TNmVFWURYUFVFUDFHNzcydVdJUmpBbW1aYVY0Q3VtOTVDRS1sZWRZQnZTQUtyOTBiZnlMSUFSc2c1ckt0UHh5UHQ?oc=5",
-          "published": "2026-10-03T14:46:00+00:00",
-          "publisher": "The Economic Times",
+          "canonical_link": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/06/trump-says-his-super-pac-will-pay-for-taxpayer-funded-ads-that-sparked-backlash-for-glorifying-him",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNzQxUExtdEFkYnRKOVNiY2lQMDRfZGV6a0pNLU0yWVliUE5OTWNrX2R6TE5DZzNvMldidFN0VmVfRzVzQzZlcU1XR3VHZV9LVVBicWNRMWZMbXRXS1RialQ4NlhMUUdoRVlpZm41QkVnYjFKaGdmRFQ2ajhHMUFwZzhKS05iX2FQbVZPUml2cHhvN1AwVVFsS3FSdWdwbWNsOHk3by1OemxFcmg5am1tRS0zNUptRDhPVHlkM1lZemJIZUh6ZTlZbmlkTlJjb01ZQWxFdGw1UjNpQVloRDdCVGFIWXpkenNZa2pPQzlycw?oc=5",
+          "published": "2026-10-06T02:05:00+00:00",
+          "publisher": "Spectrum News",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "\u201cGod Made Trump, the Country He Loves\u201d: 13 taxpayer-funded ads and $20 million campaign revealed as Trump\u2019 - The Economic Times"
+          "title": "Trump says his super PAC will pay for taxpayer-funded ads that sparked backlash for glo\u00adri\u00adfying him - Spectrum News"
         },
         {
-          "canonical_link": "https://news.meaww.com/natalie-harp-at-the-center-of-trumps-20-m-ad-controversy-what-we-now-know",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ0Z5QXFPSExrX2tqNUU5eUlUOGF4dzZqVzlZclp5aXhNeU9yU0lsV1Rqcm9jTG53UU56NXd3UWx5a3JrX2NYSUU5UGxzVWIzSWthR01wMTNIa2kwRXB5VzFWNWpFcW84d3RzZVJXWU5QSUxqZVMxWUNLLXpBTGNqcWxUanNWUk9SM19Md2YtdjdzMXpKektsTElJV1A?oc=5",
-          "published": "2026-10-03T19:18:46+00:00",
-          "publisher": "news.meaww.com",
+          "canonical_link": "https://www.dw.com/en/trump-says-taxpayers-will-no-longer-fund-ads-touting-administration/a-79557317",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY0ZmSE1PeU1HVE03Mk1vR2k5ZjZ5S0VRZFM3RDBUcFpPX0M2ZGtZaXpIaGR2eXRiMGRidXBwUTN6V2ppVm5vaV9hODRmUklGYWpEMS1zOE42MkR0all1bGNTSGltdUFNcGhJZGlmWWVGb0hycllLeF8zaVAzMjRJVEN5cjlXQmRydE55aDFQUnhPQVZSSFhxMjF5VlVVVWNLRVHSAaIBQVVfeXFMTk5qMTBhOEhDWGt5NW1mVTZsQ1hSZWtubm9Qc3hPRUpLa05qQ0ZjN1JPRnlvX05iRTZ0NW5uZENZSF9uWUlBeG9hTlJjMnpLSkRGbWh1Ulo1R29CSThTOWZNT0dFOE93VnJLOEpsaHAzcmFmOXBMSkZaOEZ5dkZHcjVwZGlUQ2FfaF9fVkRYMEc1QUJBVTFHbFNDaHVZSnc1dUFR?oc=5",
+          "published": "2026-10-06T04:25:10+00:00",
+          "publisher": "DW.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Natalie Harp at the center of Trump\u2019s $20M ad controversy: What we now know - news.meaww.com"
+          "title": "Trump says taxpayers will no longer fund ads touting administration - DW.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 8,
+      "hits": 31,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.aol.com",
-      "rationale": "This report indicates that an ad aired during a major sports broadcast (FOX NFL Sunday) that is characterized as Trump propaganda and allegedly funded by taxpayers. The specificity (13 ads, $20M campaign, taxpayer-funding, named individual Natalie Harp at center) across multiple corroborating sources (items 4, 6) suggests a real campaign occurred rather than a hypothetical or rumor. However, the sources are press coverage rather than official agency records documenting the appropriation and authorization. The evidence is credible but not yet at the documentary level that would warrant severity 3+.",
-      "severe_hits": 1,
+      "primary_source_url": "https://www.theguardian.com/us-news/2026/oct/06/trump-super-pac-taxpayer-funded-ads",
+      "rationale": "Multiple credible sources report that taxpayer-funded ads promoting Trump were created and broadcast, then reversed after public backlash. The underlying fact\u2014that public funds were used for partisan promotional ads\u2014constitutes a real occurrence of the signal. Trump's subsequent promise to reimburse is a remedial statement, not a denial that the spending happened. This is a confirmed but limited incident (severity 2), not a structural failure, and was halted upon exposure.",
+      "severe_hits": 9,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 4
+      "unique_publishers": 11
     },
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/09/30/2026-19965/rescissions-proposals-pursuant-to-the-congressional-budget-and-impoundment-control-act-of-1974",
+          "link": "https://www.federalregister.gov/documents/2026/09/30/2026-19965/rescissions-proposals-pursuant-to-the-congressional-budget-and-impoundment-control-act-of-1974",
+          "published": "2026-09-30T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Rescissions Proposals Pursuant to the Congressional Budget and Impoundment Control Act of 1974"
+        },
+        {
+          "canonical_link": "https://www.nationalaffairs.com/publications/detail/unfinished-work-federal-permitting-reform",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa0o4OXVkQkxHdXJ6VkxqLUNNTVhfQ0JFT3lYSDFLc2YycTlRUFV3VWp3TFhMMTgwSGZQaTdlU2RMNFBVZlV2Q05odjlFN3QwU0ZHVFh5QXE0OEJKRWh0dnR4ZGxFVk5KblVTWXI2UzJrRWlSeF9DWXAxX3lRNDRPMVBHdVlsdVZuemZZSjcyWGF0dUV1YnB3Xw?oc=5",
+          "published": "2026-10-06T01:53:18+00:00",
+          "publisher": "National Affairs",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "The Unfinished Work of Federal Permitting Reform - National Affairs"
+        },
+        {
+          "canonical_link": "https://www.nytimes.com/2026/10/05/magazine/supreme-court-congress.html",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05LVE4Z1M4cDRTcFdPbWdRM3FoblR0UFMtejB6SjRGbUd4czNmQTlvcGpfa0l3dDk5VnhZRDJoOE1GTXliRlFoWnA3NWMwOFlNZjV2ZHB2cEw4cTNUU3o2dWVSb1V5VWswSDZ1TmhPREtBSTMtaWV1VkJOdw?oc=5",
+          "published": "2026-10-05T09:07:34+00:00",
+          "publisher": "The New York Times",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Congress Is Supposed to Be More Powerful Than the Supreme Court. Why Isn\u2019t It? - The New York Times"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 3,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 1,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
-          "published": "2026-10-03T23:05:24+00:00",
-          "publisher": "abcnews.com",
+          "canonical_link": "https://www.washingtonpost.com/politics/2026/10/04/shasta-countys-election-chief-lost-then-he-locked-up-ballots/",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZmd6T0E5dUtlRXdDSV9pQVgwVkZfUk5LZG5GTFh3MTBlUzhBY1F6dDNIejZkZ1FZY0ZKYWJzM04yT2s2S2lWZmo3N0lkaXNYeUZ3eWsyMHFvX0sxS0NJanRjZndCYnkxWVljWXhjNU9SR1UwY19ZNmNRNEllRWNldkZRY2NSOFZ4WDdaRU4xa29ZNzVWNHBIZGpIWS1wd2xoYzE5NTlyeVVGQS1yVkVPdWJn?oc=5",
+          "published": "2026-10-04T17:00:00+00:00",
+          "publisher": "The Washington Post",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump director of election security sparked Georgia office raid, affidavit says - abcnews.com"
+          "title": "An election chief lost. Then he padlocked the ballots and called the FBI. - The Washington Post"
+        },
+        {
+          "canonical_link": "https://www.devdiscourse.com/article/politics/3987458-telangana-owaisi-alleges-bid-to-delete-122-muslim-voters-in-goshamahal-demands-eci-action-over-fraudulent-form-7-filings?amp",
+          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPVS1CeWJadGtZSFBGZXRzNGxkVU5hLXp1TldJQXNsWXVPRU9oa056Y3RpRFdELVl4Rk83Q2hpZW83MXB5OFNnalRFMGRWeXVZZGZwOUhqWTRBa1NVSUNzeVZGQnZ3VHM0SXdhc0hOXzh1TWItbDBBd3FvWmZaSGYySXFrVTNZLWdFeDZJUFR5OVZZR1hHbmNQek1nU21DQTFBS1lTV3NkTjh0Y2hhN21lRmZKTGUtNGstazlIa2lnelBfWndncWZ6VHZya0M3T3VBX1FKZ0lnREpTRW5kbm41VURoRlpoVmFjajZhaC14SGZWWWs1ZGlKeVhFNUdzdkZNRVdTajk3QjNjUdIBigJBVV95cUxPVS1CeWJadGtZSFBGZXRzNGxkVU5hLXp1TldJQXNsWXVPRU9oa056Y3RpRFdELVl4Rk83Q2hpZW83MXB5OFNnalRFMGRWeXVZZGZwOUhqWTRBa1NVSUNzeVZGQnZ3VHM0SXdhc0hOXzh1TWItbDBBd3FvWmZaSGYySXFrVTNZLWdFeDZJUFR5OVZZR1hHbmNQek1nU21DQTFBS1lTV3NkTjh0Y2hhN21lRmZKTGUtNGstazlIa2lnelBfWndncWZ6VHZya0M3T3VBX1FKZ0lnREpTRW5kbm41VURoRlpoVmFjajZhaC14SGZWWWs1ZGlKeVhFNUdzdkZNRVdTajk3QjNjUQ?oc=5",
+          "published": "2026-10-06T07:36:59+00:00",
+          "publisher": "Devdiscourse",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Telangana: Owaisi alleges bid to delete 122 Muslim voters in Goshamahal; demands ECI action over fraudulent 'Form 7' filings - Devdiscourse"
         }
       ],
       "evidence_mode": "ai",
@@ -162,41 +216,12 @@
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/US/usps-makes-new-rules-mail-ballots/story?id=135879673",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5",
-          "published": "2026-10-03T19:46:59+00:00",
-          "publisher": "abcnews.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Supreme Court allows Trump to implement parts of his mail-in voting executive order - abcnews.com"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 1,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "Multiple credible sources report that the Supreme Court allowed Trump to implement parts of a mail-in voting executive order. This represents a shift of voting-rule authority from statutory/legislative control to unilateral executive action via EO. The Court's allowance (likely through stay or injunction ruling) enabled executive implementation without requiring legislative authorization. This is a real, confirmed action that transfers governance authority from statute to executive fiat, but is narrowly scoped to mail-voting procedures rather than a broader structural dismantling. Severity 2 reflects this as a real, credible stress signal of limited scope, not yet structural failure.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 1,
@@ -240,19 +265,10 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Arrests and censorship tighten grip on global press - Journalism Pakistan"
-        },
-        {
-          "canonical_link": "https://www.journalismpakistan.com/jp-global-media-review-september-2026-bans-arrests-and-ai",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWk94Qm9kZUxKSU8ta3gzbk5fU0ZXQU5QN3BjU1p3WVZzaHo3NGUyWTg0dlNuWTZhandmNThpQ1VRbmtxSTRDZlBxRUZMSjV2U01FblJpTi1Ea19aSnQxQVdGVmdLYkluVHpRWXJHV1FJcHN6YVVnd21PWXhIOVhiNTg2eDJrRDROV25fSmtaQVNJYkZlMXQ0?oc=5",
-          "published": "2026-10-03T21:00:46+00:00",
-          "publisher": "Journalism Pakistan",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "JP Global Media Review | September 2026: Bans, arrests and AI - Journalism Pakistan"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 1,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
@@ -261,8 +277,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],
