@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 9.41,
+  "average_7d": 9.74,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": -3.0,
-  "delta_vs_7d": -0.22,
+  "delta_previous_day": 1.0,
+  "delta_vs_7d": 0.67,
   "domain_breakdown": [
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 1.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.5749999999999993,
+      "points": 5.5,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.1125,
+      "points": 1.4083333333333334,
       "weight": 13
     },
     {
@@ -73,9 +73,9 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-06T12:43:20.667142+00:00",
+  "generated_at": "2026-10-07T12:46:09.550112+00:00",
   "methodology_version": 2,
-  "previous_score": 12,
+  "previous_score": 9,
   "primary_sources": {
     "documents_confirmed": 1,
     "documents_fetched": 16,
@@ -86,57 +86,86 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 9,
-  "score_raw": 9.19,
-  "score_raw_pre_trip_wire": 9.19,
+  "score": 10,
+  "score_raw": 10.41,
+  "score_raw_pre_trip_wire": 10.41,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 11,
+      "confirmed_hits": 22,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.theguardian.com/us-news/2026/oct/05/trump-super-pac-ads",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xcjJuOU12TDVrVFJfeGlxR3lhLXp5RmQyb0ViejZzc3Y5b1BtMlVKUndZMFdmeVhFLVRhNUhYNlpKaVlLbExzbnZ2V0tJN25lLXNTb1laT0thbllVLXB4bXptSV9rQzFROFR5YThlQ1hxa3JLTGc?oc=5",
-          "published": "2026-10-06T01:04:00+00:00",
-          "publisher": "The Guardian",
+          "canonical_link": "https://www.pbs.org/newshour/politics/after-taxpayer-funded-ads-glorifying-trump-sparked-backlash-he-says-his-super-pac-will-pay-instead",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUVpxTHpvV2NfcmlyMDloTnZBOGhOUXFXOW1vd01XbnFoZVdFdFJnV2c2aGI0ZEFaWDlGU0tjVGdvSXZFTGVpbnR6S0p6YklPWnNiWVFCdG00dmlSUlZsQWlONUdOLUF0Z0VxSlpGNjJ4Tm8xTmJqNUVvSjdGRkNicEJaZU50WTRfZS11b19LV3hTYmZKSjl2RWdkdnpsaU1wMDJhNEwzVUNHN3NydlRwU1RvZm0wMjVmN2hRdzlzZjd3cXhPc1FfMW9CS0hNWGUzRGfSAdcBQVVfeXFMT2dheHVtWVNHTkFQTEFtMGpZRWRUX1VFV252OEFaWVk2OFNpWWd4UFotbkQ4M1VIdjNQLXFQWmJJUzlHcmx0TlNGOWwxV1VhX3lNa0w4bGpsRjY0eVU0YXRuSm9sZ3I3WktFZ290bzUzNVduVFJlYU04Y09BbGtnTzl0cE1qT0JmMGpndFU0QVoybkNULWt0Vl9Gc09FMExNaGUtYkhKa2JNZnotS2xfQ0pBa3JMSWp2b3Bhek5ZOUhOQmhSSTdWMk5tdjY3SkZaU25HNmZOMlU?oc=5",
+          "published": "2026-10-06T17:20:06+00:00",
+          "publisher": "PBS",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump says Super Pac will pay for taxpayer-funded ads that sparked outcry - The Guardian"
+          "title": "After taxpayer-funded ads glorifying Trump sparked backlash, he says his super PAC will pay instead - PBS"
         },
         {
-          "canonical_link": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/06/trump-says-his-super-pac-will-pay-for-taxpayer-funded-ads-that-sparked-backlash-for-glorifying-him",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNNzQxUExtdEFkYnRKOVNiY2lQMDRfZGV6a0pNLU0yWVliUE5OTWNrX2R6TE5DZzNvMldidFN0VmVfRzVzQzZlcU1XR3VHZV9LVVBicWNRMWZMbXRXS1RialQ4NlhMUUdoRVlpZm41QkVnYjFKaGdmRFQ2ajhHMUFwZzhKS05iX2FQbVZPUml2cHhvN1AwVVFsS3FSdWdwbWNsOHk3by1OemxFcmg5am1tRS0zNUptRDhPVHlkM1lZemJIZUh6ZTlZbmlkTlJjb01ZQWxFdGw1UjNpQVloRDdCVGFIWXpkenNZa2pPQzlycw?oc=5",
-          "published": "2026-10-06T02:05:00+00:00",
-          "publisher": "Spectrum News",
+          "canonical_link": "https://abcnews.com/Politics/trump-administrations-campaign-style-ad-fox-news-taxpayer/story?id=136723829",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEc3UWRPWjdaWkt2Wk9vcklvTkd3LUU0eEFHNnBTNGE1M01jZ1ZsczFwN0o1VjVmMk9rU3kxOUx5M1N2V1MtLVRqNjFfUXJYV0FQeFJSV3pBSEJ1Y2NFV29FMzFGLUxmVGVRa2tVVnhwM3hRYVhzSnFRM2YzUklyR3BjQm4xOUltenU0V2lRSHB2SzJlVmpMLV9lMHdGT2dJU3FBZG5FVVnSAa4BQVVfeXFMT2lPdUJtQ0JKMEs1aVhMMUFfOXFWRmxwZlBsSk9LYjFHX3pMamdNOUV6c1BNZnQwdGtVUzRTMS1IVzJoWjl4c3Z1elZtdWotY2MwazN5UzhQNGk1TGtnSGJhMzI3WUNlY3BlemEzWGlNMkpGNnFjNXZiZU1vQVZ3SFRPYklhZjN1ek4wWUN3ZUt4YUxMcDJpTmhGMjhaVkg4Wm0tMm9CbERyWnVENjNB?oc=5",
+          "published": "2026-10-06T12:45:14+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump says his super PAC will pay for taxpayer-funded ads that sparked backlash for glo\u00adri\u00adfying him - Spectrum News"
+          "title": "Administration's pro-Trump TV ad is taxpayer-funded - ABC News - Breaking News, Latest News and Videos"
         },
         {
-          "canonical_link": "https://www.dw.com/en/trump-says-taxpayers-will-no-longer-fund-ads-touting-administration/a-79557317",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY0ZmSE1PeU1HVE03Mk1vR2k5ZjZ5S0VRZFM3RDBUcFpPX0M2ZGtZaXpIaGR2eXRiMGRidXBwUTN6V2ppVm5vaV9hODRmUklGYWpEMS1zOE42MkR0all1bGNTSGltdUFNcGhJZGlmWWVGb0hycllLeF8zaVAzMjRJVEN5cjlXQmRydE55aDFQUnhPQVZSSFhxMjF5VlVVVWNLRVHSAaIBQVVfeXFMTk5qMTBhOEhDWGt5NW1mVTZsQ1hSZWtubm9Qc3hPRUpLa05qQ0ZjN1JPRnlvX05iRTZ0NW5uZENZSF9uWUlBeG9hTlJjMnpLSkRGbWh1Ulo1R29CSThTOWZNT0dFOE93VnJLOEpsaHAzcmFmOXBMSkZaOEZ5dkZHcjVwZGlUQ2FfaF9fVkRYMEc1QUJBVTFHbFNDaHVZSnc1dUFR?oc=5",
-          "published": "2026-10-06T04:25:10+00:00",
-          "publisher": "DW.com",
+          "canonical_link": "https://www.nytimes.com/2026/10/06/us/politics/trump-taxpayer-funded-ads.html",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZFhpZm9MbjRCeDJFazk5M0R0a2p4VWZBWndSd0RVU0ZJUlpZVkxtREhFaDdTUkFFQ2xrTzFRMWtHekJmQl9UT0dIX3dOcWFpekV0NjMtVkxNMHh3ODA1cGExUC1ZZmlXTjJ4SUtBNlFhRVgwMzVuMHB6ZG52N0hUbTVVMA?oc=5",
+          "published": "2026-10-06T19:36:50+00:00",
+          "publisher": "The New York Times",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump says taxpayers will no longer fund ads touting administration - DW.com"
+          "title": "Trump Does Not Plan to Reimburse Taxpayers for Promotional Ads - The New York Times"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 31,
+      "hits": 38,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.theguardian.com/us-news/2026/oct/06/trump-super-pac-taxpayer-funded-ads",
-      "rationale": "Multiple credible sources report that taxpayer-funded ads promoting Trump were created and broadcast, then reversed after public backlash. The underlying fact\u2014that public funds were used for partisan promotional ads\u2014constitutes a real occurrence of the signal. Trump's subsequent promise to reimburse is a remedial statement, not a denial that the spending happened. This is a confirmed but limited incident (severity 2), not a structural failure, and was halted upon exposure.",
+      "primary_source_url": "https://www.pbs.org/",
+      "rationale": "Report indicates taxpayer-funded promotional ads glorifying Trump were aired, and he subsequently stated his super PAC would pay going forward. The event occurred: public funds were spent on campaign-style promotional content before the reversal was announced. This is a confirmed instance of public funds used for political promotion, though the actor announced cessation after backlash.",
       "severe_hits": 9,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 11
+      "unique_publishers": 21
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "canonical_link": "https://www.wlrn.org/government-politics/2026-10-06/florida-removes-trumps-personal-information-from-voter-files-after-president-wrongly-cites-new-law",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdmdIZHhGaG1IcWJWYW9IMHh2MjB0UmFJcWc3c2czTjNxNUwtcGJjYmJRYy1mdzJTRTNTMDJYeVFYMS1JZmlYWDJFdm9NX2VQNEJENnZFMGt3RnFtNUpnSTI0TTlMN3lKY084OGZ1dnFqUnlpQ25Ld1lSVEZHVS1JTkNMcldraTI5QW44Q0ZxekZWNFBzMWEwOG1MNXNWNUx1bHNiNVoxS3A5TGMtNnI1REM1LTBhZE5tVFFKOWhIWDZiemlOVmRZR0RKUUpJRmxzT0VMd2FhcnFnRUNzaHRiYzl6WUc?oc=5",
+          "published": "2026-10-06T19:35:00+00:00",
+          "publisher": "WLRN",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Florida removes Trump\u2019s personal information from voter files, after president wrongly cites new law - WLRN"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 3,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://www.wlrn.org",
+      "rationale": "Florida election officials removed a sitting U.S. president's personal information from voter files. This is a credible, confirmed action by election administration that demonstrates differential treatment based on partisan identity (removal of one officeholder's data). However, severity remains at 2 rather than 3 because the action appears reactive to a disputed legal citation rather than a systematic structural capture; it is a single documented instance of partisan-inflected administrative discretion rather than an ongoing campaign or structural takeover of election administration.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 0,
@@ -155,24 +184,24 @@
         {
           "canonical_link": "https://www.nationalaffairs.com/publications/detail/unfinished-work-federal-permitting-reform",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa0o4OXVkQkxHdXJ6VkxqLUNNTVhfQ0JFT3lYSDFLc2YycTlRUFV3VWp3TFhMMTgwSGZQaTdlU2RMNFBVZlV2Q05odjlFN3QwU0ZHVFh5QXE0OEJKRWh0dnR4ZGxFVk5KblVTWXI2UzJrRWlSeF9DWXAxX3lRNDRPMVBHdVlsdVZuemZZSjcyWGF0dUV1YnB3Xw?oc=5",
-          "published": "2026-10-06T01:53:18+00:00",
+          "published": "2026-10-07T02:50:35+00:00",
           "publisher": "National Affairs",
           "source_name": "google_news",
           "source_tier": "news",
           "title": "The Unfinished Work of Federal Permitting Reform - National Affairs"
         },
         {
-          "canonical_link": "https://www.nytimes.com/2026/10/05/magazine/supreme-court-congress.html",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05LVE4Z1M4cDRTcFdPbWdRM3FoblR0UFMtejB6SjRGbUd4czNmQTlvcGpfa0l3dDk5VnhZRDJoOE1GTXliRlFoWnA3NWMwOFlNZjV2ZHB2cEw4cTNUU3o2dWVSb1V5VWswSDZ1TmhPREtBSTMtaWV1VkJOdw?oc=5",
-          "published": "2026-10-05T09:07:34+00:00",
-          "publisher": "The New York Times",
+          "canonical_link": "https://tribune.net.ph/2026/10/05/avoid-political-noise-constitutional-friction",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV2llZVVLUTJlTElUN3I4U1ZDT2dhOVhhdk0zOElfcl9uajNCQVZFVUtMbWdyaFlqM3VkZU04MEZPN3gyT09rSzd0WW5kcjZ4WnNkM3pubzlYWHpYRmFRQXBsR1VoTW9OVXZ5NXFxR0UtSUo0U3lKWjgwWGRGdUU0RWtvX0VKZw?oc=5",
+          "published": "2026-10-05T23:51:23+00:00",
+          "publisher": "Daily Tribune",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Congress Is Supposed to Be More Powerful Than the Supreme Court. Why Isn\u2019t It? - The New York Times"
+          "title": "Avoid political noise, constitutional friction - Daily Tribune"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 2,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -181,45 +210,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://www.washingtonpost.com/politics/2026/10/04/shasta-countys-election-chief-lost-then-he-locked-up-ballots/",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZmd6T0E5dUtlRXdDSV9pQVgwVkZfUk5LZG5GTFh3MTBlUzhBY1F6dDNIejZkZ1FZY0ZKYWJzM04yT2s2S2lWZmo3N0lkaXNYeUZ3eWsyMHFvX0sxS0NJanRjZndCYnkxWVljWXhjNU9SR1UwY19ZNmNRNEllRWNldkZRY2NSOFZ4WDdaRU4xa29ZNzVWNHBIZGpIWS1wd2xoYzE5NTlyeVVGQS1yVkVPdWJn?oc=5",
-          "published": "2026-10-04T17:00:00+00:00",
-          "publisher": "The Washington Post",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "An election chief lost. Then he padlocked the ballots and called the FBI. - The Washington Post"
-        },
-        {
-          "canonical_link": "https://www.devdiscourse.com/article/politics/3987458-telangana-owaisi-alleges-bid-to-delete-122-muslim-voters-in-goshamahal-demands-eci-action-over-fraudulent-form-7-filings?amp",
-          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPVS1CeWJadGtZSFBGZXRzNGxkVU5hLXp1TldJQXNsWXVPRU9oa056Y3RpRFdELVl4Rk83Q2hpZW83MXB5OFNnalRFMGRWeXVZZGZwOUhqWTRBa1NVSUNzeVZGQnZ3VHM0SXdhc0hOXzh1TWItbDBBd3FvWmZaSGYySXFrVTNZLWdFeDZJUFR5OVZZR1hHbmNQek1nU21DQTFBS1lTV3NkTjh0Y2hhN21lRmZKTGUtNGstazlIa2lnelBfWndncWZ6VHZya0M3T3VBX1FKZ0lnREpTRW5kbm41VURoRlpoVmFjajZhaC14SGZWWWs1ZGlKeVhFNUdzdkZNRVdTajk3QjNjUdIBigJBVV95cUxPVS1CeWJadGtZSFBGZXRzNGxkVU5hLXp1TldJQXNsWXVPRU9oa056Y3RpRFdELVl4Rk83Q2hpZW83MXB5OFNnalRFMGRWeXVZZGZwOUhqWTRBa1NVSUNzeVZGQnZ3VHM0SXdhc0hOXzh1TWItbDBBd3FvWmZaSGYySXFrVTNZLWdFeDZJUFR5OVZZR1hHbmNQek1nU21DQTFBS1lTV3NkTjh0Y2hhN21lRmZKTGUtNGstazlIa2lnelBfWndncWZ6VHZya0M3T3VBX1FKZ0lnREpTRW5kbm41VURoRlpoVmFjajZhaC14SGZWWWs1ZGlKeVhFNUdzdkZNRVdTajk3QjNjUQ?oc=5",
-          "published": "2026-10-06T07:36:59+00:00",
-          "publisher": "Devdiscourse",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Telangana: Owaisi alleges bid to delete 122 Muslim voters in Goshamahal; demands ECI action over fraudulent 'Form 7' filings - Devdiscourse"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -258,17 +249,26 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.journalismpakistan.com/arrests-and-censorship-tighten-grip-on-global-press",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaVVISjFFTnN0Y2xkWWFtTExaU1dEOFJPc2o2QTlSQmlCYkpfYWtsa1lTUnMtMm5mbWR4RnVVZEZBZXgwZnBzdWlCakNlSmdkT2hhdTJmMlZLNmNvN21hb3pxRk85Z0dpSk1xOW5RNi11UW9DTFJvZVY2NlJGbDBiVTNMQmtaekctVVNrdVQxMA?oc=5",
-          "published": "2026-10-04T20:59:57+00:00",
+          "canonical_link": "https://ipi.media/egypt-arrest-entire-newsroom-matsadaash-media-sisi/",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MdVFGeFN6UExLSTYwZHFvR3hBMXJ0elBQdWV6R1psVGpDcUk5akxkbV9CWDk3emE4V2k3VGFrY3lOZzV3dGc5b19mVFJGdnhlaS13eEFjYnFqV01BTVdGTUhxQy1hOXg4UmxNU25VWkw2UF9hcmNseQ?oc=5",
+          "published": "2026-10-06T15:26:56+00:00",
+          "publisher": "ipi.media",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Egypt: Authorities arrest entire Matsadaash newsroom, charge them with terrorism - ipi.media"
+        },
+        {
+          "canonical_link": "https://www.journalismpakistan.com/the-state-of-pakistan-media-september-2026",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeEcycmxFWlpvRG5Gbmt0bjl6aG04Y2J2ZDlPRWtwRDg2RENIWnlldGc3M2laQnhneDB0MldIYkZfU3RSRGhYaGRmN1M4TEkwTnZCcUlfYWVTNXZxWXlwOS1SWEljYV9walhMTVpWeWRVV2tOY01NUGpDNDN6SVpzNkFaZw?oc=5",
+          "published": "2026-10-06T14:25:57+00:00",
           "publisher": "Journalism Pakistan",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Arrests and censorship tighten grip on global press - Journalism Pakistan"
+          "title": "The State of Pakistan Media: September 2026 - Journalism Pakistan"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 2,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
@@ -277,7 +277,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }

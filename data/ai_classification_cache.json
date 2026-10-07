@@ -756,6 +756,16 @@
       "rationale": "A state canvassing board split along party lines, with Republican members voting to certify a ballot measure while Democratic members opposed, indicates partisan division in an election administration body responsible for ballot certification. This demonstrates partisanship in what should be a neutral administrative process, though it represents a contained instance of partisan voting on a specific measure rather than systematic structural capture. The severity is 2: credible, repeated stress signal of partisan behavior within election administration, but not yet a comprehensive loss of institutional neutrality.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdmdIZHhGaG1IcWJWYW9IMHh2MjB0UmFJcWc3c2czTjNxNUwtcGJjYmJRYy1mdzJTRTNTMDJYeVFYMS1JZmlYWDJFdm9NX2VQNEJENnZFMGt3RnFtNUpnSTI0TTlMN3lKY084OGZ1dnFqUnlpQ25Ld1lSVEZHVS1JTkNMcldraTI5QW44Q0ZxekZWNFBzMWEwOG1MNXNWNUx1bHNiNVoxS3A5TGMtNnI1REM1LTBhZE5tVFFKOWhIWDZiemlOVmRZR0RKUUpJRmxzT0VMd2FhcnFnRUNzaHRiYzl6WUc?oc=5": {
+      "actor": "Florida state election administration",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.wlrn.org",
+      "rationale": "Florida election officials removed a sitting U.S. president's personal information from voter files. This is a credible, confirmed action by election administration that demonstrates differential treatment based on partisan identity (removal of one officeholder's data). However, severity remains at 2 rather than 3 because the action appears reactive to a disputed legal citation rather than a systematic structural capture; it is a single documented instance of partisan-inflected administrative discretion rather than an ongoing campaign or structural takeover of election administration.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY3B6V1ZMWWpwWUZMNmo5NkN5bzZOQ3plRGE2d1lxcUNKbktiTGVmWDRjc3p0dkMzQkJMNmtFR3ZySGxBX3VodEZEanh5OEh1WVlXSjlLU2VzSUhKVGIxSU41VzFhZktyaDdXcjBWUmFZcDVUdXc3MlJtTWZmcWFMSUhtb0RPTWs5NTVyTm9UN1VZZDh1cF9US2RmMG1lbjk0WDRPaW43d2d6UVFobmRmaHVBNmxDcmFvUU5aTDYyaVpaOVloZHoxdDFhMlJKZVl6SDd1Q2N0SGtqRUM2Z0xjVzVBeFF5aF91?oc=5": {
       "actor": "MAGA activist; Georgia State Election Board",
       "confidence": 0.87,
@@ -1014,6 +1024,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item reports on a congressional inquiry asking for confirmation that troops will not be sent to polling places. This is a precautionary or reassurance-seeking question, not evidence that election administration has actually been captured by partisan actors. It does not report any actual action taken to move election administration from neutral to partisan control. The query itself is a defensive/transparency-seeking measure, not a seizure of electoral authority.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMigwJBVV95cUxOR280d2REYnVaVG15dkhvTkVaamhDMld3X3RhMmI1TU4yRFdFc1gtbWhESjBmZ2NzNzVXODA0UG5KWXN5SDJYaUVpamZKc2FMZVEyTHFKMkxYcWhoRGtMbVY5UnZJMWFtZUtQTnZ1eTdBN0dnRkxJZFBXVFh6Z3VidVdLS2dSUHRmUFNIQjdMeHlEYVdiajNtZHlMN3ptbW5VQmEyMGF6SEZjN0tnQlcyUTRBNGN3cVUzMUdOTFcycFAzcng2UmFIN3BuQk1YWWlZbDZySndFN3NmU0tFdGhrSkVzaDJRTXg1TUxla1EwR1BQRk9BRmNKc1VyMHhNWnpGWVQw0gGDAkFVX3lxTE5HbzR3ZERidVpUbXl2SG9ORVpqaEMyV3dfdGEyYjVNTjJEV0VzWC1taERKMGZnY3M3NVc4MDRQbkpZc3lIMlhpRWlqZkpzYUxlUTJMcUoyTFhxaGhEa0xtVjlSdkkxYW1lS1BOdnV5N0E3R2dGTElkUFdUWHpndWJ1V0tLZ1JQdGZQU0hCN0x4eURhV2JqM21keUw3em1tblVCYTIwYXpIRmM3S2dCVzJRNEE0Y3dxVTMxR05MVzJwUDNyeDZSYUg3cG5CTVhZaVlsNnJKd0U3c2ZTS0V0aGtKRXNoMlFNeDVNTGVrUTBHUFBGT0FGY0pzVXIweE1aekZZVDA?oc=5": {
+      "actor": "Bengal Congress (India)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.theTimesofindia.com",
+      "rationale": "This item concerns election administration in India (West Bengal), not the United States. The signal is defined for U.S. constitutional risk. Non-U.S. events, even if they involve election irregularities, do not constitute evidence of U.S. election administration capture. Irrelevant to the dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb1lXUXliMEY2TjZWOFJYdXM1RDNQa0dXRXZEN1l3RE1HWWw4MXVRUzhkdFB5a3BickZKZW1wZTBiQnRsV3JkdWQtUnlMM1lVZzdoOEdlYUhENllzekk4clNTSWlyMDNNbGxKdDdoc1ppLW9uLWp3c21WU2o0QTcxRFJLWDA4QQ?oc=5": {
@@ -6372,6 +6392,16 @@
       "rationale": "This item concerns Bangladesh (Dhaka Tribune, Dhaka jurisdiction), not the United States. The signal applies to U.S. constitutional stress. Non-U.S. events are out of scope regardless of thematic relevance.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxOckZkZ0tkV2w3LTc3aGw2bWR5ODNuYXc4NzVTTVFjN2tETzBWRmxrU2hxVW5tNno1ZzUtSDQxWFJ6ZlBjbVd4OUE3bG1rWl9IRzJnbmFkUi1VOURZQWZSOWEzcmhia1JKQ2lVZnIwRjNtMC04dE1nSUE1WFV3NDR5TDdwdkFkR0ktdFBRMkhpZlFPaGpxWDVfNGlxUEZNbC13X0M1TWtiVQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on Israel's supreme court decision regarding Arab parties' participation in an Israeli election. It is not a U.S. domestic event and therefore falls outside the scope of monitoring for U.S. constitutional-risk signals. The signal 'Opposition Ballot Exclusion' is being evaluated for U.S. constitutional stress; events in other countries are not relevant evidence for U.S. constitutional conditions.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMjBwTWc3SzB0OVpxRl9wWjk1SExRamJsWTJJVmNIV2dDRlpRZGVySGc3Z1owTXRmam9UeXhLd0J3ZDJzLWJlMEVNSDY1RHF0M2V2a1dsU05mb2FfajFjYklwTmZlSi1zQmpxNVRFVmh5U1pUd25Jc2l0VDNuZmZkaTBiTUYtQ0V5akdjcnFNblltbmxWekNUa0tlR2dDVWY4TW1XNHRyVko?oc=5": {
       "actor": "Israeli election committee",
       "confidence": 0.98,
@@ -7198,6 +7228,16 @@
       "rationale": "Item concerns journalist protests in Kolkata, India. Not a U.S. domestic event; outside scope of U.S. constitutional-risk monitoring.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE1MdVFGeFN6UExLSTYwZHFvR3hBMXJ0elBQdWV6R1psVGpDcUk5akxkbV9CWDk3emE4V2k3VGFrY3lOZzV3dGc5b19mVFJGdnhlaS13eEFjYnFqV01BTVdGTUhxQy1hOXg4UmxNU25VWkw2UF9hcmNseQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns press restrictions in Egypt, not the United States. The signal being monitored is state action affecting independent reporting in the U.S. constitutional context. Foreign press restrictions, however serious, fall outside the scope of this U.S. domestic constitutional-risk dashboard.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DQnNSYWlkb1VnNnFhOUVIX1E2NnVuSVBBZnZldEtvZXJGMDZBQmNzSHpCLVNXZTBncjFFQ0Q2STcyVGdQVk1ER2p3WTB3UmF1RjlpSGlpby1sNTRpSk5rUFJkVk5WS3pTNG1OaW5aUVBNclNnQ1lQdlh3?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -7206,6 +7246,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This event concerns Kolkata (India), not the United States. The signal requires U.S. domestic press restrictions or retaliation. Even if journalist attacks or restrictions occurred in India, this falls outside the scope of U.S. constitutional-risk monitoring.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeEcycmxFWlpvRG5Gbmt0bjl6aG04Y2J2ZDlPRWtwRDg2RENIWnlldGc3M2laQnhneDB0MldIYkZfU3RSRGhYaGRmN1M4TEkwTnZCcUlfYWVTNXZxWXlwOS1SWEljYV9walhMTVpWeWRVV2tOY01NUGpDNDN6SVpzNkFaZw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns media conditions in Pakistan, not the United States. The signal is U.S. domestic constitutional stress. Foreign press conditions are outside the scope of this dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTEpFMmdlbnFJdTB0aU83bkd4djhDd0F3bU5sRWxmeTVmR0diYzFjbVFKVzlTbHR1SE1XQW84TWV5ck9PSGNaVmg3UGRXRVlaUFVRQS1LVzQ4VmVIRFE4V2pnbjQ4WUkyMjdoTk5Pc2c0Q2N1N2R6S3pIc1kzR3d1blgwRlhhUQ?oc=5": {
@@ -8010,6 +8060,26 @@
       "rationale": "Sydney Morning Herald (Australian outlet) reports on the same event. Although published from Australia, it covers a U.S. domestic event. The substance is identical: Trump 'caves in on taxpayer-funded ads,' confirming they existed. However, marking is_us_domestic=false because the source is a foreign news organization, though the event itself is U.S.-based. Severity 2.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUVpxTHpvV2NfcmlyMDloTnZBOGhOUXFXOW1vd01XbnFoZVdFdFJnV2c2aGI0ZEFaWDlGU0tjVGdvSXZFTGVpbnR6S0p6YklPWnNiWVFCdG00dmlSUlZsQWlONUdOLUF0Z0VxSlpGNjJ4Tm8xTmJqNUVvSjdGRkNicEJaZU50WTRfZS11b19LV3hTYmZKSjl2RWdkdnpsaU1wMDJhNEwzVUNHN3NydlRwU1RvZm0wMjVmN2hRdzlzZjd3cXhPc1FfMW9CS0hNWGUzRGfSAdcBQVVfeXFMT2dheHVtWVNHTkFQTEFtMGpZRWRUX1VFV252OEFaWVk2OFNpWWd4UFotbkQ4M1VIdjNQLXFQWmJJUzlHcmx0TlNGOWwxV1VhX3lNa0w4bGpsRjY0eVU0YXRuSm9sZ3I3WktFZ290bzUzNVduVFJlYU04Y09BbGtnTzl0cE1qT0JmMGpndFU0QVoybkNULWt0Vl9Gc09FMExNaGUtYkhKa2JNZnotS2xfQ0pBa3JMSWp2b3Bhek5ZOUhOQmhSSTdWMk5tdjY3SkZaU25HNmZOMlU?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.pbs.org/",
+      "rationale": "Report indicates taxpayer-funded promotional ads glorifying Trump were aired, and he subsequently stated his super PAC would pay going forward. The event occurred: public funds were spent on campaign-style promotional content before the reversal was announced. This is a confirmed instance of public funds used for political promotion, though the actor announced cessation after backlash.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdHg1ZmF0WHRTZnZYZm5Hdm5OdHNNYWxmaTg1WlFLTC1YUHN0SGdpSUE0NWliaEdnanVGa2NhNm9iLXh4U1h3Zkh0QVVBWFNjYS1NR1BtU3RhXzhSd2praDVKaVdyOTFhVHExOEFoeXFCZ1dSZjZMYlBWS2dCVktndFdRM2FkSkxvb2g1NXZYNDJZblBwbU5fMG04aTZvS3Bhd005QTlfcmhKMDFTTFBubExBSUVGWDY1WmN5dER3ZXBDd3VyWU9WS2VBdGpJRkppcDl1SXd3b0kwdDg?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://newscord.com/",
+      "rationale": "Aggregated report from 13 outlets summarizing Trump's statement to stop using taxpayer funds for ads. The aggregation confirms the underlying event: taxpayer funds had been spent on ads featuring Trump before the announced cessation.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONk9EZVNFUWFxZ1o2WHN2NjVEblRGOHlmQk5hSnFEUThtMXhHbVdyYThuTi0zemJHaFpaOUNfbm0wN0tsTHcwRWw5c2wyallLZWk4Z0xBV3lvUEFIeE5LT1lFUTFsU1V5ZlVyYnNUUzJjVTBuUHBTQjJvWGt1UkpfVlQxQTYzcXdTTHk5bElQTzJpQ0JDTV9mcG16Nk1KaXlUVnZkeHFVOVRpVTlzbjE4aFg0cThEZUpNZnV2UDNscmlpV0w2MWFMTzRKY2dvQWxPcWlrTWYyZXZlcno3eGQ0YUFpYU1sdw?oc=5": {
       "actor": "Trump administration / Public Citizen advocacy response",
       "confidence": 0.67,
@@ -8018,6 +8088,16 @@
       "matches_signal": true,
       "primary_source_url": "https://newscord.com",
       "rationale": "NewsCord reports Public Citizen urging FCC and FTC to stop Trump taxpayer-funded ads, framed as 'propaganda.' This confirms the ads exist and are being characterized as unlawful propaganda by watchdog groups. The event (spending) is real; severity 2 because the underlying spending is established but formal legal findings are not yet present.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQN3IxZzZTZHE0ZGhYQndYNEE4aUN6RWs5c2JrNEEycnBEZGpIakxhd2JUZXZFRDhINV8xVkpFYm1ONnJIZWlJVEtubkY2NUhTRjBwckxsVUhLXzNiZi1pclYxdkZPVFQxV3ZJT2dJSVhPQnVKdzRDbFFKamEzQXF5X2VfVi05aGg3WUFoeUhEN1d1X050MjFGbl90ZzY5bkh3dDRaYlNaYWxPLTMxNGNLRExEa2NYQnZabEZzU21xMldNVHgwZzZnUTBUMU14Mm5qdjQxM2Exbkc5WGQyZnZxMHNKaFFsUEc4?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.79,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://elcronista.com/",
+      "rationale": "Report explicitly states 'Your tax dollars paid for ads praising Donald Trump' and references specific ads like 'God Made Trump' in the lineup, with query about total spend. This directly documents public funds used for promotional content and quantifies the scope.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOU2YtNTN0NC1UNnZTRzhBdk5JNDBXMk40cDVhQXhNeHlzdkpmbEF4QlhUeUIyQU5uWFQxWTVNdTJuT0tuQV95c0FSOXdiWEhQcTVfRzc4bUdvOFZqeXQ3M0tHVWFpLV9QS2NTUXVtVUFrckY5N3dqWW1hV193T2N1d1JzOGFKVVplSWJDZkhQekVXS3lSOU8wZXlDYjRRLWNnbXdvV21zNW95eVdDY0RscDRMVzg3ellOdVF4cFU5N0x6OXgxTVZpRV9YUUFqckttR0RWVk1PNElfdUZTRW5mMTRWejE5N3ppR2c?oc=5": {
@@ -8098,6 +8178,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.ynetnews.com",
       "rationale": "Ynetnews reports Trump's taxpayer-funded ads raise legal questions before midterms. The legal concern is analysis, but the factual event\u2014release of the ads and their taxpayer funding\u2014is confirmed.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5rLWx1ZmxEYy1XWXdkLTNTbmtxeHhqbXRnY015Y0pVcF9obXhPWmFNUU5xSk56VVJjUEM1WXpkYnlWM3MybVNzUm53a213MFFOaDhFb1JQNjdGYTIteUJIWWFkOENUUdIBa0FVX3lxTE9oaEtIUm91X3NRV1hSby1YUFVaQUlWNjZsaXl1Vmlxb0pRcmRmLUZkdF9Ra0NXaWZOT0dpMkp0djNWeUo0SnlmV3hIZG1YbmRHOWZmSHZSUGdPbnEtSGlqVnJfRkdsT1FpOTdv?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.77,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.cnbc.com/",
+      "rationale": "Report indicates ads that 'already aired' were funded by government money, and Trump is hedging on repayment. This directly confirms that public funds were spent on promotional content and that reimbursement was not assured, meeting the signal definition.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiakFVX3lxTE5IQ2RIQ05XRGhxQmkxc0tIQTJwc1Z0RFlTM0U1Q1A1UjNKSnF2Z2Q0T2xHU3g3UlRoS0JfUjZwaEdYeW80Qkl4SG5tTHhleVkwbGJtd3dEZ1FCSllrcU43ZVFhbFNPRjF2eGc?oc=5": {
@@ -8218,6 +8308,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.fortune.com",
       "rationale": "Fortune reports that legal experts say the ads violate 'publicity and propaganda' laws. The expert opinion is analysis, but the underlying fact\u2014that ads were released and are taxpayer-funded\u2014is confirmed. This is a real occurrence matching the signal definition. Severity remains 2 pending a binding legal determination.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZFhpZm9MbjRCeDJFazk5M0R0a2p4VWZBWndSd0RVU0ZJUlpZVkxtREhFaDdTUkFFQ2xrTzFRMWtHekJmQl9UT0dIX3dOcWFpekV0NjMtVkxNMHh3ODA1cGExUC1ZZmlXTjJ4SUtBNlFhRVgwMzVuMHB6ZG52N0hUbTVVMA?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.nytimes.com/",
+      "rationale": "Report confirms that Trump does not plan to reimburse taxpayers for promotional ads already aired. This documents that public funds were spent on promotional content without reimbursement, meeting the signal definition of appropriated public money spent on communications promoting the officeholder.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbDA4QjNWZ3NObjRSaWpwSGM0MlI0eUROLTFEdGwzNnpxcGpVZDBYZ0NWWDBTaUdtTXhibXFaWlQ1U0paUk1oWVNuNHZwdThBZUVOdzU3MFVtWUgxMkgxWEdsdmxVRTMxVDJpOUUxaFJ4aWpQRHNTbjhHaGNva1p2LTk0cw?oc=5": {
@@ -8440,6 +8540,16 @@
       "rationale": "Daily Caller reports a GOP Senator blocking a resolution denouncing Trump's taxpayer-funded ads. The headline confirms taxpayer-funded ads exist and a senator acted to prevent formal criticism of them. This is a documented real event with a specific political response. Severity 2: confirmed real occurrence with documented response.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNTFHeWlYelVwTXJzMndzQTNDQjJsSFYzYkRpX1FpOG91Ri1jX2hyVXpLOV96NWZJakViTGN0X0tkU1RyVlRxeTdXYUZlM0hlRV9MQTQ4c2Nza1JfNHR0aHNGWXp6SUZvOGl3bzhqUEJXS3djLVFTNnR6ajNwb2hOUWcxSmdZbWNSSXh2b050MlZOTjZuRDJNQ2ZWOU8?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.jconline.com/",
+      "rationale": "While the headline is framed as commentary/opinion by Lorraine Ali, the underlying factual claim is that taxpayer-funded ads glorifying Trump were aired. The commentary layer does not negate that the event (public funds spent on promotional ads) occurred. The rationale references ads that were paid for by taxpayers.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRDJmMmpVX1JuTWZWMlRuM3BVMXhSSVV2R1FCaEE2RUZaZ3kwUVJhOGVsSlBSUUlDU1VHdURlVWR5V2p0VlJQVHJFSUtjREZYYlQ2Qnk1aW90MlBUSkJQb0NDcjJic1R5ellzWDAyOFV5ZGlJRHNoWkpfMDRHZTZzSmp3RHNWS3dmVENWdE80VS03dWlvN2swVldMUG4?oc=5": {
       "actor": "N/A",
       "confidence": 0.95,
@@ -8490,6 +8600,16 @@
       "rationale": "FactCheck.org reporting on expert criticism of the White House's defense is commentary and analysis, not evidence of a new spending action itself. The article refers back to the underlying spending (items 0, 1), but this item is a downstream editorial response questioning a justification, not an independent confirmation of the event. Treat as secondary commentary.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOGtjQ1hqT2V3T3kyQ1Nrb2JvaHlVcnNxMnZkNmJUbWlzdmRxam5fRGFZTUtlSTd0U3BjMTBnckZNbXZlQTJPVGh5cmIzVXd5Y2Zmbl9RTm14Ui1Jc0F2Y0t5OUxPd1BRUElJOWhzYkhyZGdUSzJ2Y0xNczN5RFpMTHhpQm1YUWlGQWJGTEJqTklKZWhIc0ZrbXRqMlU2dVZ5?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.7,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.thedailybeast.com/",
+      "rationale": "While the framing is inflammatory, the report documents that taxpayer funds were spent on propaganda-style ads promoting Trump. The 'new insult' framing indicates ads were already aired using public money. The event\u2014public funds for political promotion\u2014is confirmed.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaUxkVVp3NmhncEhjanp2UVZKX2g0RFp4MVVUVXZwQ3FQVlNaMThQcHEyQ29BampLUHFDTl9CVm9HV2hBbzBMRzhMeUh3akxwSlQ3OEo5bGN2Q1FRd0pPbkI2YTV5M0JRVms1NnZHMjVXTUc5V0FGeThBbmhSbXN2N1g3TzVKNVVCdXhpM2JUTnNINVFfWXkyTmdtSFlMYkl5?oc=5": {
       "actor": "Trump campaign / Trump administration",
       "confidence": 0.69,
@@ -8528,6 +8648,16 @@
       "matches_signal": true,
       "primary_source_url": "https://koat.com",
       "rationale": "News report asking whether ads are genuine public service announcements or propaganda. The framing presupposes that ads exist and are taxpayer-funded. Expert commentary on the character of the ads confirms the underlying spending occurred. The debate over whether they are PSAs or propaganda does not negate that spending of public funds on Trump-promotional material has occurred. Severity 2: confirmed spending on material designed to promote the officeholder, material but not yet judicially resolved.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxObklBaklSS0I2ekdxcHlUc3JXOS01VlJRc3A2Q0UwaEtJRmV5blJ3Y004aE1lN3JDN29OQm5Ob2pLTktKVFBtcjdYRXY3UFprMXNOYWZiS25CUHhnbzFkRHVqd19kQm5FcG5pOFBHYmRLM01PalpvT0E0WFhicVhia0FQenRSYVg0RjdHXzF6dTRzMGY1OHJCeUhrMHhWemZ5cnc0?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.74,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.peoplesworld.org/",
+      "rationale": "Report documents that a campaign ad ('God made Trump') produced bipartisan criticism, indicating it aired and was funded. The ad is characterized as controversial and promotional in nature, confirming public resources were allocated for campaign-style promotion.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTko1SWMwRlo3T2thSmI3TWxJXzJWME5FOHFjczVPdzVER3VsaUZMNUM5MUpGRE03a0NiZkNVWkVXSEdta2V5M2ZWZ3NRRzVaMGFGd1pFR0praXJSYjZheDhzcVowa1Rnanl6MEdKMjdzX0JiN0x6X2lvTFZqN016cFNYSW8xUE52SlBCcEZfM2JnUlhJTkNvd3ZjVXNmR3NNUm1wOA?oc=5": {
@@ -8680,6 +8810,16 @@
       "rationale": "The Korea Times is a South Korean news outlet. Although it reports the U.S. event accurately, its origin outside the U.S. and its summary date (2026-09-30) suggest it is a reprint or downstream report of U.S. news rather than an original investigation. The U.S. domestic event is confirmed, but this source is not independent verification; mark is_us_domestic=false to reflect the source, severity 0 to avoid double-counting.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTlotbGxwb2RiRTVnLVVRbmRkdEs2TUJIQTdDTWtPT0VGSkZoQWt5UThGSFhiVENQNFlZWkZrN2k1eWhkNnZKVi1YcGZWelZhOWZrdkpOelNRdjBLY3JMbTFPNmloZzk4SW9YUzNfWkthZVJ3NXllTUctS1BVdEJJSHh3WlpjbGxhS0p1YXlSQW45d2JZMGJnV1VXZ1h4TURwZ0RiSE83Nm05M2sxTlFNYnZVNG9WLW1ybkZJ?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.nbcnews.com/",
+      "rationale": "Report confirms taxpayer dollars were used for TV ads promoting Trump before the announced policy shift. The headline indicates 'after bipartisan criticism' the practice will stop, confirming it had already occurred and was material enough to trigger official response.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNENHWVRaZnZSc1V2anl5Zk8xRzdwRXZmbmE3V1AyelZzOWVDUlZYejdveDh3Rl9mN0N0Vm1ncDVYbm9TUW9kTThZTlRac1g4YTRWVHZqS3djRjR2U1h0SVJzX0RrZzV0QVFaSnl6VXV4ckR2Vi1CbXhES1VSMVNNcWRSeDRVbzJSVEtZV0xuWHgyNDFqT1EtQ3ktY0ZOVUdLRDFiU1c3cGVnOFJ4MVhTRkstQWdVRVZndGNQcA?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.7,
@@ -8720,6 +8860,16 @@
       "rationale": "NBC reports that the White House is using taxpayer money to run ads promoting Trump. Asks whether it is legal (indicating doubt). Confirms the factual event: public funds are being spent on partisan promotional ads. This is a real occurrence matching the signal.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMkRrN1d1akpKUlJqanZ3djJVLUNZS1lsS1lvMHR4eUI5c1JtM0Z6SUtEdGp0aV94UUpYdHJvemNQUkMyTlZlakxpaXV2MGF4dFZLV2FhY2FicXFTRFVNa3luNkVtc2MzdV9EZFIwaTlyUlphMk1ONTAxSGkwM045UVlyQl9MWmtZeTdraHJLX3RYemJ0VG9XeXp1b2NTVlVZblhmbkNxTmtYVjlLS0p5Q1FTd25pMzZ4YmlvV0lpUlZQZw?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.76,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.washingtonpost.com/",
+      "rationale": "Report states Trump 'reverses course,' implying campaign-style ads using taxpayer money had been running. The reversal announcement acknowledges that taxpayer funds were previously used for promotional advertising. This confirms the event occurred prior to the announced policy change.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdldtRjU5d2d6OXFFQ09WUWlmNzNNQk9IdDV2bndEdGdkX2huallpOFVTQkhFRXBpQlhlTTU0NDRBa0laODdXVEl3eGt0ODVDNUJKTXhiSFBZZDZvNVNTU0laSUtES0c2VE14S3Z2cFRUVE1uX0pOSzBHMHVsWVE0REJpNW9QUi13Tk1qZTNLYXF5WXBQNW1VR2oza29jTmdHQ01mXzlwVnhqR0c5R21qaXYyM2UxdFc0dlZJdDlsUWRJQQ?oc=5": {
       "actor": "Trump Administration / White House",
       "confidence": 0.85,
@@ -8730,6 +8880,16 @@
       "rationale": "Reuters reports Trump government ads draw scrutiny weeks before midterm elections. Confirms the real occurrence of government-funded promotional advertising. Severity 2: confirmed repeated action under scrutiny, but no binding legal instrument (court order, GAO determination, OLC opinion) has yet issued to elevate to severity 3.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOU1SQmZ5aE1RZ2E2a0Ntd2h3amJzZVJuTjFSSHRzQk81cWlpbTZmTUpkN3BBZWVIN1dPVDJwOEQzOGRGT1ZDdm5ObkNEVUMtbnVuR0k0RFJfMzYyY2s1YW9QZnI5MUFJZ2k1MFRDdDdTLUFnb2xoRWVvbGFkOEgybmJQVkh5TlU5eUYzdTE1VG5JcFpJZjIxTnR1VGhLcU13NERma1Z3NGpPMHdOVnZwVkNmbUJWMzBEM0V3MDR2cDhKNkE?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.81,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.inkl.com/",
+      "rationale": "Report documents that Trump promised to repay but the White House says he will not repay millions already spent on ads. This confirms that public funds were expended on promotional content and will not be reimbursed, directly meeting the signal definition of appropriated public money spent on political promotion without reimbursement.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbVJNTUg2dXVtRENwNV9jRE93bW9rdFluQUQzZVJ6eVhtRm45amFFYkl0eHJfTVEyNWplN1lSeXhEWG9EYmgxUGE3R3dmTEpiaEZrZFNoUXdSaElKRTNFNTVmb1lpSVdteGFnUmd0TEM4NDJRWWt6aFJTTU03SzI4ejVidnFvbGZ5T1RmaXBHd05Zb2x4MGNhYXZLTllYem4ybEYtQ1FBR2JYOEs2a0VhV3Z1MmVJRzBUdzZvTHRLSDF1b0lz?oc=5": {
       "actor": "Trump Administration / White House",
       "confidence": 0.85,
@@ -8738,6 +8898,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.forbes.com",
       "rationale": "Forbes reports the ads could violate certain laws. The legal analysis is commentary, but the underlying fact of the ads' release and taxpayer funding is confirmed as a real occurrence matching the signal.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMixANBVV95cUxPSkdwQTcwRU95TFVXMnVLd3J2bUlQNG5VOG1rWmJEd2xsdGx1S20yb3l4c051MWU2R080ZGxnRlpoZnZjdHB1TGxjVzc5bDhBak93QUh1MzZwU2tJMnF2U19YVWdYZDFCVWJtWEg0WmYyWW4tRFpwSmRNRE1UZTZTc1FncDBjSTVTNnZ1TW5uallyRFIyc2tJcVFqRThaS0ZZVlF6aml1XzJOS0xOb3NnMDJ3ZDRuaG0zeFA0Y3dsSEdnM0pIQk1oYUNROTNXT24tMTBaNlF2OUdtXzgzOGRYWlFWdVgtaUg1QzNEelRuWnFoSVV5RDI3RGFtM1Fmdlg5ekx3Qi03TXUzOHpObHFpV2pfU2ZHS1ZrUWtkUTJNcURCSVZETnR4U0JhVDBsYUllUm04QzNFUzhnU0JDaTNxdzQ3RXg0SktYaTJVbHhWZTJPNXRNSmhaU3Z5ekJnTW1xa0pkWS1QTzZsSkFnWkVNUlpWSWx6NlpuMmNnSFk0cmpCcVRtOUFLVWNiU2ppWTN3YTduT05BM0plcjdYOE5kNTFHc3R5T3A0U1ZrZlhEczlGUmVXbm9VZ3dFUWthRnQtcE9rdA?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.8,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.sierrasuntimes.com/",
+      "rationale": "California Attorney General's demand for federal investigation confirms that taxpayer-funded political ads promoting Trump were aired. The official demand for investigation is predicated on a real event: the existence of ads characterized as propaganda paid from public funds. This is a credible institutional response to documented public-fund misuse.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTU1SUEQwVzVmQ0xWNU9JZVl2eTZaNTJtM3F3NWptcnVJcHg5MkFqQTlUaGhnRF9xZHVZX0lIYkgtVkhtS1l2NlI0bHdFSDBEcnpEYUo3b0Z4WEZuc2pJNUI5Q2N1aGl0VFJTSFVycVVmOHJFb0RQT0JjWHRNVE9Cdzg3MmRrcGdxSnRsSzd6R25UTm5IajRta0tGRkxUUW4xVlc4eThvVkZ3ajJMZXpMYkRvYnV2SUdCcUJnNzdjOXBOY0U2Z1FJ?oc=5": {
@@ -9686,6 +9856,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/10/06/2026-20470/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
       "rationale": "This is a routine Paperwork Reduction Act notice requesting public comment on an extension of an existing information collection. It is a standard administrative process for data collection metrics related to patent and trademark resource centers. There is no interference with statistical agency integrity, no removal of leadership, no methodology change outside normal procedures, and no suspension or withholding of data releases. This is normal agency operations.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/07/2026-20495/agency-information-collection-activities-notice-and-request-for-comment-consumer-complaint": {
+      "actor": "NHTSA",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/07/2026-20495/agency-information-collection-activities-notice-and-request-for-comment-consumer-complaint",
+      "rationale": "This is a routine notice by NHTSA requesting OMB approval to reinstate a previously approved information collection on consumer complaints. The item concerns NHTSA (transportation safety), not a statistical agency (BLS, BEA, Census Bureau). It describes a standard procedural step (notice-and-comment for information collection renewal), not political interference with statistical leadership, methodology changes outside normal process, or data release suspension. The reinstatement of a data collection following normal administrative procedure does not constitute interference with statistical agency integrity.",
       "severity": 0
     }
   }
