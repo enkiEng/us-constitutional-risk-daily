@@ -304,6 +304,16 @@
     }
   },
   "court_order_noncompliance": {
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rYVBfRWJuYnk2OTdEOW1EOVRfTkR0Y21QSkEyYXY5UW1uVmJaYnlvSG8xS2V3a0V0S1h6N3lXYmJSNHdRQkd2X21HaG5RUDBxeWpSY3oyZ2dLckhxUkFhdDlMUG1WV2l6Szhr?oc=5": {
+      "actor": "Immigration and Customs Enforcement (ICE)",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.davisvanguard.org/",
+      "rationale": "Civil rights groups are alleging that ICE has defied a court detention order from San Francisco. This is a credible mention of alleged executive noncompliance with a judicial order, reported by a legitimate news outlet. The allegation itself indicates a real potential stress event (an agency allegedly flouting court authority), though the use of 'allegedly' and the fact that this is framed as groups seeking enforcement (rather than confirmed defiance) places it at severity 2\u2014a credible but contested signal requiring verification through enforcement proceedings.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YRlIzd2xXdXRFMC1zTE5VV2JsWXlvNl8yNW92TndrY0hPRndzUHNjZUJVTDE3b3MyTUdOSjNHOUdPVERMMVNIaFZPT2J4dTRPR2czT1o4TzJoMl9mRGxqUnhhS1pDbHNnc3ZRTF9wanh4R2Vi?oc=5": {
       "actor": "USPS (alleged)",
       "confidence": 0.05,
@@ -433,6 +443,16 @@
       "primary_source_url": "",
       "rationale": "This is a headline from a partisan news source making claims about a judge allegedly trying to defy a Supreme Court decision. The item contains no verifiable facts, no court docket reference, no specific ruling cited, and no evidence that any actual defiance occurred or was attempted. It reads as opinion/allegation rather than reporting of a confirmed event. The headline itself is speculative (tries to defy). No credible evidence of actual court order noncompliance.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMizwFBVV95cUxQODV1SUZKT0h5Zk5VU3VsTzFkdDFia0FrOWxZS05qc3hkNGZMeF8tZ0dLUXNJVk5kS0dLR25Vbzl1blhzYkJuaTdNWFNaVV9xUkd0ZXljWHlac1AxWjd1a01lOEtDUlJ0THNlVHVRSXNxbTd5TXJMcXhqWmNKMjVPdm56b3J0Y0tnT3ZrNmFIRXFTbjh4czFvOTBZeXlRMTNMYUxueGl3dVFPaUl1LTZFUDFnQi1QVHlodGdfRTZ5a1J4WGE2alhuUFNFeXpHUDA?oc=5": {
+      "actor": "Federal Bureau of Prisons (BOP)",
+      "confidence": 0.6,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.govexec.com/",
+      "rationale": "A union is demanding that federal prison leaders be held in contempt for allegedly 'openly defying' a court order. This is a reported signal of executive noncompliance with judicial authority. The framing as a demand for contempt proceedings (rather than a confirmed court finding of defiance) and the reliance on union allegations rather than court-confirmed facts place this at severity 2\u2014a credible stress signal that has been raised by a legitimate third party but not yet adjudicated.",
+      "severity": 2
     },
     "https://www.courtlistener.com/docket/67935987/505/united-states-v-bock/": {
       "actor": "Aimee Marie Bock and USCIS (parties)",
@@ -3025,6 +3045,36 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74907791/6/1/salmeron-v-secretary-of-the-us-department-of-homeland-security/",
       "rationale": "This is a docket entry for a pending motion for temporary restraining order and preliminary injunction. The case caption and availability of a whistleblower letter and declarations suggest a claim of some wrongdoing, but the document itself is a filed motion requesting relief, not evidence that a retaliatory action has occurred or that watchdog functions have been compromised. A motion is a request for a court to act; it is not itself proof of the underlying alleged harm. Without access to the full complaint, declarations, and factual record, it is impossible to determine whether any actual retaliation against an IG or anti-corruption function has verifiably taken place. A filed lawsuit alleging retaliation is not the same as confirmed retaliation having occurred.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74912838/1/visalli-v-internal-revenue-service/": {
+      "actor": "Brian J Visalli",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74912838/1/visalli-v-internal-revenue-service/",
+      "rationale": "This is a civil complaint filed by an individual against the IRS. The docket summary provides no information suggesting this involves retaliation against an Inspector General or watchdog function. Without access to the full complaint, it cannot be determined whether this relates to the IG retaliation signal. The mere filing of a complaint against the IRS does not establish retaliatory action against anti-corruption monitoring.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74930038/1/1/pharmaceutical-research-and-manufacturers-of-america-v-kennedy-jr/": {
+      "actor": "Pharmaceutical Research and Manufacturers of America",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74930038/1/1/pharmaceutical-research-and-manufacturers-of-america-v-kennedy-jr/",
+      "rationale": "This is a civil complaint filed by a private trade association against executive officials and agencies. The mere filing of a lawsuit by a private party against government officials is not evidence of Inspector General retaliation or retaliatory action against watchdog functions. The complaint does not establish that any retaliatory action against an IG or corruption-monitoring body has occurred. Without access to the full complaint text and substance, and based solely on the docket header, this appears to be routine litigation and does not constitute the signal event.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74931142/3/gray-v-kelly-government-solutions/": {
+      "actor": "Nicole Anastasia Gray",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74931142/3/gray-v-kelly-government-solutions/",
+      "rationale": "This is a civil employment complaint (EEOC-related filing) by an individual against contractors and State Department officials. The docket summary does not indicate any action targeting an Inspector General, watchdog body, or anti-corruption monitoring function. This appears to be an employment discrimination or personnel matter and does not match the IG retaliation signal.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -3570,6 +3620,16 @@
       "rationale": "This article concerns Gambia, a West African nation. The signal tracks judicial-review foreclosure in the United States. The item is non-U.S. and therefore irrelevant to this dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT2YzVVRTMWRQblNrazk4WXhCYkU3UEFyNUhjWHdUNXlFblhoLVhiMzNVdXUzbnMxbEg3MDZQNW9PYkczLTFHRXhUa0lqNENlSXp2bXRDU29tOF9BUGttazI2VHlkMnJLOFRMTG9JbjkyNC1Sa0xtYXVWR1lTclZUdVlvanJaREVqd0o3Q21DdmRaSk1xSlJQUEln0gFWQVVfeXFMT25Lc3N1WG0tQ0tkaTJVWC14SjBwcFJyQWxvdFFZWDRFa2R2YnYwWUZsc1RkQVMzeVg0RmRDOTd3MlE2ai1tdjNZdlRseTlfcUtsOWpRSFE?oc=5": {
+      "actor": "Court (jurisdiction unspecified)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.law360.com/",
+      "rationale": "A routine dismissal motion or procedural order regarding administrative rules does not constitute judicial review foreclosure under the signal definition. The headline indicates a challenge was dismissed, but without access to the full opinion, there is no evidence that the dismissal was on threshold grounds (standing, justiciability) rather than on the merits or other grounds. A single dismissal of one administrative challenge is not a structural foreclosure of judicial review. This is a normal exercise of the judiciary, not a closure of review mechanisms.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMimwFBVV95cUxOODVNNmxGTjRSeWFaemwxY05WcmYzak9DR3F0WjhNNVNVQVh1U0FRMGM2VTB3V0o4c0FUeW1RYXJwS21ETUkxUWt2STZSeHdaeHlGc1dQWW9XRlRTb2F3SlhlMDE2OWRBUU5IdjBtX0psNVh1bmlmNTZZR3ZKQWNKRzJ3a0NFSm5Ib0M2Sk1SUjlGZkM4SE4yOHpRRdIBVkFVX3lxTE5TejM1VWlyX09wT3JtN0xuVHpoMk1nNnI2YnhDNFU3ejlUYVNnZi11RTBZWXBray1uT0dyTjl3dFg1dmpra1hGVnNWM3B0cENlQnhJMEJn?oc=5": {
       "actor": "Minnesota Attorney General",
       "confidence": 0.92,
@@ -3608,6 +3668,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Same as [0] and [1]. Construction permitting decision does not relate to closure of judicial review on threshold grounds. No signal present.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObmlUY0NpTWRhZWNFeDZ2QmFqTUhKOThxajdjcHlCanBVUHNPVkxxZW1RWFlJVWpzb0pOV1NKeko4VS1ZU2lpZUhaRDJxRUVjSzJnU3FHZjgwSy1fdlhUNHY2TXIwd2NQcEFMVFJQalM4WVowMUJ2bndzSThmUEhrR2F0X1BZQjhQNjhVTWFwVWNaZkQzR2dLaWg1d2lrLXNkTVRqSHBrMFY1QdIBrwFBVV95cUxPQzBROEtaV3U4SUUyeEdWRGUyWWtpSTMySEI3VDVDZlh6cFNZVXRRTEFDQUY4MjB2S2E4ZUliS0Z1aGlqaDFOZXljSFBDTzl0UEpMVkE2V2RpVXE1OGU2dmJyVHMwSzVCTmVHVlVvT3AycGZlU3FFQ1lfSzNoT1FnTzdTZnJsWHFrcjVCWFFKbXR5VFlkZEtaY3dRNkhoNVBfTVpmRWlVTGg4MEstYVdV?oc=5": {
+      "actor": "OCC (Office of the Comptroller of the Currency)",
+      "confidence": 0.96,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.natlawreview.com/",
+      "rationale": "A motion to dismiss is a request or proposal, not an accomplished action that forecloses review. A threshold motion, even if successful, is part of normal litigation and judicial gatekeeping, not evidence of a structural foreclosure of judicial review. Unless the motion was granted on grounds that systematically prevent any plaintiff from ever testing a government action's legality, and that dismissal itself is confirmed in a published order, this is a routine procedural step. A motion filed by OCC does not constitute a verifiable event that review has been foreclosed.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcFBfSWluVWpfOUhWb01qTnZBT0FKbjBZYmlHQ1hvclRmOTBJZE1salA3dDhxb3BJMGtSTmdNeHp0Wm4ydTZaNDJXdGdaWjJQQ1dJZi1tbDBYa3V4Zm83c0xLeVJxZGtBZVZlaDViU1RKWGZBTUxGS0R0Uk5sOFFpUWgwWXBvVGRVT1JGNEFQMFlRNHFLWHQ1SzlLWDRvNS1TTW5CTTlOdFdNZUtHSHc0?oc=5": {
@@ -3740,6 +3810,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.damemagazine.com",
       "rationale": "This is opinion/analysis commentary about proposed congressional powers, not evidence that jurisdiction stripping has actually occurred. The headline frames this as prescriptive ('how Congress can') rather than describing a real action taken. Without access to the full text, the summary alone indicates this is editorial or analytical piece discussing hypothetical legislative options, not documentation of an actual effort to remove court review or a real change in legal authority. No verifiable constitutional-stress event is demonstrated.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTmFlLXB5Zk1MM0JqVGV1TEN5NHBidE10b1c0azU0NFhuMm0xZE1uaUgzZkRXUndWT2lveEd5WlpKa2tsYlFyVXdDR05iVFpDWGJGNFR6NzgydWtMSmdUZjBnMUhtU09lRzdySm9rbENfRVFtdWpuZThRVzZ6dFhKLThFTGdtcm1zUF9uc3A2cXVLd9IBlwFBVV95cUxPSzdCTGdJVkJBbWFPRmFZSUJoLUQ5M1c4emozYXFSUERzTUV3OXNaYjVVNmNDRTBIdkl3MHVudG90N3M1Z2tfeXNhcGIwLVRFNmRXQkFXT1Z2ajZQYXNQdFpHb3dZSXdOdmI5TV9LcTVkdTZJZDFIUkMxc1JjckI2X01MM3ZkNFlIbThmSnRUTGduMWFXdFhR?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an opinion/analysis piece in Dame Magazine with a speculative or retrospective title. The summary provided contains no concrete evidence of a targeted jurisdiction-stripping action\u2014no court review has been removed, no official action to strip judicial authority over constitutional disputes is described, and no verifiable occurrence of the signal event is evident. Without access to the full article text, the title alone suggests commentary on campaign finance rather than evidence of court jurisdiction removal. This is scored as no material signal.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcjI3OUNYUEtMR3lEeDVaZUVDM1lISGktalNDNWhzTDBXUGdJTTNzaS1NMWZZZzBVdHk2dnBGaTBGUk1IendvYWo3MVQyeGUzaWVBQTljaXZkLVlfNm9FR0w0dGhjM3YwbmN0cmNtV2NLeV91OWJEVFJ3MjZBdWdRSURDYjdaTHhiZXhRQUJaZFUxTU3SAZMBQVVfeXFMTnIyNzlDWFBLTEd5RHg1WmVFQzNZSEhpLWpTQzVoc0wwV1BnSU0zc2ktTTFmWWcwVXR5NnZwRmkwRlJNSHp3b2FqNzFUMnhlM2llQUE5Y2l2ZC1ZXzZvRUdMNHRoYzN2MG5jdHJjbVdjS3lfdTliRFRSdzI2QXVnUUlEQ2I3Wkx4YmV4UUFCWmRVMU1N?oc=5": {
@@ -4232,6 +4312,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.thewellnews.com/",
       "rationale": "This is a Supreme Court term preview, which is prospective analysis and commentary about upcoming cases, not evidence of an actual legislative bypass or executive action that has occurred. Previews are not real events and do not constitute evidence of constitutional stress signals.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOXNpZUdxS2pTT3VhblBfZlVnQXpaVnZBRVE2U01fYkNTVlN0VXdVTm1fYm9zblRoQlpmRjBUY0hLTnJpNm5PU3JYQWRHc0JJWXBLcVd6Vm9UUW1TWDRhUXVsWDAyMjhhMDN3enhmXy1NR0lJbm5IUk9CZFF3MGs4Z2hHOU1nbFpLRk5LVVlB?oc=5": {
+      "actor": "Gavin Newsom",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a political call or proposal by Gavin Newsom to invoke the 25th Amendment against Trump in response to remarks about California. Invoking the 25th Amendment is a formal constitutional process requiring action by the Vice President and Cabinet (or Congress), not a unilateral executive action that bypasses statute. More critically, the item reports a call or statement by Newsom\u2014a proposal or opinion that the 25th Amendment should be used\u2014not an actual executive action or bypass of legislative authority. No constitutional-stress event has occurred; this is political commentary or a proposed remedy, not evidence of legislative bypass by executive action. The signal requires evidence of major governance actions actually shifted from statute to unilateral executive action, not calls for constitutional remedies.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxPY0dCdjNjRkJsUGdDazg1YS1HOTZtNVBrQmlzT2NIYmNXVGN1cWNtOE9GSGlrRklxUFM0UDFCWjJDQXRxV2diM3BlNmdRVnQ0UEZjeERRSnZ4MDVjdUQ4U3docjhxNXNVNjNMZFUzVldVbG5NTm1qb1JkNjlZN084UVhKSF92eGlEeU9WM2tR?oc=5": {
@@ -5306,6 +5396,16 @@
       "matches_signal": false,
       "primary_source_url": "\u0441\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
       "rationale": "This item concerns a routine constitutional question about weapons regulations and park bans\u2014a standard judicial review matter. It contains no rhetoric, policy, or action involving military governance, martial law, or military management of political disputes. The signal is not implicated.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPQ2RoZ2VnTUZWRHl4Z1ZMX2tzN291UTN2ZW9EUkdfMnhrX1Bxbk9MSDhvaFdMdDBLTUtDQ1NuLWdqM3h5ZlZXWFJJOHA3eXlCNGVsSGh0dWZfX0NYWUJZQ2YxRGVIMTRGSlRyd2E3b3E0VVF4b0FvWTRiaVpJYVZvdUZxSXZNdXhVTFhaUC1CNTlSclZCVTYwTHN3U0c3eXFSX2xHcEFWeHhpU1lSSEVLRXJwX1JFXzdnaVhKbGdpQUtfR01GQkhSSWtnYzlyYl9iTUpyYlBsTnd2SW1FSjVrSUxjdXpiMGNXblZpNUJIYmxTTGZyU3c?oc=5": {
+      "actor": "Ukrainian Parliament (Rada)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item reports a Ukrainian legislative proposal about state property tenant protections. It is not a U.S. domestic event and contains no evidence of martial law, military governance, or military management of political disputes in the United States. The signal concerns U.S. constitutional stress; this item concerns Ukrainian property law. Non-U.S. content is out of scope.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJem01NnZsSVNBcTBmeTYxOGxMY2hfeXpkOXdhMnFKUzA3TGpJTXJGaHRhWG1CaTB0ZndUczBNUl9ZeGwtYVAyekdhQTd6aWIwS1g4?oc=5": {
@@ -8340,6 +8440,16 @@
       "rationale": "CNN reports the White House aired a government-funded ad with Trump's 'final battle' warning. Confirms the factual occurrence of taxpayer-funded partisan messaging.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVG9tdURNX1phcXl2em1hczk5MUloMzF0M29FcmhvZWl6N0R6TW5lSWFvVTM3VVNPaC1qLTlGYlhBTEdvV2I4aEFDRXZXeHRxZEtwb1oxTEo5cm5sOXZmQkZxRmQ0aHJNTjdUZmtTV1dVcXhMOXlRMHdoX0lRMi1lUlZCcjU?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.73,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.cbc.ca",
+      "rationale": "CBC reports the Trump administration faces 2 lawsuits related to taxpayer-funded ads. This confirms multiple legal filings and the underlying allegation of misuse of public funds for political advertising. Severity 2: lawsuits are responsive mechanism, not confirmed violation.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMihAJBVV95cUxPSm5yczhwWE02TUJzV05DMkpDeUFkY1FLcTZGcVVIUi1pRUhkT1E2a2tDQkZpdGlDZ2lIZXZ2ZjZXRDk2ZlJYNkNBWVRoaXJIRGtlNHhfWHRYaFd0cXZqUUhHckVZOTZxUG45RnJjemdlUVRZY3lTbWx3MWhIc2hNQzlOZ3JTeGhWX0JBT2ZPWjBsY25JSDlKTm94aWdhZ0ZoRG9CdTRmOE5qa1R0cDZDZlVfRWI4dlRvZHhkQjFnSWRaampuYTNtOWdCVGpmN01IOXRVNHdrbm5BYVVpNWdTbzJwX1Zzd0todjh4TnpjSklQeEJCZ2dpWFNkVkc1bUdqQ2RmbQ?oc=5": {
       "actor": "Trump Administration / White House",
       "confidence": 0.85,
@@ -8439,6 +8549,26 @@
       "primary_source_url": "https://americanpress.com",
       "rationale": "This is a column\u2014commentary and opinion analysis about the spending, not a primary report establishing that the spending occurred. While it references the same underlying situation as item [0], it is punditry rather than evidence of the event itself. Treated as secondary analysis about an alleged act rather than confirmation of the act.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxObjVNMGNGeHdjbllaZzlrSXdvcHQtd1Q0QjBacjNqeU0yZDNVQXlmNG9KbzkwQUgzNjNtNVJua01WSEh4dGJMbHEyN1l0SmVLb01XUGZmZ0VRUHlEVTJXYVRrRkRvd1lDQUFIS2lFNFROQXl4YXhiOXUwc0x0UVhFNGwtdC0tRzhnMXJ1Qw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.74,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.lawcommentary.com",
+      "rationale": "Law Commentary reports DNC suing Trump over $20 million in taxpayer-funded political ads. The specific dollar amount suggests a substantive, documented allegation. This is a credible report of the lawsuit. Severity 2: lawsuit filed (event confirmed), but not yet adjudicated or officially confirmed by government.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMTJ2OE91UWpqaFN5WmlZdnZXcXA1R2ZCeXpnRjZVUjcwQWJfVzBOV2tXbjdYb0Z5OXpiLUE4czZFbnJ2NGRNQlp1NWRRZFNUd0tTRVdDSDZxMkJ0U29Xc0RVMUkxVjNkLWplQzZRVnZQTFpmWVlSeWlHS0d3TlB4cVFESmxaWFJmaHk1WEJEcw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.74,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.theguardian.com",
+      "rationale": "The Guardian reports Democrats suing to stop Trump from using taxpayer funds for self-promoting ads. This is consistent reporting of the same underlying lawsuit event. The signal is matched (allegation of taxpayer funds used for political/self-promotion), and the event (filing) occurred. Severity 2 because legal challenge, not judicial confirmation.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaExOZkZoSVU1M0NXeUhjUG5SM3gxaWxRWENuUTBfeUJwdERfazdDRmdJcFh2Q2lRMVVUUE8wRXRGTHlKMDRDX1I5dGZuVk1nbERHOENYQmZ3d19hbXlIM2xkbU1PYlJIQzJKQXJZM3BJd2FyeFRVWTVINjdIQU9hVWVxc0xPdFJDS0JRZHlpUQ?oc=5": {
       "actor": "Trump administration",
@@ -8559,6 +8689,16 @@
       "primary_source_url": "",
       "rationale": "The headline references a meltdown over propaganda ads but provides no specific documentation that public funds were actually appropriated and spent on partisan promotion. This appears to be commentary on alleged behavior rather than confirmation of misappropriation. No appropriation details, funding source, or agency authorization is cited.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ2xxbnJfejJCQ18yRUVSdDc2dUJ0M3o0Y195bU9vMnhWQk1MZzk0WFRJQVdPU2VpNDRueGI5R2g1T0lUcTBZZnRuNWRQTldCVk9uMVFYUHhrVHhTWjNWTHV0UldZX1ZyREMzMF9zeTZ0MVhKREFqaDBVREVuaFJmbnpPQkUwWWw1RmVJSTN0U2dzdkJERjZqQ1hiaDd0UQ?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.74,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.thefiscaltimes.com",
+      "rationale": "Fiscal Times reports Democrats suing to block Trump from using taxpayer funds for political ads. This is reporting on the lawsuits. Severity 2: lawsuit action confirmed, but no judgment or official confirmation.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMkVPMkt5RGJjRmN1eFdZSXM2cjJmSkx4ay01M2Fsb2pPWkRwc05YZUlkTWhfVTA4dl9SLXlTQTJMbEF0NXFUekVXczZybm81cXcyZTZqNFR4Tlg2WUZvXy0zLVpHM0Y4T1pQWE93Y19FcHU1YXlmR2tpNlRQLUQ0RkNMYXFxOFdWMEM3YUhqU1BrRU5WVWZ2UkNob0lUVXM?oc=5": {
       "actor": "Trump Administration",
@@ -8690,6 +8830,16 @@
       "rationale": "Report asking whether the ads are 'public service announcements or propaganda' and noting expert analysis. This frames the ads as real and subject to debate, corroborating their existence. The framing as 'propaganda?' rather than documented violation means this is more analytical/debating the nature of an alleged action. Corroborates event but adds limited new factual confirmation.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN3RVdVpHQ2tIX3NBbHpWVWZIWUM5NzllMmNiSVZvSERmNC1GS0pOSzlIdUVIUVRONjZnYV83elZOQmZzNm9Fb0dvVWI0eHdkWlJXLUpjSjEwWlJLNnpCU1puWXp5ZWxNbEVISG5KZEY5U3NsTkhvYXl0NmtyLW9DMFR0UXhtQVJTNE1LYnRpeUh4QWNCb2l4V1hZMmRtUlpDa2ZyQjkxTdIBrAFBVV95cUxNajZrNF8tVUZodGZLUlJDaXVEaGhleEUwWERQSW5rRUR1ZVhDbFl2WjFNaFA0ZW5BLU5LbjFyTGtmOHpnSjJBSTVYY0lUNmVuTmRGNTJVVHFxSFl2MGFJc2lXUkVSV3pOMXVrX0ROMnZIaDhMdnZrSVBOV01hV2o5QnQ4Snk5Zl9nYUFlX2tlRzhFWENRc1hkaWg3ckhBMS1ZT0ZHNE5BeGFvMnBD?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.76,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.upi.com",
+      "rationale": "UPI reports DNC sues Trump over use of government funds for political ads. High-credibility wire service. Lawsuit is real and matches signal. Severity 2: legal challenge exists, not yet adjudicated or officially confirmed by government.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDlpTmFNd1IwREdDeVNFcnVFSThEZ2xOazdOakxwdUVqczByekptNFFmeDRCelhmejhDRnF3TGZ5c3ZqWDNkSDA2TUZIZmsxUkJZTEY2OTV4Ukd5ZHVpMkNRVHY5aWhVcm13WkJZanFXZTg0cFEzZGp1V2M1SHdmbmhfZmJVUUVPdEgzUUdleVdJcFhTb0h0SkZRQ2NrREY1bXBFdGJNRdIBrAFBVV95cUxOU2hjZ3JITUlGaDB4TXZLSUVWNnp4TWdmdHp1emdFcC1YRTA1dGdxR2NCNHJKQlYyZ0RjZ1BrNWFjWFJrM1FSUGdrQmsyc3RsVUhNemI0OTZVeUIyd0s3dXFkQWIyRHRxUFpwWk9MTURrTExkN0kzNU04SFV4UUs3cGdJVFZSSGZlN0VNVDFwYUhvS0xOZUZQSF8zNTMza3VHcFdvTUZUWHdxZTR2?oc=5": {
       "actor": "Trump administration / Department of Homeland Security",
       "confidence": 0.7,
@@ -8718,6 +8868,16 @@
       "matches_signal": true,
       "primary_source_url": "https://abcnews.com",
       "rationale": "News report confirming that an administration aired TV advertisements promoting the officeholder using taxpayer funds. This constitutes spending of appropriated public money on communications that promote the officeholder rather than serve a public-information purpose, which directly matches the signal definition. The report itself treats this as a real occurrence (not hypothetical, opinion, or allegation), though the severity is moderate because this appears to be a discrete action that has been detected and is now subject to public scrutiny and potential legal challenge. No court order has been defied, no structural constitutional breakdown has occurred, but the alleged violation of the 1950s appropriations prohibition on 'publicity or propaganda purposes' is material.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYVA1OE80M3Z4YXNmczZRUHpqTHU0aV9TOV9qOEF2Q3VCbUIxblNoajZwUVlXTEJVaGtSd0RXY1hPbk9PX1lZb0NBb1FfZDNnenlmRUNhVTU1UjZwQkRtUzl2X1JubVBUeXkxRHZhejdUMlpyam0wcE16aVNoMFNxWDh4QVdUckc2elVBYVczUWl1TTUtejVNc295VVBhSmxmS0hFSXNLOUrSAa4BQVVfeXFMTjEtVkVGR1lseWczQ0pNbWxrSm9tcmdmVWVxc2V1RDVHS3hYVlFJNUJVUkk3SWJtekVBQnM2ZmZkVW81TGJ3N0dKWklOUXlHTnd0MVdXaEFpTGxMd1owU1Q4NXJLQk5PX0ZidDBxRmZqSmRFbDBCVjRGMnhNVC1NeWszd2FldjJCQ2JLeFY5ak9rVzhlQVZVWlcyckdya002a1o4ZVBVMW9nMVQtRV93?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.aljazeera.com",
+      "rationale": "Al Jazeera reports Americans oppose Trump's taxpayer-funded 'golden age' ads. The reporting assumes the ads exist and are funded by taxpayers. This is corroborating evidence of the underlying conduct (spending public funds on ads promoting Trump). Severity 2: public and media recognition of the conduct, but no official admission or court ruling.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMTVmV1N6Y2dyX0Z5TWtzdkphOVdIanA5eXpxNXVTOG9LWGFHelN2NEt5ZUMwUWZxNDdfZUh3UUFVWF9jNmdISzdINFRBMFNFZWw4b2VQa0xROG1RSGZlcno1dWd3RzhNWUllNzBXdVlPSjFBY3Q1M1E4Y3k1eHJYcVd1Tzc4b09mNTlHOHlRM3JXNlprcFJtRE5LZUhvVWdlQ2V4OFZ5OWU?oc=5": {
@@ -8750,6 +8910,16 @@
       "rationale": "Report that a federal official (Raskin) is seeking a federal probe into taxpayer-funded Trump ads. The existence of the ads and their taxpayer funding is the factual predicate of the article; the probe request presupposes that spending has occurred. This confirms the event occurred, though the probe is still being sought rather than concluded. Severity 2: the spending is real and material, but the action is not yet the subject of a court order or structural failure.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONFl0Zzg0aS1aZkRmamZUU1RaVHAxcEZpcEpaM0lHQUJsUEZyd3E2OEtXNURubTRGLWdSajFrOXFKdGxpWU00dGxRZDNXTzc1Sm0zcjdQSTFMeEVmVVE4S2VMcUVibnROcWhMVmUtdDgtRlk4RE53eUlDR0RiUTh0T0Y2c2VTd2VkN0U2Y2JZdkN2Qy1FTGNERi1XcWEtQV94UmpVSjBhcXRlSjTSAbABQVVfeXFMTUJDLXZRcmloVHFycGd1cVlycVV1VGNycHhUOWVMWnl0b2xFSWJHaFRENGU2NmRndi1RSW5hZy1oQlozc1NPMVV6QlRkWXRmQWpOa1BaQ1NSMml4TDNGSnpiaUx6c0lCQVdvVDlwaklOMXJYeVF1aGs2MUxvYkZvWmVRUjVPMU5PV3VQckRJem9FUzhaWnVseDlaWXlEM2dNMzZ5dW56WnRQQTM1b2phSGY?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.76,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.abcnews.com",
+      "rationale": "ABC News reports two lawsuits challenging Trump's taxpayer-funded ads and alleging violation of propaganda law. Credible source confirming multiple lawsuits. Severity 2: lawsuits are procedural challenges to the alleged conduct, not confirmed constitutional violation or government admission.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLUdXSVlRTkJ5U2IwRUhEakgwTi13NWsyUFJOcExGVF9aMFZfXzdKVUNIZEI4NlZ3WjhaNzNoVExTVTdkQ3N4bWdqRTR3c1pmTXdBaTZqeXY5c2U4LUdqNzdGX3JtMDhqbllKMFdCSFQ1ZlVTLUJrVmIzMkEwLUI3X1FfcVEwRGgwd0VkU1RUSlhpeExpSk54SjhwLUJVOVlhY0R3UUJ6ZE84ME8wLVE?oc=5": {
       "actor": "Trump administration / Customs and Border Protection",
       "confidence": 0.72,
@@ -8758,6 +8928,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.nbcnews.com",
       "rationale": "News report from NBC citing an official statement that pro-Trump TV ads were paid for with CBP money. This is a credible report of an actual spending action (not a proposal or hypothetical). The ads are election-adjacent ('pro-Trump') and funded by an appropriated agency account, matching the signal definition. However, without access to the full text of the ads or a government audit confirming prohibited partisan/campaign content (versus borderline public-information framing), severity is held at 2\u2014a repeated, credible stress signal of a real but as-yet-unconfirmed violation.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZkR6VTgxLWFFRUZOUGdWb1dqM0ZQYmRPb2drUHhHTW0wLVBHWWp4N1BRY1pXYjZtWUZURHk1dzhDVHUtanhjakc3RkxrWGhDcFpmaFduRVhmeEZJWWxVRVhlbTBrRS1Lb0RwbWg5ZHctM09KM0ZGQkpLTVYxOVpJcTgzTElxeGdyMkF1NHZ1bW5XbFhocTRtWVgzMjZkM0N2b2FwMV9UWmp0aWFkWlpZ?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.nbcnews.com",
+      "rationale": "NBC News reports the same DNC lawsuit alleging taxpayer-funded pro-Trump ads. This is a second independent credible source confirming a lawsuit was filed. The event (filing) occurred, and the allegation matches the signal. Severity remains 2 because the lawsuit is a challenge to an alleged violation, not a judicial or official confirmation of the violation itself.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTTZ6c1ZheWdCTTN1d1hKaGR2U2xxb1hZSV9HWDFueUNpU1U3NlBBcW84V0ZENVBfMy0tV2syam5MTlJFMmdvMFZ3N0c5bEZUdXhCWGxCRGd2Uk9fOGFiRW5tU2k2cEp2X2dKdkpZTUN5V1VNdDUtQUMwekJJbnRSS2lpVC13emZ4eU1uaEdtN1N6RWJvRHZ4V3hMN01TWWtOQWZaT2pqRnhib0JmekozZNIBtgFBVV95cUxQZUZWR1E1ZDdHMkR3Y2gxV213QWVTMjBRbUNxNzVWMkd3ak01TDB1X213VTl3RXNMM3lHdU1PaFp2cHphWF85V1NCMUtlbVZuRy1EX2JWY0N1M09QcVQ5ZVl2eFRaTHhXSEJtYjJVX1Bheld5ekRyaFZVZmtKNFNTUzBIZU1CSGZCVTZ0Z21mU0xmRVRJMS0zNUJpTVBreS0tUUNsUm5hbEsxcUo5U0w4QS1TeTFSZw?oc=5": {
@@ -8780,6 +8960,16 @@
       "rationale": "Washington Post reports that campaign-style ads use money meant for border security and memorials. This is a credible outlet with specific detail (source of funds identified as border security and memorial appropriations), confirming the signal's central element: appropriated public money spent on campaign-style personal promotion. This is concrete reporting of an identifiable action matching the signal. Multiple independent confirmations across outlets elevates credibility to level 2, but absence of official acknowledgment, GAO investigation result, or judicial determination prevents severity 3.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcmFTNnZQbDJuczJ6RnN0UHRXaDBZSHJ0UUhfYm54andsLVJWN3MtYTFHMERYZml4M3ZMNWQwLUZUVTRhSk1Ranh5eVpBYTBZYmJpOVlfOXd3S2FadjdhWTc3N0VpcEJ0LUxwWjZ3VjhlbUg5S2tZamVWV2xsY2NZTzRmVzRDenppWUpYTmFGQld6VDUwVk1WazBZVk5PUzZzQlJ6R2dEa3FXX183N29EMVgzMG7SAboBQVVfeXFMTUdZRVpqQ1l6dXN4ODF4ME42dEM2MEhZckJyU0VMd0xiWENEVFlyeXVvQ2hwV2NlaVZDX3VDLW5rdHNCN3FLOUEwdi10TGhfQzRxTnZsY1RHTlRuWk1NT095cm14cW5fWEJsZlVOcnpBeFFkWEhFYVVJSnhUeU5MT3BGRzROdU5uQjk1ZW1QTUdlWE1tOXhxN3UxdS0wc1JaeGxNTXhPOFljd1VJcE5vdWdWazZlNlVEVk1B?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.pbs.org",
+      "rationale": "DNC has filed a lawsuit alleging that taxpayer-funded ads promoting Trump constitute illegal propaganda under the 1950s appropriations law barring federal funds for publicity or propaganda. The lawsuit is a credible, verified action alleging the underlying signal event (use of public funds for partisan promotion). However, severity is 2, not higher, because: (1) the lawsuit is a legal challenge to an alleged violation, not confirmation by government or court that the violation occurred; (2) the lawsuit itself is the remedy mechanism, suggesting checks remain functional; (3) no court has yet ruled on the merits; (4) the suit alleges the conduct but does not confirm it has been judicially established.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX0x0S3ZPejJTS0RmOG1hd1lpcmFPUHI3SXUtTTZiLTZKWGNYUzI1Q2hyZThsUlRSSWNsb0Jtb3A3cHNzekNhVGp0X2pHRnpFSWVpRGl6V1FLVVZHS2dhcXRzMDhJekJ4N0hyT244SWhSbUZGR1hXZVlrRkNPcnlhblJCY3daUHVoWHhrX245RnJzaXV2N3JUR1BFM2oySG44azAxZEFBTzV1Rlc5NFVyc2JrbFY?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.65,
@@ -8788,6 +8978,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.thefiscaltimes.com",
       "rationale": "The Fiscal Times reports Democrats calling for a probe into federally funded pro-Trump ads. The framing presupposes that such ads exist and are federally funded. This is a credible secondary source reporting on the occurrence of the ads. The call for investigation confirms Democratic recognition of an actual event, not a hypothetical. Severity 2: credible stress signal of a real action.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZ2QzWGZCaVNUbFg0dS1OU2wzYVZLNm96ejc4Y0JEOVVGODhyRmsyQ2JObVdvM3RmOE9jZFBadVBrZmZrUWR4VU5HTFYwTkxzTW9Rb2U1Sjl2UTRQOF9sM0lyWVl0MWJGeVBZdk9BNE1FRlp2a3Bhd05VSmtuRnRZeHB5SDlsejZvRUJVQkhZbDFoMEZQNmZlWHpxTVc4a3d2SThSeDFhV2M2R0J0cldxSjdZQ3VKeHRz?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.77,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.reuters.com",
+      "rationale": "Reuters reports Democrats suing Trump to halt taxpayer-funded TV ads that praised him. Reuters is a high-credibility source. The lawsuit is a real event, and the allegation directly matches the signal (taxpayer funds for self-promoting ads). Severity 2: legal action taken, but no judicial ruling yet.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSUdHMWFBZGlGbmEydkhtMXFtV25XZlp6a0pUb00xclI2bi03cDczMGE2bXdQSks1Rm9jamZ1dUNibEpxdXE0Q2ZFd3RLTWxySWZaTmxqZlZ4SGkxei0xOENuVG9Wdy03THNMVmZaeXBNUjd1NkphNWtXbl95VHBkZE9yQ2MyXzhFeVk4dVphai14QmlDeGtCVHZ0R29LUkVtRV92YXRKcmxQYlNsWG8yRVdNU29IR0U3ZnpZ?oc=5": {
@@ -8828,6 +9028,26 @@
       "matches_signal": true,
       "primary_source_url": "https://www.cnsnews.com",
       "rationale": "Maryland lawmakers characterizing ads as 'egregious and utterly illegal.' Corroborates existence of the ads and legislative alarm at apparent misuse of public funds for partisan promotion. This is additional credible reporting of the same underlying event. Severity remains 2 as this is confirmed but contained action without documented structural failure or enforcement action.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd0JYcE5xRDByVTVGbTZ4YjJTYUliQlZySVVnUVdQRWZ5dmkzRjV2TXNHNDhlMDdFaEhYWlMwSVZZV0tPcWRzTGxGWXJqU3lkSlVpbWxleF9Ob2hDU1dyQ0Flbzd5ZGhrZUlnMkx6VFFCUGwzVXpZMVJVM0dLWGJGTC12UXEwSC0tSFd1VU9WTXhBc1ZyRmNrRzRTRkZMREJ0ZUJnSUpyRnR3MHZsUG84eXFsVXhSMUgwc3d2cg?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.76,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.democracydocket.com",
+      "rationale": "Democracy Docket reports a second lawsuit against Trump over taxpayer-funded political propaganda ads. The filing of multiple lawsuits is a credible signal that the alleged conduct occurred and was serious enough to trigger legal action from multiple parties. Severity is 2 because the lawsuits themselves are challenges, not judicial findings or confirmed government actions.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZmZUNlVzbWVKcFI2ZjU2aXdJOGhIR3BvZnJ0VnlZY1FFTFBxckYzRGEwRG5RdlVOcURuX3pFV211N1QzNk4tUGpqWEJTZjFKM2lZeEFCd1Q1Y3ZsNVFGTThjYl9VWUdScU9XeXlNZzVGOTBFUVF1WlJJR3lDbGFIN1hUTllabWJSQ0dzQ1A3UmFxY2p6dUxYNVYtMGsyQXJ3V2FCbGI5dWlSY1FYbHpnblEwRlBiUVdjT0wxQg?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.democracydocket.com",
+      "rationale": "Democracy Docket reports Trump sued for using taxpayer money on campaign-style ads ahead of midterms. Consistent with prior reports of lawsuits. Severity 2: lawsuits confirm the alleged conduct and the political timing, but remain unresolved.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTm41Um41ZzdoaHB4R1ZNWXliZTVDY0hlMDZPSGdkX1FGdkVEVGtfMFRFSFdhOUREd3RwN0gtLWZMS2x4Tks4MHpWZnExNkpOcTk0MndNbFpTMTBwZEN1OUhfR1VzMkcwa0h2YThZdDl3cHlnV1d3djI3RTlLYXg3OWFvVW5qMnhlU084M0FCcWFOdGNib3ZBQkw3WDh6YVhVSjlUYzF4NXA4V1lmVDBaMmI1bWVtN0VaWWFJOTlB?oc=5": {
@@ -9866,6 +10086,26 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/10/07/2026-20495/agency-information-collection-activities-notice-and-request-for-comment-consumer-complaint",
       "rationale": "This is a routine notice by NHTSA requesting OMB approval to reinstate a previously approved information collection on consumer complaints. The item concerns NHTSA (transportation safety), not a statistical agency (BLS, BEA, Census Bureau). It describes a standard procedural step (notice-and-comment for information collection renewal), not political interference with statistical leadership, methodology changes outside normal process, or data release suspension. The reinstatement of a data collection following normal administrative procedure does not constitute interference with statistical agency integrity.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/08/2026-20646/minimum-wage-for-federal-contracts-covered-by-executive-order-13658-notice-of-rate-change-in-effect": {
+      "actor": "Department of Labor, Wage and Hour Division",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/08/2026-20646/minimum-wage-for-federal-contracts-covered-by-executive-order-13658-notice-of-rate-change-in-effect",
+      "rationale": "This is a routine annual notice from the Department of Labor announcing a minimum wage rate change for federal contractors under an existing executive order. It is an ordinary administrative action unrelated to political interference with the three principal statistical agencies (BLS, BEA, Census Bureau) or their data production, methodology, or leadership. No evidence of statistical agency integrity compromise.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/08/2026-20670/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule": {
+      "actor": "Securities and Exchange Commission",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/08/2026-20670/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule",
+      "rationale": "This is a routine administrative notice from the SEC submitting an information collection request for OMB review and extension of an existing rule. It is a standard procedural notice unrelated to political interference with statistical agencies (BLS, BEA, Census Bureau) or their data integrity. No evidence of removal of leadership, methodology changes outside normal process, or withheld/suspended data releases.",
       "severity": 0
     }
   }
