@@ -1,29 +1,29 @@
 {
   "attempted_queries": 25,
-  "average_7d": 11.61,
+  "average_7d": 11.74,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -2.0,
-  "delta_vs_7d": -0.68,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": -0.96,
   "domain_breakdown": [
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.2375,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.7875,
+      "points": 1.30625,
       "weight": 22
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.325,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.4374999999999996,
+      "points": 1.21875,
       "weight": 15
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 1.0,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.4083333333333334,
+      "points": 3.25,
       "weight": 13
     },
     {
@@ -55,10 +55,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 0.3,
+      "points": 0.0,
       "weight": 8
     },
     {
@@ -73,9 +73,9 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-10T12:40:51.398035+00:00",
+  "generated_at": "2026-10-11T12:42:36.564418+00:00",
   "methodology_version": 2,
-  "previous_score": 13,
+  "previous_score": 11,
   "primary_sources": {
     "documents_confirmed": 0,
     "documents_fetched": 15,
@@ -87,12 +87,59 @@
   },
   "provisional": false,
   "score": 11,
-  "score_raw": 10.93,
-  "score_raw_pre_trip_wire": 10.93,
+  "score_raw": 10.78,
+  "score_raw_pre_trip_wire": 10.78,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 15,
+      "confirmed_hits": 6,
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "canonical_link": "https://www.pbs.org/newshour/amp/politics/trump-establishes-committee-to-investigate-federal-reserves-lisa-cook-in-latest-effort-to-fire-her",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObEdMclh5a2RrT0JKbE02ZVRKQ29FQkFwdkJNdVhFWWt0S2dBdG1PeE10b1A1TlpqbnBGeUxlUmhPMUNuY3BZdS1EeGlONFhhZ0VDcUdrNXhjN1hFSVBBcVp2N3pfYmdROWNwLTJTdTVSMVY2bUNnVUp4aEcxV3VWOXNESXFqcmF2Z0NxdEN0Q2tDM3lOeTJ5dHQyMERxQzJzZ2Z6aFpwbFNiSjBfRWN1TW5jOHFxSWpKVk96eU1GWUJ0Qk1icVNJZE42dU5aVlRqMC1FYTZRa9IB1wFBVV95cUxObEdMclh5a2RrT0JKbE02ZVRKQ29FQkFwdkJNdVhFWWt0S2dBdG1PeE10b1A1TlpqbnBGeUxlUmhPMUNuY3BZdS1EeGlONFhhZ0VDcUdrNXhjN1hFSVBBcVp2N3pfYmdROWNwLTJTdTVSMVY2bUNnVUp4aEcxV3VWOXNESXFqcmF2Z0NxdEN0Q2tDM3lOeTJ5dHQyMERxQzJzZ2Z6aFpwbFNiSjBfRWN1TW5jOHFxSWpKVk96eU1GWUJ0Qk1icVNJZE42dU5aVlRqMC1FYTZRaw?oc=5",
+          "published": "2026-10-09T20:33:22+00:00",
+          "publisher": "PBS",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her - PBS"
+        },
+        {
+          "canonical_link": "https://www.motherjones.com/politics/2026/10/fed-governor-lisa-cook-trump-attempt-fire-bill-pulte/",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNejR4ZEhYMXhoUXFhM2dNZ3otUlVFWFBEb1JVRDRERml4SjhrYnJlRllpWkdKa1Zucm15SzgxeXQyLTFJaXlHWnVNTmtIVXpQMmRzaE9LOFdidjlWcnFhMU84c1d5N1hwalFScnpCOVpqZE5pM2R6eUs2aEtCMGdsc1RRTEZfTUlEcnBiUDV0ZXk3dFB1dVd6bU5DMTBSRFE?oc=5",
+          "published": "2026-10-09T18:09:48+00:00",
+          "publisher": "Mother Jones",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump Tries\u2014Yet Again\u2014to Fire Fed Governor Lisa Cook - Mother Jones"
+        },
+        {
+          "canonical_link": "https://www.freep.com/story/news/politics/2026/10/09/donald-trump-lisa-cook-white-house-probe-mortgage-fraud/92170686007/",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR09xYUVFQVd2WEwtazlUUzViSElUNndqcTJDckZjalEtbHViT2NnTGdNM3EtMzRGWWV3Q0piY1p2Z016NjN2MDA2dUIxa25nT245NE00blA3NnRNRmdNRDYtSlF2YUpOeGVxV1dsSURLdXJid3lfNm9YYnl6YmN5SjdiN2RlY2l3eTV6UVpoZ0syTWgwRTRRdHBpalpWNGQ5VE1OTXpxZjhoekx6RktqeUMyZkZoSlRLenNrSlhn?oc=5",
+          "published": "2026-10-09T17:04:00+00:00",
+          "publisher": "Detroit Free Press",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump creates White House panel to investigate Fed Governor Lisa Cook - Detroit Free Press"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 7,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://www.pbs.org",
+      "rationale": "The establishment of a committee to investigate a Federal Reserve governor represents a concrete action aimed at removing an independent agency official. While not yet successful removal, this is a verifiable attempt to weaken the independence of the Fed through targeted investigation and intimidation of a sitting governor. The Fed's independence depends on insulation from executive pressure to remove officials for policy disagreements. A presidential committee investigating a Fed governor to facilitate her removal constitutes a stress on that independence safeguard, though it remains an investigative action rather than a completed removal or structural dismantling.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 6
+    },
+    {
+      "confirmed_hits": 5,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
@@ -108,7 +155,7 @@
         {
           "canonical_link": "https://www.motherjones.com/politics/2026/10/youre-funding-trumps-new-ads/",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNZkZ2d2tIYURUVjFIQVI1b01yTVY2RWx4QWVDVkN5bFAyVFd5X3VxQlY2NllXV0NROUpRTEpsdFlOTWxzS2JTRUctVkwxbHo4X2pHNjlEYU45TFREY3NaWUlzM1VDUnhqYmU3dHlHbkRYLVM3LUU0R3VIOFFqUzA?oc=5",
-          "published": "2026-10-09T17:30:20+00:00",
+          "published": "2026-10-09T17:29:35+00:00",
           "publisher": "Mother Jones",
           "source_name": "google_news",
           "source_tier": "news",
@@ -125,7 +172,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 16,
+      "hits": 6,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
@@ -133,57 +180,39 @@
       "primary_documents": 0,
       "primary_source_url": "https://democracydocket.com",
       "rationale": "Multiple lawsuits filed against Trump administration alleging use of taxpayer funds for political advertising. The fact that lawsuits are being filed indicates plaintiffs have identified and are challenging alleged actual use of federal funds for partisan promotion. This is a credible, repeated stress signal of the activity described by the signal. Severity 2: confirmed instances of alleged improper spending are being litigated, indicating real occurrence rather than mere proposal or hypothetical.",
-      "severe_hits": 5,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 15
-    },
-    {
-      "confirmed_hits": 5,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "canonical_link": "https://www.pbs.org/newshour/politics/trump-establishes-committee-to-investigate-federal-reserves-lisa-cook-in-latest-effort-to-fire-her",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPczlSNXliYm9yYnRRbzN4MEdfLXR4bFZLdHZzS3dTUUw2dG1wX0NKR240UkpBRWN3el95NHlsNnpEQ3NzUVZyX25jbWxmeW1XZk00Wi1ORFd4TFVvYnhVOUhUQ0NXajhtZ1BzZnZINm1MUGMxRWpuMEZWTnJwTF8wcEpIaGxnSjU3cGlhVkcyZWZnYnEzV1BZSTlpQ1lJS1NHcXRsYllCUG5kXzJCUmpvWTlYamJ0SndDbmhQV2Z2TURxRzJ2aFl4WE5FR2RrbU5nVGfSAdcBQVVfeXFMTmxHTHJYeWtka09CSmxNNmVUSkNvRUJBcHZCTXVYRVlrdEtnQXRtT3hNdG9QNU5aam5wRnlMZVJoTzFDbmNwWXUtRHhpTjRYYWdFQ3FHazV4YzdYRUlQQXFadjd6X2JnUTljcC0yU3U1UjFWNm1DZ1VKeGhHMVd1VjlzRElxanJhdmdDcXRDdENrQzN5TnkyeXR0MjBEcUMyc2dmemhacGxTYkowX0VjdU1uYzhxcUlqSlZPenlNRllCdEJNYnFTSWRONnVOWlZUajAtRWE2UWs?oc=5",
-          "published": "2026-10-09T20:33:22+00:00",
-          "publisher": "PBS",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her - PBS"
-        },
-        {
-          "canonical_link": "https://www.motherjones.com/politics/2026/10/fed-governor-lisa-cook-trump-attempt-fire-bill-pulte/",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNejR4ZEhYMXhoUXFhM2dNZ3otUlVFWFBEb1JVRDRERml4SjhrYnJlRllpWkdKa1Zucm15SzgxeXQyLTFJaXlHWnVNTmtIVXpQMmRzaE9LOFdidjlWcnFhMU84c1d5N1hwalFScnpCOVpqZE5pM2R6eUs2aEtCMGdsc1RRTEZfTUlEcnBiUDV0ZXk3dFB1dVd6bU5DMTBSRFE?oc=5",
-          "published": "2026-10-09T18:10:06+00:00",
-          "publisher": "Mother Jones",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump Tries\u2014Yet Again\u2014to Fire Fed Governor Lisa Cook - Mother Jones"
-        },
-        {
-          "canonical_link": "https://www.realtor.com/news/real-estate-news/trump-lisa-cook-new-investigation-mortgage-fraud-attorney-general/",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVNERHh1NWM3MldPWlVtZWdFV0dQYVExel9fUmpVWFdtLWFaVHFZZ2pXZGNBYzZnM1BDY0NzZHROYnVNMk9lancydGo0S0tSYS05R190ajZtQlJmbDVORng2YWN3SkxFUFI5NG5uWEI0NEd1d1dXTFpBVkstM1ZHdVN2c2dpN3BVVWJnZnlmSUhXVmtxZkV5WlpvT0xncnpULUF3S1pTTW5IVXhCYnFTRnZB?oc=5",
-          "published": "2026-10-09T19:29:24+00:00",
-          "publisher": "Realtor.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump Launches New Investigation into Fed Gov. Lisa Cook Over Mortgage Fraud Allegations - Realtor.com"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 7,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://www.pbs.org",
-      "rationale": "Credible press report (PBS) documents establishment of a committee to investigate a sitting Federal Reserve governor, framed as part of effort to remove her from office. This represents a concrete action to pressure an independent agency official through investigation rather than through ordinary legal channels. Severity is 2 rather than 3 because the action is an investigation/committee, not yet a formal removal or defiance of law; it is a stress signal on Fed independence but not a completed breach of structural safeguards.",
-      "severe_hits": 0,
+      "severe_hits": 1,
       "severity": 2.0,
       "severity_label": "Yellow",
       "unique_publishers": 5
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://abcnews.com/US/usps-makes-new-rules-mail-ballots/story?id=135879673",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5",
+          "published": "2026-10-09T20:29:53+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Supreme Court allows Trump to implement parts of his mail-in voting executive order - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "Multiple credible sources report that the Supreme Court allowed Trump to implement parts of a mail-in voting executive order. This represents a shift of voting-rule authority from statutory/legislative control to unilateral executive action via EO. The Court's allowance (likely through stay or injunction ruling) enabled executive implementation without requiring legislative authorization. This is a real, confirmed action that transfers governance authority from statute to executive fiat, but is narrowly scoped to mail-voting procedures rather than a broader structural dismantling. Severity 2 reflects this as a real, credible stress signal of limited scope, not yet structural failure.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 0,
@@ -200,7 +229,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -216,7 +245,16 @@
           "publisher": "American Civil Liberties Union",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Federal Court Sides Voters, Ruling DOJ Data Demands Violate Voter Privacy, States\u2019 Election Authority - American Civil Liberties Union"
+          "title": "Federal Court Sides With Voters, Ruling DOJ Data Demands Violate Voter Privacy, States\u2019 Election Authority - American Civil Liberties Union"
+        },
+        {
+          "canonical_link": "https://abcnews.com/Politics/practical-sen-markwayne-mullin-speaks-after-named-noems/story?id=130799720",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGFPSVpoVFZTUlFjaDZRakItV05kaVlGVlluM1pMRGRvTkpaS2RFNlY2ZElwbFFOUEwtQVhSTzVVZlRmSmVBb1JFZDBaaVRqR05kNnZydDNBcFVOak5ENzZvRmdaOFdLTk9sUk9Kc3hSdnB4a3VEcGl6NDJ0M2RNTG9mMjFSUkd0MlNUYnl2QTNjeDI3aWt1UHM3WVBXaGhTOVY0VXBR0gGrAUFVX3lxTE1JN1FWZ1RwMHQ4aEpyckdLR2RxTnhucVUwZ21uVWZscnBKU3MxZFBQX3RaTXlBZE45YnBXLUo0OW4tSWRWdDRRVnFtTHhxbVdzMTJuLTNYQXdQUlB2M0hobldMT05hN2xscnlXLXVjT2VaX2I5WXlzWWdiY0lWNHIzZ0dDMnBDTFN5bUx1bXpQRkduNzdjcF9nS2ZqbTZZMm5YQmRaOTlPVjdNYw?oc=5",
+          "published": "2026-10-10T23:04:44+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "'Going to be practical': Sen. Markwayne Mullin speaks out after being named Noem's replacement at DHS - ABC News - Breaking News, Latest News and Videos"
         },
         {
           "canonical_link": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-5-recall-elections",
@@ -226,19 +264,10 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Prop. 5: Revamp how California handles recall elections - LAist"
-        },
-        {
-          "canonical_link": "https://www.statesman.com/news/education/article/austin-isd-school-board-campaign-finance-report-22468935.php",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQTcyUVBYQTNhT0JjSF84UzVfOS1PczRhWm1RMXZ0Sy1IUGY0QmpZR3MwLW90bHlFckpDajRPUm40TVpJLVBlNzJlQUd3UzhJSVk5dUJtQ2VEQWs1VHFRT20ta0dDXzJrZUNtV2Yyb203WlJiY1psYmZRU3ZtbmtTTU9pZkVhNDYyS2ZVdzdQU1Y0SUx4clhScWZxeWhpaHNFc295ZGwzaEZYZ2hvOEE?oc=5",
-          "published": "2026-10-09T23:19:05+00:00",
-          "publisher": "Austin American-Statesman",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Austin ISD candidates raise at least $86K one month from Election Day - Austin American-Statesman"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 5,
+      "hits": 4,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -247,93 +276,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.naplesnews.com/story/opinion/2026/10/10/president-trumps-reckless-pattern-of-disastrous-judgments-opinion/92109304007/",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZy1BcHRIRENhUDBSanBkZk12REY2VHdseTN1SWg5UW9RRlk4dl9Rb3R5cVNNZjRkWnpLOTVuSnJnMW5zSi1zaHl0TUNHdjZmWU15cjVyb0JpRkhYeFBHS0o0WGZmY1hncElWLS16dWxCLXJuSDlEWTUwQ2xReW1rQ2ZVYjFuWXJKaWRaUFFWX0t6SHBYTURPeWk2N3k3RTJHNWR0bnduYUxSTHJIZ0FndFZIMFdWN3FIdTd6LW9zeWZEQmpaamQ5Njdn?oc=5",
-          "published": "2026-10-10T10:02:00+00:00",
-          "publisher": "Naples Daily News",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "President Trump\u2019s reckless pattern of disastrous judgments | Opinion - Naples Daily News"
-        },
-        {
-          "canonical_link": "https://www.theregreview.org/2026/10/10/seminar-the-future-of-administrative-enforcement/",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZi1DM1pxb0stYVEwczBlRkVwWlI5a1lidWRrSUhwN1FCZW43TENfQXU3UFBFR2R0NlBTWXV6akVNbDc3NUlNUEQzdHVIWk9rV1BPanZjeS1GQVRQOExGWS0xdjBxY3BmSm13SGZLdTBFejh4VUQ2a1RIcTVFMUpKamVsRGJTZVQ5TEEza2o3NlczWHM?oc=5",
-          "published": "2026-10-10T04:11:40+00:00",
-          "publisher": "The Regulatory Review",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "The Future of Administrative Enforcement - The Regulatory Review"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "security_sector_neutrality",
-      "evidence": [
-        {
-          "canonical_link": "https://www.courtlistener.com/docket/74915726/1/the-city-of-johnston-v-rev-group-llc/",
-          "link": "https://www.courtlistener.com/docket/74915726/1/the-city-of-johnston-v-rev-group-llc/",
-          "published": "2026-09-18T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
-          "source_tier": "primary",
-          "title": "The City of Johnston v. REV Group LLC"
-        },
-        {
-          "canonical_link": "https://myrepublica.nagariknetwork.com/news/us-activists-deploy-poll-volunteers-over-trump-intimidation-fears-76-43.html",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd2pqWDhXSWJvMEhyeUNCTkF4TzcxbFRoVTc1U2stQUxtT3NrSEdGVmtqRTZ6c1pfVUFWaWczeXNaVWROYmhPcG1LSXJ0SkdUcHpNTHk5UjN2UTJCWjJtWDNvOWUtRjlfcEtNeC1pZU5yTUx6QmJxNVpodHlaeGJzTC10VEJuNFJkUjVOVnF2VnFaX3ZSVmVPdGZxeXA4YzhfZ2RPX1U0aWp5WE1vOW1DaWNFcHNCTFdzek5HUA?oc=5",
-          "published": "2026-10-09T08:17:05+00:00",
-          "publisher": "myRepublica",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "US activists deploy poll volunteers over Trump intimidation fears - myRepublica"
-        },
-        {
-          "canonical_link": "https://timesofindia.indiatimes.com/world/pakistan/pak-army-chief-munir-bypasses-pm-sharif-moves-to-deploy-more-military-assets-to-saudi-arabia/articleshow/134792840.cms",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQT2ltbjlzSU90bTcyRW5qOWtqblJIdWVNTFQzZFMwRWlxdGFrSHc1d1BHbUszYUNYeDFFTU5LWldNcWsxbDRZaHFYSU1TT1ZoQnBEMkdrVmg2UUxiU0huTVh3a0VSeFNMMUh3M1B2b1o5ZUFXSlJ3NGZKUlNNaWRDOEp2T2pCc19CS1JkYmhrUmhEYjdRUkRkVTRKdkZvZXprdERRV09iTUFwdDdZUksxSjNxSk45R3NRM0pPNGRrRnY4TkxPT1FiQ08xUzdFYzVJRXBWejlzYnhGSGhJYkNGVEg4WjRhWVlwbjhXVEFGRkJMMV9YdzNORDVfY2xZd9IBgwJBVV95cUxQU1NfZ1NfSXUtX0NzM2NIQUh2bndiS0wyODk2TkRzSFVLZnd2b19RMHFHU1pfeUI3eGxDM0V3bUdza1p4WF9kc19kZVR6LUVOMzdEU3piV0xQT1ZxRjY4NXRMMzVFb3RERXpCQmhidHdBUGJDN296cFhNT2l2elFZZUpOeGNKM3E5NmJ0R1lZeHFCNV9BVlh2QmNvUDRGMEh3ei1FWG51bU5tQWc1Vk5VOEpxYzVEVEhYWHVJMDl3Vko0LTd2OF9SMGt4bGVjMFFpazhBUHNYRDg1WWtNa2ZOVi1nUk1EQzJNQ2trVkpCd05pMDF6dnR3dzdQeWphZ1A4ME53?oc=5",
-          "published": "2026-10-08T14:05:00+00:00",
-          "publisher": "The Times of India",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Pak army chief Munir bypasses PM Sharif, moves to deploy more military assets to Saudi Arabia - The Times of India"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "military_domestic_political_use",
-      "name": "Domestic Military Use in Political Conflict",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 1,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],

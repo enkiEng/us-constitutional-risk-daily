@@ -1834,6 +1834,16 @@
       "rationale": "The item documents a real occurrence: a sitting president is publicly pressing an independent agency (Federal Reserve) on policy decisions, and there is stated tension over Fed independence. This represents a credible but not yet structural stress signal. Public pressure on the Fed is not new, and the Cleveland Fed President is asserting independent judgment, suggesting the agency has not been captured. However, the ongoing pattern of political pressure on an independent agency's decision-making does constitute a repeated stress signal matching the independent agency capture concern. Severity is 2 (repeated/credible stress signal) rather than higher because the Fed retains formal independence and is publicly resisting the pressure, and this has not yet manifested as a structural weakening of safeguards.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObEdMclh5a2RrT0JKbE02ZVRKQ29FQkFwdkJNdVhFWWt0S2dBdG1PeE10b1A1TlpqbnBGeUxlUmhPMUNuY3BZdS1EeGlONFhhZ0VDcUdrNXhjN1hFSVBBcVp2N3pfYmdROWNwLTJTdTVSMVY2bUNnVUp4aEcxV3VWOXNESXFqcmF2Z0NxdEN0Q2tDM3lOeTJ5dHQyMERxQzJzZ2Z6aFpwbFNiSjBfRWN1TW5jOHFxSWpKVk96eU1GWUJ0Qk1icVNJZE42dU5aVlRqMC1FYTZRa9IB1wFBVV95cUxObEdMclh5a2RrT0JKbE02ZVRKQ29FQkFwdkJNdVhFWWt0S2dBdG1PeE10b1A1TlpqbnBGeUxlUmhPMUNuY3BZdS1EeGlONFhhZ0VDcUdrNXhjN1hFSVBBcVp2N3pfYmdROWNwLTJTdTVSMVY2bUNnVUp4aEcxV3VWOXNESXFqcmF2Z0NxdEN0Q2tDM3lOeTJ5dHQyMERxQzJzZ2Z6aFpwbFNiSjBfRWN1TW5jOHFxSWpKVk96eU1GWUJ0Qk1icVNJZE42dU5aVlRqMC1FYTZRaw?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.pbs.org",
+      "rationale": "The establishment of a committee to investigate a Federal Reserve governor represents a concrete action aimed at removing an independent agency official. While not yet successful removal, this is a verifiable attempt to weaken the independence of the Fed through targeted investigation and intimidation of a sitting governor. The Fed's independence depends on insulation from executive pressure to remove officials for policy disagreements. A presidential committee investigating a Fed governor to facilitate her removal constitutes a stress on that independence safeguard, though it remains an investigative action rather than a completed removal or structural dismantling.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiR0FVX3lxTE54MnBIWUg3Z2JFSS1OaURVQ1dOX3pRRnluaTlvd2tKWWp3cGEzaHJadUo5YUNPNk5xNGJxUU9EcVgxMk9qVGlV?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.65,
@@ -1933,6 +1943,16 @@
       "primary_source_url": "",
       "rationale": "The metaphorical headline ('Plays Wizard of Oz') suggests opinion or analysis of Supreme Court action regarding the Federal Reserve. This appears to be editorial commentary rather than factual reporting of an event that weakens regulatory independence. Metaphorical language indicates non-factual framing.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMickFVX3lxTE8xY0ctMWVVT3Jya2FfVWJrb3gtVnBJdloxNklZNTFmb1Z3VW1oX0ZJWmpBdm94YUxKNk1MdFFtN1ZLT2V3UWxrWkNUZkRxT1I3RzVXSjVDWGwtV0NMT0NLRWwySVNoSkxheVFKTjAzWmNOUQ?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.68,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.suaragarut.id",
+      "rationale": "Foreign news outlet (Indonesian) reporting the same U.S. event as item [0]: Trump's establishment of a committee to investigate Fed Governor Lisa Cook. This is the same verifiable action reported from a non-U.S. source. The underlying event matches the independent agency capture signal\u2014an executive action designed to pressure removal of an independent regulator. Severity remains 2 as this is investigatory pressure rather than structural removal of safeguards or accomplished removal.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMickFVX3lxTFAyMzVXVmh0ZmdpWFBXeThaTWVTbTJ0SFNLRktMeVRNQkNlNXJkby1UQ2VsTXVSVGVHYkE5Y0J6R0c1cEpoTWNYZWFnMjdoazNjaFZfN1NUMDc0LUF5WWpoNHdrNmNMT1loU19NRjI4cmp3dw?oc=5": {
       "actor": "Cato Institute",
@@ -3536,6 +3556,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This item is from The Himalayan Times and concerns Nepal's institutions, not the United States. It is not relevant to a U.S. constitutional-risk dashboard. The signal concerns judge intimidation campaigns in the U.S.; this is a non-U.S. event and therefore excluded from analysis.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nNHhMTl8wNFFIbk43SUVuSHMxM1I5ZVIzSXlFQlhXeEF1NmZiTzBTeXhpMDA4c3UtanJWekFBWThNTXdod2F6ZDUzNmFmbHJDN3FHbU5vbWZyTDJL?oc=5": {
+      "actor": "Donald Trump",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.alternet.org",
+      "rationale": "The item is a headline only with no substantive detail provided. 'Apparent revenge move' is speculative language indicating alleged intention rather than a confirmed action. The reference to a Nobel snub followed by an unspecified 'revenge move' lacks concrete factual content. Without detail about what action allegedly occurred, whether it targets judges, whether it relates to judicial rulings, and verification that an actual intimidation campaign against judges has been initiated, this cannot be scored as evidence of the judge intimidation signal. The framing suggests opinion/analysis rather than reporting of a completed action. No primary source document, official record, or verified action is presented.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3RFlJM2dLXy1JQnpHU1YxRnFOTnNDcUpLVm81SmYwZ2V1SFBhM0RGWFBpMGFDWm5fblJKTzlzVXRhOU1iX2V1dVFzTFlYZ3BJNGFNMDRid29VeVZOUHNEcEZfNEtQV3E0ZEloSW5qVEh2Uk81bWc?oc=5": {
@@ -5960,6 +5990,16 @@
     }
   },
   "military_domestic_political_use": {
+    "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZ0tjTEpZNkFvVTFzUTRrQ0htRTNsT1lwMjNlS2lSb01GVUY3OXpuN0RIblZvN0plVHRUUDRjR3RnejdFbE10SF9ZUjNKblFIZnAwbGdsbDFIVGJCR05UbHZ1VlA1a0xUNlpObUwtQkhuei1BUkhYVlNPV0Jwc1VONzd3dnRkSjN2NDZhcUp3SnNiel9CZXVlM2M2NE1Pb0RXQnd0ZHkwR3V4eWt6M1RRWTZVRDdvdk5JWlNPMWxLWm4xVHJBLXQ5MmxWUV85ZTMyOHpJMEx6VG9Gd3BPeHlxOTZXVdIB6AFBVV95cUxNbmsxVlRlb1JMeS1FMk9sdS1XU19BSV9YeHNMa0YxZmxoaDl3RDJjX1hQd0xhSnFJN0lMaGdFWjdFeWtweFMtLWRUd3JMMmE0SzJrZDl1VzJxRTJoWUk3NUZMU2NQNkJCSzAtdXF2aUs1ZTJpZVI2aVZJY1BVMGdpR2pwZU1yVUg0Q2phR2w1djg4RXRTYTd3eGc3UFZWNGN2M3lSMjNBTmw4Y19qbjFiLURzX0NWRF9ET2lzOFp2SDdKZVRyMEttcjJfcnB3MmlWYnloU0N3aXJUU2dwUzV1Nm04V2ZrRkZJ?oc=5": {
+      "actor": "Trump / Activists",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item describes fears and activism in response to political rhetoric, not a verifiable instance of military use or threatened use in domestic political conflict. Deployment of poll volunteers and fears of intimidation relate to election integrity concerns, but do not constitute evidence that the military has been used or threatened for use in partisan political disputes. The summary indicates opinion/concern about potential intimidation, not a documented military action or directive. This is a hypothetical concern or fear, not a real occurrence of the signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOM0xGT0dlYkdZVFNMemg5ZXRESWFLMlh1NVBGNnhJUThyWWE0N0JmTURmVnR3WGd3TFBoRjdabG5nWFJUcmt1MzM0c3k5WWl6dlhHX2RXSV9uZElhOUhneEFOV29PamFrcHBBZ0dldW1XREJMZnFMRi1ESUVERF9KYUhmZzNmWFFPVVJlQ0pkX05sUVUycHFNMmJrcDUxaGxzeTE2ZU5pM2lfVDRQYkZ4MlJ6TXpJRG1ULVFZd0JWT3oxUEVZOHZLc0t3dXZFQkY2LWMwQnljOHNaRHBDc1dWWDcyc0EwLWwybC02X9IB8gFBVV95cUxPLXNWZUlCanltZkpIMHlhT29UVUJXU1ZCQnpObTZXeXh4WTBpZkg3T1BBd1R2Zzk5UEgzRWVQcFNyVlZVVUc5MXhiampqM1ZmNXRPRkk4dlV5UVB4QnpYdFpFODlOcWRUSzBkRU03YWl0LW9ReXJWSkpxZmxsdWJlN2lNdjlsbnVMUVowR0JZVnRtRjAxalFJcnVQd05rYUFqMUtEQm9WczB1TVd2aDFHc0dwdGtzVVNZSE5mTWpWdUlsNWxvaExTZ3hXRzYteGpQTGtIblBsNFMtVGJEdTZsNmZpT1I5T0RhbWQyR0taXzQ0dw?oc=5": {
       "actor": "Donald Trump",
       "confidence": 0.92,
@@ -7598,6 +7638,16 @@
       "rationale": "This event occurred in Pakistan, not the United States. The signal applies only to U.S. constitutional stress. Pakistan's media restrictions, even if confirmed and serious, do not constitute evidence of U.S. constitutional risk.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeGs4dHk1RF8ta3VidHBXc2ZuODQya3ZHS3hNQjlBbG1OQ1k2ajdJMUlRdlo4QUM5dzhySGZvSnkyRHpiVVBwMjNoMk04OTdTN01FWno1X0tJVmV2TVFpZW82UlJnZnpFZTJ5NnFqdzV4eXBiRl90bDNuQmJoVzVfa2VGdW5kTjJQeG56SUJuVkU3aks5ekhZa0l3Y2ExYkZPbXY1UHlOc2pPeWRBRklrcGJHdDdXMDUzRUZwOVRLMUhuRV9XU3lHWDRPSTFsS1otTWVwNTVCaG5YUTB3bXVHaUNHVmZIRlVwMjlj?oc=5": {
+      "actor": "Egyptian authorities",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on press restrictions and journalist detention in Egypt, not the United States. The signal concerns U.S. constitutional risk; events outside U.S. borders do not constitute evidence of domestic constitutional stress.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNUl9CYlE3ZmlsUFVrdTc0TFRnYzVlXzVmZlJuZzB1UXZ6Z3RHX3FnazNhZmJERnBBVHVQYlpwbzNQbkxFOTloQy1YRmFLOEhvRURBVTFkazFPV0xQcE9vRVpUdzBsMnFSOFYweGx1TElCdy1TcU56bk5Xc0pQWFhCRWRrc0diQlFTYzFCRnV6ejhiNW9NNFJJNWZLNTFhTk5rbzJ1clRkdm1kU2hRckh6R0hNNjBodldHNzN1ZjZXMFRmMEtJSERNSWdWQ25UaDRYOTRxMm0zelhyamMyREJQZU12OThucVM1UXprY0gwcw?oc=5": {
       "actor": "White House (Trump administration)",
       "confidence": 0.78,
@@ -8448,6 +8498,16 @@
       "rationale": "This item reports on press guidelines in Pakistan, not the United States. The signal targets constitutional stress specific to U.S. domestic conditions. Foreign press restrictions, regardless of severity, are outside the scope of a U.S. constitutional-risk dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNOWVWM2liVjBQX24zNjVrODAwcHZyZEVJSGdBVWt1OUdHY3dSUTBPOFNDZDlSOHNpWmtfdDN3LU40aUU2M3RWNTBBV19STkE4X1RUMXNlYUFqNWc3S3kxZWNBN2o1R0hHVVlZdTRLQ1JEbWt0WmJTZTNLR2tDUHlPV3BIZjZjcDhCNHE1d1kzMlJoM0tlaDE0OFZXcUNmS29GLWpLTWVDMFBvNUk3YW1MY1NWamNycTFCc0dIQjdpY1paQkVMbFhHTWIwblNCWGR1QVhBQ1ZNbVMzVFJrRnZKMmpIUERLeERmcS1QajJWOXNtU0NLZFNVOUxfS3NWa2tVMl9Fc2RyaW0tOEgtWkNyNGhJUk85UEtZajM1QzRDN1UtZ0o3YU9STFgtOVRURmc0Y1pMZnFwUnNrdWdGTFNQN1NSNA?oc=5": {
+      "actor": "Indian government (Modi administration)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on press freedom constraints in India, including gag orders and internet blackouts. It is not a U.S. domestic event and therefore does not constitute evidence of the specified U.S. constitutional-risk signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYkQ1R2dDWDBzR2Y0dkhTSkVNUkJOenVsQTNNR0puWklZZzBwVTgtVnlaUHE2cjRUT3FEc2trSUs5dk43ZFJvREdyaXRzLWRSaTlXNDltalYxc004ZC1oRDJVdzk4VEl4UF9vTWxScnhhdFpGazRSTDM0dXJYWVVfbVdKazZ3bEV0VDdPdDBHbm91SGtaeWxaLWFXN1Vib1Q2MDBqaUVWWFdDd0RNMENpLVpnUUQ5YjVDVXN1bTlqemM5MV8wcGc?oc=5": {
       "actor": "Trump administration (White House)",
       "confidence": 0.78,
@@ -8539,6 +8599,16 @@
       "primary_source_url": "https://wonderwall.com",
       "rationale": "Report of lawsuit over taxpayer-funded ads. Additional corroboration in the pattern of multiple legal challenges to the same underlying conduct. Confirms event occurrence through litigation activity.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZVF1VnIwMTU4OWQ3S0cyLUpsVWppZVRMUi0tOGt4N3pVMGJtRWQyaU1PNUhGUW82bUk0b2FFN241YS1ISjZjazRmVTFYNE5oM0dMLV9HZ0ZJWnVNdTR3MW5xbGdtMWcwVFZ3OW5EWFkwTDgzTWFjNHo3M09SMVNHb3FFdUUtVG9NS0lmb2xDMEtnYWFiRmJPSW5JZzN5UmgyRm1sbjhsUlFTODhLWjg3V3NUT2k1NlQyZjZOX0dJUE5vVzB1YnBNbGZWOHRoWXctMlJKQ0pzaWJFOUdW0gHiAUFVX3lxTFAtTnBkNm0tdWpqcVhPZzdVOGVCRjZxVmd0aHI2VnI0WndTMEQ0eUpvaXBmbUhZbFpZUGh6M1BRWWJVeC1OS2tyNjNSYUd5RElyX0kydXJKbDRSSGFsd2FFSmkzb3pmZnlvdFh6TlRJWWlEMzd0aXJHaFN2cTlMNU9CYjNDOEVPSWxqbTkxeHd2SmtmV0tSNzdGbXV0TVpIUV9nMXlweEU2aEduX2traUFLLS1WdHVJS2F0MXVCTGZqRDNjdExqZ3dGcDZOZWdWZ2hwWWY5TzZWNmFMbVQ3Nlc3ckE?oc=5": {
+      "actor": "Democratic National Committee (plaintiff); Trump Administration (defendant)",
+      "confidence": 0.72,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://upolitics.com",
+      "rationale": "This is a news report of a lawsuit filed by the DNC alleging that the Trump Administration spent taxpayer funds on partisan propaganda. The article headline indicates a legal action (suit, emergency order sought) rather than confirmation of the underlying conduct. A lawsuit is a claim, not proof that the alleged event occurred or that public funds were actually misappropriated for political promotion. The DNC's allegation matches the signal definition, but the item itself is secondary reporting of a legal pleading, not an official record (court document, GAO audit, or government admission) confirming that appropriated funds were actually spent on partisan communications. Without access to the actual complaint or court filings, and without independent confirmation that funds were indeed spent on campaign-style advertising, this remains a disputed allegation. The severity is low (1) because it is a single credible source reporting a legal claim, but event_occurred is false because the underlying event\u2014actual misuse of public funds\u2014has not been verified by the item itself, only alleged in a lawsuit.",
+      "severity": 1
     },
     "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPN2dYNG96dGtTUlhaLWlGeFgtOEFJVlFJbmxFVHh5YmJGNGtBUk5OdkM4cmZ0eUNhOWtaaXVDTkktM3NGUHZfZUV1Znhobm5Od2dPSWk1Yi1vT2FzV3hjYWI5dHZiemt4TzZiT1pOTWU3MzJkUVBiTlBuSEZ5SUk0LWhMVmRFckd1UlJzdXNGS1Mzcm8tN09MUjBvbTUzQzNSNjFsWl9uR3BIOTY1QUtwd3pDeVpkRlFSVjUzVkdjRnRvWUI5TVBJN2g2X2VmNmhLWnJubGNlVVQ5TDFVWTI4?oc=5": {
       "actor": "Trump administration",
