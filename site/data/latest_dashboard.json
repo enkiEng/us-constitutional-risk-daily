@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 11.74,
+  "average_7d": 11.25,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,21 +9,21 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -0.96,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": -2.42,
   "domain_breakdown": [
     {
-      "avg_severity": 0.2375,
+      "avg_severity": 0.15,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.30625,
+      "points": 0.825,
       "weight": 22
     },
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.2375,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 1.21875,
+      "points": 0.890625,
       "weight": 15
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 2.1125,
       "weight": 13
     },
     {
@@ -73,7 +73,7 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-11T12:42:36.564418+00:00",
+  "generated_at": "2026-10-12T13:03:00.037065+00:00",
   "methodology_version": 2,
   "previous_score": 11,
   "primary_sources": {
@@ -86,133 +86,105 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 11,
-  "score_raw": 10.78,
-  "score_raw_pre_trip_wire": 10.78,
+  "score": 9,
+  "score_raw": 8.83,
+  "score_raw_pre_trip_wire": 8.83,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 6,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "canonical_link": "https://www.pbs.org/newshour/amp/politics/trump-establishes-committee-to-investigate-federal-reserves-lisa-cook-in-latest-effort-to-fire-her",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObEdMclh5a2RrT0JKbE02ZVRKQ29FQkFwdkJNdVhFWWt0S2dBdG1PeE10b1A1TlpqbnBGeUxlUmhPMUNuY3BZdS1EeGlONFhhZ0VDcUdrNXhjN1hFSVBBcVp2N3pfYmdROWNwLTJTdTVSMVY2bUNnVUp4aEcxV3VWOXNESXFqcmF2Z0NxdEN0Q2tDM3lOeTJ5dHQyMERxQzJzZ2Z6aFpwbFNiSjBfRWN1TW5jOHFxSWpKVk96eU1GWUJ0Qk1icVNJZE42dU5aVlRqMC1FYTZRa9IB1wFBVV95cUxObEdMclh5a2RrT0JKbE02ZVRKQ29FQkFwdkJNdVhFWWt0S2dBdG1PeE10b1A1TlpqbnBGeUxlUmhPMUNuY3BZdS1EeGlONFhhZ0VDcUdrNXhjN1hFSVBBcVp2N3pfYmdROWNwLTJTdTVSMVY2bUNnVUp4aEcxV3VWOXNESXFqcmF2Z0NxdEN0Q2tDM3lOeTJ5dHQyMERxQzJzZ2Z6aFpwbFNiSjBfRWN1TW5jOHFxSWpKVk96eU1GWUJ0Qk1icVNJZE42dU5aVlRqMC1FYTZRaw?oc=5",
-          "published": "2026-10-09T20:33:22+00:00",
-          "publisher": "PBS",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her - PBS"
-        },
-        {
-          "canonical_link": "https://www.motherjones.com/politics/2026/10/fed-governor-lisa-cook-trump-attempt-fire-bill-pulte/",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNejR4ZEhYMXhoUXFhM2dNZ3otUlVFWFBEb1JVRDRERml4SjhrYnJlRllpWkdKa1Zucm15SzgxeXQyLTFJaXlHWnVNTmtIVXpQMmRzaE9LOFdidjlWcnFhMU84c1d5N1hwalFScnpCOVpqZE5pM2R6eUs2aEtCMGdsc1RRTEZfTUlEcnBiUDV0ZXk3dFB1dVd6bU5DMTBSRFE?oc=5",
-          "published": "2026-10-09T18:09:48+00:00",
-          "publisher": "Mother Jones",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump Tries\u2014Yet Again\u2014to Fire Fed Governor Lisa Cook - Mother Jones"
-        },
-        {
-          "canonical_link": "https://www.freep.com/story/news/politics/2026/10/09/donald-trump-lisa-cook-white-house-probe-mortgage-fraud/92170686007/",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR09xYUVFQVd2WEwtazlUUzViSElUNndqcTJDckZjalEtbHViT2NnTGdNM3EtMzRGWWV3Q0piY1p2Z016NjN2MDA2dUIxa25nT245NE00blA3NnRNRmdNRDYtSlF2YUpOeGVxV1dsSURLdXJid3lfNm9YYnl6YmN5SjdiN2RlY2l3eTV6UVpoZ0syTWgwRTRRdHBpalpWNGQ5VE1OTXpxZjhoekx6RktqeUMyZkZoSlRLenNrSlhn?oc=5",
-          "published": "2026-10-09T17:04:00+00:00",
-          "publisher": "Detroit Free Press",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump creates White House panel to investigate Fed Governor Lisa Cook - Detroit Free Press"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 7,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://www.pbs.org",
-      "rationale": "The establishment of a committee to investigate a Federal Reserve governor represents a concrete action aimed at removing an independent agency official. While not yet successful removal, this is a verifiable attempt to weaken the independence of the Fed through targeted investigation and intimidation of a sitting governor. The Fed's independence depends on insulation from executive pressure to remove officials for policy disagreements. A presidential committee investigating a Fed governor to facilitate her removal constitutes a stress on that independence safeguard, though it remains an investigative action rather than a completed removal or structural dismantling.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 6
-    },
-    {
-      "confirmed_hits": 5,
+      "confirmed_hits": 7,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.democracydocket.com/news-alerts/trumps-taxpayer-funded-propaganda-ads-draw-third-lawsuit/",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT1c0Q251YnNPTmllNzE0ZWlvd3RLRXRPTWxiNDF2NGhiSUMyWEVxU1VCd0tLWHNjMktfUU1VcHZ5MEQxQlBjbnA5aFQxMktXTmViTldCbnFWWEszWGtjYVIyNnZNbmtpREZ2STVia2JhNFZkalY4NHIxUDA5UU9lUXA5ejh6eEFFblY3My1ubVBIX3NXcjVrM3FBUFQ2ZHdGSTFj?oc=5",
-          "published": "2026-10-09T21:31:44+00:00",
-          "publisher": "Democracy Docket",
+          "canonical_link": "https://www.cnbc.com/2026/10/11/trump-ads-dhs-judge-order.html",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CZmZ4U3JfSk9QT0JlZ1dvbXBsaTl4bl93M1JRQ2laTnhLVURlanhGVFdNb1h4Z0tsLW1hdVZZX0ZWN0hseGhiTERjYi1feGZTLUVrNEZ4Mk1CZmZWTWkyNUVmeHJiQUR2Yi13TDlCTdIBdEFVX3lxTE1HQlRwMGhPd3NzZW1qOTRDUXd1ZU5vNU5vcTVqSXZZbHFNcnpKSVBNaVA3VDdXczJzTTBQYUZBYUwzT19wV3o3cUhHbVRQZ29tRC1pTGxBaE9uLTQzeHI5dWVYaEFYTTFtVmt1Yk9mZDBHRThx?oc=5",
+          "published": "2026-10-12T00:29:00+00:00",
+          "publisher": "CNBC",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump\u2019s taxpayer-funded propaganda ads draw third lawsuit - Democracy Docket"
+          "title": "Judge orders Trump administration to immediately stop taxpayer-funded TV ads - CNBC"
         },
         {
-          "canonical_link": "https://www.motherjones.com/politics/2026/10/youre-funding-trumps-new-ads/",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNZkZ2d2tIYURUVjFIQVI1b01yTVY2RWx4QWVDVkN5bFAyVFd5X3VxQlY2NllXV0NROUpRTEpsdFlOTWxzS2JTRUctVkwxbHo4X2pHNjlEYU45TFREY3NaWUlzM1VDUnhqYmU3dHlHbkRYLVM3LUU0R3VIOFFqUzA?oc=5",
-          "published": "2026-10-09T17:29:35+00:00",
-          "publisher": "Mother Jones",
+          "canonical_link": "https://www.reuters.com/world/us/us-judge-orders-halt-taxpayer-funded-ads-featuring-trump-2026-10-11/",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVURYbEJsVDMteXRVRGdGQWo2RnduSDB3ZklKSERDM3pvY0Q4U0FrdDZxWmJNUTNqLVpQNzVFZWRWcGVfd2ZDYXRDcFRTb0Ftd2NlQUR5dm1QVDl3dXBlcG10TUtWc18ycXFMY0U0UUZoaGQ3SkRKUkRIMWRsSXEwUGZaZ2R5bHRkZDNyR3lkSWVPa29zZGF5VDVja3laUlMyblIw?oc=5",
+          "published": "2026-10-11T23:51:00+00:00",
+          "publisher": "Reuters",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "You\u2019re Funding Trump\u2019s New Ads - Mother Jones"
+          "title": "US judge orders halt to taxpayer-funded ads featuring Trump - Reuters"
         },
         {
-          "canonical_link": "https://www.jsonline.com/story/news/politics/elections/2026/10/09/wisconsin-democrats-file-lawsuit-over-taxpayer-funded-pro-trump-ads/92169572007/",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPN2dYNG96dGtTUlhaLWlGeFgtOEFJVlFJbmxFVHh5YmJGNGtBUk5OdkM4cmZ0eUNhOWtaaXVDTkktM3NGUHZfZUV1Znhobm5Od2dPSWk1Yi1vT2FzV3hjYWI5dHZiemt4TzZiT1pOTWU3MzJkUVBiTlBuSEZ5SUk0LWhMVmRFckd1UlJzdXNGS1Mzcm8tN09MUjBvbTUzQzNSNjFsWl9uR3BIOTY1QUtwd3pDeVpkRlFSVjUzVkdjRnRvWUI5TVBJN2g2X2VmNmhLWnJubGNlVVQ5TDFVWTI4?oc=5",
-          "published": "2026-10-09T23:38:00+00:00",
-          "publisher": "Milwaukee Journal Sentinel",
+          "canonical_link": "https://www.dw.com/en/us-judge-orders-halt-to-taxpayer-funded-promo-ads-of-trump/a-79636117",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeW0wMXZ2aXpwelZieHotV3haUjNZeU1SOE41WjBaSktmNks4cnVOaVB4Yy1nVXJ2WWVDTUttSHpQRDJVQld2NlNqX0lVNnBKZUpRd283REJNaG1QdUh4c1NWZmpBZlNlQTdSbnJydzN5eVFFeWprWmE5ZS1jQk9WWloxUzktclZISGJjQkpveVMyS1lWd0HSAZYBQVVfeXFMT2FNODdZZzdCaHB5SHRmQlVJVjZYYkxFQUhvTXI5V3l4MmhBZTkzSnpyNmdvZVVXT1BCRjlINFNBVzZ6OWlBeVdFbTRUVFZHbzhHMGY3dG95UEpCcFJ4S2Q3M2FXbThEbEN2RUp0U3JvdGNZVk43ZkdGU293eGxOU3p6QWwwZUJ5cHZMMEtEUVZpdnlwMHpR?oc=5",
+          "published": "2026-10-12T04:06:36+00:00",
+          "publisher": "DW.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Wisconsin Dems sue administration over taxpayer-funded pro-Trump ads - Milwaukee Journal Sentinel"
+          "title": "US judge orders halt to taxpayer-funded promo ads of Trump - DW.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 6,
+      "hits": 7,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://democracydocket.com",
-      "rationale": "Multiple lawsuits filed against Trump administration alleging use of taxpayer funds for political advertising. The fact that lawsuits are being filed indicates plaintiffs have identified and are challenging alleged actual use of federal funds for partisan promotion. This is a credible, repeated stress signal of the activity described by the signal. Severity 2: confirmed instances of alleged improper spending are being litigated, indicating real occurrence rather than mere proposal or hypothetical.",
+      "primary_source_url": null,
+      "rationale": "A US federal judge has issued an order halting taxpayer-funded TV ads. This represents a court-confirmed instance of the administration attempting to use public funds for political promotion (the signal event), with judicial intervention ordering cessation. The event occurred (the ads existed and were funded by taxpayers), matches the signal (partisan promotion via appropriated funds), but severity is 2 rather than higher because: (1) the court has intervened and ordered a halt, indicating the constitutional check is functioning; (2) this is a single contained action now enjoined, not a pattern or structural failure; (3) no official has openly defied the order. The signal event itself (public funds for political promotion) did occur prior to the judicial order.",
       "severe_hits": 1,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 5
+      "unique_publishers": 7
     },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/usps-makes-new-rules-mail-ballots/story?id=135879673",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5",
-          "published": "2026-10-09T20:29:53+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://suaragarut.id/en/trump-committee-investigation-lisa-cook",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xY0ctMWVVT3Jya2FfVWJrb3gtVnBJdloxNklZNTFmb1Z3VW1oX0ZJWmpBdm94YUxKNk1MdFFtN1ZLT2V3UWxrWkNUZkRxT1I3RzVXSjVDWGwtV0NMT0NLRWwySVNoSkxheVFKTjAzWmNOUQ?oc=5",
+          "published": "2026-10-10T19:56:00+00:00",
+          "publisher": "SuaraGarut.ID",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Supreme Court allows Trump to implement parts of his mail-in voting executive order - ABC News - Breaking News, Latest News and Videos"
+          "title": "Trump Forms Committee to Investigate Fed Governor Lisa Cook - SuaraGarut.ID"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 1,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://www.suaragarut.id",
+      "rationale": "Foreign news outlet (Indonesian) reporting the same U.S. event as item [0]: Trump's establishment of a committee to investigate Fed Governor Lisa Cook. This is the same verifiable action reported from a non-U.S. source. The underlying event matches the independent agency capture signal\u2014an executive action designed to pressure removal of an independent regulator. Severity remains 2 as this is investigatory pressure rather than structural removal of safeguards or accomplished removal.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "Multiple credible sources report that the Supreme Court allowed Trump to implement parts of a mail-in voting executive order. This represents a shift of voting-rule authority from statutory/legislative control to unilateral executive action via EO. The Court's allowance (likely through stay or injunction ruling) enabled executive implementation without requiring legislative authorization. This is a real, confirmed action that transfers governance authority from statute to executive fiat, but is narrowly scoped to mail-voting procedures rather than a broader structural dismantling. Severity 2 reflects this as a real, credible stress signal of limited scope, not yet structural failure.",
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
@@ -229,7 +201,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -239,35 +211,35 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://www.aclu.org/press-releases/federal-court-sides-voters-ruling-doj-data-demands-violate-voter-privacy-states-election-authority",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQajhYSXpOcUU3TmFmZWVhcDVycVdMdnpWem5ZTlV0cWZlWEt6WWdFUDR0ZTJfZjhEODU2MDhHa1NiYi1oTTdSRElJRHZnNnJuRzNET3ZFUTAzRHA3Yk9rb0YxWGVaY3A5dG9uUjJ4andrSmRfWk5xcDdxd3J5Sm5WTURITFFBOC1IVHptWVltTER3SXNYV3hvSlRXT0g3bDBtbWNTSGFnLVlwWS1CLUlaVFFLbnN4ZVlwb0RSVnhHcWJrUkNvOTBNS1VDSEhRVG8?oc=5",
-          "published": "2026-10-09T21:37:30+00:00",
-          "publisher": "American Civil Liberties Union",
+          "canonical_link": "https://www.car.org/advocacy/stategovernmentaffairs/Ballot-Measures",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1CZG9ubEJFZHJ1MmM2YUlLTVowNFM2RmVvVHhpRkZvem1ITmstRk9TZW14bms0S1BTNi0tajlxVzNIUC01a3BQQ0NOaTBsN0RrUTdETUtIcUVhVmpUMFJ0dDVENE1RaWJmZHNPa2ZPMnVSeEJTdFE?oc=5",
+          "published": "2026-10-11T14:44:43+00:00",
+          "publisher": "California Association of Realtors (CAR)",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Federal Court Sides With Voters, Ruling DOJ Data Demands Violate Voter Privacy, States\u2019 Election Authority - American Civil Liberties Union"
+          "title": "Ballot Measures - California Association of Realtors (CAR)"
         },
         {
-          "canonical_link": "https://abcnews.com/Politics/practical-sen-markwayne-mullin-speaks-after-named-noems/story?id=130799720",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGFPSVpoVFZTUlFjaDZRakItV05kaVlGVlluM1pMRGRvTkpaS2RFNlY2ZElwbFFOUEwtQVhSTzVVZlRmSmVBb1JFZDBaaVRqR05kNnZydDNBcFVOak5ENzZvRmdaOFdLTk9sUk9Kc3hSdnB4a3VEcGl6NDJ0M2RNTG9mMjFSUkd0MlNUYnl2QTNjeDI3aWt1UHM3WVBXaGhTOVY0VXBR0gGrAUFVX3lxTE1JN1FWZ1RwMHQ4aEpyckdLR2RxTnhucVUwZ21uVWZscnBKU3MxZFBQX3RaTXlBZE45YnBXLUo0OW4tSWRWdDRRVnFtTHhxbVdzMTJuLTNYQXdQUlB2M0hobldMT05hN2xscnlXLXVjT2VaX2I5WXlzWWdiY0lWNHIzZ0dDMnBDTFN5bUx1bXpQRkduNzdjcF9nS2ZqbTZZMm5YQmRaOTlPVjdNYw?oc=5",
-          "published": "2026-10-10T23:04:44+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://www.indiagazette.com/news/279365569/around-40-lakh-votes-removed-in-hyderabad-in-name-of-sir-telangana-minister-slams-bjp-ramchander-rao",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQWVtMjV3VGdLUk5FQ1I5UFkydTd2RHdVN1hxRGwwRF9Ka2tTbTh6ckt0R0RDSVdPTVJBbDNVTGQ2b3YzTGtmMGhYYlNxNWF4UHNyS3lDN0tkeFBYUjcwNE9rc0xVbDdNcGd6Zml5QVIxSlRKaDlvT09ZVC02UnNjcEExd3I3UlM3OGUxMHhldEtxWXpQQ05Wd1BDZzVRMEpHSWdTdzU1a1FMNkdtRWsweXJ1VGxKZXdEX0p2Tkp4NHN6aDRwNm1SUEJwMnQ4azFNMl83aTNtamxWV0RL?oc=5",
+          "published": "2026-10-11T08:40:00+00:00",
+          "publisher": "www.indiagazette.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "'Going to be practical': Sen. Markwayne Mullin speaks out after being named Noem's replacement at DHS - ABC News - Breaking News, Latest News and Videos"
+          "title": "\"Around 40 lakh votes removed in Hyderabad in name of SIR\": Telangana Minister slams BJP's Ramchander Rao - www.indiagazette.com"
         },
         {
-          "canonical_link": "https://laist.com/news/politics/voter-guides/2026-election-california-general-proposition-5-recall-elections",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRktmTGtpb0pUOGpGT1g4OVBsVlBpcXU3Smh1M09oQVY4TU50Z2I2RTdpal9MVFA3NUhkanl5YWZscUFXMU93WFlTWjRBcEp2dmF6VjdsWkk1SEFxci1DYlZaTUhmeWhSd19lVHoxRU95cXNGMVRJNnREazBGWVc2YUNULW9FNzAxSERyYnBkdTQyOGplczFlYnc5SUJYRWxQanJCQWRieFd2M09M?oc=5",
-          "published": "2026-10-10T01:51:00+00:00",
-          "publisher": "LAist",
+          "canonical_link": "https://www.bignewsnetwork.com/news/279365566/scuffle-breaks-out-among-congress-workers-at-ajay-rai-office-in-lucknow",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNWxwSms4VnFGYnVjbS16STNJc3JkMDFQVlRwSXpsWTZvTlI2dmZDVDQ1UHYxZ0dmUGpDbmZMUzNncEpUSTh4MnY2SHFMazA4cVpNV2plbXNTSmZwOG9nZ2ZSencwYUs0WmlQMXNxYUtabm9UTC1xLVNXam1VRXpyUVdyUWJ2N1h4SWZvWnVDc24ybUVTdUNjcUNGc3BodXBRNlpueGUzYkRIVFFlblJPSF9SV3dTcWxH?oc=5",
+          "published": "2026-10-11T13:08:00+00:00",
+          "publisher": "Big News Network.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Prop. 5: Revamp how California handles recall elections - LAist"
+          "title": "Scuffle breaks out among Congress workers at Ajay Rai's office in Lucknow - Big News Network.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 4,
+      "hits": 3,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -276,8 +248,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],

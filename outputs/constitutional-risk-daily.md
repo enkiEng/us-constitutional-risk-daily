@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-10-11 12:42:36 UTC
+- Generated: 2026-10-12 13:03:00 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **11 / 100** (Baseline Institutional Noise)
-- Previous day delta: **0.0**
-- Delta vs 7-day average: **-1.0**
+- Score: **9 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-2.0**
+- Delta vs 7-day average: **-2.4**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,10 +15,10 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.24 | 1.31 |
-| Judicial Independence and Rule of Law | 15 | 0.33 | 1.22 |
+| Elections and Transfer of Power | 22 | 0.15 | 0.82 |
+| Judicial Independence and Rule of Law | 15 | 0.24 | 0.89 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
+| Executive Constraints and Emergency Powers | 13 | 0.65 | 2.11 |
 | Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
 | Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
@@ -28,36 +28,32 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | ai | 6 | 7 |
-| Public Funds for Political Promotion | civil_liberties_information | 2.00 (Yellow) | ai | 5 | 6 |
-| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | ai | 1 | 2 |
-| Court Order Noncompliance | judiciary_rule_of_law | 1.30 (Watch) | keyword | 0 | 0 |
-| Election Administration Capture | elections_transfer | 0.95 (Watch) | ai | 0 | 4 |
+| Public Funds for Political Promotion | civil_liberties_information | 2.00 (Yellow) | ai | 7 | 7 |
+| Independent Agency Capture | civil_service_integrity | 2.00 (Yellow) | ai | 1 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 1.65 (Watch) | keyword | 0 | 0 |
+| Court Order Noncompliance | judiciary_rule_of_law | 0.95 (Watch) | keyword | 0 | 0 |
+| Election Administration Capture | elections_transfer | 0.60 (Green) | ai | 0 | 3 |
 
 ## Evidence Samples
 
-### Independent Agency Capture
-- Assessment: The establishment of a committee to investigate a Federal Reserve governor represents a concrete action aimed at removing an independent agency official. While not yet successful removal, this is a verifiable attempt to weaken the independence of the Fed through targeted investigation and intimidation of a sitting governor. The Fed's independence depends on insulation from executive pressure to remove officials for policy disagreements. A presidential committee investigating a Fed governor to facilitate her removal constitutes a stress on that independence safeguard, though it remains an investigative action rather than a completed removal or structural dismantling.
-- [PBS] Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her - PBS (2026-10-09) - https://news.google.com/rss/articles/CBMi1wFBVV95cUxObEdMclh5a2RrT0JKbE02ZVRKQ29FQkFwdkJNdVhFWWt0S2dBdG1PeE10b1A1TlpqbnBGeUxlUmhPMUNuY3BZdS1EeGlONFhhZ0VDcUdrNXhjN1hFSVBBcVp2N3pfYmdROWNwLTJTdTVSMVY2bUNnVUp4aEcxV3VWOXNESXFqcmF2Z0NxdEN0Q2tDM3lOeTJ5dHQyMERxQzJzZ2Z6aFpwbFNiSjBfRWN1TW5jOHFxSWpKVk96eU1GWUJ0Qk1icVNJZE42dU5aVlRqMC1FYTZRa9IB1wFBVV95cUxObEdMclh5a2RrT0JKbE02ZVRKQ29FQkFwdkJNdVhFWWt0S2dBdG1PeE10b1A1TlpqbnBGeUxlUmhPMUNuY3BZdS1EeGlONFhhZ0VDcUdrNXhjN1hFSVBBcVp2N3pfYmdROWNwLTJTdTVSMVY2bUNnVUp4aEcxV3VWOXNESXFqcmF2Z0NxdEN0Q2tDM3lOeTJ5dHQyMERxQzJzZ2Z6aFpwbFNiSjBfRWN1TW5jOHFxSWpKVk96eU1GWUJ0Qk1icVNJZE42dU5aVlRqMC1FYTZRaw?oc=5
-- [Mother Jones] Trump Tries—Yet Again—to Fire Fed Governor Lisa Cook - Mother Jones (2026-10-09) - https://news.google.com/rss/articles/CBMinwFBVV95cUxNejR4ZEhYMXhoUXFhM2dNZ3otUlVFWFBEb1JVRDRERml4SjhrYnJlRllpWkdKa1Zucm15SzgxeXQyLTFJaXlHWnVNTmtIVXpQMmRzaE9LOFdidjlWcnFhMU84c1d5N1hwalFScnpCOVpqZE5pM2R6eUs2aEtCMGdsc1RRTEZfTUlEcnBiUDV0ZXk3dFB1dVd6bU5DMTBSRFE?oc=5
-- [Detroit Free Press] Trump creates White House panel to investigate Fed Governor Lisa Cook - Detroit Free Press (2026-10-09) - https://news.google.com/rss/articles/CBMivgFBVV95cUxPR09xYUVFQVd2WEwtazlUUzViSElUNndqcTJDckZjalEtbHViT2NnTGdNM3EtMzRGWWV3Q0piY1p2Z016NjN2MDA2dUIxa25nT245NE00blA3NnRNRmdNRDYtSlF2YUpOeGVxV1dsSURLdXJid3lfNm9YYnl6YmN5SjdiN2RlY2l3eTV6UVpoZ0syTWgwRTRRdHBpalpWNGQ5VE1OTXpxZjhoekx6RktqeUMyZkZoSlRLenNrSlhn?oc=5
-
 ### Public Funds for Political Promotion
-- Assessment: Multiple lawsuits filed against Trump administration alleging use of taxpayer funds for political advertising. The fact that lawsuits are being filed indicates plaintiffs have identified and are challenging alleged actual use of federal funds for partisan promotion. This is a credible, repeated stress signal of the activity described by the signal. Severity 2: confirmed instances of alleged improper spending are being litigated, indicating real occurrence rather than mere proposal or hypothetical.
-- [Democracy Docket] Trump’s taxpayer-funded propaganda ads draw third lawsuit - Democracy Docket (2026-10-09) - https://news.google.com/rss/articles/CBMiowFBVV95cUxPT1c0Q251YnNPTmllNzE0ZWlvd3RLRXRPTWxiNDF2NGhiSUMyWEVxU1VCd0tLWHNjMktfUU1VcHZ5MEQxQlBjbnA5aFQxMktXTmViTldCbnFWWEszWGtjYVIyNnZNbmtpREZ2STVia2JhNFZkalY4NHIxUDA5UU9lUXA5ejh6eEFFblY3My1ubVBIX3NXcjVrM3FBUFQ2ZHdGSTFj?oc=5
-- [Mother Jones] You’re Funding Trump’s New Ads - Mother Jones (2026-10-09) - https://news.google.com/rss/articles/CBMif0FVX3lxTFBNZkZ2d2tIYURUVjFIQVI1b01yTVY2RWx4QWVDVkN5bFAyVFd5X3VxQlY2NllXV0NROUpRTEpsdFlOTWxzS2JTRUctVkwxbHo4X2pHNjlEYU45TFREY3NaWUlzM1VDUnhqYmU3dHlHbkRYLVM3LUU0R3VIOFFqUzA?oc=5
-- [Milwaukee Journal Sentinel] Wisconsin Dems sue administration over taxpayer-funded pro-Trump ads - Milwaukee Journal Sentinel (2026-10-09) - https://news.google.com/rss/articles/CBMi3wFBVV95cUxPN2dYNG96dGtTUlhaLWlGeFgtOEFJVlFJbmxFVHh5YmJGNGtBUk5OdkM4cmZ0eUNhOWtaaXVDTkktM3NGUHZfZUV1Znhobm5Od2dPSWk1Yi1vT2FzV3hjYWI5dHZiemt4TzZiT1pOTWU3MzJkUVBiTlBuSEZ5SUk0LWhMVmRFckd1UlJzdXNGS1Mzcm8tN09MUjBvbTUzQzNSNjFsWl9uR3BIOTY1QUtwd3pDeVpkRlFSVjUzVkdjRnRvWUI5TVBJN2g2X2VmNmhLWnJubGNlVVQ5TDFVWTI4?oc=5
+- Assessment: A US federal judge has issued an order halting taxpayer-funded TV ads. This represents a court-confirmed instance of the administration attempting to use public funds for political promotion (the signal event), with judicial intervention ordering cessation. The event occurred (the ads existed and were funded by taxpayers), matches the signal (partisan promotion via appropriated funds), but severity is 2 rather than higher because: (1) the court has intervened and ordered a halt, indicating the constitutional check is functioning; (2) this is a single contained action now enjoined, not a pattern or structural failure; (3) no official has openly defied the order. The signal event itself (public funds for political promotion) did occur prior to the judicial order.
+- [CNBC] Judge orders Trump administration to immediately stop taxpayer-funded TV ads - CNBC (2026-10-12) - https://news.google.com/rss/articles/CBMib0FVX3lxTE9CZmZ4U3JfSk9QT0JlZ1dvbXBsaTl4bl93M1JRQ2laTnhLVURlanhGVFdNb1h4Z0tsLW1hdVZZX0ZWN0hseGhiTERjYi1feGZTLUVrNEZ4Mk1CZmZWTWkyNUVmeHJiQUR2Yi13TDlCTdIBdEFVX3lxTE1HQlRwMGhPd3NzZW1qOTRDUXd1ZU5vNU5vcTVqSXZZbHFNcnpKSVBNaVA3VDdXczJzTTBQYUZBYUwzT19wV3o3cUhHbVRQZ29tRC1pTGxBaE9uLTQzeHI5dWVYaEFYTTFtVmt1Yk9mZDBHRThx?oc=5
+- [Reuters] US judge orders halt to taxpayer-funded ads featuring Trump - Reuters (2026-10-11) - https://news.google.com/rss/articles/CBMiowFBVV95cUxOVURYbEJsVDMteXRVRGdGQWo2RnduSDB3ZklKSERDM3pvY0Q4U0FrdDZxWmJNUTNqLVpQNzVFZWRWcGVfd2ZDYXRDcFRTb0Ftd2NlQUR5dm1QVDl3dXBlcG10TUtWc18ycXFMY0U0UUZoaGQ3SkRKUkRIMWRsSXEwUGZaZ2R5bHRkZDNyR3lkSWVPa29zZGF5VDVja3laUlMyblIw?oc=5
+- [DW.com] US judge orders halt to taxpayer-funded promo ads of Trump - DW.com (2026-10-12) - https://news.google.com/rss/articles/CBMilgFBVV95cUxNeW0wMXZ2aXpwelZieHotV3haUjNZeU1SOE41WjBaSktmNks4cnVOaVB4Yy1nVXJ2WWVDTUttSHpQRDJVQld2NlNqX0lVNnBKZUpRd283REJNaG1QdUh4c1NWZmpBZlNlQTdSbnJydzN5eVFFeWprWmE5ZS1jQk9WWloxUzktclZISGJjQkpveVMyS1lWd0HSAZYBQVVfeXFMT2FNODdZZzdCaHB5SHRmQlVJVjZYYkxFQUhvTXI5V3l4MmhBZTkzSnpyNmdvZVVXT1BCRjlINFNBVzZ6OWlBeVdFbTRUVFZHbzhHMGY3dG95UEpCcFJ4S2Q3M2FXbThEbEN2RUp0U3JvdGNZVk43ZkdGU293eGxOU3p6QWwwZUJ5cHZMMEtEUVZpdnlwMHpR?oc=5
+
+### Independent Agency Capture
+- Assessment: Foreign news outlet (Indonesian) reporting the same U.S. event as item [0]: Trump's establishment of a committee to investigate Fed Governor Lisa Cook. This is the same verifiable action reported from a non-U.S. source. The underlying event matches the independent agency capture signal—an executive action designed to pressure removal of an independent regulator. Severity remains 2 as this is investigatory pressure rather than structural removal of safeguards or accomplished removal.
+- [SuaraGarut.ID] Trump Forms Committee to Investigate Fed Governor Lisa Cook - SuaraGarut.ID (2026-10-10) - https://news.google.com/rss/articles/CBMickFVX3lxTE8xY0ctMWVVT3Jya2FfVWJrb3gtVnBJdloxNklZNTFmb1Z3VW1oX0ZJWmpBdm94YUxKNk1MdFFtN1ZLT2V3UWxrWkNUZkRxT1I3RzVXSjVDWGwtV0NMT0NLRWwySVNoSkxheVFKTjAzWmNOUQ?oc=5
 
 ### Legislative Bypass by Executive
-- Assessment: Multiple credible sources report that the Supreme Court allowed Trump to implement parts of a mail-in voting executive order. This represents a shift of voting-rule authority from statutory/legislative control to unilateral executive action via EO. The Court's allowance (likely through stay or injunction ruling) enabled executive implementation without requiring legislative authorization. This is a real, confirmed action that transfers governance authority from statute to executive fiat, but is narrowly scoped to mail-voting procedures rather than a broader structural dismantling. Severity 2 reflects this as a real, credible stress signal of limited scope, not yet structural failure.
-- [ABC News - Breaking News, Latest News and Videos] Supreme Court allows Trump to implement parts of his mail-in voting executive order - ABC News - Breaking News, Latest News and Videos (2026-10-09) - https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5
-
+- No fresh evidence links in the current lookback window.
 ### Court Order Noncompliance
 - No fresh evidence links in the current lookback window.
 ### Election Administration Capture
-- [American Civil Liberties Union] Federal Court Sides With Voters, Ruling DOJ Data Demands Violate Voter Privacy, States’ Election Authority - American Civil Liberties Union (2026-10-09) - https://news.google.com/rss/articles/CBMizwFBVV95cUxQajhYSXpOcUU3TmFmZWVhcDVycVdMdnpWem5ZTlV0cWZlWEt6WWdFUDR0ZTJfZjhEODU2MDhHa1NiYi1oTTdSRElJRHZnNnJuRzNET3ZFUTAzRHA3Yk9rb0YxWGVaY3A5dG9uUjJ4andrSmRfWk5xcDdxd3J5Sm5WTURITFFBOC1IVHptWVltTER3SXNYV3hvSlRXT0g3bDBtbWNTSGFnLVlwWS1CLUlaVFFLbnN4ZVlwb0RSVnhHcWJrUkNvOTBNS1VDSEhRVG8?oc=5
-- [ABC News - Breaking News, Latest News and Videos] 'Going to be practical': Sen. Markwayne Mullin speaks out after being named Noem's replacement at DHS - ABC News - Breaking News, Latest News and Videos (2026-10-10) - https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGFPSVpoVFZTUlFjaDZRakItV05kaVlGVlluM1pMRGRvTkpaS2RFNlY2ZElwbFFOUEwtQVhSTzVVZlRmSmVBb1JFZDBaaVRqR05kNnZydDNBcFVOak5ENzZvRmdaOFdLTk9sUk9Kc3hSdnB4a3VEcGl6NDJ0M2RNTG9mMjFSUkd0MlNUYnl2QTNjeDI3aWt1UHM3WVBXaGhTOVY0VXBR0gGrAUFVX3lxTE1JN1FWZ1RwMHQ4aEpyckdLR2RxTnhucVUwZ21uVWZscnBKU3MxZFBQX3RaTXlBZE45YnBXLUo0OW4tSWRWdDRRVnFtTHhxbVdzMTJuLTNYQXdQUlB2M0hobldMT05hN2xscnlXLXVjT2VaX2I5WXlzWWdiY0lWNHIzZ0dDMnBDTFN5bUx1bXpQRkduNzdjcF9nS2ZqbTZZMm5YQmRaOTlPVjdNYw?oc=5
-- [LAist] Prop. 5: Revamp how California handles recall elections - LAist (2026-10-10) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQRktmTGtpb0pUOGpGT1g4OVBsVlBpcXU3Smh1M09oQVY4TU50Z2I2RTdpal9MVFA3NUhkanl5YWZscUFXMU93WFlTWjRBcEp2dmF6VjdsWkk1SEFxci1DYlZaTUhmeWhSd19lVHoxRU95cXNGMVRJNnREazBGWVc2YUNULW9FNzAxSERyYnBkdTQyOGplczFlYnc5SUJYRWxQanJCQWRieFd2M09M?oc=5
+- [California Association of Realtors (CAR)] Ballot Measures - California Association of Realtors (CAR) (2026-10-11) - https://news.google.com/rss/articles/CBMidkFVX3lxTE1CZG9ubEJFZHJ1MmM2YUlLTVowNFM2RmVvVHhpRkZvem1ITmstRk9TZW14bms0S1BTNi0tajlxVzNIUC01a3BQQ0NOaTBsN0RrUTdETUtIcUVhVmpUMFJ0dDVENE1RaWJmZHNPa2ZPMnVSeEJTdFE?oc=5
+- [www.indiagazette.com] "Around 40 lakh votes removed in Hyderabad in name of SIR": Telangana Minister slams BJP's Ramchander Rao - www.indiagazette.com (2026-10-11) - https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQWVtMjV3VGdLUk5FQ1I5UFkydTd2RHdVN1hxRGwwRF9Ka2tTbTh6ckt0R0RDSVdPTVJBbDNVTGQ2b3YzTGtmMGhYYlNxNWF4UHNyS3lDN0tkeFBYUjcwNE9rc0xVbDdNcGd6Zml5QVIxSlRKaDlvT09ZVC02UnNjcEExd3I3UlM3OGUxMHhldEtxWXpQQ05Wd1BDZzVRMEpHSWdTdzU1a1FMNkdtRWsweXJ1VGxKZXdEX0p2Tkp4NHN6aDRwNm1SUEJwMnQ4azFNMl83aTNtamxWV0RL?oc=5
+- [Big News Network.com] Scuffle breaks out among Congress workers at Ajay Rai's office in Lucknow - Big News Network.com (2026-10-11) - https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNWxwSms4VnFGYnVjbS16STNJc3JkMDFQVlRwSXpsWTZvTlI2dmZDVDQ1UHYxZ0dmUGpDbmZMUzNncEpUSTh4MnY2SHFMazA4cVpNV2plbXNTSmZwOG9nZ2ZSencwYUs0WmlQMXNxYUtabm9UTC1xLVNXam1VRXpyUVdyUWJ2N1h4SWZvWnVDc24ybUVTdUNjcUNGc3BodXBRNlpueGUzYkRIVFFlblJPSF9SV3dTcWxH?oc=5
 
 ## Data Quality
 
