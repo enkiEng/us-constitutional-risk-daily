@@ -743,6 +743,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74863653/1/toth/",
       "rationale": "This is a routine civil complaint filing (Toth v. NYCDOE, E.D.N.Y. 1:26-cv-06025) containing only procedural docket information\u2014a complaint with incomplete disclosure statement, filing fee receipt, and attachments. There is no evidence of court order noncompliance. A complaint is the initiation of a case, not the outcome of one, and the summary contains no indication of any judicial order, any executive or administrative response to an order, or any refusal to comply with court direction. This is a standard litigation filing with no relevance to the signal.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74943556/9/allina-health-system-v-minnesota-department-of-human-services-commissioner/": {
+      "actor": "Minnesota Department of Human Services Commissioner John Connolly",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74943556/9/allina-health-system-v-minnesota-department-of-human-services-commissioner/",
+      "rationale": "This docket entry documents a motion for contempt FILED BY Allina Health System against the commissioner\u2014a private party's request to the court to hold an official in contempt. It is a proposed order under consideration by the judge, not a confirmed finding or an actual instance of noncompliance. The filing of a contempt motion is an allegation or request for judicial determination, not evidence that court-order noncompliance has actually occurred. The motion itself is a legal instrument requesting relief, not proof that an executive refusal has taken place. No court has yet ruled that the commissioner actually violated or refused to comply with a court order.",
+      "severity": 0
     }
   },
   "election_administration_capture": {
@@ -764,6 +774,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns an alleged removal of votes in Hyderabad, India (Telangana state). It is not a U.S. domestic event and therefore not evidence of U.S. constitutional-risk stress. The signal applies only to U.S. election administration.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPN0F2TC0yWHhoZXozMDJqRF9YYkVpOWo1OUVIMTVZTTEyMGtsZU4xbzBGVVowVnBURFNDc0xFelc5NkhjYmtadXlwVzEyTW5NS0lHZjFsS0VLRDBvYURtZ0dpV0V3cGZZY2FxN1lESlBiRjdfUnQ3V2V3TVdwQmR0VGRzWlJFZ1JwaWhDa3VxZlFqcFFmdmt6bWptVFZ2U1R4eTBqWGRSY09RY0NpQmZoLUFnNW1jN0NELVV5VEdoSWpOMk9uOTVZWUdYR1lEbW0zcFN3RTQ1UERNUS1p0gHjAUFVX3lxTFBwb1lsSGtuRnZzUGFuMGtIbGdQNFFETHZIekRraVEwMzNMOWJhUU55TjhJVENXanVQdmZ3aEY1MzVsSm9BeEx6QTNCNzcwMVZ2NGdxeDVUVWo4T3NKZHB2dFBVNTNTWk91VTRtZVVHT0ZnVDU0dmJtZ3pBbnVBbFQ0XzhIbl8yMXZ3ZDJnN3ZPU1Z4cVF6UDl2ODdJTkx1SG0wQl9ERm8yQktpU1hSbGJLYkUyaGdyeGxUTDJaU2labGdIZHN1RF9ZU2hMWnJYclhHYjZwVUNFVi0yeHh6bVBqaUJR?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns India's election commission procedures and is not relevant to U.S. constitutional risk. The signal addresses election administration capture in the United States. Coverage of another country's electoral systems does not constitute evidence of the signal event occurring in the U.S.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOR3V1XzVWLWtERDNOMlRjTm5NR0UtbHl1d1BPeF92Mnl5TDRydzh5LTVBYVlnUUt3S1NyYXFKZWRNYXdNTDVIMkZQWkFJQzgyaHRUbU93clAtTldBQzlzS3lQeGpDaUN5NjVLbHI0ZjRDekxreW9rallTNm9HY3pSRXdJSlZvUUUyZEQxOXZZVGhzeVlCOWJ6ajZiS2FXRWY4VUN2THhPa1hkLTQtSWw1amZjZ2dQQTJzdDJOaFVoQXhjazY5MkVXemVEeW5tdWFDM0lFV0ZjanVyRFRBbVE?oc=5": {
@@ -815,6 +835,16 @@
       "primary_source_url": "https://www.wlrn.org",
       "rationale": "Florida election officials removed a sitting U.S. president's personal information from voter files. This is a credible, confirmed action by election administration that demonstrates differential treatment based on partisan identity (removal of one officeholder's data). However, severity remains at 2 rather than 3 because the action appears reactive to a disputed legal citation rather than a systematic structural capture; it is a single documented instance of partisan-inflected administrative discretion rather than an ongoing campaign or structural takeover of election administration.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMVFmRy1FVXRXN2thUEp0UzV6c2VhUXRlVi1KSFVvbjNKcDc4cVprbXFWc00yN2J1cjZ5SGlDWktrTFZ6VUl4b3NjWnBzZjJrbVhPM2kwbTNBQ0o5WHp0eVVfZGNIOVo2ZXNINEwyVkVyeEhNdkg1bm9GSHRKdjc2d2dITHRaWkQxVXV4c013Rlhja0FtOU9QODlhdFBNWEwydjlUZ2JGYXF5ZnJMN0NWaEc4ZG51Mm9IeXpVR2VmMVV5VS1hV3ZybUs3emdXaGR4WkZaZVlRVTFZZVlUdzNMTGZvSElxdTTSAewBQVVfeXFMTURxTXRTX2Q1MTJtUS1DcEpPYW0xWV92OHpta3hjSzdyVjVhVlR2V25MQmVrY1E2NWJNOU54VklCOXpQUkRTTDlVUUVGcGZpYkJMY2ltVlhKaXYtZFZ2OEJBLXVPVjdSbTVVNF9CUEs2WmhuU0thS1A5OGkyY2xNTFRjcHZFcV9OY0tENklfWWM0S3lLU0tETnBpT3NEbmhzZE5oUkdHd1BRd3VYaTd3Y2F6ampxZ0pKdU1ycUh6RXprbk84dk4xa0ZJY2xaVXN2cjZwTnJlMC03dGdUUVI5NmhyV0dVU2RGWWVRTTA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is a hypothetical political analysis about a possible outcome ('how a Democratic sweep could reshape...') rather than evidence of an event that occurred. It presents speculative commentary on future scenarios, not a verifiable instance of election administration being moved from neutral process to partisan control. No actual capture of election administration is described or verified.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY3B6V1ZMWWpwWUZMNmo5NkN5bzZOQ3plRGE2d1lxcUNKbktiTGVmWDRjc3p0dkMzQkJMNmtFR3ZySGxBX3VodEZEanh5OEh1WVlXSjlLU2VzSUhKVGIxSU41VzFhZktyaDdXcjBWUmFZcDVUdXc3MlJtTWZmcWFMSUhtb0RPTWs5NTVyTm9UN1VZZDh1cF9US2RmMG1lbjk0WDRPaW43d2d6UVFobmRmaHVBNmxDcmFvUU5aTDYyaVpaOVloZHoxdDFhMlJKZVl6SDd1Q2N0SGtqRUM2Z0xjVzVBeFF5aF91?oc=5": {
       "actor": "MAGA activist; Georgia State Election Board",
@@ -2694,6 +2724,16 @@
       "matches_signal": false,
       "primary_source_url": "https://govexec.com",
       "rationale": "Confirmation of oversight and federal workforce nominees by the Senate is a routine constitutional process. No summary details are provided, but the headline describes normal confirmations, not retaliation against watchdog functions. Confirmations themselves are not evidence of IG retaliation unless the summary indicated nominees were positioned to undermine oversight\u2014which is not stated here.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxOb1AwaU1hc3R6RVRSZG9SZlpubWhudjVOSGxtZGJHd0dqSjBsNFl3Wmg3dEZzSkVMa3pFWS1qd01zcFFtdDB2Q29OR2JBOEpzZFRaTXBCSG0zRHZlelVaakNLUlNqS3U4S0ZzOUFHQTQ3clkyQTNtNG0zVEFpaVdZX3AtbEtHaFJBYUU0RHV3TkpPTjNITGZxUEM0VGxYVnV4TlVlaDlSQ2owemlaa1ZsQTBQN29hSGJQVjc2RS1PYmFmTXZ2NEhES3Jqdw?oc=5": {
+      "actor": "Delaware Inspector General",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.delawareonline.com",
+      "rationale": "This article reports the establishment of a public tip line by Delaware's newly created inspector general position. This is a routine institutional development and actually represents the creation of a watchdog function, not retaliation against one. There is no evidence of any retaliatory action against an inspector general, no obstruction of oversight, no removal or weakening of anti-corruption monitoring capacity, and no action hostile to watchdog functions. The event described is the opposite of the signal: it is the augmentation of watchdog capacity, not its suppression or retaliation.",
       "severity": 0
     },
     "https://www.courtlistener.com/docket/73667914/1/longoria-v-of-america/": {
@@ -6090,6 +6130,16 @@
       "rationale": "This is an opinion or analytical piece from the Cato Institute posing a speculative question about NORTHCOM CONPLAN 3900 and potential Insurrection Act invocation. The headline is phrased as a question, indicating analysis or concern rather than reporting of an actual occurrence. No verifiable evidence is presented that the military has been used or threatened for use in domestic political conflict, nor that any constitutional breach has taken place. This is commentary on contingency planning, not evidence of real action.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTVhlQ1FDVXl2ZWdQbUtFcEwyVzI3dkVpLTJxQTNySjdWQlZTR3VVV3NyaUF6V2dOTG5Hd29iZkFBdnlBYk9vMUdlbVVNMFFqSC04T3gxMGI2Vk5JYWZUWmV2WXZDUEJFRU5taTB0UGZ4d3dfVWZsZi1TYUtvQkxTN3Q4ay15bUlIeU5SVlJpN2l1ZlU?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This is an opinion/editorial piece discussing hypothetical or proposed scenarios ('Plan B', 'election intimidation'). It is commentary and analysis about potential future actions, not evidence of an actual occurrence. No verifiable military action, threat, or use in a domestic political context has taken place. Opinion pieces expressing concern or speculation do not constitute evidence of real constitutional-stress events.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxQanp6dkhXck96MklTbEpXU0k0TzUySVlROFVER1AxN3hTZ1pBVl9vaDNvckNxbW1iNFhYbEFGV25UcVZYSy1BMXp4b1JMY3VVdk52OV9WUm9yUHZubVlHZnRkb2JWZHhGbFJtTTluZTRXaXhwVHEtTXdvLUJ6UkRGaHpnV05ocW1mVFE1Z0F3bERUb2hOazhMQTJQSzJNdw?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -7052,6 +7102,16 @@
       "rationale": "This item concerns the 2027 Rivers gubernatorial election in Nigeria, specifically APC candidate Kingsley Chinda. It is not a U.S. domestic event and is irrelevant to the U.S. constitutional-risk dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMitAJBVV95cUxNRDcycU1NOVVDZWxUMnRRVGJSdnRmem5veTFRWU1maVVYSHltbzBtVTZRY3BpWEVOUG03b3o4U1BORjFncVlkcmQxVFBCcU1JRFZZcDhvTk5pYU9MRXU0QUdiU2V0cE0yOU5jUVlYdUd3b3Zfd0JHajQ5LU5mVkljaUk5QlhyNzJRMklDVnp2eW1UTEhZUTNXYU5XZ3Awem1HWWNzTkpwYWN6M3ZHNWpQcnRjbWhDRVJ6UlpXU0RZaURHM19mNXFlRnRTanRXUWFKeUJSN013QnZoQUtiNEJxQ3lmTGlYUWZKOTlLcEJLSTNLLWs2OTk0ZWxpV3F3aW9welZkYTVMa3FkSUU0MVRXYmdQYVdqWC0tY05MRWlnajFWZlRJZF80WUtURllJTlM0YnhVZ9IBugJBVV95cUxQZTZqWGdwLUxHTmVYT0huSUlIVGV5Tk9pY3h5SDlWMmRLV1hPeHE1bG9nY205NHVkOEZnWmMtc0V1TGNmTWs0M3lWQTV6U3hUODloNHEwdHRBLUtrS3NVTkRjMTc4b1hGSENXQll1NzBMY1BIaXpONWpVSVlFeEJxQXZFZVY2WEF5WlYwdnBiSDItVno3ZnN5WWNORno4em44eXZXQ0hOMl9yR2tKRGxlajB6a3Rhejhld0lrUHU5bE1uM1U3S09QUEI2YWNtUVZIRy1aUkdsRkpxMG1LS3NNamUtcGZja0RQaEF3ZThtWXVkd09rQ0ZpWFBTVnNNbFRORkZVQkpuQjgzcHk0djBKX1ktVjJmZ0pIbkQ2Zjkya2lQbTZtQjM4T1NWQmN6V0lWTWxZQmhOQW5NUQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports a local election result in Chhotaudepur, India (a ward election involving BJP, Congress, and AAP\u2014all Indian political parties). It is not a U.S. domestic event and contains no evidence of opposition ballot exclusion or any constitutional stress in the United States. The signal is irrelevant to this item.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd0NEX0R3NVNfVTVfdmxPOWdKOEV5dlN4UXZFSE9HVEd0NzI0WmI2Mk43MEUzNGppWEdEQU9nYk1fbkMwajVXQ3RmMmg3R3JITk42U0YyelNhMERyMWR6WHJ1Y1MzOUdPelpmTkI3dDVocDdnSTA4RlJ5S2NGd3Vwb0VDWVlnUkdGTzlWN2NZZHNtR05YRDBUY1hrZGRnZnJFaXpiNTQxRGpQTTJ6QTBrTUdicjh6d9IBuwFBVV95cUxQVHJPZzlMYmw1QnVLSlhUNlp6ZVVFVXBWZkhVODNKOGZVaEYzcUNkMm14TlJXenhJSHZjRjRlUm5zd0phZkdfTFFNQlJUdTRJY1F4YUhUdUJxSUNlSG84ZW9wMUhRdDBXZW1uUVBaMVhJOTljakktNk5PV1NUVm1GbjFiMmdUVkpzYWJGLVhXYm9NNWFqVGU1OHVoa1B3Z0tBb1htS3UydUFjWVJXUUV2ckZROVR1Vkp1NGhV?oc=5": {
       "actor": "Israel's Election Panel",
       "confidence": 0.85,
@@ -7312,6 +7372,16 @@
       "matches_signal": false,
       "primary_source_url": "streamlinefeed.co.ke",
       "rationale": "This item is from a Kenyan news domain (streamlinefeed.co.ke), not a U.S. source. The premise\u2014an assassination of Charlie Kirk one year prior to September 2026\u2014does not correspond to any verifiable real event. The item appears to be either fabricated, satirical, or a test case. No credible U.S. news outlet has reported such an event. Without verification of the underlying factual claim (that an assassination occurred), the headline about a subsequent crackdown cannot be treated as evidence of a real constitutional stress event in the United States. This is dismissed as a non-occurrence.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5SkRlaENlZ1pHZVpvTEx6bElGalNRT09UVFFTOTRfRXQyOXVYbFMzSXVGUXk0RkZEcS00OGNJUjFUaUJJZUZrMmIwOGZNcXRWOElRWG43QmlTbUoxVnJrYVhydmJlZGlIcllkSmdfbXR1RmJrb3V3?oc=5": {
+      "actor": "De la Espriella",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://colombiaone.com",
+      "rationale": "This is a non-U.S. event occurring in Colombia. The signal tracks constitutional stress within the United States specifically. While the item may involve warnings to protesters, it is geographically outside the scope of this dashboard and therefore not evidence of U.S. constitutional risk.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM1pRRnNWQ09Ga3RyRkd0WnAzLVE2TkM0RzRHSDFDQnhzUEJUSGY3SDZKTGUtLXhtVVd5QjJZT2VwaFlSTlZPUUVyVkVqZXBvV1plSkVFLUNPTGh1bnhZUVZtWkNJdGlsTW1ZUWM1N3paU1RMemY4TElMN05DRWdYUC1pQdIBiwFBVV95cUxQdk5mcm5ZMzhnODNTbTcxY0lVZmZ1bTNMSmJPMDY5ZHF5MElsMkRxR1dFTkZvclE2RkVPeVlQTVNFcUY0SEQ4SEZmek42T1JjMEx2Z01VMFZPRVktZHh5VklGeVdxaDB3YTk2RDlpQURoNnJONEhNYkQwc0VYYmJDcTN3MEZIUmZnVE9v?oc=5": {
@@ -8590,6 +8660,16 @@
     }
   },
   "public_funds_political_promotion": {
+    "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQ05ISHdoZ0JrUWdLN1dESTNPWnl0YzNLS1RyTU94U0M2eElnUnpObjd0LURZeGo5eTBGMV82ZTBfQmJaYjhmUHFhSzFlV1BhbXBPaEJqcjRDd2hSMmxrM2JMSmhONTZOVkg0M0hFRWs1T0oxSS1URnU0OGJOMHJZWlBxQkZ1ckxOeXE1MlNTUDFHV0xJMjV2YjFTYl9rRnJlUUZGSGk4WTJiWW9ZYUI1Q09aUkhlNElHUndlNUhzbUJ1UmFhNktmSmdTTldDVjhtc1B2NHA2NjZ6Um81bm9WZGtrTlBXOGRsNW5NMDNzUzNSaF9UTUQ0Smx3?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://leadertelegram.com",
+      "rationale": "Report that a Democratic organization is discussing a lawsuit over taxpayer-funded ads. This indicates awareness and organization of a legal response to the public-funds-for-partisan-promotion event. The underlying conduct (spending taxpayer money on pro-Trump ads) has occurred, even though this particular article focuses on the lawsuit discussion.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYTVvUGlMeEl5NEZrcGtfZ01fbVU0bFdoYjBYaDRNWXZpazNzbkoxclVta3lLRllnMXNuOW1STVEyM3FGcmJEQkVBcl9fV3B4QzNSNVE5S0YtZlBETkJlandONXJvSUFhYU9zY21IZXlRbWtJWkVFQWZFZDNYOFhyOGdYM0drV3RJb3A2aVE4UllSRzRfZzJCZFZhcHVIaXhKd05pNXgwU0tZR294UEUwb09YOU1rbEZUQzVsSl9YOENCQjBJOGI5ZmJYMGRVSng3?oc=5": {
       "actor": "Trump administration / federal agencies",
       "confidence": 0.85,
@@ -8870,6 +8950,16 @@
       "rationale": "Multiple credible sources report that taxpayer-funded ads promoting Trump were created and broadcast, then reversed after public backlash. The underlying fact\u2014that public funds were used for partisan promotional ads\u2014constitutes a real occurrence of the signal. Trump's subsequent promise to reimburse is a remedial statement, not a denial that the spending happened. This is a confirmed but limited incident (severity 2), not a structural failure, and was halted upon exposure.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pLUtqbzlUWHRveXYwMmY5clRlVzVGVWc3SThfWEEzb2xvZm9tSFhHR0pHcFo3c2U5UXdjMnp0aTg2NTAyc3FHSlhIR0dxSlFEOUdwVmlsek9GTEVmYlhaT01kQjVJWmVWLU10U1FvWFdaYmc5N3pYSA?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://cbsnews.com",
+      "rationale": "CBS News reports a federal judge's order to the Trump administration to cancel taxpayer-funded TV ads. Corroborates the judicial intervention reported by NBC. A federal judge finding that the government violated appropriations law and ordering immediate cessation is serious, confirmed action meeting severity 3.",
+      "severity": 3
+    },
     "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TazN5aE5nRzFPdktFQ2M1TFVHdzBqMV80Wkp4RjVaNE1oYmo3Y2J1WF9sWi1tTHB2cVBITE5mdVQ0WWdXX1k0cGx2eGY4bmV5TFBGaDdtQTYxNlVSbWlIZThlUmdkRF9fc3pkRW5JSEx2bFlPUm90VFp3?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.68,
@@ -8929,6 +9019,16 @@
       "primary_source_url": "https://thehill.com",
       "rationale": "The Hill reports House Democrats calling for GAO investigation of government-funded Trump ads. The call for investigation by a formal body presupposes actual government-funded ads exist. This is a credible report of a real event and a formal government response to it. Severity 2: credible stress signal of confirmed real action.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX1NWcmIxbi0tSnJLc0JmSTdEdHFBeUcxVy1vM21NS3RpN0xXb3VFSHNKM2lJcXc3UGhJeHRBN29TSWxZcXJZVEc3WENfMUhGU0NlQ254b0s0dXVFMFk5aDBrUWlxNE93YmN2WUhDQ08xaTVmSjhlNHlZWFQ3MF9vMg?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.8,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://leadershipnewspapers.com",
+      "rationale": "LEADERSHIP Newspapers reports a US judge's order to halt taxpayer-funded ads promoting Trump. Another corroborating account of the judicial intervention against the unlawful government spending. The order itself is the serious action; severity 3 reflects confirmed court response to the breach.",
+      "severity": 3
     },
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVDBoU1IzQVJnc01nY1A0bGlMVWktSU5GaWdlUnQ2aWFpTWFSOXhUMTE3bW9pVjNaTEQ1a18wd3FQU1VvLXdoNkFXN1VXcVhIZnpvaFMtSEl2dkRqbXJ4S1ROTHZobHRyV0dPNEU1bm5ObGxldGc3ZUpMblcyai1ZTGlfaw?oc=5": {
       "actor": "Trump Administration / White House",
@@ -9090,6 +9190,16 @@
       "rationale": "New York Times (highest-credibility source in this set) reports 'Facing Backlash, Trump Says His Super PAC Will Pay for Taxpayer-Funded Ads.' The headline unambiguously confirms that taxpayer-funded ads existed and were only then redirected to private funding after public pressure. Core signal event occurred.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRTQyZDRYWHlZSjZzZ1p4Um4tMlUtSlVrRHJQZkZoeU5YSk5Jd3F4NkFOWW5YMEF3NExHbmZxYnNNMW5Ca0tXV2syMXE0ZkFDcXZVc3NZT1FEb0E1aUZ2UHA4a1VNYmFYRjJIYVhKS25hNUtCRmxEelVydjQtQXNJd2xUM09xbG1u?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.8,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://blueprintnewspapers.com",
+      "rationale": "Blueprint Newspapers reports Trump was ordered to halt taxpayer-funded ads promoting himself. Further corroboration of the federal judicial order to cease the unlawful conduct. Multiple independent sources confirm that a judge found the spending violated appropriations law and issued an order. Severity 3 is appropriate for this confirmed, serious judicial finding.",
+      "severity": 3
+    },
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYXJEdHBKcEdBcU5QanN5WEpnRWlCcjkzeVhPTkd4cnd0VUE2VWhnWWVNaVplMHdMVmV3c0lkcHF3U2pHU3ZUWF9xa1E5SVB0cnI3czh6aUNRQ1M1WkRfdWN6Y3pwbDEyUzBCM182MFV0RXFtMktWckRLa1ROVmRUOV91TzFsZ1BZ?oc=5": {
       "actor": "Jim Beam (columnist)",
       "confidence": 0.95,
@@ -9158,6 +9268,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.aol.ca",
       "rationale": "AOL.ca reports lawmakers calling for action on 'plainly illegal' taxpayer-funded ads to promote Trump. The call by lawmakers for action on 'plainly illegal' ads confirms the ads exist and are a matter of formal concern. The characterization as illegal is legal opinion, but the fact of the ads is confirmed. Severity 2: credible, confirmed real action with official response.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxQalhJR2xMeE1XMGZDUGJpZnh5UXpwMUtMSVpjT1cyU09JRklVazN1T0VBTldXV0hZOGNRbXY4RC1TU3R1b0dEQnNsXy1XZjdlczJKUml0LUxmd3RpbG9uTDg2SGhyb0ExaGNtV0NBNWlITWZIM05Cbl91WUQtZGVUU09JNlZHc3hIamVEOGphWFY?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://npr.org",
+      "rationale": "NPR reports that the government spent $10 million on pro-Trump ads, which directly matches the signal definition of appropriated public money spent on communications that promote the officeholder. The report indicates a material breach of the long-standing appropriations bar on 'publicity or propaganda purposes.' This is a credible, substantiated instance of the prohibited conduct.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMS02dnIzUzZjYjU4LWF5Si1Kd2NhVVpreU9uNS1ubHJtWEZtR3hONEhIMmhRV1RRV044OHRpWHFYOWhiU1FSMkNjRkh1WklmOHlna081d29oTzB2Unk1QlNDVERfdnB1NTNkZWRXNElZV29fdzJaQ3Y3RV9idkZadDM2ZVJOR0hIdWMycmxnZDRhYzFm?oc=5": {
@@ -9309,6 +9429,16 @@
       "primary_source_url": "",
       "rationale": "The headline references a meltdown over propaganda ads but provides no specific documentation that public funds were actually appropriated and spent on partisan promotion. This appears to be commentary on alleged behavior rather than confirmation of misappropriation. No appropriation details, funding source, or agency authorization is cited.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxOUjZDUHZnWDBYbGhhcVdEY0hKaGJVdXNreUY3RXhDaTRZZ0o0LVZjOFNBbVpUQ3JXSGxjZDgwN1hqTFJpeEZ5VmtUbnkyZExJYUpvdktUME5LVklseGdxT0RIYW1YaTBXRXJXSDEwLWVjY3hlZ1A3U0JVWWt5MTdsbjRnN21FQXdBektRdkJJdTdMSHoxeEttTklEUjV6dw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.82,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://thedailybeast.com",
+      "rationale": "The Daily Beast reports a judge's order halting pro-Trump propaganda funded by taxpayers. While the outlet's language is more colorful, the underlying fact\u2014a federal judge ordering cessation of unlawful taxpayer-funded partisan ads\u2014is the same serious, confirmed event reported by other sources. Severity 3 reflects the judicial finding and order.",
+      "severity": 3
     },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ2xxbnJfejJCQ18yRUVSdDc2dUJ0M3o0Y195bU9vMnhWQk1MZzk0WFRJQVdPU2VpNDRueGI5R2g1T0lUcTBZZnRuNWRQTldCVk9uMVFYUHhrVHhTWjNWTHV0UldZX1ZyREMzMF9zeTZ0MVhKREFqaDBVREVuaFJmbnpPQkUwWWw1RmVJSTN0U2dzdkJERjZqQ1hiaDd0UQ?oc=5": {
       "actor": "Trump administration",
@@ -9680,6 +9810,16 @@
       "rationale": "The Fiscal Times reports Democrats calling for a probe into federally funded pro-Trump ads. The framing presupposes that such ads exist and are federally funded. This is a credible secondary source reporting on the occurrence of the ads. The call for investigation confirms Democratic recognition of an actual event, not a hypothetical. Severity 2: credible stress signal of a real action.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd292d196UDBMdnBiS09JZnpoY3dJTFZtNDdmcjNKRXkxY3Z2VGw2RXduQlJEbmxrQk9STmltNTFsMHhFVUVhR3JmQmd3dlJhdjZHejZIOEIzb2FPbjhYc1dFOU1vaE93SVNXSkluSWozRzVUb3NuTU90cS01T1luZDJZU1dZNG4tOVJidVpTS05lWDlFOWJnamdZUk1selBjNXl6b1dFc1BvTm1BeERVUXJGNThBdw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://civicmedia.org",
+      "rationale": "News report indicating that Wisconsin Democrats filed a lawsuit challenging taxpayer-funded Trump promotional ads. This confirms that public funds were spent on partisan political promotion, which is the core of the signal. The lawsuit itself is evidence the event occurred, though the severity is 2 rather than higher because this is media reporting of a legal challenge, not yet a confirmed finding or structural change.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZ2QzWGZCaVNUbFg0dS1OU2wzYVZLNm96ejc4Y0JEOVVGODhyRmsyQ2JObVdvM3RmOE9jZFBadVBrZmZrUWR4VU5HTFYwTkxzTW9Rb2U1Sjl2UTRQOF9sM0lyWVl0MWJGeVBZdk9BNE1FRlp2a3Bhd05VSmtuRnRZeHB5SDlsejZvRUJVQkhZbDFoMEZQNmZlWHpxTVc4a3d2SThSeDFhV2M2R0J0cldxSjdZQ3VKeHRz?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.77,
@@ -9919,6 +10059,16 @@
       "primary_source_url": "",
       "rationale": "Times Now reports a federal judge blocking Trump's taxpayer-funded 'propaganda' ads. The framing ('propaganda') reflects the news outlet's characterization, but the underlying fact is confirmed: the administration ran taxpayer-funded partisan ads, the signal event occurred, and a court has now halted it. Severity 2: the conduct happened, the signal matches, but the check (judicial order) is functioning.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxON1pBMERGUjZ4cG5DX0EyQlZWVG1KMGx5NWFCcHUtRnJac28wMmx4ME9kdmpRN1dqRDQxTTRSU1UzOEhNRHRnMUNkVEdSdDNRaTRUSkhSVDRWaHhDUnFTNmY5elA0Zm5UMXlZZHF2aGZGRUNuSmJLTlpSV2hwNDBuaTVOQWRublJOSU9EaVhrZGVVU2l0Wk5mYjhTOUVDSkVxckRWT3VVNG5iM1dFZC1xbzkxXzVGS3AzY2Vsc3o2TzJmZFpIQjJlaTRNMA?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://nbcnews.com",
+      "rationale": "NBC News reports that a federal judge has ordered pro-Trump TV ads funded by taxpayers to be taken off the air immediately. This is a confirmed court order in response to the unlawful spending. The fact that a judge found the conduct serious enough to issue an immediate injunction elevates this from isolated misconduct to a serious, confirmed high-severity action with judicial review.",
+      "severity": 3
     },
     "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVHQxTkktREdFVVhkVHppbzBoaUlPcWJwVGN2eENtNEtzLUlIM3FzM1l4SE8zM2R0elR4bWoxVzVtSDRrcDNnTGpuOHA2eHpyVUplRUFvZTMzLVkyeUxRdVFJZDlMMFRVVG5HN1lDdWpWWnFVTHNXam54YU5ONUFEb1d3UGxoQ19Yc21KMFhEMVlGUlZEbVN4WnoxVHlINjhtVzZVa2VHUXBHY1hTWFNjWFl3VTl6RkFWZGxNbHpOYlo1eFRYLUp2Rmd6MGo?oc=5": {
       "actor": "Trump Administration / White House",
