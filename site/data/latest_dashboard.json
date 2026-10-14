@@ -1,29 +1,29 @@
 {
   "attempted_queries": 25,
-  "average_7d": 11.21,
+  "average_7d": 10.74,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
     "max": 14,
     "min": 0
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -2.27,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": -3.66,
   "domain_breakdown": [
     {
-      "avg_severity": 0.0625,
+      "avg_severity": 0.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.34375,
+      "points": 0.0,
       "weight": 22
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0625,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.5625,
+      "points": 0.234375,
       "weight": 15
     },
     {
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.31666666666666665,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.4083333333333334,
+      "points": 1.0291666666666666,
       "weight": 13
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.325,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 1.6249999999999998,
+      "points": 0.8125,
       "weight": 10
     },
     {
@@ -73,7 +73,7 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-13T12:48:15.977597+00:00",
+  "generated_at": "2026-10-14T12:40:59.107915+00:00",
   "methodology_version": 2,
   "previous_score": 9,
   "primary_sources": {
@@ -86,106 +86,95 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 9,
-  "score_raw": 8.94,
-  "score_raw_pre_trip_wire": 8.94,
+  "score": 7,
+  "score_raw": 7.08,
+  "score_raw_pre_trip_wire": 7.08,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 15,
+      "confirmed_hits": 11,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.nbcnews.com/politics/trump-administration/federal-judge-orders-trump-tv-ads-funded-taxpayers-air-immediately-rcna602879",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON1pBMERGUjZ4cG5DX0EyQlZWVG1KMGx5NWFCcHUtRnJac28wMmx4ME9kdmpRN1dqRDQxTTRSU1UzOEhNRHRnMUNkVEdSdDNRaTRUSkhSVDRWaHhDUnFTNmY5elA0Zm5UMXlZZHF2aGZGRUNuSmJLTlpSV2hwNDBuaTVOQWRublJOSU9EaVhrZGVVU2l0Wk5mYjhTOUVDSkVxckRWT3VVNG5iM1dFZC1xbzkxXzVGS3AzY2Vsc3o2TzJmZFpIQjJlaTRNMA?oc=5",
-          "published": "2026-10-12T00:48:00+00:00",
-          "publisher": "NBC News",
+          "canonical_link": "https://leadership.ng/us-judge-orders-trump-to-halt-taxpayer-funded-tv-ads/",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX1NWcmIxbi0tSnJLc0JmSTdEdHFBeUcxVy1vM21NS3RpN0xXb3VFSHNKM2lJcXc3UGhJeHRBN29TSWxZcXJZVEc3WENfMUhGU0NlQ254b0s0dXVFMFk5aDBrUWlxNE93YmN2WUhDQ08xaTVmSjhlNHlZWFQ3MF9vMg?oc=5",
+          "published": "2026-10-12T19:15:05+00:00",
+          "publisher": "LEADERSHIP Newspapers",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Federal judge orders pro-Trump TV ads funded by taxpayers off air immediately - NBC News"
+          "title": "US Judge Orders Trump To Halt Taxpayer-Funded TV Ads - LEADERSHIP Newspapers"
         },
         {
-          "canonical_link": "https://www.cbsnews.com/news/trump-taxpayer-funded-ads-judge-cancels/",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pLUtqbzlUWHRveXYwMmY5clRlVzVGVWc3SThfWEEzb2xvZm9tSFhHR0pHcFo3c2U5UXdjMnp0aTg2NTAyc3FHSlhIR0dxSlFEOUdwVmlsek9GTEVmYlhaT01kQjVJWmVWLU10U1FvWFdaYmc5N3pYSA?oc=5",
-          "published": "2026-10-12T03:18:00+00:00",
-          "publisher": "CBS News",
+          "canonical_link": "https://blueprint.ng/trump-ordered-to-halt-taxpayer-funded-ads-promoting-himself/",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRTQyZDRYWHlZSjZzZ1p4Um4tMlUtSlVrRHJQZkZoeU5YSk5Jd3F4NkFOWW5YMEF3NExHbmZxYnNNMW5Ca0tXV2syMXE0ZkFDcXZVc3NZT1FEb0E1aUZ2UHA4a1VNYmFYRjJIYVhKS25hNUtCRmxEelVydjQtQXNJd2xUM09xbG1u?oc=5",
+          "published": "2026-10-12T17:58:31+00:00",
+          "publisher": "Blueprint Newspapers",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Judge orders Trump administration to cancel taxpayer-funded TV ads - CBS News"
+          "title": "Trump ordered to halt taxpayer-funded ads promoting himself - Blueprint Newspapers"
         },
         {
-          "canonical_link": "https://www.thedailybeast.com/judge-immediately-pulls-the-plug-on-trumps-bonkers-propaganda-blitz",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUjZDUHZnWDBYbGhhcVdEY0hKaGJVdXNreUY3RXhDaTRZZ0o0LVZjOFNBbVpUQ3JXSGxjZDgwN1hqTFJpeEZ5VmtUbnkyZExJYUpvdktUME5LVklseGdxT0RIYW1YaTBXRXJXSDEwLWVjY3hlZ1A3U0JVWWt5MTdsbjRnN21FQXdBektRdkJJdTdMSHoxeEttTklEUjV6dw?oc=5",
-          "published": "2026-10-12T08:20:19+00:00",
-          "publisher": "The Daily Beast",
+          "canonical_link": "https://campaignlegal.org/update/campaign-legal-center-action-and-partners-successfully-halt-president-trumps-illegal",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHMzN002ZGhPbE53bUEtclpRaXRERjR6M2RWV3NvNmxxcXQyRW1mMFloclZaRHlQb1BneXdvZ0xRblZvSU5PdWRnQkI2ekVhbldlaHZFcmhjY1BjU1ZMWi1IWjROYXN0LS16dVN2enk0alJuclZEN1lTRkNpakNFRWpINjFyUVJ6NkhoMEtSYXJkSGp0Sl85X18yUFRjOGdPandMd24zUVpfZEhRemZ3MmhCWHMzUlBB?oc=5",
+          "published": "2026-10-13T20:57:55+00:00",
+          "publisher": "Campaign Legal Center",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Judge Immediately Pulls the Plug on Trump\u2019s Bonkers Propaganda Blitz - The Daily Beast"
+          "title": "Campaign Legal Center Action and Partners Successfully Halt President Trump\u2019s Illegal Taxpayer-Funded Ads Scheme - Campaign Legal Center"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 15,
+      "hits": 12,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://nbcnews.com",
-      "rationale": "NBC News reports that a federal judge has ordered pro-Trump TV ads funded by taxpayers to be taken off the air immediately. This is a confirmed court order in response to the unlawful spending. The fact that a judge found the conduct serious enough to issue an immediate injunction elevates this from isolated misconduct to a serious, confirmed high-severity action with judicial review.",
-      "severe_hits": 3,
+      "primary_source_url": "https://leadershipnewspapers.com",
+      "rationale": "LEADERSHIP Newspapers reports a US judge's order to halt taxpayer-funded ads promoting Trump. Another corroborating account of the judicial intervention against the unlawful government spending. The order itself is the serious action; severity 3 reflects confirmed court response to the breach.",
+      "severe_hits": 4,
       "severity": 3.0,
       "severity_label": "Orange",
-      "unique_publishers": 15
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-10-12T20:30:00+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
+      "unique_publishers": 11
     },
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-10-12T20:30:00+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://www.chosun.com/english/world-en/2026/10/14/4MC53KQSVZCYJG2P3EJFN42WTU/",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbHZjRDViQ0tPNXNJWHN5SWpUbTNzM2d3VmtIVmtDbjBNdHJhcjNORmNpcmhiYTYzdTJ1aTJvakJLbF9WN3FrSUZsT0VqYVhiYnM0Tk8xMXVVY2hxNEIxM1Z1T2gya2FTeVNUUFBlZTRpejJKelIzQjhyS0hGRW5nSlNKQzY?oc=5",
+          "published": "2026-10-14T12:00:13+00:00",
+          "publisher": "\uc870\uc120\uc77c\ubcf4",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+          "title": "Russian FSB Detains Japanese Journalist Over Espionage - \uc870\uc120\uc77c\ubcf4"
+        },
+        {
+          "canonical_link": "https://tribune.com.pk/story/2634773/judge-extends-white-house-access-for-cnn-ms-now-politico-amid-legal-fight",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONE50OUF0LU1waHVUMHJhOW5PTk1URUxhOGtxSkFWRUF1V2lZN2hCNE8zbzJYVWR5Z0JFZGlyVUUtNS0wdVFpZjJpckhtalVrWHlVQ3pOM2NzQmVOaHctYnRIb0l6QzJULTBsV0hMS3Z6MTFCUVVMSmVCYjJYdmFJN3RFaFpQem9JbHlibnh4WnRraEZaV1YySFAtQ0VKbjJGV0pBUWk1M3RHcXdHVnp30gG3AUFVX3lxTE1UZjhoU0QxcWJYX0duakxlV2lES21rdVRSVGs3UGxQNWNkaDhMbHVXMVpUTTRvMWtjenBOVjJIaDRBT3N3bUhjV1p1MG15LXBoYXlmcTBIQ0hmREtvZENGdXJiRzk5dWpXR19YcXZhUFVTM01DSmRHc2tJNjEwX1N4NHZkRV9Nckk1SUY2cEhZRk9vX3BCel9KUGJwTjVtcmlQVVRrM2s0UUdQcm03VlNtV19MSi1aZw?oc=5",
+          "published": "2026-10-14T06:55:05+00:00",
+          "publisher": "The Express Tribune",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Judge extends White House access for CNN, MS NOW, Politico amid legal fight - The Express Tribune"
+        },
+        {
+          "canonical_link": "https://dailyasianage.com/news/359085/democrats-slam-white-house-for-showing-hostility-to-journalists",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU1lhUmVoaURNYnlyNEhjdHJBejVkQXUyQTFCSTV6YjB3d1ZMM01oZm5tM0NCZ0hpUFhnZFhqalNBUDFZY3hIYXJkdGZwQ2g5UFhmMWN0TXNlRmlEX2o5c2V6UjJUQ0U0N3NvMW5iSkpidmJsalhyUVBtZmduQ3FZOHFqUWdxbVNiUml0U1JaQUFSSFlnNEdhNUc2WGtWMk9tMU9V?oc=5",
+          "published": "2026-10-14T06:49:30+00:00",
+          "publisher": "https://dailyasianage.com/",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Democrats Slam White House for Showing Hostility to Journalists - https://dailyasianage.com/"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "hits": 4,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
@@ -199,20 +188,48 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://www.britannica.com/biography/Donald-Trump",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zTlNFQlJBYmZmZE9MbUdKWElnLXE0c2pWcVFIenNYSjQwbURvQm5kUmRFQVM1NVlCT24zZktQZHliMEV4ZnZ1QzM0VEpZWS1pWWxON0ZUa3N0RUpmemc?oc=5",
-          "published": "2026-10-12T05:00:00+00:00",
-          "publisher": "Britannica",
+          "canonical_link": "https://electionlawblog.org/2026/watch-archived-video-of-safeguarding-democracy-project-webinar-what-can-go-wrong-and-what-can-go-right-with-novembers-midterm-elections/",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZ2pXa0dOU1N2TFItS3RKOFdqNC12UUJBU2p4ZUtKTWlVeHJGQzVLU0xxMVkwM1RwSjAxLTFqWGFHNnRsZU43X2I0MDlXZ21XMGM3TmxSU1NvVGpWWGpRQ0dINF9rUEtKblRkakxUS0dLaV81cXh2YjFiTTZDV0xSMDNNZGtuSEh3QTl3TTZzRlBlekRDVUtZUEprSFJNZUZHenFVdU5ic21oTTlaMVJ3RUk5WlgtbXdhSUNMMkFrM0JUdFNBc1BUQmxHdThSRG5TR0llWFpCUmZ4TmlQNGNpc2t4SzB3WkUzLTFjenlvVHpmdm5JbzVBbkFTVFM1QQ?oc=5",
+          "published": "2026-10-13T23:39:56+00:00",
+          "publisher": "electionlawblog.org",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Donald Trump | Birthday, Age, Education, Biography, Impeachments, & Military Parade - Britannica"
+          "title": "Watch Archived Video of Safeguarding Democracy Project Webinar: \"What Can Go Wrong (and What Can Go Right) with November's Midterm Elections?\" - electionlawblog.org"
+        },
+        {
+          "canonical_link": "https://www.liberalcurrents.com/checks-and-balances-will-not-save-us/",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Lbm9nZEVlYXBzQllzTkVIZ2Rzb3FoNDh4cjVlV3Y1XzhYQ3pOLVJpQ21BcEJuSGdVZXZMME1NNG1aNHpCNzUwdUtxX3BiSmxsTC14eVZ6cFlKWC1pYVZiRjNjT3RYSjZiSkNPR2VaazlrWHhneWhxOA?oc=5",
+          "published": "2026-10-14T06:01:49+00:00",
+          "publisher": "Liberal Currents",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Checks and Balances Will Not Save Us - Liberal Currents"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 2,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -221,7 +238,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -247,53 +264,6 @@
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 1,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-10-12T20:30:00+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
-        },
-        {
-          "canonical_link": "https://www.firstpost.com/world/united-states/trump-vs-congress-how-a-democratic-sweep-could-reshape-the-final-two-years-of-his-presidency-14052474.html",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOMVFmRy1FVXRXN2thUEp0UzV6c2VhUXRlVi1KSFVvbjNKcDc4cVprbXFWc00yN2J1cjZ5SGlDWktrTFZ6VUl4b3NjWnBzZjJrbVhPM2kwbTNBQ0o5WHp0eVVfZGNIOVo2ZXNINEwyVkVyeEhNdkg1bm9GSHRKdjc2d2dITHRaWkQxVXV4c013Rlhja0FtOU9QODlhdFBNWEwydjlUZ2JGYXF5ZnJMN0NWaEc4ZG51Mm9IeXpVR2VmMVV5VS1hV3ZybUs3emdXaGR4WkZaZVlRVTFZZVlUdzNMTGZvSElxdTTSAewBQVVfeXFMTURxTXRTX2Q1MTJtUS1DcEpPYW0xWV92OHpta3hjSzdyVjVhVlR2V25MQmVrY1E2NWJNOU54VklCOXpQUkRTTDlVUUVGcGZpYkJMY2ltVlhKaXYtZFZ2OEJBLXVPVjdSbTVVNF9CUEs2WmhuU0thS1A5OGkyY2xNTFRjcHZFcV9OY0tENklfWWM0S3lLU0tETnBpT3NEbmhzZE5oUkdHd1BRd3VYaTd3Y2F6ampxZ0pKdU1ycUh6RXprbk84dk4xa0ZJY2xaVXN2cjZwTnJlMC03dGdUUVI5NmhyV0dVU2RGWWVRTTA?oc=5",
-          "published": "2026-10-13T08:26:14+00:00",
-          "publisher": "Firstpost",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump vs Congress: How a Democratic sweep could reshape the final two years of his presidency - Firstpost"
-        },
-        {
-          "canonical_link": "https://www.jagranjosh.com/general-knowledge/appointment-of-cec-and-ec-in-india-procedure-qualification-removal-duties-significance-1820013008-1",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPN0F2TC0yWHhoZXozMDJqRF9YYkVpOWo1OUVIMTVZTTEyMGtsZU4xbzBGVVowVnBURFNDc0xFelc5NkhjYmtadXlwVzEyTW5NS0lHZjFsS0VLRDBvYURtZ0dpV0V3cGZZY2FxN1lESlBiRjdfUnQ3V2V3TVdwQmR0VGRzWlJFZ1JwaWhDa3VxZlFqcFFmdmt6bWptVFZ2U1R4eTBqWGRSY09RY0NpQmZoLUFnNW1jN0NELVV5VEdoSWpOMk9uOTVZWUdYR1lEbW0zcFN3RTQ1UERNUS1p0gHjAUFVX3lxTFBwb1lsSGtuRnZzUGFuMGtIbGdQNFFETHZIekRraVEwMzNMOWJhUU55TjhJVENXanVQdmZ3aEY1MzVsSm9BeEx6QTNCNzcwMVZ2NGdxeDVUVWo4T3NKZHB2dFBVNTNTWk91VTRtZVVHT0ZnVDU0dmJtZ3pBbnVBbFQ0XzhIbl8yMXZ3ZDJnN3ZPU1Z4cVF6UDl2ODdJTkx1SG0wQl9ERm8yQktpU1hSbGJLYkUyaGdyeGxUTDJaU2labGdIZHN1RF9ZU2hMWnJYclhHYjZwVUNFVi0yeHh6bVBqaUJR?oc=5",
-          "published": "2026-10-13T10:17:57+00:00",
-          "publisher": "Jagran Josh",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Appointment of CEC and EC in India: Procedure, Qualification, Removal, Duties & Significance - Jagran Josh"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 4,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,

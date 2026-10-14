@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-10-13 12:48:15 UTC
+- Generated: 2026-10-14 12:40:59 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **9 / 100** (Baseline Institutional Noise)
-- Previous day delta: **0.0**
-- Delta vs 7-day average: **-2.3**
+- Score: **7 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-2.0**
+- Delta vs 7-day average: **-3.7**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,11 +15,11 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.06 | 0.34 |
-| Judicial Independence and Rule of Law | 15 | 0.15 | 0.56 |
+| Elections and Transfer of Power | 22 | 0.00 | 0.00 |
+| Judicial Independence and Rule of Law | 15 | 0.06 | 0.23 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 0.43 | 1.41 |
-| Civil Service and Agency Independence | 10 | 0.65 | 1.62 |
+| Executive Constraints and Emergency Powers | 13 | 0.32 | 1.03 |
+| Civil Service and Agency Independence | 10 | 0.33 | 0.81 |
 | Civil Liberties and Information Environment | 10 | 2.00 | 5.00 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
@@ -28,30 +28,30 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Public Funds for Political Promotion | civil_liberties_information | 3.00 (Orange) | ai | 15 | 15 |
-| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | ai | 1 | 1 |
-| Independent Agency Capture | civil_service_integrity | 1.65 (Watch) | ai | 0 | 1 |
-| Legislative Bypass by Executive | executive_constraints | 1.30 (Watch) | ai | 0 | 1 |
-| Court Order Noncompliance | judiciary_rule_of_law | 0.60 (Green) | ai | 0 | 0 |
-| Election Administration Capture | elections_transfer | 0.25 (Green) | ai | 0 | 4 |
+| Public Funds for Political Promotion | civil_liberties_information | 3.00 (Orange) | ai | 11 | 12 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.65 (Watch) | ai | 0 | 4 |
+| Independent Agency Capture | civil_service_integrity | 1.30 (Watch) | keyword | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 0.95 (Watch) | ai | 0 | 2 |
+| Court Order Noncompliance | judiciary_rule_of_law | 0.25 (Green) | ai | 0 | 0 |
 
 ## Evidence Samples
 
 ### Public Funds for Political Promotion
-- Assessment: NBC News reports that a federal judge has ordered pro-Trump TV ads funded by taxpayers to be taken off the air immediately. This is a confirmed court order in response to the unlawful spending. The fact that a judge found the conduct serious enough to issue an immediate injunction elevates this from isolated misconduct to a serious, confirmed high-severity action with judicial review.
-- [NBC News] Federal judge orders pro-Trump TV ads funded by taxpayers off air immediately - NBC News (2026-10-12) - https://news.google.com/rss/articles/CBMiywFBVV95cUxON1pBMERGUjZ4cG5DX0EyQlZWVG1KMGx5NWFCcHUtRnJac28wMmx4ME9kdmpRN1dqRDQxTTRSU1UzOEhNRHRnMUNkVEdSdDNRaTRUSkhSVDRWaHhDUnFTNmY5elA0Zm5UMXlZZHF2aGZGRUNuSmJLTlpSV2hwNDBuaTVOQWRublJOSU9EaVhrZGVVU2l0Wk5mYjhTOUVDSkVxckRWT3VVNG5iM1dFZC1xbzkxXzVGS3AzY2Vsc3o2TzJmZFpIQjJlaTRNMA?oc=5
-- [CBS News] Judge orders Trump administration to cancel taxpayer-funded TV ads - CBS News (2026-10-12) - https://news.google.com/rss/articles/CBMieEFVX3lxTE5pLUtqbzlUWHRveXYwMmY5clRlVzVGVWc3SThfWEEzb2xvZm9tSFhHR0pHcFo3c2U5UXdjMnp0aTg2NTAyc3FHSlhIR0dxSlFEOUdwVmlsek9GTEVmYlhaT01kQjVJWmVWLU10U1FvWFdaYmc5N3pYSA?oc=5
-- [The Daily Beast] Judge Immediately Pulls the Plug on Trump’s Bonkers Propaganda Blitz - The Daily Beast (2026-10-12) - https://news.google.com/rss/articles/CBMingFBVV95cUxOUjZDUHZnWDBYbGhhcVdEY0hKaGJVdXNreUY3RXhDaTRZZ0o0LVZjOFNBbVpUQ3JXSGxjZDgwN1hqTFJpeEZ5VmtUbnkyZExJYUpvdktUME5LVklseGdxT0RIYW1YaTBXRXJXSDEwLWVjY3hlZ1A3U0JVWWt5MTdsbjRnN21FQXdBektRdkJJdTdMSHoxeEttTklEUjV6dw?oc=5
+- Assessment: LEADERSHIP Newspapers reports a US judge's order to halt taxpayer-funded ads promoting Trump. Another corroborating account of the judicial intervention against the unlawful government spending. The order itself is the serious action; severity 3 reflects confirmed court response to the breach.
+- [LEADERSHIP Newspapers] US Judge Orders Trump To Halt Taxpayer-Funded TV Ads - LEADERSHIP Newspapers (2026-10-12) - https://news.google.com/rss/articles/CBMigAFBVV95cUxNX1NWcmIxbi0tSnJLc0JmSTdEdHFBeUcxVy1vM21NS3RpN0xXb3VFSHNKM2lJcXc3UGhJeHRBN29TSWxZcXJZVEc3WENfMUhGU0NlQ254b0s0dXVFMFk5aDBrUWlxNE93YmN2WUhDQ08xaTVmSjhlNHlZWFQ3MF9vMg?oc=5
+- [Blueprint Newspapers] Trump ordered to halt taxpayer-funded ads promoting himself - Blueprint Newspapers (2026-10-12) - https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRTQyZDRYWHlZSjZzZ1p4Um4tMlUtSlVrRHJQZkZoeU5YSk5Jd3F4NkFOWW5YMEF3NExHbmZxYnNNMW5Ca0tXV2syMXE0ZkFDcXZVc3NZT1FEb0E1aUZ2UHA4a1VNYmFYRjJIYVhKS25hNUtCRmxEelVydjQtQXNJd2xUM09xbG1u?oc=5
+- [Campaign Legal Center] Campaign Legal Center Action and Partners Successfully Halt President Trump’s Illegal Taxpayer-Funded Ads Scheme - Campaign Legal Center (2026-10-13) - https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHMzN002ZGhPbE53bUEtclpRaXRERjR6M2RWV3NvNmxxcXQyRW1mMFloclZaRHlQb1BneXdvZ0xRblZvSU5PdWRnQkI2ekVhbldlaHZFcmhjY1BjU1ZMWi1IWjROYXN0LS16dVN2enk0alJuclZEN1lTRkNpakNFRWpINjFyUVJ6NkhoMEtSYXJkSGp0Sl85X18yUFRjOGdPandMd24zUVpfZEhRemZ3MmhCWHMzUlBB?oc=5
 
 ### Press Restrictions or Retaliation
-- Assessment: ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.
-- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-10-12) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
+- [조선일보] Russian FSB Detains Japanese Journalist Over Espionage - 조선일보 (2026-10-14) - https://news.google.com/rss/articles/CBMihAFBVV95cUxNbHZjRDViQ0tPNXNJWHN5SWpUbTNzM2d3VmtIVmtDbjBNdHJhcjNORmNpcmhiYTYzdTJ1aTJvakJLbF9WN3FrSUZsT0VqYVhiYnM0Tk8xMXVVY2hxNEIxM1Z1T2gya2FTeVNUUFBlZTRpejJKelIzQjhyS0hGRW5nSlNKQzY?oc=5
+- [The Express Tribune] Judge extends White House access for CNN, MS NOW, Politico amid legal fight - The Express Tribune (2026-10-14) - https://news.google.com/rss/articles/CBMirwFBVV95cUxONE50OUF0LU1waHVUMHJhOW5PTk1URUxhOGtxSkFWRUF1V2lZN2hCNE8zbzJYVWR5Z0JFZGlyVUUtNS0wdVFpZjJpckhtalVrWHlVQ3pOM2NzQmVOaHctYnRIb0l6QzJULTBsV0hMS3Z6MTFCUVVMSmVCYjJYdmFJN3RFaFpQem9JbHlibnh4WnRraEZaV1YySFAtQ0VKbjJGV0pBUWk1M3RHcXdHVnp30gG3AUFVX3lxTE1UZjhoU0QxcWJYX0duakxlV2lES21rdVRSVGs3UGxQNWNkaDhMbHVXMVpUTTRvMWtjenBOVjJIaDRBT3N3bUhjV1p1MG15LXBoYXlmcTBIQ0hmREtvZENGdXJiRzk5dWpXR19YcXZhUFVTM01DSmRHc2tJNjEwX1N4NHZkRV9Nckk1SUY2cEhZRk9vX3BCel9KUGJwTjVtcmlQVVRrM2s0UUdQcm03VlNtV19MSi1aZw?oc=5
+- [https://dailyasianage.com/] Democrats Slam White House for Showing Hostility to Journalists - https://dailyasianage.com/ (2026-10-14) - https://news.google.com/rss/articles/CBMiowFBVV95cUxNU1lhUmVoaURNYnlyNEhjdHJBejVkQXUyQTFCSTV6YjB3d1ZMM01oZm5tM0NCZ0hpUFhnZFhqalNBUDFZY3hIYXJkdGZwQ2g5UFhmMWN0TXNlRmlEX2o5c2V6UjJUQ0U0N3NvMW5iSkpidmJsalhyUVBtZmduQ3FZOHFqUWdxbVNiUml0U1JaQUFSSFlnNEdhNUc2WGtWMk9tMU9V?oc=5
 
 ### Independent Agency Capture
-- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-10-12) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
-
+- No fresh evidence links in the current lookback window.
 ### Legislative Bypass by Executive
-- [Britannica] Donald Trump | Birthday, Age, Education, Biography, Impeachments, & Military Parade - Britannica (2026-10-12) - https://news.google.com/rss/articles/CBMiXkFVX3lxTE4zTlNFQlJBYmZmZE9MbUdKWElnLXE0c2pWcVFIenNYSjQwbURvQm5kUmRFQVM1NVlCT24zZktQZHliMEV4ZnZ1QzM0VEpZWS1pWWxON0ZUa3N0RUpmemc?oc=5
+- [electionlawblog.org] Watch Archived Video of Safeguarding Democracy Project Webinar: "What Can Go Wrong (and What Can Go Right) with November's Midterm Elections?" - electionlawblog.org (2026-10-13) - https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZ2pXa0dOU1N2TFItS3RKOFdqNC12UUJBU2p4ZUtKTWlVeHJGQzVLU0xxMVkwM1RwSjAxLTFqWGFHNnRsZU43X2I0MDlXZ21XMGM3TmxSU1NvVGpWWGpRQ0dINF9rUEtKblRkakxUS0dLaV81cXh2YjFiTTZDV0xSMDNNZGtuSEh3QTl3TTZzRlBlekRDVUtZUEprSFJNZUZHenFVdU5ic21oTTlaMVJ3RUk5WlgtbXdhSUNMMkFrM0JUdFNBc1BUQmxHdThSRG5TR0llWFpCUmZ4TmlQNGNpc2t4SzB3WkUzLTFjenlvVHpmdm5JbzVBbkFTVFM1QQ?oc=5
+- [Liberal Currents] Checks and Balances Will Not Save Us - Liberal Currents (2026-10-14) - https://news.google.com/rss/articles/CBMieEFVX3lxTE9Lbm9nZEVlYXBzQllzTkVIZ2Rzb3FoNDh4cjVlV3Y1XzhYQ3pOLVJpQ21BcEJuSGdVZXZMME1NNG1aNHpCNzUwdUtxX3BiSmxsTC14eVZ6cFlKWC1pYVZiRjNjT3RYSjZiSkNPR2VaazlrWHhneWhxOA?oc=5
 
 ### Court Order Noncompliance
 - [courtlistener.com] **[official record]** Allina Health System v. Minnesota Department of Human Services Commissioner John Connolly (2026-10-11) - https://www.courtlistener.com/docket/74943556/9/allina-health-system-v-minnesota-department-of-human-services-commissioner/
@@ -64,6 +64,6 @@
 - Primary-source lookups: 22 signals, 15 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 0
 - Evidence extraction: AI event extraction
-- Confidence: **High**
+- Confidence: **Medium**
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.
