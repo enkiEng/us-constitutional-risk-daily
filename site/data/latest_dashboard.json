@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 10.74,
+  "average_7d": 9.34,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,8 +9,8 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -2.0,
-  "delta_vs_7d": -3.66,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -3.1,
   "domain_breakdown": [
     {
       "avg_severity": 0.0,
@@ -20,10 +20,10 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.0625,
+      "avg_severity": 0.0,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.234375,
+      "points": 0.0,
       "weight": 15
     },
     {
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.19999999999999998,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.0291666666666666,
+      "points": 0.6499999999999999,
       "weight": 13
     },
     {
-      "avg_severity": 0.325,
+      "avg_severity": 0.2375,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.8125,
+      "points": 0.59375,
       "weight": 10
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-14T12:40:59.107915+00:00",
+  "generated_at": "2026-10-15T12:42:10.941066+00:00",
   "methodology_version": 2,
-  "previous_score": 9,
+  "previous_score": 7,
   "primary_sources": {
     "documents_confirmed": 0,
-    "documents_fetched": 15,
+    "documents_fetched": 10,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,72 +86,63 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 7,
-  "score_raw": 7.08,
-  "score_raw_pre_trip_wire": 7.08,
+  "score": 6,
+  "score_raw": 6.24,
+  "score_raw_pre_trip_wire": 6.24,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 11,
+      "confirmed_hits": 5,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://leadership.ng/us-judge-orders-trump-to-halt-taxpayer-funded-tv-ads/",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX1NWcmIxbi0tSnJLc0JmSTdEdHFBeUcxVy1vM21NS3RpN0xXb3VFSHNKM2lJcXc3UGhJeHRBN29TSWxZcXJZVEc3WENfMUhGU0NlQ254b0s0dXVFMFk5aDBrUWlxNE93YmN2WUhDQ08xaTVmSjhlNHlZWFQ3MF9vMg?oc=5",
-          "published": "2026-10-12T19:15:05+00:00",
-          "publisher": "LEADERSHIP Newspapers",
+          "canonical_link": "https://www.opb.org/article/2026/10/13/pro-trump-ads-paid-by-taxpayers-aired-after-judge-said-stop/",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0ttNUdGUTNncV9rNTkyZzhkbmY2ZTZUWTRhU0IyOWE2cDNmQThxZTloRzdkVkY2Tm9WZ0E1UGx0ZUNFV2xEa2wxYmY0RHRLMDZVcjluUDJfbVYxeUVNaDJ6R0xGcmQ4NXBTb0dXaWJrZUJrMzNCNUZmMXQ0VjJaSmpVNE9hS1RvOG1QS2dCOWROSUhGWXJ0eGl1WEFfRkdB?oc=5",
+          "published": "2026-10-13T14:51:43+00:00",
+          "publisher": "Oregon Public Broadcasting - OPB",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "US Judge Orders Trump To Halt Taxpayer-Funded TV Ads - LEADERSHIP Newspapers"
+          "title": "Government spent $10 million on pro-Trump ads after president said super PAC would fund - Oregon Public Broadcasting - OPB"
         },
         {
-          "canonical_link": "https://blueprint.ng/trump-ordered-to-halt-taxpayer-funded-ads-promoting-himself/",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRTQyZDRYWHlZSjZzZ1p4Um4tMlUtSlVrRHJQZkZoeU5YSk5Jd3F4NkFOWW5YMEF3NExHbmZxYnNNMW5Ca0tXV2syMXE0ZkFDcXZVc3NZT1FEb0E1aUZ2UHA4a1VNYmFYRjJIYVhKS25hNUtCRmxEelVydjQtQXNJd2xUM09xbG1u?oc=5",
-          "published": "2026-10-12T17:58:31+00:00",
-          "publisher": "Blueprint Newspapers",
+          "canonical_link": "https://arstechnica.com/tech-policy/2026/10/trumps-taxpayer-funded-ads-kept-airing-on-tv-the-day-after-judge-blocked-them/",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQXZNNkN6dGw5bmpGY1Z5LTRXYVJSN1Jkci1YN0NlVXE2ZnhlS2RqN3VLNXFfM3J2bzg1ZUhsV2tlMzNuYWg2elhfUzdObG43NzZEa0kwMU1Fc01lSFplNF9YaWZYWWxVbjJzRFRXN19BRld1SGhnUUViNWpIUy0yMEZlOE83SW5OZklMeVpsbk42b2FHeWRfbzc2Tzg4V2t4OFlOaFJCeEgtWE1KMlphNjA1WXNOX3NmQ3BqSC1sOA?oc=5",
+          "published": "2026-10-13T19:50:37+00:00",
+          "publisher": "Ars Technica",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump ordered to halt taxpayer-funded ads promoting himself - Blueprint Newspapers"
+          "title": "Trump commercial railing against his enemies kept airing after court blocked it - Ars Technica"
         },
         {
-          "canonical_link": "https://campaignlegal.org/update/campaign-legal-center-action-and-partners-successfully-halt-president-trumps-illegal",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHMzN002ZGhPbE53bUEtclpRaXRERjR6M2RWV3NvNmxxcXQyRW1mMFloclZaRHlQb1BneXdvZ0xRblZvSU5PdWRnQkI2ekVhbldlaHZFcmhjY1BjU1ZMWi1IWjROYXN0LS16dVN2enk0alJuclZEN1lTRkNpakNFRWpINjFyUVJ6NkhoMEtSYXJkSGp0Sl85X18yUFRjOGdPandMd24zUVpfZEhRemZ3MmhCWHMzUlBB?oc=5",
-          "published": "2026-10-13T20:57:55+00:00",
-          "publisher": "Campaign Legal Center",
+          "canonical_link": "https://southernmarylandchronicle.com/2026/10/14/maryland-lawmakers-blast-trump-taxpayer-funded-tv-ads/",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdGgwcUFFa0J0eXVGcHBLLTNuX1R5cGpPVkJUSnpnT0VJYjgwNkl5ZUthTExiRHBQWndwSkh3c2VVMkJjNlB0UmIxLVpOYlpxSG1ZQmhYWGQwV1lKWXRqTzdRZVRoWXp2UldyLVdLZ0FYZHVHWk1jUkVpLW5xZHhoNEkxSFBvdlVrOU9lcGZrSngtLUZNNkl2LVBfVXp0THBYc2NERzln?oc=5",
+          "published": "2026-10-14T14:00:00+00:00",
+          "publisher": "- SoMD Chronicle",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Campaign Legal Center Action and Partners Successfully Halt President Trump\u2019s Illegal Taxpayer-Funded Ads Scheme - Campaign Legal Center"
+          "title": "\u2018Egregious and utterly illegal.\u2019 Maryland lawmakers blast Trump\u2019s taxpayer-funded TV ads - - - SoMD Chronicle"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 12,
+      "hits": 6,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://leadershipnewspapers.com",
-      "rationale": "LEADERSHIP Newspapers reports a US judge's order to halt taxpayer-funded ads promoting Trump. Another corroborating account of the judicial intervention against the unlawful government spending. The order itself is the serious action; severity 3 reflects confirmed court response to the breach.",
-      "severe_hits": 4,
+      "primary_source_url": "https://www.opb.org",
+      "rationale": "Report indicates government spent $10 million on pro-Trump ads after president indicated a super PAC would fund them instead. This describes actual expenditure of appropriated public funds on partisan political advertising promoting an officeholder, which directly violates the 1950s-era appropriations bar on publicity or propaganda purposes. The fact that a super PAC was supposed to fund it but government funds were used instead, after a presidential statement, indicates knowing misuse of public money for campaign-style promotion. This is a confirmed high-severity action meeting the signal definition.",
+      "severe_hits": 1,
       "severity": 3.0,
       "severity_label": "Orange",
-      "unique_publishers": 11
+      "unique_publishers": 5
     },
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
-        {
-          "canonical_link": "https://www.chosun.com/english/world-en/2026/10/14/4MC53KQSVZCYJG2P3EJFN42WTU/",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbHZjRDViQ0tPNXNJWHN5SWpUbTNzM2d3VmtIVmtDbjBNdHJhcjNORmNpcmhiYTYzdTJ1aTJvakJLbF9WN3FrSUZsT0VqYVhiYnM0Tk8xMXVVY2hxNEIxM1Z1T2gya2FTeVNUUFBlZTRpejJKelIzQjhyS0hGRW5nSlNKQzY?oc=5",
-          "published": "2026-10-14T12:00:13+00:00",
-          "publisher": "\uc870\uc120\uc77c\ubcf4",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Russian FSB Detains Japanese Journalist Over Espionage - \uc870\uc120\uc77c\ubcf4"
-        },
         {
           "canonical_link": "https://tribune.com.pk/story/2634773/judge-extends-white-house-access-for-cnn-ms-now-politico-amid-legal-fight",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONE50OUF0LU1waHVUMHJhOW5PTk1URUxhOGtxSkFWRUF1V2lZN2hCNE8zbzJYVWR5Z0JFZGlyVUUtNS0wdVFpZjJpckhtalVrWHlVQ3pOM2NzQmVOaHctYnRIb0l6QzJULTBsV0hMS3Z6MTFCUVVMSmVCYjJYdmFJN3RFaFpQem9JbHlibnh4WnRraEZaV1YySFAtQ0VKbjJGV0pBUWk1M3RHcXdHVnp30gG3AUFVX3lxTE1UZjhoU0QxcWJYX0duakxlV2lES21rdVRSVGs3UGxQNWNkaDhMbHVXMVpUTTRvMWtjenBOVjJIaDRBT3N3bUhjV1p1MG15LXBoYXlmcTBIQ0hmREtvZENGdXJiRzk5dWpXR19YcXZhUFVTM01DSmRHc2tJNjEwX1N4NHZkRV9Nckk1SUY2cEhZRk9vX3BCel9KUGJwTjVtcmlQVVRrM2s0UUdQcm03VlNtV19MSi1aZw?oc=5",
@@ -169,31 +160,21 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Democrats Slam White House for Showing Hostility to Journalists - https://dailyasianage.com/"
+        },
+        {
+          "canonical_link": "https://www.myjoyonline.com/judge-extends-white-house-access-for-cnn-ms-now-politico-amid-legal-fight/",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMTZpRzdFT2lMQTdtMEIwcmpLRjZ6eE5VSWIwak9VUkdFQWFkeGdENEdMUmg3RXBGOXU2UzFuLUZzUVFRd2FPMEdsS2RZQjNldUQxOXJmZVh2V1RnUjZodzVUR0diMUpBejZjOHQzd1YwRTZTdWhGamtWdUkwNTZqTnhhWEZIMngxakFybjBHdHhpaEQzRUM5dGVfODhoaXcwcHpxdg?oc=5",
+          "published": "2026-10-14T04:15:29+00:00",
+          "publisher": "MyJoyOnline",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Judge extends White House access for CNN, MS NOW, Politico amid legal fight - MyJoyOnline"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 4,
+      "hits": 3,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
@@ -207,31 +188,22 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "canonical_link": "https://electionlawblog.org/2026/watch-archived-video-of-safeguarding-democracy-project-webinar-what-can-go-wrong-and-what-can-go-right-with-novembers-midterm-elections/",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZ2pXa0dOU1N2TFItS3RKOFdqNC12UUJBU2p4ZUtKTWlVeHJGQzVLU0xxMVkwM1RwSjAxLTFqWGFHNnRsZU43X2I0MDlXZ21XMGM3TmxSU1NvVGpWWGpRQ0dINF9rUEtKblRkakxUS0dLaV81cXh2YjFiTTZDV0xSMDNNZGtuSEh3QTl3TTZzRlBlekRDVUtZUEprSFJNZUZHenFVdU5ic21oTTlaMVJ3RUk5WlgtbXdhSUNMMkFrM0JUdFNBc1BUQmxHdThSRG5TR0llWFpCUmZ4TmlQNGNpc2t4SzB3WkUzLTFjenlvVHpmdm5JbzVBbkFTVFM1QQ?oc=5",
-          "published": "2026-10-13T23:39:56+00:00",
-          "publisher": "electionlawblog.org",
+          "canonical_link": "https://geosirius.ifz.ru/white-house-battle-federal-reserve-governor-lisa-cook-matters-right",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbExfdnkxMV9OaE4yQXNZeGZYNS1vbTFBWVluT2hBdjFQNjhPZGh6UTM1SnJmNXE0RXFqU0RmTXRHYkFnSFVwanY2eEJXRnJ4bVRzSUE4NW0xeGtIVkluYVhRTm8wQlU5eW9iMnZfb21vNjVqa2dYeGxpbUZFeDNLdU9lOUZSejlacEp6RDRqTHdxN3ZxSkxr?oc=5",
+          "published": "2026-10-14T23:22:01+00:00",
+          "publisher": "\u0418\u0424\u0417 \u0420\u0410\u041d",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Watch Archived Video of Safeguarding Democracy Project Webinar: \"What Can Go Wrong (and What Can Go Right) with November's Midterm Elections?\" - electionlawblog.org"
-        },
-        {
-          "canonical_link": "https://www.liberalcurrents.com/checks-and-balances-will-not-save-us/",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Lbm9nZEVlYXBzQllzTkVIZ2Rzb3FoNDh4cjVlV3Y1XzhYQ3pOLVJpQ21BcEJuSGdVZXZMME1NNG1aNHpCNzUwdUtxX3BiSmxsTC14eVZ6cFlKWC1pYVZiRjNjT3RYSjZiSkNPR2VaazlrWHhneWhxOA?oc=5",
-          "published": "2026-10-14T06:01:49+00:00",
-          "publisher": "Liberal Currents",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Checks and Balances Will Not Save Us - Liberal Currents"
+          "title": "Why The White House Battle Over Federal Reserve Governor Lis - \u0418\u0424\u0417 \u0420\u0410\u041d"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "hits": 1,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
@@ -245,29 +217,47 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://www.courtlistener.com/docket/74943556/9/allina-health-system-v-minnesota-department-of-human-services-commissioner/",
-          "link": "https://www.courtlistener.com/docket/74943556/9/allina-health-system-v-minnesota-department-of-human-services-commissioner/",
-          "published": "2026-10-11T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
-          "source_tier": "primary",
-          "title": "Allina Health System v. Minnesota Department of Human Services Commissioner John Connolly"
+          "canonical_link": "https://protectdemocracy.org/work/frequently-asked-questions-about-the-2026-midterm-elections/",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaGc2YzZlb2ZjZmFHdmFUZ2o2eGtYX0phYl9lWUcxaHVFV2N2NlIzbjFsejdlMUJLdnZoclpkakw0d2U1VjlTODBETDVXNW9iWmZGMU93R2lRRy1iYW50eXZmQnduUmhlZWRZbWlPNlRkQ1IzTmdTTjM2T21kTnhZdHlhYlVROEFVY1NGN3ZDRVZGVENsTTVzYk9n?oc=5",
+          "published": "2026-10-15T02:25:55+00:00",
+          "publisher": "Protect Democracy",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Frequently asked questions about the 2026 midterm elections - Protect Democracy"
+        },
+        {
+          "canonical_link": "https://electionlawblog.org/2026/watch-archived-video-of-safeguarding-democracy-project-webinar-what-can-go-wrong-and-what-can-go-right-with-novembers-midterm-elections/",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZ2pXa0dOU1N2TFItS3RKOFdqNC12UUJBU2p4ZUtKTWlVeHJGQzVLU0xxMVkwM1RwSjAxLTFqWGFHNnRsZU43X2I0MDlXZ21XMGM3TmxSU1NvVGpWWGpRQ0dINF9rUEtKblRkakxUS0dLaV81cXh2YjFiTTZDV0xSMDNNZGtuSEh3QTl3TTZzRlBlekRDVUtZUEprSFJNZUZHenFVdU5ic21oTTlaMVJ3RUk5WlgtbXdhSUNMMkFrM0JUdFNBc1BUQmxHdThSRG5TR0llWFpCUmZ4TmlQNGNpc2t4SzB3WkUzLTFjenlvVHpmdm5JbzVBbkFTVFM1QQ?oc=5",
+          "published": "2026-10-13T23:39:56+00:00",
+          "publisher": "Election Law Blog",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Watch Archived Video of Safeguarding Democracy Project Webinar: \"What Can Go Wrong (and What Can Go Right) with November's Midterm Elections?\" - Election Law Blog"
+        },
+        {
+          "canonical_link": "https://www.reuters.com/investigates/special-report/usa-election-midterms-scenarios/",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdTJERWh3UV90cVhMS01kYVY1TzFKSGFndGROSDlWNnpLaWhhUXp6VkJSQ3VwZHJWb1NyeEpVX2dJYzBIaXFtb0dmc19KM1cyemlRVzA4NWxGeHRLRHRTZDdPMVdmRExwMmtvc0tqcjRnRzAzLTlBVURZV2J4VnJxbTJnX3dEdTFad2RvZA?oc=5",
+          "published": "2026-10-14T06:00:00+00:00",
+          "publisher": "Reuters",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Nine ways the Trump administration could interfere with the midterms - Reuters"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 0,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
+      "hits": 4,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 1,
+      "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.25,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     }
