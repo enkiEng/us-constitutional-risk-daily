@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 9.34,
+  "average_7d": 9.14,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": -3.1,
+  "delta_previous_day": 5.0,
+  "delta_vs_7d": 2.01,
   "domain_breakdown": [
     {
-      "avg_severity": 0.0,
+      "avg_severity": 1.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 0.0,
+      "points": 5.5,
       "weight": 22
     },
     {
@@ -34,17 +34,17 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.19999999999999998,
+      "avg_severity": 0.08333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 0.6499999999999999,
+      "points": 0.2708333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.2375,
+      "avg_severity": 0.15,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.59375,
+      "points": 0.375,
       "weight": 10
     },
     {
@@ -73,9 +73,9 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-15T12:42:10.941066+00:00",
+  "generated_at": "2026-10-16T12:41:40.559964+00:00",
   "methodology_version": 2,
-  "previous_score": 7,
+  "previous_score": 6,
   "primary_sources": {
     "documents_confirmed": 0,
     "documents_fetched": 10,
@@ -86,34 +86,16 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 6,
-  "score_raw": 6.24,
-  "score_raw_pre_trip_wire": 6.24,
+  "score": 11,
+  "score_raw": 11.15,
+  "score_raw_pre_trip_wire": 11.15,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 5,
+      "confirmed_hits": 6,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
-        {
-          "canonical_link": "https://www.opb.org/article/2026/10/13/pro-trump-ads-paid-by-taxpayers-aired-after-judge-said-stop/",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0ttNUdGUTNncV9rNTkyZzhkbmY2ZTZUWTRhU0IyOWE2cDNmQThxZTloRzdkVkY2Tm9WZ0E1UGx0ZUNFV2xEa2wxYmY0RHRLMDZVcjluUDJfbVYxeUVNaDJ6R0xGcmQ4NXBTb0dXaWJrZUJrMzNCNUZmMXQ0VjJaSmpVNE9hS1RvOG1QS2dCOWROSUhGWXJ0eGl1WEFfRkdB?oc=5",
-          "published": "2026-10-13T14:51:43+00:00",
-          "publisher": "Oregon Public Broadcasting - OPB",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Government spent $10 million on pro-Trump ads after president said super PAC would fund - Oregon Public Broadcasting - OPB"
-        },
-        {
-          "canonical_link": "https://arstechnica.com/tech-policy/2026/10/trumps-taxpayer-funded-ads-kept-airing-on-tv-the-day-after-judge-blocked-them/",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQXZNNkN6dGw5bmpGY1Z5LTRXYVJSN1Jkci1YN0NlVXE2ZnhlS2RqN3VLNXFfM3J2bzg1ZUhsV2tlMzNuYWg2elhfUzdObG43NzZEa0kwMU1Fc01lSFplNF9YaWZYWWxVbjJzRFRXN19BRld1SGhnUUViNWpIUy0yMEZlOE83SW5OZklMeVpsbk42b2FHeWRfbzc2Tzg4V2t4OFlOaFJCeEgtWE1KMlphNjA1WXNOX3NmQ3BqSC1sOA?oc=5",
-          "published": "2026-10-13T19:50:37+00:00",
-          "publisher": "Ars Technica",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump commercial railing against his enemies kept airing after court blocked it - Ars Technica"
-        },
         {
           "canonical_link": "https://southernmarylandchronicle.com/2026/10/14/maryland-lawmakers-blast-trump-taxpayer-funded-tv-ads/",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdGgwcUFFa0J0eXVGcHBLLTNuX1R5cGpPVkJUSnpnT0VJYjgwNkl5ZUthTExiRHBQWndwSkh3c2VVMkJjNlB0UmIxLVpOYlpxSG1ZQmhYWGQwV1lKWXRqTzdRZVRoWXp2UldyLVdLZ0FYZHVHWk1jUkVpLW5xZHhoNEkxSFBvdlVrOU9lcGZrSngtLUZNNkl2LVBfVXp0THBYc2NERzln?oc=5",
@@ -122,21 +104,68 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "\u2018Egregious and utterly illegal.\u2019 Maryland lawmakers blast Trump\u2019s taxpayer-funded TV ads - - - SoMD Chronicle"
+        },
+        {
+          "canonical_link": "https://thehill.com/regulation/court-battles/6150263-donald-trump-taxpayer-funded-ads-block-extended/",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd0U3ZUs1WWF4d3NJZTdPWkdtbUhYRVhQa0JRRHZjM2FtQjZ2SnJmXzNnODgtNV9fNnRYVHRUV1MtYzJ5dE40YW5iRmNNQk1HMUJ3SW92YWV0d01vLUNTSG53Z3RablJoa1kzSzlKQkN2YnZWb25ldktyTk95ZTN0dGx4Sk5MQUhnUjY4aVAxaTdZa2d5NFNBZ1pXQzhEUFoxWG9F0gGoAUFVX3lxTE0xX3E4RzgyOEc0dUxHcmVDN0J3UEFoSXFuQ1gza3hIYjRVbGs3RWd2OVV4ZElTV0E0UXV6SHdfRm5aTGpCZTZWeDNNMExlUDFFY3VNQUtFaUdZMDFUYXNHdkYyQk5qOVdfMmJiQzVrQnhtb2NZYmdoT0tscHlyNjNodjJRQi1nSVlFWjh6TDdvM2hvb3lLMllDM2xYczV0WmIxU1VKcWxScA?oc=5",
+          "published": "2026-10-15T13:44:00+00:00",
+          "publisher": "The Hill",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Judge extends block on taxpayer-funded Trump ads until after midterms - The Hill"
+        },
+        {
+          "canonical_link": "https://www.yahoo.com/news/politics/articles/judge-extends-pause-taxpayer-funded-174216952.html",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY0QwVlBTWmtkQXNQdzZ5OUp3UGxJN0lmOGgwZ3lvMkg3S0xxWk14aVg5ZjJITnYzOThHbHdOTVlqdF9pWUgxcDFjdmxlX2ttQUR2blF3OEV4bTFQUmhEOVVGaXB0UzBXOFc3QnNHUlNrRDlPNWhocklFRFdESHU0alh2ZWRVR2RHdFlkdG9sNHIyeHRtVGdEdkQ4NA?oc=5",
+          "published": "2026-10-14T17:42:16+00:00",
+          "publisher": "Yahoo",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Judge extends pause on taxpayer-funded Trump ads - Yahoo"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 6,
+      "hits": 7,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.opb.org",
-      "rationale": "Report indicates government spent $10 million on pro-Trump ads after president indicated a super PAC would fund them instead. This describes actual expenditure of appropriated public funds on partisan political advertising promoting an officeholder, which directly violates the 1950s-era appropriations bar on publicity or propaganda purposes. The fact that a super PAC was supposed to fund it but government funds were used instead, after a presidential statement, indicates knowing misuse of public money for campaign-style promotion. This is a confirmed high-severity action meeting the signal definition.",
-      "severe_hits": 1,
+      "primary_source_url": "https://www.somdchronicle.com",
+      "rationale": "Report quotes Maryland lawmakers characterizing Trump's taxpayer-funded TV ads as 'egregious and utterly illegal.' This corroborates that government funds are actually being spent on pro-Trump advertising. The lawmakers' statements reflect a real event (ad spending using taxpayer money) rather than a hypothetical. The characterization as illegal and egregious by state officials, combined with corroboration from other items, confirms use of public funds for partisan promotion in violation of appropriations law.",
+      "severe_hits": 0,
       "severity": 3.0,
       "severity_label": "Orange",
-      "unique_publishers": 5
+      "unique_publishers": 6
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
+          "published": "2026-10-14T23:28:34+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 7,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 0,
@@ -144,66 +173,19 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://tribune.com.pk/story/2634773/judge-extends-white-house-access-for-cnn-ms-now-politico-amid-legal-fight",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONE50OUF0LU1waHVUMHJhOW5PTk1URUxhOGtxSkFWRUF1V2lZN2hCNE8zbzJYVWR5Z0JFZGlyVUUtNS0wdVFpZjJpckhtalVrWHlVQ3pOM2NzQmVOaHctYnRIb0l6QzJULTBsV0hMS3Z6MTFCUVVMSmVCYjJYdmFJN3RFaFpQem9JbHlibnh4WnRraEZaV1YySFAtQ0VKbjJGV0pBUWk1M3RHcXdHVnp30gG3AUFVX3lxTE1UZjhoU0QxcWJYX0duakxlV2lES21rdVRSVGs3UGxQNWNkaDhMbHVXMVpUTTRvMWtjenBOVjJIaDRBT3N3bUhjV1p1MG15LXBoYXlmcTBIQ0hmREtvZENGdXJiRzk5dWpXR19YcXZhUFVTM01DSmRHc2tJNjEwX1N4NHZkRV9Nckk1SUY2cEhZRk9vX3BCel9KUGJwTjVtcmlQVVRrM2s0UUdQcm03VlNtV19MSi1aZw?oc=5",
-          "published": "2026-10-14T06:55:05+00:00",
-          "publisher": "The Express Tribune",
+          "canonical_link": "https://www.theguardsman.com/student-journalists-can-make-powerful-change-reporters-and-lawyers-on-the-fight-for-press-freedom/",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWDRyUzFCVmF4TFV6V3M4bWJXeko4clpBd2t1RkRuV2RwSURNS0NySHA1Y2pNRWU3LXZnTDQwY3daZEpLZW9pZVZtbXFmdEI1dUthcDhmdDdXMVhORjBPUnRUdk9KSlRaT0RPUGlpWHQxdmUxb2JYdzdxaFg5R1lUUTY0ZDNFUHA0Mk9JdGVkcmNoTURvQUh1d2dVc0lubW9xOF9tSDdaUHZoN2o2SnZGcW5WSlRIZ1AwN3VuN0p5Q1hlcm96c3c?oc=5",
+          "published": "2026-10-15T19:30:24+00:00",
+          "publisher": "The Guardsman Online",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Judge extends White House access for CNN, MS NOW, Politico amid legal fight - The Express Tribune"
-        },
-        {
-          "canonical_link": "https://dailyasianage.com/news/359085/democrats-slam-white-house-for-showing-hostility-to-journalists",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU1lhUmVoaURNYnlyNEhjdHJBejVkQXUyQTFCSTV6YjB3d1ZMM01oZm5tM0NCZ0hpUFhnZFhqalNBUDFZY3hIYXJkdGZwQ2g5UFhmMWN0TXNlRmlEX2o5c2V6UjJUQ0U0N3NvMW5iSkpidmJsalhyUVBtZmduQ3FZOHFqUWdxbVNiUml0U1JaQUFSSFlnNEdhNUc2WGtWMk9tMU9V?oc=5",
-          "published": "2026-10-14T06:49:30+00:00",
-          "publisher": "https://dailyasianage.com/",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Democrats Slam White House for Showing Hostility to Journalists - https://dailyasianage.com/"
-        },
-        {
-          "canonical_link": "https://www.myjoyonline.com/judge-extends-white-house-access-for-cnn-ms-now-politico-amid-legal-fight/",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMTZpRzdFT2lMQTdtMEIwcmpLRjZ6eE5VSWIwak9VUkdFQWFkeGdENEdMUmg3RXBGOXU2UzFuLUZzUVFRd2FPMEdsS2RZQjNldUQxOXJmZVh2V1RnUjZodzVUR0diMUpBejZjOHQzd1YwRTZTdWhGamtWdUkwNTZqTnhhWEZIMngxakFybjBHdHhpaEQzRUM5dGVfODhoaXcwcHpxdg?oc=5",
-          "published": "2026-10-14T04:15:29+00:00",
-          "publisher": "MyJoyOnline",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Judge extends White House access for CNN, MS NOW, Politico amid legal fight - MyJoyOnline"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 3,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "canonical_link": "https://geosirius.ifz.ru/white-house-battle-federal-reserve-governor-lisa-cook-matters-right",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbExfdnkxMV9OaE4yQXNZeGZYNS1vbTFBWVluT2hBdjFQNjhPZGh6UTM1SnJmNXE0RXFqU0RmTXRHYkFnSFVwanY2eEJXRnJ4bVRzSUE4NW0xeGtIVkluYVhRTm8wQlU5eW9iMnZfb21vNjVqa2dYeGxpbUZFeDNLdU9lOUZSejlacEp6RDRqTHdxN3ZxSkxr?oc=5",
-          "published": "2026-10-14T23:22:01+00:00",
-          "publisher": "\u0418\u0424\u0417 \u0420\u0410\u041d",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Why The White House Battle Over Federal Reserve Governor Lis - \u0418\u0424\u0417 \u0420\u0410\u041d"
+          "title": "\u2018Student Journalists Can Make Powerful Change\u2019: Reporters and Lawyers on the Fight for Press Freedom - The Guardsman Online"
         }
       ],
       "evidence_mode": "ai",
       "hits": 1,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
@@ -217,38 +199,58 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_service_integrity",
       "evidence": [
         {
-          "canonical_link": "https://protectdemocracy.org/work/frequently-asked-questions-about-the-2026-midterm-elections/",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaGc2YzZlb2ZjZmFHdmFUZ2o2eGtYX0phYl9lWUcxaHVFV2N2NlIzbjFsejdlMUJLdnZoclpkakw0d2U1VjlTODBETDVXNW9iWmZGMU93R2lRRy1iYW50eXZmQnduUmhlZWRZbWlPNlRkQ1IzTmdTTjM2T21kTnhZdHlhYlVROEFVY1NGN3ZDRVZGVENsTTVzYk9n?oc=5",
-          "published": "2026-10-15T02:25:55+00:00",
-          "publisher": "Protect Democracy",
+          "canonical_link": "https://www.consumerfinancemonitor.com/2026/10/15/podcast-release-the-supreme-court-opinions-in-trump-v-slaughter-and-trump-v-cook-what-do-they-mean-for-the-future-of-the-administrative-state/",
+          "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNLUJxT01sUmRISUl2NEttTDlZalhSbXFOa0RueENrTmh3NFlHeXlzMy1ZOWt1U01MMm8tQ28yazY0UVotRmhVQk5pYW9vTzRVT05HaFRubFUyREpRYnl0VzJPU2xfeUE5R09PaUxKNW5kSU8yZFltNXdwS2hJa3RZQldtUW1VYnJaNXh0bHRyUU8wRks4Vml2ZE1qd0lvVXY3QU5JamFtUHBWMHNNYTgxUU80VGttYTdNLVNqdXRXbEJmRTk2YS02amY3T29CT09VUEM1YldoWk9oSnl5WUVfZzlvamJmMDdyYzZjUmh3MTVyUjNsbDRJUDZnNHhoWnpCLVNwUXZMOGh3SVRFQThGQ1VNTmtJTnRiREcwXw?oc=5",
+          "published": "2026-10-15T18:02:09+00:00",
+          "publisher": "Consumer Finance Monitor",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Frequently asked questions about the 2026 midterm elections - Protect Democracy"
+          "title": "Podcast Release: The Supreme Court Opinions in Trump v. Slaughter and Trump v. Cook: What Do They Mean for the Future of the Administrative State? - Consumer Finance Monitor"
         },
         {
-          "canonical_link": "https://electionlawblog.org/2026/watch-archived-video-of-safeguarding-democracy-project-webinar-what-can-go-wrong-and-what-can-go-right-with-novembers-midterm-elections/",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZ2pXa0dOU1N2TFItS3RKOFdqNC12UUJBU2p4ZUtKTWlVeHJGQzVLU0xxMVkwM1RwSjAxLTFqWGFHNnRsZU43X2I0MDlXZ21XMGM3TmxSU1NvVGpWWGpRQ0dINF9rUEtKblRkakxUS0dLaV81cXh2YjFiTTZDV0xSMDNNZGtuSEh3QTl3TTZzRlBlekRDVUtZUEprSFJNZUZHenFVdU5ic21oTTlaMVJ3RUk5WlgtbXdhSUNMMkFrM0JUdFNBc1BUQmxHdThSRG5TR0llWFpCUmZ4TmlQNGNpc2t4SzB3WkUzLTFjenlvVHpmdm5JbzVBbkFTVFM1QQ?oc=5",
-          "published": "2026-10-13T23:39:56+00:00",
-          "publisher": "Election Law Blog",
+          "canonical_link": "https://thedailyeconomy.org/article/cook-case-tests-the-limits-of-fed-independence/",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSDNkQXYtVktHT2IwVkpGQXBwbHJzdVNmOEcxN3VpVTcyYm1ydlRZQjNiTmM4Q19jMl9aYTVPS0dYOXU2MTF1M2ZMdXRDQ0w0OFFrbW5MNnFyejJkS3pfMHNtcjNQZEVOVmI4bmJZWDFvMjY0UWlPZzJiQWtqcW1oX1NOS0RnbHBuOG1z?oc=5",
+          "published": "2026-10-16T10:05:00+00:00",
+          "publisher": "The Daily Economy",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Watch Archived Video of Safeguarding Democracy Project Webinar: \"What Can Go Wrong (and What Can Go Right) with November's Midterm Elections?\" - Election Law Blog"
-        },
-        {
-          "canonical_link": "https://www.reuters.com/investigates/special-report/usa-election-midterms-scenarios/",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdTJERWh3UV90cVhMS01kYVY1TzFKSGFndGROSDlWNnpLaWhhUXp6VkJSQ3VwZHJWb1NyeEpVX2dJYzBIaXFtb0dmc19KM1cyemlRVzA4NWxGeHRLRHRTZDdPMVdmRExwMmtvc0tqcjRnRzAzLTlBVURZV2J4VnJxbTJnX3dEdTFad2RvZA?oc=5",
-          "published": "2026-10-14T06:00:00+00:00",
-          "publisher": "Reuters",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Nine ways the Trump administration could interfere with the midterms - Reuters"
+          "title": "Cook Case Tests the Limits of Fed Independence - The Daily Economy"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 4,
+      "hits": 2,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.6,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://www.firstpost.com/explainers/can-donald-trump-cancel-the-november-3-us-midterm-elections-14053326.html",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUU9RcnNRZFNteEc3QV95Ums0WV9IeE90UFAxUmpwX3VxeXRWLVFxVGtJemZiVGJUUGVPeTd6MlRwSEYzUnFDeUQwS0RaMklUMGtKVWRlVU0tVE04RzJ1MW5XRnBCUVpoNlBZcmFrQmJBeUxGdU5pQU1sNjhWaG92N0xZemlURnBRQVd3cVF2X1JWQnRFZ3pVVUNKaDJ3Q2FOcy16aWFfR280Z1lmLWY00gG0AUFVX3lxTE5JaWwwTmZnbWxTU1JBT2g1bmxPdi1peU1FWEgzRjdSNFAzTW93ck5BRFA3UjBZb3p0UzBUYXJQbzJxREpPQld4SWhRLVNoMXFLWGVIM1o4Ti15ejBlU0s0eU5jVmhmVFVxelZYaEJzWUpneVM4NW5qNUtJNTZvcVNmZHdIQzNUYkxWXzZOVS05Rlc2SzNvaWIxMlNFaXhYNHVLb2FTQmNObWdBVTQtalFFeDlFMg?oc=5",
+          "published": "2026-10-16T08:42:08+00:00",
+          "publisher": "Firstpost",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Can Donald Trump cancel the November 3 US midterm elections? - Firstpost"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -257,7 +259,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }

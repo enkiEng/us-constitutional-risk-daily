@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-10-15 12:42:10 UTC
+- Generated: 2026-10-16 12:41:40 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **6 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **-3.1**
+- Score: **11 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+5.0**
+- Delta vs 7-day average: **+2.0**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,11 +15,11 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.00 | 0.00 |
+| Elections and Transfer of Power | 22 | 1.00 | 5.50 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 0.20 | 0.65 |
-| Civil Service and Agency Independence | 10 | 0.24 | 0.59 |
+| Executive Constraints and Emergency Powers | 13 | 0.08 | 0.27 |
+| Civil Service and Agency Independence | 10 | 0.15 | 0.38 |
 | Civil Liberties and Information Environment | 10 | 2.00 | 5.00 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
@@ -28,31 +28,33 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Public Funds for Political Promotion | civil_liberties_information | 3.00 (Orange) | ai | 5 | 6 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.30 (Watch) | ai | 0 | 3 |
-| Independent Agency Capture | civil_service_integrity | 0.95 (Watch) | ai | 0 | 1 |
-| Legislative Bypass by Executive | executive_constraints | 0.60 (Green) | ai | 0 | 4 |
+| Public Funds for Political Promotion | civil_liberties_information | 3.00 (Orange) | ai | 6 | 7 |
+| Election Administration Capture | elections_transfer | 2.00 (Yellow) | ai | 1 | 7 |
+| Press Restrictions or Retaliation | civil_liberties_information | 0.95 (Watch) | ai | 0 | 1 |
+| Independent Agency Capture | civil_service_integrity | 0.60 (Green) | ai | 0 | 2 |
+| Legislative Bypass by Executive | executive_constraints | 0.25 (Green) | ai | 0 | 1 |
 
 ## Evidence Samples
 
 ### Public Funds for Political Promotion
-- Assessment: Report indicates government spent $10 million on pro-Trump ads after president indicated a super PAC would fund them instead. This describes actual expenditure of appropriated public funds on partisan political advertising promoting an officeholder, which directly violates the 1950s-era appropriations bar on publicity or propaganda purposes. The fact that a super PAC was supposed to fund it but government funds were used instead, after a presidential statement, indicates knowing misuse of public money for campaign-style promotion. This is a confirmed high-severity action meeting the signal definition.
-- [Oregon Public Broadcasting - OPB] Government spent $10 million on pro-Trump ads after president said super PAC would fund - Oregon Public Broadcasting - OPB (2026-10-13) - https://news.google.com/rss/articles/CBMioAFBVV95cUxQc0ttNUdGUTNncV9rNTkyZzhkbmY2ZTZUWTRhU0IyOWE2cDNmQThxZTloRzdkVkY2Tm9WZ0E1UGx0ZUNFV2xEa2wxYmY0RHRLMDZVcjluUDJfbVYxeUVNaDJ6R0xGcmQ4NXBTb0dXaWJrZUJrMzNCNUZmMXQ0VjJaSmpVNE9hS1RvOG1QS2dCOWROSUhGWXJ0eGl1WEFfRkdB?oc=5
-- [Ars Technica] Trump commercial railing against his enemies kept airing after court blocked it - Ars Technica (2026-10-13) - https://news.google.com/rss/articles/CBMivwFBVV95cUxOQXZNNkN6dGw5bmpGY1Z5LTRXYVJSN1Jkci1YN0NlVXE2ZnhlS2RqN3VLNXFfM3J2bzg1ZUhsV2tlMzNuYWg2elhfUzdObG43NzZEa0kwMU1Fc01lSFplNF9YaWZYWWxVbjJzRFRXN19BRld1SGhnUUViNWpIUy0yMEZlOE83SW5OZklMeVpsbk42b2FHeWRfbzc2Tzg4V2t4OFlOaFJCeEgtWE1KMlphNjA1WXNOX3NmQ3BqSC1sOA?oc=5
+- Assessment: Report quotes Maryland lawmakers characterizing Trump's taxpayer-funded TV ads as 'egregious and utterly illegal.' This corroborates that government funds are actually being spent on pro-Trump advertising. The lawmakers' statements reflect a real event (ad spending using taxpayer money) rather than a hypothetical. The characterization as illegal and egregious by state officials, combined with corroboration from other items, confirms use of public funds for partisan promotion in violation of appropriations law.
 - [- SoMD Chronicle] ‘Egregious and utterly illegal.’ Maryland lawmakers blast Trump’s taxpayer-funded TV ads - - - SoMD Chronicle (2026-10-14) - https://news.google.com/rss/articles/CBMipgFBVV95cUxQdGgwcUFFa0J0eXVGcHBLLTNuX1R5cGpPVkJUSnpnT0VJYjgwNkl5ZUthTExiRHBQWndwSkh3c2VVMkJjNlB0UmIxLVpOYlpxSG1ZQmhYWGQwV1lKWXRqTzdRZVRoWXp2UldyLVdLZ0FYZHVHWk1jUkVpLW5xZHhoNEkxSFBvdlVrOU9lcGZrSngtLUZNNkl2LVBfVXp0THBYc2NERzln?oc=5
+- [The Hill] Judge extends block on taxpayer-funded Trump ads until after midterms - The Hill (2026-10-15) - https://news.google.com/rss/articles/CBMiowFBVV95cUxPd0U3ZUs1WWF4d3NJZTdPWkdtbUhYRVhQa0JRRHZjM2FtQjZ2SnJmXzNnODgtNV9fNnRYVHRUV1MtYzJ5dE40YW5iRmNNQk1HMUJ3SW92YWV0d01vLUNTSG53Z3RablJoa1kzSzlKQkN2YnZWb25ldktyTk95ZTN0dGx4Sk5MQUhnUjY4aVAxaTdZa2d5NFNBZ1pXQzhEUFoxWG9F0gGoAUFVX3lxTE0xX3E4RzgyOEc0dUxHcmVDN0J3UEFoSXFuQ1gza3hIYjRVbGs3RWd2OVV4ZElTV0E0UXV6SHdfRm5aTGpCZTZWeDNNMExlUDFFY3VNQUtFaUdZMDFUYXNHdkYyQk5qOVdfMmJiQzVrQnhtb2NZYmdoT0tscHlyNjNodjJRQi1nSVlFWjh6TDdvM2hvb3lLMllDM2xYczV0WmIxU1VKcWxScA?oc=5
+- [Yahoo] Judge extends pause on taxpayer-funded Trump ads - Yahoo (2026-10-14) - https://news.google.com/rss/articles/CBMimwFBVV95cUxPY0QwVlBTWmtkQXNQdzZ5OUp3UGxJN0lmOGgwZ3lvMkg3S0xxWk14aVg5ZjJITnYzOThHbHdOTVlqdF9pWUgxcDFjdmxlX2ttQUR2blF3OEV4bTFQUmhEOVVGaXB0UzBXOFc3QnNHUlNrRDlPNWhocklFRFdESHU0alh2ZWRVR2RHdFlkdG9sNHIyeHRtVGdEdkQ4NA?oc=5
+
+### Election Administration Capture
+- Assessment: This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred—a raid of an election office—allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.
+- [ABC News - Breaking News, Latest News and Videos] Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos (2026-10-14) - https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5
 
 ### Press Restrictions or Retaliation
-- [The Express Tribune] Judge extends White House access for CNN, MS NOW, Politico amid legal fight - The Express Tribune (2026-10-14) - https://news.google.com/rss/articles/CBMirwFBVV95cUxONE50OUF0LU1waHVUMHJhOW5PTk1URUxhOGtxSkFWRUF1V2lZN2hCNE8zbzJYVWR5Z0JFZGlyVUUtNS0wdVFpZjJpckhtalVrWHlVQ3pOM2NzQmVOaHctYnRIb0l6QzJULTBsV0hMS3Z6MTFCUVVMSmVCYjJYdmFJN3RFaFpQem9JbHlibnh4WnRraEZaV1YySFAtQ0VKbjJGV0pBUWk1M3RHcXdHVnp30gG3AUFVX3lxTE1UZjhoU0QxcWJYX0duakxlV2lES21rdVRSVGs3UGxQNWNkaDhMbHVXMVpUTTRvMWtjenBOVjJIaDRBT3N3bUhjV1p1MG15LXBoYXlmcTBIQ0hmREtvZENGdXJiRzk5dWpXR19YcXZhUFVTM01DSmRHc2tJNjEwX1N4NHZkRV9Nckk1SUY2cEhZRk9vX3BCel9KUGJwTjVtcmlQVVRrM2s0UUdQcm03VlNtV19MSi1aZw?oc=5
-- [https://dailyasianage.com/] Democrats Slam White House for Showing Hostility to Journalists - https://dailyasianage.com/ (2026-10-14) - https://news.google.com/rss/articles/CBMiowFBVV95cUxNU1lhUmVoaURNYnlyNEhjdHJBejVkQXUyQTFCSTV6YjB3d1ZMM01oZm5tM0NCZ0hpUFhnZFhqalNBUDFZY3hIYXJkdGZwQ2g5UFhmMWN0TXNlRmlEX2o5c2V6UjJUQ0U0N3NvMW5iSkpidmJsalhyUVBtZmduQ3FZOHFqUWdxbVNiUml0U1JaQUFSSFlnNEdhNUc2WGtWMk9tMU9V?oc=5
-- [MyJoyOnline] Judge extends White House access for CNN, MS NOW, Politico amid legal fight - MyJoyOnline (2026-10-14) - https://news.google.com/rss/articles/CBMipAFBVV95cUxNMTZpRzdFT2lMQTdtMEIwcmpLRjZ6eE5VSWIwak9VUkdFQWFkeGdENEdMUmg3RXBGOXU2UzFuLUZzUVFRd2FPMEdsS2RZQjNldUQxOXJmZVh2V1RnUjZodzVUR0diMUpBejZjOHQzd1YwRTZTdWhGamtWdUkwNTZqTnhhWEZIMngxakFybjBHdHhpaEQzRUM5dGVfODhoaXcwcHpxdg?oc=5
+- [The Guardsman Online] ‘Student Journalists Can Make Powerful Change’: Reporters and Lawyers on the Fight for Press Freedom - The Guardsman Online (2026-10-15) - https://news.google.com/rss/articles/CBMixgFBVV95cUxOWDRyUzFCVmF4TFV6V3M4bWJXeko4clpBd2t1RkRuV2RwSURNS0NySHA1Y2pNRWU3LXZnTDQwY3daZEpLZW9pZVZtbXFmdEI1dUthcDhmdDdXMVhORjBPUnRUdk9KSlRaT0RPUGlpWHQxdmUxb2JYdzdxaFg5R1lUUTY0ZDNFUHA0Mk9JdGVkcmNoTURvQUh1d2dVc0lubW9xOF9tSDdaUHZoN2o2SnZGcW5WSlRIZ1AwN3VuN0p5Q1hlcm96c3c?oc=5
 
 ### Independent Agency Capture
-- [ИФЗ РАН] Why The White House Battle Over Federal Reserve Governor Lis - ИФЗ РАН (2026-10-14) - https://news.google.com/rss/articles/CBMilwFBVV95cUxNbExfdnkxMV9OaE4yQXNZeGZYNS1vbTFBWVluT2hBdjFQNjhPZGh6UTM1SnJmNXE0RXFqU0RmTXRHYkFnSFVwanY2eEJXRnJ4bVRzSUE4NW0xeGtIVkluYVhRTm8wQlU5eW9iMnZfb21vNjVqa2dYeGxpbUZFeDNLdU9lOUZSejlacEp6RDRqTHdxN3ZxSkxr?oc=5
+- [Consumer Finance Monitor] Podcast Release: The Supreme Court Opinions in Trump v. Slaughter and Trump v. Cook: What Do They Mean for the Future of the Administrative State? - Consumer Finance Monitor (2026-10-15) - https://news.google.com/rss/articles/CBMinAJBVV95cUxNLUJxT01sUmRISUl2NEttTDlZalhSbXFOa0RueENrTmh3NFlHeXlzMy1ZOWt1U01MMm8tQ28yazY0UVotRmhVQk5pYW9vTzRVT05HaFRubFUyREpRYnl0VzJPU2xfeUE5R09PaUxKNW5kSU8yZFltNXdwS2hJa3RZQldtUW1VYnJaNXh0bHRyUU8wRks4Vml2ZE1qd0lvVXY3QU5JamFtUHBWMHNNYTgxUU80VGttYTdNLVNqdXRXbEJmRTk2YS02amY3T29CT09VUEM1YldoWk9oSnl5WUVfZzlvamJmMDdyYzZjUmh3MTVyUjNsbDRJUDZnNHhoWnpCLVNwUXZMOGh3SVRFQThGQ1VNTmtJTnRiREcwXw?oc=5
+- [The Daily Economy] Cook Case Tests the Limits of Fed Independence - The Daily Economy (2026-10-16) - https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSDNkQXYtVktHT2IwVkpGQXBwbHJzdVNmOEcxN3VpVTcyYm1ydlRZQjNiTmM4Q19jMl9aYTVPS0dYOXU2MTF1M2ZMdXRDQ0w0OFFrbW5MNnFyejJkS3pfMHNtcjNQZEVOVmI4bmJZWDFvMjY0UWlPZzJiQWtqcW1oX1NOS0RnbHBuOG1z?oc=5
 
 ### Legislative Bypass by Executive
-- [Protect Democracy] Frequently asked questions about the 2026 midterm elections - Protect Democracy (2026-10-15) - https://news.google.com/rss/articles/CBMimgFBVV95cUxNaGc2YzZlb2ZjZmFHdmFUZ2o2eGtYX0phYl9lWUcxaHVFV2N2NlIzbjFsejdlMUJLdnZoclpkakw0d2U1VjlTODBETDVXNW9iWmZGMU93R2lRRy1iYW50eXZmQnduUmhlZWRZbWlPNlRkQ1IzTmdTTjM2T21kTnhZdHlhYlVROEFVY1NGN3ZDRVZGVENsTTVzYk9n?oc=5
-- [Election Law Blog] Watch Archived Video of Safeguarding Democracy Project Webinar: "What Can Go Wrong (and What Can Go Right) with November's Midterm Elections?" - Election Law Blog (2026-10-13) - https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZ2pXa0dOU1N2TFItS3RKOFdqNC12UUJBU2p4ZUtKTWlVeHJGQzVLU0xxMVkwM1RwSjAxLTFqWGFHNnRsZU43X2I0MDlXZ21XMGM3TmxSU1NvVGpWWGpRQ0dINF9rUEtKblRkakxUS0dLaV81cXh2YjFiTTZDV0xSMDNNZGtuSEh3QTl3TTZzRlBlekRDVUtZUEprSFJNZUZHenFVdU5ic21oTTlaMVJ3RUk5WlgtbXdhSUNMMkFrM0JUdFNBc1BUQmxHdThSRG5TR0llWFpCUmZ4TmlQNGNpc2t4SzB3WkUzLTFjenlvVHpmdm5JbzVBbkFTVFM1QQ?oc=5
-- [Reuters] Nine ways the Trump administration could interfere with the midterms - Reuters (2026-10-14) - https://news.google.com/rss/articles/CBMijAFBVV95cUxOdTJERWh3UV90cVhMS01kYVY1TzFKSGFndGROSDlWNnpLaWhhUXp6VkJSQ3VwZHJWb1NyeEpVX2dJYzBIaXFtb0dmc19KM1cyemlRVzA4NWxGeHRLRHRTZDdPMVdmRExwMmtvc0tqcjRnRzAzLTlBVURZV2J4VnJxbTJnX3dEdTFad2RvZA?oc=5
+- [Firstpost] Can Donald Trump cancel the November 3 US midterm elections? - Firstpost (2026-10-16) - https://news.google.com/rss/articles/CBMirwFBVV95cUxOUU9RcnNRZFNteEc3QV95Ums0WV9IeE90UFAxUmpwX3VxeXRWLVFxVGtJemZiVGJUUGVPeTd6MlRwSEYzUnFDeUQwS0RaMklUMGtKVWRlVU0tVE04RzJ1MW5XRnBCUVpoNlBZcmFrQmJBeUxGdU5pQU1sNjhWaG92N0xZemlURnBRQVd3cVF2X1JWQnRFZ3pVVUNKaDJ3Q2FOcy16aWFfR280Z1lmLWY00gG0AUFVX3lxTE5JaWwwTmZnbWxTU1JBT2g1bmxPdi1peU1FWEgzRjdSNFAzTW93ck5BRFA3UjBZb3p0UzBUYXJQbzJxREpPQld4SWhRLVNoMXFLWGVIM1o4Ti15ejBlU0s0eU5jVmhmVFVxelZYaEJzWUpneVM4NW5qNUtJNTZvcVNmZHdIQzNUYkxWXzZOVS05Rlc2SzNvaWIxMlNFaXhYNHVLb2FTQmNObWdBVTQtalFFeDlFMg?oc=5
 
 ## Data Quality
 
