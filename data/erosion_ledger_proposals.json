@@ -116,6 +116,24 @@
       "rationale": "The White House has executed a confirmed, contemporaneous ban denying multiple major news organizations (CNN, MSNBC, Politico) access to the press pool, extending the pre-existing viewpoint-based exclusion practice previously limited to the AP. This represents a durable escalation of the same structural mechanism\u2014executive control over press-pool composition used to punish disfavored outlets\u2014broadening its scope from a single targeted outlet to multiple major organizations, warranting an upgrade from targeted (2) to broadly discretionary (3) weakening of the press-access check.",
       "confidence": 0.6,
       "proposed_on": "2026-09-20"
+    },
+    {
+      "action": "add",
+      "id": "opm_civil_service_removal_toolkit_rules",
+      "domain_id": "civil_service_integrity",
+      "title": "OPM final rules eliminate time-in-grade requirement, expand administrative leave for 'workforce realignment,' and alter senior professional performance management",
+      "class": "ruling",
+      "magnitude": 2,
+      "status": "active",
+      "established": "2026-10-19",
+      "evidence": [
+        "Administrative Leave for Workforce Realignment and Other Purposes - federalregister.gov (2026-21320)",
+        "Elimination of Time-in-Grade - federalregister.gov (2026-21319)",
+        "Managing Senior Professional Performance - federalregister.gov (2026-21316)"
+      ],
+      "rationale": "Three OPM final rules were published in the Federal Register on 2026-10-19, constituting completed regulatory action (not proposals) that materially expand executive tools for reassigning, sidelining, or managing out career civil servants: eliminating the time-in-grade merit-based promotion safeguard, broadening administrative leave authority explicitly for 'workforce realignment,' and changing senior professional performance management. These are distinct from the existing Schedule Policy/Career at-will reclassification entry and from the already-pending MSPB/probationary/RIF proposals, representing an additional durable weakening of civil-service merit protections government-wide. Scoped as targeted-but-broad weakening (magnitude 2) layered atop existing civil_service_integrity entries rather than a full elimination of checks.",
+      "confidence": 0.55,
+      "proposed_on": "2026-10-17"
     }
   ]
 }

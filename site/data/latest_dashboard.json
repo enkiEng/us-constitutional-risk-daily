@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 9.14,
+  "average_7d": 9.03,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 5.0,
-  "delta_vs_7d": 2.01,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": 1.17,
   "domain_breakdown": [
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.5,
+      "points": 3.5749999999999993,
       "weight": 22
     },
     {
@@ -34,24 +34,24 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.08333333333333333,
+      "avg_severity": 0.0,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 0.2708333333333333,
+      "points": 0.0,
       "weight": 13
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 1.0,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.375,
+      "points": 2.5,
       "weight": 10
     },
     {
-      "avg_severity": 2.0,
+      "avg_severity": 1.65,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 5.0,
+      "points": 4.125,
       "weight": 10
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-16T12:41:40.559964+00:00",
+  "generated_at": "2026-10-17T12:36:07.597021+00:00",
   "methodology_version": 2,
-  "previous_score": 6,
+  "previous_score": 11,
   "primary_sources": {
-    "documents_confirmed": 0,
-    "documents_fetched": 10,
+    "documents_confirmed": 3,
+    "documents_fetched": 15,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,71 +86,165 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 11,
-  "score_raw": 11.15,
-  "score_raw_pre_trip_wire": 11.15,
+  "score": 10,
+  "score_raw": 10.2,
+  "score_raw_pre_trip_wire": 10.2,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 6,
+      "confirmed_hits": 5,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://southernmarylandchronicle.com/2026/10/14/maryland-lawmakers-blast-trump-taxpayer-funded-tv-ads/",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdGgwcUFFa0J0eXVGcHBLLTNuX1R5cGpPVkJUSnpnT0VJYjgwNkl5ZUthTExiRHBQWndwSkh3c2VVMkJjNlB0UmIxLVpOYlpxSG1ZQmhYWGQwV1lKWXRqTzdRZVRoWXp2UldyLVdLZ0FYZHVHWk1jUkVpLW5xZHhoNEkxSFBvdlVrOU9lcGZrSngtLUZNNkl2LVBfVXp0THBYc2NERzln?oc=5",
-          "published": "2026-10-14T14:00:00+00:00",
-          "publisher": "- SoMD Chronicle",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "\u2018Egregious and utterly illegal.\u2019 Maryland lawmakers blast Trump\u2019s taxpayer-funded TV ads - - - SoMD Chronicle"
-        },
-        {
-          "canonical_link": "https://thehill.com/regulation/court-battles/6150263-donald-trump-taxpayer-funded-ads-block-extended/",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd0U3ZUs1WWF4d3NJZTdPWkdtbUhYRVhQa0JRRHZjM2FtQjZ2SnJmXzNnODgtNV9fNnRYVHRUV1MtYzJ5dE40YW5iRmNNQk1HMUJ3SW92YWV0d01vLUNTSG53Z3RablJoa1kzSzlKQkN2YnZWb25ldktyTk95ZTN0dGx4Sk5MQUhnUjY4aVAxaTdZa2d5NFNBZ1pXQzhEUFoxWG9F0gGoAUFVX3lxTE0xX3E4RzgyOEc0dUxHcmVDN0J3UEFoSXFuQ1gza3hIYjRVbGs3RWd2OVV4ZElTV0E0UXV6SHdfRm5aTGpCZTZWeDNNMExlUDFFY3VNQUtFaUdZMDFUYXNHdkYyQk5qOVdfMmJiQzVrQnhtb2NZYmdoT0tscHlyNjNodjJRQi1nSVlFWjh6TDdvM2hvb3lLMllDM2xYczV0WmIxU1VKcWxScA?oc=5",
-          "published": "2026-10-15T13:44:00+00:00",
+          "canonical_link": "https://thehill.com/regulation/court-battles/6150263-donald-trump-taxpayer-funded-ads-block-extended/amp/",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMV9xOEc4MjhHNHVMR3JlQzdCd1BBaElxbkNYM2t4SGI0VWxrN0VndjlVeGRJU1dBNFF1ekh3X0ZuWkxqQmU2VngzTTBMZVAxRWN1TUFLRWlHWTAxVGFzR3ZGMkJOajlXXzJiYkM1a0J4bW9jWWJnaE9LbHB5cjYzaHYyUUItZ0lZRVo4ekw3bzNob295SzJZQzNsWHM1dFpiMVNVSnFsUnDSAagBQVVfeXFMTTFfcThHODI4RzR1TEdyZUM3QndQQWhJcW5DWDNreEhiNFVsazdFZ3Y5VXhkSVNXQTRRdXpId19GblpMakJlNlZ4M00wTGVQMUVjdU1BS0VpR1kwMVRhc0d2RjJCTmo5V18yYmJDNWtCeG1vY1liZ2hPS2xweXI2M2h2MlFCLWdJWUVaOHpMN28zaG9veUsyWUMzbFhzNXRaYjFTVUpxbFJw?oc=5",
+          "published": "2026-10-15T13:44:41+00:00",
           "publisher": "The Hill",
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Judge extends block on taxpayer-funded Trump ads until after midterms - The Hill"
         },
         {
-          "canonical_link": "https://www.yahoo.com/news/politics/articles/judge-extends-pause-taxpayer-funded-174216952.html",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY0QwVlBTWmtkQXNQdzZ5OUp3UGxJN0lmOGgwZ3lvMkg3S0xxWk14aVg5ZjJITnYzOThHbHdOTVlqdF9pWUgxcDFjdmxlX2ttQUR2blF3OEV4bTFQUmhEOVVGaXB0UzBXOFc3QnNHUlNrRDlPNWhocklFRFdESHU0alh2ZWRVR2RHdFlkdG9sNHIyeHRtVGdEdkQ4NA?oc=5",
-          "published": "2026-10-14T17:42:16+00:00",
-          "publisher": "Yahoo",
+          "canonical_link": "https://baptistnews.com/article/trump-loses-lawsuit-over-partisan-ads-paid-for-with-public-funds/",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRlp0cGdBRS1uZE8yZklOdGlQQ0tZdk5RdFVaVG1DQTJCdXJRMHhZaFMwb0hGaGwwQVVpNVdoS1JmYXJpQVlmbEFLU0oybV9BR3pvTlgwT1hMOWp5ZHJjRmg4dm54ck5hcEZ5N0lZcTU0Vm1DX0FBRnQ5NVBIS3dFa2U4cWlLS1EwMFJucmFTUmdhWjlNLVRrQ2NoR0VNdw?oc=5",
+          "published": "2026-10-16T18:28:39+00:00",
+          "publisher": "Baptist News Global",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Judge extends pause on taxpayer-funded Trump ads - Yahoo"
+          "title": "Trump loses lawsuit over partisan ads paid for with public funds - Baptist News Global"
+        },
+        {
+          "canonical_link": "https://journalnow.com/news/nation-world/government-politics/article_58ab6d13-5c5b-5e82-9223-56796081ca8f.html",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVFBlY2hTTVhyblB0VEt2MXhNNnNEdjQzbmdNT2drbV9qV0NyVEJqaU96aGEydlZyZGx0dW93b3BNX3ZyOHFjaHRNdVYtaXQwOFZnRHNuMXlzZThKZlhWdDFiaVg0SGpiSm16R2xvYmVzSkZsVXhFUGRrZ3M5cjhnQWpONG8yX0pxQ0FRRHFVUmcySTBGQUFabkNpQVI2NFVkdENMNzZEZjlOTFZQelBF?oc=5",
+          "published": "2026-10-15T17:15:22+00:00",
+          "publisher": "Winston-Salem Journal",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump does not plan to reimburse government for taxpayer-funded ads - Winston-Salem Journal"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 7,
+      "hits": 6,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.somdchronicle.com",
-      "rationale": "Report quotes Maryland lawmakers characterizing Trump's taxpayer-funded TV ads as 'egregious and utterly illegal.' This corroborates that government funds are actually being spent on pro-Trump advertising. The lawmakers' statements reflect a real event (ad spending using taxpayer money) rather than a hypothetical. The characterization as illegal and egregious by state officials, combined with corroboration from other items, confirms use of public funds for partisan promotion in violation of appropriations law.",
-      "severe_hits": 0,
-      "severity": 3.0,
-      "severity_label": "Orange",
-      "unique_publishers": 6
+      "primary_source_url": "https://thehill.com",
+      "rationale": "A judge has issued an injunction blocking taxpayer-funded Trump ads. This confirms that public funds were being spent on campaign-style ads promoting the officeholder\u2014precisely the signal defined\u2014and that a judicial remedy was sought and partially granted. The injunction itself is a real legal action that altered the status quo by preventing ad expenditure until after the midterms. This is credible, confirmed stress: an actual attempt to use appropriated funds for partisan promotion, caught and enjoined by a court.",
+      "severe_hits": 1,
+      "severity": 2.65,
+      "severity_label": "Yellow",
+      "unique_publishers": 5
     },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
-          "published": "2026-10-14T23:28:34+00:00",
+          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-10-15T22:57:28+00:00",
           "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 3,
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/10/19/2026-21320/administrative-leave-for-workforce-realignment-and-other-purposes",
+          "link": "https://www.federalregister.gov/documents/2026/10/19/2026-21320/administrative-leave-for-workforce-realignment-and-other-purposes",
+          "published": "2026-10-19T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Administrative Leave for Workforce Realignment and Other Purposes"
+        },
+        {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/10/19/2026-21319/elimination-of-time-in-grade",
+          "link": "https://www.federalregister.gov/documents/2026/10/19/2026-21319/elimination-of-time-in-grade",
+          "published": "2026-10-19T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Elimination of Time-in-Grade"
+        },
+        {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/10/19/2026-21316/managing-senior-professional-performance",
+          "link": "https://www.federalregister.gov/documents/2026/10/19/2026-21316/managing-senior-professional-performance",
+          "published": "2026-10-19T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Managing Senior Professional Performance"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 0,
+      "id": "civil_service_purge_schedule_f",
+      "name": "Civil Service Purge / Schedule F",
+      "override_note": null,
+      "primary_confirmed": 3,
+      "primary_documents": 3,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/19/2026-21320/administrative-leave-for-workforce-realignment-and-other-purposes",
+      "rationale": "Final rule issued by OPM expanding the scope and legitimate uses of administrative leave, including explicitly for 'workforce realignment initiatives.' This is an accomplished regulatory action (not a proposal) that creates new legal authority for executive discretion in removing or repositioning civil servants. Administrative leave can facilitate workforce removal without competitive process protections. Severity 2 because this is a real, confirmed action that materially expands tools available for politicized personnel actions, but it is a procedural/regulatory change rather than a demonstrated mass removal or targeted purge yet executed.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "canonical_link": "https://www.politico.com/playbook",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAyQkZwUjVOOEFSSFFicG1RMFhQTVo2TWdmZDN2Zjd2aWtJM0lpMklrQkVPR3dVRDByTkFORmJHZU9qSXlEdTNxbw?oc=5",
+          "published": "2026-10-16T21:55:13+00:00",
+          "publisher": "Politico",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Playbook - Politico"
+        },
+        {
+          "canonical_link": "https://news-journal.com/2026/10/17/heres-how-abbott-hinojosa-want-to-reshape-texas-education/",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUHZpMUN6cVZNeG8tMGVzbzYwWnZoc2JUb3JyZEtvbVp0LXc2elVfbGl6TlVJTWtNTUpZQmJ6MTBjdFNydkFvamhzdDRNMFZPTTZHcE5iNjJnNUpIUzVfRlZvS1dqODMtckF0TjZJbk5hQWRTUFU2dUdsbjQzZFNhWkxhSUVwMTRrRmF5c2tCYlhCTEJSZmdpX3Bn?oc=5",
+          "published": "2026-10-17T10:46:24+00:00",
+          "publisher": "Longview News-Journal",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Here\u2019s how Abbott, Hinojosa want to reshape Texas education - Longview News-Journal"
+        },
+        {
+          "canonical_link": "https://www.hawaiipublicradio.org/local-news/2026-10-15/voting-explainer-2026-honolulu-charter-amendment-ballot-questions",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZnNCWU51YVZmdXVJb3dzQVJkdEVQUVZORmtsc0RXb1VkUmJyVWx0dzVxNkEydU14QW1ZS0pQVG9pbXNsLXV5Sm44Mk1OQWUtaVMxMUhVcVhUUWJlbXBnUXJiOUl2SHh1TXZxUWM1eHJDTFdTQ3FJWVl4U1hhWXFMQmVMOUlTU2FTUXBRbWhpMDBHYXVEd1N5Q3E2Y3JLeDB6a0NkUm93TTFoenZOMjQ4cThQV3BoWFJKdTdIVExn?oc=5",
+          "published": "2026-10-16T01:37:00+00:00",
+          "publisher": "Hawaii Public Radio",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Voting explainer: 2026 Honolulu charter amendment ballot questions - Hawaii Public Radio"
         }
       ],
       "evidence_mode": "ai",
@@ -160,39 +254,10 @@
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://www.theguardsman.com/student-journalists-can-make-powerful-change-reporters-and-lawyers-on-the-fight-for-press-freedom/",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWDRyUzFCVmF4TFV6V3M4bWJXeko4clpBd2t1RkRuV2RwSURNS0NySHA1Y2pNRWU3LXZnTDQwY3daZEpLZW9pZVZtbXFmdEI1dUthcDhmdDdXMVhORjBPUnRUdk9KSlRaT0RPUGlpWHQxdmUxb2JYdzdxaFg5R1lUUTY0ZDNFUHA0Mk9JdGVkcmNoTURvQUh1d2dVc0lubW9xOF9tSDdaUHZoN2o2SnZGcW5WSlRIZ1AwN3VuN0p5Q1hlcm96c3c?oc=5",
-          "published": "2026-10-15T19:30:24+00:00",
-          "publisher": "The Guardsman Online",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "\u2018Student Journalists Can Make Powerful Change\u2019: Reporters and Lawyers on the Fight for Press Freedom - The Guardsman Online"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
+      "severity": 1.65,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -218,41 +283,21 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Cook Case Tests the Limits of Fed Independence - The Daily Economy"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
+        },
         {
-          "canonical_link": "https://www.firstpost.com/explainers/can-donald-trump-cancel-the-november-3-us-midterm-elections-14053326.html",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUU9RcnNRZFNteEc3QV95Ums0WV9IeE90UFAxUmpwX3VxeXRWLVFxVGtJemZiVGJUUGVPeTd6MlRwSEYzUnFDeUQwS0RaMklUMGtKVWRlVU0tVE04RzJ1MW5XRnBCUVpoNlBZcmFrQmJBeUxGdU5pQU1sNjhWaG92N0xZemlURnBRQVd3cVF2X1JWQnRFZ3pVVUNKaDJ3Q2FOcy16aWFfR280Z1lmLWY00gG0AUFVX3lxTE5JaWwwTmZnbWxTU1JBT2g1bmxPdi1peU1FWEgzRjdSNFAzTW93ck5BRFA3UjBZb3p0UzBUYXJQbzJxREpPQld4SWhRLVNoMXFLWGVIM1o4Ti15ejBlU0s0eU5jVmhmVFVxelZYaEJzWUpneVM4NW5qNUtJNTZvcVNmZHdIQzNUYkxWXzZOVS05Rlc2SzNvaWIxMlNFaXhYNHVLb2FTQmNObWdBVTQtalFFeDlFMg?oc=5",
-          "published": "2026-10-16T08:42:08+00:00",
-          "publisher": "Firstpost",
+          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-10-15T22:57:28+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Can Donald Trump cancel the November 3 US midterm elections? - Firstpost"
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "hits": 3,
+      "id": "independent_agency_capture",
+      "name": "Independent Agency Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
