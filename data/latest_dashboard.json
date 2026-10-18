@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 9.03,
+  "average_7d": 8.57,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": 1.17,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": -1.0,
   "domain_breakdown": [
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.325,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.5749999999999993,
+      "points": 1.7875,
       "weight": 22
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 1.65,
+      "avg_severity": 1.3166666666666667,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 4.125,
+      "points": 3.2916666666666665,
       "weight": 10
     },
     {
@@ -73,9 +73,9 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-17T12:36:07.597021+00:00",
+  "generated_at": "2026-10-18T12:36:49.982294+00:00",
   "methodology_version": 2,
-  "previous_score": 11,
+  "previous_score": 10,
   "primary_sources": {
     "documents_confirmed": 3,
     "documents_fetched": 15,
@@ -86,25 +86,16 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 10,
-  "score_raw": 10.2,
-  "score_raw_pre_trip_wire": 10.2,
+  "score": 8,
+  "score_raw": 7.58,
+  "score_raw_pre_trip_wire": 7.58,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 5,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
-        {
-          "canonical_link": "https://thehill.com/regulation/court-battles/6150263-donald-trump-taxpayer-funded-ads-block-extended/amp/",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMV9xOEc4MjhHNHVMR3JlQzdCd1BBaElxbkNYM2t4SGI0VWxrN0VndjlVeGRJU1dBNFF1ekh3X0ZuWkxqQmU2VngzTTBMZVAxRWN1TUFLRWlHWTAxVGFzR3ZGMkJOajlXXzJiYkM1a0J4bW9jWWJnaE9LbHB5cjYzaHYyUUItZ0lZRVo4ekw3bzNob295SzJZQzNsWHM1dFpiMVNVSnFsUnDSAagBQVVfeXFMTTFfcThHODI4RzR1TEdyZUM3QndQQWhJcW5DWDNreEhiNFVsazdFZ3Y5VXhkSVNXQTRRdXpId19GblpMakJlNlZ4M00wTGVQMUVjdU1BS0VpR1kwMVRhc0d2RjJCTmo5V18yYmJDNWtCeG1vY1liZ2hPS2xweXI2M2h2MlFCLWdJWUVaOHpMN28zaG9veUsyWUMzbFhzNXRaYjFTVUpxbFJw?oc=5",
-          "published": "2026-10-15T13:44:41+00:00",
-          "publisher": "The Hill",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Judge extends block on taxpayer-funded Trump ads until after midterms - The Hill"
-        },
         {
           "canonical_link": "https://baptistnews.com/article/trump-loses-lawsuit-over-partisan-ads-paid-for-with-public-funds/",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRlp0cGdBRS1uZE8yZklOdGlQQ0tZdk5RdFVaVG1DQTJCdXJRMHhZaFMwb0hGaGwwQVVpNVdoS1JmYXJpQVlmbEFLU0oybV9BR3pvTlgwT1hMOWp5ZHJjRmg4dm54ck5hcEZ5N0lZcTU0Vm1DX0FBRnQ5NVBIS3dFa2U4cWlLS1EwMFJucmFTUmdhWjlNLVRrQ2NoR0VNdw?oc=5",
@@ -113,57 +104,19 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Trump loses lawsuit over partisan ads paid for with public funds - Baptist News Global"
-        },
-        {
-          "canonical_link": "https://journalnow.com/news/nation-world/government-politics/article_58ab6d13-5c5b-5e82-9223-56796081ca8f.html",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVFBlY2hTTVhyblB0VEt2MXhNNnNEdjQzbmdNT2drbV9qV0NyVEJqaU96aGEydlZyZGx0dW93b3BNX3ZyOHFjaHRNdVYtaXQwOFZnRHNuMXlzZThKZlhWdDFiaVg0SGpiSm16R2xvYmVzSkZsVXhFUGRrZ3M5cjhnQWpONG8yX0pxQ0FRRHFVUmcySTBGQUFabkNpQVI2NFVkdENMNzZEZjlOTFZQelBF?oc=5",
-          "published": "2026-10-15T17:15:22+00:00",
-          "publisher": "Winston-Salem Journal",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump does not plan to reimburse government for taxpayer-funded ads - Winston-Salem Journal"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 6,
+      "hits": 3,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://thehill.com",
-      "rationale": "A judge has issued an injunction blocking taxpayer-funded Trump ads. This confirms that public funds were being spent on campaign-style ads promoting the officeholder\u2014precisely the signal defined\u2014and that a judicial remedy was sought and partially granted. The injunction itself is a real legal action that altered the status quo by preventing ad expenditure until after the midterms. This is credible, confirmed stress: an actual attempt to use appropriated funds for partisan promotion, caught and enjoined by a court.",
-      "severe_hits": 1,
-      "severity": 2.65,
-      "severity_label": "Yellow",
-      "unique_publishers": 5
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-10-15T22:57:28+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
+      "primary_source_url": "https://www.baptistnewsglobal.com",
+      "rationale": "Trump lost a lawsuit over partisan ads paid for with public funds. This is direct evidence that public funds were allocated or spent on partisan advertising\u2014the core signal\u2014and that a court reviewed and rejected the administration's legal position. The loss confirms that a real attempt to fund campaign-style ads with taxpayer money occurred and was judicially invalidated.",
       "severe_hits": 0,
-      "severity": 2.0,
+      "severity": 2.3,
       "severity_label": "Yellow",
       "unique_publishers": 1
     },
@@ -217,40 +170,22 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.politico.com/playbook",
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAyQkZwUjVOOEFSSFFicG1RMFhQTVo2TWdmZDN2Zjd2aWtJM0lpMklrQkVPR3dVRDByTkFORmJHZU9qSXlEdTNxbw?oc=5",
-          "published": "2026-10-16T21:55:13+00:00",
-          "publisher": "Politico",
+          "canonical_link": "https://www.thestatesman.com/world/pakistan-tightens-grip-on-tv-news-bars-live-terror-attack-coverage-press-watchdog-warns-of-censorship-1503652123.html/amp",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS00zV1FVR01ZM0dXOFF6MGl5R0todnAxVDAzWC1wdF8xZnVBQk9ESXRHbGM2RXRvc05XWUpzcjJVQk50Yy14cl91ZUNoMUJqNHlBQXFFV1FwTi1FN1l0R19iVDItQjU2UTFQQjBFb2pybVpvMEFPcFMxUVNjTnZxRVBmaVNBd3FSbDI3TEdWdlhCVVNOdjBFVVBkX2VXN2VHNGNXdE1CeENOM1p6NUxnVTBEdVZNSzc4UjlZdGo5blJVTE1aN3dSVy1jQ3ZBam5kV0pJNEVpZU4wenVfM0tFa0hqbmdDTWk4OU1aUtIB7AFBVV95cUxPS00zV1FVR01ZM0dXOFF6MGl5R0todnAxVDAzWC1wdF8xZnVBQk9ESXRHbGM2RXRvc05XWUpzcjJVQk50Yy14cl91ZUNoMUJqNHlBQXFFV1FwTi1FN1l0R19iVDItQjU2UTFQQjBFb2pybVpvMEFPcFMxUVNjTnZxRVBmaVNBd3FSbDI3TEdWdlhCVVNOdjBFVVBkX2VXN2VHNGNXdE1CeENOM1p6NUxnVTBEdVZNSzc4UjlZdGo5blJVTE1aN3dSVy1jQ3ZBam5kV0pJNEVpZU4wenVfM0tFa0hqbmdDTWk4OU1aUg?oc=5",
+          "published": "2026-10-17T08:42:58+00:00",
+          "publisher": "The Statesman",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Playbook - Politico"
-        },
-        {
-          "canonical_link": "https://news-journal.com/2026/10/17/heres-how-abbott-hinojosa-want-to-reshape-texas-education/",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUHZpMUN6cVZNeG8tMGVzbzYwWnZoc2JUb3JyZEtvbVp0LXc2elVfbGl6TlVJTWtNTUpZQmJ6MTBjdFNydkFvamhzdDRNMFZPTTZHcE5iNjJnNUpIUzVfRlZvS1dqODMtckF0TjZJbk5hQWRTUFU2dUdsbjQzZFNhWkxhSUVwMTRrRmF5c2tCYlhCTEJSZmdpX3Bn?oc=5",
-          "published": "2026-10-17T10:46:24+00:00",
-          "publisher": "Longview News-Journal",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Here\u2019s how Abbott, Hinojosa want to reshape Texas education - Longview News-Journal"
-        },
-        {
-          "canonical_link": "https://www.hawaiipublicradio.org/local-news/2026-10-15/voting-explainer-2026-honolulu-charter-amendment-ballot-questions",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZnNCWU51YVZmdXVJb3dzQVJkdEVQUVZORmtsc0RXb1VkUmJyVWx0dzVxNkEydU14QW1ZS0pQVG9pbXNsLXV5Sm44Mk1OQWUtaVMxMUhVcVhUUWJlbXBnUXJiOUl2SHh1TXZxUWM1eHJDTFdTQ3FJWVl4U1hhWXFMQmVMOUlTU2FTUXBRbWhpMDBHYXVEd1N5Q3E2Y3JLeDB6a0NkUm93TTFoenZOMjQ4cThQV3BoWFJKdTdIVExn?oc=5",
-          "published": "2026-10-16T01:37:00+00:00",
-          "publisher": "Hawaii Public Radio",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Voting explainer: 2026 Honolulu charter amendment ballot questions - Hawaii Public Radio"
+          "title": "Pakistan tightens grip on TV news, bars live terror attack coverage; press watchdog warns of censorship - The Statesman"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 7,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "hits": 1,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
@@ -264,48 +199,39 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://www.consumerfinancemonitor.com/2026/10/15/podcast-release-the-supreme-court-opinions-in-trump-v-slaughter-and-trump-v-cook-what-do-they-mean-for-the-future-of-the-administrative-state/",
-          "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNLUJxT01sUmRISUl2NEttTDlZalhSbXFOa0RueENrTmh3NFlHeXlzMy1ZOWt1U01MMm8tQ28yazY0UVotRmhVQk5pYW9vTzRVT05HaFRubFUyREpRYnl0VzJPU2xfeUE5R09PaUxKNW5kSU8yZFltNXdwS2hJa3RZQldtUW1VYnJaNXh0bHRyUU8wRks4Vml2ZE1qd0lvVXY3QU5JamFtUHBWMHNNYTgxUU80VGttYTdNLVNqdXRXbEJmRTk2YS02amY3T29CT09VUEM1YldoWk9oSnl5WUVfZzlvamJmMDdyYzZjUmh3MTVyUjNsbDRJUDZnNHhoWnpCLVNwUXZMOGh3SVRFQThGQ1VNTmtJTnRiREcwXw?oc=5",
-          "published": "2026-10-15T18:02:09+00:00",
-          "publisher": "Consumer Finance Monitor",
+          "canonical_link": "https://www.brennancenter.org/our-work/research-reports/arkansas-election-interference-law-handbook",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMVJGelh2bkdpVEpIdzRtQW9lNm8tbUd4WGlKSGFPZzVRN2hOSHNieXB5MElLTHUxb1d1dVBOeXMtZHFsYWFBam5CWWdTRlFxZFNrSHlMZzN3T3MyWGRZcWdzeTdvWDFuR0Y2d3lKTlI2S2lRZ05wR2hCcWR0R1NwZVJ0eWxVOTF6aE9uc09qN1JWSEVQaERCMnZsMWZSRlJl?oc=5",
+          "published": "2026-10-16T16:01:38+00:00",
+          "publisher": "Brennan Center for Justice",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Podcast Release: The Supreme Court Opinions in Trump v. Slaughter and Trump v. Cook: What Do They Mean for the Future of the Administrative State? - Consumer Finance Monitor"
+          "title": "The Arkansas Election Interference Law Handbook - Brennan Center for Justice"
         },
         {
-          "canonical_link": "https://thedailyeconomy.org/article/cook-case-tests-the-limits-of-fed-independence/",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSDNkQXYtVktHT2IwVkpGQXBwbHJzdVNmOEcxN3VpVTcyYm1ydlRZQjNiTmM4Q19jMl9aYTVPS0dYOXU2MTF1M2ZMdXRDQ0w0OFFrbW5MNnFyejJkS3pfMHNtcjNQZEVOVmI4bmJZWDFvMjY0UWlPZzJiQWtqcW1oX1NOS0RnbHBuOG1z?oc=5",
-          "published": "2026-10-16T10:05:00+00:00",
-          "publisher": "The Daily Economy",
+          "canonical_link": "https://gnnhd.tv/news/56697/will-november-stop-trump-s-agenda",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JbzJmN0JvXzRISkJZcHZGclZrdDRScEJINWVTcWlHMENRVkdRS0Z6akZLZ0tEc0kzTXJUZTNDODE0RDRPWk9ibzFyRXp1YnVSSEMzbVVpMHEwN2NKcW1PSG9aOUtVSVpPYTNzUEZR?oc=5",
+          "published": "2026-10-17T06:00:00+00:00",
+          "publisher": "GNN | Latest News",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Cook Case Tests the Limits of Fed Independence - The Daily Economy"
-        },
-        {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-10-15T22:57:28+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+          "title": "Will November stop Trump\u2019s agenda? - GNN | Latest News"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
-      "id": "independent_agency_capture",
-      "name": "Independent Agency Capture",
+      "hits": 2,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
+      "severity": 1.3,
+      "severity_label": "Watch",
       "unique_publishers": 0
     }
   ],
