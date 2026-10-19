@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-10-18 12:36:49 UTC
+- Generated: 2026-10-19 12:43:45 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **8 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-2.0**
-- Delta vs 7-day average: **-1.0**
+- Score: **7 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-1.0**
+- Delta vs 7-day average: **-1.2**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,7 +15,7 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.33 | 1.79 |
+| Elections and Transfer of Power | 22 | 0.24 | 1.31 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
 | Executive Constraints and Emergency Powers | 13 | 0.00 | 0.00 |
@@ -28,16 +28,16 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Public Funds for Political Promotion | civil_liberties_information | 2.30 (Yellow) | ai | 1 | 3 |
+| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | ai | 1 | 1 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 3 | 0 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.65 (Watch) | ai | 0 | 1 |
-| Election Administration Capture | elections_transfer | 1.30 (Watch) | ai | 0 | 2 |
+| Public Funds for Political Promotion | civil_liberties_information | 1.95 (Yellow) | keyword | 0 | 0 |
+| Election Administration Capture | elections_transfer | 0.95 (Watch) | ai | 0 | 2 |
 
 ## Evidence Samples
 
-### Public Funds for Political Promotion
-- Assessment: Trump lost a lawsuit over partisan ads paid for with public funds. This is direct evidence that public funds were allocated or spent on partisan advertising—the core signal—and that a court reviewed and rejected the administration's legal position. The loss confirms that a real attempt to fund campaign-style ads with taxpayer money occurred and was judicially invalidated.
-- [Baptist News Global] Trump loses lawsuit over partisan ads paid for with public funds - Baptist News Global (2026-10-16) - https://news.google.com/rss/articles/CBMingFBVV95cUxQRlp0cGdBRS1uZE8yZklOdGlQQ0tZdk5RdFVaVG1DQTJCdXJRMHhZaFMwb0hGaGwwQVVpNVdoS1JmYXJpQVlmbEFLU0oybV9BR3pvTlgwT1hMOWp5ZHJjRmg4dm54ck5hcEZ5N0lZcTU0Vm1DX0FBRnQ5NVBIS3dFa2U4cWlLS1EwMFJucmFTUmdhWjlNLVRrQ2NoR0VNdw?oc=5
+### Press Restrictions or Retaliation
+- Assessment: ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.
+- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-10-18) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
 
 ### Civil Service Purge / Schedule F
 - Assessment: Final rule issued by OPM expanding the scope and legitimate uses of administrative leave, including explicitly for 'workforce realignment initiatives.' This is an accomplished regulatory action (not a proposal) that creates new legal authority for executive discretion in removing or repositioning civil servants. Administrative leave can facilitate workforce removal without competitive process protections. Severity 2 because this is a real, confirmed action that materially expands tools available for politicized personnel actions, but it is a procedural/regulatory change rather than a demonstrated mass removal or targeted purge yet executed.
@@ -45,19 +45,18 @@
 - [federalregister.gov] **[official record]** Elimination of Time-in-Grade (2026-10-19) - https://www.federalregister.gov/documents/2026/10/19/2026-21319/elimination-of-time-in-grade
 - [federalregister.gov] **[official record]** Managing Senior Professional Performance (2026-10-19) - https://www.federalregister.gov/documents/2026/10/19/2026-21316/managing-senior-professional-performance
 
-### Press Restrictions or Retaliation
-- [The Statesman] Pakistan tightens grip on TV news, bars live terror attack coverage; press watchdog warns of censorship - The Statesman (2026-10-17) - https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS00zV1FVR01ZM0dXOFF6MGl5R0todnAxVDAzWC1wdF8xZnVBQk9ESXRHbGM2RXRvc05XWUpzcjJVQk50Yy14cl91ZUNoMUJqNHlBQXFFV1FwTi1FN1l0R19iVDItQjU2UTFQQjBFb2pybVpvMEFPcFMxUVNjTnZxRVBmaVNBd3FSbDI3TEdWdlhCVVNOdjBFVVBkX2VXN2VHNGNXdE1CeENOM1p6NUxnVTBEdVZNSzc4UjlZdGo5blJVTE1aN3dSVy1jQ3ZBam5kV0pJNEVpZU4wenVfM0tFa0hqbmdDTWk4OU1aUtIB7AFBVV95cUxPS00zV1FVR01ZM0dXOFF6MGl5R0todnAxVDAzWC1wdF8xZnVBQk9ESXRHbGM2RXRvc05XWUpzcjJVQk50Yy14cl91ZUNoMUJqNHlBQXFFV1FwTi1FN1l0R19iVDItQjU2UTFQQjBFb2pybVpvMEFPcFMxUVNjTnZxRVBmaVNBd3FSbDI3TEdWdlhCVVNOdjBFVVBkX2VXN2VHNGNXdE1CeENOM1p6NUxnVTBEdVZNSzc4UjlZdGo5blJVTE1aN3dSVy1jQ3ZBam5kV0pJNEVpZU4wenVfM0tFa0hqbmdDTWk4OU1aUg?oc=5
-
+### Public Funds for Political Promotion
+- No fresh evidence links in the current lookback window.
 ### Election Administration Capture
-- [Brennan Center for Justice] The Arkansas Election Interference Law Handbook - Brennan Center for Justice (2026-10-16) - https://news.google.com/rss/articles/CBMioAFBVV95cUxQMVJGelh2bkdpVEpIdzRtQW9lNm8tbUd4WGlKSGFPZzVRN2hOSHNieXB5MElLTHUxb1d1dVBOeXMtZHFsYWFBam5CWWdTRlFxZFNrSHlMZzN3T3MyWGRZcWdzeTdvWDFuR0Y2d3lKTlI2S2lRZ05wR2hCcWR0R1NwZVJ0eWxVOTF6aE9uc09qN1JWSEVQaERCMnZsMWZSRlJl?oc=5
-- [GNN | Latest News] Will November stop Trump’s agenda? - GNN | Latest News (2026-10-17) - https://news.google.com/rss/articles/CBMibkFVX3lxTE5JbzJmN0JvXzRISkJZcHZGclZrdDRScEJINWVTcWlHMENRVkdRS0Z6akZLZ0tEc0kzTXJUZTNDODE0RDRPWk9ibzFyRXp1YnVSSEMzbVVpMHEwN2NKcW1PSG9aOUtVSVpPYTNzUEZR?oc=5
+- [ABC News - Breaking News, Latest News and Videos] 'Going to be practical': Sen. Markwayne Mullin speaks out after being named Noem's replacement at DHS - ABC News - Breaking News, Latest News and Videos (2026-10-19) - https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGFPSVpoVFZTUlFjaDZRakItV05kaVlGVlluM1pMRGRvTkpaS2RFNlY2ZElwbFFOUEwtQVhSTzVVZlRmSmVBb1JFZDBaaVRqR05kNnZydDNBcFVOak5ENzZvRmdaOFdLTk9sUk9Kc3hSdnB4a3VEcGl6NDJ0M2RNTG9mMjFSUkd0MlNUYnl2QTNjeDI3aWt1UHM3WVBXaGhTOVY0VXBR0gGrAUFVX3lxTE1JN1FWZ1RwMHQ4aEpyckdLR2RxTnhucVUwZ21uVWZscnBKU3MxZFBQX3RaTXlBZE45YnBXLUo0OW4tSWRWdDRRVnFtTHhxbVdzMTJuLTNYQXdQUlB2M0hobldMT05hN2xscnlXLXVjT2VaX2I5WXlzWWdiY0lWNHIzZ0dDMnBDTFN5bUx1bXpQRkduNzdjcF9nS2ZqbTZZMm5YQmRaOTlPVjdNYw?oc=5
+- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-10-18) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
 
 ## Data Quality
 
 - Query feeds attempted: 25
 - Query feeds successful: 25
 - Query feeds failed: 0
-- Primary-source lookups: 22 signals, 15 official documents (Federal Register, CourtListener)
+- Primary-source lookups: 22 signals, 16 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 3
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
