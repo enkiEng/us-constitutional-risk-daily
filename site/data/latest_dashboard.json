@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 8.33,
+  "average_7d": 9.08,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": -1.23,
+  "delta_previous_day": 7.0,
+  "delta_vs_7d": 5.13,
   "domain_breakdown": [
     {
-      "avg_severity": 0.2375,
+      "avg_severity": 1.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.30625,
+      "points": 5.5,
       "weight": 22
     },
     {
@@ -27,10 +27,10 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 1.0,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.0,
+      "points": 3.5,
       "weight": 14
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 1.3166666666666667,
+      "avg_severity": 1.0833333333333333,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.2916666666666665,
+      "points": 2.708333333333333,
       "weight": 10
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-19T12:43:45.552697+00:00",
+  "generated_at": "2026-10-20T12:42:16.901673+00:00",
   "methodology_version": 2,
-  "previous_score": 8,
+  "previous_score": 7,
   "primary_sources": {
     "documents_confirmed": 3,
-    "documents_fetched": 16,
+    "documents_fetched": 17,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,39 +86,77 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 7,
-  "score_raw": 7.1,
-  "score_raw_pre_trip_wire": 7.1,
+  "score": 14,
+  "score_raw": 14.21,
+  "score_raw_pre_trip_wire": 14.21,
   "successful_queries": 25,
   "top_signals": [
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-10-18T22:17:24+00:00",
+          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
+          "published": "2026-10-19T08:02:48+00:00",
           "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "hits": 4,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
       "primary_source_url": "https://abcnews.go.com",
-      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
+      "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
       "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 2,
+      "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "canonical_link": "https://www.caribbeannationalweekly.com/posts/north-miami-mayor-alix-desulme-disqualified-from-reelection-bid-over-cashiers-checks",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYlBRalpTU0pMQ0JnV0pEeFJJNVNXbzJOZzJGQWVIeFlhQUZfWFhtT3VxSzhuMlNSSnZCTHYxX2tRMzl0djFSNlo3U2ZQQlV1ZVFEci1fOEowYUhKb3g3dkF3ZmNpWXlGdzBLQTNJQkRsR0s4UHBDSjE4bDZhRkplVnVlcXY0bVBnbkJZcEJKck92c1Bra2ZraWZkc2VDbk1ZTE9xbWhzNkhMVjlrY0RDeXBzM0dJc0NadHJ4S2xzOTI3LTkzdHlxTTNn?oc=5",
+          "published": "2026-10-20T06:41:24+00:00",
+          "publisher": "Caribbean National Weekly",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "North Miami Mayor Alix Desulme disqualified from reelection bid over cashier\u2019s checks - Caribbean National Weekly"
+        },
+        {
+          "canonical_link": "https://www.miamiherald.com/news/local/community/miami-dade/north-miami/article317690421.html",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNVZnSDZoMEpjenU1aWNwQ3pDaHZBcE4yVF9XQ2l3SzZwS2ZxRjRmQ1VNdEgtU29GbzRETml3TVZWSWlZRUhRMHNfaHg5bElSWHFsT05veXFfdFdSMXhUbzVVQ1dPYTRqS29rQ1JEby15eGFoYjNyMldST0hJWHFVLTNFZjQtQl9QUi1MUmRpZlZQeFZBV1lhQtIBmAFBVV95cUxOQ2FTam5BRFhoUzROOU9yWkZmbmdfSzNmenB0NUY3aVJPSGdCa2dnbnVUUTNHWXgyNlUwbEFucUpiYkU3Q3NDLUZaSlI3NHRIRHU0XzZSU1ZTT2JLSmdFajlhazZTNmk2NXdkRDdHaVN4Q1Mtc2lDSGtHbk5VX3QwUXlldDdEUjd6RHNxVXBYbDRiWGFybkx3Rg?oc=5",
+          "published": "2026-10-19T23:15:00+00:00",
+          "publisher": "Miami Herald",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "As early voting begins, North Miami mayor is disqualified from ballot. Here\u2019s why - Miami Herald"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://caribbeannationalweekly.com",
+      "rationale": "A sitting U.S. mayor was removed from a reelection ballot. This is a real ballot-exclusion event in a U.S. jurisdiction. However, severity is 2 rather than higher because the exclusion appears to be grounded in a specific, facially neutral compliance issue (cashier's checks regulation) rather than systematic political targeting. No evidence presented of a pattern or defiance of legal process. The action occurred through apparent application of existing rules, not through extrajudicial or unconstitutional removal mechanisms. This is a contained, credible stress signal but not a structural constitutional failure.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 2
     },
     {
       "confirmed_hits": 3,
@@ -174,6 +212,53 @@
       "evidence": [],
       "evidence_mode": "keyword",
       "hits": 0,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "canonical_link": "https://www.notus.org/campaigns/trump-midterms-ad-dnc",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40MU9lMm9RNjZwdFh3RnJLSlUzX1hhVVl3VnozbDVYNGtFTklTeXZiUERNcHVST2VUQ0p3WDM3M0Rqd1VtWUxZZm42blFZMzczdnBqenNRRTNzTjhpMUdkYzRmVQ?oc=5",
+          "published": "2026-10-19T18:24:05+00:00",
+          "publisher": "notus.org",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "DNC Asks Judge to Stop New MAGA Inc. Midterm Ad From Airing - notus.org"
+        },
+        {
+          "canonical_link": "https://zeteo.com/p/why-is-israel-running-tv-ads-in-iowa",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NVnJ6ajViU2h6UjNUTHZxcG9JTEs4cFpSM2pCVXJWWUZGd3RnWWxwQzd4N1FrVkMyZjdXRW1ockd4ZzdWeTJYd0FTdDY3SlRBd2taTTBFMzBEOTBOcmV3aFB5aGZHY1E?oc=5",
+          "published": "2026-10-20T11:05:35+00:00",
+          "publisher": "Zeteo | Substack",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Why Is Israel Running TV Ads in Iowa Ahead of the Midterms? - Zeteo | Substack"
+        },
+        {
+          "canonical_link": "https://washingtonstand.com/article/socialist-mexico-contributes-to-castroist-propaganda-for-children",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRk9aVEo1VVhBdkF6QnVhcUF3TGVYY3pWWnB1Qjh3akNEM0lkUTh4SmtwVFBuenRPM3ZEN2RQYVB2M1c4VHZwc1Z6VlA4UGJ3RVR5bXM2c1pSbE1UWi14WnhNc2J0M2VMM1RGRkhYWlR0UGZGS2syTjBDdVk2QWVFMll2b1d3S19HSTUtQmNNcUIzNi1TMHZERFg3NTZsU0ZGTUV3?oc=5",
+          "published": "2026-10-19T19:34:38+00:00",
+          "publisher": "The Washington Stand",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Socialist Mexico Contributes to Castroist Propaganda for Children - The Washington Stand"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 3,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
@@ -182,45 +267,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.95,
-      "severity_label": "Yellow",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/Politics/practical-sen-markwayne-mullin-speaks-after-named-noems/story?id=130799720",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGFPSVpoVFZTUlFjaDZRakItV05kaVlGVlluM1pMRGRvTkpaS2RFNlY2ZElwbFFOUEwtQVhSTzVVZlRmSmVBb1JFZDBaaVRqR05kNnZydDNBcFVOak5ENzZvRmdaOFdLTk9sUk9Kc3hSdnB4a3VEcGl6NDJ0M2RNTG9mMjFSUkd0MlNUYnl2QTNjeDI3aWt1UHM3WVBXaGhTOVY0VXBR0gGrAUFVX3lxTE1JN1FWZ1RwMHQ4aEpyckdLR2RxTnhucVUwZ21uVWZscnBKU3MxZFBQX3RaTXlBZE45YnBXLUo0OW4tSWRWdDRRVnFtTHhxbVdzMTJuLTNYQXdQUlB2M0hobldMT05hN2xscnlXLXVjT2VaX2I5WXlzWWdiY0lWNHIzZ0dDMnBDTFN5bUx1bXpQRkduNzdjcF9nS2ZqbTZZMm5YQmRaOTlPVjdNYw?oc=5",
-          "published": "2026-10-19T06:42:45+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "'Going to be practical': Sen. Markwayne Mullin speaks out after being named Noem's replacement at DHS - ABC News - Breaking News, Latest News and Videos"
-        },
-        {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-10-18T22:17:24+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.95,
+      "severity": 1.6,
       "severity_label": "Watch",
       "unique_publishers": 0
     }
