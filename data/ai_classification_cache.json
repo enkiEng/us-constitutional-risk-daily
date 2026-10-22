@@ -814,6 +814,26 @@
       "rationale": "This is a routine motion by the United States to enforce an IRS summons in a civil tax matter. A motion to enforce a summons is a standard legal procedure seeking court assistance to compel compliance with a lawfully issued administrative process. This is not evidence of executive or administrative refusal to comply with a court order. Rather, it is the executive seeking judicial aid to enforce its own administrative authority. There is no court order being disobeyed here; the document shows normal civil litigation machinery. No constitutional stress event has occurred.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74980747/8/rosas-de-blas-v-moniz/": {
+      "actor": "Judge Brian E. Murphy (District Court, D. Massachusetts)",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74980747/8/rosas-de-blas-v-moniz/",
+      "rationale": "This is a routine judicial order denying a habeas corpus petition challenging Board of Immigration Appeals delay. The order instructs the petitioner to pursue relief via Administrative Procedure Act channels instead. This is ordinary judicial gatekeeping, not evidence of executive or administrative noncompliance with a court order. No directive to an executive actor that is being refused. No signal of court-order noncompliance.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74982732/10/julian-david-cardona-ortiz-v-markwayne-mullin/": {
+      "actor": "Magistrate Judge John D. Early (District Court, C.D. California)",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74982732/10/julian-david-cardona-ortiz-v-markwayne-mullin/",
+      "rationale": "This is a routine judicial order denying a petition and dismissing a request for appointed counsel. It is a standard adverse judgment in a civil/administrative proceeding (possibly a suit against Congressman Markwayne Mullin). There is no indication of any executive or administrative refusal to comply with a court order. The order itself is a denial of relief, not a directive to an executive actor that could be disobeyed. No signal of court-order noncompliance.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/74989140/1/harris-v-united-states-department-of-justice/": {
       "actor": "Unknown plaintiff/defendants",
       "confidence": 0.98,
@@ -823,6 +843,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74989140/1/harris-v-united-states-department-of-justice/",
       "rationale": "This is a filed complaint in a civil wrongful death case. A complaint is an allegation initiating litigation, not evidence of court order noncompliance. The document itself does not show any executive or administrative entity refusing to comply with a court order. It is a request for judicial relief, not a demonstration that a court order was issued and then defied. No court order has been shown to exist in this record, and no noncompliance with any order is evidenced. This is a routine filing, not a constitutional stress event.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74991091/7/rodriguez-perez-v-warden-of-metropolitan-detention-center-brooklyn/": {
+      "actor": "District Court, S.D. New York (Judge issuing order to preserve jurisdiction)",
+      "confidence": 0.25,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.courtlistener.com/docket/74991091/7/rodriguez-perez-v-warden-of-metropolitan-detention-center-brooklyn/",
+      "rationale": "A federal court has issued a specific restraining order prohibiting the Warden from removing or transferring the petitioner without court authorization. This is a lawful court order directing executive action (detention). The signal definition concerns executive or administrative REFUSAL to comply with court orders. This document shows the order itself, not a refusal to comply. No evidence here demonstrates noncompliance; rather, it documents a judicially-issued directive. This is ordinary habeas/civil rights litigation and preservation of jurisdiction, not evidence of court-order noncompliance by the executive. Treating as weak signal because the item records only the issuance of the order, not any refusal to obey it.",
+      "severity": 2
     }
   },
   "election_administration_capture": {
@@ -1356,6 +1386,16 @@
       "rationale": "This item concerns alleged voter deletion in Telangana, India, and is therefore not a U.S. domestic event. The signal specified is election administration capture in the United States. This is a foreign election matter and does not constitute evidence of constitutional stress in the U.S. system. Additionally, the item reports an allegation rather than a confirmed action.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLXY1d01jSGo2Qkp6NU52Q2U0Y3hYSUVDVjVfSV9PYjdDU1Jrb2JyMHZtQ3BLSnBPV1Y1RUxNZHljb3dXYlpjQ1FLaGlNYlVYTW4wRVR0cjV3NTNtU3dISmlQbl9vNndfTlZhTUp0bGVwTjVqNG5mME9wbmM1aDVEbWtsOW41M0ZvT2pLXw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This headline describes a lawsuit filed to block conduct alleged to 'usurp' state authority. A lawsuit seeking to prevent something does not confirm that the thing has already happened or that election administration has moved to partisan control. This is a claim and a legal challenge, not evidence that capture has verifiably occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ0xIc1ZxUXhqOEFkU0k4SXVZVTNLT3VpaUNmZW1WUkZIRktHLWxUaU9MR0Q5VXBPQzlBUWxsczhBS05VYTY3aHJMUjRxMzV3WnlLSGdGZWViWjN6Z2NZSUtQLWZmNkNGeVlNOER6RGJyeEtIeGhVSGljQTluck9fNVExTFZOWnBXSVBkNklB?oc=5": {
       "actor": "unknown",
       "confidence": 0.92,
@@ -1424,6 +1464,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns a wedding-related comment by Trump Jr. and a response by Todd Blanche, who is a private attorney. The content does not describe any action that moves election administration from neutral process to partisan control, nor does it describe any capture of election administration machinery or authority. The item appears to be gossip or social coverage unrelated to election administration. No verifiable constitutional-stress event related to the signal has occurred.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWTBFZ201VGJvcjNlUHlZZmJ0WmlaNlFnejlUOUpocXVqYjg3eGF4LTVRY3lOOGpYLTBreFRlMXFFNUczMFJZdUhEOEpIb3RGUDV2SlN2Qjh1SUVWMFdhWmNnRVVnUXpnSVhvN2NOQ2NFX2FyZk5LZzN3VnhxdkVYQUlyRXllbzBTS1FXcURRM2FjZFXSAZgBQVVfeXFMTS13Vngxb1dwbXgwSVIyRlhCNERHcU5kem4wOEpEVHNLbnN1dHpiYVpTSGhoWk9lbjJzUHJoN1dBdVEwZVlILXFiaU1HbzQxXzU3V3l0LUwxQWdTQjVqRVhNMm9Ra1c5XzZETXZ1Q0RGVXFNY2p1Z3Z5RFdnQzRxUGQwcjVFdmRrV0dNaDdHdVhpMjlfa195dnA?oc=5": {
+      "actor": "Democrats",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a lawsuit allegation, not verified evidence that election administration capture has occurred. Lawsuits describe threatened or claimed conduct; the filing itself does not confirm that partisans have actually moved election administration to partisan control. Without details of what specific administrative actions have been taken and confirmed, this is a legal claim, not evidence of accomplished structural capture.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNUp5aUkxSm1HS3VPSUNBU3pPTDZMV1hDNFJiY3d5blR5Ny0zYldrM3kxX1VDR2J4M0FvRUdCdnZDMUJCVENEcHN5RkdBM0doQ3JXMl85YTgwdHB3TW1ndjhSYXZDeGhFVFBPWm9GVWxjYkZiTThxajFOaS10SWlCTTlVMkprcmVHLTUyZTdnVzJ0elJRUXNLSg?oc=5": {
@@ -1585,6 +1635,16 @@
       "primary_source_url": "https://abcnews.go.com",
       "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaGY0dmFiOWhQQjBteWROU3hNb1lVMkZVd282MGJ6akQ2RWdUejdPUEJxZG42UDhLR0ZXV0dKRkp4d3RvbGlTeE5NN3BpNTQ1c3pCTGFZN3hnSFdWM19wLTFDdUJVZHBGYUU2eDV5T1dBNUR1Z0VpZk9VNDZSSGpXaWJ4WWhMWFNLbHhIWF9mSVlYRHh1WjRVSE9tZ09tZDlFNklwQTBfeGJTbUdv0gG0AUFVX3lxTE5lcHlwNzNoWFI3enRXTVRGMHdzODJxM2F2eGJrajZUU19kOEM5dEt5VGZMZFNGVGpIc2FIeVB4dmt2ZEl2clotT3dwdFQ5OFVLYTRCRUU4UHFaY184OUwtMkI4RmRPTGxMQU9YTDBtMEE2b2U3OWJaYmJpN2JmTVplYkFtaGhLRjZPQ2JYcDE1Y0pxaW5mODJkZkVMSGplX0F4SHpUOU9ZTUNNSnVVNHo5VjAtOA?oc=5": {
+      "actor": "",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a local election coverage item about midterm races in Rockwall County. It contains no information about election administration being moved to partisan control, threats to neutral process, or any form of capture. It is routine election coverage unrelated to the signal.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRktmTGtpb0pUOGpGT1g4OVBsVlBpcXU3Smh1M09oQVY4TU50Z2I2RTdpal9MVFA3NUhkanl5YWZscUFXMU93WFlTWjRBcEp2dmF6VjdsWkk1SEFxci1DYlZaTUhmeWhSd19lVHoxRU95cXNGMVRJNnREazBGWVc2YUNULW9FNzAxSERyYnBkdTQyOGplczFlYnc5SUJYRWxQanJCQWRieFd2M09M?oc=5": {
       "actor": "California State Legislature/Voters",
@@ -1786,6 +1846,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a research article title from the Public Policy Institute of California examining mail ballot rejection rates. It is analytical/explanatory content about election administration procedures, not evidence of an attempt to block, delay, or override lawful election certification. Mail ballot rejection due to lateness is a routine administrative matter, not an act of certification interference. The item is a policy analysis headline with no indication of any intentional interference with certification processes.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY2VHZ1RxanNFSDRjQWtsQUtjM24wR1dNaEJrM2tNazZpR1pjbXlVc3A1RHQxcUViVkRHUEkzQVQtMWdWOWkyY0o4NkVBU3hNdWdKZ09BUkpyQ0dveldHVEhPTW9IbGtOUGhLZFpLalRTUE5RQTcxUHRRSldiUlM5blRHZ0N1SXhMekRuQQ?oc=5": {
+      "actor": "Voting Rights Lab",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is an educational or informational piece about post-election processes and vote verification. The title suggests it is explainer content about standard election procedures (what happens after polls close, verification processes). There is no indication of any attempt to block, delay, or override lawful election certification. This is descriptive content about normal electoral procedures, not evidence of certification interference.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb2kyVVRhdGtJUmJfLW5OYldTUlhIQ0ZXSXhhMEhIb3kwYzJFYWlLZkZDbTNyd2RCRmpSWnZSVkRVUmxwYXlRMWltOEUwTV9hbFo4aC1xZUQwckZaSVNkZHlDWW9FY3ZtX1RoT1h2X3RucjNpdnRqVmpMV014QUk4QXo5TlVLNExIMGdJX1N6RmN0LW0xM0RybVN0YzhzTDFSU2c?oc=5": {
@@ -2030,6 +2100,16 @@
       "matches_signal": false,
       "primary_source_url": "https://fff.org",
       "rationale": "The item is an opinion/analysis piece from the Future of Freedom Foundation with a generic title about national security framing. No specific emergency power, executive action, or legislative bypass is described. This appears to be commentary or editorial analysis about a general concern, not evidence of an actual emergency-powers expansion event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX2JPbXhZMFV5VE15VUNhenUzZUcwYUMzNENpdXM5YUlMczhGdEpTZVRsZzQ2c0dXai1obUNWa0tqa0RhOUFtU0xIX1hUOXhhTlZFRWMwczFwUXJkOXdHa0VQeUJJZ244emVWWW5GZHpUVnFTR0ZQLXd3V2VrRUNpaUtOMHNTN1NaQnNrRWxFQ0VrbDRhZXRSVkw5Zkk3UlJF?oc=5": {
+      "actor": "Brennan Center for Justice",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an opinion/analysis piece\u2014advocacy and policy recommendations from a think tank about hypothetical future reforms to executive power. It does not describe an actual occurrence of emergency powers being used to bypass legislative process, nor does it report that such an action has taken place. It is a proposal for solutions, not evidence that a constitutional-stress event has occurred. No actual emergency power expansion, executive action, or legislative bypass has been documented in this item.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeC1aVGdSdklWcGV1S0paaHZpTV9aV19lQVJCLWxQeEdydGJLQnVRUkVZV3l6NS14emFQLXBUMFB2X190YWE4U1lydlU3c01SeHhIMjkwX0g5cnA0ZVlMQmNnUkdqVmdQVlg2UDM4ZEIwZnFiRzhBeXB1bEd2dW4wT05KZ2xodTl5VGJuVnVYU256eUlPQ3RGejZYUFQ5SGxFcmc?oc=5": {
@@ -3875,6 +3955,26 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74987837/1/3/plumbers-local-union-no-690-industry-funds-v-purdue-pharma-lp/",
       "rationale": "This is a routine notice of removal in a civil litigation matter involving pharmaceutical companies. It has no connection to inspector general functions, watchdog agencies, or anti-corruption monitoring. It is ordinary civil procedure and does not evidence retaliation against oversight mechanisms.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74992272/1/edwards-v-united-states-department-of-war/": {
+      "actor": "Unknown",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74992272/1/edwards-v-united-states-department-of-war/",
+      "rationale": "This is a civil complaint filed by private parties against a government entity. The filing itself is a routine legal action initiating litigation, not evidence of retaliatory action against watchdog functions or anti-corruption monitoring. A complaint is a proposal/request for judicial relief, not an accomplished action. The document does not show that any agency action against an IG or watchdog body has occurred. No details suggest retaliation against inspector general functions.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74995900/1/7/united-states-v-gonzalez/": {
+      "actor": "Unknown",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74995900/1/7/united-states-v-gonzalez/",
+      "rationale": "This is a sealed criminal complaint in a standard prosecution docket entry. The summary contains no information connecting it to inspector general retaliation, watchdog suppression, or anti-corruption monitoring actions. This appears to be a routine criminal matter unrelated to the signal being evaluated. Without any substantive detail indicating the complaint involves IG retaliation, this cannot be scored as evidence of that signal.",
+      "severity": 0
     }
   },
   "judge_intimidation_campaign": {
@@ -4668,6 +4768,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74967108/31/1/america-v-california-state-of/",
       "rationale": "This is a routine procedural motion\u2014an application to exceed page limitations on an opposition brief in an ongoing case. A motion for page extension is a standard administrative request within litigation, not evidence of judicial review foreclosure. The motion itself does not establish that standing, justiciability, or emergency thresholds have been invoked to bar review; it is merely a step in an active case. No threshold ruling barring review has occurred, and no judicial door has been closed on substantive review.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/74967108/65/1/united-states-v-state-of-california/": {
+      "actor": "District Court, C.D. California",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74967108/65/1/united-states-v-state-of-california/",
+      "rationale": "This item is a routine procedural filing\u2014a motion to dismiss filed by defendants in a federal case. A motion to dismiss is a standard legal request; it does not constitute a court decision that forecloses judicial review, nor does it strip any party of standing or justiciability. The motion itself is not a ruling. Until the court rules on it, no threshold barrier to review has been erected. A filed motion is a proposal, not an accomplished action. The item contains no evidence that a court has closed the door on review via standing, justiciability, or emergency-docket procedures.",
       "severity": 0
     },
     "https://www.courtlistener.com/docket/74978976/1/1/young-v-trump/": {
@@ -5523,6 +5633,16 @@
       "primary_source_url": "https://lawcommentary.com",
       "rationale": "An appeals court has blocked executive rules on mail ballots, confirming that an executive order on this subject was issued. This represents a real attempt to shift election administration (normally a statutory/state matter) to unilateral executive action. The court block indicates the action occurred and was challenged, confirming the bypass attempt. Severity 2 because the action was issued but was judicially blocked, preventing implementation\u2014a contained stress signal rather than successful structural override.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSlhGZ1NoMlFzankyb3I3bFJVUUZ6WU1PNi1CNGQ4MnA1SV83VmlfTVZNZ3dqc0U5MXZtV1VITklOVUZnaUVyRDhqcFcwak9OLWN0RTZETjQzR1FtazhCSkRCek1NNkRsTDIyRldzeGJTQmFyNXUtMjAtY05qLUVseVBGNE5udV9jZDNzeWtEMXRiVDRReTZMQ05wNHhscVZLVkJTTC13?oc=5": {
+      "actor": "Citizens/voting-rights advocates",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a public rally and get-out-the-vote march. While it is a U.S. domestic event, it is political speech and civic participation, not a governance action or executive bypass of legislative authority. The rally promotes voting participation ('Vote Early'), which is the opposite of a constitutional-stress signal. There is no evidence of a shift of major governance actions from statute to unilateral executive action. This is routine protected expression and does not match the legislative-bypass signal.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWs0M1ZPbWlUUS00eEI5bGpxdDI5MTl6bDNvODZJdHpTdEdvazZpSVhnbHNOTGFqTjZQTk84Y0tqTGtDUi1ueW1LWGFMTEJCZlMyWHdYdXVmNUV0STdJcVNtbXRYbVNDZVhBNzdfQTgtdnVXUktLQUpVcEtUMmZsUHJpWXNzZExfcEV3VE9Fcy1kUTNPSXNjQnFTdHNIUUpnOVJNZXRHNA?oc=5": {
       "actor": "Trump",
@@ -7160,6 +7280,16 @@
       "rationale": "This is a routine civil complaint filed by two Iowa municipalities against a private company (Rev Group LLC) in federal district court. It involves a commercial/contractual dispute with standard procedural notices. There is no indication of military involvement, political conflict, or any constitutional-stress event. The document is an ordinary civil filing with no connection to the signal (domestic military use in political conflict).",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/75001987/1/cloutier-v-united-states/": {
+      "actor": "unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/75001987/1/cloutier-v-united-states/",
+      "rationale": "This is a civil lawsuit docket entry showing a complaint filing in District Court. The filing itself is a legal action by citizens against the United States, not evidence of military use or threatened use in a domestic political conflict. A complaint is a request for relief through courts, not evidence that the alleged harm (whatever it may be) has materialized as a constitutional stress event. Without access to the complaint's substantive allegations, and given that this is merely a procedural filing, there is no confirmation that any military involvement in political conflict has occurred. The names listed appear to include individuals associated with January 6, 2021 events based on public records, but a complaint filing\u2014a legal document seeking damages\u2014does not itself demonstrate that military was deployed or threatened in domestic political dispute.",
+      "severity": 0
+    },
     "https://www.federalregister.gov/documents/2026/08/06/2026-16125/establishing-the-presidents-military-spouse-commission": {
       "actor": "Executive Office of the President",
       "confidence": 0.98,
@@ -8595,6 +8725,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74847398/1/bingert-v-united-states/",
       "rationale": "This is a civil complaint filed against the United States in DC District Court (1:26-cv-03340). The summary is incomplete and provides no substantive detail about the claims, defendants, or factual allegations. A civil complaint filing itself is not evidence of selective prosecution of political opposition. To match the signal, evidence would need to show that prosecutors or enforcers deliberately targeted opposition actors based on their political status. A docket entry announcing a filed complaint does not reveal the nature of the claims or whether any prosecutorial misconduct occurred. Without knowing what the complaint alleges, whether it concerns criminal prosecution, or whether it involves opposition targeting, this cannot be scored as evidence of politicized prosecution. The truncated plaintiff names and missing case summary prevent meaningful analysis.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/75001987/1/cloutier-v-united-states/": {
+      "actor": "Joshua D. Knowles et al. (plaintiffs)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/75001987/1/cloutier-v-united-states/",
+      "rationale": "This is a civil complaint filed by private individuals against the United States. The docket entry documents the filing of a lawsuit, not evidence of politicized prosecution of opposition. A complaint is a plaintiff's allegation; it is not evidence that the alleged conduct occurred. The filing itself does not demonstrate that opposition actors were selectively prosecuted for political reasons. Further, the appearance of names associated with January 6th events does not, by itself, prove that prosecution of them was politicized rather than based on legitimate criminal conduct. The document is a procedural filing, not proof of constitutional-stress event.",
+      "severity": 0
     }
   },
   "press_restrictions": {
@@ -8716,6 +8856,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "Item is a generic watchlist title with no substantive content provided. Cannot determine if any specific event occurred. Additionally, Civicus Monitor is a global organization tracking civic space worldwide; a July 2026 watchlist would likely cover international events, not U.S. domestic press restrictions.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBeGJkaEhuSFlQVmNhZ2tDUFZBQXo4VjZ1SmRINHVDTkZDdHlYVVluazZIbl96Mk1pT1luaE8zRGZpd3prdUtETDNpLWRQLUk2N2l0RU9uZTVDV0dpTklCQ1F4ODVGdw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a Freedom House country report on Sudan, not the United States. The signal specifies constitutional-risk events in the U.S. domestic context. Sudan press restrictions are irrelevant to the U.S. constitutional-stress dashboard regardless of their severity in Sudan's context.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPdC1ISmttRE1feE9pNTFtZlZRNXBmcm1UVVdRcExkRTNVNGROVDIyR0lOc0F6VHZSY1NwSTE3cVBRd1FYUjQ0OGxVUnRpcDVMYlVlRmRoZWs1MzhKQWFXTTYwUC1fQTg2NFRPdXRkVEJSX2ZBdnBCVG1iNVRCY2p2d3VIb1dkYkMxM0RSZERaaHZRc1RJM3oxNFpNQjZkM21LcW1NYjR4dmxQNUNCYmV1YmV4R2dmak5vUnRnUll6b3VFaEQ5MGdibW14VDd5c2VUbTV0aEh6bUFEcnJJaUxuRUFLT0J5akhIS2txZHJiX09KcE9VSHVDakpGa2szMGM?oc=5": {
@@ -9338,6 +9488,16 @@
       "rationale": "This item is a global media brief from Pakistan, not a U.S. domestic event. The signal concerns press restrictions or retaliation by state action in the United States. A publication about journalism in Pakistan is geographically outside the U.S. jurisdiction and contains no evidence of U.S. constitutional stress related to press freedom.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd1ZlV1phcUtXNEJ1TUR2ekh6NkFJbS1Nem5PUm9zcFdZODM3U1RzMXllQnhLdUlkSERNMWdLNFZyZUlvZEs2djFPVlI1eUsycEdoYXdUZHZjUWhPVlZ5YzdJbVh3TUxNYmlnckNla1UwRUo5UVZQS2NHTHVWR3pYRDhSdUF2MkxlNVg1cGVidG00RHI1MGl5bFh3M1QwRDhqd1g4b3FUQmY?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a headline/summary only with no substantive content provided. It appears to be analysis or opinion about proposed regulations (age checks, AI regulation) rather than evidence of state action that has actually occurred. Proposed regulations and analysis about potential future pressure on internet freedom do not constitute realized state action restricting press or raising costs for independent reporting. Without the full text or specific incidents, this cannot be scored as evidence of the signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRFV2MHlNOVN3d0QxNXVDYTZkUTVzOFdnSkFfRFVuOWtmajRfR0VQTjJOWTVUc3pWU0hZTFMzMnotMURnR3dUNHZHUEpGZVZOTFJteGVIYzBFVjNkQnlIX0FteE9QWVJGN1ZISGQ5clotd1Z0RFViZGhuYWpQRXBVN0RVRng3bVV3NG1jSFptZWZLZk0wYzBTMlhrSmctUDhZMjQ5OEdxVlg?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -9838,6 +9998,16 @@
       "matches_signal": false,
       "primary_source_url": "notus.org",
       "rationale": "This item reports a DNC legal request to stop a MAGA Inc. ad. A lawsuit seeking judicial intervention to halt speech is not evidence of public-funds-for-political-promotion. The signal concerns misuse of appropriated government money; a private party's (DNC's) court action against another private entity's (MAGA Inc.'s) political advertising does not involve government spending or a constitutional breach of the public-funds prohibition. No government agency or appropriation is implicated.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wU0E1dUptcnJTT0RYejdSSDlSMThWVzRMWF9TTXo1X05wVWtDQk10ZEVGRGl5QS1FU21wMTlDM3FrQlBGRDIwYVNXQ09zMlRnYVhNWnpnRmMxQ0RiSjJPU1lxSQ?oc=5": {
+      "actor": "DNC/MAGA Inc.",
+      "confidence": 0.85,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://notus.org",
+      "rationale": "This is a press report of a claim by the DNC about partisan ad creation, not an official government record or verified evidence that public funds were actually spent on campaign advertising. The headline presents an allegation ('says...is airing') rather than an established fact. Without access to the full article, budget documentation, or official confirmation that appropriated federal funds were actually diverted to partisan advertising, this remains unverified allegation. The signal requires evidence of actual spending of appropriated public money, not campaign-trail accusations. This appears to be ordinary political dispute coverage.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWVG1nTkpOeUl3RE1nRzZnUWJySEstbGNnaW1zV2x1d1dlOGpPZ3BnS0NLMDJVX3dUVElUQTNtdGdYNXZhMVlZSnJuOUpWSER1eGtzSkhFempuZjUwdEpLNNIBc0FVX3lxTFBieXpLU1V1UUdjc2JyVVVOWmxhVWV1MDBIaVNmdHZhcmtEdE41UkNDZlZzWXN2THFIMHVYTEVvZlNXWDdaVHFOTDZuS0JUdkRnclp6aHk4eklPQ1VpUnRwQzlSMng2MkpiVG1CSjg0ZC1oZlU?oc=5": {
@@ -12396,6 +12566,26 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/10/20/2026-21474/civil-penalties-inflation-adjustments-annual-adjustments",
       "rationale": "This Federal Register notice concerns routine annual adjustment of civil monetary penalties for inflation under statutory mandate. It involves the Bureau of Indian Affairs, not the federal statistical agencies (BLS, BEA, Census Bureau) that are the subject of the Statistical Agency Integrity signal. The document has no connection to removal or replacement of statistical leadership, methodology changes to official economic data, or withheld/delayed data releases. This is an ordinary administrative action unrelated to the signal.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/22/2026-21562/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rules": {
+      "actor": "Securities and Exchange Commission",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/22/2026-21562/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rules",
+      "rationale": "This is a routine SEC notice regarding information collection activities and OMB review for municipal advisor registration forms. It is a standard administrative procedure unrelated to the signal of political interference with federal statistical agencies (BLS, BEA, Census Bureau) that produce official economic data. No evidence of interference with statistical agency leadership, methodology, or data release integrity.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/22/2026-21590/airworthiness-directives-general-electric-company-engines": {
+      "actor": "Federal Aviation Administration",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/22/2026-21590/airworthiness-directives-general-electric-company-engines",
+      "rationale": "This is a routine airworthiness directive from the FAA concerning aircraft engine safety standards. It is a normal regulatory function unrelated to political interference with statistical agencies (BLS, BEA, Census Bureau) or their data integrity. The signal concerns manipulation of economic and demographic statistical agencies, not aviation safety rules.",
       "severity": 0
     }
   }

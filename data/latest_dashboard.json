@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 9.91,
+  "average_7d": 10.57,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": 3.0,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": 0.26,
   "domain_breakdown": [
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.325,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.5749999999999993,
+      "points": 1.7875,
       "weight": 22
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.2166666666666666,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.333333333333333,
+      "points": 3.0416666666666665,
       "weight": 10
     },
     {
@@ -71,14 +71,16 @@
   ],
   "extraction_mode": "ai",
   "failed_queries": 0,
-  "fetch_errors": [],
+  "fetch_errors": [
+    "independent_agency_capture: courtlistener: The read operation timed out"
+  ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-21T12:42:17.034186+00:00",
+  "generated_at": "2026-10-22T12:42:53.642184+00:00",
   "methodology_version": 2,
-  "previous_score": 14,
+  "previous_score": 13,
   "primary_sources": {
     "documents_confirmed": 3,
-    "documents_fetched": 22,
+    "documents_fetched": 27,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,37 +88,28 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 13,
-  "score_raw": 12.91,
-  "score_raw_pre_trip_wire": 12.91,
+  "score": 11,
+  "score_raw": 10.83,
+  "score_raw_pre_trip_wire": 10.83,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 2,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
           "canonical_link": "https://www.miamiherald.com/news/local/community/miami-dade/north-miami/article317690421.html",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNVZnSDZoMEpjenU1aWNwQ3pDaHZBcE4yVF9XQ2l3SzZwS2ZxRjRmQ1VNdEgtU29GbzRETml3TVZWSWlZRUhRMHNfaHg5bElSWHFsT05veXFfdFdSMXhUbzVVQ1dPYTRqS29rQ1JEby15eGFoYjNyMldST0hJWHFVLTNFZjQtQl9QUi1MUmRpZlZQeFZBV1lhQtIBmAFBVV95cUxOQ2FTam5BRFhoUzROOU9yWkZmbmdfSzNmenB0NUY3aVJPSGdCa2dnbnVUUTNHWXgyNlUwbEFucUpiYkU3Q3NDLUZaSlI3NHRIRHU0XzZSU1ZTT2JLSmdFajlhazZTNmk2NXdkRDdHaVN4Q1Mtc2lDSGtHbk5VX3QwUXlldDdEUjd6RHNxVXBYbDRiWGFybkx3Rg?oc=5",
-          "published": "2026-10-19T23:15:00+00:00",
+          "published": "2026-10-20T21:06:00+00:00",
           "publisher": "Miami Herald",
           "source_name": "google_news",
           "source_tier": "news",
           "title": "As early voting begins, North Miami mayor is disqualified from ballot. Here\u2019s why - Miami Herald"
-        },
-        {
-          "canonical_link": "https://www.caribbeannationalweekly.com/posts/north-miami-mayor-alix-desulme-disqualified-from-reelection-bid-over-cashiers-checks",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYlBRalpTU0pMQ0JnV0pEeFJJNVNXbzJOZzJGQWVIeFlhQUZfWFhtT3VxSzhuMlNSSnZCTHYxX2tRMzl0djFSNlo3U2ZQQlV1ZVFEci1fOEowYUhKb3g3dkF3ZmNpWXlGdzBLQTNJQkRsR0s4UHBDSjE4bDZhRkplVnVlcXY0bVBnbkJZcEJKck92c1Bra2ZraWZkc2VDbk1ZTE9xbWhzNkhMVjlrY0RDeXBzM0dJc0NadHJ4S2xzOTI3LTkzdHlxTTNn?oc=5",
-          "published": "2026-10-20T06:41:24+00:00",
-          "publisher": "Caribbean National Weekly",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "North Miami Mayor Alix Desulme disqualified from reelection bid over cashier\u2019s checks - Caribbean National Weekly"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 5,
+      "hits": 4,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
@@ -127,7 +120,7 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 2,
@@ -150,11 +143,11 @@
           "publisher": "The Independent",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump used taxpayer funds to make campaign-style ads \u2014 and now his super PAC is running them - The Independent"
+          "title": "Trump\u2019s super PAC is now running campaign-style ads created with taxpayer dollars - The Independent"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 4,
+      "hits": 3,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
@@ -166,64 +159,6 @@
       "severity": 2.0,
       "severity_label": "Yellow",
       "unique_publishers": 2
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-10-19T20:29:37+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "canonical_link": "https://www.govexec.com/oversight/2026/10/trumps-ig-pick-va-watering-down-oversight-some-employees-allege/416683/?oref=ge-home-top-story",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY1JHWDlFcEZ6SF84WXdYRkxaa3h3X3Biek1WbXZpZkNsNzk2eGk2S0pWUFZ1cHkxRUI3cXctNjZqSmZrdktMSml3X254VWhhS0ZZT1RFTTExZ1M4YUVrY3Rnb1I2QWw0UU9ROUFuOVQ1ZWt1SWRFRHBRa3pnbWFRVnRNNlpIZW5zUkpzWHdRZ0xPdDdlY2dDMUV6eFJhVkZQam9tSmRkZ2dFb0steks4SzItRVVWVTFSZXpQQW5UMlRHZEZRNW9tUUVud3ppNVRpYmc?oc=5",
-          "published": "2026-10-20T09:58:00+00:00",
-          "publisher": "GovExec.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump\u2019s IG pick at the VA is \u2018watering down\u2019 oversight, some employees allege - GovExec.com"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "inspector_general_retaliation",
-      "name": "Inspector General Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 6,
-      "primary_source_url": "https://www.govexec.com/",
-      "rationale": "The headline and summary indicate an allegation by VA employees that Trump's IG nominee is 'watering down' oversight. This constitutes credible reporting of a real action or pattern (reduction of IG investigative scope/rigor) by an executive appointee toward watchdog functions. However, without detailed reporting, this appears to be one newsroom account of employee allegations rather than multiple independent confirmations of a systematic removal of safeguards. Scored as severity 2: a real but isolated or contained signal of IG function impairment, not yet a confirmed structural failure. The action alleged (reducing oversight intensity) has reportedly occurred, but the scope and persistence require closer monitoring.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
     },
     {
       "confirmed_hits": 3,
@@ -275,34 +210,119 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "canonical_link": "https://www.techpolicy.press/age-checks-ai-regulation-and-censorship-put-internet-freedom-under-pressure/",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd1ZlV1phcUtXNEJ1TUR2ekh6NkFJbS1Nem5PUm9zcFdZODM3U1RzMXllQnhLdUlkSERNMWdLNFZyZUlvZEs2djFPVlI1eUsycEdoYXdUZHZjUWhPVlZ5YzdJbVh3TUxNYmlnckNla1UwRUo5UVZQS2NHTHVWR3pYRDhSdUF2MkxlNVg1cGVidG00RHI1MGl5bFh3M1QwRDhqd1g4b3FUQmY?oc=5",
+          "published": "2026-10-22T12:33:41+00:00",
+          "publisher": "Tech Policy Press",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Age Checks, AI Regulation and Censorship Put Internet Freedom Under Pressure - Tech Policy Press"
+        },
+        {
+          "canonical_link": "https://freedomhouse.org/country/sudan/freedom-net/2026",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBeGJkaEhuSFlQVmNhZ2tDUFZBQXo4VjZ1SmRINHVDTkZDdHlYVVluazZIbl96Mk1pT1luaE8zRGZpd3prdUtETDNpLWRQLUk2N2l0RU9uZTVDV0dpTklCQ1F4ODVGdw?oc=5",
+          "published": "2026-10-22T06:47:48+00:00",
+          "publisher": "Freedom House",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Sudan: Freedom on the Net 2026 Country Report - Freedom House"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "civil_service_integrity",
+      "evidence": [
+        {
+          "canonical_link": "https://www.courtlistener.com/docket/74992272/1/edwards-v-united-states-department-of-war/",
+          "link": "https://www.courtlistener.com/docket/74992272/1/edwards-v-united-states-department-of-war/",
+          "published": "2026-10-20T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "EDWARDS v. UNITED STATES DEPARTMENT OF WAR"
+        },
+        {
+          "canonical_link": "https://www.courtlistener.com/docket/74995900/1/7/united-states-v-gonzalez/",
+          "link": "https://www.courtlistener.com/docket/74995900/1/7/united-states-v-gonzalez/",
+          "published": "2026-10-19T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "United States v. Gonzalez"
+        },
+        {
+          "canonical_link": "https://www.courtlistener.com/docket/74987837/1/3/plumbers-local-union-no-690-industry-funds-v-purdue-pharma-lp/",
+          "link": "https://www.courtlistener.com/docket/74987837/1/3/plumbers-local-union-no-690-industry-funds-v-purdue-pharma-lp/",
+          "published": "2026-10-19T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "PLUMBERS LOCAL UNION NO. 690 INDUSTRY FUNDS v. PURDUE PHARMA L.P"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 0,
+      "id": "inspector_general_retaliation",
+      "name": "Inspector General Retaliation",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 6,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://campaignlegal.org/CanTrumpDoThat",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlcXhnQjdSOWFmUlBTWk1IUDFLdTNDWlc2ZTBabnFCODlEVGY2V0FUSy1nZldxXzd3MlpCM2VJVVN2Q3kxNkpkaWN2OEtBX2lPQnc?oc=5",
-          "published": "2026-10-20T21:09:31+00:00",
-          "publisher": "Campaign Legal Center",
+          "canonical_link": "https://thehill.com/regulation/court-battles/6164426-democrats-sue-trump-doj-voter-rolls/",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWTBFZ201VGJvcjNlUHlZZmJ0WmlaNlFnejlUOUpocXVqYjg3eGF4LTVRY3lOOGpYLTBreFRlMXFFNUczMFJZdUhEOEpIb3RGUDV2SlN2Qjh1SUVWMFdhWmNnRVVnUXpnSVhvN2NOQ2NFX2FyZk5LZzN3VnhxdkVYQUlyRXllbzBTS1FXcURRM2FjZFXSAZgBQVVfeXFMTS13Vngxb1dwbXgwSVIyRlhCNERHcU5kem4wOEpEVHNLbnN1dHpiYVpTSGhoWk9lbjJzUHJoN1dBdVEwZVlILXFiaU1HbzQxXzU3V3l0LUwxQWdTQjVqRVhNMm9Ra1c5XzZETXZ1Q0RGVXFNY2p1Z3Z5RFdnQzRxUGQwcjVFdmRrV0dNaDdHdVhpMjlfa195dnA?oc=5",
+          "published": "2026-10-22T00:56:00+00:00",
+          "publisher": "The Hill",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Can President Trump Do That? - Campaign Legal Center"
+          "title": "Democrats sue Trump administration over \u2018threats and intimidation\u2019 ahead of election - The Hill"
         },
         {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-10-19T20:29:37+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://www.sun-sentinel.com/2026/10/21/democrats-sue-trump-states-rights-elections/",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLXY1d01jSGo2Qkp6NU52Q2U0Y3hYSUVDVjVfSV9PYjdDU1Jrb2JyMHZtQ3BLSnBPV1Y1RUxNZHljb3dXYlpjQ1FLaGlNYlVYTW4wRVR0cjV3NTNtU3dISmlQbl9vNndfTlZhTUp0bGVwTjVqNG5mME9wbmM1aDVEbWtsOW41M0ZvT2pLXw?oc=5",
+          "published": "2026-10-21T20:40:52+00:00",
+          "publisher": "Sun Sentinel",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+          "title": "Democrats sue to block Trump administration from usurping states\u2019 authority to administer elections - Sun Sentinel"
         },
         {
-          "canonical_link": "https://patch.com/california/san-diego/san-diego-county-voter-guide-2026-whats-ballot-voting-more",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYXZCeUVuMEVZQTduTjFwTWd0TmI0dWhhZUhDWlFrQUFvaUV0RzVaeENaMW8zSlRMUnVKMnF0ekFDR3NkYWdSSlJlTEhYM0E2MkJyUEFDbktwclZ0QnRNVHYtYkpTQ2dnMTZidXBDYno0bE4yZWItaGVpaVpjS011MUMxeURxaTF4SGpXQ2x0VUtLN1NIcjBvbGJGdDBPZ9IBuAFBVV95cUxOTk1HYjBISldxdFRyck9SUlY0NzA0VWtLZDZyVThwSEhMR0ZyaEJqbE9IeUVRbkxnOUd3cVJ0MTYySjF4aFgxdFEtZ0NJVlpheTBmekJXelhvTzN6SDJqMGljWlFRVHJ6aEpyNjVlbWhmUG4ycVo5LUEwY3gtTS0xeFhnV3BoX0ZTdkltQXZ0MEM1V0NEcDM3X3BFRkZXUDVyWGdtV0UxbHkyUGJJeG5FZC1QWEJZQ3kw?oc=5",
-          "published": "2026-10-19T16:11:12+00:00",
-          "publisher": "Patch",
+          "canonical_link": "https://www.nbcdfw.com/news/politics/lone-star-politics/rockwall-county-races-2026-midterm-election/4093592/",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaGY0dmFiOWhQQjBteWROU3hNb1lVMkZVd282MGJ6akQ2RWdUejdPUEJxZG42UDhLR0ZXV0dKRkp4d3RvbGlTeE5NN3BpNTQ1c3pCTGFZN3hnSFdWM19wLTFDdUJVZHBGYUU2eDV5T1dBNUR1Z0VpZk9VNDZSSGpXaWJ4WWhMWFNLbHhIWF9mSVlYRHh1WjRVSE9tZ09tZDlFNklwQTBfeGJTbUdv0gG0AUFVX3lxTE5lcHlwNzNoWFI3enRXTVRGMHdzODJxM2F2eGJrajZUU19kOEM5dEt5VGZMZFNGVGpIc2FIeVB4dmt2ZEl2clotT3dwdFQ5OFVLYTRCRUU4UHFaY184OUwtMkI4RmRPTGxMQU9YTDBtMEE2b2U3OWJaYmJpN2JmTVplYkFtaGhLRjZPQ2JYcDE1Y0pxaW5mODJkZkVMSGplX0F4SHpUOU9ZTUNNSnVVNHo5VjAtOA?oc=5",
+          "published": "2026-10-21T02:23:01+00:00",
+          "publisher": "NBC 5 Dallas-Fort Worth",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "San Diego County Voter Guide 2026: What's On The Ballot, Voting & More - Patch"
+          "title": "Rockwall County Races: 2026 Midterm Election - NBC 5 Dallas-Fort Worth"
         }
       ],
       "evidence_mode": "ai",
@@ -315,7 +335,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     }
