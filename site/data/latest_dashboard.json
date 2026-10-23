@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 10.57,
+  "average_7d": 10.79,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -2.0,
-  "delta_vs_7d": 0.26,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": 1.94,
   "domain_breakdown": [
     {
-      "avg_severity": 0.325,
+      "avg_severity": 1.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 1.7875,
+      "points": 5.5,
       "weight": 22
     },
     {
@@ -27,10 +27,10 @@
       "weight": 15
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 3.5,
+      "points": 2.2749999999999995,
       "weight": 14
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 1.2166666666666666,
+      "avg_severity": 0.9833333333333334,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.0416666666666665,
+      "points": 2.4583333333333335,
       "weight": 10
     },
     {
@@ -71,16 +71,14 @@
   ],
   "extraction_mode": "ai",
   "failed_queries": 0,
-  "fetch_errors": [
-    "independent_agency_capture: courtlistener: The read operation timed out"
-  ],
+  "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-22T12:42:53.642184+00:00",
+  "generated_at": "2026-10-23T12:40:50.037892+00:00",
   "methodology_version": 2,
-  "previous_score": 13,
+  "previous_score": 11,
   "primary_sources": {
     "documents_confirmed": 3,
-    "documents_fetched": 27,
+    "documents_fetched": 26,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -88,77 +86,39 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 11,
-  "score_raw": 10.83,
-  "score_raw_pre_trip_wire": 10.83,
+  "score": 13,
+  "score_raw": 12.73,
+  "score_raw_pre_trip_wire": 12.73,
   "successful_queries": 25,
   "top_signals": [
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://www.miamiherald.com/news/local/community/miami-dade/north-miami/article317690421.html",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNVZnSDZoMEpjenU1aWNwQ3pDaHZBcE4yVF9XQ2l3SzZwS2ZxRjRmQ1VNdEgtU29GbzRETml3TVZWSWlZRUhRMHNfaHg5bElSWHFsT05veXFfdFdSMXhUbzVVQ1dPYTRqS29rQ1JEby15eGFoYjNyMldST0hJWHFVLTNFZjQtQl9QUi1MUmRpZlZQeFZBV1lhQtIBmAFBVV95cUxOQ2FTam5BRFhoUzROOU9yWkZmbmdfSzNmenB0NUY3aVJPSGdCa2dnbnVUUTNHWXgyNlUwbEFucUpiYkU3Q3NDLUZaSlI3NHRIRHU0XzZSU1ZTT2JLSmdFajlhazZTNmk2NXdkRDdHaVN4Q1Mtc2lDSGtHbk5VX3QwUXlldDdEUjd6RHNxVXBYbDRiWGFybkx3Rg?oc=5",
-          "published": "2026-10-20T21:06:00+00:00",
-          "publisher": "Miami Herald",
+          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
+          "published": "2026-10-21T16:55:22+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "As early voting begins, North Miami mayor is disqualified from ballot. Here\u2019s why - Miami Herald"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 4,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://www.miamiherald.com",
-      "rationale": "Corroborating report of the same ballot-exclusion event: North Miami Mayor Alix Desulme was disqualified from the ballot during early voting. Confirms that an opposition candidate (sitting mayor seeking reelection) was removed from meaningful electoral participation. Severity remains 2: the event is real and credible, but the disqualification appears grounded in stated compliance reasons rather than demonstrating systematic removal as policy or constitutional defiance. Single incident in one municipality, not evidence of structural pattern.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
-    {
-      "confirmed_hits": 2,
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://abc7news.com/story/is-trump-administrations-campaign-style-ad-fox-news-taxpayer-funded/19867339/?userab=kfsn_content_recs-582*variant_b_trending_kfsn-2513,kabc_content_recs-577*variant_a_control-2480,wls_content_recs-584*variant_b_trending_wls-2517,wtvd_content_recs-585*variant_a_control_wtvd-2518,ktrk_content_recs-587*variant_b_trending_ktrk-2523,wpvi_content_recs-586*variant_b_trending_wpvi-2521,abcn_article_nfy_v2-691*v2_model_enabled-3729,otv_web_content_rec-539*variant_c_trending-2268,otv_web_topic-580*variant_b_topic_redesign-2509,follow_abcnews_otv_on_google-654*variant_b_share_drop_down-3495,otv_search_page_design_unification-546*variant_b_search_redesign-2300,otv_web_live-581*variant_a_live-2510,follow_otv_on_google-683*variant_b_share_drop_down-3661,abcn_popular_reads_exp_followup-648*variant_b_popularityonly-3457,otv_mobile_web_content_recs-639*variant_a_control-3429,kgo_content_recs-583*variant_a_control_kgo-2514,abcn_verts_midterms-671*variant_a_control-3586,otvlink_abcnnav-576*variant_b_local-2479&userab=kfsn_content_recs-582*variant_a_control_kfsn-2512,kabc_content_recs-577*variant_a_control-2480,wls_content_recs-584*variant_a_control_wls-2516,wtvd_content_recs-585*variant_b_trending_wtvd-2519,ktrk_content_recs-587*variant_a_control_ktrk-2522,wpvi_content_recs-586*variant_b_trending_wpvi-2521,abcn_article_nfy_v2-691*v2_model_enabled-3729,otv_web_content_rec-539*variant_c_trending-2268,otv_web_topic-580*variant_a_topic-2508,follow_abcnews_otv_on_google-654*variant_b_share_drop_down-3495,otv_search_page_design_unification-546*variant_b_search_redesign-2300,otv_web_live-581*variant_b_live_redesign-2511,follow_otv_on_google-683*variant_c_share_plus_google_button-3662,abcn_popular_reads_exp_followup-648*variant_a_control-3455,otv_mobile_web_content_recs-639*variant_b_mobile_content_recs_enabled-3431,kgo_content_recs-583*variant_b_trending_kgo-2515,abcn_verts_midterms-671*variant_a_control-3586,otvlink_abcnnav-576*variant_c_localnews-3316",
-          "link": "https://news.google.com/rss/articles/CBMi-BRBVV95cUxPZy1OcjhHUXR4TDFzNGZkRm14Vno2STM1U1FkQURyY1ZWWmFnYXFNeGJNTVEwYW8wOW8zVDYzX19yZEVPa0UtVUs3cDhhYk1MX19hMC1RQlhCWEh6Y1NlY18tOGFYaGk4T0J2alhFSDJGNHdGRU5ZLTBHNFZzcEpiODdCaG9iMVhLek52YTFXU0d1T2t6a2R3VzBzTUxZZlJud1RCSTVyTDhPN0tkWUVCTFFFQ21LYkx5WXZsZkVKQ3h6SlJQQmd5NVAwV3g0aGNqSlU4SFVTODNxWmcycUJNYmROVjBkM0hvR0xVampDX3ZQUmZyMWJ1YkhjVXlobkZ5dGVmWW1FcGpGTzdNazhtQVhZYWl1X0lvM0RkTFhja3Bnc21EZE52cTlwclpPcEExQjlyeGZ5TExacmJuWXo2VnVTQm94ajNWNl9hdXdIVHgzR0QxTjFERk9OWThmYWZWd0dCc0lvY2phaDZCbFF1RWY3SERSQTRtSXVmVGNYbTE0TkdKd0k0NENFbmk2VTJEUlRMR0JRc3pac2pxSFg0VG1KVnAyS0JEZG13dFcwN3hld2F4VGxRX1JVRFZvQUVqckJ4VjNNaFVrUERHVzcyWXpTZGo1bXBUUFdadS1IQ3pSZkFka1pDeTg0VVpPRWJtSHdQd0pqa2QwRmFfT1JuV0cwd2RuRFhqcHJ3RkVuc3Z4NWtkWjRuRXBRWWtpbExFS2ZkeE5oX0xUOEVDT0pSeWhic0lRaUVtZlI0U2lEandERzBxWkwxSFphSVR4WGR6d1pzamRfVENBdklyajJqbUJQdWRsMHc5ekVMMW8zY20wMkNBUEJ5UlVXVXFFaUd0VkJKakZqNVBtdEFtdUoySVp3Zkh6X1lwMG1rRHZwXzJpT0o5aTZNYUhveTNkOVktN053U3RxZUZMTjB4V0RVbHUyZDEwTVZsWTMtTXBRSnh0QTlYU2lnTU13WE83R2ZnbVB0ZnNCLUQwQ1lmV1Zid01GWUxiZlNlbVNUSEtWNWFHVko5dVZIYWJadUJVNGQ2YTJWa3daSlMyUFctV0NCeXRCWjdCcjJ4aDNjOU1uTWlkbHNiWWdHZXMtUHdDV1YwT0pteC1EYUtoTXRaVnV2RGVsSzRNdWJLZnd4UFV3dEZjeWQyc3dudFhkZ3JWdUlLNDA1YVBsaGl5ZE5aLW9lWHNULWtoTlFSV2k2U2NGMF9pR1Z2eloyR2NVazFXdy13dzlPZ081OUxpODZOX1o4WHVoMnc2N0FFUnl3MVVJaVVWUWhQaVpmUkhVLUFIVVdnRXNIRWJKY1lhZ2JZOU5VdmxHWFF5VHhFMWl6MGZSVFJiWkNRRTZESThkSDNYMU5RelBCM3kxRG1kVXhaVlZHUDU3WklCTVV5U05vRDdjZDhyUzBFSGZNZ1h2STYtelREcEZyY2VHS0lTcUdKNFhFeHBPakZPRG0xVV9CTk1CY2tVNUNZUWloRUNFU2xaRWFSSXpUczBTMTFWclR6ZFVJUS1iSnNOYy0waVBmcXBra25rS1pJc0EwZllFN0o5dTctYlIwUHEtcVRQTWxlLVdlSTFLU0dxY2FkSGRTaThjc2ZqWEpFaU5SMGlmREo4T1F3dXdaSFc1Y2REemZ1bTNnR1JrT0E0bjNZbXhfa2hzeEFsR3NSQU9jX0lEWlNtVDhJMUFudktVVXdCZE1RTS11Sng0cE8xQU9ZaEktWjhhMVRoSnY0VnZCOHBGSUd0anRqVl80SnQxR0xndmxiWF9SVDBwVkVqT0l6T0t2VjF0dnJTODZyaEQ4c1JtXzZsak9XWENvdVFwbklfS0c0Zk9rdG1jRkxTZnVjemUzMktrdW5McGJkbzMtZGJWLTREamU2NXY3ZnBtWkNSYWFKUE9xcmFsc01aUjhUckx2cnNNcUdVblJaOFpSQUpaaTJreW9CbG9GX2VoaUNTX29vU1FOcHBwUjZROHlLYkRuUXVYMGt5QXZmRGpnVF9HbnlRZjN0RzltLUd2QWdSZU56ZnVrOERaSTNDdnRidFdRZEpQblAxZ0Y5cXZxcmRPc2dGUjBMM25Yc0FLVjkwOGhjTlJEcktIZV9VaTdtMm1jRDdPajJrUXhmYXdjRzRMUkFlR3NQVU9ZNFZfQUpscER6RmJRdmt5ZC1EVVFxVzVrS3hNZEIyT2g3cEtLbGVfODR4V3ZTbHNPSzFJUnV1UUxPbjIxSjRFNlFkaGthYzY3SmI5V2VWNDNTbTY0VXVXOWhlMXhIX3BGY0VLSlRhZFFHWTlrc3JRdDA4QVJSZlNwX0tyVC1ncTZlZC11SHBTQktnTkZrVW5OUzJTal9VVHlaazRFNkRGRHo2Y2pwckowQmE5Vm5tY1Nvd1RCM0lBV3hsbGRhLWFoLVcxVjhLVWFjODRLbGdxQjZ3NzdWQWVhVzhRV3NianB5OEticUloMXh4eEQ2aElTT1M5bE5wa2RvRmRhQzV2alRzN0Vnc2d6ME5Cc0tWX1NSTVNyUHpGMWo2Z3ZYTkdmUTEzc2xqbm9rNFM2UFNUNUlfWXVaSnJLWG9TNl9MN2N3SWcyc2VkaFNiU3VRSEdueFR1YUlNMWUxWVBEM1kzQ0F5cFZjOW8yQVQweXJNTGRCNm5FOVFsQ0tLYUlYZWtnYjA4NEh0dFdUQ3lWd0tBdkRpZ3IwNFdrbVV5QkM0VXZ0dmpIZlNySEJMNWcwOE1sd3E4TmZXVWd4eGlkaHAzMXVfYU84Q2QybnF3endxOHdTVWxKQzJoYzdHQkZPaUhUdGEyM1MwU0drV3R1TE5OTmxtaDBQQUdvZzUxVmtaYk9vTm02cFFKRUxRcjJiVm10bng2R3NXQmQ1N1BSV2lCVC1GS3FhalpHTGdscEJqeUZ3RDZ5NUk3Q0RZS1JSbm9WVzNkUC1JWmdhRjg0aW1zanZ1MHVvclpVSWFkeldYd2toTU9yenRuYjVQWkl4U0NFMzlMZVh1ZEtLZGtDQTczd3FGS3QwSGxhRXVxQXA4bGpIbjllZzkyelRFcnBCa2NRN2ZfcjVtai1xQUdCa3JYOXAyeTdyeF9QRjMtalM2Q1RLREVsMFpxVXo1eDZrOGFTemszTnJkOWxvVkRnLUM0TlZHUVpVc2hjalN1S2xSd1V2WHRIMmJJcEF4b0lfb1BUVnFnRWVHZWpaNXVJU3M0VmplbW92ZDVmb3NqX2x1WHpPTmR6LVAtRWtab1k3Rld3b3V3c2dZdlFTM3ZsdHI4Nk5aTFZDTTROSGluNVR5Z0FtZGNfR1JjZ1pBVGJ6SGVmdnJhc0lVWFZRd2ZDcmswZmpCWGFqR3had0FBbmZtbVFBMTg2Z1RhZC1YTEtQWDBIalVMSHZqdXowaEYzRnFQRmxVaHpNSnZ0WE9XWVowUUdicnIwcnFnT2ZSWlByc3NvVWIydlpMMi1CV084NjdfRVhidDU0d3lOQzNDMTZZTkIwTE9FLXBnd0xNcmtaSlFQNWhGYjFsdl8tcXhCNGdKaWN6YzhtUllPdTFXV204d3VmQmZxV1VqYjNIS1pSMEpGRjhneEJiajkxYVdybEREUldpM2Fx?oc=5",
-          "published": "2026-10-20T15:18:19+00:00",
-          "publisher": "ABC7 Bay Area",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Administration's pro-Trump TV ad is taxpayer-funded - ABC7 Bay Area"
-        },
-        {
-          "canonical_link": "https://www.independent.co.uk/news/world/americas/us-politics/trump-taxpayer-ads-maga-inc-super-pac-b3070004.html",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2tDYlVsX1dSRXZsMXB6ekduT0oxanp3TDlvWUJiZk5wejNJSENWOFJQeWpwMFFLX3JvUFBfMEpycjlYN0hPcWV2Y3A4U3FaTl9CZDg3a0JQR3ltYThpcU1uM2UwY3lBZlhlcHY2NC1LNVJpeEFCbE5hUE84bnlseWprVUdnbTlhb283MzdKWHRpY1VubVloalBYSHlrdm1vdE5OMlVfckhmQm1mLW5JeHZ2RQ?oc=5",
-          "published": "2026-10-20T15:50:00+00:00",
-          "publisher": "The Independent",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump\u2019s super PAC is now running campaign-style ads created with taxpayer dollars - The Independent"
+          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
       "hits": 3,
-      "id": "public_funds_political_promotion",
-      "name": "Public Funds for Political Promotion",
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abc7news.com",
-      "rationale": "News report alleges that taxpayer funds were spent on pro-Trump TV advertising. This directly matches the signal definition: public money spent on communications promoting an officeholder in campaign-style format. The item identifies a real action (ad production and air time) funded by public money, not merely a proposal or concern. However, without access to official documentation or GAO finding, confidence is moderate rather than high. Severity 2 reflects a credible, repeated-pattern allegation of actual misappropriation affecting a discrete campaign cycle, not a structural failure or ongoing regime.",
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 3,
@@ -213,28 +173,28 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.techpolicy.press/age-checks-ai-regulation-and-censorship-put-internet-freedom-under-pressure/",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd1ZlV1phcUtXNEJ1TUR2ekh6NkFJbS1Nem5PUm9zcFdZODM3U1RzMXllQnhLdUlkSERNMWdLNFZyZUlvZEs2djFPVlI1eUsycEdoYXdUZHZjUWhPVlZ5YzdJbVh3TUxNYmlnckNla1UwRUo5UVZQS2NHTHVWR3pYRDhSdUF2MkxlNVg1cGVidG00RHI1MGl5bFh3M1QwRDhqd1g4b3FUQmY?oc=5",
-          "published": "2026-10-22T12:33:41+00:00",
-          "publisher": "Tech Policy Press",
+          "canonical_link": "https://www.notus.org/campaigns/trump-maga-inc-ad-dnc",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wU0E1dUptcnJTT0RYejdSSDlSMThWVzRMWF9TTXo1X05wVWtDQk10ZEVGRGl5QS1FU21wMTlDM3FrQlBGRDIwYVNXQ09zMlRnYVhNWnpnRmMxQ0RiSjJPU1lxSQ?oc=5",
+          "published": "2026-10-21T18:57:35+00:00",
+          "publisher": "notus.org",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Age Checks, AI Regulation and Censorship Put Internet Freedom Under Pressure - Tech Policy Press"
+          "title": "The DNC Says MAGA Inc. Is Airing Another Ad Created With Taxpayer Dollars - notus.org"
         },
         {
-          "canonical_link": "https://freedomhouse.org/country/sudan/freedom-net/2026",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBeGJkaEhuSFlQVmNhZ2tDUFZBQXo4VjZ1SmRINHVDTkZDdHlYVVluazZIbl96Mk1pT1luaE8zRGZpd3prdUtETDNpLWRQLUk2N2l0RU9uZTVDV0dpTklCQ1F4ODVGdw?oc=5",
-          "published": "2026-10-22T06:47:48+00:00",
-          "publisher": "Freedom House",
+          "canonical_link": "https://www.ituc-csi.org/corporate-underminers-of-democracy-29728",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14ZU9NbThDQ2p3Q3hMVnpfQ08tRGw0Ykg3OE5laGNyVHo1Z2NzSmFqam93VlgwcXp3N2NVYnRTNHE2NVBYc09RelB0TTBZMG5QU0FiX2tSbG5xd0MwTzkyQmhfMV81TEpoekFFbTJQcWNZQmc?oc=5",
+          "published": "2026-10-21T21:50:00+00:00",
+          "publisher": "International Trade Union Confederation",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Sudan: Freedom on the Net 2026 Country Report - Freedom House"
+          "title": "Corporate Underminers of Democracy 2026 - International Trade Union Confederation"
         }
       ],
       "evidence_mode": "ai",
       "hits": 2,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "id": "public_funds_political_promotion",
+      "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
@@ -248,8 +208,93 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "canonical_link": "https://iol.co.za/news/crime-and-courts/2026-10-09-court-rules-mbalula-unlawfully-removed-lungisa-from-anc-election-list/",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSm1WM1JYdWlUYWRzRklDbnByYi0tZmlBSmFsN2tHaWRWVDViN3hnVmpJRS1zVEstUy1POC1sRzBlZV9wU0ZzX1o2RlBXOEJSUll5cDZwV0xDRzVIaVVrN2M0MFJkVXBkajZTQjU1YW1aS3plakl0dG5aWjBpVHRUbG5FSDdONlg0LVpJWVdJZXBWSlFnU3k0RmZKRnl4cGZ1Zkk2LXZpQ0VZYkpzV0lGeUtlWU1YUHgxeVRTdmJB?oc=5",
+          "published": "2026-10-23T03:58:12+00:00",
+          "publisher": "IOL",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Court rules Mbalula unlawfully removed Lungisa from ANC election list - IOL"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "canonical_link": "https://freedomhouse.org/country/sudan/freedom-net/2026",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBeGJkaEhuSFlQVmNhZ2tDUFZBQXo4VjZ1SmRINHVDTkZDdHlYVVluazZIbl96Mk1pT1luaE8zRGZpd3prdUtETDNpLWRQLUk2N2l0RU9uZTVDV0dpTklCQ1F4ODVGdw?oc=5",
+          "published": "2026-10-22T06:47:48+00:00",
+          "publisher": "Freedom House",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Sudan: Freedom on the Net 2026 Country Report - Freedom House"
+        },
+        {
+          "canonical_link": "https://techpolicy.press/age-checks-ai-regulation-and-censorship-put-internet-freedom-under-pressure",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM0wtcGQyY0dvY3pBMmRSNEd2ZXNpcmx5T2tRcGJDaEN4WUt6amxvTHg1ZFJtSXpNeUpILVJCNlRtVkY2RkN6aS1hYXdGQ3E4RWxRdWFudm90U3Q2REloU1pZbHlTaVV3VlFOcXVFR01mbFFicldTc2poTExxV2RtQUYtajk2em4zZGMwdnBscWxET2VuZnVJNnUwSzItU3FrZ0E?oc=5",
+          "published": "2026-10-22T12:33:41+00:00",
+          "publisher": "Tech Policy Press",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Age Checks, AI Regulation and Censorship Put Internet Freedom Under Pressure - Tech Policy Press"
+        },
+        {
+          "canonical_link": "https://www.journalismpakistan.com/could-the-white-house-press-pool-model-work-in-pakistan",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONUhFRUJ5alBQUGZhaTR3cU92ZXR3RnZveEU3U3hDdjlEeG1pZ2F4RWlpV1NmYXZTS3Fkb3ZwZ0tZanVEN1U1VVZFUXlMaVRxaGdlZ1RQZW02aXFfMDkyQ3NOYjRocC05MzNodHgyUnFzQnBjeGhuOU1LMzRfVXdiYWI0TmlXR2dQZUJIUk44dHpOSDN2?oc=5",
+          "published": "2026-10-23T07:10:54+00:00",
+          "publisher": "Journalism Pakistan",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Could the White House press pool model work in Pakistan? - Journalism Pakistan"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 4,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.3,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
+        {
+          "canonical_link": "https://www.courtlistener.com/docket/75001458/1/johnson-ferby-v-novo-nordisk-inc/",
+          "link": "https://www.courtlistener.com/docket/75001458/1/johnson-ferby-v-novo-nordisk-inc/",
+          "published": "2026-10-21T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "Johnson-Ferby v. Novo Nordisk Inc"
+        },
         {
           "canonical_link": "https://www.courtlistener.com/docket/74992272/1/edwards-v-united-states-department-of-war/",
           "link": "https://www.courtlistener.com/docket/74992272/1/edwards-v-united-states-department-of-war/",
@@ -267,15 +312,6 @@
           "source_name": "courtlistener",
           "source_tier": "primary",
           "title": "United States v. Gonzalez"
-        },
-        {
-          "canonical_link": "https://www.courtlistener.com/docket/74987837/1/3/plumbers-local-union-no-690-industry-funds-v-purdue-pharma-lp/",
-          "link": "https://www.courtlistener.com/docket/74987837/1/3/plumbers-local-union-no-690-industry-funds-v-purdue-pharma-lp/",
-          "published": "2026-10-19T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
-          "source_tier": "primary",
-          "title": "PLUMBERS LOCAL UNION NO. 690 INDUSTRY FUNDS v. PURDUE PHARMA L.P"
         }
       ],
       "evidence_mode": "ai",
@@ -284,54 +320,7 @@
       "name": "Inspector General Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
-      "primary_documents": 6,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://thehill.com/regulation/court-battles/6164426-democrats-sue-trump-doj-voter-rolls/",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWTBFZ201VGJvcjNlUHlZZmJ0WmlaNlFnejlUOUpocXVqYjg3eGF4LTVRY3lOOGpYLTBreFRlMXFFNUczMFJZdUhEOEpIb3RGUDV2SlN2Qjh1SUVWMFdhWmNnRVVnUXpnSVhvN2NOQ2NFX2FyZk5LZzN3VnhxdkVYQUlyRXllbzBTS1FXcURRM2FjZFXSAZgBQVVfeXFMTS13Vngxb1dwbXgwSVIyRlhCNERHcU5kem4wOEpEVHNLbnN1dHpiYVpTSGhoWk9lbjJzUHJoN1dBdVEwZVlILXFiaU1HbzQxXzU3V3l0LUwxQWdTQjVqRVhNMm9Ra1c5XzZETXZ1Q0RGVXFNY2p1Z3Z5RFdnQzRxUGQwcjVFdmRrV0dNaDdHdVhpMjlfa195dnA?oc=5",
-          "published": "2026-10-22T00:56:00+00:00",
-          "publisher": "The Hill",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Democrats sue Trump administration over \u2018threats and intimidation\u2019 ahead of election - The Hill"
-        },
-        {
-          "canonical_link": "https://www.sun-sentinel.com/2026/10/21/democrats-sue-trump-states-rights-elections/",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLXY1d01jSGo2Qkp6NU52Q2U0Y3hYSUVDVjVfSV9PYjdDU1Jrb2JyMHZtQ3BLSnBPV1Y1RUxNZHljb3dXYlpjQ1FLaGlNYlVYTW4wRVR0cjV3NTNtU3dISmlQbl9vNndfTlZhTUp0bGVwTjVqNG5mME9wbmM1aDVEbWtsOW41M0ZvT2pLXw?oc=5",
-          "published": "2026-10-21T20:40:52+00:00",
-          "publisher": "Sun Sentinel",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Democrats sue to block Trump administration from usurping states\u2019 authority to administer elections - Sun Sentinel"
-        },
-        {
-          "canonical_link": "https://www.nbcdfw.com/news/politics/lone-star-politics/rockwall-county-races-2026-midterm-election/4093592/",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaGY0dmFiOWhQQjBteWROU3hNb1lVMkZVd282MGJ6akQ2RWdUejdPUEJxZG42UDhLR0ZXV0dKRkp4d3RvbGlTeE5NN3BpNTQ1c3pCTGFZN3hnSFdWM19wLTFDdUJVZHBGYUU2eDV5T1dBNUR1Z0VpZk9VNDZSSGpXaWJ4WWhMWFNLbHhIWF9mSVlYRHh1WjRVSE9tZ09tZDlFNklwQTBfeGJTbUdv0gG0AUFVX3lxTE5lcHlwNzNoWFI3enRXTVRGMHdzODJxM2F2eGJrajZUU19kOEM5dEt5VGZMZFNGVGpIc2FIeVB4dmt2ZEl2clotT3dwdFQ5OFVLYTRCRUU4UHFaY184OUwtMkI4RmRPTGxMQU9YTDBtMEE2b2U3OWJaYmJpN2JmTVplYkFtaGhLRjZPQ2JYcDE1Y0pxaW5mODJkZkVMSGplX0F4SHpUOU9ZTUNNSnVVNHo5VjAtOA?oc=5",
-          "published": "2026-10-21T02:23:01+00:00",
-          "publisher": "NBC 5 Dallas-Fort Worth",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Rockwall County Races: 2026 Midterm Election - NBC 5 Dallas-Fort Worth"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 3,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
+      "primary_documents": 5,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,

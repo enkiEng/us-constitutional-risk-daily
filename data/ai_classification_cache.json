@@ -853,6 +853,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74991091/7/rodriguez-perez-v-warden-of-metropolitan-detention-center-brooklyn/",
       "rationale": "A federal court has issued a specific restraining order prohibiting the Warden from removing or transferring the petitioner without court authorization. This is a lawful court order directing executive action (detention). The signal definition concerns executive or administrative REFUSAL to comply with court orders. This document shows the order itself, not a refusal to comply. No evidence here demonstrates noncompliance; rather, it documents a judicially-issued directive. This is ordinary habeas/civil rights litigation and preservation of jurisdiction, not evidence of court-order noncompliance by the executive. Treating as weak signal because the item records only the issuance of the order, not any refusal to obey it.",
       "severity": 2
+    },
+    "https://www.courtlistener.com/docket/74998881/7/hc-askarov-v-warden-golden-state-annex-facility/": {
+      "actor": "District Court, E.D. California",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74998881/7/hc-askarov-v-warden-golden-state-annex-facility/",
+      "rationale": "This is a routine procedural minute order (case consolidation/relation notice under Local Rule 123(a)) from a district court. It is a standard administrative action managing case dockets, not evidence of court order noncompliance. No party has refused to comply with any court order; this document merely consolidates related habeas corpus cases. It contains no indication that any executive or administrative body has defied or refused to comply with a judicial directive.",
+      "severity": 0
     }
   },
   "election_administration_capture": {
@@ -1805,6 +1815,16 @@
       "primary_source_url": "https://www.wral.com",
       "rationale": "A state legislature voting to shorten early voting and expand voter purges represents a real action that moves election administration toward partisan control by restricting voter access and participation mechanisms. This is a credible, documented legislative action. However, without evidence that the measure represents systematic capture of the entire election administration apparatus or defiance of courts, and given that legislative changes to voting rules, while potentially contentious, remain within formal legal processes, this constitutes a real but contained signal rather than a systemic failure. Severity 2 reflects that this is a confirmed action with partisan electoral implications, but not yet a structural breakdown of election administration neutrality.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT1FKTjF5cFN4UGlfU0hTSXJveXg1VnBGRUstMUhzTkZYYzJXcVFzSS0yTXdld0pyS2RmSTQ4UGdzamV6UFdaVEptRUlDR015a05ZQW1kSHdmZGRpamNmR3hWYkdEdEo4T2xRNmI0SHR2Sll6V0lMTWtkMXI5OHo2T1JGR3FkcmpQcktxMlkzMU1oX1FHcDY4bFMyUzlsLV95cTFVSmdqWkV6SGo4czNRdGJxYi1ZUVVJdElBZEpnZHY2eEUyV1HSAcsBQVVfeXFMTUl1OWxmOTZNLTg1ZW84VVBhSXhlTDNRZnZZMXM3RnBQWFVvS0xsbEZ3QXY1WjRZLUVjb1lhdEdnRGZ1WG9fcVRscEhBYy1fSUdBUzlaZEZleGdnOUF4dG9YcERDcndCU2w2VEpxRDBRbFNwTkFWUTR3RnJtSWQ1LTdIbmJnb3pNVmJ6VXhhMFo5bFd1VzVNN0hBMzFPZUc5N1p1UzZvZVJWd2sxOWZQS21KRThIT1djaGFSS0lkS3prdnlUbEV2TW42aTg?oc=5": {
+      "actor": "Stein (NC official)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.cbs17.com",
+      "rationale": "This item reports a request or petition to a court to overturn a ruling on elections board appointments. A petition to overturn a court decision is a legal motion\u2014a proposal seeking relief\u2014not an accomplished action. The event would only occur if the court granted the petition and reversed the prior ruling, changing the legal authority governing appointments. Until that reversal occurs, no structural change to election administration authority has taken place. The item describes a legal challenge, not a realized capture of election administration. No severity-2+ signal is present.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTzF0eEl3Zk9OYjJDeFVUam1jRk5ZeUxoRUhwa1J1V3ExcUtSa2N2b2VQTGZaSDFzeE12MDdWUVlyOE1NZkRVakZWY1J6Tjk4ekdFVml1U09NOThTQmVIRTNlZ2FEdlIwY2RuYXNTalVMTGFxaHU3S0lfNkd5VlJoOTdVZ2gzWF9YYUxEcXAxTFZvNl9Sc0ZralA2MTF2RVBnN3hGNmlCMFhKdTl0UmNoaWFMT3dWRTZRZUFaWl9WemFmVHlxdGhiWko1dGpuamM?oc=5": {
       "actor": "Community Impact / Austin ISD",
@@ -3974,6 +3994,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/74995900/1/7/united-states-v-gonzalez/",
       "rationale": "This is a sealed criminal complaint in a standard prosecution docket entry. The summary contains no information connecting it to inspector general retaliation, watchdog suppression, or anti-corruption monitoring actions. This appears to be a routine criminal matter unrelated to the signal being evaluated. Without any substantive detail indicating the complaint involves IG retaliation, this cannot be scored as evidence of that signal.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/75001458/1/johnson-ferby-v-novo-nordisk-inc/": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/75001458/1/johnson-ferby-v-novo-nordisk-inc/",
+      "rationale": "This is a routine civil complaint filing in federal district court (product liability case against a pharmaceutical company). It contains no elements relating to inspector general retaliation, watchdog functions, anti-corruption monitoring, or any constitutional-stress signal. The document is a standard procedural filing with no bearing on retaliatory action against oversight bodies.",
       "severity": 0
     }
   },
@@ -6688,6 +6718,16 @@
       "rationale": "Item is from a South Korean news source (\uc870\uc120\uc77c\ubcf4) discussing Korean domestic military discipline policy. Not a U.S. event. Signal concerns U.S. martial law or military governance; this item concerns a foreign country's military personnel disciplinary rules. Irrelevant to U.S. constitutional-risk monitoring.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdnpoZUIwQ0tNQnR4d1IwLThxYnNhcEtMOWlrMGtzbS00aENIZXFtNGtiNy02aUk4NTY1QlcxX0FYWll5cTU4Tk93QTB5UHZuUEdZazhEZjJPWGs5UG9sZUZ2c19xS3pjVGxsNWVnOEN4aFhpZUdGSmltQmt5NnMtQXozVTY2SmZJ?oc=5": {
+      "actor": "Allahabad High Court / Election Commission of India",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://lawchakra.com",
+      "rationale": "This item concerns an Indian (Allahabad High Court) proceeding regarding videography at polling stations for an MLC (Municipal Legislative Council) election in India. It is not a U.S. domestic event and contains no language or policy related to military governance, martial law, or military management of political disputes. The signal is specifically about U.S. constitutional risk; this is a routine Indian electoral administration matter.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUS0zRDJGVGpNSXAzNFRMano2VzRGQVhFNWN0R3lNeUpxNHBobWhpZzZRR191SmVRc0FZazU2Yi1vd1ZFc3pKdmRDSEVjUTNweXQ3YWxUQk1qS0k1NndlOEEtU3N2eldGWlg4TGdiVm03aHRCSHk4Q3EzNFhJTllfOXlPTkF0bTJK?oc=5": {
       "actor": "Colonel Yu (South Korea)",
       "confidence": 0.99,
@@ -8596,6 +8636,16 @@
       "rationale": "This item is a commentary/opinion piece (indicated by the title format and byline 'Jack Goldsmith' under 'Executive Functions,' a known opinion/analysis publication). It describes senators' remarks and political reactions to those remarks\u2014political discourse and commentary about statements, not evidence of actual criminal prosecution targeting opposition actors. No prosecution, indictment, arrest, or use of criminal enforcement against opposition has been described. This is political criticism and commentary, not evidence of the 'Politicized Prosecution of Opposition' signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RbF9UUzllQUpDbWp1T19BbzdmM0U4bEhwSnZETVZ3V2Jxdk1KQ0xadUtYOEREdWVwZmZyNWZZRURZYXZlSHhwSXhzOFdpTE5RcmFVZTlGYTZRWTdwNmpVLWlncXhOZnozTF84Wm1xb0NlM0Z6V0xncw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.15,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports an indictment of a Virginia state senator on drug trafficking and money laundering charges. While a real U.S. domestic event if true, these are standard criminal charges unrelated to opposition targeting or politicized prosecution. The source (fish4news.co.uk) is a UK-based outlet with no apparent credibility for U.S. political reporting. No evidence is presented that charges were selective, politically motivated, or part of a pattern targeting opposition actors. Without corroboration from established U.S. news sources or court records, and absent any indication of political targeting, this does not constitute evidence of the 'Politicized Prosecution of Opposition' signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN1NxWU9CMUV1QXZqSndhaFZueTRDT3lxUEFBOEl5SzlTUGtncHU3N1VzOFd5LU1Ocl85eWZxSEVZb1U2WlgwS3hpUlNfTWRpNWZmb21kU0RLSl9kaTB1UlVPTmZzc2w4bjlNVl9yTGQzTlZHSmpoR2NaS3h0Mi1WbTIwYzZNQnc?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -8655,6 +8705,16 @@
       "primary_source_url": "",
       "rationale": "News report identifies that individuals including James Comey have been targeted by the Trump administration. This describes a real occurrence of selective enforcement targeting opposition/prior administration officials. However, without access to the full article details and specific charges/actions taken, severity is conservatively set at 2 (a credible stress signal of real action) rather than higher. The targeting of opposition figures by criminal enforcement represents material evidence of politicized prosecution signal, though the specific scope and legal basis require verification.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd0dhc2VTcndKajEtT0E5V0haMjEtb2tRQU82am1rZDFES2lyWkYwUk1XS0F0LXRSYVpvTGkzT2toZzlNX0g4NGtvWTRvVXZSZm83b2NlTk5ydzU0LXNqcVhoNjg1QmRvZXZzSVZ5VkpZdGU2RHpPRGlEYVZUbHpPbE9pX2x3aDJhYmRuREw4ekpfcUkyaW5SY1ZkZ2FEd3Q4dEhzeWFSNjVIR0tHWTUxcldhbzJYV1FoTmF2Zktn?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.1,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports the same indictment via Hollywood Unlocked, an entertainment gossip outlet. Entertainment and tabloid sources reporting criminal charges lack the institutional credibility and investigative rigor needed to establish politicized prosecution. No evidence is presented that the charges were selective, politically motivated, or part of a pattern of opposition targeting. The mere fact that a politician is charged with crime does not demonstrate the signal condition. Without corroboration from authoritative legal sources, court filings, or analysis establishing political motivation and selective targeting, this does not constitute evidence of politicized prosecution of opposition.",
+      "severity": 0
     },
     "https://www.courtlistener.com/docket/67935987/1692/united-states-v-brown/": {
       "actor": "U.S. Government (prosecution)",
@@ -9118,6 +9178,16 @@
       "rationale": "This item is reporting on press freedom conditions in Pakistan, not the United States. The signal is defined as 'State action that raises costs or legal risk for independent reporting' in a U.S. constitutional context. A report on press conditions in another country, even if it describes real events in that country, provides no evidence of the specified signal occurring in the United States. Therefore, event_occurred is false and severity is 0.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxONUhFRUJ5alBQUGZhaTR3cU92ZXR3RnZveEU3U3hDdjlEeG1pZ2F4RWlpV1NmYXZTS3Fkb3ZwZ0tZanVEN1U1VVZFUXlMaVRxaGdlZ1RQZW02aXFfMDkyQ3NOYjRocC05MzNodHgyUnFzQnBjeGhuOU1LMzRfVXdiYWI0TmlXR2dQZUJIUk44dHpOSDN2?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is about Pakistan, not the United States. The signal requires evaluation of U.S. domestic constitutional stress. A hypothetical policy discussion about whether a White House press pool model could work in Pakistan is not evidence of a U.S. press restriction event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaGRBVWRLbk5HdHk2ZnB3bUVaZG40VzRZbGEzNDRQcGJucWtOZ1ljWW9RMm9uN0NQQTVLN1JHdTA2dnRucG9oYVhmN3ZoQmZ5X2FWdXZVbTlvMmozckNnS1A2Ujh1bkQ4NTE4ZzRoaVBCWS1DanUzRFhfRmM0bkJrMmxKbTMzbGdZX3VmZDFmcnJHNWJQ?oc=5": {
       "actor": "White House / Trump administration",
       "confidence": 0.75,
@@ -9388,6 +9458,16 @@
       "rationale": "Item is from a Kenya-based source (streamlinefeed.co.ke) and appears to be philosophical commentary on press freedom under threat globally, not reporting on a specific U.S. state action. No verifiable U.S. domestic event is documented.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM0wtcGQyY0dvY3pBMmRSNEd2ZXNpcmx5T2tRcGJDaEN4WUt6amxvTHg1ZFJtSXpNeUpILVJCNlRtVkY2RkN6aS1hYXdGQ3E4RWxRdWFudm90U3Q2REloU1pZbHlTaVV3VlFOcXVFR01mbFFicldTc2poTExxV2RtQUYtajk2em4zZGMwdnBscWxET2VuZnVJNnUwSzItU3FrZ0E?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The summary indicates opinion/analysis about pressures on internet freedom in relation to age checks, AI regulation, and censorship. This is commentary on proposed or potential regulatory trends, not evidence of a specific state action that has occurred raising costs or legal risk for independent reporting. No concrete U.S. domestic press restriction event is identified.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU1lhUmVoaURNYnlyNEhjdHJBejVkQXUyQTFCSTV6YjB3d1ZMM01oZm5tM0NCZ0hpUFhnZFhqalNBUDFZY3hIYXJkdGZwQ2g5UFhmMWN0TXNlRmlEX2o5c2V6UjJUQ0U0N3NvMW5iSkpidmJsalhyUVBtZmduQ3FZOHFqUWdxbVNiUml0U1JaQUFSSFlnNEdhNUc2WGtWMk9tMU9V?oc=5": {
       "actor": "White House; Democrats",
       "confidence": 0.9,
@@ -9557,6 +9637,16 @@
       "primary_source_url": "https://www.outlookindia.com/",
       "rationale": "A White House media ban raises legal and constitutional questions regarding press access and First Amendment protections. The characterization as having 'become a First Amendment fight' indicates the action has been implemented and is now subject to legal challenge, making it a real occurrence rather than a proposal. However, without confirmed details of scope, duration, or official documentation, and given this is reported rather than from an official record, severity is rated as 2\u2014a credible, contained action that creates material stress on press freedom through restricted access, though not yet a wholesale criminalization or systematic campaign of prosecution.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRG9rODJiT2ZJOFJmNlVEUkxvWmlsWHFrUl9ibUdjeTNzZkNzMWtqVFBHX21HRFluenNCZkpzZHFOZk44SkxPVXNmUTFLdE43ZjV0OUdWV2RDQnBURGJJaVJabjY4a0MxTzY5ZUNLQ3B2SHhKcjJBTGtQLU9yMGhkRWllNElyRlZEWS1obXJHcXBBSzlxUkNPRHd1U3BhYmRKb05WZ1g1UWl4a0tEOXcyag?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on an assault and arrest of a journalist in Kenya, not the United States. The signal evaluates U.S. constitutional risk. Events in Kenya, regardless of their severity regarding press freedom, are not evidence of U.S. domestic state action raising costs or legal risk for independent U.S. reporting.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOUtiaUQweHAyY1Z5UlpUY3k5VS03MzlTbGVmRndBZ1cwVkxHVFdfdnZlQlJ6Mkc0SzNzY1R4QXZuSG8tV1FCSm1JN0lEX2poVHRsNnZrVEZqN3hRR1NvUnhVcmRsV0p6dGZsQ1BTZ2k5TjhacGUtSTFubnoyX2FIR0VoSDlEcGlXTWhkbHd4Zy1ESU5hVEhuUHl2ZmdpVVhuYlVQWGdkYndpY0RzOU44UA?oc=5": {
       "actor": "N/A",
@@ -10109,6 +10199,16 @@
       "primary_source_url": "https://www.nytimes.com",
       "rationale": "News report of directive to use taxpayer money for ads praising the Trump presidency. This is a credible report of an alleged action that matches the signal (appropriated public funds spent on communications promoting an officeholder). However, without official confirmation or documentary evidence of the specific directive, this is a press report of an alleged action rather than verified official record. The repeated nature across multiple outlets (items 0-6, 9) elevates this from isolated mention to credible stress signal, but without access to the actual expenditure records or directive document, severity is held at 2.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTE14ZU9NbThDQ2p3Q3hMVnpfQ08tRGw0Ykg3OE5laGNyVHo1Z2NzSmFqam93VlgwcXp3N2NVYnRTNHE2NVBYc09RelB0TTBZMG5QU0FiX2tSbG5xd0MwTzkyQmhfMV81TEpoekFFbTJQcWNZQmc?oc=5": {
+      "actor": "International Trade Union Confederation",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a non-U.S. document from an international organization (ITUC) appearing to be a report or analysis rather than evidence of a specific U.S. constitutional event. The signal concerns misuse of U.S. public appropriations for partisan promotion. This item provides no information about U.S. government spending, public funds, campaign advertising, or any actual occurrence in the United States. It is a foreign source document, not U.S. domestic action, and does not constitute evidence that appropriated U.S. public money was spent on partisan communications.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IRWxQX0Jpa0U2X01ScDg5YlBLM0J1NGhDOE1lZjJqcTNaMnpIRmhQTllETThRNjNXV01KOTlFQXh0MzYweFpXSXRSbDBldndSM3pQRG90QXZGT3E3RG41MXBrSkFscnl2Tm5sdmQtUUk0c00?oc=5": {
       "actor": "Trump administration",
@@ -12586,6 +12686,26 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/10/22/2026-21590/airworthiness-directives-general-electric-company-engines",
       "rationale": "This is a routine airworthiness directive from the FAA concerning aircraft engine safety standards. It is a normal regulatory function unrelated to political interference with statistical agencies (BLS, BEA, Census Bureau) or their data integrity. The signal concerns manipulation of economic and demographic statistical agencies, not aviation safety rules.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/23/2026-21632/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule": {
+      "actor": "Securities and Exchange Commission",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/23/2026-21632/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule",
+      "rationale": "This is a routine notice from the SEC regarding an information collection activity submission to OMB for review and comment. It is a standard administrative procedure unrelated to the three federal statistical agencies specified in the signal (BLS, BEA, Census Bureau). The document does not reflect political interference, removal of statistical leadership, methodology changes outside normal notice, or suspended/delayed/withheld data releases from statistical agencies. No structural change to statistical agency integrity is present.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the": {
+      "actor": "Office of the Comptroller of the Currency",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the",
+      "rationale": "This is a routine rulemaking by the OCC implementing legislative authority granted by Congress. The issuance of regulations implementing a statute is a normal statutory function, not evidence of political interference with statistical agencies (BLS, BEA, Census Bureau) or their integrity. The document concerns financial regulation of stablecoins, not federal statistical data production or agency leadership. No statistical methodology changes, data delays, or interference with career statistical leadership are implicated.",
       "severity": 0
     }
   }
