@@ -1,13 +1,13 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-10-23 12:40:50 UTC
+- Generated: 2026-10-24 12:37:19 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **13 / 100** (Baseline Institutional Noise)
-- Previous day delta: **+2.0**
-- Delta vs 7-day average: **+1.9**
+- Score: **22 / 100** (Elevated Strain)
+- Previous day delta: **+9.0**
+- Delta vs 7-day average: **+9.5**
 
 ## Interpretation
-- Band meaning: Normal democratic conflict and routine legal contestation.
+- Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
 - Signal scale: 0=green, 1=watch, 2=yellow, 3=orange, 4=red.
 - Formula: domain severity = max(mean signal severity, max signal severity - 1); domain points = domain weight * (domain severity / 4); total score = sum of domain points, then raised to any active trip-wire floor.
 
@@ -15,31 +15,47 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 1.00 | 5.50 |
+| Elections and Transfer of Power | 22 | 2.00 | 11.00 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
-| Opposition Rights and Political Pluralism | 14 | 0.65 | 2.27 |
+| Opposition Rights and Political Pluralism | 14 | 0.43 | 1.52 |
 | Executive Constraints and Emergency Powers | 13 | 0.00 | 0.00 |
 | Civil Service and Agency Independence | 10 | 1.00 | 2.50 |
-| Civil Liberties and Information Environment | 10 | 0.98 | 2.46 |
-| Security Sector Neutrality | 8 | 0.00 | 0.00 |
+| Civil Liberties and Information Environment | 10 | 2.00 | 5.00 |
+| Security Sector Neutrality | 8 | 1.00 | 2.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Election Administration Capture | elections_transfer | 2.00 (Yellow) | ai | 1 | 3 |
+| Election Administration Capture | elections_transfer | 3.00 (Orange) | ai | 2 | 3 |
+| Public Funds for Political Promotion | civil_liberties_information | 3.00 (Orange) | ai | 1 | 1 |
+| Election Certification Interference | elections_transfer | 2.00 (Yellow) | ai | 2 | 2 |
+| Domestic Military Use in Political Conflict | security_sector_neutrality | 2.00 (Yellow) | ai | 1 | 2 |
 | Civil Service Purge / Schedule F | civil_service_integrity | 2.00 (Yellow) | ai | 3 | 0 |
-| Public Funds for Political Promotion | civil_liberties_information | 1.65 (Watch) | ai | 0 | 2 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.65 (Watch) | ai | 0 | 1 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.30 (Watch) | ai | 0 | 4 |
-| Inspector General Retaliation | civil_service_integrity | 1.30 (Watch) | ai | 0 | 0 |
+| Opposition Ballot Exclusion | opposition_pluralism | 1.30 (Watch) | ai | 0 | 2 |
+| Press Restrictions or Retaliation | civil_liberties_information | 0.95 (Watch) | ai | 0 | 3 |
+| Inspector General Retaliation | civil_service_integrity | 0.95 (Watch) | ai | 0 | 0 |
 
 ## Evidence Samples
 
 ### Election Administration Capture
-- Assessment: This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred—a raid of an election office—allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.
-- [ABC News - Breaking News, Latest News and Videos] Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos (2026-10-21) - https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5
+- Assessment: The DOJ seeking to block a Senate election result based on the partisan outcome of the race (Republican incumbent narrowly losing) constitutes a serious, confirmed action that moves election administration from a neutral process to partisan control. This is not a hypothetical or proposal but an actual legal action taken by the executive branch to intervene in election outcomes based on party affiliation. This represents official defiance of the principle of neutral election administration and constitutes a high-severity constitutional stress event.
+- [The Washington Post] DOJ seeks to block Alaska Senate result if Republican incumbent narrowly loses - The Washington Post (2026-10-24) - https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUVJjQ3FsZnpGZkZjQV9rWlNUbUFOVWlJZ0VlV0MxN1YxTG9vaVZyY0F0WktiOVFhTGlzcFJ0eXF2SHlZU091bFpFaFdFSTF0RmZBMi1lV1VKVFA2TGF5ZUNZRmd2ZkJHbEJCMk52TUI4aVIxQ2djWk9nTE5nbFB3RTdHM2dkT3dGTGljNkNhOThNWnVzcG9FME5xM0UzWFdmcDZjbW9IeXg2Vk9La0R4YnRFNDFxcU9NZ3FPSUVEOEpnMnc1SGN5el92TlVQcC1ndEE?oc=5
+- [The Detroit News] DOJ moves to block Alaska Senate result if Republican loses - The Detroit News (2026-10-23) - https://news.google.com/rss/articles/CBMizAFBVV95cUxQWVVrTTNpcUhuU0l4eTJ3d0tZX2kxWk9NZEF2UEVGRHdRYlpzQzhtaG9ZR2I5SjFRU05JNVlqcEFXSGtjaG5jMHRjdFR0VnNVUDVBblR4VVczdFVxNE01bElseDBDUS0zWlRoUmxLZTg0YTBGU0RKMDZNbVNaTmViTGdRTlBYa1RpTThEVEVIcGVONGRuZHo1M2F0R2ZFMkFud1dpeWJuSnAweXc2R0dNTzBZWjZaZnQ0UXNXakhOSWRkMVhXVjVYeVg2YWU?oc=5
+
+### Public Funds for Political Promotion
+- Assessment: LEADERSHIP Newspapers reports a US judge's order to halt taxpayer-funded ads promoting Trump. Another corroborating account of the judicial intervention against the unlawful government spending. The order itself is the serious action; severity 3 reflects confirmed court response to the breach.
+- [LEADERSHIP Newspapers] US Judge Orders Trump To Halt Taxpayer-Funded TV Ads - LEADERSHIP Newspapers (2026-10-23) - https://news.google.com/rss/articles/CBMigAFBVV95cUxNX1NWcmIxbi0tSnJLc0JmSTdEdHFBeUcxVy1vM21NS3RpN0xXb3VFSHNKM2lJcXc3UGhJeHRBN29TSWxZcXJZVEc3WENfMUhGU0NlQ254b0s0dXVFMFk5aDBrUWlxNE93YmN2WUhDQ08xaTVmSjhlNHlZWFQ3MF9vMg?oc=5
+
+### Election Certification Interference
+- Assessment: The underlying lawsuit (referenced in item 0) represents a credible, documented action by the Trump DOJ filing suit with the stated purpose of blocking election certification contingent on outcome. This is a real legal action filed in federal court designed to interfere with certification if a specific electoral result occurs. While the suit is a mechanism that seeks to prevent certification rather than an already-successful block, the filing itself is a concrete, verifiable attempt to create legal barriers to certification. This is a serious stress signal—a federal executive branch filing litigation specifically to condition or prevent certification of a lawful election result. It has verifiably occurred as a legal action, though it has not yet succeeded in actually blocking certification.
+- [Law Commentary] Trump DOJ Sues to Block Alaska Senate Election Certification if Republican Sen. Dan Sullivan Loses - Law Commentary (2026-10-24) - https://news.google.com/rss/articles/CBMinwFBVV95cUxQUFAzbjAybERFdWRsNjFaaDd0VUNMSFlYV1JGbHRsb2tXLUFaTjNIQ1VOanl2ekNCUWljdzBzSGp3RFVSOGl0MHBVdW1OSm1YWTRLWjNsQmIxRlUxd25XNDFhdDRoTVZMUGtCbGpramJ4eHc5NF8zb3BacWI3RXZUczR1bmFrSmVvd0lRdkhCd2kzRncwRGJhZHlPc1pFcDQ?oc=5
+- [Al Jazeera] Trump administration sues to block possible Democratic win in Alaska - Al Jazeera (2026-10-23) - https://news.google.com/rss/articles/CBMirwFBVV95cUxNeHpCbWlId2dzMFBBZWs3c01TRWdpbU9pdjhCa3FiS0IwTENjZGt1Y3FDaXUtRXJSbHFrcE93ODZfOWlWUE8tNk9iZS0wVUsxUFJQZFdXZE0yaVV1X2c3aE1fckF3N0l4UnFuemloQ1pBNkVjX1NJVldobW95UkV1Rzhnd3ZQMGhfUDEyR1ZQb3BFMkloTHZsa2lUUnhMQ2JSMGx0QVIyOG0tWl9yU1JN0gG0AUFVX3lxTE9XYmhVRGs3alBEN2pZSHRmVVk5dXY2Ml91R0M1LTl0WVdQeHZxZjJRdnNIc2tNUjNlOVc0MUVpQW5IOEk3WmVlaU41NUNucENWTEFPWEJJOU1SZk9kV0lfNFY3MWhyakdrb3hqc2xTV0x3RkN2bkhYN3BLYTFrdU9zc3ZyN0N4UlRNcHd0bU5qUWdKa2lqclZLZWZ2SWdiSE5lalIwb0tiVmtuX1lNRFlSMVlMNw?oc=5
+
+### Domestic Military Use in Political Conflict
+- Assessment: A court has found that a deployment of National Guard during protests was likely illegal. This constitutes a real, verifiable action (the deployment itself occurred), not a hypothetical or proposal. The deployment represents military use in a domestic political context (protests). However, severity is 2 rather than higher because: (a) the action has been adjudicated as likely illegal by a court, meaning legal safeguards operated; (b) no evidence is presented that the deployment was part of a structural effort to override constitutional processes; (c) it is a contained incident rather than an ongoing pattern or systematic defiance of courts. The severity reflects a real but contained stress signal with legal accountability mechanisms engaged.
+- [Sacramento Bee] Trump’s deployment of CA National Guard amid protests was likely illegal, court says - Sacramento Bee (2026-10-23) - https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMjRoY2tCUHhYWmFNTU9VeW4tQXlybUktWXJxay1vSm5DMXdLd0txUnhkTl9HbWlEcHVmam9aX2VtLTBZMS1FX245aVpOcGdDSkhxYjZ5WU42X29kZGp0bi1IYnkycWgzYkotczNERjZUS0dNdmxQMkVuS2Zpb3BsMXgweTZLWVlKLVJF0gGLAUFVX3lxTFBYc3VEZnh3Wnp2MWNwMUk5TG1mVWlVRG4wYmNmRThRaTJsTEJDNWdPWHQ3OGlQSUJTSGd4U0xNc2FCLWxVQWpmNTlnNmVRRXRXbGFTOEhKZmFqcGR1MDdWYk5FdG5fNno1UzdoVHZ6UGpJTUdIaDNPeHA3MG50dS04UHd5QlhGVDByY0U?oc=5
 
 ### Civil Service Purge / Schedule F
 - Assessment: Final rule issued by OPM expanding the scope and legitimate uses of administrative leave, including explicitly for 'workforce realignment initiatives.' This is an accomplished regulatory action (not a proposal) that creates new legal authority for executive discretion in removing or repositioning civil servants. Administrative leave can facilitate workforce removal without competitive process protections. Severity 2 because this is a real, confirmed action that materially expands tools available for politicized personnel actions, but it is a procedural/regulatory change rather than a demonstrated mass removal or targeted purge yet executed.
@@ -47,24 +63,12 @@
 - [federalregister.gov] **[official record]** Elimination of Time-in-Grade (2026-10-19) - https://www.federalregister.gov/documents/2026/10/19/2026-21319/elimination-of-time-in-grade
 - [federalregister.gov] **[official record]** Managing Senior Professional Performance (2026-10-19) - https://www.federalregister.gov/documents/2026/10/19/2026-21316/managing-senior-professional-performance
 
-### Public Funds for Political Promotion
-- [notus.org] The DNC Says MAGA Inc. Is Airing Another Ad Created With Taxpayer Dollars - notus.org (2026-10-21) - https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wU0E1dUptcnJTT0RYejdSSDlSMThWVzRMWF9TTXo1X05wVWtDQk10ZEVGRGl5QS1FU21wMTlDM3FrQlBGRDIwYVNXQ09zMlRnYVhNWnpnRmMxQ0RiSjJPU1lxSQ?oc=5
-- [International Trade Union Confederation] Corporate Underminers of Democracy 2026 - International Trade Union Confederation (2026-10-21) - https://news.google.com/rss/articles/CBMic0FVX3lxTE14ZU9NbThDQ2p3Q3hMVnpfQ08tRGw0Ykg3OE5laGNyVHo1Z2NzSmFqam93VlgwcXp3N2NVYnRTNHE2NVBYc09RelB0TTBZMG5QU0FiX2tSbG5xd0MwTzkyQmhfMV81TEpoekFFbTJQcWNZQmc?oc=5
-
-### Opposition Ballot Exclusion
-- [IOL] Court rules Mbalula unlawfully removed Lungisa from ANC election list - IOL (2026-10-23) - https://news.google.com/rss/articles/CBMivgFBVV95cUxPSm1WM1JYdWlUYWRzRklDbnByYi0tZmlBSmFsN2tHaWRWVDViN3hnVmpJRS1zVEstUy1POC1sRzBlZV9wU0ZzX1o2RlBXOEJSUll5cDZwV0xDRzVIaVVrN2M0MFJkVXBkajZTQjU1YW1aS3plakl0dG5aWjBpVHRUbG5FSDdONlg0LVpJWVdJZXBWSlFnU3k0RmZKRnl4cGZ1Zkk2LXZpQ0VZYkpzV0lGeUtlWU1YUHgxeVRTdmJB?oc=5
-
-### Press Restrictions or Retaliation
-- [Freedom House] Sudan: Freedom on the Net 2026 Country Report - Freedom House (2026-10-22) - https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBeGJkaEhuSFlQVmNhZ2tDUFZBQXo4VjZ1SmRINHVDTkZDdHlYVVluazZIbl96Mk1pT1luaE8zRGZpd3prdUtETDNpLWRQLUk2N2l0RU9uZTVDV0dpTklCQ1F4ODVGdw?oc=5
-- [Tech Policy Press] Age Checks, AI Regulation and Censorship Put Internet Freedom Under Pressure - Tech Policy Press (2026-10-22) - https://news.google.com/rss/articles/CBMiogFBVV95cUxNM0wtcGQyY0dvY3pBMmRSNEd2ZXNpcmx5T2tRcGJDaEN4WUt6amxvTHg1ZFJtSXpNeUpILVJCNlRtVkY2RkN6aS1hYXdGQ3E4RWxRdWFudm90U3Q2REloU1pZbHlTaVV3VlFOcXVFR01mbFFicldTc2poTExxV2RtQUYtajk2em4zZGMwdnBscWxET2VuZnVJNnUwSzItU3FrZ0E?oc=5
-- [Journalism Pakistan] Could the White House press pool model work in Pakistan? - Journalism Pakistan (2026-10-23) - https://news.google.com/rss/articles/CBMilAFBVV95cUxONUhFRUJ5alBQUGZhaTR3cU92ZXR3RnZveEU3U3hDdjlEeG1pZ2F4RWlpV1NmYXZTS3Fkb3ZwZ0tZanVEN1U1VVZFUXlMaVRxaGdlZ1RQZW02aXFfMDkyQ3NOYjRocC05MzNodHgyUnFzQnBjeGhuOU1LMzRfVXdiYWI0TmlXR2dQZUJIUk44dHpOSDN2?oc=5
-
 ## Data Quality
 
 - Query feeds attempted: 25
 - Query feeds successful: 25
 - Query feeds failed: 0
-- Primary-source lookups: 22 signals, 26 official documents (Federal Register, CourtListener)
+- Primary-source lookups: 22 signals, 29 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 3
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
