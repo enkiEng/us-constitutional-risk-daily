@@ -1,16 +1,16 @@
 {
   "attempted_queries": 25,
-  "average_7d": 12.48,
+  "average_7d": 14.49,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
     "max": 29,
     "min": 15
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 9.0,
-  "delta_vs_7d": 9.53,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": 7.12,
   "domain_breakdown": [
     {
       "avg_severity": 2.0,
@@ -27,10 +27,10 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.31666666666666665,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.5166666666666666,
+      "points": 1.1083333333333334,
       "weight": 14
     },
     {
@@ -73,12 +73,12 @@
   "failed_queries": 0,
   "fetch_errors": [],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-24T12:37:19.359831+00:00",
+  "generated_at": "2026-10-25T12:37:42.626301+00:00",
   "methodology_version": 2,
-  "previous_score": 13,
+  "previous_score": 22,
   "primary_sources": {
     "documents_confirmed": 3,
-    "documents_fetched": 29,
+    "documents_fetched": 31,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -87,12 +87,12 @@
   },
   "provisional": false,
   "score": 22,
-  "score_raw": 22.02,
-  "score_raw_pre_trip_wire": 22.02,
+  "score_raw": 21.61,
+  "score_raw_pre_trip_wire": 21.61,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 2,
+      "confirmed_hits": 5,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
@@ -113,10 +113,19 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "DOJ moves to block Alaska Senate result if Republican loses - The Detroit News"
+        },
+        {
+          "canonical_link": "https://newsone.com/6874749/dan-sullivan-alaska-trump-lawsuit/",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OdzctYm0wcGo3RFFYYzctSHE2empYT2x4MHpTQmFNNGV2bEFsaHBhTllpb2UyRjNQZ2NtX0JVMVdxOTBvekJXbWFjamtBdDJBcFMtUDUyVllONFBfLWk3TFVYZ3U4V3AtMVdnZWxGcw?oc=5",
+          "published": "2026-10-24T16:07:56+00:00",
+          "publisher": "NewsOne",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump Sues Alaska To Stop A Senate Election If His Guy Loses - NewsOne"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 7,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -127,7 +136,7 @@
       "severe_hits": 0,
       "severity": 3.0,
       "severity_label": "Orange",
-      "unique_publishers": 2
+      "unique_publishers": 5
     },
     {
       "confirmed_hits": 1,
@@ -145,7 +154,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 3,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
@@ -164,15 +173,6 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://www.lawcommentary.com/articles/trump-doj-alaska-senate-election-certification-dan-sullivan",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUFAzbjAybERFdWRsNjFaaDd0VUNMSFlYV1JGbHRsb2tXLUFaTjNIQ1VOanl2ekNCUWljdzBzSGp3RFVSOGl0MHBVdW1OSm1YWTRLWjNsQmIxRlUxd25XNDFhdDRoTVZMUGtCbGpramJ4eHc5NF8zb3BacWI3RXZUczR1bmFrSmVvd0lRdkhCd2kzRncwRGJhZHlPc1pFcDQ?oc=5",
-          "published": "2026-10-24T00:41:13+00:00",
-          "publisher": "Law Commentary",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump DOJ Sues to Block Alaska Senate Election Certification if Republican Sen. Dan Sullivan Loses - Law Commentary"
-        },
-        {
           "canonical_link": "https://www.aljazeera.com/news/2026/10/23/trump-administration-sues-to-block-possible-democratic-win-in-alaska",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeHpCbWlId2dzMFBBZWs3c01TRWdpbU9pdjhCa3FiS0IwTENjZGt1Y3FDaXUtRXJSbHFrcE93ODZfOWlWUE8tNk9iZS0wVUsxUFJQZFdXZE0yaVV1X2c3aE1fckF3N0l4UnFuemloQ1pBNkVjX1NJVldobW95UkV1Rzhnd3ZQMGhfUDEyR1ZQb3BFMkloTHZsa2lUUnhMQ2JSMGx0QVIyOG0tWl9yU1JN0gG0AUFVX3lxTE9XYmhVRGs3alBEN2pZSHRmVVk5dXY2Ml91R0M1LTl0WVdQeHZxZjJRdnNIc2tNUjNlOVc0MUVpQW5IOEk3WmVlaU41NUNucENWTEFPWEJJOU1SZk9kV0lfNFY3MWhyakdrb3hqc2xTV0x3RkN2bkhYN3BLYTFrdU9zc3ZyN0N4UlRNcHd0bU5qUWdKa2lqclZLZWZ2SWdiSE5lalIwb0tiVmtuX1lNRFlSMVlMNw?oc=5",
           "published": "2026-10-23T21:23:29+00:00",
@@ -180,6 +180,15 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Trump administration sues to block possible Democratic win in Alaska - Al Jazeera"
+        },
+        {
+          "canonical_link": "https://www.lawcommentary.com/articles/trump-doj-alaska-senate-election-certification-dan-sullivan",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUFAzbjAybERFdWRsNjFaaDd0VUNMSFlYV1JGbHRsb2tXLUFaTjNIQ1VOanl2ekNCUWljdzBzSGp3RFVSOGl0MHBVdW1OSm1YWTRLWjNsQmIxRlUxd25XNDFhdDRoTVZMUGtCbGpramJ4eHc5NF8zb3BacWI3RXZUczR1bmFrSmVvd0lRdkhCd2kzRncwRGJhZHlPc1pFcDQ?oc=5",
+          "published": "2026-10-24T00:41:13+00:00",
+          "publisher": "Law Commentary",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump DOJ Sues to Block Alaska Senate Election Certification if Republican Sen. Dan Sullivan Loses - Law Commentary"
         }
       ],
       "evidence_mode": "ai",
@@ -190,7 +199,7 @@
       "primary_confirmed": 0,
       "primary_documents": 1,
       "primary_source_url": "https://www.courtlistener.com/docket/75009254/5/united-states-v-state-of-alaska/",
-      "rationale": "The underlying lawsuit (referenced in item 0) represents a credible, documented action by the Trump DOJ filing suit with the stated purpose of blocking election certification contingent on outcome. This is a real legal action filed in federal court designed to interfere with certification if a specific electoral result occurs. While the suit is a mechanism that seeks to prevent certification rather than an already-successful block, the filing itself is a concrete, verifiable attempt to create legal barriers to certification. This is a serious stress signal\u2014a federal executive branch filing litigation specifically to condition or prevent certification of a lawful election result. It has verifiably occurred as a legal action, though it has not yet succeeded in actually blocking certification.",
+      "rationale": "Al Jazeera reporting corroborates that the Trump administration has filed suit with the stated aim of blocking Alaska Senate election certification in the event of a Democratic victory. This is independent confirmation of a real legal filing by the executive branch designed to interfere with certification based on electoral outcome. The action (filing suit) has occurred. However, the suit represents an attempt to create legal grounds for interference, not yet a completed block or override of certification. Severity 2 reflects this as a credible, repeated-source, confirmed stress signal of a serious nature, but not yet a structural constitutional failure (level 3-4).",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
@@ -212,7 +221,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 1,
       "id": "military_domestic_political_use",
       "name": "Domestic Military Use in Political Conflict",
       "override_note": null,
@@ -296,17 +305,17 @@
           "title": "Israel\u2019s Extremist Election - The Nation"
         },
         {
-          "canonical_link": "https://iol.co.za/news/crime-and-courts/2026-10-09-court-rules-mbalula-unlawfully-removed-lungisa-from-anc-election-list/",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSm1WM1JYdWlUYWRzRklDbnByYi0tZmlBSmFsN2tHaWRWVDViN3hnVmpJRS1zVEstUy1POC1sRzBlZV9wU0ZzX1o2RlBXOEJSUll5cDZwV0xDRzVIaVVrN2M0MFJkVXBkajZTQjU1YW1aS3plakl0dG5aWjBpVHRUbG5FSDdONlg0LVpJWVdJZXBWSlFnU3k0RmZKRnl4cGZ1Zkk2LXZpQ0VZYkpzV0lGeUtlWU1YUHgxeVRTdmJB?oc=5",
-          "published": "2026-10-24T04:09:48+00:00",
-          "publisher": "IOL",
+          "canonical_link": "https://www.thehindu.com/news/national/bihar/jdu-expels-anant-singh-for-six-years-seeks-his-disqualification-as-mla/article71620096.ece",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLUhNcWI0VDhJTjNkdDZrTEVOMUJTOTg1aE52aFBmS1NNR0d3Rnd5T2FQVGJyYlRkMVQ2TzBlRWctNjVUQ29aSHBqbGYxWVVtVVcxVEdQRGJ5WE13Tkx6V2JLZ0pmZHowckExN2xyaUFnT2lidFNCRS1LZS1uUkdaLVRtMnFaZTVjQm14QkJLVWxybFRWTGNOSEZQQkFuMVdxLXdyc1lDS0pHMFNzbDQ2UUVDWndhSW85MkMxT2owOC1MZmljM1hvVmdSWXVDblpw0gHXAUFVX3lxTE9ld1JET1NzYlZrc0NUQWFHT080VUtZM1BEQm9ROHJfMzJvVjdNYVoxNTJvYkZENFkyRUNJR0NDS0ZVTHF0WHQ5RWJucEZVM3Z4eWFuMF9wOG5MNFJtSmxiZU0zbVdiTktrbnZnaFB4SGRfdkJHU0ZmVEhhM2N3aUp6TnA3TlFoRkF1VmZVazFSOU1KT3JLbTVZUm9IRlJrWExTTjNzS1NINXBfamNQSjRFRlVHYVZfWGgtOU1SQmJKZDROU3hSZGg3M1ktSUszUmpjYzhVc2Y4?oc=5",
+          "published": "2026-10-24T12:58:01+00:00",
+          "publisher": "The Hindu",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Court rules Mbalula unlawfully removed Lungisa from ANC election list - IOL"
+          "title": "JD(U) expels strongman MLA Anant Singh from the party for six years - The Hindu"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 4,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
@@ -315,7 +324,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -324,6 +333,15 @@
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
+        {
+          "canonical_link": "https://www.timesofisrael.com/thousands-in-turkey-rally-against-escalating-crackdown-on-media/",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZHJ5ZDFhTnNLRjUxZVJxRTFPVmU2ZWJOMmlOZXcyYmM2aVg1aFBZTTY2VHVyMzRsRWRJcHozTXpSb19ZUFV1dE1BbncwMHRVTzhtXzhZYnFHS1dYS0VYaDdmVmJaelMwM0dRMkVjRmFFTTE4eGthblYzcWlYOXpxbDZlTFVZV1B3OHpHUkZhRDFrZmZxd0cwSWZn0gGfAUFVX3lxTE9sRTZjNk9vSTJtSmJBaTlhZ0c4RzZXbFVfakNNZVY2U0ZWQnl4d2FXVXpQaUNFd1pXd3hmbTRLLWtpb3h0UHlQbWpoSUhQT1JGdFYxMmwyRVJFcVZyUV8zYVR6UjBzRXZ0YUJ5aE9ZV1hENkFta0sxY0JtdW44WTVTWmlQUGMxejhDZFRTdFNjcTloUDFqbnhUS1lzLVZNQQ?oc=5",
+          "published": "2026-10-24T16:36:00+00:00",
+          "publisher": "The Times of Israel",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Thousands in Turkey rally against escalating crackdown on media - The Times of Israel"
+        },
         {
           "canonical_link": "https://www.democracynow.org/2026/10/23/headlines/press_crackdown_in_egypt_mada_masr_editor_lina_attalah_referred_to_trial",
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSl9ILU1BU25VSmJGcTJPejRDczRtLU03VVlfd0lDSlZCeU16NDRKc0EyYlBobGdwUVZJRTNJZzljOTBBeTA3N29FOS0tX3JrN3VzUTB4cHlQVXQ5ZVBTb1VBbWRxeE9tTkVwU1c5amd0RFBidS1PQURwMFRVX0pVOUJpNmxYZExva0J1d2NRWHh4YkQ2MzVoM2ZnSURfdkFyVDlKRk0yOVZTMHRvTmlRRDBveWZ3TGdaSWl3T2l1VQ?oc=5",
@@ -341,19 +359,10 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "JOURNALIST ARRESTED OVER CYBER LIBEL CASE Veteran journalist Philip Lustre Jr. was arrested by police shortly after attending the House of Representatives\u2019 \u201cSaturday News Forum\u201d in Quezon City on Saturday, October 24, 2026, by virtue of an arrest - Facebook"
-        },
-        {
-          "canonical_link": "https://www.journalismpakistan.com/could-the-white-house-press-pool-model-work-in-pakistan",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONUhFRUJ5alBQUGZhaTR3cU92ZXR3RnZveEU3U3hDdjlEeG1pZ2F4RWlpV1NmYXZTS3Fkb3ZwZ0tZanVEN1U1VVZFUXlMaVRxaGdlZ1RQZW02aXFfMDkyQ3NOYjRocC05MzNodHgyUnFzQnBjeGhuOU1LMzRfVXdiYWI0TmlXR2dQZUJIUk44dHpOSDN2?oc=5",
-          "published": "2026-10-23T07:10:54+00:00",
-          "publisher": "Journalism Pakistan",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Could the White House press pool model work in Pakistan? - Journalism Pakistan"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 4,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
@@ -362,8 +371,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -409,8 +418,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],

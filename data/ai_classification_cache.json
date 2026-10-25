@@ -854,6 +854,16 @@
       "rationale": "A federal court has issued a specific restraining order prohibiting the Warden from removing or transferring the petitioner without court authorization. This is a lawful court order directing executive action (detention). The signal definition concerns executive or administrative REFUSAL to comply with court orders. This document shows the order itself, not a refusal to comply. No evidence here demonstrates noncompliance; rather, it documents a judicially-issued directive. This is ordinary habeas/civil rights litigation and preservation of jurisdiction, not evidence of court-order noncompliance by the executive. Treating as weak signal because the item records only the issuance of the order, not any refusal to obey it.",
       "severity": 2
     },
+    "https://www.courtlistener.com/docket/74993679/8/hc-lara-anguinaga-v-warden-of-the-mesa-verde-detention-facility/": {
+      "actor": "District Court, E.D. California",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74993679/8/hc-lara-anguinaga-v-warden-of-the-mesa-verde-detention-facility/",
+      "rationale": "This is a routine administrative order directing refiling of motions and administrative closure of a habeas corpus case. It is a procedural direction from the court to its own clerk\u2014housekeeping work common in civil litigation. There is no evidence of any party refusing to comply with a court order, nor any executive or administrative noncompliance with judicial directives. The order itself is the court exercising its authority to manage its docket, not evidence of defiance or noncompliance with court orders.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/74998881/7/hc-askarov-v-warden-golden-state-annex-facility/": {
       "actor": "District Court, E.D. California",
       "confidence": 0.99,
@@ -1126,6 +1136,16 @@
       "rationale": "This item is about the Trinamool Congress, a political party in India (West Bengal). It is not a U.S. domestic event and therefore does not constitute evidence of election administration capture in the United States. The signal explicitly targets U.S. constitutional risk.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSGdSaWV4RHFpWmJlRl8tZXFpUzNQdGJvZnJDRGRmV091eXNSbUNBbF9WRGFDSmxOMjZxV1dGY0F6NjMtVGFEbzZwVjBnZXBGb09OYnRKbDJwcHB3V2ppSzRXUmZhREROUmx5emxXYmNYT21HOVYxdUlhRGlnTVFtTjBQTTN3TVg2aFZieVZLSUZlSGlGbGNJZE1aVlpkTzI5T3pTN0pZOFdBNF9mbTlhZWdtMGIzQjF6X3FfdW1BYXlRbGQzWFlQbkhfUU9GZFh6S1ZCanA2Z1g1bzNSNFFjeGkxOU1jdFlYN3lJcU9iSVdPVkdMRFJTX1V5cktQZw?oc=5": {
+      "actor": "U.S. Justice Department",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.kimt.com/justice-department-california-ballots",
+      "rationale": "Same underlying event as item 1, reported by different outlet (KIMT). Justice Department orders California counties to segregate ballots. This is a documented action moving election administration decision-making toward federal/partisan control. Severity 2 reflects that this is a real, credible, contained action rather than structural failure.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNb2d4STNfQnE0N29sOWlOMjhySHpaSEpSZnlIdHlTQlVuM25NRnB5THN2SGJpM2U5QUhWbXJ4UmptYnNaN3JqSzVwWUNvOXFRSmU2cGxEdUJtYlBwcmxMa0F5ZmxpazVOblEwMTAwaHB2YjAzODhvTURDZGx5UFFISjVMZW01LTFPTkx3RUZwTE1Lek9LWXZ4ZWk2ZkoxcUJxLUItN1JOZHh2VHBUNmtIcnhHU2VhU0xUWmZMT0ZWR2Q1ckU2Um9qbkV2YjM2SXUxaXpYSHdTclNfSHBoX1MtVWlYdnBWMmxlalJSS09BTVlTVGRJTTZPNFhmdjRwbVXSAYYCQVVfeXFMT3RvYnREbktUOVRLQm8wbmRxeEtXQnduc2EwSktzd0t2aExwcWctdDctOHZabXdpR3lmSC13MVE0NzFjLVR4aDYxc1pGalF5dVlsdy1BdnJkdHduRllEMVJyYXYwb2YzSnRtLUE1TUpCV3VUeWE5bnVHa1VoQzRwcXJWZFpsTWFtRWhlcV8tX3J5ZTJDa1Z1dmpQbmxEVkpZUzBKZkVvNFBqSFYzOXJoVDN2Qk5yMVoyQ05MNUtRREt6cGVwTDdleFBwMHh1YXZJc3RzWDNCZHFCOUp4ZmM5RXNsY0NGcnhWRGtJMnBoU1EtZzhtVVBWUk1hRGVTMGRsQXJXa3ZDZw?oc=5": {
       "actor": "India authorities",
       "confidence": 0.98,
@@ -1154,6 +1174,26 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Ideological outlet making an allegation in its headline. Without specifics of concrete actions taken, this is opinion/assertion about a 'drive to rig,' not documentation that election administration has verifiably moved from neutral to partisan control.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OdzctYm0wcGo3RFFYYzctSHE2empYT2x4MHpTQmFNNGV2bEFsaHBhTllpb2UyRjNQZ2NtX0JVMVdxOTBvekJXbWFjamtBdDJBcFMtUDUyVllONFBfLWk3TFVYZ3U4V3AtMVdnZWxGcw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.82,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "A legal action by the President to halt a Senate election if his candidate loses is a direct attempt to prevent an election outcome through executive or legal power. This is a serious, confirmed attempt to interfere with election administration and outcome. It exceeds severity 2 because it targets the fundamental holding of an election itself, not merely how ballots are handled. This represents an attempt to use executive power to prevent an election from taking place or to overturn its result, which is a high-severity constitutional threat.",
+      "severity": 3
+    },
+    "https://news.google.com/rss/articles/CBMibEFVX3lxTE56T3hQVlJ1XzBfT3lWaG5TYUctNl9RREhJc3gwRkZmeDRyYUpFbWJJTnAwbWF2QmdvVUNqZlhRcDl1MFBQdzhNNDVPWF9fcmNLZXE5QnhHN21COXU0ZTB0VzdxenFFaTE4OE5nZA?oc=5": {
+      "actor": "Conservative commentators",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "An article reporting that conservative analysts are *speculating* about removing the presidential pardon power is commentary and hypothetical discussion, not evidence that election administration has been captured. Speculation about constitutional amendment or reform is not a real occurrence of capture or structural failure. No action has been taken.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XY2hjNGZkSzRZcVJIUHN2RVhNOXpNcjF6Y0JaVWk2WHIyQWtrdVRsenpqQXlvcko2V3BxUVptY0UxT0xEbEZxUlBJRTBEYUZvSjVaNkdMVXVYaHJXMGtHQ0I5cTE4ZVhxWUxST3NB?oc=5": {
@@ -1315,6 +1355,16 @@
       "primary_source_url": "",
       "rationale": "Election results coverage is routine news reporting of a normal election administration process. No evidence of capture, partisanization, or deviation from neutral process.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxQY2xaQ3NxcDRYM2twckZ4SlJQdGxDZUdqNVlFbjhLMGtYUUxWZndma2lZc0Vhd2p4UkdyTnRBNUpOQ19LUFZwZVFpYWs0aVJ2T3Z4S21UOXRyNUNjRTdvZzQ4T2hXVHBBZEphMlJBUUZkOFI2NWVfY1RTYUtfeHIwMw?oc=5": {
+      "actor": "U.S. Justice Department",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.cnn.com/politics/justice-department-california-ballot-orders",
+      "rationale": "A Justice Department directive ordering election officials in California counties to segregate ballots is a documented federal intervention in state election administration. This represents a material action by federal prosecutors to influence how ballots are handled during an election. While the rationale (suspected noncitizen voting) may have prosecutorial justification, it constitutes federal executive-branch direction over a traditionally state-administered process. This is a credible stress signal (severity 2) rather than severity 3+ because it appears to be a specific directive about ballot handling, not a structural removal of state authority or open defiance of courts.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ3FkcjZCLUVxSGwyd1ZsdGhVR2tFRFZYUXVfTHdxSnFVdnU0LWcyYTlQSHhQdHFJbWhRRVRCNWxScWFvZXFRbHBJMHBPOUdfdDN1NmQxQ281QW44RldJczRySjNfQm5rMUFCQnBLTVRwZUlnVWNIZE9fS292YS1FTA?oc=5": {
       "actor": "ACLU (plaintiff); South Carolina Election Commission",
@@ -1655,6 +1705,16 @@
       "primary_source_url": "https://abcnews.go.com",
       "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbWFKOS1yS2tIa1JCdHJKMTk3M2lJSktFQld3MExFVF9LaWY0TFhibGlUazV5OWpaNlc2RVpmbWJDM0djTzk2Z0t5QTNPWmlvOU9pR2tTaFg5SnpPaThNRGtIWlZOOWFRVGl0SEJyVkU2cHFNdWllWjkzeHhNVF8zTmo5NndZUXFiQTcwZlVuemZGdUVpZldXZU9xQUFQQmpQZHBUaXJwWGdjWXc?oc=5": {
+      "actor": "State officials",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "A magazine article describing state officials defending election administration against a president is reporting on institutional resistance, not evidence of election administration capture. This describes normal constitutional separation of powers and checks, not partisan capture of election machinery. The framing suggests states are *resisting* politicization, not that capture has occurred.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaGY0dmFiOWhQQjBteWROU3hNb1lVMkZVd282MGJ6akQ2RWdUejdPUEJxZG42UDhLR0ZXV0dKRkp4d3RvbGlTeE5NN3BpNTQ1c3pCTGFZN3hnSFdWM19wLTFDdUJVZHBGYUU2eDV5T1dBNUR1Z0VpZk9VNDZSSGpXaWJ4WWhMWFNLbHhIWF9mSVlYRHh1WjRVSE9tZ09tZDlFNklwQTBfeGJTbUdv0gG0AUFVX3lxTE5lcHlwNzNoWFI3enRXTVRGMHdzODJxM2F2eGJrajZUU19kOEM5dEt5VGZMZFNGVGpIc2FIeVB4dmt2ZEl2clotT3dwdFQ5OFVLYTRCRUU4UHFaY184OUwtMkI4RmRPTGxMQU9YTDBtMEE2b2U3OWJaYmJpN2JmTVplYkFtaGhLRjZPQ2JYcDE1Y0pxaW5mODJkZkVMSGplX0F4SHpUOU9ZTUNNSnVVNHo5VjAtOA?oc=5": {
       "actor": "",
@@ -4909,6 +4969,16 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74978976/1/1/young-v-trump/",
       "rationale": "This is a notice of removal\u2014a routine procedural filing moving a case from state to federal court. A removal notice is a standard jurisdictional step, not evidence of judicial review foreclosure. The document itself does not close the door on review, deny standing, invoke emergency-docket procedures to avoid legality findings, or prevent any party from testing government action. It is an ordinary case caption and filing. There is no indication from the metadata alone that courts are declining to address the merits or justiciability, and a removal itself is not a threshold dismissal. This is a mechanical procedural event with no bearing on the signal.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/75011344/32/united-states-of-america-v-state-of-california-et-al/": {
+      "actor": "Ninth Circuit Court of Appeals",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/75011344/32/united-states-of-america-v-state-of-california-et-al/",
+      "rationale": "This item reports routine docket entries\u2014responses to a motion for injunctive relief filed by defendants in an active appeal. The mere filing of responsive motions and procedural entries does not constitute evidence of judicial review foreclosure. No threshold dismissal, stay order, or justiciability ruling is reported here. No court has closed the door on review on standing, mootness, or other threshold grounds. This is ordinary appellate motion practice, not a structural action that prevents plaintiff access to judicial review of government action.",
+      "severity": 0
     }
   },
   "jurisdiction_stripping_targeted": {
@@ -6406,6 +6476,16 @@
       "rationale": "House Oversight Committee formally recommends holding Leon Black in contempt over his refusal to comply with Epstein-related subpoenas. This is a real legislative action documenting obstruction of a specific oversight probe, but it is a single case of an individual's non-compliance, not evidence of systematic barriers to legislative fact-finding. Severity 2: confirmed action, isolated instance.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSHBHdXlLbXpDd2VEUFdEWEItdWJOWk1SUkphWGxDLXpuemJTaFMzT0ZNV3VBakNQaG0xamNFQ0JQOGVaU1FMQTlndjhFNzhfMHFINGlhZ2hjWVYtZlpxQzZvN3gwbmozQ1VXb25DMkVYSWwwSWdFSWt4aldsQWJnNko5Mm9fQ2lLODJRWGxzam1kNDNBTWxKSWVJcmR4b2tkQXfSAacBQVVfeXFMT2NSVUxHQWRvUy1qZTdvUzNaYkRrMHlJMnJrVUYxV3ZEalZ3S1ZOcDRLeG55MWVrX1htWGxxWHM1SG1TTWVscko0NGI3VXRPcVBCQkM1QXZpcU5IS2VKUlRGaEJsMlpBcTh3Tm1qTkdFcENLdlpNWkJMZDk2cFA1RDNPWC1BSzBGWE0xYkp6enp5d1NjYXdhcExEYXV2bjlhdEM4SDU0TXM?oc=5": {
+      "actor": "Attorney General Bondi; Democratic legislators",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "This item reports a political disagreement during a briefing about Epstein files, with an AG stating she will follow the law and Democrats departing the meeting. This describes a partisan dispute or walkout, not systematic barriers to legislative fact-finding or executive accountability. A disagreement over briefing content, a walkout, or conflicting statements about legal compliance do not constitute obstruction of legislative oversight as a structural matter. No verifiable action that blocks Congress's investigative authority, defies a subpoena, withholds required testimony, or removes oversight mechanisms has been described. This is a transient political conflict, not evidence of obstruction of legislative oversight infrastructure.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0ZMMml5QU1rUG1ZVTI2dEZMNGFhWDVxd2I5NXNEQ2I1Sk85NWhVN0s4RDJRWDBvQzE3N21lQ1FlMEsycnFXdmRWeHk4N3h2VnViSkp5cC1BdlpSSF9sT2pfRGlra3JlczJzMDRtanlPa2xzandDRFRJQjEyak40Y0dYUXpGVklCWEhJTWNEX09tYm5mVllDNWJNc3RCRnZKUm1Taw?oc=5": {
       "actor": "House of Representatives",
       "confidence": 0.95,
@@ -7492,6 +7572,16 @@
       "rationale": "Item discusses a state law interpretation and a hypothetical election scenario. No evidence that opposition candidates have been systematically excluded from meaningful participation. The headline uses conditional language ('could throw...into disarray') indicating speculation, not a verified exclusion event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLUhNcWI0VDhJTjNkdDZrTEVOMUJTOTg1aE52aFBmS1NNR0d3Rnd5T2FQVGJyYlRkMVQ2TzBlRWctNjVUQ29aSHBqbGYxWVVtVVcxVEdQRGJ5WE13Tkx6V2JLZ0pmZHowckExN2xyaUFnT2lidFNCRS1LZS1uUkdaLVRtMnFaZTVjQm14QkJLVWxybFRWTGNOSEZQQkFuMVdxLXdyc1lDS0pHMFNzbDQ2UUVDWndhSW85MkMxT2owOC1MZmljM1hvVmdSWXVDblpw0gHXAUFVX3lxTE9ld1JET1NzYlZrc0NUQWFHT080VUtZM1BEQm9ROHJfMzJvVjdNYVoxNTJvYkZENFkyRUNJR0NDS0ZVTHF0WHQ5RWJucEZVM3Z4eWFuMF9wOG5MNFJtSmxiZU0zbVdiTktrbnZnaFB4SGRfdkJHU0ZmVEhhM2N3aUp6TnA3TlFoRkF1VmZVazFSOU1KT3JLbTVZUm9IRlJrWExTTjNzS1NINXBfamNQSjRFRlVHYVZfWGgtOU1SQmJKZDROU3hSZGg3M1ktSUszUmpjYzhVc2Y4?oc=5": {
+      "actor": "JD(U)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a party expulsion in India (JD(U) is a regional Indian political party; The Hindu is an Indian newspaper). The signal concerns systematic removal of opposition candidates from U.S. ballot participation. This event occurred in India, not the United States, and party disciplinary action (expulsion) is distinct from ballot exclusion by electoral authorities. Not relevant to the U.S. constitutional signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYUVLa21UT2RQc1RqOHktaWlrT0k3ZDNwaWlHY0FIVGQtc21sUTBPVXNGTnUyRkpmVkpGSGc1WlpGY0dCOFZrQjdkdE16QWxqQnRIcVM5alJ3RUNEVkxZbDVGMC10RXlfZHE2SFlzUlUyVWw3RkREVzNPZXRKckl5eE5CeWNOWTRUa05wanVaWXVRNDNfTFlTN0lUd0NWVUV2WWpfRVZ2NVRJSmpxX083Y2NsYXdNS3BzTUdqbzRUNWp0azZ1NDJRVWZuLWN5UjF2d2fSAd8BQVVfeXFMT01PTEUzbWJXR25aOXAwY2w5eV9xcUFFa3BMMWI0YUtDbkFDaTB2YmRoSTdpZHF3LXRVbWxUMmYzMElicS1hT0N0LWdJemlsWkpLYmNpRWJWN240TkJRMlAyM00wTXlWWWJrMmNndHU0U184Mk9SQzctN1hOUFFyYWd2aUtxNnhiRW5yaFpWSldXX0Nnbmtyb0VrdVB1azZCWFgwMTdwSGJVN3cxdnR2UjdyMjRUOVplaXdQV0NVVEo1a19NRWtDMk40a2lScnc2WWR5MFNIT3BYRzduVWt4RQ?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -8241,6 +8331,16 @@
       "primary_source_url": "https://www.news24.com",
       "rationale": "Item reports the ANC challenging the IEC's exclusion of 181 candidates from its list in South African elections, now being taken to South Africa's Constitutional Court. While this involves ballot exclusion, the IEC and Constitutional Court referenced are South African institutions, not U.S. institutions. The event is in South Africa, not the United States.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQVNINzh2MVAxQTROdWlGOW1FU3pVZzdQY3YwejdrUGxUeXd5WldTdGw2YW9BbjhESG1wSWFrajZHSGhJREpHamFzbGlFWDltTzNNTGtWZlIzR1RDbXd5Wk5nbkVJZ1FORHN1WmFHcXlUbHZVc2VNYUI5VmJjOEpBbGpRU2otYmxxckpUUHZNcGl4Z3FfMmlZeUprTzRrVmlzSThOMmFuMnMwSWZhazR4etIBtgFBVV95cUxNWE9GNnNBeDRWa0VTXy1COU9IdXVHRFFPcDJYaDUtOUFGRE5aSjBCVFJXbkZBY1gyRlpaaGJxdFJ5Ty1rREUxVU5NSkRxUURzelNVV3RuOHlRWXB3UFFXY1J1TWZJek5FdFNOa3Z0eTN1OGdSd0ZYVzhfRm9lbUJUSEtGZGdGeE5ZMVhwSlF0U1NvWG9BUXAzRXgyNGg1MW10NzlPZ3hpRkIwemtZMm5EMkkyc1dvQQ?oc=5": {
+      "actor": "JD(U)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item, from LatestLY, reports the same party expulsion event in India. It is not a U.S. domestic occurrence and does not involve systematic removal of opposition candidates from ballot access. Party internal discipline differs from electoral-authority ballot exclusion. Not evidence of the signal in the United States.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMisgFBVV95cUxORjF4MFBKd1BxMU1WSXYtOG1UdVpDOFk1M1BPbnluamNlVWdPVTZmak1DZHNfVGZSa2lBZDBNU0J0clBHa2hhb0NFV29FTFA5T3lIb05FWXM0czNsVXlNM045azVkREdFdEp1ajZJY0V4azZMOWpfc3AyZVE3cjhXMWdraVFBS2dYNDN4UGlMcmY1REhIcy1RbEVtOXlDX0ZXODBhUXBqVzJ4cXkwRzA3QVBR?oc=5": {
       "actor": "ANC (South Africa)",
@@ -9198,6 +9298,16 @@
       "rationale": "This is a generic world news headline with no substantive content provided. It does not describe a specific U.S. event and therefore cannot serve as evidence of U.S. constitutional stress.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZkZRQWVGUlNlYzNROXg4UE1mRVNpT1AyVEtLV19oSEktM2p5dTZ4YTlxWkpZVFNaQTN5ZWw5dWlFakhjcXh3aWNURlJyY0M0WFlQRFZSaFkxTXZnSXpiaVlCOEl6SzRlNG1kWkoxc0tYU0NmRjNwN0dKNG9VLXlGTzFIdzRvY3VnQUE?oc=5": {
+      "actor": "Turkish government",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item reports protests in Turkey regarding journalists' arrests and media shutdowns. This is a non-U.S. event and therefore not evidence of a U.S. constitutional-stress event, regardless of the nature of the press restrictions described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM1NQS2ZPenNGTzJUdWQ4M2h4MzhjN1YyRWFRVHktNUdWTW55eUVMazlHNkFVWE5DQ2xVcTE1TF9wZjBKTTdRT0x6X0E3NHVXZVM4WlUzU2RBX25zVnRYcUxseHZnMm95SEMyWElYMnNsYlBsNlRqMnZxVTdWUDF2elFuRjBnblBMdVJR?oc=5": {
       "actor": "Kazakhstan authorities",
       "confidence": 0.99,
@@ -9536,6 +9646,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This article concerns Indian political parties (BJP and Congress) and press freedom in India, not the United States. The signal requires evidence of state action restricting press in the U.S. domestic context. Non-U.S. events are out of scope.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZHJ5ZDFhTnNLRjUxZVJxRTFPVmU2ZWJOMmlOZXcyYmM2aVg1aFBZTTY2VHVyMzRsRWRJcHozTXpSb19ZUFV1dE1BbncwMHRVTzhtXzhZYnFHS1dYS0VYaDdmVmJaelMwM0dRMkVjRmFFTTE4eGthblYzcWlYOXpxbDZlTFVZV1B3OHpHUkZhRDFrZmZxd0cwSWZn0gGfAUFVX3lxTE9sRTZjNk9vSTJtSmJBaTlhZ0c4RzZXbFVfakNNZVY2U0ZWQnl4d2FXVXpQaUNFd1pXd3hmbTRLLWtpb3h0UHlQbWpoSUhQT1JGdFYxMmwyRVJFcVZyUV8zYVR6UjBzRXZ0YUJ5aE9ZV1hENkFta0sxY0JtdW44WTVTWmlQUGMxejhDZFRTdFNjcTloUDFqbnhUS1lzLVZNQQ?oc=5": {
+      "actor": "Turkish government",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item reports events in Turkey, not the United States. The signal concerns U.S. constitutional risk. Non-U.S. events are outside the scope of this dashboard regardless of their severity or relevance to global press freedom.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeHdvR00yTUFOeGtUaHVMUW8wNGthNWJRX2RCRTlTQWZxbGtCMWRoUEFDSE9mLU0wa0tLcWdZc01nRkFzVmg4RFBCd0prYmZIWjBjVndDVnRVdzdKR3MyMXEyN2dXbmZIMlV0ZDdqbGtFZEFDWk16d1AteUlTRWlLSlBKUTNEaDRLejZhQjVZUUw4NkVycVNkSHZn?oc=5": {
@@ -10450,6 +10570,16 @@
       "rationale": "CBC (Canadian broadcaster reporting on US) confirms Trump administration using taxpayer funds for 'election-style ads.' Independent international confirmation of the spending. Event occurred; severity 2 (credible international news source reporting the fact, but still lacking an official U.S. legal determination).",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZSV92MGV3OV9JUW1DYW50UWhnRkZKeEhVc1ZlQlNpSjhOWDM3UVJwelFBOHNMb1hiUk5vSUs1cmlNVWdxZFFQRmVnd2FkWlBQMmhfckhfRHBKMU5JLWxpOU9wcVBfa3ZITlQzVnJIRGt3YW9LbThFSFpR0gF6QVVfeXFMTllJX3YwZXc5X0lRbUNhbnRRaGdGRkp4SFVzVmVCU2lKOE5YMzdRUnB6UUE4c0xvWGJSTm9JSzVyaU1VZ3FkUVBGZWd3YWRaUFAyaF9ySF9EcEoxTkktbGk5T3BxUF9rdkhOVDNWckhEa3dhb0ttOEVIWlE?oc=5": {
+      "actor": "White House",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an accusation ('accused of') that the White House is evading a court order, not evidence that it did so. The framing as 'brazen' and 'Whac-A-Mole scheme' is Raw Story's characterization. Without a court document, an official acknowledgment, or detailed reporting showing actual public funds were used for partisan political communication in violation of the Publicity Act, this remains an allegation. The signal requires verifiable misappropriation of appropriated funds for partisan promotion, not an accusation of court-order evasion in an undefined context.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SR2pwN3ZsYWp5MkZMMkZUQkNWSXZlY2JnY041NFhRd3NtMG5kWF9TOUpDSkEyV0dzTTZ6WC1GZVZNb0tocnZyYTNLZkJNcVFGcmhiWEZobFhOMVM3NkdXYVdCSlozemFSWGVfaW9GLTl3Tkt3eXp2SGZMSWplRVU?oc=5": {
       "actor": "Trump administration / federal agencies",
       "confidence": 0.87,
@@ -10539,6 +10669,16 @@
       "primary_source_url": "https://pressreader.com",
       "rationale": "PressReader reports a judge ordered ads paid with taxpayer money to stop. This confirms the core signal event: public funds were spent on political advertising. The judicial intervention demonstrates the constitutional check operated, but the underlying violation (taxpayer-funded partisan ads) did occur, qualifying as severity 2\u2014real but contained by judicial action.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYk1vekU2dW1URV9ZTGhyNUZuVFJGV2ZlbWt1SjE4TWxiTWxrQUpCMHVKZFktQnUwZHVWeDU3eGxhcG14YThEUG1LZDdxMS1KdnZvZkhZX0tUUHNrWk8yVHJtc1oxT1JkUFJ4OHVCdFJZVm9TSG9mM3lfRHhNUkZuU2VYUQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a headline labeling an advertisement as 'propaganda' without specifying: (1) whether public funds were actually used, (2) which agency or appropriation funded it, or (3) concrete evidence of partisan misuse of appropriated money. The word 'propaganda' in a political attack headline is opinion/characterization, not documentation that appropriated public money was spent on partisan promotion. No verifiable event of public-fund misappropriation is reported.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVVM1VEFlRUNqVjJ6WGUwM3lheUU2d0dGWUlYcllrQkgtSkJWYzk5Rk1SaVZiUWVXV3hXN1dGUUE5TlhoTVQwLXNWVGJmNFk5bUp3US05SWFXWDczcXhCSmJwWVpFOVc5RElCQ2F5UDF4UjVKNUJRT1ZRM3BLcmt1U3BFdw?oc=5": {
       "actor": "Trump administration",
