@@ -896,6 +896,16 @@
       "rationale": "The DOJ seeking to block a Senate election result based on the partisan outcome of the race (Republican incumbent narrowly losing) constitutes a serious, confirmed action that moves election administration from a neutral process to partisan control. This is not a hypothetical or proposal but an actual legal action taken by the executive branch to intervene in election outcomes based on party affiliation. This represents official defiance of the principle of neutral election administration and constitutes a high-severity constitutional stress event.",
       "severity": 3
     },
+    "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQ041anJMbnpmY1Z5V0hTMHU1ZHppX2VDT2JYS2g0eXpQV3hFR0I2em5tZzBOZjVZOWgzTVJpemZaNEU1WXFSdlpBNEVlbnhWX01KNEhHbHVWNFhPa1hMS1B4dkpuSk03UFo2bEc3dDBOSWd2dUwybXVCeXhhMmp5bDg2d2pmS0x0cW05YzIyVG9CZUUwRFA4QWJ3YnNfa2ZELVFWWm1XUDlYbVNHZW9yOVZlUGt0TUtFTm1yQlJzRFFRUE5rTFBXeGl0eHRCWlF0ck9Z?oc=5": {
+      "actor": "U.S. Department of Justice",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.wkbw.com/2026/10/25",
+      "rationale": "Report indicates DOJ has issued an order directing California counties to set aside ballots from suspected noncitizens. This is a concrete federal directive that overrides normal county election administration procedures and inserts federal discretionary judgment into ballot handling. While this represents federal assertion of control over state ballot administration, it targets a specific category (suspected noncitizens) rather than partisan outcomes, and is directed at a potential administrative screening rather than wholesale result invalidation. Severity 2: real, credible, contained action affecting process.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQWVtMjV3VGdLUk5FQ1I5UFkydTd2RHdVN1hxRGwwRF9Ka2tTbTh6ckt0R0RDSVdPTVJBbDNVTGQ2b3YzTGtmMGhYYlNxNWF4UHNyS3lDN0tkeFBYUjcwNE9rc0xVbDdNcGd6Zml5QVIxSlRKaDlvT09ZVC02UnNjcEExd3I3UlM3OGUxMHhldEtxWXpQQ05Wd1BDZzVRMEpHSWdTdzU1a1FMNkdtRWsweXJ1VGxKZXdEX0p2Tkp4NHN6aDRwNm1SUEJwMnQ4azFNMl83aTNtamxWV0RL?oc=5": {
       "actor": "Telangana Minister / BJP",
       "confidence": 0.99,
@@ -1294,6 +1304,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item is a headline/opinion piece from a commentary publication (Balls and Strikes). The summary provides no substantive detail about any specific action taken regarding election administration. It appears to be analysis or opinion about Trump's conduct relative to a Chief Justice Roberts statement, but contains no factual claim about an actual event that occurred, no description of what Trump allegedly did, and no evidence of election administration being moved to partisan control. Without specific facts about a concrete action, this cannot be scored as real evidence of the signal event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KOWJDVjlNVHVlZm92anhkUkcwWkladDRyX05fdlNWOE1KY2JKMjFyXzhDUzVrblhqT21rbV90eVREeUNqRWR2cEd1UUxjR0JUYUhhdW9fMEgxOE9INnNNS1dOZ2k1cXZpZFBnOTZad1VWdExnbDdFUVhXaWhPNEE?oc=5": {
+      "actor": "Donald Trump",
+      "confidence": 0.85,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.nytimes.com/2026/10/25",
+      "rationale": "This is a news analysis headline describing alleged or claimed election attacks as entering a 'pre-emptive phase.' The item is commentary/analysis about claimed patterns rather than reporting a specific verifiable action taken that changed election administration authority or process. Without detail on what concrete action occurred, this remains opinion/analysis rather than evidence of an accomplished structural change.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5UmE0cVNRTjZVVkxuYXM1MmZGaXM2RGF0WV9qR3BnczVTSTVnWVZoVHBONUk4b1I1N1lFZ09XUkNacUprOURLVzg4Z0NaV21MNzItdWpTdG5BUS01dElidEl1T3dqb0tsQkxHNHkzbmsyaDFCSHE1R21UbXlmbkE?oc=5": {
@@ -1875,6 +1895,16 @@
       "primary_source_url": "",
       "rationale": "Foreign news outlet discussing potential or hypothetical interference scenarios. The framing '9 ways could interfere' is forward-looking speculation, not documentation of accomplished partisan capture of election administration.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeTFtSVNpVEV6RTJSb3VhQ1I1WEsyYXBaaWxXV0hBZkZ0R0RkN2Nrdm9lRnM2WWhVd19xTWVMVzcyLUM2SExta29EWVI5Q2JJaWJKSmxSNmhHYmwtVUtPUngxUGhfWld0eW9BaTlQRFZjWHptbE9ocWdjQVBUdTl2Nm5wYTVDdnN4Q21DY254dGFxZ2lGQXNfY21PVG4wVjJwZi1rLWszQkFuMEpnN1A4NnZ0RVYtcTlvWlpHeFVlSXg?oc=5": {
+      "actor": "U.S. Department of Justice",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.npr.org/2026/10/25",
+      "rationale": "Report indicates DOJ has filed a lawsuit seeking to block Alaska Senate election results contingent on a Republican loss. This represents a direct federal intervention to prevent certification of election results based on outcome, which constitutes partisan control of election administration and a serious assertion of federal power to override state election administration. A lawsuit filed is a concrete action (not a proposal), and blocking results based on party affiliation is a high-severity manifestation of election administration capture.",
+      "severity": 3
     },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbF84WFJQUHdLSU9fNFJrR2FoN2NBYUdDOGZQNDYxNnhIMGlBTUZlSGxpeGVaRlNRVWo4RlBpN3M3TGkzakFpZVdSeVFOak1HM1V3bXNQU0JpdUxoVDFpYnFiZDU2QlBTa0tDeENNZ0RKQ3hzaUJna2dremlLOFNhQm1MTUoyUXVvMkVpbDJMSmppTXRtdnVRNmQ3UW1kbmJGSDVnWnJ2b202TTEyVUU0NnU1Rng5QV9TUnBMX1FhVEhwU1Y0UXc?oc=5": {
       "actor": "North Carolina State Senate",
@@ -4126,6 +4156,16 @@
       "rationale": "This is a docket entry for a criminal complaint in a prosecution of an individual (Phillip Anthony Viscon). The document summary indicates a standard criminal case filing. There is no evidence this involves retaliation against Inspector General functions, watchdog suppression, or anti-corruption monitoring. This is unrelated to the IG retaliation signal.",
       "severity": 0
     },
+    "https://www.courtlistener.com/docket/74996945/2/1/united-states-v-al-obaidi/": {
+      "actor": "USA (Joseph Teirab); USDA-OIG (John Woolley)",
+      "confidence": 0.97,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/74996945/2/1/united-states-v-al-obaidi/",
+      "rationale": "This is a criminal complaint filed by a U.S. Attorney with an affidavit from a USDA-OIG investigator. The OIG is functioning in its normal capacity\u2014investigating and supporting prosecution of alleged criminal conduct. This is routine law-enforcement activity, not retaliation against the inspector general or anti-corruption functions. The OIG is performing its watchdog role, not being targeted by it. No signal of retaliation is present.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/75001458/1/johnson-ferby-v-novo-nordisk-inc/": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -4154,6 +4194,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.courtlistener.com/docket/75008553/1/morrison-v-city-of-philadelphia/",
       "rationale": "This is a docket entry for a civil complaint filed by a private plaintiff against the City of Philadelphia. The filing itself does not constitute evidence of Inspector General retaliation or retaliatory action against watchdog functions. This is a routine civil case initiating document with no indication it involves IG retaliation, watchdog suppression, or anti-corruption monitoring interference. No material signal present.",
+      "severity": 0
+    },
+    "https://www.courtlistener.com/docket/75015697/1/collins-v-city-of-philadelphia/": {
+      "actor": "KELLY COLLINS",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/75015697/1/collins-v-city-of-philadelphia/",
+      "rationale": "This is a routine civil complaint filed by a private party against the City of Philadelphia. No information is provided about the nature of the complaint, but the document itself is a notice of filing\u2014a standard procedural entry. There is no evidence of retaliation against any watchdog function, inspector general, or anti-corruption monitoring body. This is an ordinary litigation docket entry with no connection to the signal.",
       "severity": 0
     }
   },
@@ -4830,6 +4880,16 @@
       "rationale": "A state supreme court has declined to revive a legal challenge to cannabis laws on threshold grounds (likely standing or justiciability). This represents a real court action foreclosing judicial review without addressing the merits of the underlying legality claim. The action is confirmed and credible (Bloomberg Law coverage of an actual court decision), but isolated to a single state court and a single case. It is not part of a broader pattern or campaign, and does not involve federal constitutional authority or systemic removal of review capacity. It meets the signal definition\u2014courts closing the door on review on threshold grounds\u2014but remains a contained incident rather than a high-severity structural failure. Severity 2 reflects a repeated or credible stress signal of a real but contained action.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMWZxd2RRUUVKQUN4bVBCTVhueWZFSGtSSjZLNlpYelFYMDZrNlN4ZFpvUkpKaE9ZMzJNbF9JbThQeFpDQWRESVlNOTZoc0UtdmhpSTRpbkNEbUFLZTVkb3V2ZEY3Y01XMkNTMTBDNDZRc0NjNnJ3RUV1MTZwS1ZDZDA1bnFvVU5ER3QyQ2hmXzNBbHdDTUUwVmxiZndEVHVMLWE1cko1cw?oc=5": {
+      "actor": "Digital Freedom Project",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://lawyerly.com",
+      "rationale": "This item reports a legal party's denial of a standing objection raised against it\u2014i.e., the party is defending its right to bring a case. A denial or assertion of standing is not the same as a court closing the door on review via standing, justiciability, or emergency-docket grounds. No court order, ruling, or threshold dismissal is reported here. The item is a statement or rebuttal by a litigant, not evidence that judicial review has been foreclosed. Without confirmation of a court decision that actually bars review, this does not constitute the signal event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQ29JV29Ia3ZWZUNVODV2Tzc4TUN6cC0wOHpXMEc5ak5oWDVzSF9VUzBvS00ySnBEdEhSV3JCWDlNNkszVUdFekhEVmxNS2FDUkYydEpjQnVOejFhdmJfVmEwQjA3MFhqM0J3clRWbzhLNWRmTUhRQTV0RHg3TDBWT0RuZU9kYVVwYlBVRnZrdnoxTEs1S3loR0xVVGhXWmJfcERudFFhMA?oc=5": {
       "actor": "Parents/Plaintiffs",
       "confidence": 0.95,
@@ -5312,6 +5372,16 @@
       "matches_signal": false,
       "primary_source_url": "https://campaignlegalcenter.org/",
       "rationale": "The item is identified only by title and organization name. 'Can President Trump Do That?' is a question-form headline typical of analytical or opinion commentary about proposed or rumored executive actions. No specific executive action is described, no statutory bypass is detailed, and no verifiable governance shift from statute to unilateral action is documented. This appears to be an opinion or analysis piece, not a report of a completed constitutional stress event. Without the full text or specific action described, this cannot be scored as evidence of legislative bypass.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1KRHFFRkY0clN2THIzbjEtckNfMmNZODViSlppUGpvTWx3dm5vb0tNWjF6T2l0c0VaN3FhdVlHby1aLW5hVnhuZVlIRzZXeWJ4a01Vd1BVWHA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an international news outlet (Ahram Online, Egypt) publishing analysis/opinion about potential impacts of U.S. midterms on European policy. It is speculative analysis about what a hypothetical new Congress 'could' do, not evidence of an actual executive bypass of legislative authority. The item discusses possibilities and future potential, not a real occurrence of governance action being shifted from statute to unilateral executive action. It is forward-looking commentary, not a report of a verifiable constitutional event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sc0NtT3lLSEl6NlhDR3hPcDhaRzhCYWVRallDcWl4aS1IYkNJZ2xIeWVvLWR5dHpncVJrVmswODRoNDZNR3l2NVBYWkM3aGhZSmlCWUZ0dXJwZw?oc=5": {
@@ -6738,6 +6808,16 @@
       "rationale": "This item is from a Ukrainian-language source (\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430) reporting on Ukrainian government policy regarding pension debts and court rulings. It is not a U.S. domestic event and therefore outside scope for a U.S. constitutional-risk dashboard. Additionally, it contains no reference to martial law or military governance language.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeUxYWXFNMko1WEI2eUk4ejhRaWJXVzI4alFYdUhCdzAtWEN6QVp3MERyeVlYeW5Jc3RDUjl2RFBGUkF0bTBZc0c0RGF5bW13clF5SkZ3aVByVjd1WDVaXzJQZURZRU1QdUpiVUFfRUZfdTZ5X3lJUmZRUkNTbk9za1BHNmdSMzhRNkdGRjlZODJyemVpbGZaQXpOemxscGdkVWIwM2FtTi1aX0gwUi1NX3BYSlZwTThGX294WUoycmg2X05GMnBpWUFRSXRJMWVHZkM0?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is from a Ukrainian legal publication (\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430) discussing a domestic Ukrainian Supreme Court decision regarding enforcement proceedings and arrest duration. It is not about the United States and thus cannot be evidence of a U.S. constitutional-stress event. Additionally, it appears to be a routine judicial matter rather than evidence of martial law or military governance.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRzhNTkdxYk9QQU9ZQmJ1UWdHaTBSRFRlY2hnVEprenJvenNMbl9KSmNydV95LWRYTjBlR2RLQUNzdVpDWFd4TVE2djZvcEtrMklzSWpjVElkVTNvb2xHVEt4Y0VwSzhjMWxPWXdPT2djM1JHdFhaZk9XUkc1QmNCcm9wZVBoT1RqRmFsSmo0dlMyU0djdjQxZkdqb2FoZnVUNmxxZXdQZUFtMlRDeTd2cnQzWHVCaWFObFlUUEhNQmgxbm5TQkJtWXM3WG5JMWlaU0Q0UW5tZljSAd4BQVVfeXFMTTU4V0dkZWh4QWtWTGZZWHY4OGdyUjg0NVdvNVhMbGF0LVRiV0RmUkpna3BrbVhfNC1JamdxdlI5LUU1NlpQeC1RXzhHbWFCSHV3TjlBbjhPRVJIUDEwSFNJVVhGc3NCVGxzOXVKZWlEem9BdG5tb2VGWkxCeThrZjF4SmxiaGFhWnBuU2Z5c2x0RzNEdWFqQjdGWUcyb3Z2VlZxZU53UDkxOVhhQjBFaHFXMUJ1MXBWWVB4VnlxMGlPSi1kUExDNG5Eb0pPTHRSUnZodEhiVGoyZjBPUXhR?oc=5": {
       "actor": "India Today / Indian Supreme Court",
       "confidence": 0.99,
@@ -6898,6 +6978,16 @@
       "rationale": "This item is a Ukrainian legal publication (\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430 is a Ukrainian judicial gazette) concerning a ruling by the Ukrainian Supreme Court on condominium dispute jurisdiction. It is not a U.S. domestic event and contains no content related to martial law, military governance, or military management of political disputes. The signal explicitly targets U.S. constitutional risk; this is a non-U.S. civil procedure matter.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMigwJBVV95cUxNUWUxc3RsR0RmWWtkRzhvWThGQ1h0RmNrUEdzUUJaT3BMRlIzWWZ5SVUxSUl5SFEzVGw0N0V6cmE3RTdvdGpxMzV3eVJJREptd25FSnpBdVplR0d1WHE1cDFLX2FNblcwUXhtNUhVSkNEbmR3YlJFUXRmRExQTjZaTkFSVXFNM29UTXpjaUpkQkJVOFFqcnEyQW5RZ0l0T3JPaTJ1Z0JLN05rTm1aT3UxQnBrbzUyMDdkQkJFQmZGOG0wNGxGdTJRMXRENWt4ckZmTlBSeHpfRmRZb2xUUEhHaW91QjJzOFpDbTVvWTc3dkh2RmNzVERUNjB0S21SazFSQzVB?oc=5": {
+      "actor": "Cabinet of Ministers of Ukraine",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "This item is from a Ukrainian legal publication discussing a Cabinet of Ministers petition to the Ukrainian Supreme Court regarding military registration procedures. While it touches tangentially on military administration, it concerns Ukraine, not the United States, and thus cannot be evidence of a U.S. constitutional-stress event. The signal match is minimal and geographically irrelevant.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN1JTNTMtc0ZLMGxyYXVrMi1fRmdLVXp2TnB1LXJVWThFamhkcXNiZ29qZXZobV82S0lmUDIzQVZaWHhmdXZ1eDFhazMyLU1DbnNHNlJqUDRDdGpHSzBaYnQ1eUxxR09WY1o5VGp1OTFsdDc4dnM4a1lTRGM5V1hRbzE2dVFGWVk?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -7026,6 +7116,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.protectdemocracy.org",
       "rationale": "This item is a FAQ document about the 2026 midterm elections. It is informational/educational content about electoral procedures, not evidence of military governance, martial law rhetoric, or military involvement in political dispute resolution. FAQs about election processes are routine civic information and do not constitute evidence of the martial law signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxNa2lfaTdtcmUzNlJuaWFleFptbTF1djJ1YVVzak1KeDdDTndwUlJqVDFwMU5nN0tmaHh6QmZjdVlEV1pjTUloMUIyT3oxOE4zYThJc1N4R21kU01uSjRhRF9ZNmZMR1JEMUhlU2V4TTFkMHFsOFBKNTROalFNbFZhREtzTDltYmZJVmtkaTNjY1R5X3dIdGdNTDRKNA?oc=5": {
+      "actor": "Mohamed Farmaajo Mohamud",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Somalia's political affairs and electoral processes. It is not about the United States and thus cannot be evidence of a U.S. constitutional-stress event. The content relates to elections and opposition dialogue in Somalia, not military governance or martial law in the U.S.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbUtaeFBUaGw3VDlvczlqWHl0OEdmeU1Oc1NISzVpcml6SmZaQldxVkk3R2h4dWE5LXpWZjFXWW15UTEtbmNRRVdYODhHQmJRa1h4RjU2SWRldEFmcHRUVjBCbC1Gc2pYUEtXdkVfWUlrN2VXb1ZkcnZOcy1UN29fSUZGRWNUTkp6R25MOEtGSHNFS1Npa3JON0ZiR1NzM0pr?oc=5": {
@@ -7780,6 +7880,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Israeli electoral policy toward Palestinian Israelis, not U.S. constitutional events. The signal applies exclusively to opposition ballot exclusion in the United States. Foreign electoral actions are out of scope regardless of their severity.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ucXR1WmI2LUFIdzJ2bDhybFphOUM5NldtdHQtU0ZxRjFzaVhpT0ZLZDV4MlpwVWtWMW5UMnRIaGxBd2k0a2VtblVfSGIzaF9xVEdqbldGWVp3U1F2bkRDVE15YXg2Z2FG?oc=5": {
+      "actor": "Venezuelan government",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Venezuela, not the United States. The signal is defined for U.S. constitutional risk. Although the article discusses opposition ballot exclusion (Mar\u00eda Corina Machado's removal from Venezuelan elections), it is geographically outside the scope of a U.S. constitutional-risk dashboard. No U.S. domestic event occurred.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82WGpfNm1CcGtfeDVKeUhiZ21WVm81OXowSGtjLXZ4ZkgtTkN3MnF6VHhoTzE4OS14SGJkcVBqREtyODZiSDdCWUN0MHh3eVo4UTVkbTFuYXZEWVBvUkg0Y0lfNUtTRVJ4?oc=5": {
@@ -9178,6 +9288,16 @@
       "rationale": "This item concerns foreign press restrictions (not US domestic). The headline refers to watchdogs calling for removal of curbs, which is advocacy/opinion, not evidence of state action raising costs or legal risk for independent reporting in the United States. No US constitutional event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iWEpRZEFpMU1UemQxaUttQkxZanB1X3FEMWpuMFBURGYzckhwYzBXYmk3MkJaNC1JMHdIRGlxdGtuVXJPV3N6OVNuLUJ6LTh5cGc?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "NACLA is a research organization focused on Latin American affairs. The title 'Reporting Under Siege' appears to be about press conditions in Latin America, not the United States. This is a non-U.S. event and therefore not evidence of a U.S. constitutional-risk signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zSWtlbkJ2WERPT2dPNlZoVDV0Z1lIalBianBtd0hmcl85bUdQV1JwU3VrY283cUdINTljLTlOVXpWM3JjckNsWjk5cDdNQXlXNGpabTlEOU4?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -9686,6 +9806,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Pakistan (PECA is Pakistan's Prevention of Electronic Crimes Act; NCCIA relates to Pakistani legal frameworks). It is not a U.S. domestic event and therefore falls outside the scope of a U.S. constitutional-risk dashboard. The signal concerns state action against independent reporting within the United States.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxNclA4NlByUkVBVWJoX2FvZEc5QnBkZGRJVEtVLU5kVEotd0IzMldHTlVtVDd2cmZQMzc1cExHek5JaXBCVFNYR2VzWUV2WjJzb1Bfc1hSQm9VSXcwY3hpUnQtdkZQT2NEdFJvelZUWVEtbjJiNmtJX3NpNGh4LXJYcFBiWUFfcnJ2V2d3eks2RG1TbXZPdEZFSlhvTjN5UQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is explicitly about journalist rights in Asia, not the United States. It is a non-U.S. event and therefore not evidence of a U.S. constitutional-risk signal regarding press restrictions.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxNczhnZExMZXZ4MVJoaDRDY2VhQk9PX040Z3FzT1puWTdjcDc0eldrenNNeUFCcTJFVENCc1c0aG1qZWNfZ040RllPbTBJbVBmbUMyUjU1czc0bzk5SmZhd0hfb19ZRWFHSEo4Uno3Q3FtV2FNR3BsbERTclpOZmNwYk5XTlVXYUxFSGVzQ1lsTTZlLTBLSUJSeFI4MERldw?oc=5": {

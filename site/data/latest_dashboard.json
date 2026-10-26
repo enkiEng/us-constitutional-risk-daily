@@ -1,16 +1,16 @@
 {
   "attempted_queries": 25,
-  "average_7d": 14.49,
+  "average_7d": 16.9,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
     "max": 29,
     "min": 15
   },
-  "confidence": "High",
+  "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": 7.12,
+  "delta_previous_day": 2.0,
+  "delta_vs_7d": 7.08,
   "domain_breakdown": [
     {
       "avg_severity": 2.0,
@@ -27,10 +27,10 @@
       "weight": 15
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.19999999999999998,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 1.1083333333333334,
+      "points": 0.7,
       "weight": 14
     },
     {
@@ -48,37 +48,39 @@
       "weight": 10
     },
     {
-      "avg_severity": 2.0,
+      "avg_severity": 1.65,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 5.0,
+      "points": 4.125,
       "weight": 10
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.825,
       "id": "security_sector_neutrality",
       "name": "Security Sector Neutrality",
-      "points": 2.0,
+      "points": 1.65,
       "weight": 8
     },
     {
-      "avg_severity": 0.0,
+      "avg_severity": 2.0,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.0,
+      "points": 4.0,
       "weight": 8
     }
   ],
   "extraction_mode": "ai",
   "failed_queries": 0,
-  "fetch_errors": [],
+  "fetch_errors": [
+    "military_domestic_political_use: courtlistener: The read operation timed out"
+  ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-25T12:37:42.626301+00:00",
+  "generated_at": "2026-10-26T14:08:17.364912+00:00",
   "methodology_version": 2,
   "previous_score": 22,
   "primary_sources": {
     "documents_confirmed": 3,
-    "documents_fetched": 31,
+    "documents_fetched": 29,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -86,33 +88,24 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 22,
-  "score_raw": 21.61,
-  "score_raw_pre_trip_wire": 21.61,
+  "score": 24,
+  "score_raw": 23.97,
+  "score_raw_pre_trip_wire": 23.97,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 5,
+      "confirmed_hits": 3,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://www.washingtonpost.com/national-security/2026/10/23/doj-seeks-block-alaska-senate-result-if-republican-incumbent-narrowly-loses/",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUVJjQ3FsZnpGZkZjQV9rWlNUbUFOVWlJZ0VlV0MxN1YxTG9vaVZyY0F0WktiOVFhTGlzcFJ0eXF2SHlZU091bFpFaFdFSTF0RmZBMi1lV1VKVFA2TGF5ZUNZRmd2ZkJHbEJCMk52TUI4aVIxQ2djWk9nTE5nbFB3RTdHM2dkT3dGTGljNkNhOThNWnVzcG9FME5xM0UzWFdmcDZjbW9IeXg2Vk9La0R4YnRFNDFxcU9NZ3FPSUVEOEpnMnc1SGN5el92TlVQcC1ndEE?oc=5",
-          "published": "2026-10-24T01:12:40+00:00",
-          "publisher": "The Washington Post",
+          "canonical_link": "https://www.npr.org/2026/10/25/nx-s1-6016212/blanche-defends-doj-lawsuit-blocking-alaska-senate-results-if-republican-loses",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeTFtSVNpVEV6RTJSb3VhQ1I1WEsyYXBaaWxXV0hBZkZ0R0RkN2Nrdm9lRnM2WWhVd19xTWVMVzcyLUM2SExta29EWVI5Q2JJaWJKSmxSNmhHYmwtVUtPUngxUGhfWld0eW9BaTlQRFZjWHptbE9ocWdjQVBUdTl2Nm5wYTVDdnN4Q21DY254dGFxZ2lGQXNfY21PVG4wVjJwZi1rLWszQkFuMEpnN1A4NnZ0RVYtcTlvWlpHeFVlSXg?oc=5",
+          "published": "2026-10-25T17:50:35+00:00",
+          "publisher": "NPR",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "DOJ seeks to block Alaska Senate result if Republican incumbent narrowly loses - The Washington Post"
-        },
-        {
-          "canonical_link": "https://www.detroitnews.com/story/news/politics/2026/10/23/doj-seeks-to-block-alaska-senate-results-if-republican-loses/92398461007/",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWVVrTTNpcUhuU0l4eTJ3d0tZX2kxWk9NZEF2UEVGRHdRYlpzQzhtaG9ZR2I5SjFRU05JNVlqcEFXSGtjaG5jMHRjdFR0VnNVUDVBblR4VVczdFVxNE01bElseDBDUS0zWlRoUmxLZTg0YTBGU0RKMDZNbVNaTmViTGdRTlBYa1RpTThEVEVIcGVONGRuZHo1M2F0R2ZFMkFud1dpeWJuSnAweXc2R0dNTzBZWjZaZnQ0UXNXakhOSWRkMVhXVjVYeVg2YWU?oc=5",
-          "published": "2026-10-23T17:12:00+00:00",
-          "publisher": "The Detroit News",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "DOJ moves to block Alaska Senate result if Republican loses - The Detroit News"
+          "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses - NPR"
         },
         {
           "canonical_link": "https://newsone.com/6874749/dan-sullivan-alaska-trump-lawsuit/",
@@ -122,21 +115,59 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Trump Sues Alaska To Stop A Senate Election If His Guy Loses - NewsOne"
+        },
+        {
+          "canonical_link": "https://www.wkbw.com/politics/america-votes/justice-department-orders-california-counties-to-set-aside-ballots-from-suspected-noncitizens",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQ041anJMbnpmY1Z5V0hTMHU1ZHppX2VDT2JYS2g0eXpQV3hFR0I2em5tZzBOZjVZOWgzTVJpemZaNEU1WXFSdlpBNEVlbnhWX01KNEhHbHVWNFhPa1hMS1B4dkpuSk03UFo2bEc3dDBOSWd2dUwybXVCeXhhMmp5bDg2d2pmS0x0cW05YzIyVG9CZUUwRFA4QWJ3YnNfa2ZELVFWWm1XUDlYbVNHZW9yOVZlUGt0TUtFTm1yQlJzRFFRUE5rTFBXeGl0eHRCWlF0ck9Z?oc=5",
+          "published": "2026-10-25T13:43:56+00:00",
+          "publisher": "WKBW",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Justice Department orders California counties to set aside ballots from suspected noncitizens - WKBW"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 7,
+      "hits": 6,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.washingtonpost.com",
-      "rationale": "The DOJ seeking to block a Senate election result based on the partisan outcome of the race (Republican incumbent narrowly losing) constitutes a serious, confirmed action that moves election administration from a neutral process to partisan control. This is not a hypothetical or proposal but an actual legal action taken by the executive branch to intervene in election outcomes based on party affiliation. This represents official defiance of the principle of neutral election administration and constitutes a high-severity constitutional stress event.",
+      "primary_source_url": "https://www.npr.org/2026/10/25",
+      "rationale": "Report indicates DOJ has filed a lawsuit seeking to block Alaska Senate election results contingent on a Republican loss. This represents a direct federal intervention to prevent certification of election results based on outcome, which constitutes partisan control of election administration and a serious assertion of federal power to override state election administration. A lawsuit filed is a concrete action (not a proposal), and blocking results based on party affiliation is a high-severity manifestation of election administration capture.",
       "severe_hits": 0,
       "severity": 3.0,
       "severity_label": "Orange",
-      "unique_publishers": 5
+      "unique_publishers": 3
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "federalism_oversight",
+      "evidence": [
+        {
+          "canonical_link": "https://abcnews.com/Politics/doj-house-oversights-subpoena-longer-obligates-bondi-testimony/story?id=131841587",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORTJiZlVKWkpFTkRRTnUtaVl2MkptSGRSZ1ROV1pyV3dLNFdyRGV6RDRybUJXMzgySjJkYUhsbGdHNGw1Mmw4VExNY1JaMENkSWtFeE5qM3pOUk9seW42eHhCYTQ0ZUcxLTM5TXdTQVdwOHVsVlFmUUpTQ0J0TGEwYVFLaHN5d3pHTGlVaTBhc1BHdFZvdzN5MzVrenZ3VldUcnhmSXZKRTlDWEUtQ1Q00gG0AUFVX3lxTE5ad3ZZQm5USXplejJSZkdVTnNHcUJ2U3ZLTlhnUTR1RTU5WVFjYVRoM181UW9sV1RJdnMtUWNiVXJ6WjQ2T3dyZ1FmaWxmWnh6cHdMTmFSaWgtZzVjNHlhN05BR09IX2p0Mk9FTEVVYU5yTFVkbFdNU3hpanhGaFpXU2ZZeEdKRzZscGRVVnJ5SlM4UHF5c0lBQ2FkN1pvdkd0UjBIN3JkN0ZIUjdNeDN1bVE0Yg?oc=5",
+          "published": "2026-10-24T14:41:57+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "DOJ says House Oversight's subpoena 'no longer obligates' Bondi testimony in Epstein matter - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "DOJ assertion that a House-issued subpoena no longer obligates testimony constitutes a direct obstruction of legislative fact-finding. The DOJ has taken an affirmative position that removes the binding effect of a lawful legislative subpoena without a court order or statutory authority. This is a confirmed high-severity action blocking executive accountability to Congress in an ongoing investigation. The systematic claim (that the subpoena 'no longer obligates') represents an official position that strips the House Oversight Committee of its core fact-finding power in this matter.",
+      "severe_hits": 0,
+      "severity": 3.0,
+      "severity_label": "Orange",
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 1,
@@ -144,93 +175,26 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://leadership.ng/us-judge-orders-trump-to-halt-taxpayer-funded-tv-ads/",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX1NWcmIxbi0tSnJLc0JmSTdEdHFBeUcxVy1vM21NS3RpN0xXb3VFSHNKM2lJcXc3UGhJeHRBN29TSWxZcXJZVEc3WENfMUhGU0NlQ254b0s0dXVFMFk5aDBrUWlxNE93YmN2WUhDQ08xaTVmSjhlNHlZWFQ3MF9vMg?oc=5",
-          "published": "2026-10-23T13:35:19+00:00",
-          "publisher": "LEADERSHIP Newspapers",
+          "canonical_link": "https://abcnews.com/Politics/trump-administrations-campaign-style-ad-fox-news-taxpayer/story?id=136723829",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEc3UWRPWjdaWkt2Wk9vcklvTkd3LUU0eEFHNnBTNGE1M01jZ1ZsczFwN0o1VjVmMk9rU3kxOUx5M1N2V1MtLVRqNjFfUXJYV0FQeFJSV3pBSEJ1Y2NFV29FMzFGLUxmVGVRa2tVVnhwM3hRYVhzSnFRM2YzUklyR3BjQm4xOUltenU0V2lRSHB2SzJlVmpMLV9lMHdGT2dJU3FBZG5FVVnSAa4BQVVfeXFMT2lPdUJtQ0JKMEs1aVhMMUFfOXFWRmxwZlBsSk9LYjFHX3pMamdNOUV6c1BNZnQwdGtVUzRTMS1IVzJoWjl4c3Z1elZtdWotY2MwazN5UzhQNGk1TGtnSGJhMzI3WUNlY3BlemEzWGlNMkpGNnFjNXZiZU1vQVZ3SFRPYklhZjN1ek4wWUN3ZUt4YUxMcDJpTmhGMjhaVkg4Wm0tMm9CbERyWnVENjNB?oc=5",
+          "published": "2026-10-26T08:33:03+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "US Judge Orders Trump To Halt Taxpayer-Funded TV Ads - LEADERSHIP Newspapers"
+          "title": "Administration's pro-Trump TV ad is taxpayer-funded - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 1,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://leadershipnewspapers.com",
-      "rationale": "LEADERSHIP Newspapers reports a US judge's order to halt taxpayer-funded ads promoting Trump. Another corroborating account of the judicial intervention against the unlawful government spending. The order itself is the serious action; severity 3 reflects confirmed court response to the breach.",
+      "primary_source_url": "https://abcnews.com",
+      "rationale": "News report confirming that an administration aired TV advertisements promoting the officeholder using taxpayer funds. This constitutes spending of appropriated public money on communications that promote the officeholder rather than serve a public-information purpose, which directly matches the signal definition. The report itself treats this as a real occurrence (not hypothetical, opinion, or allegation), though the severity is moderate because this appears to be a discrete action that has been detected and is now subject to public scrutiny and potential legal challenge. No court order has been defied, no structural constitutional breakdown has occurred, but the alleged violation of the 1950s appropriations prohibition on 'publicity or propaganda purposes' is material.",
       "severe_hits": 0,
-      "severity": 3.0,
-      "severity_label": "Orange",
-      "unique_publishers": 1
-    },
-    {
-      "confirmed_hits": 2,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://www.aljazeera.com/news/2026/10/23/trump-administration-sues-to-block-possible-democratic-win-in-alaska",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeHpCbWlId2dzMFBBZWs3c01TRWdpbU9pdjhCa3FiS0IwTENjZGt1Y3FDaXUtRXJSbHFrcE93ODZfOWlWUE8tNk9iZS0wVUsxUFJQZFdXZE0yaVV1X2c3aE1fckF3N0l4UnFuemloQ1pBNkVjX1NJVldobW95UkV1Rzhnd3ZQMGhfUDEyR1ZQb3BFMkloTHZsa2lUUnhMQ2JSMGx0QVIyOG0tWl9yU1JN0gG0AUFVX3lxTE9XYmhVRGs3alBEN2pZSHRmVVk5dXY2Ml91R0M1LTl0WVdQeHZxZjJRdnNIc2tNUjNlOVc0MUVpQW5IOEk3WmVlaU41NUNucENWTEFPWEJJOU1SZk9kV0lfNFY3MWhyakdrb3hqc2xTV0x3RkN2bkhYN3BLYTFrdU9zc3ZyN0N4UlRNcHd0bU5qUWdKa2lqclZLZWZ2SWdiSE5lalIwb0tiVmtuX1lNRFlSMVlMNw?oc=5",
-          "published": "2026-10-23T21:23:29+00:00",
-          "publisher": "Al Jazeera",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump administration sues to block possible Democratic win in Alaska - Al Jazeera"
-        },
-        {
-          "canonical_link": "https://www.lawcommentary.com/articles/trump-doj-alaska-senate-election-certification-dan-sullivan",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUFAzbjAybERFdWRsNjFaaDd0VUNMSFlYV1JGbHRsb2tXLUFaTjNIQ1VOanl2ekNCUWljdzBzSGp3RFVSOGl0MHBVdW1OSm1YWTRLWjNsQmIxRlUxd25XNDFhdDRoTVZMUGtCbGpramJ4eHc5NF8zb3BacWI3RXZUczR1bmFrSmVvd0lRdkhCd2kzRncwRGJhZHlPc1pFcDQ?oc=5",
-          "published": "2026-10-24T00:41:13+00:00",
-          "publisher": "Law Commentary",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump DOJ Sues to Block Alaska Senate Election Certification if Republican Sen. Dan Sullivan Loses - Law Commentary"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "election_certification_interference",
-      "name": "Election Certification Interference",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 1,
-      "primary_source_url": "https://www.courtlistener.com/docket/75009254/5/united-states-v-state-of-alaska/",
-      "rationale": "Al Jazeera reporting corroborates that the Trump administration has filed suit with the stated aim of blocking Alaska Senate election certification in the event of a Democratic victory. This is independent confirmation of a real legal filing by the executive branch designed to interfere with certification based on electoral outcome. The action (filing suit) has occurred. However, the suit represents an attempt to create legal grounds for interference, not yet a completed block or override of certification. Severity 2 reflects this as a credible, repeated-source, confirmed stress signal of a serious nature, but not yet a structural constitutional failure (level 3-4).",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "security_sector_neutrality",
-      "evidence": [
-        {
-          "canonical_link": "https://www.sacbee.com/news/politics-government/capitol-alert/article317752914.html",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMjRoY2tCUHhYWmFNTU9VeW4tQXlybUktWXJxay1vSm5DMXdLd0txUnhkTl9HbWlEcHVmam9aX2VtLTBZMS1FX245aVpOcGdDSkhxYjZ5WU42X29kZGp0bi1IYnkycWgzYkotczNERjZUS0dNdmxQMkVuS2Zpb3BsMXgweTZLWVlKLVJF0gGLAUFVX3lxTFBYc3VEZnh3Wnp2MWNwMUk5TG1mVWlVRG4wYmNmRThRaTJsTEJDNWdPWHQ3OGlQSUJTSGd4U0xNc2FCLWxVQWpmNTlnNmVRRXRXbGFTOEhKZmFqcGR1MDdWYk5FdG5fNno1UzdoVHZ6UGpJTUdIaDNPeHA3MG50dS04UHd5QlhGVDByY0U?oc=5",
-          "published": "2026-10-23T22:05:42+00:00",
-          "publisher": "Sacramento Bee",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump\u2019s deployment of CA National Guard amid protests was likely illegal, court says - Sacramento Bee"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "military_domestic_political_use",
-      "name": "Domestic Military Use in Political Conflict",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 1,
-      "primary_source_url": "https://www.sacbee.com",
-      "rationale": "A court has found that a deployment of National Guard during protests was likely illegal. This constitutes a real, verifiable action (the deployment itself occurred), not a hypothetical or proposal. The deployment represents military use in a domestic political context (protests). However, severity is 2 rather than higher because: (a) the action has been adjudicated as likely illegal by a court, meaning legal safeguards operated; (b) no evidence is presented that the deployment was part of a structural effort to override constitutional processes; (c) it is a contained incident rather than an ongoing pattern or systematic defiance of courts. The severity reflects a real but contained stress signal with legal accountability mechanisms engaged.",
-      "severe_hits": 0,
-      "severity": 2.0,
+      "severity": 2.65,
       "severity_label": "Yellow",
       "unique_publishers": 1
     },
@@ -284,6 +248,54 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "canonical_link": "https://www.courtlistener.com/docket/75009254/5/united-states-v-state-of-alaska/",
+          "link": "https://www.courtlistener.com/docket/75009254/5/united-states-v-state-of-alaska/",
+          "published": "2026-10-23T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "United States v. State of Alaska"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 0,
+      "id": "election_certification_interference",
+      "name": "Election Certification Interference",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 1,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "security_sector_neutrality",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "military_domestic_political_use",
+      "name": "Domestic Military Use in Political Conflict",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
         {
@@ -296,26 +308,26 @@
           "title": "United States v. State of Alaska"
         },
         {
-          "canonical_link": "https://www.thenation.com/article/world/israel-election-explainer-netanyahu-eisenkot/",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaFJVcXJraENPUXRnM0JGZjZDZ3dBek1YZU1OUzYwcXBYQ3h6WTNuSVhrMFY3enJFT0dlYmFTeWk2LWgxaFZCeFBfdzQyXzRGeVBNS0FnZ0JZMFRKR2lzS2R5M1NhcjlHSXFzRDduYWxvSnp1RWFydVgzc2ZUVTBfV1loTTVual9JbnBHQ2N30gGWAUFVX3lxTE05Z244OTdJX1ZNcmtTMFJUQUxpYmFmU0l3X0w5RDJiM3Izb0JCazZKUTJkYXl2VVVyMnRBQ3hBbEVZYUxtY0NxNUR5anVEaV9rUzNmMXFJcEdscjFPWHNLWi1YRE9rZkJJZWNDTWtQNGlSVHFWbGVJYW81djRXLTRHRUwzMnF5MnlldEl6ckFpN3A1blVRZw?oc=5",
-          "published": "2026-10-23T16:06:33+00:00",
-          "publisher": "The Nation",
+          "canonical_link": "https://www.diplomacyandlaw.com/post/maria-corina-machado",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ucXR1WmI2LUFIdzJ2bDhybFphOUM5NldtdHQtU0ZxRjFzaVhpT0ZLZDV4MlpwVWtWMW5UMnRIaGxBd2k0a2VtblVfSGIzaF9xVEdqbldGWVp3U1F2bkRDVE15YXg2Z2FG?oc=5",
+          "published": "2026-10-26T01:53:10+00:00",
+          "publisher": "Diplomacy and Law",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Israel\u2019s Extremist Election - The Nation"
+          "title": "Mar\u00eda Corina Machado Returns: Venezuela\u2019s Missing Election and Her Right to Run - Diplomacy and Law"
         },
         {
-          "canonical_link": "https://www.thehindu.com/news/national/bihar/jdu-expels-anant-singh-for-six-years-seeks-his-disqualification-as-mla/article71620096.ece",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPLUhNcWI0VDhJTjNkdDZrTEVOMUJTOTg1aE52aFBmS1NNR0d3Rnd5T2FQVGJyYlRkMVQ2TzBlRWctNjVUQ29aSHBqbGYxWVVtVVcxVEdQRGJ5WE13Tkx6V2JLZ0pmZHowckExN2xyaUFnT2lidFNCRS1LZS1uUkdaLVRtMnFaZTVjQm14QkJLVWxybFRWTGNOSEZQQkFuMVdxLXdyc1lDS0pHMFNzbDQ2UUVDWndhSW85MkMxT2owOC1MZmljM1hvVmdSWXVDblpw0gHXAUFVX3lxTE9ld1JET1NzYlZrc0NUQWFHT080VUtZM1BEQm9ROHJfMzJvVjdNYVoxNTJvYkZENFkyRUNJR0NDS0ZVTHF0WHQ5RWJucEZVM3Z4eWFuMF9wOG5MNFJtSmxiZU0zbVdiTktrbnZnaFB4SGRfdkJHU0ZmVEhhM2N3aUp6TnA3TlFoRkF1VmZVazFSOU1KT3JLbTVZUm9IRlJrWExTTjNzS1NINXBfamNQSjRFRlVHYVZfWGgtOU1SQmJKZDROU3hSZGg3M1ktSUszUmpjYzhVc2Y4?oc=5",
-          "published": "2026-10-24T12:58:01+00:00",
-          "publisher": "The Hindu",
+          "canonical_link": "https://iol.co.za/news/crime-and-courts/2026-10-09-court-rules-mbalula-unlawfully-removed-lungisa-from-anc-election-list/",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSm1WM1JYdWlUYWRzRklDbnByYi0tZmlBSmFsN2tHaWRWVDViN3hnVmpJRS1zVEstUy1POC1sRzBlZV9wU0ZzX1o2RlBXOEJSUll5cDZwV0xDRzVIaVVrN2M0MFJkVXBkajZTQjU1YW1aS3plakl0dG5aWjBpVHRUbG5FSDdONlg0LVpJWVdJZXBWSlFnU3k0RmZKRnl4cGZ1Zkk2LXZpQ0VZYkpzV0lGeUtlWU1YUHgxeVRTdmJB?oc=5",
+          "published": "2026-10-25T00:04:32+00:00",
+          "publisher": "IOL",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "JD(U) expels strongman MLA Anant Singh from the party for six years - The Hindu"
+          "title": "Court rules Mbalula unlawfully removed Lungisa from ANC election list - IOL"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 4,
+      "hits": 2,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
@@ -324,8 +336,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -333,6 +345,15 @@
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
+        {
+          "canonical_link": "https://nacla.org/reporting-under-siege/",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iWEpRZEFpMU1UemQxaUttQkxZanB1X3FEMWpuMFBURGYzckhwYzBXYmk3MkJaNC1JMHdIRGlxdGtuVXJPV3N6OVNuLUJ6LTh5cGc?oc=5",
+          "published": "2026-10-26T13:13:25+00:00",
+          "publisher": "North American Congress on Latin America (NACLA)",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Reporting Under Siege - North American Congress on Latin America (NACLA)"
+        },
         {
           "canonical_link": "https://www.timesofisrael.com/thousands-in-turkey-rally-against-escalating-crackdown-on-media/",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZHJ5ZDFhTnNLRjUxZVJxRTFPVmU2ZWJOMmlOZXcyYmM2aVg1aFBZTTY2VHVyMzRsRWRJcHozTXpSb19ZUFV1dE1BbncwMHRVTzhtXzhZYnFHS1dYS0VYaDdmVmJaelMwM0dRMkVjRmFFTTE4eGthblYzcWlYOXpxbDZlTFVZV1B3OHpHUkZhRDFrZmZxd0cwSWZn0gGfAUFVX3lxTE9sRTZjNk9vSTJtSmJBaTlhZ0c4RzZXbFVfakNNZVY2U0ZWQnl4d2FXVXpQaUNFd1pXd3hmbTRLLWtpb3h0UHlQbWpoSUhQT1JGdFYxMmwyRVJFcVZyUV8zYVR6UjBzRXZ0YUJ5aE9ZV1hENkFta0sxY0JtdW44WTVTWmlQUGMxejhDZFRTdFNjcTloUDFqbnhUS1lzLVZNQQ?oc=5",
@@ -343,22 +364,13 @@
           "title": "Thousands in Turkey rally against escalating crackdown on media - The Times of Israel"
         },
         {
-          "canonical_link": "https://www.democracynow.org/2026/10/23/headlines/press_crackdown_in_egypt_mada_masr_editor_lina_attalah_referred_to_trial",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSl9ILU1BU25VSmJGcTJPejRDczRtLU03VVlfd0lDSlZCeU16NDRKc0EyYlBobGdwUVZJRTNJZzljOTBBeTA3N29FOS0tX3JrN3VzUTB4cHlQVXQ5ZVBTb1VBbWRxeE9tTkVwU1c5amd0RFBidS1PQURwMFRVX0pVOUJpNmxYZExva0J1d2NRWHh4YkQ2MzVoM2ZnSURfdkFyVDlKRk0yOVZTMHRvTmlRRDBveWZ3TGdaSWl3T2l1VQ?oc=5",
-          "published": "2026-10-23T14:08:39+00:00",
-          "publisher": "Democracy Now!",
+          "canonical_link": "https://www.journalismpakistan.com/what-rights-do-journalists-have-when-covering-protests-in-asia",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNclA4NlByUkVBVWJoX2FvZEc5QnBkZGRJVEtVLU5kVEotd0IzMldHTlVtVDd2cmZQMzc1cExHek5JaXBCVFNYR2VzWUV2WjJzb1Bfc1hSQm9VSXcwY3hpUnQtdkZQT2NEdFJvelZUWVEtbjJiNmtJX3NpNGh4LXJYcFBiWUFfcnJ2V2d3eks2RG1TbXZPdEZFSlhvTjN5UQ?oc=5",
+          "published": "2026-10-25T16:19:10+00:00",
+          "publisher": "Journalism Pakistan",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Press Crackdown in Egypt: Mada Masr Editor Lina Attalah Referred to Trial - Democracy Now!"
-        },
-        {
-          "canonical_link": "https://www.facebook.com/sunstardavaonews/posts/journalist-arrested-over-cyber-libel-caseveteran-journalist-philip-lustre-jr-was/1603651538469722/",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVnJuNHB3aldXdVJETEhDNnRfTFZVdURYR284SkdhdjQ2dHFFb1Baazlmdk9IOFdfUzRITDRZY3hQYjdDMkJvSkljMXFVRFJwNm50a2l0cXlTeDZRbVhFLUM2UFMydHlEUmdnSzNQanRnZ05SWWx1YkNEMV9ybkowSnZBVGxUQnFFaEp3eXktRkI2NC1Yd1RYalRzTzdxSGNsOWw0Y1YzczRwQXNVZ3QwYzZsQ3BjaXdXOFVSci1kZW80eU1YcllqWmIya0E0ZUhBc1pZU29SVzdVTGt5Y1dz?oc=5",
-          "published": "2026-10-24T04:36:04+00:00",
-          "publisher": "Facebook",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "JOURNALIST ARRESTED OVER CYBER LIBEL CASE Veteran journalist Philip Lustre Jr. was arrested by police shortly after attending the House of Representatives\u2019 \u201cSaturday News Forum\u201d in Quezon City on Saturday, October 24, 2026, by virtue of an arrest - Facebook"
+          "title": "What rights do journalists have when covering protests in Asia? - Journalism Pakistan"
         }
       ],
       "evidence_mode": "ai",
@@ -370,8 +382,8 @@
       "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.6,
+      "severe_hits": 1,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -380,6 +392,15 @@
       "critical_hits": 0,
       "domain_id": "civil_service_integrity",
       "evidence": [
+        {
+          "canonical_link": "https://www.courtlistener.com/docket/75015697/1/collins-v-city-of-philadelphia/",
+          "link": "https://www.courtlistener.com/docket/75015697/1/collins-v-city-of-philadelphia/",
+          "published": "2026-10-23T00:00:00+00:00",
+          "publisher": "courtlistener.com",
+          "source_name": "courtlistener",
+          "source_tier": "primary",
+          "title": "COLLINS v. CITY OF PHILADELPHIA"
+        },
         {
           "canonical_link": "https://www.courtlistener.com/docket/75008553/1/morrison-v-city-of-philadelphia/",
           "link": "https://www.courtlistener.com/docket/75008553/1/morrison-v-city-of-philadelphia/",
@@ -397,15 +418,6 @@
           "source_name": "courtlistener",
           "source_tier": "primary",
           "title": "California Indian Legal Services v. United States National Archives and Records Administration"
-        },
-        {
-          "canonical_link": "https://www.courtlistener.com/docket/75001458/1/johnson-ferby-v-novo-nordisk-inc/",
-          "link": "https://www.courtlistener.com/docket/75001458/1/johnson-ferby-v-novo-nordisk-inc/",
-          "published": "2026-10-21T00:00:00+00:00",
-          "publisher": "courtlistener.com",
-          "source_name": "courtlistener",
-          "source_tier": "primary",
-          "title": "Johnson-Ferby v. Novo Nordisk Inc"
         }
       ],
       "evidence_mode": "ai",
@@ -418,7 +430,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
