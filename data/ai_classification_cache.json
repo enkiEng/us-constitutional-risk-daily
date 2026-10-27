@@ -202,6 +202,16 @@
       "rationale": "This item is an opinion/analysis piece from Just Security offering a framework or thesis about governance and democracy. The title and summary contain no reporting of an actual civil service purge, Schedule F reclassification event, or any concrete politicization action. It appears to be editorial content or policy analysis rather than documentation of a real occurrence. Without specific evidence that a Schedule F reclassification or at-will reclassification of career civil servants actually took place, this does not constitute evidence of the signal event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item is a headline/summary only with no substantive content provided. The headline mentions individuals being 'targeted' but provides no detail about whether any Schedule F reclassification, removal, or politicization of civil service has actually occurred. 'Targeted' could refer to political criticism, investigation, prosecution, or other actions unrelated to civil service purge. Without details of the actual action taken\u2014whether removal, reclassification, or other measure\u2014this cannot be scored as evidence of the signal (politicization of career bureaucracy through at-will reclassification). A list of names being named is not evidence that a civil service action occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiugFBVV95cUxORTUzTHRfS0tWSmlZdE9rbUFXN0xuc013b2V2ZHZvbDVRQVVoanFjU3BvTG5zQkpIcGpaR3VFWnMtSldmbUl6RVB5S2FpXzBTZ3pXSG1LQjlXX3lpcWJfdEFaaEhLLVhoY2ZnNVAybHJ3TzFGWDNLbmlkOHhvSFN4U2ZrSjl4N2VabEx4LTR4WWt4Yk1HZzNpSm00NWhrUnZwV1hZVXl2a0Zsa3ZhS3dfTWtPTXc2c2lQdXc?oc=5": {
       "actor": "MSPB",
       "confidence": 0.92,
@@ -873,6 +883,26 @@
       "primary_source_url": "https://www.courtlistener.com/docket/74998881/7/hc-askarov-v-warden-golden-state-annex-facility/",
       "rationale": "This is a routine procedural minute order (case consolidation/relation notice under Local Rule 123(a)) from a district court. It is a standard administrative action managing case dockets, not evidence of court order noncompliance. No party has refused to comply with any court order; this document merely consolidates related habeas corpus cases. It contains no indication that any executive or administrative body has defied or refused to comply with a judicial directive.",
       "severity": 0
+    },
+    "https://www.courtlistener.com/docket/75016119/8/musumeci-v-warden-of-krome-north-service-processing-center/": {
+      "actor": "Warden of Krome North Service Processing Center (executive/administrative official)",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.courtlistener.com/docket/75016119/8/musumeci-v-warden-of-krome-north-service-processing-center/",
+      "rationale": "The court issued an emergency order and subsequently found it necessary to issue an order granting a motion to enforce that order, with counsel representing that the petitioner was transferred out of the district and state on the same day the court granted the underlying petition. This indicates an administrative official (the warden) did not comply with a court's order. However, the document itself shows the court responded with enforcement, and the petitioner was ultimately returned, suggesting the noncompliance was contained and corrected through judicial intervention. This is a real but isolated instance of administrative noncompliance, not a structural pattern or an official campaign to defy courts.",
+      "severity": 2
+    },
+    "https://www.courtlistener.com/docket/75022895/1/1/cmi-usa-inc-v-corsair-gaming-inc/": {
+      "actor": "CMI USA, Inc. (private litigant)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.courtlistener.com/docket/75022895/1/1/cmi-usa-inc-v-corsair-gaming-inc/",
+      "rationale": "This is a motion to compel filed by a private party in an ordinary civil dispute. It is a procedural request asking the court to enforce deposition subpoenas\u2014a routine litigation step, not an executive or administrative body refusing to comply with a court order. The motion itself is evidence of potential noncompliance by a private defendant, but not of executive/administrative defiance of a court order, which is the constitutional-risk signal being monitored.",
+      "severity": 0
     }
   },
   "election_administration_capture": {
@@ -925,6 +955,16 @@
       "primary_source_url": "",
       "rationale": "This item concerns India's election commission procedures and is not relevant to U.S. constitutional risk. The signal addresses election administration capture in the United States. Coverage of another country's electoral systems does not constitute evidence of the signal event occurring in the U.S.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSHduYlRwNnZxSGdEVk1MQ1RKM0VTVTZMZlkzdk9oZmZFU09MYnVlbWtRUURCb0txeUFqSWE0TFgxTTRnU09abzNqdHhYM2ZPeEt3SUx6WjVDVVZZWHd1bFdWaG14RFYwNkgwOVFjU1BLaGk1QlJBck5lUllUOVRQeWhJSi1Rbjc2RUtrTHJoQkE3eERxdkhOa3RISUs3VUZWVVhHZmlMX182VG1mdkN0dkppVFZpLXZ6T0xYMTdiVW0yQmtjX1lIMnQ3VlhBdDZWYmJ6WUNnUjV5b1lU?oc=5": {
+      "actor": "Department of Justice",
+      "confidence": 0.8,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The DOJ ordered California counties to set aside ballots from suspected noncitizens. This is a real, confirmed directive issued by the executive branch to election officials\u2014an attempt to intervene in ballot handling and election administration. However, the order appears to have been subsequently rejected or blocked (per items [1] and [5]). The issuance of the order itself is a credible stress signal showing executive pressure on election administration, but without evidence that counties complied or that the capture persisted (given court rejection), this represents a contained attempted intervention rather than successful capture. Severity 2: a real action showing strain on election administration independence, but checked by courts.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOR3V1XzVWLWtERDNOMlRjTm5NR0UtbHl1d1BPeF92Mnl5TDRydzh5LTVBYVlnUUt3S1NyYXFKZWRNYXdNTDVIMkZQWkFJQzgyaHRUbU93clAtTldBQzlzS3lQeGpDaUN5NjVLbHI0ZjRDekxreW9rallTNm9HY3pSRXdJSlZvUUUyZEQxOXZZVGhzeVlCOWJ6ajZiS2FXRWY4VUN2THhPa1hkLTQtSWw1amZjZ2dQQTJzdDJOaFVoQXhjazY5MkVXemVEeW5tdWFDM0lFV0ZjanVyRFRBbVE?oc=5": {
       "actor": "North Carolina county election officials (unnamed)",
@@ -1446,6 +1486,16 @@
       "rationale": "The item provides only a headline fragment indicating criticism of an appointment and election law changes by someone named Stein. No substantive details are provided about what changes occurred, whether any election administration was actually moved to partisan control, or whether any verifiable action (as opposed to criticism or opinion) took place. Without content details, this cannot be distinguished from commentary, proposal discussion, or opinion. Criticism of policies is not evidence of election administration capture occurring.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNUloVG1BaGRBWDBiQjhsOFBDcUhjUU9zeUhLQURNSUxRWWJweTJmRHRXdUpYQm5XaW1UWWZEWG4tcHlQTUV3Q3pmWmIzVHVsSER0S0tzWF9UQm9ZNXBQZkE5YW4tU3gzNFh2TWZtd1VRTHlodkVkbzVRVkZTXzF4YUlxQnZzXzJ3?oc=5": {
+      "actor": "Department of Justice; Appeals Court",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "An appeals court rejected a DOJ bid to block ballots. While this involves the DOJ attempting to intervene in California election administration (a signal of potential capture pressure), the court rejection shows the judicial check functioned and prevented the capture attempt. The fact that the DOJ lost its bid indicates election administration remained neutral/independent. The underlying action (DOJ filing to block ballots) is real but was blocked by courts, so it does not demonstrate successful capture\u2014rather it demonstrates judicial independence preventing capture. Severity is low because the attempt failed.",
+      "severity": 1
+    },
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLWRSZzhHbmM1MEs0UVg0R1QwaE5BT2szbG5aeUxwVVpSbFdlRS12T0FudTdUamFreG52OWZ6Wk9lSjRvTXJxSU4yWEpiU0VIX0ZYNXRUVk1lZDZFLVdzV3Uzc1lINXpRNi1kV1pmcjdJbzlYemU4X1FWUGVod0k2QnJkWmN2WTho?oc=5": {
       "actor": "California",
       "confidence": 0.93,
@@ -1686,6 +1736,16 @@
       "rationale": "The item is identified as a handbook\u2014a research or educational document from a nonprofit policy organization\u2014not a record of an official action that has occurred. A handbook analyzing an existing law is analysis, interpretation, or guidance material. It does not itself constitute evidence that election administration has been moved to partisan control; it is commentary on a law. The summary contains no information about what action the handbook describes, when it occurred, or whether partisan control was actually implemented. Without evidence of a specific official action that transfers election-administration authority from neutral processes to partisan actors, this does not constitute real evidence of the signal event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSFZWQU41eVBRQXdCa2JWYmpnR0F3c3hGTk42MF8tVFExV2RBajdDLXM3RS1wcmtCT2xxY3pnb04yV2FXMzF2TjJDeTBlV2RGbHJvNlNsMmJOcXdaWW1OV0VtQW1YMkZTdC1MUEp4bnREdnhWX3FGN3Y1bm9sbzFBWTdNMERqTGpZdVRhNjZ4dG1EM0FVZEFTak1sMEhiaXpJRUE?oc=5": {
+      "actor": "Department of Justice; Alaska official (Peltola)",
+      "confidence": 0.8,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The DOJ filed a lawsuit over Alaska Senate election results, and the defendant (Peltola) sought dismissal. This is a real legal action in which the DOJ attempted to contest election results through courts. However, the lawsuit appears to be in the initial pleading stage, not successful capture of administration. A judicial motion to dismiss suggests the lawsuit may fail. This represents an attempt by the executive to pressure election administration through litigation, but no evidence shows successful capture or that election officials changed conduct under pressure. The judicial process is functioning.",
+      "severity": 1
+    },
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUGMwMzN2WkxUa2pfTHY1UGRDM3lpdUJGc3hZdUhseVY3RVdLN0x3eTFMOVNKZ01fb1NfSGlpc3daYWJOZVcyN3hRTUVYOWlJeUhON29LcjlrVlBnSU43czZMbjZoNG5PTHk5a2VFS3hzUW1qY2pMeUNRRWNvOFdHWFc4QU5pdFJvRENMRm4zOFJST0NNSVdzbEh1SHhuZUFZRFRZ?oc=5": {
       "actor": "Trump",
       "confidence": 0.95,
@@ -1814,6 +1874,26 @@
       "matches_signal": false,
       "primary_source_url": "https://www.washingtonpost.com",
       "rationale": "This is a headline-only item with no substantive content provided. The framing (\"threat election officials fear\") indicates opinion/analysis about a feared future scenario rather than a documented action that has occurred. Without access to the article body, there is no verifiable evidence of an actual election administration capture event. The signal requires evidence that election administration has moved from neutral to partisan control\u2014not that officials worry such a move might occur under a future administration.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOVZJOXRNY3Z6cVlLdXpIdkJuUmJ5ZWlUTWNWS3BBSHYxQ2Vsczk4SHA5NmFDU09TUmVOTGpDLVZzSDlOU3RzMWlTUmNaZUt0WHZJazg2aHNDREtYandGZzdKaUh3NVhtc1VNRDFIS044UFhsaE1Ld0FYVkhmTTRiSGd5bUl3bVBtZFZIOVFCZ2x5SHhsM0FMODNNMnl2Z2JWNmNLa01icGZ5YW1OQ09TNXFZcXh0QQ?oc=5": {
+      "actor": "Trump administration; Appeals Court",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The Trump administration's push to block California votes was rejected. Like item [1], this reflects a real action (attempt to intervene in ballot counting) but it was unsuccessful due to judicial intervention. The appeals court's rejection demonstrates that election administration was not captured\u2014courts prevented executive pressure. The event occurred (the push and its rejection) but it does not evidence capture because safeguards worked.",
+      "severity": 1
+    },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOelhoQVBTZUFVSmJVeGpkb3ctVDdpMXBMcFBXVXBaMjJsckI1akJEeUsyYzhvcWw0azMwUXVLZWFfUVZrSnozcC1IWTk3S0RtUVEzdk5yVlhTZnZpdmdUUjBlSnlnc0tfSlRYUkpuVF9KUWhDbHBKd1hvX2h3LVc2YmtEdTBIT1M5UVlXOG85LW5UM2M5ci1zcl9TZzJQaWxWUzRELVhXUTJ5U0pFMmN1d290RlVlUmFm?oc=5": {
+      "actor": "Candidate (Wisconsin Secretary of State race)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is campaign rhetoric about what a candidate proposes to do if elected. A campaign promise or proposal to take authority over election administration is not evidence that capture has occurred. The article reports what a candidate 'wants to' do, not what has actually happened or been implemented. This is a hypothetical or prospective statement, not a real occurrence of election administration capture.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNWxwSms4VnFGYnVjbS16STNJc3JkMDFQVlRwSXpsWTZvTlI2dmZDVDQ1UHYxZ0dmUGpDbmZMUzNncEpUSTh4MnY2SHFMazA4cVpNV2plbXNTSmZwOG9nZ2ZSencwYUs0WmlQMXNxYUtabm9UTC1xLVNXam1VRXpyUVdyUWJ2N1h4SWZvWnVDc24ybUVTdUNjcUNGc3BodXBRNlpueGUzYkRIVFFlblJPSF9SV3dTcWxH?oc=5": {
@@ -2672,6 +2752,16 @@
       "matches_signal": false,
       "primary_source_url": "https://cryptobriefing.com",
       "rationale": "This item reports a legislative deadline for the Senate to consider the Crypto Clarity Act before recess. It describes a routine procedural situation (a bill pending floor action within a time constraint), not evidence of independent agency capture or weakening of regulatory safeguards. The item is a news summary about a legislative scheduling matter. No regulatory agency has been weakened, captured, or prevented from exercising independent decision-making. Legislative action on crypto regulation, even if passed, does not itself constitute capture of an independent agency. This is standard legislative news unrelated to the signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zbk54MkJ4ME4yWEliTlNYX3FHT0czNXRrenRUUTNvajluZGtvV09icmhoUXBKcFlZcTNncWhiT3ZsbnJNWmhoMFlfTjl2LVlKX2YwWGdxTHEyQ3ZaTUJjMVFsV015VS1qc3BUczRzSlY3a2RuU1JGMQ?oc=5": {
+      "actor": "BC Law Magazine",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item provides only a title with no substantive content, quotes, or reporting. It is insufficient to assess whether any actual event occurred. The title alone is generic commentary/analysis and contains no evidence of a verifiable action that weakened independent regulatory decision-making safeguards. Without specific factual claims about what happened, when, or by whom, this cannot constitute evidence of agency capture.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiekFVX3lxTE00VTVNY285VUxjdm9mSm8zWF96ZXpNaFdqYVJUdWlyclMwUzlCdzdnQ1JGNklZZFh5SWRVWl9ZdUEyejhvR3pmNWdxMjJkSWlXVWUyNnRUMUtsN3N4SFloNGl6R0I1eG9NNmdFcXY5MENkXzFUbjJkbkJB?oc=5": {
@@ -5314,6 +5404,16 @@
       "rationale": "The Trump administration filed a request with the Supreme Court seeking approval for an executive order restricting mail-in voting for midterm elections. This represents an attempt to implement major electoral restrictions through executive action rather than legislation, which is a credible signal of legislative bypass. However, the action is a petition request (not yet approved or implemented), and it was apparently blocked by an appeals court per item [2], limiting its current severity. This is a real, confirmed action by an official entity attempting executive overreach on electoral matters.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONFc0N3JBaEJjUm5MbF94UDVRR20ycmtrV1lDTTZNdThvTG1rYlRqc2VHNnJyMEtzeFNLRjhYdGgzdW9ibXhjR0E1ZjFtU2FTQ2xKMEFfQTlhN2YwSzE3TWpsQ0ZQbk1CWVExOHFjdjAzR0xydW00emRzWWliWGF3b2c5UmRMTUMxZEtOVm1fRTQxRHJEYzlNaGZRM3dEdUxrak1peFlpcVdyaFRDTEo1NW9mdnBXZElKUk0ydW5ESWhxYVBPTE9DS1Z5S3gydTNXNmttVXdrc2VabW40cnfSAeQBQVVfeXFMTVNrNGFlU1E4QllHeVZqdHZTb3YzSjdXOThfQldUQXdsSTh1R25oQWpvMWVSN1ZHcnl0RnNSV3F0SzdQZ3JlSTFJT1p6VTdNQ1duWnAxLWwyc2pCUmcweXpULW9Bcmpac3VwVmNhSEYwWjlGZElhRm50WkZhQ08ySm9lZW9hMXhoOTVyMGZTd0NVU0xoNm52eFpPZHdnZ2xRV0JSSGlDZS1BV3M5Z0pBUVlWNmJQckJVVkE2LU13OGNWOXJvN2NPaHg5STFRaEtlTDRuU09UbE4wdDE3T0pDeDY1eUIw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is speculative forward-looking analysis about what a hypothetical Democratic Congress \"could mean\" for policy areas. It is opinion/analysis about potential future outcomes, not a report of an actual legislative bypass or executive action that has taken place. No real occurrence is documented.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYmhYbzV6MVF5aTN4X0N2eG9SLVRFLWgxYUNPZ3czV1RuVDZrbFRsem5XaEozeUhfeXlvSUYyUlFoR3hnOGtDczh0WUs4UHpHR3ZQVHZtLWpSbXV3MUtMZWZKOVNubktRMHUzM0dlUU1jS0hRd3JObGlkRXVwS2ZVd0Z3MmJfRUZSbGdLN2hZc0MybDJJMTEycUFGX3VzRkVQclNGbm1PNnFhd2VuZ3ZWbzY0WDlSVkp4bWJEckJfUEVFcUwzMzFwbjZtSHMtS0J4V2F6NHIyeC0yd3UxS0E?oc=5": {
       "actor": "",
       "confidence": 0.02,
@@ -5863,6 +5963,16 @@
       "primary_source_url": "https://www.reuters.com",
       "rationale": "A sitting president has signed executive orders attempting to limit birthright citizenship in direct tension with Supreme Court constitutional interpretation (14th Amendment). This constitutes a real executive action attempting to override or circumvent established constitutional doctrine through unilateral action rather than statutory process. However, severity is 2 rather than 3 because: (1) the action's enforceability is immediately contestable in courts, (2) it has not yet resulted in a confirmed structural breakdown of constitutional authority, and (3) judicial review processes remain available. This is a serious but not yet confirmed constitutional-governance stress.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSW5aYzhFSU9YYUZ6dWtZZ3IxSXgxcXRkU3ZmX3dPeFdtOUpVRDFjMjNzTzB0SEptMnFxUkFtWmFXamYwenRTMTdoaVdYTU90OVlEd3V3blBqVVQtREx2NzJfT21ab012SE5kSVNjTzJGRkVfRklBcWt1WmhVX2RBdjA0V2JVdXlsVXU0NHNmTUtsdkh4ZjlpcUp1YzHSAaIBQVVfeXFMT1dUdHR5em8zNThqVVhUYXpLMDYzQ2pqZ1NtdTR2MXJxaDBHR1pZd0trbUc3TzJ1OEhweVRtRjRhNEotUXdtcC1RTTFZdXF5LXVPQzlmcUUyVW5JTWs2ZTBLRE1ZVDh3U3E5YVNPaHhxak1KZS1XU0JuYnpXaEhqb3RwMUZmc3ExYmN2NEhaMnBHMmRhSUMtY1RTTm1KU01VcVN3?oc=5": {
+      "actor": "Appeals court",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "An appeals court blocking construction is a judicial action (restraining/enjoining an executive project), not a legislative bypass by executive. This is judicial check on executive, opposite of the signal. The event occurred but does not match the signal of executive circumventing statute.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMUx1cnByeGZDeDljMUtxdXMyV1N1WFNPUllYSjRfSzVVSEhDZUcxbnJvNHBsTW5vWXRrSjBlUnJSMENFTGltbS1oWkkzWC11bTl3ZUtyWkRqandQRTB5Tk9TMW1mSWV3VTZhNFNva1RZNnhIM3RRRk1TZ2ZJZk9qVl85QjRqcTZDZGl0cmFOejdqSzh5WS15YmZqYUY?oc=5": {
       "actor": "Trump administration",
@@ -6836,6 +6946,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item reports a Ukrainian court proceeding regarding a soldier missing in the Bakhmut conflict (Ukraine-Russia war). It is not a U.S. domestic event and contains no language or content related to martial law, military governance, or military management of political disputes in the United States. The article concerns a civil/family law matter in a foreign country during an active military conflict.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZzBuN1VHSzhYQ1MxOHRPMkpOMVZtNUZuTzBGSUdZZGZ1T1RsZ25DTDZGemFYYlhwRkJBYjhhUkVMZXBfcjdwck5pVDRGWW9mbWN4TDJaTExPQW1NRTFsNkQ4aXg5bWNXOGtLbVVqY2syYkZXWERycDlGM251RnpJeHZsMmpOV1NrcHUwLUdhOEROQkNJckU4Sm9yZFlDWS1OZU5xU051RWZJWHo3alAwdWdZRFlKam1XaGMyd055U3RSZm5wNHR1Z2w3M2V2d19uYzFLY0VKVkZGSlU?oc=5": {
+      "actor": "Somali President",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.hiiraanonline.com",
+      "rationale": "This item concerns Somalia, not the United States. The signal is defined as evidence of martial law or military governance language within the U.S. constitutional system. A Somali electoral dispute, regardless of its nature, is not evidence of U.S. constitutional stress. The article is geographically out of scope for a U.S. constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNR1VPeGZqM2tRUVI3OFdSWVFtSkNwMHVVcTlvMXA2d04tbTlFbTJ5VTNWRDlPcGFZY1VhT0Fza05WODdpN3MybC1HUE8wYW9SWDBIUXpyTWdoWk9WSVBlYWpnWFJiYzJwTEIxa2lBNC1tNHdydVQ2VmFfRHdHbEUwcHh1eGxrQWJ3eVBzN01yU3o5eTJHMXc3QVYwZjNuV0FoRHI0dVVLUWR1ejQ2UHE2cmM5aV9BRnRjNndlQ010TVpFaDRnYnNhZXNzM1YyNjBZQWVqR3lubDdicHk2bmc?oc=5": {
@@ -8986,6 +9106,16 @@
       "rationale": "Report describes a watchdog filing a bar complaint against Jeanine Pirro over her bid to indict 6 Democratic lawmakers. This represents verified evidence of an attempt to use criminal prosecution (indictment) selectively against opposition party members. The filing of the bar complaint is a real action in response to this conduct. This constitutes material evidence of politicized prosecution signal\u2014an effort to criminally target opposition lawmakers. Severity 2 reflects this is a credible, documented action but appears to be an individual actor's initiative rather than a systematic structural campaign (which would warrant severity 3+).",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPek42U1BNMjJtaTlWLVVKRkZqemJkNHEzczNSMjlOVldla0plYTNFai1qekRkem4wM1hLY3pXSFd5bUVsXzFBTVkwZlppZmNnN3FfZE5XSnN3ekV0aVo1UEtMU3JOcVh3Vm8yTjk3dGxPVDNWVlN0RlRLY012TXBUZTg3bTQ5ZXEzV3ktN04wRDY2YzVmeFhNUGVpcUxpQ3VRelBCYkdlZHdkaGJBRHZNSmhiRm5hek0yZGM3YmNacWpRZHRWWEpZUUJSMWh2a29Gbk4xU21DT0lSNzA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item is opinion/commentary criticism of media framing. It does not describe a real enforcement action, investigation, or prosecution. It is editorial analysis comparing how The New York Times characterized different political matters. No verifiable prosecutorial action targeting an opposition actor is described here. The headline presents a media critique, not evidence of actual politicized prosecution.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JVDVIYlJ4YXBaWTdUV3JHejRTY3Y5a1Y2MkhKUEJvOHo5RnE0bGJJcHNlWXUyWmQ4dThTQ01KTktxUG9KUHVhcEg2TUpmT00yN0JQaFREQXZiUGp2Zi1zeWlqX29TZTU3TFE40gHCAkFVX3lxTE1aWVhST1VuU1lpM04wbmdxRWIyYzRuVEt6dVdLcFhfTVVXT1Q3YlB6N2Q2cGo2MVVHbXlGd2xTV1pVYXBEQU1vUkI3NG1kRTJlWC1xZ1hOYVJKU3lxMTlLSGxWODBZTktOT0cwWXRnVXh6V28xRG4xMEt1MG1kUFd0YlNLdGFta053QmRGTWFGeW9jM2FKWWlSUXFQMnZsblhBYkpMVHV1a25hV2Q3MUZYUUQ5Y3FUZlI2RU85bVhKcWNzclBxbzJhTWhMWENrMDRsWm5CMVhrc2M0bGN3WmhYZ25sRk5vX2p5cmtpZU9EZzc1RU5Lc2NUU29lakFmS1hxWTVmeXc4cDhNZkhwdl93VmxyU0RNSE1sZWpFYlRtYjE4S05OUzN1M0hrdlV0WktDekpxcWZvTDZxZUVsY2l3T0E?oc=5": {
       "actor": "Unknown",
       "confidence": 0.95,
@@ -10048,6 +10178,16 @@
       "rationale": "This item concerns Pakistan media suppression, not the United States. Out of scope.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZWVKeGllVThNZE9pbDZOTzVWWWEyNjZZSWo2cmhlbW1FU2puNzI3cFIxREYtelNqZDVIVENIMzRzUDByWkJ1MmVLNTRwTk1KZHlaRzJVdjYzTzBiSzFYT3k3bUZVMVQ5R2lVd1NLUklCMDhPNW9mcHhLMk91WFlSSXFwMEE4RWVyRlNKLXVJaW96OGdaNU55WnZtQXk4SGdBdkxEcGIxcGRFY1JZaGc?oc=5": {
+      "actor": "Ukrainian government (wartime context)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "The Kyiv Independent",
+      "rationale": "This item concerns Ukraine, not the United States. The signal applies only to U.S. constitutional risk. Mark is_us_domestic=false and event_occurred=false per the instruction to distinguish real occurrences in the U.S. from coverage of other countries. Severity 0.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxONE50OUF0LU1waHVUMHJhOW5PTk1URUxhOGtxSkFWRUF1V2lZN2hCNE8zbzJYVWR5Z0JFZGlyVUUtNS0wdVFpZjJpckhtalVrWHlVQ3pOM2NzQmVOaHctYnRIb0l6QzJULTBsV0hMS3Z6MTFCUVVMSmVCYjJYdmFJN3RFaFpQem9JbHlibnh4WnRraEZaV1YySFAtQ0VKbjJGV0pBUWk1M3RHcXdHVnp30gG3AUFVX3lxTE1UZjhoU0QxcWJYX0duakxlV2lES21rdVRSVGs3UGxQNWNkaDhMbHVXMVpUTTRvMWtjenBOVjJIaDRBT3N3bUhjV1p1MG15LXBoYXlmcTBIQ0hmREtvZENGdXJiRzk5dWpXR19YcXZhUFVTM01DSmRHc2tJNjEwX1N4NHZkRV9Nckk1SUY2cEhZRk9vX3BCel9KUGJwTjVtcmlQVVRrM2s0UUdQcm03VlNtV19MSi1aZw?oc=5": {
       "actor": "Federal Court; White House",
       "confidence": 0.95,
@@ -10107,6 +10247,16 @@
       "primary_source_url": "https://www.pbs.org",
       "rationale": "Trump publicly stated he is banning specific news outlets (CNN, MSNBC, Politico) from White House access. This is a credible report of state action that raises costs/access restrictions for independent reporting organizations. The statement appears to be a confirmed utterance by a U.S. official regarding press access to government facilities. This constitutes a real but contained action\u2014a restriction on press corps access rather than criminal prosecution or systemic dismantling. Severity 2 reflects this is a confirmed action with material impact on press freedom, but not yet a structural constitutional failure.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQUljZVBvc3VRSFNVaFBqLXoxS0txUnZfU3M4dlQ5ck1VTFpKaFU1Y2ZvMWM0Z0x6eVNhVkhsR1hTVEl0MVBYejBuYUV6eTFIOV9Xajl0d2d1MkMzTk5FMDk5dnk1WWhfdy1NLXVRU3VPMUtROTgtV1BJcl9Lak9sXzlOcWYwa2pvQzdaZTliOFpTSkJhV2FuMmZmV2lsdkJWYU92SWNtOHV4VjE3T0VGelB6WQ?oc=5": {
+      "actor": "Citizens (plaintiffs)",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "WWNY",
+      "rationale": "A civil lawsuit by citizens against Trump alleging a media ban is a real U.S. event (event_occurred=true), but it does not constitute state action that raises costs or legal risk for independent reporting. The signal targets 'state action'\u2014governmental restriction, retaliation, or legal jeopardy imposed on press entities or journalists. A private lawsuit by audience members is not an exercise of state power to suppress reporting. The suit may have merit or be frivolous, but either way it is not evidence of state press restriction or retaliation. Severity 0.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMitgFBVV95cUxPR1NvZWExbjhRbWJzRmNOWVpMRlVNRlZyZ2FnVFFRajg3MFBwdUJ0ZGJ1TmlYQkd3ZllBdzZTR1hmX3VQVmlSRjJhOTNGMkZSYlNHeVY0bjRCX1YwTXZJR19Bc1d3aDcyM3dxVmFvNlpyTGI5bHI4bTREM2thNlpxOUREOG5BT0RXYjBoTXNZVzF0WjlxbkNKc0NfQXkybDNaZHVjTXF5Sjl1LS01QzlBUDJDd0NJUQ?oc=5": {
       "actor": "U.S. immigration enforcement",
@@ -10266,6 +10416,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item reports on press freedom constraints in India, including gag orders and internet blackouts. It is not a U.S. domestic event and therefore does not constitute evidence of the specified U.S. constitutional-risk signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZ1Y0U0s0aEw4cGlFdlFIR2k2OGdaanZzTGJ0ZmpJRGFxcDUzdkNfT3RVaVp3a1FzdEpRWFpCbkctMVh2RjJRa3diWlNxaWpqakh3d1hrRHVXa1ZoVm1rS1pBNVpMZmZoelYwNWdmQ3R6X0NsVFppTnpuNmJsLVhmZjduWDJhZVh5VUg5blU2ZmJiLUN4akoxcnpBTnljaU5UU2xEMTdfWWlpSF9OWG9sT1ZVNU52ZVItSFBXaUdBN2lnajZm?oc=5": {
+      "actor": "Philippine government (implied)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "ABS-CBN",
+      "rationale": "This item concerns the Philippines (ABS-CBN is a Philippine broadcaster; 'libel arrest' in this context refers to Philippine law and enforcement). It is not a U.S. domestic event. The signal applies only to U.S. constitutional risk. Mark is_us_domestic=false and event_occurred=false. Severity 0.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWDRyUzFCVmF4TFV6V3M4bWJXeko4clpBd2t1RkRuV2RwSURNS0NySHA1Y2pNRWU3LXZnTDQwY3daZEpLZW9pZVZtbXFmdEI1dUthcDhmdDdXMVhORjBPUnRUdk9KSlRaT0RPUGlpWHQxdmUxb2JYdzdxaFg5R1lUUTY0ZDNFUHA0Mk9JdGVkcmNoTURvQUh1d2dVc0lubW9xOF9tSDdaUHZoN2o2SnZGcW5WSlRIZ1AwN3VuN0p5Q1hlcm96c3c?oc=5": {
@@ -13206,6 +13366,26 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21797/agency-information-collection-activities-proposed-request",
       "rationale": "This is a routine Federal Register notice of a proposed information collection request under the Paperwork Reduction Act. It is a procedural proposal for OMB review, not an accomplished action affecting statistical agency integrity, leadership removal, methodology changes outside normal process, or data withholding. No evidence of political interference with BLS, BEA, or Census Bureau.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/27/2026-21826/agency-information-collection-activities-extension-of-collection-comment-request-standard-for-the": {
+      "actor": "Consumer Product Safety Commission",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21826/agency-information-collection-activities-extension-of-collection-comment-request-standard-for-the",
+      "rationale": "This is a routine notice of submission to OMB for extension of an information collection related to mattress flammability standards. The CPSC is not a federal statistical agency covered by the signal (BLS, BEA, Census Bureau). No evidence of political interference, leadership removal, methodology manipulation outside normal process, or withheld data releases. Standard regulatory administration.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/27/2026-21836/agency-information-collection-activities-extension-without-change-of-an-existing-collection-comment": {
+      "actor": "Equal Employment Opportunity Commission",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21836/agency-information-collection-activities-extension-without-change-of-an-existing-collection-comment",
+      "rationale": "This is a routine notice of intent to extend an existing information collection under the Paperwork Reduction Act without substantive change. No modification to statistical methodology, data release practices, leadership removal, or interference with agency integrity is present. This is standard administrative procedure unrelated to political interference with federal statistical agencies (BLS, BEA, Census Bureau).",
       "severity": 0
     }
   }
