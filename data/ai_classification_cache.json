@@ -1466,6 +1466,16 @@
       "rationale": "This item concerns election administration in India (West Bengal), not the United States. The signal is defined for U.S. constitutional risk. Non-U.S. events, even if they involve election irregularities, do not constitute evidence of U.S. election administration capture. Irrelevant to the dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMFBUOFI0Wm5VZ0REVjJlTklFWnBxX2piLTFrdWYtbmQ2RVdQVlFVZHAwVkJDR2FxY2tHNkF1UGh0a0FVS1pMZnVvZm0tUjBTdzNMR21VcEJRNnhLaFlyY1d4d08zUDF4X29VV252ZmgwV3g1ZGE4MWM1ODJpWkJ0SzBfOVhydw?oc=5": {
+      "actor": "Jim Beam",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an opinion column urging readers to protect voting rights. It is commentary/exhortation about civic participation, not evidence of an actual event in which election administration moved from neutral to partisan control. No material occurrence is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMihgFBVV95cUxNb1lXUXliMEY2TjZWOFJYdXM1RDNQa0dXRXZEN1l3RE1HWWw4MXVRUzhkdFB5a3BickZKZW1wZTBiQnRsV3JkdWQtUnlMM1lVZzdoOEdlYUhENllzekk4clNTSWlyMDNNbGxKdDdoc1ppLW9uLWp3c21WU2o0QTcxRFJLWDA4QQ?oc=5": {
       "actor": "unknown",
       "confidence": 0.99,
@@ -1846,6 +1856,16 @@
       "rationale": "Item is described as a Q&A guide about voting procedures for 2026 midterms. This is informational/educational content, not evidence of election administration capture or partisan control. No material signal of structural change in election administration.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMmtIVWZJWlM4RDFpcThNNTdBMUpidFRhYkRBbjRpakJVZmR2TUgyejgyRjJDNUtRMzFISzlSaEtfV2JYMm9KVFNnZVlUZWtSUHA4WGI1bDFoWFExaGpCLTF2V3Rwb3FfbGNIWWNKZk9ET2VKb0VTcFE4Ul9KaDRLTGtWVGRYTkxXT1liLVZEZzlzWlBOMHpoUjhIVlFzbGJnVTJRcDF1a1dmem1PeG0xbQ?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The Trump administration attempted to block California votes, but the effort failed ('loses push'). A failed partisan attempt to suppress or challenge votes is a real occurrence and a weak signal of election administration stress, but it does not constitute successful capture of election administration and the action was rebuffed. This represents an isolated challenge rather than structural partisan control of election processes.",
+      "severity": 1
+    },
     "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOUNtam5jVnVBNVZwT01JNHRGbjJ0QUJudG1rYVlKSnVMNmFlRXhsR0ZuNWJibXhpcW04aHVDM0VXaWFqSk9xVTVETFpPM1FsYy1FdmlyVzVpWWxuN2RNak1RdDdkX3JWcUNPVFZuaGMyMGQtaE1FR01Uc0lLV3R0VDBHOTVOVzFqRVNCSE9DV2RiWXhyWXJEWHZmeW5FeWo0Vm5VbDJwMVVNTmJCMGlobTR3?oc=5": {
       "actor": "New Hampshire courts and election administration",
       "confidence": 0.85,
@@ -1905,6 +1925,16 @@
       "primary_source_url": "",
       "rationale": "This item reports a scuffle among Congress workers in Lucknow, India. It is not a U.S. domestic event. While it may relate to Indian election administration, it is not evidence of U.S. constitutional stress. The signal applies only to the United States.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcC1WM1ZVb0ZRb3B4YUhJRDVkUmJfQ1pMZkNPN3M0aWlxQWtxTmdlYW8tbEtJdGNnRWs5Y1VyTGxIbi00LUU5a2VxU3NHdVFZWnVyYXFSQ3IzYkp5S29RdkVqOFhqWVMwMkQ1NWtNbVRxZmRvVnF5dTA1RUZHVy1acENNdXp5X2JsQTFaTHJtODVfM3hfQUw3RC1MYk5UWEN3cUV5M29kVFZyYnBlbE5wWmFsY2NTUXJL?oc=5": {
+      "actor": "Trump administration/Executive Branch",
+      "confidence": 0.78,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "An order directing the Department of Justice to challenge or contest a state election certification based on the outcome of a race ('if Republican loses') is a credible report of executive intervention in election certification. This represents a partisan attempt to use federal prosecutorial power to overturn or challenge an election result. It is a real credible occurrence and a material stress signal (repeated pattern of partisan pressure on election outcomes), but appears isolated to one state action rather than a system-wide dismantling of neutral election administration. Severity is 2: repeated/credible stress signal of a real but contained action.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTUZTVHRsaFpaSC1RUE81VTI2TlBQRHJBbWJ5WjMxTDFzdU5ZN3A3TnR5Mnl1TE9Oa1l3SnVrNUM3bDJ4X1dIMHV3cnpwWkFyVU9nSzlxbHRmMkt4RnBGQ0M1VzZNRUxMMzZ1U0lJNUloV1cwUUgwOWRnMkE3ZXZHVzRuTDBSc1piQl9MMDYyOFVKblE0anZVQWNZbUl4OGpIeWpjU3dCbVNpWEZnbDFzd3hOWncyUndmNUdJ0gG7AUFVX3lxTFBNRlNUdGxoWlpILVFQTzVVMjZOUFBEckFtYnlaMzFMMXN1Tlk3cDdOdHkyeXVMT05rWXdKdWs1QzdsMnhfV0gwdXdyenBaQXJVT2dLOXFsdGYyS3hGcEZDQzVXNk1FTEwzNnVTSUk1SWhXVzBRSDA5ZGcyQTdldkdXNG5MMFJzWmJCX0wwNjI4VUpuUTRqdlVBY1ltSXg4akh5amNTd0JtU2lYRmdsMXN3eE5adzJSd2Y1R0k?oc=5": {
       "actor": "India Election Commission",
@@ -2086,6 +2116,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.ppic.org/",
       "rationale": "This is a research report analyzing trends in vote-by-mail ballot timing in California. It is descriptive analysis of voting patterns, not evidence of any attempt to block, delay, or override lawful election certification. The item describes no action taken to interfere with certification processes, no official defiance, no removal of safeguards, and no obstruction of lawful procedures. Analysis of ballot timing is not interference with certification.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxQN0VfUUxGMFlhd1N2QS01QUQxRkxWRmcxRXZHbUNvWUVSTmtUeFE4VzNycl9zc0RCeU40aHd6Z0RLTUNtVlJrZ01VOEdQNExXZXY4bFUtTjJwU1RueURQY2JfX29qTkJwSjVwODlsd2k2MVRRNjNxUjRWdXowU3BwVWhqbHRUVU9USE9Bc0xaVS1MaFFlSTR0LS1kWEI1bXQ4VzJGeEJR?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a hypothetical analysis piece ('How Trump Could...') from Time Magazine. The headline and summary indicate it is speculative commentary about potential future interference scenarios, not a report of an actual event that has occurred. It does not describe a real attempt to block, delay, or override election certification. Hypothetical analysis about what could happen does not constitute evidence that an election certification interference event actually took place.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeHpCbWlId2dzMFBBZWs3c01TRWdpbU9pdjhCa3FiS0IwTENjZGt1Y3FDaXUtRXJSbHFrcE93ODZfOWlWUE8tNk9iZS0wVUsxUFJQZFdXZE0yaVV1X2c3aE1fckF3N0l4UnFuemloQ1pBNkVjX1NJVldobW95UkV1Rzhnd3ZQMGhfUDEyR1ZQb3BFMkloTHZsa2lUUnhMQ2JSMGx0QVIyOG0tWl9yU1JN0gG0AUFVX3lxTE9XYmhVRGs3alBEN2pZSHRmVVk5dXY2Ml91R0M1LTl0WVdQeHZxZjJRdnNIc2tNUjNlOVc0MUVpQW5IOEk3WmVlaU41NUNucENWTEFPWEJJOU1SZk9kV0lfNFY3MWhyakdrb3hqc2xTV0x3RkN2bkhYN3BLYTFrdU9zc3ZyN0N4UlRNcHd0bU5qUWdKa2lqclZLZWZ2SWdiSE5lalIwb0tiVmtuX1lNRFlSMVlMNw?oc=5": {
@@ -2551,6 +2591,16 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/10/21/2026-21599/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026",
       "rationale": "This is an implementation document for a named statute (the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026). Implementation of congressionally authorized foreign sanctions through executive order is a routine exercise of delegated legislative authority, not an emergency bypass of ordinary process. The document concerns foreign policy (sanctions on Russia and Iran), not domestic constitutional matters. An executive order implementing a statute's authorized sanctions program does not constitute emergency-powers expansion or legislative-process bypass. No constitutional stress signal is present.",
       "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/28/2026-22052/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended": {
+      "actor": "President of the United States",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/28/2026-22052/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended",
+      "rationale": "A Presidential Determination under Section 303 of the Defense Production Act of 1950 is a lawful exercise of delegated emergency authority that does invoke statutory emergency powers to direct economic activity. Section 303 authorizes the President to require priority allocation and controlled distribution of materials. This is a real occurrence of emergency-powers invocation, documented in the Federal Register. However, it represents authorized use of congressionally-delegated wartime/emergency authority rather than an unconstitutional bypass of the legislative process. The DPA itself is a statutory grant of emergency authority enacted by Congress, so its invocation is use of authority granted in advance, not a constitutional circumvention. Severity is 2 (a real but contained, legally-authorized action) rather than 3+, as this is neither an extralegal assertion of power nor a defiance of constitutional constraint.",
+      "severity": 2
     }
   },
   "independent_agency_capture": {
@@ -3143,6 +3193,16 @@
       "primary_source_url": "",
       "rationale": "This item reports that Trump is 'still trying to fire' Federal Reserve Board member Lisa Cook 'despite Supreme Court order.' If accurate, this describes an explicit, ongoing attempt to remove an independent agency official in defiance of a Supreme Court directive\u2014a clear and serious action that weakens legal safeguards for independent regulatory decision-making and constitutes an official action contra judicial authority.",
       "severity": 3
+    },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxON0Zwa3IxTkhpUW9pcFFRTXp4ZGlsOHpkSWFsMlBWbE0xMDRRUzZBQ2FadnF3WHI2NlNHVWJsUWYySmR0V1lQQjFJcDNleHVxTVlYOUtqM3pHRFF6YmF1eXdKYW81MG01QjREUzBxTlNTRGtGM3FTSGRJRnYxOGh1dmEzVk8xYUlRblppYndWVWhKT1pTTXJoQWNhdS00dkIyRXJENkh0N1VEM0xX?oc=5": {
+      "actor": "The Regulatory Review",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is a headline/title only with no substantive content provided. It appears to be an opinion or analytical piece (suggested by the question mark framing 'A Legislative Lifeline...?'), not a report of an actual event or official action. Without the article body, it is impossible to determine whether it discusses a real occurrence, a proposal, or mere commentary/analysis about legislative possibilities. The format and framing suggest analysis or speculation rather than documentation of an accomplished action that weakened independent agency safeguards. No verifiable event is demonstrated by the metadata alone.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcEQyR3VNaDk5ZXMxd2cxMkJscVFCY1FMVWd0c2VoQ2hUUmI3cGxua0J0XzRVN0ttU2MwQ2ctb3M5RXJXV2RxbEh1d2Q5Y194SzBMbXUwMWxKazdXZl9rT0UxVTVUblUyQ2Vpb0swZngyQzFnZkF5ZFJONHF4cThZYV8xWGlIb01vSGdBb0k3ZDVKWnE5aFUtSFZtOU5PSlhhMTBDRjRpd2Y4eDhX0gGyAUFVX3lxTE1GZmFiZTFRbXFmckF2d3VJd1pIakpuZkFMZUpDS0d0ZWdiY09sNzB3MUUyUkNvTlFGTU95WGJ1dld6STFMVkZVaGwxcWd4bU05QTV5YWFVS21pbDA1WTNhUk9BellCYU1udmROXzZxZ0JyYXJzRkJhck9kdkduN0w1Smp5MGRVcWNxcXVJR3NhbVdzVFBjSk4ySTc1LUN3eXd5VVdKU21jc3pwYzl1cDdweHc?oc=5": {
       "actor": "Supreme Court",
@@ -4536,6 +4596,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item is from a South Korean news outlet (\ud5e4\ub7f4\ub4dc\uacbd\uc81c / Herald Economy) reporting on South Korean Democratic Party judicial reform. This is not a US domestic event and therefore does not constitute evidence of judge intimidation in the United States. The signal is defined for US constitutional risk.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBMSzNqbXF3aWd2SkpsTXlWZkVuMlZWZ0hHdEc3eXFDNTJISDhtVmozaURyYzZ3LTJKWW9tUzZYQWw1cHpVMkJSd1pkT3ZNUE0tOWR2X2thRTA?oc=5": {
+      "actor": "South Korean Ruling Party",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This article concerns South Korea's ruling party and chief justice, not the United States. It is a non-U.S. event and therefore outside the scope of a U.S. constitutional-risk dashboard. No U.S. domestic judge intimidation campaign is described or implied.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xSkpzYkpQeC1iNDJjbDNpdlRfYTh0SjFBdjVabWNwSElpWEdkMWpGVGVZQ1BiRXBHaHI5NXFYR0tRdTRYRFRNRVVWZkRQelRXTDZ6NUo3QXl2UW04UkV3?oc=5": {
@@ -6094,6 +6164,16 @@
       "rationale": "The Supreme Court's rejection of executive restrictions on mail ballots is a successful judicial check on executive overreach, not evidence of executive bypass of legislative authority. The court enforced constitutional limits on executive power. This demonstrates normal constitutional operation, not constitutional stress or governance shift from statute to unilateral action. The executive's attempt was blocked.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbTdlNFhjNHJwamtvMWpUNkNDVHpGUklNQXY4aWl1aGIyd0JQMWVSelp3RkgyYlFaSUFIbF9vTnRhLVBUWUtVNFE4MkxUVHhhMU5PeVc5RDlUbG5NNDZ4S2tDdWhiaTlQUUkyQkRkX1ZySHJsYWh3YVNDWkRhbHJCdy1CVVBNX3laZjl2M0FMQ2U0ejNabTFXVmdmUnNVRjI2NlUxaUVlVVJ6NnFf0gGsAUFVX3lxTE1tN2U0WGM0cnBqa28xalQ2Q0NUekZSSU1BdjhpaXVoYjJ3QlAxZVJ6WndGSDJiUVpJQUhsX29OdGEtUFRZS1U0UTgyTFRUeGExTk95VzlEOVRsbk00NnhLa0N1aGJpOVBRSTJCRGRfVnJIcmxhaHdhU0NaRGFsckJ3LUJVUE1feVpmOXYzQUxDZTR6M1ptMVdWZ2ZSc1VGMjY2VTFpRWVVUno2cV8?oc=5": {
+      "actor": "Not applicable",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://gulfnews.com",
+      "rationale": "This is foreign press coverage of U.S. midterm elections and their political stakes. It is political analysis/commentary about electoral outcomes and their implications, not evidence of an actual executive bypass of legislative authority. No constitutional stress event of the specified signal type has occurred or is described as having occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb3Zwd1VuVFR3aXN3Y3kwS2hBa0phNnJzMmh4a3FmaFhsR1RQd09sYzh4M0JVLWxrUG5UeExJNWdPejYzdURmZEM4aGtpakVxLWdZY2lRYWtwMFNTOGxYcFRRcldZcmJlTzREYmFIQnNSaVo5c2lCZXpnN1A3MWU2YVd3MGhOTkFXbDRQNEc3OGEzdlZzMGUzLXo0Z2FaTG42ekRKS3kxeVVkaEdqWHc?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.75,
@@ -6242,6 +6322,16 @@
       "matches_signal": false,
       "primary_source_url": "https://primetimer.com",
       "rationale": "This item describes a dispute over media access and network boycott responses to a White House decision. While a White House ban on a news outlet's pool access is a real executive action, this does not constitute 'legislative bypass'\u2014the signal's specific concern. The signal targets major governance actions shifted from statute to unilateral executive action (e.g., imposing regulations, suspending enforcement, or making policy without statutory authority). Media credentialing and pool access decisions, though potentially concerning for press freedom, are not instances where the executive is circumventing or bypassing legislative authority to accomplish a governance function that normally requires statute. The item is coverage of a media/access dispute, not evidence of statutory bypass.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYUUzQWFXVkl2MUxhbVdjRzZ4RkdsODdndDNodklkcmtaNXd3T0Jxem5jRklXZ2g4T3c3U2d5N2lzWXpneVMyUGU2YzlDenJPWnI3NHdhNmQycVpXQm1WY2EyQ1ByanV4cVZhV1JnV25CQ191ZTFXb3J6TExnWlJVT3hveWNBekZ3RmpLNVU3eEZSTk5VRXo4MFBqTUJuTTdTTEZqcjdrVkFGb093aWYyQVBzZERyOXVGMDJBX1Z0LWs?oc=5": {
+      "actor": "U.S. Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.britannica.com",
+      "rationale": "This is a historical encyclopedia entry cataloging Supreme Court shadow docket rulings. It is a retrospective reference work, not evidence of executive bypass of legislation. Shadow docket rulings are judicial acts, not legislative-to-executive shifts. No material evidence of the signal (Legislative Bypass by Executive) is present.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQ2FaY2x4SEZiV3lnbVV2UTZkS1dscV9OcFlQSTBQYk0zWFJxckQ1OElnay1DbjNPNWlXY2htU0JMYk1JSTV5aVQ2VVhkWjFLS21FdkJTZVo2eHZ4enNxSWE0X2VKMF93MDd0bmZnUmlaZnVMeG56c3otOTdSVHhTSkN5T0tRV1BMeDlrajhoWVBVcFN1WlpHWE9wbWJyUzFZcHhWVjhsY0t0bnFKVmNLc1E4dzRyUE9UTW4xbnZKWWIzZw?oc=5": {
@@ -7106,6 +7196,16 @@
       "matches_signal": true,
       "primary_source_url": "",
       "rationale": "This item is from a Ukrainian legal publication discussing a Cabinet of Ministers petition to the Ukrainian Supreme Court regarding military registration procedures. While it touches tangentially on military administration, it concerns Ukraine, not the United States, and thus cannot be evidence of a U.S. constitutional-stress event. The signal match is minimal and geographically irrelevant.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSFhKMExzWXI3M3oyVEhDSnBnV282cG9iMTU4VGxHNm8zXzE0ZUwzYmxSWk1IT1lWUDRFeVBIbkQ3ZFNWUEJkcEVmcVlCX0VNeHdFaGJjVGxyMHJHYU9uRnVFNVlleU9aaUdPay1hNVdaVS1fZ0E4NU8tbEI5NEVEV2lKUVN3Z9IBhgFBVV95cUxQSFhKMExzWXI3M3oyVEhDSnBnV282cG9iMTU4VGxHNm8zXzE0ZUwzYmxSWk1IT1lWUDRFeVBIbkQ3ZFNWUEJkcEVmcVlCX0VNeHdFaGJjVGxyMHJHYU9uRnVFNVlleU9aaUdPay1hNVdaVS1fZ0E4NU8tbEI5NEVEV2lKUVN3Zw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Pantami (likely Isa Ali Pantami, a Nigerian government official) and appears to be from a Nigerian news source (The Nation Newspaper is based in Nigeria). The article title suggests opinion or analysis about political ambition and rule of law in a non-U.S. context. It does not describe a U.S. event, does not involve U.S. martial law or military governance language, and is geographically and jurisdictionally outside the scope of a U.S. constitutional-risk dashboard. No verifiable U.S. domestic occurrence of the martial law/military governance signal is present.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN1JTNTMtc0ZLMGxyYXVrMi1fRmdLVXp2TnB1LXJVWThFamhkcXNiZ29qZXZobV82S0lmUDIzQVZaWHhmdXZ1eDFhazMyLU1DbnNHNlJqUDRDdGpHSzBaYnQ1eUxxR09WY1o5VGp1OTFsdDc4dnM4a1lTRGM5V1hRbzE2dVFGWVk?oc=5": {
@@ -8212,6 +8312,16 @@
       "rationale": "This item concerns Israel's election, not a U.S. domestic event. The signal targets opposition ballot exclusion in the United States. Coverage of elections or political events in other countries, regardless of content, does not constitute evidence of a U.S. constitutional-stress event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxNLWdTN3lwZ2xGRHZRRF9GTk1uS204ZnZDTUswZmpfZFJPbVU5Vlgtc001bmRsWE82YUd6UjhnRnJCbS15NXVQSHcxWFFTa2E2V2Q5UllZdkEwbkhyeW5iOFF3TGZuMlctX0NMSjh3SnprcGVTVnp2MlJWeTV6UTFldmpXem43XzE1NGpJOVhvclhQQQ?oc=5": {
+      "actor": "Bolsonaro (Brazil)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.npr.org",
+      "rationale": "This item concerns Brazilian politics and elections, not U.S. domestic events. The signal being evaluated applies only to systematic opposition ballot exclusion in the United States. A candidate's refusal to concede in another country, regardless of the political dynamics involved, has no bearing on U.S. constitutional stress.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM3I0cWZKYVZQRDEzYzE2MnlJUk5ONEVjVXVsYTJ4Sl9sdnNLSC1YdUJkMFlsSWh0ZmpELWtxM2ZLbnlJdWNQMDFRVmYtSkRCUWpKdmJIUE1xTk0taUxxNHBSZy1wWnpBekN2WVAtdlBYMkZETkJwZ0pqRFRwa3VyT2Npdk1oRmhPQ0NUREFuLUJiQQ?oc=5": {
       "actor": "Russian electoral authorities",
       "confidence": 0.8,
@@ -8670,6 +8780,16 @@
       "matches_signal": false,
       "primary_source_url": "themoscowtimes.com",
       "rationale": "This article concerns Russia, not the United States. The signal is defined for monitoring U.S. constitutional risk. Non-U.S. events are out of scope regardless of thematic similarity.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSXZwd3hRRXM1WHc1bVM1WUQ5SElEOFJWbFFtNWx0Z21OWTE1WmJOUFdHLTdaTk1Ha1d3R1dpb2R1eXlzbHkwcGtyVFExczJtQVNKUE1OX2VTQnpwTzF3VlotTndaUnRYVDEyRmxvV1lvTDhBSzl6b3FoYWkta1ZzcTB6YnJOdHNVLXM4cTgxZm9pQllUdXk5dlMybGdVajRMTmtjOVduN0RxOHY3bnJ6NjJReEt2MDBLb1dEadIB0AFBVV95cUxQeGsxN3hKNDdPNEMzYjlSMm51cjVqLTJjalNHZ1UtTFVLeDdHcEE0NkRBdDZUNHRXaXJHOUh4cjNxOWlPTDNoczBHLXNKS2ExVS1JSjU2Y2dYTXlBQ2dmaEJNU2RXSVB0cGNzaHg3emZ1MXZreXRoNmRTaTU2M1E3QXFETmRKUVVzM0hkb0x4ZnhCdVgtRW5Ybk15N0RWdEJPZkFMQWk2X0xxOUsyeGhZU3ptSW5qNThkWFFCZTJwc3d2ZklDSGJBVElGcDhkZGVU?oc=5": {
+      "actor": "Bolsonaro (Brazil)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://elpais.com",
+      "rationale": "This item reports on Brazilian political positioning and opposition role, not U.S. events. It does not concern systematic removal of opposition candidates from meaningful participation in any U.S. election or process. Non-U.S. events fall outside the scope of a U.S. constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTm9neDVhZW5TY3VmeHBwZFNMa1dScXNLUjhMdHFES3dzQ3FIMWdKWUM5Z2NhRHItVVphRHNXa1pVQUJBREppNlp3MHg5c3ROTGE5OWVnRWs4UEJ2Wi1zX0duUmhKZXdKT3pfRDNpTmFxd1lLOFJCQ0R3Q2x2ME0zcUN6bkhhRVJpcWl2amM5SHhSMnRFRFl0b0J3WWxqRlBUeUg2emRpVF9YUklzZU5KTmRYZEE4STlMRk80VA?oc=5": {
@@ -9916,6 +10036,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a global media review. The summary does not specify the United States as a subject; the item appears to cover international events. Without evidence of U.S. domestic press restrictions or retaliation, this does not trigger the signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdEx4QWJ1elYxYlI5b1IyUVpoQW51cm9vTTZna0l1bFlfRHBXekFkaC1icTZRZFVtNHhRY2hRNVdfeklGQUs5b2hUYXhoNXQ2alR2MEdxc0E3WXVDYU5ldWxFdDdzS2h2OVZWcHBNOENHMDgtWjNtUTIyY1ZkWFIybFY2YllpTVhXSGFSYjlpb1dJYV84R0xHbUk5Yw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a legal action (citizens seeking an injunction) rather than a confirmed occurrence of press restrictions or retaliation. The headline indicates a lawsuit or petition in progress, not a verified event. Without confirmation that a White House press ban has actually been implemented and is operational, this is a proposed legal challenge to a potential action, not evidence that state action restricting press access has occurred. The item provides no substantive details, and the source name ('Journalism Pakistan') suggests limited credibility for a US-focused constitutional incident. Severity remains 0 pending verification of an actual ban and its enforcement.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa3RVak52R0dSQVYtWDlLUkhPSWY5QnhIaDhoTFZEbk1yb3Zxb090aW9CUl9NYUlCTGVRSjhxSUNZanVFa1RROUNBR01LRHVfUklDTDNRQjJBdWJNMnB0MUNFWXE5WFk1M05zR0REalI2Sk8tSDRtck1vNFN4bEVIR0hvZ1Bkc3FWakVmSXZkY2JLemU3R25qLTJKeWo?oc=5": {
@@ -13386,6 +13516,26 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/10/27/2026-21836/agency-information-collection-activities-extension-without-change-of-an-existing-collection-comment",
       "rationale": "This is a routine notice of intent to extend an existing information collection under the Paperwork Reduction Act without substantive change. No modification to statistical methodology, data release practices, leadership removal, or interference with agency integrity is present. This is standard administrative procedure unrelated to political interference with federal statistical agencies (BLS, BEA, Census Bureau).",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/28/2026-21943/health-data-technology-and-interoperability-onc-deregulatory-actions-to-unleash-prosperity": {
+      "actor": "Health and Human Services Department, Office of the Secretary",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/28/2026-21943/health-data-technology-and-interoperability-onc-deregulatory-actions-to-unleash-prosperity",
+      "rationale": "This is a final rule on health information technology standards and interoperability from HHS/ONC. It concerns deregulation of health IT certification and standards, not statistical agency integrity or interference with BLS, BEA, or Census Bureau data production, methodology, or leadership. No interference with federal statistical agencies is evident.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/28/2026-22001/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule": {
+      "actor": "Securities and Exchange Commission",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/28/2026-22001/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule",
+      "rationale": "This is a routine notice of information collection extension submission under the Paperwork Reduction Act. It does not involve removal of statistical leadership, methodology changes outside normal notice, or suspended/delayed data releases. This is administrative paperwork, not political interference with statistical agencies (BLS, BEA, Census Bureau).",
       "severity": 0
     }
   }
