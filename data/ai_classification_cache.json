@@ -361,6 +361,16 @@
       "primary_source_url": "https://www.federalregister.gov/documents/2026/10/19/2026-21320/administrative-leave-for-workforce-realignment-and-other-purposes",
       "rationale": "Final rule issued by OPM expanding the scope and legitimate uses of administrative leave, including explicitly for 'workforce realignment initiatives.' This is an accomplished regulatory action (not a proposal) that creates new legal authority for executive discretion in removing or repositioning civil servants. Administrative leave can facilitate workforce removal without competitive process protections. Severity 2 because this is a real, confirmed action that materially expands tools available for politicized personnel actions, but it is a procedural/regulatory change rather than a demonstrated mass removal or targeted purge yet executed.",
       "severity": 2
+    },
+    "https://www.federalregister.gov/documents/2026/10/29/2026-22093/personnel-management-in-agencies-strategic-human-capital-management": {
+      "actor": "Office of Personnel Management (OPM)",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22093/personnel-management-in-agencies-strategic-human-capital-management",
+      "rationale": "This is a truncated Federal Register entry for a final rule on personnel management and human capital planning. The summary provided does not contain sufficient detail to determine whether this rule actually implements Schedule F or politicizes career bureaucracy through at-will reclassification. The excerpt ends mid-sentence and omits the critical substantive provisions. A generic 'modernization' of personnel management frameworks is routine administrative activity. Without evidence in the provided text that this rule strips civil service protections, reclassifies career positions as at-will, or changes merit-based appointment systems, the item cannot be scored as evidence of the signal. The summary language ('streamline,' 'strengthen authority') is standard regulatory phrasing and does not confirm a constitutional stress event.",
+      "severity": 0
     }
   },
   "court_order_noncompliance": {
@@ -422,6 +432,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns allegations of court-order noncompliance in Nigeria, not the United States. The signal specifically targets U.S. constitutional risk. Non-U.S. events are not evidence of U.S. constitutional stress.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdUYzdkM5aWtHanNiSllnRXp6ejVoOXdxU09va1JIeE15ZElWcHVKbXRUSzh2dkZoOEN6d0doeUpkeFM0cnRXc1g0SmFzNFVuNnZKM0Y3ZjNYcktrRzQyYklLQW9PUnpIMVFpOEgwNVRxNEVtSGRLTm96eE5XalpmN3NoTVBwcExkTU51WXhocGtFV0MzcFIyUkp2aUdmV041aC02T0s2c2E2QQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.15,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item lacks sufficient detail to verify whether a real event occurred. The headline suggests a potential court-order noncompliance allegation, but the summary provided is minimal and does not establish: (1) that a court order was actually issued and remains in effect, (2) that Trump or his administration took a specific action in violation of it, (3) the timing or nature of any alleged defiance, or (4) credible confirmation from an official source or primary document. The source is a foreign outlet (Dagens.com, a Swedish publication), and no URL, docket reference, court document, or verifiable administrative action is cited. Without access to the full article or corroborating U.S. court records, this cannot be scored as evidence of verified noncompliance. It remains an unconfirmed allegation in secondary coverage.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbEtxYjNMQndxc1F6cThqYWFLd0NKcFZqb2Z5bGQtay03aDNCSktwT1RfT3lkdlI2c2pSRVktdGMxMVhoMUNaODVLTG1WTUJoMjVVMmlGSXZNNjZ5Um04bzQwaFAwSW4yMl9QSDJnZ2xodFlxck5RVWVTLU9FRnlLSTJJVTZVQUxxRUtvQzVqVVQ3ZnBUcERrR29uWncweTNIQWF1bEwtekN4QQ?oc=5": {
@@ -1006,6 +1026,16 @@
       "rationale": "A state canvassing board split along party lines, with Republican members voting to certify a ballot measure while Democratic members opposed, indicates partisan division in an election administration body responsible for ballot certification. This demonstrates partisanship in what should be a neutral administrative process, though it represents a contained instance of partisan voting on a specific measure rather than systematic structural capture. The severity is 2: credible, repeated stress signal of partisan behavior within election administration, but not yet a comprehensive loss of institutional neutrality.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSHQ5akQyeWo0MGNwcHJtc1JybmZjcWRudFFNWHdoMFh4WEpPNHJ4Tk1nSFFFMUNDUklra0E5bzU1SWNlMmQtcjNpTnQ3MEFsYUZzc0xYa2tLME1wQ3FfLXZoeks1VU05eFBFUEtrVXduSnVBVGxSTDJIVmw4cUloY1RrLVVxQ1pVZTFsdkthNFhuWWNZQU5MS09wME50Z0JyOXdLRXpMMXgwLUc0RVU4dnZ4WnVUbDBHal9vQ0dUenJtVTFJbDdaU2hpVGxpMHFVUGFYQzhxcWpkQmZCY3R5MUJERQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item describes routine re-election campaigns by sitting state board members. This is a normal electoral process, not evidence of election administration capture or partisan control of election processes. It does not constitute a real occurrence of the signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdmdIZHhGaG1IcWJWYW9IMHh2MjB0UmFJcWc3c2czTjNxNUwtcGJjYmJRYy1mdzJTRTNTMDJYeVFYMS1JZmlYWDJFdm9NX2VQNEJENnZFMGt3RnFtNUpnSTI0TTlMN3lKY084OGZ1dnFqUnlpQ25Ld1lSVEZHVS1JTkNMcldraTI5QW44Q0ZxekZWNFBzMWEwOG1MNXNWNUx1bHNiNVoxS3A5TGMtNnI1REM1LTBhZE5tVFFKOWhIWDZiemlOVmRZR0RKUUpJRmxzT0VMd2FhcnFnRUNzaHRiYzl6WUc?oc=5": {
       "actor": "Florida state election administration",
       "confidence": 0.72,
@@ -1184,6 +1214,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item is about the Trinamool Congress, a political party in India (West Bengal). It is not a U.S. domestic event and therefore does not constitute evidence of election administration capture in the United States. The signal explicitly targets U.S. constitutional risk.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1yT3lYdGhtOVVIWU5td0xRV2pxX3FTTTdVeXhoM0UxdTYydVhSVUJjZ0JmLXNnV1VnTXRXenNiSXdoT0VFUXE4ZWlELWNCTlhTS3RnU2NwMnQ3YWdndDk4b0RMOFVRZw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item is identified only by a date-stamp headline from a news digest. No substantive content is provided. Insufficient information to assess whether any event related to election administration capture occurred. Item appears to be a routine news summary header, not evidence of a specific event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSGdSaWV4RHFpWmJlRl8tZXFpUzNQdGJvZnJDRGRmV091eXNSbUNBbF9WRGFDSmxOMjZxV1dGY0F6NjMtVGFEbzZwVjBnZXBGb09OYnRKbDJwcHB3V2ppSzRXUmZhREROUmx5emxXYmNYT21HOVYxdUlhRGlnTVFtTjBQTTN3TVg2aFZieVZLSUZlSGlGbGNJZE1aVlpkTzI5T3pTN0pZOFdBNF9mbTlhZWdtMGIzQjF6X3FfdW1BYXlRbGQzWFlQbkhfUU9GZFh6S1ZCanA2Z1g1bzNSNFFjeGkxOU1jdFlYN3lJcU9iSVdPVkdMRFJTX1V5cktQZw?oc=5": {
@@ -1856,6 +1896,16 @@
       "rationale": "Item is described as a Q&A guide about voting procedures for 2026 midterms. This is informational/educational content, not evidence of election administration capture or partisan control. No material signal of structural change in election administration.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX3d1SkpSOG1Yb2NTSHNkaUdnck1ZSnhHTmVmWkx0TE5aWnhDZGRLamI5R29yZkxjZDE2NlhQOW9FejMwRnNEUXdtWEV2aXlObkhWNmpnX1BleUxjNWNRX0d6V2syUHVneEJmWnUwa0IzNFBHSTUwZTVTWFdwMERoOGtuSHJrU0dJM0hZbnN3YWdac2RtYmlPLUNTd05ad1NOZE51VTJkZ2pHLTZEd0JGcA?oc=5": {
+      "actor": "Republican Candidate for Secretary of State (Wisconsin)",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "Item reports a candidate's stated platform position ('Wants to Take Over Elections') rather than an actual, accomplished change to election administration. A campaign promise or proposal, even if explicitly partisan, does not constitute evidence that election administration has been captured\u2014only that a candidate proposes to do so if elected. Without confirmation that this candidate has won office and implemented such a takeover, this is a proposed rather than accomplished action.",
+      "severity": 1
+    },
     "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMmtIVWZJWlM4RDFpcThNNTdBMUpidFRhYkRBbjRpakJVZmR2TUgyejgyRjJDNUtRMzFISzlSaEtfV2JYMm9KVFNnZVlUZWtSUHA4WGI1bDFoWFExaGpCLTF2V3Rwb3FfbGNIWWNKZk9ET2VKb0VTcFE4Ul9KaDRLTGtWVGRYTkxXT1liLVZEZzlzWlBOMHpoUjhIVlFzbGJnVTJRcDF1a1dmem1PeG0xbQ?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.85,
@@ -1895,6 +1945,16 @@
       "primary_source_url": "https://www.washingtonpost.com",
       "rationale": "This is a headline-only item with no substantive content provided. The framing (\"threat election officials fear\") indicates opinion/analysis about a feared future scenario rather than a documented action that has occurred. Without access to the article body, there is no verifiable evidence of an actual election administration capture event. The signal requires evidence that election administration has moved from neutral to partisan control\u2014not that officials worry such a move might occur under a future administration.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbDFMaHdnNnZQV3daZGZwdUR2TFFkeUt3TXlDLTVPYjl1WUtYcmtIZ3VsMTJ0NjFmRTIzM3VqR1VCZzNxUTNkWUFpVnktREJ5azh5d0xvY0RodEs3a3RNVS02YjhpWjNCdXVjaE9SNFhqZlY3bzVPQ05XRm5aQUlIZDA1YzhCS00yRFluRVhpTHI4WE1UcU8tbDhZNm52bWdMbEV4SnMtWFpkUTlnbEJLNWhvRQ?oc=5": {
+      "actor": "Trump administration/campaign",
+      "confidence": 0.85,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This headline describes ongoing litigation over a proposed action ('push to control voting'), not a completed action that has moved election administration from neutral to partisan control. The outcome is pending in courts. A proposal or alleged attempt, even if credible, is not evidence that the capture has occurred\u2014only that it is being attempted or litigated. No actual structural change to election administration is confirmed here.",
+      "severity": 1
     },
     "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOVZJOXRNY3Z6cVlLdXpIdkJuUmJ5ZWlUTWNWS3BBSHYxQ2Vsczk4SHA5NmFDU09TUmVOTGpDLVZzSDlOU3RzMWlTUmNaZUt0WHZJazg2aHNDREtYandGZzdKaUh3NVhtc1VNRDFIS044UFhsaE1Ld0FYVkhmTTRiSGd5bUl3bVBtZFZIOVFCZ2x5SHhsM0FMODNNMnl2Z2JWNmNLa01icGZ5YW1OQ09TNXFZcXh0QQ?oc=5": {
       "actor": "Trump administration; Appeals Court",
@@ -2078,6 +2138,16 @@
     }
   },
   "election_certification_interference": {
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTFBla0p4QUxwUUFEeC16b1JhbnktQ2lLZ2RCeTdEd0NOMXFRdGVHdWk0LWN6cFoza05VaTN1RGRkSlBNNVBvSlgyZmJiUnNHbnlfRlFENTVaODNodkg2ZlhYQlF4c3NNdDRKSXZIenZtT01ab1U?oc=5": {
+      "actor": "Ramaswamy",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item is a headline fragment with no substantive content provided. It references an ad and 'fallout,' but provides no information about election certification, interference with certification processes, or any attempt to block, delay, or override lawful election certification. Without details, this cannot be evaluated as evidence of the signal event. The title alone does not establish that any certification-interference action occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeXBwUzJKNEh3VTlnYmpSQ05MbndBU2M5dW84cFlvdzZ4NERiT01GeEd4dTNWMHpkYmVua1pYZVVIdkJVZ2J5dWhURVN2WHB0eDRON2l5bjNTcXJuUlpJZndnSW1fdFB2cnhZWHRKTTdwaXU4Rm1WOEFNRVdaRUp6QQ?oc=5": {
       "actor": "Unknown/Administrative",
       "confidence": 0.95,
@@ -2310,6 +2380,16 @@
       "matches_signal": false,
       "primary_source_url": "https://armenpress.am",
       "rationale": "This item reports an emergency declaration by the Colombian president in Colombian departments. It is not a U.S. domestic event and therefore is not evidence of emergency powers expansion within the United States constitutional framework. The signal specifically targets U.S. constitutional-risk events.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiV0FVX3lxTE44STZXQ3pBTTMzdjNDUlB2ZnNQeWgzamFGUFVSRzhxS0RadDI5NmEwUTNqdS1CZTlfbDEwZE5WMTEwYmZkTmV6a1dmRzlxSnNZYXQ1ZXRRMA?oc=5": {
+      "actor": "U.S. State Department / Defense Department",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://economy.ac/",
+      "rationale": "This item concerns foreign military sales policy and defense production capacity in the context of Middle East geopolitics. It does not describe emergency authorities being used to bypass ordinary legislative process. Arms sales are routine executive-branch actions subject to Congressional notification and approval requirements (AECA). The article does not report any invocation of emergency powers, suspension of normal process, or legislative bypass. It is geopolitical coverage, not constitutional-stress evidence.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBY0NzNjRsRWxaUVpCeHJoN1dncDlqQ2hKLTVhWHBVekQ0emVwZEt1dk05LUItOWpNckZydnJDeEVHTWU0YWNIZzlkemlid2p3U0w2RGI5ZFJXNFIyNHlOdXhyVjc0TVNNQzNaSXpLVQ?oc=5": {
@@ -6284,6 +6364,16 @@
       "rationale": "This is a news headline reporting that Trump is appealing a court block on a mail voting order. The existence of a court block itself indicates judicial constraint on executive action, not executive bypass of legislature. The appeal is a normal legal process within the judiciary. No evidence of legislative authority being shifted to unilateral executive action that has taken effect. The court system is functioning as a check. This is coverage of a litigation dispute, not evidence of successful legislative bypass.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcC1WM1ZVb0ZRb3B4YUhJRDVkUmJfQ1pMZkNPN3M0aWlxQWtxTmdlYW8tbEtJdGNnRWs5Y1VyTGxIbi00LUU5a2VxU3NHdVFZWnVyYXFSQ3IzYkp5S29RdkVqOFhqWVMwMkQ1NWtNbVRxZmRvVnF5dTA1RUZHVy1acENNdXp5X2JsQTFaTHJtODVfM3hfQUw3RC1MYk5UWEN3cUV5M29kVFZyYnBlbE5wWmFsY2NTUXJL?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.15,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.thenewamerican.com",
+      "rationale": "This item appears to be reporting a hypothetical or speculative order regarding a future election contingency (an Alaska Senate race). The summary does not confirm that an actual order was issued, executed, or resulted in any verifiable action by DOJ. Even if an order were issued, an instruction to challenge an election certification if a certain outcome occurs is a conditional directive, not a consummated legislative bypass or structural removal of safeguard. The event_occurred flag turns on confirmed actions, not proposed directives or hypothetical scenarios. Without independent confirmation of an actual order, its issuance date, and its implementation, this remains insufficient evidence of real constitutional stress.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTnpHVXFEc1UybGFBWmlueUFsZTlVMU9oeGlMR0dvQ1pCbndKNHN4d21iR1V0Wm9wUEpDZXFuWW9SZkszNFFIWUFUcE55ZmJ6VDl6c1VJWnZibjNWWUdlSGdpdkR6dlRJQ2EwZVFGelp2eXZPUVc3cm0xZlgySWlHNDJsZGxxd2FhNDYycmlLS3U4Mk0wQmpZZDhwekFUSkJQWGdxM0hFQWZONFNNOEVneFdSdjU3dUFLc184?oc=5": {
       "actor": "President Trump",
       "confidence": 0.72,
@@ -7508,6 +7598,16 @@
       "rationale": "A county sheriff seized a large quantity of ballots, which constitutes an attempt to interfere with election administration through law-enforcement action. Although a court ordered return of the ballots (indicating judicial checks are functioning), the underlying seizure event\u2014a military/law-enforcement actor taking unilateral control of electoral materials\u2014is a real occurrence that matches the signal of military or law-enforcement management of a political dispute. The fact that a court intervened prevents escalation to severity 3+, but the seizure itself is a credible stress signal (severity 2) of attempted law-enforcement takeover of electoral processes. This represents a contained but serious action by a law-enforcement official overstepping democratic norms.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQNXoycVBMZDUtaFRoS1J0cElUQzFiMjhlMEtuY1pjQXZ5Z3B1a0haOFFab3BXTkk0QlNhVWZZbUtDUVB2a0FRWk56b3NlZ091RHZmU2NMLTAxUkZDSlk4RlNQa09aaFo4ZXY0Rm1seHlwaWFvNmdZNDVFQjVwakVENVcydTFzYjlRLW5QZm1LNE9kSkhXb1RnU3ZTYzI5VE1IemxUNFdvOWZKSUxpbGk3LTRDRGU5SGc3MXNlNTQtaXRyTXZ4YmVjMjlEc2oxUWpKRnoxMGl4QWRoNERlYWNEX05ueFRvQkdqbTdLUm92SnF5eGxaRzVFa2hiX0lHVGlUWVpBd0V4SVUyZnByMm5mNUFVN2JoYy1CMEliV0VCMWxFMHhCLXUwcURGVXZpendqeFhyZVNmMGUyQVM2MWg5WUU3OUo0dnIt?oc=5": {
+      "actor": "Nigerian entities",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns a Nigerian electoral dispute (Anambra State) and judicial authority in Nigeria. It is not a U.S. domestic event and therefore falls entirely outside the scope of monitoring U.S. constitutional risk. The signal concerns martial law or military governance language in the United States. This is a non-U.S. event and should be scored as no material signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVlNLNU1ONzlOME45SVZXTGtqd3NWbm1NbkRLTVZjYjVjS1ZsenFnZ3l5c2g0NUNIYWdQdU1SaG80UWdoenZLTHdXYnF1bWRqX09wNnp0RjFXbUtXMWhaNGZlMG93bUlyVWRKQTVndVNWU0xsWnJqcHBRX1prd1Y5Z2pYcDc1a3dLZGN0U1pVOFl2RUp6aHlFZjdLcGJSUGR2M1BVWmhFbGpIVVMzQWRhbjFZU3lEYllMd3BWMjVqczRTWnlPa194bzhDONIB2AFBVV95cUxOYkRraHZmdm1MWFVCTUpaNEVFYW8xQVRqVTNPb0NHLWdWZGVPV1FYTm1iUEw0ZnFyTFFLVEl3MkRWYlJPaEtDYnJJS21ORV9PMjkzT054a1hFV3VrekJYYUJKeGUxLThNb21VaXNkWFlidnFZLW9ib2tTNlFLd040NUE1cDNLUTdPVHRZbmJQWEpJS1ZwdWk3OG9SRklOS2RHT3hLQXVRQU8weGVlbGhZRHVCUnVTbjZBX2ZaZF9kX0pWV1ZxVUttallRcml1WWN4dFIxUThnbEc?oc=5": {
       "actor": "South Korean government",
       "confidence": 0.98,
@@ -7628,6 +7728,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This is an opinion/editorial piece discussing hypothetical or proposed scenarios ('Plan B', 'election intimidation'). It is commentary and analysis about potential future actions, not evidence of an actual occurrence. No verifiable military action, threat, or use in a domestic political context has taken place. Opinion pieces expressing concern or speculation do not constitute evidence of real constitutional-stress events.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMTRVWEJoTjh0dEl5NHUwei1VakZwVE9BSVVzUUtrREZBSmxJeVFSQzRBczNBWEdPZWhJNmp6azc4VnpHaXVPTHhlR0lVSDM2MkpqMmNLaUlPdjJlOE5OaFdxcVNHZEN0NjNHSXpubk9OMTdNanJ0VlZ0YmwyeGFmSDF4YVBZRFlnUUxKbEt1aEhfc1E?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item is a title/heading from Just Security with no substantive content provided. The title 'Boots Off Ballots' appears to be an editorial or analytical piece about civil-military relations, not a report of an actual event. Without the article text, it cannot be determined whether this contains reporting on a real occurrence or is commentary/analysis. The summary provided is merely a repetition of the title and does not constitute evidence that a military use or threatened use in domestic partisan political conflict actually occurred. Treating as non-evidentiary per conservative standards when only a headline and no substantive material are present.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxQUUlpand3cXB6MXdFSERVdkJfcE82SzNsVDFoZEdNWDhGQnM4RzFJcUEyU2Y2MTBTZjdXWWh5V1Z3Skg4TExJN3JxcEs5RnFQZFdhbU0ydy1Da1p4aXBNUXBXeDVrM19pZlhvd1RhcnJrUlMwNjVfOU1PTWZwamxuUWtxbUFvRWIzOGlpN0dIMmJyNnVXUndvRjJxMjNsdw?oc=5": {
@@ -8331,6 +8441,16 @@
       "primary_source_url": "https://goodauthority.org",
       "rationale": "Item describes Russia's 2026 Duma elections limiting voter alternatives. While this may involve ballot restrictions, it is a non-U.S. event and therefore not relevant to a U.S. constitutional-risk dashboard.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXZoZnd5TWlac1BNQkoyZGw1UHR6RkphN3J4S3E2bkZXbFN4SFhKcWdGQkhyNXJfblNQWTJkbXBxeHZZSTBoa0RLc18xSnpxX3dJR1FiYm5hdTdER0FWVEJRRGg3T0Nwek41ZmJFX3ZFdUtjeV83T0YzUDVvN3BhZEU3d2hocWx5ZUZQdGx0SEx4Y1hu?oc=5": {
+      "actor": "Unknown/Alleged Democrats",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.nytimes.com",
+      "rationale": "This item is a headline only with no substantive content provided. The phrasing 'Secret Effort' and 'Stack...Ballot' suggests alleged Democratic strategy, not a confirmed action by any official body to systematically exclude opposition candidates. Without the article text, it cannot be determined whether this describes: (1) a real, accomplished removal of candidates from ballots by official action; (2) a political strategy or campaign allegation; (3) opinion/analysis about electoral tactics; or (4) satire. The headline alone does not constitute evidence of ballot exclusion as an accomplished fact. Even if Democrats were attempting to field multiple candidates with similar names (a legal but contentious tactic), this would not constitute 'systematic removal of opposition candidates from meaningful participation'\u2014it is candidate placement, not opposition exclusion. Without full content and without evidence of official action to remove opposition from ballots, this rates severity 0.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaHVuQk5HSnJBZTBDYTdYb2ItMTVFd2lwMFZqX0FvM2hJMWd2QzFWN2hyYVpUYlBiZDU5NTdzXzlOU2ZqU2NGUXhBR2k4YkdSMlBDdmg3R0tQQnIzSW4yMEpSZmhMTEFmbFdVR3ZfSGUtajFQTzNZN2dudWFualR3dmtLQU9JZW1YVW9UeTlCY0hHSV9t0gGUAUFVX3lxTE1odW5CTkdKckFlMENhN1hvYi0xNUV3aXAwVmpfQW8zaEkxZ3ZDMVY3aHJhWlRiUGJkNTk1N3NfOU5TZmpTY0ZReEFHaThiR1IyUEN2aDdHS1BCcjNJbjIwSlJmaExMQWZsV1VHdl9IZS1qMVBPM1k3Z251YW5qVHd2a0tBT0llbVhVb1R5OUJjSEdJX20?oc=5": {
       "actor": "N/A",
@@ -9162,6 +9282,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Hong Kong and Beijing's governance of that territory. It is not a U.S. domestic event and contains no evidence of political speech criminalization or surveillance expansion within the United States. The signal applies to U.S. constitutional stress; events in Hong Kong are outside the scope of this dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTUtiN19XTlNrU0dsOWpYNi0wU2xSSEpMdEpfbklKSnJuMW9vNnV6VlYxVFhrd25KUVBRSWEtMnJXdW16SWlVSU1uQ1ZvaDJUSlhTS1hWa1dXQXRMVVZNaDJydnJJc2JkNGF1Z3F4c0RpVHpjNDVYNTJkMzcteUdhT0lrR09xQVZwUFJPU0pJbjd0NktDMXVBa0tEd19CbUN0YS04N2VXbkxtMkJ1STFzSmMtVG1tSWRf?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item is a headline from 'Between The Lines' consisting of a claim without substantive content, a date, or a verifiable source. No actual executive order text, Federal Register publication, or official record is provided. The headline is framed as an interpretive claim ('Criminalizes Dissent') rather than a factual assertion about what an order says. Without access to the actual executive order, its text, the mechanisms it establishes, or evidence that it has been issued and is in effect, this cannot be treated as evidence that an event occurred. This is a press headline making a legal/constitutional characterization, not evidence of a concrete governmental action. To score event_occurred=true would require the actual order text or an official government document confirming its issuance and provisions.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdG55Q3BmTmVYYmt1UzZraS0tTXpFZlF3Nm1OWlF4dUQ5RmtoOFljbDhCN1lsR0tpWWdYRV94OHVBWHBFa1BvY1RuV05NMHBseGFLR3lyX0VGTzdnMTBBX0RmRlpmTHN4bjBEZjQyTlpmNUtweVVLNG1RNTBsS1dRemY5YlRCS2tYNHRjdUNGX1VsZ2xiNUtDZzhtSkFkUXZ5bzZMdlItSEhuUmVzTzJVaXpRa0NHRWt6?oc=5": {
@@ -10058,6 +10188,16 @@
       "rationale": "This item concerns alleged restrictions on press freedom in China, not the United States. The signal specified is U.S. constitutional risk. Non-U.S. events, regardless of their severity in their own context, are out of scope for a U.S. constitutional-risk dashboard. No U.S. domestic press restriction or retaliation event is described.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVWc5YXJqY3RSQWF3RlJPXzJkSWV4VDhJcHBlTW1Hek1Sc1RBWW15U1NNQmROTVpTRlRsenIyYkZ4aVlJZFhOQlIyT1JJTDRvdkd4c3p6dnVYaE16VTZjQ2Vrckl2QUZ2elFfZ0lfZkI4T3VOVE4wakJCTU9xU1c2S2ZzMmgzZTQ5M0d3MHZKUlBfZi0xOHNLeDZKU0I?oc=5": {
+      "actor": "Trump administration (White House)",
+      "confidence": 0.82,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "This reports that US citizens are seeking an injunction against a White House press ban. The ban itself is documented as real (citizens are litigating to overturn it), indicating an actual state action restricting press access. This corroborates item [1] and confirms the ban exists as a verifiable event. Severity is 2 because the action has occurred but is narrow in scope (White House ban, not systemic suppression across government), is being legally challenged, and no court has yet upheld or invalidated it.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZjhvZGdYXzR1dXV5dVVLaV9KakdhMy1tWjVEZTdMSU51VlBPN3g0cy1BSGJBakdzOE5xUFpqVl9PLUdCTUswNzAxczZobHBsTHNkZlprWkRTWkRUTkNfdWhsaXRWTVVuc2gyay12OUNDaThGNFY4eng0eEJvMUkzaU84Z3FuUEpUei1fVThJaFlvT19oS09SaTJNOTA?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -10578,6 +10718,16 @@
       "rationale": "Lawsuit by major news organizations (CNN, MSNBC, Politico) alleging denial of White House access is credible evidence that state action restricting press access has occurred. This is a real, documented action that raises legal and logistical costs for independent reporting, though it remains contested in court. The action itself\u2014denial of access\u2014has taken place; the lawsuit confirms the factual occurrence of the restriction regardless of litigation outcome.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM2RuZFcxLXhzMzZScGdfN2tjeldsQk1QaGpZUkg3eXNMYTZwN1lGdWVSdWJUY0xqUXNSSjFNZXU1Y09HX3ZJMkRtMEl2aXBDa0owU3FtVTdBeHU3ZmVlVGhDckpsN1Y2Q1RDVUk0R0w2bGw5NDYwLWFqLWhvNlZNWnhGaXJrQzhULThCd2dsWjhoS0RhWG1fbFRvMmpnVF9McDFhR3huV08zUXFoV01BRWJpNlI2Tm9FV2w1T3htcUwtSXdvZ0E?oc=5": {
+      "actor": "Trump administration (White House)",
+      "confidence": 0.8,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "This reports that 6 citizens have filed suit against Trump alleging a news-media ban imposed by the White House. The existence of a ban (whether or not ultimately upheld) represents documented state action raising costs/legal risk for press entities and creating barriers to independent reporting. The lawsuit confirms the ban exists and is being contested. This is a real but currently contested action, hence severity 2 rather than 3 or 4. The date (2026) is future-fictional but treated as the scenario's present.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVFUxZDVISnpHMnZHT0s0NFk5WERVM2Mwd3NybGV0WkZjQkxabmRINEZCWVhyUE5EMVF0ZDRtRzVYSjVmR0hrcU9wUjdsX0VzWW9lTENCeHRLTllBNk1ycXJ3bnhOd3pIcFl4b25MOE5GU0FhMmU3WUhCS1RnZnFheWRYS1ZVMkhScHFzWHNrWUxxYVRKVDVza2I5RnVBa1pDYlA5X29hUXQ0R2lRSzBVOTd6WUMyZ0sySkVSR0t3bEE1Ym9XLXA5Tg?oc=5": {
       "actor": "Unknown",
       "confidence": 0.95,
@@ -10596,6 +10746,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item reports on press restrictions and journalist silencing in Kazakhstan, not the United States. Although the subject aligns with the signal definition, the event occurs outside U.S. jurisdiction and is therefore not evidence of U.S. constitutional stress.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV2U1SDhJS2ZNVzNJWk9NYzhEMEFFZVpybkwxSk9kTXBWZnFvOUZzeHJYTnV0T3BWdlNqMUtOM0JkWjNNZ25CNFdIaW5uN01FQURrVExYVkYwRlREWFpIT1hYRm9iMXZkaWlSQ3ZCaW1sWnh4MldhdGhrdEIzbHlGMnNNM3kwUlRYVU90ekpzQjdIQjBENWZpaDFYRE5WRjNyTkVuTXhqTWJoN1pmb2pNanJadWlHRG55dzlWVW8zTExQeGdHbVZlbmpOWdIBywFBVV95cUxPV2U1SDhJS2ZNVzNJWk9NYzhEMEFFZVpybkwxSk9kTXBWZnFvOUZzeHJYTnV0T3BWdlNqMUtOM0JkWjNNZ25CNFdIaW5uN01FQURrVExYVkYwRlREWFpIT1hYRm9iMXZkaWlSQ3ZCaW1sWnh4MldhdGhrdEIzbHlGMnNNM3kwUlRYVU90ekpzQjdIQjBENWZpaDFYRE5WRjNyTkVuTXhqTWJoN1pmb2pNanJadWlHRG55dzlWVW8zTExQeGdHbVZlbmpOWQ?oc=5": {
+      "actor": "Committee to Protect Journalists",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is guidance/advisory content about journalist safety during elections. It is not evidence of state action restricting press access or imposing legal costs/risks on independent reporting. It is preventative guidance, not documentation of an actual restriction or retaliation event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWE9LdFRLOVA4aWFzVXdJSnNUUGJUb0xWLVJvZnFlVk9JS0NRcU1EQ2Z3ZHV6MDBZQS16eUNrSFAyWGtKQzdDdE1tMXFIZE05MVRpaXd2Sk5SczJNX2pYMk9KTlNoaVFlMk9HQlloLTdST3RfNVcwVW9jVGRmTllTZWFYZzV1d3Y1N1EySTVMNlNSWUJnM1lnTnJ4MUhqMHg1YkVFRGVlUmtDM3kyRFo3c09Ud1JNRlRkNVBSWDRaN0QzRC1xN285Nkl4dkZvd9IB0wFBVV95cUxQYkZuNWJWN2oxbmplczdoMERUbVNxTEVVRG9Wak16SUtTd2VOUG9ydjFGSnRURF9ORDNhTXZjSjhhVWlJZ3lqa0hfc1psWHFMZW9WTnRsV3ZMSVdLTFpCWUR6b1RsZGxERkN2MWhwNXRaVlctZmhiYnlpMlA4bGxkR1NIXzFmVWIteGRhU0tEcVhDMDl4U0tlQmw3c1dTeV81dldTZE1QRG45QlVJVnlhWnBPSE5OOWNheVdGU25GNEFvMkR0NUt0SnVMeTFKRkZZcUo4?oc=5": {
@@ -10970,6 +11130,26 @@
       "rationale": "Multiple credible sources report that taxpayer-funded ads promoting Trump were created and broadcast, then reversed after public backlash. The underlying fact\u2014that public funds were used for partisan promotional ads\u2014constitutes a real occurrence of the signal. Trump's subsequent promise to reimburse is a remedial statement, not a denial that the spending happened. This is a confirmed but limited incident (severity 2), not a structural failure, and was halted upon exposure.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRMmY3VmhWTi14SFFZLXBIeVNSY0JZRGhidldRaDlOaVd2Nk9VMk0tcVY2UmZjb1g1bTEyalFwOUhkZkNPSHltN0NicnhEVWl6dVJIRnFwazNvTFgtNlBRQVdnbVlURC1xakRSQ05ma1NMNVRYdHc?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.85,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://news.yahoo.com/singapore",
+      "rationale": "Item is sourced from Yahoo News Singapore, indicating international coverage. The signal specifies U.S. domestic constitutional risk. While the content may reference U.S. political ads, the primary source geography and editorial context are outside the U.S. domestic space. Excluded as non-U.S. event for dashboard purposes.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaRnJfaE0xNnU5LWdFZVpTSHJKNzhnTHNINmJPSUVfWmlUTHNOVTFhZDhlU01aR2V1QWhYTkZRR0FJSGE5RVpCd1ExNzJNQ1RnTUFMSTVsWXQyQWlhSk5LODQyaFhSUTk5cjZlc2xHYldZdlZIalE?oc=5": {
+      "actor": "Trump administration (DHS)",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://commondrreams.org",
+      "rationale": "Court order blocking taxpayer-funded partisan ads represents confirmed judicial action against alleged misuse of public funds for campaign-style promotion. The judge's issuance of an injunction is itself an action that changes legal status\u2014the administration can no longer air these ads without violating the order. This is a real, credible stress event. However, severity is 2 rather than 3 because this is a single blocked campaign caught and restrained by judicial review, not a structural breakdown or pattern of defiance.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pLUtqbzlUWHRveXYwMmY5clRlVzVGVWc3SThfWEEzb2xvZm9tSFhHR0pHcFo3c2U5UXdjMnp0aTg2NTAyc3FHSlhIR0dxSlFEOUdwVmlsek9GTEVmYlhaT01kQjVJWmVWLU10U1FvWFdaYmc5N3pYSA?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.85,
@@ -11230,6 +11410,16 @@
       "rationale": "A headline framing itself as opinion/commentary ('PSA' is sarcasm, 'continues to commit crimes' is assertion not evidence in this item). This is punditry rather than reporting of a verified event. No factual details about the ad spending are provided in the summary.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMEEtYk1MbzBMeUtpVlJzUlRjdVR1UVFTeHp0WW9PSVpuQmM5YTllQzlKWTdNaDU4ME03YTVHa2dkbF80ZHgxYS01NUg1NHFqSkpMQmYtc3NmRzJtejF4OVNQSzJsV2lsUVNSdnBBSTlsQVlEWW9PS0dra0xUU0g5RzNscjdkTWZR?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.7,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://knewz.com",
+      "rationale": "Item references a super PAC re-airing ads after a judge's order. A super PAC is a private entity, not a government body. The use of private funds by a super PAC does not constitute use of public/appropriated funds for political promotion and does not match the signal definition, which requires public money. Without clarity on whether this report describes a government entity violating the injunction or merely private entities' independent action, and without sufficient detail, this item does not provide evidence of the signal event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcVoyaTFseWtaZDhHOF9rbEh0UUhhRkE4LU5MeDN4Vkh6cjh6R1h0V01XaUQ2YzVoak1DOUFXVXFjUlR3MjBOR0pOQzZOZWx0Y0k5b2dhZGtXSzNNQzFnWVpsS3J4ZzBnSFA2QzlVek1jVzJmeTJ0UUpLV2xsZ2VDb2dUeC1mQzRE?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.71,
@@ -11288,6 +11478,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.lawcommentary.com",
       "rationale": "Law Commentary reports DNC suing Trump over $20 million in taxpayer-funded political ads. The specific dollar amount suggests a substantive, documented allegation. This is a credible report of the lawsuit. Severity 2: lawsuit filed (event confirmed), but not yet adjudicated or officially confirmed by government.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS1V2VVdYdGZtbWxodHk4RldORjlFdG11dlpqeVpsc1NWRnY4TGwzQ3pEaVF0MTFpSGFORFM3alJRQUt0aFpfSEhRN0NhTEFRV194Q01DS1NuSUpIcTZtdG94dkdXY1NTUUZxbVJHYTFuaWRfRXNtdmZ2M0lfX2syVFZLSkxjSXVnTzdHempR?oc=5": {
+      "actor": "Trump administration (DHS)",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.aol.co.uk",
+      "rationale": "Report of a judicial injunction against DHS use of taxpayer funds for partisan campaign ads. The judge's finding of likely legal violation and issuance of an injunction constitute a verified action. Severity 2: a credible, confirmed enforcement action against misuse of public funds, but contained within judicial review and not representing structural failure or defiance.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMTJ2OE91UWpqaFN5WmlZdnZXcXA1R2ZCeXpnRjZVUjcwQWJfVzBOV2tXbjdYb0Z5OXpiLUE4czZFbnJ2NGRNQlp1NWRRZFNUd0tTRVdDSDZxMkJ0U29Xc0RVMUkxVjNkLWplQzZRVnZQTFpmWVlSeWlHS0d3TlB4cVFESmxaWFJmaHk1WEJEcw?oc=5": {
@@ -11458,6 +11658,16 @@
       "matches_signal": true,
       "primary_source_url": "",
       "rationale": "Vanguard News reports a judge ordering Trump to cancel taxpayer-funded TV ads. Consistent pattern: the underlying conduct (use of public funds for political promotion) occurred, the signal applies, severity is 2 because the judicial system has already intervened with an enforceable order.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMilgJBVV95cUxQZ09GMEZNcDV2UjJRdUZSYXdtT1VaVjFWQ0hTYmk4UjUtVEN3M2JaUHJKelpETEVnd3htWWRwdUtSaHczNFpBTEFhUGdTNjJfQzFuRXN2enN5YWhXZWFOaWwxZVVGSVFnREJfMng3TWEtVUxWSlFERzAwS3pWVzQxY3N2Y1FraUgtNEE0d1ZqSHdsbGw2QmRvRk43aTFCRG9MTTZ6TWhsQWtBUE5JTUxvRFA4cjhBd2R5RlR5WmtINHdjTXV3ZjQyM0g3MEM4dEx4TjhkQXFPOFZUSTE2bmd4dWNHd0RwR1ZWTkdjMGRxSHRyYnRTaXp0SnNkRjFOM1ZCUHlmbDZtNU9vaWlHbGhNNGg3RDlfdw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://lawandcrimenews.com",
+      "rationale": "Another corroborating report of the same judicial injunction barring use of taxpayer funds for partisan ads. Confirms the core signal event: a court order preventing government spending on campaign-style promotion. Severity 2: a real but contained judicial intervention.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb3ZiMWRmRnN0aGRnR3pkTXo2ZXA3VkZqRlpRUi0xQTA1cWo3WmRrWXBhaGZjSkI5YnVJc2lBRlZqUjRyTVJWaDRzOU02Y2MxR19fMDh2bGh6Z2V2NENwc2x4Mm1BSkZ3NDgtOFZrbGlhNXdJZ19qMm05dUZfX0NLREhMRkNudTdwdFlNZ1lzR0tWSWNzaDRWag?oc=5": {
@@ -12080,6 +12290,16 @@
       "rationale": "News report indicating that Wisconsin Democrats filed a lawsuit challenging taxpayer-funded Trump promotional ads. This confirms that public funds were spent on partisan political promotion, which is the core of the signal. The lawsuit itself is evidence the event occurred, though the severity is 2 rather than higher because this is media reporting of a legal challenge, not yet a confirmed finding or structural change.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOEJkdmhSQklvQUdNY2xhV2hXaFpiZjFRQjFyNERvWG5rM1ZOek9pVmQxeVlyNnc2NmZaZmhpOU1MVHFqVFo5eFVIZmtxRWloYWVWMF9zU2pqRkVKc3VIOTRwVkxCRUloVWNWMzk1bURqX0h1VHpqLWxuU0pBWTU1MGhyRjZYWm8zT0JXZV9xVWlsdmpLSHQ0ZzRaZURCT1VUVW00YjAxUmxId1c0WUJPZTJFLWxkbGNy?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.75,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.independent.co.uk",
+      "rationale": "Corroborating report of the same judicial injunction blocking White House propaganda ads. The court's ruling confirms that taxpayer funds were being spent on partisan campaign material, which matches the signal definition. Severity 2: a confirmed but contained judicial intervention.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHMzN002ZGhPbE53bUEtclpRaXRERjR6M2RWV3NvNmxxcXQyRW1mMFloclZaRHlQb1BneXdvZ0xRblZvSU5PdWRnQkI2ekVhbldlaHZFcmhjY1BjU1ZMWi1IWjROYXN0LS16dVN2enk0alJuclZEN1lTRkNpakNFRWpINjFyUVJ6NkhoMEtSYXJkSGp0Sl85X18yUFRjOGdPandMd24zUVpfZEhRemZ3MmhCWHMzUlBB?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.72,
@@ -12432,6 +12652,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/09/18/2026-19222/employment-in-the-excepted-service",
       "rationale": "This is a proposed rule, not a finalized action. The document proposes amendments to OPM regulations governing the excepted service and ALJ appointments. A proposed rule requires a comment period and further action before it takes effect. No safeguard has been dismantled; no new authority has yet been conferred. The text is incomplete and does not indicate what specific changes are being proposed beyond routine conformance and modernization. Without evidence that the rule has been finalized and that excepted-service expansions have actually removed civil-service protections or installed partisan loyalty tests in law, this remains a procedural proposal. Not evidence of a constitutional-stress event.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/29/2026-22093/personnel-management-in-agencies-strategic-human-capital-management": {
+      "actor": "Office of Personnel Management",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22093/personnel-management-in-agencies-strategic-human-capital-management",
+      "rationale": "This is a routine administrative rule amending personnel management and human capital planning frameworks. The summary provided does not indicate any application of partisan loyalty filters to security or coercive-state institutions, removal of merit protections, or structural changes to the appointment/vetting process. Streamlining reporting requirements and strengthening authority of OPM itself are standard regulatory functions. Without evidence that this rule conditions federal employment or security clearances on political loyalty, filters hiring/firing by party affiliation, or undermines independent hiring protections in law-enforcement or military contexts, this is routine administrative modernization. The truncated summary may obscure details, but a general personnel/HR modernization rule is insufficient evidence of the 'Security Sector Loyalty Tests' signal absent explicit partisan conditionality language.",
       "severity": 0
     }
   },
@@ -13536,6 +13766,26 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/10/28/2026-22001/agency-information-collection-activities-submission-for-omb-review-comment-request-extension-rule",
       "rationale": "This is a routine notice of information collection extension submission under the Paperwork Reduction Act. It does not involve removal of statistical leadership, methodology changes outside normal notice, or suspended/delayed data releases. This is administrative paperwork, not political interference with statistical agencies (BLS, BEA, Census Bureau).",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/29/2026-22073/agency-information-collection-activities-comment-request": {
+      "actor": "Social Security Administration",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22073/agency-information-collection-activities-comment-request",
+      "rationale": "This is a routine Federal Register notice from the Social Security Administration requesting public comment on information collection activities. It is a standard administrative procedure unrelated to the signal's focus on BLS, BEA, and Census Bureau statistical data integrity, leadership changes, or political interference with official economic data production.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/29/2026-22117/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for": {
+      "actor": "Census Bureau",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22117/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "rationale": "This is a routine Federal Register notice requesting OMB clearance for a generic information collection activity regarding alternative reporting options. It is a standard administrative procedure, not evidence of political interference with statistical agency integrity, methodology changes outside normal process, or withheld/delayed data releases. The document itself does not demonstrate removal of leadership, unauthorized methodology changes, or suspension of data releases.",
       "severity": 0
     }
   }
