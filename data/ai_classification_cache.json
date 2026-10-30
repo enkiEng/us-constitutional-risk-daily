@@ -1596,6 +1596,16 @@
       "rationale": "This is an opinion/analysis article title from The Atlantic. The title indicates commentary on a trend or strategy ('Long Game') rather than a specific, verifiable action that has occurred. Without access to the article content, this reads as prospective analysis or historical retrospective, not evidence of a specific constitutional-stress event having taken place.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbk16M1NVUmJBNkVXRmE0ZUkzQ3FzX1ZkVDFaTnNNVTFXdUZ5anctQWk5cG5DMDBMc3ZWRUZ0MXpSLUppVm5yVThGd09FMlFncC1RSWxqejhOcXphSUk3a2RKRWxlaTlfTHUtb3N0eU5yWWJ5NS1LU2dYVGhBdXZjR1ZSa0FlRGVzNExlVmZ6MA?oc=5": {
+      "actor": "Trump team (alleged); FBI agents",
+      "confidence": 0.93,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "This reports FBI agents' fear that Trump's team may order seizure of voting machines and ballots. Fear of a future action is not evidence that the action has occurred or that administrative capture has happened. This is a hypothetical or predicted scenario, not a confirmed event. Until such orders are actually issued and acted upon, this remains speculation about potential future misconduct, not evidence of present administrative capture.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMzFJT250clRaMjhLbC1EMjVwTTRxdDhIcE55cksyekdPWWtabERGMmFWNkx6bnRQMHpHckh2bWtIQmZxdFhPQmk5cEpiX3dsUmpobDd1bjZROHdrYk9PYzc0cGJvX0VMSmYzaHhwcUI5VUx6V2o0VTFWTDg4b1ZlSkpkTHBlMXFDQWZfUDJkS3o?oc=5": {
       "actor": "Vermont election officials",
       "confidence": 0.92,
@@ -1604,6 +1614,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Vermont's removal of voters due to discovered registration errors is a routine administrative correction of voter rolls based on error discovery. This is standard election administration practice, not evidence of partisan capture. No indication that neutral process has shifted to partisan control.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxOT2w4Q0hHODJIYlUzOER0OU9sWjRES1d6dnlVX0hxWkc2ZDZOYnRsdzdIcFZMNFBwLXU3dmtRNlBXa3M5OUQyVTFJNmhWQmFobXkzbWZiZmZLN1VKOF93QmxMZmpFc0s2MFFPX2hUODBvSFJiMlJsSFoyNXRVNWhSTnVLb0VfX1RTdExTaXVVREU?oc=5": {
+      "actor": "Campaign Legal Center",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is opinion/analysis about election confidence and concerns. It expresses views about the election but does not describe or confirm an actual event of election administration being moved to partisan control. It is punditry about the state of affairs, not evidence of a structural change to election administration.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa3o4eFJIWW1lY3NvdTJNenk5OVRaLWM1aEJlZDFGdGszYjZmQ2NpcncxUy1kXzktX050cUlHSm95VC1qaE1KQlctUE5NZ0JHSzZENXRSTEJOSnVFRjNvTGRsVThzQmFSdVBPUzd2azZMMHd0M1BHMjRsQl9YeDluV2V6SHUwMWpxQmlHRVRMMjY?oc=5": {
@@ -1664,6 +1684,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a lawsuit allegation, not verified evidence that election administration capture has occurred. Lawsuits describe threatened or claimed conduct; the filing itself does not confirm that partisans have actually moved election administration to partisan control. Without details of what specific administrative actions have been taken and confirmed, this is a legal claim, not evidence of accomplished structural capture.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXZoZnd5TWlac1BNQkoyZGw1UHR6RkphN3J4S3E2bkZXbFN4SFhKcWdGQkhyNXJfblNQWTJkbXBxeHZZSTBoa0RLc18xSnpxX3dJR1FiYm5hdTdER0FWVEJRRGg3T0Nwek41ZmJFX3ZFdUtjeV83T0YzUDVvN3BhZEU3d2hocWx5ZUZQdGx0SEx4Y1hu?oc=5": {
+      "actor": "Democrats (alleged)",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This headline describes an alleged secret effort to influence ballot composition in Alaska. Even if true, this is a campaign strategy allegation, not evidence that election administration itself has been captured by partisan control or moved from neutral process to partisan hands. Ballot composition disputes are separate from administrative capture. The framing suggests the article reports allegations rather than confirmed administrative takeover.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNUp5aUkxSm1HS3VPSUNBU3pPTDZMV1hDNFJiY3d5blR5Ny0zYldrM3kxX1VDR2J4M0FvRUdCdnZDMUJCVENEcHN5RkdBM0doQ3JXMl85YTgwdHB3TW1ndjhSYXZDeGhFVFBPWm9GVWxjYkZiTThxajFOaS10SWlCTTlVMkprcmVHLTUyZTdnVzJ0elJRUXNLSg?oc=5": {
@@ -1826,6 +1856,16 @@
       "rationale": "This item is a title fragment only ('Structural Mechanics of Federal Election Takeovers and Execu') with no substantive content provided. Without a full article, summary, or credible source confirmation, this cannot be assessed as evidence of actual election administration capture. The title appears to be analytical or hypothetical discussion rather than reporting a real event. Cannot confirm any actual occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcWdBRV9oUzJReGIyOW8weXdvU095Zm1GY2FwZklkUEF2c3dRMVlIYUo4OUZrRDB0QXVTTUZUYU9rVmlPYjJhU2tManpfVjd0YzQ5VXNkMUtuR1FhakwzNlBOSjU0bmdiT2xsUzNYN0RnazdLYzVvTnR1T1RBdUF3Q3ppSU9nUmdhQWs4NjBRZHluRW5KaGZrMTdVbXpfeEZVSjdUcXloXzdCd9IBvgFBVV95cUxNTTJqdUJ0UDY5S21LcGVoVzlPelkxaDFXay1yWUx6d3RBNTRRbkhDZmd3TTZwWjh2Q01vNFdPazRtdUg4MVVRX3Fta2twdTh5N2YzT2Q0ZEhPZDh0a2VRb2NjTWdlVmxWSkhaYVFtdXVLTkp5M1Zab3dxUnpTQ3oxSHBfcDNvR21aUkhhR0kxZ2cxc1U2dm9URjJqXzNuZnJwUVZsQnVlc0ZOUm1lZHh4M243T2JBZHcxczBGS3FB?oc=5": {
+      "actor": "Trump (alleged); courts",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "This reports that courts are deciding the fate of Trump's latest push to control voting. This confirms an actual effort is underway and is being contested. However, the matter is still in court; the outcome and whether the push succeeds are undecided. A push to control voting mechanisms that is subject to court review is a real stress signal, but since courts are still deciding and no structural takeover has been confirmed as successful, this is a weak (severity 1) signal of attempted capture rather than confirmed capture.",
+      "severity": 1
+    },
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5": {
       "actor": "Trump director of election security",
       "confidence": 0.75,
@@ -1966,6 +2006,26 @@
       "rationale": "The Trump administration's push to block California votes was rejected. Like item [1], this reflects a real action (attempt to intervene in ballot counting) but it was unsuccessful due to judicial intervention. The appeals court's rejection demonstrates that election administration was not captured\u2014courts prevented executive pressure. The event occurred (the push and its rejection) but it does not evidence capture because safeguards worked.",
       "severity": 1
     },
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWlzT2o5U2NYVFhhZ0pqTWlrblJTY3U3Q3N2R19ENG5wdS1ua3pla1I5aktWd0pwT19RN0lPOWZfNG9vZWxmOWhXeDZZTHlJS0x6RU50V3IxNVBlVWRQV21mXzdaZzNQeXZObXRseGNZcS1namlsOEVEaEhNaVR2XzJNT21lTGN4TVNHOFdJOEdDZllxc2xxT2sxNDNSajZUcnJhUVIxYzA0X2JTVm9oWUFfWFRULVXSAdcBQVVfeXFMTXM3QmdjYW5YbXVVTWl1UTVSQmZqYi1IcE9tZEZFSzVBQWYtNklJcVhiaG5KZnBJU3JSXzVYVzhQZ3BHbm9Db0JIbTVtSWlRUjNTOWJYSmRSZU1XV29ISXZieTRiSmM0LURzRXN1bmdQcHZXdmt2aC1aQ0l2UnhycXV1dnQzcTIzZDRRWVB2V0Vjakw3WUg0SkFQVzF1MUV4RmlzbVRVcEtyTkVZeUhYc2s5ckVMakFFeTJINFB2Um5NQVJDc2NJb2EyeU4wMlJVbW1BQjNEWWc?oc=5": {
+      "actor": "NJ Committeewoman (unnamed)",
+      "confidence": 0.96,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This reports that legislators condemned a local official's deleted Facebook post about Muslims. While this confirms a real event (the post and official's statement), it does not relate to election administration capture. A local official's offensive social media post and legislative condemnation is not evidence of movement of election administration from neutral to partisan control.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaFcxV2RIQ2ViaElHSHFvYVl4VjRjYmFCVzBlSjQwVE1reGIxb0trNTR5ZFdXZjNqa0ttaVI2Y0lrRTR2bjFvdHd4RHhGcEI5aDg3Nlh1VmdMZEFhZ3hTMWFHZjhVcHdxWHIwWVgxNUVtQkR0OExQekVzek4xbkQyd0tQY0lLWUFxOGZjQlB2Q3B6S0VndVl6YW92ejlSbDAwYmt2X2tzX3E4ZTRfdF9iMUJBYUVqZng0?oc=5": {
+      "actor": "AI deepfake creators; state lawmakers",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This confirms a real event (viral AI deepfake advertisements) but does not match the signal. The signal tracks partisan capture of election administration structures. Deepfakes in political advertising, while a serious election-integrity threat, do not constitute movement of election administration from neutral to partisan control. The story notes lawmakers are struggling to keep up\u2014a policy lag, not an administrative capture.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOelhoQVBTZUFVSmJVeGpkb3ctVDdpMXBMcFBXVXBaMjJsckI1akJEeUsyYzhvcWw0azMwUXVLZWFfUVZrSnozcC1IWTk3S0RtUVEzdk5yVlhTZnZpdmdUUjBlSnlnc0tfSlRYUkpuVF9KUWhDbHBKd1hvX2h3LVc2YmtEdTBIT1M5UVlXOG85LW5UM2M5ci1zcl9TZzJQaWxWUzRELVhXUTJ5U0pFMmN1d290RlVlUmFm?oc=5": {
       "actor": "Candidate (Wisconsin Secretary of State race)",
       "confidence": 0.95,
@@ -2076,6 +2136,16 @@
       "rationale": "Report indicates DOJ has filed a lawsuit seeking to block Alaska Senate election results contingent on a Republican loss. This represents a direct federal intervention to prevent certification of election results based on outcome, which constitutes partisan control of election administration and a serious assertion of federal power to override state election administration. A lawsuit filed is a concrete action (not a proposal), and blocking results based on party affiliation is a high-severity manifestation of election administration capture.",
       "severity": 3
     },
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdF9XLXRmdGdHaHMweEIxRDIyNlMwZUluQmNXX2tGa015enNPNjdEdXRMdDdyanZHUFdJV2cyUWptOUxhWDRnZS1Zc0g4YjVtb0lQVHB6Q2dCM0M1bVF1R1NEY2dScFBBZzhkQU1ialBFUU9YeW9Cdk9TcGt2Z2F3aHlPOXhTRldQeU5kVFZEOWx0MkpBdU9pTUlJODN1aHVEdXVTTjc1QngxVm9ia2hYckVhVjdhbGJCMFY0cGkxZ20?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.94,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is opinion/analysis comparing past rhetoric with current capacity to act. It is commentary on the significance and potential implications of Trump's historical claims and present power, not a report of an actual event in which election administration has been captured. The headline itself frames this as analysis ('isn't new. His ability to act...is'), not as confirmation of action taken.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbF84WFJQUHdLSU9fNFJrR2FoN2NBYUdDOGZQNDYxNnhIMGlBTUZlSGxpeGVaRlNRVWo4RlBpN3M3TGkzakFpZVdSeVFOak1HM1V3bXNQU0JpdUxoVDFpYnFiZDU2QlBTa0tDeENNZ0RKQ3hzaUJna2dremlLOFNhQm1MTUoyUXVvMkVpbDJMSmppTXRtdnVRNmQ3UW1kbmJGSDVnWnJ2b202TTEyVUU0NnU1Rng5QV9TUnBMX1FhVEhwU1Y0UXc?oc=5": {
       "actor": "North Carolina State Senate",
       "confidence": 0.78,
@@ -2105,6 +2175,16 @@
       "primary_source_url": "https://www.detroitnews.com",
       "rationale": "The DOJ moving to block an Alaska Senate election result if a Republican loses is corroborating evidence of the same serious partisan intervention in election administration. A second source reporting the same action by DOJ reinforces that this is a real, confirmed occurrence rather than an isolated report. The action demonstrates election administration capture by partisan actors in the executive branch.",
       "severity": 3
+    },
+    "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcXE1Y3lpa2g5MTJjOG81SW14THVFR1REYVdCcFVvTU5razhsTkpnVE84d2F4eTBxYlZ1enBTdzhGMjhocEV2ejRhcWFuZFVvTFhoQUEtOVM3bzd6aHZ5MEwweTBva3NUS083cGJOUnBxNE5NOWthVF93TXBUZEFsZnV4OUt6RUI3MXlzNlpnX2tpV0dUSzM4dVJ5UnZNdmloVmx2eWNvdElqNExkSmNvZzIxYm1fMDYybEdydEctdlFXNXNYU1MwWDNURUxJdw?oc=5": {
+      "actor": "U.S. Department of Justice; federal judge",
+      "confidence": 0.93,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This reports a DOJ lawsuit over alleged noncitizens on voting rolls and a judge's skepticism of the case. This is litigation over voter eligibility, not evidence of election administration being moved to partisan control. The judge's skepticism suggests the courts are functioning as a check; litigation itself is a normal part of election administration, not a signal of administrative capture.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTzF0eEl3Zk9OYjJDeFVUam1jRk5ZeUxoRUhwa1J1V3ExcUtSa2N2b2VQTGZaSDFzeE12MDdWUVlyOE1NZkRVakZWY1J6Tjk4ekdFVml1U09NOThTQmVIRTNlZ2FEdlIwY2RuYXNTalVMTGFxaHU3S0lfNkd5VlJoOTdVZ2gzWF9YYUxEcXAxTFZvNl9Sc0ZralA2MTF2RVBnN3hGNmlCMFhKdTl0UmNoaWFMT3dWRTZRZUFaWl9WemFmVHlxdGhiWko1dGpuamM?oc=5": {
       "actor": "Community Impact / Austin ISD",
@@ -6254,6 +6334,16 @@
       "rationale": "This is foreign press coverage of U.S. midterm elections and their political stakes. It is political analysis/commentary about electoral outcomes and their implications, not evidence of an actual executive bypass of legislative authority. No constitutional stress event of the specified signal type has occurred or is described as having occurred.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLVhBOVI0bE9tZ3VpaGZCeHNUNjlER2Vxb2xYR0ctLUdSRm9iNFBqRmRnUVRVaThXeGlEVEgtbl9aMTlET3FfVHlhQWRWcVl4cmNPMGM3X0JKbGVOZ3d4aVk3Qlhpc0RTSjRYWFFYYVY1YlNBVWJORmdVdzVaRkUtNy0teFFSc0JfdkJpbl9ReUdaT2RibGFzcEZmaEhlS3BySG1kRGJaMmo0R0FL?oc=5": {
+      "actor": "Gun Owners of America / Aidan Johnston",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a get-out-the-vote opinion piece/political advocacy content calling for gun owners to vote. It contains no evidence of any executive action bypassing legislative authority, no structural change to governance, no shift of powers from statute to unilateral executive action. The headline refers to Congress and Trump working together ('deliver'), not to executive override of legislative process. This is campaign rhetoric, not evidence of a constitutional-stress event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb3Zwd1VuVFR3aXN3Y3kwS2hBa0phNnJzMmh4a3FmaFhsR1RQd09sYzh4M0JVLWxrUG5UeExJNWdPejYzdURmZEM4aGtpakVxLWdZY2lRYWtwMFNTOGxYcFRRcldZcmJlTzREYmFIQnNSaVo5c2lCZXpnN1A3MWU2YVd3MGhOTkFXbDRQNEc3OGEzdlZzMGUzLXo0Z2FaTG42ekRKS3kxeVVkaEdqWHc?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.75,
@@ -7608,6 +7698,16 @@
       "rationale": "This item concerns a Nigerian electoral dispute (Anambra State) and judicial authority in Nigeria. It is not a U.S. domestic event and therefore falls entirely outside the scope of monitoring U.S. constitutional risk. The signal concerns martial law or military governance language in the United States. This is a non-U.S. event and should be scored as no material signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcUM2ZGtRVm5KS0FPd3psX0RheDFwajgxUllSSTdDZ21kd3I1LW04QlFhcHB1XzExdnVuOXVLdWNRR20zampyZUFrZkMwZDUzWTlPWEtGYVNrVmRMVGQ3N01SbWUzbmQzM3dDRmpTZ1dNb1FNXzFaSDZ5UjlkbVpKVmh0T2VWZlBlZkJZSmFOcXQtOXRRSmJHY0FtNndSZzN0VWx4Nk9qUlUzSkkzcEg3LThQMU4tMU0zVGNGQmZtV3RBcC1UZU5mRkpuZw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is from \u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430 (a Ukrainian legal publication), discussing property law and Supreme Court decisions in Ukraine regarding apartments and lifelong care arrangements. It does not concern U.S. constitutional matters, martial law, military governance, or any domestic U.S. political dispute. It is entirely non-U.S. and therefore irrelevant to this signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVlNLNU1ONzlOME45SVZXTGtqd3NWbm1NbkRLTVZjYjVjS1ZsenFnZ3l5c2g0NUNIYWdQdU1SaG80UWdoenZLTHdXYnF1bWRqX09wNnp0RjFXbUtXMWhaNGZlMG93bUlyVWRKQTVndVNWU0xsWnJqcHBRX1prd1Y5Z2pYcDc1a3dLZGN0U1pVOFl2RUp6aHlFZjdLcGJSUGR2M1BVWmhFbGpIVVMzQWRhbjFZU3lEYllMd3BWMjVqczRTWnlPa194bzhDONIB2AFBVV95cUxOYkRraHZmdm1MWFVCTUpaNEVFYW8xQVRqVTNPb0NHLWdWZGVPV1FYTm1iUEw0ZnFyTFFLVEl3MkRWYlJPaEtDYnJJS21ORV9PMjkzT054a1hFV3VrekJYYUJKeGUxLThNb21VaXNkWFlidnFZLW9ib2tTNlFLd040NUE1cDNLUTdPVHRZbmJQWEpJS1ZwdWk3OG9SRklOS2RHT3hLQXVRQU8weGVlbGhZRHVCUnVTbjZBX2ZaZF9kX0pWV1ZxVUttallRcml1WWN4dFIxUThnbEc?oc=5": {
       "actor": "South Korean government",
       "confidence": 0.98,
@@ -8842,6 +8942,16 @@
       "rationale": "This item concerns the 2027 Rivers gubernatorial election in Nigeria, specifically APC candidate Kingsley Chinda. It is not a U.S. domestic event and is irrelevant to the U.S. constitutional-risk dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaXM3M3JhSUp6dWQ3UHduQVBhQ0ZNbDM1R05ndHh1SkwyRGM4U2ZnaTRSQmdPZzM5cUFiVmN4bVNkMFRMZ18zYjI3dElKNkktRHJvVllmWDdEVE5EdVhqbXhPMWUwSllUNk4ybjkzWDdNLS1kdzRxdnhtX1pTWmt4cDNNT01DdzdicU1oOFgxZnFzcVlOQTVMNEZvS0I2eHJXTW1Xc1ZHN25mU3BYTDVCWFFDSEo?oc=5": {
+      "actor": "Appeals court (Tamarac/Florida jurisdiction)",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.sun-sentinel.com/",
+      "rationale": "A Florida appeals court has issued a ruling that upholds removal of an incumbent from a local ballot. This is a real, confirmed judicial action affecting ballot access. However, without further detail about whether the removal was procedurally proper, legally justified under applicable election law, or part of a systematic pattern, and given that it appears to be a single local-level action subject to appellate review (suggesting normal judicial process), this registers as a contained, credible stress signal rather than a structural failure. Severity 2 reflects confirmed action affecting a real candidate's ballot access.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMitAJBVV95cUxNRDcycU1NOVVDZWxUMnRRVGJSdnRmem5veTFRWU1maVVYSHltbzBtVTZRY3BpWEVOUG03b3o4U1BORjFncVlkcmQxVFBCcU1JRFZZcDhvTk5pYU9MRXU0QUdiU2V0cE0yOU5jUVlYdUd3b3Zfd0JHajQ5LU5mVkljaUk5QlhyNzJRMklDVnp2eW1UTEhZUTNXYU5XZ3Awem1HWWNzTkpwYWN6M3ZHNWpQcnRjbWhDRVJ6UlpXU0RZaURHM19mNXFlRnRTanRXUWFKeUJSN013QnZoQUtiNEJxQ3lmTGlYUWZKOTlLcEJLSTNLLWs2OTk0ZWxpV3F3aW9welZkYTVMa3FkSUU0MVRXYmdQYVdqWC0tY05MRWlnajFWZlRJZF80WUtURllJTlM0YnhVZ9IBugJBVV95cUxQZTZqWGdwLUxHTmVYT0huSUlIVGV5Tk9pY3h5SDlWMmRLV1hPeHE1bG9nY205NHVkOEZnWmMtc0V1TGNmTWs0M3lWQTV6U3hUODloNHEwdHRBLUtrS3NVTkRjMTc4b1hGSENXQll1NzBMY1BIaXpONWpVSVlFeEJxQXZFZVY2WEF5WlYwdnBiSDItVno3ZnN5WWNORno4em44eXZXQ0hOMl9yR2tKRGxlajB6a3Rhejhld0lrUHU5bE1uM1U3S09QUEI2YWNtUVZIRy1aUkdsRkpxMG1LS3NNamUtcGZja0RQaEF3ZThtWXVkd09rQ0ZpWFBTVnNNbFRORkZVQkpuQjgzcHk0djBKX1ktVjJmZ0pIbkQ2Zjkya2lQbTZtQjM4T1NWQmN6V0lWTWxZQmhOQW5NUQ?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -8890,6 +9000,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Russia, not the United States. The signal pertains specifically to U.S. constitutional risk. Non-U.S. events are out of scope regardless of thematic similarity to the signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN010em90MEd3STF6U1QxeGRURWhocml3YjR4YUJHZEZtN3A1aE1seWJTUUdGcEE3UFlnc2Vtazd2Y2xfVGtXM1g1ckN5ZXQ0WUZ6dGdXeUF5ZF9FaFRVSWhOdEcyMk9Pc25YQ0hJWXFaaE0waVBhbGRGUlhLNlhUMy0wc2VYdFpGNzE5LTRqZ0cwdnMwTFFFOXU1ZTBtY2E4SWZEQkVhYkRFejg0WnR4VDJQTmIwQkdjVWhZ?oc=5": {
+      "actor": "Brian Fitzpatrick (U.S. Congressman)",
+      "confidence": 0.89,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.inquirer.com/",
+      "rationale": "This item describes a lawsuit being filed to disqualify an election board member. Filing a lawsuit is a proposal or request for judicial action, not an accomplished removal. The disqualification has not yet occurred\u2014it is contingent on a court decision. This does not constitute evidence of actual ballot exclusion or systematic removal of opposition candidates. It is a legal challenge seeking removal of an official, which is a normal contestatory process, not a signal of opposition exclusion from ballots.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVEJiYUhWZkFTdUNaVUZyamZVTHdiZjRPQkxKeXo1blVDOUFRREYyWWZHbnVrei1VTmYwdzJiN3p0UEFXN1pITzhJMlBXcl9rdHFjbXAtUHpkNDhlb2prWFVJbG94dlcyMTY5X3l3QmtZTnBNZHN2VVUxLU9NSlRiOGZWNnFCREhodGN4eDBjNVR6QkJFYUZYSmRpNjFEYWg4VlpTVU1OLTkzNllBVjN3eXVWYkpFa1dzVmxzUw?oc=5": {
@@ -13786,6 +13906,56 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/10/29/2026-22117/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
       "rationale": "This is a routine Federal Register notice requesting OMB clearance for a generic information collection activity regarding alternative reporting options. It is a standard administrative procedure, not evidence of political interference with statistical agency integrity, methodology changes outside normal process, or withheld/delayed data releases. The document itself does not demonstrate removal of leadership, unauthorized methodology changes, or suspension of data releases.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/30/2026-22171/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for": {
+      "actor": "Commerce Department, Census Bureau",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22171/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for",
+      "rationale": "This is a routine Paperwork Reduction Act notice from Census Bureau announcing submission of the Survey of Housing Starts, Sales, and Completions (SOC) information collection to OMB for review and approval. While it involves Census Bureau, it is a standard procedural filing, not evidence of political interference with statistical methodology, leadership removal/replacement, or suspended/delayed data releases. This is normal administrative compliance activity.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/30/2026-22174/accreditation-innovation-and-modernization-the-secretarys-recognition-of-accrediting-agencies": {
+      "actor": "Education Department",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22174/accreditation-innovation-and-modernization-the-secretarys-recognition-of-accrediting-agencies",
+      "rationale": "This is a final rule revising accrediting agency recognition regulations to implement an Executive Order on higher education accreditation reform. While it is a substantive policy rule, it concerns education accreditation standards and regulatory burden, not the integrity of federal statistical agencies (BLS, BEA, Census Bureau) or interference with their statistical data production, leadership, or methodology.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/30/2026-22188/60-day-notice-of-proposed-information-collection-section-8-management-assessment-program-semap": {
+      "actor": "Housing and Urban Development Department",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22188/60-day-notice-of-proposed-information-collection-section-8-management-assessment-program-semap",
+      "rationale": "This is a 60-day notice for public comment on a proposed Paperwork Reduction Act information collection under HUD's Section 8 Management Assessment Program. It is a routine procedural notice soliciting public input on a data collection, not evidence of political interference with statistical agencies. SEMAP certification is a housing program assessment tool, not a statistical agency integrity issue.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/30/2026-22194/medicare-program-cy-2027-changes-to-the-end-stage-renal-disease-esrd-prospective-payment-system": {
+      "actor": "Health and Human Services Department, Centers for Medicare & Medicaid Services",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22194/medicare-program-cy-2027-changes-to-the-end-stage-renal-disease-esrd-prospective-payment-system",
+      "rationale": "This is a final rule updating Medicare payment systems for ESRD and AKI dialysis services for 2027. It is a policy rule issued through normal rulemaking procedures, not an action directed at statistical agency integrity or interference with BLS, BEA, or Census Bureau. Payment methodology updates via standard rulemaking do not constitute political interference with federal statistical agencies.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/10/30/2026-22226/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for": {
+      "actor": "Transportation Department, National Highway Traffic Safety Administration",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/30/2026-22226/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-for",
+      "rationale": "This is a routine Paperwork Reduction Act notice announcing submission of an Information Collection Request (ICR) to OMB for review and approval. It is a standard procedural filing required by law, not evidence of political interference with statistical agencies. The SDT collection is administrative, not a statistical agency integrity issue. This is a normal, non-controversial administrative notice unrelated to BLS, BEA, or Census Bureau statistical leadership, methodology changes, or data withholding.",
       "severity": 0
     }
   }
