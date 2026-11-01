@@ -202,6 +202,16 @@
       "rationale": "This item is an opinion/analysis piece from Just Security offering a framework or thesis about governance and democracy. The title and summary contain no reporting of an actual civil service purge, Schedule F reclassification event, or any concrete politicization action. It appears to be editorial content or policy analysis rather than documentation of a real occurrence. Without specific evidence that a Schedule F reclassification or at-will reclassification of career civil servants actually took place, this does not constitute evidence of the signal event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVVJrVllaandQRkhzQmxfTjZqUnBZLW5DY1ZzTm51UkRvcUhLVXRqR2tZZGhmQ2l6R2t4ZkZtcGh4QURWQmt3SzZHanBaQTJWYlpZUVlXNGEtRnBRSVBQSE1OM19rdXJNYlAyRjhHMGhsM3c5elJ5ZFF2c093LS01Z2pHck9kSHVvTGl5b2t2Q0RqR1ltcXJMbUFaS0xxLVJTbXJQNWhn?oc=5": {
+      "actor": "Opinion author",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an op-ed or opinion article arguing about what political interference COULD break, not evidence that a civil service purge or Schedule F reclassification has actually occurred. The framing ('could break') is explicitly hypothetical and predictive, not descriptive of an accomplished action. No verifiable event of at-will reclassification or politicization of career bureaucracy is reported here.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.95,
@@ -1726,6 +1736,16 @@
       "rationale": "This item concerns a wedding-related comment by Trump Jr. and a response by Todd Blanche, who is a private attorney. The content does not describe any action that moves election administration from neutral process to partisan control, nor does it describe any capture of election administration machinery or authority. The item appears to be gossip or social coverage unrelated to election administration. No verifiable constitutional-stress event related to the signal has occurred.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSWRtdVh1enczNFZseWZXVHdsbV82N2g5SEFEY0hQbnd6RVdRSjQtLTZ1aWFuei1uXzJoS0d1NTFJV1lkMFhrMXRWc3Bsa3JqazZoZEtTNlBBeTRhSGU5dHh0VUdqSVZrcWdYakJOWkdXb2d6Q0ZTQWhlY1IxUEhfb00tczdTX09UWTBsU29NcHFVT0U?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a New Republic opinion/analysis piece about a Trump team announcement derailed by a question. Without the full text, this appears to be commentary about a public event or announcement, not evidence of an accomplished action to capture election administration. An announcement that was derailed or questioned is not evidence of successful partisan control being established.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWTBFZ201VGJvcjNlUHlZZmJ0WmlaNlFnejlUOUpocXVqYjg3eGF4LTVRY3lOOGpYLTBreFRlMXFFNUczMFJZdUhEOEpIb3RGUDV2SlN2Qjh1SUVWMFdhWmNnRVVnUXpnSVhvN2NOQ2NFX2FyZk5LZzN3VnhxdkVYQUlyRXllbzBTS1FXcURRM2FjZFXSAZgBQVVfeXFMTS13Vngxb1dwbXgwSVIyRlhCNERHcU5kem4wOEpEVHNLbnN1dHpiYVpTSGhoWk9lbjJzUHJoN1dBdVEwZVlILXFiaU1HbzQxXzU3V3l0LUwxQWdTQjVqRVhNMm9Ra1c5XzZETXZ1Q0RGVXFNY2p1Z3Z5RFdnQzRxUGQwcjVFdmRrV0dNaDdHdVhpMjlfa195dnA?oc=5": {
       "actor": "Democrats",
       "confidence": 0.95,
@@ -1925,6 +1945,26 @@
       "primary_source_url": "",
       "rationale": "This reports that courts are deciding the fate of Trump's latest push to control voting. This confirms an actual effort is underway and is being contested. However, the matter is still in court; the outcome and whether the push succeeds are undecided. A push to control voting mechanisms that is subject to court review is a real stress signal, but since courts are still deciding and no structural takeover has been confirmed as successful, this is a weak (severity 1) signal of attempted capture rather than confirmed capture.",
       "severity": 1
+    },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZldsMTFIdWFIRkJDbFVmblRyZ1Nsc2xHdW1WNm5NaEg5eVdVT0QxVnl5UnpZdlRxUjVFTnlqbnFiajVxR3NaZmU4MVlzQVR1RmJzbUQxdldnMVpnOUgxVE1mUmpYM0M5YUJxN1B5VWk4QUZNZ1VOMTk3c2M4STNCNS1zS0JGUERXX2ladXdLZzBMOWNJMThZNGRZSWVrdFc0M2N2dXdxakFRQQ?oc=5": {
+      "actor": "Department of Justice",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a general informational article about DOJ election monitors. Votebeat reporting on DOJ monitoring practices is routine election administration coverage, not evidence of capture or partisan control. No specific action demonstrating partisan seizure of election administration is described in the summary.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOVVYanM4Y0xJdE1PdEd4WVJxUnFyc1FsOTR0clMySXdLaFQ1UjhFeUM1UTc1RURCWkZUeUJTSDFiUnM3ZXZ0Z18wYlZ0YUxSUENTSGJGTFE2cTJ0a3daRHJHTmVUVl9sUEVPNHN1RlYwdWF0RXl6NHJuQVdJalVnVkp5cFB6SWMtbVU2NXJXY015Z0VIUm82Um5IUWRhRkdWd2FlSFlqdndLUQ?oc=5": {
+      "actor": "",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a Newsweek hypothetical/speculative piece asking what could happen if Democrats win midterms and whether Pete Hegseth could be impeached. This is forward-looking political analysis, not evidence that election administration has been captured or moved to partisan control. Impeachment speculation is not evidence of current structural constitutional failure.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5": {
       "actor": "Trump director of election security",
@@ -2245,6 +2285,16 @@
       "primary_source_url": "https://www.cbs17.com",
       "rationale": "This item reports a request or petition to a court to overturn a ruling on elections board appointments. A petition to overturn a court decision is a legal motion\u2014a proposal seeking relief\u2014not an accomplished action. The event would only occur if the court granted the petition and reversed the prior ruling, changing the legal authority governing appointments. Until that reversal occurs, no structural change to election administration authority has taken place. The item describes a legal challenge, not a realized capture of election administration. No severity-2+ signal is present.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZWhGTEh0aG9URXJJS2dYTHVQRXVVMnVXN2hXSzM3RkZPRUpXbnVTTDF6SUtQWUZFWWZkekVOTkgyd1NuV1dya1BGRUotQ09OaXNYaTROc0p6NVFjZGUwQVM2blFzcGRuQ0xNR1REM2w1N3RQQmJWV1cxRkRXY1V5cHR4OUFjRnRlUVh5MjE4VnQzMjU4eGNONFBJalY2NHplWF9HYTNDSjE3MEthU3hoTFU5R0F5UzJCMDdlM29teXBfdU43VGFlSndhbw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "A judge ordering the Trump administration to cease threats to prosecute election officials is a confirmed judicial action (real event). It indicates the administration was threatening election officials with prosecution, which constitutes an attempt to exert partisan control over election administration through intimidation. However, severity is 2 (confirmed stress signal, contained action) rather than 3 because the threat was ordered to cease by a court, showing the judicial system is functioning to restrain the overreach. No structural failure has occurred.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWVVrTTNpcUhuU0l4eTJ3d0tZX2kxWk9NZEF2UEVGRHdRYlpzQzhtaG9ZR2I5SjFRU05JNVlqcEFXSGtjaG5jMHRjdFR0VnNVUDVBblR4VVczdFVxNE01bElseDBDUS0zWlRoUmxLZTg0YTBGU0RKMDZNbVNaTmViTGdRTlBYa1RpTThEVEVIcGVONGRuZHo1M2F0R2ZFMkFud1dpeWJuSnAweXc2R0dNTzBZWjZaZnQ0UXNXakhOSWRkMVhXVjVYeVg2YWU?oc=5": {
       "actor": "Department of Justice",
@@ -5086,6 +5136,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item reports a list of individuals targeted by the Trump administration, including James Comey. Without additional context specifying that these individuals are judges being targeted for adverse rulings, and without verification that this constitutes an official intimidation campaign against the judiciary, this does not meet the signal definition. The headline alone is insufficient to establish judge intimidation. This appears to be press coverage of political targeting, not verified evidence of judicial intimidation.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlJCZEJ6RFpBVHdvODYwazR0SmMyWTF2MWNGd0tZTFI5UDh1T1c1eVJka1YzWmZmM0JYYURiUVNVRmVUb1pQS29fdmluZXoyVDZGbWZ6eDkzTDFwcnJEY09SS202U1FfUVRuREtPMFBnM05TeVBqZkRodXZ0czN4RVFGSGZhWXVVSFdfc2NDZjFhS2dkaDhjeE95cmxfamVRbG0yT281U0ZjZjgzSmprWVZYYw?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://ratopati.com",
+      "rationale": "Ratopati is a Nepali news outlet. The item concerns Nepal's judiciary, not the United States. The signal is defined for U.S. constitutional stress. Non-U.S. events are out of scope regardless of content.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiugFBVV95cUxOci1Oa1M2VmlScHkyMmdFX21Mb2tOSktJbHFwaXRLbzNvMDJrZ0NoNmpxVzROZVFEU3FwVXZwOGJVUVo3MGJHcWRyOGVwQlFydVNZM2xVUmVQN19JMTRQZVhRTVZMTGo4Xy1lZHpRb1FMMDkwMlpFZFdOb0tTaDl1STRaOWp4VkFYcjlFUVFselpfT3RONHM4OXRyaVZHYkdxSmZ5TnY3ZS1LYXd4bXBTSnFfTXAyeFA4WHc?oc=5": {
@@ -11650,6 +11710,16 @@
       "rationale": "The New Republic headline and summary assert Trump is airing campaign ads using taxpayer money. Multiple credible sources document this spending pattern. The event (appropriated funds spent on partisan political advertising) has been reported and challenged in court.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTnpOelJyekJob1ZpUHI3QkxYVXZiU1NCeEwxbjZWN3RQTk9oMnJKQ1RUaHdLcVlBMWNENmhIQjFPQnlxSlRMOUtWNjBhaE1VeG1wT1FienQ2REh3Q2xsMnF4TDJxZHM4SEd5TzhTcmw2RGRsNDllY1J3eGNoSkZrV1ptZzZlUG8?oc=5": {
+      "actor": "Federal Judge (Biden-appointed)",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This reports a court's decision to block certain advertisements (Trump ads) days before an election. While noteworthy, this is evidence of judicial action to restrict political speech or ads, not evidence that public funds were inappropriately spent on partisan promotion. The signal tracked is misuse of appropriated public money for campaign-style promotion; a court blocking ads (whether correctly or not) is not the occurrence of that signal. No public-fund misappropriation is alleged in the summary.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdFJCbnNVMGtyZ1MzWW5FRDBzOWNJVFNZeVJTUXBPVWZDeS1ETU8zQmNFT01EWm1kd1hqWkpzWUJ5TzJadFNHVk1RbmUwZzNvMTItUjZxcVQ5WWFraUt0UG1sWUNPbDMybjAxOURYX1luM2ZtcjFpay1MNkxhczlmekFfMDdQN0HSAYwBQVVfeXFMTnhocU9GNVBHLWdOUjJKWFFrWDhOZUZkc01xSE1fWlBDLWEtZWJMMExXUzBqYWN1MlJacVlBRXJNQ1JmZUl3M1JCbHdYM1lRc1JqTU5ITDUyZ2Q0Z1pfc20zRTUzaDcyRms1THFJYkFTOGllRjQ1cHZ4R090VG9mT0wyemt4NW5EUFEtUnE?oc=5": {
       "actor": "Trump administration / GOP senators responding",
       "confidence": 0.71,
@@ -11990,6 +12060,16 @@
       "rationale": "Confirms the same event as item [0]: a federal court has paused taxpayer-funded Trump ads. The repetition across multiple news outlets strengthens credibility that the action occurred. Severity remains 2 because the judicial block itself demonstrates real conduct was attempted but is being restrained by functioning constitutional oversight.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ1F2b3Q5bTd4cENyVG40UmhmLUdjc01NX19vaDZ3WDZFVC1YZTRZdzJxUWxxaXE3T1laYW9oazlMdHNLNUxuaUdkcTBrSnFCOEIwc3RNTnRyOEdqZzJmX0gxSDB3Yk90djNsS0RINFc3ZDlPd0NCZEdId3RXQ2w3cU9VdkJYZUNMaWEzYkJNbFpmb2w5ek5RNm5WMA?oc=5": {
+      "actor": "Trump Administration Officials",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a news headline posing a legal question ('Are They Allowed To?') about whether Trump officials are permitted to campaign. The headline does not report that an actual occurrence of improper public-fund use took place; it is a normative inquiry or analysis about whether a practice is lawful. No specific instance of appropriated funds being spent on partisan promotion is described in the summary. This is opinion/analysis, not evidence of an actual event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRm9BS1ZldG9pemlSNE00OXZJTnZveXR2YUJxcmU1b0Zvd3JPMmZ1OXlCT2ZGUk9XSGJla2ZYYWRRbUtoWGdjcnZRUmE2Ukl4bDItZUIzQkYxZXB5OGJDQ0dtRVlQbkxJb3hqMDY3WjRzZmZDUmdCOThRREFaR1ZxU3oySGJaTWpDREpvMjhvSFp4SWtvanl5Nl9PMA?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.82,
@@ -12109,6 +12189,16 @@
       "primary_source_url": "https://www.france24.com",
       "rationale": "France 24 (international outlet) reports Democratic Party sued Trump administration over taxpayer-funded TV propaganda. Despite foreign source, the subject is U.S. domestic. The lawsuit filing is documented. Multiple independent sources confirm the same alleged event and legal response.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTzRlRC1uOGJNaHJESHc3c0Y0TDl2cGgyaEh3NzlubkF3dTVsTDBtX3ZLblRWZ0dYSVMyU2tHZ0NtSjVkY3hHMEo4VW5aeEc4cVFjM3kxYlJjcWE5QTBSZWtvWlNVR3hhQkowZnRYanBHdVYyaE5oNUR3cGtQdzg2dDVJRUVoaDhPN2FSSk9Sd3dYWVRfaTc0bjRwMUNOZUE?oc=5": {
+      "actor": "Unspecified (U.S. and Israeli actors implied)",
+      "confidence": 0.94,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns U.S. funding for Israeli military operations, which is a foreign-policy and appropriations question rather than a U.S. domestic constitutional signal about domestic public-fund promotion for political purposes. The item is not about U.S. domestic political advertising or campaign-style government promotion. As a foreign-policy matter, it falls outside the scope of this U.S. constitutional-risk dashboard.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMinwFBVV95cUxQam9yM2puMVRxRmlrbzN1TWx5S2pVRmpvV0d4RFVkbUdUV205NVRoUFQ2NktWS2hkS195MHU1Y3JuTDk5X3RSRlJYZXNoM0pWNVM2Y0ZXa3JrQlR2QkNWRWFTQy1iWjJSa05VZTU3em9tUXBfSkJ3T011WEpranVlT1k1VFZoMTNsc1ozYmt4Q0o4RmpKUzNfTzVJLUdPWnM?oc=5": {
       "actor": "Trump Administration / White House",

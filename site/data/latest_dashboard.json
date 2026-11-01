@@ -1,57 +1,57 @@
 {
   "attempted_queries": 25,
-  "average_7d": 21.76,
+  "average_7d": 21.38,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
     "max": 29,
     "min": 15
   },
-  "confidence": "Medium",
+  "confidence": "High",
   "data_available": true,
-  "delta_previous_day": -4.0,
-  "delta_vs_7d": -6.29,
+  "delta_previous_day": 4.0,
+  "delta_vs_7d": -2.44,
   "domain_breakdown": [
     {
-      "avg_severity": 0.6000000000000001,
+      "avg_severity": 1.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.3000000000000007,
+      "points": 5.5,
       "weight": 22
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0625,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.5625,
+      "points": 0.234375,
       "weight": 15
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 3.5,
+      "points": 2.2749999999999995,
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 1.3333333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 4.333333333333333,
       "weight": 13
     },
     {
-      "avg_severity": 0.0625,
+      "avg_severity": 0.0,
       "id": "civil_service_integrity",
       "name": "Civil Service and Agency Independence",
-      "points": 0.15625,
+      "points": 0.0,
       "weight": 10
     },
     {
-      "avg_severity": 1.0999999999999999,
+      "avg_severity": 2.0,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.7499999999999996,
+      "points": 5.0,
       "weight": 10
     },
     {
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.975,
+      "avg_severity": 0.8,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 1.95,
+      "points": 1.6,
       "weight": 8
     }
   ],
@@ -81,13 +81,13 @@
     "judicial_review_foreclosure: courtlistener: HTTP Error 401: Unauthorized",
     "independent_agency_capture: courtlistener: HTTP Error 401: Unauthorized",
     "inspector_general_retaliation: courtlistener: HTTP Error 401: Unauthorized",
-    "military_domestic_political_use: courtlistener: The read operation timed out",
+    "military_domestic_political_use: courtlistener: HTTP Error 401: Unauthorized",
     "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-10-31T12:25:18.030213+00:00",
+  "generated_at": "2026-11-01T12:25:10.150894+00:00",
   "methodology_version": 2,
-  "previous_score": 19,
+  "previous_score": 15,
   "primary_sources": {
     "documents_confirmed": 1,
     "documents_fetched": 9,
@@ -98,16 +98,25 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 15,
-  "score_raw": 15.47,
-  "score_raw_pre_trip_wire": 15.47,
+  "score": 19,
+  "score_raw": 18.94,
+  "score_raw_pre_trip_wire": 18.94,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 3,
+      "confirmed_hits": 4,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
+        {
+          "canonical_link": "https://leadership.ng/us-judge-orders-trump-to-halt-taxpayer-funded-tv-ads/",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX1NWcmIxbi0tSnJLc0JmSTdEdHFBeUcxVy1vM21NS3RpN0xXb3VFSHNKM2lJcXc3UGhJeHRBN29TSWxZcXJZVEc3WENfMUhGU0NlQ254b0s0dXVFMFk5aDBrUWlxNE93YmN2WUhDQ08xaTVmSjhlNHlZWFQ3MF9vMg?oc=5",
+          "published": "2026-10-31T12:00:34+00:00",
+          "publisher": "LEADERSHIP Newspapers",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "US Judge Orders Trump To Halt Taxpayer-Funded TV Ads - LEADERSHIP Newspapers"
+        },
         {
           "canonical_link": "https://campaignlegal.org/update/campaign-legal-center-action-and-partners-successfully-halt-president-trumps-illegal",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHMzN002ZGhPbE53bUEtclpRaXRERjR6M2RWV3NvNmxxcXQyRW1mMFloclZaRHlQb1BneXdvZ0xRblZvSU5PdWRnQkI2ekVhbldlaHZFcmhjY1BjU1ZMWi1IWjROYXN0LS16dVN2enk0alJuclZEN1lTRkNpakNFRWpINjFyUVJ6NkhoMEtSYXJkSGp0Sl85X18yUFRjOGdPandMd24zUVpfZEhRemZ3MmhCWHMzUlBB?oc=5",
@@ -118,62 +127,82 @@
           "title": "Campaign Legal Center Action and Partners Successfully Halt President Trump\u2019s Illegal Taxpayer-Funded Ads Scheme - Campaign Legal Center"
         },
         {
-          "canonical_link": "https://www.courthousenews.com/judge-blocks-3-maga-ads-over-concerns-they-breached-taxpayer-funded-propaganda-law",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTzg5Y3p0R1ZwcFpPMlZ3OV9MZjAza3Y3ZVNfRVJYX3Nvd2lQaHM4TUUtMGhqeFZmX0NlTERPWEtRV180WmsxU1d2SmhwU1RPd0RKSGNOT0xQNXJKejVQel9oaDM0M0VDdlBPX0RZVFBhaTVkYmNJTjBBWkJubkRieXFJa2o1aVZpRkNQUGM1REw0N0xaZ0l4YkFjbThCNEpaXzlXTzZlMmdpM3ZVXzlCZVJsUQ?oc=5",
-          "published": "2026-10-30T21:18:29+00:00",
-          "publisher": "Courthouse News",
+          "canonical_link": "https://abcnews.com/Politics/trump-administrations-campaign-style-ad-fox-news-taxpayer/story?id=136723829",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEc3UWRPWjdaWkt2Wk9vcklvTkd3LUU0eEFHNnBTNGE1M01jZ1ZsczFwN0o1VjVmMk9rU3kxOUx5M1N2V1MtLVRqNjFfUXJYV0FQeFJSV3pBSEJ1Y2NFV29FMzFGLUxmVGVRa2tVVnhwM3hRYVhzSnFRM2YzUklyR3BjQm4xOUltenU0V2lRSHB2SzJlVmpMLV9lMHdGT2dJU3FBZG5FVVnSAa4BQVVfeXFMT2lPdUJtQ0JKMEs1aVhMMUFfOXFWRmxwZlBsSk9LYjFHX3pMamdNOUV6c1BNZnQwdGtVUzRTMS1IVzJoWjl4c3Z1elZtdWotY2MwazN5UzhQNGk1TGtnSGJhMzI3WUNlY3BlemEzWGlNMkpGNnFjNXZiZU1vQVZ3SFRPYklhZjN1ek4wWUN3ZUt4YUxMcDJpTmhGMjhaVkg4Wm0tMm9CbERyWnVENjNB?oc=5",
+          "published": "2026-10-31T03:32:42+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Judge blocks 3 MAGA ads over concerns they breached taxpayer-funded propaganda law - Courthouse News"
-        },
-        {
-          "canonical_link": "https://campaignlegal.org/press-releases/victory-coalition-secures-second-court-order-blocking-trump-and-maga-inc-promoting",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdGpBX0taR3B6SHpndHR0MF9mSGJYQlNjM3pacTFrZjJzSmhVSGx0N2h1SjNLN3hYOE93Z2ZHQWtQNWstUjhJbkFmQzV3VW43am1VQ0NMRHRac21DZU04ZGxCN2NnZks1MzJlZUZ2dVlKelpIZl9pRTZhRXp1MnhseWQxRG1JQnQteVZ4cWVUdkpaRVp1REphMi01VXlqSXl5bDFJTElhT256RlFsRE9GVkRjQS1sRWt6X2xwTDVBWVM?oc=5",
-          "published": "2026-10-30T12:00:00+00:00",
-          "publisher": "Campaign Legal Center",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "VICTORY! Coalition Secures Second Court Order Blocking Trump and MAGA Inc. from Promoting Taxpayer-Funded Propaganda Ads - Campaign Legal Center"
+          "title": "Administration's pro-Trump TV ad is taxpayer-funded - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
+      "hits": 7,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://campaignlegalcenter.org",
-      "rationale": "Campaign Legal Center reports that a court action successfully halted taxpayer-funded pro-Trump ads. This is evidence that public funds were spent on partisan political advertising (the signal itself), and that a court intervened to stop it. The halting by court order confirms the event occurred. However, severity is 2 rather than higher because: (1) the action was challenged and stopped by judicial intervention, indicating the constitutional check functioned; (2) we have only a summary title without access to the full order or details of the scheme's scope; (3) this represents a contained action that was enjoined, not an ongoing structural failure or defiance of the court.",
+      "primary_source_url": "https://leadershipnewspapers.com",
+      "rationale": "LEADERSHIP Newspapers reports a US judge's order to halt taxpayer-funded ads promoting Trump. Another corroborating account of the judicial intervention against the unlawful government spending. The order itself is the serious action; severity 3 reflects confirmed court response to the breach.",
       "severe_hits": 1,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
+      "severity": 3.0,
+      "severity_label": "Orange",
+      "unique_publishers": 4
     },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://www.sun-sentinel.com/2026/10/30/appeals-court-upholds-removal-of-incumbent-from-tamarac-commission-ballot/",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaXM3M3JhSUp6dWQ3UHduQVBhQ0ZNbDM1R05ndHh1SkwyRGM4U2ZnaTRSQmdPZzM5cUFiVmN4bVNkMFRMZ18zYjI3dElKNkktRHJvVllmWDdEVE5EdVhqbXhPMWUwSllUNk4ybjkzWDdNLS1kdzRxdnhtX1pTWmt4cDNNT01DdzdicU1oOFgxZnFzcVlOQTVMNEZvS0I2eHJXTW1Xc1ZHN25mU3BYTDVCWFFDSEo?oc=5",
-          "published": "2026-10-30T12:16:52+00:00",
-          "publisher": "Sun Sentinel",
+          "canonical_link": "https://www.straitstimes.com/world/united-states/judge-orders-trump-administration-to-cease-threats-to-prosecute-election-officials",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZWhGTEh0aG9URXJJS2dYTHVQRXVVMnVXN2hXSzM3RkZPRUpXbnVTTDF6SUtQWUZFWWZkekVOTkgyd1NuV1dya1BGRUotQ09OaXNYaTROc0p6NVFjZGUwQVM2blFzcGRuQ0xNR1REM2w1N3RQQmJWV1cxRkRXY1V5cHR4OUFjRnRlUVh5MjE4VnQzMjU4eGNONFBJalY2NHplWF9HYTNDSjE3MEthU3hoTFU5R0F5UzJCMDdlM29teXBfdU43VGFlSndhbw?oc=5",
+          "published": "2026-10-31T02:56:00+00:00",
+          "publisher": "The Straits Times",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Appeals court upholds removal of incumbent from Tamarac commission ballot - Sun Sentinel"
+          "title": "US judge orders Trump administration to cease threats to prosecute election officials - The Straits Times"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "hits": 9,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.sun-sentinel.com/",
-      "rationale": "A Florida appeals court has issued a ruling that upholds removal of an incumbent from a local ballot. This is a real, confirmed judicial action affecting ballot access. However, without further detail about whether the removal was procedurally proper, legally justified under applicable election law, or part of a systematic pattern, and given that it appears to be a single local-level action subject to appellate review (suggesting normal judicial process), this registers as a contained, credible stress signal rather than a structural failure. Severity 2 reflects confirmed action affecting a real candidate's ballot access.",
+      "primary_source_url": null,
+      "rationale": "A judge ordering the Trump administration to cease threats to prosecute election officials is a confirmed judicial action (real event). It indicates the administration was threatening election officials with prosecution, which constitutes an attempt to exert partisan control over election administration through intimidation. However, severity is 2 (confirmed stress signal, contained action) rather than 3 because the threat was ordered to cease by a court, showing the judicial system is functioning to restrain the overreach. No structural failure has occurred.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://abcnews.com/US/usps-makes-new-rules-mail-ballots/story?id=135879673",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5",
+          "published": "2026-11-01T09:26:06+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Supreme Court allows Trump to implement parts of his mail-in voting executive order - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "Multiple credible sources report that the Supreme Court allowed Trump to implement parts of a mail-in voting executive order. This represents a shift of voting-rule authority from statutory/legislative control to unilateral executive action via EO. The Court's allowance (likely through stay or injunction ruling) enabled executive implementation without requiring legislative authorization. This is a real, confirmed action that transfers governance authority from statute to executive fiat, but is narrowly scoped to mail-voting procedures rather than a broader structural dismantling. Severity 2 reflects this as a real, credible stress signal of limited scope, not yet structural failure.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
@@ -211,59 +240,50 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "federalism_oversight",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "legislative_oversight_obstruction",
-      "name": "Legislative Oversight Obstruction",
+      "domain_id": "opposition_pluralism",
+      "evidence": [
+        {
+          "canonical_link": "https://www.phillyburbs.com/story/news/politics/elections/2026/10/30/brian-fitzpatrick-election-board-diane-ellis-marseglia-election-house-bob-harvie-bucks-county-pa01/92513994007/",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOM3ZKZ3ZJN2MzUEU4cGU5VGJ3b3hnTElfdGJLd1IzQmZfZkw4QUI0SV93QjRGamh2SmZKMHVWMWpfamNfMWpwZ0R6SW52alZ0SGwwOGtsSUNMVW1BZ3ZDcjhWZlBNZHloZU9SZlVkbDJYakFKcklQNTdXa2VVWDcwaHBlVVVNeDVlOVMtNU5zVUJyTVVjSnJzUXBvNFg2b1BCT3FjM1c2S3dzb1l2WVdud3VXcTBmbDBXU2F0dk9yYi1mOWtmOGxGUGxxa3Z4V0VsU3I1NFBoOWUyb1dVaVlIS2plem5ab29HU09UTjZTSGotNEFqRjdRYmlvWVVNZFFYU0U5UnVWWmRhSnVT?oc=5",
+          "published": "2026-10-30T22:58:00+00:00",
+          "publisher": "PhillyBurbs",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Fitzpatrick sues to keep Democrat Marseglia off elex board, cites bias - PhillyBurbs"
+        },
+        {
+          "canonical_link": "https://iol.co.za/news/crime-and-courts/2026-10-09-court-rules-mbalula-unlawfully-removed-lungisa-from-anc-election-list/",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSm1WM1JYdWlUYWRzRklDbnByYi0tZmlBSmFsN2tHaWRWVDViN3hnVmpJRS1zVEstUy1POC1sRzBlZV9wU0ZzX1o2RlBXOEJSUll5cDZwV0xDRzVIaVVrN2M0MFJkVXBkajZTQjU1YW1aS3plakl0dG5aWjBpVHRUbG5FSDdONlg0LVpJWVdJZXBWSlFnU3k0RmZKRnl4cGZ1Zkk2LXZpQ0VZYkpzV0lGeUtlWU1YUHgxeVRTdmJB?oc=5",
+          "published": "2026-11-01T00:13:42+00:00",
+          "publisher": "IOL",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Court rules Mbalula unlawfully removed Lungisa from ANC election list - IOL"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.95,
-      "severity_label": "Yellow",
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://www.washingtonpost.com/politics/2026/10/31/trump-administration-retools-its-battle-over-elections-keep-fights-alive-after-election-day/",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRGpZalZEVFBBcWgyOG9KakozUkpWVEktNXN2eVQycUM3RXY5TDZacXB2UjBwd1FIeTRNY2xDc3V6Z0VSeVdFc3BGaXNHeFBlcllvV05mZ3hEQ0ZtMzFCSUFLbzFrZzZJVmM0NFBBcTdDZ0NHa3RBNDRvOG1LUGl5R1doejJfQlY4eFJBT1EzajBRa05acDMyTTB0UjRVYzJqTXQxWnF0VDBPcUF3Yk1mZjBPclltQTZSNzI4cVVqWFZrV0tMalRxcWVaVFpVemJZbUhXOS1uT054LTA?oc=5",
-          "published": "2026-10-31T11:32:48+00:00",
-          "publisher": "The Washington Post",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump administration retools its battle over elections to keep fights alive after Election Day - The Washington Post"
-        },
-        {
-          "canonical_link": "https://campaignlegal.org/update/why-im-confident-and-concerned-election-day-approaches",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOT2w4Q0hHODJIYlUzOER0OU9sWjRES1d6dnlVX0hxWkc2ZDZOYnRsdzdIcFZMNFBwLXU3dmtRNlBXa3M5OUQyVTFJNmhWQmFobXkzbWZiZmZLN1VKOF93QmxMZmpFc0s2MFFPX2hUODBvSFJiMlJsSFoyNXRVNWhSTnVLb0VfX1RTdExTaXVVREU?oc=5",
-          "published": "2026-10-29T19:21:30+00:00",
-          "publisher": "Campaign Legal Center",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Why I\u2019m Confident and Concerned as Election Day Approaches - Campaign Legal Center"
-        },
-        {
-          "canonical_link": "https://www.propublica.org/article/midterm-election-propublica-reporting-findings",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQejZQNkF0dHFIbGJldkdjajEzdmlaZkg3Q2FGZ2NHRjZvVExZdG8zclFyTkZtVml4QXhsU0xYQUpTYWF3T2N4eGo2dWFmMnZGVlVuM3VyejVvQWxsV3BnZ0RTdUZteGUxV0dldEpGbEZjWWpNUXdUME8tTW1Tb3NaSW80LUp4SWow?oc=5",
-          "published": "2026-10-30T15:10:00+00:00",
-          "publisher": "ProPublica",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump Has Tried to Exert More Control Over Elections. Here Are the Key Findings From Our Reporting. - ProPublica"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 8,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
+      "domain_id": "federalism_oversight",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "legislative_oversight_obstruction",
+      "name": "Legislative Oversight Obstruction",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
@@ -299,46 +319,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.orlandosentinel.com/2026/10/31/guest-commentary-where-is-lincoln-in-todays-republican-party/",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb2s5RTh2S3V3N3dHWE9zWDY3XzViZjAzTFZvMjh1Y1VkNzhmOG5JVHd0ZFJqdkNOWmR4M01HMmQ0SVRjYzFuTFkzR2xzOTRxMWpsX0EzcEg2VnNDeUZxMXQwM01JRXpHZjdLYkhmallOeHBKQ2U3UXhHR2xPR2FjQnlsSWlBQzVzV2JDSWE5UXJwVjhZck01aGRWMHBVQ1lNbVdxUDlXOA?oc=5",
-          "published": "2026-10-31T09:31:37+00:00",
-          "publisher": "Orlando Sentinel",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Guest Commentary: Where is Lincoln in today\u2019s Republican Party? - Orlando Sentinel"
-        },
-        {
-          "canonical_link": "https://www.gunowners.org/aidan-johnston-gun-owners-must-vote-so-congress-and-trump-can-continue-to-deliver/",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLVhBOVI0bE9tZ3VpaGZCeHNUNjlER2Vxb2xYR0ctLUdSRm9iNFBqRmRnUVRVaThXeGlEVEgtbl9aMTlET3FfVHlhQWRWcVl4cmNPMGM3X0JKbGVOZ3d4aVk3Qlhpc0RTSjRYWFFYYVY1YlNBVWJORmdVdzVaRkUtNy0teFFSc0JfdkJpbl9ReUdaT2RibGFzcEZmaEhlS3BySG1kRGJaMmo0R0FL?oc=5",
-          "published": "2026-10-29T19:09:53+00:00",
-          "publisher": "Gun Owners of America",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Aidan Johnston: Gun Owners Must Vote So Congress and Trump Can Continue To Deliver - Gun Owners of America"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -363,44 +345,6 @@
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_service_integrity",
-      "evidence": [
-        {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/10/29/2026-22093/personnel-management-in-agencies-strategic-human-capital-management",
-          "link": "https://www.federalregister.gov/documents/2026/10/29/2026-22093/personnel-management-in-agencies-strategic-human-capital-management",
-          "published": "2026-10-29T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Personnel Management in Agencies: Strategic Human Capital Management"
-        },
-        {
-          "canonical_link": "https://www.govexec.com/workforce/2026/10/census-what-political-interference-could-break-author/416923/?oref=ge-featured-river-top",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZzBjUEl6b1psck5pZlVid0d0dEhvV04xYnNCYWp1V19veXQ1SC1HaHAweEdUaklzYkJiczBfbkdHTGY2TjFGUnpuMVVkQnlJYTJlVGh0Nk9CTjVSMWZMcVBqNWNBNGR2VktKMUVFZkcxZ3BrUnFoVUxCdE1yZVIxblgwZjZPdG5Da3RoSjYtVWdiMXZZZGFpRkxlZGtmeVotcDBSdDFQSDBiSXBpYjRhV3lEcDlaWmlQbGkta2MyczJZVlMxTllnMV93?oc=5",
-          "published": "2026-10-30T14:05:15+00:00",
-          "publisher": "GovExec.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "The census shows what government does well \u2014 and what political interference could break, author argues - GovExec.com"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "civil_service_purge_schedule_f",
-      "name": "Civil Service Purge / Schedule F",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 1,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
