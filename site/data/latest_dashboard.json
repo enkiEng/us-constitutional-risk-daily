@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 21.38,
+  "average_7d": 20.55,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,35 +9,35 @@
   },
   "confidence": "High",
   "data_available": true,
-  "delta_previous_day": 4.0,
-  "delta_vs_7d": -2.44,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": -2.38,
   "domain_breakdown": [
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.5,
+      "points": 3.5749999999999993,
       "weight": 22
     },
     {
-      "avg_severity": 0.0625,
+      "avg_severity": 1.0,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.234375,
+      "points": 3.75,
       "weight": 15
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 2.2749999999999995,
+      "points": 1.5166666666666666,
       "weight": 14
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.2166666666666666,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 4.333333333333333,
+      "points": 3.954166666666666,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 2.0,
+      "avg_severity": 1.65,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 5.0,
+      "points": 4.125,
       "weight": 10
     },
     {
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.8,
+      "avg_severity": 0.625,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 1.6,
+      "points": 1.25,
       "weight": 8
     }
   ],
@@ -85,9 +85,9 @@
     "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-11-01T12:25:10.150894+00:00",
+  "generated_at": "2026-11-02T12:27:57.323267+00:00",
   "methodology_version": 2,
-  "previous_score": 15,
+  "previous_score": 19,
   "primary_sources": {
     "documents_confirmed": 1,
     "documents_fetched": 9,
@@ -98,115 +98,57 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 19,
-  "score_raw": 18.94,
-  "score_raw_pre_trip_wire": 18.94,
+  "score": 18,
+  "score_raw": 18.17,
+  "score_raw_pre_trip_wire": 18.17,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 4,
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://leadership.ng/us-judge-orders-trump-to-halt-taxpayer-funded-tv-ads/",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX1NWcmIxbi0tSnJLc0JmSTdEdHFBeUcxVy1vM21NS3RpN0xXb3VFSHNKM2lJcXc3UGhJeHRBN29TSWxZcXJZVEc3WENfMUhGU0NlQ254b0s0dXVFMFk5aDBrUWlxNE93YmN2WUhDQ08xaTVmSjhlNHlZWFQ3MF9vMg?oc=5",
-          "published": "2026-10-31T12:00:34+00:00",
-          "publisher": "LEADERSHIP Newspapers",
+          "canonical_link": "https://time.com/article/2026/11/01/trump-administration-officials-midterm-elections-hatch-act/",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ1F2b3Q5bTd4cENyVG40UmhmLUdjc01NX19vaDZ3WDZFVC1YZTRZdzJxUWxxaXE3T1laYW9oazlMdHNLNUxuaUdkcTBrSnFCOEIwc3RNTnRyOEdqZzJmX0gxSDB3Yk90djNsS0RINFc3ZDlPd0NCZEdId3RXQ2w3cU9VdkJYZUNMaWEzYkJNbFpmb2w5ek5RNm5WMA?oc=5",
+          "published": "2026-11-01T12:00:04+00:00",
+          "publisher": "Time Magazine",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "US Judge Orders Trump To Halt Taxpayer-Funded TV Ads - LEADERSHIP Newspapers"
+          "title": "Top Trump Officials Are Hitting the Campaign Trail Ahead of the Midterms. Are They Allowed To? - Time Magazine"
         },
         {
-          "canonical_link": "https://campaignlegal.org/update/campaign-legal-center-action-and-partners-successfully-halt-president-trumps-illegal",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHMzN002ZGhPbE53bUEtclpRaXRERjR6M2RWV3NvNmxxcXQyRW1mMFloclZaRHlQb1BneXdvZ0xRblZvSU5PdWRnQkI2ekVhbldlaHZFcmhjY1BjU1ZMWi1IWjROYXN0LS16dVN2enk0alJuclZEN1lTRkNpakNFRWpINjFyUVJ6NkhoMEtSYXJkSGp0Sl85X18yUFRjOGdPandMd24zUVpfZEhRemZ3MmhCWHMzUlBB?oc=5",
-          "published": "2026-10-31T07:29:29+00:00",
-          "publisher": "Campaign Legal Center",
+          "canonical_link": "https://www.newsweek.com/biden-judge-trump-taxpayer-funded-ads-midterms-12645731",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTnpOelJyekJob1ZpUHI3QkxYVXZiU1NCeEwxbjZWN3RQTk9oMnJKQ1RUaHdLcVlBMWNENmhIQjFPQnlxSlRMOUtWNjBhaE1VeG1wT1FienQ2REh3Q2xsMnF4TDJxZHM4SEd5TzhTcmw2RGRsNDllY1J3eGNoSkZrV1ptZzZlUG8?oc=5",
+          "published": "2026-10-31T23:54:00+00:00",
+          "publisher": "Newsweek",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Campaign Legal Center Action and Partners Successfully Halt President Trump\u2019s Illegal Taxpayer-Funded Ads Scheme - Campaign Legal Center"
+          "title": "Biden-appointed judge blocks Trump ads days before midterms - Newsweek"
         },
         {
-          "canonical_link": "https://abcnews.com/Politics/trump-administrations-campaign-style-ad-fox-news-taxpayer/story?id=136723829",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEc3UWRPWjdaWkt2Wk9vcklvTkd3LUU0eEFHNnBTNGE1M01jZ1ZsczFwN0o1VjVmMk9rU3kxOUx5M1N2V1MtLVRqNjFfUXJYV0FQeFJSV3pBSEJ1Y2NFV29FMzFGLUxmVGVRa2tVVnhwM3hRYVhzSnFRM2YzUklyR3BjQm4xOUltenU0V2lRSHB2SzJlVmpMLV9lMHdGT2dJU3FBZG5FVVnSAa4BQVVfeXFMT2lPdUJtQ0JKMEs1aVhMMUFfOXFWRmxwZlBsSk9LYjFHX3pMamdNOUV6c1BNZnQwdGtVUzRTMS1IVzJoWjl4c3Z1elZtdWotY2MwazN5UzhQNGk1TGtnSGJhMzI3WUNlY3BlemEzWGlNMkpGNnFjNXZiZU1vQVZ3SFRPYklhZjN1ek4wWUN3ZUt4YUxMcDJpTmhGMjhaVkg4Wm0tMm9CbERyWnVENjNB?oc=5",
-          "published": "2026-10-31T03:32:42+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://www.istitutoimpariamo.it/taxpayer-funded-tv-ad-sparks-fierce-ethics-clash-across-live-news-what-the-14000-public-service-spot-actually-shows-and-the-hatch-act-fight-behind-it/",
+          "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOT2lRb05TSVczYlJ0b25LVkxjRnMtVkd6X3BoWHMtYW1Fa09vbWpXWGFFMW5MdmpYLWNwWTI0Ylc1em1Hb205NFZXbnNORmdJcUtuemIzNnd2YnRjYlh4Y2l2bUJQRTUxdXoxWng4UjZHcHFDaEhDcURJd1lXc0NWdVhWM282bnBKYVUxaG9DZEhLU01yMDc1Mzh6TmFKRGNoQnJEZFJacTg1MThmRG1fUTQxdUhYQkYtSmptbUN3UjB0SHRLdjBBZHhWdEFPWHE4RjZBUGQzOHpxakpxTnE0SXdDV2NaNE5hWHoxaXJiREg2MzdINFUwUVY1RmRDRVB3YTFDbFhHOGE0aEZsTzFVNg?oc=5",
+          "published": "2026-11-01T18:57:40+00:00",
+          "publisher": "Istituto Impariamo",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Administration's pro-Trump TV ad is taxpayer-funded - ABC News - Breaking News, Latest News and Videos"
+          "title": "Taxpayer-Funded TV Ad Sparks Fierce Ethics Clash Across Live News: What the $14,000 \u2018Public Service\u2019 Spot Actually Shows and the Hatch Act Fight Behind It - Istituto Impariamo"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 7,
+      "hits": 3,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://leadershipnewspapers.com",
-      "rationale": "LEADERSHIP Newspapers reports a US judge's order to halt taxpayer-funded ads promoting Trump. Another corroborating account of the judicial intervention against the unlawful government spending. The order itself is the serious action; severity 3 reflects confirmed court response to the breach.",
-      "severe_hits": 1,
-      "severity": 3.0,
-      "severity_label": "Orange",
-      "unique_publishers": 4
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://www.straitstimes.com/world/united-states/judge-orders-trump-administration-to-cease-threats-to-prosecute-election-officials",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZWhGTEh0aG9URXJJS2dYTHVQRXVVMnVXN2hXSzM3RkZPRUpXbnVTTDF6SUtQWUZFWWZkekVOTkgyd1NuV1dya1BGRUotQ09OaXNYaTROc0p6NVFjZGUwQVM2blFzcGRuQ0xNR1REM2w1N3RQQmJWV1cxRkRXY1V5cHR4OUFjRnRlUVh5MjE4VnQzMjU4eGNONFBJalY2NHplWF9HYTNDSjE3MEthU3hoTFU5R0F5UzJCMDdlM29teXBfdU43VGFlSndhbw?oc=5",
-          "published": "2026-10-31T02:56:00+00:00",
-          "publisher": "The Straits Times",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "US judge orders Trump administration to cease threats to prosecute election officials - The Straits Times"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 9,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
       "primary_source_url": null,
-      "rationale": "A judge ordering the Trump administration to cease threats to prosecute election officials is a confirmed judicial action (real event). It indicates the administration was threatening election officials with prosecution, which constitutes an attempt to exert partisan control over election administration through intimidation. However, severity is 2 (confirmed stress signal, contained action) rather than 3 because the threat was ordered to cease by a court, showing the judicial system is functioning to restrain the overreach. No structural failure has occurred.",
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 2.0,
+      "severity": 2.65,
       "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/US/usps-makes-new-rules-mail-ballots/story?id=135879673",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5",
-          "published": "2026-11-01T09:26:06+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Supreme Court allows Trump to implement parts of his mail-in voting executive order - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "Multiple credible sources report that the Supreme Court allowed Trump to implement parts of a mail-in voting executive order. This represents a shift of voting-rule authority from statutory/legislative control to unilateral executive action via EO. The Court's allowance (likely through stay or injunction ruling) enabled executive implementation without requiring legislative authorization. This is a real, confirmed action that transfers governance authority from statute to executive fiat, but is narrowly scoped to mail-voting procedures rather than a broader structural dismantling. Severity 2 reflects this as a real, credible stress signal of limited scope, not yet structural failure.",
-      "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 1,
@@ -224,7 +166,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 0,
+      "hits": 2,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
@@ -238,19 +180,133 @@
       "unique_publishers": 0
     },
     {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [
+        {
+          "canonical_link": "https://cyberscoop.com/judge-dismisses-alaska-senate-lawsuit-peltola-sullivan/",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0YwRkpKTndxRzdoVl9hOV9vVHgxNkRWd3JONTgwU1hienJyTW1uY1V6NEVObktLZE8wQkZIVVNRaDdaMG04UUtPVXVheE00bjhLQzVNY0ZWWUhXRmhQeG0xRDF3akNuMjhncUdZSkNkUGpfY05zdjZkNktBNzI3RWNyc2U?oc=5",
+          "published": "2026-11-01T22:51:56+00:00",
+          "publisher": "CyberScoop",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Federal court tosses Trump lawsuit challenging Alaska Senate certification - CyberScoop"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
+      "id": "judicial_review_foreclosure",
+      "name": "Judicial Review Foreclosure",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://www.cyberscoop.com",
+      "rationale": "A federal court dismissed a lawsuit challenging Alaska Senate election certification on threshold grounds rather than addressing the merits of the constitutional claim. This is a concrete instance of judicial review foreclosure\u2014a plaintiff seeking to test the legality of government action (election certification) was denied standing or had the case dismissed on justiciability grounds, leaving no forum to adjudicate the underlying constitutional question. This is a real occurrence, not a hypothetical or proposal. The severity is 2 rather than higher because this is a single instance of a threshold dismissal in one case, not a systematic campaign or structural breakdown. The court's act has already occurred (the dismissal issued), but it is limited in scope to one election challenge and does not yet indicate a pattern that would rise to severity 3.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "elections_transfer",
+      "evidence": [
+        {
+          "canonical_link": "https://www.bostonglobe.com/2026/11/02/opinion/states-stopped-trump-election-takeover/",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVE1TczJsdkUtSGZYRHVqU1ctVGp6bk12a3RpMS1obDY4bi1zaGlJUk5SNFhQN0djeldqWkNPaUttbEgyTE8tRjNMb1lGVmtwYksxWXJyeFVFNVNHT0hhWHlsQUxyRUdlSDQxVl9OSlgzNllrSDNtbGhWVUgtRi1ENEVNeTNKZWphcGJFbGoxWQ?oc=5",
+          "published": "2026-11-02T08:00:45+00:00",
+          "publisher": "The Boston Globe",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "\u2018We would be so cooked.\u2019 Federalism prevented Trump\u2019s election takeover. - The Boston Globe"
+        },
+        {
+          "canonical_link": "https://www.washingtonpost.com/politics/2026/10/31/trump-administration-retools-its-battle-over-elections-keep-fights-alive-after-election-day/",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRGpZalZEVFBBcWgyOG9KakozUkpWVEktNXN2eVQycUM3RXY5TDZacXB2UjBwd1FIeTRNY2xDc3V6Z0VSeVdFc3BGaXNHeFBlcllvV05mZ3hEQ0ZtMzFCSUFLbzFrZzZJVmM0NFBBcTdDZ0NHa3RBNDRvOG1LUGl5R1doejJfQlY4eFJBT1EzajBRa05acDMyTTB0UjRVYzJqTXQxWnF0VDBPcUF3Yk1mZjBPclltQTZSNzI4cVVqWFZrV0tMalRxcWVaVFpVemJZbUhXOS1uT054LTA?oc=5",
+          "published": "2026-10-31T17:00:00+00:00",
+          "publisher": "The Washington Post",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump administration retools its battle over elections to keep fights alive after Election Day - The Washington Post"
+        },
+        {
+          "canonical_link": "https://buckscountybeacon.com/2026/11/everything-you-need-to-know-about-trumps-department-of-justice-election-monitors/",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMTZDNlZ1d25VeUdmVmc0Y0EtWnFtclplNnpGSE02SDNZN2VSaktNcnUwOHBkakFFVkdOYmQ4SmtHOXctUzdPZjIxQldmckh1RVlUTUFuX29aN0h6WGUxT2wtbU9mTkdzMXBzcGpreWUzd1hBN0dqWExfdWVJQ2NQRnF5Mm9PNXBuYl9vVWZyVE1oOFNCcXJLM0tLTk9MMF9DZU45OUtLT3RzSzhMTnZFbjBXSDM1bnJneXNZ?oc=5",
+          "published": "2026-11-01T13:25:50+00:00",
+          "publisher": "Bucks County Beacon",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Everything You Need to Know About Trump\u2019s Department of Justice Election Monitors - Bucks County Beacon"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 10,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://www.reuters.com/legal/government/trump-white-house-maps-path-govern-without-congress-if-democrats-win-2026-11-01/",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOXdkX2hvMlBTTmRRRGlTbndZSTFnWnZyYkJ5STRjNFBOUkdwQ3VDUjRuTUQySzhQMkp2UXh0MW5VS3E4WHVXeEhQQ2JnRnUxV0pIVTM3T1J6Y0o3Y1JWamZ4YXMwNEtjazNiU3pERzRaWC1XNXZBZk56UU1KSUFNMWtZS0hrUjNUSW5ILW9kdWVQa3BqYkNPSl9tQk90SEtWcDdXRjZXdkdUT1IzS2ViaTgwTmE5MnlCclh1T0pB?oc=5",
+          "published": "2026-11-01T11:04:00+00:00",
+          "publisher": "Reuters",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump White House maps path to govern without Congress if Democrats win - Reuters"
+        },
+        {
+          "canonical_link": "https://eutoday.net/is-donald-trump-preparing-to-rule-without-congress/",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JRVhvM0pKNElHMWF5aWQ2TjZpdVA5U2NDXzVtX29PbWtIeXdUMHcxTjJTVVRTSzM5TUhPaHVBYTdFeGI2NWM4MTlrSk5aTXVZdGJMWkRhRzk4ajZuNGVLQnlLTDU5M28xTWFvZk5UWUExdEtSZGR3V1ExQQ?oc=5",
+          "published": "2026-11-01T11:20:12+00:00",
+          "publisher": "EU Today",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Is Donald Trump Preparing to Rule Without Congress \u2013 and Could America Be Heading Towards Another Constitutional Crisis? - EU Today"
+        },
+        {
+          "canonical_link": "https://en.banglanews24.com/international/news/bd/197447.details",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Jck5hUUNvQUJTd2VaWXBBNEp5ZlpOUER0bjZYX25xZ0phdFZPQnljYzRwb2hKNzZaT2JDR0wxZURpSGRsNS1ncHh1aUlNajQ0OXFpQ3YzZ1hBekFoUlZhcy1yY2M2SWFSYmI4VzIwRjNEQQ?oc=5",
+          "published": "2026-11-02T03:45:15+00:00",
+          "publisher": "Banglanews24",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "US midterms: Can the election weaken Trump's grip on power? - Banglanews24"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 6,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "opposition_pluralism",
       "evidence": [
-        {
-          "canonical_link": "https://www.phillyburbs.com/story/news/politics/elections/2026/10/30/brian-fitzpatrick-election-board-diane-ellis-marseglia-election-house-bob-harvie-bucks-county-pa01/92513994007/",
-          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOM3ZKZ3ZJN2MzUEU4cGU5VGJ3b3hnTElfdGJLd1IzQmZfZkw4QUI0SV93QjRGamh2SmZKMHVWMWpfamNfMWpwZ0R6SW52alZ0SGwwOGtsSUNMVW1BZ3ZDcjhWZlBNZHloZU9SZlVkbDJYakFKcklQNTdXa2VVWDcwaHBlVVVNeDVlOVMtNU5zVUJyTVVjSnJzUXBvNFg2b1BCT3FjM1c2S3dzb1l2WVdud3VXcTBmbDBXU2F0dk9yYi1mOWtmOGxGUGxxa3Z4V0VsU3I1NFBoOWUyb1dVaVlIS2plem5ab29HU09UTjZTSGotNEFqRjdRYmlvWVVNZFFYU0U5UnVWWmRhSnVT?oc=5",
-          "published": "2026-10-30T22:58:00+00:00",
-          "publisher": "PhillyBurbs",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Fitzpatrick sues to keep Democrat Marseglia off elex board, cites bias - PhillyBurbs"
-        },
         {
           "canonical_link": "https://iol.co.za/news/crime-and-courts/2026-10-09-court-rules-mbalula-unlawfully-removed-lungisa-from-anc-election-list/",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSm1WM1JYdWlUYWRzRklDbnByYi0tZmlBSmFsN2tHaWRWVDViN3hnVmpJRS1zVEstUy1POC1sRzBlZV9wU0ZzX1o2RlBXOEJSUll5cDZwV0xDRzVIaVVrN2M0MFJkVXBkajZTQjU1YW1aS3plakl0dG5aWjBpVHRUbG5FSDdONlg0LVpJWVdJZXBWSlFnU3k0RmZKRnl4cGZ1Zkk2LXZpQ0VZYkpzV0lGeUtlWU1YUHgxeVRTdmJB?oc=5",
@@ -262,7 +318,7 @@
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 1,
       "id": "opposition_ballot_exclusion",
       "name": "Opposition Ballot Exclusion",
       "override_note": null,
@@ -271,7 +327,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -290,7 +346,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.6,
+      "severity": 1.25,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -300,13 +356,13 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.journalismpakistan.com/the-journalismpakistan-global-media-brief-edition-44-october-30-2026",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeVdWSHNNclNPUHZadWZBdEFHTE1vWEVzWDVlVzVQbjFrTng1QWJ1YlRVR1JEbzczTHBESWh0UU96RC0zT2JsY3A2Z1ZxYkYzMm14NXRxb1M1b1dlT0lTOEY4V1BNSzBoNVhxcWZVaFlqZ0NzMFU0MWk0WUFvbXBlWHBLaWY4ZHRQVnV1T0dnN1A1U2tINC1RU0xja2FMNnNGTlprRUh3?oc=5",
-          "published": "2026-10-30T17:56:56+00:00",
-          "publisher": "Journalism Pakistan",
+          "canonical_link": "https://english.onlinekhabar.com/silencing-dissent-through-arrests-threats.html",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZzZjOWhYcVF3ak9KYVRBRmJlMGRyQ29FVkk4RDZzcGZsZXYxTVA2NnJzWXBRREp4emhmdFY0a1lrekc4QVlzSkJIN01rRGlsc3dHSHZ5LURQLVo1aFJ1ak1EOGg1dFZGRnY4TGtrMWRsemRyVkNZb3FKMWpOYWZKZlJ4aG5ZUQ?oc=5",
+          "published": "2026-11-02T04:33:51+00:00",
+          "publisher": "OnlineKhabar English News",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "The JournalismPakistan Global Media Brief | Edition 44 | October 30, 2026 - Journalism Pakistan"
+          "title": "Silencing dissent through arrests, threats and intimidation - OnlineKhabar English News"
         }
       ],
       "evidence_mode": "ai",
@@ -319,36 +375,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "canonical_link": "https://www.justsecurity.org/120547/presumption-of-regularity/",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZc3ZGVVRCZ3ktQ3JnbHhGRzJJVzVtNDFEajlDME5ORHZ3aWRVby14WlBHbWM2ckN4Nk1ZcHd0QkdhYll2VjFsbkhsQlpiUVpVZ1RkTzBqSFJEOUlTZVI0QzZhLXhEOVUxZ2RZejdNZw?oc=5",
-          "published": "2026-10-30T15:02:51+00:00",
-          "publisher": "Just Security",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "The \u201cPresumption of Regularity\u201d in Trump Administration Litigation (5th edition) - Just Security"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "court_order_noncompliance",
-      "name": "Court Order Noncompliance",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     }
