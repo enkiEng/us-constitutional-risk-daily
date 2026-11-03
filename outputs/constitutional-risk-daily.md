@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-11-02 12:27:57 UTC
+- Generated: 2026-11-03 12:27:54 UTC
 - Methodology: **v2** (extraction: AI event extraction)
 - Score: **18 / 100** (Elevated Strain)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **-2.4**
+- Previous day delta: **0.0**
+- Delta vs 7-day average: **-1.0**
 
 ## Interpretation
 - Band meaning: Repeated norm-breaking attempts, but institutional checks mostly holding.
@@ -15,52 +15,52 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.65 | 3.57 |
+| Elections and Transfer of Power | 22 | 1.00 | 5.50 |
 | Judicial Independence and Rule of Law | 15 | 1.00 | 3.75 |
-| Opposition Rights and Political Pluralism | 14 | 0.43 | 1.52 |
-| Executive Constraints and Emergency Powers | 13 | 1.22 | 3.95 |
+| Opposition Rights and Political Pluralism | 14 | 0.32 | 1.11 |
+| Executive Constraints and Emergency Powers | 13 | 1.10 | 3.57 |
 | Civil Service and Agency Independence | 10 | 0.00 | 0.00 |
-| Civil Liberties and Information Environment | 10 | 1.65 | 4.12 |
+| Civil Liberties and Information Environment | 10 | 1.30 | 3.25 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
-| Federalism and Legislative Oversight | 8 | 0.62 | 1.25 |
+| Federalism and Legislative Oversight | 8 | 0.45 | 0.90 |
 
 ## Highest-Risk Signals Today
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Public Funds for Political Promotion | civil_liberties_information | 2.65 (Yellow) | ai | 0 | 3 |
+| Public Funds for Political Promotion | civil_liberties_information | 2.30 (Yellow) | ai | 2 | 3 |
+| Election Certification Interference | elections_transfer | 2.00 (Yellow) | ai | 1 | 3 |
+| Judicial Review Foreclosure | judiciary_rule_of_law | 2.00 (Yellow) | ai | 1 | 2 |
 | Emergency Powers Expansion | executive_constraints | 2.00 (Yellow) | ai | 1 | 2 |
-| Judicial Review Foreclosure | judiciary_rule_of_law | 2.00 (Yellow) | ai | 1 | 1 |
-| Election Administration Capture | elections_transfer | 1.65 (Watch) | ai | 0 | 10 |
-| Legislative Bypass by Executive | executive_constraints | 1.65 (Watch) | ai | 0 | 6 |
-| Opposition Ballot Exclusion | opposition_pluralism | 1.30 (Watch) | ai | 0 | 1 |
-| Legislative Oversight Obstruction | federalism_oversight | 1.25 (Watch) | keyword | 0 | 0 |
-| Press Restrictions or Retaliation | civil_liberties_information | 0.60 (Green) | ai | 0 | 1 |
+| Election Administration Capture | elections_transfer | 1.30 (Watch) | ai | 0 | 10 |
+| Legislative Bypass by Executive | executive_constraints | 1.30 (Watch) | ai | 0 | 5 |
+| Opposition Ballot Exclusion | opposition_pluralism | 0.95 (Watch) | ai | 0 | 1 |
+| Legislative Oversight Obstruction | federalism_oversight | 0.90 (Watch) | keyword | 0 | 0 |
+| Press Restrictions or Retaliation | civil_liberties_information | 0.25 (Green) | ai | 0 | 3 |
 
 ## Evidence Samples
 
 ### Public Funds for Political Promotion
-- [Time Magazine] Top Trump Officials Are Hitting the Campaign Trail Ahead of the Midterms. Are They Allowed To? - Time Magazine (2026-11-01) - https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ1F2b3Q5bTd4cENyVG40UmhmLUdjc01NX19vaDZ3WDZFVC1YZTRZdzJxUWxxaXE3T1laYW9oazlMdHNLNUxuaUdkcTBrSnFCOEIwc3RNTnRyOEdqZzJmX0gxSDB3Yk90djNsS0RINFc3ZDlPd0NCZEdId3RXQ2w3cU9VdkJYZUNMaWEzYkJNbFpmb2w5ek5RNm5WMA?oc=5
-- [Newsweek] Biden-appointed judge blocks Trump ads days before midterms - Newsweek (2026-10-31) - https://news.google.com/rss/articles/CBMihwFBVV95cUxNTnpOelJyekJob1ZpUHI3QkxYVXZiU1NCeEwxbjZWN3RQTk9oMnJKQ1RUaHdLcVlBMWNENmhIQjFPQnlxSlRMOUtWNjBhaE1VeG1wT1FienQ2REh3Q2xsMnF4TDJxZHM4SEd5TzhTcmw2RGRsNDllY1J3eGNoSkZrV1ptZzZlUG8?oc=5
-- [Istituto Impariamo] Taxpayer-Funded TV Ad Sparks Fierce Ethics Clash Across Live News: What the $14,000 ‘Public Service’ Spot Actually Shows and the Hatch Act Fight Behind It - Istituto Impariamo (2026-11-01) - https://news.google.com/rss/articles/CBMikAJBVV95cUxOT2lRb05TSVczYlJ0b25LVkxjRnMtVkd6X3BoWHMtYW1Fa09vbWpXWGFFMW5MdmpYLWNwWTI0Ylc1em1Hb205NFZXbnNORmdJcUtuemIzNnd2YnRjYlh4Y2l2bUJQRTUxdXoxWng4UjZHcHFDaEhDcURJd1lXc0NWdVhWM282bnBKYVUxaG9DZEhLU01yMDc1Mzh6TmFKRGNoQnJEZFJacTg1MThmRG1fUTQxdUhYQkYtSmptbUN3UjB0SHRLdjBBZHhWdEFPWHE4RjZBUGQzOHpxakpxTnE0SXdDV2NaNE5hWHoxaXJiREg2MzdINFUwUVY1RmRDRVB3YTFDbFhHOGE0aEZsTzFVNg?oc=5
+- Assessment: News report confirming that an administration aired TV advertisements promoting the officeholder using taxpayer funds. This constitutes spending of appropriated public money on communications that promote the officeholder rather than serve a public-information purpose, which directly matches the signal definition. The report itself treats this as a real occurrence (not hypothetical, opinion, or allegation), though the severity is moderate because this appears to be a discrete action that has been detected and is now subject to public scrutiny and potential legal challenge. No court order has been defied, no structural constitutional breakdown has occurred, but the alleged violation of the 1950s appropriations prohibition on 'publicity or propaganda purposes' is material.
+- [ABC News - Breaking News, Latest News and Videos] Administration's pro-Trump TV ad is taxpayer-funded - ABC News - Breaking News, Latest News and Videos (2026-11-02) - https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEc3UWRPWjdaWkt2Wk9vcklvTkd3LUU0eEFHNnBTNGE1M01jZ1ZsczFwN0o1VjVmMk9rU3kxOUx5M1N2V1MtLVRqNjFfUXJYV0FQeFJSV3pBSEJ1Y2NFV29FMzFGLUxmVGVRa2tVVnhwM3hRYVhzSnFRM2YzUklyR3BjQm4xOUltenU0V2lRSHB2SzJlVmpMLV9lMHdGT2dJU3FBZG5FVVnSAa4BQVVfeXFMT2lPdUJtQ0JKMEs1aVhMMUFfOXFWRmxwZlBsSk9LYjFHX3pMamdNOUV6c1BNZnQwdGtVUzRTMS1IVzJoWjl4c3Z1elZtdWotY2MwazN5UzhQNGk1TGtnSGJhMzI3WUNlY3BlemEzWGlNMkpGNnFjNXZiZU1vQVZ3SFRPYklhZjN1ek4wWUN3ZUt4YUxMcDJpTmhGMjhaVkg4Wm0tMm9CbERyWnVENjNB?oc=5
+- [Knewz] 'Purely partisan': Federal judge orders Trump admin to pull three taxpayer-funded ads featuring the president - Knewz (2026-11-02) - https://news.google.com/rss/articles/CBMirAFBVV95cUxOdTAzMExyV184WDdCNVBCWlN5d2UzNnZwOUs4OGE0UDVYcnpVV0hCZGZkN0dJdnljV1diMzQ5X0ZSRmhOMXFZMDlWemlhOUV6ZHdzMWJrbGhJNmJhc3MwT2RrckxCX1lvQkxLUU9nMVlBUVBPcUhMNDVDTkY1ZlNFMkJjMUhpZmpLX3dRSTJJc3FmdGlIQjhDa3JHZXpxWjZhclgwNWlBSWUtZzVW?oc=5
 
-### Emergency Powers Expansion
-- Assessment: A Presidential Determination under Section 303 of the Defense Production Act of 1950 is a lawful exercise of delegated emergency authority that does invoke statutory emergency powers to direct economic activity. Section 303 authorizes the President to require priority allocation and controlled distribution of materials. This is a real occurrence of emergency-powers invocation, documented in the Federal Register. However, it represents authorized use of congressionally-delegated wartime/emergency authority rather than an unconstitutional bypass of the legislative process. The DPA itself is a statutory grant of emergency authority enacted by Congress, so its invocation is use of authority granted in advance, not a constitutional circumvention. Severity is 2 (a real but contained, legally-authorized action) rather than 3+, as this is neither an extralegal assertion of power nor a defiance of constitutional constraint.
-- [federalregister.gov] **[official record]** Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Domestic Petroleum Production, Refining, and Logistics Capacity (2026-10-28) - https://www.federalregister.gov/documents/2026/10/28/2026-22052/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended
+### Election Certification Interference
+- Assessment: This is a credible report that the Trump administration has requested a top court to set aside 20,000 California ballots. This represents a real attempt to interfere with election certification by seeking to override lawful ballot counts through judicial action. The action has verifiably occurred (a request has been filed), though the outcome remains uncertain. This constitutes a material stress signal: an official action to block or override lawful election results. Severity is 2 rather than 3 because it is a single legal filing rather than a pattern of confirmed successful defiance or a structural dismantling of certification authority. The source is a news outlet; ideally a court docket would confirm the filing.
+- [The Korea Times] Trump admin asks top court to set aside 20,000 California ballots - The Korea Times (2026-11-03) - https://news.google.com/rss/articles/CBMirAFBVV95cUxOVm9sSW04eVBqYWQ1LVgxZmgwMHprNk9CUG9nR3NSQjN4RDdocndVTm1maV96Y3AyR1RyZlBoa0ZqeDNTckZ2TnRXd2VNMXdhWmF6WnctaWNnb1N6MFRCT2RBeEI3SkZkS0tCRTI1MGx4b2dzam9yOWFhbDY5cHB3YTVZQlFYMEZ2YmRJQ3NaLVNHc215ZV9lX21aSXZoc2F0NkR5WkRsNHFlQzJJ0gGyAUFVX3lxTFBGUnpoSnJHQVRXVUxXcVRkcVZ2WUpZZ2ZrQUxMYnBGdjVVMEpyNHZoNzZBTzcyczZ0VUpvX19yNkdybUREY0xqeW1HU2lJY0VFZzNrbTJ1RUtqYXJ0R3lWRjRSY1gtM0RsYVBPaEZxUmNBVzhRZ2tmWU5la2ppXzRiVmxMWG9tRzB5RjVCZ21jeTh5RDRLTnZpRFpfWFBoVk5wVEVkVnVMVjAzME5KRGJvX0E?oc=5
 
 ### Judicial Review Foreclosure
 - Assessment: A federal court dismissed a lawsuit challenging Alaska Senate election certification on threshold grounds rather than addressing the merits of the constitutional claim. This is a concrete instance of judicial review foreclosure—a plaintiff seeking to test the legality of government action (election certification) was denied standing or had the case dismissed on justiciability grounds, leaving no forum to adjudicate the underlying constitutional question. This is a real occurrence, not a hypothetical or proposal. The severity is 2 rather than higher because this is a single instance of a threshold dismissal in one case, not a systematic campaign or structural breakdown. The court's act has already occurred (the dismissal issued), but it is limited in scope to one election challenge and does not yet indicate a pattern that would rise to severity 3.
 - [CyberScoop] Federal court tosses Trump lawsuit challenging Alaska Senate certification - CyberScoop (2026-11-01) - https://news.google.com/rss/articles/CBMihAFBVV95cUxNR0YwRkpKTndxRzdoVl9hOV9vVHgxNkRWd3JONTgwU1hienJyTW1uY1V6NEVObktLZE8wQkZIVVNRaDdaMG04UUtPVXVheE00bjhLQzVNY0ZWWUhXRmhQeG0xRDF3akNuMjhncUdZSkNkUGpfY05zdjZkNktBNzI3RWNyc2U?oc=5
 
-### Election Administration Capture
-- [The Boston Globe] ‘We would be so cooked.’ Federalism prevented Trump’s election takeover. - The Boston Globe (2026-11-02) - https://news.google.com/rss/articles/CBMijwFBVV95cUxPVE1TczJsdkUtSGZYRHVqU1ctVGp6bk12a3RpMS1obDY4bi1zaGlJUk5SNFhQN0djeldqWkNPaUttbEgyTE8tRjNMb1lGVmtwYksxWXJyeFVFNVNHT0hhWHlsQUxyRUdlSDQxVl9OSlgzNllrSDNtbGhWVUgtRi1ENEVNeTNKZWphcGJFbGoxWQ?oc=5
-- [The Washington Post] Trump administration retools its battle over elections to keep fights alive after Election Day - The Washington Post (2026-10-31) - https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRGpZalZEVFBBcWgyOG9KakozUkpWVEktNXN2eVQycUM3RXY5TDZacXB2UjBwd1FIeTRNY2xDc3V6Z0VSeVdFc3BGaXNHeFBlcllvV05mZ3hEQ0ZtMzFCSUFLbzFrZzZJVmM0NFBBcTdDZ0NHa3RBNDRvOG1LUGl5R1doejJfQlY4eFJBT1EzajBRa05acDMyTTB0UjRVYzJqTXQxWnF0VDBPcUF3Yk1mZjBPclltQTZSNzI4cVVqWFZrV0tMalRxcWVaVFpVemJZbUhXOS1uT054LTA?oc=5
-- [Bucks County Beacon] Everything You Need to Know About Trump’s Department of Justice Election Monitors - Bucks County Beacon (2026-11-01) - https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMTZDNlZ1d25VeUdmVmc0Y0EtWnFtclplNnpGSE02SDNZN2VSaktNcnUwOHBkakFFVkdOYmQ4SmtHOXctUzdPZjIxQldmckh1RVlUTUFuX29aN0h6WGUxT2wtbU9mTkdzMXBzcGpreWUzd1hBN0dqWExfdWVJQ2NQRnF5Mm9PNXBuYl9vVWZyVE1oOFNCcXJLM0tLTk9MMF9DZU45OUtLT3RzSzhMTnZFbjBXSDM1bnJneXNZ?oc=5
+### Emergency Powers Expansion
+- Assessment: A Presidential Determination under Section 303 of the Defense Production Act of 1950 is a lawful exercise of delegated emergency authority that does invoke statutory emergency powers to direct economic activity. Section 303 authorizes the President to require priority allocation and controlled distribution of materials. This is a real occurrence of emergency-powers invocation, documented in the Federal Register. However, it represents authorized use of congressionally-delegated wartime/emergency authority rather than an unconstitutional bypass of the legislative process. The DPA itself is a statutory grant of emergency authority enacted by Congress, so its invocation is use of authority granted in advance, not a constitutional circumvention. Severity is 2 (a real but contained, legally-authorized action) rather than 3+, as this is neither an extralegal assertion of power nor a defiance of constitutional constraint.
+- [federalregister.gov] **[official record]** Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Domestic Petroleum Production, Refining, and Logistics Capacity (2026-10-28) - https://www.federalregister.gov/documents/2026/10/28/2026-22052/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended
 
-### Legislative Bypass by Executive
-- [Reuters] Trump White House maps path to govern without Congress if Democrats win - Reuters (2026-11-01) - https://news.google.com/rss/articles/CBMivgFBVV95cUxOOXdkX2hvMlBTTmRRRGlTbndZSTFnWnZyYkJ5STRjNFBOUkdwQ3VDUjRuTUQySzhQMkp2UXh0MW5VS3E4WHVXeEhQQ2JnRnUxV0pIVTM3T1J6Y0o3Y1JWamZ4YXMwNEtjazNiU3pERzRaWC1XNXZBZk56UU1KSUFNMWtZS0hrUjNUSW5ILW9kdWVQa3BqYkNPSl9tQk90SEtWcDdXRjZXdkdUT1IzS2ViaTgwTmE5MnlCclh1T0pB?oc=5
-- [EU Today] Is Donald Trump Preparing to Rule Without Congress – and Could America Be Heading Towards Another Constitutional Crisis? - EU Today (2026-11-01) - https://news.google.com/rss/articles/CBMie0FVX3lxTE1JRVhvM0pKNElHMWF5aWQ2TjZpdVA5U2NDXzVtX29PbWtIeXdUMHcxTjJTVVRTSzM5TUhPaHVBYTdFeGI2NWM4MTlrSk5aTXVZdGJMWkRhRzk4ajZuNGVLQnlLTDU5M28xTWFvZk5UWUExdEtSZGR3V1ExQQ?oc=5
-- [Banglanews24] US midterms: Can the election weaken Trump's grip on power? - Banglanews24 (2026-11-02) - https://news.google.com/rss/articles/CBMickFVX3lxTE5Jck5hUUNvQUJTd2VaWXBBNEp5ZlpOUER0bjZYX25xZ0phdFZPQnljYzRwb2hKNzZaT2JDR0wxZURpSGRsNS1ncHh1aUlNajQ0OXFpQ3YzZ1hBekFoUlZhcy1yY2M2SWFSYmI4VzIwRjNEQQ?oc=5
+### Election Administration Capture
+- [California State Portal | CA.gov] Governor Newsom highlights California’s work to deliver a free and fair election tomorrow; defend democracy from ongoing and anticipated attacks - California State Portal | CA.gov (2026-11-02) - https://news.google.com/rss/articles/CBMiiAJBVV95cUxPRHhNWG5lMk9tWno2VHBOVV9MT1ZwV3gzQ0xiNVE4a1UwMVg1dUd1Y2w1OVBZNTc1b2d6bEhGQUdNM2JpVmlNY0JRNzhSUmRfU01mNThrVHhxQXI0STliYk1hNWVfYlJGcEpmZnVCbnhNYlB4QWh0TTRpTnlsOVRQa2tCNU5SWUh5RWJZd1lZdmpaenB6Uno2Y0tpVWwyWUhaVy01SEZyeFN3Njd6S1VQdkNoRnF6UW1uOUx3d3lYd0s0a0dHRFBDR1BIVTJucWlKamljZlE4TW1CdllRVzdSbjUtdkZtRFA4X0lDQ2V2Z0xiREtZN1U1Vm92dEh2YlhCdm1SVXVRQms?oc=5
+- [Spotlight PA] What to know about DOJ election monitors in the 2026 midterms - Spotlight PA (2026-11-02) - https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQkcyRXlUMWIyb2VQQUlJVm16VmFfMXE2cHB3b0hUdWFuRTVETFhNdFg4clhVWDUtTW8wMzk4bmxSVmVVN3EwZEpESC1ZdG5tLVJHSjVjUEZOei10TFNrTThVOUR3dnBuMDFBUHdaZ1lReXh3UjlwXzgwOTZudW1ueGdWM0wtcnRDXzFFWWp0bC05eVFZRGk5aEJfdGxzQW43QTFKcWF3WkRQRlBSNDY2N3VoVXJyc0h0UmQ0MG9JX0Jrams?oc=5
+- [Tennessee Lookout] Tennessee Supreme Court paves way to cut Metro Council, give state control of airport authority - Tennessee Lookout (2026-11-02) - https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdlBsOUsweUp4dzVwWVZ4Zl9jcmhleFVlNmoyQlNMN1lnM0JZVmZIbFllNVBNNTA4cEphNDZxWDlSUlBPaEpMWjRMcDQydHdFUlozbTlIYUNzQ2RheWRlNmZTZVhTUDRxSmVzVVdXOE9jeEQ3YlNMUnhmNUtGLWs1cGJvRkRrME5Qakh2SEo5WEZRUHVwM1NvWUpDQ0draEVZaVlWbTRFVlFDeUJlZ19Wc2pMMGVnMkV4cjBUSDZLZUVRNkEwcDdUYXlKLTBZTHpt?oc=5
 
 ## Data Quality
 
