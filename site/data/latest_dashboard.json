@@ -1,16 +1,16 @@
 {
   "attempted_queries": 25,
-  "average_7d": 17.79,
+  "average_7d": 16.7,
   "band": {
-    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
-    "label": "Elevated Strain",
-    "max": 29,
-    "min": 15
+    "description": "Normal democratic conflict and routine legal contestation.",
+    "label": "Baseline Institutional Noise",
+    "max": 14,
+    "min": 0
   },
   "confidence": "High",
   "data_available": true,
   "delta_previous_day": -3.0,
-  "delta_vs_7d": -2.85,
+  "delta_vs_7d": -4.55,
   "domain_breakdown": [
     {
       "avg_severity": 1.0,
@@ -20,24 +20,24 @@
       "weight": 22
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.325,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 2.4374999999999996,
+      "points": 1.21875,
       "weight": 15
     },
     {
-      "avg_severity": 0.19999999999999998,
+      "avg_severity": 0.08333333333333333,
       "id": "opposition_pluralism",
       "name": "Opposition Rights and Political Pluralism",
-      "points": 0.7,
+      "points": 0.29166666666666663,
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.75,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 2.4375,
       "weight": 13
     },
     {
@@ -62,10 +62,10 @@
       "weight": 8
     },
     {
-      "avg_severity": 0.275,
+      "avg_severity": 0.1,
       "id": "federalism_oversight",
       "name": "Federalism and Legislative Oversight",
-      "points": 0.55,
+      "points": 0.2,
       "weight": 8
     }
   ],
@@ -85,12 +85,12 @@
     "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-11-04T12:27:47.400805+00:00",
+  "generated_at": "2026-11-05T12:28:45.728881+00:00",
   "methodology_version": 2,
-  "previous_score": 18,
+  "previous_score": 15,
   "primary_sources": {
-    "documents_confirmed": 1,
-    "documents_fetched": 9,
+    "documents_confirmed": 3,
+    "documents_fetched": 12,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -98,13 +98,13 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 15,
-  "score_raw": 14.94,
-  "score_raw_pre_trip_wire": 14.94,
+  "score": 12,
+  "score_raw": 12.15,
+  "score_raw_pre_trip_wire": 12.15,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 2,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
@@ -116,10 +116,19 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
+        },
+        {
+          "canonical_link": "https://www.newsnationnow.com/politics/texas-gop-limit-hinojosas-power/",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBGMVoyVnk3QmY0cUYzeEVMRWxhM0JIRXFwSnJaNW9FaU14MDA0d3BtakVCNHhsdFdxVENPemVfYk5ndmQwSnA2bW9IQWVNaklfNW1SVE5maHJCRk1BSzFQUjB2bU9FU2xHa2RYQnJvT1lpMnBDUHk1ZGlnSdIBgAFBVV95cUxQV0N4U3BLcFMwc2FyM0gyaGx5Y0NIMWFmVFB2NTcxekNZcGFoNVJMTlJQbGlQYWlOb08tSlhwWnc3eFFGaVFkS0daRGZRVk9RWXNPdnp3Rm00cF9qRVQwOFRmNFpwLUkyVWtGdWJIUG9sNDVIaWVwUkpDa2dvWkE1OA?oc=5",
+          "published": "2026-11-05T01:06:55+00:00",
+          "publisher": "NewsNation",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Texas GOP pushes to limit Hinojosa\u2019s power before takeover - NewsNation"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 28,
+      "hits": 16,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -130,22 +139,13 @@
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 1
+      "unique_publishers": 2
     },
     {
-      "confirmed_hits": 3,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/Politics/trump-administrations-campaign-style-ad-fox-news-taxpayer/story?id=136723829",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEc3UWRPWjdaWkt2Wk9vcklvTkd3LUU0eEFHNnBTNGE1M01jZ1ZsczFwN0o1VjVmMk9rU3kxOUx5M1N2V1MtLVRqNjFfUXJYV0FQeFJSV3pBSEJ1Y2NFV29FMzFGLUxmVGVRa2tVVnhwM3hRYVhzSnFRM2YzUklyR3BjQm4xOUltenU0V2lRSHB2SzJlVmpMLV9lMHdGT2dJU3FBZG5FVVnSAa4BQVVfeXFMT2lPdUJtQ0JKMEs1aVhMMUFfOXFWRmxwZlBsSk9LYjFHX3pMamdNOUV6c1BNZnQwdGtVUzRTMS1IVzJoWjl4c3Z1elZtdWotY2MwazN5UzhQNGk1TGtnSGJhMzI3WUNlY3BlemEzWGlNMkpGNnFjNXZiZU1vQVZ3SFRPYklhZjN1ek4wWUN3ZUt4YUxMcDJpTmhGMjhaVkg4Wm0tMm9CbERyWnVENjNB?oc=5",
-          "published": "2026-11-04T00:45:40+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Administration's pro-Trump TV ad is taxpayer-funded - ABC News - Breaking News, Latest News and Videos"
-        },
         {
           "canonical_link": "https://truthout.org/articles/federal-agencies-use-internal-list-to-send-pro-trump-email-blast-before-election/",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVC1KdWtfWTJzX2VLd0p5alkxZ1daSkJTUXNrWlBDdTlmd1NGNmR3UTdGWEdHNXJYWEVWcGpuWUlHZWFBSHFwMUpBcmVRZ1ppWDBaS2lPbUVsT3lDbXdSdTY1THUzUVpkbGNIMnN1RGFsSEl2eEFRclp1b0lCZXJoYlRTT2xNd2pZcmpoOTZuMGlTUTh1UHNsRWRPNWpfbUpRSDhjNDJ5bUJQUkw0bzdCNw?oc=5",
@@ -154,108 +154,78 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Federal Agencies Use Internal List to Send Pro-Trump Email Blast Before Election - Truthout"
-        },
-        {
-          "canonical_link": "https://knewz.com/federal-judge-order-donald-trump-admin-pull-three-taxpayer-funded-ads-featuring-president/",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdTAzMExyV184WDdCNVBCWlN5d2UzNnZwOUs4OGE0UDVYcnpVV0hCZGZkN0dJdnljV1diMzQ5X0ZSRmhOMXFZMDlWemlhOUV6ZHdzMWJrbGhJNmJhc3MwT2RrckxCX1lvQkxLUU9nMVlBUVBPcUhMNDVDTkY1ZlNFMkJjMUhpZmpLX3dRSTJJc3FmdGlIQjhDa3JHZXpxWjZhclgwNWlBSWUtZzVW?oc=5",
-          "published": "2026-11-02T21:57:42+00:00",
-          "publisher": "Knewz",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "'Purely partisan': Federal judge orders Trump admin to pull three taxpayer-funded ads featuring the president - Knewz"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 5,
+      "hits": 3,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abcnews.com",
-      "rationale": "News report confirming that an administration aired TV advertisements promoting the officeholder using taxpayer funds. This constitutes spending of appropriated public money on communications that promote the officeholder rather than serve a public-information purpose, which directly matches the signal definition. The report itself treats this as a real occurrence (not hypothetical, opinion, or allegation), though the severity is moderate because this appears to be a discrete action that has been detected and is now subject to public scrutiny and potential legal challenge. No court order has been defied, no structural constitutional breakdown has occurred, but the alleged violation of the 1950s appropriations prohibition on 'publicity or propaganda purposes' is material.",
-      "severe_hits": 1,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 3
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://www.koreatimes.co.kr/world/20261103/trump-admin-asks-top-court-to-set-aside-20000-california-ballots",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVm9sSW04eVBqYWQ1LVgxZmgwMHprNk9CUG9nR3NSQjN4RDdocndVTm1maV96Y3AyR1RyZlBoa0ZqeDNTckZ2TnRXd2VNMXdhWmF6WnctaWNnb1N6MFRCT2RBeEI3SkZkS0tCRTI1MGx4b2dzam9yOWFhbDY5cHB3YTVZQlFYMEZ2YmRJQ3NaLVNHc215ZV9lX21aSXZoc2F0NkR5WkRsNHFlQzJJ0gGyAUFVX3lxTFBGUnpoSnJHQVRXVUxXcVRkcVZ2WUpZZ2ZrQUxMYnBGdjVVMEpyNHZoNzZBTzcyczZ0VUpvX19yNkdybUREY0xqeW1HU2lJY0VFZzNrbTJ1RUtqYXJ0R3lWRjRSY1gtM0RsYVBPaEZxUmNBVzhRZ2tmWU5la2ppXzRiVmxMWG9tRzB5RjVCZ21jeTh5RDRLTnZpRFpfWFBoVk5wVEVkVnVMVjAzME5KRGJvX0E?oc=5",
-          "published": "2026-11-03T01:26:03+00:00",
-          "publisher": "The Korea Times",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump admin asks top court to set aside 20,000 California ballots - The Korea Times"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 3,
-      "id": "election_certification_interference",
-      "name": "Election Certification Interference",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
       "primary_source_url": null,
-      "rationale": "This is a credible report that the Trump administration has requested a top court to set aside 20,000 California ballots. This represents a real attempt to interfere with election certification by seeking to override lawful ballot counts through judicial action. The action has verifiably occurred (a request has been filed), though the outcome remains uncertain. This constitutes a material stress signal: an official action to block or override lawful election results. Severity is 2 rather than 3 because it is a single legal filing rather than a pattern of confirmed successful defiance or a structural dismantling of certification authority. The source is a news outlet; ideally a court docket would confirm the filing.",
+      "rationale": "The headline reports that federal agencies used an internal list to send a pro-Trump email blast before an election. This is a credible report of an alleged use of federal communications infrastructure and resources for partisan/candidate promotion, which directly matches the signal definition. However, without access to the full article or official documentation, the confirmation status and scale of the action cannot be fully verified. The timing (before election) and partisan nature ('pro-Trump') align with the signal's definition. Severity is 2 (repeated or credible stress signal) rather than higher because the report is from a news outlet rather than an official record and details are limited.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
       "unique_publishers": 1
     },
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 3,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/10/28/2026-22052/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended",
-          "link": "https://www.federalregister.gov/documents/2026/10/28/2026-22052/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended",
-          "published": "2026-10-28T00:00:00+00:00",
+          "canonical_link": "https://www.federalregister.gov/documents/2026/11/05/2026-22688/continuation-of-the-national-emergency-with-respect-to-the-threat-from-securities-investments-that",
+          "link": "https://www.federalregister.gov/documents/2026/11/05/2026-22688/continuation-of-the-national-emergency-with-respect-to-the-threat-from-securities-investments-that",
+          "published": "2026-11-05T00:00:00+00:00",
           "publisher": "federalregister.gov",
           "source_name": "federal_register",
           "source_tier": "primary",
-          "title": "Presidential Determination Pursuant to Section 303 of the Defense Production Act of 1950, as Amended, on Domestic Petroleum Production, Refining, and Logistics Capacity"
+          "title": "Continuation of the National Emergency With Respect to the Threat From Securities Investments That Finance Certain Companies of the People's Republic of China"
+        },
+        {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/11/05/2026-22686/continuation-of-the-national-emergency-with-respect-to-the-proliferation-of-weapons-of-mass",
+          "link": "https://www.federalregister.gov/documents/2026/11/05/2026-22686/continuation-of-the-national-emergency-with-respect-to-the-proliferation-of-weapons-of-mass",
+          "published": "2026-11-05T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Continuation of the National Emergency With Respect to the Proliferation of Weapons of Mass Destruction"
+        },
+        {
+          "canonical_link": "https://www.federalregister.gov/documents/2026/11/05/2026-22685/continuation-of-the-national-emergency-with-respect-to-iran",
+          "link": "https://www.federalregister.gov/documents/2026/11/05/2026-22685/continuation-of-the-national-emergency-with-respect-to-iran",
+          "published": "2026-11-05T00:00:00+00:00",
+          "publisher": "federalregister.gov",
+          "source_name": "federal_register",
+          "source_tier": "primary",
+          "title": "Continuation of the National Emergency With Respect to Iran"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 1,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
-      "primary_confirmed": 1,
-      "primary_documents": 1,
-      "primary_source_url": "https://www.federalregister.gov/documents/2026/10/28/2026-22052/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended",
-      "rationale": "A Presidential Determination under Section 303 of the Defense Production Act of 1950 is a lawful exercise of delegated emergency authority that does invoke statutory emergency powers to direct economic activity. Section 303 authorizes the President to require priority allocation and controlled distribution of materials. This is a real occurrence of emergency-powers invocation, documented in the Federal Register. However, it represents authorized use of congressionally-delegated wartime/emergency authority rather than an unconstitutional bypass of the legislative process. The DPA itself is a statutory grant of emergency authority enacted by Congress, so its invocation is use of authority granted in advance, not a constitutional circumvention. Severity is 2 (a real but contained, legally-authorized action) rather than 3+, as this is neither an extralegal assertion of power nor a defiance of constitutional constraint.",
+      "primary_confirmed": 3,
+      "primary_documents": 4,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22688/continuation-of-the-national-emergency-with-respect-to-the-threat-from-securities-investments-that",
+      "rationale": "This is a continuation of an existing declared national emergency under the National Emergencies Act (NEA). Continuation of a previously declared emergency is a routine executive action that renews authorities already granted by Congress through the NEA framework. While the NEA does permit emergency powers to bypass ordinary rulemaking, continuation documents are ministerial renewals of standing authorizations, not new expansions. The underlying emergency was declared in an earlier year; this 2026 continuation represents ongoing use of existing delegated authority rather than a novel expansion. Severity is low because continuation is the ordinary operation of a congressionally-authorized framework, not a structural bypass of legislative process.",
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
+      "severity": 1.65,
+      "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "canonical_link": "https://azcapitoltimes.com/news/2026/11/02/arizona-defends-in-state-tuition-for-undocumented-students/",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQzB6V1dKbHNMWGJZckN4U3BXc25sb2pjVG03ZnM5VXVzZWphYXFacGdWckhMclpPdms4VWpBWmJLT1JURGxKSUFvWExRNE52ZFR3eDR3NWVNRTd0cU4xTDNOaU92TnJGSE1QMk43ZkI4Z3dGcnZFZGs0d1BCVXpUN3A5R2VFWGw3NURCdmpacGViRVFhdTk0bHVlTUJ1Nkp5bXFHMw?oc=5",
-          "published": "2026-11-02T19:47:29+00:00",
-          "publisher": "Arizona Capitol Times",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Arizona defends in-state tuition for undocumented students - Arizona Capitol Times"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "judicial_review_foreclosure",
-      "name": "Judicial Review Foreclosure",
+      "domain_id": "elections_transfer",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "election_certification_interference",
+      "name": "Election Certification Interference",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
@@ -269,69 +239,59 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.scotusblog.com/2026/11/the-border-wall-dispute-isnt-fit-for-the-emergency-docket/",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUmxqUlRRTVYtci1SUWY3ZTJBaDZqeWp2b2hMUGtTLV80Z0pucHNDUVJyQlVsLXN6bzdHQVIzSHhYdTNnRS1fbXNVaFdVSEsxYzYxNGx6Ml9pODhWMElGRkljN205a0tCRnZ1R2RmVmhsMi1NWHJ6NnA0aFFQQmZEMXUyQUhjZU9SQ0hsZnNySDI4SUVMY1dnZg?oc=5",
-          "published": "2026-11-03T14:33:43+00:00",
-          "publisher": "SCOTUSblog",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "The border wall dispute isn\u2019t fit for the emergency docket - SCOTUSblog"
-        },
-        {
-          "canonical_link": "https://www.reuters.com/legal/government/trump-white-house-maps-path-govern-without-congress-if-democrats-win-2026-11-01/",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOXdkX2hvMlBTTmRRRGlTbndZSTFnWnZyYkJ5STRjNFBOUkdwQ3VDUjRuTUQySzhQMkp2UXh0MW5VS3E4WHVXeEhQQ2JnRnUxV0pIVTM3T1J6Y0o3Y1JWamZ4YXMwNEtjazNiU3pERzRaWC1XNXZBZk56UU1KSUFNMWtZS0hrUjNUSW5ILW9kdWVQa3BqYkNPSl9tQk90SEtWcDdXRjZXdkdUT1IzS2ViaTgwTmE5MnlCclh1T0pB?oc=5",
-          "published": "2026-11-02T15:00:11+00:00",
-          "publisher": "Reuters",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump White House maps path to govern without Congress if Democrats win - Reuters"
-        },
-        {
-          "canonical_link": "https://ibgnews.com/2026/11/04/us-midterm-elections-2026-democratic-victory-challenges-trumps-influence-as-global-powers-reassess-washington/",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORGswR1pob3lQREVnTzktRWxoT0puYS1OZjVhWmV2cl8zNzY3MFV1VXY4ODIxSk1tR3o1SHlIQV82ck1KYnVkY0c4aVMtbW5TVmd5N0g2UXpBOTU5OTA5c1FWdEE3OHdrZ2V6WTRUTU5YRTZYWFVRWmM5ejRVcllESUZ6dFRRbjdKc0ctSDNNd2dJS3E2UkJjT3RXdURrS3JNdmNXMllPd2stUnQ3bnJRN1hOcUlKQW1ITXktX2JiQ1lzcnotQlh3MEVRX2F2MVVCREQ3SkgzeWw?oc=5",
-          "published": "2026-11-04T09:42:42+00:00",
-          "publisher": "IBG News",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "US Midterm Elections 2026: Democratic Victory Challenges Trump\u2019s Influence as Global Powers Reassess Washington - IBG News"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 14,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "domain_id": "judiciary_rule_of_law",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "judicial_review_foreclosure",
+      "name": "Judicial Review Foreclosure",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "opposition_pluralism",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-11-04T08:03:34+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://www.scotusblog.com/2026/11/the-border-wall-dispute-isnt-fit-for-the-emergency-docket/",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUmxqUlRRTVYtci1SUWY3ZTJBaDZqeWp2b2hMUGtTLV80Z0pucHNDUVJyQlVsLXN6bzdHQVIzSHhYdTNnRS1fbXNVaFdVSEsxYzYxNGx6Ml9pODhWMElGRkljN205a0tCRnZ1R2RmVmhsMi1NWHJ6NnA0aFFQQmZEMXUyQUhjZU9SQ0hsZnNySDI4SUVMY1dnZg?oc=5",
+          "published": "2026-11-04T18:50:00+00:00",
+          "publisher": "SCOTUSblog",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+          "title": "The border wall dispute isn\u2019t fit for the emergency docket - SCOTUSblog"
+        },
+        {
+          "canonical_link": "https://gulfnews.com/world/americas/can-congress-stop-trump-10-things-to-know-about-what-a-lame-duck-president-can-and-cannot-do-1.500736980",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR1Y5V2tqZlE5Q3N5RzkxWHQ4TXpxVzRrdDcxVDVVdDV4eHpraDJ4RnNCZGhmVXE0TjNmTDdQRTR0aTE0cUtrMzllSVJ6Z19naHJaWFBwRlF0ZEowcXlmVDVmRDZIdVNvX2Yyb0tVaWhSRHpNdTJRLXNxWXI3LW1GV1BqcWs0TEVNRmxHVHd3MkFfeUVkT0ZBbWVWV1hBWnFNaW1sUGtsb05NamlpeDdPbG5rMUQ2eHhveFNxeWJnc3JYMm1hbmNaSDROVWVWamJhQ0NoRjZEMNIB6gFBVV95cUxQTW5CX2V5cTNEU1VZdTNhUV9ZQ0UweGk4WnhRS3lVdGcwM1ppSzJ1aGxSanJWUFFqdTZicUVhTlZGeC1OYzZVbjhLLUhERzR3cVlSNW9lRGhsTTFma2xiZzJZZ3lWWE5WQk1SQ0c2bXc3ZWhTTHdwUjRoUDZiVl94UTFDUUc5cU1DYm0wUXFOMlY5TndyOEpiVmhsOHBMakRJVklVMUh3NmlLeDh5V2RSZHlVcG53bmhEZldfdDlaZ0NxMF9nckltVXdKcWpKanVWbHZQZ1NMOF9TdTk0bGVGM1NUS3E3MGtaeHc?oc=5",
+          "published": "2026-11-05T10:17:05+00:00",
+          "publisher": "Gulf News",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Lame-duck Trump: What he can, can't do \u2014 10 key questions answered - Gulf News"
+        },
+        {
+          "canonical_link": "https://qz.com/laws-passed-lame-duck-sessions",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5KYUZWc0F1QTEySy1raEtxU1p0TWp4LTFaLWp4eTMybkF6Uk9VYzY4NTBxLWUzTVZ0T3pkLWI2VmlkUTVEU1ktX01nZnhzc2stQjNFWTlFVDc?oc=5",
+          "published": "2026-11-04T15:57:51+00:00",
+          "publisher": "qz.com",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Laws passed in lame-duck sessions: 10 major examples - qz.com"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
-      "id": "opposition_ballot_exclusion",
-      "name": "Opposition Ballot Exclusion",
+      "hits": 24,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
@@ -345,10 +305,39 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "federalism_oversight",
+      "domain_id": "opposition_pluralism",
       "evidence": [],
       "evidence_mode": "keyword",
       "hits": 0,
+      "id": "opposition_ballot_exclusion",
+      "name": "Opposition Ballot Exclusion",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.25,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "federalism_oversight",
+      "evidence": [
+        {
+          "canonical_link": "https://nypost.com/2026/11/04/us-news/billionaire-leon-black-files-defamation-suit-against-rep-robert-garcia-over-epstein-comments/",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbVhrenJuYmYtV2VTcGhIb3RoQUxSeXZNQVZSZng4X0dfckRUSXM5QzB4aEpqcXMwNVhJNTdCWEo0R1JxLWlkcUJxaTBkNE5TNEM3QnRoQmtoaGRyV1JLZFBfcU0zNFFuMWFYYmE5bFhtajFMVHpleS1UeTAzZU9hQmM1WFZjZ1hKbjFjTnBFZHpSekQ4a3poQmMxeGZORS03Sm9GSDgzbDNzWFNTMkxZcDRJVEF4N3VsUEZ5czd2czY5STlqV0swVERKaw?oc=5",
+          "published": "2026-11-05T01:50:00+00:00",
+          "publisher": "New York Post",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Billionaire Leon Black files defamation suit against Rep. Robert Garcia over Epstein comments - New York Post"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
       "id": "legislative_oversight_obstruction",
       "name": "Legislative Oversight Obstruction",
       "override_note": null,
@@ -357,7 +346,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.55,
+      "severity": 0.2,
       "severity_label": "Green",
       "unique_publishers": 0
     }
