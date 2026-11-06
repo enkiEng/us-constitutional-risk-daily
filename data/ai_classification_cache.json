@@ -192,6 +192,16 @@
       "rationale": "This item reports on a hypothetical or forward-looking political scenario (Trump's potential workforce overhaul 'faces' a new Congress after Democratic wins). The headline describes a political contest or negotiation context, not a verifiable action that has already occurred. No specific Schedule F reclassification, no civil service purge, and no politicization of the bureaucracy through at-will reclassification has been described as having taken place. This is political reporting about potential future conflict, not evidence of an accomplished constitutional-stress event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTnN1ZHhiaUpLbjhXTFY1SjNCT3VTbjZ3dktJYTR1eER5VXJvTDVBQi01UkhaTkVrZkVLZ0dfRExmMW1hWmVJZDN1TDZFeld4YVdEMHBMZjFaTzh6WmpXN3FITXowTGFpV21MUHJWVVZuejhqd0toUU5YRkYzcjlDeS1IUmNwVkNUQ0NKY2hnVE1aT0QtY0xRaDl6YS1wTWRtck81Um1jODc2UWRMXzdFWngwWHlIMldQV0h5WWw0ZWdrMVg4aFNPMEJrLU5KaUphQ05xcUpES0NqeTl5?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a brief headline and summary indicating that Trump's proposed federal workforce overhaul will face Democratic opposition in the new Congress. The item describes a hypothetical future scenario (\"faces a new Congress\") and political positioning, not a completed action or structural change to civil service rules. No specific Schedule F implementation, reclassification order, or removal of at-will protections has occurred. The statement is forward-looking and describes political dynamics, not a verifiable event that changed the legal position of civil service employees. Without the full article content and absent any evidence of implemented policy changes, this is insufficient to score as event_occurred=true.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FYklad1ZVTFo5Q05mZ2RSbElJb3JBTEliYzhubzV2WVNES05sbkxnUENJaXhET3M0QkN3Q0xZMmpiTnV3TGVObDhtR3dKNXlncE5oZDllbkl6VlpXaldjSGx5aTRvX0ltTW53WGo0aTNXaHFUTGc?oc=5": {
       "actor": "unknown",
       "confidence": 0.85,
@@ -1056,6 +1066,16 @@
       "rationale": "Report indicates DOJ has issued an order directing California counties to set aside ballots from suspected noncitizens. This is a concrete federal directive that overrides normal county election administration procedures and inserts federal discretionary judgment into ballot handling. While this represents federal assertion of control over state ballot administration, it targets a specific category (suspected noncitizens) rather than partisan outcomes, and is directed at a potential administrative screening rather than wholesale result invalidation. Severity 2: real, credible, contained action affecting process.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSG45T1dUYlRmQXY2SkVMM0s0OVdGd1cya2I1TnM0QzdFMU1NNXFkUGhuLUc5Tjk1ZzFJb0NuTnR0ZTRWUDNVeHE1dHNLcEk5OTdzZkNRQmdNWm5oTW1fRFRGRFVOUzc3bGpTMVZ0RTN6MHdkVkxRZ3h5MXdiajBHamRhZm9JdHBsdEtXX2RfUlBkcU1hNmotTmFkV0FDLXN6UzlPa3Q1cU1FTUdiOU5xNFZkdmhWYVh4RU9DclNNVDhJYzFpeWkxWmpLQWVRUGo0aEtDNA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Article discusses hypothetical policy changes that could occur under a Democratic administration. This is prospective analysis/opinion about what might happen, not evidence of an actual event or action that has occurred. No election administration capture is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYVFCYmpMSmJMUjdTbjkzZGN2MW1fUHd3RlRCX0swemROSkxYQW5LcFQwVFBPMDQ1eUtRcmd0T1g4UEczbGpaYUF2RHBDRVM5WVZNdGZwbHRpUW0wVnhZZTRqT1VGVXAyWXczb1Q4TGp3M0VwMGlZQm44czNTRENWYVVRVFJScDJ4SmV0UE1GM3F0cDBRdWdQcFdidGwzOVY3UUF5eTcwbHppN3JUUGJYSjI1VzVaNDI0ck9MMW5fclAyam9saFQzX2hwV09mRkJVY1E0Yg?oc=5": {
       "actor": "Tennessee state government",
       "confidence": 0.96,
@@ -1165,6 +1185,16 @@
       "primary_source_url": "",
       "rationale": "A state canvassing board split along party lines, with Republican members voting to certify a ballot measure while Democratic members opposed, indicates partisan division in an election administration body responsible for ballot certification. This demonstrates partisanship in what should be a neutral administrative process, though it represents a contained instance of partisan voting on a specific measure rather than systematic structural capture. The severity is 2: credible, repeated stress signal of partisan behavior within election administration, but not yet a comprehensive loss of institutional neutrality.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPR3ZZVVhDRW5VV2lmYlNXbklrUnhZUE9tOEZIYll5eUltUlI4Tl9PVW9nWUhPT0xZdE1PdFVwa0d1NzVRMXZkcG5OWGVzTVdJQWNkSF9XZk10OXlnUXBvRWVXVUFwQUNEcFhrUnFmS2ZnM1NOa0NuTUIxd01tQ2VDSlNjRkl6Q3h3bTNESGM1SzVmV0ppb3VERWlKdTNuZnNCdk9yLU1BZWlyMnRwR1RudV9sS1NreUNieVpXelhJd3JmUnhwVUg0ODdMRjh4SVBVVDlGTGsyTGJ0MWZRaGFz?oc=5": {
+      "actor": "Gina Hinojosa",
+      "confidence": 0.97,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Article reports a governor-elect's announcement of a bipartisan transition. A transition announcement is not evidence of election administration capture or partisan control of election processes. Normal governance transition coverage.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSHQ5akQyeWo0MGNwcHJtc1JybmZjcWRudFFNWHdoMFh4WEpPNHJ4Tk1nSFFFMUNDUklra0E5bzU1SWNlMmQtcjNpTnQ3MEFsYUZzc0xYa2tLME1wQ3FfLXZoeks1VU05eFBFUEtrVXduSnVBVGxSTDJIVmw4cUloY1RrLVVxQ1pVZTFsdkthNFhuWWNZQU5MS09wME50Z0JyOXdLRXpMMXgwLUc0RVU4dnZ4WnVUbDBHal9vQ0dUenJtVTFJbDdaU2hpVGxpMHFVUGFYQzhxcWpkQmZCY3R5MUJERQ?oc=5": {
       "actor": "Unknown",
@@ -1796,6 +1826,16 @@
       "rationale": "The headline describes a lawsuit by ICE protesters against a Trump supporter. This concerns immigration enforcement activism and civil litigation, not election administration. It is unrelated to the signal of election administration capture and does not constitute evidence of partisan control of the election process.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVmlBc3J5S3hVQ0VMaVZrcjYwdnR4NmVkMFJ4am1YRHZSeHpTdGNzaTUzNEtqN2t4aVBTZ29jT2YtaVdJVlk3YTI1RDkzMFhqN3pTZ251dGZSaWtDX3RmVU9MZWhFc1ZkOTdtTnZGVXdQRlpPakp0dmlYTTdBU0Rua1pLN0ZBQQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Article title suggests educational/explanatory content about election procedures post-election. Without substantive content provided, cannot confirm any actual occurrence of election administration capture. Generic explainer content is not evidence of structural change.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDBnMWY2QzZ4UEJ3aE5USEI1TF9kVmZLX1RlRDY3U2NkU2dfMGtoQms3VDI4REtobG82aWRKR3FaVjlTRHZaUk9uTXNSWkNQMDNVbEZpS2RXaThWNXRlMTdmUkkxMUNhbEV6MUEwSENhbWd2NlJlSjZ5SnM0TF90UTlRNm9FYWc?oc=5": {
       "actor": "Governor Moore and Maryland voters",
       "confidence": 0.95,
@@ -1876,6 +1916,16 @@
       "rationale": "This item concerns alleged voter deletion in Telangana, India, and is therefore not a U.S. domestic event. The signal specified is election administration capture in the United States. This is a foreign election matter and does not constitute evidence of constitutional stress in the U.S. system. Additionally, the item reports an allegation rather than a confirmed action.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX0ZOVkkzRDdQek5LOFpZc3liQUxqcDFGZG5EU0k2QUZYLWlMNnFrbXpZRV9IQWF2UmVUdzJfeDBtSW81N2NnOVBlb1RlRnRJMWVsbmZ1bTRtdXMwbENjbWkyVWhBcm9aYTh1X0paei1HcnBIeW1YYkhCRVFyVnRsLWJHU1NaNGRjRURF?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Article reports leaks targeting Stephen Miller following election results. This is political/personnel news unrelated to election administration capture or control of election processes themselves.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLXY1d01jSGo2Qkp6NU52Q2U0Y3hYSUVDVjVfSV9PYjdDU1Jrb2JyMHZtQ3BLSnBPV1Y1RUxNZHljb3dXYlpjQ1FLaGlNYlVYTW4wRVR0cjV3NTNtU3dISmlQbl9vNndfTlZhTUp0bGVwTjVqNG5mME9wbmM1aDVEbWtsOW41M0ZvT2pLXw?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.95,
@@ -1884,6 +1934,26 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This headline describes a lawsuit filed to block conduct alleged to 'usurp' state authority. A lawsuit seeking to prevent something does not confirm that the thing has already happened or that election administration has moved to partisan control. This is a claim and a legal challenge, not evidence that capture has verifiably occurred.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRzNWNGdOR2NSUDFFa25zZ19EZ3JTNFRvbDNGbXFSRzc1d19KcjYtWXI3U053bVBWRmU4OUNIcDVZWmp4ZEhpRTRBVm5VMzFFR2pmNTBLQXIzZThFbHVJV3dnQ0VXXzRiN2E0WnExUlNaQW5MRkgzbFBuRHdBWVlWSkQ2OFkyQU9qd21tTA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Article discusses possibility of impeachment of Pete Hegseth. This is speculation about a potential future action, not an actual occurrence of election administration capture. Not relevant to the signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN1dhTnU4aE50VDczQXlaVTJlcE9RQUNkSG9JVENhb1RIaUIyYmVTQTljdThNTmZ5Tmc3YURpeFlaakVncEZWdU4xQXlneFBQdWcxVUdRbnpEQTIxcVhzazlYYU9LakVTQUZTYzd1SWJmLTZtUnhVekxHdWw1Y1YxSjZYQjN4SllvTkx5Mlp3?oc=5": {
+      "actor": "Democrats",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Article reports Democrats have won trifecta control in four states through an election. Electoral victories in multiparty competition represent normal democratic outcomes, not election administration capture. The signal requires movement from neutral process to partisan control, not simply partisan victory at the ballot.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ0xIc1ZxUXhqOEFkU0k4SXVZVTNLT3VpaUNmZW1WUkZIRktHLWxUaU9MR0Q5VXBPQzlBUWxsczhBS05VYTY3aHJMUjRxMzV3WnlLSGdGZWViWjN6Z2NZSUtQLWZmNkNGeVlNOER6RGJyeEtIeGhVSGljQTluck9fNVExTFZOWnBXSVBkNklB?oc=5": {
@@ -2346,6 +2416,16 @@
       "rationale": "A news report about a ballot proposition (Prop. 5) regarding recall-election procedures is a proposal for procedural change, not evidence that election administration has been captured by partisan forces. Changing recall rules through normal democratic process is not the same as moving election administration from neutral to partisan control. No concrete evidence of capture.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQY1EwcGF4eTl1VWVpczA1Y2phS1BxZUFUZGZESGUxOGp0dXBSUHk5eWlLaDhXZGlwOFFJNGxLNFFfQmVtcUdVQ3JGaDY0TXZTZjI2YnlDdEtEVzc5MEJwTkNSdHEwOC1WeHlTNWpoU1pFZEdLd3l5WkZxdEJGS1N3bXBxeDc0czNTNUZDZU0zUVRIeTc5TEl3Yjdmc2NtTHRPNHIwYk9NaDJfLVEw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.96,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Article discusses how a governor-elect's victory could potentially affect Austin ISD policy, noting state law may limit such changes. This is prospective analysis about possible policy effects, not evidence of actual election administration capture or loss of neutral process control.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.95,
@@ -2664,6 +2744,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is opinion/analysis comparing past rhetoric with current capacity to act. It is commentary on the significance and potential implications of Trump's historical claims and present power, not a report of an actual event in which election administration has been captured. The headline itself frames this as analysis ('isn't new. His ability to act...is'), not as confirmation of action taken.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMVhPSk1PSG82Y19wUkl3Z1Zzenp5Wm1Ua1loN2RrRGYycXZTTDRjV053V29IbDQxejR0N0V1bHk3bEF2Z0RaRnJ4SUxsOHU1RndfbHIySGlJVk03bC1NeGN6SWFJQndaTlA5eWh2blY2VnN3a0ZsZFhoVzVpNjRSTFdOcVBROFlCdE10VG1jQkhjaDl1M3Y3UFVBaWh6WFFOSlhMNlVNSXZ2OXJIMG9BNUNsVXBQenZDeFZNWTI0N0o2dTg?oc=5": {
+      "actor": "Gina Hinojosa",
+      "confidence": 0.96,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Article discusses how a new governor could potentially help a school district exit state takeover through lawful mechanisms. This discusses hypothetical use of governor's powers within the existing statutory framework, not capture of election administration itself.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQkcyRXlUMWIyb2VQQUlJVm16VmFfMXE2cHB3b0hUdWFuRTVETFhNdFg4clhVWDUtTW8wMzk4bmxSVmVVN3EwZEpESC1ZdG5tLVJHSjVjUEZOei10TFNrTThVOUR3dnBuMDFBUHdaZ1lReXh3UjlwXzgwOTZudW1ueGdWM0wtcnRDXzFFWWp0bC05eVFZRGk5aEJfdGxzQW43QTFKcWF3WkRQRlBSNDY2N3VoVXJyc0h0UmQ0MG9JX0Jrams?oc=5": {
@@ -5548,6 +5638,16 @@
       "rationale": "This article is from a South Korean news outlet (\uc544\uc2dc\uc544\uacbd\uc81c) and concerns South Korean ruling and opposition parties debating impeachment of Cho Heedae, a South Korean political figure. It is not a U.S. event and therefore not evidence of U.S. constitutional stress regarding judge intimidation.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55aDdTN2VnRWlpX2cweHNJdVlTM0RISy1HeFlENllQakN0REliaUZCaHUzR1ppWnRNNXNyQW1zMzNZTWtJdzk0RDZvVTNkZ3dpcEh2NU93Sk1vVHRCM040dW1TTUXSAWhBVV95cUxQYjFxX1BpTHNQSzRINUNqZk02M3FSNHE3andfZDR1SzREbHdtdHlrUXg0WHNyOFZYbGsxeVpwWHJaZExQdHcta2RITFdiZkRXQWw3MXJVYU5iYzBsUDQzeEE2c0tCZFpfcw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns South Korea's President Yoon and a martial law defense, which is not a U.S. domestic event. The signal tracks judge intimidation campaigns in the United States. This is a non-U.S. event and therefore not evidence of the specified constitutional-stress signal occurring in America.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04UFdjR2hBaHZkS1FRUV9jNC1vSDZhMFkyMUJqcUpfZjdLZ29vcDdIdFFMUFl2VEZEcE8waWRtM3lrWjROeEdsUU90OHNCa2hYZ0ZqMktLaWM1Q0dHa1pUVVBRTy1PZw?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -6414,6 +6514,16 @@
       "rationale": "This is a foreign policy analysis article about U.S. relations with regions in the Horn of Africa (Somalia). It does not concern legislative bypass by executive action or any domestic U.S. constitutional governance issue. Not relevant to the signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR1Y5V2tqZlE5Q3N5RzkxWHQ4TXpxVzRrdDcxVDVVdDV4eHpraDJ4RnNCZGhmVXE0TjNmTDdQRTR0aTE0cUtrMzllSVJ6Z19naHJaWFBwRlF0ZEowcXlmVDVmRDZIdVNvX2Yyb0tVaWhSRHpNdTJRLXNxWXI3LW1GV1BqcWs0TEVNRmxHVHd3MkFfeUVkT0ZBbWVWV1hBWnFNaW1sUGtsb05NamlpeDdPbG5rMUQ2eHhveFNxeWJnc3JYMm1hbmNaSDROVWVWamJhQ0NoRjZEMA?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an analysis piece examining what a lame-duck president can and cannot do legally and constitutionally. It is commentary and education about presidential powers in a hypothetical scenario, not documentation of an actual executive bypass or legislative action. No real occurrence is reported.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR1Y5V2tqZlE5Q3N5RzkxWHQ4TXpxVzRrdDcxVDVVdDV4eHpraDJ4RnNCZGhmVXE0TjNmTDdQRTR0aTE0cUtrMzllSVJ6Z19naHJaWFBwRlF0ZEowcXlmVDVmRDZIdVNvX2Yyb0tVaWhSRHpNdTJRLXNxWXI3LW1GV1BqcWs0TEVNRmxHVHd3MkFfeUVkT0ZBbWVWV1hBWnFNaW1sUGtsb05NamlpeDdPbG5rMUQ2eHhveFNxeWJnc3JYMm1hbmNaSDROVWVWamJhQ0NoRjZEMNIB6gFBVV95cUxQTW5CX2V5cTNEU1VZdTNhUV9ZQ0UweGk4WnhRS3lVdGcwM1ppSzJ1aGxSanJWUFFqdTZicUVhTlZGeC1OYzZVbjhLLUhERzR3cVlSNW9lRGhsTTFma2xiZzJZZ3lWWE5WQk1SQ0c2bXc3ZWhTTHdwUjRoUDZiVl94UTFDUUc5cU1DYm0wUXFOMlY5TndyOEpiVmhsOHBMakRJVklVMUh3NmlLeDh5V2RSZHlVcG53bmhEZldfdDlaZ0NxMF9nckltVXdKcWpKanVWbHZQZ1NMOF9TdTk0bGVGM1NUS3E3MGtaeHc?oc=5": {
       "actor": "Gulf News",
       "confidence": 0.95,
@@ -6523,6 +6633,16 @@
       "primary_source_url": "https://timesofindia.indiatimes.com",
       "rationale": "Times of India reports the same underlying U.S. event (Supreme Court approval of Trump's mail-voting order). While the source is non-U.S., the event itself is U.S. domestic. The report confirms the real occurrence: executive implementation of voting restrictions via EO, cleared by the Court. Severity 2 is appropriate for a real, confirmed, credible but geographically/functionally limited action.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFX0RuTTBTQ2NEU09iWG0yWkU5RDV1ZE5jcWw1blpPT0VZaG9jdkFoVnR4OVYwMFdJUjlpVXBJdkwyN3J5YW10N1NMN0RFVzUxN1E4?oc=5": {
+      "actor": "Foreign government",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a foreign-language source (Arabic) discussing another country's presidency and governance model, not a U.S. domestic event. It is not relevant to U.S. constitutional stress signals.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlcXhnQjdSOWFmUlBTWk1IUDFLdTNDWlc2ZTBabnFCODlEVGY2V0FUSy1nZldxXzd3MlpCM2VJVVN2Q3kxNkpkaWN2OEtBX2lPQnc?oc=5": {
       "actor": "Campaign Legal Center",
@@ -7644,6 +7764,16 @@
       "rationale": "International news outlet reporting the same ballroom ruling as item 1. A court has blocked Trump's attempt; this is not evidence of successful legislative bypass, but rather of judicial enforcement of the requirement for congressional approval. Severity 0.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeHlZSXg1cFY3T2t4aXBnZ2dyakctOU9jODhMUmxmNTNqejJUTG5ZaWI5V1R6TFJpaGxjTTFjcWRBXzdjcEVwVVowNzBCdlpFUEhaN2syTDFYV0VEbFNjZU8xS0pidExkdlMxYzJyMEtYNHJkalQyUW1xaVg5bFZtVTd0RWdDOTVqRnNlMHFnbXk1cy1LZE9YOGVFUzl0YU5EeEFfTVp1eGR5M2RQNkJVUE9lLXpYeWtwNmhCUGRXb2UtdUE?oc=5": {
+      "actor": "Democrats/Trump",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a news analysis article discussing the implications of a hypothetical shift in congressional control. It is not reporting on an accomplished executive action or legislative bypass, but rather analyzing potential policy consequences of a future electoral outcome. No verifiable constitutional stress event is documented.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd0hnTEMyc3plSjhTTkZSRlNnTzBrZ3NvZDlIRDhiWW1qb0wtVEVqWG5vUFBET1luNGl1SlRxZkQ1SF9vckcxVUt1c0VsMG40VzZRcG10LUw1bkZ6VkcwRFkzeTJGcmZ2YlRnZEFhcnFNMUZIV3RPeU5ybjc2ZXRHZVlFSTlLaWh3TkZUdmQyRUMzeEZ1djlrWUUzX0lKcjJuYm1oaVRIT3IwaXdXSVJrMm5iMV9rUDBiSzZPenNJV2NIXzZL?oc=5": {
       "actor": "Yale Journal on Regulation",
       "confidence": 0.98,
@@ -7673,6 +7803,16 @@
       "primary_source_url": "The Maine Wire",
       "rationale": "Corroborating report of the same executive petition to revive mail-in voting restrictions. Describes the same administration action as item [0]. The framing of 'revive' suggests a prior order was blocked, which is consistent with item [2]. This is a real, documented attempt at executive action on electoral policy that bypasses legislative process.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMTA0U1IxbFlkZ3p0SERJdFd6UFRMN2EwZTl1SUg4eE82Vmxha25kWFB0SUNTQnQyZzRvaTFRdXJ5S3ZPU2VGSDJPMXg4cXFiUGxTbzRtUE44alprMTRnYkI1ODFmSEpoOFNNR3c4SGg2ZlpKUVNmdWMzUnFkbHhPdGZ4dlV1cXpVcl9XZjRQTnVibVZHeV9IbkFGUGo2XzU1elVfVWlLUzBCZWJGQXktUFd3Y0pKX2l5OFl5Si1sbW1Zc2o4QkE?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a hypothetical analysis piece about a future midterm election result. It does not report on an actual event that has occurred, but rather speculates on what might happen in a future scenario. No verifiable executive bypass or legislative action is documented.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLXZrc0s4bkJMdjBJZVhlQk8yT05BVEZiWkYtYXlKV09Db29hTW55M0R2SnJfTEloODE5c0RYUWFnQURBRU5iNVRRMjMzNnFqZExQanhWbkFXcXRfNGZKNUdCdS1UemVPQmxLb1ZFV3lzRFJQbll1dmN4NVpBdDNoQ0toUjVkaTFlbGp4MGRuWm96NWR0TF9sYVNWU3E5dzNnMzdrRXI2NG9aalgxVnBzQjR3UzVWbDFPZDRLczU2eWFsUHN0anBF?oc=5": {
       "actor": "Trump",
@@ -8308,6 +8448,16 @@
       "rationale": "This item concerns a Ukrainian court case (\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430 is a Ukrainian legal publication) involving a doctor's travel restriction and compensation award. It is not a U.S. domestic event and contains no reference to martial law, military governance, or constitutional stress in the United States. The signal explicitly targets U.S. constitutional risk.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQldTd2lZcklLM3F5OHpYN2VfaTQ1ZlBULS1UVmdqaXlESUtsQkJfN1NnSkwycVZOZmZTQzlxbXlROG5lQndIODNYd1JqM0hVWjJ3MkpiWU5WRGtiTlN6U0FfcWxiUWFIcHlBSDhLbGw3clNUd1F2Z1p3YzN1X2xoN0M4dnhYcnh0aDJ6MnRZQjI3ZnhTeWFpR3pjSHV3U2tJTkhnSGV1NzBzeFpHYW1jRkRXT1cxajYwTGRaTmRRTlhFUmZIQ1pESlg2VnJ6dmdkZjRHdTNOX0xydnBmLU5FVEw0UE5BNVIyc3FwTGlsWXhQd0Z3azdRaHBB?oc=5": {
+      "actor": "Ukrainian Armed Forces",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This article concerns Ukraine and discusses discharge provisions for military spouses during Ukraine's martial law. It is neither a U.S. domestic event nor evidence of U.S. military governance rhetoric or policy. The signal monitors U.S. constitutional risks, not other nations' martial law regimes.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQOUNfTldTZkxNeWdlNW40QXJSYTZyY012ZVJSSUZxWkVhU2J4d0F2X0lmTGI5VlVMZGNLLVhyVlpiYWktMzdxeUVxdGJRcXRQek95RXJSaUZOOGxQTXhQREZjY0thc3dRMFpZa3FfeXBqQ21YTDJJRmxVdUhHeldmeHhXZi1XVlQ0ejRQNk1abXh0YkR6Y0VhSnlNWVBVQ0k4b3FxUjJZWVdDa0J6c0p3OUIxOTl2RjM1UURMMjJncEFxdEg2d3B4cG96QmQyTThzblF0RjhXWUlQVjNzUmdTVWc0d2RhZWxDY05UbUMzLUJ4MURLWFJzZHg1WQ?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -8746,6 +8896,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Ukrainian case concerning military conscription and medical review. Not a U.S. domestic event and does not evidence martial law or military governance language in the U.S.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxPa2xuSjNXVmZYM2ZrdzlqSFV2SXdYVzZyWmNzeUhIQm1TZHI3VVBBWi1JQmg5UXlPN2xlanFMMjM3MEpCeHNIM0ZDLWY3NHRoc1Byd3ptRmhOT2tEWjNFYmtrb2lULTMya1dDOWZiOHpFcmJ5VDJXcXV6SGo2V2pCNGRGclRWbUlWZFVNQ1o4V1hKYVpxSGJVOWpZUzhRRHY0U3c?oc=5": {
+      "actor": "Polish government",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This article concerns Poland, not the United States. The signal is designed to detect martial law or military governance rhetoric/policy in the U.S. domestic context. A non-U.S. event, regardless of its substance, is not evidence of a U.S. constitutional-stress signal.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZlQ5LV9fWUtiVUJpWG9SQkJMYk1WNmlHZUVnMzBsSzlkcG1hSDNZQURBZDVGSloxN0NBMXRrXzRmUHU2OHRvbzFFLUpxN1I2dzBSUm1QSURCWE9FRGdmY3pJNVFqdzRac29Gc0dITDdBcEJEX1UyUnpsY0ZXaVZlY3kzcDZ3MmVMVzg4QVZoaFRaSE04N2hVX0g4elNqa3MxYzBz?oc=5": {
@@ -9772,6 +9932,16 @@
       "rationale": "This item concerns a Nigerian legal dispute involving a Supreme Court ruling, INEC (Nigerian Electoral Commission), and the ZLP judgment. It is not a U.S. domestic event and is outside the scope of the Opposition Ballot Exclusion signal for the U.S.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbE5qdEl0V3J5Z0tLYy1XeHlsMUlFbUZCVUltVURZaHRHb3VMTWNUVFRKMXRSZGVmVElTOHExZUktY05FUDc3dVR6UEdhdFpvbUJYN0lpV1ZtM0dmRlZRS2hVbXQ4Ynh6UGlFT1hVYmFkTlc4b0s3TGg5YmVmbEw4OWdDTmJZX3lKaHRBRg?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns a Nigerian court ruling affecting Nigerian electoral candidacy. It is not U.S. domestic and does not constitute evidence of the specified U.S. constitutional signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGhPYVJraVZycDdTbGd4QklKZWM3SlowLWNsR0dKVXlvOXVkWkNMdkxFQmlnSkJ5dFZaWFJfRVY3eDdZNHpzUTdsekY3RUtPQWphcWd1em9Odi1idEx2bERGNEpLYmFXTTNmQ2Z1dFJpSkxnX0dZNEVYYXZaTmg5UXJsMnJVM1BMNnJUcw?oc=5": {
       "actor": "Honolulu City Clerk",
       "confidence": 0.72,
@@ -9912,6 +10082,16 @@
       "rationale": "This item concerns Finland's response to Russian demands regarding election protests at a Russian embassy. It is not a U.S. domestic event and does not involve systematic removal of opposition candidates from U.S. ballot access. The event is geographically and substantively outside the scope of the signal, which targets opposition-ballot exclusion in the United States.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxNY0NGOFMzUTF6TXhzSG5CclVtUGpuVWJsWkhaLWo2UmkzWjVpcFRTZ1dXZmZ0a1d2OXZSM1JnOEJaczRIc0JaS1NMYkdNUDFJcFpHZDk0WkhpT2VjQ2RGZ2FUcmtEQkJ2QlhrSjdsR0JkSlhFTXR2alNMb1lsRGE4bzJxeFl1QjFGTkUtNzZoQ3RtdDZkV254YUdTY3Z2QQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports a Nigerian court decision regarding a Nigerian presidential election. The signal measures opposition ballot exclusion in the United States. This is a non-U.S. event and therefore not evidence of U.S. constitutional stress.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ19ZYndCeXFEclhrX3FmWWI5WDlKMXh0TFpVZTNnMi1MSDhhT2FydVVqcjlVVEtaZGpVbFBQaUQtWWphclZUUUwzaUFPTVBnRVVUNmxaVzhkcjZDRUthVVVnSEJVWTZXR1RmNEZCQU9fRVVkYUxDejR5MlFmOXB6QV9zVExFakw2NE5kcE82cDJtcjVKR1gxOFBYVklNdw?oc=5": {
       "actor": "INEC (Nigerian Independent National Electoral Commission)",
       "confidence": 0.99,
@@ -9930,6 +10110,26 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item reports on Israel's electoral process, not the United States. The signal applies only to U.S. constitutional risk. This is a non-U.S. event and therefore out of scope.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaWVZVTZNWjB0NjMwRTJEZ2JWZll6aUd1UWZrUjRPc0xQUTVrd0tPLVV5SVBuVW9XWExFZGsxZmlYOWxybEc2M2Vkc2NNSW1ySWpENkNZQzFKUUZoblJNeDV4Qkt3amxSNURnelJsUlZ5djRoR3dybDJOVHZBQU1YNzVGOVJ3NWFlTzdFN2MxSnRtRmJVQkJQYll1dHFDVDQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item discusses Nigerian electoral politics and speculation about candidate scenarios in Nigeria. It is not a U.S. event and provides no evidence of U.S. opposition ballot exclusion.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUzl4T2NRLVR1MDROZHM1UkNjZ2hoSlNtT2RDUWR0aHptQnh4WFBzUFoweWpRWWZISmNNZUdWRUVYdTJzOHAwaTFia1ZDMm0tamZEV0tTb055NmtUc0MzMEVfbGwyblBVNzZkYmhjUWEySGdROGU2b3VBRkNjbnR4RGVmS082TnJzV19UMTI1YUo5TldYbGdaYkZtLVZfSzA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item discusses Nigerian electoral politics and speculation about effects on Nigerian political figures. It is not a U.S. event and provides no evidence of U.S. opposition ballot exclusion.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ1VwYzV5MTZaV1hGR002RG41TzVTWUlfaHV6eVEzem91X2dVbTFNRUtZOFk5dFpaTWhWZi1lekFycEo4MTh5QWRYcEVrV0hVempTQjE2WTNVdVNKSGJDdURpZVBlZTdCb3Y4X2p4b0ZKNkF1eEJKUEloMXA4aU1aTkpqbGZrM2hvdXZxWUpNUHdpYml5c3d5ZFo4M292V2Rz?oc=5": {
@@ -10612,6 +10812,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item URL and metadata (\u0418\u0424\u0417 \u0420\u0410\u041d - Russian Academy of Sciences institution) indicate this is a non-U.S. source or possibly a misfiled/corrupted entry. The title fragment is truncated and unintelligible. No credible U.S. domestic event can be identified from this entry. Even if it referred to U.S. protest policing, the source attribution and garbled presentation make it impossible to verify as a real occurrence. Treated as non-U.S. and irrelevant to the signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVnZIZU5sQU5tYnJLTnBoNWR5MTRVZ0tQMUxkLWtOTFNBdnQxMEZVLU03QXZaRHlqMGRiUUNJdjF3R29CTGswT0FvN2FjVHpLZkwxV0ZQb3FrbHMxSEh6RnVHUlBEUDY3MFZLczlPclNsTE1odXA0QVF3TEZNMUozdTRsTE45NGR3ZWlWZmF2MzhLVmxVdHc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Joshua Wong and Hong Kong, not the United States. The signal requests evidence of political speech criminalization or surveillance expansion in the U.S. domestic context. Although the Hong Kong case may involve suppression of dissent, it falls outside the geographic scope of this dashboard, which monitors U.S. constitutional risk. Non-U.S. events, regardless of their severity elsewhere, are not material to this assessment.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOHh3eWpNYVhKM3RWVnBwbUdYLXdod0ZVaE9IaU9UN1k1NEFhNG4xVmR4UldzZjhuSjVoMHVudFFRcUFfZkM1d0FXZ0VCUkN6dU1LaFRRaXItV3I0YV8zZGtVVUVtVmZGdEhza3g0cWQ4aGo1ckk3UlFDV1N4QkplVmd0ZTBmeUg3UXJRN3RsRVNmVXVCZnNWVA?oc=5": {
@@ -11348,6 +11558,16 @@
       "rationale": "Item concerns Bangladesh media policy development, not a U.S. event. Outside scope of U.S. constitutional-risk dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd3BudGdCTm5SYl8xd0ZjamFJREdJV2pkS1lIcU41cTJkc053OXQ4ZXhpNFVFNTd3UXVUSTkyQkFJOEJ0Y2xUT3c3Y0VKNDB4c0taaWpjbGYwT2x5TVpKR3Y3NDZxclI2Tzg5cnBWNXgyZFN2QVdrbldXSXpBWE1iUE80cVhuc3ZTM1VDWmJR?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item originates from Journalism Pakistan and addresses conditions faced by journalists in Pakistan, not the United States. The signal under evaluation is U.S. press restrictions or retaliation. Non-U.S. events are excluded from scoring as U.S. constitutional-risk evidence.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaVVISjFFTnN0Y2xkWWFtTExaU1dEOFJPc2o2QTlSQmlCYkpfYWtsa1lTUnMtMm5mbWR4RnVVZEZBZXgwZnBzdWlCakNlSmdkT2hhdTJmMlZLNmNvN21hb3pxRk85Z0dpSk1xOW5RNi11UW9DTFJvZVY2NlJGbDBiVTNMQmtaekctVVNrdVQxMA?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -11786,6 +12006,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item is from a Kenya-based source (streamlinefeed.co.ke) and appears to be philosophical commentary on press freedom under threat globally, not reporting on a specific U.S. state action. No verifiable U.S. domestic event is documented.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQanBETFN2ek9qb2hSYWZ1cUxSdkc1U0ROb0llMWEwSU5mSHNWOXdPdkR0cS1hS1JlTXZPMFlrQkpYc0h1b19uTVdYUG1kQ0NaZEJSQk5EOXVpQXU0OW9Ybk9mOFMwamFuWHllRU5saW1BY2NSNTcxaWNIMmRPVVlWVVU5aUgxS0lEaWtZYUdGMWdFSlNNdTNRdk1pRE9ycFnSAZ8BQVVfeXFMUGpwRExTdnpPam9oUmFmdXFMUnZHNVNETm9JZTFhMElOZkhzVjl3T3ZEdHEtYUtSZU12TzBZa0JKWHNIdW9fbk1XWFBtZENDWmRCUkJORDl1aUF1NDlvWG5PZjhTMGphblh5ZUVObGltQWNjUjU3MWljSDJkT1VZVlVVOWlIMUtJRGlrWWFHRjFnRUpTTXUzUXZNaURPcnBZ?oc=5": {
+      "actor": "Committee to Protect Journalists",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an advocacy statement calling for Congress to protect press freedom. It expresses a concern or recommendation about what Congress 'must' do, but does not report that any actual state action restricting press freedom or raising costs/legal risk for reporting has occurred. It is hortatory, not evidentiary of a realized event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiogFBVV95cUxNM0wtcGQyY0dvY3pBMmRSNEd2ZXNpcmx5T2tRcGJDaEN4WUt6amxvTHg1ZFJtSXpNeUpILVJCNlRtVkY2RkN6aS1hYXdGQ3E4RWxRdWFudm90U3Q2REloU1pZbHlTaVV3VlFOcXVFR01mbFFicldTc2poTExxV2RtQUYtajk2em4zZGMwdnBscWxET2VuZnVJNnUwSzItU3FrZ0E?oc=5": {
@@ -15526,6 +15756,66 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22639/60-day-notice-of-proposed-information-collection-cyber-incident-reporting-requirements",
       "rationale": "This is a routine Paperwork Reduction Act notice for a proposed information collection on cyber incident reporting. It is a standard administrative request for OMB approval and public comment, not evidence of political interference with statistical agencies (BLS, BEA, Census Bureau) or their data integrity. The item does not involve removal of leadership, methodology changes outside normal notice, or suspended/delayed data releases. It is outside the scope of the signal entirely.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/06/2026-22693/notice-of-maximum-amount-of-assistance-under-the-individuals-and-households-program": {
+      "actor": "Federal Emergency Management Agency",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22693/notice-of-maximum-amount-of-assistance-under-the-individuals-and-households-program",
+      "rationale": "This is a routine FEMA notice announcing the maximum assistance amount under the Individuals and Households Program for disasters declared after October 1, 2026. It is a standard administrative notice unrelated to federal statistical agencies or economic data integrity.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/06/2026-22694/notice-of-adjustment-of-statewide-per-capita-impact-indicator": {
+      "actor": "Federal Emergency Management Agency",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22694/notice-of-adjustment-of-statewide-per-capita-impact-indicator",
+      "rationale": "This is a routine FEMA notice adjusting the statewide per capita impact indicator for disaster assistance. It is a standard administrative adjustment unrelated to statistical agency integrity, economic data production, or interference with BLS, BEA, or Census Bureau operations.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/06/2026-22696/notice-of-adjustment-of-disaster-grant-amounts": {
+      "actor": "Federal Emergency Management Agency",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22696/notice-of-adjustment-of-disaster-grant-amounts",
+      "rationale": "This is a routine FEMA notice adjusting disaster grant thresholds effective after October 1, 2026. It concerns disaster assistance policy and does not relate to the integrity, methodology, or data release practices of federal statistical agencies.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/06/2026-22697/notice-of-adjustment-of-minimum-project-worksheet-amount": {
+      "actor": "Federal Emergency Management Agency",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22697/notice-of-adjustment-of-minimum-project-worksheet-amount",
+      "rationale": "This is a routine FEMA notice adjusting disaster assistance thresholds. It is a standard administrative notice unrelated to statistical agency integrity, data production by BLS/BEA/Census, or interference with economic data collection and release.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/06/2026-22735/heightened-requirements-for-foreign-importers-of-record": {
+      "actor": "U.S. Customs and Border Protection",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22735/heightened-requirements-for-foreign-importers-of-record",
+      "rationale": "This is a routine CBP regulation implementing an executive order on customs enforcement. It concerns import regulations and customs procedures, not interference with federal statistical agencies (BLS, BEA, Census Bureau) or their data production, methodology, or release practices.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment": {
+      "actor": "Centers for Medicare & Medicaid Services",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
+      "rationale": "This is a routine final rule revising Medicare payment systems and quality reporting standards. It falls within normal regulatory authority of CMS and does not involve interference with statistical agency integrity, methodology changes outside normal notice, or data withholding. The document concerns healthcare payment policy, not economic data production by BLS, BEA, or Census Bureau.",
       "severity": 0
     }
   }
