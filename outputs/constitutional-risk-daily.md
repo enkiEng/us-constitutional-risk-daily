@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-11-06 12:27:29 UTC
+- Generated: 2026-11-07 12:25:57 UTC
 - Methodology: **v2** (extraction: AI event extraction)
 - Score: **8 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-4.0**
-- Delta vs 7-day average: **-6.9**
+- Previous day delta: **0.0**
+- Delta vs 7-day average: **-6.1**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,12 +15,12 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.74 | 4.06 |
-| Judicial Independence and Rule of Law | 15 | 0.24 | 0.89 |
+| Elections and Transfer of Power | 22 | 0.56 | 3.09 |
+| Judicial Independence and Rule of Law | 15 | 0.15 | 0.56 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 0.52 | 1.68 |
+| Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
 | Civil Service and Agency Independence | 10 | 0.00 | 0.00 |
-| Civil Liberties and Information Environment | 10 | 0.65 | 1.62 |
+| Civil Liberties and Information Environment | 10 | 0.43 | 1.08 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -28,22 +28,27 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Election Administration Capture | elections_transfer | 1.65 (Watch) | ai | 0 | 11 |
-| Public Funds for Political Promotion | civil_liberties_information | 1.65 (Watch) | keyword | 0 | 0 |
-| Emergency Powers Expansion | executive_constraints | 1.30 (Watch) | ai | 3 | 1 |
-| Election Certification Interference | elections_transfer | 1.30 (Watch) | keyword | 0 | 0 |
-| Judicial Review Foreclosure | judiciary_rule_of_law | 0.95 (Watch) | keyword | 0 | 0 |
-| Legislative Bypass by Executive | executive_constraints | 0.25 (Green) | ai | 0 | 10 |
+| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | ai | 1 | 5 |
+| Election Administration Capture | elections_transfer | 1.30 (Watch) | ai | 0 | 6 |
+| Public Funds for Political Promotion | civil_liberties_information | 1.30 (Watch) | ai | 0 | 1 |
+| Emergency Powers Expansion | executive_constraints | 1.00 (Watch) | ai | 3 | 0 |
+| Election Certification Interference | elections_transfer | 0.95 (Watch) | keyword | 0 | 0 |
+| Judicial Review Foreclosure | judiciary_rule_of_law | 0.60 (Green) | ai | 0 | 1 |
 
 ## Evidence Samples
 
+### Legislative Bypass by Executive
+- Assessment: Multiple credible sources report that the Supreme Court allowed Trump to implement parts of a mail-in voting executive order. This represents a shift of voting-rule authority from statutory/legislative control to unilateral executive action via EO. The Court's allowance (likely through stay or injunction ruling) enabled executive implementation without requiring legislative authorization. This is a real, confirmed action that transfers governance authority from statute to executive fiat, but is narrowly scoped to mail-voting procedures rather than a broader structural dismantling. Severity 2 reflects this as a real, credible stress signal of limited scope, not yet structural failure.
+- [ABC News - Breaking News, Latest News and Videos] Supreme Court allows Trump to implement parts of his mail-in voting executive order - ABC News - Breaking News, Latest News and Videos (2026-11-06) - https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5
+
 ### Election Administration Capture
-- [Inside Higher Ed] Democrats’ Texas Takeover Could Reshape Boards and More - Inside Higher Ed (2026-11-04) - https://news.google.com/rss/articles/CBMixAFBVV95cUxQYlV6Mk43ZUFQSGRKdjZCUEVBVmRpbDg4VFlZM2RQRFJCM2JiRWlqWElpT0pKejIzQ3VHRE52LWhWTnJYb3dNeTJERHVOSVN2T280cWx6MHVlNHNCdEI3N2JHYkFQWjhyYkMyeUpwVWN0dnd3SUxXZ0pDRkQ0cENmU0hsekwyS1dubVdtcUhZbWpLajZ2NW5Qb09xdUtHU0dNLXVrajhKTkUxMzZ4bGhKaEdEWlVSU29YX1RrT3IwUjNONHhw?oc=5
-- [The Texas Tribune] How Texas K-12 education policy could change under Democrats - The Texas Tribune (2026-11-05) - https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSG45T1dUYlRmQXY2SkVMM0s0OVdGd1cya2I1TnM0QzdFMU1NNXFkUGhuLUc5Tjk1ZzFJb0NuTnR0ZTRWUDNVeHE1dHNLcEk5OTdzZkNRQmdNWm5oTW1fRFRGRFVOUzc3bGpTMVZ0RTN6MHdkVkxRZ3h5MXdiajBHamRhZm9JdHBsdEtXX2RfUlBkcU1hNmotTmFkV0FDLXN6UzlPa3Q1cU1FTUdiOU5xNFZkdmhWYVh4RU9DclNNVDhJYzFpeWkxWmpLQWVRUGo0aEtDNA?oc=5
-- [Le Monde.fr] 2026 US midterms: What can the Democrats now do against Trump? And more questions from readers - Le Monde.fr (2026-11-04) - https://news.google.com/rss/articles/CBMi-gFBVV95cUxNa0tfT2lUZ3R2SF8xODU5dmhqNkZ1eDdXc0NZZW92aFdaSXFFRzA3eWRzV05Rb0k4VkEyODlvWlJ6M0JVdGpmZW1rNzkzQ3QteUFxS0lzRXJXTHd2NUVodXNSOFR1VWNtaHB5MllWd3ZjTllzUDJEUDlDTHJ1MFBKRVRvYTdhYkkwR1RpWnJNNTFGUUdzdi03MWhiakpKRzlpUENDSjYtelB6SUlFQ3lJWDFuNVFFTjBLOHVHMk14V3FtdHpzSnpGWUdDR182OUxZSWhzWk0zZUtZSDVyS0ZBWUVBTG1vQXJoSXZWYldhWk1vdG5kZnhqekZ3?oc=5
+- [The Texas Tribune] State-appointed managers in Texas takeover school districts brace for imminent removal - The Texas Tribune (2026-11-06) - https://news.google.com/rss/articles/CBMilwFBVV95cUxPbWo3aTBQVUFXRkVCcjhpLVZmamF4VkN5b05jTFBXQXhralRTdDI4cnFvUDBNMGM3WkFBbWpTclFjR2JYZURZdHB2UWpsOVo1Zm5xSDU1aDVnaGd4RTB1YWVkLVV2LXVpT0g1ZGJUeGVkNkpGeFRkMDYyZHFOYlR0aDJudWJxcDlBVG9WenRxeVNSWmJxb0tV?oc=5
+- [ABC News - Breaking News, Latest News and Videos] FBI seizes 2020 ballots in Georgia in apparently unprecedented action, alarming local officials - ABC News - Breaking News, Latest News and Videos (2026-11-06) - https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVE1NWTlMSlBNNkU3NzBTUmV6UEtIYV9EdUtfdFJ1dWdyendCdUk2Rk94ZW81Zkw0QWFEMml6aGdwcFg4TWZOMV9xelBCU1VJMXhpcHZlTHcyQlZjX3V0dUR2NWNtRGJvZVdNeW9Lbk1aM2hHVy1zNFotWG1HSFVGeksxWkoxOHVDQ1hTTUxFN0d1S2ZzbUZjVWpRMXB1S1VNRjQ0dHpMOWFWX0U?oc=5
+- [13WHAM-TV] 'Deportations will continue': DHS shares reminder as Democrats set to take over Congress - 13WHAM-TV (2026-11-05) - https://news.google.com/rss/articles/CBMiwANBVV95cUxPbTdSeDYtb0ZON2NqRzBMdmJrSXZ6X216QzhtbXNWYmFNbEhRMHRndW5UOEZEdDVMeC1fVGtBaTNnTXQ5RW51WUllbzVtSVEtOHBUUnlqYnNrOFRyZkFvRHU0bTRGNjRieEE4c0xlYnBlQzdPbnFZdV92UWZmdWdwcllPNVg1MlRac1BLdkN5akxBUUxqMmJ5TENFczJmLUU2U1JnaV9TQWtOUzJSTXpXTnlpcHB5M1VmUF9Oamp3RzJuTjdtbXRETWJ5TjFWakc3MV9wUmUwNlJzUWZBWkgydDVoN3VkQTNBeDFQMURKUEdvU1k4aDZJZlRVUi1sMEhkNWNtcWk2SUdfY0ZmRjNGd3dNQ2ZjeUFGSk95NXdfWEpSTUdCaURHZ001d19od1ZVYlJxUVJIb0xnMkdxYjR4UE5PenVlRGphMmIxYzlXRFh4NmhoSzd0VFlaYzNlLUNiUmlqaDdkWEt0TmxDRWxTYi1icGd3THdtMHMtTUJlUnp5ZUtXdzZSUGh4ODVyTFRaejlTaHpPMVpkaGlWTVZIZWhaNzVNS0FZWVVkTWIzdXl6SWNwazJnQXJOclJYZDNS?oc=5
 
 ### Public Funds for Political Promotion
-- No fresh evidence links in the current lookback window.
+- [GLAAD] Trump Accountability Tracker - GLAAD (2026-11-05) - https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DclMwQURIODFrXzE3cXFrS0IzOUFvdkFOVmRuX01SaFBMNk5rWHQ2TzlKN190V0xmR29YTnFuLV9KREZtTGdzQWYtUktvRHpkSllfbGkweEtsNUk?oc=5
+
 ### Emergency Powers Expansion
 - Assessment: This is a continuation of an existing declared national emergency under the National Emergencies Act (NEA). Continuation of a previously declared emergency is a routine executive action that renews authorities already granted by Congress through the NEA framework. While the NEA does permit emergency powers to bypass ordinary rulemaking, continuation documents are ministerial renewals of standing authorizations, not new expansions. The underlying emergency was declared in an earlier year; this 2026 continuation represents ongoing use of existing delegated authority rather than a novel expansion. Severity is low because continuation is the ordinary operation of a congressionally-authorized framework, not a structural bypass of legislative process.
 - [federalregister.gov] **[official record]** Continuation of the National Emergency With Respect to the Threat From Securities Investments That Finance Certain Companies of the People's Republic of China (2026-11-05) - https://www.federalregister.gov/documents/2026/11/05/2026-22688/continuation-of-the-national-emergency-with-respect-to-the-threat-from-securities-investments-that
@@ -51,8 +56,6 @@
 - [federalregister.gov] **[official record]** Continuation of the National Emergency With Respect to Iran (2026-11-05) - https://www.federalregister.gov/documents/2026/11/05/2026-22685/continuation-of-the-national-emergency-with-respect-to-iran
 
 ### Election Certification Interference
-- No fresh evidence links in the current lookback window.
-### Judicial Review Foreclosure
 - No fresh evidence links in the current lookback window.
 ## Data Quality
 
@@ -62,7 +65,7 @@
 - Primary-source lookups: 22 signals, 10 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 3
 - Evidence extraction: AI event extraction
-- Confidence: **High**
+- Confidence: **Medium**
 - Fetch errors:
   - election_certification_interference: courtlistener: HTTP Error 401: Unauthorized
   - election_delay_or_cancellation: courtlistener: HTTP Error 401: Unauthorized

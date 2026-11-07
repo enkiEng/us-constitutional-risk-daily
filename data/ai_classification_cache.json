@@ -182,6 +182,16 @@
     }
   },
   "civil_service_purge_schedule_f": {
+    "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNREQ2MUtXR2ZRcEotZTBTM2VmUHFNR0NNYnQ3ZDIzSGctVzc3enFIbWVNMkNMOFdzLXR1Ni1fT2lvVlE4ZTJ1NVBVOGNwTXZCNk5ic3ZIREhvRXFrb1NBc3ZZN1JxcVJSYW9zYUVCQWh0a1RXT3ZlYjdrc2FOOHE2Vm1OVGhTVmJUWHl4VjQ3YXMwbW5MTzhmTWdUVURoenZVU0RzLUVFRlJGd3dCXzJMbTJBMzd3ZjBrNUtYVDM5TUZ6T1NnVG5NS3p2dVp5TGxmeGxRbW5rRjBfdjRnT2I3UE9ZcVh4cFRENjg4SEJDUExwdFpMUFlKZlRB?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is a headline/title only with no substantive content provided. It appears to be a news article headline from a local outlet discussing Trump and bureaucracy in general terms ('Battles the Bureaucracy'). Without the actual article text, it is impossible to determine whether this reports a specific, verified occurrence of Schedule F implementation, civil service reclassification, or related action. A headline alone\u2014especially one using vague language like 'Battles'\u2014is insufficient to establish that a concrete constitutional-stress event has occurred. This reads as opinion/commentary framing rather than documentation of a specific action taken. The date (2026-11-06) is also in the future from the knowledge cutoff, which raises additional questions about the item's authenticity or status.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSFJ4Q21lM0FNa28xNEtfa0k5WUM5U2c4a3dtZUpxbXpEQzdUNW55QUUyUlJ3WGhIVF9lRXRqdVdhRV95c3YwdXczOHhwelF2NlpoR2NEWmFaSFFlbURST2xjM0NFRlU3UVFTVFBOcVhIeC1kQWpEN1RBd09qdGZEQkdkSW8xaWVhZmxJNlRTUURSSTVia0otV1lJTXFmQWpzMWhIN2lIUG1TWDBBNXh6VjVMcEQ5Q0ZEVnUxSkd0UHZ2QkVGV081NzBiUUtELXE4OWt5VEZWUDRzUFU?oc=5": {
       "actor": "Trump administration / Democratic Congress",
       "confidence": 0.95,
@@ -2096,6 +2106,16 @@
       "rationale": "This headline describes an alleged secret effort to influence ballot composition in Alaska. Even if true, this is a campaign strategy allegation, not evidence that election administration itself has been captured by partisan control or moved from neutral process to partisan hands. Ballot composition disputes are separate from administrative capture. The framing suggests the article reports allegations rather than confirmed administrative takeover.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbWo3aTBQVUFXRkVCcjhpLVZmamF4VkN5b05jTFBXQXhralRTdDI4cnFvUDBNMGM3WkFBbWpTclFjR2JYZURZdHB2UWpsOVo1Zm5xSDU1aDVnaGd4RTB1YWVkLVV2LXVpT0g1ZGJUeGVkNkpGeFRkMDYyZHFOYlR0aDJudWJxcDlBVG9WenRxeVNSWmJxb0tV?oc=5": {
+      "actor": "Texas state government",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Article concerns state management of school districts, which is unrelated to election administration. Not evidence of partisan capture of election systems.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNUp5aUkxSm1HS3VPSUNBU3pPTDZMV1hDNFJiY3d5blR5Ny0zYldrM3kxX1VDR2J4M0FvRUdCdnZDMUJCVENEcHN5RkdBM0doQ3JXMl85YTgwdHB3TW1ndjhSYXZDeGhFVFBPWm9GVWxjYkZiTThxajFOaS10SWlCTTlVMkprcmVHLTUyZTdnVzJ0elJRUXNLSg?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -2155,6 +2175,16 @@
       "primary_source_url": "",
       "rationale": "Item reports an alleged violation of open meetings law by the SC Election Commission. While this represents a procedural failure in election administration, a violation of open meetings procedures does not constitute movement of election administration toward partisan control. Open meetings violations are administrative/procedural failures affecting transparency, not evidence of capture by partisan actors. The allegation is from ACLU and appears credible as a real occurrence, but does not match the specific signal of partisan capture of election administration. Severity remains low because the violation itself, even if confirmed, addresses process transparency rather than partisan takeover.",
       "severity": 1
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWWhiNzhoMDRJbDc5b0pibi04TExZSjcydW1hTjE2bWllVEFSR3R1ZV85dHBpbkE1T1BKaVF3TlR0eXR6NFlZalRubHo2UEp1SVJkSDlBaGdjNWFqRjE5UE9vOS02Y1VOd2JjN2tCU1lkV2w4MEJ0c3V6ajUzOFNLT09GM2JDaER4bzdBenk2R2EyYzV4NXNnU0NiTUk?oc=5": {
+      "actor": "Texas Democrats and Governor Abbott",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Article is framed as a question about policy reversal ('Can Texas Democrats...'), indicating it is prospective commentary or analysis rather than a report of accomplished partisan capture of election administration. No evidence of actual election-administration takeover.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0pMUHB4Z1Z0SF82c0V0NDVuemRoUEM3ZVNKeWUxdXppTzV1U0pHWlNjN3R3T1BqNUdTTjB1akUzZnR2ajFIZDlOLWg3WGp1M3lTbm45N0cza0RVZlZSMzZIYWxkU2N2RUJwQWhsbnlxR0tkWjVBek9WOGtGanFCN3ZmRkptbEZXSi1uTDVvNDBwalBENzVqNGhzTTlxdw?oc=5": {
       "actor": "Georgia State Election Board",
@@ -2365,6 +2395,16 @@
       "primary_source_url": "https://abcnews.go.com",
       "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVE1NWTlMSlBNNkU3NzBTUmV6UEtIYV9EdUtfdFJ1dWdyendCdUk2Rk94ZW81Zkw0QWFEMml6aGdwcFg4TWZOMV9xelBCU1VJMXhpcHZlTHcyQlZjX3V0dUR2NWNtRGJvZVdNeW9Lbk1aM2hHVy1zNFotWG1HSFVGeksxWkoxOHVDQ1hTTUxFN0d1S2ZzbUZjVWpRMXB1S1VNRjQ0dHpMOWFWX0U?oc=5": {
+      "actor": "FBI",
+      "confidence": 0.8,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "FBI seizure of 2020 ballots in Georgia is a real action by a federal law-enforcement agency, but seizure of old ballots for investigative purposes does not constitute partisan capture of election administration. The signal requires election administration to move to partisan control of ongoing processes, not federal investigations into past elections. This is a weak or tangential signal at best.",
+      "severity": 1
     },
     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbWFKOS1yS2tIa1JCdHJKMTk3M2lJSktFQld3MExFVF9LaWY0TFhibGlUazV5OWpaNlc2RVpmbWJDM0djTzk2Z0t5QTNPWmlvOU9pR2tTaFg5SnpPaThNRGtIWlZOOWFRVGl0SEJyVkU2cHFNdWllWjkzeHhNVF8zTmo5NndZUXFiQTcwZlVuemZGdUVpZldXZU9xQUFQQmpQZHBUaXJwWGdjWXc?oc=5": {
       "actor": "State officials",
@@ -2744,6 +2784,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is opinion/analysis comparing past rhetoric with current capacity to act. It is commentary on the significance and potential implications of Trump's historical claims and present power, not a report of an actual event in which election administration has been captured. The headline itself frames this as analysis ('isn't new. His ability to act...is'), not as confirmation of action taken.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiwANBVV95cUxPbTdSeDYtb0ZON2NqRzBMdmJrSXZ6X216QzhtbXNWYmFNbEhRMHRndW5UOEZEdDVMeC1fVGtBaTNnTXQ5RW51WUllbzVtSVEtOHBUUnlqYnNrOFRyZkFvRHU0bTRGNjRieEE4c0xlYnBlQzdPbnFZdV92UWZmdWdwcllPNVg1MlRac1BLdkN5akxBUUxqMmJ5TENFczJmLUU2U1JnaV9TQWtOUzJSTXpXTnlpcHB5M1VmUF9Oamp3RzJuTjdtbXRETWJ5TjFWakc3MV9wUmUwNlJzUWZBWkgydDVoN3VkQTNBeDFQMURKUEdvU1k4aDZJZlRVUi1sMEhkNWNtcWk2SUdfY0ZmRjNGd3dNQ2ZjeUFGSk95NXdfWEpSTUdCaURHZ001d19od1ZVYlJxUVJIb0xnMkdxYjR4UE5PenVlRGphMmIxYzlXRFh4NmhoSzd0VFlaYzNlLUNiUmlqaDdkWEt0TmxDRWxTYi1icGd3THdtMHMtTUJlUnp5ZUtXdzZSUGh4ODVyTFRaejlTaHpPMVpkaGlWTVZIZWhaNzVNS0FZWVVkTWIzdXl6SWNwazJnQXJOclJYZDNS?oc=5": {
+      "actor": "DHS",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item concerns immigration enforcement policy and congressional transitions, not election administration. Unrelated to the signal of election-administration capture.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMVhPSk1PSG82Y19wUkl3Z1Zzenp5Wm1Ua1loN2RrRGYycXZTTDRjV053V29IbDQxejR0N0V1bHk3bEF2Z0RaRnJ4SUxsOHU1RndfbHIySGlJVk03bC1NeGN6SWFJQndaTlA5eWh2blY2VnN3a0ZsZFhoVzVpNjRSTFdOcVBROFlCdE10VG1jQkhjaDl1M3Y3UFVBaWh6WFFOSlhMNlVNSXZ2OXJIMG9BNUNsVXBQenZDeFZNWTI0N0o2dTg?oc=5": {
@@ -6594,6 +6644,16 @@
       "rationale": "This is an opinion or advocacy piece from a partisan policy organization alleging that the Trump Administration is interfering in elections and entrenching executive power. The framing as 'interfering' and 'entrench[ing]' the presidency suggests criticism of executive overreach, but the item itself is advocacy rather than reporting of a verifiable, concrete action. No specific legislative bypass or executive order is detailed; this is accusation and interpretation, not evidence of an event.",
       "severity": 1
     },
+    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONlpBbmRoT2Qydll0ZEg0WVVSMzdYc2dCZ1pVcTNpX2JpUWhHN095WEpfbEhPTkE1N0xKenVVUjVGMG9JTF90WjFycF9oajNtTHhqblo3MFp5UzVGUzBOSzRGV2JzN2t3R0pSNnVXLVo5bUNjaF80dmgxSFJCeUlfNzNSRURqVW1HblBiLUJDMjctRnBPMUhrYVc2U1MwREQ4V01rNUFwSUViRWpBUVhxcW1ZTU1VblF0bEtvT0dUQmlSS0lCem9aX2xiUmFFTm9zZUlPQTNudE9PMnFGZVBfOTlvdlI?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a foreign news outlet's opinion piece analyzing Trump's foreign policy posture. It is analysis and commentary, not evidence of an actual legislative bypass or shift of governance to unilateral executive action. No verifiable event of constitutional stress is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN05aTXhjTzVhQXd6ZFM0TzF1WTZTRm5UUS0yalhmZFJsNGNJcjJOV29hVjV5UmdxalEtS2RWblN4ZEhfSFRUa3FlTU93ZzdrVDgxVFNHdTBMeUlncVI1eW9pbVIxTjg5MUQwdmdfZjRPeGNjSVREZ2JFVl9ydUpNa2ZEY3ZHeWZvcUtsaFZaY2d3dWc1aXRwcWdzTVc0SmRudThsZ3duYkp0aHNVc1U4YW5nNHpzMm0zVy02WFQ3dzRhSWszOEhleWRhY3NWbEdfbzNvUUxNWDFOTmRwdWcxZmVzbWM?oc=5": {
       "actor": "Unknown/Opinion writer",
       "confidence": 0.95,
@@ -7064,6 +7124,16 @@
       "rationale": "Substack post (independent punditry/opinion platform) alleging the White House has spent months preparing a plan to bypass lawmakers in a contingent scenario (if Republicans lose midterms). This is a claim about internal planning and conditional strategy, not documentation of an actual executive action, legal instrument, or authority transfer. No official record provided. Prospective or conditional planning does not constitute event occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZmtBVVV6YktGMDUweTB6YURERENCWUoyY0VKalUxd0VJc19PY2ppdENlTnIyV0sxQ1NUd1BjNE9QRTYxU3U2OFpTTmFNZXMyanlBVzM0ZFhoV3BTcElZM2dnWG9xTkx1M0JVZ0VsTDRlaU9rU05pa1BpQlhCMkk1bDczZUg0LUVTMnc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This appears to be a non-U.S. publication analyzing comparative governance structures, not a report of an actual U.S. constitutional event. The signal explicitly requires U.S. domestic occurrence.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVmUtdFlORVRBQUtDZGZkX0xPWUdmd2t1d3U2aXU5Nk1QXzJsbnlmZlZBMlVHTUcwN0p5d0ZUNF8tRWxXQlhFMmV0MzVyRTBJbkpHOTJQNXRjZWUtRzZlLTZvUElJZWlVNU14R0dkRFAtSWY0QlpGV0tPbHgxMW5UakRldWdHcE9uMkw0?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -7392,6 +7462,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Analytical piece asking what would change if Democrats win Congress. This is hypothetical/speculative analysis, not evidence of an actual event. No bypass of legislative authority has occurred.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinwJBVV95cUxOMjFVWU9RYy1sYmFHNGszamxsMzhjdkx3VUNsMldCakY3dkF6Q280Tjh3ZzBPSEZXTjdiYzRneldWTHd1YklGS3F0R2tnSXZTaFBNMlZ1NmNsYWtNWDZDRzcwS1hzMDhfNV9zSjBxRHY5ZVNOUTlFUElCaFg3U0xrbzgydnM2VFFvWmRiQ280WENPenU3aTlISHNZMFZDTXhXRTBjMEprN01WVndDeUlFNlVTSWNVM1UxQkZTcTRDZlJQS1V2b3hfVzE2dWd3SFN6NzVub0FIMkhsWGlmYXNBY2hDN1JiY0l1cTJwN1FUbTJFOHdhZ0drUnpSVDcwYWdEOTZYaVg2N1l0QnNsaXJycjFnUURrX0Iya3kwdkN3TQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is reporting on a hypothetical or prospective congressional outcome and speculation about Trump's final two years in office. It does not describe an actual occurrence of legislative bypass or executive assumption of statutory authority. It is forward-looking analysis, not evidence of a realized constitutional-stress event.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUnA5eW1MMU1qV2wxdW5MaFFNTzE2UDNJcGtKb1kwSnpZM0h1aW5GUThWaWMxNVZMeEhYWmtoT1NWdUdQRTZibGMyUzBmSWdBOUIwZXJWdENNYkJOQzNNdVNUNnRBLUVXRWI0a2dZUW1IQmlELWJyVmtkaGo2ellNRWFzS3B3V3hUaTdkZzd5dGpmbks2VnAtYTNfa1ZZNWZqUGxn?oc=5": {
@@ -8304,6 +8384,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "The item reports a MOTION or MOVE to hold someone in contempt, not an accomplished action of obstruction that has successfully blocked legislative fact-finding. A subpoena defiance and a contempt motion are serious matters, but they describe a dispute over compliance, not a systematic barrier to legislative oversight that has taken effect. The House Oversight Committee has initiated enforcement action (the motion), which is the proper remedy for subpoena non-compliance; this shows oversight mechanisms functioning, not being obstructed. No evidence that legislative fact-finding has been systematically blocked or that the executive branch has erected barriers to accountability. A single defiance by a private citizen (not a government official) subject to contemplated contempt proceedings is not evidence of legislative oversight obstruction as a structural problem.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMVRBMkgzX3FTczVYTTFNc3dWal96bWxBREJid0ZpT1ViOFhRTUJKMzgwcFlPZTJEUWxILXQ5aVNhU19aZm5XR3Q1VmdUYVRoemdwNVVMLTdKcWJBdzd4R3R4dWJpX1pVandmZUxZNzdtQzJsZS1XMU9GcFZXVEVIclVTQW4xQ1I5S1R6ZDZ4X0ZOczNkOVV4MV9ubUFPVjd0R0ppNlo1bjh3TkhGWURicER2YjhTSk9lcjlpNVZtWQ?oc=5": {
+      "actor": "Leon Black",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a private defamation lawsuit by a billionaire against a sitting U.S. Representative. While it involves a Member of Congress, it is a civil dispute between private parties and does not constitute systematic barriers to legislative fact-finding, executive accountability mechanisms, or legislative oversight. A defamation suit\u2014even one targeting a legislator\u2014is a routine exercise of civil litigation rights and does not obstruct legislative processes, prevent committees from investigating, block subpoena enforcement, or impede executive accountability. The item contains no evidence of obstruction of legislative oversight capacity.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPM3ktTnZxU1I4T0g2UFJKWWJBSUZVdjVnUlRQUWJoMzVpUUhGck5qcnpndjN4M2ZYSzFvU0VoNzFIeXVfbVRuUHhOcl9BSEJ5RGdWeVE3ZmNZa01yYXVtNm53WHhTN3hGakEyWFVGQ1I1Yl9NaERrZkFwYm9sRVd5SS1mZTdBQVNydFhrWXFfZVQzb3pHNjdQNGhOMGNiOUhqNDYtdGVDLVM2SmV5Mmc1b2ZaUlJSMHJYQ013cXlEY0RVdw?oc=5": {
@@ -9892,6 +9982,16 @@
       "rationale": "Item describes Argentina's opposition ballot exclusion. This is a non-U.S. event and therefore not evidence of opposition ballot exclusion occurring in the United States.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd00yaGpYRTMteFBMU2wzdExVcXN1WnFweVpXNjJZUkpoQWRkWFRMVlR2VnhmRjJDYW1yXzFCUUpqeEFzYXE5Y2tvY1dNcnhYVXM4VnY4dzMxWGpvZlJ1cUdROVo1ZG9tUjRrNmFCb05VRThtVFQ5cDJoTk1CdjNYRWhnTW1VNkE?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is from The Sun Nigeria and addresses Nigerian electoral law and a court judgment concerning Atiku's 2027 candidacy in Nigeria. It is not a U.S. domestic event and is not relevant to monitoring U.S. constitutional stress signals.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUzdsZ3ZoX3hnZDZzZE1PdzM4aUN4VjJUZHNmQjhzZVh3bVNRLXA1SkRrY3lzV2lUYlpJZ0Y1LTlibU9GX1RScHZYYlpXejZZbExwcXVLZHphNWNYNXNCWGFYaWVLV0dLblZOWW5GWE9FZTJCaThRN2VqeDJ6ZGY1MFltNjhmbFg1?oc=5": {
       "actor": "Russian government",
       "confidence": 0.99,
@@ -10030,6 +10130,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Russia's Yabloko party and elections in Russia, not the United States. The signal specifies systematic removal of opposition candidates from meaningful participation in the U.S. context. This is a non-U.S. event and therefore irrelevant to the constitutional-risk dashboard for the United States.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcGppQl9KYUo4SWNxXzBNTXU1ZmxHR3dWdFpRQVFfYnltVUNMRmRURlFLLS1WSVktQVZ5Y3UxeWp3Rmp0dndKMFVjVlRaY1F3cVhyR05JbktBTlNXemZrUmtGSXpnRnRMd2tVZFdIeC1ObXNWRmxfSEloOFFzVEFOTlNqeDQ0NDJ2UERad0FTb0k4a1RqeUE?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is from The Sun Nigeria and concerns Nigerian politics (Atiku's disqualification and Nigerian President Tinubu). It is not a U.S. domestic event and therefore not relevant to a U.S. constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNVZnSDZoMEpjenU1aWNwQ3pDaHZBcE4yVF9XQ2l3SzZwS2ZxRjRmQ1VNdEgtU29GbzRETml3TVZWSWlZRUhRMHNfaHg5bElSWHFsT05veXFfdFdSMXhUbzVVQ1dPYTRqS29rQ1JEby15eGFoYjNyMldST0hJWHFVLTNFZjQtQl9QUi1MUmRpZlZQeFZBV1lhQtIBmAFBVV95cUxOQ2FTam5BRFhoUzROOU9yWkZmbmdfSzNmenB0NUY3aVJPSGdCa2dnbnVUUTNHWXgyNlUwbEFucUpiYkU3Q3NDLUZaSlI3NHRIRHU0XzZSU1ZTT2JLSmdFajlhazZTNmk2NXdkRDdHaVN4Q1Mtc2lDSGtHbk5VX3QwUXlldDdEUjd6RHNxVXBYbDRiWGFybkx3Rg?oc=5": {
@@ -11528,6 +11638,16 @@
       "rationale": "This item reports on a sentencing in Kazakhstan, not the United States. The signal is specific to U.S. constitutional risk. Non-U.S. events are out of scope regardless of their subject matter.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTzdLeWVxQ09NRE9lUlUtUU14SUsyY01nazJxTGxmblBXYlRxLXlJVENGdFZvdHBmd2tWX18tQkU0STBYbjc5MEtoQnhvQTVjYWxTYzA2cHVEVGpMX2l5dDJTZnZ2M2FoblB6bjZZak4wZXdLdXlyTG9zLXlkUHVaQklheHJyRXlVRzZaMQ?oc=5": {
+      "actor": "Poynter",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://poynter.org",
+      "rationale": "This item is tagged as 'Opinion' and is a retrospective analysis piece about election coverage narratives. It is commentary/analysis about news stories, not evidence of state action raising costs or legal risk for independent reporting. No press restriction or retaliation event is described or documented. This is editorial reflection on media performance, not a constitutional-stress event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMijAFBVV95cUxPX1NmVG5mMXZpbFJqZVVwOENxelJsTnpGZDBoaFpic0ROaEFkRUloeWx5bGE4d1U1Wnlnb0JxdlpfU2tVNV9rT1hRZUZrcEx6NWt5bFVSTnk3ZnU2TzRuTWY4UDNwQUdKRFYwaW1qQ0xBMEJpZmRuS19FUUljV0dwNnhGUVNPZW56S0lhWA?oc=5": {
       "actor": "",
       "confidence": 0.98,
@@ -12739,6 +12859,16 @@
       "primary_source_url": "https://www.ynetnews.com",
       "rationale": "Ynetnews reports Trump's taxpayer-funded ads raise legal questions before midterms. The legal concern is analysis, but the factual event\u2014release of the ads and their taxpayer funding\u2014is confirmed.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DclMwQURIODFrXzE3cXFrS0IzOUFvdkFOVmRuX01SaFBMNk5rWHQ2TzlKN190V0xmR29YTnFuLV9KREZtTGdzQWYtUktvRHpkSllfbGkweEtsNUk?oc=5": {
+      "actor": "GLAAD",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item provided is a bare title reference to a 'Trump Accountability Tracker' by GLAAD with no substantive content. GLAAD is a civil-rights advocacy organization, not a government body. An accountability tracker maintained by a nonprofit watchdog organization\u2014even if critical of an officeholder\u2014does not constitute misuse of public funds for political promotion. No evidence is presented that appropriated public money was spent on campaign-style messaging, partisan communications, or undisclosed funding. Without actual content describing a specific government action involving misappropriated funds for promotion, this cannot be scored as a real event matching the signal.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40MU9lMm9RNjZwdFh3RnJLSlUzX1hhVVl3VnozbDVYNGtFTklTeXZiUERNcHVST2VUQ0p3WDM3M0Rqd1VtWUxZZm42blFZMzczdnBqenNRRTNzTjhpMUdkYzRmVQ?oc=5": {
       "actor": "DNC",
