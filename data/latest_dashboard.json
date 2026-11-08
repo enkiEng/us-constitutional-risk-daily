@@ -1,29 +1,29 @@
 {
   "attempted_queries": 25,
-  "average_7d": 14.07,
+  "average_7d": 13.86,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 0.0,
-  "delta_vs_7d": -6.08,
+  "delta_previous_day": 9.0,
+  "delta_vs_7d": 3.58,
   "domain_breakdown": [
     {
-      "avg_severity": 0.5625,
+      "avg_severity": 2.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 3.09375,
+      "points": 11.0,
       "weight": 22
     },
     {
-      "avg_severity": 0.15,
+      "avg_severity": 0.0625,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.5625,
+      "points": 0.234375,
       "weight": 15
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.8833333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 2.870833333333333,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 1.3333333333333333,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.0833333333333335,
+      "points": 3.333333333333333,
       "weight": 10
     },
     {
@@ -85,7 +85,7 @@
     "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-11-07T12:25:57.201696+00:00",
+  "generated_at": "2026-11-08T12:25:11.577640+00:00",
   "methodology_version": 2,
   "previous_score": 8,
   "primary_sources": {
@@ -98,100 +98,82 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 8,
-  "score_raw": 7.99,
-  "score_raw_pre_trip_wire": 7.99,
+  "score": 17,
+  "score_raw": 17.44,
+  "score_raw_pre_trip_wire": 17.44,
   "successful_queries": 25,
   "top_signals": [
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/usps-makes-new-rules-mail-ballots/story?id=135879673",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLUpWVmxZNkVNNGxlamhNRjkteVhjUVJNMXhDQ3Vyc3V3UkdTVEcyeUM0ZnEzTUlJQXRYMUZsNkZ5LTN5Q0VzWDFrVmVFSVlpOFBSaEpwa19qd0Q4SExzankxMEpIQjMxT2k5R0Z3emE0cDFCNng3V3lwVjBQUDg1NNIBhgFBVV95cUxOWGtmd1BpZ1U2QlJOeTZIcXhKMTVTOVFEZDJKcDJPS1NzX2NsOG1RT2w2TkpUMDkwTWY1QzlZcGt4LVlmNV9NZlFVUG04S0Y1U2hUSUdFSk5sUlFId1VsZzlnd1JvOGlWQnY2LThiN1J6cjZDSjdSWHd3elNWS3FpYWJqMXFnUQ?oc=5",
-          "published": "2026-11-06T05:00:13+00:00",
+          "canonical_link": "https://abcnews.com/US/doj-preemptively-sues-block-alaska-senate-results-republican/story?id=137512876",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQekhpNnRhMmk3WnMteVlLeVRYT2ZMUGRnRkJmSlJxUU9TUm1GN1ZEYWp5SFRqS20tSWVtQWpUMF9VaWd3U1FFRUd1TDRBMk9UTXhpMkhHTlE4NnQzZDEyRjUxQ3lkYlVkZHAxTS05MjJkbDA2VXFNQVBhcGdmUVJ3LTRHTjBScTBucno5Y0NhazNCeWdiLWpJMUlTRjF2Uk5zRzE2SNIBqgFBVV95cUxQUEZqTzdWbGhCLTVzd1J1VlI1cUxOOWFyLXZIbDI0TnA1YXlWQXgyMTFtaXRMdE9jbTIzTXdkUmpXMzJkejdKeHlXc2lHYWVJd2t3WFVVTmNwS05BT2wzTjhkeW0tZ3FpU0Z5aUxmOFFCMWNydkk1S3hPT09xT2w1WWdjdG5ybXRhWl9FZV84TG5kOWM0YkZwNVVYWU9keUFfZWF1ZVIwRUs3UQ?oc=5",
+          "published": "2026-11-07T00:21:57+00:00",
           "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Supreme Court allows Trump to implement parts of his mail-in voting executive order - ABC News - Breaking News, Latest News and Videos"
+          "title": "Trump told DOJ to sue to block Alaska Senate results if Republican narrowly loses - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 5,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "hits": 4,
+      "id": "election_administration_capture",
+      "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
       "primary_source_url": "https://abcnews.go.com",
-      "rationale": "Multiple credible sources report that the Supreme Court allowed Trump to implement parts of a mail-in voting executive order. This represents a shift of voting-rule authority from statutory/legislative control to unilateral executive action via EO. The Court's allowance (likely through stay or injunction ruling) enabled executive implementation without requiring legislative authorization. This is a real, confirmed action that transfers governance authority from statute to executive fiat, but is narrowly scoped to mail-voting procedures rather than a broader structural dismantling. Severity 2 reflects this as a real, credible stress signal of limited scope, not yet structural failure.",
+      "rationale": "Trump directing the Department of Justice to sue to block Senate election results based on partisan outcome represents a direct attempt to use federal executive power to overturn or invalidate election administration and results. This is a verifiable action (Trump directing DOJ) to subordinate election administration to partisan control by invoking federal litigation authority over state electoral outcomes. This constitutes serious, confirmed action to capture election administration through executive branch pressure on the DOJ to intervene in state elections on behalf of a political party.",
+      "severe_hits": 0,
+      "severity": 3.0,
+      "severity_label": "Orange",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 1,
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-11-07T04:29:22+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 3,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
       "unique_publishers": 1
     },
     {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://www.texastribune.org/2026/11/06/texas-school-takeovers-board-managers-gina-hinojosa/",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbWo3aTBQVUFXRkVCcjhpLVZmamF4VkN5b05jTFBXQXhralRTdDI4cnFvUDBNMGM3WkFBbWpTclFjR2JYZURZdHB2UWpsOVo1Zm5xSDU1aDVnaGd4RTB1YWVkLVV2LXVpT0g1ZGJUeGVkNkpGeFRkMDYyZHFOYlR0aDJudWJxcDlBVG9WenRxeVNSWmJxb0tV?oc=5",
-          "published": "2026-11-06T23:46:39+00:00",
-          "publisher": "The Texas Tribune",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "State-appointed managers in Texas takeover school districts brace for imminent removal - The Texas Tribune"
-        },
-        {
-          "canonical_link": "https://abcnews.com/Politics/fbi-conducting-court-ordered-activity-georgia-election-site/story?id=129644345",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVE1NWTlMSlBNNkU3NzBTUmV6UEtIYV9EdUtfdFJ1dWdyendCdUk2Rk94ZW81Zkw0QWFEMml6aGdwcFg4TWZOMV9xelBCU1VJMXhpcHZlTHcyQlZjX3V0dUR2NWNtRGJvZVdNeW9Lbk1aM2hHVy1zNFotWG1HSFVGeksxWkoxOHVDQ1hTTUxFN0d1S2ZzbUZjVWpRMXB1S1VNRjQ0dHpMOWFWX0U?oc=5",
-          "published": "2026-11-06T06:39:45+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "FBI seizes 2020 ballots in Georgia in apparently unprecedented action, alarming local officials - ABC News - Breaking News, Latest News and Videos"
-        },
-        {
-          "canonical_link": "https://13wham.com/news/nation-world/deportations-will-continue-dhs-shares-reminder-as-democrats-set-to-take-over-congress-republicans-house-senate-midterms-midterm-elections-ice-illegal-immigration-immigrants-department-of-homeland-security-secretary-markwayne-mullin-president-donald-trump?teaserSource=databricks",
-          "link": "https://news.google.com/rss/articles/CBMiwANBVV95cUxPbTdSeDYtb0ZON2NqRzBMdmJrSXZ6X216QzhtbXNWYmFNbEhRMHRndW5UOEZEdDVMeC1fVGtBaTNnTXQ5RW51WUllbzVtSVEtOHBUUnlqYnNrOFRyZkFvRHU0bTRGNjRieEE4c0xlYnBlQzdPbnFZdV92UWZmdWdwcllPNVg1MlRac1BLdkN5akxBUUxqMmJ5TENFczJmLUU2U1JnaV9TQWtOUzJSTXpXTnlpcHB5M1VmUF9Oamp3RzJuTjdtbXRETWJ5TjFWakc3MV9wUmUwNlJzUWZBWkgydDVoN3VkQTNBeDFQMURKUEdvU1k4aDZJZlRVUi1sMEhkNWNtcWk2SUdfY0ZmRjNGd3dNQ2ZjeUFGSk95NXdfWEpSTUdCaURHZ001d19od1ZVYlJxUVJIb0xnMkdxYjR4UE5PenVlRGphMmIxYzlXRFh4NmhoSzd0VFlaYzNlLUNiUmlqaDdkWEt0TmxDRWxTYi1icGd3THdtMHMtTUJlUnp5ZUtXdzZSUGh4ODVyTFRaejlTaHpPMVpkaGlWTVZIZWhaNzVNS0FZWVVkTWIzdXl6SWNwazJnQXJOclJYZDNS?oc=5",
-          "published": "2026-11-05T18:07:18+00:00",
-          "publisher": "13WHAM-TV",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "'Deportations will continue': DHS shares reminder as Democrats set to take over Congress - 13WHAM-TV"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 6,
-      "id": "election_administration_capture",
-      "name": "Election Administration Capture",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://glaad.org/trump-accountability-tracker/",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DclMwQURIODFrXzE3cXFrS0IzOUFvdkFOVmRuX01SaFBMNk5rWHQ2TzlKN190V0xmR29YTnFuLV9KREZtTGdzQWYtUktvRHpkSllfbGkweEtsNUk?oc=5",
-          "published": "2026-11-05T19:17:17+00:00",
-          "publisher": "GLAAD",
+          "canonical_link": "https://www.wonderwall.com/politics/purely-partisan-federal-judge-orders-trump-admin-pull-three-taxpayer-funded-ads-featuring-president/",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPb21LbVZkbUhpdjBpV2xNUVFZRmZ3ZUhnTVkxcEJ1SFBZS1dCem1iUU94U0tHQzNQZl8tdVRMU3hIdjFQWXhoZUtxWmpnSEJULThzSUE0MGhqODNCN1pSYUVPaVVKZ3g4RE01LWVYbUk5cklFTVdobko1M1U5X0VZekxmOXpiY2RUVGVwNGxIck9vU3FKSWhJdUNCc0NtcmVVaGlHaXJIVE9uYmpPTW1UdGtVc1B3WTNVUUJjLWFsd3ctVHpKUUd1S1l6ZU9qWjBPdFE?oc=5",
+          "published": "2026-11-08T09:07:00+00:00",
+          "publisher": "www.wonderwall.com",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump Accountability Tracker - GLAAD"
+          "title": "\u2018Purely partisan\u2019: Federal judge orders Trump admin to pull three taxpayer-funded ads featuring the president - www.wonderwall.com"
         }
       ],
       "evidence_mode": "ai",
@@ -201,10 +183,57 @@
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
+      "primary_source_url": "www.wonderwall.com",
+      "rationale": "The item reports that a federal judge has issued an order directing the Trump administration to pull three taxpayer-funded advertisements featuring the president, characterizing them as 'purely partisan.' This represents a real, confirmed instance of public funds being spent on communications that promote the officeholder in a partisan manner\u2014the core of this signal. The judge's order indicates that the ads violated the statutory bar on using appropriated funds for 'publicity or propaganda purposes' as interpreted by GAO. This is a contained, specific action with judicial confirmation rather than a structural constitutional failure or systematic pattern. Severity 2 reflects that this is a credible, confirmed stress signal of real but bounded significance\u2014a judge had to intervene to stop the conduct, which demonstrates both that the violation occurred and that existing legal checks functioned to address it.",
+      "severe_hits": 1,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://abcnews.com/US/appeals-court-blocks-construction-white-house-ballroom/story?id=135459043",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSW5aYzhFSU9YYUZ6dWtZZ3IxSXgxcXRkU3ZmX3dPeFdtOUpVRDFjMjNzTzB0SEptMnFxUkFtWmFXamYwenRTMTdoaVdYTU90OVlEd3V3blBqVVQtREx2NzJfT21ab012SE5kSVNjTzJGRkVfRklBcWt1WmhVX2RBdjA0V2JVdXlsVXU0NHNmTUtsdkh4ZjlpcUp1YzHSAaIBQVVfeXFMT1dUdHR5em8zNThqVVhUYXpLMDYzQ2pqZ1NtdTR2MXJxaDBHR1pZd0trbUc3TzJ1OEhweVRtRjRhNEotUXdtcC1RTTFZdXF5LXVPQzlmcUUyVW5JTWs2ZTBLRE1ZVDh3U3E5YVNPaHhxak1KZS1XU0JuYnpXaEhqb3RwMUZmc3ExYmN2NEhaMnBHMmRhSUMtY1RTTm1KU01VcVN3?oc=5",
+          "published": "2026-11-07T05:54:20+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Appeals court blocks construction of White House ballroom - ABC News - Breaking News, Latest News and Videos"
+        },
+        {
+          "canonical_link": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/democrats-take-back-congress-after-republican-wipeout-what-lies-ahead-for-trumps-final-two-years/articleshow/135606850.cms",
+          "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOMjFVWU9RYy1sYmFHNGszamxsMzhjdkx3VUNsMldCakY3dkF6Q280Tjh3ZzBPSEZXTjdiYzRneldWTHd1YklGS3F0R2tnSXZTaFBNMlZ1NmNsYWtNWDZDRzcwS1hzMDhfNV9zSjBxRHY5ZVNOUTlFUElCaFg3U0xrbzgydnM2VFFvWmRiQ280WENPenU3aTlISHNZMFZDTXhXRTBjMEprN01WVndDeUlFNlVTSWNVM1UxQkZTcTRDZlJQS1V2b3hfVzE2dWd3SFN6NzVub0FIMkhsWGlmYXNBY2hDN1JiY0l1cTJwN1FUbTJFOHdhZ0drUnpSVDcwYWdEOTZYaVg2N1l0QnNsaXJycjFnUURrX0Iya3kwdkN3TQ?oc=5",
+          "published": "2026-11-06T12:31:00+00:00",
+          "publisher": "The Times of India",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Democrats take back Congress after Republican wipeout: What lies ahead for Trump\u2019s final two years? - The Times of India"
+        },
+        {
+          "canonical_link": "https://timesofindia.indiatimes.com/toi-blogs/beyond-borders/in-foreign-policy-why-donald-trump-is-not-a-lame-duck-president/articleshow/135629858.cms",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONlpBbmRoT2Qydll0ZEg0WVVSMzdYc2dCZ1pVcTNpX2JpUWhHN095WEpfbEhPTkE1N0xKenVVUjVGMG9JTF90WjFycF9oajNtTHhqblo3MFp5UzVGUzBOSzRGV2JzN2t3R0pSNnVXLVo5bUNjaF80dmgxSFJCeUlfNzNSRURqVW1HblBiLUJDMjctRnBPMUhrYVc2U1MwREQ4V01rNUFwSUViRWpBUVhxcW1ZTU1VblF0bEtvT0dUQmlSS0lCem9aX2xiUmFFTm9zZUlPQTNudE9PMnFGZVBfOTlvdlI?oc=5",
+          "published": "2026-11-07T07:25:00+00:00",
+          "publisher": "The Times of India",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "In foreign policy, why Donald Trump is not a \u2018lame duck\u2019 president - The Times of India"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 4,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 1.65,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -270,8 +299,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -299,7 +328,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }
