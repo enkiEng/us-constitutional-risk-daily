@@ -454,6 +454,16 @@
     }
   },
   "court_order_noncompliance": {
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMXl5WlFJNGpNemUzYjFnRm8tOUwtQUI0OElXWjNmVFRMaThkUnMwdm02eVRnODFpZlJpUkVXNFU2NU5paG5ZYXRhYlNvWWprTmd4LTFHNFUzM1NKTlgtanZjQ0U4bENNMV9EcmpGMWpXeG0wTGJkVF9DdHVuSHJ3QUhSWGExQzZmNnBOTlUyWnJwaFNqcUxRNmRmVHZtY2ljOUstZHdmZldsTXZDSE5mMlM5NXA4MVZlZHZINnpta1NaZG1XN3RPOU01OEhUdDdfZkRWRnl4a3Y0LURm?oc=5": {
+      "actor": "Winnipeg City Hall",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://winnipegsun.com",
+      "rationale": "This item reports events in Winnipeg, Canada, which is not within the United States. The signal applies only to U.S. constitutional risk. Even if the event described were genuine court-order noncompliance, it would not be U.S. domestic and therefore not relevant to the dashboard's mandate to monitor constitutional stress within the United States.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rYVBfRWJuYnk2OTdEOW1EOVRfTkR0Y21QSkEyYXY5UW1uVmJaYnlvSG8xS2V3a0V0S1h6N3lXYmJSNHdRQkd2X21HaG5RUDBxeWpSY3oyZ2dLckhxUkFhdDlMUG1WV2l6Szhr?oc=5": {
       "actor": "Immigration and Customs Enforcement (ICE)",
       "confidence": 0.65,
@@ -6422,6 +6432,16 @@
       "rationale": "This item concerns a routine appellate decision on equitable tolling doctrine in tax court procedure. It describes a court interpreting and applying existing law, not an effort to strip court jurisdiction or remove court review from constitutional disputes. The Eighth Circuit joining a consensus on tolling rules is normal judicial activity and does not constitute targeted jurisdiction stripping. No evidence of an attempt to remove court review over specific constitutional disputes.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeXJ0WllvZ0QzVGhIUEh2eFFJOXY3Tmx5d2dfcUI3bjhlUlViZDVVY3ljSExNSW5kMUdMTEZFU2ZlczZSdHBNOWJFRThWOWpvTVZCc0lCVVJGejVBblF3QlR0cjBmcFdSUmZEWjQtMFF2TW84WDl2NS1wcDNyZWV1ZUhZWGtSZmo4SS1TaDVNUTV0RXZSbVlTYlVaeWVxbmvSAacBQVVfeXFMTWJ1Y0thRXdPY1EyOUdoRUhmUkJDRDhac05GS1VpeElTZ3NFakFkcDVLb1JsUFlqS3Bja2dKRklxWENJaGRaUGpXNFRiNUozXzJYa2ZqZkYtMEtXMHJRMnY1WVJfX1V5WHZiaUJtOTNMRWk2b2pyMHFWN0RDVVFmYWZHM2lGampUeVd5SFVnekVDanVDdDREWlBXcld6WVJIR2ZRVFFhU1E?oc=5": {
+      "actor": "TTAP; Governor of K-P",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns K-P (Khyber Pakhtunkhwa), a province in Pakistan, not the United States. The signal targets U.S. constitutional disputes and jurisdiction stripping within the U.S. legal system. A Pakistani provincial governance matter is geographically and institutionally outside scope. Event did not occur in the United States.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZjBHSnJueUdsdDVVTkdvNFdxMWd4Qk9uN3FEX2RwSEp1azg4SEtnMFgzWHRjUzZDc0hnYmpVci1TTkZnLWQyNWRRMWtGUnNoUlZlT0NiN29yYy1Ldy1xeWRDcDFxbHhnZnpNakxHZU9aNzBMY3p0TG41cUN0dFVaNDF3cjBSelJwQkpuRmp5YmNuWF85S21wUzlFd0NvUk4wblBuTDZfWXdDRGk20gGsAUFVX3lxTE1mMEdKcm55R2x0NVVOR280V3ExZ3hCT243cURfZHBISnVrODhIS2cwWDNYdGNTNkNzSGdialVyLVNORmctZDI1ZFExa0ZSc2hSVmVPQ2I3b3JjLUt3LXF5ZENwMXFseGdmek1qTEdlT1o3MExjenRMbjVxQ3R0VVo0MXdyMFJ6UnBCSm5GanliY25YXzlLbXBTOUV3Q29STjBuUG5MNl9Zd0NEaTY?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -6964,6 +6984,16 @@
       "rationale": "This is an opinion/analysis piece\u2014commentary on the adequacy of constitutional checks and balances. It expresses a viewpoint or concern but does not describe or provide evidence that any specific legislative bypass or unilateral executive action has actually occurred. No verifiable event is documented.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiekFVX3lxTE4wMVlQSEdXUXltRXZuV1lRRkphYzB4UmVUYWdJTnFOOXFkV3NfWGxqOENtV2M1SkhUV1BsVUktM2oyNWxkbTNDcmlzX0pUNFI0MVBKVl9NRFIxOUlseDVlUlJqZzlHVTNsMUZES0lITjQzY2RWeDFhZUNn?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.9,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item appears to reference Nigerian election coverage (Businessamlive is a Nigerian business/news outlet). Without U.S. content, it does not constitute evidence of a U.S. constitutional event. The title suggests election commentary but applies to a non-U.S. jurisdiction.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiekFVX3lxTFBuM3ZKOVg3dFJoZnB1SThTc1p5Y2o2dVhPTFhSUm9LUEdWOHhoal9rVUNzbEJqVUJUZ0l0YThFamluX2FjZVhIS1dBU1J0NWdOSFZkQkgtZzFWSGZLamh4RDhsMXFHc19oT1RjRENnUzZwYUllVE9Qd1N3?oc=5": {
       "actor": "STL.News",
       "confidence": 0.94,
@@ -6972,6 +7002,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Prospective analysis of what may happen after midterms; does not document an actual instance of legislative bypass by executive.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE82UTl0VnphNjNXMWg1OTRJTEVTQnNQdmJNNkdqcDJOUkh3Z0RsLWdhaVo3VUt3SnBFQ3F0Qk5nYVFtX0FhblVMY3BJMWNnWURLWlhtdnE4U0lzVlBxUkpKaEgtQlVISlp4LS1CVDVkbWpmUFdyQUhkVXBCV2s0dDg?oc=5": {
+      "actor": "ADC (Nigeria)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Nigerian domestic politics (ADC is a Nigerian political party). It is not a U.S. constitutional event and is outside the scope of a U.S. constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BRG5nODhZM05YWjNXdnM1ZHlHMkR2N1FqNkM0aW9HeEYzNnhaZVJaWEF0ZkhSUHNtZUlvb1R3bFZnb0I5OFhBMFVfRnhvRmdRM2pFejhhSE5VNUxSeTE4NXhTQUdMdVhGT3VaZmRvN2NYb2pIOGFvdEdtM3A?oc=5": {
@@ -7203,6 +7243,16 @@
       "primary_source_url": "jdjournal.com",
       "rationale": "An appeals court blocked the Trump administration's mail-in voting order. While this confirms that an executive order was issued or attempted, the court's action to block it demonstrates that constitutional checks are functioning\u2014judicial review is constraining executive overreach rather than enabling it. This is evidence of the system working as designed, not of successful legislative bypass or constitutional stress. The blocking action does not itself constitute a bypass signal.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMijgJBVV95cUxNTDVOZldhOW9NSFlKOGVFTDloUDZZcWxEOFh1LTlJaDNoME14RWFtLTRZWXhPMzU3bTk4ZGJsdHcwSXI3RHFlNFdrN0Rtc3ZzLXhFdk9BWk1yTEVUeEU5bFBHVVp4ak5Vdl96VVdWVnJXU3RQYmFQTnpvdHdkRWMtaDJwTllPQ252WDFQeFp1dGdycVplb3VrY3V3Vm9rUDF6Vno2NEd6NV9XRld2eExiOWV3TDQ1cmNwZm9pRVlFc0ppYmM2alFlVDRPMWZnWkd2U0JHOEVyTGgzUWpvd19IZ2k2VkFVSnBrVXdjX1lEQkc1Q3FhWmtPd0RVUnZHYV95NDdfTWhoUEJwSEQwdUE?oc=5": {
+      "actor": "President Trump (Executive); DOJ",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "This item reports that Trump ordered the DOJ to conduct a probe of Democratic politicians. If accurate, an order to the Executive Branch to investigate political opponents represents a unilateral executive action (directing an agency without new statute) that could bypass or preempt legislative oversight. However, the severity is limited to 2 because: (1) the report is from secondary news coverage, not an official DOJ announcement or executive order text; (2) directing investigation of political figures, while constitutionally concerning, is not yet confirmation of a completed structural bypass of legislative authority, merely an exercise of prosecutorial discretion under existing Executive power; (3) Rep. Balint's statement confirms congressional awareness and pushback, suggesting oversight mechanisms are still engaged. This merits a credible stress signal but does not rise to severity 3 (serious, confirmed high-severity action such as open defiance of a court order or removal campaign) without further evidence of systematic dismantling of legislative authority.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdmY3blA4ZlNKRmd6cWhBcjZqeGZabVZicHBPbV9LMVVsNlZzeC1BQWFkMC16MmpPU1VXVUxLYkkwSGpvaWVYRGJQUVF2Q0NRbEZKN2Zpa3JDdXZJdHh0NkhVMVNRX3FtQW1tSGEydnQxdzdFdmdEaFN1M0EtTTNsR3JOS1JwQ0xVdkNXWWFhbw?oc=5": {
       "actor": "DOJ",
@@ -10042,6 +10092,26 @@
       "rationale": "This is a news article about opposition exclusion in Russia, not the United States. The signal is defined as a U.S. constitutional-risk event. Coverage of ballot exclusion in other countries, regardless of severity there, is not evidence of the signal occurring domestically in the U.S.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLS1TaTU1VHpmeE9CeHRfdTRNNGo3cy05ZTF4UWlrQVpYcmN2S3UyLTBPRUdyc0tEbWVGa2hSVHJJOThXU2VxSnVyNDNYcU51d0VhRlNMbU5zYlNDb1hkcmJlQXNTbU1YMEFOdHlvOGtiS1BzaklWTzJUcXRZcWhMZFdHdHUyb1Q2Ync?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is from Legit News reporting on Nigerian politics, specifically reactions to statements by Keyamo regarding Atiku and the ADC party in Nigeria's 2027 election. This is a non-U.S. event and not relevant to monitoring U.S. constitutional stress signals regarding opposition ballot exclusion.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcFFkV19tOWtaX2RsLWxQcnJqd3EwWC1KMHNKVjltTDFwZnc0dHdjQlYtN1lCSkJpS010V2xwc0VlTFpfM3R6OWZUV3RUUkxSb3RzX2pVM1FybjFLMzFoZTJkZFBDa1hOTjlFUW1DT2ZnZE4xa0xnU2Q1VHJLVWlFM19hSnBZR1FiaUE?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is from Premium Times Nigeria, a Nigerian news source, reporting on Nigerian political figures (Atiku). It is not a U.S. domestic event and therefore not relevant to a U.S. constitutional-risk dashboard monitoring opposition ballot exclusion in the United States.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiigFBVV95cUxQb2hEdkJPUnE2c1ZpQlRnM0cwRE9IaFVKRXdtNkR2bEpxaVVEeUVyQVlKbHlqRXVkRzlnZm81MnFfSkRRMWRFS19sVFBkQ3hJcm9RdUpnT3JWck96QTRjVXlWb3JfRXFFUEtZOW1FRDlQWWF4RGtfeWF5WXdWYmZ2NGl5VjJzV0NkeWc?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -12348,6 +12418,16 @@
       "rationale": "This item is a media brief from Journalism Pakistan dated September 2026, covering global media issues. It is not a U.S. domestic event and contains no evidence of press restrictions or retaliation affecting independent reporting in the United States. The item is geographically and substantively outside the scope of constitutional-risk monitoring for U.S. domestic signals.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbXNDcng1Z1ZhZ1dwZjREUFY1WXlLbTN0Zm96Y2pQX2lXaUZUVEFUZER1TFpodUo2T1hkcjh0UmpudFVMdFdQal9WQktDZzQtM0tqRERGRlJldVdmVldMQWkxa3lXcE1Pb2RfX2JlTUtxME96bU1sYVdCOHB0VmtBaTNQWWh5QlNkZzhUUWp6d0VKbzRwc2RicE81MkwzZ0lObTlmSmIzMEdFdFk?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is from MyJoyOnline, a Ghanaian news source, and concerns statements by Kwakye Ofosu (a Ghanaian figure) about media owners' responsibilities regarding training, safety, and compensation. It is not a U.S. domestic event and contains no evidence of state action restricting press or retaliating against independent reporting in the United States. The item is about general best practices and professional standards, not constitutional-level press restrictions.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSEl2QlB0RGF6ZGpoMjkyU25CS05BdExZbXd4dGhOOF83T0xPU01sQ21uUlN1ZlkxYzZEQkJSLUVDWDJRclZtMTFGUmkxVHV3emFBYW1CQXgyS1IyT0dtU09nMHBwclVWalRDNHJKSzg4LWVaa29PcVZROVdrcHc5eFM0N1F3ZkVUb1dLNkZfOXNINDBZdDlDY3VYakR4d0c2dk5UTDlSUGNKYVk?oc=5": {
       "actor": "N/A",
       "confidence": 0.98,
@@ -12739,6 +12819,16 @@
       "primary_source_url": "https://www.smh.com.au/",
       "rationale": "Sydney Morning Herald (Australian outlet) reports on the same event. Although published from Australia, it covers a U.S. domestic event. The substance is identical: Trump 'caves in on taxpayer-funded ads,' confirming they existed. However, marking is_us_domestic=false because the source is a foreign news organization, though the event itself is U.S.-based. Severity 2.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOeVkyNHVlUW9iMi1EQ3pidVhTaDFGTWdMYTFfRW9JUmV5Y0xmR2ViTDJPNXNnX2pGVll6WjZuWjFZbURJQ014S25FMDRLdjRfMnpwRll1aHpvLTVDUWp6WUhQUkZWb1VKbWxJY3BMN2k2LUxLbXIyek5zblh3VjctQ08tNmw4bDRvRFFybEF4anBFVmc2ZENIMjdMemw0cnpMZ0VYZjR4bzIwT25aWVViQ3dmc004SXJjWnM0QUNQRVgtTThvWmRweGFYMF9OSHlra0Y3QUlWQUR0MWFzcmpnLVEtR3piNXJGVkx4YlRjcmFYcGpzTlZac09xYkNlTUVyZE55QnptSmFNN0lyOXJfUGRITmdxQ1hCdVYxdjh2UVVlb3pkMFJOdG9lZXlmN2ozeWRoTGxndEJYelhJOTlMMHdiR004MndXaEM0WDFzeGTSAdYCQVVfeXFMTTlPamprcTFweWZ2OU5LQVN3Y0NnWEY2dV95UmFsc1lQMEZyd2xIbk5XVkR1V2lJYlFydmVSTTVlR3U1VzVKZzdVRTNwQ3V3Wi0wYXFwYlJkd25IZ251M0Y4NERpWHFjbi1HM2p3TlpXVXZIVDdoRzcyN3JnMWJJR3o3cmRWY0RiSmh5cGY3amVQT25KdDFQYlRVQmZPRG5LaDdIU1ZBQkF4TnJmNEhXVHBuTjFQTVNFM0RnYWFPYmdlV2I3NUMxMmpIaDc4Y3paRUlHNUJGWWE1WWVWclc5RVczeTR4S0hPa3FXejJuU29nQW16aVBLZ3ZWT0xzQWNuZEJTdWZDd094WEFMR1dWeWJkcFpYSUJsRVNrYlh2eUhVVU5TTGMwLVdwcHNkcG83dmNZbzByc1hpQUxfeGxXN0pYVzdueDJ1U2JnVjlwbXA4cExkV0h3?oc=5": {
+      "actor": "Chris Bowen",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://news24.com",
+      "rationale": "This article concerns Chris Bowen, an Australian politician (Climate Change and Energy Minister), and Australian government communications regarding net zero policy. The signal targets public funds for political promotion in the United States. This is a non-U.S. event and therefore not evidence of a constitutional-stress occurrence in American governance. No U.S. agency, appropriation, or constitutional safeguard is implicated.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUVpxTHpvV2NfcmlyMDloTnZBOGhOUXFXOW1vd01XbnFoZVdFdFJnV2c2aGI0ZEFaWDlGU0tjVGdvSXZFTGVpbnR6S0p6YklPWnNiWVFCdG00dmlSUlZsQWlONUdOLUF0Z0VxSlpGNjJ4Tm8xTmJqNUVvSjdGRkNicEJaZU50WTRfZS11b19LV3hTYmZKSjl2RWdkdnpsaU1wMDJhNEwzVUNHN3NydlRwU1RvZm0wMjVmN2hRdzlzZjd3cXhPc1FfMW9CS0hNWGUzRGfSAdcBQVVfeXFMT2dheHVtWVNHTkFQTEFtMGpZRWRUX1VFV252OEFaWVk2OFNpWWd4UFotbkQ4M1VIdjNQLXFQWmJJUzlHcmx0TlNGOWwxV1VhX3lNa0w4bGpsRjY0eVU0YXRuSm9sZ3I3WktFZ290bzUzNVduVFJlYU04Y09BbGtnTzl0cE1qT0JmMGpndFU0QVoybkNULWt0Vl9Gc09FMExNaGUtYkhKa2JNZnotS2xfQ0pBa3JMSWp2b3Bhek5ZOUhOQmhSSTdWMk5tdjY3SkZaU25HNmZOMlU?oc=5": {
       "actor": "President Trump",
@@ -16016,6 +16106,46 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/11/06/2026-22739/medicare-program-hospital-outpatient-prospective-payment-and-ambulatory-surgical-center-payment",
       "rationale": "This is a routine final rule revising Medicare payment systems and quality reporting standards. It falls within normal regulatory authority of CMS and does not involve interference with statistical agency integrity, methodology changes outside normal notice, or data withholding. The document concerns healthcare payment policy, not economic data production by BLS, BEA, or Census Bureau.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/09/2026-22743/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other": {
+      "actor": "Centers for Medicare & Medicaid Services",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22743/medicare-and-medicaid-programs-cy-2027-payment-policies-under-the-physician-fee-schedule-and-other",
+      "rationale": "This is a routine CMS final rule addressing Medicare physician fee schedule updates and payment policies under existing statutory authority. It is healthcare payment policy, not interference with statistical agency independence, leadership removal/replacement, methodology changes outside normal notice, or data release delays. Falls outside signal scope.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/09/2026-22750/calendar-year-2027-home-health-prospective-payment-system-hh-pps-rate-update-requirements-for-the-hh": {
+      "actor": "Centers for Medicare & Medicaid Services",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22750/calendar-year-2027-home-health-prospective-payment-system-hh-pps-rate-update-requirements-for-the-hh",
+      "rationale": "This is a routine CMS final rule updating Medicare home health payment rates and quality reporting requirements under existing statutory authority. It is healthcare payment policy, not interference with federal statistical agencies or their independence, leadership, or data release integrity. Falls outside signal scope.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/09/2026-22788/national-emission-standards-for-hazardous-air-pollutants-polyvinyl-chloride-and-copolymer-production": {
+      "actor": "Environmental Protection Agency",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22788/national-emission-standards-for-hazardous-air-pollutants-polyvinyl-chloride-and-copolymer-production",
+      "rationale": "This is a routine EPA environmental rule-making under the Clean Air Act, establishing technical standards for industrial emissions. It has no connection to statistical agency integrity, BLS, BEA, Census Bureau leadership, data methodology, or data release practices. Falls outside signal scope.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/09/2026-22792/medicare-drug-price-negotiation-program-and-medicare-prescription-drug-benefit-program": {
+      "actor": "Centers for Medicare & Medicaid Services",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22792/medicare-drug-price-negotiation-program-and-medicare-prescription-drug-benefit-program",
+      "rationale": "This is a routine Federal Register final rule implementing statutory provisions of the Inflation Reduction Act of 2022. It involves standard health-policy rule-making by CMS, not interference with statistical agencies (BLS, BEA, Census Bureau) or their leadership, methodology, data releases, or definitions. This falls outside the scope of the Statistical Agency Integrity signal entirely.",
       "severity": 0
     }
   }

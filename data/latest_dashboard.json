@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 13.86,
+  "average_7d": 13.46,
   "band": {
     "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
     "label": "Elevated Strain",
@@ -9,21 +9,21 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 9.0,
-  "delta_vs_7d": 3.58,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": 1.91,
   "domain_breakdown": [
     {
-      "avg_severity": 2.0,
+      "avg_severity": 1.65,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 11.0,
+      "points": 9.075,
       "weight": 22
     },
     {
-      "avg_severity": 0.0625,
+      "avg_severity": 0.0,
       "id": "judiciary_rule_of_law",
       "name": "Judicial Independence and Rule of Law",
-      "points": 0.234375,
+      "points": 0.0,
       "weight": 15
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.8833333333333333,
+      "avg_severity": 1.0,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.870833333333333,
+      "points": 3.25,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 1.3333333333333333,
+      "avg_severity": 1.2166666666666666,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 3.333333333333333,
+      "points": 3.0416666666666665,
       "weight": 10
     },
     {
@@ -85,9 +85,9 @@
     "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-11-08T12:25:11.577640+00:00",
+  "generated_at": "2026-11-09T12:28:50.043595+00:00",
   "methodology_version": 2,
-  "previous_score": 8,
+  "previous_score": 17,
   "primary_sources": {
     "documents_confirmed": 3,
     "documents_fetched": 10,
@@ -98,64 +98,54 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 17,
-  "score_raw": 17.44,
-  "score_raw_pre_trip_wire": 17.44,
+  "score": 15,
+  "score_raw": 15.37,
+  "score_raw_pre_trip_wire": 15.37,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/US/doj-preemptively-sues-block-alaska-senate-results-republican/story?id=137512876",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQekhpNnRhMmk3WnMteVlLeVRYT2ZMUGRnRkJmSlJxUU9TUm1GN1ZEYWp5SFRqS20tSWVtQWpUMF9VaWd3U1FFRUd1TDRBMk9UTXhpMkhHTlE4NnQzZDEyRjUxQ3lkYlVkZHAxTS05MjJkbDA2VXFNQVBhcGdmUVJ3LTRHTjBScTBucno5Y0NhazNCeWdiLWpJMUlTRjF2Uk5zRzE2SNIBqgFBVV95cUxQUEZqTzdWbGhCLTVzd1J1VlI1cUxOOWFyLXZIbDI0TnA1YXlWQXgyMTFtaXRMdE9jbTIzTXdkUmpXMzJkejdKeHlXc2lHYWVJd2t3WFVVTmNwS05BT2wzTjhkeW0tZ3FpU0Z5aUxmOFFCMWNydkk1S3hPT09xT2w1WWdjdG5ybXRhWl9FZV84TG5kOWM0YkZwNVVYWU9keUFfZWF1ZVIwRUs3UQ?oc=5",
-          "published": "2026-11-07T00:21:57+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump told DOJ to sue to block Alaska Senate results if Republican narrowly loses - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 4,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "Trump directing the Department of Justice to sue to block Senate election results based on partisan outcome represents a direct attempt to use federal executive power to overturn or invalidate election administration and results. This is a verifiable action (Trump directing DOJ) to subordinate election administration to partisan control by invoking federal litigation authority over state electoral outcomes. This constitutes serious, confirmed action to capture election administration through executive branch pressure on the DOJ to intervene in state elections on behalf of a political party.",
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 3.0,
-      "severity_label": "Orange",
-      "unique_publishers": 1
+      "severity": 2.65,
+      "severity_label": "Yellow",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 1,
       "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
+      "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
-          "published": "2026-11-07T04:29:22+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://www.newsbreak.com/combat-rated-361333999/4993353485691-rep-becca-balint-defends-congress-s-oversight-powers-after-trump-orders-doj-probe-of-democrats-we-will-not-be-deterred",
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNTDVOZldhOW9NSFlKOGVFTDloUDZZcWxEOFh1LTlJaDNoME14RWFtLTRZWXhPMzU3bTk4ZGJsdHcwSXI3RHFlNFdrN0Rtc3ZzLXhFdk9BWk1yTEVUeEU5bFBHVVp4ak5Vdl96VVdWVnJXU3RQYmFQTnpvdHdkRWMtaDJwTllPQ252WDFQeFp1dGdycVplb3VrY3V3Vm9rUDF6Vno2NEd6NV9XRld2eExiOWV3TDQ1cmNwZm9pRVlFc0ppYmM2alFlVDRPMWZnWkd2U0JHOEVyTGgzUWpvd19IZ2k2VkFVSnBrVXdjX1lEQkc1Q3FhWmtPd0RVUnZHYV95NDdfTWhoUEJwSEQwdUE?oc=5",
+          "published": "2026-11-08T07:30:42+00:00",
+          "publisher": "NewsBreak: Local News & Alerts",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+          "title": "Rep. Becca Balint Defends Congress\u2019s Oversight Powers After Trump Orders DOJ Probe of Democrats \u2014 \u201cWe Will Not Be Deterred\u201d - NewsBreak: Local News & Alerts"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 3,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
+      "hits": 4,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
+      "primary_source_url": null,
+      "rationale": "This item reports that Trump ordered the DOJ to conduct a probe of Democratic politicians. If accurate, an order to the Executive Branch to investigate political opponents represents a unilateral executive action (directing an agency without new statute) that could bypass or preempt legislative oversight. However, the severity is limited to 2 because: (1) the report is from secondary news coverage, not an official DOJ announcement or executive order text; (2) directing investigation of political figures, while constitutionally concerning, is not yet confirmation of a completed structural bypass of legislative authority, merely an exercise of prosecutorial discretion under existing Executive power; (3) Rep. Balint's statement confirms congressional awareness and pushback, suggesting oversight mechanisms are still engaged. This merits a credible stress signal but does not rise to severity 3 (serious, confirmed high-severity action such as open defiance of a court order or removal campaign) without further evidence of systematic dismantling of legislative authority.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
@@ -170,14 +160,14 @@
           "canonical_link": "https://www.wonderwall.com/politics/purely-partisan-federal-judge-orders-trump-admin-pull-three-taxpayer-funded-ads-featuring-president/",
           "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPb21LbVZkbUhpdjBpV2xNUVFZRmZ3ZUhnTVkxcEJ1SFBZS1dCem1iUU94U0tHQzNQZl8tdVRMU3hIdjFQWXhoZUtxWmpnSEJULThzSUE0MGhqODNCN1pSYUVPaVVKZ3g4RE01LWVYbUk5cklFTVdobko1M1U5X0VZekxmOXpiY2RUVGVwNGxIck9vU3FKSWhJdUNCc0NtcmVVaGlHaXJIVE9uYmpPTW1UdGtVc1B3WTNVUUJjLWFsd3ctVHpKUUd1S1l6ZU9qWjBPdFE?oc=5",
           "published": "2026-11-08T09:07:00+00:00",
-          "publisher": "www.wonderwall.com",
+          "publisher": "Wonderwall",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "\u2018Purely partisan\u2019: Federal judge orders Trump admin to pull three taxpayer-funded ads featuring the president - www.wonderwall.com"
+          "title": "\u2018Purely partisan\u2019: Federal judge orders Trump admin to pull three taxpayer-funded ads featuring the president - Wonderwall"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 2,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
@@ -193,40 +183,22 @@
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
-      "domain_id": "executive_constraints",
+      "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/appeals-court-blocks-construction-white-house-ballroom/story?id=135459043",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSW5aYzhFSU9YYUZ6dWtZZ3IxSXgxcXRkU3ZmX3dPeFdtOUpVRDFjMjNzTzB0SEptMnFxUkFtWmFXamYwenRTMTdoaVdYTU90OVlEd3V3blBqVVQtREx2NzJfT21ab012SE5kSVNjTzJGRkVfRklBcWt1WmhVX2RBdjA0V2JVdXlsVXU0NHNmTUtsdkh4ZjlpcUp1YzHSAaIBQVVfeXFMT1dUdHR5em8zNThqVVhUYXpLMDYzQ2pqZ1NtdTR2MXJxaDBHR1pZd0trbUc3TzJ1OEhweVRtRjRhNEotUXdtcC1RTTFZdXF5LXVPQzlmcUUyVW5JTWs2ZTBLRE1ZVDh3U3E5YVNPaHhxak1KZS1XU0JuYnpXaEhqb3RwMUZmc3ExYmN2NEhaMnBHMmRhSUMtY1RTTm1KU01VcVN3?oc=5",
-          "published": "2026-11-07T05:54:20+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://www.myjoyonline.com/media-owners-must-invest-in-training-safety-and-fair-remuneration-kwakye-ofosu/",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbXNDcng1Z1ZhZ1dwZjREUFY1WXlLbTN0Zm96Y2pQX2lXaUZUVEFUZER1TFpodUo2T1hkcjh0UmpudFVMdFdQal9WQktDZzQtM0tqRERGRlJldVdmVldMQWkxa3lXcE1Pb2RfX2JlTUtxME96bU1sYVdCOHB0VmtBaTNQWWh5QlNkZzhUUWp6d0VKbzRwc2RicE81MkwzZ0lObTlmSmIzMEdFdFk?oc=5",
+          "published": "2026-11-09T05:28:31+00:00",
+          "publisher": "MyJoyOnline",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Appeals court blocks construction of White House ballroom - ABC News - Breaking News, Latest News and Videos"
-        },
-        {
-          "canonical_link": "https://timesofindia.indiatimes.com/world/us/us-mid-term-elections/news/democrats-take-back-congress-after-republican-wipeout-what-lies-ahead-for-trumps-final-two-years/articleshow/135606850.cms",
-          "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOMjFVWU9RYy1sYmFHNGszamxsMzhjdkx3VUNsMldCakY3dkF6Q280Tjh3ZzBPSEZXTjdiYzRneldWTHd1YklGS3F0R2tnSXZTaFBNMlZ1NmNsYWtNWDZDRzcwS1hzMDhfNV9zSjBxRHY5ZVNOUTlFUElCaFg3U0xrbzgydnM2VFFvWmRiQ280WENPenU3aTlISHNZMFZDTXhXRTBjMEprN01WVndDeUlFNlVTSWNVM1UxQkZTcTRDZlJQS1V2b3hfVzE2dWd3SFN6NzVub0FIMkhsWGlmYXNBY2hDN1JiY0l1cTJwN1FUbTJFOHdhZ0drUnpSVDcwYWdEOTZYaVg2N1l0QnNsaXJycjFnUURrX0Iya3kwdkN3TQ?oc=5",
-          "published": "2026-11-06T12:31:00+00:00",
-          "publisher": "The Times of India",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Democrats take back Congress after Republican wipeout: What lies ahead for Trump\u2019s final two years? - The Times of India"
-        },
-        {
-          "canonical_link": "https://timesofindia.indiatimes.com/toi-blogs/beyond-borders/in-foreign-policy-why-donald-trump-is-not-a-lame-duck-president/articleshow/135629858.cms",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONlpBbmRoT2Qydll0ZEg0WVVSMzdYc2dCZ1pVcTNpX2JpUWhHN095WEpfbEhPTkE1N0xKenVVUjVGMG9JTF90WjFycF9oajNtTHhqblo3MFp5UzVGUzBOSzRGV2JzN2t3R0pSNnVXLVo5bUNjaF80dmgxSFJCeUlfNzNSRURqVW1HblBiLUJDMjctRnBPMUhrYVc2U1MwREQ4V01rNUFwSUViRWpBUVhxcW1ZTU1VblF0bEtvT0dUQmlSS0lCem9aX2xiUmFFTm9zZUlPQTNudE9PMnFGZVBfOTlvdlI?oc=5",
-          "published": "2026-11-07T07:25:00+00:00",
-          "publisher": "The Times of India",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "In foreign policy, why Donald Trump is not a \u2018lame duck\u2019 president - The Times of India"
+          "title": "Media owners must invest in training, safety and fair remuneration \u2013 Kwakye Ofosu - MyJoyOnline"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 4,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
+      "hits": 1,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
@@ -293,35 +265,6 @@
       "hits": 0,
       "id": "election_certification_interference",
       "name": "Election Certification Interference",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "judiciary_rule_of_law",
-      "evidence": [
-        {
-          "canonical_link": "https://lawscot.org.uk/members/journal-hub/articles/keeping-power-in-check-judicial-review-parliamentary-sovereignty-and-the-rule-of-law-in-the-uk/",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNG9ncldweGtlemg4WGVOckdhdFhsYlFkRTNhbUVURXBLQVJ4cU1JNEx1azIta2hUYnJFVEE4UWVibXlKNzFiQWFWWDFORHZRSnZqckdzWnl1dnBNN1U3WHJLU2Y0S0xfczRvTDlyXzQzZFF2VGY2aDU4a3VkZWhzU0ZUOXRrV3hWWWJCQW1TTkVpQUV6ZTVtUkZfUmdhQzdoUTFoUXBGc1JrdTJCREVKZU9CeHh6TC1SX0NvRUw0OXl6bk5uYXRpX2hlMDk1LTUwYk5HSS1pRmdJMXdPNFJBMA?oc=5",
-          "published": "2026-11-06T15:55:29+00:00",
-          "publisher": "Law Society of Scotland",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Keeping power in check \u2014 Judicial review, parliamentary sovereignty and the rule of law in the UK - Law Society of Scotland"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "judicial_review_foreclosure",
-      "name": "Judicial Review Foreclosure",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
