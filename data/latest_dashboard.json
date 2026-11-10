@@ -1,22 +1,22 @@
 {
   "attempted_queries": 25,
-  "average_7d": 13.46,
+  "average_7d": 12.74,
   "band": {
-    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
-    "label": "Elevated Strain",
-    "max": 29,
-    "min": 15
+    "description": "Normal democratic conflict and routine legal contestation.",
+    "label": "Baseline Institutional Noise",
+    "max": 14,
+    "min": 0
   },
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -2.0,
-  "delta_vs_7d": 1.91,
+  "delta_vs_7d": 0.32,
   "domain_breakdown": [
     {
-      "avg_severity": 1.65,
+      "avg_severity": 1.2999999999999998,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 9.075,
+      "points": 7.149999999999999,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.8833333333333333,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 3.25,
+      "points": 2.870833333333333,
       "weight": 13
     },
     {
@@ -85,9 +85,9 @@
     "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-11-09T12:28:50.043595+00:00",
+  "generated_at": "2026-11-10T12:27:29.660319+00:00",
   "methodology_version": 2,
-  "previous_score": 17,
+  "previous_score": 15,
   "primary_sources": {
     "documents_confirmed": 3,
     "documents_fetched": 10,
@@ -98,56 +98,37 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 15,
-  "score_raw": 15.37,
-  "score_raw_pre_trip_wire": 15.37,
+  "score": 13,
+  "score_raw": 13.06,
+  "score_raw_pre_trip_wire": 13.06,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 0,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
+      "evidence": [
+        {
+          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
+          "published": "2026-11-09T02:50:34+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 8,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
       "severe_hits": 0,
-      "severity": 2.65,
-      "severity_label": "Yellow",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 1,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.newsbreak.com/combat-rated-361333999/4993353485691-rep-becca-balint-defends-congress-s-oversight-powers-after-trump-orders-doj-probe-of-democrats-we-will-not-be-deterred",
-          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNTDVOZldhOW9NSFlKOGVFTDloUDZZcWxEOFh1LTlJaDNoME14RWFtLTRZWXhPMzU3bTk4ZGJsdHcwSXI3RHFlNFdrN0Rtc3ZzLXhFdk9BWk1yTEVUeEU5bFBHVVp4ak5Vdl96VVdWVnJXU3RQYmFQTnpvdHdkRWMtaDJwTllPQ252WDFQeFp1dGdycVplb3VrY3V3Vm9rUDF6Vno2NEd6NV9XRld2eExiOWV3TDQ1cmNwZm9pRVlFc0ppYmM2alFlVDRPMWZnWkd2U0JHOEVyTGgzUWpvd19IZ2k2VkFVSnBrVXdjX1lEQkc1Q3FhWmtPd0RVUnZHYV95NDdfTWhoUEJwSEQwdUE?oc=5",
-          "published": "2026-11-08T07:30:42+00:00",
-          "publisher": "NewsBreak: Local News & Alerts",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Rep. Becca Balint Defends Congress\u2019s Oversight Powers After Trump Orders DOJ Probe of Democrats \u2014 \u201cWe Will Not Be Deterred\u201d - NewsBreak: Local News & Alerts"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 4,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": "This item reports that Trump ordered the DOJ to conduct a probe of Democratic politicians. If accurate, an order to the Executive Branch to investigate political opponents represents a unilateral executive action (directing an agency without new statute) that could bypass or preempt legislative oversight. However, the severity is limited to 2 because: (1) the report is from secondary news coverage, not an official DOJ announcement or executive order text; (2) directing investigation of political figures, while constitutionally concerning, is not yet confirmation of a completed structural bypass of legislative authority, merely an exercise of prosecutorial discretion under existing Executive power; (3) Rep. Balint's statement confirms congressional awareness and pushback, suggesting oversight mechanisms are still engaged. This merits a credible stress signal but does not rise to severity 3 (serious, confirmed high-severity action such as open defiance of a court order or removal campaign) without further evidence of systematic dismantling of legislative authority.",
-      "severe_hits": 0,
-      "severity": 2.0,
+      "severity": 2.3,
       "severity_label": "Yellow",
       "unique_publishers": 1
     },
@@ -157,13 +138,89 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.wonderwall.com/politics/purely-partisan-federal-judge-orders-trump-admin-pull-three-taxpayer-funded-ads-featuring-president/",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPb21LbVZkbUhpdjBpV2xNUVFZRmZ3ZUhnTVkxcEJ1SFBZS1dCem1iUU94U0tHQzNQZl8tdVRMU3hIdjFQWXhoZUtxWmpnSEJULThzSUE0MGhqODNCN1pSYUVPaVVKZ3g4RE01LWVYbUk5cklFTVdobko1M1U5X0VZekxmOXpiY2RUVGVwNGxIck9vU3FKSWhJdUNCc0NtcmVVaGlHaXJIVE9uYmpPTW1UdGtVc1B3WTNVUUJjLWFsd3ctVHpKUUd1S1l6ZU9qWjBPdFE?oc=5",
-          "published": "2026-11-08T09:07:00+00:00",
-          "publisher": "Wonderwall",
+          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-11-09T01:40:50+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "\u2018Purely partisan\u2019: Federal judge orders Trump admin to pull three taxpayer-funded ads featuring the president - Wonderwall"
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
+      "id": "press_restrictions",
+      "name": "Press Restrictions or Retaliation",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
+      "severe_hits": 0,
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://www.diplomacyandlaw.com/post/pete-hegseth-impeachment",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsbm1ocnBFUG5nSnhCMTAwLUVseFJfdWNfaDZGTlZZNEYtS3gtc1RoaE10dGpRREYxaF9MYjNjaHZfaEthRnlNUk5raGltem5JdXM5c0ROdk02aHJvWE9yX0d0c0hfWUh5bzFGTjFR?oc=5",
+          "published": "2026-11-09T22:39:58+00:00",
+          "publisher": "Diplomacy and Law",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Pete Hegseth Impeachment: The International Law Issues Behind Massie\u2019s Eight Charges - Diplomacy and Law"
+        },
+        {
+          "canonical_link": "https://pmnewsnigeria.com/2026/11/09/adc-an-opposition-at-war-with-itself/",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82UTl0VnphNjNXMWg1OTRJTEVTQnNQdmJNNkdqcDJOUkh3Z0RsLWdhaVo3VUt3SnBFQ3F0Qk5nYVFtX0FhblVMY3BJMWNnWURLWlhtdnE4U0lzVlBxUkpKaEgtQlVISlp4LS1CVDVkbWpmUFdyQUhkVXBCV2s0dDg?oc=5",
+          "published": "2026-11-09T08:03:08+00:00",
+          "publisher": "PM News Nigeria",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "ADC: An Opposition At War With Itself - PM News Nigeria"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [
+        {
+          "canonical_link": "https://www.news24.com.au/politics/australian-politics/taxpayerfunded-climate-unit-accused-of-promoting-propaganda-through-material-urging-organisations-to-share-labors-net-zero-messaging/news-story/24133dcc6aeca7f5c99d66d1f6a90b5a",
+          "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOeVkyNHVlUW9iMi1EQ3pidVhTaDFGTWdMYTFfRW9JUmV5Y0xmR2ViTDJPNXNnX2pGVll6WjZuWjFZbURJQ014S25FMDRLdjRfMnpwRll1aHpvLTVDUWp6WUhQUkZWb1VKbWxJY3BMN2k2LUxLbXIyek5zblh3VjctQ08tNmw4bDRvRFFybEF4anBFVmc2ZENIMjdMemw0cnpMZ0VYZjR4bzIwT25aWVViQ3dmc004SXJjWnM0QUNQRVgtTThvWmRweGFYMF9OSHlra0Y3QUlWQUR0MWFzcmpnLVEtR3piNXJGVkx4YlRjcmFYcGpzTlZac09xYkNlTUVyZE55QnptSmFNN0lyOXJfUGRITmdxQ1hCdVYxdjh2UVVlb3pkMFJOdG9lZXlmN2ozeWRoTGxndEJYelhJOTlMMHdiR004MndXaEM0WDFzeGTSAdYCQVVfeXFMTTlPamprcTFweWZ2OU5LQVN3Y0NnWEY2dV95UmFsc1lQMEZyd2xIbk5XVkR1V2lJYlFydmVSTTVlR3U1VzVKZzdVRTNwQ3V3Wi0wYXFwYlJkd25IZ251M0Y4NERpWHFjbi1HM2p3TlpXVXZIVDdoRzcyN3JnMWJJR3o3cmRWY0RiSmh5cGY3amVQT25KdDFQYlRVQmZPRG5LaDdIU1ZBQkF4TnJmNEhXVHBuTjFQTVNFM0RnYWFPYmdlV2I3NUMxMmpIaDc4Y3paRUlHNUJGWWE1WWVWclc5RVczeTR4S0hPa3FXejJuU29nQW16aVBLZ3ZWT0xzQWNuZEJTdWZDd094WEFMR1dWeWJkcFpYSUJsRVNrYlh2eUhVVU5TTGMwLVdwcHNkcG83dmNZbzByc1hpQUxfeGxXN0pYVzdueDJ1U2JnVjlwbXA4cExkV0h3?oc=5",
+          "published": "2026-11-09T01:35:51+00:00",
+          "publisher": "News24",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Chris Bowen\u2019s \u2018Orwellian\u2019 net zero propaganda exposed in department talking points - News24"
+        },
+        {
+          "canonical_link": "https://www.gazetaexpress.com/en/Judge-orders-Trump-to-pull-taxpayer-funded-ads-promoting-the-president/",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS201alFiSnZ0eUVJSWltRHUwZnQ2N19Ob1Q1MUxDMVlEMDdiSUhqWWIweTlRQjAtWk5NaTFfSWZ6OGRjS1R2ZTlXTG5LTno1QWtaV3k3dHFTekw5elhaV3l2VUpnbHlBNGtaaTRjeTdHYmpwVU50VklINWhZZXlIbDR5b3pwdTh3SGFNY28wTXF4TTNRWGVON0R4ZGQwNllnb3JJMExPTQ?oc=5",
+          "published": "2026-11-09T14:53:15+00:00",
+          "publisher": "Gazeta Express",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Judge orders Trump to pull taxpayer-funded ads promoting the president - Gazeta Express"
         }
       ],
       "evidence_mode": "ai",
@@ -173,38 +230,9 @@
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "www.wonderwall.com",
-      "rationale": "The item reports that a federal judge has issued an order directing the Trump administration to pull three taxpayer-funded advertisements featuring the president, characterizing them as 'purely partisan.' This represents a real, confirmed instance of public funds being spent on communications that promote the officeholder in a partisan manner\u2014the core of this signal. The judge's order indicates that the ads violated the statutory bar on using appropriated funds for 'publicity or propaganda purposes' as interpreted by GAO. This is a contained, specific action with judicial confirmation rather than a structural constitutional failure or systematic pattern. Severity 2 reflects that this is a credible, confirmed stress signal of real but bounded significance\u2014a judge had to intervene to stop the conduct, which demonstrates both that the violation occurred and that existing legal checks functioned to address it.",
-      "severe_hits": 1,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://www.myjoyonline.com/media-owners-must-invest-in-training-safety-and-fair-remuneration-kwakye-ofosu/",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbXNDcng1Z1ZhZ1dwZjREUFY1WXlLbTN0Zm96Y2pQX2lXaUZUVEFUZER1TFpodUo2T1hkcjh0UmpudFVMdFdQal9WQktDZzQtM0tqRERGRlJldVdmVldMQWkxa3lXcE1Pb2RfX2JlTUtxME96bU1sYVdCOHB0VmtBaTNQWWh5QlNkZzhUUWp6d0VKbzRwc2RicE81MkwzZ0lObTlmSmIzMEdFdFk?oc=5",
-          "published": "2026-11-09T05:28:31+00:00",
-          "publisher": "MyJoyOnline",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Media owners must invest in training, safety and fair remuneration \u2013 Kwakye Ofosu - MyJoyOnline"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "press_restrictions",
-      "name": "Press Restrictions or Retaliation",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
       "primary_source_url": null,
       "rationale": null,
-      "severe_hits": 0,
+      "severe_hits": 1,
       "severity": 1.65,
       "severity_label": "Watch",
       "unique_publishers": 0
@@ -254,25 +282,6 @@
       "severe_hits": 0,
       "severity": 1.0,
       "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "elections_transfer",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "election_certification_interference",
-      "name": "Election Certification Interference",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],

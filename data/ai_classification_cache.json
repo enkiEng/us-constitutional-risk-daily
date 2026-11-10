@@ -1226,6 +1226,16 @@
       "rationale": "Item describes routine re-election campaigns by sitting state board members. This is a normal electoral process, not evidence of election administration capture or partisan control of election processes. It does not constitute a real occurrence of the signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMkE0V0g5VkhKRmVLLTBMN0tGaEN6S05aVE5LRy1nZ01nbmZFczBtSmlBSkg3NE9YVUd1amF6a0EtLUJMVzRyejVMck1kei1rNXk0QmRJLXVjZkxjUGU0LW1FYTFROHh0MzdMRUJQVThsUG9CX2FwLXc5VFl3Rm1iX1p6WEtMSUdhOVpmTWJhZExFRUtpdWNwbk1vSC1uTExMNUVpaFQ4U1pXdll4UFZFLTNqazE3OTFMV0VCc2F5R2hUcUlkR1NvMDdnRkxPRXQxWExfcFpNMEVnVzR0NDVScDJHNjQ?oc=5": {
+      "actor": "Georgia voters/Democrats",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item reports election results showing Democrats gained control of the Georgia state House. Electoral outcomes and shifts in legislative control are routine results of elections, not evidence of capture of election administration itself. No actions by election administrators or partisan weaponization of election machinery are described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdmdIZHhGaG1IcWJWYW9IMHh2MjB0UmFJcWc3c2czTjNxNUwtcGJjYmJRYy1mdzJTRTNTMDJYeVFYMS1JZmlYWDJFdm9NX2VQNEJENnZFMGt3RnFtNUpnSTI0TTlMN3lKY084OGZ1dnFqUnlpQ25Ld1lSVEZHVS1JTkNMcldraTI5QW44Q0ZxekZWNFBzMWEwOG1MNXNWNUx1bHNiNVoxS3A5TGMtNnI1REM1LTBhZE5tVFFKOWhIWDZiemlOVmRZR0RKUUpJRmxzT0VMd2FhcnFnRUNzaHRiYzl6WUc?oc=5": {
       "actor": "Florida state election administration",
       "confidence": 0.72,
@@ -1396,6 +1406,16 @@
       "rationale": "Item is a hypothetical legal question ('Can President Trump Do That?'), not evidence of an actual event. The title itself signals analysis/commentary about potential future executive actions, not a documented instance of election administration being moved to partisan control. No verifiable occurrence is reported.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aUEhMZjZyYlU4a0hnUHJCLVA0X2YwbTlvQ0lCR1hXdnJQOUN0dGZKNjhfUzIwYnJoQVYyYXM2Vmh6T0gtd09CbU9JdWRaenlZRjJ1d0RyUkZJTEU?oc=5": {
+      "actor": "Republican Thomas Massie",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item concerns a congressional impeachment motion against a Defense Secretary. This is unrelated to election administration capture. Congressional impeachment votes are routine constitutional instruments and do not evidence partisan control of election administration.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hVGhDZVlubUViVVUyNmR6OFpWUDVmY05ROEtuLWJnMVRKdk9xeWdsdVBsZjVJRmpQTmhUV190ZTdkTlkyLVNSbnlLcDJxVFFNT1pKS1hCWGg?oc=5": {
       "actor": "Trump",
       "confidence": 0.95,
@@ -1525,6 +1545,16 @@
       "primary_source_url": "",
       "rationale": "This is a Democratic House member's call for removal of the Postmaster General, alleging the USPS is being turned into an instrument of voter suppression. The item reports an accusation and a political demand for removal, not a verified action or confirmed case of election administration capture. The article reflects political rhetoric and a proposal, not evidence that election administration itself has been captured by partisan actors. USPS operations, while important to elections, are not election administration proper.",
       "severity": 1
+    },
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnaFVFcXpKSHZJQUJ5T2xsT1B0U2xaSDc2WUhPUkJLcFFwcVRpUWxSd2gxZ2R0SEZYd2cxTlJIN3FqaG9vNUlWUTN1TWtvZXFoLXdELXJrWS1MQTE0OE01ZDdUV2l6NjF5Z19r?oc=5": {
+      "actor": "New Mexico election administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item is a bare results summary with no substantive content provided. Election results reporting is routine administration, not evidence of capture or partisan control. No specific action or deviation from neutral process is described.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11RlB0LWEzWnhpR2FxOS1nVU8zQThVS2wtemRWZzMzcTZodFVORlV2NG44N2xXY3BjN25ibU1PRFN2MnZFN0ZTdVBPXzFTa1l4bk10RXdLeFg1cDVWalBwVW4waDgtZnZW?oc=5": {
       "actor": "Trump administration (alleged by opinion outlet)",
@@ -2116,6 +2146,16 @@
       "rationale": "This headline describes an alleged secret effort to influence ballot composition in Alaska. Even if true, this is a campaign strategy allegation, not evidence that election administration itself has been captured by partisan control or moved from neutral process to partisan hands. Ballot composition disputes are separate from administrative capture. The framing suggests the article reports allegations rather than confirmed administrative takeover.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRzgzblpkRDluTkM3NkNoVy1WR2JDNEhLSGlvdW5kM3BDNmxoZTMxS01aNjVya2ZOcy1IWnFmVzVES2Ztb0d5SFA4Tk91QnhtRlF3eEMzU2kxQkpVZDhNSWhXNlIyaVc1bHQ3RVh3Mng4ZTBiTjFVZWdCMEZuclBFTGRaa3kzRlNBUGQ4Z2dzLUZXMzBN?oc=5": {
+      "actor": "Texas Democrats",
+      "confidence": 0.97,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item describes bill filing by Democrats in the Texas Legislature during a legislative session. This is routine legislative activity, not evidence of election administration capture. No specific action affecting election procedures, electoral neutrality, or administration staffing is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbWo3aTBQVUFXRkVCcjhpLVZmamF4VkN5b05jTFBXQXhralRTdDI4cnFvUDBNMGM3WkFBbWpTclFjR2JYZURZdHB2UWpsOVo1Zm5xSDU1aDVnaGd4RTB1YWVkLVV2LXVpT0g1ZGJUeGVkNkpGeFRkMDYyZHFOYlR0aDJudWJxcDlBVG9WenRxeVNSWmJxb0tV?oc=5": {
       "actor": "Texas state government",
       "confidence": 0.95,
@@ -2174,6 +2214,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Summary headline for Reuters domestic news digest. No specific content provided; unable to assess. Generic news summary with no evidence of election administration capture.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxONW51OU1MbHRacTQybWxrSlQ1UTZVM3poWEcyQjRYc1VWaXFCRTlmSV9xYjZCMkhUQnlNTjZUcVE5QkFNaTBldFQzVy1ESUZLV183cmpicEhYVjdmcmR4RHczaXZUdmx6X19VaWsyYnlLaVQxYk81YVpBYlpmbzNMbUpUeklJNFlrcEp0YVBkMmdzWURxOWx3ZUQ2MF8?oc=5": {
+      "actor": "Trump (commentary)",
+      "confidence": 0.97,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Item reports Trump's statement about midterm results and his characterization of them as a 'giant step back.' This is political commentary and opinion about election outcomes, not evidence that election administration was captured by partisan actors or moved from neutral process to partisan control. No specific action affecting election administration is described.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOWtWczRZOWJPWktDc2hlTnJBeUJqT0dsSXdKbDJWVF9kdGxITXlnLXQ5N0tVdUVxRmUtVmdsTlhfVmktd1YyS1RHbXFjMFA2TGY5OTRVV0F6UmtNbXdLX3JqT05veGwtbThwZ2lrSFZDTDZvRS01NzByeHBTcUVYLVpja09nRUROdzY3eDZSOFp4RElTakpvc3c4NHI?oc=5": {
@@ -6844,6 +6894,16 @@
       "rationale": "This is a generic legal guidance article about DEI grant litigation, not a news report of a specific event. It does not describe any executive action bypassing statute or shifting governance to unilateral executive authority. It is informational content about ongoing lawsuits, not evidence of the signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsbm1ocnBFUG5nSnhCMTAwLUVseFJfdWNfaDZGTlZZNEYtS3gtc1RoaE10dGpRREYxaF9MYjNjaHZfaEthRnlNUk5raGltem5JdXM5c0ROdk02aHJvWE9yX0d0c0hfWUh5bzFGTjFR?oc=5": {
+      "actor": "Rep. Massie",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on proposed impeachment charges against Pete Hegseth. Impeachment charges, when filed, are formal legislative actions but remain a proposal unless and until the House votes to impeach. The item appears to be analysis of legal issues surrounding proposed charges, not evidence that an executive action has bypassed legislation or that governance has shifted from statute to unilateral executive action. An impeachment proposal does not constitute a bypass of legislative authority; it is itself a legislative mechanism. No verifiable legislative bypass or unilateral executive governance action is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMicEFVX3lxTE43VnVCS0VjSjREdmF4UkpmU24tVlEyeDE5UUF4MWIyS1kzR0xkLUsxaHhFckJMY0x0U2xHNXFLcWVkUnhoa2o2MTNHOVFmRU15SVp6TWRhQzFFWHgtWG9sbDFrUlJvaXRCdV8tMXF4Um4?oc=5": {
       "actor": "Unknown",
       "confidence": 0.85,
@@ -8125,6 +8185,16 @@
       "primary_source_url": "https://www.rawstory.com",
       "rationale": "House panel unanimously votes to hold billionaire in contempt over Epstein probe subpoena defiance. Real legislative action documenting obstruction, but isolated to one individual's case. Severity 2: credible, confirmed stress signal (single contained instance).",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfXzBHM1R4S19pUVBSUnRGVHF0RG1uM2hTcnpPSldLdDBFUDd0cWVuRndrM0o4dWZwY0piY1oxNUZ6SzhXbVBvLXZnZGRMNHZsd2hyMjA3a3B6RUVUeF9tZkNtMXA3N2RMMWh30gF-QVVfeXFMTXlqMVBJTV9TNjVUUEE2aWFLQ0VvNWtaQUwzRlQzaW15d0N6SUFicU1JYjFSamtEZnQ5c0NmS0JtU3hnLXM4Yk1pc3lsaVdmc3lsU0Njb3Q4LS1MRkxTMERtWEc5Y21QZjBWZXdfYm9oclhSRnJrSGE1VW9qekhB?oc=5": {
+      "actor": "Democratic Party members",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This article reports Democratic discussion of hypothetical strategies ('outlined,' 'looming') to address a potential future subpoena defiance by Trump. The item describes proposed countermeasures to an anticipated action, not a confirmed occurrence of legislative obstruction. No actual defiance of a subpoena, no systematic barriers to fact-finding, and no confirmed obstruction event has verifiably taken place. This is forward-looking political commentary about how to handle a hypothetical scenario, not evidence that an obstruction event occurred.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJelNWVXItVlBqeEdhbVVDLUN2Q2hJZjd4MHhrdmpHaDJ1Sjd6ZjZsQXpuVnNjZkJ4ejFZWTNiaGZqZUJ1bUc4UXpZQW0zZjZrR3lFN01XTWxub3ZYSU9oSXFBclF1UEtfMVJqdW50UTFtVms?oc=5": {
       "actor": "Leon Black (private citizen)",
@@ -14130,6 +14200,16 @@
       "rationale": "UPI reports DNC sues Trump over use of government funds for political ads. High-credibility wire service. Lawsuit is real and matches signal. Severity 2: legal challenge exists, not yet adjudicated or officially confirmed by government.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS201alFiSnZ0eUVJSWltRHUwZnQ2N19Ob1Q1MUxDMVlEMDdiSUhqWWIweTlRQjAtWk5NaTFfSWZ6OGRjS1R2ZTlXTG5LTno1QWtaV3k3dHFTekw5elhaV3l2VUpnbHlBNGtaaTRjeTdHYmpwVU50VklINWhZZXlIbDR5b3pwdTh3SGFNY28wTXF4TTNRWGVON0R4ZGQwNllnb3JJMExPTQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.05,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "Gazeta Express",
+      "rationale": "This item is a headline-only summary with no substantive reporting or document. The date (2026-11-09) is in the future relative to the knowledge cutoff and cannot be verified. More critically, the item provides no verifiable reporting: no court name, no judge identity, no case number or docket, no link to an order, no detail on what ads or what agency funds were involved. A judicial order, if real, would be a direct application of the signal (a court finding and ordering cessation of public-fund misuse). However, without access to the underlying court record, the court docket entry, or credible reporting with specific details and sourcing, this cannot be treated as confirmed evidence of an actual occurrence. The item is too sparse and unverified to serve as reliable evidence.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZDlpTmFNd1IwREdDeVNFcnVFSThEZ2xOazdOakxwdUVqczByekptNFFmeDRCelhmejhDRnF3TGZ5c3ZqWDNkSDA2TUZIZmsxUkJZTEY2OTV4Ukd5ZHVpMkNRVHY5aWhVcm13WkJZanFXZTg0cFEzZGp1V2M1SHdmbmhfZmJVUUVPdEgzUUdleVdJcFhTb0h0SkZRQ2NrREY1bXBFdGJNRdIBrAFBVV95cUxOU2hjZ3JITUlGaDB4TXZLSUVWNnp4TWdmdHp1emdFcC1YRTA1dGdxR2NCNHJKQlYyZ0RjZ1BrNWFjWFJrM1FSUGdrQmsyc3RsVUhNemI0OTZVeUIyd0s3dXFkQWIyRHRxUFpwWk9MTURrTExkN0kzNU04SFV4UUs3cGdJVFZSSGZlN0VNVDFwYUhvS0xOZUZQSF8zNTMza3VHcFdvTUZUWHdxZTR2?oc=5": {
       "actor": "Trump administration / Department of Homeland Security",
       "confidence": 0.7,
@@ -14826,6 +14906,16 @@
     }
   },
   "state_election_preemption": {
+    "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSWNwclZqMUVycENmMzU4LVBMWTVkZGVIQ182dF9PSHNHNTZvVjVqSXlXeHJxaGkxdHdwMHVGZ3pBeVYxeGVkTm5VY1NpUDZYZ2JTVUxpT1Z4VG9mOTZPYW94emdWRFA5RUItZkFCdURPVDBWU3lkQjhhOWp5Tm5wZ3FHQVVhYnRkT1lGSzlldS1EX241aTMyM1BhOUtlbWpiTVF3dmFaeDFHSVBac2lYaWxPY280ODlEU2tIbnNlU3NyMjN2X2ViS3MyazFyVm43OGVzTlhUOVBoZlZ5cFlqOVJYclhxYTlkRW82eWNQTlJSOWVRY3p6NHpzUdIB-wFBVV95cUxPSWNwclZqMUVycENmMzU4LVBMWTVkZGVIQ182dF9PSHNHNTZvVjVqSXlXeHJxaGkxdHdwMHVGZ3pBeVYxeGVkTm5VY1NpUDZYZ2JTVUxpT1Z4VG9mOTZPYW94emdWRFA5RUItZkFCdURPVDBWU3lkQjhhOWp5Tm5wZ3FHQVVhYnRkT1lGSzlldS1EX241aTMyM1BhOUtlbWpiTVF3dmFaeDFHSVBac2lYaWxPY280ODlEU2tIbnNlU3NyMjN2X2ViS3MyazFyVm43OGVzTlhUOVBoZlZ5cFlqOVJYclhxYTlkRW82eWNQTlJSOWVRY3p6NHpzUQ?oc=5": {
+      "actor": "Austin Police Department / Texas Governor's Office",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a local police department's decision to adjust its internal policies regarding cooperation with federal immigration enforcement (ICE) following a state election outcome. This is routine state/local administrative adjustment of law-enforcement protocols\u2014not a federal override of state election authority. The item does not report any federal preemption of state election administration powers, nor any extraordinary federal action displacing normal state election functions. The signal concerns federal usurpation of election authority; this item concerns post-election immigration enforcement coordination. No constitutional-stress event matching the specified signal has occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTk0xc2ZQSmQ2eVB2OXZia2gyd1JKTHNYQVhraFVSRlJHcnRoR3BsRzBaU0kyZUQydUpsaEt4RUhSR3hnWGFLUHNsTXhtYzZTUUJra2dBVGQwTGNfZGRYSUlrbWl6NTBQWjhCWlpfQXcxU0d1UXBxaENpZ1Z6dkpIQl9MN2ZVb19KZ3dxRVF0bmYxYlZkaTN5cGpwcmFoanRlXzE5bkdCZndoQ0E?oc=5": {
       "actor": "N/A",
       "confidence": 0.95,
@@ -16146,6 +16236,26 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22792/medicare-drug-price-negotiation-program-and-medicare-prescription-drug-benefit-program",
       "rationale": "This is a routine Federal Register final rule implementing statutory provisions of the Inflation Reduction Act of 2022. It involves standard health-policy rule-making by CMS, not interference with statistical agencies (BLS, BEA, Census Bureau) or their leadership, methodology, data releases, or definitions. This falls outside the scope of the Statistical Agency Integrity signal entirely.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/10/2026-22901/60-day-notice-of-proposed-information-collection-section-202-supportive-housing-for-the-elderly": {
+      "actor": "HUD",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22901/60-day-notice-of-proposed-information-collection-section-202-supportive-housing-for-the-elderly",
+      "rationale": "This is a routine Paperwork Reduction Act notice soliciting public comment on an information collection for a HUD housing program. It is a standard procedural notice about elderly housing application requirements, not evidence of political interference with statistical agencies (BLS, BEA, Census Bureau data production), removal of career statistical leadership, methodology changes made outside normal process, or suspended/delayed data releases. The signal concerns statistical agency integrity and official economic data; this document concerns HUD housing administration.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/10/2026-22933/membership-of-the-performance-review-boards": {
+      "actor": "Commerce Department",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22933/membership-of-the-performance-review-boards",
+      "rationale": "This is a routine Federal Register notice announcing the appointment of Performance Review Board members at various Commerce Department entities, including the Census Bureau. Performance Review Board appointments are standard administrative personnel actions. The document describes routine membership appointments, not political interference with statistical methodology, data release schedules, removal of career statistical leadership outside normal procedures, or changes to data definitions made without proper notice. Board membership announcements do not constitute evidence of interference with statistical agency integrity or the production of official economic data.",
       "severity": 0
     }
   }
