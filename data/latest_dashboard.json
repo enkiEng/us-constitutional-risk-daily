@@ -1,22 +1,22 @@
 {
   "attempted_queries": 25,
-  "average_7d": 12.1,
+  "average_7d": 12.51,
   "band": {
-    "description": "Normal democratic conflict and routine legal contestation.",
-    "label": "Baseline Institutional Noise",
-    "max": 14,
-    "min": 0
+    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
+    "label": "Elevated Strain",
+    "max": 29,
+    "min": 15
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -3.0,
-  "delta_vs_7d": -1.65,
+  "delta_previous_day": 5.0,
+  "delta_vs_7d": 2.48,
   "domain_breakdown": [
     {
-      "avg_severity": 1.0,
+      "avg_severity": 2.0,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.5,
+      "points": 11.0,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.7666666666666666,
+      "avg_severity": 0.65,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.4916666666666663,
+      "points": 2.1125000000000003,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.9833333333333334,
+      "avg_severity": 0.75,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.4583333333333335,
+      "points": 1.875,
       "weight": 10
     },
     {
@@ -76,7 +76,7 @@
     "election_delay_or_cancellation: courtlistener: HTTP Error 401: Unauthorized",
     "alternate_elector_scheme: courtlistener: HTTP Error 401: Unauthorized",
     "politicized_prosecution_opposition: courtlistener: HTTP Error 401: Unauthorized",
-    "opposition_ballot_exclusion: courtlistener: HTTP Error 401: Unauthorized",
+    "opposition_ballot_exclusion: courtlistener: HTTP Error 502: Bad Gateway",
     "court_order_noncompliance: courtlistener: HTTP Error 401: Unauthorized",
     "judicial_review_foreclosure: courtlistener: HTTP Error 401: Unauthorized",
     "independent_agency_capture: courtlistener: HTTP Error 401: Unauthorized",
@@ -85,9 +85,9 @@
     "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-11-11T12:28:28.207066+00:00",
+  "generated_at": "2026-11-12T12:29:21.926787+00:00",
   "methodology_version": 2,
-  "previous_score": 13,
+  "previous_score": 10,
   "primary_sources": {
     "documents_confirmed": 3,
     "documents_fetched": 10,
@@ -98,48 +98,39 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 10,
-  "score_raw": 10.45,
-  "score_raw_pre_trip_wire": 10.45,
+  "score": 15,
+  "score_raw": 14.99,
+  "score_raw_pre_trip_wire": 14.99,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 2,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://www.wthr.com/article/news/politics/elections/clark-county-reviews-ballots-indiana-senate-district-45-race-chris-garten-nick-marshall/531-f16d9acf-ffd8-4d78-8c1e-3615379542fb",
-          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNc01YRG5ZYVl5MmRtM1ZOdWFnVmE2NjRSdFljVGoyNk5LQUd0dXE5LVRkWVhnWVpqaDZOOEdfMnZyR1NnZzI2a0pHdTRvSkZydVNJQTBkeGtYNy00bEdJdWlCc1hkTjBtbERHeFlEWm1OTGxRMjZhU0VjZXBuWFQteVE1aHZROXhlRXBKb3ZRdU83dk43c0Rnd2pmcGFMTWt3Sms3eUNNYXcydHVPV0hyd2ozVzYxUVdCd1hsNGljdTZpaEE3eVZ6aDlQdWp0T3lndVJQZ0xpTmhQanowVDAtY3ZVejBab2ZBam5xQXlsM1lJOEtWUG1sMllualpvQnA0bFhFdG1jVnY3UXpNOHc?oc=5",
-          "published": "2026-11-10T23:53:00+00:00",
-          "publisher": "WTHR",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Clark County Election Board refuses to recanvass ballots after discrepancies in election results - WTHR"
-        },
-        {
-          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
-          "published": "2026-11-09T22:48:05+00:00",
+          "canonical_link": "https://abcnews.com/US/doj-preemptively-sues-block-alaska-senate-results-republican/story?id=137512876",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQekhpNnRhMmk3WnMteVlLeVRYT2ZMUGRnRkJmSlJxUU9TUm1GN1ZEYWp5SFRqS20tSWVtQWpUMF9VaWd3U1FFRUd1TDRBMk9UTXhpMkhHTlE4NnQzZDEyRjUxQ3lkYlVkZHAxTS05MjJkbDA2VXFNQVBhcGdmUVJ3LTRHTjBScTBucno5Y0NhazNCeWdiLWpJMUlTRjF2Uk5zRzE2SNIBqgFBVV95cUxQUEZqTzdWbGhCLTVzd1J1VlI1cUxOOWFyLXZIbDI0TnA1YXlWQXgyMTFtaXRMdE9jbTIzTXdkUmpXMzJkejdKeHlXc2lHYWVJd2t3WFVVTmNwS05BT2wzTjhkeW0tZ3FpU0Z5aUxmOFFCMWNydkk1S3hPT09xT2w1WWdjdG5ybXRhWl9FZV84TG5kOWM0YkZwNVVYWU9keUFfZWF1ZVIwRUs3UQ?oc=5",
+          "published": "2026-11-10T23:57:53+00:00",
           "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
+          "title": "Trump told DOJ to sue to block Alaska Senate results if Republican narrowly loses - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 7,
+      "hits": 4,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.wthr.com",
-      "rationale": "A local election board's refusal to recanvass ballots despite documented discrepancies represents a concrete action that removes a procedural safeguard (the recount mechanism) in response to apparent irregularities. This is a real action by an election administration body that deviates from neutral process in response to election results, though it appears to be a single incident at the county level without evidence of broader systematic capture. The action itself has occurred, though severity is limited to 2 because it is a contained local incident without evidence of coordinated partisan direction or structural capture of election administration across multiple jurisdictions.",
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "Trump directing the Department of Justice to sue to block Senate election results based on partisan outcome represents a direct attempt to use federal executive power to overturn or invalidate election administration and results. This is a verifiable action (Trump directing DOJ) to subordinate election administration to partisan control by invoking federal litigation authority over state electoral outcomes. This constitutes serious, confirmed action to capture election administration through executive branch pressure on the DOJ to intervene in state elections on behalf of a political party.",
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 2
+      "severity": 3.0,
+      "severity_label": "Orange",
+      "unique_publishers": 1
     },
     {
       "confirmed_hits": 0,
@@ -147,9 +138,9 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.journalismpakistan.com/how-journalists-in-exile-are-keeping-asian-news-alive",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbEQwaXNtaVRaYzFOZ25JcGxrTThjWGFKVkxFME40WWl6TXlrS3RMRTRGcnI4UVloWGl5eWlxbFdfM291NWp4UnhnTVd6RGVPYzMteXQ4Z2dzdU5wTHRrRkRYWkZSOGVSVDBtU21QMzVaLUFOMTFPSE5UTDRNQ2ZlaE5ObGhzYTZPMl9sQ0ROVm43UQ?oc=5",
-          "published": "2026-11-11T09:19:42+00:00",
+          "canonical_link": "https://www.journalismpakistan.com/how-journalists-in-exile-are-keeping-asian-news-alive/",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSUg2QXgtbGNyMGNWODgxX2d2bWFGcTRXMUMxaDFLSDdxTGNqbTMwQTEzZDFydEJzSTFPVU0zSy1kTDNyMUwyMG1tMk8wUW5CRG1tWlJ6NTVqU2lhSldkQ3BGZm9ZTmJQa1BfTElUOXViZEo4SC1FLUxIOXNtOVNfX1dMSWtabWtqd1d2b0x4RDc2bDA?oc=5",
+          "published": "2026-11-11T12:09:35+00:00",
           "publisher": "Journalism Pakistan",
           "source_name": "google_news",
           "source_tier": "news",
@@ -166,82 +157,6 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://qz.com/what-executive-orders-can-cant-do",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vLV9aZ19nb3d1RjB3SHczc2RqWWxzMm5hZ3llYkVRZzZucTRWd3BUeENLdzU2WkVmNDlQQk9uMHZJSEVYX1ktUm5JS0pOX0Jlc3dZZmlRVzcyZWV6?oc=5",
-          "published": "2026-11-10T21:49:45+00:00",
-          "publisher": "qz.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "What executive orders can and can't do: 10 key facts - qz.com"
-        },
-        {
-          "canonical_link": "https://www.diplomacyandlaw.com/post/pete-hegseth-impeachment",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsbm1ocnBFUG5nSnhCMTAwLUVseFJfdWNfaDZGTlZZNEYtS3gtc1RoaE10dGpRREYxaF9MYjNjaHZfaEthRnlNUk5raGltem5JdXM5c0ROdk02aHJvWE9yX0d0c0hfWUh5bzFGTjFR?oc=5",
-          "published": "2026-11-09T22:39:58+00:00",
-          "publisher": "Diplomacy and Law",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Pete Hegseth Impeachment: The International Law Issues Behind Massie\u2019s Eight Charges - Diplomacy and Law"
-        },
-        {
-          "canonical_link": "https://www.stl.news/why-republicans-lost-congress-in-the-2026-midterms/",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90Tko4bkp2c05teEpDdUV1WWo0YU5UaUpRMkN6UlVlTzR3RGktcW1pTXNGQmx3dE42S0RJejR2WTMyN2ZTMEhDTTFjMmw2MURtaUMwdWp6S0o3SkgzR3V1eDZ3em1PaDFmVTlwWjNVTTYxanA3dlYwdTRVcXM?oc=5",
-          "published": "2026-11-10T14:58:12+00:00",
-          "publisher": "STL.News",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Why Republicans Lost Congress in the 2026 Midterms - STL.News"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 4,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 1.3,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://www.gazetaexpress.com/en/Judge-orders-Trump-to-pull-taxpayer-funded-ads-promoting-the-president/",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS201alFiSnZ0eUVJSWltRHUwZnQ2N19Ob1Q1MUxDMVlEMDdiSUhqWWIweTlRQjAtWk5NaTFfSWZ6OGRjS1R2ZTlXTG5LTno1QWtaV3k3dHFTekw5elhaV3l2VUpnbHlBNGtaaTRjeTdHYmpwVU50VklINWhZZXlIbDR5b3pwdTh3SGFNY28wTXF4TTNRWGVON0R4ZGQwNllnb3JJMExPTQ?oc=5",
-          "published": "2026-11-09T14:53:15+00:00",
-          "publisher": "Gazeta Express",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Judge orders Trump to pull taxpayer-funded ads promoting the president - Gazeta Express"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "public_funds_political_promotion",
-      "name": "Public Funds for Political Promotion",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 1,
       "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
@@ -290,6 +205,72 @@
       "rationale": "This is a continuation of an existing declared national emergency under the National Emergencies Act (NEA). Continuation of a previously declared emergency is a routine executive action that renews authorities already granted by Congress through the NEA framework. While the NEA does permit emergency powers to bypass ordinary rulemaking, continuation documents are ministerial renewals of standing authorizations, not new expansions. The underlying emergency was declared in an earlier year; this 2026 continuation represents ongoing use of existing delegated authority rather than a novel expansion. Severity is low because continuation is the ordinary operation of a congressionally-authorized framework, not a structural bypass of legislative process.",
       "severe_hits": 0,
       "severity": 1.0,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://qz.com/what-executive-orders-can-cant-do",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vLV9aZ19nb3d1RjB3SHczc2RqWWxzMm5hZ3llYkVRZzZucTRWd3BUeENLdzU2WkVmNDlQQk9uMHZJSEVYX1ktUm5JS0pOX0Jlc3dZZmlRVzcyZWV6?oc=5",
+          "published": "2026-11-10T21:49:45+00:00",
+          "publisher": "qz.com",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "What executive orders can and can't do: 10 key facts - qz.com"
+        },
+        {
+          "canonical_link": "https://www.eurasiareview.com/12112026-the-iran-war-stalemate-and-the-case-for-congressional-control-of-nuclear-first-use-oped/",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQm1lb29BU3lBZDBmeHBSNUNPaUJ4RExhLWd3X2FPc3cwc21RQlhvR011Q1RKTmI2YzItOTdrSDNQQmVxUzN6WU1sOHRHcDJKaGk0Rl9yS1UyUmk2NFVtdDdPZnlBQ3lxS25LM0VsWWFMWmZWS2lIWEJvYkpBV3Y1LTJvV3dEam8xRW9DNmwtOEZocmpudVVON1dGZmtqdWN2cXItZXQ2WlBmbE8zY2RKTnRFckg0ZTdPby1rV2FvOWE1UFZGVlE?oc=5",
+          "published": "2026-11-11T23:56:38+00:00",
+          "publisher": "Eurasia Review",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "The Iran War Stalemate And The Case For Congressional Control Of Nuclear First Use - OpEd - Eurasia Review"
+        },
+        {
+          "canonical_link": "https://www.stl.news/why-republicans-lost-congress-in-the-2026-midterms/",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90Tko4bkp2c05teEpDdUV1WWo0YU5UaUpRMkN6UlVlTzR3RGktcW1pTXNGQmx3dE42S0RJejR2WTMyN2ZTMEhDTTFjMmw2MURtaUMwdWp6S0o3SkgzR3V1eDZ3em1PaDFmVTlwWjNVTTYxanA3dlYwdTRVcXM?oc=5",
+          "published": "2026-11-10T14:58:12+00:00",
+          "publisher": "STL.News",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Why Republicans Lost Congress in the 2026 Midterms - STL.News"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 5,
+      "id": "legislative_bypass_executive",
+      "name": "Legislative Bypass by Executive",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.95,
+      "severity_label": "Watch",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "civil_liberties_information",
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
+      "id": "public_funds_political_promotion",
+      "name": "Public Funds for Political Promotion",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     }

@@ -2466,6 +2466,16 @@
       "rationale": "This reports that courts are deciding the fate of Trump's latest push to control voting. This confirms an actual effort is underway and is being contested. However, the matter is still in court; the outcome and whether the push succeeds are undecided. A push to control voting mechanisms that is subject to court review is a real stress signal, but since courts are still deciding and no structural takeover has been confirmed as successful, this is a weak (severity 1) signal of attempted capture rather than confirmed capture.",
       "severity": 1
     },
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTlZUMXBDRS1wYTBXOGlFQ1k3US1lTFFyVElZeFh5S2xyVjlOMWtyOS1xQmNlLVlTSTRyeHVocmFRalBYNlQ2OGVMQ0ZGOVdGTXdrdGtBMlRjTXJaNUNlT08wMXNoRlNyVFlBS3dMVGtFQk02NDl3U3NRS3ZYSWRxTkx1UmZ0Qjdlak1wVXNSYkdLQVJadHJPcXBfMEV3X0dwUDJta1hlcEh4QQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://politico.com",
+      "rationale": "The summary 'A political musical chairs game' is too vague to identify a concrete event. Without substantive detail, it cannot be evaluated as evidence of election administration capture or any specific constitutional stress. The headline alone does not establish that any material action affecting election administration has occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZldsMTFIdWFIRkJDbFVmblRyZ1Nsc2xHdW1WNm5NaEg5eVdVT0QxVnl5UnpZdlRxUjVFTnlqbnFiajVxR3NaZmU4MVlzQVR1RmJzbUQxdldnMVpnOUgxVE1mUmpYM0M5YUJxN1B5VWk4QUZNZ1VOMTk3c2M4STNCNS1zS0JGUERXX2ladXdLZzBMOWNJMThZNGRZSWVrdFc0M2N2dXdxakFRQQ?oc=5": {
       "actor": "Department of Justice",
       "confidence": 0.95,
@@ -2944,6 +2954,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.insidehighered.com",
       "rationale": "Speculative analysis of what Democratic electoral victories 'could' reshape (future conditional). Not evidence of an actual event of administration capture; this is opinion/analysis about potential consequences.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTWJFVjd2dW5OR0QtR18tX2lYTDRBdWRUU1NVaFdibjFieUhpVEVIdnJnMXFhUVVxWTlOTkMxOFhKRklQUmRGUnRqb18wZmtGSU1QaHV5M1FGYktHN3NXd2ZKRG9UWEs3RUsxQ2JmbHJzQ2g1RERYRVNramN5Q1NPMTVvellmM0FXTWdBbDdFeDYzVzNNZ1VrRnQtOGtRUW80VXlReWltMVd2TEp1Q3R4VG5QUFd6WjU2bGlxQ3FZb2xuTnAxbXc?oc=5": {
+      "actor": "Democrats in Congress",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://thehill.com",
+      "rationale": "Democrats missing a vote on a Cabinet secretary impeachment is ordinary parliamentary absence, not evidence of election administration capture. Absent legislators do not demonstrate partisan control of election administration or movement of election processes from neutral to partisan hands. This is routine congressional procedure, not a constitutional stress event related to election administration.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbF84WFJQUHdLSU9fNFJrR2FoN2NBYUdDOGZQNDYxNnhIMGlBTUZlSGxpeGVaRlNRVWo4RlBpN3M3TGkzakFpZVdSeVFOak1HM1V3bXNQU0JpdUxoVDFpYnFiZDU2QlBTa0tDeENNZ0RKQ3hzaUJna2dremlLOFNhQm1MTUoyUXVvMkVpbDJMSmppTXRtdnVRNmQ3UW1kbmJGSDVnWnJ2b202TTEyVUU0NnU1Rng5QV9TUnBMX1FhVEhwU1Y0UXc?oc=5": {
@@ -5498,6 +5518,16 @@
       "rationale": "This item reports court rulings finding that an administration violated rights\u2014a normal function of judicial review. It does not describe any official campaign, pressure, or punishment directed at judges for their adverse rulings. The headline describes the outcome (courts ruling against an administration), not judge intimidation. No sustained pressure on judges, threats to remove judges, or punitive action targeting the judiciary for their decisions is alleged. This is standard adversarial litigation outcomes, not evidence of a judge-intimidation campaign.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaWd1RlNwWjljaGNEdW9aOFpMQ3pZaUxIZFk4cUdXNXRQcldMZ1RmV2VnaDhpZmc0WGxGTVZMdURGOUducG9LeXJEZXZqZjU1UFJ3OHI4NW5WVGY5VmkxeGVrT3ZocFJzV3VpWEo2YXF5aGtCVTFSeHFlTVVnYzRUQi1UTmliUW12X0dhdWZUSlpPNUdmakc5azVuZWhXWjRXdHpCOE1ZczczM1V3YTU5bHpDSUF5X2hkdjVDZmg2eFBYNWZ3OTN1VHFBZU1OY25IeGc?oc=5": {
+      "actor": "Ninth Circuit Court of Appeals",
+      "confidence": 0.92,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a court decision by the Ninth Circuit rejecting a lower judge's attempt to supervise federal officers in Portland. This is a normal appellate outcome\u2014a higher court disagreeing with a lower court's judicial authority\u2014not evidence of an intimidation campaign against judges. Courts routinely overturn or limit the scope of other courts' orders. A judicial reversal of another judge's supervisory authority is not pressure to punish judges for adverse rulings; it is the ordinary appellate process. The item does not describe any official campaign, retaliation, or pressure against the judge for the ruling itself. Without a primary source document URL and given only the PJ Media headline and generic summary, confidence is further reduced. No constitutional stress signal is present.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOXhwbFdNZHY3dENIamNKY1NkZjlkME5NUEUzelZacFFpdXJZaFZxVkhNT3VhU1lCNl84QzhDcWVFSUdISzl0ejREdzhWdFpDR0lQRXZGNXNRZ3ZVd1UxbEtkYTk2cnE2V1pyaTRFdzk0aGd2Njk0QUMxaGZfXzRqQkNXTnM3TzBPU3NsOFpHSlAxdk1RSmxtT2QzbXA1WXE2VmREamRBZVFqdFkwaUE3dzlXUWFSeVlWVkFpOEpFa3ljbXREOVZXYllCdmhPTFBUVl9ObzIxaw?oc=5": {
       "actor": "Unknown",
       "confidence": 0.98,
@@ -6502,6 +6532,16 @@
       "rationale": "The item title references 'the push to reduce the Supreme Court's power' which appears to be analysis or opinion commentary rather than documentation of a concrete jurisdiction-stripping action. No specific legislative enactment, official policy implementation, or confirmed effort to strip court review from constitutional disputes is described in the summary. This reads as prospective discussion or analysis, not evidence of an actual occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQi14RHVRN2M3azVra3B2ZVVHZW9EU01nMTdqY3hpRkVfdW5vUVNBMVFtWVZ4MW5hN2p4dC1WVTZITllDODBzRC1xaDVhZzl6enM4NWRxc2RPNzNvTzFYYTdSUUFEeGZrU0poNWVwR2tMekNaMjNqbDlHdERYZU04U1pmVElKeW9w?oc=5": {
+      "actor": "The Nation",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item provided is only a headline and publication attribution with no substantive content. Without actual article text, no concrete event can be identified or verified. The headline itself is generic and does not indicate any specific action related to jurisdiction stripping or court-review removal. This is insufficient to establish that any constitutional-stress event occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaThXSVVxZmx5cWRlWVdrT0JkY0stWXN1V2ZGeFUwQXRRaXVxTGxiRXFKQmdocjR2SmZhY3VnSUxWMW9lX3pGcHRGc2dCVDdTalZiXzAxUkwzOElOMl8zeEs1TTJWazYybkpuclpISk9DbEdjMEtKWmdDc29zQmVGcC1WeDdXbGxCRkRKbWdn0gGTAUFVX3lxTE5yMjc5Q1hQS0xHeUR4NVplRUMzWUhIaS1qU0M1aHNMMFdQZ0lNM3NpLU0xZllnMFV0eTZ2cEZpMEZSTUh6d29hajcxVDJ4ZTNpZUFBOWNpdmQtWV82b0VHTDR0aGMzdjBuY3RyY21XY0t5X3U5YkRUUncyNkF1Z1FJRENiN1pMeGJleFFBQlpkVTFNTQ?oc=5": {
       "actor": "Dame Magazine",
       "confidence": 0.95,
@@ -6863,6 +6903,16 @@
       "primary_source_url": "https://timesofindia.indiatimes.com",
       "rationale": "Times of India reports the same underlying U.S. event (Supreme Court approval of Trump's mail-voting order). While the source is non-U.S., the event itself is U.S. domestic. The report confirms the real occurrence: executive implementation of voting restrictions via EO, cleared by the Court. Severity 2 is appropriate for a real, confirmed, credible but geographically/functionally limited action.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUjRrMExFbDczQVVNVXVHVmRCcy04dGFCcE0yUEhCRGdPZ1NTMDFZQWxFMFNTRklDX1Jfb0EwZldUWFplUm5HOHJXRkd2dkVBbTRzTFRySldRMWdaeC13SlhvQmhYbEhEYnBrSVVUVHk3UWVNWUItYzEtSFR6TU4tbzFtVl9namNYUGdCUV83bXFqa2JKY2ZWUUYzVkY4SDNjR2M0OEs2WjR2YmRoZmtRUnZnNDdxcHdtcEtPem1ZZnpBV3ZacmNmeHF2NTJFQmdxbFhiOTAydlR1bGRLUk9hTFBjRFRuOUwyUkZGVjV5dDJMNzQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Nigeria (INEC is the Nigerian electoral body; ADC is a Nigerian political party; TheNigeriaLawyer is a Nigerian legal publication). It is not a U.S. domestic event and therefore not relevant to a U.S. constitutional-risk dashboard.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFX0RuTTBTQ2NEU09iWG0yWkU5RDV1ZE5jcWw1blpPT0VZaG9jdkFoVnR4OVYwMFdJUjlpVXBJdkwyN3J5YW10N1NMN0RFVzUxN1E4?oc=5": {
       "actor": "Foreign government",
@@ -7442,6 +7492,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.dailykos.com",
       "rationale": "This is an opinion/commentary piece from Daily Kos with only a headline fragment provided. The title 'He is Such a Peach' appears to be editorial commentary or satire rather than reporting of an actual event. No verifiable constitutional action, executive bypass of legislation, or governance shift is described or evidenced. The item lacks substantive content describing any real occurrence.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVW1FcU5KbEQ2X28ydnV1V01ObXo3dEUwODBLaERHdWIzUjFpSHFFTmpfVlZnUGZSVE5kTjQ0azlBUU9pQV9HSXlzUFVPMEZCVUNEZ2UyWF9TaXAzbmxfYlNFc2M4NmtpQjJpWVVjeVA1djFZMUpQRmpMeEU3aEdzaWJUN19FbnVLVE1QQVo3NFXSAZQBQVVfeXFMTjFIX3dHaTY3Y3laR1I0ZVd0VUZfSzNQc0JlNkJBRlBkSjRTMFhHNHpyU0hHcXRzTUtERGl2RTd4QzVkV240SkpoQlNlQ0Z5SmtMSkp3WWRyRHV4ZmF1ZDJUN2Y4SmhZalM1cFBzUGdDRUNvYkxLMGo5Q0Ywc3RvbXFSbVNpQVk3TDdnTTJjbUtNNUY3Yw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.97,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a news headline about 2026 midterm elections and their policy/global impact. It does not describe or provide evidence of any executive action that bypassed legislative authority. No specific governance shift is alleged or verified.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZi1DM1pxb0stYVEwczBlRkVwWlI5a1lidWRrSUhwN1FCZW43TENfQXU3UFBFR2R0NlBTWXV6akVNbDc3NUlNUEQzdHVIWk9rV1BPanZjeS1GQVRQOExGWS0xdjBxY3BmSm13SGZLdTBFejh4VUQ2a1RIcTVFMUpKamVsRGJTZVQ5TEEza2o3NlczWHM?oc=5": {
@@ -8134,6 +8194,16 @@
       "rationale": "This is a hypothetical analysis piece about a future midterm election result. It does not report on an actual event that has occurred, but rather speculates on what might happen in a future scenario. No verifiable executive bypass or legislative action is documented.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQm1lb29BU3lBZDBmeHBSNUNPaUJ4RExhLWd3X2FPc3cwc21RQlhvR011Q1RKTmI2YzItOTdrSDNQQmVxUzN6WU1sOHRHcDJKaGk0Rl9yS1UyUmk2NFVtdDdPZnlBQ3lxS25LM0VsWWFMWmZWS2lIWEJvYkpBV3Y1LTJvV3dEam8xRW9DNmwtOEZocmpudVVON1dGZmtqdWN2cXItZXQ2WlBmbE8zY2RKTnRFckg0ZTdPby1rV2FvOWE1UFZGVlE?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an op-ed advocating for congressional control of nuclear first use. It is opinion/analysis proposing a policy change, not evidence that an executive bypass of legislative authority has occurred. No actual governance action is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLXZrc0s4bkJMdjBJZVhlQk8yT05BVEZiWkYtYXlKV09Db29hTW55M0R2SnJfTEloODE5c0RYUWFnQURBRU5iNVRRMjMzNnFqZExQanhWbkFXcXRfNGZKNUdCdS1UemVPQmxLb1ZFV3lzRFJQbll1dmN4NVpBdDNoQ0toUjVkaTFlbGp4MGRuWm96NWR0TF9sYVNWU3E5dzNnMzdrRXI2NG9aalgxVnBzQjR3UzVWbDFPZDRLczU2eWFsUHN0anBF?oc=5": {
       "actor": "Trump",
       "confidence": 0.72,
@@ -8405,6 +8475,16 @@
       "primary_source_url": "https://economictimes.com",
       "rationale": "House panel votes unanimously to hold Leon Black in contempt for refusing to answer Epstein probe subpoena. Confirms the same real event: an individual's obstruction of legislative fact-finding. Severity 2: confirmed action, but isolated to one actor and one probe.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWnVjcXVqQUY2akRKRGIxTUc0TDBzMGFPVnJtTFlEYjRhazB3aDFPZTYxMkhveFhiVVROYjVIejMtMk0zWTFXLXVGM1BtNHdYb2dTdEZ0Wl9adWFVWTlSaExBZ2Y0ck41YTcxaUNXUWRnd0ZFUldnZHVOM2xheVV1ZktudW9ITnFnOUV0Z0VOZHPSAZABQVVfeXFMT1p1Y3F1akFGNmpESkRiMU1HNEwwczBhT1ZybUxZRGI0YWswd2gxT2U2MTJIb3hYYlVUTmI1SHozLTJNM1kxVy11RjNQbTR3WG9nU3RGdFpfWnVhVVk5UmhMQWdmNHJONWE3MWlDV1FkZ3dGRVJXZ2R1TjNsYXlVdWZLbnVvSE5xZzlFdGdFTmRz?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an opinion/analysis piece (evidenced by the question-form headline asking 'how much can they do') speculating about future Democratic actions and hypothetical restraint of Trump after an electoral outcome. It does not describe a real, verifiable instance of legislative oversight obstruction, systematic barriers to fact-finding, or obstruction of executive accountability. It is forward-looking commentary, not evidence of an actual constitutional stress event.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeG5jNU9aTlB4MG8zc3BydFl1bVB0TDJZZ1VxQndyaE5XVU5HSHB5M3V6Qk5xSzVsWUF4Q3ZZcUw3dV9RYnRZLVAyaE9xcUJLbzEwaWNyaUVJaHBTd3dHRHNoaVo3T1haOWg3WEw3T2NpQ1NnU2VONGtuMjAxY2NGWU5kRVM2MTJ5TGRJNXNscDBKUdIBlwFBVV95cUxNRE1OZnpHaE5RTzBhanF3UzA3YkFCMnI2QjVWUUkwbDgtR2pkVl9ENXNfQnFCb21XVlVXR3YwZmg4alMzM0p3dFpoWDYzVDN3MERUN3drZkJCcW5oU194WGtadGkyS2RzV2Q4QVpSV0NqRlRZMWsxeTBWR0QySThUQm5yWF9nZ2RiMmtxeUtvbHpEQm4xQlhJ?oc=5": {
       "actor": "House of Representatives",
@@ -9952,6 +10032,16 @@
       "rationale": "This item describes a Philippine election (Bangsamoro Parliamentary Elections on September 14) and a warning by the Philippine Commission on Elections about campaign rule compliance. It is not a U.S. domestic occurrence and therefore not evidence of opposition ballot exclusion in the United States. The signal applies only to U.S. constitutional-risk monitoring. Additionally, a pre-election warning about campaign compliance does not constitute systematic removal of opposition candidates.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdEJmbUlFY3FHUUM3M3pfUGcxQTdPRVVRMklmLW1ueXVHazlsUmptZDdLX0RtX3lXdGxNcjRQdU5TbjVpYnFPY19ZQUowUUJQRjVFYmtMNE51RzlXZUxKZXhzQmQzRWo3ZkMtUzdfMk5LUWo4c0ZxYnZMV0VEWjMxUmJBM1FCNk1XNS1NdGwyb2JlMXMtOHFibGlyUXd1ZDNycENUMXFINk1BWU5nTGI5UWNMS05HZC1yN3dNR1lxVkR6eWpTMVhzdXUtVXdEM2VtVTZ1VUlfVEF4dGpZQy1QQ1RB?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This article concerns Nigerian electoral politics (Osun lawmaker, Senator Fadahunsi, and INEC, Nigeria's electoral commission). It is not a U.S. domestic event and therefore not relevant to a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNc21lUFFWSnpkbGJJVUJWR2RsZHlvWnJYSmJRTWllNTNySmRCdlNRM0RKekthaXFGUjRTQk5ra1BDMk9XR21QOTVRdjhWNFY3UW9taE5qMnZnVzFOU1R6MC1FbVNIdlBMdkxRV3NIY1lSWjhNa2RPeDFrTjlfaldrdFNFYmFJWUJiOW4xQVM4NjgtRElucldPUVpwcjRjNDJuR0dkUzVTT2NWM2ZIeUFGUzVnNjZDMWNPQ0FGeHBZeHNrQ2ZiMkpXNjJlNWxBX0hzMXpjY1QyZUVYdG1QM0wwS3Rkdw?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -10210,6 +10300,16 @@
       "matches_signal": false,
       "primary_source_url": "SuaraGarut.ID",
       "rationale": "This article concerns Russia's parliamentary election and Putin's framing of it. It is not a U.S. domestic event and is outside the scope of this dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTFByQlNPTjRuQ3VORE1zMko4Um1oaERPYXhDTXRYNDVySTdVTXN5YXhtSGZ0cV9JbTVWbGRySFVsdWpJZkpUTUE4Qko3NmRnSDN0QWxGR0ZBbU5Hd1lnTklWLWNfNHZKQzZDdHQ1Z2U3OEYwa0ZsZWFFSw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This article concerns Nigerian politics (Governor Yusuf and Gwarzo). It is not a U.S. domestic event and therefore not relevant to a U.S. constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuWXRqTkZtaVpzV3V1WFFZNjBBWG03TUxDM045ODR3aG0yZ25RbjFyS0ZTTGNYYXhxN28wQllsNWk5RF8xdWE1S0tyNVF0MGRFYVlRbUpRN1ZCWFo5bGFIRXAtTGlBLU5QM1lBU0VYMTZienQtd0Y0alp2Rnh5YkU?oc=5": {
@@ -11132,6 +11232,16 @@
       "rationale": "A sitting U.S. mayor was removed from a reelection ballot. This is a real ballot-exclusion event in a U.S. jurisdiction. However, severity is 2 rather than higher because the exclusion appears to be grounded in a specific, facially neutral compliance issue (cashier's checks regulation) rather than systematic political targeting. No evidence presented of a pattern or defiance of legal process. The action occurred through apparent application of existing rules, not through extrajudicial or unconstitutional removal mechanisms. This is a contained, credible stress signal but not a structural constitutional failure.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUTg2NDVKOVZxOWpacmVTSEJJV2F6QVVYdHRseE03OWZJUmFsX2steExJbDlSV3FMeVJzQ192X0xfQmpEM0ZNX2JaVFNWSXRMMGF6eVA3VTgxeWpieHlKbW42QnZCMzZvR0RSMF9abmZQVEJiUjdweDBPRng5MW0tVmhjUTlmVXlMbzJ3SDVuT1lCNlJqSVdKMURLN1c4Mk01TUd6Yjcyby1qQjktV25JOHNpcGluMTRhcUVNSWo4aVYtcUdhNzFBZUh4cw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This article concerns Turkish municipal politics (Diyarbakir mayor and Istanbul election). It is not a U.S. domestic event and therefore not relevant to a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiywFBVV95cUxPaVBkME1nV3BxZ2t4c19nd08ybmhhY29RUUxPZU9leFpFVklWd1NGZ1VDczJ4SWpnMDl3UGpFR3JpTFJsWjRGVkJnRFBleVpzV1FxTzZpUmFVR1g2UENLTXk3cVlLZ1pCV1dsaWFJVkg5ZzN3TVBKTGdSZ1pmU3QxWTBmTlNjSGMtMHNIa1NLTVliSXNxVnpMYmFEaUZwdmJYZUJZVXZuYVJ1YTZyVXpESUJYWFFxajNPX0NPUXlpanlCUGU2UDF2QU9WTQ?oc=5": {
       "actor": "Alaska election officials",
       "confidence": 0.95,
@@ -11424,6 +11534,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns UK lawmakers' request regarding Bangladesh and Sheikh Hasina. It is not a US domestic matter and contains no evidence of politicized prosecution of opposition actors in the United States. The signal applies to U.S. constitutional stress; this is a foreign policy matter involving the UK and Bangladesh.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRk8wYUpESVZac0lZWDB2cnJVS0ZCYUwtOGRHcTBIT0JUR0JmUThrSUFHMlZsTWRuUWx5VUVqSmZub3YxZ0Z5akZqNUFsbUpGQVZJcVhkbENoTU11MUh5MGN4WUpNcXdxTFh0a3VFUEpfRjN1bXdpSzJ2c3RNd0xmVU5raEo5V1pfNkFfS1FvSXloTnJ4RWRLQWpJRXVLWEVkNkRRdkN3NlI1anV1dmxxWlZCMTlCNEV4N00yZWhKN3BORGR1ZWFfdGx5eThtRjJHdVMxRDZmMlluaXFwOHV2TWpB0gHiAUFVX3lxTE9GTzBhSkRJVlpzSVlYMHZyclVLRkJhTC04ZEdxMEhPQlRHQmZROGtJQUcyVmxNZG5RbHlVRWpKZm5vdjFnRnlqRmo1QWxtSkZBVklxWGRsQ2hNTXUxSHkwY3hZSk1xd3FMWHRrdUVQSl9GM3Vtd2lLMnZzdE13TGZVTmtoSjlXWl82QV9LUW9JeWhOcnhFZEtBaklFdUtYRWQ2RFF2Q3c2UjVqdXV2bHFaVkIxOUI0RXg3TTJlaEo3cE5EZHVlYV90bHl5OG1GMkd1UzFENmYyWW5pcXA4dXZNakE?oc=5": {
+      "actor": "UK lawmakers",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.wionews.com",
+      "rationale": "This item concerns political developments in the United Kingdom and Bangladesh, not the United States. It describes UK lawmakers requesting the Foreign Secretary to seek safeguards regarding Sheikh Hasina's return to Bangladesh. This is not evidence of politicized prosecution of opposition actors within the U.S. domestic context. The signal specifically pertains to U.S. constitutional stress; non-U.S. events are out of scope.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMia0FVX3lxTE9JVDVIYlJ4YXBaWTdUV3JHejRTY3Y5a1Y2MkhKUEJvOHo5RnE0bGJJcHNlWXUyWmQ4dThTQ01KTktxUG9KUHVhcEg2TUpmT00yN0JQaFREQXZiUGp2Zi1zeWlqX29TZTU3TFE40gHCAkFVX3lxTE1aWVhST1VuU1lpM04wbmdxRWIyYzRuVEt6dVdLcFhfTVVXT1Q3YlB6N2Q2cGo2MVVHbXlGd2xTV1pVYXBEQU1vUkI3NG1kRTJlWC1xZ1hOYVJKU3lxMTlLSGxWODBZTktOT0cwWXRnVXh6V28xRG4xMEt1MG1kUFd0YlNLdGFta053QmRGTWFGeW9jM2FKWWlSUXFQMnZsblhBYkpMVHV1a25hV2Q3MUZYUUQ5Y3FUZlI2RU85bVhKcWNzclBxbzJhTWhMWENrMDRsWm5CMVhrc2M0bGN3WmhYZ25sRk5vX2p5cmtpZU9EZzc1RU5Lc2NUU29lakFmS1hxWTVmeXc4cDhNZkhwdl93VmxyU0RNSE1sZWpFYlRtYjE4S05OUzN1M0hrdlV0WktDekpxcWZvTDZxZUVsY2l3T0E?oc=5": {
@@ -12096,6 +12216,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns journalism in Asia (Pakistan context), not the United States. The signal addresses press restrictions or retaliation as state action within U.S. constitutional context. A non-U.S. event does not constitute evidence of a U.S. constitutional-stress signal, regardless of its content.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSUg2QXgtbGNyMGNWODgxX2d2bWFGcTRXMUMxaDFLSDdxTGNqbTMwQTEzZDFydEJzSTFPVU0zSy1kTDNyMUwyMG1tMk8wUW5CRG1tWlJ6NTVqU2lhSldkQ3BGZm9ZTmJQa1BfTElUOXViZEo4SC1FLUxIOXNtOVNfX1dMSWtabWtqd1d2b0x4RDc2bDA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns journalism and journalists in Asia (Pakistan/Asian context), not the United States. It is not a U.S. domestic constitutional event. The signal targets U.S. state action raising costs or legal risk for independent reporting. No U.S. constitutional-stress event is described or evidenced.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc0FWUzhmMVZTZms3SnlUZUhYVVBiREF5MzI0VjBQdUxyMVl6ZEJGaXlMdC00UVNKNE5SWjRNemI5ck1jUEdnRi1JZFFTQkV3c3JPWWM4ejZWLWpuS3YwbkRHblM0Qlp6dVlzMEwzaW9RODltSC1RWHM0bXpIdk5QRnJVVlB4YkRCZmlaczliRzhrcVE?oc=5": {
