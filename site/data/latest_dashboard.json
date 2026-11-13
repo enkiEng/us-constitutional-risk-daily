@@ -1,16 +1,16 @@
 {
   "attempted_queries": 25,
-  "average_7d": 12.51,
+  "average_7d": 13.28,
   "band": {
-    "description": "Repeated norm-breaking attempts, but institutional checks mostly holding.",
-    "label": "Elevated Strain",
-    "max": 29,
-    "min": 15
+    "description": "Normal democratic conflict and routine legal contestation.",
+    "label": "Baseline Institutional Noise",
+    "max": 14,
+    "min": 0
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 5.0,
-  "delta_vs_7d": 2.48,
+  "delta_previous_day": -1.0,
+  "delta_vs_7d": 0.37,
   "domain_breakdown": [
     {
       "avg_severity": 2.0,
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.65,
+      "avg_severity": 0.4166666666666667,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 2.1125000000000003,
+      "points": 1.3541666666666667,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.75,
+      "avg_severity": 0.5166666666666666,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.875,
+      "points": 1.2916666666666665,
       "weight": 10
     },
     {
@@ -76,7 +76,7 @@
     "election_delay_or_cancellation: courtlistener: HTTP Error 401: Unauthorized",
     "alternate_elector_scheme: courtlistener: HTTP Error 401: Unauthorized",
     "politicized_prosecution_opposition: courtlistener: HTTP Error 401: Unauthorized",
-    "opposition_ballot_exclusion: courtlistener: HTTP Error 502: Bad Gateway",
+    "opposition_ballot_exclusion: courtlistener: HTTP Error 401: Unauthorized",
     "court_order_noncompliance: courtlistener: HTTP Error 401: Unauthorized",
     "judicial_review_foreclosure: courtlistener: HTTP Error 401: Unauthorized",
     "independent_agency_capture: courtlistener: HTTP Error 401: Unauthorized",
@@ -85,12 +85,12 @@
     "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-11-12T12:29:21.926787+00:00",
+  "generated_at": "2026-11-13T12:28:17.143799+00:00",
   "methodology_version": 2,
-  "previous_score": 10,
+  "previous_score": 15,
   "primary_sources": {
-    "documents_confirmed": 3,
-    "documents_fetched": 10,
+    "documents_confirmed": 0,
+    "documents_fetched": 6,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -98,9 +98,9 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 15,
-  "score_raw": 14.99,
-  "score_raw_pre_trip_wire": 14.99,
+  "score": 14,
+  "score_raw": 13.65,
+  "score_raw_pre_trip_wire": 13.65,
   "successful_queries": 25,
   "top_signals": [
     {
@@ -111,7 +111,7 @@
         {
           "canonical_link": "https://abcnews.com/US/doj-preemptively-sues-block-alaska-senate-results-republican/story?id=137512876",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQekhpNnRhMmk3WnMteVlLeVRYT2ZMUGRnRkJmSlJxUU9TUm1GN1ZEYWp5SFRqS20tSWVtQWpUMF9VaWd3U1FFRUd1TDRBMk9UTXhpMkhHTlE4NnQzZDEyRjUxQ3lkYlVkZHAxTS05MjJkbDA2VXFNQVBhcGdmUVJ3LTRHTjBScTBucno5Y0NhazNCeWdiLWpJMUlTRjF2Uk5zRzE2SNIBqgFBVV95cUxQUEZqTzdWbGhCLTVzd1J1VlI1cUxOOWFyLXZIbDI0TnA1YXlWQXgyMTFtaXRMdE9jbTIzTXdkUmpXMzJkejdKeHlXc2lHYWVJd2t3WFVVTmNwS05BT2wzTjhkeW0tZ3FpU0Z5aUxmOFFCMWNydkk1S3hPT09xT2w1WWdjdG5ybXRhWl9FZV84TG5kOWM0YkZwNVVYWU9keUFfZWF1ZVIwRUs3UQ?oc=5",
-          "published": "2026-11-10T23:57:53+00:00",
+          "published": "2026-11-12T07:59:20+00:00",
           "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
@@ -136,19 +136,9 @@
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://www.journalismpakistan.com/how-journalists-in-exile-are-keeping-asian-news-alive/",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSUg2QXgtbGNyMGNWODgxX2d2bWFGcTRXMUMxaDFLSDdxTGNqbTMwQTEzZDFydEJzSTFPVU0zSy1kTDNyMUwyMG1tMk8wUW5CRG1tWlJ6NTVqU2lhSldkQ3BGZm9ZTmJQa1BfTElUOXViZEo4SC1FLUxIOXNtOVNfX1dMSWtabWtqd1d2b0x4RDc2bDA?oc=5",
-          "published": "2026-11-11T12:09:35+00:00",
-          "publisher": "Journalism Pakistan",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "How journalists in exile are keeping Asian news alive - Journalism Pakistan"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
@@ -157,55 +147,27 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
     {
-      "confirmed_hits": 3,
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/11/05/2026-22688/continuation-of-the-national-emergency-with-respect-to-the-threat-from-securities-investments-that",
-          "link": "https://www.federalregister.gov/documents/2026/11/05/2026-22688/continuation-of-the-national-emergency-with-respect-to-the-threat-from-securities-investments-that",
-          "published": "2026-11-05T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Continuation of the National Emergency With Respect to the Threat From Securities Investments That Finance Certain Companies of the People's Republic of China"
-        },
-        {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/11/05/2026-22686/continuation-of-the-national-emergency-with-respect-to-the-proliferation-of-weapons-of-mass",
-          "link": "https://www.federalregister.gov/documents/2026/11/05/2026-22686/continuation-of-the-national-emergency-with-respect-to-the-proliferation-of-weapons-of-mass",
-          "published": "2026-11-05T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Continuation of the National Emergency With Respect to the Proliferation of Weapons of Mass Destruction"
-        },
-        {
-          "canonical_link": "https://www.federalregister.gov/documents/2026/11/05/2026-22685/continuation-of-the-national-emergency-with-respect-to-iran",
-          "link": "https://www.federalregister.gov/documents/2026/11/05/2026-22685/continuation-of-the-national-emergency-with-respect-to-iran",
-          "published": "2026-11-05T00:00:00+00:00",
-          "publisher": "federalregister.gov",
-          "source_name": "federal_register",
-          "source_tier": "primary",
-          "title": "Continuation of the National Emergency With Respect to Iran"
-        }
-      ],
-      "evidence_mode": "ai",
+      "evidence": [],
+      "evidence_mode": "keyword",
       "hits": 0,
       "id": "emergency_powers_expansion",
       "name": "Emergency Powers Expansion",
       "override_note": null,
-      "primary_confirmed": 3,
-      "primary_documents": 4,
-      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22688/continuation-of-the-national-emergency-with-respect-to-the-threat-from-securities-investments-that",
-      "rationale": "This is a continuation of an existing declared national emergency under the National Emergencies Act (NEA). Continuation of a previously declared emergency is a routine executive action that renews authorities already granted by Congress through the NEA framework. While the NEA does permit emergency powers to bypass ordinary rulemaking, continuation documents are ministerial renewals of standing authorizations, not new expansions. The underlying emergency was declared in an earlier year; this 2026 continuation represents ongoing use of existing delegated authority rather than a novel expansion. Severity is low because continuation is the ordinary operation of a congressionally-authorized framework, not a structural bypass of legislative process.",
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 1.0,
-      "severity_label": "Watch",
+      "severity": 0.65,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -214,35 +176,26 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://qz.com/what-executive-orders-can-cant-do",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vLV9aZ19nb3d1RjB3SHczc2RqWWxzMm5hZ3llYkVRZzZucTRWd3BUeENLdzU2WkVmNDlQQk9uMHZJSEVYX1ktUm5JS0pOX0Jlc3dZZmlRVzcyZWV6?oc=5",
-          "published": "2026-11-10T21:49:45+00:00",
-          "publisher": "qz.com",
+          "canonical_link": "https://www.dailyexcelsior.com/2026-us-congress-midterm-power-policy-and-global-impact/amp",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMUhfd0dpNjdjeVpHUjRlV3RVRl9LM1BzQmU2QkFGUGRKNFMwWEc0enJTSEdxdHNNS0REaXZFN3hDNWRXbjRKSmhCU2VDRnlKa0xKSndZZHJEdXhmYXVkMlQ3ZjhKaFlqUzVwUHNQZ0NFQ29iTEswajlDRjBzdG9tcVJtU2lBWTdMN2dNMmNtS001Rjdj0gGUAUFVX3lxTE4xSF93R2k2N2N5WkdSNGVXdFVGX0szUHNCZTZCQUZQZEo0UzBYRzR6clNIR3F0c01LRERpdkU3eEM1ZFduNEpKaEJTZUNGeUprTEpKd1lkckR1eGZhdWQyVDdmOEpoWWpTNXBQc1BnQ0VDb2JMSzBqOUNGMHN0b21xUm1TaUFZN0w3Z00yY21LTTVGN2M?oc=5",
+          "published": "2026-11-11T23:29:44+00:00",
+          "publisher": "Daily Excelsior",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "What executive orders can and can't do: 10 key facts - qz.com"
+          "title": "2026 US Congress Midterm: Power, Policy and Global Impact - Daily Excelsior"
         },
         {
-          "canonical_link": "https://www.eurasiareview.com/12112026-the-iran-war-stalemate-and-the-case-for-congressional-control-of-nuclear-first-use-oped/",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQm1lb29BU3lBZDBmeHBSNUNPaUJ4RExhLWd3X2FPc3cwc21RQlhvR011Q1RKTmI2YzItOTdrSDNQQmVxUzN6WU1sOHRHcDJKaGk0Rl9yS1UyUmk2NFVtdDdPZnlBQ3lxS25LM0VsWWFMWmZWS2lIWEJvYkpBV3Y1LTJvV3dEam8xRW9DNmwtOEZocmpudVVON1dGZmtqdWN2cXItZXQ2WlBmbE8zY2RKTnRFckg0ZTdPby1rV2FvOWE1UFZGVlE?oc=5",
-          "published": "2026-11-11T23:56:38+00:00",
-          "publisher": "Eurasia Review",
+          "canonical_link": "https://thenigerialawyer.com/internal-democracy-is-not-a-slogan-court-voids-mark-aregbesolas-adc-leadership-says-inec-monitoring-isnt-election-download-judgment/",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUjRrMExFbDczQVVNVXVHVmRCcy04dGFCcE0yUEhCRGdPZ1NTMDFZQWxFMFNTRklDX1Jfb0EwZldUWFplUm5HOHJXRkd2dkVBbTRzTFRySldRMWdaeC13SlhvQmhYbEhEYnBrSVVUVHk3UWVNWUItYzEtSFR6TU4tbzFtVl9namNYUGdCUV83bXFqa2JKY2ZWUUYzVkY4SDNjR2M0OEs2WjR2YmRoZmtRUnZnNDdxcHdtcEtPem1ZZnpBV3ZacmNmeHF2NTJFQmdxbFhiOTAydlR1bGRLUk9hTFBjRFRuOUwyUkZGVjV5dDJMNzQ?oc=5",
+          "published": "2026-11-11T13:52:19+00:00",
+          "publisher": "TheNigeriaLawyer",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "The Iran War Stalemate And The Case For Congressional Control Of Nuclear First Use - OpEd - Eurasia Review"
-        },
-        {
-          "canonical_link": "https://www.stl.news/why-republicans-lost-congress-in-the-2026-midterms/",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE90Tko4bkp2c05teEpDdUV1WWo0YU5UaUpRMkN6UlVlTzR3RGktcW1pTXNGQmx3dE42S0RJejR2WTMyN2ZTMEhDTTFjMmw2MURtaUMwdWp6S0o3SkgzR3V1eDZ3em1PaDFmVTlwWjNVTTYxanA3dlYwdTRVcXM?oc=5",
-          "published": "2026-11-10T14:58:12+00:00",
-          "publisher": "STL.News",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Why Republicans Lost Congress in the 2026 Midterms - STL.News"
+          "title": "\u201cInternal Democracy Is Not A Slogan\u201d \u2014 Court Voids Mark, Aregbesola\u2019s ADC Leadership, Says INEC Monitoring Isn\u2019t Election \u2014 Download Judgment - TheNigeriaLawyer"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 5,
+      "hits": 2,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -251,8 +204,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -270,8 +223,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],
