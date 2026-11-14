@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-11-13 12:28:17 UTC
+- Generated: 2026-11-14 12:25:18 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **14 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-1.0**
-- Delta vs 7-day average: **+0.4**
+- Score: **10 / 100** (Baseline Institutional Noise)
+- Previous day delta: **-4.0**
+- Delta vs 7-day average: **-3.2**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,12 +15,12 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 2.00 | 11.00 |
+| Elections and Transfer of Power | 22 | 1.65 | 9.07 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 0.42 | 1.35 |
+| Executive Constraints and Emergency Powers | 13 | 0.18 | 0.60 |
 | Civil Service and Agency Independence | 10 | 0.00 | 0.00 |
-| Civil Liberties and Information Environment | 10 | 0.52 | 1.29 |
+| Civil Liberties and Information Environment | 10 | 0.28 | 0.71 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -28,28 +28,33 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Election Administration Capture | elections_transfer | 3.00 (Orange) | ai | 1 | 4 |
-| Press Restrictions or Retaliation | civil_liberties_information | 0.95 (Watch) | keyword | 0 | 0 |
-| Emergency Powers Expansion | executive_constraints | 0.65 (Green) | keyword | 0 | 0 |
-| Legislative Bypass by Executive | executive_constraints | 0.60 (Green) | ai | 0 | 2 |
-| Public Funds for Political Promotion | civil_liberties_information | 0.60 (Green) | keyword | 0 | 0 |
+| Election Administration Capture | elections_transfer | 2.65 (Yellow) | ai | 0 | 6 |
+| Press Restrictions or Retaliation | civil_liberties_information | 0.60 (Green) | ai | 0 | 3 |
+| Emergency Powers Expansion | executive_constraints | 0.30 (Green) | ai | 0 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 0.25 (Green) | ai | 0 | 1 |
+| Public Funds for Political Promotion | civil_liberties_information | 0.25 (Green) | ai | 0 | 1 |
 
 ## Evidence Samples
 
 ### Election Administration Capture
-- Assessment: Trump directing the Department of Justice to sue to block Senate election results based on partisan outcome represents a direct attempt to use federal executive power to overturn or invalidate election administration and results. This is a verifiable action (Trump directing DOJ) to subordinate election administration to partisan control by invoking federal litigation authority over state electoral outcomes. This constitutes serious, confirmed action to capture election administration through executive branch pressure on the DOJ to intervene in state elections on behalf of a political party.
-- [ABC News - Breaking News, Latest News and Videos] Trump told DOJ to sue to block Alaska Senate results if Republican narrowly loses - ABC News - Breaking News, Latest News and Videos (2026-11-12) - https://news.google.com/rss/articles/CBMipAFBVV95cUxQekhpNnRhMmk3WnMteVlLeVRYT2ZMUGRnRkJmSlJxUU9TUm1GN1ZEYWp5SFRqS20tSWVtQWpUMF9VaWd3U1FFRUd1TDRBMk9UTXhpMkhHTlE4NnQzZDEyRjUxQ3lkYlVkZHAxTS05MjJkbDA2VXFNQVBhcGdmUVJ3LTRHTjBScTBucno5Y0NhazNCeWdiLWpJMUlTRjF2Uk5zRzE2SNIBqgFBVV95cUxQUEZqTzdWbGhCLTVzd1J1VlI1cUxOOWFyLXZIbDI0TnA1YXlWQXgyMTFtaXRMdE9jbTIzTXdkUmpXMzJkejdKeHlXc2lHYWVJd2t3WFVVTmNwS05BT2wzTjhkeW0tZ3FpU0Z5aUxmOFFCMWNydkk1S3hPT09xT2w1WWdjdG5ybXRhWl9FZV84TG5kOWM0YkZwNVVYWU9keUFfZWF1ZVIwRUs3UQ?oc=5
+- [Time Magazine] How Texas’ Blue Takeover Could Soon Begin Impacting Texans’ Lives - Time Magazine (2026-11-13) - https://news.google.com/rss/articles/CBMikAFBVV95cUxOYThZS05mY3BlV0FoN25TUEtCYU5JLTFsbjJBYW5GVUJHT2pzTjJnaEdFSE5aSHBqSW5XTWlWVF83dmp2dFBqSHlUOGd1a0VsTFN4Y2JURnRBN0Ita09xUGFnSElIbC1KVHY0M2gtd1NtLXRXMmJsdjQ3TzVqZkgzazM0Z2pNUFVxVEN0eUwzQy0?oc=5
+- [AP News] 2026 U.S. House Election Results - AP News (2026-11-13) - https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5
+- [Hawaii News Now] Testifiers call for elections chief’s ouster as commission meets after court order - Hawaii News Now (2026-11-13) - https://news.google.com/rss/articles/CBMivwFBVV95cUxOTEY4am5GUXZjUXJtX282TlBBOWF0V01qZS1kZzJWMkdYbnlPUG9EenpEREdtLU84czlvYk9HcktBX09ncVNRSU1rcDhZR2NpRExNenBiRVB6YVhNOURFUkxMbEdZLTB6OWpqai0yWDhWWlFpR3RBWEY2Ymtsakdpd3gycHl3TDQ4bGJpQjJlaHNWTlNxRUlIZ05OTDVNdUJEekpmZlZoVnNtUWRteDRyMndfZTRqMGpMVHY3OG5BVQ?oc=5
 
 ### Press Restrictions or Retaliation
-- No fresh evidence links in the current lookback window.
+- [Afghanistan International] US Must Free Afghan Journalist Facing Deportation, Says CPJ - Afghanistan International (2026-11-14) - https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGQ3hkQ0FlaUtScTZJaFNIWjBqT3A5THZ3Yjc0Q1BWWFpZTlA1Q3g0VDg3WkRtMTJ0aEp1TVRKdXBuR2tzeE8xalp0WEdOajQ?oc=5
+- [The New Republic] MAGA Propagandist Paid by Russian Government Shows Up at Mar-a-Lago - The New Republic (2026-11-13) - https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xbTZfVUxGSkREWEpuaFFIcXIyaHhqM1FGRkllWk1fTmJOWTd0RjVNUzFEcGJ0QjlaR1hYVXg5V2hIQWY3YllJNXI0N0gtUQ?oc=5
+- [Nepalnews.com] Opposition closes ranks as questions mount over PM Balen government’s performance - Nepalnews.com (2026-11-13) - https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UUlVSTFVsOUdkQmF5VWJMbmtUcnJGUTQzVUwwekNEc2pKYVR5TmdXamd4cDRTWndfaE1JVU1QcGtncUtVY29DV3B4VjNweVhBQzUwVnExVk1hNjVu?oc=5
+
 ### Emergency Powers Expansion
-- No fresh evidence links in the current lookback window.
+- [The Federalist] How Stephen Miller Can Bypass A Democratic Congress For The Next Two Years - The Federalist (2026-11-13) - https://news.google.com/rss/articles/CBMikwFBVV95cUxQMzNIOWk2czFqVmtyVEpROFpFODJHZkVKX282WGk4OVdmTUhnZUoteG1yNkRtcFl2aGF5ZlM2TjhPT3k4dWcwaG91N1dhWlJsUVNuenBHdmpZaU9yVTFWNUNCcDVLV1QyNk9QQVF5WEpaSTF2NXJ2TVpybVpsekU0UWJqWDdRYVJKZ1piYmIwbWplY1E?oc=5
+
 ### Legislative Bypass by Executive
-- [Daily Excelsior] 2026 US Congress Midterm: Power, Policy and Global Impact - Daily Excelsior (2026-11-11) - https://news.google.com/rss/articles/CBMilAFBVV95cUxOMUhfd0dpNjdjeVpHUjRlV3RVRl9LM1BzQmU2QkFGUGRKNFMwWEc0enJTSEdxdHNNS0REaXZFN3hDNWRXbjRKSmhCU2VDRnlKa0xKSndZZHJEdXhmYXVkMlQ3ZjhKaFlqUzVwUHNQZ0NFQ29iTEswajlDRjBzdG9tcVJtU2lBWTdMN2dNMmNtS001Rjdj0gGUAUFVX3lxTE4xSF93R2k2N2N5WkdSNGVXdFVGX0szUHNCZTZCQUZQZEo0UzBYRzR6clNIR3F0c01LRERpdkU3eEM1ZFduNEpKaEJTZUNGeUprTEpKd1lkckR1eGZhdWQyVDdmOEpoWWpTNXBQc1BnQ0VDb2JMSzBqOUNGMHN0b21xUm1TaUFZN0w3Z00yY21LTTVGN2M?oc=5
-- [TheNigeriaLawyer] “Internal Democracy Is Not A Slogan” — Court Voids Mark, Aregbesola’s ADC Leadership, Says INEC Monitoring Isn’t Election — Download Judgment - TheNigeriaLawyer (2026-11-11) - https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUjRrMExFbDczQVVNVXVHVmRCcy04dGFCcE0yUEhCRGdPZ1NTMDFZQWxFMFNTRklDX1Jfb0EwZldUWFplUm5HOHJXRkd2dkVBbTRzTFRySldRMWdaeC13SlhvQmhYbEhEYnBrSVVUVHk3UWVNWUItYzEtSFR6TU4tbzFtVl9namNYUGdCUV83bXFqa2JKY2ZWUUYzVkY4SDNjR2M0OEs2WjR2YmRoZmtRUnZnNDdxcHdtcEtPem1ZZnpBV3ZacmNmeHF2NTJFQmdxbFhiOTAydlR1bGRLUk9hTFBjRFRuOUwyUkZGVjV5dDJMNzQ?oc=5
+- [SCOTUSblog] The major Trump cases that might come back to SCOTUS - SCOTUSblog (2026-11-13) - https://news.google.com/rss/articles/CBMilgFBVV95cUxNclo1WEt4alpQNG9ocVZiS0VTVWdneG5hTXpmYS1CRUlWR3RraTdlWnJCaGxSYy1KcmhBWDNnNl9aYk0yQ1Y2M01MWWVPZldWb01JQVJBU0lSSU81RE1sdzZaXy1SSUc3OXNORUVNUU1QSUwwdkZmdlZzWlN5c09YWVlLVEI1X0JnTUYzY3ZLNG9kYzJIdmc?oc=5
 
 ### Public Funds for Political Promotion
-- No fresh evidence links in the current lookback window.
+- [Mises Institute] Three Free-Market Ways to Limit Immigration - Mises Institute (2026-11-14) - https://news.google.com/rss/articles/CBMieEFVX3lxTE5BN19fMm9UbUdkVVBDQWdHbFlPeUFFTzFxaEFDZFhXTHFybzV2XzUtMlZLREVFYnZPcS1ENGJKeWhJWmhabzdwMFZGQ0xiWDV3NEpqOFBWLWRCWml5cTdCcjl6dDlBUmlaTEMtY18yUnJheHM3eVBpVA?oc=5
+
 ## Data Quality
 
 - Query feeds attempted: 25

@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 13.28,
+  "average_7d": 13.62,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -1.0,
-  "delta_vs_7d": 0.37,
+  "delta_previous_day": -4.0,
+  "delta_vs_7d": -3.24,
   "domain_breakdown": [
     {
-      "avg_severity": 2.0,
+      "avg_severity": 1.65,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 11.0,
+      "points": 9.075,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.4166666666666667,
+      "avg_severity": 0.18333333333333335,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.3541666666666667,
+      "points": 0.5958333333333334,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.5166666666666666,
+      "avg_severity": 0.2833333333333333,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.2916666666666665,
+      "points": 0.7083333333333333,
       "weight": 10
     },
     {
@@ -85,9 +85,9 @@
     "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-11-13T12:28:17.143799+00:00",
+  "generated_at": "2026-11-14T12:25:18.955482+00:00",
   "methodology_version": 2,
-  "previous_score": 15,
+  "previous_score": 14,
   "primary_sources": {
     "documents_confirmed": 0,
     "documents_fetched": 6,
@@ -98,47 +98,93 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 14,
-  "score_raw": 13.65,
-  "score_raw_pre_trip_wire": 13.65,
+  "score": 10,
+  "score_raw": 10.38,
+  "score_raw_pre_trip_wire": 10.38,
   "successful_queries": 25,
   "top_signals": [
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://abcnews.com/US/doj-preemptively-sues-block-alaska-senate-results-republican/story?id=137512876",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQekhpNnRhMmk3WnMteVlLeVRYT2ZMUGRnRkJmSlJxUU9TUm1GN1ZEYWp5SFRqS20tSWVtQWpUMF9VaWd3U1FFRUd1TDRBMk9UTXhpMkhHTlE4NnQzZDEyRjUxQ3lkYlVkZHAxTS05MjJkbDA2VXFNQVBhcGdmUVJ3LTRHTjBScTBucno5Y0NhazNCeWdiLWpJMUlTRjF2Uk5zRzE2SNIBqgFBVV95cUxQUEZqTzdWbGhCLTVzd1J1VlI1cUxOOWFyLXZIbDI0TnA1YXlWQXgyMTFtaXRMdE9jbTIzTXdkUmpXMzJkejdKeHlXc2lHYWVJd2t3WFVVTmNwS05BT2wzTjhkeW0tZ3FpU0Z5aUxmOFFCMWNydkk1S3hPT09xT2w1WWdjdG5ybXRhWl9FZV84TG5kOWM0YkZwNVVYWU9keUFfZWF1ZVIwRUs3UQ?oc=5",
-          "published": "2026-11-12T07:59:20+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "canonical_link": "https://time.com/article/2026/11/13/texas-midterm-elections-democrats-state-government/",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYThZS05mY3BlV0FoN25TUEtCYU5JLTFsbjJBYW5GVUJHT2pzTjJnaEdFSE5aSHBqSW5XTWlWVF83dmp2dFBqSHlUOGd1a0VsTFN4Y2JURnRBN0Ita09xUGFnSElIbC1KVHY0M2gtd1NtLXRXMmJsdjQ3TzVqZkgzazM0Z2pNUFVxVEN0eUwzQy0?oc=5",
+          "published": "2026-11-13T16:57:53+00:00",
+          "publisher": "Time Magazine",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump told DOJ to sue to block Alaska Senate results if Republican narrowly loses - ABC News - Breaking News, Latest News and Videos"
+          "title": "How Texas\u2019 Blue Takeover Could Soon Begin Impacting Texans\u2019 Lives - Time Magazine"
+        },
+        {
+          "canonical_link": "https://apnews.com/projects/elections-2026/us-house-results/",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5",
+          "published": "2026-11-13T08:00:00+00:00",
+          "publisher": "AP News",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "2026 U.S. House Election Results - AP News"
+        },
+        {
+          "canonical_link": "https://www.hawaiinewsnow.com/video/2026/11/13/testifiers-call-elections-chiefs-ouster-commission-meets-after-court-order/",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTEY4am5GUXZjUXJtX282TlBBOWF0V01qZS1kZzJWMkdYbnlPUG9EenpEREdtLU84czlvYk9HcktBX09ncVNRSU1rcDhZR2NpRExNenBiRVB6YVhNOURFUkxMbEdZLTB6OWpqai0yWDhWWlFpR3RBWEY2Ymtsakdpd3gycHl3TDQ4bGJpQjJlaHNWTlNxRUlIZ05OTDVNdUJEekpmZlZoVnNtUWRteDRyMndfZTRqMGpMVHY3OG5BVQ?oc=5",
+          "published": "2026-11-13T01:31:21+00:00",
+          "publisher": "Hawaii News Now",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Testifiers call for elections chief\u2019s ouster as commission meets after court order - Hawaii News Now"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 4,
+      "hits": 6,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "Trump directing the Department of Justice to sue to block Senate election results based on partisan outcome represents a direct attempt to use federal executive power to overturn or invalidate election administration and results. This is a verifiable action (Trump directing DOJ) to subordinate election administration to partisan control by invoking federal litigation authority over state electoral outcomes. This constitutes serious, confirmed action to capture election administration through executive branch pressure on the DOJ to intervene in state elections on behalf of a political party.",
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 3.0,
-      "severity_label": "Orange",
-      "unique_publishers": 1
+      "severity": 2.65,
+      "severity_label": "Yellow",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
+      "evidence": [
+        {
+          "canonical_link": "https://www.afintl.com/en/202611142696",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGQ3hkQ0FlaUtScTZJaFNIWjBqT3A5THZ3Yjc0Q1BWWFpZTlA1Q3g0VDg3WkRtMTJ0aEp1TVRKdXBuR2tzeE8xalp0WEdOajQ?oc=5",
+          "published": "2026-11-14T11:35:41+00:00",
+          "publisher": "Afghanistan International",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "US Must Free Afghan Journalist Facing Deportation, Says CPJ - Afghanistan International"
+        },
+        {
+          "canonical_link": "https://newrepublic.com/breaking-news",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xbTZfVUxGSkREWEpuaFFIcXIyaHhqM1FGRkllWk1fTmJOWTd0RjVNUzFEcGJ0QjlaR1hYVXg5V2hIQWY3YllJNXI0N0gtUQ?oc=5",
+          "published": "2026-11-13T20:58:07+00:00",
+          "publisher": "The New Republic",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "MAGA Propagandist Paid by Russian Government Shows Up at Mar-a-Lago - The New Republic"
+        },
+        {
+          "canonical_link": "https://english.nepalnews.com/s/politics/252179/",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UUlVSTFVsOUdkQmF5VWJMbmtUcnJGUTQzVUwwekNEc2pKYVR5TmdXamd4cDRTWndfaE1JVU1QcGtncUtVY29DV3B4VjNweVhBQzUwVnExVk1hNjVu?oc=5",
+          "published": "2026-11-13T17:00:05+00:00",
+          "publisher": "Nepalnews.com",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Opposition closes ranks as questions mount over PM Balen government\u2019s performance - Nepalnews.com"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 3,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
@@ -147,26 +193,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.65,
+      "severity": 0.6,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -176,26 +203,46 @@
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://www.dailyexcelsior.com/2026-us-congress-midterm-power-policy-and-global-impact/amp",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMUhfd0dpNjdjeVpHUjRlV3RVRl9LM1BzQmU2QkFGUGRKNFMwWEc0enJTSEdxdHNNS0REaXZFN3hDNWRXbjRKSmhCU2VDRnlKa0xKSndZZHJEdXhmYXVkMlQ3ZjhKaFlqUzVwUHNQZ0NFQ29iTEswajlDRjBzdG9tcVJtU2lBWTdMN2dNMmNtS001Rjdj0gGUAUFVX3lxTE4xSF93R2k2N2N5WkdSNGVXdFVGX0szUHNCZTZCQUZQZEo0UzBYRzR6clNIR3F0c01LRERpdkU3eEM1ZFduNEpKaEJTZUNGeUprTEpKd1lkckR1eGZhdWQyVDdmOEpoWWpTNXBQc1BnQ0VDb2JMSzBqOUNGMHN0b21xUm1TaUFZN0w3Z00yY21LTTVGN2M?oc=5",
-          "published": "2026-11-11T23:29:44+00:00",
-          "publisher": "Daily Excelsior",
+          "canonical_link": "https://thefederalist.com/2026/11/13/how-stephen-miller-can-bypass-a-democratic-congress/",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMzNIOWk2czFqVmtyVEpROFpFODJHZkVKX282WGk4OVdmTUhnZUoteG1yNkRtcFl2aGF5ZlM2TjhPT3k4dWcwaG91N1dhWlJsUVNuenBHdmpZaU9yVTFWNUNCcDVLV1QyNk9QQVF5WEpaSTF2NXJ2TVpybVpsekU0UWJqWDdRYVJKZ1piYmIwbWplY1E?oc=5",
+          "published": "2026-11-13T12:48:14+00:00",
+          "publisher": "The Federalist",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "2026 US Congress Midterm: Power, Policy and Global Impact - Daily Excelsior"
-        },
-        {
-          "canonical_link": "https://thenigerialawyer.com/internal-democracy-is-not-a-slogan-court-voids-mark-aregbesolas-adc-leadership-says-inec-monitoring-isnt-election-download-judgment/",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQUjRrMExFbDczQVVNVXVHVmRCcy04dGFCcE0yUEhCRGdPZ1NTMDFZQWxFMFNTRklDX1Jfb0EwZldUWFplUm5HOHJXRkd2dkVBbTRzTFRySldRMWdaeC13SlhvQmhYbEhEYnBrSVVUVHk3UWVNWUItYzEtSFR6TU4tbzFtVl9namNYUGdCUV83bXFqa2JKY2ZWUUYzVkY4SDNjR2M0OEs2WjR2YmRoZmtRUnZnNDdxcHdtcEtPem1ZZnpBV3ZacmNmeHF2NTJFQmdxbFhiOTAydlR1bGRLUk9hTFBjRFRuOUwyUkZGVjV5dDJMNzQ?oc=5",
-          "published": "2026-11-11T13:52:19+00:00",
-          "publisher": "TheNigeriaLawyer",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "\u201cInternal Democracy Is Not A Slogan\u201d \u2014 Court Voids Mark, Aregbesola\u2019s ADC Leadership, Says INEC Monitoring Isn\u2019t Election \u2014 Download Judgment - TheNigeriaLawyer"
+          "title": "How Stephen Miller Can Bypass A Democratic Congress For The Next Two Years - The Federalist"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 1,
+      "id": "emergency_powers_expansion",
+      "name": "Emergency Powers Expansion",
+      "override_note": null,
+      "primary_confirmed": 0,
+      "primary_documents": 0,
+      "primary_source_url": null,
+      "rationale": null,
+      "severe_hits": 0,
+      "severity": 0.3,
+      "severity_label": "Green",
+      "unique_publishers": 0
+    },
+    {
+      "confirmed_hits": 0,
+      "critical_hits": 0,
+      "domain_id": "executive_constraints",
+      "evidence": [
+        {
+          "canonical_link": "https://www.scotusblog.com/2026/11/major-trump-cases-that-might-come-back-to-supreme-court/",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNclo1WEt4alpQNG9ocVZiS0VTVWdneG5hTXpmYS1CRUlWR3RraTdlWnJCaGxSYy1KcmhBWDNnNl9aYk0yQ1Y2M01MWWVPZldWb01JQVJBU0lSSU81RE1sdzZaXy1SSUc3OXNORUVNUU1QSUwwdkZmdlZzWlN5c09YWVlLVEI1X0JnTUYzY3ZLNG9kYzJIdmc?oc=5",
+          "published": "2026-11-13T14:00:29+00:00",
+          "publisher": "SCOTUSblog",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "The major Trump cases that might come back to SCOTUS - SCOTUSblog"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -204,7 +251,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     },
@@ -212,9 +259,19 @@
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
+      "evidence": [
+        {
+          "canonical_link": "https://mises.org/mises-wire/three-free-market-ways-limit-immigration",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BN19fMm9UbUdkVVBDQWdHbFlPeUFFTzFxaEFDZFhXTHFybzV2XzUtMlZLREVFYnZPcS1ENGJKeWhJWmhabzdwMFZGQ0xiWDV3NEpqOFBWLWRCWml5cTdCcjl6dDlBUmlaTEMtY18yUnJheHM3eVBpVA?oc=5",
+          "published": "2026-11-14T07:22:09+00:00",
+          "publisher": "Mises Institute",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Three Free-Market Ways to Limit Immigration - Mises Institute"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 1,
       "id": "public_funds_political_promotion",
       "name": "Public Funds for Political Promotion",
       "override_note": null,
@@ -223,7 +280,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.6,
+      "severity": 0.25,
       "severity_label": "Green",
       "unique_publishers": 0
     }

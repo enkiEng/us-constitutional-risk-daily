@@ -1606,6 +1606,16 @@
       "rationale": "An article reporting that conservative analysts are *speculating* about removing the presidential pardon power is commentary and hypothetical discussion, not evidence that election administration has been captured. Speculation about constitutional amendment or reform is not a real occurrence of capture or structural failure. No action has been taken.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5": {
+      "actor": "AP News",
+      "confidence": 0.99,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a routine report of election results. The occurrence of an election and its reporting is a normal constitutional process, not evidence of election administration capture. Election administration capture would require evidence that the administration of elections moved to partisan control, not merely that elections occurred and produced certain outcomes.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XY2hjNGZkSzRZcVJIUHN2RVhNOXpNcjF6Y0JaVWk2WHIyQWtrdVRsenpqQXlvcko2V3BxUVptY0UxT0xEbEZxUlBJRTBEYUZvSjVaNkdMVXVYaHJXMGtHQ0I5cTE4ZVhxWUxST3NB?oc=5": {
       "actor": "Kansas state election administration",
       "confidence": 0.95,
@@ -2106,6 +2116,16 @@
       "rationale": "This is opinion/analysis about election confidence and concerns. It expresses views about the election but does not describe or confirm an actual event of election administration being moved to partisan control. It is punditry about the state of affairs, not evidence of a structural change to election administration.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYThZS05mY3BlV0FoN25TUEtCYU5JLTFsbjJBYW5GVUJHT2pzTjJnaEdFSE5aSHBqSW5XTWlWVF83dmp2dFBqSHlUOGd1a0VsTFN4Y2JURnRBN0Ita09xUGFnSElIbC1KVHY0M2gtd1NtLXRXMmJsdjQ3TzVqZkgzazM0Z2pNUFVxVEN0eUwzQy0?oc=5": {
+      "actor": "Time Magazine",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is opinion/analysis framing a hypothetical future scenario ('could soon begin'). Electoral shifts and changes in partisan control resulting from democratic elections do not constitute election administration capture. The article discusses anticipated policy impacts of a potential change in electoral outcomes, not evidence that election administration has been moved from neutral process to partisan control.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa3o4eFJIWW1lY3NvdTJNenk5OVRaLWM1aEJlZDFGdGszYjZmQ2NpcncxUy1kXzktX050cUlHSm95VC1qaE1KQlctUE5NZ0JHSzZENXRSTEJOSnVFRjNvTGRsVThzQmFSdVBPUzd2azZMMHd0M1BHMjRsQl9YeDluV2V6SHUwMWpxQmlHRVRMMjY?oc=5": {
       "actor": "Pete Hegseth",
       "confidence": 0.05,
@@ -2154,6 +2174,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item describes FBI visiting a county in response to voter fraud claims. This is investigative activity in response to allegations, not evidence of election administration being moved to partisan control. An FBI investigation does not constitute capture of election administration by partisan actors. The headline characterization ('smelled wrong') is journalistic framing, not a confirmation of malfeasance. No verifiable action moving election administration from neutral to partisan control is described.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRlJBS0Y0emNZWEJJOEdLV21CY1ctWXZsRnlpdU02VF90Zy1ldjM5SVV0RmFvMmR6bURNTFdTQXFkNEZWbEI4Uk1xc0Q5TnppQ0N5UXp5ZDVHTjRmdl9rQWo3VWhkMXNsNXJLc3JBd1JYTGluYm9tdEZETDlXRU9xQXlqMVhNSVZIaGJvUk9aVEJMaGs?oc=5": {
+      "actor": "AZ Family",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is expert commentary and analysis discussing electoral trends ('blue wave'). Discussion of electoral phenomena, polling, or expert opinion about shifting electoral patterns does not constitute evidence that election administration itself has been captured by partisan actors. The signal requires evidence of partisan control of the administration process, not commentary on electoral outcomes or predictions.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSEhiSnVmN1Joci0xaWdzOXl0NExSZUgtSzdTbDhjdW1nbjE4RDQyVEROZVpsaWFCNVNnaURlMU9wZC1sV3RIc3BnZ1FDY3Y4eWN1NHhBZnZ1akNPR0xwQkowUVF0UDdrYzVBajllZ0h5bHppOWNyTWpQanpfbEVKOFdudXJNWDRab1FXdlJqRnVqT3c?oc=5": {
@@ -3470,6 +3500,16 @@
       "matches_signal": false,
       "primary_source_url": "https://thenewamerican.com",
       "rationale": "Opinion/commentary piece with the same title as item 0. No specific emergency power expansion is described as having occurred. This is analysis or editorial concern about a conceptual trend, not evidence that emergency authorities were actually invoked to bypass legislative process.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMzNIOWk2czFqVmtyVEpROFpFODJHZkVKX282WGk4OVdmTUhnZUoteG1yNkRtcFl2aGF5ZlM2TjhPT3k4dWcwaG91N1dhWlJsUVNuenBHdmpZaU9yVTFWNUNCcDVLV1QyNk9QQVF5WEpaSTF2NXJ2TVpybVpsekU0UWJqWDdRYVJKZ1piYmIwbWplY1E?oc=5": {
+      "actor": "The Federalist",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://thefederalist.com",
+      "rationale": "This is an opinion/analysis article proposing theoretical strategies for how an official could bypass Congress, not reporting that such an action has actually occurred. The headline is instructional ('How...Can'), indicating it discusses possibilities rather than accomplished facts. No verifiable emergency powers expansion has taken place; this is punditry about potential future actions. The future date (2026-11-13) is inconsistent with analysis of a current event, further indicating speculative content.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxNczdHYlZBTk1iQm5hcElFMzQtRC1IT0RSajVJN3lFZ2dtck1IQkduYTB5RE1IS3JqeUJidjR2UmNzUEkxQTJNOEptYmVxMzBYUC03REY3UG9xQVgwd2Y2eXJncVdjY3pQVjBKcEpYaDR3bVpGR21BdVlTdzdqSTI0THNxOGJwNGNpd2d5N2FDX3U4ODhicFE?oc=5": {
@@ -5558,6 +5598,16 @@
       "rationale": "This item reports court rulings finding that an administration violated rights\u2014a normal function of judicial review. It does not describe any official campaign, pressure, or punishment directed at judges for their adverse rulings. The headline describes the outcome (courts ruling against an administration), not judge intimidation. No sustained pressure on judges, threats to remove judges, or punitive action targeting the judiciary for their decisions is alleged. This is standard adversarial litigation outcomes, not evidence of a judge-intimidation campaign.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSXhaYVpjQ2ZIRUF1czdjazA2NzRPcUJoMW9qZ09YRy14UThTSjNLR3J5RWhRMWs4S29tckFUVlc4VHNpWWVOZ0lyOEp0X2Z3dXItYzFiWG1aVzVYN09EWmRaaXd6WDA5MXhiZlNoUGM1c0lfWHk5SlNzeGZYOFlXZ0U0eW12ZnV5emNjdHNYWF9taWdkcU81cDNGeUxiM2d6NFJibUhNZ2huclZpOXUyN2VDQzFvTUZWd3lId09IaVdyTnBHeXRaNDA4Szd4RG0wMUE?oc=5": {
+      "actor": "Democratic-controlled Congress / Justice Alito",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is opinion/analysis and hypothetical discussion about theoretical budget power, not evidence of an actual intimidation campaign targeting judges for their rulings. The article discusses potential future action ('could'), not a confirmed occurrence. No sustained pressure, threats, or punitive actions have been taken against judges. This is commentary on constitutional powers, not evidence of their exercise to intimidate.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaWd1RlNwWjljaGNEdW9aOFpMQ3pZaUxIZFk4cUdXNXRQcldMZ1RmV2VnaDhpZmc0WGxGTVZMdURGOUducG9LeXJEZXZqZjU1UFJ3OHI4NW5WVGY5VmkxeGVrT3ZocFJzV3VpWEo2YXF5aGtCVTFSeHFlTVVnYzRUQi1UTmliUW12X0dhdWZUSlpPNUdmakc5azVuZWhXWjRXdHpCOE1ZczczM1V3YTU5bHpDSUF5X2hkdjVDZmg2eFBYNWZ3OTN1VHFBZU1OY25IeGc?oc=5": {
       "actor": "Ninth Circuit Court of Appeals",
       "confidence": 0.92,
@@ -5626,6 +5676,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Nepal's Supreme Court and Bar Association, not the United States. The signal monitors U.S. domestic constitutional conditions. Events in other countries are not evidence of U.S. constitutional stress.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQV3pnNjA3ZENWSHVxbnFNRUpKaU1qTTR5clIzejYzTk9hc3R4UHRmNzNVa29SeHVzb3JaVlRTcjA3X1h0eGRUbUhzdEdwYW8zUUdZc0luQmtLUnFKYU45N0loRkZTdTVSR2M0Y0lIeTdmeGFXLUc2eXpQdXZhdHdyUmpSMDF4WGExd3IxSUlTeGI4OHdfNGVZdUVlLUxiUEhVMDlWaGtuak5ybkp4V0JSdEV3VG5CYkJaeFVDTGNqR2VTbXczc2RCT2U5Y2l3LXFWZV9rXzJKSjFlU2ZyNWlNV2NqSVVEcVFFbjl1cDRSckxMaW4ydmhfbEtYZE5YZExBY2ZMcjdTR0hXUEhJdmFidEptTVJqSXhlSjkxZTNRS3N6ZmNWN2o5aEhURDdEMVlhQlVnNnVBUUNTNHN0aDJzNWVmSy1ySjdQU2ZVN0FaNVQzdVdxMTctaWV3?oc=5": {
+      "actor": "Rep. Meng / Secretary Hegseth",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns alleged misconduct by a Defense Secretary regarding foreign policy and a senator, not judge intimidation. While it mentions accountability demands, it does not allege or describe sustained official pressure to punish judges for adverse rulings. The signal specifically concerns judge intimidation campaigns; this is a separate political accusation unrelated to the judiciary or judicial decisions. No evidence of targeting judges for their rulings.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUi1Wa3h6S3VOek5BSXVHY0kwTzlUeElJUk11UE90UzNjVmtfTk9mb1FFSmxXUXFYMC1SaU54Y3g3emZlMzY2bHFnY1FMcEJKOU5ZNmFyS2UxdGVOeGp1Rm0tUlJuRlhjSXJlX2pDM1RkSkVqNGpraU1saG9jbjlSOWtDT21YQmo4dlVZaUdieEE3Z3ZXOVN0T0swbGJ1Y2NwMFdzQmU2MGVJSXpJdkVZUHRnYkhEZUhDUUl2N1hrOER4QWR2RzBPb3lDOERGU20tM1dydVRPRTVHU2s?oc=5": {
@@ -7604,6 +7664,16 @@
       "rationale": "This is an opinion/analysis piece (Lawfare is a legal commentary publication) analyzing potential implications of Trump v. Slaughter for FTC authority. It appears to be prospective analysis or legal reasoning about possible future changes to executive agency scope, not documentation that an actual executive bypass has occurred. Without seeing the article, a title about agency authority 'after' a court case suggests legal analysis rather than evidence of accomplished action.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxNclo1WEt4alpQNG9ocVZiS0VTVWdneG5hTXpmYS1CRUlWR3RraTdlWnJCaGxSYy1KcmhBWDNnNl9aYk0yQ1Y2M01MWWVPZldWb01JQVJBU0lSSU81RE1sdzZaXy1SSUc3OXNORUVNUU1QSUwwdkZmdlZzWlN5c09YWVlLVEI1X0JnTUYzY3ZLNG9kYzJIdmc?oc=5": {
+      "actor": "SCOTUS/judiciary",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "SCOTUSblog",
+      "rationale": "This is speculative legal analysis discussing potential future Supreme Court cases. It is a prospective discussion of what 'might come back' to SCOTUS, not a record of an actual executive bypass, legislative circumvention, or structural change to governance. The item is analysis/opinion about hypothetical future litigation, not evidence that an executive action has shifted major governance from statute to unilateral power. No actual event has occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2kxZWVMWVVoTlpFR0Z3dXdMWDA3QThYTmxtd3lWVHVEQnJnZUZJZHhqTDZwRUlQMXpWczRMMGc2UW9GOGJiTlJ6UDVkM01wa1BuOS1PM1hVSG9aVFQ3WWw3dGZDRmNxeGt0RHlTcWpvUWhWMjBhclN2UHpvaGxvVWMxTHdxWE5SN0RLQlc1cmpnaDhjTkE?oc=5": {
       "actor": "",
       "confidence": 0.95,
@@ -8494,6 +8564,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.france24.com",
       "rationale": "US House contempt vote against Epstein associate. This is the legislature successfully executing its investigative and enforcement powers, not experiencing obstruction of its fact-finding mission.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcERWQXNOdTdTbkJIMGEzZWFQRy1DZU9vT1I2c1ZVb29EWVMzMk9HeFI1QXNDYlMzZ2phaDhWZUk0VE1NT09uMV9PaVh5dzhjNFpDdWVvVXQzZDFESWZOZWl4QjZLalFReWdKdEkxdnlsTHhXc0JCaThDZTNibFM5engxamNCUGYyaUE?oc=5": {
+      "actor": "Trump administration/allies",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "www.washingtonsun.com",
+      "rationale": "The headline and summary indicate a speculative article about Trump allies seeking judicial protection ('looking for a shield'). This describes a future-oriented goal or speculation, not a verified occurrence of legislative oversight obstruction. No concrete action, barrier, defiance, or obstruction of fact-finding or executive accountability has been documented. The phrasing 'looking for' indicates intent or proposal, not accomplished action. Without the full text, this appears to be opinion/analysis coverage of political strategy rather than evidence of a constitutional stress event that has actually occurred.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiigFBVV95cUxQY3RBSVE3QXZhUXVRUFo1MkE5NExqZDYzYTBFX0lNbGtBR0syQ1JMaDlvaWJuamsyZE1rTlpfcnpKUkEzbUhGMFBQYlFDdjhPMnA4NzhnZTBzTy05d2pHSERyZkJ3bUlUMURXYlhGMTA0Z0poQkFXQ1BRQWp3aTRiMGRNOUpZZXRCamc?oc=5": {
@@ -11666,6 +11746,16 @@
       "rationale": "This item reports on South Korean domestic politics (\uc870\uc120\uc77c\ubcf4 is a South Korean newspaper, People Power Party is South Korean). The signal concerns politicized prosecution in the United States. This is a non-U.S. event and therefore not evidence of the specified signal occurring in the U.S. constitutional system.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdlkyN09RUWpmcjV2MExtQ2xVX1FEMTktbzdVUnNoZ091MUVickZHdkhrYzEyZE9QOU5zZU1FR0RfRjYzTlBHSlBHOGJGSjd1aVdwMnNycDBDWDU3VjVPRFo3Sk9UQVQ4SnVFLWlSMzlEUUpNRTZPWHZVLW5waU1vT1MxOHNBU01lZjFrUm5odDBhMVFUeVo4Y2NMbXFhVDQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is merely a headline/title fragment with no substantive content describing any actual event. It appears to be a generic reference to a 'constitutional battle' without specific details about what occurred, when, or whether it involves politicized prosecution of opposition actors. Without concrete facts about a prosecutorial action, a specific target, or evidence of selective enforcement, this cannot be scored as evidence of the signal. The source designation 'BLiTZ - Fears None But God' suggests commentary or opinion rather than reporting of an accomplished action.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb2R5UG1CY013Y0Z6aXotTi1RUFVYV09LQlFuQ2ZGempTM2E3OFE3UDBnLTJYNE1ScmhIVkJoRlV4b2l4NGFoOUFQM05HNV9WdnVCUEgyWHlJb01SME14QmkyRk5iOE5zQTVzZFNhMkVJdFFHZ1NKSTlxY0lpMy1PdDFZT1FNcjdYYWtYRkl3OTRrOGNhMlhFOHBsR0RjX3prWjVtRURSekVRY3c?oc=5": {
       "actor": "Stanford Law School",
       "confidence": 0.95,
@@ -11948,6 +12038,26 @@
       "rationale": "Item from The New Nation (Bangladesh-based publication) appears to be opinion or editorial content on freedom of expression and independent media as general principles. Not a report of a U.S. domestic event or action.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGQ3hkQ0FlaUtScTZJaFNIWjBqT3A5THZ3Yjc0Q1BWWFpZTlA1Q3g0VDg3WkRtMTJ0aEp1TVRKdXBuR2tzeE8xalp0WEdOajQ?oc=5": {
+      "actor": "CPJ/US government",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://afghanistan-international.com",
+      "rationale": "This is a call or petition by the Committee to Protect Journalists (CPJ) regarding an Afghan journalist facing potential deportation from the US. While deportation of a foreign national raises immigration/due-process issues, this item does not report that the US has taken state action to restrict press, retaliate against a reporter for coverage, or raise costs/legal risk for independent reporting. It is advocacy about treatment of a non-citizen, not evidence of press restrictions or retaliation against journalism. The article is primarily a plea for action, not a report of press suppression in the US.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xbTZfVUxGSkREWEpuaFFIcXIyaHhqM1FGRkllWk1fTmJOWTd0RjVNUzFEcGJ0QjlaR1hYVXg5V2hIQWY3YllJNXI0N0gtUQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://newrepublic.com",
+      "rationale": "This is a news report alleging that a person described as a 'MAGA Propagandist' paid by a foreign government appeared at Mar-a-Lago. This is not evidence of state action raising costs or legal risk for independent reporting, nor does it report press restrictions or retaliation against journalists. It describes alleged foreign influence or propaganda activities, which is a different category of concern. No material signal of press restrictions is present.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5iWEpRZEFpMU1UemQxaUttQkxZanB1X3FEMWpuMFBURGYzckhwYzBXYmk3MkJaNC1JMHdIRGlxdGtuVXJPV3N6OVNuLUJ6LTh5cGc?oc=5": {
       "actor": "Unknown",
       "confidence": 0.95,
@@ -11976,6 +12086,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns Cuba, not the United States. Harassment of journalists in Cuba is not evidence of a U.S. constitutional-stress event. The signal applies only to U.S. domestic action.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UUlVSTFVsOUdkQmF5VWJMbmtUcnJGUTQzVUwwekNEc2pKYVR5TmdXamd4cDRTWndfaE1JVU1QcGtncUtVY29DV3B4VjNweVhBQzUwVnExVk1hNjVu?oc=5": {
+      "actor": "Nepal government",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://nepalnews.com",
+      "rationale": "This item concerns political opposition activity in Nepal regarding the PM Balen government's performance. It is not a US domestic event and thus does not constitute evidence of a US constitutional-risk signal. The signal scope is restricted to the United States.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxRE1tX2p3OHRCOFRqV3pBdEZkMUl1em80MzBWSHFYdWpKMzU2Ynl6Q3o2VjJIaU9rWFlEUkJqZEdaODJ5Wk5RVk4tMXhYa1RSZTJWaVNTanpHd1RT?oc=5": {
@@ -13619,6 +13739,16 @@
       "primary_source_url": "https://commondrreams.org",
       "rationale": "Court order blocking taxpayer-funded partisan ads represents confirmed judicial action against alleged misuse of public funds for campaign-style promotion. The judge's issuance of an injunction is itself an action that changes legal status\u2014the administration can no longer air these ads without violating the order. This is a real, credible stress event. However, severity is 2 rather than 3 because this is a single blocked campaign caught and restrained by judicial review, not a structural breakdown or pattern of defiance.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BN19fMm9UbUdkVVBDQWdHbFlPeUFFTzFxaEFDZFhXTHFybzV2XzUtMlZLREVFYnZPcS1ENGJKeWhJWmhabzdwMFZGQ0xiWDV3NEpqOFBWLWRCWml5cTdCcjl6dDlBUmlaTEMtY18yUnJheHM3eVBpVA?oc=5": {
+      "actor": "Mises Institute",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://mises.org",
+      "rationale": "This item is an opinion/analysis article proposing policy ideas about immigration. It is not a report of an actual government action, appropriation, or use of public funds. It is commentary on potential regulatory approaches, not evidence that public funds were spent on political promotion or partisan advertising. No actual event has occurred.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pLUtqbzlUWHRveXYwMmY5clRlVzVGVWc3SThfWEEzb2xvZm9tSFhHR0pHcFo3c2U5UXdjMnp0aTg2NTAyc3FHSlhIR0dxSlFEOUdwVmlsek9GTEVmYlhaT01kQjVJWmVWLU10U1FvWFdaYmc5N3pYSA?oc=5": {
       "actor": "Trump administration",
@@ -16636,6 +16766,46 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/11/13/2026-23070/60-day-notice-of-proposed-information-collection-federal-labor-standards-payee-verification-and",
       "rationale": "This is a routine Paperwork Reduction Act notice from HUD seeking OMB approval and public comment on an information collection. It is a proposal requesting comment, not an accomplished action. It involves HUD (not BLS, BEA, or Census Bureau), does not alter statistical agency methodology or leadership, and contains no evidence of political interference with federal economic data production. The document does not change any existing safeguard or authority.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/16/2026-23199/agency-information-collection-activities-extension-of-collection-comment-request-contests-challenges": {
+      "actor": "CPSC",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23199/agency-information-collection-activities-extension-of-collection-comment-request-contests-challenges",
+      "rationale": "This is a Paperwork Reduction Act notice from CPSC seeking comments on an extension of approval for contests and awards information collection. CPSC is not a federal statistical agency. No evidence of interference with BLS, BEA, or Census Bureau.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/16/2026-23219/air-plan-partial-approval-and-partial-conditional-approval-south-carolina-minor-source-permit": {
+      "actor": "EPA",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23219/air-plan-partial-approval-and-partial-conditional-approval-south-carolina-minor-source-permit",
+      "rationale": "This is an EPA rule approving state air quality plan revisions for South Carolina. It concerns environmental permitting and testing requirements, not federal statistical agency operations, leadership, data methodology, or data release integrity.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/16/2026-23225/surety-bond-guarantee-program-streamlining-and-modernizing": {
+      "actor": "SBA",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23225/surety-bond-guarantee-program-streamlining-and-modernizing",
+      "rationale": "This is a final rule from the SBA concerning surety bond program regulations\u2014burden reduction and technical corrections. It does not involve BLS, BEA, Census Bureau, or any federal statistical agency. No evidence of interference with statistical data production or integrity.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/16/2026-23238/agency-information-collection-activities-notice-and-request-for-comment-49-cfr-part-555-temporary": {
+      "actor": "NHTSA",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/16/2026-23238/agency-information-collection-activities-notice-and-request-for-comment-49-cfr-part-555-temporary",
+      "rationale": "This is a routine Paperwork Reduction Act notice soliciting public comments on a proposed information collection. It is a request for OMB approval and public input, not an accomplished action affecting statistical agency integrity, leadership removal, methodology changes, or data release timing. No evidence of political interference with BLS, BEA, or Census Bureau operations.",
       "severity": 0
     }
   }
