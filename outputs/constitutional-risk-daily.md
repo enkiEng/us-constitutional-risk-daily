@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-11-14 12:25:18 UTC
+- Generated: 2026-11-15 12:25:49 UTC
 - Methodology: **v2** (extraction: AI event extraction)
 - Score: **10 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-4.0**
-- Delta vs 7-day average: **-3.2**
+- Previous day delta: **0.0**
+- Delta vs 7-day average: **-2.9**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,12 +15,12 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 1.65 | 9.07 |
+| Elections and Transfer of Power | 22 | 1.30 | 7.15 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 0.18 | 0.60 |
+| Executive Constraints and Emergency Powers | 13 | 0.00 | 0.00 |
 | Civil Service and Agency Independence | 10 | 0.00 | 0.00 |
-| Civil Liberties and Information Environment | 10 | 0.28 | 0.71 |
+| Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -28,32 +28,19 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Election Administration Capture | elections_transfer | 2.65 (Yellow) | ai | 0 | 6 |
-| Press Restrictions or Retaliation | civil_liberties_information | 0.60 (Green) | ai | 0 | 3 |
-| Emergency Powers Expansion | executive_constraints | 0.30 (Green) | ai | 0 | 1 |
-| Legislative Bypass by Executive | executive_constraints | 0.25 (Green) | ai | 0 | 1 |
-| Public Funds for Political Promotion | civil_liberties_information | 0.25 (Green) | ai | 0 | 1 |
+| Election Administration Capture | elections_transfer | 2.30 (Yellow) | ai | 0 | 5 |
+| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | ai | 1 | 3 |
 
 ## Evidence Samples
 
 ### Election Administration Capture
+- [AP News] 2026 U.S. House Election Results - AP News (2026-11-15) - https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5
 - [Time Magazine] How Texas’ Blue Takeover Could Soon Begin Impacting Texans’ Lives - Time Magazine (2026-11-13) - https://news.google.com/rss/articles/CBMikAFBVV95cUxOYThZS05mY3BlV0FoN25TUEtCYU5JLTFsbjJBYW5GVUJHT2pzTjJnaEdFSE5aSHBqSW5XTWlWVF83dmp2dFBqSHlUOGd1a0VsTFN4Y2JURnRBN0Ita09xUGFnSElIbC1KVHY0M2gtd1NtLXRXMmJsdjQ3TzVqZkgzazM0Z2pNUFVxVEN0eUwzQy0?oc=5
-- [AP News] 2026 U.S. House Election Results - AP News (2026-11-13) - https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5
-- [Hawaii News Now] Testifiers call for elections chief’s ouster as commission meets after court order - Hawaii News Now (2026-11-13) - https://news.google.com/rss/articles/CBMivwFBVV95cUxOTEY4am5GUXZjUXJtX282TlBBOWF0V01qZS1kZzJWMkdYbnlPUG9EenpEREdtLU84czlvYk9HcktBX09ncVNRSU1rcDhZR2NpRExNenBiRVB6YVhNOURFUkxMbEdZLTB6OWpqai0yWDhWWlFpR3RBWEY2Ymtsakdpd3gycHl3TDQ4bGJpQjJlaHNWTlNxRUlIZ05OTDVNdUJEekpmZlZoVnNtUWRteDRyMndfZTRqMGpMVHY3OG5BVQ?oc=5
+- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-11-14) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
 
 ### Press Restrictions or Retaliation
-- [Afghanistan International] US Must Free Afghan Journalist Facing Deportation, Says CPJ - Afghanistan International (2026-11-14) - https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGQ3hkQ0FlaUtScTZJaFNIWjBqT3A5THZ3Yjc0Q1BWWFpZTlA1Q3g0VDg3WkRtMTJ0aEp1TVRKdXBuR2tzeE8xalp0WEdOajQ?oc=5
-- [The New Republic] MAGA Propagandist Paid by Russian Government Shows Up at Mar-a-Lago - The New Republic (2026-11-13) - https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xbTZfVUxGSkREWEpuaFFIcXIyaHhqM1FGRkllWk1fTmJOWTd0RjVNUzFEcGJ0QjlaR1hYVXg5V2hIQWY3YllJNXI0N0gtUQ?oc=5
-- [Nepalnews.com] Opposition closes ranks as questions mount over PM Balen government’s performance - Nepalnews.com (2026-11-13) - https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UUlVSTFVsOUdkQmF5VWJMbmtUcnJGUTQzVUwwekNEc2pKYVR5TmdXamd4cDRTWndfaE1JVU1QcGtncUtVY29DV3B4VjNweVhBQzUwVnExVk1hNjVu?oc=5
-
-### Emergency Powers Expansion
-- [The Federalist] How Stephen Miller Can Bypass A Democratic Congress For The Next Two Years - The Federalist (2026-11-13) - https://news.google.com/rss/articles/CBMikwFBVV95cUxQMzNIOWk2czFqVmtyVEpROFpFODJHZkVKX282WGk4OVdmTUhnZUoteG1yNkRtcFl2aGF5ZlM2TjhPT3k4dWcwaG91N1dhWlJsUVNuenBHdmpZaU9yVTFWNUNCcDVLV1QyNk9QQVF5WEpaSTF2NXJ2TVpybVpsekU0UWJqWDdRYVJKZ1piYmIwbWplY1E?oc=5
-
-### Legislative Bypass by Executive
-- [SCOTUSblog] The major Trump cases that might come back to SCOTUS - SCOTUSblog (2026-11-13) - https://news.google.com/rss/articles/CBMilgFBVV95cUxNclo1WEt4alpQNG9ocVZiS0VTVWdneG5hTXpmYS1CRUlWR3RraTdlWnJCaGxSYy1KcmhBWDNnNl9aYk0yQ1Y2M01MWWVPZldWb01JQVJBU0lSSU81RE1sdzZaXy1SSUc3OXNORUVNUU1QSUwwdkZmdlZzWlN5c09YWVlLVEI1X0JnTUYzY3ZLNG9kYzJIdmc?oc=5
-
-### Public Funds for Political Promotion
-- [Mises Institute] Three Free-Market Ways to Limit Immigration - Mises Institute (2026-11-14) - https://news.google.com/rss/articles/CBMieEFVX3lxTE5BN19fMm9UbUdkVVBDQWdHbFlPeUFFTzFxaEFDZFhXTHFybzV2XzUtMlZLREVFYnZPcS1ENGJKeWhJWmhabzdwMFZGQ0xiWDV3NEpqOFBWLWRCWml5cTdCcjl6dDlBUmlaTEMtY18yUnJheHM3eVBpVA?oc=5
+- Assessment: ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.
+- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-11-14) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
 
 ## Data Quality
 

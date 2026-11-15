@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 13.62,
+  "average_7d": 12.51,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": -4.0,
-  "delta_vs_7d": -3.24,
+  "delta_previous_day": 0.0,
+  "delta_vs_7d": -2.86,
   "domain_breakdown": [
     {
-      "avg_severity": 1.65,
+      "avg_severity": 1.2999999999999998,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 9.075,
+      "points": 7.149999999999999,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.18333333333333335,
+      "avg_severity": 0.0,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 0.5958333333333334,
+      "points": 0.0,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.2833333333333333,
+      "avg_severity": 1.0,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 0.7083333333333333,
+      "points": 2.5,
       "weight": 10
     },
     {
@@ -85,9 +85,9 @@
     "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-11-14T12:25:18.955482+00:00",
+  "generated_at": "2026-11-15T12:25:49.900407+00:00",
   "methodology_version": 2,
-  "previous_score": 14,
+  "previous_score": 10,
   "primary_sources": {
     "documents_confirmed": 0,
     "documents_fetched": 6,
@@ -99,8 +99,8 @@
   },
   "provisional": false,
   "score": 10,
-  "score_raw": 10.38,
-  "score_raw_pre_trip_wire": 10.38,
+  "score_raw": 9.65,
+  "score_raw_pre_trip_wire": 9.65,
   "successful_queries": 25,
   "top_signals": [
     {
@@ -108,6 +108,15 @@
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
+        {
+          "canonical_link": "https://apnews.com/projects/elections-2026/us-house-results/",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5",
+          "published": "2026-11-15T11:46:26+00:00",
+          "publisher": "AP News",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "2026 U.S. House Election Results - AP News"
+        },
         {
           "canonical_link": "https://time.com/article/2026/11/13/texas-midterm-elections-democrats-state-government/",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYThZS05mY3BlV0FoN25TUEtCYU5JLTFsbjJBYW5GVUJHT2pzTjJnaEdFSE5aSHBqSW5XTWlWVF83dmp2dFBqSHlUOGd1a0VsTFN4Y2JURnRBN0Ita09xUGFnSElIbC1KVHY0M2gtd1NtLXRXMmJsdjQ3TzVqZkgzazM0Z2pNUFVxVEN0eUwzQy0?oc=5",
@@ -118,26 +127,17 @@
           "title": "How Texas\u2019 Blue Takeover Could Soon Begin Impacting Texans\u2019 Lives - Time Magazine"
         },
         {
-          "canonical_link": "https://apnews.com/projects/elections-2026/us-house-results/",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUM0VmeFZ2SjF1RGJlVENLazFvbHZxWjRIYUlNMFlKal9sRW1ySS1UQWo4djh3cWpLcXJLWWFuWXBmdkllMTd2aVRhWF9YZFM5ZGRmN3pxZW5nWERXMjREbTVDeGF2RXRfM3ZTUw?oc=5",
-          "published": "2026-11-13T08:00:00+00:00",
-          "publisher": "AP News",
+          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-11-14T11:18:49+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "2026 U.S. House Election Results - AP News"
-        },
-        {
-          "canonical_link": "https://www.hawaiinewsnow.com/video/2026/11/13/testifiers-call-elections-chiefs-ouster-commission-meets-after-court-order/",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTEY4am5GUXZjUXJtX282TlBBOWF0V01qZS1kZzJWMkdYbnlPUG9EenpEREdtLU84czlvYk9HcktBX09ncVNRSU1rcDhZR2NpRExNenBiRVB6YVhNOURFUkxMbEdZLTB6OWpqai0yWDhWWlFpR3RBWEY2Ymtsakdpd3gycHl3TDQ4bGJpQjJlaHNWTlNxRUlIZ05OTDVNdUJEekpmZlZoVnNtUWRteDRyMndfZTRqMGpMVHY3OG5BVQ?oc=5",
-          "published": "2026-11-13T01:31:21+00:00",
-          "publisher": "Hawaii News Now",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Testifiers call for elections chief\u2019s ouster as commission meets after court order - Hawaii News Now"
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 6,
+      "hits": 5,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -146,41 +146,23 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 2.65,
+      "severity": 2.3,
       "severity_label": "Yellow",
       "unique_publishers": 0
     },
     {
-      "confirmed_hits": 0,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": "https://www.afintl.com/en/202611142696",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGQ3hkQ0FlaUtScTZJaFNIWjBqT3A5THZ3Yjc0Q1BWWFpZTlA1Q3g0VDg3WkRtMTJ0aEp1TVRKdXBuR2tzeE8xalp0WEdOajQ?oc=5",
-          "published": "2026-11-14T11:35:41+00:00",
-          "publisher": "Afghanistan International",
+          "canonical_link": "https://abcnews.com/US/list-individuals-including-lisa-cook-targeted-trump-administration/story?id=124968309",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5",
+          "published": "2026-11-14T11:18:49+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "US Must Free Afghan Journalist Facing Deportation, Says CPJ - Afghanistan International"
-        },
-        {
-          "canonical_link": "https://newrepublic.com/breaking-news",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xbTZfVUxGSkREWEpuaFFIcXIyaHhqM1FGRkllWk1fTmJOWTd0RjVNUzFEcGJ0QjlaR1hYVXg5V2hIQWY3YllJNXI0N0gtUQ?oc=5",
-          "published": "2026-11-13T20:58:07+00:00",
-          "publisher": "The New Republic",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "MAGA Propagandist Paid by Russian Government Shows Up at Mar-a-Lago - The New Republic"
-        },
-        {
-          "canonical_link": "https://english.nepalnews.com/s/politics/252179/",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UUlVSTFVsOUdkQmF5VWJMbmtUcnJGUTQzVUwwekNEc2pKYVR5TmdXamd4cDRTWndfaE1JVU1QcGtncUtVY29DV3B4VjNweVhBQzUwVnExVk1hNjVu?oc=5",
-          "published": "2026-11-13T17:00:05+00:00",
-          "publisher": "Nepalnews.com",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Opposition closes ranks as questions mount over PM Balen government\u2019s performance - Nepalnews.com"
+          "title": "Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
@@ -190,99 +172,12 @@
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.",
       "severe_hits": 0,
-      "severity": 0.6,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://thefederalist.com/2026/11/13/how-stephen-miller-can-bypass-a-democratic-congress/",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMzNIOWk2czFqVmtyVEpROFpFODJHZkVKX282WGk4OVdmTUhnZUoteG1yNkRtcFl2aGF5ZlM2TjhPT3k4dWcwaG91N1dhWlJsUVNuenBHdmpZaU9yVTFWNUNCcDVLV1QyNk9QQVF5WEpaSTF2NXJ2TVpybVpsekU0UWJqWDdRYVJKZ1piYmIwbWplY1E?oc=5",
-          "published": "2026-11-13T12:48:14+00:00",
-          "publisher": "The Federalist",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "How Stephen Miller Can Bypass A Democratic Congress For The Next Two Years - The Federalist"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "emergency_powers_expansion",
-      "name": "Emergency Powers Expansion",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.3,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://www.scotusblog.com/2026/11/major-trump-cases-that-might-come-back-to-supreme-court/",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNclo1WEt4alpQNG9ocVZiS0VTVWdneG5hTXpmYS1CRUlWR3RraTdlWnJCaGxSYy1KcmhBWDNnNl9aYk0yQ1Y2M01MWWVPZldWb01JQVJBU0lSSU81RE1sdzZaXy1SSUc3OXNORUVNUU1QSUwwdkZmdlZzWlN5c09YWVlLVEI1X0JnTUYzY3ZLNG9kYzJIdmc?oc=5",
-          "published": "2026-11-13T14:00:29+00:00",
-          "publisher": "SCOTUSblog",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "The major Trump cases that might come back to SCOTUS - SCOTUSblog"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "legislative_bypass_executive",
-      "name": "Legislative Bypass by Executive",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
-      "unique_publishers": 0
-    },
-    {
-      "confirmed_hits": 0,
-      "critical_hits": 0,
-      "domain_id": "civil_liberties_information",
-      "evidence": [
-        {
-          "canonical_link": "https://mises.org/mises-wire/three-free-market-ways-limit-immigration",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BN19fMm9UbUdkVVBDQWdHbFlPeUFFTzFxaEFDZFhXTHFybzV2XzUtMlZLREVFYnZPcS1ENGJKeWhJWmhabzdwMFZGQ0xiWDV3NEpqOFBWLWRCWml5cTdCcjl6dDlBUmlaTEMtY18yUnJheHM3eVBpVA?oc=5",
-          "published": "2026-11-14T07:22:09+00:00",
-          "publisher": "Mises Institute",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Three Free-Market Ways to Limit Immigration - Mises Institute"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
-      "id": "public_funds_political_promotion",
-      "name": "Public Funds for Political Promotion",
-      "override_note": null,
-      "primary_confirmed": 0,
-      "primary_documents": 0,
-      "primary_source_url": null,
-      "rationale": null,
-      "severe_hits": 0,
-      "severity": 0.25,
-      "severity_label": "Green",
-      "unique_publishers": 0
+      "severity": 2.0,
+      "severity_label": "Yellow",
+      "unique_publishers": 1
     }
   ],
   "trip_wires_fired": []

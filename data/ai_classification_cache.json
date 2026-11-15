@@ -1626,6 +1626,16 @@
       "rationale": "This is a routine pre-election informational article about what to expect on a primary election day. It contains no information about partisan capture, politicization, or election administration being moved to partisan control. It is standard election logistics reporting.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ycUhlZzZ2V1lhd2pzVExlRFNUOVV5M0N6VHB5a2FuNFU2NDNaV0dSTV9hUVZTZHZCeVRjeWRWMnh0NUVIRW1vbmhfNFRsSVRqSWIwM21iUmMxTE4zYzhocm81ajd4U0x2R0R0Q1Bn?oc=5": {
+      "actor": "AP News",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is a routine election results report from AP News covering the 2026 U.S. Senate elections. Election results reporting by a news organization is a standard, neutral part of election administration and public information. Reporting outcomes does not constitute evidence of election administration capture or partisan control of election processes. The item contains no allegation, document, or evidence of any partisan movement to control election administration, removal of safeguards, or deviation from neutral process. This is a normal journalistic function, not a constitutional stress signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JbzJmN0JvXzRISkJZcHZGclZrdDRScEJINWVTcWlHMENRVkdRS0Z6akZLZ0tEc0kzTXJUZTNDODE0RDRPWk9ibzFyRXp1YnVSSEMzbVVpMHEwN2NKcW1PSG9aOUtVSVpPYTNzUEZR?oc=5": {
       "actor": "Trump (hypothetical)",
       "confidence": 0.96,
@@ -6350,6 +6360,16 @@
       "rationale": "Same as [0]. A ruling allowing construction to proceed is ordinary judicial disposition, not a refusal to review government action on justiciability or standing grounds. Does not evidence threshold-based foreclosure of judicial review.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMilwJBVV95cUxNQ3oxbnhxQV9MWXBlN3pXVVZJUVZRNVVxekVpVHVmX3lsWGxRTFVKY2xINDg0ZkZhMkFBWExWcy14a0JMQld4VXYyXzEtYmNzdjl2SDFvdTJHcElZN3ZUeTEteG1SLVdac3NfU1U2LVpIX2tZU0p4SXk0MDJYNDJqRlhBamFxa2xhVGFJb2hUQUNzdmkwNlptUVo2cC02Qk85aVRSQUx1SW1VY251Tl8tVVZMazVONF8wZ2hsa2phUWRCdmJ3STFpNkx1YkNMaGtPVTN5Ynd3dVlNcHBibFIxRGRZeVhhdF9hQ19uXzA5LUt5NkxIYVZrejFreVBLZTVfZEdmUGQzRG9GanpBekRKdElyZE93Zjg?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports a legal motion or urging by the executive branch to a federal court\u2014a request to the court not to issue an injunction. This is a proposal or argument before a court, not an accomplished action. It does not describe a court closing the door on review, a denial of standing, a dismissal on justiciability grounds, or any threshold ruling that forecloses judicial review. It is a normal litigation posture: the executive opposing an injunction. No judicial decision has been described, no review has been foreclosed, and no threshold barrier has been erected. The signal (Judicial Review Foreclosure) requires evidence that courts have actually closed the door on review\u2014not that a party has asked a court to avoid issuing relief. This is a routine adversarial filing, not evidence of judicial review foreclosure.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXZ4MjBUaWFWSEppaTBoLW5IaXN0LXRkWTZSQUtlNkpScGZVM05MVHBmWVAwcnQyZmdnS0dzZlJ2dExuS2dhRzhjWlVVdmkxd3FST3p6aXIyX1NXNGVSeWp1Q3ZXdU45SnpiWmduVWl4TUF3QmxOaEprVGxCdVR1RmFuS21wdGZVRk5UY3FWMlExSEl5VXNxWg?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -7202,6 +7222,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.balleralert.com",
       "rationale": "Celebrity/entertainment news outlet reporting the same ballroom court ruling. A court has blocked the action, so there is no successful bypass. Severity 0.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zdzA4QjlxMG9NQmFrdmR2YzNLNGFYMXYyLVRybEwzU2dOelJNNEtEUmViV09DVnlCZnFGNzFOWklkalFWczBZa2Z0dEl6Q3RHd0NrNk9PLWJoQlBNM2daS3B6RklOMFNOazNRZll4b3BDUlJh?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "www.lvivherald.com",
+      "rationale": "This item is a headline/title only with no substantive content provided. The URL and source (Lviv Herald, a Ukrainian publication) suggest either a non-U.S. source or an opinion/analysis piece. The title is a philosophical question about democracy's self-healing capacity, not a report of a specific executive action or legislative bypass. No verifiable event is described. This is either a hypothetical question, opinion/analysis, or insufficient information to assess. Does not constitute evidence of executive branch unilateral action supplanting legislative authority.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMidkFVX3lxTE93WHhycUVHTjNrYXFsQWQzMjB4bnc1cXctczd6UW5vSTRoT192NDVtTkI1WWpYckNxWjFzSk1QRmtmWWU3QW5fd242UTFSb3FieWJNVzJoMUdTdGlvVHNCNUVhbG5yMU5KN0JYM3hldTFrZk9mN0E?oc=5": {
@@ -11444,6 +11474,16 @@
       "rationale": "This item is from a Kenyan news domain (streamlinefeed.co.ke), not a U.S. source. The premise\u2014an assassination of Charlie Kirk one year prior to September 2026\u2014does not correspond to any verifiable real event. The item appears to be either fabricated, satirical, or a test case. No credible U.S. news outlet has reported such an event. Without verification of the underlying factual claim (that an assassination occurred), the headline about a subsequent crackdown cannot be treated as evidence of a real constitutional stress event in the United States. This is dismissed as a non-occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPXzBhd202UjFUV3hMMFN2WEdIRUxNN04ySTBLQ0pQTXdGZXRPbmxfNmdrNlMxb0pES3RZRVFKQUR4cjFyWWk1U2FoMUtDMkpmX2xOQjI4Y3daZElTeW56YjZwOU5ZeWw1bnUwMjd4U0tFc1I5RWd6dEZCY3ZjY0xmVUJzVVduWWJlZ0FSRFNWekdEN1ZpWnBubXdaZjg3SW44QUEtaGJ5bFNQZE9DS1AySG50LXEteXVKaFk3OEFIbjhyQVpzRXlsT0p3LXVPakxEM2JLR1p0YnhoREJWbzUtSkFn?oc=5": {
+      "actor": "Pakistan (non-U.S.)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes events in Pakistan, not the United States. The signal requires evidence of political speech criminalization or surveillance expansion in the U.S. domestic context. Coverage of foreign countries' human rights abuses, however serious, is not evidence of U.S. constitutional stress unless it concerns U.S. government action within U.S. borders.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMid0FVX3lxTFA5SkRlaENlZ1pHZVpvTEx6bElGalNRT09UVFFTOTRfRXQyOXVYbFMzSXVGUXk0RkZEcS00OGNJUjFUaUJJZUZrMmIwOGZNcXRWOElRWG43QmlTbUoxVnJrYVhydmJlZGlIcllkSmdfbXR1RmJrb3V3?oc=5": {
       "actor": "De la Espriella",
       "confidence": 0.95,
@@ -14168,6 +14208,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "The item is a headline from a news organization (Istituto Impariamo) describing alleged controversy over a taxpayer-funded ad and ethics concerns. However, the 'summary' provided contains only the headline repeated and lacks substantive factual content about what actually occurred. The source appears to be a news outlet reporting on allegations or controversy ('sparks fierce ethics clash'), not a confirmed event with verifiable details. The headline describes a dispute and allegation regarding a Hatch Act violation, but without access to the actual article content showing documented facts, specific amounts confirmed, government acknowledgment of improper spending, or official findings, this cannot be treated as evidence that public funds were actually spent on partisan promotion in violation of appropriations law. A news headline describing controversy is not the same as confirmation of a constitutional violation. The item lacks sufficient specificity and sourcing to establish that event_occurred=true.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNGd0VEtjVEh4WUR0OE1wZ2xMOWhnSlBSck5NREEzSzlnQWFTeGZMVXVXTTlrNkNIMHliQzJkWl94VFhrT0dZSVhGemhTNmVQN1hTajdXNVM5cHB0Yk44ck5xOUxpRVpWeFFRNWZrMWFDc3FrNzV1WkZndTFZejMxUUdwaGliVDM5WUFGNENpbmtaUQ?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is an opinion piece (op-ed) proposing policy approaches to immigration. It presents hypothetical arguments and analysis, not evidence that public funds were spent on partisan or campaign-style promotion. An opinion article about policy does not constitute evidence of appropriated public money being spent on political promotion. The item does not describe any actual governmental action, spending, or communication campaign.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTnhuMUUwOFhtbDFUYkxPZW9fejh0TmdYSFJOS0lSdWo0OGNSOTFoal9pMHlGSEpRSGdGemVKakdmZWVJakxOVml3STkxSy1aVTNwRWlhLTRSbnpUakNrM3p3bFFRelJmS0prQlZRcHNQT3lFRzM1Z3RNUGJCWXJ0WGZoTkdXeVBkSVZkTlpTOV80cUU?oc=5": {
