@@ -1266,6 +1266,16 @@
       "rationale": "Florida election officials removed a sitting U.S. president's personal information from voter files. This is a credible, confirmed action by election administration that demonstrates differential treatment based on partisan identity (removal of one officeholder's data). However, severity remains at 2 rather than 3 because the action appears reactive to a disputed legal citation rather than a systematic structural capture; it is a single documented instance of partisan-inflected administrative discretion rather than an ongoing campaign or structural takeover of election administration.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQMUN2MC1Uam51UWR2cXluX0Q5LVdzblhmdmxReFczdG9IX21SV2ZObmVhXzZLN0JudElwZVZ0Z3k1WHcxNUt4RnRwSjRlSXhoaUhjX2JWUG9uWDdpTDc2M0hWajZZMEtDb0d1Q1ZhbmNVcWxialoyWGRrUWd0NVZSNkRfMm9EamQwVDFLTXpNNktCWVdZbENpZ2J2djh3NEFmVzlKREd3ZkZEczAxenBHYkhRSktwbGF5Z0tLclpCM0hUaktBZ3VwUG9reDZjR3N4NXdpd2I0amlXUzVvdEI2cEo4OE4?oc=5": {
+      "actor": "Emmanuel Mwamba (Zambian political figure)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This Facebook post concerns Zambian electoral and political events (mentions of Wamuyaya, term limits in a non-U.S. context, and post-electoral crisis in Zambia). It is not a U.S. domestic event and therefore does not constitute evidence relevant to the U.S. constitutional-risk signal. The dashboard is scoped to U.S. events only.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNi1Eb3VqV0pESHZaWm5ZRnFRck9PYzI0QTd1aHV1Ri1lQ183NnhyRmNnNDVuOWtWYm1BT0tublRlOHVVSHJSaS1wdFh5ZUo3a213NEhDYWtDY3ZFdEw5aF8tY1Y2Z1c4eFM4Zzk4U0NWOEJSZmdwNVF5bnc3M1hYRFg3ckZyN085eTFIazdKb0NvX1hHN1ZZWC0tUHd5bmk5UEt6emVBZGQ2NkVfMVhJR3hMR2M2SzNqN2k5akxBMG0xdUZGZnlvUUpvWjFpX1l0Nm1OdzBjN0VZVGJhTmRsdHo5a2lrSnPSAewBQVVfeXFMTjVockJVTG1INnVuMUlwTVVGTWtpaG5tOVFKaFhkc3B2cHVURFdVYVd0YnREcnhlNEhxbkZfcG4wWkJjUXJmamx0SFJYTW5JLU1uSjhVXzRWLTZaZ3ZnamczWDVOb3o1TGRycU5OTDVaQXhJanMyeUJVN3VsODlnN0NHRkxGdDBMblptRmM4Y2F2TjNhY1M5NXJlSlE5UlBYQzk3SmNwWjczZEpqLV9xRk5FbG1qUTRwb1lFdktoenE0dHY0SnhXVm1PRnZ2YUhMWEdBYnNhM0VpRGFiTmFzSTZpbWl0NXBlQ253R20?oc=5": {
       "actor": "Election officials (expressing fear)",
       "confidence": 0.97,
@@ -1776,6 +1786,16 @@
       "rationale": "This item is a headline/opinion piece from a commentary publication (Balls and Strikes). The summary provides no substantive detail about any specific action taken regarding election administration. It appears to be analysis or opinion about Trump's conduct relative to a Chief Justice Roberts statement, but contains no factual claim about an actual event that occurred, no description of what Trump allegedly did, and no evidence of election administration being moved to partisan control. Without specific facts about a concrete action, this cannot be scored as real evidence of the signal event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiekFVX3lxTFBRMnBoQmMxUUhJM2Q0b2Z6dDJsMi1xWWE4MTZtUzJ4bGFhbTZTaHVhbVdLamJlQzNHMlNiNjlVQmt4VWpXaU1WOEMxT1AzYUZCd0hXeXo4S1RBZ3NqRjMyd3dDT2VoY01pd0xtZXBTYWxjRUw1a2t3Zmx3?oc=5": {
+      "actor": "Georgia election board",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a news headline about a 'reckoning' facing Georgia's election board after an election outcome. The headline is vague and does not describe any specific action that constitutes partisan capture of election administration. It is press coverage of a political situation, not evidence of an actual structural change in how elections are administered or a verifiable instance of partisan control being installed. No concrete action is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMif0FVX3lxTE5KOWJDVjlNVHVlZm92anhkUkcwWkladDRyX05fdlNWOE1KY2JKMjFyXzhDUzVrblhqT21rbV90eVREeUNqRWR2cEd1UUxjR0JUYUhhdW9fMEgxOE9INnNNS1dOZ2k1cXZpZFBnOTZad1VWdExnbDdFUVhXaWhPNEE?oc=5": {
       "actor": "Donald Trump",
       "confidence": 0.85,
@@ -2264,6 +2284,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This item is a speculative/hypothetical analysis about how prediction markets might affect future elections in 2026. It does not describe an actual occurrence of election administration being moved from neutral process to partisan control. The article discusses a potential future test case, not a realized event of administrative capture. No specific action by election officials, partisan actors, or legal instruments that would alter election administration authority has occurred.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNkNrcEljMEltX1NjczVoLW1mSVZ0Y1ZnQldCa1V4UVotTm5HSnNhTTlZRzFkanhtY1pQWWlFR1VRdkZabFNQZFhXZTRjem9NcUl2clJDN0tEQ2dGS25qLVU2SGdEMVkwdDNHbDlNVGhEZ0dCSEtSTGtsLUZMd0FaRzhwZy1LUmFoUDRuVUYxdTJJQ3FKNlNXdQ?oc=5": {
+      "actor": "San Antonio city officials or Democratic coalition",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a press headline about preparation for a political takeover in a city context. It describes campaign or organizational activities in anticipation of an election outcome, not any actual change to election administration itself or evidence that election administration has moved from neutral process to partisan control. It is prospective coverage of political positioning, not evidence of a realized structural capture.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaGc2YzZlb2ZjZmFHdmFUZ2o2eGtYX0phYl9lWUcxaHVFV2N2NlIzbjFsejdlMUJLdnZoclpkakw0d2U1VjlTODBETDVXNW9iWmZGMU93R2lRRy1iYW50eXZmQnduUmhlZWRZbWlPNlRkQ1IzTmdTTjM2T21kTnhZdHlhYlVROEFVY1NGN3ZDRVZGVENsTTVzYk9n?oc=5": {
@@ -3408,6 +3438,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a hypothetical question posed in an opinion/analysis piece ('Can Donald Trump...?'). The item does not report that an election has been cancelled, delayed, or that any official action has been taken to alter election timelines outside constitutional pathways. It is speculative commentary about a possibility, not evidence of an actual occurrence. No real constitutional-stress event is documented here.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ2dNS3NGN3NjVXZfdEk1S0tzNS05OElpZkdGX0tTRVJhSm5EWlFRNkxDTWxhQkJXRS1jMFM1QTJUNE00VXBoalRxNjlzRHViY0ppR2tvY2RKVFZnLVJtYVUwQllWczk1UEhmdXMtZzNQdWw5MDFhcUJ6bkM3eHdCaFZZLXV0QXo5TllyM0NXbXRDWjdQX2p1ZkQtSTlfNzM0QzlIT0ctZ1FUNXlXOEVVZ0w2U2g?oc=5": {
+      "actor": "Airlines",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.aaj.tv",
+      "rationale": "This item reports airline operational disruptions (flight delays/cancellations due to recovery issues), not election-related disruptions. Flight delays are routine operational matters entirely unrelated to election timelines, electoral processes, or constitutional pathways for elections. The signal concerns alteration of election timelines outside ordinary constitutional processes; airline schedule recovery is a commercial logistics issue with no bearing on that signal.",
       "severity": 0
     }
   },
@@ -6924,6 +6964,16 @@
       "rationale": "Analysis explaining why the Supreme Court blocked executive action on mail voting. This is explanatory commentary (The Conversation is an academic outlet) about a court's successful constraint on executive power. The blocking demonstrates judicial review functioned\u2014the opposite of legislative bypass. No evidence of executive action circumventing statutory authority occurred; rather, the executive was restrained from doing so.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTnBndGVMekU5ZkYzMkJqaTFSYjhMTExyY2hDMWhxMUVZZnVEU1ZhTmxUbzdURGdBdXdVNnJKekRvTUY5MTVhRWV6MzVMMnU5SGRpa0V3TzdfZnVaX1JTWEVjQ21vZzNZZmc0WTE2Ry0tMGlvTjY0RjdRSTVNbDhma3QxT0sydHRVSVZOS1ZQVGh6aFl3aXMwMnR3b0Zhc2xWMzB2SE44X1JxNXY5TjRkQU94TC1jVG95TXVNVFhRM0JIdVU5Yi1oRHZSYTZqYzhlSTlXaU03WlpJNFdH?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Nigerian politics (Tinubu is President of Nigeria; ADC and APC are Nigerian political parties). It is not a U.S. domestic event and therefore cannot constitute evidence of legislative bypass by executive action in the United States. The signal applies only to U.S. constitutional governance.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQOHZfeWItUWw5Rk5BM0ZGQ3o3dWhzSHNzQUEyTFRVVmNRNFhVQWlPM1JobkZhNFZXTnVHNjVVaU5helZhSjJLR0MxMWJfUWNnRHV4ZGt6SEhMbklyNmJPNGI2QkR1NFl6b3pkRXFhb3NDQ0xPcUZYVWFYWGJyaU1LOWlXLXNtaDNLN0pBMF9wejRsSnc5b2gzeGYyTElsdHFrTUEyTEJpM1daQ2ZsdjktdndlVl9rb2h3SUdMc3RGQ2pwY2NOWlRhdUNrdHBxYUcySnJoNHZpSDJVenVz?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.72,
@@ -9658,6 +9708,16 @@
       "rationale": "This item concerns Somalia, not the United States. The signal is defined for U.S. constitutional-stress monitoring. Non-U.S. events, even if they involve military or executive overreach, are out of scope for this dashboard. Additionally, the item describes an advocacy call from a law society urging respect for court rulings\u2014a call for compliance, not evidence of martial law or military governance language/action actually occurring.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOU9KR1B0ek5QTDh4amhHbTViZE9DM1JhYjM5dDlsT25xbTRmbWpXazdlWVBDWXdfVXViZnl6dVBER1Z6WW9LZlRvM1Y1UFljcTlRMHlreVZaVEdtQTRfVXFnb0lEZG9TYVE3dldvb3lKYjBNNkpBYTZvcVZmNG5BLVZWZElpLWxDTEx1TW4zLXl2RzloNnVVMnVJb3huSGl2MU9JMjNwWC01Tmg1VndSSVc2YWw5X2ExZ0RzYl9uckFSREkxRFE?oc=5": {
+      "actor": "Court of Appeals (Ukraine)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns a Ukrainian court decision regarding a beach property in Odesa, Ukraine. It is not a U.S. domestic event and does not relate to martial law, military governance, or any constitutional stress within the United States. The signal requests evidence of military management of political disputes in the U.S.; this is a property dispute in Ukraine.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMixwFBVV95cUxOR3ptVDdpVHdWWXVHMUNfR1U1NW1KNFpCVnZPdnZXamNBYXRveDRhZ2c4ZWVTbHVwTktIUnF6Q3Z5MHEtRFN0VTE3eDZaZTM3V0RRS2d2clpMeFJ6QV9fcUZRODUxcFRCQWRvZ05uQ24zSXZQWXp0WnVPN2YybUp3MGdTenZNVWFnU3FRY1pNZnRNNTJoX3lQTTM5Zk9jVm5vWXJ4UXhTOS1sOHJORjZfYnRzRm1kMEV4UzhaUGNaSkZkclhiX3J3?oc=5": {
       "actor": "ECOWAS Court",
       "confidence": 0.99,
@@ -10640,6 +10700,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.npr.org",
       "rationale": "This item concerns Brazilian politics and elections, not U.S. domestic events. The signal being evaluated applies only to systematic opposition ballot exclusion in the United States. A candidate's refusal to concede in another country, regardless of the political dynamics involved, has no bearing on U.S. constitutional stress.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTW1keDFhaWoxbHY5RVFPaUtTQkN2RE1LOGJRLUotS1JZQnZFZjBuWlBCaHJDaURlSTJBSXVlV2dLak5OZDVsbVBXMlFhQTYzdTVVc0tWSUs2N0Nyd0ZDY001RGgxbzVpQXJqZXhPZFBrZjA2Z1pod1FHcEJUb0ItbXBLUmdUSWdEbi1qX2c3Q1RkZw?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Tanzania, a non-U.S. country. The signal is specifically about opposition ballot exclusion in the United States. This is a non-U.S. event and therefore not evidence of the constitutional-stress signal as defined for the U.S. domestic context.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM3I0cWZKYVZQRDEzYzE2MnlJUk5ONEVjVXVsYTJ4Sl9sdnNLSC1YdUJkMFlsSWh0ZmpELWtxM2ZLbnlJdWNQMDFRVmYtSkRCUWpKdmJIUE1xTk0taUxxNHBSZy1wWnpBekN2WVAtdlBYMkZETkJwZ0pqRFRwa3VyT2Npdk1oRmhPQ0NUREFuLUJiQQ?oc=5": {
@@ -11654,6 +11724,16 @@
       "rationale": "This item describes alleged US sanctions against an Italian tech collective. The headline characterizes it as political, but the item occurs outside the United States and involves foreign policy/sanctions, not domestic political speech criminalization or surveillance. Even if the sanctions were politically motivated, they concern a foreign entity and do not constitute domestic constitutional risk regarding lawful dissent within U.S. borders. The summary lacks specifics and credible sourcing. This does not qualify as evidence of the signal (domestic political speech criminalization or surveillance expansion).",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc0dGNzVoNUx3OUVRZFE4Y3g0N210d1RpNVBoYTQtYUFZWDlXQzlacUY5VUdvdTBlTTJKSEJIYWhGWXp2ejJZMGdNS2Y0elY0TG93emducFppMFlUMy1EaHZ6dm96V3RnM1cyU2VCM3Q2V25jRTJoT2FuaHdnTnoya19mS1liaUR0RFpoRERrRGg5QVNUSXFCTFRjTEpIRFhUUzhvSzZJbUcwSlZoZW1ZTDdybWl1eGF1MkVfNQ?oc=5": {
+      "actor": "PM News Nigeria / Nigerian officials",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Nigeria (PM News Nigeria, Nigerian National Security Adviser Ribadu, Nigerian politician Showunmi). It is not a U.S. domestic event. The signal monitors political speech criminalization or surveillance in the United States. This item falls outside the geographic scope of the dashboard entirely.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVGlrTUJDYUU1TERIdXNFM3o1UDVzcnpKVzl1aWJGeFljVU5pUDNDYVVWSEpndDgtRFBjQVR1ck1QTWVacjlCVExBWlZ0Wktwc3NSNkF5dHZqU1BqVXVhT29jd3JwMkdab2FrTjA0SWU5QTlhTVg5bGM4RU1ZdGVfU202a2ZIQ2J4QXFrU3BCYkdPSV9TRU45a3lHZVRDQmw2TFVKUTZXVDlYV2UxTUVfN0Q0M2o0SWhiS2F6RXZn0gG-AUFVX3lxTE1UaWtNQkNhRTVMREh1c0UzejVQNXNyekpXOXVpYkZ4WWNVTmlQM0NhVVZISmd0OC1EUGNBVHVyTVBNZVpyOUJUTEFaVnRaS3Bzc1I2QXl0dmpTUGpVdWFPb2N3cnAyR1pvYWtOMDRJZTlBOWFNWDlsYzhFTVl0ZV9TbTZrZkhDYnhBcWtTcEJiR09JX1NFTjlreUdlVENCbDZMVUpRNldUOVhXZTFNRV83RDQzajRJaGJLYXpFdmc?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -11866,6 +11946,16 @@
       "rationale": "This item reports the same indictment via Hollywood Unlocked, an entertainment gossip outlet. Entertainment and tabloid sources reporting criminal charges lack the institutional credibility and investigative rigor needed to establish politicized prosecution. No evidence is presented that the charges were selective, politically motivated, or part of a pattern of opposition targeting. The mere fact that a politician is charged with crime does not demonstrate the signal condition. Without corroboration from authoritative legal sources, court filings, or analysis establishing political motivation and selective targeting, this does not constitute evidence of politicized prosecution of opposition.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbFRKT2txaGFlcWQydWV2SmVfRmg0N0JEOVRadzN1eG9naXFjbnhDUnIwSzVHMFdTOFcxTDhWaWZLWHdIQlphWkp4R09NYjZpX2owZTg1MTdaS1NmN1IxT1kxcXhTZHFpbnBldnlpLWlZQlNmWGQxbEdxaFp2cjFaQ1J2MGFyWFZqbERscjA4NGh6LWVMOTNlYmJnRFktSjdHcFRub212VnBpRVFab1l5ZnJkbWpGR1p4SzZsVy1MRQ?oc=5": {
+      "actor": "Federal prosecutors / Washington authorities",
+      "confidence": 0.08,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item reports that Minnesota prosecutors CLOSED an inquiry into Ilhan Omar, and that Washington authorities are investigating again. This describes either (a) a routine prosecutorial decision to close a matter, and a separate investigation by different authorities, or (b) a re-opening of an inquiry. Neither scenario\u2014on its face\u2014constitutes evidence of politicized prosecution targeting an opposition actor. A closure of an inquiry is the opposite of selective targeting. A new investigation by different authorities, without details about its motivation or selective targeting, does not establish that prosecution was used to target opposition. The headline alone does not establish whether the Washington inquiry is politicized, selective, or based on legitimate grounds. Without evidence that the prosecution itself is selective, retaliatory, or politically motivated (as distinct from routine law-enforcement), this is insufficient to confirm the signal. Treating this conservatively: it is a routine news report about prosecutorial decisions and investigative activity, not verified evidence of politicized prosecution.",
+      "severity": 0
+    },
     "https://www.courtlistener.com/docket/67935987/1692/united-states-v-brown/": {
       "actor": "U.S. Government (prosecution)",
       "confidence": 0.95,
@@ -11966,6 +12056,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Item concerns Jos\u00e9 Rub\u00e9n Zamora in Latin America (Guatemala), not the United States. Outside scope of US constitutional-risk assessment.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNU5wRTQ5MThDTlRhVUQ3TGxmMHVOTWNKLTNqNV9WNkotcFBFSXJyaWVkM21VLVB2V04yTVhOVmhlbjZmQzFNanpIWU5Uc2FlREtBX0NFMGwzZ1E2RkFlallxTmd5WlBYWDBNdUxWeW1vM0c2bVVhdUF4OWVtaVcxOUJTMUhnSHRTMXVsd3pRcE1ib3JnMElnRU0ycjNBVWxNVGRBd1cwRmZXR3VWcUowM0FSTjFIREpYY1FFMjFRTDdkQ2hqUE44NURKZlRPWGJpZnJvdzhnOA?oc=5": {
+      "actor": "Government of Nepal/Ratopati",
+      "confidence": 0.97,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.ratopati.com",
+      "rationale": "This item appears to concern a non-U.S. government (likely Nepal, given the Ratopati source) and discusses reconstruction and political matters. It is not about U.S. press restrictions or retaliation. Non-U.S. events fall outside the scope of this U.S. constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVThnSFIyZWRCTXByQmhISFBaLW9VTi1GMXdKUlJoNUQyeXFGa21WSHF4Y19oUmhIb1ZLT01LUy1jZzdoUmUtREZLR0hjQlJqWWRzdGxCbDhuWkM3R0RrZ3h0bjRsTVhsVUtQSmxYUktEZUtZVXlzWGVfOVZtbzVjeEk3d1Z4TTlaZ2ZhLTZacjVzeGZFcHdfTVlmdUJJZFY0SHVGdEZ1LWswYmtqb2ZJd0c2MmxubUVoT0pqYkxTYVVUQjFwMUZZT0RxTzY2U1NYTmJMejhlcWFndFE?oc=5": {
@@ -12496,6 +12596,16 @@
       "matches_signal": false,
       "primary_source_url": "N/A",
       "rationale": "This item is reporting on press freedom conditions in Pakistan, not the United States. The signal is defined as 'State action that raises costs or legal risk for independent reporting' in a U.S. constitutional context. A report on press conditions in another country, even if it describes real events in that country, provides no evidence of the specified signal occurring in the United States. Therefore, event_occurred is false and severity is 0.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVnU3ZDlLd29Vc01YM2pqejM5SkpSbjIxb3dNSzlMbS1makxWeGVnU1RYbXp1S19NRzBwY2FmeTNfckdmaFF0ODRtdzl1dldxSThuWkF2dGQtLUpSREdFaGZrSVhOSFNUaUQwV1FSUDBtZnVrRnE2c3NCRE1fdkZCaXdFSkZBS21JbFhOQzlGOExmcEE3?oc=5": {
+      "actor": "Pakistani government/entities",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.journalismpakistan.com",
+      "rationale": "This item concerns press restrictions and journalist intimidation in Pakistan, not the United States. The signal is monitoring U.S. constitutional stress. Non-U.S. events are out of scope regardless of their severity in their own context.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxONUhFRUJ5alBQUGZhaTR3cU92ZXR3RnZveEU3U3hDdjlEeG1pZ2F4RWlpV1NmYXZTS3Fkb3ZwZ0tZanVEN1U1VVZFUXlMaVRxaGdlZ1RQZW02aXFfMDkyQ3NOYjRocC05MzNodHgyUnFzQnBjeGhuOU1LMzRfVXdiYWI0TmlXR2dQZUJIUk44dHpOSDN2?oc=5": {
@@ -14949,6 +15059,16 @@
       "primary_source_url": "https://abcnews.go.com",
       "rationale": "ABC News reports Trump defending spending millions on taxpayer-funded promotional ads. The headline indicates an actual occurrence of taxpayer-funded promotional spending, not a hypothetical. Trump's defense of the action confirms the event happened. However, without detailed documentation of the specific appropriation source, amount, or official justification, this is a credible but partially sourced report rather than a confirmed official record. Severity 2: repeated/credible stress signal, a real but contained action.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUUcwbGRBdEE2X1VQenFVamhtMGdJY3JWY0VuV1YybWltU3duaVJraEJ6V3Y3Unhma21ScHdicmNfanVtUXB6Mk4tX3RrV0FnTkFFVFZHU1dCblU5M0hYYUdGV1d6Nl9uVm1BR2hieGNpTHVFZkNIQlU4VGRIU20xWFBSSnlvNkNhSUxkeDlKVTZwdm9BME1XZGt2OUd2WFQ3cHZac1RXM09kWmZ4UEFmb1J3?oc=5": {
+      "actor": "Vietnamese officials / National Archives",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns preferential research access for foreign officials at the National Archives. It does not describe appropriated public money spent on communications that promote a U.S. officeholder or governing party. The signal specifically targets partisan or personal political promotion via government-funded messaging (campaign advertising, partisan agency ad buys, unidentified funding). Preferential archival research access for a foreign nation's officials, while potentially raising other policy or diplomatic concerns, does not constitute the appropriation of federal funds for political promotion as defined by the signal. Additionally, the summary is minimal and provides no detail on what 'preferred treatment' entails, whether any U.S. political promotion is involved, or whether this represents an actual policy change versus speculation or proposal.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNEljYUNQUkRoVnJqRVhObHhwWUNIZllxTEd1YmRiSFZPWk85eXJGbVd3SVdjSnJ5dFNzdUdGRDZvaFJBQ2d2SE5ZQnkyTFltQTRIZEl2VHJfTUZnVzV6eVlwX1VjQ2xRZHZMdVpNeEtJVF9EYm5RckwxeTZYOFRPOVF1OGVuQzg5V0x0NGRwbnZQTWtWTHJhQ05fZnI3TnpUN2ZydDBSc1FRWUg1dUxieDNn?oc=5": {
       "actor": "Trump administration",
