@@ -2446,6 +2446,16 @@
       "rationale": "Item concerns Texas school grading policy (A-F trigger law), not election administration. No evidence of partisan capture of electoral processes, registration, voting procedures, or certification. Unrelated to the signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTDhqMDktdXd1czlzQ3NFVjIzNDYyWVVSWVVJbkNvVjQ1MHp1N3NTV3Q3b3NLb3FPUzNDX3BVWXVSdzY5dkZjdFg4SW9laVNnYXFzemdPOWw4MUMzVzJXLVFnaFBIeDlGSjZrSllpWW9xQkVYWHlIUjFNTV90RmR3Y3RpU28wYkdJblNJRTl1Nm85LWpIVGVTVHp6RFh5a3Fn?oc=5": {
+      "actor": "voters",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Recall elections are a standard democratic mechanism by which voters remove elected officials from office. This is ordinary electoral procedure, not evidence of election administration being moved to partisan control. The event occurred (officials were recalled), but it does not match the signal of election administration capture\u2014which concerns the administrative apparatus itself being rendered partisan, not the electoral outcomes voters choose. No evidence is presented that election administrators acted non-neutrally or that the administration of elections became partisan in character.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMioAFBVV95cUxORHV2c0txUUJleEk3ekhWTXFSWlpWOW9peXpiVGdaTng5TlNkLW9fb0hvY1NELVJGTkRJS3RSZEdaZUo5S3VEN3BOb20tNWpaelI0ODB1SzduUktqczVxWVhRRVB5TklYNk5tcFRtVVVTVlFhZnEyUnVBZTd5UkJmNDRxcU9LLVhGMEg0YXQ0TE5CaGJPOEwtOGFqYnZPQWVI?oc=5": {
       "actor": "Trump's attorney (unnamed)",
       "confidence": 0.95,
@@ -8616,6 +8626,16 @@
       "rationale": "Same underlying event as item 0: confirmed report of a subpoena recipient suing to block congressional investigation. The characterization of the suit as challenging 'fishing' is the plaintiff's legal theory, not a denial of the event. Real obstruction of legislative fact-finding has occurred through litigation.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSk1lWFItZ2pmdHFZbGstUHlsQ1JEOFRtbmJMbEM5ZDhSUDcxSjk0ajh6VFB4S0ZZMmhGUHZFM2RiWHMtUjUxZ0lnWmJwY05lQzl0OWYzYlRZcWJJSzRDMjd4UW12OTdnbWV0Mkh0NktxQ21jOXk4WWktY2NUc0dnNFB3?oc=5": {
+      "actor": "CNN (press)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.cnn.com",
+      "rationale": "This is a hypothetical/prospective analysis headlined 'How Trump will try to block' \u2014 indicating proposed or anticipated future action, not a documented event that has occurred. It is press coverage of potential strategy, not evidence that legislative obstruction has taken place. No actual barrier to fact-finding or executive accountability has been erected.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNTVOUHZYM2FFOWVUeGhtb2hCRWcya1VSY3JhWS1Wd3NXdFRtNnU3SDB5OEVvRmJWTlhPNHJ2QjdYMHFTZ1hsdnNaVGV1cUhFLXFQd0lZWmJlZkFNME82QndwMWxNWEl5aTlHY1pLSVFWLUxfQVNNQ2Q1a1BwTVNtakZfMGRidw?oc=5": {
       "actor": "Leon Black (private citizen)",
       "confidence": 0.75,
@@ -8875,6 +8895,16 @@
       "primary_source_url": "https://aljazeera.com",
       "rationale": "Al Jazeera covers the same event. Leon Black sued a congressional panel over an Epstein subpoena. Same assessment: real occurrence, isolated defiance by a private citizen, credible signal of legislative obstruction stress but not systematic. Severity 2.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWHJnT0tiZ3hsNWNWb1FDaUNFMHNhMWU0c0JPak5YdmZjbUw4cFBrZVpvWUNCczRuVUg4VXg4cGpKaUgtNnlqU09IVzU4dkh3WUNzYWZMSlljUXJmcmFBUGxXX2RxRmZmRGloSmVfYmpNcjBQU2tEYk9sckdqRl91czJROHhRemdDV2FNU1pEQngzaUNqaHpZOTAyU0lvUFdSNmN0dXJuVEl4NV9NejQxakxR?oc=5": {
+      "actor": "WNWN-FM (press)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.wnwn-fm.com",
+      "rationale": "This is an explainer about how the Supreme Court 'could' hinder investigations \u2014 a speculative analysis of legal capability, not a report of an actual obstruction event. The word 'could' indicates hypothesis or potential, not an accomplished action. No concrete legislative obstruction has occurred.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMisgFBVV95cUxPT3ktRG5ZUGdnMnRxRnJuQXZHckZESHhfVVNiR3RycVlxYXM0S0FDemh6ZHFqRXJQTHNtWmhvay12bEgzWVoxbFc5Zklsa3RrWjlqMjZXWFNTMExDeHcwWlc4VGtKYUNZZEVUdDlvS2pCQk5mY0IwWGV3Rm1lamFpYTJsdmJtZ09jWGNOTkxDMVE0N1VpSnpSSGhIMWpJa1NUQjVQMnAxVmNGWGxIVWFaNnNn?oc=5": {
       "actor": "House of Representatives",
@@ -9356,6 +9386,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item is from a Ukrainian-language source (\u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430) and describes a Ukrainian court case involving a Ukrainian administrative center and disability accommodations. It is not a U.S. event and therefore not evidence of any U.S. constitutional stress signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMihAJBVV95cUxPVG1JUjROcXFiUV9QZXZ3VFdtOUU5cjNEZjhwbXVncjZvZ2pzUXVTVlpXRzVaaV9TMEFITkhySkFfamZEdGdROWdSSF9EYkhCYjdoVVgwOHlXalItMm5uNEoxd1JJTTdmVE5QWlQ3M3ZnOXdNbGFRUjJKQk9hX2NxekZPQll2aU1SMDllVkJRT1pESmg0LVNhVk9vd05CZ0lZcWN2TEVYYTBETEl2MXBMdmgtNkpJOWY0N3FZUWJzcUFxSk1meDRiTUpEXzFaMHJ1TTU5eUt0cG9VVnRNeWdLMU1TTGpEZWNyaEowTkhnSjNTNEQtSWgwN1R6a3RtSFBNMVBpbw?oc=5": {
+      "actor": "Ukrainian Supreme Court",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on a Ukrainian judicial body (Sudovo-yurydychna Hazeta is a Ukrainian legal publication; the Cyrillic text and reference to 'Plenum of the Supreme Court' and 'Constitutional Court' are consistent with Ukrainian institutional structure). The signal requires evidence of martial law or military governance in the United States. This is a non-U.S. event concerning routine judicial administration (a competition for judge positions), which does not match the signal regardless of its domestic constitutional significance. It is irrelevant to the U.S. constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSFhKMExzWXI3M3oyVEhDSnBnV282cG9iMTU4VGxHNm8zXzE0ZUwzYmxSWk1IT1lWUDRFeVBIbkQ3ZFNWUEJkcEVmcVlCX0VNeHdFaGJjVGxyMHJHYU9uRnVFNVlleU9aaUdPay1hNVdaVS1fZ0E4NU8tbEI5NEVEV2lKUVN3Z9IBhgFBVV95cUxQSFhKMExzWXI3M3oyVEhDSnBnV282cG9iMTU4VGxHNm8zXzE0ZUwzYmxSWk1IT1lWUDRFeVBIbkQ3ZFNWUEJkcEVmcVlCX0VNeHdFaGJjVGxyMHJHYU9uRnVFNVlleU9aaUdPay1hNVdaVS1fZ0E4NU8tbEI5NEVEV2lKUVN3Zw?oc=5": {
@@ -14088,6 +14128,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.wusa9.com",
       "rationale": "WUSA9 reports Maryland lawmakers criticized ads paid for by taxpayers celebrating the Trump administration. Confirms the factual event of taxpayer-funded promotional advertising.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMihApBVV95cUxPWGRtcXUwS2thOG1zOVhVRnVVTThWWmxUWXBlUjNqdTNobGlyZjBvM2NZd2xSRWE5ZlVlMlVfd3VnTlk3dVZwajVLTFlMRjI2SjlNSHpSWTdldzJYUXhiZmhULTYxYW9NeTVod2U5RTdiSHRieGhUbEdoczFmdUM3RWNjOWF3eTNCUEVLcnJUdVZ3b0FsQUgxTTRoWWI1LWszWXlPTDhRdGdLY013Um9pQV9uQVV6RVpaajhGMjJhVTIxS0Z4RTdhUEFYOU5aNDhtcnpOYnhFZG9FWFNnc0V5UmZRelFZQUhEZGx3ZXp4T1NyeEhhVVNLQ1MzZnB5MUFCNkpYVlRrTFU5c2dRTkhtRXpOdi1JN1MzaUZRV1paRENWTnBLMGhDell4WDlkcFI3SG85VmlsNkdLSVRRUkRlb21ydkZiQlR5eFU1Y3hrZ1FrcTdaQVpDcDZXSloyelF1SzFKT1FDYllHYlRQOEtaMjYzdnlIOF9saHpkdEFySG5ySTFKQnR1MWRmdXRRakVocmdGX25BX2E5MFBwQ0cwQ2VFcTBLSjJ2SU9ZX0FINTZYRWNXNUoxdG5Od3hhX1lkRGVBZGJZSHM5RE8yXzF3MkRnamlGbkctaVhQWEVTY2RqeDllSkgxWVBRTzdvZ0c5MlAxbUhFMzJ6ckxXeTA3c3FfeHhoVUl5ZnBXamhhUnIySEtpaGRqZElPbnJST2h0UmxFRFFSN2MycU1XeUdkUWFtZGF4ZXV5SkVrWmVhbDBiSV9Tc0F2S0JqMzNlSnJSUlJOWVBtd0lTaWZtN182RDJhcGkxem5pZWJ3SGl3SWdZRXJFYnFiVWhEemVoZW9QX3ZFZ01NUUtvSW5VNkkwWGNvQWQzMVhpTjF5YU51Y2N2bjhDb01paDJQU2tqeC13RDUxLVRWN3A4RVU3bjc3cThfVkhfaV81SUxyWml2emJmaTV0UnBKS3pXLV94WDNlWk5vM0ZxNGd2RGZDY1V1dlBwUzJTcTdoNV9Mdzl4c0N1QnQ5NDg2U0NrZllidW5aeE5NS0tYaUZhSDRDam91VFVFZXJYTUFiN2VoM2Q3OXNOaTBHYjk2aEloTzJXWW5iZVIwNFRaS01aZW5JczZNY2ZjVnpjNGJEa2x6S0tIWVZqN0ctUmJqX2tuT2JYTjlDQjJ1c0xPT2FOQnVDY3lvQ2JQcEhDMmVMc05xeGhWSkl3aFhsOUNHQ0tBcERLMkxmVzBOWlVYLXVuR2tJeHdFTzFHYV9McTltNlpPbXlRWkhTTjdjMGVFejZpYW1TYmU5Z2syZXpvTWNzcmlYT1oxeDB0eV9HNHJyWFJQa1IyRnlGWHRyeFhTLWRKbHdkaTRTS19NbC1QQnVsVi1BNk50Q3RaMVp0X3ZqQXhVbmdrMDBTa2dNd1EwUXB0Y2hrMFo0UG8yWEVHNlBNLUJ5b1NfdUZUTDZ1VWhwbGhQMzJDeXhEcW8xd3JqMWc3d2ZmZVl6UG5KYzdjdXp0bWt6VFp2TlZvaXR1UUc4Q0JvcWx6eVp1SVp0VHZpOHI0Y0VUQ1FYY2pKZXhPeXRzb1p5WVNkTXpaOG4tOENKY2NLYjVwTTNWcDFjNVRmQ3R3X1d5MW14b1NrRmQ4YWllYmgwOTFTZnVzdkFCN0t4dzR1UTVQaGp3SG1TLVltdjBsb2VBYlZjRkZka3RjSFNVdEZvNjQ2N053aF8?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://abc13.com",
+      "rationale": "News report indicates that taxpayer funds have been spent on promotional advertising defending the spending as being for the country's benefit. This constitutes a credible, repeated signal of using appropriated public money for communications that promote an officeholder rather than purely inform the public. The admission and defense of the practice, combined with the acknowledgment of spending 'millions on taxpayer-funded promotional ads,' indicates a real occurrence rather than a hypothetical or proposal. However, without additional corroborating documentation of the specific appropriations, funding sources, or scope of the spend, this is scored as severity 2 (a real but contained action with credible reporting) rather than severity 3, which would require official documentation of a systematic, structured violation.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR2Z1RUZRNXVKMXJ5T2IxbzJoWjV6NFc4S2JIRW5na0pYQmpmWmJvYkRYelhjRWdta1VwbjEwUG5MOEl0dkF1N2dscTM3eURMNWtsQkZYVVlvODNmYmZEczRHZUw0bVA2cXlISXZfMFZ6MDVlaXRPaXd4cHhzMmw4Y1ZoT24zQQ?oc=5": {
