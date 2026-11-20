@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-11-19 12:28:23 UTC
+- Generated: 2026-11-20 12:28:55 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **13 / 100** (Baseline Institutional Noise)
+- Score: **10 / 100** (Baseline Institutional Noise)
 - Previous day delta: **-3.0**
-- Delta vs 7-day average: **+0.6**
+- Delta vs 7-day average: **-1.8**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,12 +15,12 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 1.65 | 9.07 |
+| Elections and Transfer of Power | 22 | 1.30 | 7.15 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 0.43 | 1.41 |
+| Executive Constraints and Emergency Powers | 13 | 0.32 | 1.03 |
 | Civil Service and Agency Independence | 10 | 0.00 | 0.00 |
-| Civil Liberties and Information Environment | 10 | 0.98 | 2.46 |
+| Civil Liberties and Information Environment | 10 | 0.75 | 1.88 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -28,33 +28,30 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Election Administration Capture | elections_transfer | 2.65 (Yellow) | ai | 0 | 4 |
-| Press Restrictions or Retaliation | civil_liberties_information | 1.65 (Watch) | ai | 0 | 1 |
-| Legislative Bypass by Executive | executive_constraints | 1.30 (Watch) | ai | 0 | 2 |
-| Public Funds for Political Promotion | civil_liberties_information | 1.30 (Watch) | keyword | 0 | 0 |
+| Election Administration Capture | elections_transfer | 2.30 (Yellow) | ai | 0 | 2 |
+| Press Restrictions or Retaliation | civil_liberties_information | 1.30 (Watch) | ai | 0 | 1 |
+| Legislative Bypass by Executive | executive_constraints | 0.95 (Watch) | keyword | 0 | 0 |
+| Public Funds for Political Promotion | civil_liberties_information | 0.95 (Watch) | keyword | 0 | 0 |
 
 ## Evidence Samples
 
 ### Election Administration Capture
-- [The Texan] Report Card: The State of the Takeovers - The Texan (2026-11-17) - https://news.google.com/rss/articles/CBMizwFBVV95cUxQV0ZSUkoxQ2Z5Q1FpNVg1ZUYtanppaDRlbWJfNUFhdW1fTHdIYmlhNnRYUVRMVmVpY05JNWE0SlNuQ0hRMUJhZ1VxSmRvbEN3cUZoTUNlZy1pblNERlFHUnhnN056Xzd4VHFUZlo1NUJvdzk2M3ZNalc0aHZSMXRDNWxhaHlwSjl5RUJNSlBqLUhicVdqdld0Z2FsRG4teVh5XzFJR3RyTl90ajg5Zk4wbS1fMDBfNGZmYUVtenQxa0lwZDFxUmFxcVk2Y3VUbU0?oc=5
-- [Newsweek] How the Midterms Hurt MAGA’s Grip on Swing-State Elections - Newsweek (2026-11-17) - https://news.google.com/rss/articles/CBMihgFBVV95cUxPSXlXVUtjV1NkREh5WEl1djFpX0dlY0N4Tk9Ic0V0Z29fRENzVVVndFhEYTR4cHRKbnRPM1JueHBVX0ItbDJzRzlablV1QWt2U29KMXJVZ1NwUzV4ektyTHhqOEVhVW90b2JYX0VheUZ6MkpXM2NSLVVqb3RoMkdBcTdlUERLdw?oc=5
-- [The New Republic] Google’s Attempt to Force Schools to Use Its AI Tools Is Backfiring - The New Republic (2026-11-18) - https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xSkpzYkpQeC1iNDJjbDNpdlRfYTh0SjFBdjVabWNwSElpWEdkMWpGVGVZQ1BiRXBHaHI5NXFYR0tRdTRYRFRNRVVWZkRQelRXTDZ6NUo3QXl2UW04UkV3?oc=5
+- [The Columbus Dispatch] Ohio bill would let lone Republican audit Amy Acton, Democrats - The Columbus Dispatch (2026-11-19) - https://news.google.com/rss/articles/CBMi3wFBVV95cUxObDBfN0JrSjdhUjAzSW9ETXc1MVo5T2dsVHFIUmE0MmhSRmp5dEp0VkpqR044VjAwMFZoR0s3YU1pQ2lzcEFKMTI0YVAxUEI1bUJoYzlJTkRRckJ1clVwUEptYUFBdnpkdjA5djFjTmVDVHhodVcwR19UdzdMQWpqT284aWhtR3c4Z01HZFl0OFFvTVM2d2E1QnZrWmZkcmFQb0NmdDlNSUR2N0RaWU90cjdocVhEVUhhbUJjdkxGYzM1Zzl1YUI5TTJ5eEZISUY2aHBIalRpVXNObGdXRFA4?oc=5
+- [ABC News - Breaking News, Latest News and Videos] 'Going to be practical': Sen. Markwayne Mullin speaks out after being named Noem's replacement at DHS - ABC News - Breaking News, Latest News and Videos (2026-11-19) - https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGFPSVpoVFZTUlFjaDZRakItV05kaVlGVlluM1pMRGRvTkpaS2RFNlY2ZElwbFFOUEwtQVhSTzVVZlRmSmVBb1JFZDBaaVRqR05kNnZydDNBcFVOak5ENzZvRmdaOFdLTk9sUk9Kc3hSdnB4a3VEcGl6NDJ0M2RNTG9mMjFSUkd0MlNUYnl2QTNjeDI3aWt1UHM3WVBXaGhTOVY0VXBR0gGrAUFVX3lxTE1JN1FWZ1RwMHQ4aEpyckdLR2RxTnhucVUwZ21uVWZscnBKU3MxZFBQX3RaTXlBZE45YnBXLUo0OW4tSWRWdDRRVnFtTHhxbVdzMTJuLTNYQXdQUlB2M0hobldMT05hN2xscnlXLXVjT2VaX2I5WXlzWWdiY0lWNHIzZ0dDMnBDTFN5bUx1bXpQRkduNzdjcF9nS2ZqbTZZMm5YQmRaOTlPVjdNYw?oc=5
 
 ### Press Restrictions or Retaliation
-- [Journalism Pakistan] Is Asia using the law to silence independent journalism? - Journalism Pakistan (2026-11-18) - https://news.google.com/rss/articles/CBMilAFBVV95cUxQM0FZT2MtNElycU9wXy0yQTFld25tSmc4ekt6U2E5LS0yMFE3LVBZVUtELWhXRHZzam43VDBSQXdaX3piRGVHeGpDZ1pMZGwycGlIanRwazVjOVhObmZZcGdoYWlfTFR6U29WZk1TdjVWbHlJZWUwb3JLNDBsU2QweUdLTG5PR3JVQ2lkRHUyOE9pU2ZT?oc=5
+- [ipi.media] Azerbaijan: IPI demands release of jailed Abzas Media journalists and others held behind bars - ipi.media (2026-11-20) - https://news.google.com/rss/articles/CBMisAFBVV95cUxNajdxSmNsWENuSHRpR0JyWWM0Rll0QzZad0M2anB5SjZ3VlVXQXM1MGpxR0xFaVliZnFKNUZCb3R5Skc5LXVNM2lHYjFUSjA1aWtVQk1uaDJRZE81ZHpLZnBiTmZESzhDMUtEOE5LZkc2MXp2c25LcUszSUpFN2Nwem14U3RPT1VHYXZKbnBUTmJVZ1Z1VHk3UGRxdDlPQjBQd0YwZEJYMC1uQVVuUzNHMQ?oc=5
 
 ### Legislative Bypass by Executive
-- [The Dispatch] Impeachment Is Fine, but Have We Tried Laws? - The Dispatch (2026-11-19) - https://news.google.com/rss/articles/CBMihAFBVV95cUxNcURRNk0zMzQxNlhlNTRSUll6aEpoMmpxWGdoemRpRElNYWQtbjJOWnBQV0FZWjFibE50SGNhWnJsNHpGQ3hxTVpsa3g4RmlDS3Z2TjNlVzR0cjdUOXduWGxxeF8tbXNjV1hvUHU4eHNiQmt2Q0xEVG5CUHJmQ2xqOFFRTmk?oc=5
-- [Diplomacy and Law] War Powers Act: How the 1973 Resolution Limits Presidential War-Making - Diplomacy and Law (2026-11-18) - https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IMU54NHhXM0NhUHJwM19lZFNRMGNnZkdLeE1UTE1LRHl6Zk9GODZnMGdhOHVGdHVpYThJZE9Xc3V6VVpoWXVGZDFFZndISjQ5dVlxeGE2STA3SENQeHI1VQ?oc=5
-
+- No fresh evidence links in the current lookback window.
 ### Public Funds for Political Promotion
 - No fresh evidence links in the current lookback window.
 ## Data Quality
 
 - Query feeds attempted: 25
-- Query feeds successful: 24
-- Query feeds failed: 1
-- Primary-source lookups: 22 signals, 6 official documents (Federal Register, CourtListener)
+- Query feeds successful: 23
+- Query feeds failed: 2
+- Primary-source lookups: 22 signals, 7 official documents (Federal Register, CourtListener)
 - Primary-source confirmations: 0
 - Evidence extraction: AI event extraction
 - Confidence: **Medium**
@@ -68,6 +65,6 @@
   - judicial_review_foreclosure: courtlistener: HTTP Error 401: Unauthorized
   - independent_agency_capture: courtlistener: HTTP Error 401: Unauthorized
   - inspector_general_retaliation: courtlistener: HTTP Error 401: Unauthorized
-  - military_domestic_political_use: courtlistener: HTTP Error 401: Unauthorized
+  - military_domestic_political_use: HTTP Error 429: Too Many Requests
 
 Use this score as an early-warning indicator. Confirm high-severity changes with primary legal documents, court orders, and official records.

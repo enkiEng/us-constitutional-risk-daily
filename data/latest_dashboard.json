@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 12.37,
+  "average_7d": 11.86,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,13 +10,13 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -3.0,
-  "delta_vs_7d": 0.57,
+  "delta_vs_7d": -1.81,
   "domain_breakdown": [
     {
-      "avg_severity": 1.65,
+      "avg_severity": 1.2999999999999998,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 9.075,
+      "points": 7.149999999999999,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.43333333333333335,
+      "avg_severity": 0.31666666666666665,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.4083333333333334,
+      "points": 1.0291666666666666,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.9833333333333334,
+      "avg_severity": 0.75,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 2.4583333333333335,
+      "points": 1.875,
       "weight": 10
     },
     {
@@ -70,7 +70,7 @@
     }
   ],
   "extraction_mode": "ai",
-  "failed_queries": 1,
+  "failed_queries": 2,
   "fetch_errors": [
     "election_certification_interference: courtlistener: HTTP Error 401: Unauthorized",
     "election_delay_or_cancellation: courtlistener: HTTP Error 401: Unauthorized",
@@ -81,18 +81,18 @@
     "judicial_review_foreclosure: courtlistener: HTTP Error 401: Unauthorized",
     "independent_agency_capture: courtlistener: HTTP Error 401: Unauthorized",
     "inspector_general_retaliation: courtlistener: HTTP Error 401: Unauthorized",
+    "military_domestic_political_use: HTTP Error 429: Too Many Requests",
     "military_domestic_political_use: courtlistener: HTTP Error 401: Unauthorized",
     "state_election_preemption: HTTP Error 429: Too Many Requests",
-    "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized",
-    "link resolution: 1 link(s) left as Google redirects (4 resolved, 1 cached)"
+    "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-11-19T12:28:23.009138+00:00",
+  "generated_at": "2026-11-20T12:28:55.442134+00:00",
   "methodology_version": 2,
-  "previous_score": 16,
+  "previous_score": 13,
   "primary_sources": {
     "documents_confirmed": 0,
-    "documents_fetched": 6,
+    "documents_fetched": 7,
     "providers": [
       "federal_register",
       "courtlistener"
@@ -100,10 +100,10 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 13,
-  "score_raw": 12.94,
-  "score_raw_pre_trip_wire": 12.94,
-  "successful_queries": 24,
+  "score": 10,
+  "score_raw": 10.05,
+  "score_raw_pre_trip_wire": 10.05,
+  "successful_queries": 23,
   "top_signals": [
     {
       "confirmed_hits": 0,
@@ -111,35 +111,26 @@
       "domain_id": "elections_transfer",
       "evidence": [
         {
-          "canonical_link": "https://thetexan.news/newsletters/report_card/report-card-the-state-of-the-takeovers/article_6d376c54-4435-4125-a7db-12f174628210.html",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQV0ZSUkoxQ2Z5Q1FpNVg1ZUYtanppaDRlbWJfNUFhdW1fTHdIYmlhNnRYUVRMVmVpY05JNWE0SlNuQ0hRMUJhZ1VxSmRvbEN3cUZoTUNlZy1pblNERlFHUnhnN056Xzd4VHFUZlo1NUJvdzk2M3ZNalc0aHZSMXRDNWxhaHlwSjl5RUJNSlBqLUhicVdqdld0Z2FsRG4teVh5XzFJR3RyTl90ajg5Zk4wbS1fMDBfNGZmYUVtenQxa0lwZDFxUmFxcVk2Y3VUbU0?oc=5",
-          "published": "2026-11-17T13:00:00+00:00",
-          "publisher": "The Texan",
+          "canonical_link": "https://www.dispatch.com/story/news/politics/state/2026/11/19/ohio-bill-would-give-republican-auditor-oversight-of-democratic-offices/92858541007/",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObDBfN0JrSjdhUjAzSW9ETXc1MVo5T2dsVHFIUmE0MmhSRmp5dEp0VkpqR044VjAwMFZoR0s3YU1pQ2lzcEFKMTI0YVAxUEI1bUJoYzlJTkRRckJ1clVwUEptYUFBdnpkdjA5djFjTmVDVHhodVcwR19UdzdMQWpqT284aWhtR3c4Z01HZFl0OFFvTVM2d2E1QnZrWmZkcmFQb0NmdDlNSUR2N0RaWU90cjdocVhEVUhhbUJjdkxGYzM1Zzl1YUI5TTJ5eEZISUY2aHBIalRpVXNObGdXRFA4?oc=5",
+          "published": "2026-11-19T18:48:00+00:00",
+          "publisher": "The Columbus Dispatch",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Report Card: The State of the Takeovers - The Texan"
+          "title": "Ohio bill would let lone Republican audit Amy Acton, Democrats - The Columbus Dispatch"
         },
         {
-          "canonical_link": "https://www.newsweek.com/midterms-hurt-maga-grip-swing-state-elections-12726939",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSXlXVUtjV1NkREh5WEl1djFpX0dlY0N4Tk9Ic0V0Z29fRENzVVVndFhEYTR4cHRKbnRPM1JueHBVX0ItbDJzRzlablV1QWt2U29KMXJVZ1NwUzV4ektyTHhqOEVhVW90b2JYX0VheUZ6MkpXM2NSLVVqb3RoMkdBcTdlUERLdw?oc=5",
-          "published": "2026-11-17T14:08:00+00:00",
-          "publisher": "Newsweek",
+          "canonical_link": "https://abcnews.com/Politics/practical-sen-markwayne-mullin-speaks-after-named-noems/story?id=130799720",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGFPSVpoVFZTUlFjaDZRakItV05kaVlGVlluM1pMRGRvTkpaS2RFNlY2ZElwbFFOUEwtQVhSTzVVZlRmSmVBb1JFZDBaaVRqR05kNnZydDNBcFVOak5ENzZvRmdaOFdLTk9sUk9Kc3hSdnB4a3VEcGl6NDJ0M2RNTG9mMjFSUkd0MlNUYnl2QTNjeDI3aWt1UHM3WVBXaGhTOVY0VXBR0gGrAUFVX3lxTE1JN1FWZ1RwMHQ4aEpyckdLR2RxTnhucVUwZ21uVWZscnBKU3MxZFBQX3RaTXlBZE45YnBXLUo0OW4tSWRWdDRRVnFtTHhxbVdzMTJuLTNYQXdQUlB2M0hobldMT05hN2xscnlXLXVjT2VaX2I5WXlzWWdiY0lWNHIzZ0dDMnBDTFN5bUx1bXpQRkduNzdjcF9nS2ZqbTZZMm5YQmRaOTlPVjdNYw?oc=5",
+          "published": "2026-11-19T09:13:38+00:00",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "How the Midterms Hurt MAGA\u2019s Grip on Swing-State Elections - Newsweek"
-        },
-        {
-          "canonical_link": "https://newrepublic.com/feeds/168326/breaking-news",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xSkpzYkpQeC1iNDJjbDNpdlRfYTh0SjFBdjVabWNwSElpWEdkMWpGVGVZQ1BiRXBHaHI5NXFYR0tRdTRYRFRNRVVWZkRQelRXTDZ6NUo3QXl2UW04UkV3?oc=5",
-          "published": "2026-11-18T22:10:28+00:00",
-          "publisher": "The New Republic",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Google\u2019s Attempt to Force Schools to Use Its AI Tools Is Backfiring - The New Republic"
+          "title": "'Going to be practical': Sen. Markwayne Mullin speaks out after being named Noem's replacement at DHS - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 4,
+      "hits": 2,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -148,7 +139,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 2.65,
+      "severity": 2.3,
       "severity_label": "Yellow",
       "unique_publishers": 0
     },
@@ -158,13 +149,13 @@
       "domain_id": "civil_liberties_information",
       "evidence": [
         {
-          "canonical_link": null,
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM0FZT2MtNElycU9wXy0yQTFld25tSmc4ekt6U2E5LS0yMFE3LVBZVUtELWhXRHZzam43VDBSQXdaX3piRGVHeGpDZ1pMZGwycGlIanRwazVjOVhObmZZcGdoYWlfTFR6U29WZk1TdjVWbHlJZWUwb3JLNDBsU2QweUdLTG5PR3JVQ2lkRHUyOE9pU2ZT?oc=5",
-          "published": "2026-11-18T08:16:03+00:00",
-          "publisher": "Journalism Pakistan",
+          "canonical_link": "https://ipi.media/azerbaijan-ipi-demands-release-of-jailed-abzas-media-journalists-and-others-held-behind-bars/",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNajdxSmNsWENuSHRpR0JyWWM0Rll0QzZad0M2anB5SjZ3VlVXQXM1MGpxR0xFaVliZnFKNUZCb3R5Skc5LXVNM2lHYjFUSjA1aWtVQk1uaDJRZE81ZHpLZnBiTmZESzhDMUtEOE5LZkc2MXp2c25LcUszSUpFN2Nwem14U3RPT1VHYXZKbnBUTmJVZ1Z1VHk3UGRxdDlPQjBQd0YwZEJYMC1uQVVuUzNHMQ?oc=5",
+          "published": "2026-11-20T09:51:07+00:00",
+          "publisher": "ipi.media",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Is Asia using the law to silence independent journalism? - Journalism Pakistan"
+          "title": "Azerbaijan: IPI demands release of jailed Abzas Media journalists and others held behind bars - ipi.media"
         }
       ],
       "evidence_mode": "ai",
@@ -177,7 +168,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -185,28 +176,9 @@
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [
-        {
-          "canonical_link": "https://thedispatch.com/article/democratic-majority-impeachment-laws-congress/",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcURRNk0zMzQxNlhlNTRSUll6aEpoMmpxWGdoemRpRElNYWQtbjJOWnBQV0FZWjFibE50SGNhWnJsNHpGQ3hxTVpsa3g4RmlDS3Z2TjNlVzR0cjdUOXduWGxxeF8tbXNjV1hvUHU4eHNiQmt2Q0xEVG5CUHJmQ2xqOFFRTmk?oc=5",
-          "published": "2026-11-19T06:05:40+00:00",
-          "publisher": "The Dispatch",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Impeachment Is Fine, but Have We Tried Laws? - The Dispatch"
-        },
-        {
-          "canonical_link": "https://www.diplomacyandlaw.com/post/war-powers-act",
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IMU54NHhXM0NhUHJwM19lZFNRMGNnZkdLeE1UTE1LRHl6Zk9GODZnMGdhOHVGdHVpYThJZE9Xc3V6VVpoWXVGZDFFZndISjQ5dVlxeGE2STA3SENQeHI1VQ?oc=5",
-          "published": "2026-11-18T10:03:59+00:00",
-          "publisher": "Diplomacy and Law",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "War Powers Act: How the 1973 Resolution Limits Presidential War-Making - Diplomacy and Law"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 2,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -215,7 +187,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -234,7 +206,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     }
