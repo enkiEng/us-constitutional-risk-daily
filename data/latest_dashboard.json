@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 11.86,
+  "average_7d": 11.4,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -10,13 +10,13 @@
   "confidence": "Medium",
   "data_available": true,
   "delta_previous_day": -3.0,
-  "delta_vs_7d": -1.81,
+  "delta_vs_7d": -4.23,
   "domain_breakdown": [
     {
-      "avg_severity": 1.2999999999999998,
+      "avg_severity": 0.95,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 7.149999999999999,
+      "points": 5.225,
       "weight": 22
     },
     {
@@ -34,10 +34,10 @@
       "weight": 14
     },
     {
-      "avg_severity": 0.31666666666666665,
+      "avg_severity": 0.19999999999999998,
       "id": "executive_constraints",
       "name": "Executive Constraints and Emergency Powers",
-      "points": 1.0291666666666666,
+      "points": 0.6499999999999999,
       "weight": 13
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.75,
+      "avg_severity": 0.5166666666666666,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.875,
+      "points": 1.2916666666666665,
       "weight": 10
     },
     {
@@ -70,7 +70,7 @@
     }
   ],
   "extraction_mode": "ai",
-  "failed_queries": 2,
+  "failed_queries": 0,
   "fetch_errors": [
     "election_certification_interference: courtlistener: HTTP Error 401: Unauthorized",
     "election_delay_or_cancellation: courtlistener: HTTP Error 401: Unauthorized",
@@ -81,15 +81,13 @@
     "judicial_review_foreclosure: courtlistener: HTTP Error 401: Unauthorized",
     "independent_agency_capture: courtlistener: HTTP Error 401: Unauthorized",
     "inspector_general_retaliation: courtlistener: HTTP Error 401: Unauthorized",
-    "military_domestic_political_use: HTTP Error 429: Too Many Requests",
     "military_domestic_political_use: courtlistener: HTTP Error 401: Unauthorized",
-    "state_election_preemption: HTTP Error 429: Too Many Requests",
     "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-11-20T12:28:55.442134+00:00",
+  "generated_at": "2026-11-21T12:27:07.099465+00:00",
   "methodology_version": 2,
-  "previous_score": 13,
+  "previous_score": 10,
   "primary_sources": {
     "documents_confirmed": 0,
     "documents_fetched": 7,
@@ -100,16 +98,34 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 10,
-  "score_raw": 10.05,
-  "score_raw_pre_trip_wire": 10.05,
-  "successful_queries": 23,
+  "score": 7,
+  "score_raw": 7.17,
+  "score_raw_pre_trip_wire": 7.17,
+  "successful_queries": 25,
   "top_signals": [
     {
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
       "evidence": [
+        {
+          "canonical_link": "https://newrepublic.com/article/218196/democrats-won-democracy-still-hasnt",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RWllXRVI1ekR1VnJTRDdyZ0stNGNkaWM3TVlZVlpaS2ZBZk1OaGNDTWRPcDlIeXRNdjd5bVdLcGFaVFpDVlNUVGpUOGVudERuaWNxVk85WHZYZW5JWXdOdGxCZTNjb3VJTkhaMGZVdm9US0h5alE1eVZMNklLeEk?oc=5",
+          "published": "2026-11-20T11:00:00+00:00",
+          "publisher": "The New Republic",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Democrats Won. Democracy Still Hasn\u2019t. - The New Republic"
+        },
+        {
+          "canonical_link": "https://www.bastillepost.com/global/article/6377085-mississippi-saw-a-spike-in-inactive-voters-for-the-midterms-democrats-want-answers",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYzRIQXNBWDdPTVM0c0RVQ1A1TFJvMTBtbURiX3UxYk9tSmZLdnRSalNZbjZieGl2blhZQ19uY3ZnQ0wzRUlGVTR0X3RWS2FqN0Rjd2NFTGM5bGt5RGJTZXRmUlRRZjQxR2ltbnNTZ2x1WHlrRzV4VEZzeEt6NGU1ZTZOTl9mM2J6ZXFVMVNvOVhXMUZsYzJBczZjMFBIMGJBS3d0aGFsWEcyVEpSREZzRDR5QmJ2M0hlZ1I1NGFJX0pzUFh0NG42ZkRDcjc4bDQ?oc=5",
+          "published": "2026-11-20T14:47:24+00:00",
+          "publisher": "\u5df4\u58eb\u7684\u5831",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Mississippi saw a spike in 'inactive' voters for the midterms. Democrats want answers - \u5df4\u58eb\u7684\u5831"
+        },
         {
           "canonical_link": "https://www.dispatch.com/story/news/politics/state/2026/11/19/ohio-bill-would-give-republican-auditor-oversight-of-democratic-offices/92858541007/",
           "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObDBfN0JrSjdhUjAzSW9ETXc1MVo5T2dsVHFIUmE0MmhSRmp5dEp0VkpqR044VjAwMFZoR0s3YU1pQ2lzcEFKMTI0YVAxUEI1bUJoYzlJTkRRckJ1clVwUEptYUFBdnpkdjA5djFjTmVDVHhodVcwR19UdzdMQWpqT284aWhtR3c4Z01HZFl0OFFvTVM2d2E1QnZrWmZkcmFQb0NmdDlNSUR2N0RaWU90cjdocVhEVUhhbUJjdkxGYzM1Zzl1YUI5TTJ5eEZISUY2aHBIalRpVXNObGdXRFA4?oc=5",
@@ -118,19 +134,10 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Ohio bill would let lone Republican audit Amy Acton, Democrats - The Columbus Dispatch"
-        },
-        {
-          "canonical_link": "https://abcnews.com/Politics/practical-sen-markwayne-mullin-speaks-after-named-noems/story?id=130799720",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRGFPSVpoVFZTUlFjaDZRakItV05kaVlGVlluM1pMRGRvTkpaS2RFNlY2ZElwbFFOUEwtQVhSTzVVZlRmSmVBb1JFZDBaaVRqR05kNnZydDNBcFVOak5ENzZvRmdaOFdLTk9sUk9Kc3hSdnB4a3VEcGl6NDJ0M2RNTG9mMjFSUkd0MlNUYnl2QTNjeDI3aWt1UHM3WVBXaGhTOVY0VXBR0gGrAUFVX3lxTE1JN1FWZ1RwMHQ4aEpyckdLR2RxTnhucVUwZ21uVWZscnBKU3MxZFBQX3RaTXlBZE45YnBXLUo0OW4tSWRWdDRRVnFtTHhxbVdzMTJuLTNYQXdQUlB2M0hobldMT05hN2xscnlXLXVjT2VaX2I5WXlzWWdiY0lWNHIzZ0dDMnBDTFN5bUx1bXpQRkduNzdjcF9nS2ZqbTZZMm5YQmRaOTlPVjdNYw?oc=5",
-          "published": "2026-11-19T09:13:38+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "'Going to be practical': Sen. Markwayne Mullin speaks out after being named Noem's replacement at DHS - ABC News - Breaking News, Latest News and Videos"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 2,
+      "hits": 3,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
@@ -139,7 +146,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 2.3,
+      "severity": 1.95,
       "severity_label": "Yellow",
       "unique_publishers": 0
     },
@@ -156,10 +163,19 @@
           "source_name": "google_news",
           "source_tier": "news",
           "title": "Azerbaijan: IPI demands release of jailed Abzas Media journalists and others held behind bars - ipi.media"
+        },
+        {
+          "canonical_link": "https://www.iranintl.com/en/202611203513",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03clI3MGZvVnM1M2VkaDVyZXp5SkZPYkFDY1BQRGpwVGJpMVBGN1paWWh1WDN0UmVDMV9IOVlqYWtlYzl0U2ZGMlRLYXBnU1F0dkE?oc=5",
+          "published": "2026-11-21T06:01:29+00:00",
+          "publisher": "Iran International",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Who gets to be a journalist? Iran seeks greater control over press - Iran International"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 1,
+      "hits": 2,
       "id": "press_restrictions",
       "name": "Press Restrictions or Retaliation",
       "override_note": null,
@@ -168,7 +184,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.3,
+      "severity": 0.95,
       "severity_label": "Watch",
       "unique_publishers": 0
     },
@@ -176,9 +192,28 @@
       "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
-      "evidence": [],
-      "evidence_mode": "keyword",
-      "hits": 0,
+      "evidence": [
+        {
+          "canonical_link": "https://kalkine.ca/news/economic-news/supreme-court-leaves-lower-court-limits-on-trump-administration-dei-funding-cuts-in-place",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZ25DZjNIOUMySmh1U3ZKTlpaNXpYRGhfRl9IcFBDUWpqWnNCMDFoQzdtN2dfLVpwWTd1cUZETWpIQ0pmOFVmUVpSS25UUFMxRzEyLTl5MUhOQXdiTXpBMXpyeE9XeVdFelpPNmJJdTE3dzlCUDRGcjZiZDZXOTFQdzNHVUowT3FLMXUtQmpmR3VuR21jMDFFZlRxbTJQN1djeHdkSEpfM2NiRDA5VzVpOGhURmpXRFh1OG1VaEZlR3BmMWVmbWc?oc=5",
+          "published": "2026-11-19T17:33:00+00:00",
+          "publisher": "kalkine.ca",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Supreme Court Leaves Lower-Court Limits on Trump Administration DEI Funding Cuts in Place - kalkine.ca"
+        },
+        {
+          "canonical_link": "https://www.dtnext.in/edit/federalism-beyond-politics-why-the-kurian-joseph-committee-matters",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOam1ObU1idG9zRGRocXQ2WUpuLW1yMXVwQ09nWkJGLW90VE84MDl2NVVqS2pRTVBtT0U0MGtCVHdMYXItdkxkclk3engwdE9tSTZhLWJGYVpjbUtXNDZ6WUo5aU9hSzZvMWd2Sy1GdloyY3lLUDlES3FRX01EV1lPMVhWeXpMcW9jS2RCT0ViOVNRTlNjVUZVbNIBpgFBVV95cUxPODRhWjlLUEJoLUZ0eFUybjVpYXZHM3FEN0dwVm1DMS0tLV9kZ1BlQzh4VkVPNm0wcVpwdVBFUTMxeS1MVklDTWhTeExiVVg1d2hMWl9oM25uaUE2NldQWjdtYUxTM2UtWWRyRVNLaHA4V0ZtMTJBTm9LRmhOZTVBQVp5S1hYN1VZNXZ5bXlqTVRyWmI4c3lDYzRIOWdCTmo5RjhWeV9R?oc=5",
+          "published": "2026-11-20T02:07:25+00:00",
+          "publisher": "DT Next",
+          "source_name": "google_news",
+          "source_tier": "news",
+          "title": "Federalism Beyond Politics: Why the Kurian Joseph Committee Matters - DT Next"
+        }
+      ],
+      "evidence_mode": "ai",
+      "hits": 2,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
@@ -187,8 +222,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     },
     {
@@ -206,8 +241,8 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 0.95,
-      "severity_label": "Watch",
+      "severity": 0.6,
+      "severity_label": "Green",
       "unique_publishers": 0
     }
   ],
