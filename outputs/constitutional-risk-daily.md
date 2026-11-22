@@ -1,10 +1,10 @@
 # Constitutional Risk Dashboard (0-100)
 
-- Generated: 2026-11-21 12:27:07 UTC
+- Generated: 2026-11-22 12:26:47 UTC
 - Methodology: **v2** (extraction: AI event extraction)
-- Score: **7 / 100** (Baseline Institutional Noise)
-- Previous day delta: **-3.0**
-- Delta vs 7-day average: **-4.2**
+- Score: **9 / 100** (Baseline Institutional Noise)
+- Previous day delta: **+2.0**
+- Delta vs 7-day average: **-2.3**
 
 ## Interpretation
 - Band meaning: Normal democratic conflict and routine legal contestation.
@@ -15,12 +15,12 @@
 
 | Domain | Weight | Severity (0-4) | Points |
 |---|---:|---:|---:|
-| Elections and Transfer of Power | 22 | 0.95 | 5.22 |
+| Elections and Transfer of Power | 22 | 0.60 | 3.30 |
 | Judicial Independence and Rule of Law | 15 | 0.00 | 0.00 |
 | Opposition Rights and Political Pluralism | 14 | 0.00 | 0.00 |
-| Executive Constraints and Emergency Powers | 13 | 0.20 | 0.65 |
+| Executive Constraints and Emergency Powers | 13 | 1.00 | 3.25 |
 | Civil Service and Agency Independence | 10 | 0.00 | 0.00 |
-| Civil Liberties and Information Environment | 10 | 0.52 | 1.29 |
+| Civil Liberties and Information Environment | 10 | 1.00 | 2.50 |
 | Security Sector Neutrality | 8 | 0.00 | 0.00 |
 | Federalism and Legislative Oversight | 8 | 0.00 | 0.00 |
 
@@ -28,25 +28,25 @@
 
 | Signal | Domain | Severity | Source | Confirmed | Coverage |
 |---|---|---:|---|---:|---:|
-| Election Administration Capture | elections_transfer | 1.95 (Yellow) | ai | 0 | 3 |
-| Press Restrictions or Retaliation | civil_liberties_information | 0.95 (Watch) | ai | 0 | 2 |
-| Legislative Bypass by Executive | executive_constraints | 0.60 (Green) | ai | 0 | 2 |
-| Public Funds for Political Promotion | civil_liberties_information | 0.60 (Green) | keyword | 0 | 0 |
+| Legislative Bypass by Executive | executive_constraints | 2.00 (Yellow) | ai | 2 | 4 |
+| Press Restrictions or Retaliation | civil_liberties_information | 2.00 (Yellow) | ai | 1 | 2 |
+| Election Administration Capture | elections_transfer | 1.60 (Watch) | ai | 0 | 2 |
+| Public Funds for Political Promotion | civil_liberties_information | 0.25 (Green) | keyword | 0 | 0 |
 
 ## Evidence Samples
 
-### Election Administration Capture
-- [The New Republic] Democrats Won. Democracy Still Hasn’t. - The New Republic (2026-11-20) - https://news.google.com/rss/articles/CBMif0FVX3lxTE9RWllXRVI1ekR1VnJTRDdyZ0stNGNkaWM3TVlZVlpaS2ZBZk1OaGNDTWRPcDlIeXRNdjd5bVdLcGFaVFpDVlNUVGpUOGVudERuaWNxVk85WHZYZW5JWXdOdGxCZTNjb3VJTkhaMGZVdm9US0h5alE1eVZMNklLeEk?oc=5
-- [巴士的報] Mississippi saw a spike in 'inactive' voters for the midterms. Democrats want answers - 巴士的報 (2026-11-20) - https://news.google.com/rss/articles/CBMizwFBVV95cUxOYzRIQXNBWDdPTVM0c0RVQ1A1TFJvMTBtbURiX3UxYk9tSmZLdnRSalNZbjZieGl2blhZQ19uY3ZnQ0wzRUlGVTR0X3RWS2FqN0Rjd2NFTGM5bGt5RGJTZXRmUlRRZjQxR2ltbnNTZ2x1WHlrRzV4VEZzeEt6NGU1ZTZOTl9mM2J6ZXFVMVNvOVhXMUZsYzJBczZjMFBIMGJBS3d0aGFsWEcyVEpSREZzRDR5QmJ2M0hlZ1I1NGFJX0pzUFh0NG42ZkRDcjc4bDQ?oc=5
-- [The Columbus Dispatch] Ohio bill would let lone Republican audit Amy Acton, Democrats - The Columbus Dispatch (2026-11-19) - https://news.google.com/rss/articles/CBMi3wFBVV95cUxObDBfN0JrSjdhUjAzSW9ETXc1MVo5T2dsVHFIUmE0MmhSRmp5dEp0VkpqR044VjAwMFZoR0s3YU1pQ2lzcEFKMTI0YVAxUEI1bUJoYzlJTkRRckJ1clVwUEptYUFBdnpkdjA5djFjTmVDVHhodVcwR19UdzdMQWpqT284aWhtR3c4Z01HZFl0OFFvTVM2d2E1QnZrWmZkcmFQb0NmdDlNSUR2N0RaWU90cjdocVhEVUhhbUJjdkxGYzM1Zzl1YUI5TTJ5eEZISUY2aHBIalRpVXNObGdXRFA4?oc=5
+### Legislative Bypass by Executive
+- Assessment: This reports that Trump has restricted congressional access to federal contractors via executive action. If a completed executive order exists that formally restricts Congress's ability to access or obtain information from federal contractors, this constitutes a real action that shifts authority from legislative oversight (a statutory or constitutional power of Congress) to executive discretion. This is a credible signal of legislative bypass. However, without full verification of the order's scope and enforceability, and given the report is from a secondary source, severity is marked conservatively at 2 (confirmed but contained action) rather than 3. The action appears to have been issued, not merely proposed.
+- [Limapagi] Trump Restricts Congressional Access to Federal Contractors - Limapagi (2026-11-22) - https://news.google.com/rss/articles/CBMidkFVX3lxTE9BS1N4ajh2alhYNUk4WEV2eWtyZk9YRTU2WTJLV3h6OHVhbHhZdkpXTm5FZEZySkRzTGUteXVDM3hCeGtrS3lxV192WW9IOF9WZ3BMNVZtdnNVN3ExYlRZUGpXd09rQkFrc0NUWTVrVVhpVEN1Unc?oc=5
+- [NewsBreak: Local News & Alerts] Andy Kim Warns Trump Is Moving to Block Congressional Oversight — Says ICE and GEO Group “Owe Us Answers” as New Executive Order Threatens Contractor Access to Congress - NewsBreak: Local News & Alerts (2026-11-22) - https://news.google.com/rss/articles/CBMiywJBVV95cUxONUlKWUJpY2w0b3NIazdMVWxVM3Q3VC03ZGV5VWk3TmF3UndMNlAzYlJoU3Nnb0pucHlUV3BpSFA3LWc0ck9CZ3RkNDFqMWtXM3Jmd05hb29VaENZeUxNcEY1VmJPMFh1MmoycGVuR0lpQ3U2eEZnSHBzTkk4THBxaDl6TnJ4UFFURWllb0x6c3hnWmh3aE1SbWthejZ3NkQweDJ5elNxRGg0aV9CREZrMmhhRDRHOHhiX002bFVKY2FRbUwzd1dNa2xPZWlwSVp5UDJ3RlFUaVFiRThBOXJudl9HX2lRbEwzQUk3ZG56djQ1Z3JGMUQwUE9yWDRnS3FLTlhuRTNUVEpRUGo2Q3FnamVBYk5MSmF6MXZQaHEzTlM1emFpTkNoVTh4SnVaR0VicTFxbnFQYVdUWlVJSUo0RTFVNDV1Uzh2bC1R?oc=5
 
 ### Press Restrictions or Retaliation
-- [ipi.media] Azerbaijan: IPI demands release of jailed Abzas Media journalists and others held behind bars - ipi.media (2026-11-20) - https://news.google.com/rss/articles/CBMisAFBVV95cUxNajdxSmNsWENuSHRpR0JyWWM0Rll0QzZad0M2anB5SjZ3VlVXQXM1MGpxR0xFaVliZnFKNUZCb3R5Skc5LXVNM2lHYjFUSjA1aWtVQk1uaDJRZE81ZHpLZnBiTmZESzhDMUtEOE5LZkc2MXp2c25LcUszSUpFN2Nwem14U3RPT1VHYXZKbnBUTmJVZ1Z1VHk3UGRxdDlPQjBQd0YwZEJYMC1uQVVuUzNHMQ?oc=5
-- [Iran International] Who gets to be a journalist? Iran seeks greater control over press - Iran International (2026-11-21) - https://news.google.com/rss/articles/CBMiUkFVX3lxTE03clI3MGZvVnM1M2VkaDVyZXp5SkZPYkFDY1BQRGpwVGJpMVBGN1paWWh1WDN0UmVDMV9IOVlqYWtlYzl0U2ZGMlRLYXBnU1F0dkE?oc=5
+- Assessment: ABC News reports that the Trump administration has targeted specific individuals including James Comey. This constitutes a real occurrence of state action that raises costs or legal risk (targeting by name creates reputational, investigative, or potential legal pressure). However, the report is limited to naming individuals targeted; without detail on the specific mechanism of retaliation (prosecution, removal from office, legal action, loss of license), the severity is contained at level 2 rather than escalated. A confirmed, orchestrated campaign with verifiable legal or official action would be severity 3+. This is credible press coverage of a real targeting action.
+- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-11-21) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
 
-### Legislative Bypass by Executive
-- [kalkine.ca] Supreme Court Leaves Lower-Court Limits on Trump Administration DEI Funding Cuts in Place - kalkine.ca (2026-11-19) - https://news.google.com/rss/articles/CBMixgFBVV95cUxQZ25DZjNIOUMySmh1U3ZKTlpaNXpYRGhfRl9IcFBDUWpqWnNCMDFoQzdtN2dfLVpwWTd1cUZETWpIQ0pmOFVmUVpSS25UUFMxRzEyLTl5MUhOQXdiTXpBMXpyeE9XeVdFelpPNmJJdTE3dzlCUDRGcjZiZDZXOTFQdzNHVUowT3FLMXUtQmpmR3VuR21jMDFFZlRxbTJQN1djeHdkSEpfM2NiRDA5VzVpOGhURmpXRFh1OG1VaEZlR3BmMWVmbWc?oc=5
-- [DT Next] Federalism Beyond Politics: Why the Kurian Joseph Committee Matters - DT Next (2026-11-20) - https://news.google.com/rss/articles/CBMimAFBVV95cUxOam1ObU1idG9zRGRocXQ2WUpuLW1yMXVwQ09nWkJGLW90VE84MDl2NVVqS2pRTVBtT0U0MGtCVHdMYXItdkxkclk3engwdE9tSTZhLWJGYVpjbUtXNDZ6WUo5aU9hSzZvMWd2Sy1GdloyY3lLUDlES3FRX01EV1lPMVhWeXpMcW9jS2RCT0ViOVNRTlNjVUZVbNIBpgFBVV95cUxPODRhWjlLUEJoLUZ0eFUybjVpYXZHM3FEN0dwVm1DMS0tLV9kZ1BlQzh4VkVPNm0wcVpwdVBFUTMxeS1MVklDTWhTeExiVVg1d2hMWl9oM25uaUE2NldQWjdtYUxTM2UtWWRyRVNLaHA4V0ZtMTJBTm9LRmhOZTVBQVp5S1hYN1VZNXZ5bXlqTVRyWmI4c3lDYzRIOWdCTmo5RjhWeV9R?oc=5
+### Election Administration Capture
+- [ABC News - Breaking News, Latest News and Videos] Here's a list of the individuals, including James Comey, targeted by the Trump administration - ABC News - Breaking News, Latest News and Videos (2026-11-21) - https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5
+- [The New Republic] “Rude”: Trump Snaps at Woman Reporter Who Dared to Ask Question - The New Republic (2026-11-20) - https://news.google.com/rss/articles/CBMikgFBVV95cUxNeDkxdGdrRFA2dXFrZFRTWUY5S3dxdURQZnFCMTg3Zld6OWdLR2M0Ri1rNm9rVFFLOTJ0T3JaWU1lUHNKMTNjOHJGbWxMTzYyTkY0YVpfMDlPbl9fNE9FVTZUM0x0a2ZRdkVJNlZvVHZtSWFHcHN4TmR4cWUySi1KejQ2TXVfU1l1a2dYcG54a1FiUQ?oc=5
 
 ### Public Funds for Political Promotion
 - No fresh evidence links in the current lookback window.
