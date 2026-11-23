@@ -3520,6 +3520,16 @@
       "rationale": "This is an opinion/analysis headline posed as a question. The item does not describe a verifiable action taken, a rule issued, a court order, or an official decision that alters election timelines. It is a framing question about alleged groundwork, which is speculation and analysis, not evidence of an accomplished constitutional event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMXdUcHhmUmt0aTZSeGZKcXZtUEFpOWZ2bUZpRkd3SkRQRHFMLUhhRDlidlNIVXJrU0FxVVVjSDlfZERZaktKclhTVFF1ZXh5ekRLWERHYnhDLXdHRlo2OUY1ZXdFWklJekR2eDJzX3pQMHJaMmY4TnQ1MkR5SV80blhlU041RVc5X3AyVGo3MVJLQmVLWWdWY2kxcmVNYTBtd3lscExsUWMxQVpMSlE?oc=5": {
+      "actor": "US Army",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.fox5dc.com",
+      "rationale": "This item reports on a military action regarding hazardous chemical disposal, allegedly in defiance of a court order. However, this concerns enforcement of environmental/safety protocols, not election timelines or electoral processes. The signal specifically concerns 'Election Delay or Cancellation'\u2014alterations to election timelines outside constitutional pathways. Military action on bomb-making chemicals, even if it involves disregard for a court order, does not constitute evidence of election-related constitutional stress. The item is off-topic to the signal being assessed. Additionally, the article is from November 2026 (a future date), which may indicate this is hypothetical, speculative, or a test item. No actual election interference or delay is described.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUU9RcnNRZFNteEc3QV95Ums0WV9IeE90UFAxUmpwX3VxeXRWLVFxVGtJemZiVGJUUGVPeTd6MlRwSEYzUnFDeUQwS0RaMklUMGtKVWRlVU0tVE04RzJ1MW5XRnBCUVpoNlBZcmFrQmJBeUxGdU5pQU1sNjhWaG92N0xZemlURnBRQVd3cVF2X1JWQnRFZ3pVVUNKaDJ3Q2FOcy16aWFfR280Z1lmLWY00gG0AUFVX3lxTE5JaWwwTmZnbWxTU1JBT2g1bmxPdi1peU1FWEgzRjdSNFAzTW93ck5BRFA3UjBZb3p0UzBUYXJQbzJxREpPQld4SWhRLVNoMXFLWGVIM1o4Ti15ejBlU0s0eU5jVmhmVFVxelZYaEJzWUpneVM4NW5qNUtJNTZvcVNmZHdIQzNUYkxWXzZOVS05Rlc2SzNvaWIxMlNFaXhYNHVLb2FTQmNObWdBVTQtalFFeDlFMg?oc=5": {
       "actor": "Donald Trump",
       "confidence": 0.98,
@@ -7544,6 +7554,16 @@
       "rationale": "This item concerns Colombia and its internal peace process, not the United States. Regardless of content, it is out of scope for a U.S. constitutional-risk dashboard.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iVVMyejhOQXItTVVVdmVsQTR1SFBGeGVMWUI4enZsYkU1SW9DQ1hSbW1hNmo3SlFkdDBJSl82WEgxVlVGMGx0cUdETWJrcEJWamdUa3ZlbVZsWTUxUmN4REdKOHZrV3NfcmZMaFJneDJXdFFQOUNyYw?oc=5": {
+      "actor": "Trump (Executive)",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.npr.org",
+      "rationale": "The item reports a verifiable executive order requiring federal contractors to obtain White House approval before responding to Congressional requests. This is a real action that shifts a governance function (Congressional oversight/contractor communication) from statutory process to executive gatekeeping. However, severity is 2 rather than 3 because: (1) the scope is limited to federal contractors, not broad executive authority; (2) it represents executive overreach but does not constitute outright defiance of law or structural constitutional failure; (3) it is a single, contained action rather than part of a confirmed campaign to systematically dismantle checks and balances. The order is likely legally vulnerable but has been issued as binding executive direction, making it a real signal rather than a proposal.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Lbm9nZEVlYXBzQllzTkVIZ2Rzb3FoNDh4cjVlV3Y1XzhYQ3pOLVJpQ21BcEJuSGdVZXZMME1NNG1aNHpCNzUwdUtxX3BiSmxsTC14eVZ6cFlKWC1pYVZiRjNjT3RYSjZiSkNPR2VaazlrWHhneWhxOA?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -9558,6 +9578,16 @@
       "rationale": "This item is from a Korean news outlet (\ub9e4\uc77c\uacbd\uc81c) and reports on a confirmation hearing in what appears to be a non-U.S. jurisdiction. It is not a U.S. domestic event and therefore not relevant to a U.S. constitutional-risk dashboard. No evidence of military governance or martial law language is indicated.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04V0pDcUJKX1VfZmkyWllraEtWRzE4Qk80eF9kQkNxd2kwUVNjQTdnMWJla2xMREJRdmRDZ09GYm0xMUJoSUNFakozNFU2aGlIYjJKY1NOdE1mZw?oc=5": {
+      "actor": "South Korean Democratic Party",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://en.yna.co.kr/",
+      "rationale": "This item reports on South Korean domestic politics (Yonhap News Agency is South Korea's national news agency), specifically a warning by judges' representatives regarding impeachment proceedings against South Korea's chief justice. This is not a U.S. event and therefore does not constitute evidence of a constitutional-stress signal in the United States. The signal concerns military management of political disputes in the U.S. context.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAtLWQ1aE1jRlM0RzlEV2ZaNUM2bEpOZURfb0N0THV5Ql9oWmpjSC1sSV9JOUNpeHNQTFpRR1dxeS03ZkFCSzJ1UE1uUXJhSGRpbWRTODEzLUdXenhU?oc=5": {
       "actor": "European Union; Poland",
       "confidence": 0.99,
@@ -10520,6 +10550,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item reports on Indian electoral politics (Congress vs. BJP in Madhya Pradesh), not U.S. constitutional events. It concerns a by-poll result in India, which is outside the scope of U.S. domestic constitutional-risk assessment. The signal concerns systematic removal of opposition candidates from meaningful U.S. participation; this item is neither U.S. domestic nor evidence of ballot exclusion.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZGlCdUN4UnY5UlJPaXZ5bFZIMVpuNl83SkhCd0tKb3V2aXBmVEoxZFN4bXNpZGNmNTFUbW9IaEI5QnlCZWJwOGR1b2hEOTIweHFjb1Z3dC1iOTRPd3ZmZktlTGQxNUN6NmE1QXVLbjVfSGprdEEwRXJuYjdwVGVjbmtsb0hIazhsamw4U0haQzNMbmQzSXl5UjdZbHozNzZlRHlEV193SGlSYS0zcDlhb3pudDZ0OUFxUV8tbmdXdkIxMlZZYUpTTERnMEJ4OVYyVnc?oc=5": {
+      "actor": "EACC (Eastleigh, UK)",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns the United Kingdom (Eastleigh Voice is a UK publication), not the United States. The signal applies only to U.S. constitutional events. Additionally, the content is a proposal for 'tougher vetting' of candidates, not a systematic removal of opposition candidates from participation. Not relevant to the U.S. constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPV3ZURm13RjljeXZXYkNYaXpzR0JMNGlDMUk0X1BKQUwwWmJJLThqaFV4RzJieElTQ2trRWY0QXlJRGRIOXVTVkd3ZTQyNk96OGNiMjRkemFoNXpqRi03SHZORk1JNDlvbkc2Nlh5eUlDVGdiblFMUDZmTmNHc1ZUNUNySHRMeUpGc3UzQXhpYUJ4MWlpR3owTk5sSGVLT1hpWFcyZzVMNkxYeWtGOHlpRE05c0Z2MVVCcTNSMHJlR01KM3NobXVaaFAxY053UGFERTFB?oc=5": {
@@ -11852,6 +11892,16 @@
       "rationale": "This item describes a post-primary ballot shuffle in Alaska's gubernatorial race, framed as a routine procedural matter involving candidate forum participation. A ballot reordering following primaries is standard administrative practice in some jurisdictions and does not constitute systematic removal of opposition candidates from meaningful participation. The headline suggests normalization of the event, not suppression.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxNY2lWbkVhRmk1NTg3RTFfVGxhN1NyX0hYT0YwWXJRUVNwWXJHZXAzY09OYXVmMUw0cmd6X013TXpMb2t2bENaRmhuNGh1MmRJOXE1WVFMa0czTzktNjRjZ09vdHB1dUdVVTdqY0tVMnlrMXdHVW42YXNVQ0hzZ2hFbDN2anY1SGVGdU13bHlCa1dfOTFKODE2MFJsZUZ0RFFNSXFvZjZuSUJEakxNdHpWdFVsNlJGRUwtbG5DSnlQUGQwTDlOLXdjRHpIX1I?oc=5": {
+      "actor": "Atiku, Obi (Nigeria)",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Nigeria (Premium Times Nigeria is a Nigerian publication) and Nigerian presidential politics in 2027, not the United States. It reports on a political candidate's denial of withdrawal from a race and intra-opposition dynamics. It does not describe systematic removal of opposition candidates from meaningful participation in U.S. elections. Not relevant to the U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdHNuUXI3LXMtbDFCeW40S2RDanZ2UWowZ3RPdnJNNkJNNjRnVUNxRWM1RzZrR1l1OFc0N0stdmtTeU1Ta1ZDWXFsaGpIcU91SmhYdEY2dkF1eG9MUzh5Rk9xQ1VpSllzS3pBRWtxcFlHSHlucFpXRi14OGVHUzhrcEZ3UWJGVjVQSmZGQ1d3T2NMcWplRi14elNOLVVFTUl4Uzl4bWgwX2ZWZDFYMU9peUI5Qnktd2tDNkdwT2RMWTlxRmpPRnIyZ0hMems?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -13178,6 +13228,16 @@
       "rationale": "This is a global media review. The summary does not specify the United States as a subject; the item appears to cover international events. Without evidence of U.S. domestic press restrictions or retaliation, this does not trigger the signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWUVKbGFybmNsdnNBc3Z3VmkzNGVLd3NUaDFWTW5ramNlMVBoeFF5b0VqUXBsMmlZbGJTT2twUTJYSVlGLWo0MWRLck52MjcxaXlqU01LakJpR1R0MTNpWlVCbzBhMEdIVkNVMWZaOUhyWFduUnNuaV9Kbm0tMzlvb2lPVE9BQ1d3VEJJX0dTV3dGOUJOR0psRG5MTdIBmwFBVV95cUxOWUVKbGFybmNsdnNBc3Z3VmkzNGVLd3NUaDFWTW5ramNlMVBoeFF5b0VqUXBsMmlZbGJTT2twUTJYSVlGLWo0MWRLck52MjcxaXlqU01LakJpR1R0MTNpWlVCbzBhMEdIVkNVMWZaOUhyWFduUnNuaV9Kbm0tMzlvb2lPVE9BQ1d3VEJJX0dTV3dGOUJOR0psRG5MTQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports events in Turkey, not the United States. The signal applies only to U.S. constitutional risk. Non-U.S. events are out of scope regardless of their nature.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdEx4QWJ1elYxYlI5b1IyUVpoQW51cm9vTTZna0l1bFlfRHBXekFkaC1icTZRZFVtNHhRY2hRNVdfeklGQUs5b2hUYXhoNXQ2alR2MEdxc0E3WXVDYU5ldWxFdDdzS2h2OVZWcHBNOENHMDgtWjNtUTIyY1ZkWFIybFY2YllpTVhXSGFSYjlpb1dJYV84R0xHbUk5Yw?oc=5": {
       "actor": "Unknown",
       "confidence": 0.95,
@@ -13366,6 +13426,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is a global media brief from a Pakistani journalism organization. It is not U.S. domestic content and does not describe a U.S. constitutional event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQzJZVVlvbWN5YWFnbXFtYzNnYVN3SUZzMU5tazhMM2hGb0plQzlrMUY2YnFKbjZWclZGY1BCS2hkX3hXclp5RENuQjlqSktJYXFaM29kZ1lhclJGT3NCakZ6azYyVVIwZUhIT0t3cXRkZ3dLc0otamlKVm1SRmhXTjhLbnVpQ193M3hFTHByNmJ2ZWNCYlJRYzVrSXJ5NFdaOTZLYWR3?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports events in Turkey, not the United States. The signal applies only to U.S. constitutional risk. Non-U.S. events are out of scope regardless of their nature.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeVdWSHNNclNPUHZadWZBdEFHTE1vWEVzWDVlVzVQbjFrTng1QWJ1YlRVR1JEbzczTHBESWh0UU96RC0zT2JsY3A2Z1ZxYkYzMm14NXRxb1M1b1dlT0lTOEY4V1BNSzBoNVhxcWZVaFlqZ0NzMFU0MWk0WUFvbXBlWHBLaWY4ZHRQVnV1T0dnN1A1U2tINC1RU0xja2FMNnNGTlprRUh3?oc=5": {

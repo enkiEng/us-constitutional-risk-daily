@@ -134,6 +134,23 @@
       "rationale": "Three OPM final rules were published in the Federal Register on 2026-10-19, constituting completed regulatory action (not proposals) that materially expand executive tools for reassigning, sidelining, or managing out career civil servants: eliminating the time-in-grade merit-based promotion safeguard, broadening administrative leave authority explicitly for 'workforce realignment,' and changing senior professional performance management. These are distinct from the existing Schedule Policy/Career at-will reclassification entry and from the already-pending MSPB/probationary/RIF proposals, representing an additional durable weakening of civil-service merit protections government-wide. Scoped as targeted-but-broad weakening (magnitude 2) layered atop existing civil_service_integrity entries rather than a full elimination of checks.",
       "confidence": 0.55,
       "proposed_on": "2026-10-17"
+    },
+    {
+      "action": "add",
+      "id": "contractor_congressional_communication_gatekeeping",
+      "domain_id": "federalism_oversight",
+      "title": "Executive order requiring federal contractors to obtain White House approval before responding to Congressional requests",
+      "class": "executive_action",
+      "magnitude": 2,
+      "status": "active",
+      "established": "2026-11-23",
+      "evidence": [
+        "Trump orders federal contractors to check with White House before responding to Congress - NPR",
+        "Trump Restricts Congressional Access to Federal Contractors - Limapagi"
+      ],
+      "rationale": "A confirmed, executed executive order inserts a White House approval gate between federal contractors and Congressional oversight requests, durably weakening a channel of legislative oversight. Scope is limited to the contractor relationship (not all executive-branch communications with Congress), consistent with magnitude 2 (targeted scope) rather than a broad or total elimination of the check.",
+      "confidence": 0.65,
+      "proposed_on": "2026-11-23"
     }
   ]
 }
