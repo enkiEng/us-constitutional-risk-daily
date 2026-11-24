@@ -3440,6 +3440,16 @@
     }
   },
   "election_delay_or_cancellation": {
+    "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNV01BanduWXlNQWlDV2Y3R3lJSnB6Y2RfZnlDbEVHV291YVNlbzBWdXI3Y0JDbDZZVkFhMFRpeHFNSDRZYkJoQU5XUTF6cWtCcldOc3VSS3MxNVBBWlRpZkZnbk9MNXhEMVFNSUIwSFQwbFRMSmRHYVZTRWJlTHlZMGJjZkVybzd5cEh1QXByZDVEZEs5YjZJX1FDc19TeFc0UFlaOFNJY1RvYVFvTk16Um0wa3dRU0JVbUU2bjNvM1QzMy1tN2dsdUE3bTl6dzZv?oc=5": {
+      "actor": "Trump",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.pbs.org",
+      "rationale": "This item concerns a military/environmental matter (pausing detonation of a chemical compound in Iowa). It does not involve election timelines, electoral procedures, or constitutional pathways for holding elections. The signal specifically addresses election delay or cancellation outside ordinary constitutional mechanisms. A directive to pause an unrelated military operation has no bearing on election administration or electoral calendars. This is not evidence of election-delay or election-cancellation events.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSDM1dkxielZMa3RLOXJ3R3VUeHJ3b1NLdkVHamU4TVJWR185YW9ZX1pKRks0U05jRlVjcFlhQWZOdkp6Vl8tZ2JlZnI3SGI5TlV0NFFEbU9MZGtvNmdBTmtGYjZPSU9jUzRaSmlKMjhSS2VIc0lYT2Njcl9Nd3ZSZzZWSXBFS0pGdXhQV2ZVNEJqZ0JPd2gtUXhudC1Ib2ladUxaaE53S3JydEQyMzhkSDhLTmg0dVZzOXY1MUI3bmladVlRZDhMTDhiMFE3dmxEUWdkRld1Y19KTTl2NlVGUg?oc=5": {
       "actor": "Center for American Progress",
       "confidence": 0.95,
@@ -6218,6 +6228,16 @@
       "rationale": "This item is a general news tracker about litigation against the Trump Administration. It reports on the existence and number of lawsuits filed against an executive branch, which is a normal constitutional process, not evidence of judge intimidation. Judge intimidation would require sustained official pressure to punish judges for adverse rulings. The mere fact of being sued frequently does not constitute intimidation of judges, nor does it indicate official pressure to punish jurists for their decisions. This is routine administrative/legal activity, not a constitutional-stress signal.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxNX2ZNMGRHZEk2cUVaSU9haGZmNkltTHNfWU42djVzdzY5ZjF2eDlUWWhiNVJyR2M3SFE4V3FzQVR6dFJyUkFndzk1NkxTRWdUdXBIbDg3cjBDZUw2UlZPVDZITFo5V25kZHU3Zjd1Y0NIcWo1Qy0wWlZxYjdUZF9xWEtfSnl2RzQ?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is sourced from \uc870\uc120\uc77c\ubcf4 (Chosun Ilbo), a South Korean news outlet, and appears to concern Korean judicial matters, not U.S. domestic events. The signal concerns sustained official pressure to punish U.S. judges for adverse rulings. Non-U.S. events fall outside the scope of a U.S. constitutional-risk dashboard, regardless of thematic similarity. No evidence of a U.S. judge intimidation campaign is presented.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSE9YOUlJTzVGQVRrREU5LUVxS0dyenVQVVlDcFliT0VUNlNPZEdjNmM0aXpoYjNBVlZNd3VZR2ZaUTZDUXk4eGstc3pQZGFqVW9HVVdjd1ZvMWc3SkVGdFVLMFVPQU9sT0tZd2RBdnYyU1lFT2Q3RWh5VnNkaGxJTEF4enlRNWs?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -8213,6 +8233,16 @@
       "primary_source_url": "",
       "rationale": "This is reporting on a hypothetical or prospective congressional outcome and speculation about Trump's final two years in office. It does not describe an actual occurrence of legislative bypass or executive assumption of statutory authority. It is forward-looking analysis, not evidence of a realized constitutional-stress event.",
       "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUXZzWUJuQ1B5aWJWS2lNV1JXRFVudWV5TGgxd0ExUmRPRF8xeXo2UkhrQ0Z4R0dVV1VWMDd2eHNtYnZfYUNMVGxsd2szeHVzWVU5MXMzbUhKZ01ZaTEtVUFkcDcyQmxzcTMwSU9TQ3FIeFkxWkxRbXhsd2Z1YTZ3OTRjd2VGYW1LNXNqbW9HVGFxN0U3NWQ5aHJ3YnUyM1pf?oc=5": {
+      "actor": "President Trump",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "",
+      "rationale": "The item describes a presidential order directing federal contractors to notify the White House before providing information to Congress. This represents a shift of information-control authority from normal legislative channels to unilateral executive gatekeeping, which constitutes a real governance action that bypasses normal statutory procedures for congressional oversight and access to information from federal contractors. However, without access to the full text of the order or confirmation of its legal status and actual implementation, and given that this appears to be framed as 'law commentary' rather than an official record, the severity is assessed as 2\u2014a credible but contained stress signal representing a real action that materially alters executive-legislative balance, rather than a 3 or 4 which would require documented defiance of statute or structural constitutional breakdown. The action is not hypothetical or proposed; it is described as an order that has been issued.",
+      "severity": 2
     },
     "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUnA5eW1MMU1qV2wxdW5MaFFNTzE2UDNJcGtKb1kwSnpZM0h1aW5GUThWaWMxNVZMeEhYWmtoT1NWdUdQRTZibGMyUzBmSWdBOUIwZXJWdENNYkJOQzNNdVNUNnRBLUVXRWI0a2dZUW1IQmlELWJyVmtkaGo2ellNRWFzS3B3V3hUaTdkZzd5dGpmbks2VnAtYTNfa1ZZNWZqUGxn?oc=5": {
       "actor": "Poland's Constitutional Tribunal",
@@ -14340,6 +14370,16 @@
       "rationale": "Court order blocking taxpayer-funded partisan ads represents confirmed judicial action against alleged misuse of public funds for campaign-style promotion. The judge's issuance of an injunction is itself an action that changes legal status\u2014the administration can no longer air these ads without violating the order. This is a real, credible stress event. However, severity is 2 rather than 3 because this is a single blocked campaign caught and restrained by judicial review, not a structural breakdown or pattern of defiance.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMie0FVX3lxTE9yZm9ET2hzZ1ZGYjdVQVdxQzU4OTZNaHpyWTVTX0JtWFZpY2xWcVNIQ09kcnZmeXJ1LUxETFZFRG94M3pEMUhBeHJUMzBTbFVTSUZWX0RRVTI3VFlhM1NGckhJV0lSeUdnTzM4cmxOeGxpRURKY3cwSlB0dw?oc=5": {
+      "actor": "Kari Lake",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a news headline about personnel transitions for a political figure. The item provides no substantive information about any actual occurrence of public-funds spending on political promotion, agency ad buys, campaign advertising with government disclaimers, or any appropriated money spent on partisan communications. It appears to be reporting on diplomatic appointment status, not on a signal event. Without details showing that public funds were actually spent on campaign-style promotion or partisan messaging, this does not constitute evidence of the signal.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMieEFVX3lxTE5BN19fMm9UbUdkVVBDQWdHbFlPeUFFTzFxaEFDZFhXTHFybzV2XzUtMlZLREVFYnZPcS1ENGJKeWhJWmhabzdwMFZGQ0xiWDV3NEpqOFBWLWRCWml5cTdCcjl6dDlBUmlaTEMtY18yUnJheHM3eVBpVA?oc=5": {
       "actor": "Mises Institute",
       "confidence": 0.98,
@@ -17556,6 +17596,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/11/23/2026-23777/employee-or-independent-contractor-status-under-the-fair-labor-standards-act-family-and-medical",
       "rationale": "This is a routine regulatory action by the Department of Labor modifying employment classification standards under the FLSA. While it represents a policy change, it is a normal exercise of agency rulemaking authority published through standard Federal Register procedures. The action does not involve political interference with statistical agencies (BLS, BEA, Census Bureau), removal of career leadership, irregular methodology changes outside normal notice, or suspended/delayed data releases. The signal specifies integrity threats to federal statistical agencies; labor classification rules fall outside that scope. This is a lawful regulatory revision, not evidence of statistical agency politicization.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/24/2026-23912/proposed-agency-information-collection-activities-comment-request": {
+      "actor": "Federal Railroad Administration",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/24/2026-23912/proposed-agency-information-collection-activities-comment-request",
+      "rationale": "This is a routine Paperwork Reduction Act notice requesting public comment on an information collection request. It is a procedural proposal for data-collection approval, not evidence of political interference with statistical agencies (BLS, BEA, Census Bureau), removal of career leadership, unauthorized methodology changes, or withheld/delayed data releases. The FRA is not a primary statistical agency under the signal definition. This document describes a standard administrative process, not an accomplished action that changes anyone's legal position without further steps.",
       "severity": 0
     }
   }

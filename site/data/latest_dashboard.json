@@ -1,6 +1,6 @@
 {
   "attempted_queries": 25,
-  "average_7d": 11.82,
+  "average_7d": 10.52,
   "band": {
     "description": "Normal democratic conflict and routine legal contestation.",
     "label": "Baseline Institutional Noise",
@@ -9,14 +9,14 @@
   },
   "confidence": "Medium",
   "data_available": true,
-  "delta_previous_day": 1.0,
-  "delta_vs_7d": -1.44,
+  "delta_previous_day": -2.0,
+  "delta_vs_7d": -2.61,
   "domain_breakdown": [
     {
-      "avg_severity": 1.0,
+      "avg_severity": 0.6499999999999999,
       "id": "elections_transfer",
       "name": "Elections and Transfer of Power",
-      "points": 5.5,
+      "points": 3.5749999999999993,
       "weight": 22
     },
     {
@@ -48,10 +48,10 @@
       "weight": 10
     },
     {
-      "avg_severity": 0.6499999999999999,
+      "avg_severity": 0.43333333333333335,
       "id": "civil_liberties_information",
       "name": "Civil Liberties and Information Environment",
-      "points": 1.6249999999999998,
+      "points": 1.0833333333333335,
       "weight": 10
     },
     {
@@ -70,14 +70,16 @@
     }
   ],
   "extraction_mode": "ai",
-  "failed_queries": 0,
+  "failed_queries": 2,
   "fetch_errors": [
     "election_certification_interference: courtlistener: HTTP Error 401: Unauthorized",
     "election_delay_or_cancellation: courtlistener: HTTP Error 401: Unauthorized",
+    "alternate_elector_scheme: HTTP Error 429: Too Many Requests",
     "alternate_elector_scheme: courtlistener: HTTP Error 401: Unauthorized",
     "politicized_prosecution_opposition: courtlistener: HTTP Error 401: Unauthorized",
     "opposition_ballot_exclusion: courtlistener: HTTP Error 401: Unauthorized",
     "court_order_noncompliance: courtlistener: HTTP Error 401: Unauthorized",
+    "jurisdiction_stripping_targeted: HTTP Error 429: Too Many Requests",
     "judicial_review_foreclosure: courtlistener: HTTP Error 401: Unauthorized",
     "independent_agency_capture: courtlistener: HTTP Error 401: Unauthorized",
     "inspector_general_retaliation: courtlistener: HTTP Error 401: Unauthorized",
@@ -85,9 +87,9 @@
     "legislative_oversight_obstruction: courtlistener: HTTP Error 401: Unauthorized"
   ],
   "formula": "domain_severity = max(mean_signal_severity, max_signal_severity - 1); domain_points = domain_weight * (domain_severity / 4); total_score = max(sum(domain_points), active_trip_wire_floor)",
-  "generated_at": "2026-11-23T12:30:13.683330+00:00",
+  "generated_at": "2026-11-24T12:30:29.280309+00:00",
   "methodology_version": 2,
-  "previous_score": 9,
+  "previous_score": 10,
   "primary_sources": {
     "documents_confirmed": 0,
     "documents_fetched": 7,
@@ -98,77 +100,58 @@
     "signals_queried": 22
   },
   "provisional": false,
-  "score": 10,
-  "score_raw": 10.38,
-  "score_raw_pre_trip_wire": 10.38,
-  "successful_queries": 25,
+  "score": 8,
+  "score_raw": 7.91,
+  "score_raw_pre_trip_wire": 7.91,
+  "successful_queries": 23,
   "top_signals": [
     {
-      "confirmed_hits": 2,
+      "confirmed_hits": 1,
       "critical_hits": 0,
       "domain_id": "executive_constraints",
       "evidence": [
         {
-          "canonical_link": "https://www.npr.org/2026/11/21/g-s1-154966/trump-contractors-congress",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iVVMyejhOQXItTVVVdmVsQTR1SFBGeGVMWUI4enZsYkU1SW9DQ1hSbW1hNmo3SlFkdDBJSl82WEgxVlVGMGx0cUdETWJrcEJWamdUa3ZlbVZsWTUxUmN4REdKOHZrV3NfcmZMaFJneDJXdFFQOUNyYw?oc=5",
-          "published": "2026-11-21T22:40:36+00:00",
-          "publisher": "NPR",
+          "canonical_link": "https://www.lawcommentary.com/articles/trump-federal-contractors-congress-executive-privilege-order",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUXZzWUJuQ1B5aWJWS2lNV1JXRFVudWV5TGgxd0ExUmRPRF8xeXo2UkhrQ0Z4R0dVV1VWMDd2eHNtYnZfYUNMVGxsd2szeHVzWVU5MXMzbUhKZ01ZaTEtVUFkcDcyQmxzcTMwSU9TQ3FIeFkxWkxRbXhsd2Z1YTZ3OTRjd2VGYW1LNXNqbW9HVGFxN0U3NWQ5aHJ3YnUyM1pf?oc=5",
+          "published": "2026-11-23T19:04:00+00:00",
+          "publisher": "Law Commentary",
           "source_name": "google_news",
           "source_tier": "news",
-          "title": "Trump orders federal contractors to check with White House before responding to Congress - NPR"
-        },
-        {
-          "canonical_link": "https://www.limapagi.id/en/trump-congressional-contractor-oversight",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BS1N4ajh2alhYNUk4WEV2eWtyZk9YRTU2WTJLV3h6OHVhbHhZdkpXTm5FZEZySkRzTGUteXVDM3hCeGtrS3lxV192WW9IOF9WZ3BMNVZtdnNVN3ExYlRZUGpXd09rQkFrc0NUWTVrVVhpVEN1Unc?oc=5",
-          "published": "2026-11-22T07:53:01+00:00",
-          "publisher": "Limapagi",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump Restricts Congressional Access to Federal Contractors - Limapagi"
+          "title": "Trump Orders Federal Contractors to Notify White House Before Giving Congress Information - Law Commentary"
         }
       ],
       "evidence_mode": "ai",
-      "hits": 4,
+      "hits": 1,
       "id": "legislative_bypass_executive",
       "name": "Legislative Bypass by Executive",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://www.npr.org",
-      "rationale": "The item reports a verifiable executive order requiring federal contractors to obtain White House approval before responding to Congressional requests. This is a real action that shifts a governance function (Congressional oversight/contractor communication) from statutory process to executive gatekeeping. However, severity is 2 rather than 3 because: (1) the scope is limited to federal contractors, not broad executive authority; (2) it represents executive overreach but does not constitute outright defiance of law or structural constitutional failure; (3) it is a single, contained action rather than part of a confirmed campaign to systematically dismantle checks and balances. The order is likely legally vulnerable but has been issued as binding executive direction, making it a real signal rather than a proposal.",
+      "primary_source_url": null,
+      "rationale": "The item describes a presidential order directing federal contractors to notify the White House before providing information to Congress. This represents a shift of information-control authority from normal legislative channels to unilateral executive gatekeeping, which constitutes a real governance action that bypasses normal statutory procedures for congressional oversight and access to information from federal contractors. However, without access to the full text of the order or confirmation of its legal status and actual implementation, and given that this appears to be framed as 'law commentary' rather than an official record, the severity is assessed as 2\u2014a credible but contained stress signal representing a real action that materially alters executive-legislative balance, rather than a 3 or 4 which would require documented defiance of statute or structural constitutional breakdown. The action is not hypothetical or proposed; it is described as an order that has been issued.",
       "severe_hits": 0,
       "severity": 2.0,
       "severity_label": "Yellow",
-      "unique_publishers": 2
+      "unique_publishers": 1
     },
     {
-      "confirmed_hits": 1,
+      "confirmed_hits": 0,
       "critical_hits": 0,
       "domain_id": "elections_transfer",
-      "evidence": [
-        {
-          "canonical_link": "https://abcnews.com/US/government-expected-unseal-affidavit-filed-support-fulton-county/story?id=129998821",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWFNyVlNGblFCd3ZfSEo5RGl2Z1htZGh0eGhxRkJBeGFGU2JKUG5haW5VYlM5RDBXTEV0Y2R0WVdzQTh3MU5lcFgyXzJ4aXJjcm1xcjE2Vzh0T3NzWVl6ck96eDF2MW1lREd1TFZ5Rl9MT2JVcFdyelFwOUJhbGMwWWg3VGZzSi1OYlRrQXUzaVk1YUJWelJjXzJfVmV1dFExRm1hYzNteDFwZ9IBrwFBVV95cUxNU0ljTjFlZmY5cExkci1ETmZKU2d5bm5lZ2NFVTBNUjM2RmdGVHhlNi1EMDFQYzl2Y2FtbXpGY3JDSlZmejZYWGpfenBlaHdQSFJqNENPNWhCWFVJTk0wUW15V3FwTjlFLWpUR3BacEF6U2theFBDdHUwNDZac0NzN3JyR1pEcG9pWU5WTVh6MmxDVHpzT2JJQ0FLNlR3Q25nWjhYcHdKT05mSk5xaDEw?oc=5",
-          "published": "2026-11-21T13:12:24+00:00",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "source_name": "google_news",
-          "source_tier": "news",
-          "title": "Trump director of election security sparked Georgia office raid, affidavit says - ABC News - Breaking News, Latest News and Videos"
-        }
-      ],
-      "evidence_mode": "ai",
-      "hits": 1,
+      "evidence": [],
+      "evidence_mode": "keyword",
+      "hits": 0,
       "id": "election_administration_capture",
       "name": "Election Administration Capture",
       "override_note": null,
       "primary_confirmed": 0,
       "primary_documents": 0,
-      "primary_source_url": "https://abcnews.go.com",
-      "rationale": "This reports an allegation (via affidavit) that a Trump-appointed director of election security sparked a Georgia office raid. This represents a real action that has occurred\u2014a raid of an election office\u2014allegedly directed by a Trump administration official. While the severity is not extreme (no election was cancelled or overturned), this constitutes a credible signal of election administration being subject to partisan pressure from the executive. The involvement of a Trump administration official in directing action against a state election office suggests potential partisan capture or interference.",
+      "primary_source_url": null,
+      "rationale": null,
       "severe_hits": 0,
-      "severity": 2.0,
-      "severity_label": "Yellow",
-      "unique_publishers": 1
+      "severity": 1.65,
+      "severity_label": "Watch",
+      "unique_publishers": 0
     },
     {
       "confirmed_hits": 0,
@@ -204,7 +187,7 @@
       "primary_source_url": null,
       "rationale": null,
       "severe_hits": 0,
-      "severity": 1.65,
+      "severity": 1.3,
       "severity_label": "Watch",
       "unique_publishers": 0
     }
