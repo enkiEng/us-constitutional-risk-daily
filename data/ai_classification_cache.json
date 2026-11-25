@@ -484,6 +484,16 @@
       "rationale": "This item reports events in Winnipeg, Canada, which is not within the United States. The signal applies only to U.S. constitutional risk. Even if the event described were genuine court-order noncompliance, it would not be U.S. domestic and therefore not relevant to the dashboard's mandate to monitor constitutional stress within the United States.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcmJkdGxBSGVERVNXVTU1MF90R1FaZEZHcmk4aEV4dmZUNnRmS1NTT0RpMVBlVHhpajVfQXFmZkw2YXEzX284V1JyWjlObUk0U1VNWUI3T0JtOGNFNmc4c0I3aUFHaVMtdGtIS040RXBHVW5SanlkUEc0dEdubTNGT3lwdnFIaVRkWElGY09SdndCZG9XOFFKanN5eTcxNkQzMUhDZ2dodWFHRm12NFAzbnE0S2YtOU5JcF91cnRmeEhXTGxwMG4zUG5yb0lDUXFncTlKUTYwUmVfUjdRaE10VVRac1pPZ1U?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Tamil Nadu, India and directives from India's Madras High Court regarding implementation of India's Supreme Court order. This is a non-US event and therefore not evidence relevant to the US constitutional-risk dashboard. The domestic jurisdiction is India, not the United States.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rYVBfRWJuYnk2OTdEOW1EOVRfTkR0Y21QSkEyYXY5UW1uVmJaYnlvSG8xS2V3a0V0S1h6N3lXYmJSNHdRQkd2X21HaG5RUDBxeWpSY3oyZ2dLckhxUkFhdDlMUG1WV2l6Szhr?oc=5": {
       "actor": "Immigration and Customs Enforcement (ICE)",
       "confidence": 0.65,
@@ -562,6 +572,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns allegations of court-order noncompliance in Nigeria, not the United States. The signal specifically targets U.S. constitutional risk. Non-U.S. events are not evidence of U.S. constitutional stress.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMingNBVV95cUxOOHZuRXAzNHlFWHBCZGh4aDRYMmxnY0FlT0FETC1lQzRGN0dsMHdrSndGaGJUNGZRV0xmRWkyOFVIRElaZGVCd0dzUTlBU2VieU1jU0JxOHV3cTYzXzZRR0ZpaUtUQjhlWEN0S3VrOEsydFF6X0dZcC1RY2dtOVVPc2cyVU5XVV9MWVo3NlhUbjFhTjNPYlFMb2VseXA3T2tNMGFVU3BQVm9JY21yUXJzUFRfU0FHQU03NUo0aURTZlM3anZUbmM4elc4Z3B3VExiamhJZFFCNGQwbGtkd3FORmFKei1tQVAwUDZyY1FWU2ZZc2EybllSNGtTYUlySlBQcGNvMjJtMGNyNFBwT28weGZ2Z0w2dFpRb3NwbTQ4WDFiQVN0dkVQa3RycE9TdURSYldINVBxR1NaaWxXYWl2dXlrQWh2VUNBYmo4SFZKd2JDWVNNaURwMDRQWjhzUVVySm5QT0VVTGNkTl96ZE5veTVkVXFiY1ZPRDY3OUVCNU1nMDNNLVZlN3BGM1ZHNnNJT3czSGNZMEw4cGFGb3fSAaMDQVVfeXFMT19aR2gxY18xLWt4eWs5bEJXZFRaQlNYNXltbTlZX1V2cC01cmZCcXB6ZFNqUmVaY3hzU2Vfa3JUVkxfR3U5bVY0M2tLa0o3UUV5Q01uWVVHaHJ2X2stQl9HcXk2aGpsTGIzZncybEFvMy1CLXNGZzNrYS1EbWFmMTl5WjV6MFViQXJLdXV0WWRfaFhXUFZsZXAzN0w4VWdidlNVU3JxSzlWSDJkMURGSUZ5cXNGT3lrQ0plZHRRem1WV3pHUnFOTU9ZUGZiTWVVTExTbjlSMWRUUGpTc1dLWEdGWGUzdlRTSHgza202Zm5tbzd2TEVWSmZnM0lEdDBnQ1pMU01BTDZicy1oT3R1OWN4Y256bDJNX3l2dV9CTDVBd3JjeHZYMkdxX2N5MWxYUzc2VkFlYXJSWm1mZTFBTVdhRklmTUxyMDhwMGg0MXRLTWI0cEFBR0RDUGlITkZ5V3lCV3ZtYU04dVdPOHZYYzl3QTVHN2NhZl81bzFHM2Q1WE5wcXo2dTRCM2htSGRscUFoVFVhYnpscDZfMFpON0pQWXc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns India (The Times of India reporting on Tamil Nadu compliance with India's Supreme Court). The signal requires US domestic constitutional events. This is a non-US event and therefore irrelevant to a US constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdUYzdkM5aWtHanNiSllnRXp6ejVoOXdxU09va1JIeE15ZElWcHVKbXRUSzh2dkZoOEN6d0doeUpkeFM0cnRXc1g0SmFzNFVuNnZKM0Y3ZjNYcktrRzQyYklLQW9PUnpIMVFpOEgwNVRxNEVtSGRLTm96eE5XalpmN3NoTVBwcExkTU51WXhocGtFV0MzcFIyUkp2aUdmV041aC02T0s2c2E2QQ?oc=5": {
@@ -652,6 +672,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns alleged court-order noncompliance in Nigeria (Anambra state commissioners, petition to Nigerian President Tinubu regarding traditional ruler selection). It is not a U.S. domestic event and therefore does not constitute evidence of constitutional stress within the United States. The signal dashboard tracks U.S. constitutional-risk events only.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeFhCc1ZpeVNrM3BPclp2andDX21qeHQxX2RWYkVuVlBPOEh3Y2JSaFA0WG50WDN1WUNaMlFrMy1OZ21Lbjk0OXBXSzNBNHNyVXlqZ1lCSVRqdE5OeXZiSzNfM2lIckhnSk82dkM2UnhiMWRaSEdLX2l0YTFUcWlpZ2ZPdWdFV2JNTW9QTVYzQ0ltVlg0R0hIUS1CMVN1aEw1VzJLVFBEZG5tbTNxeG5NbEIzU1NWMGZOem9zVWhNMUPSAcABQVVfeXFMTXhYQnNWaXlTazNwT3Jadmp3Q19tanh0MV9kVmJFblZQTzhId2NiUmhQNFhudFgzdVlDWjJRazMtTmdtS245NDlwV0szQTRzclV5amdZQklUanROTnl2YkszXzNpSHJIZ0pPNnZDNlJ4YjFkWkhHS19pdGExVHFpaWdmT3VnRVdiTU1vUE1WM0NJbVZYNEdISFEtQjFTdWhMNVcyS1RQRGRubW0zcXhuTWxCM1NTVjBmTnpvc1VoTTFD?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on Tamil Nadu, India and Indian court orders regarding a religious ceremony. This is a non-US event occurring in India and is not evidence of US court-order noncompliance. Outside the scope of the signal.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNTk1TVZyT1ZUVmtKQXp4Z0xsZE9QZkdXYWRLQ3hRQ193YW16OExTUUw1dC1EQWZWa3VFNmNsZU9WN2RWYkFpTlRrb0tzNV81RXQtaU1feVY4LV9tOVgxLTRFVDdVMzhwcFBwblBDczlrQWdXQXZiSGgxOUgwU0swZTdhMlVkS2VuQXBmbGJTZ29KWDZLdDR4MzVUNkNvSFR2eGxHUE00NDE5NUxwNEMwazRXVnJBREVCOWJuaXRFTkQ?oc=5": {
@@ -1134,6 +1164,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "Reports Tennessee Supreme Court ruling upholding a state takeover of an airport authority. This concerns airport management and governance, not election administration. While it involves executive authority over an entity, it is unrelated to election administration capture.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONmpZR3c1RTlZQWlKckdWb3V3WUQzVGxyd0d0cVN4ZjBpSzN0cV9fMHpENFRxN2hnUkUxTkp3SmFTMFNYT0JiOFpVSkljdDZnOTRXZmhhQ05NX0VyLUNoS0V5QmJaLUhYa0ppNXd0R0NGZ0tHUllqT0FFeFg0U29EeWtERm5zRHBDSDY2WFFfZnY5MkNlZWZmcDB0THhsTTRReXB0eFR2TkpWUF9oVTVWeHRkR1JhX2oyS0tydDNxSHBDMUZlVkhJb3JCWlpCRXNPU2FDbV93?oc=5": {
+      "actor": "Indian National Congress",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on political marches planned in India by the Indian National Congress party. It is entirely non-U.S. and therefore irrelevant to assessment of U.S. constitutional risk. It does not match the signal and should not be scored as U.S. evidence.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbzhmeW1EeDQzWHRFYlFGOVdKbXgyUnhGVTZXY3REU2tid1JJRTZyaGdUNGxSeV9xWVQtMlhfM19QR0owWnBZbGd0R0ttTkUzekVfY3J4Qzd3ZEtGd0FqZlNQX3p0UW5RYzVxbmIta2lUVGJjLU9wWERlYjZmaEJGYlBoblJXTlVhWXlwNU9UZC13UFJKeHJGTlZ0SFM1RFFKVFZBZy1qT1AzcFQ1dGxneGZZTHRDRlNlRlNiM2xnWGRmeE5SZmFEUTVoSlBvcnlvMkFpU21Zbmw?oc=5": {
@@ -2855,6 +2895,16 @@
       "primary_source_url": "",
       "rationale": "This headline describes ongoing litigation over a proposed action ('push to control voting'), not a completed action that has moved election administration from neutral to partisan control. The outcome is pending in courts. A proposal or alleged attempt, even if credible, is not evidence that the capture has occurred\u2014only that it is being attempted or litigated. No actual structural change to election administration is confirmed here.",
       "severity": 1
+    },
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbnJqRVF6UWEzbkdpNlBGOUJldTBZTFFVdGFlN2lfXzZVV1B3UlJKa21yeUhCMVp1UjRlRlJvelNoTkFQSEpuNHVjcXNDNm90cXlsSURTYXJDRXdYNUV1VUZtcEpJSVdQLVJrZVdqb2dlRHM5UGw5MHJuYzNtbEM2MWE4bko0eUo1VUJwUmhPYVZ4RDlIYzBMZmhOTWNwYzFjNlF2Y1lHUHh6U09lNmlHcjJVTQ?oc=5": {
+      "actor": "Alaska state government",
+      "confidence": 0.85,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Alaska's decision to end a data-sharing agreement with the DOJ regarding noncitizen voter checks is a state administrative action, but it does not constitute evidence of election administration capture by partisan forces. Terminating a federal data-sharing arrangement is a state prerogative and does not demonstrate movement of election administration from neutral process to partisan control. The act itself is real, but it does not match the constitutional-stress signal of partisan takeover of election administration.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOVZJOXRNY3Z6cVlLdXpIdkJuUmJ5ZWlUTWNWS3BBSHYxQ2Vsczk4SHA5NmFDU09TUmVOTGpDLVZzSDlOU3RzMWlTUmNaZUt0WHZJazg2aHNDREtYandGZzdKaUh3NVhtc1VNRDFIS044UFhsaE1Ld0FYVkhmTTRiSGd5bUl3bVBtZFZIOVFCZ2x5SHhsM0FMODNNMnl2Z2JWNmNLa01icGZ5YW1OQ09TNXFZcXh0QQ?oc=5": {
       "actor": "Trump administration; Appeals Court",
@@ -7424,6 +7474,16 @@
       "rationale": "This item reports on proposed impeachment charges against Pete Hegseth. Impeachment charges, when filed, are formal legislative actions but remain a proposal unless and until the House votes to impeach. The item appears to be analysis of legal issues surrounding proposed charges, not evidence that an executive action has bypassed legislation or that governance has shifted from statute to unilateral executive action. An impeachment proposal does not constitute a bypass of legislative authority; it is itself a legislative mechanism. No verifiable legislative bypass or unilateral executive governance action is described.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTE9XR0JvRHRWcU1ndzh5OUdfVU5HNnNrY3BVY0tuZXNzVUI2VFJsX3dQeFphT0Vxb3VnSlB6YnBBMF82YU5veFBTbWZKbkZ6QjBwYUxLTGROZ0ZVSklvdDhpMUVpY21zNWNSOHZDWmNLLTVlems?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.05,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Demokratis.co.id is an Indonesian news outlet (domain .co.id). This is coverage of a U.S. event by a non-U.S. source, and the summary offers only allegations of threats, not confirmation of an executive action that bypassed Congress. No verifiable details or primary documentation provided.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMicEFVX3lxTE43VnVCS0VjSjREdmF4UkpmU24tVlEyeDE5UUF4MWIyS1kzR0xkLUsxaHhFckJMY0x0U2xHNXFLcWVkUnhoa2o2MTNHOVFmRU15SVp6TWRhQzFFWHgtWG9sbDFrUlJvaXRCdV8tMXF4Um4?oc=5": {
       "actor": "Unknown",
       "confidence": 0.85,
@@ -7474,6 +7534,16 @@
       "rationale": "This is news analysis reporting on ambiguity and uncertainty following court rulings, not evidence of an accomplished executive bypass. The headline indicates rules 'remain unclear,' which is commentary on the state of law after litigation, not documentation of an executive action shifting authority from legislature to executive branch. This is a secondary source reporting on confusion, not primary evidence of signal occurrence.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WWlFMRzE4SElVYVBtMkZQNlZfN2ljY2pWb2JxNnNxckxQUGZEWTVPaDNPdU5KQWstTmFJRTV3Zld0d1hBU0xTNXAxdTc5UHU2dWdaVlNteTBKR1UyR3k4ZEdzN1E3akt2am5wbjItd3AzNjhrQ2JN?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.15,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "USA Herald article title references a Trump order but no URL, full text, or verifiable details are provided. Without access to the actual order, its content, or official confirmation of its issuance and effect, this cannot be verified as a real occurrence rather than a speculative or misleading headline. The summary alone is insufficient to confirm that legislative bypass actually occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMid0FVX3lxTE5jRkcwaDRyOHNMMnJ4SjB0aC1qb052VGd0elNoVHJOb0ZxQWxiU1VUMXlDbFNMaFJJQjJCUXNPRUJNWlV6RW5EaHI1Ql9EWXdxWFFXemNQWWxmXzg3SkRmdmVUbU1WV2Zsa1BFOVhpZ21aSjgwbGdJ?oc=5": {
       "actor": "Trump",
       "confidence": 0.9,
@@ -7492,6 +7562,16 @@
       "matches_signal": false,
       "primary_source_url": "www.lvivherald.com",
       "rationale": "This item is a headline/title only with no substantive content provided. The URL and source (Lviv Herald, a Ukrainian publication) suggest either a non-U.S. source or an opinion/analysis piece. The title is a philosophical question about democracy's self-healing capacity, not a report of a specific executive action or legislative bypass. No verifiable event is described. This is either a hypothetical question, opinion/analysis, or insufficient information to assess. Does not constitute evidence of executive branch unilateral action supplanting legislative authority.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMidEFVX3lxTE5oZmxNNFRJWkUxUlZfa2Q0Z1VBeEVtbDY0MXVZNVJPM0dIclhNMkEzU0kzREhDTy1WaU1RUVJwZzhSTHMtQVJnbTVOTU8xU2NkSm9vYU14TVVkLUt5M1ZRUVBzemRNS3o2ejl3R1ljbGhMR0dy?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.1,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Limapagi appears to be a non-U.S. news outlet. The summary reports Trump restrictions on oversight but provides no verifiable documentation, official record, or link to confirm the event occurred. Without primary source verification, this remains unconfirmed.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMidkFVX3lxTE93WHhycUVHTjNrYXFsQWQzMjB4bnc1cXctczd6UW5vSTRoT192NDVtTkI1WWpYckNxWjFzSk1QRmtmWWU3QW5fd242UTFSb3FieWJNVzJoMUdTdGlvVHNCNUVhbG5yMU5KN0JYM3hldTFrZk9mN0E?oc=5": {
@@ -7614,6 +7694,16 @@
       "rationale": "Prospective analysis of what may happen after midterms; does not document an actual instance of legislative bypass by executive.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wc2had24yTlRfWlQyWjYxZWZXV2NwZ1JNMGx3TkN2UGZQR2VBMktqbTNJQTkyMlJjcFFoTUpmaWhVS1pRRjdiM0U1SmhIZGlvRG9kY1BNODJ0RFZWN3dPYW80SXRBVkhpUE5VakJ2Q0RVTTJOcGtfTTFjY29wT2M?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.05,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "SuaraGarut.ID is an Indonesian news source (.id domain). Like the others, it reports allegations of threats but provides no verifiable primary source, official document, or confirmation that an actual legislative bypass action took place.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMif0FVX3lxTE82UTl0VnphNjNXMWg1OTRJTEVTQnNQdmJNNkdqcDJOUkh3Z0RsLWdhaVo3VUt3SnBFQ3F0Qk5nYVFtX0FhblVMY3BJMWNnWURLWlhtdnE4U0lzVlBxUkpKaEgtQlVISlp4LS1CVDVkbWpmUFdyQUhkVXBCV2s0dDg?oc=5": {
       "actor": "ADC (Nigeria)",
       "confidence": 0.95,
@@ -7662,6 +7752,16 @@
       "matches_signal": false,
       "primary_source_url": "https://theunpopulist.net",
       "rationale": "This is an opinion/editorial headline calling for congressional action against the Court and alleging executive overreach ('power grabs'). It is not evidence of an actual legislative bypass or executive action that occurred; it is a proposal or argument about what Congress should do, presented as normative critique rather than reporting a verifiable event. The phrasing 'Congress Must' and 'Enabling' indicates opinion and characterization, not documentation of an accomplished action.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1Z2dvREJYS1dQYk1VclpvYkpqLUMzb0FQdnBPNkJZUEtNUktTdDJEenhCQU1od1JudllxaDhCS0tVWFFpb2hZcnA5TDNKYnloaWZoWWRVYUlHdkgzQ1AyVXZsbzdMR3pFWXFKa1B1Mmk3RDlJaC1jX1pod0Zjdw?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.05,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Peradaban.id is an Indonesian outlet (.id domain). The summary alleges threats of prosecution but does not confirm an actual executive action that bypassed Congress. Threats are not the same as implemented bypass; this is commentary/allegation without verification.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTVYxVFZMai1maHkxMElPNzQ2X3NIY0s0aXpyMzVkLVZ1UHZvMFQ2MHVieHo1d24yX1ZBMXFUbktRY2J1ejg4dUc2Um5jazJRZS1KY1ZkV3ktZjVsbGEzcXl2a1B5VmZYVE4wUlFudmh3dUpfSy1jN3I2S0FKV1hiatIBiAFBVV95cUxQSnd6VFlBVXV0MW80WTFRZHhwVFNBZ3RjQ0s0dkhuWEVBUkNiaXM0Zjc4Njl5S053eTI0NTY5WVpLWUxCZjRNOWxfNy1XS0dXbkpLc0prRmdxZXNKQktxekUwNjdoVmpTYkpXR0E1b1NLdDVnTzdRLVJvd2JaYVl4MkljTURPZUs3?oc=5": {
@@ -11582,6 +11682,16 @@
       "rationale": "This item reports on Brazil's presidential candidates seeking to disqualify each other ahead of a runoff election. It is a non-U.S. event occurring in Brazil and is outside the scope of U.S. constitutional monitoring. The signal concerns U.S. domestic opposition ballot exclusion.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxQakVLdzBsdFNLUnZCTnVEVXhiQ1NDT0tjdFcyVVRCX1JCZ3NnMXdZY29Zd3RUSjB0bjhIYmRhZlhXUW5HanFIOXg4ZnNyVEk2RGRyaWhTNDZKX3lPX0pLTTMzWmg3WTN1Q0FXMzJuNlFTb2RaZUdCTERqMTkxY1h2djJJaGl3YjMzQnVzMVp5c2I0cm91dmp6Zk12emRpbVZwMGg3RS04ajkxRmdmclI0R3dB?oc=5": {
+      "actor": "ADC (Nigeria)",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item describes a 2019 internal party dispute in Nigeria. It is neither a U.S. domestic event nor evidence of systematic opposition ballot exclusion in the United States. The signal applies only to U.S. constitutional risk.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR3pHRnRJaHd0T3o5Q1JHREdFTXcza1dyTjZzbVl6c0dHNW9DNXJMWjFydXJxRnd2QXdNM29XVjdzanNxQlNrUUpJYlpiN0hXSDdhYWVvclpFY2NmMHFYaHpXa1VWYjM4VzFvazNlNU9LWEo1cm80djNkc2ZjVXRrUXFVRHJ0NC1RSDFOajllLVZTci1YMlF2VmVTQmxtclJhdGVXRWpmQmZLTDBXVFcxUzNXOA?oc=5": {
       "actor": "Daily Monitor (Uganda)",
       "confidence": 0.98,
@@ -11641,6 +11751,16 @@
       "primary_source_url": "https://www.timesofisrael.com",
       "rationale": "Item reports Israel's election panel disqualified Arab parties and a leader from Balad, though the move is expected to be overturned by courts. This is a real disqualification action in Israel, not the United States. Not evidence of U.S. constitutional stress.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaWg1ZkNZeDJWLXhzWkF0YWxGR2YwYmNHQUR1WWVTcUR2SUVzY0J0RDQxZk1IYWJWaWVSTG5hSHduRVROS1lpTXo2Y3FXXzFUNmZsUkdDTkZoMU92aHZ1UENsUWxHajFQUGpfaUF3djQ2TGUzTVV5N3ZIU0praFprSWRzX2tpOWZuclQ3SmVWclhOd1NwZHNTN0hLZDUxM2psU2p3NEdoY2ZOVHhwVjFjYmEtZFczUQ?oc=5": {
+      "actor": "Nigerian court and INEC",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports a court decision in Nigeria (NDC, INEC, Omo-Agege are Nigerian entities) removing a senatorial candidate from the ballot. It is not a U.S. domestic event and therefore cannot be evidence of opposition ballot exclusion in the United States.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR3laR3FEcTZrNGd2d1NDS2hPaUZXRnlyMkl1QldHNFZPVGZoZk92ZEtzeGJhVVAzcGpwcklLcy1jOEZZQ05SdUt1bGlYaHkybUZiZlNaZi1ZX2g4dkI0bzBIZTFwMkM0VVlxeE0wdlM1VF9Xak9NMzM3WWRva0xKRWNTa01oQUZXRXJiaDJaMFNQUWdIUVJCVlFBTWhfQjRzZ3JCQ2RfbnpJQjNVNFpDdFM1MVk4Qjg?oc=5": {
       "actor": "Nigerian Senate / INEC",
@@ -12608,6 +12728,16 @@
       "rationale": "Item from The New Nation (Bangladesh-based publication) appears to be opinion or editorial content on freedom of expression and independent media as general principles. Not a report of a U.S. domestic event or action.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Xdjc3VUdKRFJMX01xNFZoaEhDSGZ3OVFQbVNEV2ExSWRQOGJ1T0hxTEprWkZpcVBSMGZtR1N3bEVEZGlxOUdScFl5NFo0MzA?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.97,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This appears to be a headline or editorial statement about press freedom principles from The New Nation (a Bangladesh-based outlet), not a report of U.S. state action restricting press or raising legal costs for independent reporting. It is a general statement of principle, not evidence of a specific U.S. constitutional event.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGQ3hkQ0FlaUtScTZJaFNIWjBqT3A5THZ3Yjc0Q1BWWFpZTlA1Q3g0VDg3WkRtMTJ0aEp1TVRKdXBuR2tzeE8xalp0WEdOajQ?oc=5": {
       "actor": "CPJ/US government",
       "confidence": 0.95,
@@ -13096,6 +13226,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item concerns press restrictions in Asia (specifically Pakistan), not the United States. The signal monitors constitutional stress in U.S. domestic governance. The article is a non-U.S. event and therefore not relevant to a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2xFN2hLNF8zSy0tQ2lEZmlad0VtbHYxYlZIUDJna25BN3hmeU4tVlNza1JPTTIxMkVHSlc0cDZIX01ySU1IbFNPa2RySDVXbXVubWtCZHhBYkhRY3pjLTBvM1ZQVTFQNVRtX240aEVFWWVKMmdqTG5xc1hsZlJ3SGQwc3NPcUZEcHJKNjF2N3E4WXJVNnc?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns Somali journalism, not U.S. domestic press restrictions. It is geographically outside the scope of U.S. constitutional-risk monitoring.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVjZqYTAyVlZuNkM3VUF0dGc4WklnQjB1bWROSm5TU24zd0RFdER3TUFQVGZHVkV1RElyTHRON1lFTlFIUThlWDg5Q1YyRmo3dktEeVlYdjRwZU9Ba2owZzRJcVp2cVpBc20zRVMxT0RreVlEdERYa3NoSXJGaEEwX18wRnNHclJWa01PRUozdkV6WVRFV3c?oc=5": {
@@ -14549,6 +14689,16 @@
       "primary_source_url": "https://www.aol.com",
       "rationale": "This report indicates that an ad aired during a major sports broadcast (FOX NFL Sunday) that is characterized as Trump propaganda and allegedly funded by taxpayers. The specificity (13 ads, $20M campaign, taxpayer-funding, named individual Natalie Harp at center) across multiple corroborating sources (items 4, 6) suggests a real campaign occurred rather than a hypothetical or rumor. However, the sources are press coverage rather than official agency records documenting the appropriation and authorization. The evidence is credible but not yet at the documentary level that would warrant severity 3+.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNjNUMkFRZ01Nck5zcVN6WVUtemlRelFSd3B3S2JmZDVFRUhPeV9uMTdiNXlVLW50Z2c0OXpmRHhLOExUNENCTVpXcmVoSWIyRTBrZFhzTVgxWUN2YkZEQ09yUVl5RENSTVBRS3IwdlRjU1JtSkNTZTB2STFXbTBkcE9TbEk?oc=5": {
+      "actor": "Kari Lake",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a brief headline/summary about personnel changes regarding Kari Lake's diplomatic role. It contains no information about public funds being spent on political promotion, campaign-style advertising, partisan communications, or any misuse of appropriated funds. The item is too sparse to assess, but nothing in the headline indicates the signal event (public funds for political promotion) has occurred. It is about a diplomatic appointment or its status, not about spending public money on partisan communications.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTVBacDNSTEsxemZPY1NtZ2FoREZBZXpMV0c4RU9PVTZmSmtpRWtvQmlSRXZGbEZfYmNYQWtOSGYzMzZjbGMtd1pucFRJeS1zWW4zaW50alFBLWF4YnAxZm9RUFJKRHQ0ajBKYUZ5aEw2YmpXOGpIV1VEVGZNRjlmc1MtZ2s?oc=5": {
       "actor": "Trump Administration / White House",
@@ -17606,6 +17756,36 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/11/24/2026-23912/proposed-agency-information-collection-activities-comment-request",
       "rationale": "This is a routine Paperwork Reduction Act notice requesting public comment on an information collection request. It is a procedural proposal for data-collection approval, not evidence of political interference with statistical agencies (BLS, BEA, Census Bureau), removal of career leadership, unauthorized methodology changes, or withheld/delayed data releases. The FRA is not a primary statistical agency under the signal definition. This document describes a standard administrative process, not an accomplished action that changes anyone's legal position without further steps.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/25/2026-23987/agency-information-collection-activities-comment-request": {
+      "actor": "Social Security Administration",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/25/2026-23987/agency-information-collection-activities-comment-request",
+      "rationale": "This is a routine Paperwork Reduction Act notice requesting public comment on agency information collection activities. The summary is minimal and provides no detail suggesting political interference, removal of statistical leadership, methodology changes outside normal process, or data suppression. It is a standard administrative notice unrelated to the Statistical Agency Integrity signal (which targets BLS, BEA, and Census Bureau). No evidence of constitutional risk.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/25/2026-24000/medicare-medicaid-and-childrens-health-insurance-programs-provider-enrollment-application-fee-amount": {
+      "actor": "Centers for Medicare & Medicaid Services",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/25/2026-24000/medicare-medicaid-and-childrens-health-insurance-programs-provider-enrollment-application-fee-amount",
+      "rationale": "This is an announcement of a provider enrollment application fee for calendar year 2027. It is routine administrative notice unrelated to the Statistical Agency Integrity signal. It does not involve BLS, BEA, or Census Bureau; it does not concern official economic data, statistical methodology, career leadership removal, or data release suppression. No constitutional risk to statistical agency independence is present.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/25/2026-24006/commission-information-collection-activities-ferc-549c-comment-request-extension": {
+      "actor": "Federal Energy Regulatory Commission",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/25/2026-24006/commission-information-collection-activities-ferc-549c-comment-request-extension",
+      "rationale": "This is a routine Paperwork Reduction Act notice soliciting public comment on an information collection renewal. It is a standard procedural notice for an existing, approved collection (OMB Control No. 1902-0174). The document extends an existing approved collection and requests comment\u2014it is a proposal/request, not an action that changes agency authority, removes leadership, alters methodology outside normal channels, or withholds data. No political interference with statistical integrity is evident.",
       "severity": 0
     }
   }
