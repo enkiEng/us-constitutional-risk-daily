@@ -494,6 +494,16 @@
       "rationale": "This item concerns Tamil Nadu, India and directives from India's Madras High Court regarding implementation of India's Supreme Court order. This is a non-US event and therefore not evidence relevant to the US constitutional-risk dashboard. The domestic jurisdiction is India, not the United States.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPaFRKdEJVVUFMQm5ZcmdlRUlvYks1b3B4SXRJS05QVkpTb2tLMDJJVGk4U0RMNW1KVTVOa2J4ZGpNZ2pXazZCdGZSTVlyZXlCdHlBOHNfbjJidldrUTVwLVRhYnR1VzlDS1FPSWZMeE5kNi10bjhhc083UkNFLVBsSV9VbVp4aUxoZ1ZheWxoMjR0VmNRTWhZLTczRTc0NlNkbHF0bDBZOE5HaEdYb2c5bmZMT2tzOEhmblVuMDJYZEhyRHVycmNpMENVUVhzYklMWmhqbzRmR1RNaVZGX1BHT3h3Qy1MVl9QSjBiTQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns alleged noncompliance by a Tamil Nadu state government with an Indian Supreme Court order. The signal specifies Executive or administrative refusal to comply with U.S. court orders. India is not the United States. This is geographically out of scope and therefore not evidence of the constitutional-stress signal in question.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rYVBfRWJuYnk2OTdEOW1EOVRfTkR0Y21QSkEyYXY5UW1uVmJaYnlvSG8xS2V3a0V0S1h6N3lXYmJSNHdRQkd2X21HaG5RUDBxeWpSY3oyZ2dLckhxUkFhdDlMUG1WV2l6Szhr?oc=5": {
       "actor": "Immigration and Customs Enforcement (ICE)",
       "confidence": 0.65,
@@ -692,6 +702,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item describes an alleged court-order noncompliance in Anambra State, Nigeria. The signal is defined for United States constitutional-risk events only. While the headline describes potential defiance of a court order, it pertains to a non-U.S. jurisdiction (Nigeria) and therefore falls outside the scope of this U.S. domestic constitutional-stress dashboard. No U.S. event occurred.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMjl6REppVnBNQ0lRY05VQkw3MzdvOFZkTjNYRFZGS2cxT244MUpORGYyV29DZF9CWjZ2REZqV1NhMWk5UFRzS0pNYUxkdy1JbXRTeXZpcGdobDhoMFVZck16TGZOckNpeW9FS1ZiX2NQb0QyVEVleGtSU2xTRVhwWGstbXc0eHdKVHFMeUNhRVRjZHVnUUZlZ3k3NkNHTkhXN0NaT0FSNmtsdjJSMmdLWUJQQW5FUlc5azBQNUpxLU9nQTTSAcMBQVVfeXFMUDI5ekRKaVZwTUNJUWNOVUJMNzM3bzhWZE4zWERWRktnMU9uODFKTkRmMldvQ2RfQlo2dkRGaldTYTFpOVBUc0tKTWFMZHctSW10U3l2aXBnaGw4aDBVWXJNekxmTnJDaXlvRUtWYl9jUG9EMlRFZXhrUlNsU0VYcFhrLW13NHh3SlRxTHlDYUVUY2R1Z1FGZWd5NzZDR05IVzdDWk9BUjZrbHYyUjJnS1lCUEFuRVJXOWswUDVKcS1PZ0E0?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports on Tamil Nadu's alleged defiance of an Indian Supreme Court order regarding a religious festival dispute. It concerns Indian state-level governance and Indian courts, not U.S. courts or U.S. executive/administrative bodies. It is not evidence of court-order noncompliance by U.S. authorities and falls outside the scope of a U.S. constitutional-risk dashboard.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYWZHdGhXVHZIbzFEOXlKOUZ3ZVFlbHZTbDJwQ25SNXhtcnNjSXdxblowV3BHUEo2V3NzbFZKakpIb0hXLUZPNG1ORWNxYWhzU01LLUs3bFR1dDNKTUFwRDZXeXZUOGtQTkItUFlTdjhkQUlDVmRfMzdVS2xycXJ0NFhLYXlwQVdJbk4xYWdyamRpZUFaMWVxODRUbVVZNDU2ZHhQR21VeHh0Z01HWVRYbnVoaDlyYmFJbXNqdHphaFkweW5hTzBB?oc=5": {
@@ -1596,6 +1616,16 @@
       "rationale": "Item is identified only by a date-stamp headline from a news digest. No substantive content is provided. Insufficient information to assess whether any event related to election administration capture occurred. Item appears to be a routine news summary header, not evidence of a specific event.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWGRHa2o5aEpHbXduOHhmQldBN25ocXVZN0RyM3pLV1g1ZGhFMm5aN3ZmOEQ5TnRXdkphS0UtUmlNWTRXVmVyUUMyalpMal9SRnItcmd0MFFTMjYwSEg3RmN6T0gxejJYdHVSMW13ZEE0bk5OSGYxcE9RSk5LaWQtdDUwUktkNlZ3bm04YkRTR29vUUZQaTBHSU1ybXFBZEM1dFpMWXF6WnN3Uk5ONjhlOHYydElhVm9haHdTckxwYVlRS0JRdWhPMVhjNTFZeFpXN2lNVkNGVkZzTVoySGRqNFpGekxFMHRnMjJmQXd2ZXppVkx4Tm9qUWNnYnQ?oc=5": {
+      "actor": "California voters",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Prop. 5 is a ballot measure passed through normal democratic process concerning special elections and gubernatorial appointment procedures for filling recalled offices. This is a lawful constitutional amendment process, not election administration capture. While it changes procedures, it does so through the legitimate initiative process with voter approval, not through partisan seizure of neutral election machinery. No evidence of capture of election administration from neutral to partisan control.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSGdSaWV4RHFpWmJlRl8tZXFpUzNQdGJvZnJDRGRmV091eXNSbUNBbF9WRGFDSmxOMjZxV1dGY0F6NjMtVGFEbzZwVjBnZXBGb09OYnRKbDJwcHB3V2ppSzRXUmZhREROUmx5emxXYmNYT21HOVYxdUlhRGlnTVFtTjBQTTN3TVg2aFZieVZLSUZlSGlGbGNJZE1aVlpkTzI5T3pTN0pZOFdBNF9mbTlhZWdtMGIzQjF6X3FfdW1BYXlRbGQzWFlQbkhfUU9GZFh6S1ZCanA2Z1g1bzNSNFFjeGkxOU1jdFlYN3lJcU9iSVdPVkdMRFJTX1V5cktQZw?oc=5": {
       "actor": "U.S. Justice Department",
       "confidence": 0.78,
@@ -2204,6 +2234,16 @@
       "matches_signal": true,
       "primary_source_url": "",
       "rationale": "This reports FBI agents' fear that Trump's team may order seizure of voting machines and ballots. Fear of a future action is not evidence that the action has occurred or that administrative capture has happened. This is a hypothetical or predicted scenario, not a confirmed event. Until such orders are actually issued and acted upon, this remains speculation about potential future misconduct, not evidence of present administrative capture.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMikAFBVV95cUxNd3A5aWZhdTE2RVNHRFUteVJwZi02U3dEc2twbGdaZkRzMUhoQUhfMzZtZEZaUzJXcHdmX1RfT1VncmJZc0FodXloakJudlFtbGZLRUVLN1g3SVF3MUZOR2JiWkFoTmE4VWJnNjhQOElySDVzRFFPNGU0Z2lLTnJHWE5RYjNjanhiRHo2U1k5T3M?oc=5": {
+      "actor": "Texas Republicans, DOJ",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item concerns a border barrier policy agreement, not election administration. It is completely unrelated to the signal of election administration capture. No constitutional-risk signal regarding electoral processes or voting administration is present.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMzFJT250clRaMjhLbC1EMjVwTTRxdDhIcE55cksyekdPWWtabERGMmFWNkx6bnRQMHpHckh2bWtIQmZxdFhPQmk5cEpiX3dsUmpobDd1bjZROHdrYk9PYzc0cGJvX0VMSmYzaHhwcUI5VUx6V2o0VTFWTDg4b1ZlSkpkTHBlMXFDQWZfUDJkS3o?oc=5": {
@@ -3670,6 +3710,16 @@
       "matches_signal": false,
       "primary_source_url": "unknown",
       "rationale": "This is a hypothetical scenario framed as a conditional preparation ('If Democrats Gain Edge'). The headline describes anticipatory planning or contingency discussion, not an actual exercise or deployment of emergency powers to bypass Congress. No verifiable event has occurred; this is speculation or reporting on stated intentions. Preparation and actual use are distinct. Severity 0: no material signal of an actual constitutional-stress event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMU84MnRhYjdiZHRHSi14RE9LUjdZRFhyY292T1RDV0NraThOdFo0d25rOExoaV81LXA2UHBpcnBjUEtRU2FraVI4RGtKTERvUmxyTXdVVnRRNld6MGxSZmo1ZnpvWHp2R29CYndLVTloTWNvTlo2Qldiam5lSnlWWQ?oc=5": {
+      "actor": "Treasury Department / Congress",
+      "confidence": 0.85,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item is a headline-only snippet from a financial news site about the America COMPETES Act and Treasury powers over cryptocurrency. No substantive details are provided about what actually occurred. This appears to be a routine policy or legislative proposal rather than evidence of emergency powers being exercised to bypass ordinary legislative process. Without access to the full article content, the severity level cannot be elevated above 0, and the event cannot be verified as occurring (versus being proposed or analyzed). The framing as a 'power' could refer to either a proposed grant of authority or an existing regulatory capacity, but the minimal information does not confirm that emergency authorities were actually invoked to circumvent legislative process.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTWdfRnFoeDF1Nk9CV29WWWwwSVlmSG1mVHNUbkdTUUJ2eDNocVF0dldkejRVMUZ6blVEVVFja1cyY0swRW9rY3R2NHFRYXl2Q0EwbjROaDNFLVk1ZWtRVW1yd0g2UE0wa2ppNDNJbm94REdfYzgtNldpZm1QbTViT2J3?oc=5": {
@@ -6448,6 +6498,16 @@
       "rationale": "Ratopati is a Nepali news outlet. The item concerns Nepal's judiciary, not the United States. The signal is defined for U.S. constitutional stress. Non-U.S. events are out of scope regardless of content.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUWkybmM3YnpNd1dvaUM2N2xsbGlfS3JCX0N3eThsUlN2SEV3NkJBWHRRMnd2cWdHUWF0VlhTbExXU0g2ZjJ1SmVyNExTZjdGVlVvYTlyWmpIODU2UlN6WHFlNWRWZ0pJT3diUHhfNTU3Wm1hdnVDQTBoVVVTbzA4SlZMSFpDbFFuX0tXVDdOSU5faWtIaFBfczZORXVPV1Nkdl9mOFVCZ2d0UGpkUjRKd25UMzVKcDg?oc=5": {
+      "actor": "Judge",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports a judge issuing a rebuttal in a legal proceeding (ABC legal battle involving FCC). A judge ruling against or disagreeing with a party's position is ordinary judicial function, not evidence of intimidation, pressure, or punishment of judges for their rulings. The headline describes a judicial decision in an ongoing case, not official pressure directed at judges to punish them for adverse rulings. No campaign, sustained pressure, or intimidation of the judiciary is described or implied.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiugFBVV95cUxOci1Oa1M2VmlScHkyMmdFX21Mb2tOSktJbHFwaXRLbzNvMDJrZ0NoNmpxVzROZVFEU3FwVXZwOGJVUVo3MGJHcWRyOGVwQlFydVNZM2xVUmVQN19JMTRQZVhRTVZMTGo4Xy1lZHpRb1FMMDkwMlpFZFdOb0tTaDl1STRaOWp4VkFYcjlFUVFselpfT3RONHM4OXRyaVZHYkdxSmZ5TnY3ZS1LYXd4bXBTSnFfTXAyeFA4WHc?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -7944,6 +8004,16 @@
       "rationale": "This is a Supreme Court term preview, which is prospective analysis and commentary about upcoming cases, not evidence of an actual legislative bypass or executive action that has occurred. Previews are not real events and do not constitute evidence of constitutional stress signals.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNaTBRUmNwbTR2aHZLMGRuT1RpRU5DRmNXblVpemRQWDJMalhBaXhZSjNJdE13M1N1cGphWGZzdGxyR2pNN09wa1ZCMjY2S1NuSjkzRzFNSjBBTFBlUzdjMzBYYmVrU3V6WUFWSFRfbVZXaVNaMnBINWZvSTl1TGoySVpjYXJwWU4xX0FBdHhWUUVMOWkxRm5lRnBrbFhXLVpkX0d4a0JnYlFUZElZQ1BIVncxcFZXVVAxRDhLX3d0UGMzQndha3F0eXBCY3VzX1lrbUFWQXQ1TllCODVNcEVRaHdpU0poV3hNaEN3R19MdFB3eFgxNExfRDJzQzJoZ2tKUFRtZGd0ZUpUdkXSAYsCQVVfeXFMTWkwUVJjcG00dmh2SzBkbk9UaUVOQ0ZjV25VaXpkUFgyTGpYQWl4WUozSXRNdzNTdXBqYVhmc3RsckdqTTdPcGtWQjI2NktTbko5M0cxTUowQUxQZVM3YzMwWGJla1N1ellBVkhUX21WV2lTWjJwSDVmb0k5dUxqMklaY2FycFlOMV9BQXR4VlFFTDlpMUZuZUZwa2xYVy1aZF9HeGtCZ2JRVGRJWUNQSFZ3MXBWV1VQMUQ4S193dFBjM0J3YWtxdHlwQmN1c19Za21BVkF0NU5ZQjg1TXBFUWh3aVNKaFd4TWhDd0dfTHRQd3hYMTRMX0Qyc0MyaGdrSlBUbWRndGVKVHZF?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This is a historical/analytical article about the evolution of Section 301 of the Trade Act of 1988 and its use in U.S. trade policy. It describes how an existing statute has been applied and interpreted over time\u2014a routine matter of statutory implementation and legal development, not evidence of executive bypass of legislative authority. The article is retrospective analysis of how a law has been used, not evidence of an executive action circumventing or replacing statutory authority. No verifiable constitutional-stress event occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcXc3OVhiMVFuZEJtNHlWMUlUalhpQ1RQN1NBSnlSUDkxd3JrRGFnNjVEdVJjSHgyamxsZ2cwb2JUOE01MVhpbzBzUC0tT3drSlZyVDJJUU9HYm9wc2Y0aUFvNmIzZHJwU0JGaUkwQ01qb3hUUmJIN1NEcGRNTnVIcFI5emgxTkdwMG5Sb9IBjAFBVV95cUxOcXc3OVhiMVFuZEJtNHlWMUlUalhpQ1RQN1NBSnlSUDkxd3JrRGFnNjVEdVJjSHgyamxsZ2cwb2JUOE01MVhpbzBzUC0tT3drSlZyVDJJUU9HYm9wc2Y0aUFvNmIzZHJwU0JGaUkwQ01qb3hUUmJIN1NEcGRNTnVIcFI5emgxTkdwMG5Sbw?oc=5": {
       "actor": "",
       "confidence": 0.95,
@@ -9045,6 +9115,16 @@
       "primary_source_url": "https://ibtimes.co.uk",
       "rationale": "International Business Times reports Black defied the subpoena, citing NDAs as his basis, and sued the House committee. Real event confirmed. Isolated defiance by one private party over a specific discovery request, not systematic obstruction of legislative oversight authority. Severity 2.",
       "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRjhpR3pCN0h1SEM1eVZxZVVJcE04alNBenZHVGp3NXFqSG9XQjJGN3JBVEtON0F2ZmlpckRNLXFCYVVrQURYZ0xtOGlKNzRHSjAwbDdtY1poamU1UVUxSmdob18yclJfc0VZU01aWFVVWkFlemc0SDQwMXFfdWFFNmJvaVl0NU5S?oc=5": {
+      "actor": "Unknown",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item provided is a headline only with no substantive content, source URL, date confirmation, or details about any actual event. It is insufficient to determine whether a real occurrence of legislative oversight obstruction took place. The headline alone is too vague and unsubstantiated to constitute evidence of a verifiable constitutional stress event. Without the actual article text describing specific congressional actions, proceedings, or outcomes related to contempt enforcement, no judgment of event occurrence can be made.",
+      "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeURlS2E5ck1FbnFodmpxd0o1YkIydlhmcXdpSnJZQlIxdk5DQkFFSXJDVUZhdGVaRTg0bDJGVHg0dXJhcnlPcUdCeUtCZnNOaUY3NC1hSHloaXVlbWVoaDc5QVhmeUVOSE9kVmVEUE9qZm5qVGt0dDlZdVQ1aGlKaU11aFZRNFhl?oc=5": {
       "actor": "US House of Representatives",
@@ -12818,6 +12898,16 @@
       "rationale": "Item is a generic watchlist title with no substantive content provided. Cannot determine if any specific event occurred. Additionally, Civicus Monitor is a global organization tracking civic space worldwide; a July 2026 watchlist would likely cover international events, not U.S. domestic press restrictions.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UVTUyQkNiOEpMMEZWLUl5OVlCMU1UNUJWWUdKb0o0SEQ2dGJHaFRidVBwb0hydGRBS3pzTnc2WWs2M19CcFFrbWFfRzlQc1FxRVdKVlFObmEyZnJIOVMzUGNVSlM?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item concerns Azerbaijan's bid for OSCE chairmanship and NGO opposition thereto. OSCE is an international organization, and this event is not U.S.-domestic. Additionally, the item describes NGO advocacy and urging, not state action restricting press or raising legal costs for reporting. The signal requires evidence of state action against independent reporting in the United States. This item is neither U.S.-domestic nor evidence of press restrictions.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBeGJkaEhuSFlQVmNhZ2tDUFZBQXo4VjZ1SmRINHVDTkZDdHlYVVluazZIbl96Mk1pT1luaE8zRGZpd3prdUtETDNpLWRQLUk2N2l0RU9uZTVDV0dpTklCQ1F4ODVGdw?oc=5": {
       "actor": "Unknown",
       "confidence": 0.99,
@@ -12836,6 +12926,36 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This item describes conditions in Indonesia, not the United States. The dashboard is designed to monitor U.S. constitutional risk. Non-U.S. events are out of scope regardless of severity.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMia0FVX3lxTE83d3ZFaERDZ1hrZGh0TjFOd1V2cng2UDg0YzFyaTduOFdDTlFQRGh3UzhrM3FldkJwbUhLLXJPR2pSLVgwR2lzZWd1Vkxsazl5c1Fqdk85RUkwMVN4U1ljaGtielgzdFhaT0JJ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item describes civil society opposition to Azerbaijan's potential leadership of an international organization. It is a non-U.S. international political event and does not constitute U.S. state action against independent reporting or press freedom. It is outside the scope of a U.S. constitutional-risk dashboard.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LWE1oOXROZGtQMXJMNDdNVHdyMU92X0Vzd2l0Y1BySzRVbV9qaGhvMEw3RFF5NnhfbVBIcVBiMi0tTXNlVWpKc1ZUcS1FZEpyUXEzNlZaY3BZUGFmdV9WRnd3bXpJbUhrb0M0MlI3eVAxVTQ?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item reports NGO advocacy against Azerbaijan's OSCE chairmanship. It is a non-U.S., non-domestic international event involving organizational governance, not U.S. press restrictions or state retaliation against reporting. It does not match the signal.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMid0FVX3lxTFBJeUxkNlVoWFVGRzBzRGdzNkJoWGhoTFdPV04yVWRJNkNaOFY4YW05eS0zMF80VWJhQUpfRUlqclFULUJjT1U4a0huLThoQ2VXNFpVbTJzS2ZQd2p6ZGJMaDFpZnJoZzl3eEhJOEJuY1FoNkUzMkxv?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "N/A",
+      "rationale": "This item reports NGO opposition to Azerbaijan's OSCE chairmanship bid. It is a non-U.S., non-domestic event involving international organizational politics, not U.S. state action against the press. It does not match the signal for press restrictions or retaliation by U.S. authorities.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wSjNybGVHRUhBdUt0RVBia2VyVzNDYXYzS2FaRE9LSWlFcXhtam9meXBvSzluNERYaWJMQW1VQ1lwR3A1MGZZMWNMdVNJUzlydzBtR3hKeWttM2Z2dkEtcW1YZ282MDE3RVB3UkVpMjQ3STlJb1NqdTFfdw?oc=5": {
@@ -14360,6 +14480,16 @@
       "rationale": "Report that judge has received documentation describing Trump's taxpayer-funded 'personal publicity' ads. Judicial examination of evidence trail confirms the underlying conduct is real and documented, not mere allegation. The characterization as 'personal publicity' aligns precisely with the signal definition.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xRnhTbi1wQ2liZFphT0ltbXAwN3h6MlVpenJtRXI0MUd5WExEclp2cmVDczZxY2FhSmtsd0ZmS2duSG9iYjRITF9KZHVRSXdvNnV1akVKMFI3dHEzNDNHMW13?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.69,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.inquisitr.com",
+      "rationale": "Specific report that Judge Loren AliKhan declined a long-term ban on Trump ads tied to a $20 million taxpayer contract. This confirms the event: a substantial public appropriation ($20 million) is being used for pro-Trump communications. The judge's refusal to issue a long-term ban means the spend can proceed. Severity 2 (real, credible, contained action with ongoing legal remedy available).",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NVnJ6ajViU2h6UjNUTHZxcG9JTEs4cFpSM2pCVXJWWUZGd3RnWWxwQzd4N1FrVkMyZjdXRW1ockd4ZzdWeTJYd0FTdDY3SlRBd2taTTBFMzBEOTBOcmV3aFB5aGZHY1E?oc=5": {
       "actor": "Israeli government",
       "confidence": 0.97,
@@ -15000,6 +15130,16 @@
       "rationale": "This is a letter to the editor expressing an opinion that Trump ads should not be government-funded. It is commentary/advocacy, not evidence that an event occurred. It may be responding to reporting about the ads, but the letter itself is not an occurrence of the signal\u2014it is only a citizen's statement about what should or should not happen.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxNM3pWWnB2dE9iU2pBeFcwZlFxM0s0LUtLbW9nazBtTzVEWDhDbm1jVUpyREhMbU9DamhYRE9pUnU1by1DXzVnV1pWT09XUi02Y2t4ampWcm5fLWM5N21CbUxOZ19TNERiZWE2Wlk4aXVkakNHYjl5RDhFTWlkTTFlV2d6RXZ4V1dLRFQ0a0s1UmJwSGFF?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.67,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.craveonline.com",
+      "rationale": "Report framing the judge's decision as a 'legal win' for Trump in the taxpayer-funded ad battle confirms the event: public money is being spent on pro-Trump communications and courts have declined to block it. Severity 2 reflects confirmed action with ongoing legal remedies; the fact that a Biden-appointed judge made the decision underscores judicial independence is functioning. No structural collapse evident.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMS02dnIzUzZjYjU4LWF5Si1Kd2NhVVpreU9uNS1ubHJtWEZtR3hONEhIMmhRV1RRV044OHRpWHFYOWhiU1FSMkNjRkh1WklmOHlna081d29oTzB2Unk1QlNDVERfdnB1NTNkZWRXNElZV29fdzJaQ3Y3RV9idkZadDM2ZVJOR0hIdWMycmxnZDRhYzFm?oc=5": {
       "actor": "Trump administration / federal agencies",
       "confidence": 0.87,
@@ -15090,6 +15230,16 @@
       "rationale": "Vanguard News reports a judge ordering Trump to cancel taxpayer-funded TV ads. Consistent pattern: the underlying conduct (use of public funds for political promotion) occurred, the signal applies, severity is 2 because the judicial system has already intervened with an enforceable order.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWHQzLXFjaDhHVkE4dzQ4YzNhU3dqYjRncXJQSXNqY0lMN3VocnM3cTVFSHJWR1BaMzA1UFpvNjE5QkZJOHhvSW9mNklaeF9uNFUyaDZPQURrMm9YRGN1UnltYkVpVmtHODQ0U2tzd2h0UG95TXBGS1VnYlIyY2t1NExfNUt0YnhER1NIa3VQaFBteXdWNmc?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.72,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.newsweek.com",
+      "rationale": "News report indicates Democrats lost a court bid to block taxpayer-funded pro-Trump ads. This reports a real occurrence\u2014the ads themselves are airing using public funds. The event (taxpayer funds spent on pro-Trump communications) has occurred and matches the signal. Severity is 2 (confirmed but contained action) rather than 3 because judicial relief was sought and partially declined, suggesting oversight mechanisms are functioning even if unsuccessful here. No structural constitutional failure is evident.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMilgJBVV95cUxQZ09GMEZNcDV2UjJRdUZSYXdtT1VaVjFWQ0hTYmk4UjUtVEN3M2JaUHJKelpETEVnd3htWWRwdUtSaHczNFpBTEFhUGdTNjJfQzFuRXN2enN5YWhXZWFOaWwxZVVGSVFnREJfMng3TWEtVUxWSlFERzAwS3pWVzQxY3N2Y1FraUgtNEE0d1ZqSHdsbGw2QmRvRk43aTFCRG9MTTZ6TWhsQWtBUE5JTUxvRFA4cjhBd2R5RlR5WmtINHdjTXV3ZjQyM0g3MEM4dEx4TjhkQXFPOFZUSTE2bmd4dWNHd0RwR1ZWTkdjMGRxSHRyYnRTaXp0SnNkRjFOM1ZCUHlmbDZtNU9vaWlHbGhNNGg3RDlfdw?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.75,
@@ -15108,6 +15258,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.timesfreepress.com",
       "rationale": "Chattanooga Times Free Press national opinion column discusses Trump's ad blitz as paid by taxpayers. The column itself is opinion/analysis, but the underlying fact\u2014the ads exist and are taxpayer-funded\u2014is the event being reported, which is confirmed.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS1ZiRVJ0VWhUbGlILVNRZzZKMy0wd3RZUkZBNTBrTnhSTUJjYW1RUjVNLVhhUEtNYndndkhPYng5Wm9hbW5RTm5kMEluS1hQNzJhQnRWSTJOOHQteUpoNHpzWjJUdkdqRlRqRTBXQ1d1d2w2YXFSYV9iTy1CSkFYaFNGRTBKNHoyUlRHZ0N2anFmRVlsT0RLZDd3?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.7,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.notus.org",
+      "rationale": "Press report on a second federal judge declining to block taxpayer-funded Trump ads after DNC lawsuit. Confirms the core event: public funds are being used for pro-Trump communications. The fact that multiple judges have declined preliminary relief does not negate that the event occurred; it indicates judicial processes are ongoing. Severity 2 reflects that the action is real and credible but not yet systemic dismantling of oversight.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU1czZ05iU2J2TGlDcnN4VGhFUGxPdF80UUc0NTdhQi1GVlcySFdVTzgtRHVYb0ljUU1YVkVFMEwyOU91V0JLOXdIQ1F5M1dqWjFPRVNwZmpVNk43TzR1U2xvamlNZVlsOEVqVTFwZm9iZnJ3cGw2TFZNdXA5UGtndDB3U2xfRkVfVXloVEwxSG1DLXJ6RUYwS1FR?oc=5": {
@@ -15600,6 +15760,16 @@
       "rationale": "ABC News reports two lawsuits challenging Trump's taxpayer-funded ads and alleging violation of propaganda law. Credible source confirming multiple lawsuits. Severity 2: lawsuits are procedural challenges to the alleged conduct, not confirmed constitutional violation or government admission.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaTBEUFliZ3ZGRE9lNm9Xam04bjhMUUFsSWNuRmVxZTJWMDhaOVpGbWxXN2Z5bTc0YTNQa1hkQnNHTEIwRjczbUlhdWJmMTJJMDVFbnVkYkR5cHV0WDZlSV9wNGQ3Mm9UOXlSQkktWWtJYUNMU3NCbElVY2JuVU5HbFQ1azBuR0ZyamVoNVNUWVZ3R0tieUpSOWdFZThuOFplVUdsei16enJyRG8?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.65,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.dosyahaber.com",
+      "rationale": "Confirms federal judge rejected a long-term ban on taxpayer-funded Trump ads. The event\u2014public funds spent on pro-Trump communications\u2014has occurred. The rejection of a ban means the ads continue with taxpayer dollars. Severity remains 2 because judicial processes are functioning and ongoing legal challenges exist.",
+      "severity": 2
+    },
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT25xa2Rnck1FV0xOSE1iRndGaHJ6U04wTnJTQnJTbGZjWi1Jc25tNHRoTjIxSDh6UENfS2ZZSVN6V3h6cExtWXBJbUNKd0FSakNPT2FPLWhyUVBRYlctR0N5eWJqLUpaaVJUWXA3OWpYdU40RV9IOUhORng0TjE3VEV3UVgwZl9FVmdVWjNWSlhEQlhVTUVUV01ZZ1d5UUxRLXdJUlNmT2lIbXBx?oc=5": {
       "actor": "Trump administration",
       "confidence": 0.82,
@@ -15648,6 +15818,16 @@
       "matches_signal": true,
       "primary_source_url": "https://www.wsjournal.com",
       "rationale": "Trump stated he does not plan to reimburse the government for taxpayer-funded ads. This confirms that taxpayer funds were spent on ads (presumed to be campaign-style/partisan based on context of reimbursement discussion) and that the administration has not voluntarily repaid them. This is direct evidence of the signal: public appropriated money used for political promotion without reimbursement, and no plan to remedy it.",
+      "severity": 2
+    },
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3ZCZTZUenJxTDMzUTk4ZkJ6V1BsdTA2NUFOM3JTbzBLLWk0aURKYmhnYzZBUmQwZm5hV1RrdjFWTWFrQkVVb0FGa0RfMnFVakMzWldpa25jYmU1dGVqMnRfQ0N1YThVVW1Ub0hmcW05TkdBMk1LSVRUOFFRdzBOV29zdGxsZl9GZElJVEY5VGV3dWJUZ25aTW9sRHpaME9mYldyTGc1QW10VFljZS1F?oc=5": {
+      "actor": "Trump Administration",
+      "confidence": 0.68,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": true,
+      "primary_source_url": "https://www.nacionale.org",
+      "rationale": "Report explicitly states 'no court order now stops' the taxpayer-funded ads from airing, confirming that the event (use of public funds for pro-Trump promotion) is occurring. The fact that lawsuits continue indicates legal challenges remain possible but have not yet succeeded in halting the spend. The ads are running with taxpayer money, matching the signal.",
       "severity": 2
     },
     "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR2wteDdsUkQtaDBWVFhBb3FLRk4wWl9ienk2Yl9MWnhxUkdtN0ZSMl9pZ0lFZVFaX0s2ZHo1UUc1UlAtZVMxdmQ1NlREOU9BLTIxWHBaNlhNMnZQcEJpM2p0MEFRaUtRY1B4XzBVZVdLWnVvdlQ4Tk1IRW9hay1WeDJjcDRPRGgycUlHZEstS1JwUmNHbzd2ZmUyRkJST3l4WU5RSzFlR3BhUG9JM01V?oc=5": {
@@ -16132,6 +16312,16 @@
     }
   },
   "retaliation_architecture": {
+    "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbXY2akhIYTdNX2M3Ulk1d0N0TDBfM0lfRTNaSjUxUFp4Y2l1UUVITXF6cmRQakx4dlhTWVJaYjNNR3JoNHZTZWVkcU5TaEwtUEZRUnhTd2dzOVY0VURfNEpQOFBJNVh4OUxIdHN6SkxWdVFNZ2ZrMnNYWlBfd1FpZzN5SV9LMlcxV0hpRw?oc=5": {
+      "actor": "Trump administration",
+      "confidence": 0.95,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "The item is a headline from Yahoo News Singapore without substantive content provided. It references a 'retribution campaign' but offers no specific detail about any formal institutional action, official directive, or verifiable occurrence. The framing ('falling short') suggests analysis or commentary rather than documentation of an accomplished action. No U.S. government document, court order, official policy, or confirmed event is described. Without the article text, this cannot be scored as evidence of a formal institutional structure created to target political opponents. This is insufficient to establish that a real retaliation architecture event occurred.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5": {
       "actor": "Unknown",
       "confidence": 0.95,
@@ -17786,6 +17976,56 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/11/25/2026-24006/commission-information-collection-activities-ferc-549c-comment-request-extension",
       "rationale": "This is a routine Paperwork Reduction Act notice soliciting public comment on an information collection renewal. It is a standard procedural notice for an existing, approved collection (OMB Control No. 1902-0174). The document extends an existing approved collection and requests comment\u2014it is a proposal/request, not an action that changes agency authority, removes leadership, alters methodology outside normal channels, or withholds data. No political interference with statistical integrity is evident.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/27/2026-24049/notice-of-inflation-adjustments-for-civil-money-penalties": {
+      "actor": "Federal Deposit Insurance Corporation",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/27/2026-24049/notice-of-inflation-adjustments-for-civil-money-penalties",
+      "rationale": "This is a routine notice of inflation adjustments to civil penalty amounts as required by the Federal Civil Penalties Inflation Adjustment Act. The FDIC is a banking regulator, not a statistical agency. The notice reports inflation-adjusted penalty caps but does not interfere with BLS, BEA, or Census Bureau integrity, leadership, methodology, or data release.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/27/2026-24051/cost-of-living-adjustment-to-public-broadcasters-compulsory-license-royalty-rate": {
+      "actor": "Library of Congress, Copyright Royalty Board",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/27/2026-24051/cost-of-living-adjustment-to-public-broadcasters-compulsory-license-royalty-rate",
+      "rationale": "This is a routine cost-of-living adjustment for educational station royalty rates under statutory formula. The Copyright Royalty Board is not a statistical agency. No relevance to federal statistical agency integrity, leadership, methodology, or data release practices.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/27/2026-24124/cost-of-living-adjustment-to-royalty-rates-and-terms-for-making-and-distributing-phonorecords": {
+      "actor": "Library of Congress, Copyright Royalty Board",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/27/2026-24124/cost-of-living-adjustment-to-royalty-rates-and-terms-for-making-and-distributing-phonorecords",
+      "rationale": "This is a routine cost-of-living adjustment notice for phonorecord royalty rates under a statutory formula. The Copyright Royalty Board is not a statistical agency. No connection to BLS, BEA, Census Bureau, or statistical agency integrity.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/27/2026-24125/cost-of-living-adjustment-to-satellite-carrier-compulsory-license-royalty-rates": {
+      "actor": "Library of Congress, Copyright Royalty Board",
+      "confidence": 0.99,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/27/2026-24125/cost-of-living-adjustment-to-satellite-carrier-compulsory-license-royalty-rates",
+      "rationale": "This is a routine cost-of-living adjustment notice by the Copyright Royalty Judges applying a standard statutory formula (3.9% based on CPI change). The Copyright Royalty Board is not a statistical agency under the signal definition. This is unrelated to federal statistical agencies, methodology integrity, or data release practices.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/27/2026-24159/agency-information-collection-activities-proposed-collection-comment-request-extension": {
+      "actor": "Federal Trade Commission",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/27/2026-24159/agency-information-collection-activities-proposed-collection-comment-request-extension",
+      "rationale": "This is a routine PRA notice seeking public comment on extension of an existing information collection requirement. It is a proposal under the Paperwork Reduction Act's standard notice-and-comment process, not an action that removes or alters statistical agency leadership, methodology, or data release practices. The FTC is not a statistical agency under the signal definition (BLS, BEA, Census Bureau). No interference with statistical integrity or data release has occurred.",
       "severity": 0
     }
   }
