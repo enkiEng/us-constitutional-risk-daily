@@ -6208,6 +6208,16 @@
       "rationale": "Item provides only a headline stub ('Breaking News - The New Republic') with no substantive content describing any actual event. There is no detail about judge intimidation, official pressure, or any verifiable action. This appears to be a metadata artifact or incomplete news reference rather than a reportable incident. Cannot assess whether any real occurrence took place without actual content.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PSXdhOTYxMjd3alVRYjVJck9GanNEZ0ZQUTlZbzRGZG5SZi1UNzFpeG1xd2c2cjRLdm14TWVMS0JrcjVCMGxDY0JOc0N2VlBfTm0zeUh1MTNkTlJOdkY40gFyQVVfeXFMTlFGem9VYzdhWVhTcjI0cTFPVS1yTVl2MElfT1UzOFpIaHhOYWp3OWxmVjk5NnRxR3J3WFVUdUZXVzZ4MEpDdzByTkVEU0szN3dKSFpDTDVOY2R3dTlnS3M1SmhndFdxajlqeFBRR1dyZ2x3?oc=5": {
+      "actor": "Unknown Trump official",
+      "confidence": 0.92,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "A call for impeachment by an expert commentator is opinion/analysis about alleged violations, not evidence of an actual judge intimidation campaign. The item does not describe sustained official pressure to punish judges for adverse rulings. This is commentary on executive conduct, not proof that judges were intimidated.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SaEE5U2lnMl9rSFczZWVoVS1qdFNrQ3ljSC1RQnAxNVNGUnk3Nm1WMHYzNHZuNWpSZHh4dDlVWEN2YUk4Nm51N2VGSDhYNjE4RGtYQ09HU3V1U1p0?oc=5": {
       "actor": "N/A",
       "confidence": 0.99,
@@ -6306,6 +6316,16 @@
       "matches_signal": false,
       "primary_source_url": "https://substack.com",
       "rationale": "The item is a Substack article discussing civil tort weaponization as a general topic, not documenting a specific, verified instance of judge intimidation. The signal requires sustained official pressure to punish judges for adverse rulings. This appears to be opinion/analysis content about civil litigation tactics broadly, not evidence of an actual official intimidation campaign targeting judges. No specific judicial case, official action, or named perpetrator is identified. The content is generic commentary rather than reporting a real constitutional-stress event.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfdTBVRnRqa3dTZ2Q4ZDcwWUdtR2xUMGtEN3gxWEpOTldydGNxd0NqSmV2clJLTDBWM1g4elpreTREQjhEc3FUVGNwSDJocm9IdF9VRmlzcENaNVl5S2ZvTGJhQnhEQzZISXVkY2FmQ2JHQkFMbTVDcXY1UUZzQ0k?oc=5": {
+      "actor": "Federal judge",
+      "confidence": 0.95,
+      "event_occurred": true,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "A judge blocking an executive action against a media company is ordinary judicial review, not evidence of judge intimidation. This is a judge ruling against government pressure, which is the opposite of the signal. No intimidation of judges occurred.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOHlhbGQ1S3dHMGlsZ3FFQi1kbmM4bkFQSjBlcEhaSl9VY1Izbld5QmtxLVRvVzNQbmxlRE0tMFZfWE5sRGdUbzl5UW5CdXo3eWplYWMwdHFxRkdjQlpCX0REakJpcWNZNEtzQkRFWkNBOE5yZm5zOG5uY3UwbjJTa1NyTQ?oc=5": {
@@ -6416,6 +6436,16 @@
       "matches_signal": false,
       "primary_source_url": "https://medium.com/@chrisarmitage",
       "rationale": "This is a Medium opinion/analysis article about a hypothetical or proposed action (impeaching a judge for organizational membership). The title and source indicate editorial commentary, not a record of an actual impeachment proceeding, sustained campaign, or official pressure that has verifiably occurred. Without confirmation that an actual impeachment was filed, pursued, or that sustained official pressure to punish judges for adverse rulings took place, this remains speculative analysis. No verifiable constitutional-stress event is documented here.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxOSUlRbGl5b0V0cW8xSXVlVEhnTXJDcW1yNnhwSl91SGxGMGlRcjkzUEtLLTBBN215bUdzU21YZkFSOXVJdV9wTDY2dFpVbVB3YjRQNmpiNk9KQXpGQ3lZMDZpMldkNWtCenFZal8xM00xR05VRmcxWURsTXp0Y0ZzTG1SakM0eGRCeURrYVhlLUZGQ3Zrd1Y3UU9oOW9kUQ?oc=5": {
+      "actor": "Brendan Carr",
+      "confidence": 0.93,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "Calls for impeachment of an official over alleged First Amendment violations are political opinion and commentary, not evidence of a judge intimidation campaign. The headline does not describe pressure on judges; it describes allegations against an executive official. No campaign to punish judges for adverse rulings is documented.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVTFpYWRMT001NnpTbzE2T1FJZno4bG5PZEQ5SWJ3VDBmRW5GZFM5bVp3U2JTRk1ndkxxRlZiTjJqMFRKR3VHTEdOeXRhNjk3S3Yxczgtb2tkOTdjRlNFQW4tdW5YdWlraWxSaE5MWXVoN2EtS1NBd095RDY0NERhcWVZSDRFQ19vc1Rua3VGTldCM0NKRFFSR0Q2SGdiOVlLeXdBSA?oc=5": {
@@ -8492,6 +8522,16 @@
       "matches_signal": false,
       "primary_source_url": "https://www.columbiaone.com",
       "rationale": "Colombian domestic political dispute over citizenship of a Colombian official. Not a U.S. domestic constitutional event. Severity 0.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcnFYZUlFZG0yREt2N1BuWkxsbWlkaTlNcVpzUUhGcnQtbVVURWFFSnhxT2EwWVlBeHhDLTBXb0tqNXk1bXZhcUpWdDIzZ0tsRWQwMENmN01pV2JDUENGZXZBWFhERmRqdzhUeldFam5IMW9Ta0R5NmR0UUV2elFDcEFHOHBLNlhHUVFMR1c0RGNFTEh0ZVpZTmVZOHRuLThITV8waG8yMW3SAa4BQVVfeXFMTTUwZl80MTBuZEl0Tmo1dHBYbkc4X2pTQ05fUWI5VEtkVEcxWnYxS3RBSXdnQzROZE4wR3BtYVdUOWhqbVhWRW9iLWNqWGtRZTFhQVJoMi12bllqSnNWVld4SHctWk1ydnpTdGpWc1c0QjRMM1FranFhekpjTm11TmlNUVI1ZWtpNXl2V2ozS1VIY0RVNHdZUEpYVDhkVHNERVdUMlFEb0pGUEdtV0hR?oc=5": {
+      "actor": "Democratic Party",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://abcnews.go.com",
+      "rationale": "This is a news report about Democratic legislative agenda and planned investigations following election results. It describes proposed legislative actions and investigative priorities, not evidence of executive bypass of statutory authority or unilateral executive action circumventing the legislative process. Election outcomes and legislative agendas are routine constitutional processes, not stress signals. No shift from statute to executive action is alleged or demonstrated.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc2dtS3ZZZkI4cFhJb0Vta0Zjek5nVUw2UDlwZjJVYk5QZlY0dktIQm5xQWFkYU5tYzVtYjJmcW02QzVaczJzOGhFd2lhSkxIYngwWnA4enptVTVxMmdwby1ybElpOEUtZkZHNUVyNUhTU01qS29PdnFKYlJ3N0tmOEo4al9ONHRtNkc3UndLZjBUZUg4RGJsWXgzS2p2S0pObGVPLUdEWU9vTWvSAbABQVVfeXFMTWxROVVPNDVsOUFqREtVVmd5UFdkRl9fWlFkb0VCUlZReHVkMW1rOEZLeHkwLUZBSjg3NElKcEw3U1RWejh3TkpabDRDVXV3YmhKLVNnR3JkaTF5Vlp5X3RhRFpoVE9WQ2hhMm1SNExhcTJ1cXJlLVJnb3lWNUVoTTFhdVFqcnFTam1VeW1kMFlsal9xbjVGWFcxWk9BbUpsREFnZnVoWUxIYUJ0YjZPWFA?oc=5": {
@@ -11712,6 +11752,16 @@
       "rationale": "This article concerns Tanzania, not the United States. The signal is restricted to U.S. constitutional-risk assessment. Non-U.S. events are not probative of domestic opposition ballot exclusion.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeHlIajlhaGwzZnpWRXE5bVJFVnVFbm5PMkNvOTI2ZVpFRmR6b3VKdjRpdE5Jc0d2cHA3b2lJS0tBY0w0SUd5d1VxZkNNTFN3S3BhVzF0dURRYnBjVGhvSXY1MEhJcENFVEdVNzVCdzI1MEt2NnVDUUxSejM5aXQ0QXlKSU9RWjJ2VEhzNUNkZTJ6SGVicXBuVkdHcWFpV08zMVFOWEFXa2piU3BwUE1F?oc=5": {
+      "actor": "unknown",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "https://www.bangkokpost.com",
+      "rationale": "This item originates from the Bangkok Post and concerns Social Security poll results and a disqualification challenge in Thailand, not the United States. It is a non-U.S. event and therefore not evidence of opposition ballot exclusion in the American constitutional system.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTVZHVjhVTy1CbERuZjZKdDBPNlRuZDdobE53amN6XzczcDFxdFBpZXNaNnJIRUNUNzNkVHlpNk5JVmxEVkREcE04aW1lVWwxQUZMa2QxNXpqOUF1MkdWRGk3MmN6ZGpGcERhdG1YeGZTNTJIWW10LWFhUzRtMUtUMWROZEJ6RkhnUFY5eHdtNjdobGdSQ0FCSEt5VUpiclhSdU82ZXloOXNMYUpVN1JpUw?oc=5": {
       "actor": "Gambian government (alleged)",
       "confidence": 0.98,
@@ -14330,6 +14380,16 @@
       "rationale": "Wisconsin Democrats filing lawsuit over alleged taxpayer-funded pro-Trump ads. State-level legal challenge adds geographic and jurisdictional confirmation of the underlying conduct. Demonstrates the pattern is not isolated but systemic.",
       "severity": 2
     },
+    "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbTlyVE04dzRNU1hpcUZyQndJX0Rvb0pNOHR0SXNXbVRHNlJCQy04UENFcjAxRTdJNE5aMkx1bEswNzhielVZWVhzaHktb3ZOY1BXbTc5SHRqakpaY3QySm9fQ1VBLXFMTy0wRkd5U3JtVUFybDhzSFEyN3RkWUpWaEJSdE5zT3hpNF95cloycWZmeUhYaHF5TnB2TC1WeVJWZGRoUGtST0tMYkdPM2ItVHkzeDVnMG0zMF90d1hiU3pYbHN1Wm55OEsxMzhCQkkydHlhN2wwbmJMSU9SWnhyNzh3X20?oc=5": {
+      "actor": "NBC",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports criticism of NBC's editorial decision to air an advertisement. An ad placement by a private broadcaster is a commercial/editorial decision, not public-funds spending. The signal concerns misuse of appropriated government money for partisan promotion. No government appropriation, no government agency spending taxpayer funds, and no campaign-style government communications are present. This is private media conduct subject to private editorial judgment, not government expenditure of public funds.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONk9EZVNFUWFxZ1o2WHN2NjVEblRGOHlmQk5hSnFEUThtMXhHbVdyYThuTi0zemJHaFpaOUNfbm0wN0tsTHcwRWw5c2wyallLZWk4Z0xBV3lvUEFIeE5LT1lFUTFsU1V5ZlVyYnNUUzJjVTBuUHBTQjJvWGt1UkpfVlQxQTYzcXdTTHk5bElQTzJpQ0JDTV9mcG16Nk1KaXlUVnZkeHFVOVRpVTlzbjE4aFg0cThEZUpNZnV2UDNscmlpV0w2MWFMTzRKY2dvQWxPcWlrTWYyZXZlcno3eGQ0YUFpYU1sdw?oc=5": {
       "actor": "Trump administration / Public Citizen advocacy response",
       "confidence": 0.67,
@@ -14528,6 +14588,16 @@
       "matches_signal": false,
       "primary_source_url": "",
       "rationale": "This is analysis/commentary by Sharon McMahon examining presidential power overreach in general terms ('testing the limits'). Without specific facts about actual appropriations or ad campaigns detailed in the title, this is punditry about risk rather than evidence that a specific misappropriation event occurred. The headline does not identify a concrete occurrence.",
+      "severity": 0
+    },
+    "https://news.google.com/rss/articles/CBMiakFVX3lxTE91c05UTTNWdFhHMFhmMkZyVWkySTFFTURZUnRQSERONG54VEFjenFhcmhZMmVzR1p5QXE1Q1FzZzVmV2hGRWYwZzhPZWxZaEZNRTJicGk0LWdvX2pmVnBQamVRQ1B4NFlVelE?oc=5": {
+      "actor": "NBC",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item reports that an advertisement aired on NBC and that Jewish groups demanded an explanation. Again, this is a private broadcaster's editorial/commercial decision, not government spending of public funds. The signal requires evidence that appropriated public money was spent on communications promoting an officeholder or party. No government agency, appropriation, or public-funds expenditure is documented here. This is private media conduct, not constitutional-risk government spending.",
       "severity": 0
     },
     "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CZmZ4U3JfSk9QT0JlZ1dvbXBsaTl4bl93M1JRQ2laTnhLVURlanhGVFdNb1h4Z0tsLW1hdVZZX0ZWN0hseGhiTERjYi1feGZTLUVrNEZ4Mk1CZmZWTWkyNUVmeHJiQUR2Yi13TDlCTdIBdEFVX3lxTE1HQlRwMGhPd3NzZW1qOTRDUXd1ZU5vNU5vcTVqSXZZbHFNcnpKSVBNaVA3VDdXczJzTTBQYUZBYUwzT19wV3o3cUhHbVRQZ29tRC1pTGxBaE9uLTQzeHI5dWVYaEFYTTFtVmt1Yk9mZDBHRThx?oc=5": {
@@ -16322,6 +16392,16 @@
       "rationale": "The item is a headline from Yahoo News Singapore without substantive content provided. It references a 'retribution campaign' but offers no specific detail about any formal institutional action, official directive, or verifiable occurrence. The framing ('falling short') suggests analysis or commentary rather than documentation of an accomplished action. No U.S. government document, court order, official policy, or confirmed event is described. Without the article text, this cannot be scored as evidence of a formal institutional structure created to target political opponents. This is insufficient to establish that a real retaliation architecture event occurred.",
       "severity": 0
     },
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT2VIalJGY0c1YTAxeEl5a0ZDcDN4SEMwOVZRcnZyWGFGY3FDMzFiVTVhZXVzWDlwS0VQX1hIaW5ESUc2SWMycGw1UmRrVEFjYlMwN1F4cFFfYlZ0RzJjQThRMWpBVTctLTAzZWVyVW9oSTMzTC1RV0F6U1VRc1VCRm5ER21pRGZMb3lRbVJoWko4empZd0hxNl8yYUhfMktxYl8wTU5LWkJHdzFs?oc=5": {
+      "actor": "N/A",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": false,
+      "matches_signal": false,
+      "primary_source_url": "",
+      "rationale": "This item is sourced from Egypt Independent and concerns events outside the United States. The signal concerns formal institutions created to target political opponents within the U.S. domestic context. Non-U.S. events do not constitute evidence of a U.S. constitutional-risk signal, regardless of content. Additionally, the headline suggests commentary/analysis about a campaign rather than documentation of a formal institutional mechanism. No U.S. domestic constitutional event is evidenced here.",
+      "severity": 0
+    },
     "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDV4U3lXWlRPTHY5M1ljNzBTUEdlZEx2R2c5N1VSQ0NSLXAxbUp5bW1PREhFV2YtX3VaX0JnTWQteGJHazFYWE9vdXp2ZDVrTkdmREhLVWpkVXUtN0tQQUZfdVNFYUFKWmxWdEZ4a3NfelpMS2lNWjc2V3hpcWdoeldIOHFTRkNRU2hmdV9yNmFVd0NBNmt6U0JiZVU0NUJEeHpkLXo4QThUaWlk0gGyAUFVX3lxTE9nUFNSZ0VyeGtKYkluY181dEdkR3lvdlZNck83dWlhbXAyMzA4aTI3Um8tY01RdkVGWkVDLVhuTUg2b2dDXy1jbFpHMjBnLWZBYm0yV3lLeG9ZSWRUOG56U24xd05NTlBEM2JhMktaaFR4a0VacURFckVIOTFqT2dlNGdKa2Z5ZC1MN2FNUFdIdWNvTWxabG9lMVlmY1owNjF6NlM5VGU3NDRMT29zdUJCcXc?oc=5": {
       "actor": "Unknown",
       "confidence": 0.95,
@@ -18026,6 +18106,46 @@
       "matches_signal": false,
       "primary_source_url": "https://www.federalregister.gov/documents/2026/11/27/2026-24159/agency-information-collection-activities-proposed-collection-comment-request-extension",
       "rationale": "This is a routine PRA notice seeking public comment on extension of an existing information collection requirement. It is a proposal under the Paperwork Reduction Act's standard notice-and-comment process, not an action that removes or alters statistical agency leadership, methodology, or data release practices. The FTC is not a statistical agency under the signal definition (BLS, BEA, Census Bureau). No interference with statistical integrity or data release has occurred.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/30/2026-24209/data-reporting-requirements-for-certain-event-contracts": {
+      "actor": "Commodity Futures Trading Commission",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/30/2026-24209/data-reporting-requirements-for-certain-event-contracts",
+      "rationale": "Final rule establishing data reporting requirements for event contracts under CFTC authority. While this addresses data reporting, the CFTC is a financial regulator, not a statistical agency producing official economic data. This does not constitute interference with BLS, BEA, or Census Bureau integrity or operations.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/30/2026-24344/appraisals-for-higher-priced-mortgage-loans-exemption-threshold": {
+      "actor": "Treasury Department, Comptroller of the Currency, Federal Reserve System, Consumer Financial Protection Bureau",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/30/2026-24344/appraisals-for-higher-priced-mortgage-loans-exemption-threshold",
+      "rationale": "Routine final rule amending interpretations for mortgage appraisal regulations under TILA. This is standard regulatory rulemaking by financial regulators, not an action targeting BLS, BEA, or Census Bureau statistical integrity.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/30/2026-24345/consumer-leasing-regulation-m": {
+      "actor": "Federal Reserve System, Consumer Financial Protection Bureau",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/30/2026-24345/consumer-leasing-regulation-m",
+      "rationale": "Routine final rule amending interpretations of consumer leasing regulations. This is normal regulatory activity by financial regulators, not interference with statistical agencies or their data integrity. Outside signal scope.",
+      "severity": 0
+    },
+    "https://www.federalregister.gov/documents/2026/11/30/2026-24346/truth-in-lending-regulation-z": {
+      "actor": "Federal Reserve System, Consumer Financial Protection Bureau",
+      "confidence": 0.98,
+      "event_occurred": false,
+      "is_us_domestic": true,
+      "matches_signal": false,
+      "primary_source_url": "https://www.federalregister.gov/documents/2026/11/30/2026-24346/truth-in-lending-regulation-z",
+      "rationale": "This is a routine final rule amending interpretations of TILA regulations. It represents normal rulemaking within established authority, not political interference with statistical agency integrity. The Federal Reserve and CFPB are financial regulators, not statistical agencies (BLS, BEA, Census). This falls outside the signal scope entirely.",
       "severity": 0
     }
   }
